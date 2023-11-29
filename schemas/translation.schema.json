@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://linku.la/sona/schemas/translation.schema.json",
+  "title": "sona Translation file",
+  "description": "Localized metadata for a Toki Pona word",
+  "type": "object",
+  "properties": {
+    "def": {
+      "description": "The definition of the word",
+      "type": "string"
+    },
+    "commentary": {
+      "description": "Extra information regarding the word",
+      "type": "string"
+    },
+    "sitelen_pona_etymology": {
+      "description": "The etymology of the word's sitelen pona glyph",
+      "type": "string"
+    }
+  }
+}
