@@ -1,0 +1,1294 @@
+[a]
+def = "(強調する、感情をこめる、確認の意をあらわす)"
+commentary = "In common usage (both before and after pu), \"a\" and \"kin\" are separate words, each with their own meaning. In pu, they are considered synonyms."
+sitelen_pona_etymology = "exclamation radical + Latin lowercase letter A; radical from exclamation point (!), without the full stop at the bottom. compare o"
+
+[aka]
+def = "十字形、交叉、重なり合う [natu の別体]"
+commentary = "This word is deprecated by the creator, replaced by \"natu\"."
+sitelen_pona_etymology = ""
+
+[akesi]
+def = "かわいくない動物 (この語義は現在では廃れる); 爬虫類、両棲類"
+commentary = "akesi used to mean \"non-cute animal,\" and is defined this way in pu, but this definition has fallen out of use."
+sitelen_pona_etymology = "animal radical; pictogram of a lizard. radical represents eyes"
+
+[ako]
+def = "(一般的な感嘆詞。意味は文脈に依存)"
+commentary = "Virtually unknown outside the Korean toki pona community."
+sitelen_pona_etymology = "exclamation radical + Hangul syllable 아 (a); radical from exclamation point (!), without the full stop at the bottom. compare a, o"
+
+[ala]
+def = "存在しない、～でない、零; [~ ala ~] (肯定／否定を問う疑問文をつくる); 無"
+commentary = ""
+sitelen_pona_etymology = "X mark, a crosslinguistic symbol for negation"
+
+[alasa]
+def = "狩る、探す、得ようとする | ALT (pv.) ～してみる、試す"
+commentary = "In some communities, the usage of \"alasa\" as a preverb meaning \"try to\" is equally or even more common than \"lukin\". In pu, only \"lukin\"/\"oko\" has this meaning."
+sitelen_pona_etymology = "pictogram of a bow and an arrow"
+
+[ale]
+def = "全部の; 全体の、あらゆる、無数の、大量の; すべて、人生、宇宙; 百"
+commentary = "\"ali\" is an alternative to \"ale\", coined in a poll in 2002 in order to avoid confusion with \"ala\". However, the usage of \"ale\" over \"ali\" remains more common.\nThe majority of speakers report not understanding the \"abundant, bountiful, plentiful\" meaning, at least out of context.\n\"20, 120\" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."
+sitelen_pona_etymology = "infinity symbol (∞)"
+
+[alente]
+def = "相対的使用率によって重みづけした既存のトキポナ単語で表現できる概念全体から漏れた、人間のもつあらゆる概念の集合"
+commentary = "Coined humorously as the \"final nimisin\" - any newer word would semantically be included in alente, so it can be refuted for being \"alente but even nicher\"."
+sitelen_pona_etymology = ""
+
+[ali]
+def = "[ale の別体]"
+commentary = "\"ali\" is an alternative to \"ale\", coined in a poll in 2002 in order to avoid confusion with \"ala\". However, the usage of \"ale\" over \"ali\" remains more common. Generally not considered a word in its own right."
+sitelen_pona_etymology = "infinity symbol (∞)"
+
+[alu]
+def = "(主文と条件節の間におく)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[anpa]
+def = "下る、降りる、頭を下げる、謙虚な、卑しい、従属的な | ALT 底、下部、下、下方、床(ゆか); 低い、下位の、底の"
+commentary = "In common usage (both before and after pu), \"anpa\" has the meaning of \"place that is down\". In pu, \"noka\" has that meaning instead."
+sitelen_pona_etymology = "location radical + \"container\"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol \"below\""
+
+[ante]
+def = "異なる、別の、代替の、ほかの、替える"
+commentary = ""
+sitelen_pona_etymology = "perhaps alteration from sama, or a combination of sama and ala. perhaps an ideogram representing a diversion of two lines"
+
+[anu]
+def = "～または～ | ALT 選択する、決める"
+commentary = "The usage of \"anu\" as a content word meaning \"choose\" remains controversial."
+sitelen_pona_etymology = "perhaps from mathematical symbol \"or\" (∨)"
+
+[apeja]
+def = "恥、罪悪感、忌避、汚名、不名誉; 責める、糾弾する、暴露する、辱める、困らせる"
+commentary = "According to jan Sonja, \"apeja\" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been \"just an experimental idea in a forum post\"."
+sitelen_pona_etymology = ""
+
+[awase]
+def = "ぶつかる、叩く、衝撃を与える"
+commentary = "jan Lenoka further elaborated the semantics to imply \"to bump into, to make contact with\"."
+sitelen_pona_etymology = ""
+
+[awen]
+def = "持続する、保護された、安全な、保持する、待機する、とどまる; (pv.) ～し続ける、～のままにする"
+commentary = ""
+sitelen_pona_etymology = "motion radical; legs facing against each other, implying standing"
+
+[e]
+def = "(直接目的語の前におく)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[eki]
+def = "十字形、交叉、重なり合う [natu の別体]"
+commentary = "It is recommended to use \"natu\" instead."
+sitelen_pona_etymology = ""
+
+[eliki]
+def = "試練、苦難、ほろ苦い経験"
+commentary = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
+sitelen_pona_etymology = ""
+
+[en]
+def = "(複数の主語を並べるとき、間におく)"
+commentary = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
+sitelen_pona_etymology = "from plus sign (+); compare blissymbol “and”."
+
+[enko]
+def = "(tenpo の時間的な意味と対等な、空間的なもの) 空間、場所、距離、大きさ (長さ、幅、高さ、深さ、面積、体積)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[epiku]
+def = "すごい、すてき、かっこいい、すばらしい"
+commentary = ""
+sitelen_pona_etymology = "pona with emitters; [alternate] rotated ni"
+
+[esun]
+def = "市場、店、売買、取引"
+commentary = "According to jan Sonja, \"esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa\"."
+sitelen_pona_etymology = "not from a currency symbol (sonja confirmed; said “i think that one is from Mikmaq” but couldn't find a mikmaq symbol similar to it)."
+
+[ete]
+def = "～の向こう、～を越えた、～の外、～を上回る"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[ewe]
+def = "石、砂利、岩、礫、熔岩、マグマ"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[i]
+def = "彼、彼女、彼ら、それ、それら [ona の別体]"
+commentary = "\"i\" was proposed as a replacement for \"iki\" in a poll in 2002. However, \"i\" failed to get enough votes. \"iki\" was instead replaced by \"ona\"."
+sitelen_pona_etymology = ""
+
+[ijo]
+def = "もの、事象、物体、ものごと、なにか"
+commentary = ""
+sitelen_pona_etymology = "a circle, for a general object"
+
+[ike]
+def = "悪い、まちがった、不必要な、問題のある、酷い | ALT 複雑な、困難な"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a frowning mouth. compare pona"
+
+[iki]
+def = "彼、彼女、彼ら、それ、それら [ona の別体]"
+commentary = "In a poll in 2002, \"iki\" was deemed too similar to \"ike\" and replaced by \"ona\"."
+sitelen_pona_etymology = ""
+
+[ilo]
+def = "道具、設備、機械、装置"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a hammer"
+
+[insa]
+def = "中心、内部、中間、内容; 内臓、腹"
+commentary = ""
+sitelen_pona_etymology = "location radical + “container”; compare blissymbol “in”"
+
+[ipi]
+def = "彼、彼女、彼ら、それ、それら [ona の別体]"
+commentary = "\"ipi\" was proposed as a replacement for \"iki\" in a poll in 2002. However, \"ipi\" failed to get enough votes. \"iki\" was instead replaced by \"ona\"."
+sitelen_pona_etymology = ""
+
+[isipin]
+def = "考える、想像する、信じる、思い出す; 考え、アイディア"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[itomi]
+def = "人の不幸は蜜の味、間接的な侮辱や無礼、陰"
+commentary = "Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where \"hit or miss\" was a prominent lyric. Sources disagree on who coined the word."
+sitelen_pona_etymology = ""
+
+[jaki]
+def = "不快な、汚れた、有毒の、不潔な、卑猥な、病的な"
+commentary = ""
+sitelen_pona_etymology = "a scribble"
+
+[jaku]
+def = "百"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[jalan]
+def = "足 [noka の別体]"
+commentary = "In a poll in 2002, \"jalan\" was proposed as a replacement for \"noka\". However, \"jalan\" failed to get enough votes."
+sitelen_pona_etymology = ""
+
+[jami]
+def = "おいしい、前向きな知覚体験を誘発・刺戟する"
+commentary = "Often used for \"stim\"."
+sitelen_pona_etymology = ""
+
+[jan]
+def = "人、人物、だれか"
+commentary = "There are two sides to the concept, \"sentient entity\" and \"homo sapiens\", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial."
+sitelen_pona_etymology = "head radical; pictogram of a person showing the shoulders"
+
+[jans]
+def = "Discordサーヴァー「ma pona」の初期メンバーの特定グループ"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[jasima]
+def = "反射する、反響する、映す、相対する、対極的な"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[je]
+def = "[感嘆詞] (興奮をあらわす)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[jelo]
+def = "黄色の、黄ばんだ"
+commentary = "Some extend \"jelo\" to include lime green, but this usage is uncommon."
+sitelen_pona_etymology = "color radical + suno"
+
+[jo]
+def = "持つ、有する、含む、携帯する"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a person pointing at themself or holding something"
+
+[jonke]
+def = "ガチョウ、ガチョウの鳴き声"
+commentary = "Coined in reference to the Untitled Goose Game fandom."
+sitelen_pona_etymology = ""
+
+[ju]
+def = "(ソニャ・ラング氏の今後の利用のため確保される単語)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[jule]
+def = "揺れる、振動する、震える、ふらふらする、わななく; ぶらぶらする、揺れ動く; 波、潮"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[jume]
+def = "夢"
+commentary = "Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was \"fantasy\" or \"unreality\", without a negative connotation."
+sitelen_pona_etymology = ""
+
+[kala]
+def = "魚、水棲生物、海洋生物"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a fish"
+
+[kalama]
+def = "音をたてる; 声を上げる、朗唱する、音声"
+commentary = ""
+sitelen_pona_etymology = "emission modifier + “mouth”"
+
+[kalamARR]
+def = "海賊の叫び声"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kalijopilale]
+def = "ナデシコ目の植物 (あらゆるサボテン、カーネーション、テンサイ、および多くの食虫植物を含む)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kama]
+def = "来る、到着する、未来の、呼ばれてきた; (pv.) ～になる、～しおおせる、～し遂げる"
+commentary = ""
+sitelen_pona_etymology = "motion radical; legs facing to the left. compare tawa and blissymbol “walk”"
+
+[kamalawala]
+def = "無法状態、叛乱、叛逆、謀反"
+commentary = "The word is from a story called \"jan pi Kamalawala\". A character's name is described as \"nimi Jan pi Kama e Lawa Ala\", and a shortened version given as \"nimi Kamalawala\". jan Kipo is responsible for it becoming a word instead of just a name."
+sitelen_pona_etymology = "circle-A, an anarchy symbol"
+
+[kan]
+def = "～とともに、～の間で、～といっしょに"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kapa]
+def = "押し出されたもの、突起、丘、山、ボタン"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kapesi]
+def = "茶色の、灰色の、暗色の"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kasi]
+def = "植物、草木; 草、葉"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a sprout"
+
+[ke]
+def = "(同意、了承をあらわす)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[ken]
+def = "～できる、～してよい、～しうる、～かもしれない; 可能な"
+commentary = ""
+sitelen_pona_etymology = "perhaps from Latin letter K"
+
+[kepeken]
+def = "～を使う、～を用いて、～によって"
+commentary = "Whether \"kepeken\" should be used with or without \"e\" in a predicative position (meaning \"to use\") remains controversial."
+sitelen_pona_etymology = "hand modifier + ilo"
+
+[kepen]
+def = "(kepeken の縮約形)"
+commentary = "coined as a shortened kepeken by jan Tomen in 2017, but really started being used in 2020"
+sitelen_pona_etymology = ""
+
+[kese]
+def = "クィア、性の多様性(LGBT+)の"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[ki]
+def = "(関係節を導く)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kijetesantakalu]
+def = "アライグマ科の動物全般 (アライグマ、ハナグマ、キンカジュー、オリンゴ、カコミスルなど) | ALT イタチ上科の動物全般 (アライグマ、イタチ、カワウソ、スカンク、レッサーパンダを含む)"
+commentary = "Coined as an April Fools joke in 2009."
+sitelen_pona_etymology = "a drawing of a raccoon with a tail"
+
+[kiki]
+def = "尖った、鋭い、かど、点、三角の"
+commentary = "The word is loaned from the 2001 Vilanyur S Ramachandran & Edward Hubbard version of Wolfgang Köhler's 1912 psycholinguistic experiment. The experiment studied sound symbolism on the words \"bouba\" and \"kiki\"."
+sitelen_pona_etymology = ""
+
+[kili]
+def = "果物、野菜、茸"
+commentary = "In post-ku 2021, metaphorical definitions for kili have been suggested, including but not limited to \"offspring\" and \"product\", and are moderately popular. It is not yet clear whether this will remain in use long-term."
+sitelen_pona_etymology = "pictogram of a fruit, perhaps an apple"
+
+[kin]
+def = "{a を参照} | ALT 確かに、じつに、～も、～もまた"
+commentary = "In common usage (both before and after pu), \"a\" and \"kin\" are separate words, each with their own meaning. In pu, they are considered synonyms.\nUnderwent significant changes in usage in 2002, alongside \"en\" and (now obsolete) \"kan\"."
+sitelen_pona_etymology = ""
+
+[kipisi]
+def = "分割する、切断する、切り取る、分離する; 鋭い"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kisa]
+def = "猫"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kiwen]
+def = "固形物、金属、岩、石、堅い"
+commentary = "Coined in a poll in 2002."
+sitelen_pona_etymology = "pictogram of a rock or a gem"
+
+[ko]
+def = "粘着物、粘土、練り物、半固体、糊、粉"
+commentary = "The \"clinging form\" definition was elaborated to mean \"a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped\"."
+sitelen_pona_etymology = "pictogram of splashed goo"
+
+[kokosila]
+def = "トキポナ的な場でトキポナ以外の言語を話す、ワニる"
+commentary = "In Esperanto, \"krokodili\" means to speak among Esperantists in a language besides Esperanto, and is an established bit of Esperanto culture."
+sitelen_pona_etymology = ""
+
+[kon]
+def = "空気、息、精神、霊; 幽事、見えざる行為者"
+commentary = ""
+sitelen_pona_etymology = "ideogram; wavy lines to indicate the fluidity of gas. compare telo"
+
+[konsi]
+def = "知らせる、おしえる"
+commentary = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
+sitelen_pona_etymology = "hand modifier + sona"
+
+[konwe]
+def = "有生性、生命、自律性; 自律的存在、生物、有機体; 生きている、有生の、動的な; 生かす、生命をもたらす"
+commentary = "Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.\nkonwe's intended meaning extends beyond just \"living\" and \"life.\" It can be used to describe rocks or rivers or other nonliving things"
+sitelen_pona_etymology = ""
+
+[kosan]
+def = "守る、保護する、防禦する、盾、防具、防備を固める"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[ku]
+def = "ソニャ・ラング氏によるトキポナ辞書に通じている"
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+sitelen_pona_etymology = ""
+
+[kule]
+def = "色、色鮮やかな、着色した、多様な | ALT 性の多様性(LGBT+)に関聯した"
+commentary = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+sitelen_pona_etymology = "color radical; perhaps the horizontal line indicates the sense of “the concept itself”. or perhaps a pictogram of light passing through a prism (color radical)"
+
+[kulijo]
+def = "[感嘆詞] (謝意、了承をあらわすくだけた表現); すてき、いいね、オーケー"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kulu]
+def = "(kulupu の縮約形); 六 (特に六進法において)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kulupu]
+def = "集まり、集団、共同体、会社、民族"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a group consisting of three members represented by circles"
+
+[kuntu]
+def = "笑う、笑み、喜劇、おかしさ"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[kute]
+def = "耳、聞く、聴く; 耳を傾ける、言うことに従う"
+commentary = ""
+sitelen_pona_etymology = "pictogram of an ear. compare blissymbol “ear”"
+
+[kutopoma]
+def = "韓国のグループチャット「kulupu pi toki pona pi ma Anku (韓国トキポナ会)」"
+commentary = "Virtually unknown outside the Korean toki pona community."
+sitelen_pona_etymology = "kulupu, with the bottom-left circle being the composite glyph for toki pona, and the bottom-right circle being a Taegeuk as on the flag of South Korea"
+
+[la]
+def = "(条件節と主文の間におく)"
+commentary = ""
+sitelen_pona_etymology = "perhaps related to blissymbol “later” and “ago”, or perhaps a parenthesis"
+
+[lanpan]
+def = "取る、摑み取る、盗む、捕らえる、手に入れる"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[lape]
+def = "眠る、寝る、休む"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a lying person"
+
+[laso]
+def = "青い、緑の"
+commentary = ""
+sitelen_pona_etymology = "color radical + kasi"
+
+[lawa]
+def = "頭、思考; 支配する、指揮する、指導する、導く、率いる、統制する、統治する"
+commentary = ""
+sitelen_pona_etymology = "head radical; perhaps the horizontal line for the same reason as in kule. alternatively, perhaps a pictogram of a person wearing a cap"
+
+[leko]
+def = "四角、ブロック、かど、階段、立方体、多面体"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[len]
+def = "布、衣服、織物; 覆い、プライヴァシー保護"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a piece of fabric"
+
+[lete]
+def = "冷たい、寒い、凍った、涼しい; 未調理の、生の"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a snowflake"
+
+[li]
+def = "(主語が mi か sina のみである場合を除き、主語と述語の間におく; 同じ主語に対して別の述語を並立する際にも用いる)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[lijokuku]
+def = "(笑いながら)同意する、「ほんとそれｗｗ」"
+commentary = "Virtually unknown outside the Korean toki pona community."
+sitelen_pona_etymology = ""
+
+[likujo]
+def = "集まり、寄せ集め、多彩な集団、採取、収穫; 七"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[lili]
+def = "小さい、ちょっとした、短い; 少ない; 些細な; 若い"
+commentary = ""
+sitelen_pona_etymology = "ideogram showing smaller size compared to suli"
+
+[linja]
+def = "長くて柔軟なもの; 紐、毛、髪、縄、糸、筋 | ALT 線、繫がり"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a string"
+
+[linluwi]
+def = "ネットワーク、インターネット、繫がり、織る、編む、織り交ぜる"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[lipu]
+def = "ぺらぺらしたもの; 本、文書、カード、紙、記録、ウェブサイト"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a sheet of paper. compare blissymbol “paper”"
+
+[lo]
+def = "(前置詞句の前におく)"
+commentary = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word."
+sitelen_pona_etymology = ""
+
+[loje]
+def = "赤い、赤みがかった"
+commentary = ""
+sitelen_pona_etymology = "color radical + “mouth”"
+
+[loka]
+def = "肢、手足"
+commentary = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+sitelen_pona_etymology = ""
+
+[lokon]
+def = "{lukin と oko の折衷}"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[lon]
+def = "～にある、～にいる、～において、現実の、真実の、存在する | ALT (肯定をあらわす返答)"
+commentary = ""
+sitelen_pona_etymology = "location radical above a line. compare blissymbol “over”"
+
+[lu]
+def = "(ソニャ・ラング氏の今後の利用のため確保される単語)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[luka]
+def = "腕、手、触覚器官; 五 | ALT 物理的に触る、触れあう、押す"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a hand"
+
+[lukin]
+def = "目; 見る、見える、調べる、観察する、読み取る、見物する; 物色する、探す; (pv.) ～してみる"
+commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning."
+sitelen_pona_etymology = "pictogram of an eye. compare blissymbol “eye”"
+
+[lupa]
+def = "孔、開口部、扉、窓"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a concave surface. compare nena"
+
+[ma]
+def = "土地、陸; 屋外、世界; 国、地域、領域; 土"
+commentary = ""
+sitelen_pona_etymology = "perhaps from modern astronomical symbol “earth” (⊕)"
+
+[majuna]
+def = "古い、老いた、昔の、古代の"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[mama]
+def = "親、祖先; 創始者、作者; 世話人、管理人"
+commentary = ""
+sitelen_pona_etymology = "head radical; perhaps the smaller circle representing the child"
+
+[mani]
+def = "お金、貨幣、財産、富; 大型の家畜"
+commentary = ""
+sitelen_pona_etymology = "a pictogram of a large domestic animal, such as a cow (sonja confirmed)"
+
+[meli]
+def = "女性、雌; 妻"
+commentary = ""
+sitelen_pona_etymology = "head radical with long hair"
+
+[melome]
+def = "女性の同性愛者"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[meso]
+def = "中間点、中間、中ぐらいの、並みの; どっちつかず、中途半端"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[mi]
+def = "わたし、われわれ"
+commentary = ""
+sitelen_pona_etymology = "perhaps a hand pointing towards the speaker. compare sina and ona"
+
+[mije]
+def = "男性、雄; 夫"
+commentary = ""
+sitelen_pona_etymology = "head radical with perhaps wide shoulders. compare jan"
+
+[mijomi]
+def = "男性の同性愛者"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[misa]
+def = "グリレス大目 (齧歯目、ウサギ目) または真無盲腸目 (ハリネズミ科、モグラ科など) の動物; ネズミ、リス、ウサギ; {~ suli} カピバラ"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[misikeke]
+def = "薬、医療"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[moku]
+def = "食べる、飲む、摂取する、食べ物、食事"
+commentary = ""
+sitelen_pona_etymology = "hand modifier + “mouth”"
+
+[moli]
+def = "死ぬ、死の、殺す"
+commentary = ""
+sitelen_pona_etymology = "head radical; a dead person, represented by the crossed eyes"
+
+[molusa]
+def = "ぬめぬめした動物 (カタツムリ、ナメクジ、海綿など)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[monsi]
+def = "後ろ、後部、背後、背中"
+commentary = ""
+sitelen_pona_etymology = "location radical + rotate “container”. compare sinpin"
+
+[monsuta]
+def = "恐れる、怖がる; 怪物、捕食者; 脅威、危険"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[mu]
+def = "(動物の鳴き声) | ALT (言葉にならない声)"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a mammal"
+
+[mulapisu]
+def = "ピザ"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[mun]
+def = "月、星、天体 | ALT 暗闇に光るもの"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a crescent moon. compare blissymbol “moon”"
+
+[musi]
+def = "楽しい、おもしろい、愉快な、ふざけた、芸術的な、遊戯、娯楽"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a smile with rosy cheeks or a lyre"
+
+[mute]
+def = "たくさんの、多い、いくつかの、もっと、とても、非常に; 量 | ALT 三以上、二十"
+commentary = ""
+sitelen_pona_etymology = "ideogram consisting of three tally marks. compare wan and tu"
+
+[n]
+def = "(思案する、熟考する、気づく、同意する、口ごもるときの声)"
+commentary = ""
+sitelen_pona_etymology = "exclamation radical with the lowercase letter “n”"
+
+[nalanja]
+def = "橙色"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[namako]
+def = "{sin を参照} | ALT 装飾、調味料、おまけ; 追加の、余分の"
+commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+sitelen_pona_etymology = ""
+
+[nanpa]
+def = "～番目の; 数、番号"
+commentary = ""
+sitelen_pona_etymology = "from number sign (#). compare blissymbol “number”"
+
+[nasa]
+def = "変な、奇妙な; 狂った; 酔った、熱狂した"
+commentary = ""
+sitelen_pona_etymology = "perhaps spiral representing “dizziness”, as can be commonly seen in Japanese manga and anime"
+
+[nasin]
+def = "道、方法、手段、習慣、方針、進路"
+commentary = ""
+sitelen_pona_etymology = "ideogram consisting of an arrow along a vertical line"
+
+[natu]
+def = "関係、相関、共通性; 交わり、結び目、連結、交叉; 重なり合う、折り重なる; 踏み越える、度を越す"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[neja]
+def = "四"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[nele]
+def = "透明なもの、プライヴァシーの欠如; 透きとおった、透明な、遮るもののない; 明白にする、透明にする、包み隠さない"
+commentary = "Meant to be antonymous to the 'cover, layer of privacy' meanings of 'len'. It can be applied both literally and metaphorically."
+sitelen_pona_etymology = ""
+
+[nena]
+def = "こぶ、丘、山、ボタン、鼻、突出部"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a convex surface. compare lupa"
+
+[ni]
+def = "これ、あれ、この、その"
+commentary = ""
+sitelen_pona_etymology = "an arrow"
+
+[nimi]
+def = "名前、言葉、単語"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a nametag or sitelen pona cartouche"
+
+[nimisin]
+def = "非公式の単語、新語、俗語、冗談語"
+commentary = "Mostly used in conversations in English. Likely was popularised by the :nimisin: emote in ma pona, which was originally used to notify Atawan (maintainer of \"nimi ale\") about newly coined words. In common speech, the meaning got extended to include most or all non-pu words, regardless if they were coined recently or not."
+sitelen_pona_etymology = ""
+
+[nja]
+def = "にゃー、猫の鳴き声"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[noka]
+def = "足、脚、移動器官; 下、下部"
+commentary = "In a 2002 poll, \"jalan\" was proposed to replace \"noka\". However, it failed to get enough votes. In pu, \"noka\" has the meaning of \"place that is down\". In common usage (both before and after pu), \"anpa\" has that meaning instead. noka had speculative and/or joking use for numbers, comparable to luka: ten, twenty, negative five."
+sitelen_pona_etymology = "pictogram of a foot with an ankle"
+
+[nu]
+def = "(ソニャ・ラング氏の今後の利用のため確保される単語)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[o]
+def = "(呼びかけの声) (述語の前に li の代りにおくことで命令文/意志文をつくる)"
+commentary = ""
+sitelen_pona_etymology = "exclamation radical + Latin lowercase letter O. compare a"
+
+[ojuta]
+def = "「ligma」という英語のミーム（「ligma ってなに？」と訊ねさせて「俺のタマを舐めろ」と返すという下品なジョーク）をトキポナに採り入れたもの"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[oke]
+def = "オーケー (同意、了承をあらわす)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[okepuma]
+def = "ベビー・ブーマー、思慮のない年長者; [そのような人の言動をあしらう「はいはい了解」のような感嘆詞]"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[oki]
+def = "オーケー (同意、了承をあらわす)"
+commentary = "Though it may have many possible origins, it was first coined in a small group chat. It is mostly used as a variant of the toki pona words \"oke\" and \"ke\""
+sitelen_pona_etymology = ""
+
+[oko]
+def = "{lukin を参照} | ALT 目、視覚の"
+commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances."
+sitelen_pona_etymology = "eye from a side"
+
+[olin]
+def = "愛する、恋する、同情する、敬愛する、愛情を示す (感情的な繫がり・絆を含意するので、単に好ましいという意味では使われない)"
+commentary = "In english, \"love\" can be used to mean \"like a lot\", but in toki pona, \"olin\" doesn't work that way. It indicates an emotional connection or bond, not preference"
+sitelen_pona_etymology = "two heart symbols (♡), perhaps to distinguish from pilin"
+
+[omekalike]
+def = "jan Usawi による楽曲の題名 (「まずい魚でも食ってろ」の意)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[omekapo]
+def = "さようなら、お元気で、またね、いい魚をお上がりなさい"
+commentary = "Coined by jan Maliku in reference to the message \"o moku e kala pona\", which jan Sonja wrote on their copy of Toki Pona: The Language of Good during a Texas meetup."
+sitelen_pona_etymology = ""
+
+[omen]
+def = "諷刺、皮肉"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[ona]
+def = "彼、彼女、彼ら、それ、それら"
+commentary = "Coined in a poll in 2002. Replaced \"iki\", which was deemed too similar to \"ike\". Other options in the poll included \"ipi\", as well as \"i\" in a previous poll."
+sitelen_pona_etymology = "perhaps a hand pointing sideways. compare mi and sina"
+
+[oni]
+def = "夢、白昼夢、創作遊び、幻視、神秘体験; 魅惑する"
+commentary = "This word is deprecated by the creator; it is considered part of the \"toki oni\" tokiponido instead.\nThe pronunciation of the second syllable was due to personal preferences of the creator, not modern Greek."
+sitelen_pona_etymology = ""
+
+[open]
+def = "始める、始まる; 開く; 開ける"
+commentary = "Some proficient speakers use open as a preverb that means \"to start,\" that goes along with the complimentary pini preverb \"to stop\""
+sitelen_pona_etymology = "perhaps a pictogram of an opened container"
+
+[owe]
+def = "オーウェル的な世界像の、全体主義の、『1984年』の独裁者・ビッグ・ブラザーに関聯した、kamalawala の対義語"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pa]
+def = "[感嘆詞] おいちょっと; 不信感、いらだち、興奮の表現"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pakala]
+def = "壊れた、傷ついた、失敗した、壊す、傷つける | ALT (「くそ！」のような罵声)"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a cracked object"
+
+[pake]
+def = "止める、やめる、停止する、中止する、中断する; 塞ぐ、遮断する、禁止する; 防止する"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pakola]
+def = "[pakala の誤字]"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pali]
+def = "する、行動する、働く; 作る、構築する、用意する"
+commentary = ""
+sitelen_pona_etymology = "hand modifier + ijo"
+
+[palisa]
+def = "長くて堅いもの; 枝、棒"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a stick"
+
+[pan]
+def = "穀類、穀物; ごはん、麦、米; パン、麵"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a grain crop"
+
+[pana]
+def = "与える、送る、発する、授ける、置く、放す"
+commentary = ""
+sitelen_pona_etymology = "emission modifier + luka"
+
+[pasila]
+def = "よい、簡単な; わかりやすい、ゆったりした、安らかな、込み入っていない"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pata]
+def = "兄弟、姉妹、きょうだい、同胞"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[peta]
+def = "緑色の、緑がかった; 青々とした、生き生きした; 環境にやさしい"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[peto]
+def = "泣く、涙; 悲しい、悲歎"
+commentary = "This word is deprecated by the creator."
+sitelen_pona_etymology = ""
+
+[pi]
+def = "～の (直前の名詞(句)と、それを修飾する名詞句との区切りを示す) | ALT (属格の語を作る)"
+commentary = "The usage of \"pi\" to mean \"of\" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases."
+sitelen_pona_etymology = "perhaps from tilted blissymbol “by”"
+
+[pika]
+def = "電気の、電子の、伝導性の、機械的な、オンラインの; 電気、電光、雷、ネットワーク"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pilin]
+def = "心、心臓; 感情、気持ち、感じ"
+commentary = ""
+sitelen_pona_etymology = "from heart symbol (♡). compare blissymbol “feeling”"
+
+[pimeja]
+def = "黒い、暗い、闇、影"
+commentary = ""
+sitelen_pona_etymology = "color radical; perhaps the cross representing the absence of light"
+
+[Pingo]
+def = "車"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pini]
+def = "終わった、仕上がった、済んだ、過去の、以前の"
+commentary = "Some proficient speakers use pini as a preverb that means \"to stop,\" that goes along with the complimentary open preverb \"to start\""
+sitelen_pona_etymology = "perhaps a blocking wall"
+
+[pipi]
+def = "虫、微小な生物、昆虫、蜘蛛"
+commentary = ""
+sitelen_pona_etymology = "animal radical; pictogram of a bug"
+
+[pipo]
+def = "悩ませる、煩わしい、虫が好かない、悩みの種、厄介な、うんざりする"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[po]
+def = "四"
+commentary = ""
+sitelen_pona_etymology = "Arabic numeral 4"
+
+[poka]
+def = "腰、側; 隣、そば、近く | ALT ～とともに、～のそばに"
+commentary = ""
+sitelen_pona_etymology = "location radical + “container”"
+
+[poki]
+def = "容れ物、袋、器、箱、カップ、収納家具"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a container"
+
+[polinpin]
+def = "ボウリングのピン"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pomotolo]
+def = "効果的な、有益な、よい結果をもたらす"
+commentary = "From the time management method developed by Francesco Cirillo in Berlin in the 1980s, for which people often used tomato-shaped timers. In ku, \"pomotolo\" was given as one of the translations of \"tomato\", presumably due to speakers misusing or misunderstanding the word."
+sitelen_pona_etymology = ""
+
+[pona]
+def = "よい、好ましい、役立つ; 友好的な、優しい; わかりやすい"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a smiling mouth. compare ike"
+
+[poni]
+def = "仔馬、馬"
+commentary = "Occasionally comes up as a jokish corruption of \"pona\" (especially in a phrase \"toki poni\")."
+sitelen_pona_etymology = ""
+
+[powe]
+def = "実在しない、偽りの、架空の、嘘の、虚偽の; 見せかける; 欺く、騙す"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[pu]
+def = "公式トキポナ書に通じている"
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+sitelen_pona_etymology = "pictogram of the cover of the book “Toki Pona: The Language of Good”. Alternatively a semantic compound glyph of lipu and toki pona"
+
+[puwa]
+def = "ふわふわした、柔らかい、ぶにょぶにょした (圧しつけても元の形状に戻ろうとするもの)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[sama]
+def = "同じ、似ている; 互いに; きょうだい、同胞、同輩; ～として、～のような"
+commentary = ""
+sitelen_pona_etymology = "from equal sign (=). compare blissymbol “same”"
+
+[samu]
+def = "新語を造りたくなる欲求"
+commentary = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
+sitelen_pona_etymology = ""
+
+[san]
+def = "三"
+commentary = "More popular than the synonymous (and older) tuli.\nsan was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the dictionary."
+sitelen_pona_etymology = ""
+
+[seli]
+def = "火; 加熱 (調理)、化学反応、熱源"
+commentary = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+sitelen_pona_etymology = "perhaps a pictogram of a lit campfire or a simplified pictogram of a fire"
+
+[selo]
+def = "表面、外面、外層; 皮、樹皮、殻、肌; 境界"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[seme]
+def = "何？\u3000どれ？"
+commentary = ""
+sitelen_pona_etymology = "from question mark (?). compare blissymbol “what”"
+
+[sewi]
+def = "上方、最上部、高い、空; 畏敬すべき、神の、神聖な、超自然の"
+commentary = ""
+sitelen_pona_etymology = "from arabic ١ّللَه\u200e “allah”"
+
+[sijelo]
+def = "(人や動物の) 身体、肉体、物理的状態、胴体"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a torso"
+
+[sike]
+def = "円いもの、循環するもの; ボール、球、円、周期、輪; 一年の"
+commentary = ""
+sitelen_pona_etymology = "two circles, perhaps to distinguish from ijo. alternatively outline of a thick empty circle"
+
+[sikomo]
+def = "高次元の、悟りに達した、ヤバい; とほうもない、超絶"
+commentary = "Coined in reference to the Travis Scott song ‘Sicko Mode’."
+sitelen_pona_etymology = ""
+
+[sin]
+def = "新しい、新鮮な、できたての; 追加の、さらなる、余分の"
+commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+sitelen_pona_etymology = ""
+
+[sina]
+def = "あなた、あなたがた"
+commentary = ""
+sitelen_pona_etymology = "perhaps a hand pointing towards the listener. compare mi and ona"
+
+[sinpin]
+def = "顔、前、先頭の、前部、壁"
+commentary = ""
+sitelen_pona_etymology = "location radical + rotate “container”. compare monsi"
+
+[sipi]
+def = "自己、自分、自身"
+commentary = "Proposed on a forum and quickly forgotten. Notable only for being an early non pu word proposal."
+sitelen_pona_etymology = ""
+
+[sitelen]
+def = "画像、映像、絵、シンボル、記号、文字、描写、書く"
+commentary = ""
+sitelen_pona_etymology = "perhaps a representation of symbols on a piece of paper (lipu)"
+
+[slape]
+def = "[lape の諧謔的な同義語]"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[soko]
+def = "茸、菌類"
+commentary = ""
+sitelen_pona_etymology = "mushroom"
+
+[sona]
+def = "知っている、技能がある、知識がある、情報、理解; (pv.) ～することを心得ている"
+commentary = ""
+sitelen_pona_etymology = "emission modifier + lipu"
+
+[soto]
+def = "左、左側、左舷"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[soweli]
+def = "動物、獣、陸棲哺乳類"
+commentary = ""
+sitelen_pona_etymology = "animal radical; pictogram of a mammal"
+
+[su]
+def = "(ソニャ・ラング氏の今後の利用のため確保される単語)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[suke]
+def = "[sike の誤植]"
+commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+sitelen_pona_etymology = ""
+
+[suli]
+def = "大きい、重い、広い、長い、丈のある; 重要な; 大人"
+commentary = ""
+sitelen_pona_etymology = "ideogram showing bigger size compared to lili"
+
+[suno]
+def = "太陽; 光、輝き、明かり、照明、輝く; 光源"
+commentary = ""
+sitelen_pona_etymology = "pictogram of the sun"
+
+[supa]
+def = "水平面、台、卓、盤、(家具などの) ものを置くところ"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a table. compare blissymbol “table”"
+
+[sutopatikuna]
+def = "カモノハシ"
+commentary = "Coined by Alexandre Baudry in 2009 in response to jan Sonja coining \"kijetesantakalu\" as part of 2009's April Fools."
+sitelen_pona_etymology = ""
+
+[suwi]
+def = "甘い、香しい; かわいい、純真な、愛らしい"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a smiling face"
+
+[taki]
+def = "粘着性の、磁気の; くっつける、引きつける、取り付ける、留める"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[tan]
+def = "～によって、～から、～の理由で; 起源、由来、原因"
+commentary = ""
+sitelen_pona_etymology = "a leaping arrow pointing from right to left, implying derivation or cause"
+
+[taso]
+def = "しかし、けれども; ～だけ、～のみ"
+commentary = "Many proficient speakers use taso as a connector between sentences (X taso Y), similar to \"X, but Y,\" though others do not use this method."
+sitelen_pona_etymology = "from blissymbol “but”"
+
+[tawa]
+def = "～へ行く、～に向かって、～に対して; ～へ; ～の立場からすると; 移動、動き | ALT (pv.) ～しに行く"
+commentary = ""
+sitelen_pona_etymology = "motion radical; legs facing to the right. compare kama and blissymbol “walk”"
+
+[te]
+def = "(引用句の前におく小詞)"
+commentary = "May be paired with \"to\", or used on its own. It is unclear how accepted either approach is among te / to users."
+sitelen_pona_etymology = ""
+
+[teje]
+def = "右、右側、右舷"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[telo]
+def = "水、液体、流れ、濡れた; 飲み物"
+commentary = ""
+sitelen_pona_etymology = "pictogram of wave. compare blissymbol “water”"
+
+[ten]
+def = "(tenpo の縮約形)"
+commentary = "Out of use."
+sitelen_pona_etymology = ""
+
+[tenpo]
+def = "時、時間、期間、瞬間、機会、時期、情勢"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a clock. compare blissymbol “time”"
+
+[to]
+def = "(引用句の後におく小詞)"
+commentary = "May be paired with \"te\", or used on its own. It is unclear how accepted either approach is among te / to users."
+sitelen_pona_etymology = ""
+
+[tokana]
+def = "焦点、注目、集中させる、解像度、精細さ; 焦点を合わせる"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[toki]
+def = "話す、言う、通信する、会話、言語、考える; やあ！(挨拶)"
+commentary = ""
+sitelen_pona_etymology = "emission modifier + ijo or a general circle"
+
+[toma]
+def = "[tomo の誤植]"
+commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+sitelen_pona_etymology = ""
+
+[tomo]
+def = "屋内空間; 建物、住宅、家、部屋"
+commentary = ""
+sitelen_pona_etymology = "pictogram of a house. compare blissymbol “house”"
+
+[tonsi]
+def = "ノンバイナリー、旧来の性別の規範に属さない | ALT トランスジェンダー、間性"
+commentary = "Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an \"honorary pu word\" to highlight its status, or equated to a pu word outright."
+sitelen_pona_etymology = ""
+
+[tu]
+def = "二 | ALT 分ける、切断する"
+commentary = ""
+sitelen_pona_etymology = "two tally marks. compare mute and wan"
+
+[tuli]
+def = "三"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[u]
+def = "(ソニャ・ラング氏の今後の利用のため確保される単語)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[umesu]
+def = "トキポナのゲームでトップに躍り出てみんなを驚かせる"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[unpa]
+def = "性的関係をもつ、性的な"
+commentary = "Also defined as \"have marital relations with\" in pu; removed due to potential confusion."
+sitelen_pona_etymology = "perhaps a derivation of heart symbol (especially visible from the original drawing of the character), or a knot pattern implying intercourse, or perhaps a pictogram of a genitalia"
+
+[unu]
+def = "紫色の"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[usawi]
+def = "魔法、魔術; 幻惑する; 魔力の、超自然の、神秘の、不可解な"
+commentary = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
+sitelen_pona_etymology = ""
+
+[uta]
+def = "口、唇、口腔、口吻"
+commentary = "The dot in the \"uta\" sitelen pona is to distinguish luka-uta from moku."
+sitelen_pona_etymology = "“mouth” with a dot below"
+
+[utala]
+def = "戦う、争う、挑む、競う、攻撃する"
+commentary = ""
+sitelen_pona_etymology = "perhaps from crossed swords symbol (⚔️)"
+
+[wa]
+def = "[感嘆詞] (畏れや驚歎をあらわす)"
+commentary = "Sometimes analyzed as a variety of \"a\"."
+sitelen_pona_etymology = ""
+
+[waleja]
+def = "文脈、事情、主題、論点、関聯する、主題の、関係した"
+commentary = "May be used as a preposition, e.g. \"lipu waleja toki pona = a book about toki pona\". However, this usage is very rare."
+sitelen_pona_etymology = ""
+
+[walo]
+def = "白い、白んだ; 淡い、薄色の"
+commentary = ""
+sitelen_pona_etymology = "color radical; perhaps the reverse of pimeja, the color radical cutting of the cross instead of vice versa"
+
+[wan]
+def = "唯一の、単一の、合一した; 一"
+commentary = ""
+sitelen_pona_etymology = "one tally mark or Indo-Arabic numeral 1, perhaps to make it more distinct"
+
+[waso]
+def = "鳥、飛翔する生物、有翼動物"
+commentary = ""
+sitelen_pona_etymology = "animal radical; pictogram of a bird"
+
+[wasoweli]
+def = "waso と soweli 双方の特徴をもつ動物 (ペンギンなど)"
+commentary = "First used as the name for a species in a mod for Caves of Qud created by akesi kon Nalasuni. Later appeared in ku as exclusively part of a translation for \"penguin\"."
+sitelen_pona_etymology = ""
+
+[wawa]
+def = "強い、有力な; 自信がある、信頼できる; 活発な、強烈な、力、エネルギー"
+commentary = ""
+sitelen_pona_etymology = "perhaps a pictogram of a person with raised arms, to signify strength"
+
+[wawajete]
+def = "規則を破っているようで破っていないもの; 偽悪趣味、挑発"
+commentary = "Coined in reference to wuwojiti, a sequence of all phonotactically unviable CV syllables in toki pona."
+sitelen_pona_etymology = ""
+
+[we]
+def = "友達、ダチ、相棒"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[we1]
+def = "(ある完全な文から別の文への転換として用いる)"
+commentary = "Out of use."
+sitelen_pona_etymology = ""
+
+[weka]
+def = "不在の、なくなった、遠い、無視された、除く、捨てる、消す"
+commentary = ""
+sitelen_pona_etymology = "“poof lines”; indicating the movement of something disappearing"
+
+[wekama]
+def = "行って戻ってくる、戻ってくるつもりで一時的にいなくなる"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[wi]
+def = "われわれ (聞き手を含まない。すなわち除外的一人称複数形)"
+commentary = ""
+sitelen_pona_etymology = ""
+
+[wile]
+def = "～したい、～しなければならない、～の必要がある、～すべきである、求める、望む"
+commentary = ""
+sitelen_pona_etymology = "perhaps from Latin letter W"
+
+[wuwojiti]
+def = "禁止音節である wu, wo, ji, ti のいづれかを使う; トキポナの音素規則を破る"
+commentary = "May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the \"banned\" syllables."
+sitelen_pona_etymology = ""
+
+[yupekosi]
+def = "ジョージ・ルーカスのように、自身の昔の創作物をリメイクして改悪する"
+commentary = "Coined as a random keystroke. It is presumed jan Sonja used \"y\" by mistake, but then make it part of the joke by adding \"nobody knows how to pronounce the y\"."
+sitelen_pona_etymology = ""
+
+[yutu]
+def = "{Discordサーヴァー「ma pona」で使われる} 星の絵文字⭐ (この絵文字で多く反応されたメッセージが #pona-kulupu チャンネルに掲載される)"
+commentary = "The \"y\" was a typo and was meant to be \"j\", but got kept in anyway; compare \"yupekosi\"."
+sitelen_pona_etymology = ""
