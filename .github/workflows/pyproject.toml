@@ -1,1 +1,1 @@
-build-system.requires = ["python_version >= 3.11"]
+build-system.requires = ["jsonschema >= 4.20", "python_version >= 3.11"]
