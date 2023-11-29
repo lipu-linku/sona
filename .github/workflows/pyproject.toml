@@ -1,1 +1,6 @@
-build-system.requires = ["jsonschema >= 4.20", "python_version >= 3.11"]
+build-system.requires = ["jsonschema >= 4.20"]
+
+[project]
+name = "validate_toml"
+version = "0.1.0"
+requires-python = ">=3.11.6"
