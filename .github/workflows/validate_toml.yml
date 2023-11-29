@@ -13,6 +13,9 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .github/workflows/
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,4 +29,4 @@ jobs:
         run: python -m pip install .
 
       - name: Validate Files
-        run: python .github/workflows/validate_toml.py
+        run: python validate_toml.py
