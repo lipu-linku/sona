@@ -1,1294 +1,2945 @@
 [a]
-def = "(he miramira, he kare ā-roto, he whakaū rānei)"
 commentary = "In common usage (both before and after pu), \"a\" and \"kin\" are separate words, each with their own meaning. In pu, they are considered synonyms."
+def = "(he miramira, he kare ā-roto, he whakaū rānei)"
 sitelen_pona_etymology = "exclamation radical + Latin lowercase letter A; radical from exclamation point (!), without the full stop at the bottom. compare o"
 
+[[a.etymology]]
+alt = ""
+definition = ""
+language = "onomatopoeia"
+word = ""
+
 [aka]
-def = ""
 commentary = "This word is deprecated by the creator, replaced by \"natu\"."
+def = ""
 sitelen_pona_etymology = ""
 
+[[aka.etymology]]
+alt = "guò"
+definition = "to cross, to pass"
+language = "Mandarin"
+word = "过"
+
+[[aka.etymology]]
+alt = ""
+definition = "across"
+language = "English"
+word = "across"
+
 [akesi]
-def = "he kararehe weriweri; he moko, he ika oneone"
 commentary = "akesi used to mean \"non-cute animal,\" and is defined this way in pu, but this definition has fallen out of use."
+def = "he kararehe weriweri; he moko, he ika oneone"
 sitelen_pona_etymology = "animal radical; pictogram of a lizard. radical represents eyes"
 
+[[akesi.etymology]]
+alt = ""
+definition = "lizard"
+language = "Dutch"
+word = "hagedis"
+
 [ako]
-def = ""
 commentary = "Virtually unknown outside the Korean toki pona community."
+def = ""
+etymology = []
 sitelen_pona_etymology = "exclamation radical + Hangul syllable 아 (a); radical from exclamation point (!), without the full stop at the bottom. compare a, o"
 
 [ala]
-def = "kāo, kāore, ehara, kore; [~ ala ~] (e whakamahia ana mō te pātai kati)"
 commentary = ""
+def = "kāo, kāore, ehara, kore; [~ ala ~] (e whakamahia ana mō te pātai kati)"
 sitelen_pona_etymology = "X mark, a crosslinguistic symbol for negation"
 
+[[ala.etymology]]
+alt = "ara"
+definition = "no"
+language = "Georgian"
+word = "არა"
+
 [alasa]
-def = "kimi, rapu, whai | ALT (pv.) ngana"
 commentary = "In some communities, the usage of \"alasa\" as a preverb meaning \"try to\" is equally or even more common than \"lukin\". In pu, only \"lukin\"/\"oko\" has this meaning."
+def = "kimi, rapu, whai | ALT (pv.) ngana"
 sitelen_pona_etymology = "pictogram of a bow and an arrow"
 
+[[alasa.etymology]]
+alt = ""
+definition = "hunting, (lit.) on the hunt"
+language = "Acadian French"
+word = "à la chasse"
+
 [ale]
-def = "katoa; he maha; te ora, te ao tukupū; kotahi rau | ALT 100"
 commentary = "\"ali\" is an alternative to \"ale\", coined in a poll in 2002 in order to avoid confusion with \"ala\". However, the usage of \"ale\" over \"ali\" remains more common.\nThe majority of speakers report not understanding the \"abundant, bountiful, plentiful\" meaning, at least out of context.\n\"20, 120\" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."
+def = "katoa; he maha; te ora, te ao tukupū; kotahi rau | ALT 100"
 sitelen_pona_etymology = "infinity symbol (∞)"
+
+[[ale.etymology]]
+alt = ""
+definition = "all"
+language = "Dutch"
+word = "alle"
 
 [alente]
-def = ""
 commentary = "Coined humorously as the \"final nimisin\" - any newer word would semantically be included in alente, so it can be refuted for being \"alente but even nicher\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[alente.etymology]]
+alt = ""
+definition = "ale ante"
+language = "toki pona"
+word = "ale ante"
 
 [ali]
-def = "[he āhua kē mō te “ale”]"
 commentary = "\"ali\" is an alternative to \"ale\", coined in a poll in 2002 in order to avoid confusion with \"ala\". However, the usage of \"ale\" over \"ali\" remains more common. Generally not considered a word in its own right."
+def = "[he āhua kē mō te “ale”]"
 sitelen_pona_etymology = "infinity symbol (∞)"
 
+[[ali.etymology]]
+alt = ""
+definition = "all"
+language = "Dutch"
+word = "alle"
+
 [alu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[alu.etymology]]
+alt = ""
+definition = "(la reversed)"
+language = "toki pona"
+word = "la"
 
 [anpa]
-def = "tuohu, iho, māhaki, whirinaki | ALT raro, he papa, hakahaka"
 commentary = "In common usage (both before and after pu), \"anpa\" has the meaning of \"place that is down\". In pu, \"noka\" has that meaning instead."
+def = "tuohu, iho, māhaki, whirinaki | ALT raro, he papa, hakahaka"
 sitelen_pona_etymology = "location radical + \"container\"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol \"below\""
 
+[[anpa.etymology]]
+alt = ""
+definition = "below"
+language = "Acadian French"
+word = "en bas"
+
 [ante]
-def = "kē, rerekē, panoni, huri, whakawhiti"
 commentary = ""
+def = "kē, rerekē, panoni, huri, whakawhiti"
 sitelen_pona_etymology = "perhaps alteration from sama, or a combination of sama and ala. perhaps an ideogram representing a diversion of two lines"
 
+[[ante.etymology]]
+alt = ""
+definition = "other, different"
+language = "Dutch"
+word = "ander"
+
 [anu]
-def = "rānei | ALT kōwhiri, whiriwhiri"
 commentary = "The usage of \"anu\" as a content word meaning \"choose\" remains controversial."
+def = "rānei | ALT kōwhiri, whiriwhiri"
 sitelen_pona_etymology = "perhaps from mathematical symbol \"or\" (∨)"
 
+[[anu.etymology]]
+alt = "an"
+definition = "or"
+language = "Georgian"
+word = "ან"
+
 [apeja]
-def = ""
 commentary = "According to jan Sonja, \"apeja\" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been \"just an experimental idea in a forum post\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[apeja.etymology]]
+alt = ""
+definition = "shame, disgrace, dishonor"
+language = "Finnish"
+word = "häpeä"
 
 [awase]
-def = ""
 commentary = "jan Lenoka further elaborated the semantics to imply \"to bump into, to make contact with\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[awase.etymology]]
+alt = "harvacel"
+definition = "hit, strike"
+language = "Armenian"
+word = "հարվածել"
 
 [awen]
-def = "manawanui, matatū, mau, haumaru, tatari, noho; (pv.) mahi tonu"
 commentary = ""
+def = "manawanui, matatū, mau, haumaru, tatari, noho; (pv.) mahi tonu"
 sitelen_pona_etymology = "motion radical; legs facing against each other, implying standing"
 
+[[awen.etymology]]
+alt = ""
+definition = "keep, care for, hold (in a particular state)"
+language = "Dutch"
+word = "houden"
+
 [e]
-def = "(ki mua i te aronga torotika)"
 commentary = ""
+def = "(ki mua i te aronga torotika)"
 sitelen_pona_etymology = ""
+
+[[e.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [eki]
-def = ""
 commentary = "It is recommended to use \"natu\" instead."
+def = ""
 sitelen_pona_etymology = ""
+
+[[eki.etymology]]
+alt = ""
+definition = "x (letter name)"
+language = "English"
+word = "x (letter name)"
 
 [eliki]
-def = ""
 commentary = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
+def = ""
 sitelen_pona_etymology = ""
+
+[[eliki.etymology]]
+alt = ""
+definition = "pain, distress"
+language = "Tsalagi"
+word = "ehisdi"
 
 [en]
-def = "(ki waenga i ngā tumu)"
 commentary = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
+def = "(ki waenga i ngā tumu)"
 sitelen_pona_etymology = "from plus sign (+); compare blissymbol “and”."
 
+[[en.etymology]]
+alt = ""
+definition = "and"
+language = "Dutch"
+word = "en"
+
 [enko]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[enko.etymology]]
+alt = ""
+definition = "(corruption)"
+language = "toki pona"
+word = "tenpo"
 
 [epiku]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = "pona with emitters; [alternate] rotated ni"
 
+[[epiku.etymology]]
+alt = ""
+definition = "epic"
+language = "French"
+word = "épique"
+
 [esun]
-def = "he mākete, he toa, hoko"
 commentary = "According to jan Sonja, \"esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa\"."
+def = "he mākete, he toa, hoko"
 sitelen_pona_etymology = "not from a currency symbol (sonja confirmed; said “i think that one is from Mikmaq” but couldn't find a mikmaq symbol similar to it)."
 
+[[esun.etymology]]
+alt = ""
+definition = ""
+language = "Akan"
+word = "unknown"
+
 [ete]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ete.etymology]]
+alt = ""
+definition = "beyond, further, over"
+language = "Turkish"
+word = "öte"
 
 [ewe]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ewe.etymology]]
+alt = "iwa"
+definition = "rock, boulder"
+language = "Japanese"
+word = "岩"
+
+[[ewe.etymology]]
+alt = ""
+definition = "kiwen"
+language = "toki pona"
+word = "kiwen"
 
 [i]
-def = ""
 commentary = "\"i\" was proposed as a replacement for \"iki\" in a poll in 2002. However, \"i\" failed to get enough votes. \"iki\" was instead replaced by \"ona\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[i.etymology]]
+alt = ""
+definition = "unknown"
+language = "unknown"
+word = "unknown"
 
 [ijo]
-def = "he mea, he taonga, he matū"
 commentary = ""
+def = "he mea, he taonga, he matū"
 sitelen_pona_etymology = "a circle, for a general object"
 
+[[ijo.etymology]]
+alt = ""
+definition = "something"
+language = "Esperanto"
+word = "io"
+
 [ike]
-def = "kino; whai tikanga kore | ALT matatini"
 commentary = ""
+def = "kino; whai tikanga kore | ALT matatini"
 sitelen_pona_etymology = "pictogram of a frowning mouth. compare pona"
 
+[[ike.etymology]]
+alt = ""
+definition = "bad, mean, wicked"
+language = "Finnish"
+word = "ilkeä"
+
 [iki]
-def = ""
 commentary = "In a poll in 2002, \"iki\" was deemed too similar to \"ike\" and replaced by \"ona\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[iki.etymology]]
+alt = ""
+definition = "unknown"
+language = "unknown"
+word = "unknown"
 
 [ilo]
-def = "he taputapu, he utauta, he mīhini"
 commentary = ""
+def = "he taputapu, he utauta, he mīhini"
 sitelen_pona_etymology = "perhaps a pictogram of a hammer"
 
+[[ilo.etymology]]
+alt = ""
+definition = "tool"
+language = "Esperanto"
+word = "ilo"
+
 [insa]
-def = "roto, waenganui; ngākau, puku"
 commentary = ""
+def = "roto, waenganui; ngākau, puku"
 sitelen_pona_etymology = "location radical + “container”; compare blissymbol “in”"
 
+[[insa.etymology]]
+alt = ""
+definition = "inside, center, stomach"
+language = "Tok Pisin"
+word = "insait"
+
 [ipi]
-def = ""
 commentary = "\"ipi\" was proposed as a replacement for \"iki\" in a poll in 2002. However, \"ipi\" failed to get enough votes. \"iki\" was instead replaced by \"ona\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[ipi.etymology]]
+alt = ""
+definition = "unknown"
+language = "unknown"
+word = "unknown"
 
 [isipin]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[isipin.etymology]]
+alt = ""
+definition = "to think"
+language = "Tagalog"
+word = "isipin"
 
 [itomi]
-def = ""
 commentary = "Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where \"hit or miss\" was a prominent lyric. Sources disagree on who coined the word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[itomi.etymology]]
+alt = ""
+definition = "hit or miss"
+language = "English"
+word = "hit or miss"
 
 [jaki]
-def = "wetiweti, tāoke, paru"
 commentary = ""
+def = "wetiweti, tāoke, paru"
 sitelen_pona_etymology = "a scribble"
 
+[[jaki.etymology]]
+alt = ""
+definition = "yucky"
+language = "English"
+word = "yucky"
+
 [jaku]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[jaku.etymology]]
+alt = "hyaku"
+definition = "100"
+language = "Japanese"
+word = "百"
 
 [jalan]
-def = ""
 commentary = "In a poll in 2002, \"jalan\" was proposed as a replacement for \"noka\". However, \"jalan\" failed to get enough votes."
+def = ""
 sitelen_pona_etymology = ""
+
+[[jalan.etymology]]
+alt = ""
+definition = "afoot"
+language = "Finnish"
+word = "jalan"
 
 [jami]
-def = ""
 commentary = "Often used for \"stim\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[jami.etymology]]
+alt = ""
+definition = "yummy"
+language = "English"
+word = "yummy"
 
 [jan]
-def = "he tangata"
 commentary = "There are two sides to the concept, \"sentient entity\" and \"homo sapiens\", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial."
+def = "he tangata"
 sitelen_pona_etymology = "head radical; pictogram of a person showing the shoulders"
 
+[[jan.etymology]]
+alt = "jan"
+definition = "person"
+language = "Cantonese"
+word = "人"
+
 [jans]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[jans.etymology]]
+alt = ""
+definition = "jan"
+language = "toki pona"
+word = "jan"
 
 [jasima]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[jasima.etymology]]
+alt = ""
+definition = "to reflect, reverberate"
+language = "Turkish"
+word = "yansıtmak"
 
 [je]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[je.etymology]]
+alt = ""
+definition = "yay"
+language = "English"
+word = "yay"
 
 [jelo]
-def = "kōwhai"
 commentary = "Some extend \"jelo\" to include lime green, but this usage is uncommon."
+def = "kōwhai"
 sitelen_pona_etymology = "color radical + suno"
 
+[[jelo.etymology]]
+alt = ""
+definition = "yellow"
+language = "English"
+word = "yellow"
+
 [jo]
-def = "mau, pupuri, kawe, hari"
 commentary = ""
+def = "mau, pupuri, kawe, hari"
 sitelen_pona_etymology = "perhaps a pictogram of a person pointing at themself or holding something"
 
+[[jo.etymology]]
+alt = "yǒu"
+definition = "have"
+language = "Mandarin"
+word = "有"
+
 [jonke]
-def = ""
 commentary = "Coined in reference to the Untitled Goose Game fandom."
+def = ""
 sitelen_pona_etymology = ""
+
+[[jonke.etymology]]
+alt = ""
+definition = "hjönk"
+language = "onomatopoeia"
+word = "hjönk"
 
 [ju]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ju.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [jule]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[jule.etymology]]
+alt = "yureru"
+definition = "shake, vibrate, oscillate, waver"
+language = "Japanese"
+word = "揺れる"
 
 [jume]
-def = ""
 commentary = "Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was \"fantasy\" or \"unreality\", without a negative connotation."
+def = ""
 sitelen_pona_etymology = ""
+
+[[jume.etymology]]
+alt = "yume"
+definition = "dream"
+language = "Japanese"
+word = "夢"
 
 [kala]
-def = "he ika"
 commentary = ""
+def = "he ika"
 sitelen_pona_etymology = "pictogram of a fish"
 
-[kalama]
-def = "tangi, oro; kī"
-commentary = ""
-sitelen_pona_etymology = "emission modifier + “mouth”"
+[[kala.etymology]]
+alt = ""
+definition = "fish"
+language = "Finnish"
+word = "kala"
 
 [kalamARR]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kalamARR.etymology]]
+alt = ""
+definition = "kalama"
+language = "toki pona"
+word = "kalama"
+
+[kalama]
+commentary = ""
+def = "tangi, oro; kī"
+sitelen_pona_etymology = "emission modifier + “mouth”"
+
+[[kalama.etymology]]
+alt = "galama"
+definition = "noise of many human voices"
+language = "Serbo-Croatian"
+word = "галама"
 
 [kalijopilale]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kalijopilale.etymology]]
+alt = ""
+definition = "Caryophyllales"
+language = "Latin"
+word = "Caryophyllales"
 
 [kama]
-def = "haere mai, muri"
 commentary = ""
+def = "haere mai, muri"
 sitelen_pona_etymology = "motion radical; legs facing to the left. compare tawa and blissymbol “walk”"
 
+[[kama.etymology]]
+alt = ""
+definition = "event, arrive, happen, become, bring about, summon"
+language = "Tok Pisin"
+word = "kamap"
+
 [kamalawala]
-def = ""
 commentary = "The word is from a story called \"jan pi Kamalawala\". A character's name is described as \"nimi Jan pi Kama e Lawa Ala\", and a shortened version given as \"nimi Kamalawala\". jan Kipo is responsible for it becoming a word instead of just a name."
+def = ""
 sitelen_pona_etymology = "circle-A, an anarchy symbol"
 
+[[kamalawala.etymology]]
+alt = ""
+definition = "kama pi lawa ala"
+language = "toki pona"
+word = "kama pi lawa ala"
+
 [kan]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kan.etymology]]
+alt = ""
+definition = "with"
+language = "Finnish"
+word = "kanssa"
 
 [kapa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kapa.etymology]]
+alt = ""
+definition = "head, cup"
+language = "Dutch"
+word = "kop"
 
 [kapesi]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kapesi.etymology]]
+alt = "gaa³ fe¹ sik¹"
+definition = "brown, coffee (colour)"
+language = "Cantonese"
+word = "咖啡色"
+
+[[kapesi.etymology]]
+alt = "kāfēisè"
+definition = "brown, coffee (colour)"
+language = "Mandarin"
+word = "咖啡色"
 
 [kasi]
-def = "he tupu, he rākau; he rau"
 commentary = ""
+def = "he tupu, he rākau; he rau"
 sitelen_pona_etymology = "pictogram of a sprout"
 
+[[kasi.etymology]]
+alt = ""
+definition = "kasvi ‘plant’"
+language = "Finnish"
+word = "kasvi"
+
 [ke]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ke.etymology]]
+alt = ""
+definition = "okay"
+language = "English"
+word = "’kay"
 
 [ken]
-def = "taea; āhei"
 commentary = ""
+def = "taea; āhei"
 sitelen_pona_etymology = "perhaps from Latin letter K"
 
+[[ken.etymology]]
+alt = ""
+definition = "can"
+language = "Tok Pisin"
+word = "ken"
+
 [kepeken]
-def = "whakamahi, ki, nā, mā"
 commentary = "Whether \"kepeken\" should be used with or without \"e\" in a predicative position (meaning \"to use\") remains controversial."
+def = "whakamahi, ki, nā, mā"
 sitelen_pona_etymology = "hand modifier + ilo"
 
+[[kepeken.etymology]]
+alt = ""
+definition = "to use"
+language = "Dutch"
+word = "gebruiken"
+
 [kepen]
-def = ""
 commentary = "coined as a shortened kepeken by jan Tomen in 2017, but really started being used in 2020"
+def = ""
 sitelen_pona_etymology = ""
+
+[[kepen.etymology]]
+alt = ""
+definition = "kepeken"
+language = "toki pona"
+word = "kepeken"
 
 [kese]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kese.etymology]]
+alt = "kéšet"
+definition = "named for the Jewish LGBT organization Keshet"
+language = "Hebrew"
+word = "קֶשֶׁת"
 
 [ki]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ki.etymology]]
+alt = ""
+definition = "who"
+language = "French"
+word = "qui"
 
 [kijetesantakalu]
-def = ""
 commentary = "Coined as an April Fools joke in 2009."
+def = ""
 sitelen_pona_etymology = "a drawing of a raccoon with a tail"
 
+[[kijetesantakalu.etymology]]
+alt = ""
+definition = "kinkajou"
+language = "Finnish"
+word = "kierteishäntäkarhu"
+
 [kiki]
-def = ""
 commentary = "The word is loaned from the 2001 Vilanyur S Ramachandran & Edward Hubbard version of Wolfgang Köhler's 1912 psycholinguistic experiment. The experiment studied sound symbolism on the words \"bouba\" and \"kiki\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[kiki.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [kili]
-def = "he hua"
 commentary = "In post-ku 2021, metaphorical definitions for kili have been suggested, including but not limited to \"offspring\" and \"product\", and are moderately popular. It is not yet clear whether this will remain in use long-term."
+def = "he hua"
 sitelen_pona_etymology = "pictogram of a fruit, perhaps an apple"
 
+[[kili.etymology]]
+alt = "xili"
+definition = "fruit"
+language = "Georgian"
+word = "ხილი"
+
 [kin]
-def = ""
 commentary = "In common usage (both before and after pu), \"a\" and \"kin\" are separate words, each with their own meaning. In pu, they are considered synonyms.\nUnderwent significant changes in usage in 2002, alongside \"en\" and (now obsolete) \"kan\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[kin.etymology]]
+alt = ""
+definition = "too, also, still"
+language = "Finnish"
+word = "-kin"
 
 [kipisi]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kipisi.etymology]]
+alt = ""
+definition = "to cut (intransitive)"
+language = "Inuktitut"
+word = "kipisi"
 
 [kisa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kisa.etymology]]
+alt = "kísa"
+definition = "cat"
+language = "Russian"
+word = "ки́са"
 
 [kiwen]
-def = "he mea mārō, he konganuku, he toka, he kōwhatu"
 commentary = "Coined in a poll in 2002."
+def = "he mea mārō, he konganuku, he toka, he kōwhatu"
 sitelen_pona_etymology = "pictogram of a rock or a gem"
 
+[[kiwen.etymology]]
+alt = ""
+definition = "stone (genitive case)"
+language = "Finnish"
+word = "kiven"
+
 [ko]
-def = "he uku, he mea hāpiripiri, he parāoa pokepoke, he kukū, he kāpia, he nehu, he paura"
 commentary = "The \"clinging form\" definition was elaborated to mean \"a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped\"."
+def = "he uku, he mea hāpiripiri, he parāoa pokepoke, he kukū, he kāpia, he nehu, he paura"
 sitelen_pona_etymology = "pictogram of splashed goo"
 
+[[ko.etymology]]
+alt = "gou"
+definition = "cream, paste"
+language = "Cantonese"
+word = "膏"
+
 [kokosila]
-def = ""
 commentary = "In Esperanto, \"krokodili\" means to speak among Esperantists in a language besides Esperanto, and is an established bit of Esperanto culture."
+def = ""
 sitelen_pona_etymology = ""
+
+[[kokosila.etymology]]
+alt = ""
+definition = "(present of krokodili)"
+language = "Esperanto"
+word = "krokodilas"
 
 [kon]
-def = "he hau, he hā; te mauri, te wairua; te wāhi ngaro"
 commentary = ""
+def = "he hau, he hā; te mauri, te wairua; te wāhi ngaro"
 sitelen_pona_etymology = "ideogram; wavy lines to indicate the fluidity of gas. compare telo"
 
+[[kon.etymology]]
+alt = "kōngqì"
+definition = "air, atmosphere, ambience, opinion"
+language = "Mandarin"
+word = "空氣"
+
 [konsi]
-def = ""
 commentary = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
+def = ""
 sitelen_pona_etymology = "hand modifier + sona"
 
+[[konsi.etymology]]
+alt = "gongji"
+definition = "announcement, notice"
+language = "Korean"
+word = "공지"
+
 [konwe]
-def = ""
 commentary = "Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.\nkonwe's intended meaning extends beyond just \"living\" and \"life.\" It can be used to describe rocks or rivers or other nonliving things"
+def = ""
 sitelen_pona_etymology = ""
+
+[[konwe.etymology]]
+alt = ""
+definition = "John Conway, creator of The Game of Life"
+language = "English"
+word = "Conway"
 
 [kosan]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kosan.etymology]]
+alt = ""
+definition = "to defend, protect (against)"
+language = "Irish"
+word = "cosain"
 
 [ku]
-def = ""
 commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+def = ""
 sitelen_pona_etymology = ""
+
+[[ku.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [kule]
-def = "he tae, he peita | ALT e pā ana ki te hapori LGBT+"
 commentary = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+def = "he tae, he peita | ALT e pā ana ki te hapori LGBT+"
 sitelen_pona_etymology = "color radical; perhaps the horizontal line indicates the sense of “the concept itself”. or perhaps a pictogram of light passing through a prism (color radical)"
 
+[[kule.etymology]]
+alt = ""
+definition = "color"
+language = "Acadian French"
+word = "couleur"
+
 [kulijo]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kulijo.etymology]]
+alt = ""
+definition = "coolio"
+language = "English"
+word = "coolio"
 
 [kulu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kulu.etymology]]
+alt = ""
+definition = "kulupu"
+language = "toki pona"
+word = "kulupu"
 
 [kulupu]
-def = "he hapori, he kamapene, he rōpū, he iwi, he hapū"
 commentary = ""
+def = "he hapori, he kamapene, he rōpū, he iwi, he hapū"
 sitelen_pona_etymology = "pictogram of a group consisting of three members represented by circles"
 
+[[kulupu.etymology]]
+alt = ""
+definition = "kulupu"
+language = "Tongan"
+word = "kulupu"
+
 [kuntu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[kuntu.etymology]]
+alt = ""
+definition = "k.m.t.u ← kalama musi tan uta"
+language = "toki pona"
+word = "kulupu musi tan uta"
 
 [kute]
-def = "he taringa; rongo, whakarongo; aro"
 commentary = ""
+def = "he taringa; rongo, whakarongo; aro"
 sitelen_pona_etymology = "pictogram of an ear. compare blissymbol “ear”"
 
+[[kute.etymology]]
+alt = ""
+definition = "listen"
+language = "Acadian French"
+word = "écouter"
+
 [kutopoma]
-def = ""
 commentary = "Virtually unknown outside the Korean toki pona community."
+def = ""
 sitelen_pona_etymology = "kulupu, with the bottom-left circle being the composite glyph for toki pona, and the bottom-right circle being a Taegeuk as on the flag of South Korea"
 
+[[kutopoma.etymology]]
+alt = ""
+definition = "(initialism)"
+language = "toki pona"
+word = "kulupu pi toki pona pi ma Anku"
+
 [la]
-def = "(ki waenga i te kīanga horopaki me te rerenga kōrero matua)"
 commentary = ""
+def = "(ki waenga i te kīanga horopaki me te rerenga kōrero matua)"
 sitelen_pona_etymology = "perhaps related to blissymbol “later” and “ago”, or perhaps a parenthesis"
 
+[[la.etymology]]
+alt = ""
+definition = "(definite article)"
+language = "Esperanto"
+word = "la"
+
 [lanpan]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[lanpan.etymology]]
+alt = "lamváno"
+definition = "take, seize, grasp, receive"
+language = "Greek"
+word = "λαμβάνω"
 
 [lape]
-def = "moe, okioki"
 commentary = ""
+def = "moe, okioki"
 sitelen_pona_etymology = "pictogram of a lying person"
 
+[[lape.etymology]]
+alt = ""
+definition = "sleep"
+language = "Dutch"
+word = "slapen"
+
 [laso]
-def = "kikorangi, kahurangi, kākāriki"
 commentary = ""
+def = "kikorangi, kahurangi, kākāriki"
 sitelen_pona_etymology = "color radical + kasi"
 
+[[laso.etymology]]
+alt = ""
+definition = "blue, inexperienced"
+language = "Welsh"
+word = "glas"
+
 [lawa]
-def = "he upoko, he hinengaro; whakahaere, tohu, whakamahere, rangatira"
 commentary = ""
+def = "he upoko, he hinengaro; whakahaere, tohu, whakamahere, rangatira"
 sitelen_pona_etymology = "head radical; perhaps the horizontal line for the same reason as in kule. alternatively, perhaps a pictogram of a person wearing a cap"
 
+[[lawa.etymology]]
+alt = "глава"
+definition = "head"
+language = "Serbo-Croatian"
+word = "glava"
+
 [leko]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[leko.etymology]]
+alt = ""
+definition = "Lego"
+language = "English"
+word = "Lego"
 
 [len]
-def = "he kākahu, he weru, he papanga; he uwhi, he matatapu"
 commentary = ""
+def = "he kākahu, he weru, he papanga; he uwhi, he matatapu"
 sitelen_pona_etymology = "perhaps a pictogram of a piece of fabric"
 
+[[len.etymology]]
+alt = ""
+definition = "clothing"
+language = "Acadian French"
+word = "linge"
+
 [lete]
-def = "makariri, mātao; mata, ota"
 commentary = ""
+def = "makariri, mātao; mata, ota"
 sitelen_pona_etymology = "pictogram of a snowflake"
 
+[[lete.etymology]]
+alt = ""
+definition = "cold"
+language = "Acadian French"
+word = "frette"
+
 [li]
-def = "(ki waenga i te tumu (engari, ehara mō te “mi” anake, mō te “sina” anake rānei) me te tūmahi; whaihoki, e whakamahia ana mō te tūmahi hou i te rerenga kōrero, e tū kē ai tētahi tūmahi)"
 commentary = ""
+def = "(ki waenga i te tumu (engari, ehara mō te “mi” anake, mō te “sina” anake rānei) me te tūmahi; whaihoki, e whakamahia ana mō te tūmahi hou i te rerenga kōrero, e tū kē ai tētahi tūmahi)"
 sitelen_pona_etymology = ""
+
+[[li.etymology]]
+alt = ""
+definition = "he"
+language = "Esperanto"
+word = "li"
 
 [lijokuku]
-def = ""
 commentary = "Virtually unknown outside the Korean toki pona community."
+def = ""
 sitelen_pona_etymology = ""
+
+[[lijokuku.etymology]]
+alt = "realkk"
+definition = "Exactly!', lit. 'real LOL'"
+language = "Korean"
+word = "ㄹㅇㅋㅋ"
 
 [likujo]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[likujo.etymology]]
+alt = ""
+definition = "collection, ensemble, anthology"
+language = "Acadian French"
+word = "recueil"
 
 [lili]
-def = "iti, paku, poto; rangatahi, he punua"
 commentary = ""
+def = "iti, paku, poto; rangatahi, he punua"
 sitelen_pona_etymology = "ideogram showing smaller size compared to suli"
 
+[[lili.etymology]]
+alt = ""
+definition = "small, little"
+language = "Tok Pisin"
+word = "liklik"
+
 [linja]
-def = "he mea roa, ngāwari hoki; he taura, he makawe, he huru, he aho | ALT he raina, he hononga"
 commentary = ""
+def = "he mea roa, ngāwari hoki; he taura, he makawe, he huru, he aho | ALT he raina, he hononga"
 sitelen_pona_etymology = "pictogram of a string"
 
+[[linja.etymology]]
+alt = ""
+definition = "line"
+language = "Finnish"
+word = "linja"
+
 [linluwi]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[linluwi.etymology]]
+alt = ""
+definition = "internet"
+language = "Welsh"
+word = "rhyngrwyd"
 
 [lipu]
-def = "he mea papatahi; he pukapuka, he kāri, he pepa, he rekoata, he pae tukutuku"
 commentary = ""
+def = "he mea papatahi; he pukapuka, he kāri, he pepa, he rekoata, he pae tukutuku"
 sitelen_pona_etymology = "pictogram of a sheet of paper. compare blissymbol “paper”"
 
+[[lipu.etymology]]
+alt = ""
+definition = "flag, banner, ticket"
+language = "Finnish"
+word = "lippu"
+
 [lo]
-def = ""
 commentary = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[lo.etymology]]
+alt = ""
+definition = "alu"
+language = "toki pona"
+word = "alu"
 
 [loje]
-def = "whero"
 commentary = ""
+def = "whero"
 sitelen_pona_etymology = "color radical + “mouth”"
 
+[[loje.etymology]]
+alt = ""
+definition = "red (inflected)"
+language = "Dutch"
+word = "rooie"
+
 [loka]
-def = ""
 commentary = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+def = ""
 sitelen_pona_etymology = ""
+
+[[loka.etymology]]
+alt = ""
+definition = "luka & noka"
+language = "toki pona"
+word = "luka & noka"
 
 [lokon]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[lokon.etymology]]
+alt = ""
+definition = "lukin & oko"
+language = "toki pona"
+word = "lukin & oko"
 
 [lon]
-def = "kei, i, tūturu, pono | ALT (he whakautu whakaae)"
 commentary = ""
+def = "kei, i, tūturu, pono | ALT (he whakautu whakaae)"
 sitelen_pona_etymology = "location radical above a line. compare blissymbol “over”"
 
+[[lon.etymology]]
+alt = ""
+definition = "at, in, on, (spacial particle)"
+language = "Tok Pisin"
+word = "long"
+
 [lu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[lu.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [luka]
-def = "he ringa; rima | ALT pā, whāwhā, tā"
 commentary = ""
+def = "he ringa; rima | ALT pā, whāwhā, tā"
 sitelen_pona_etymology = "pictogram of a hand"
 
+[[luka.etymology]]
+alt = "ruka"
+definition = "hand, arm"
+language = "Serbo-Croatian"
+word = "рука"
+
 [lukin]
-def = "he karu; titiro, kite, mātaki, whakatātare, pānui; kimi, rapu; (pv.) whakamātautau"
 commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning."
+def = "he karu; titiro, kite, mātaki, whakatātare, pānui; kimi, rapu; (pv.) whakamātautau"
 sitelen_pona_etymology = "pictogram of an eye. compare blissymbol “eye”"
 
+[[lukin.etymology]]
+alt = ""
+definition = "see, look at"
+language = "Tok Pisin"
+word = "lukim"
+
 [lupa]
-def = "he kūwaha, he waha, he rua, he ana, he matapihi"
 commentary = ""
+def = "he kūwaha, he waha, he rua, he ana, he matapihi"
 sitelen_pona_etymology = "pictogram of a concave surface. compare nena"
 
+[[lupa.etymology]]
+alt = ""
+definition = "loop"
+language = "Lojban"
+word = "clupa"
+
+[[lupa.etymology]]
+alt = "quān"
+definition = "loop"
+language = "Mandarin"
+word = "圈"
+
+[[lupa.etymology]]
+alt = ""
+definition = "loop"
+language = "English"
+word = "loop"
+
+[[lupa.etymology]]
+alt = "pāś"
+definition = "loop"
+language = "Hindi"
+word = "पाश"
+
+[[lupa.etymology]]
+alt = "anšūṭa"
+definition = "loop"
+language = "Arabic"
+word = "أنشوطة‏"
+
 [ma]
-def = "he whenua; he ao; he oneone; he tūranga"
 commentary = ""
+def = "he whenua; he ao; he oneone; he tūranga"
 sitelen_pona_etymology = "perhaps from modern astronomical symbol “earth” (⊕)"
 
+[[ma.etymology]]
+alt = ""
+definition = "earth, land"
+language = "Finnish"
+word = "maa"
+
 [majuna]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[majuna.etymology]]
+alt = ""
+definition = "old (not young)"
+language = "Esperanto"
+word = "maljuna"
 
 [mama]
-def = "he matua, he tupuna; he kaihanga; he kaitiaki"
 commentary = ""
+def = "he matua, he tupuna; he kaihanga; he kaitiaki"
 sitelen_pona_etymology = "head radical; perhaps the smaller circle representing the child"
 
+[[mama.etymology]]
+alt = "mama"
+definition = "father"
+language = "Georgian"
+word = "მამა"
+
 [mani]
-def = "he moni, he ukauka, he rawa; he kararehe rata"
 commentary = ""
+def = "he moni, he ukauka, he rawa; he kararehe rata"
 sitelen_pona_etymology = "a pictogram of a large domestic animal, such as a cow (sonja confirmed)"
 
+[[mani.etymology]]
+alt = ""
+definition = "money"
+language = "English"
+word = "money"
+
 [meli]
-def = "he wahine"
 commentary = ""
+def = "he wahine"
 sitelen_pona_etymology = "head radical with long hair"
 
+[[meli.etymology]]
+alt = ""
+definition = "woman, wife, feminine"
+language = "Tok Pisin"
+word = "meri"
+
 [melome]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[melome.etymology]]
+alt = ""
+definition = "meli pi olin meli"
+language = "toki pona"
+word = "meli pi olin meli"
 
 [meso]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[meso.etymology]]
+alt = "mésos"
+definition = "middle"
+language = "Greek"
+word = "μέσος"
 
 [mi]
-def = "ahau, tāua, tātou, māua, mātou"
 commentary = ""
+def = "ahau, tāua, tātou, māua, mātou"
 sitelen_pona_etymology = "perhaps a hand pointing towards the speaker. compare sina and ona"
 
+[[mi.etymology]]
+alt = ""
+definition = "I, me"
+language = "Esperanto"
+word = "mi"
+
 [mije]
-def = "he tāne"
 commentary = ""
+def = "he tāne"
 sitelen_pona_etymology = "head radical with perhaps wide shoulders. compare jan"
 
+[[mije.etymology]]
+alt = ""
+definition = "man, husband"
+language = "Finnish"
+word = "mies"
+
 [mijomi]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[mijomi.etymology]]
+alt = ""
+definition = "mije pi olin mije"
+language = "toki pona"
+word = "mije pi olin mije"
 
 [misa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[misa.etymology]]
+alt = "myshka"
+definition = "mouse (diminutive)"
+language = "Ukranian"
+word = "мишка"
 
 [misikeke]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[misikeke.etymology]]
+alt = ""
+definition = "medicine, drug"
+language = "Ojibwe"
+word = "mashkiki"
 
 [moku]
-def = "kai"
 commentary = ""
+def = "kai"
 sitelen_pona_etymology = "hand modifier + “mouth”"
 
+[[moku.etymology]]
+alt = "mogumogu"
+definition = "munching"
+language = "Japanese"
+word = "モグモグ"
+
 [moli]
-def = "mate"
 commentary = ""
+def = "mate"
 sitelen_pona_etymology = "head radical; a dead person, represented by the crossed eyes"
 
+[[moli.etymology]]
+alt = ""
+definition = "die"
+language = "Acadian French"
+word = "mourir"
+
 [molusa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[molusa.etymology]]
+alt = ""
+definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
+language = "English"
+word = "mollusk"
 
 [monsi]
-def = "muri"
 commentary = ""
+def = "muri"
 sitelen_pona_etymology = "location radical + rotate “container”. compare sinpin"
 
+[[monsi.etymology]]
+alt = ""
+definition = "my ass (vulgar)"
+language = "Acadian French"
+word = "mon tchu"
+
 [monsuta]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[monsuta.etymology]]
+alt = "monsutā"
+definition = "monster"
+language = "Japanese"
+word = "モンスター"
+
+[[monsuta.etymology]]
+alt = ""
+definition = "monster"
+language = "English"
+word = "monster"
 
 [mu]
-def = "(te tangi a ngā kararehe) | ALT (te tangi a te tangata)"
 commentary = ""
+def = "(te tangi a ngā kararehe) | ALT (te tangi a te tangata)"
 sitelen_pona_etymology = "pictogram of a mammal"
 
+[[mu.etymology]]
+alt = ""
+definition = ""
+language = "onomatopoeia"
+word = ""
+
 [mulapisu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[mulapisu.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [mun]
-def = "he marama, he mea i te rangi i te pō, he whetū | ALT huru, he rama"
 commentary = ""
+def = "he marama, he mea i te rangi i te pō, he whetū | ALT huru, he rama"
 sitelen_pona_etymology = "pictogram of a crescent moon. compare blissymbol “moon”"
 
+[[mun.etymology]]
+alt = ""
+definition = "moon"
+language = "English"
+word = "moon"
+
 [musi]
-def = "he toi, ngahau, tākaro"
 commentary = ""
+def = "he toi, ngahau, tākaro"
 sitelen_pona_etymology = "perhaps a pictogram of a smile with rosy cheeks or a lyre"
 
+[[musi.etymology]]
+alt = ""
+definition = "amuse, entertain"
+language = "Esperanto"
+word = "amuzi"
+
 [mute]
-def = "maha, tini, nui, rahi, rawa | ALT toru (nui ake rānei), 20"
 commentary = ""
+def = "maha, tini, nui, rahi, rawa | ALT toru (nui ake rānei), 20"
 sitelen_pona_etymology = "ideogram consisting of three tally marks. compare wan and tu"
 
+[[mute.etymology]]
+alt = ""
+definition = "a lot"
+language = "Esperanto"
+word = "multe"
+
 [n]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = "exclamation radical with the lowercase letter “n”"
 
+[[n.etymology]]
+alt = ""
+definition = ""
+language = "onomatopoeia"
+word = ""
+
 [nalanja]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[nalanja.etymology]]
+alt = ""
+definition = "orange"
+language = "Spanish"
+word = "naranja"
 
 [namako]
-def = ""
 commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+def = ""
 sitelen_pona_etymology = ""
+
+[[namako.etymology]]
+alt = "namak"
+definition = "salt"
+language = "Hindi"
+word = "नमक"
+
+[[namako.etymology]]
+alt = "namak"
+definition = "salt"
+language = "Persian"
+word = "نمک"
 
 [nanpa]
-def = "tua- (he tau raupapa); he tau"
 commentary = ""
+def = "tua- (he tau raupapa); he tau"
 sitelen_pona_etymology = "from number sign (#). compare blissymbol “number”"
 
+[[nanpa.etymology]]
+alt = ""
+definition = "namba ‘number, (ordinal marker)’ ← English number"
+language = "Tok Pisin"
+word = "namba"
+
 [nasa]
-def = "whanokē, rerekē; heahea; haurangi, pōrewharewha"
 commentary = ""
+def = "whanokē, rerekē; heahea; haurangi, pōrewharewha"
 sitelen_pona_etymology = "perhaps spiral representing “dizziness”, as can be commonly seen in Japanese manga and anime"
 
+[[nasa.etymology]]
+alt = ""
+definition = "dunderhead"
+language = "Tok Pisin"
+word = "nasau"
+
 [nasin]
-def = "he ara, he tikanga, he whakapono, he hātepe, he huarahi"
 commentary = ""
+def = "he ara, he tikanga, he whakapono, he hātepe, he huarahi"
 sitelen_pona_etymology = "ideogram consisting of an arrow along a vertical line"
 
+[[nasin.etymology]]
+alt = "način"
+definition = "way, method"
+language = "Serbo-Croatian"
+word = "начин"
+
 [natu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[natu.etymology]]
+alt = ""
+definition = "crossroads, four-way intersection"
+language = "Vietnamese"
+word = "ngã tư"
 
 [neja]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[neja.etymology]]
+alt = ""
+definition = "four"
+language = "Finnish"
+word = "neljä"
 
 [nele]
-def = ""
 commentary = "Meant to be antonymous to the 'cover, layer of privacy' meanings of 'len'. It can be applied both literally and metaphorically."
+def = ""
 sitelen_pona_etymology = ""
+
+[[nele.etymology]]
+alt = ""
+definition = "len (reversed)"
+language = "toki pona"
+word = "len"
 
 [nena]
-def = "he puku, he pātene, he puke, he maunga, he ihu"
 commentary = ""
+def = "he puku, he pātene, he puke, he maunga, he ihu"
 sitelen_pona_etymology = "pictogram of a convex surface. compare lupa"
 
+[[nena.etymology]]
+alt = ""
+definition = "nenä"
+language = "Finnish"
+word = "nenä"
+
 [ni]
-def = "nei, nā, rā, tēnei, ēnei, tēnā, ēnā, tērā, ērā"
 commentary = ""
+def = "nei, nā, rā, tēnei, ēnei, tēnā, ēnā, tērā, ērā"
 sitelen_pona_etymology = "an arrow"
 
+[[ni.etymology]]
+alt = "ni"
+definition = "this"
+language = "Cantonese"
+word = "呢"
+
+[[ni.etymology]]
+alt = "le"
+definition = "(continuation of a state/action)"
+language = "Tai"
+word = "哩"
+
 [nimi]
-def = "he ingoa, he kupu"
 commentary = ""
+def = "he ingoa, he kupu"
 sitelen_pona_etymology = "perhaps a pictogram of a nametag or sitelen pona cartouche"
 
+[[nimi.etymology]]
+alt = ""
+definition = "name"
+language = "Finnish"
+word = "nimi"
+
 [nimisin]
-def = ""
 commentary = "Mostly used in conversations in English. Likely was popularised by the :nimisin: emote in ma pona, which was originally used to notify Atawan (maintainer of \"nimi ale\") about newly coined words. In common speech, the meaning got extended to include most or all non-pu words, regardless if they were coined recently or not."
+def = ""
 sitelen_pona_etymology = ""
+
+[[nimisin.etymology]]
+alt = ""
+definition = "nimi sin"
+language = "toki pona"
+word = "nimi sin"
 
 [nja]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[nja.etymology]]
+alt = "nyā"
+definition = "meow (onomatopoeia)"
+language = "Japanese"
+word = "ニャー"
 
 [noka]
-def = "he waewae, he wāhi o te tinana hei neke; raro"
 commentary = "In a 2002 poll, \"jalan\" was proposed to replace \"noka\". However, it failed to get enough votes. In pu, \"noka\" has the meaning of \"place that is down\". In common usage (both before and after pu), \"anpa\" has that meaning instead. noka had speculative and/or joking use for numbers, comparable to luka: ten, twenty, negative five."
+def = "he waewae, he wāhi o te tinana hei neke; raro"
 sitelen_pona_etymology = "pictogram of a foot with an ankle"
 
+[[noka.etymology]]
+alt = "noga"
+definition = "foot, leg"
+language = "Serbo-Croatian"
+word = "нога"
+
 [nu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[nu.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [o]
-def = "e (he kupukiri, he kupu rānei hei whakaatu i te tono, i te pīrangi rānei)"
 commentary = ""
+def = "e (he kupukiri, he kupu rānei hei whakaatu i te tono, i te pīrangi rānei)"
 sitelen_pona_etymology = "exclamation radical + Latin lowercase letter O. compare a"
 
+[[o.etymology]]
+alt = "-o"
+definition = "(vocative suffix)"
+language = "Georgian"
+word = "-ო"
+
 [ojuta]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[ojuta.etymology]]
+alt = ""
+definition = "o uta (e sike mi)"
+language = "toki pona"
+word = "o uta"
 
 [oke]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[oke.etymology]]
+alt = ""
+definition = "okay"
+language = "English"
+word = "okay"
 
 [okepuma]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[okepuma.etymology]]
+alt = ""
+definition = "okay boomer"
+language = "English"
+word = "okay boomer"
 
 [oki]
-def = ""
 commentary = "Though it may have many possible origins, it was first coined in a small group chat. It is mostly used as a variant of the toki pona words \"oke\" and \"ke\""
+def = ""
 sitelen_pona_etymology = ""
+
+[[oki.etymology]]
+alt = ""
+definition = "okay"
+language = "English"
+word = "okie"
 
 [oko]
-def = ""
 commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances."
+def = ""
 sitelen_pona_etymology = "eye from a side"
 
+[[oko.etymology]]
+alt = "око"
+definition = "eye"
+language = "Serbo-Croatian"
+word = "оko"
+
 [olin]
-def = "aroha, whakaute"
 commentary = "In english, \"love\" can be used to mean \"like a lot\", but in toki pona, \"olin\" doesn't work that way. It indicates an emotional connection or bond, not preference"
+def = "aroha, whakaute"
 sitelen_pona_etymology = "two heart symbols (♡), perhaps to distinguish from pilin"
 
+[[olin.etymology]]
+alt = "volim"
+definition = "I love"
+language = "Serbo-Croatian"
+word = "волим"
+
 [omekalike]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[omekalike.etymology]]
+alt = ""
+definition = "o moku e kala ike"
+language = "toki pona"
+word = "o moku e kala ike"
 
 [omekapo]
-def = ""
 commentary = "Coined by jan Maliku in reference to the message \"o moku e kala pona\", which jan Sonja wrote on their copy of Toki Pona: The Language of Good during a Texas meetup."
+def = ""
 sitelen_pona_etymology = ""
+
+[[omekapo.etymology]]
+alt = ""
+definition = "o moku e kala pona"
+language = "toki pona"
+word = "o moku e kala pona"
 
 [omen]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[omen.etymology]]
+alt = ""
+definition = "o.m.e.m. ← o moli e mi {cf. English kill me}"
+language = "toki pona"
+word = "o moli e mi"
 
 [ona]
-def = "ia, rāua, rātou"
 commentary = "Coined in a poll in 2002. Replaced \"iki\", which was deemed too similar to \"ike\". Other options in the poll included \"ipi\", as well as \"i\" in a previous poll."
+def = "ia, rāua, rātou"
 sitelen_pona_etymology = "perhaps a hand pointing sideways. compare mi and sina"
 
+[[ona.etymology]]
+alt = "ona"
+definition = "she"
+language = "Serbo-Croatian"
+word = "она"
+
 [oni]
-def = ""
 commentary = "This word is deprecated by the creator; it is considered part of the \"toki oni\" tokiponido instead.\nThe pronunciation of the second syllable was due to personal preferences of the creator, not modern Greek."
+def = ""
 sitelen_pona_etymology = ""
+
+[[oni.etymology]]
+alt = "oneiroi"
+definition = "(personifications of) dreams"
+language = "Ancient Greek"
+word = "ὄνειροι"
 
 [open]
-def = "tīmata; huaki; whakakā"
 commentary = "Some proficient speakers use open as a preverb that means \"to start,\" that goes along with the complimentary pini preverb \"to stop\""
+def = "tīmata; huaki; whakakā"
 sitelen_pona_etymology = "perhaps a pictogram of an opened container"
 
+[[open.etymology]]
+alt = ""
+definition = "open"
+language = "English"
+word = "open"
+
 [owe]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[owe.etymology]]
+alt = ""
+definition = "George Orwell, author of 1984"
+language = "English"
+word = "Orwell"
 
 [pa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pa.etymology]]
+alt = ""
+definition = "bruh"
+language = "English"
+word = "bruh"
 
 [pakala]
-def = "pakaru, riwha | ALT (he ohoreretanga — hei tauira, “hika mā”)"
 commentary = ""
+def = "pakaru, riwha | ALT (he ohoreretanga — hei tauira, “hika mā”)"
 sitelen_pona_etymology = "pictogram of a cracked object"
 
+[[pakala.etymology]]
+alt = ""
+definition = "accident"
+language = "Tok Pisin"
+word = "bagarap"
+
 [pake]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pake.etymology]]
+alt = ""
+definition = "block"
+language = "English"
+word = "block"
 
 [pakola]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pakola.etymology]]
+alt = ""
+definition = ""
+language = "toki pona"
+word = "pakala"
 
 [pali]
-def = "mahi, hanga, whakarite"
 commentary = ""
+def = "mahi, hanga, whakarite"
 sitelen_pona_etymology = "hand modifier + ijo"
 
+[[pali.etymology]]
+alt = ""
+definition = "do, make"
+language = "Esperanto"
+word = "fari"
+
 [palisa]
-def = "he mea roa, mārō hoki; he rākau, he pou"
 commentary = ""
+def = "he mea roa, mārō hoki; he rākau, he pou"
 sitelen_pona_etymology = "pictogram of a stick"
 
+[[palisa.etymology]]
+alt = "palica"
+definition = "bat, rod, cane"
+language = "Serbo-Croatian"
+word = "палица"
+
 [pan]
-def = "he huapata; he pāre, he kānga, he ōti, he raihi, he witi; he rewena, he parāoa, he parāoa rimurapa"
 commentary = ""
+def = "he huapata; he pāre, he kānga, he ōti, he raihi, he witi; he rewena, he parāoa, he parāoa rimurapa"
 sitelen_pona_etymology = "perhaps a pictogram of a grain crop"
 
+[[pan.etymology]]
+alt = ""
+definition = "bread"
+language = "Romance"
+word = "pan"
+
+[[pan.etymology]]
+alt = "pan"
+definition = "bread"
+language = "Japanese"
+word = "パン"
+
+[[pan.etymology]]
+alt = ""
+definition = "bread"
+language = "Portuguese"
+word = "pão"
+
 [pana]
-def = "homai, hoatu, tuku, pana, whakarawe, maka, wewete"
 commentary = ""
+def = "homai, hoatu, tuku, pana, whakarawe, maka, wewete"
 sitelen_pona_etymology = "emission modifier + luka"
 
+[[pana.etymology]]
+alt = ""
+definition = "put, set, place"
+language = "Finnish"
+word = "panna"
+
 [pasila]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pasila.etymology]]
+alt = ""
+definition = "easy"
+language = "Acadian French"
+word = "facile"
 
 [pata]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pata.etymology]]
+alt = "brat"
+definition = "brother"
+language = "Serbo-Croatian"
+word = "брат"
+
+[[pata.etymology]]
+alt = ""
+definition = "sibling or cousin of the same gender"
+language = "Tok Pisin"
+word = "brata"
+
+[[pata.etymology]]
+alt = ""
+definition = "brother"
+language = "English"
+word = "brother"
 
 [peta]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[peta.etymology]]
+alt = ""
+definition = "verda"
+language = "Esperanto"
+word = "verda"
 
 [peto]
-def = ""
 commentary = "This word is deprecated by the creator."
+def = ""
 sitelen_pona_etymology = ""
+
+[[peto.etymology]]
+alt = ""
+definition = "pana e telo oko"
+language = "toki pona"
+word = "pana e telo oko"
 
 [pi]
-def = "(e whakamahia ana hei motu i te rōpū kupu tuarua, i te rōpū tuatahi, kia whakarerekētia te tuatahi e te tuarua) | ALT (hei whakaatu i te tūingoa riro)"
 commentary = "The usage of \"pi\" to mean \"of\" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases."
+def = "(e whakamahia ana hei motu i te rōpū kupu tuarua, i te rōpū tuatahi, kia whakarerekētia te tuatahi e te tuarua) | ALT (hei whakaatu i te tūingoa riro)"
 sitelen_pona_etymology = "perhaps from tilted blissymbol “by”"
 
+[[pi.etymology]]
+alt = ""
+definition = "of"
+language = "Tok Pisin"
+word = "bilong"
+
 [pika]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pika.etymology]]
+alt = "Pikachū"
+definition = "Pikachū, an electric Pokémon"
+language = "Japanese"
+word = "ピカチュウ"
 
 [pilin]
-def = "he manawa (ā-tinana, kare ā-roto rānei); he aurongo (he kare ā-roto, he wheako torotika), rongo"
 commentary = ""
+def = "he manawa (ā-tinana, kare ā-roto rānei); he aurongo (he kare ā-roto, he wheako torotika), rongo"
 sitelen_pona_etymology = "from heart symbol (♡). compare blissymbol “feeling”"
 
+[[pilin.etymology]]
+alt = ""
+definition = "feel"
+language = "Tok Pisin"
+word = "pilim"
+
 [pimeja]
-def = "pango, mangu, pōuri, pō"
 commentary = ""
+def = "pango, mangu, pōuri, pō"
 sitelen_pona_etymology = "color radical; perhaps the cross representing the absence of light"
 
+[[pimeja.etymology]]
+alt = ""
+definition = "dark"
+language = "Finnish"
+word = "pimeä"
+
 [Pingo]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[Pingo.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [pini]
-def = "mua, oti, mutu"
 commentary = "Some proficient speakers use pini as a preverb that means \"to stop,\" that goes along with the complimentary open preverb \"to start\""
+def = "mua, oti, mutu"
 sitelen_pona_etymology = "perhaps a blocking wall"
 
+[[pini.etymology]]
+alt = ""
+definition = "finished, completed"
+language = "Acadian French"
+word = "fini"
+
 [pipi]
-def = "he pepeke, he upokorua, he pūngāwere"
 commentary = ""
+def = "he pepeke, he upokorua, he pūngāwere"
 sitelen_pona_etymology = "animal radical; pictogram of a bug"
 
+[[pipi.etymology]]
+alt = ""
+definition = "bug"
+language = "Acadian French"
+word = "bibitte"
+
 [pipo]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[pipo.etymology]]
+alt = ""
+definition = "pipi"
+language = "toki pona"
+word = "pipi"
 
 [po]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = "Arabic numeral 4"
 
+[[po.etymology]]
+alt = ""
+definition = "four"
+language = "English"
+word = "four"
+
 [poka]
-def = "he hope, he taha; tata | ALT me"
 commentary = ""
+def = "he hope, he taha; tata | ALT me"
 sitelen_pona_etymology = "location radical + “container”"
 
+[[poka.etymology]]
+alt = "бока"
+definition = "side, flank (genitive)"
+language = "Serbo-Croatian"
+word = "boka"
+
 [poki]
-def = "he ipu, he kete, he oko, he pouaka, he kapu, he kāpata, he toroa"
 commentary = ""
+def = "he ipu, he kete, he oko, he pouaka, he kapu, he kāpata, he toroa"
 sitelen_pona_etymology = "pictogram of a container"
 
+[[poki.etymology]]
+alt = ""
+definition = "box, female genitalia (vulgar)"
+language = "Tok Pisin"
+word = "bokis"
+
 [polinpin]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[polinpin.etymology]]
+alt = ""
+definition = "bowling pin"
+language = "English"
+word = "bowling pin"
 
 [pomotolo]
-def = ""
 commentary = "From the time management method developed by Francesco Cirillo in Berlin in the 1980s, for which people often used tomato-shaped timers. In ku, \"pomotolo\" was given as one of the translations of \"tomato\", presumably due to speakers misusing or misunderstanding the word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[pomotolo.etymology]]
+alt = ""
+definition = "tomato"
+language = "Italian"
+word = "pomodoro"
 
 [pona]
-def = "pai, whai hua; hoahoa, mārie; māmā"
 commentary = ""
+def = "pai, whai hua; hoahoa, mārie; māmā"
 sitelen_pona_etymology = "pictogram of a smiling mouth. compare ike"
 
+[[pona.etymology]]
+alt = ""
+definition = "good"
+language = "Esperanto"
+word = "bona"
+
 [poni]
-def = ""
 commentary = "Occasionally comes up as a jokish corruption of \"pona\" (especially in a phrase \"toki poni\")."
+def = ""
 sitelen_pona_etymology = ""
+
+[[poni.etymology]]
+alt = ""
+definition = "pony"
+language = "English"
+word = "pony"
 
 [powe]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[powe.etymology]]
+alt = ""
+definition = "not true"
+language = "Acadian French"
+word = "pas vrai"
 
 [pu]
-def = "whakamahi i te tino pukapuka Toki Pona"
 commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+def = "whakamahi i te tino pukapuka Toki Pona"
 sitelen_pona_etymology = "pictogram of the cover of the book “Toki Pona: The Language of Good”. Alternatively a semantic compound glyph of lipu and toki pona"
 
+[[pu.etymology]]
+alt = "pǔ"
+definition = "unworked wood, sincere, honest, inherent quality, simple"
+language = "Mandarin"
+word = "樸"
+
+[[pu.etymology]]
+alt = ""
+definition = "book"
+language = "English"
+word = "book"
+
 [puwa]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[puwa.etymology]]
+alt = "fuwafuwa"
+definition = "fluffy things (onomatopoeia)"
+language = "Japanese"
+word = "ふわふわ"
 
 [sama]
-def = "ōrite; tētahi ki tētahi; he tuakana, he teina, he hoa; e rite ana ki, pēnei me, pēnā me, pērā me"
 commentary = ""
+def = "ōrite; tētahi ki tētahi; he tuakana, he teina, he hoa; e rite ana ki, pēnei me, pēnā me, pērā me"
 sitelen_pona_etymology = "from equal sign (=). compare blissymbol “same”"
 
+[[sama.etymology]]
+alt = ""
+definition = "same"
+language = "Finnish"
+word = "sama"
+
 [samu]
-def = ""
 commentary = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[samu.etymology]]
+alt = ""
+definition = "jan Samu"
+language = "toki pona"
+word = "jan Samu"
 
 [san]
-def = ""
 commentary = "More popular than the synonymous (and older) tuli.\nsan was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the dictionary."
+def = ""
 sitelen_pona_etymology = ""
+
+[[san.etymology]]
+alt = "san"
+definition = "three"
+language = "Japanese"
+word = "三"
+
+[[san.etymology]]
+alt = "sāam"
+definition = "three"
+language = "Cantonese"
+word = "三"
+
+[[san.etymology]]
+alt = "sāam"
+definition = "three"
+language = "Cantonese"
+word = "叁"
 
 [seli]
-def = "he ahi, wera; he tauhohe matū, he pūtake wera"
 commentary = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+def = "he ahi, wera; he tauhohe matū, he pūtake wera"
 sitelen_pona_etymology = "perhaps a pictogram of a lit campfire or a simplified pictogram of a fire"
 
+[[seli.etymology]]
+alt = "cxeli"
+definition = "hot"
+language = "Georgian"
+word = "ცხელი"
+
 [selo]
-def = "waho; he kiri, he anga; he tapa"
 commentary = ""
+def = "waho; he kiri, he anga; he tapa"
 sitelen_pona_etymology = ""
+
+[[selo.etymology]]
+alt = ""
+definition = "skin, peel"
+language = "Esperanto"
+word = "ŝelo"
 
 [seme]
-def = "aha? tēhea? ēhea?"
 commentary = ""
+def = "aha? tēhea? ēhea?"
 sitelen_pona_etymology = "from question mark (?). compare blissymbol “what”"
 
+[[seme.etymology]]
+alt = "shénme"
+definition = "what, something"
+language = "Mandarin"
+word = "什麼"
+
 [sewi]
-def = "runga, teitei, he mea i runga; mīharo, tapu"
 commentary = ""
-sitelen_pona_etymology = "from arabic ١ّللَه\u200e “allah”"
+def = "runga, teitei, he mea i runga; mīharo, tapu"
+sitelen_pona_etymology = "from arabic ١ّللَه‎ “allah”"
+
+[[sewi.etymology]]
+alt = "zevit"
+definition = "upwards"
+language = "Georgian"
+word = "ზევით"
 
 [sijelo]
-def = "he tinana, he tūranga o te tinana"
 commentary = ""
+def = "he tinana, he tūranga o te tinana"
 sitelen_pona_etymology = "perhaps a pictogram of a torso"
 
+[[sijelo.etymology]]
+alt = "tijelo"
+definition = "body"
+language = "Serbo-Croatian"
+word = "тијело"
+
 [sike]
-def = "he mea porotaka; he pōro, he porowhita, huri, he poi, he wīra; kotahi tau"
 commentary = ""
+def = "he mea porotaka; he pōro, he porowhita, huri, he poi, he wīra; kotahi tau"
 sitelen_pona_etymology = "two circles, perhaps to distinguish from ijo. alternatively outline of a thick empty circle"
 
+[[sike.etymology]]
+alt = ""
+definition = "circle"
+language = "English"
+word = "circle"
+
 [sikomo]
-def = ""
 commentary = "Coined in reference to the Travis Scott song ‘Sicko Mode’."
+def = ""
 sitelen_pona_etymology = ""
+
+[[sikomo.etymology]]
+alt = ""
+definition = "sicko mode"
+language = "English"
+word = "sicko mode"
 
 [sin]
-def = "hou, whakahou; tāpiri, tētahi atu, kē"
 commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+def = "hou, whakahou; tāpiri, tētahi atu, kē"
 sitelen_pona_etymology = ""
+
+[[sin.etymology]]
+alt = "xīn"
+definition = "new, fresh"
+language = "Mandarin"
+word = "新"
 
 [sina]
-def = "koe, kōrua, koutou"
 commentary = ""
+def = "koe, kōrua, koutou"
 sitelen_pona_etymology = "perhaps a hand pointing towards the listener. compare mi and ona"
 
+[[sina.etymology]]
+alt = ""
+definition = "you"
+language = "Finnish"
+word = "sinä"
+
 [sinpin]
-def = "he mata, mua, he pātū"
 commentary = ""
+def = "he mata, mua, he pātū"
 sitelen_pona_etymology = "location radical + rotate “container”. compare monsi"
 
+[[sinpin.etymology]]
+alt = "tsin bin"
+definition = "in front"
+language = "Cantonese"
+word = "前邊"
+
 [sipi]
-def = ""
 commentary = "Proposed on a forum and quickly forgotten. Notable only for being an early non pu word proposal."
+def = ""
 sitelen_pona_etymology = ""
+
+[[sipi.etymology]]
+alt = ""
+definition = "sibi (dative reflexive pronoun)"
+language = "Latin"
+word = "sibi (dative reflexive pronoun)"
 
 [sitelen]
-def = "he pikitia, he whakaahua, he tohu, tuhi"
 commentary = ""
+def = "he pikitia, he whakaahua, he tohu, tuhi"
 sitelen_pona_etymology = "perhaps a representation of symbols on a piece of paper (lipu)"
 
+[[sitelen.etymology]]
+alt = ""
+definition = "paint"
+language = "Dutch"
+word = "schilderen"
+
 [slape]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[slape.etymology]]
+alt = ""
+definition = "sleep"
+language = "toki pona"
+word = "lape"
 
 [soko]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = "mushroom"
 
+[[soko.etymology]]
+alt = "sok’o"
+definition = "mushroom"
+language = "Georgian"
+word = "სოკო"
+
 [sona]
-def = "mōhio, mātau, maumahara, mārama"
 commentary = ""
+def = "mōhio, mātau, maumahara, mārama"
 sitelen_pona_etymology = "emission modifier + lipu"
 
+[[sona.etymology]]
+alt = "codna"
+definition = "knowledge"
+language = "Georgian"
+word = "ცოდნა"
+
 [soto]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[soto.etymology]]
+alt = ""
+definition = "left side"
+language = "Swahili"
+word = "shoto"
 
 [soweli]
-def = "he kararehe, he kurī"
 commentary = ""
+def = "he kararehe, he kurī"
 sitelen_pona_etymology = "animal radical; pictogram of a mammal"
 
+[[soweli.etymology]]
+alt = "cxoveli"
+definition = "beastly animal, lively, passionate"
+language = "Georgian"
+word = "ცხოველი"
+
 [su]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[su.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [suke]
-def = ""
 commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[suke.etymology]]
+alt = ""
+definition = ""
+language = "toki pona"
+word = "typo of sike"
 
 [suli]
-def = "nui, rahi, taumaha, roa, teitei; matua"
 commentary = ""
+def = "nui, rahi, taumaha, roa, teitei; matua"
 sitelen_pona_etymology = "ideogram showing bigger size compared to lili"
 
+[[suli.etymology]]
+alt = ""
+definition = "big, large, great"
+language = "Finnish"
+word = "suuri"
+
 [suno]
-def = "he rā; he rama, whiti, huru, ao, pīata; he pūtake rama"
 commentary = ""
+def = "he rā; he rama, whiti, huru, ao, pīata; he pūtake rama"
 sitelen_pona_etymology = "pictogram of the sun"
 
+[[suno.etymology]]
+alt = ""
+definition = "sun"
+language = "Esperanto"
+word = "suno"
+
 [supa]
-def = "he papa, he pae, he nohoanga, he tūru, he moenga"
 commentary = ""
+def = "he papa, he pae, he nohoanga, he tūru, he moenga"
 sitelen_pona_etymology = "pictogram of a table. compare blissymbol “table”"
 
+[[supa.etymology]]
+alt = ""
+definition = "surface"
+language = "Esperanto"
+word = "surfaco"
+
 [sutopatikuna]
-def = ""
 commentary = "Coined by Alexandre Baudry in 2009 in response to jan Sonja coining \"kijetesantakalu\" as part of 2009's April Fools."
+def = ""
 sitelen_pona_etymology = ""
+
+[[sutopatikuna.etymology]]
+alt = ""
+definition = "platypus, lit. strange beak"
+language = "Serbo-Croatian"
+word = "čudnovati kljunaš"
 
 [suwi]
-def = "reka, kakara; tau, mateoha"
 commentary = ""
+def = "reka, kakara; tau, mateoha"
 sitelen_pona_etymology = "perhaps a pictogram of a smiling face"
 
+[[suwi.etymology]]
+alt = ""
+definition = "sweet"
+language = "Tok Pisin"
+word = "swit"
+
 [taki]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[taki.etymology]]
+alt = "tag"
+definition = "the sound of two magnets hitting each other (onomatopoiea)"
+language = "Korean"
+word = "탁"
 
 [tan]
-def = "nō, nā, nā te mea; he pū, he pūtake"
 commentary = ""
+def = "nō, nā, nā te mea; he pū, he pūtake"
 sitelen_pona_etymology = "a leaping arrow pointing from right to left, implying derivation or cause"
 
+[[tan.etymology]]
+alt = "tsung"
+definition = "from"
+language = "Cantonese"
+word = "從"
+
 [taso]
-def = "engari, otirā, heoi; anake, noa"
 commentary = "Many proficient speakers use taso as a connector between sentences (X taso Y), similar to \"X, but Y,\" though others do not use this method."
+def = "engari, otirā, heoi; anake, noa"
 sitelen_pona_etymology = "from blissymbol “but”"
 
+[[taso.etymology]]
+alt = ""
+definition = "just, only, but, however"
+language = "Tok Pisin"
+word = "tasol"
+
 [tawa]
-def = "haere, ki; mō, mā; neke"
 commentary = ""
+def = "haere, ki; mō, mā; neke"
 sitelen_pona_etymology = "motion radical; legs facing to the right. compare kama and blissymbol “walk”"
 
+[[tawa.etymology]]
+alt = ""
+definition = "toward"
+language = "English"
+word = "toward"
+
 [te]
-def = ""
 commentary = "May be paired with \"to\", or used on its own. It is unclear how accepted either approach is among te / to users."
+def = ""
 sitelen_pona_etymology = ""
+
+[[te.etymology]]
+alt = "tte"
+definition = "(quotative)"
+language = "Japanese"
+word = "って"
 
 [teje]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[teje.etymology]]
+alt = ""
+definition = "right"
+language = "Welsh"
+word = "de"
 
 [telo]
-def = "he wai"
 commentary = ""
+def = "he wai"
 sitelen_pona_etymology = "pictogram of wave. compare blissymbol “water”"
 
+[[telo.etymology]]
+alt = ""
+definition = "(some) water"
+language = "Acadian French"
+word = "de l’eau"
+
 [ten]
-def = ""
 commentary = "Out of use."
+def = ""
 sitelen_pona_etymology = ""
+
+[[ten.etymology]]
+alt = ""
+definition = "time"
+language = "toki pona"
+word = "tenpo"
 
 [tenpo]
-def = "he wā, he pūāhua"
 commentary = ""
+def = "he wā, he pūāhua"
 sitelen_pona_etymology = "pictogram of a clock. compare blissymbol “time”"
 
+[[tenpo.etymology]]
+alt = ""
+definition = "time"
+language = "Esperanto"
+word = "tempo"
+
 [to]
-def = ""
 commentary = "May be paired with \"te\", or used on its own. It is unclear how accepted either approach is among te / to users."
+def = ""
 sitelen_pona_etymology = ""
+
+[[to.etymology]]
+alt = "to"
+definition = "(quotative)"
+language = "Japanese"
+word = "と"
 
 [tokana]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[tokana.etymology]]
+alt = ""
+definition = "attention, focus"
+language = "Tongan"
+word = "tokanga"
 
 [toki]
-def = "kī, kōrero, he reo, whakaaro; kia ora"
 commentary = ""
+def = "kī, kōrero, he reo, whakaaro; kia ora"
 sitelen_pona_etymology = "emission modifier + ijo or a general circle"
 
+[[toki.etymology]]
+alt = ""
+definition = "talk"
+language = "Tok Pisin"
+word = "tok"
+
 [toma]
-def = ""
 commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+def = ""
 sitelen_pona_etymology = ""
+
+[[toma.etymology]]
+alt = ""
+definition = ""
+language = "toki pona"
+word = "typo of tomo"
 
 [tomo]
-def = "he whare, he kāinga, he rūma"
 commentary = ""
+def = "he whare, he kāinga, he rūma"
 sitelen_pona_etymology = "pictogram of a house. compare blissymbol “house”"
 
+[[tomo.etymology]]
+alt = ""
+definition = "house"
+language = "Esperanto"
+word = "domo"
+
 [tonsi]
-def = ""
 commentary = "Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an \"honorary pu word\" to highlight its status, or equated to a pu word outright."
+def = ""
 sitelen_pona_etymology = ""
+
+[[tonsi.etymology]]
+alt = "tóngzhì"
+definition = "comrade (same will/purpose), LGBT+"
+language = "Mandarin"
+word = "同志"
 
 [tu]
-def = "rua | ALT motu, tohi, koti"
 commentary = ""
+def = "rua | ALT motu, tohi, koti"
 sitelen_pona_etymology = "two tally marks. compare mute and wan"
 
+[[tu.etymology]]
+alt = ""
+definition = "two"
+language = "English"
+word = "two"
+
 [tuli]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[tuli.etymology]]
+alt = ""
+definition = "three"
+language = "English"
+word = "three"
 
 [u]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[u.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
 
 [umesu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[umesu.etymology]]
+alt = ""
+definition = "to amaze (someone), surprise, impress"
+language = "Iqglic"
+word = "Umeyz"
 
 [unpa]
-def = "moe, mahimahi"
 commentary = "Also defined as \"have marital relations with\" in pu; removed due to potential confusion."
+def = "moe, mahimahi"
 sitelen_pona_etymology = "perhaps a derivation of heart symbol (especially visible from the original drawing of the character), or a knot pattern implying intercourse, or perhaps a pictogram of a genitalia"
 
+[[unpa.etymology]]
+alt = ""
+definition = ""
+language = "onomatopoeia"
+word = ""
+
 [unu]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[unu.etymology]]
+alt = ""
+definition = "purple"
+language = "Malay-Indonesian"
+word = "ungu"
 
 [usawi]
-def = ""
 commentary = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
+def = ""
 sitelen_pona_etymology = ""
+
+[[usawi.etymology]]
+alt = ""
+definition = "witchcraft, sorcery"
+language = "Swahili"
+word = "uchawi"
 
 [uta]
-def = "he waha, he ngutu, he kauae"
 commentary = "The dot in the \"uta\" sitelen pona is to distinguish luka-uta from moku."
+def = "he waha, he ngutu, he kauae"
 sitelen_pona_etymology = "“mouth” with a dot below"
 
+[[uta.etymology]]
+alt = "usta"
+definition = "mouth"
+language = "Serbo-Croatian"
+word = "уста"
+
 [utala]
-def = "he pakanga, he wero, whakataetae, whawhai"
 commentary = ""
+def = "he pakanga, he wero, whakataetae, whawhai"
 sitelen_pona_etymology = "perhaps from crossed swords symbol (⚔️)"
 
+[[utala.etymology]]
+alt = "udarati"
+definition = "strike, hit, beat"
+language = "Serbo-Croatian"
+word = "ударати"
+
 [wa]
-def = ""
 commentary = "Sometimes analyzed as a variety of \"a\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[wa.etymology]]
+alt = ""
+definition = ""
+language = "onomatopoeia"
+word = ""
 
 [waleja]
-def = ""
 commentary = "May be used as a preposition, e.g. \"lipu waleja toki pona = a book about toki pona\". However, this usage is very rare."
+def = ""
 sitelen_pona_etymology = ""
+
+[[waleja.etymology]]
+alt = ""
+definition = "of moment, important"
+language = "Quenya"
+word = "valdea"
 
 [walo]
-def = "mā, tea"
 commentary = ""
+def = "mā, tea"
 sitelen_pona_etymology = "color radical; perhaps the reverse of pimeja, the color radical cutting of the cross instead of vice versa"
 
+[[walo.etymology]]
+alt = ""
+definition = "white"
+language = "Finnish"
+word = "valko"
+
 [wan]
-def = "tūhāhā, tapatahi; tahi"
 commentary = ""
+def = "tūhāhā, tapatahi; tahi"
 sitelen_pona_etymology = "one tally mark or Indo-Arabic numeral 1, perhaps to make it more distinct"
 
+[[wan.etymology]]
+alt = ""
+definition = "one"
+language = "English"
+word = "one"
+
 [waso]
-def = "he manu, he peka"
 commentary = ""
+def = "he manu, he peka"
 sitelen_pona_etymology = "animal radical; pictogram of a bird"
 
+[[waso.etymology]]
+alt = ""
+definition = "bird"
+language = "Acadian French"
+word = "oiseau"
+
 [wasoweli]
-def = ""
 commentary = "First used as the name for a species in a mod for Caves of Qud created by akesi kon Nalasuni. Later appeared in ku as exclusively part of a translation for \"penguin\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[wasoweli.etymology]]
+alt = ""
+definition = "waso soweli, soweli waso"
+language = "toki pona"
+word = "waso + soweli"
 
 [wawa]
-def = "kaha, he ngoi; māia, he ngākau titikaha; hihiko, tere"
 commentary = ""
+def = "kaha, he ngoi; māia, he ngākau titikaha; hihiko, tere"
 sitelen_pona_etymology = "perhaps a pictogram of a person with raised arms, to signify strength"
 
+[[wawa.etymology]]
+alt = ""
+definition = "strong, powerful, thick"
+language = "Finnish"
+word = "vahva"
+
 [wawajete]
-def = ""
 commentary = "Coined in reference to wuwojiti, a sequence of all phonotactically unviable CV syllables in toki pona."
+def = ""
 sitelen_pona_etymology = ""
+
+[[wawajete.etymology]]
+alt = ""
+definition = ""
+language = "toki pona"
+word = "wuwojiti"
 
 [we]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[we.etymology]]
+alt = ""
+definition = "man"
+language = "Spanish"
+word = "güey"
 
 [we1]
-def = ""
 commentary = "Out of use."
+def = ""
 sitelen_pona_etymology = ""
+
+[[we1.etymology]]
+alt = ""
+definition = "man"
+language = "Spanish"
+word = "güey"
 
 [weka]
-def = "ngaro, mahue, waiho, tango"
 commentary = ""
+def = "ngaro, mahue, waiho, tango"
 sitelen_pona_etymology = "“poof lines”; indicating the movement of something disappearing"
 
+[[weka.etymology]]
+alt = ""
+definition = "away, gone"
+language = "Dutch"
+word = "weg"
+
 [wekama]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[wekama.etymology]]
+alt = ""
+definition = "weka kama"
+language = "toki pona"
+word = "weka kama"
 
 [wi]
-def = ""
 commentary = ""
+def = ""
 sitelen_pona_etymology = ""
+
+[[wi.etymology]]
+alt = ""
+definition = "we"
+language = "English"
+word = "we"
 
 [wile]
-def = "me, hiahia, pīrangi, tūmanako"
 commentary = ""
+def = "me, hiahia, pīrangi, tūmanako"
 sitelen_pona_etymology = "perhaps from Latin letter W"
 
+[[wile.etymology]]
+alt = ""
+definition = "want, desire"
+language = "Dutch"
+word = "willen"
+
 [wuwojiti]
-def = ""
 commentary = "May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the \"banned\" syllables."
+def = ""
 sitelen_pona_etymology = ""
+
+[[wuwojiti.etymology]]
+alt = ""
+definition = "(sound)"
+language = "toki pona"
+word = "wu"
 
 [yupekosi]
-def = ""
 commentary = "Coined as a random keystroke. It is presumed jan Sonja used \"y\" by mistake, but then make it part of the joke by adding \"nobody knows how to pronounce the y\"."
+def = ""
 sitelen_pona_etymology = ""
 
+[[yupekosi.etymology]]
+alt = ""
+definition = ""
+language = "a priori"
+word = ""
+
 [yutu]
-def = ""
 commentary = "The \"y\" was a typo and was meant to be \"j\", but got kept in anyway; compare \"yupekosi\"."
+def = ""
 sitelen_pona_etymology = ""
+
+[[yutu.etymology]]
+alt = ""
+definition = "star"
+language = "Turkish"
+word = "yıldız"
