@@ -13,20 +13,12 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .github/workflows/
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
+      - name: Validate translations
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{vars.GITHUB_SHA || 'main'}}/schemas/translation.schema.json ./translations/*.toml
 
-      - name: Install Dependencies
-        run: python -m pip install --upgrade pip setuptools wheel jsonschema
-
-      - name: Validate Files
-        run: python validate_toml.py
+      - name: Validate words.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{vars.GITHUB_SHA || 'main'}}/schemas/words.schema.json ./words.toml
