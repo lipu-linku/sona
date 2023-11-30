@@ -121,6 +121,11 @@ def main():
             for field in TRANSLATION_MAP:
                 fetched = data[word].get(field)
                 formatted = TRANSLATION_MAP[field](word, fetched)
+
+                # TODO: key-aware transform
+                if field == "etymology_data":
+                    field = "etymology"
+
                 if formatted is not None:
                     translations[lang][word][field] = formatted
 
