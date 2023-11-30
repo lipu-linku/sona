@@ -1,0 +1,37 @@
+name: Generate JSON Schemas
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./schemas
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: |
+            - args: [--frozen-lockfile]
+
+      - name: Generate JSON Schemas
+        run: pnpm run generate:schemas
+
+      - name: Commit schemas
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generated schemas for ${{ vars.GITHUB_SHA }}"
+          push: true

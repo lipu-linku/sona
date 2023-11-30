@@ -1,0 +1,42 @@
+{
+	"name": "@linku/sona",
+	"version": "0.1.0",
+	"description": "A library providing TypeScript types for the sona API",
+	"homepage": "https://linku.la/",
+	"bugs": {
+		"url": "https://github.com/lipu-linku/sona/issues/"
+	},
+	"license": "GPL-3.0-or-later",
+	"contributors": [
+		{
+			"name": "TheOnlyTails",
+			"url": "https://theonlytails.com/",
+			"email": "theonlytails@theonlytails.com"
+		},
+		{
+			"name": "gregdan3 (jan Kekan San)",
+			"url": "https://gregdan3.dev/",
+			"email": "gregdan3@protonmail.com"
+		}
+	],
+	"repository": {
+		"url": "https://github.com/lipu-linku/sona.git",
+		"directory": "schemas",
+		"type": "git"
+	},
+	"scripts": {
+		"generate:schemas": "node generateSchemas.js",
+		"build": "tsup src/**/*.ts --dts-only --format esm"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.1",
+		"prettier": "^3.1.0",
+		"ts-json-schema-generator": "^1.4.1",
+		"tsup": "^8.0.1"
+	},
+	"engines": {
+		"pnpm": ">=8"
+	},
+	"packageManager": "pnpm@8.11.0",
+	"type": "module"
+}
