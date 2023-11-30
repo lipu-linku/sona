@@ -1,21 +1,53 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://linku.la/sona/schemas/translation.schema.json",
   "title": "sona Translation file",
   "description": "Localized metadata for a Toki Pona word",
   "type": "object",
-  "properties": {
-    "def": {
-      "description": "The definition of the word",
-      "type": "string"
+  "additionalProperties": {
+    "properties": {
+      "commentary": {
+        "description": "Extra information regarding the word",
+        "type": "string"
+      },
+      "def": {
+        "description": "The definition of the word",
+        "type": "string"
+      },
+      "etymology": {
+        "description": "Information about the word's origin through other languages",
+        "items": {
+          "properties": {
+            "alt": {
+              "description": "The \"word\" field transliterated in Latin characters",
+              "type": "string"
+            },
+            "definition": {
+              "description": "The definition of the word in its origin language",
+              "type": "string"
+            },
+            "language": {
+              "description": "The word's origin language",
+              "type": "string"
+            },
+            "word": {
+              "description": "The word written out in its original script",
+              "type": "string"
+            }
+          },
+          "type": "object",
+          "required": ["language"],
+          "additionalProperties": false
+        },
+        "type": "array"
+      },
+      "sitelen_pona_etymology": {
+        "description": "The etymology of the word's sitelen pona glyph",
+        "type": "string"
+      }
     },
-    "commentary": {
-      "description": "Extra information regarding the word",
-      "type": "string"
-    },
-    "sitelen_pona_etymology": {
-      "description": "The etymology of the word's sitelen pona glyph",
-      "type": "string"
-    }
+    "type": "object",
+    "required": ["def"],
+    "additionalProperties": false
   }
 }
