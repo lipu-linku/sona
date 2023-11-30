@@ -1,0 +1,66 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["pini", "kipisi"]
+sitelen_emosi = "💥"
+sitelen_pona = ["pakala"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pakala.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F1948"
+usage_category = "core"
+word = "pakala"
+
+[ku_data]
+accident = 73
+boom = 27
+break = 63
+broken = 100
+burst = 75
+collapse = 50
+crack = 52
+crap = 27
+crash = 65
+crush = 33
+damage = 81
+damn = 79
+destroy = 71
+destruction = 100
+error = 67
+explode = 33
+fail = 64
+failure = 57
+fault = 57
+flaw = 53
+fuck = 47
+fucking = 42
+goddamn = 75
+harm = 64
+heck = 67
+hurt = 67
+injure = 65
+injury = 55
+mistake = 82
+offense = 29
+rip = 38
+ruin = 75
+snap = 48
+strike = 29
+trouble = 40
+violate = 30
+wound = 33
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pakala.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pakala.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV kaputt, beschädigt, verletzt"
+en = "ADJECTIVE botched, broken, damaged, harmed, messed up"
+eo = "ADJEKTIVO fuŝita, rompita, damaĝita, difektita"
+fr = "ADJECTIF brisé, cassé, abîmé, bâclé, gâché"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

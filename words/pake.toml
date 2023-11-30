@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "2009"
+see_also = ["pini"]
+sitelen_emosi = "🚧"
+sitelen_pona = ["pake"]
+sitelen_sitelen = ""
+source_language = "English"
+ucsur = "U+F19A0"
+usage_category = "rare"
+word = "pake"
+
+[ku_data]
+cease = 13
+deny = 13
+forbid = 20
+interrupt = 16
+intervention = 14
+limitation = 13
+lock = 20
+prevent = 30
+restrict = 13
+stop = 27
+wall = 17
+
+[luka_pona]
+
+[recognition]
+2020-04 = 34
+2021-10 = 48
+2022-08 = 13
+2023-09 = 13

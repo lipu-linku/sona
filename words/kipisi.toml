@@ -1,0 +1,45 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2009"
+see_also = ["tu", "wan", "pakala", "mute"]
+sitelen_emosi = "✂️"
+sitelen_pona = ["kipisi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kipisi.jpg"
+source_language = "Inuktitut"
+ucsur = "U+F197B"
+usage_category = "common"
+word = "kipisi"
+
+[ku_data]
+carve = 27
+chop = 50
+chunk = 28
+clip = 30
+cut = 56
+divide = 55
+division = 65
+half = 31
+part = 33
+percentage = 25
+piece = 35
+portion = 38
+rip = 31
+section = 42
+sector = 25
+segment = 50
+separate = 25
+separation = 30
+slice = 62
+split = 69
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kipisi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kipisi.mp4"
+
+[recognition]
+2020-04 = 68
+2021-10 = 87
+2022-08 = 73
+2023-09 = 67

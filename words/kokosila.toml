@@ -1,0 +1,23 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "post-pu"
+coined_year = "2020"
+see_also = []
+sitelen_emosi = ""
+sitelen_pona = ["kokosila", "kokosila2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kokosila.jpg"
+source_language = "Esperanto"
+ucsur = "U+F1984"
+usage_category = "uncommon"
+word = "kokosila"
+
+[ku_data]
+"speak another language in a Toki Pona only environment" = 50
+
+[luka_pona]
+
+[recognition]
+2021-10 = 54
+2022-08 = 25
+2023-09 = 31

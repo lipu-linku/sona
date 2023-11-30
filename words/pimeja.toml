@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["suno", "walo"]
+sitelen_emosi = "⚫"
+sitelen_pona = ["pimeja"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pimeja.jpg"
+source_language = "Finnish"
+ucsur = "U+F194F"
+usage_category = "core"
+word = "pimeja"
+
+[ku_data]
+black = 100
+dark = 100
+darkness = 100
+shade = 47
+shadow = 50
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pimeja.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pimeja.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV schwarz, dunkel, unbeleuchtet"
+en = "ADJECTIVE black, dark, unlit"
+eo = "ADJEKTIVO nigra, malhela, malluma"
+fr = "ADJECTIF noir, foncé, sombre"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

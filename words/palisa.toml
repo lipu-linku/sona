@@ -1,0 +1,39 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["linja"]
+sitelen_emosi = "📏"
+sitelen_pona = ["palisa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/palisa.jpg"
+source_language = "Serbo-Croatian"
+ucsur = "U+F194A"
+usage_category = "core"
+word = "palisa"
+
+[ku_data]
+bar = 25
+beam = 18
+branch = 60
+pole = 67
+rod = 94
+staff = 41
+stake = 80
+stem = 18
+stick = 100
+straight = 25
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/palisa.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/palisa.mp4"
+
+[pu_verbatim]
+de = "NOMEN langes hartes Ding; Ast, Stange, Stab"
+en = "NOUN long hard thing; branch, rod, stick"
+eo = "SUBSTANTIVO io longa kaj rigida; branĉo, stango, bastono"
+fr = "NOM objet long et dur : bâton"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

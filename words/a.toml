@@ -1,0 +1,45 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["kin"]
+sitelen_emosi = "❗"
+sitelen_pona = ["a"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
+source_language = "onomatopoeia"
+ucsur = "U+F1900"
+usage_category = "core"
+word = "a"
+
+[ku_data]
+ah = 94
+gasp = 28
+gosh = 73
+ha = 83
+hmm = 27
+huh = 44
+mm-hmm = 27
+oh = 93
+ooh = 80
+quite = 29
+really = 27
+sigh = 27
+uh = 73
+uh-huh = 39
+um = 47
+whoa = 69
+wow = 61
+
+[luka_pona]
+
+[pu_verbatim]
+de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
+en = "PARTICLE (emphasis, emotion or confirmation)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+fr = "PARTICULE (accent, émotion ou confirmation)"
+
+[recognition]
+2020-04 = 99
+2022-08 = 99
+2023-09 = 99

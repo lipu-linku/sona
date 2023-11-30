@@ -1,0 +1,69 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["suli"]
+sitelen_emosi = "🐭"
+sitelen_pona = ["lili"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lili.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F1928"
+usage_category = "core"
+word = "lili"
+
+[ku_data]
+barely = 54
+bit = 69
+brief = 63
+decrease = 53
+diminish = 57
+fewer = 60
+gram = 26
+hardly = 39
+inch = 45
+junior = 83
+kinda = 41
+less = 59
+lightly = 42
+little = 100
+mere = 29
+mild = 27
+minimal = 53
+minimize = 75
+minor = 69
+narrow = 71
+ounce = 27
+partial = 36
+partially = 50
+particle = 31
+partly = 67
+quarter = 27
+reduce = 83
+reduction = 64
+shallow = 45
+short = 91
+shortage = 25
+slight = 91
+slightly = 80
+small = 100
+somewhat = 50
+subtle = 44
+thin = 45
+tight = 33
+tiny = 56
+young = 62
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV klein, kurz; wenige; ein bisschen; jung"
+en = "ADJECTIVE little, small, short; few; a bit; young"
+eo = "ADJEKTIVO malgranda, malalta; malmulta; iomete; juna"
+fr = "ADJECTIF petit, (un) peu, jeune"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

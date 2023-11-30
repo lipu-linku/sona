@@ -1,0 +1,66 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "❤️"
+sitelen_pona = ["pilin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F194E"
+usage_category = "core"
+word = "pilin"
+
+[ku_data]
+assume = 50
+assumption = 40
+attitude = 64
+belief = 29
+believe = 40
+conscience = 36
+consider = 25
+deem = 47
+emotion = 100
+emotional = 62
+emotionally = 76
+estimated = 25
+experience = 35
+feel = 92
+feeling = 100
+heart = 70
+hypothesis = 50
+idea = 27
+impression = 50
+mentally = 24
+mood = 80
+notion = 55
+opinion = 55
+outlook = 25
+perceive = 50
+perception = 27
+reaction = 30
+sense = 69
+sentiment = 83
+speculation = 38
+stimulus = 33
+suppose = 36
+suspicion = 30
+think = 24
+thinking = 40
+thought = 39
+touch = 27
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pilin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pilin.mp4"
+
+[pu_verbatim]
+de = "NOMEN Herz (physisch oder emotional)\nADJEKTIV fühlend (eine Emotion, eine direkte Erfahrung)"
+en = "NOUN heart (physical or emotional)\nADJECTIVE feeling (an emotion, a direct experience)"
+eo = "SUBSTANTIVO koro (fizika aŭ emocia)\nADJEKTIVO sentanta (emocion, rektan sperton)"
+fr = "NOM cœur (physique et psychologique)\nADJECTIF qui ressent (une émotion, une expérience directe)"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

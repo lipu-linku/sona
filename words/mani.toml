@@ -1,0 +1,65 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["esun"]
+sitelen_emosi = "💰"
+sitelen_pona = ["mani"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mani.jpg"
+source_language = "English"
+ucsur = "U+F1932"
+usage_category = "core"
+word = "mani"
+
+[ku_data]
+budget = 38
+cash = 93
+cattle = 68
+compensation = 33
+cost = 47
+cow = 30
+credit = 36
+currency = 82
+dollar = 67
+earnings = 33
+economic = 39
+expense = 39
+fee = 50
+financial = 64
+fiscal = 54
+fund = 39
+funding = 57
+income = 31
+"large domesticated animal" = 27
+monetary = 83
+money = 100
+payment = 29
+pension = 40
+price = 33
+profit = 31
+revenue = 38
+salary = 38
+subsidy = 31
+toll = 30
+treasure = 73
+valuable = 43
+value = 32
+wage = 50
+wealth = 71
+wealthy = 25
+worth = 70
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mani.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mani.mp4"
+
+[pu_verbatim]
+de = "NOMEN Geld, Bargeld, Erspartes, Reichtum; großes domestiziertes"
+en = "NOUN money, cash, savings, wealth; large domesticated animal"
+eo = "SUBSTANTIVO mono, riĉaĵoj, ŝparaĵo, kontanta mono; bruto, granda"
+fr = "NOM argent, richesse ; grand animal domestiqué"
+
+[recognition]
+2022-08 = 97
+2023-09 = 99

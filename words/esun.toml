@@ -1,0 +1,52 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["mani"]
+sitelen_emosi = "🛒"
+sitelen_pona = ["esun"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
+source_language = "Akan"
+ucsur = "U+F190B"
+usage_category = "core"
+word = "esun"
+
+[ku_data]
+business = 48
+buy = 65
+commerce = 69
+commercial = 36
+deal = 75
+economy = 25
+enterprise = 27
+exchange = 58
+financial = 29
+franchise = 25
+market = 62
+purchase = 67
+retail = 56
+sale = 60
+sales = 67
+sell = 57
+shop = 46
+shopping = 88
+store = 36
+trade = 88
+trading = 91
+transaction = 64
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/esun.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/esun.mp4"
+
+[pu_verbatim]
+de = "NOMEN Markt, Laden, Basar, Geschäft, Handel"
+en = "NOUN market, shop, fair, bazaar, business transaction"
+eo = "SUBSTANTIVO bazaro, vendejo, foiro, komerca transakcio"
+fr = "NOM marché, boutique, foire, magasin, commerce"
+
+[recognition]
+2020-04 = 97
+2022-08 = 96
+2023-09 = 98

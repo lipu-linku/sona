@@ -1,0 +1,45 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "#️⃣"
+sitelen_pona = ["nanpa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nanpa.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F193D"
+usage_category = "core"
+word = "nanpa"
+
+[ku_data]
+calculate = 35
+count = 80
+edition = 31
+grade = 33
+measurement = 43
+number = 100
+percent = 30
+percentage = 33
+quantity = 36
+rank = 44
+ranking = 43
+rating = 46
+score = 57
+statistical = 42
+statistics = 30
+version = 27
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nanpa.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nanpa.mp4"
+
+[pu_verbatim]
+de = "PARTIKEL -te (Ordinalzahl)\nNOMEN Zahlen"
+en = "PARTICLE -th (ordinal number)\nNOUN numbers"
+eo = "PARTIKULO -a (kiel en “unua”, “dua”, ktp; indikas pozicion\nSUBSTANTIVO ciferoj, nombroj"
+fr = "PARTICULE -ième (nombre ordinal)\nNOM nombre"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

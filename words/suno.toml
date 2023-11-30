@@ -1,0 +1,35 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["mun", "pimeja"]
+sitelen_emosi = "☀️"
+sitelen_pona = ["suno"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suno.jpg"
+source_language = "Esperanto"
+ucsur = "U+F1964"
+usage_category = "core"
+word = "suno"
+
+[ku_data]
+bright = 64
+light = 77
+shine = 60
+solar = 93
+sun = 94
+sunlight = 75
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suno.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/suno.mp4"
+
+[pu_verbatim]
+de = "NOMEN Sonne; Licht, Helligkeit, (Licht-)Schein, Glanz; Lichtquelle"
+en = "NOUN sun; light brightness, glow, radiance, shine; light source"
+eo = "SUBSTANTIVO suno; lumo, heleco, ardeco, brilo; lumfonto"
+fr = "NOM soleil, lumière, lueur, brillant"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

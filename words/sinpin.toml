@@ -1,0 +1,35 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["monsi"]
+sitelen_emosi = "➡️"
+sitelen_pona = ["sinpin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sinpin.jpg"
+source_language = "Cantonese"
+ucsur = "U+F195F"
+usage_category = "core"
+word = "sinpin"
+
+[ku_data]
+ahead = 24
+barrier = 22
+"chest (anatomy)" = 27
+"face (n)" = 62
+front = 92
+wall = 50
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sinpin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sinpin.mp4"
+
+[pu_verbatim]
+de = "NOMEN Gesicht, Vorderstes, Front, Wand"
+en = "NOUN face, foremost, front, wall"
+eo = "SUBSTANTIVO vizaĝo, antaŭo, muro"
+fr = "NOM avant, visage, front, mur"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99

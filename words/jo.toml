@@ -1,0 +1,44 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["lon", "poki", "lanpan"]
+sitelen_emosi = "👜"
+sitelen_pona = ["jo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jo.jpg"
+source_language = "Mandarin"
+ucsur = "U+F1913"
+usage_category = "core"
+word = "jo"
+
+[ku_data]
+bring = 29
+carry = 90
+comprise = 41
+consist = 42
+contain = 75
+equip = 31
+grasp = 33
+grip = 27
+have = 100
+hold = 71
+include = 42
+own = 73
+ownership = 67
+possess = 95
+possession = 68
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jo.mp4"
+
+[pu_verbatim]
+de = "VERB haben, tragen, beinhalten, halten"
+en = "VERB to have, carry, contain, hold"
+eo = "VERBO havi, porti, enhavi, teni"
+fr = "VERBE avoir, porter, contenir, tenir"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99

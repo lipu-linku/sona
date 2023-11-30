@@ -1,0 +1,27 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2009"
+see_also = []
+sitelen_emosi = "🦝"
+sitelen_pona = ["kijetesantakalu"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kijetesantakalu.jpg"
+source_language = "Finnish"
+ucsur = "U+F1980"
+usage_category = "widespread"
+word = "kijetesantakalu"
+
+[ku_data]
+Musteloidea = 30
+procyonid = 53
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kijetesantakalu.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kijetesantakalu.mp4"
+
+[recognition]
+2020-04 = 62
+2021-10 = 71
+2022-08 = 73
+2023-09 = 75

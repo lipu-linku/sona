@@ -1,0 +1,37 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🏋️"
+sitelen_pona = ["sijelo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
+source_language = "Serbo-Croatian"
+ucsur = "U+F195B"
+usage_category = "core"
+word = "sijelo"
+
+[ku_data]
+body = 100
+figure = 32
+flesh = 50
+form = 35
+physical = 23
+physically = 40
+self = 23
+torso = 64
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sijelo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sijelo.mp4"
+
+[pu_verbatim]
+de = "NOMEN Körper (einer Person oder eines Tieres), physische Form, Torso"
+en = "NOUN body (of person or animal), physical state, torso"
+eo = "SUBSTANTIVO korpo (de homo aŭ besto), fizika stato, torso"
+fr = "NOM corps, état physique, torse"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

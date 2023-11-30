@@ -1,0 +1,33 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "<2001"
+see_also = ["ike", "lon"]
+sitelen_emosi = "🧞"
+sitelen_pona = ["powe"]
+sitelen_sitelen = ""
+source_language = "Acadian French"
+ucsur = "U+F19A3"
+usage_category = "uncommon"
+word = "powe"
+
+[ku_data]
+fake = 36
+false = 25
+fantasy = 14
+fraud = 20
+illusion = 15
+"lie (saying untruth)" = 21
+myth = 21
+pretend = 33
+trap = 19
+trick = 31
+
+[luka_pona]
+
+[recognition]
+2020-04 = 31
+2021-10 = 56
+2022-08 = 21
+2023-09 = 23

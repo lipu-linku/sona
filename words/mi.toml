@@ -1,0 +1,40 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "👈"
+sitelen_pona = ["mi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mi.jpg"
+source_language = "Esperanto"
+ucsur = "U+F1934"
+usage_category = "core"
+word = "mi"
+
+[ku_data]
+I = 100
+me = 100
+mine = 63
+my = 100
+myself = 47
+our = 63
+ours = 36
+ourselves = 26
+self = 38
+us = 43
+we = 38
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mi.mp4"
+
+[pu_verbatim]
+de = "NOMEN ich, mir, wir, uns"
+en = "NOUN I, me, we, us"
+eo = "SUBSTANTIVO mi, ni"
+fr = "NOM je, moi, nous"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

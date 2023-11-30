@@ -1,0 +1,54 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "👕"
+sitelen_pona = ["len"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/len.jpg"
+source_language = "Acadian French"
+ucsur = "U+F1925"
+usage_category = "core"
+word = "len"
+
+[ku_data]
+blanket = 36
+canvas = 25
+cloth = 100
+clothes = 93
+clothing = 100
+costume = 30
+cotton = 33
+cover = 64
+coverage = 25
+dress = 58
+fabric = 92
+flag = 25
+hidden = 25
+hide = 37
+jacket = 47
+outfit = 74
+privacy = 67
+private = 32
+shirt = 42
+silk = 27
+"suit (n)" = 26
+t-shirt = 40
+underwear = 25
+wear = 45
+wrap = 31
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/len.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/len.mp4"
+
+[pu_verbatim]
+de = "NOMEN Stoff, Kleidung, Gewebe, Textil; Abdeckung, Privatsphäre"
+en = "NOUN cloth, clothing, fabric, textile; cover, layer of privacy"
+eo = "SUBSTANTIVO ŝtofo, vestaĵo, teksaĵo; kovraĵo, tavolo de privateco"
+fr = "NOM tissu, vêtement, textile ; couverture, rideau d'intimité"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

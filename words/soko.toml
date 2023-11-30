@@ -1,0 +1,25 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "post-pu"
+coined_year = "2019"
+see_also = ["kasi", "kili"]
+sitelen_emosi = "🍄"
+sitelen_pona = ["soko", "soko2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soko.jpg"
+source_language = "Georgian"
+ucsur = "U+F1981"
+usage_category = "common"
+word = "soko"
+
+[ku_data]
+fungus = 42
+mushroom = 53
+
+[luka_pona]
+
+[recognition]
+2020-04 = 17
+2021-10 = 77
+2022-08 = 70
+2023-09 = 63

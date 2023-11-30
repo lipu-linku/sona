@@ -1,0 +1,26 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "post-pu"
+coined_year = "2018"
+see_also = ["tu", "lukin"]
+sitelen_emosi = ""
+sitelen_pona = ["jasima"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jasima.jpg"
+source_language = "Turkish"
+ucsur = "U+F197F"
+usage_category = "uncommon"
+word = "jasima"
+
+[ku_data]
+opposite = 40
+reflect = 59
+reverse = 35
+
+[luka_pona]
+
+[recognition]
+2020-04 = 22
+2021-10 = 71
+2022-08 = 47
+2023-09 = 43

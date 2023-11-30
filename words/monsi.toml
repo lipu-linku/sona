@@ -1,0 +1,33 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["sinpin"]
+sitelen_emosi = "⬅️"
+sitelen_pona = ["monsi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsi.jpg"
+source_language = "Acadian French"
+ucsur = "U+F1938"
+usage_category = "core"
+word = "monsi"
+
+[ku_data]
+ass = 67
+"back (anatomy)" = 73
+behind = 35
+butt = 93
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsi.mp4"
+
+[pu_verbatim]
+de = "NOMEN Rücken, Hintern, Rückseite"
+en = "NOUN back, behind, rear"
+eo = "SUBSTANTIVO dorso, malantaŭo"
+fr = "NOM dos, derrière, arrière"
+
+[recognition]
+2022-08 = 97
+2023-09 = 99

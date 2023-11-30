@@ -1,0 +1,68 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "👎"
+sitelen_pona = ["ike"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
+source_language = "Finnish"
+ucsur = "U+F190D"
+usage_category = "core"
+word = "ike"
+
+[ku_data]
+awful = 55
+awkward = 40
+bad = 100
+badly = 81
+challenging = 29
+chaos = 27
+complex = 29
+complexity = 42
+complicated = 39
+corrupt = 30
+corruption = 30
+cruel = 46
+cursed = 29
+danger = 29
+difficult = 27
+difficulty = 31
+disorder = 26
+evil = 75
+"hard (difficult)" = 29
+harm = 29
+harsh = 82
+horrible = 67
+hostile = 33
+inappropriate = 42
+issue = 42
+"mean (adj)" = 77
+nasty = 31
+negative = 73
+offensive = 57
+poorly = 59
+problem = 70
+terrible = 61
+toxic = 27
+tragic = 50
+trouble = 53
+unfair = 40
+unfortunate = 60
+vice = 36
+wrong = 43
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ike.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ike.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV schlecht, negativ; nicht essenziell, irrelevant"
+en = "ADJECTIVE bad, negative; non-essential, irrelevant"
+eo = "ADJEKTIVO malbona, negativa; neesenca, malgrava"
+fr = "ADJECTIF mauvais, négatif ; superflu, non pertinent"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

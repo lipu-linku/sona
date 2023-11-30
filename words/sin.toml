@@ -1,0 +1,43 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["namako"]
+sitelen_emosi = "🎁"
+sitelen_pona = ["sin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sin.jpg"
+source_language = "Mandarin"
+ucsur = "U+F195D"
+usage_category = "core"
+word = "sin"
+
+[ku_data]
+additionally = 27
+again = 40
+another = 27
+"back (i.e. as before or returned)" = 40
+fresh = 87
+innovation = 25
+innovative = 32
+modern = 30
+new = 100
+newly = 92
+recent = 27
+repeat = 26
+unprecedented = 33
+young = 23
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sin.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV neu, frisch; zusätzlich, weitere/r/s, noch ein"
+en = "ADJECTIVE new, fresh; additional, another, extra"
+eo = "ADJEKTIVO nova, freŝa; plia, aldona, kroma"
+fr = "ADJECTIF nouveau, frais ; encore un, de plus"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

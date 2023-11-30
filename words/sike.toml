@@ -1,0 +1,48 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["leko"]
+sitelen_emosi = "⭕"
+sitelen_pona = ["sike"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sike.jpg"
+source_language = "English"
+ucsur = "U+F195C"
+usage_category = "core"
+word = "sike"
+
+[ku_data]
+ball = 77
+circle = 100
+circuit = 46
+curve = 25
+cycle = 70
+disc = 59
+globe = 55
+loop = 71
+orbit = 23
+ring = 33
+roll = 20
+rolling = 25
+round = 100
+sphere = 82
+spin = 36
+spot = 25
+surround = 31
+twist = 21
+wheel = 64
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sike.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sike.mp4"
+
+[pu_verbatim]
+de = "NOMEN rundes oder kreisförmiges Ding; Ball, Kreis, Zyklus, Kugel, Rad\nADJEKTIV ein Jahr betreffend"
+en = "NOUN round or circular thing; ball, circle, cycle, sphere, wheel\nADJECTIVE of one year"
+eo = "SUBSTANTIVO io ronda aŭ cirkla; pilko, cirklo, ciklo, globo, sfero, rado\nADJEKTIVO de unu jaro"
+fr = "NOM objet rond : ballon, cercle, cycle, sphère, roue, anneau\nADJECTIF annuel"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

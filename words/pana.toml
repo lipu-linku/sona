@@ -1,0 +1,88 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "📤"
+sitelen_pona = ["pana"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
+source_language = "multiple possibilities"
+ucsur = "U+F194C"
+usage_category = "core"
+word = "pana"
+
+[ku_data]
+add = 29
+added = 31
+administer = 33
+apply = 30
+appoint = 55
+assign = 47
+attach = 33
+bring = 29
+contribute = 53
+contribution = 31
+convey = 44
+dedicate = 25
+deliver = 90
+delivery = 82
+deploy = 47
+deposit = 45
+devote = 33
+distribute = 65
+distribution = 58
+donate = 57
+donation = 33
+emission = 40
+exhibit = 25
+export = 36
+gift = 36
+give = 100
+given = 50
+grant = 85
+input = 40
+insert = 25
+install = 28
+introduce = 26
+lend = 40
+offer = 40
+offering = 47
+output = 52
+post = 31
+pour = 37
+present = 29
+provide = 73
+provision = 36
+publish = 37
+publishing = 50
+put = 93
+release = 37
+send = 80
+serve = 35
+serving = 33
+share = 50
+shared = 36
+show = 26
+spend = 35
+spread = 33
+submit = 78
+supply = 40
+toss = 30
+transfer = 71
+transmission = 30
+yield = 50
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pana.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pana.mp4"
+
+[pu_verbatim]
+de = "VERB geben, senden, ausstrahlen, emittieren, liefern, setzen, stellen, legen, freilassen"
+en = "VERB to give, send, emit, provide, put, release"
+eo = "VERBO doni, sendi, eligi, ellasi, provizi, meti"
+fr = "VERBE donner, envoyer, mettre, fournir, émettre, lâcher"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

@@ -1,0 +1,33 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🔈"
+sitelen_pona = ["kalama"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kalama.jpg"
+source_language = "Serbo-Croatian"
+ucsur = "U+F1915"
+usage_category = "core"
+word = "kalama"
+
+[ku_data]
+bang = 27
+noise = 79
+sound = 100
+tone = 50
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kalama.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kalama.mp4"
+
+[pu_verbatim]
+de = "VERB Geräusche machen; vortragen, laut aussprechen"
+en = "VERB to produce a sound; recite, utter aloud"
+eo = "VERBO fari sonon; reciti, diri laŭte aŭ voĉe"
+fr = "VERBE émettre un son ; réciter, proférer"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

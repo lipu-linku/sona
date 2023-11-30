@@ -1,0 +1,38 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["kasi", "moku", "soko"]
+sitelen_emosi = "🍎"
+sitelen_pona = ["kili"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
+source_language = "Georgian"
+ucsur = "U+F191A"
+usage_category = "core"
+word = "kili"
+
+[ku_data]
+apple = 82
+bean = 29
+fruit = 95
+fungus = 33
+kumquat = 42
+nut = 29
+onion = 28
+tomato = 27
+vegetable = 94
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kili.mp4"
+
+[pu_verbatim]
+de = "NOMEN Frucht, Gemüse, Pilz"
+en = "NOUN fruit, vegetable, mushroom"
+eo = "SUBSTANTIVO frukto, legomo, manĝebla fungo"
+fr = "NOM fruit, légume, champignon"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

@@ -1,0 +1,52 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["ali"]
+sitelen_emosi = "♾️"
+sitelen_pona = ["ale"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ale.jpg"
+source_language = "Dutch"
+ucsur = "U+F1904"
+usage_category = "core"
+word = "ale"
+
+[ku_data]
+absolute = 29
+all = 68
+altogether = 44
+any = 30
+complete = 26
+completely = 58
+comprehensive = 42
+countless = 27
+each = 33
+entire = 64
+entirely = 50
+every = 80
+everything = 77
+full = 36
+fully = 32
+general = 27
+hundred = 21
+thoroughly = 30
+total = 53
+totally = 35
+universal = 60
+universe = 50
+whole = 25
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ale.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ale.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV alle, jede/r/s; im Überfluss, zahllos, reichlich\nNOMEN Überfluss, alles, Leben, Universum\nZAHL 100"
+en = "ADJECTIVE all; abundant, countless, bountiful, every, plentiful\nNOUN abundance, everything, life, universe\nNUMBER 100"
+eo = "ADJEKTIVO ĉiuj; abunda, nenombrebla, ĉiu\nSUBSTANTIVO abundo, ĉio, vivo, universo\nNOMBRO 100"
+fr = "ADJECTIF tous, abondants, innombrables\nNOM tout, abondance, la vie, l'univers\nNOMBRE 100"
+
+[recognition]
+2022-08 = 92
+2023-09 = 90

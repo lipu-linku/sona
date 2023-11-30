@@ -1,0 +1,84 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["tenpo", "ma"]
+sitelen_emosi = "📍"
+sitelen_pona = ["lon"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F192C"
+usage_category = "core"
+word = "lon"
+
+[ku_data]
+accurate = 52
+actual = 86
+alive = 56
+amid = 27
+at = 100
+attend = 42
+attendance = 46
+availability = 27
+certain = 30
+certainly = 45
+correct = 33
+correctly = 33
+definitely = 40
+exactly = 50
+exist = 100
+existence = 87
+existing = 100
+fact = 27
+frankly = 25
+genuine = 60
+honestly = 36
+in = 57
+indeed = 42
+legitimate = 36
+life = 40
+live = 47
+living = 73
+located = 93
+location = 35
+mm-hmm = 27
+occupy = 50
+occur = 31
+"of course" = 25
+on = 83
+onto = 36
+physical = 62
+physically = 30
+placement = 29
+position = 55
+precisely = 30
+presence = 89
+real = 100
+reality = 64
+regarding = 25
+"right (not wrong)" = 41
+status = 30
+sure = 27
+true = 81
+truly = 60
+truth = 67
+upon = 60
+validity = 33
+yeah = 62
+yep = 87
+yes = 71
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lon.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lon.mp4"
+
+[pu_verbatim]
+de = "PRÄPOSITION befindlich in/auf/an, anwesend in/auf/an, real, wahr, existierend"
+en = "PREPOSITION located at, present at, real, true, existing"
+eo = "PREPOZICIO estanta en iu loko, estanta ĉe, reala, vera, ekzistanta"
+fr = "PRÉPOSITION à, situé à, présent à, dans, sur ; réel, vrai, actuel"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

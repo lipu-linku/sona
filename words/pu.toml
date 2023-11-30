@@ -1,0 +1,30 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["ku"]
+sitelen_emosi = "📖"
+sitelen_pona = ["pu"]
+sitelen_sitelen = ""
+source_language = "multiple possibilities"
+ucsur = "U+F1955"
+usage_category = "core"
+word = "pu"
+
+[ku_data]
+"interact with Toki Pona: The Language of Good" = 82
+officially = 27
+
+[luka_pona]
+
+[pu_verbatim]
+de = "ADJEKTIV mit dem offiziellen Toki-Pona-Buch interagierend"
+en = "ADJECTIVE interacting with the official Toki Pona book"
+eo = "ADJEKTIVO interaganta kun la oficiala libro de Tokipono"
+fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
+
+[recognition]
+2020-04 = 82
+2022-08 = 94
+2023-09 = 96

@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🔼"
+sitelen_pona = ["la"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/la.jpg"
+source_language = "multiple possibilities"
+ucsur = "U+F1921"
+usage_category = "core"
+word = "la"
+
+[ku_data]
+depending = 43
+if = 88
+regarding = 38
+than = 33
+while = 48
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/la.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/la.mp4"
+
+[pu_verbatim]
+de = "PARTIKEL (zwischen der Kontextphrase und dem Hauptsatz)"
+en = "PARTICLE (between the context phrase and the main sentence)"
+eo = "PARTIKULO (inter la kunteksta frazparto kaj la ĉeffrazo)"
+fr = "PARTICULE (entre le contexte et la phrase principale)"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

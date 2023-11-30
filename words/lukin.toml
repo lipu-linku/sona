@@ -1,0 +1,67 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["oko", "alasa"]
+sitelen_emosi = "👀"
+sitelen_pona = ["lukin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lukin.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F192E"
+usage_category = "core"
+word = "lukin"
+
+[ku_data]
+apparent = 27
+appearance = 50
+assess = 40
+attention = 50
+check = 77
+detect = 46
+encounter = 25
+examination = 47
+examine = 60
+eye = 26
+gaze = 83
+glance = 33
+impression = 33
+inspection = 60
+investigation = 25
+"look at" = 86
+monitor = 25
+notice = 53
+observation = 83
+observe = 92
+perceive = 36
+perception = 36
+read = 27
+reading = 31
+"regard (v)" = 29
+scan = 67
+see = 100
+seek = 26
+sight = 85
+stare = 38
+surveillance = 50
+try = 36
+view = 74
+visible = 27
+vision = 60
+visual = 64
+watch = 65
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lukin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lukin.mp4"
+
+[pu_verbatim]
+de = "NOMEN Kopf, Geist (Verstand)\nVERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen\nHILFSVERB suchen, anstreben, versuchen"
+en = "NOUN eye\nVERB to look at, see, examine, observe, read, watch\nPRE-VERB to seek, look for, try to"
+eo = "SUBSTANTIVO okulo\nVERBO rigardi, vidi, ekzameni, observi, legi, spekti\nANTAŬVERBO provi"
+fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXILIAIRE chercher à, essayer de"
+
+[recognition]
+2020-04 = 99
+2022-08 = 98
+2023-09 = 99

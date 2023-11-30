@@ -1,0 +1,45 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["pona"]
+sitelen_emosi = "😃"
+sitelen_pona = ["musi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/musi.jpg"
+source_language = "Esperanto"
+ucsur = "U+F193B"
+usage_category = "core"
+word = "musi"
+
+[ku_data]
+art = 58
+artistic = 50
+comedy = 83
+creative = 27
+enjoy = 27
+entertainment = 100
+fascinating = 38
+fun = 100
+funny = 91
+game = 86
+humour = 36
+interesting = 31
+irony = 28
+play = 87
+playoffs = 25
+sport = 27
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/musi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/musi.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV künstlerisch, unterhaltend, albern, verspielt, freizeitlich"
+en = "ADJECTIVE artistic, entertaining, frivolous, playful, recreational"
+eo = "ADJEKTIVO arta, amuza, frivola, ludeca, rilata al amuziĝo"
+fr = "ADJECTIF artistique, divertissant, frivole, pour s'amuser"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

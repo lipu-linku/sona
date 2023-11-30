@@ -1,0 +1,52 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["poki"]
+sitelen_emosi = "🏠"
+sitelen_pona = ["tomo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"
+source_language = "Esperanto"
+ucsur = "U+F196D"
+usage_category = "core"
+word = "tomo"
+
+[ku_data]
+apartment = 42
+building = 100
+cabin = 42
+chamber = 85
+construction = 33
+domestic = 58
+establishment = 45
+facility = 50
+hall = 38
+home = 82
+house = 94
+household = 43
+housing = 86
+institute = 33
+residence = 68
+residential = 50
+room = 81
+shelter = 80
+station = 39
+structural = 54
+structure = 53
+suite = 59
+venue = 33
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tomo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/maino.mp4"
+
+[pu_verbatim]
+de = "NOMEN Inhäusiges; Gebäude, Zuhause, Haus, Raum"
+en = "NOUN indoor space; building, home, house, room"
+eo = "SUBSTANTIVO endoma spaco; konstruaĵo, hejmo, domo, ĉambro"
+fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce, chambre, chez soi, demeure"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

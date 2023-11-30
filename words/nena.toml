@@ -1,0 +1,39 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🗻"
+sitelen_pona = ["nena"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
+source_language = "Finnish"
+ucsur = "U+F1940"
+usage_category = "core"
+word = "nena"
+
+[ku_data]
+breast = 19
+button = 33
+fold = 13
+hill = 67
+mount = 18
+mountain = 25
+nose = 50
+peak = 29
+pile = 22
+ridge = 33
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nena.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nena.mp4"
+
+[pu_verbatim]
+de = "NOMEN Delle, Knopf, Hügel, Berg, Nase, Vorsprung"
+en = "NOUN bump, button, hill, mountain, nose, protuberance"
+eo = "SUBSTANTIVO elstara malebenaĵo, elstaraĵo, tubero, butono, monteto, monto, nazo"
+fr = "NOM nez ; bosse, colline, montagne ; bouton"
+
+[recognition]
+2022-08 = 97
+2023-09 = 99

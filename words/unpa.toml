@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🍆"
+sitelen_pona = ["unpa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/unpa.jpg"
+source_language = "onomatopoeia"
+ucsur = "U+F196F"
+usage_category = "core"
+word = "unpa"
+
+[ku_data]
+fuck = 40
+fucking = 42
+sex = 100
+sexual = 95
+sexually = 92
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/unpa.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/unpa.mp4"
+
+[pu_verbatim]
+de = "VERB Sex haben mit, Geschlechtsverkehr haben mit"
+en = "VERB to have sexual or marital relations with"
+eo = "VERBO seksumi, amori"
+fr = "VERBE avoir des rapports sexuels ou conjugaux avec"
+
+[recognition]
+2022-08 = 97
+2023-09 = 98

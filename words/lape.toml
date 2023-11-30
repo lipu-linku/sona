@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "😴"
+sitelen_pona = ["lape"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lape.jpg"
+source_language = "Dutch"
+ucsur = "U+F1922"
+usage_category = "core"
+word = "lape"
+
+[ku_data]
+asleep = 80
+lay = 31
+"lie (be in flat position)" = 26
+rest = 58
+sleep = 100
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lape.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lape.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV schlafend, ausruhend"
+en = "ADJECTIVE sleeping, resting"
+eo = "ADJEKTIVO dormanta, ripozanta"
+fr = "ADJECTIF dormant, se reposant"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

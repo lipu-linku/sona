@@ -1,0 +1,38 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["noka"]
+sitelen_emosi = "⬇️"
+sitelen_pona = ["anpa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anpa.jpg"
+source_language = "Acadian French"
+ucsur = "U+F1905"
+usage_category = "core"
+word = "anpa"
+
+[ku_data]
+below = 58
+beneath = 57
+bottom = 79
+bow = 30
+defeat = 58
+down = 96
+lower = 70
+under = 35
+underlying = 25
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/anpa.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/anpa.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV sich unterwerfend, herunter, bescheiden, demütig, abhängig"
+en = "ADJECTIVE bowing down, downward, humble, lowly, dependent"
+eo = "ADJEKTIVO klinanta sin, malsupren, humila, modesta, dependa"
+fr = "ADJECTIF incliné vers le bas, humble, qui dépend"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

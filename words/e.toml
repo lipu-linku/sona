@@ -1,0 +1,25 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "⏩"
+sitelen_pona = ["e"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/e.jpg"
+source_language = "a priori"
+ucsur = "U+F1909"
+usage_category = "core"
+word = "e"
+
+[luka_pona]
+
+[pu_verbatim]
+de = "PARTIKEL (vor dem direkten Objekt)"
+en = "PARTICLE (before the direct object)"
+eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
+fr = "PARTICULE (avant l'objet direct)"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

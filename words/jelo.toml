@@ -1,0 +1,31 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "💛"
+sitelen_pona = ["jelo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jelo.jpg"
+source_language = "English"
+ucsur = "U+F1912"
+usage_category = "core"
+word = "jelo"
+
+[ku_data]
+golden = 25
+yellow = 94
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jelo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jelo.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV gelb, gelblich"
+en = "ADJECTIVE yellow, yellowish"
+eo = "ADJEKTIVO flava, flaveca"
+fr = "ADJECTIF jaune"
+
+[recognition]
+2022-08 = 98
+2023-09 = 100

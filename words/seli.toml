@@ -1,0 +1,43 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["lete"]
+sitelen_emosi = "🔥"
+sitelen_pona = ["seli"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seli.jpg"
+source_language = "Georgian"
+ucsur = "U+F1957"
+usage_category = "core"
+word = "seli"
+
+[ku_data]
+bake = 36
+boil = 30
+burn = 70
+burning = 85
+cook = 31
+cooking = 27
+fire = 100
+flame = 83
+heat = 100
+hot = 92
+temperature = 36
+tropical = 17
+warm = 65
+warming = 58
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/seli.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/seli.mp4"
+
+[pu_verbatim]
+de = "NOMEN Feuer; Kochelement, chemische Reaktion, Hitzequelle"
+en = "ADJECTIVE fire; cooking element, chemical reaction, heat source"
+eo = "SUBSTANTIVO fajro; varmiga elemento de kuirilo, kemia reago, fonto de varmo"
+fr = "NOM feu ; élément de cuisson, réaction chimique, chaleur"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

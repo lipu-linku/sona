@@ -1,0 +1,61 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "💪"
+sitelen_pona = ["ken"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
+source_language = "Tok Pisin"
+ucsur = "U+F1918"
+usage_category = "core"
+word = "ken"
+
+[ku_data]
+ability = 93
+able = 100
+allow = 30
+available = 53
+can = 79
+capability = 92
+capable = 90
+chance = 57
+could = 81
+eligible = 80
+enable = 33
+freedom = 27
+liberty = 36
+likelihood = 60
+likely = 30
+may = 88
+maybe = 53
+might = 33
+odds = 45
+opportunity = 53
+option = 33
+patentially = 40
+perhaps = 40
+permission = 69
+possibility = 75
+possible = 86
+possibly = 50
+potential = 94
+privilege = 31
+probability = 56
+prospect = 27
+viable = 33
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ken.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ken.mp4"
+
+[pu_verbatim]
+de = "HILFSVERB etw. können, etw. dürfen\nADJEKTIV möglich"
+en = "PRE-VERB to be able to, be allowed to, can, may\nADJECTIVE possible"
+eo = "ANTAŬVERBO povi, rajti\nADJEKTIVO ebla"
+fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100

@@ -1,0 +1,69 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["pini"]
+sitelen_emosi = "🛫"
+sitelen_pona = ["weka"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/weka.jpg"
+source_language = "Dutch"
+ucsur = "U+F1976"
+usage_category = "core"
+word = "weka"
+
+[ku_data]
+abandon = 63
+absence = 71
+apart = 80
+avoid = 47
+away = 73
+ban = 31
+delete = 67
+disappear = 47
+dismiss = 67
+distance = 42
+distant = 64
+drain = 40
+eliminate = 80
+escape = 42
+exclude = 45
+exit = 31
+fade = 27
+far = 60
+flee = 38
+lack = 27
+leave = 64
+lose = 25
+loss = 69
+missing = 73
+omit = 80
+out = 45
+reject = 33
+remote = 25
+removal = 100
+remove = 93
+resign = 31
+rid = 100
+separate = 25
+separation = 30
+skip = 29
+strip = 29
+sweep = 31
+vanish = 60
+wipe = 27
+withdraw = 33
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/weka.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/weka.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV abwesend, weg, ignoriert"
+en = "ADJECTIVE absent, away, ignored"
+eo = "ADJEKTIVO neĉeestanta, fora, ignorata"
+fr = "ADJECTIF absent, enlevé, éloigné"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99

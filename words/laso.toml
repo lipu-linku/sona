@@ -1,0 +1,32 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "🔵"
+sitelen_pona = ["laso"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/laso.jpg"
+source_language = "Welsh"
+ucsur = "U+F1923"
+usage_category = "core"
+word = "laso"
+
+[ku_data]
+blue = 81
+green = 47
+teal = 71
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/laso.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/laso.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV blau, grün"
+en = "ADJECTIVE blue, green"
+eo = "ADJEKTIVO blua, verda"
+fr = "ADJECTIF bleu, vert"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99

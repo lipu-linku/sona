@@ -1,0 +1,48 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = []
+sitelen_emosi = "⚙️"
+sitelen_pona = ["ilo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ilo.jpg"
+source_language = "Esperanto"
+ucsur = "U+F190E"
+usage_category = "core"
+word = "ilo"
+
+[ku_data]
+app = 73
+application = 30
+computer = 26
+device = 95
+equipment = 85
+gear = 50
+hardware = 64
+instrument = 31
+machine = 84
+mechanical = 52
+mechanism = 46
+robot = 59
+software = 43
+tech = 47
+technical = 43
+technological = 53
+technology = 29
+tool = 100
+utility = 40
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ilo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ilo.mp4"
+
+[pu_verbatim]
+de = "NOMEN Werkzeug, Hilfsmittel, Maschine, Gerät"
+en = "NOUN tool, implement, machine, device"
+eo = "SUBSTANTIVO ilo, maŝino, aparato"
+fr = "NOM outil, instrument, équipement, machine, appareil"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100

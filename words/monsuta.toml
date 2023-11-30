@@ -1,0 +1,35 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2009"
+see_also = []
+sitelen_emosi = "👹"
+sitelen_pona = ["monsuta"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsuta.jpg"
+source_language = "Japanese"
+ucsur = "U+F197D"
+usage_category = "widespread"
+word = "monsuta"
+
+[ku_data]
+afraid = 27
+beast = 29
+demon = 25
+disturbing = 30
+fear = 59
+horror = 42
+monster = 58
+scare = 38
+scary = 60
+terror = 30
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsuta.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsuta.mp4"
+
+[recognition]
+2020-04 = 74
+2021-10 = 88
+2022-08 = 85
+2023-09 = 83

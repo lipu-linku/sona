@@ -1,0 +1,34 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+see_also = ["seli"]
+sitelen_emosi = "❄️"
+sitelen_pona = ["lete"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lete.jpg"
+source_language = "Acadian French"
+ucsur = "U+F1926"
+usage_category = "core"
+word = "lete"
+
+[ku_data]
+cold = 100
+cool = 25
+freeze = 27
+frozen = 45
+raw = 58
+
+[luka_pona]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lete.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lete.mp4"
+
+[pu_verbatim]
+de = "ADJEKTIV kalt, kühl; ungekocht, roh"
+en = "ADJECTIVE cold, cool; uncooked, raw"
+eo = "ADJEKTIVO malvarma; nekuirita, kruda"
+fr = "ADJECTIF froid, frais ; cru"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99

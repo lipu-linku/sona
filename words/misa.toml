@@ -1,0 +1,24 @@
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2021"
+see_also = ["soweli"]
+sitelen_emosi = ""
+sitelen_pona = ["misa", "misa5"]
+sitelen_sitelen = ""
+source_language = "Ukranian"
+ucsur = ""
+usage_category = "rare"
+word = "misa"
+
+[ku_data]
+"Glires or Eulipotyphla" = 18
+capybara = 10
+
+[luka_pona]
+
+[recognition]
+2021-10 = 35
+2022-08 = 10
+2023-09 = 13
