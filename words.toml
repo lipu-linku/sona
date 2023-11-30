@@ -1,9 +1,6 @@
 [a]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "ah⁵, oh⁵, ha⁵, ooh⁴, uh⁴, gosh⁴, whoa⁴, wow⁴, um³, huh³, uh-huh², quite², gasp², really², mm-hmm², hmm², sigh²"
 see_also = ["kin"]
@@ -19,8 +16,6 @@ word = "a"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/a.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/a.mp3"
 
-[a.luka_pona]
-
 [a.pu_verbatim]
 de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
 en = "PARTICLE (emphasis, emotion or confirmation)"
@@ -33,42 +28,28 @@ fr = "PARTICULE (accent, émotion ou confirmation)"
 2023-09 = 99
 
 [aka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "kulupu Eki, oni Tewi"
-ku_data = ""
 see_also = ["natu"]
-sitelen_emosi = ""
 sitelen_pona = ["aka"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "aka"
 
 [aka.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/aka.mp3"
 
-[aka.luka_pona]
-
-[aka.pu_verbatim]
-
 [aka.recognition]
 2022-08 = 0
 2023-09 = 1
 
 [akesi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "reptile⁵, frog³"
-see_also = []
 sitelen_emosi = "🦎"
 sitelen_pona = ["akesi", "akesi2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/akesi.jpg"
@@ -96,42 +77,24 @@ fr = "NOM animal non-mignon ; reptile, amphibien"
 2023-09 = 99
 
 [ako]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
-coined_era = ""
-coined_year = ""
-creator = ""
-ku_data = ""
 see_also = ["a"]
-sitelen_emosi = ""
 sitelen_pona = ["ako"]
-sitelen_sitelen = ""
-source_language = ""
-ucsur = ""
 usage_category = "obscure"
 word = "ako"
 
 [ako.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ako.mp3"
 
-[ako.luka_pona]
-
-[ako.pu_verbatim]
-
 [ako.recognition]
 2022-08 = 0
 2023-09 = 0
 
 [ala]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "not⁵, none⁵, zero⁵, no⁵, nothing⁵, neither³, nor², hardly²"
-see_also = []
 sitelen_emosi = "❌"
 sitelen_pona = ["ala"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ala.jpg"
@@ -159,11 +122,8 @@ fr = "ADJECTIF non, ne, pas, aucun, zéro"
 2023-09 = 100
 
 [alasa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hunt⁵, hunting⁵, search⁴, pursuit⁴, pursue⁴, gather⁴, finding³, seek³, explore³, chase², locate², try², collect², quest², catch²"
 see_also = ["lukin"]
@@ -195,11 +155,8 @@ fr = "VERBE chasser, cueillir"
 2023-09 = 99
 
 [ale]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "every⁴, everything⁴, all⁴, entire⁴, universal³, completely³, total³, entirely³, universe³, altogether³, comprehensive³, full², totally², each², fully², any², thoroughly², absolute², general², countless², complete², whole², hundred²"
 see_also = ["ali"]
@@ -230,47 +187,31 @@ fr = "ADJECTIF tous, abondants, innombrables\nNOM tout, abondance, la vie, l'uni
 2023-09 = 90
 
 [alente]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2022"
 creator = "jan Pensamin"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["alente"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "alente"
 
 [alente.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alente.mp3"
 
-[alente.luka_pona]
-
-[alente.pu_verbatim]
-
 [alente.recognition]
 2022-08 = 2
 2023-09 = 2
 
 [ali]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "all², entire², universe²"
 see_also = ["ale"]
 sitelen_emosi = "♾️"
 sitelen_pona = ["ali"]
-sitelen_sitelen = ""
 source_language = "Dutch"
-ucsur = ""
 usage_category = "uncommon"
 word = "ali"
 
@@ -278,37 +219,23 @@ word = "ali"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ali.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ali.mp3"
 
-[ali.luka_pona]
-
-[ali.pu_verbatim]
-
 [ali.recognition]
 2022-08 = 35
 2023-09 = 32
 
 [alu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Ote, \"thelegenderp\"; jan Tolin (separately)"
-ku_data = ""
 see_also = ["la"]
-sitelen_emosi = ""
 sitelen_pona = ["alu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "alu"
 
 [alu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alu.mp3"
-
-[alu.luka_pona]
-
-[alu.pu_verbatim]
 
 [alu.recognition]
 2020-04 = 18
@@ -317,11 +244,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [anpa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "down⁵, bottom⁴, lower⁴, defeat³, below³, beneath³, under², bow², underlying²"
 see_also = ["noka"]
@@ -352,11 +276,8 @@ fr = "ADJECTIF incliné vers le bas, humble, qui dépend"
 2023-09 = 99
 
 [ante]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "other⁵, changing⁵, different⁵, alter⁵, modify⁵, alternative⁴, change⁴, convert⁴, edit⁴, difference⁴, transformation⁴, distinct⁴, differently⁴, vary⁴, transform³, variation³, contrast³, distinction³, replace³, switch³, else³, another³, conversion³, adjustment³, adapt², affect², distinguish², adjust², amendment², transition², opposed², unlike², separate², counterpart², diversity², shift², adaptation²"
 see_also = ["sama"]
@@ -387,14 +308,10 @@ fr = "ADJECTIF différent, changé, autre"
 2023-09 = 99
 
 [anu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "or⁵, whether³, choice³, selection², decide², either², select²"
-see_also = []
 sitelen_emosi = "☯️"
 sitelen_pona = ["anu"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anu.jpg"
@@ -422,17 +339,13 @@ fr = "PARTICULE ou"
 2023-09 = 99
 
 [apeja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2009"
 creator = "jan Sonja"
 ku_data = "shame², embarrassed², guilt¹"
-see_also = []
 sitelen_emosi = "😢"
 sitelen_pona = ["apeja"]
-sitelen_sitelen = ""
 source_language = "Finnish"
 ucsur = "U+F19A1"
 usage_category = "uncommon"
@@ -441,10 +354,6 @@ word = "apeja"
 [apeja.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/apeja.mp3"
 
-[apeja.luka_pona]
-
-[apeja.pu_verbatim]
-
 [apeja.recognition]
 2020-04 = 44
 2021-10 = 59
@@ -452,42 +361,28 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 23
 
 [awase]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Lenoka"
-ku_data = ""
 see_also = ["utala", "pakala", "tawa"]
-sitelen_emosi = ""
 sitelen_pona = ["awase"]
-sitelen_sitelen = ""
 source_language = "Armenian"
-ucsur = ""
 usage_category = "obscure"
 word = "awase"
 
 [awase.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awase.mp3"
 
-[awase.luka_pona]
-
-[awase.pu_verbatim]
-
 [awase.recognition]
 2022-08 = 0
 2023-09 = 1
 
 [awen]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "stay⁵, await⁵, wait⁵, preserve⁵, remain⁵, sustain⁵, retain⁴, defend⁴, endure⁴, continued⁴, continue⁴, secure⁴, continuing⁴, save⁴, protect⁴, keep⁴, still³, reserve³, protection³, remaining³, continuous³, stability³, maintain³, safe³, security³, stable³, constant³, protective³, defence³, left (remaining)³, defensive², maintenance², rescue², stand², standing², steady², pause², custody², safely², saving², guard², reservation², suspend², hang², ongoing², hesitate², safety², delay², conservation²"
-see_also = []
 sitelen_emosi = "⚓"
 sitelen_pona = ["awen"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
@@ -515,14 +410,9 @@ fr = "ADJECTIF resté, protégé, gardé, qui attend, qui persiste, conservé\nA
 2023-09 = 99
 
 [e]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
-ku_data = ""
-see_also = []
 sitelen_emosi = "⏩"
 sitelen_pona = ["e"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/e.jpg"
@@ -535,8 +425,6 @@ word = "e"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/e.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/e.mp3"
 
-[e.luka_pona]
-
 [e.pu_verbatim]
 de = "PARTIKEL (vor dem direkten Objekt)"
 en = "PARTICLE (before the direct object)"
@@ -548,28 +436,18 @@ fr = "PARTICULE (avant l'objet direct)"
 2023-09 = 100
 
 [eki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Anselo"
-ku_data = ""
 see_also = ["natu"]
-sitelen_emosi = ""
 sitelen_pona = ["eki"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "eki"
 
 [eki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eki.mp3"
-
-[eki.luka_pona]
-
-[eki.pu_verbatim]
 
 [eki.recognition]
 2022-08 = 0
@@ -580,37 +458,22 @@ author_verbatim = "distress, affliction, adversity, pain"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1072666397626335242"
 book = "none"
 coined_era = "post-ku"
-coined_year = ""
 creator = "kala suno pi kulupu telo mun"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "Tsalagi"
-ucsur = ""
 usage_category = "obscure"
 word = "eliki"
 
 [eliki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eliki.mp3"
 
-[eliki.luka_pona]
-
-[eliki.pu_verbatim]
-
 [eliki.recognition]
 2023-09 = 3
 
 [en]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "and³, plus³"
-see_also = []
 sitelen_emosi = "➕"
 sitelen_pona = ["en"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/en.jpg"
@@ -638,28 +501,19 @@ fr = "PARTICULE (entre plusieurs sujets)"
 2023-09 = 99
 
 [enko]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Seli"
-ku_data = ""
 see_also = ["lon", "ma"]
 sitelen_emosi = "🧭"
 sitelen_pona = ["enko", "enko2"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "enko"
 
 [enko.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/enko.mp3"
-
-[enko.luka_pona]
-
-[enko.pu_verbatim]
 
 [enko.recognition]
 2021-10 = 28
@@ -667,8 +521,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [epiku]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -687,10 +539,6 @@ word = "epiku"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/epiku.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/epiku.mp3"
 
-[epiku.luka_pona]
-
-[epiku.pu_verbatim]
-
 [epiku.recognition]
 2020-04 = 29
 2021-10 = 58
@@ -698,11 +546,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 53
 
 [esun]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "trading⁵, trade⁵, shopping⁵, deal⁴, commerce⁴, purchase⁴, sales⁴, buy⁴, transaction⁴, market⁴, sale³, exchange³, sell³, retail³, business³, shop³, store², commercial², financial², enterprise², economy², franchise²"
 see_also = ["mani"]
@@ -734,8 +579,6 @@ fr = "NOM marché, boutique, foire, magasin, commerce"
 2023-09 = 98
 
 [ete]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -744,18 +587,12 @@ ku_data = "exceed¹, beyond¹"
 see_also = ["suli", "sewi"]
 sitelen_emosi = "🔃"
 sitelen_pona = ["ete", "ete2"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "ete"
 
 [ete.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ete.mp3"
-
-[ete.luka_pona]
-
-[ete.pu_verbatim]
 
 [ete.recognition]
 2020-04 = 17
@@ -764,8 +601,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [ewe]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -774,18 +609,12 @@ ku_data = "stone⁰"
 see_also = ["kiwen"]
 sitelen_emosi = "🌋"
 sitelen_pona = ["ewe"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "ewe"
 
 [ewe.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ewe.mp3"
-
-[ewe.luka_pona]
-
-[ewe.pu_verbatim]
 
 [ewe.recognition]
 2020-04 = 11
@@ -794,42 +623,28 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [i]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "2002"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["ona"]
-sitelen_emosi = ""
 sitelen_pona = ["i"]
-sitelen_sitelen = ""
 source_language = "unknown"
-ucsur = ""
 usage_category = "obscure"
 word = "i"
 
 [i.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/i.mp3"
 
-[i.luka_pona]
-
-[i.pu_verbatim]
-
 [i.recognition]
 2022-08 = 1
 2023-09 = 1
 
 [ijo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "thing⁵, stuff⁵, item⁵, something⁵, object⁵, entity⁵, phenomenon⁴, material⁴, matter (n)⁴, substance³, anything³, element², asset², being², chemical², subject², product², stock², example²"
-see_also = []
 sitelen_emosi = "🐚"
 sitelen_pona = ["ijo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ijo.jpg"
@@ -857,14 +672,10 @@ fr = "NOM chose, phénomène, objet, matière"
 2023-09 = 100
 
 [ike]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "bad⁵, harsh⁵, badly⁵, mean (adj)⁴, evil⁴, negative⁴, problem⁴, horrible⁴, terrible⁴, unfortunate³, poorly³, offensive³, awful³, trouble³, tragic³, cruel³, wrong³, inappropriate³, issue³, complexity³, unfair², awkward², complicated², vice², hostile², difficulty², nasty², corruption², corrupt², hard (difficult)², harm², complex², danger², cursed², challenging², toxic², chaos², difficult², disorder²"
-see_also = []
 sitelen_emosi = "👎"
 sitelen_pona = ["ike"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
@@ -892,28 +703,18 @@ fr = "ADJECTIF mauvais, négatif ; superflu, non pertinent"
 2023-09 = 100
 
 [iki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "2001"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["ona"]
-sitelen_emosi = ""
 sitelen_pona = ["iki"]
-sitelen_sitelen = ""
 source_language = "unknown"
-ucsur = ""
 usage_category = "obscure"
 word = "iki"
 
 [iki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/iki.mp3"
-
-[iki.luka_pona]
-
-[iki.pu_verbatim]
 
 [iki.recognition]
 2020-04 = 15
@@ -922,14 +723,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [ilo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "tool⁵, device⁵, equipment⁵, machine⁵, app⁴, hardware⁴, robot³, technological³, mechanical³, gear³, tech³, mechanism³, technical³, software³, utility², instrument², application², technology², computer²"
-see_also = []
 sitelen_emosi = "⚙️"
 sitelen_pona = ["ilo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ilo.jpg"
@@ -957,14 +754,10 @@ fr = "NOM outil, instrument, équipement, machine, appareil"
 2023-09 = 100
 
 [insa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "internal⁵, inner⁵, interior⁵, centre⁵, guts⁴, core⁴, central³, inside³, middle³, belly³, stomach³, internal organ², within², insert², content², amid², between²"
-see_also = []
 sitelen_emosi = "⏺️"
 sitelen_pona = ["insa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/insa.jpg"
@@ -992,28 +785,18 @@ fr = "NOM centre, contenu, intérieur, entre ; estomac, viscères"
 2023-09 = 100
 
 [ipi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "2002"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["ona"]
-sitelen_emosi = ""
 sitelen_pona = ["ipi"]
-sitelen_sitelen = ""
 source_language = "unknown"
-ucsur = ""
 usage_category = "obscure"
 word = "ipi"
 
 [ipi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ipi.mp3"
-
-[ipi.luka_pona]
-
-[ipi.pu_verbatim]
 
 [ipi.recognition]
 2020-04 = 13
@@ -1022,19 +805,14 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [isipin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan ko"
 ku_data = "think², consciousness¹, imagination¹, theory¹"
 see_also = ["pilin", "toki", "insa"]
-sitelen_emosi = ""
 sitelen_pona = ["isipin"]
-sitelen_sitelen = ""
 source_language = "Tagalog"
-ucsur = ""
 usage_category = "rare"
 word = "isipin"
 
@@ -1045,36 +823,24 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/isipin.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/isipin.mp4"
 
-[isipin.pu_verbatim]
-
 [isipin.recognition]
 2021-10 = 43
 2022-08 = 14
 2023-09 = 19
 
 [itomi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Wesu OR jan inwin, jan Lemon"
-ku_data = ""
-see_also = []
 sitelen_emosi = "😈"
 sitelen_pona = ["itomi"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "itomi"
 
 [itomi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/itomi.mp3"
-
-[itomi.luka_pona]
-
-[itomi.pu_verbatim]
 
 [itomi.recognition]
 2020-04 = 17
@@ -1083,14 +849,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [jaki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "dirty⁵, trash⁵, gross⁵, garbage⁵, mess⁵, disgusting⁴, junk⁴, bacteria⁴, nasty⁴, crap³, toxic³, waste³, infection³, disease², shit², virus², pollution², bullshit², illness¹"
-see_also = []
 sitelen_emosi = "💩"
 sitelen_pona = ["jaki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
@@ -1118,28 +880,18 @@ fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
 2023-09 = 99
 
 [jaku]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Wesu"
-ku_data = ""
 see_also = ["mute"]
-sitelen_emosi = ""
 sitelen_pona = ["jaku"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "jaku"
 
 [jaku.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaku.mp3"
-
-[jaku.luka_pona]
-
-[jaku.pu_verbatim]
 
 [jaku.recognition]
 2020-04 = 14
@@ -1148,28 +900,18 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [jalan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "2002"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["noka"]
-sitelen_emosi = ""
 sitelen_pona = ["jalan"]
-sitelen_sitelen = ""
 source_language = "Finnish"
-ucsur = ""
 usage_category = "obscure"
 word = "jalan"
 
 [jalan.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jalan.mp3"
-
-[jalan.luka_pona]
-
-[jalan.pu_verbatim]
 
 [jalan.recognition]
 2020-04 = 13
@@ -1184,22 +926,15 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "unknown"
-ku_data = ""
 see_also = ["suwi"]
 sitelen_emosi = "🤤"
 sitelen_pona = ["jami"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "jami"
 
 [jami.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jami.mp3"
-
-[jami.luka_pona]
-
-[jami.pu_verbatim]
 
 [jami.recognition]
 2021-10 = 29
@@ -1207,14 +942,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 6
 
 [jan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "person⁵, human⁵, people⁵, anybody⁴, dude⁴, anyone³, character³, somebody³, guy³, being³, individual², civilian², whoever², citizen², participant², Hominidae², personal²"
-see_also = []
 sitelen_emosi = "👤"
 sitelen_pona = ["jan"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jan.jpg"
@@ -1242,28 +973,17 @@ fr = "NOM être humain, personne, quelqu'un"
 2023-09 = 100
 
 [jans]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = ""
 creator = "unknown"
-ku_data = ""
 see_also = ["jan"]
-sitelen_emosi = ""
 sitelen_pona = ["jans"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "jans"
 
 [jans.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jans.mp3"
-
-[jans.luka_pona]
-
-[jans.pu_verbatim]
 
 [jans.recognition]
 2020-04 = 13
@@ -1271,15 +991,12 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [jasima]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Wesu, jan Maliku, jan Kisinja, jan inwin"
 ku_data = "reflect³, opposite², reverse²"
 see_also = ["tu", "lukin"]
-sitelen_emosi = ""
 sitelen_pona = ["jasima"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jasima.jpg"
 source_language = "Turkish"
@@ -1291,10 +1008,6 @@ word = "jasima"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jasima.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jasima.mp3"
 
-[jasima.luka_pona]
-
-[jasima.pu_verbatim]
-
 [jasima.recognition]
 2020-04 = 22
 2021-10 = 71
@@ -1302,28 +1015,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 43
 
 [je]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = ""
 creator = "unknown"
-ku_data = ""
 see_also = ["a", "wa"]
-sitelen_emosi = ""
 sitelen_pona = ["je"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "je"
 
 [je.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/je.mp3"
-
-[je.luka_pona]
-
-[je.pu_verbatim]
 
 [je.recognition]
 2021-10 = 20
@@ -1331,14 +1033,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [jelo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "yellow⁵, golden²"
-see_also = []
 sitelen_emosi = "💛"
 sitelen_pona = ["jelo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jelo.jpg"
@@ -1366,11 +1064,8 @@ fr = "ADJECTIF jaune"
 2023-09 = 100
 
 [jo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "have⁵, possess⁵, carry⁵, contain⁴, own⁴, hold⁴, possession⁴, ownership⁴, include³, consist³, comprise³, grasp², equip², bring², grip²"
 see_also = ["lon", "poki", "lanpan"]
@@ -1407,50 +1102,32 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "cyanidesDuality"
-ku_data = ""
 see_also = ["mu", "nja"]
-sitelen_emosi = ""
 sitelen_pona = ["jonke"]
-sitelen_sitelen = ""
 source_language = "onomatopoeia"
-ucsur = ""
 usage_category = "obscure"
 word = "jonke"
 
 [jonke.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jonke.mp3"
 
-[jonke.luka_pona]
-
-[jonke.pu_verbatim]
-
 [jonke.recognition]
 2022-08 = 3
 2023-09 = 5
 
 [ju]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pu", "ku"]
-sitelen_emosi = ""
 sitelen_pona = ["ju"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "ju"
 
 [ju.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ju.mp3"
-
-[ju.luka_pona]
-
-[ju.pu_verbatim]
 
 [ju.recognition]
 2021-10 = 28
@@ -1458,28 +1135,18 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [jule]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2022"
 creator = "pilin Powa"
-ku_data = ""
 see_also = ["tawa", "poka"]
-sitelen_emosi = ""
 sitelen_pona = ["jule"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "jule"
 
 [jule.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jule.mp3"
-
-[jule.luka_pona]
-
-[jule.pu_verbatim]
 
 [jule.recognition]
 2022-08 = 1
@@ -1492,22 +1159,14 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Seli"
-ku_data = ""
 see_also = ["oni", "sitelen", "lape", "insa", "powe"]
-sitelen_emosi = ""
 sitelen_pona = ["jume"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "jume"
 
 [jume.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jume.mp3"
-
-[jume.luka_pona]
-
-[jume.pu_verbatim]
 
 [jume.recognition]
 2021-10 = 17
@@ -1515,14 +1174,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [kala]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "fish⁵, sea creature⁵, salmon⁴"
-see_also = []
 sitelen_emosi = "🐟"
 sitelen_pona = ["kala", "kala2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kala.jpg"
@@ -1550,28 +1205,18 @@ fr = "NOM poisson, animal sous-marin"
 2023-09 = 99
 
 [kalamARR]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "(unknown ku surveyee)"
-ku_data = ""
 see_also = ["kalama"]
-sitelen_emosi = ""
 sitelen_pona = ["kalamARR"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "kalamARR"
 
 [kalamARR.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalamARR.mp3"
-
-[kalamARR.luka_pona]
-
-[kalamARR.pu_verbatim]
 
 [kalamARR.recognition]
 2020-04 = 13
@@ -1579,14 +1224,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [kalama]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "sound⁵, noise⁴, tone³, bang²"
-see_also = []
 sitelen_emosi = "🔈"
 sitelen_pona = ["kalama"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kalama.jpg"
@@ -1620,36 +1261,24 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Likipi"
-ku_data = ""
 see_also = ["kijetesantakalu"]
-sitelen_emosi = ""
 sitelen_pona = ["kalijopilale"]
-sitelen_sitelen = ""
 source_language = "Latin"
-ucsur = ""
 usage_category = "obscure"
 word = "kalijopilale"
 
 [kalijopilale.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalijopilale.mp3"
 
-[kalijopilale.luka_pona]
-
-[kalijopilale.pu_verbatim]
-
 [kalijopilale.recognition]
 2022-08 = 1
 2023-09 = 2
 
 [kama]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "coming⁵, come⁵, arrival⁵, arrive⁵, become⁴, upcoming⁴, emerging⁴, emerge⁴, happen⁴, occur³, next², developmental², arise², visit², induce², trigger², phenomenon², event²"
-see_also = []
 sitelen_emosi = "🚶"
 sitelen_pona = ["kama"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kama.jpg"
@@ -1662,8 +1291,6 @@ word = "kama"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kama.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kama.mp3"
 
-[kama.luka_pona]
-
 [kama.pu_verbatim]
 de = "ADJEKTIV ankommend, kommend, zukünftig, vorgeladen, beschworen\nHILFSVERB etw. werden, etw. schaffen, etw. erreichen"
 en = "ADJECTIVE arriving, coming, future, summoned\nPRE-VERB to become, manage to, succeed in"
@@ -1675,28 +1302,19 @@ fr = "ADJECTIF qui arrive, qui vent, futur, venu\nAUXILIAIRE devenir, arriver à
 2023-09 = 100
 
 [kamalawala]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Wesu"
 ku_data = "revolution⁰"
-see_also = []
 sitelen_emosi = "💣"
 sitelen_pona = ["kamalawala"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "rare"
 word = "kamalawala"
 
 [kamalawala.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kamalawala.mp3"
-
-[kamalawala.luka_pona]
-
-[kamalawala.pu_verbatim]
 
 [kamalawala.recognition]
 2020-04 = 21
@@ -1705,8 +1323,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 10
 
 [kan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -1715,18 +1331,12 @@ ku_data = "alongside¹, together¹, with¹, associated⁰, involved⁰, amid⁰"
 see_also = ["kepeken", "poka", "en"]
 sitelen_emosi = "🔗"
 sitelen_pona = ["kan"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "kan"
 
 [kan.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kan.mp3"
-
-[kan.luka_pona]
-
-[kan.pu_verbatim]
 
 [kan.recognition]
 2020-04 = 22
@@ -1735,28 +1345,18 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [kapa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "2001"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["nena"]
-sitelen_emosi = ""
 sitelen_pona = ["kapa"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "kapa"
 
 [kapa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapa.mp3"
-
-[kapa.luka_pona]
-
-[kapa.pu_verbatim]
 
 [kapa.recognition]
 2020-04 = 13
@@ -1765,8 +1365,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [kapesi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -1775,18 +1373,12 @@ ku_data = "brown², grey⁰"
 see_also = ["pimeja"]
 sitelen_emosi = "🟤"
 sitelen_pona = ["kapesi", "kapesi2"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "rare"
 word = "kapesi"
 
 [kapesi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapesi.mp3"
-
-[kapesi.luka_pona]
-
-[kapesi.pu_verbatim]
 
 [kapesi.recognition]
 2020-04 = 29
@@ -1795,14 +1387,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 19
 
 [kasi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "plant⁵, bush⁴, herb², tree²"
-see_also = []
 sitelen_emosi = "🌴"
 sitelen_pona = ["kasi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kasi.jpg"
@@ -1830,28 +1418,19 @@ fr = "NOM plante, végétation ; herbe, feuille"
 2023-09 = 100
 
 [ke]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2015"
 creator = "jan Maliku, jan Kisinja"
 ku_data = "alright⁰"
 see_also = ["oke", "n"]
-sitelen_emosi = ""
 sitelen_pona = ["ke"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "ke"
 
 [ke.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ke.mp3"
-
-[ke.luka_pona]
-
-[ke.pu_verbatim]
 
 [ke.recognition]
 2020-04 = 18
@@ -1860,14 +1439,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [ken]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "able⁵, potential⁵, ability⁵, capability⁵, capable⁵, may⁵, possible⁵, could⁵, eligible⁴, can⁴, possibility⁴, permission⁴, likelihood³, chance³, probability³, available³, opportunity³, maybe³, possibly³, odds³, patentially², perhaps², liberty², might², option², viable², enable², privilege², allow², likely², prospect², freedom²"
-see_also = []
 sitelen_emosi = "💪"
 sitelen_pona = ["ken"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
@@ -1895,14 +1470,10 @@ fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
 2023-09 = 100
 
 [kepeken]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "use⁵, utilize⁴, via³, employ³, used², operate², interact², equip²"
-see_also = []
 sitelen_emosi = "🔧"
 sitelen_pona = ["kepeken"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kepeken.jpg"
@@ -1930,28 +1501,17 @@ fr = "PRÉPOSITION en utilisant, avec, au moyen de"
 2023-09 = 100
 
 [kepen]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
-creator = ""
-ku_data = ""
 see_also = ["kepeken"]
-sitelen_emosi = ""
 sitelen_pona = ["kepeken"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kepen"
 
 [kepen.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kepen.mp3"
-
-[kepen.luka_pona]
-
-[kepen.pu_verbatim]
 
 [kepen.recognition]
 2022-08 = 1
@@ -1966,20 +1526,13 @@ coined_year = "2020"
 creator = "jan Jan"
 ku_data = "LGBTQ+⁰"
 see_also = ["kule", "tonsi"]
-sitelen_emosi = ""
 sitelen_pona = ["kese"]
-sitelen_sitelen = ""
 source_language = "Hebrew"
-ucsur = ""
 usage_category = "obscure"
 word = "kese"
 
 [kese.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kese.mp3"
-
-[kese.luka_pona]
-
-[kese.pu_verbatim]
 
 [kese.recognition]
 2021-10 = 25
@@ -1987,28 +1540,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [ki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "akesi kon Nalasuni, jan Atenaja"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["ki"]
-sitelen_sitelen = ""
 source_language = "French"
-ucsur = ""
 usage_category = "obscure"
 word = "ki"
 
 [ki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ki.mp3"
-
-[ki.luka_pona]
-
-[ki.pu_verbatim]
 
 [ki.recognition]
 2021-10 = 23
@@ -2016,14 +1558,11 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [kijetesantakalu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
 creator = "jan Sonja"
 ku_data = "procyonid³, Musteloidea²"
-see_also = []
 sitelen_emosi = "🦝"
 sitelen_pona = ["kijetesantakalu"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kijetesantakalu.jpg"
@@ -2040,8 +1579,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kijetesantakalu.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kijetesantakalu.mp4"
 
-[kijetesantakalu.pu_verbatim]
-
 [kijetesantakalu.recognition]
 2020-04 = 62
 2021-10 = 71
@@ -2049,19 +1586,14 @@ mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kijete
 2023-09 = 75
 
 [kiki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Olipija, akesi kon Nalasuni"
 ku_data = "spiky², sharp¹, angle⁰, point⁰"
 see_also = ["kipisi"]
-sitelen_emosi = ""
 sitelen_pona = ["kiki"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "uncommon"
 word = "kiki"
 
@@ -2072,19 +1604,14 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kiki.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kiki.mp4"
 
-[kiki.pu_verbatim]
-
 [kiki.recognition]
 2021-10 = 41
 2022-08 = 21
 2023-09 = 29
 
 [kili]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "fruit⁵, vegetable⁵, apple⁵, kumquat³, fungus², nut², bean², onion², tomato²"
 see_also = ["soko"]
@@ -2115,8 +1642,6 @@ fr = "NOM fruit, légume, champignon"
 2023-09 = 99
 
 [kin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -2135,8 +1660,6 @@ word = "kin"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kin.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kin.mp3"
 
-[kin.luka_pona]
-
 [kin.pu_verbatim]
 de = "PARTIKEL (Betonung, Emotion oder Bestätigung)"
 en = "PARTICLE (emphasis, emotion or confirmation)"
@@ -2150,8 +1673,6 @@ fr = "PARTICULE (accent, émotion ou confirmation)"
 2023-09 = 83
 
 [kipisi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
@@ -2174,8 +1695,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kipisi.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kipisi.mp4"
 
-[kipisi.pu_verbatim]
-
 [kipisi.recognition]
 2020-04 = 68
 2021-10 = 87
@@ -2189,22 +1708,14 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "kala Asi"
-ku_data = ""
 see_also = ["soweli"]
-sitelen_emosi = ""
 sitelen_pona = ["kisa"]
-sitelen_sitelen = ""
 source_language = "Russian"
-ucsur = ""
 usage_category = "obscure"
 word = "kisa"
 
 [kisa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kisa.mp3"
-
-[kisa.luka_pona]
-
-[kisa.pu_verbatim]
 
 [kisa.recognition]
 2021-10 = 24
@@ -2212,14 +1723,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [kiwen]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "solid⁵, rock⁵, stone⁵, hard object⁴, concrete³, metal³, steel³, iron³, firm³, stiff³, silver², plastic²"
-see_also = []
 sitelen_emosi = "💎"
 sitelen_pona = ["kiwen"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kiwen.jpg"
@@ -2247,14 +1754,10 @@ fr = "NOM objet dur, métal, pierre"
 2023-09 = 99
 
 [ko]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "goo⁵, semisolid⁵, paste⁴, powder⁴, clay³, sand², dust², substance², cream², dough², mud²"
-see_also = []
 sitelen_emosi = "🍦"
 sitelen_pona = ["ko"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ko.jpg"
@@ -2282,15 +1785,11 @@ fr = "NOM argle, pâte, poudre, substance collante, semi-solide"
 2023-09 = 99
 
 [kokosila]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Sonja"
 ku_data = "speak another language in a Toki Pona only environment³"
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["kokosila", "kokosila2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kokosila.jpg"
 source_language = "Esperanto"
@@ -2302,24 +1801,16 @@ word = "kokosila"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kokosila.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kokosila.mp3"
 
-[kokosila.luka_pona]
-
-[kokosila.pu_verbatim]
-
 [kokosila.recognition]
 2021-10 = 54
 2022-08 = 25
 2023-09 = 31
 
 [kon]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "soul⁵, air⁵, spirit⁵, gas⁵, essence⁴, atmosphere⁴, oxygen³, breathe³, breath³, meaning³, intangible³, breathing³, invisible entity³, definition², abstract², breeze², smell²"
-see_also = []
 sitelen_emosi = "💨"
 sitelen_pona = ["kon"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kon.jpg"
@@ -2347,56 +1838,33 @@ fr = "NOM air, souffle ; essence, esprit ; réalité cachée, agent invisible"
 2023-09 = 99
 
 [konsi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
-coined_era = ""
-coined_year = ""
-creator = ""
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
+
 sitelen_pona = ["konsi"]
-sitelen_sitelen = ""
 source_language = "Korean"
-ucsur = ""
 usage_category = "obscure"
 word = "konsi"
 
 [konsi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/konsi.mp3"
 
-[konsi.luka_pona]
-
-[konsi.pu_verbatim]
-
 [konsi.recognition]
 2022-08 = 0
 2023-09 = 1
 
 [konwe]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "jan Emalan"
-ku_data = ""
 see_also = ["ma", "tenpo"]
-sitelen_emosi = ""
 sitelen_pona = ["konwe"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "konwe"
 
 [konwe.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/konwe.mp3"
-
-[konwe.luka_pona]
-
-[konwe.pu_verbatim]
 
 [konwe.recognition]
 2021-10 = 25
@@ -2404,45 +1872,30 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 7
 
 [kosan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "jan Seni, jan inwin"
-ku_data = ""
 see_also = ["awen"]
-sitelen_emosi = ""
 sitelen_pona = ["kosan"]
-sitelen_sitelen = ""
 source_language = "Irish"
-ucsur = ""
 usage_category = "obscure"
 word = "kosan"
 
 [kosan.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kosan.mp3"
 
-[kosan.luka_pona]
-
-[kosan.pu_verbatim]
-
 [kosan.recognition]
 2022-08 = 1
 2023-09 = 2
 
 [ku]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pu"]
-sitelen_emosi = ""
 sitelen_pona = ["ku"]
-sitelen_sitelen = ""
 source_language = "a priori"
 ucsur = "U+F1988"
 usage_category = "widespread"
@@ -2452,24 +1905,16 @@ word = "ku"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ku.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ku.mp3"
 
-[ku.luka_pona]
-
-[ku.pu_verbatim]
-
 [ku.recognition]
 2021-10 = 85
 2022-08 = 80
 2023-09 = 70
 
 [kule]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "colour⁵, diverse², LGBTQ+², paint², lesbian², gay², spectrum²"
-see_also = []
 sitelen_emosi = "🌈"
 sitelen_pona = ["kule"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kule.jpg"
@@ -2497,28 +1942,18 @@ fr = "ADJECTIF coloré, pigmenté, peint"
 2023-09 = 99
 
 [kulijo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan pakala, kala pona Tonyu"
-ku_data = ""
 see_also = ["oke"]
-sitelen_emosi = ""
 sitelen_pona = ["kulijo"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "kulijo"
 
 [kulijo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulijo.mp3"
-
-[kulijo.luka_pona]
-
-[kulijo.pu_verbatim]
 
 [kulijo.recognition]
 2021-10 = 28
@@ -2526,28 +1961,18 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 7
 
 [kulu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan Kiwa, jan inwin"
-ku_data = ""
 see_also = ["kulupu"]
-sitelen_emosi = ""
 sitelen_pona = ["kulu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kulu"
 
 [kulu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulu.mp3"
-
-[kulu.luka_pona]
-
-[kulu.pu_verbatim]
 
 [kulu.recognition]
 2020-04 = 14
@@ -2556,14 +1981,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [kulupu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "group⁵, organization⁵, community⁵, collective⁵, tribe⁵, squad⁴, tribal⁴, bunch⁴, cluster⁴, league⁴, collection⁴, society⁴, association⁴, crew⁴, team³, club³, coalition³, set³, socially³, gathering³, category³, institution³, gang³, assembly³, meeting³, pile³, network³, crowd³, ethnic², bureau², partnership², social², class², array², stack², committee², public², affiliation², combination², sequence², pack², establishment², conference², franchise², demographic², company², rally²"
-see_also = []
 sitelen_emosi = "👥"
 sitelen_pona = ["kulupu"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kulupu.jpg"
@@ -2591,28 +2012,19 @@ fr = "NOM communauté, groupe, nation, société, tribu, compagnie"
 2023-09 = 100
 
 [kuntu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Wesu, jan Maliku, jan inwin"
 ku_data = "laughter¹, chuckle¹, laugh⁰, comedy⁰"
-see_also = []
 sitelen_emosi = "🤣"
 sitelen_pona = ["kuntu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kuntu"
 
 [kuntu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kuntu.mp3"
-
-[kuntu.luka_pona]
-
-[kuntu.pu_verbatim]
 
 [kuntu.recognition]
 2020-04 = 21
@@ -2621,14 +2033,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [kute]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hear⁵, listen⁵, ear⁵, hearing⁵"
-see_also = []
 sitelen_emosi = "👂"
 sitelen_pona = ["kute"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kute.jpg"
@@ -2656,42 +2064,26 @@ fr = "NOM oreille\nVERBE entendre, écouter ; faire attention à, obéir"
 2023-09 = 100
 
 [kutopoma]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
-creator = ""
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["kutopoma"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kutopoma"
 
 [kutopoma.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kutopoma.mp3"
 
-[kutopoma.luka_pona]
-
-[kutopoma.pu_verbatim]
-
 [kutopoma.recognition]
 2022-08 = 0
 2023-09 = 0
 
 [la]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "if⁵, while³, depending³, regarding², than²"
-see_also = []
 sitelen_emosi = "🔼"
 sitelen_pona = ["la"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/la.jpg"
@@ -2719,8 +2111,6 @@ fr = "PARTICULE (entre le contexte et la phrase principale)"
 2023-09 = 100
 
 [lanpan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2017"
@@ -2739,10 +2129,6 @@ word = "lanpan"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lanpan.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lanpan.mp3"
 
-[lanpan.luka_pona]
-
-[lanpan.pu_verbatim]
-
 [lanpan.recognition]
 2020-04 = 28
 2021-10 = 71
@@ -2750,14 +2136,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 58
 
 [lape]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "sleep⁵, asleep⁴, rest³, lay², lie (be in flat position)²"
-see_also = []
 sitelen_emosi = "😴"
 sitelen_pona = ["lape"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lape.jpg"
@@ -2785,14 +2167,10 @@ fr = "ADJECTIF dormant, se reposant"
 2023-09 = 100
 
 [laso]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "blue⁵, teal⁴, green³"
-see_also = []
 sitelen_emosi = "🔵"
 sitelen_pona = ["laso"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/laso.jpg"
@@ -2820,14 +2198,10 @@ fr = "ADJECTIF bleu, vert"
 2023-09 = 99
 
 [lawa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "govern⁵, head⁵, authority⁴, control⁴, ruling⁴, regulatory⁴, leading⁴, manage⁴, administrative⁴, leadership⁴, rule³, law³, lead³, management³, legal³, enforce³, oversee³, judicial³, mind³, conduct³, official³, regulate³, brain³, policy³, administer³, regulation², executive², cognitive², guide², drive², mandate², ownership², administration², government², command², dominate², psychological², institutional², legislation², jurisdiction², main², regime²"
-see_also = []
 sitelen_emosi = "😶"
 sitelen_pona = ["lawa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lawa.jpg"
@@ -2855,8 +2229,6 @@ fr = "NOM tête\nVERBE dominer, diriger, guider, mener, posséder, régler"
 2023-09 = 99
 
 [leko]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -2879,8 +2251,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/leko.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/leko.mp4"
 
-[leko.pu_verbatim]
-
 [leko.recognition]
 2020-04 = 52
 2021-10 = 82
@@ -2888,14 +2258,10 @@ mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/leko.m
 2023-09 = 70
 
 [len]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "clothing⁵, cloth⁵, clothes⁵, fabric⁵, outfit⁴, privacy⁴, cover⁴, dress³, jacket³, wear³, shirt³, t-shirt², hide², blanket², cotton², private², wrap², costume², silk², suit (n)², hidden², underwear², canvas², coverage², flag²"
-see_also = []
 sitelen_emosi = "👕"
 sitelen_pona = ["len"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/len.jpg"
@@ -2923,11 +2289,8 @@ fr = "NOM tissu, vêtement, textile ; couverture, rideau d'intimité"
 2023-09 = 99
 
 [lete]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "cold⁵, raw³, frozen³, freeze², cool²"
 see_also = ["seli"]
@@ -2958,13 +2321,9 @@ fr = "ADJECTIF froid, frais ; cru"
 2023-09 = 99
 
 [li]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["o"]
 sitelen_emosi = "▶️"
 sitelen_pona = ["li"]
@@ -2978,8 +2337,6 @@ word = "li"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/li.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/li.mp3"
 
-[li.luka_pona]
-
 [li.pu_verbatim]
 de = "PARTIKEL (zwischen jedem Subjekt und dem zugehörigen Verb, außer bei einzelnem mi oder einzelnem sina; auch um ein neues Verb für dasselbe Subjekt einzuleiten)"
 en = "PARTICLE (between any subject except mi alone or sina alone and its verb; also to introduce a new verb for the same subject)"
@@ -2991,36 +2348,21 @@ fr = "PARTICULE (entre le sujet et son verbe, à l'exception de mi ou sina tout 
 2023-09 = 100
 
 [lijokuku]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
-coined_era = ""
-coined_year = ""
-creator = ""
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
+
 sitelen_pona = ["lijokuku", "lijokuku2"]
-sitelen_sitelen = ""
 source_language = "Korean"
-ucsur = ""
 usage_category = "obscure"
 word = "lijokuku"
 
 [lijokuku.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lijokuku.mp3"
 
-[lijokuku.luka_pona]
-
-[lijokuku.pu_verbatim]
-
 [lijokuku.recognition]
 2022-08 = 0
 2023-09 = 0
 
 [likujo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
@@ -3029,18 +2371,12 @@ ku_data = "seven⁰, gathering⁰, collection⁰"
 see_also = ["kulupu", "alasa"]
 sitelen_emosi = "🧺"
 sitelen_pona = ["likujo"]
-sitelen_sitelen = ""
 source_language = "Acadian French"
-ucsur = ""
 usage_category = "obscure"
 word = "likujo"
 
 [likujo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/likujo.mp3"
-
-[likujo.luka_pona]
-
-[likujo.pu_verbatim]
 
 [likujo.recognition]
 2020-04 = 13
@@ -3049,11 +2385,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [lili]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "small⁵, little⁵, slight⁵, short⁵, reduce⁵, junior⁵, slightly⁴, minimize⁴, narrow⁴, bit⁴, minor⁴, partly⁴, reduction⁴, brief⁴, young⁴, fewer³, less³, diminish³, tiny³, barely³, decrease³, minimal³, partially³, somewhat³, thin³, inch³, shallow³, subtle³, lightly³, kinda³, hardly², partial², tight², particle², mere², mild², ounce², quarter², gram², shortage²"
 see_also = ["suli"]
@@ -3084,14 +2417,10 @@ fr = "ADJECTIF petit, (un) peu, jeune"
 2023-09 = 100
 
 [linja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "line⁵, string⁵, cord⁵, rope⁵, thread⁴, fibre³, cable³, link³, connection², ray², streak², row², wire², hair², sequence², chain², connect², straight²"
-see_also = []
 sitelen_emosi = "〰️"
 sitelen_pona = ["linja"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
@@ -3119,8 +2448,6 @@ fr = "NOM objet long et flexible : corde, cheveu, fil, ligne"
 2023-09 = 99
 
 [linluwi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2017"
@@ -3129,18 +2456,12 @@ ku_data = "network², Internet¹, virtual¹, web⁰, digital⁰, connection⁰, 
 see_also = ["len", "ilo"]
 sitelen_emosi = "🌐"
 sitelen_pona = ["linluwi", "linluwi2"]
-sitelen_sitelen = ""
 source_language = "Welsh"
-ucsur = ""
 usage_category = "uncommon"
 word = "linluwi"
 
 [linluwi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linluwi.mp3"
-
-[linluwi.luka_pona]
-
-[linluwi.pu_verbatim]
 
 [linluwi.recognition]
 2020-04 = 31
@@ -3149,14 +2470,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 34
 
 [lipu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "paper⁵, book⁵, ticket⁵, document⁵, article⁵, card⁵, page⁵, magazine⁴, sheet⁴, file⁴, website³, essay³, novel³, letter (in mail)³, sign³, publication³, doc², certificate², literature², journal², flat², blog², list², pad², poster², newspaper², form², tag²"
-see_also = []
 sitelen_emosi = "📄"
 sitelen_pona = ["lipu"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lipu.jpg"
@@ -3184,28 +2501,17 @@ fr = "NOM objet plat ; livre, document, carte, papier, site web"
 2023-09 = 100
 
 [lo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "Theepicosity, akesi kon Nalasuni"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["lo"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "lo"
 
 [lo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lo.mp3"
-
-[lo.luka_pona]
-
-[lo.pu_verbatim]
 
 [lo.recognition]
 2021-10 = 20
@@ -3213,14 +2519,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [loje]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "red⁵"
-see_also = []
 sitelen_emosi = "🔴"
 sitelen_pona = ["loje"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/loje.jpg"
@@ -3248,28 +2550,19 @@ fr = "ADJECTIF rouge"
 2023-09 = 99
 
 [loka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "unknown"
 ku_data = "limb¹"
 see_also = ["luka", "noka"]
-sitelen_emosi = ""
 sitelen_pona = ["loka"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "loka"
 
 [loka.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/loka.mp3"
-
-[loka.luka_pona]
-
-[loka.pu_verbatim]
 
 [loka.recognition]
 2021-10 = 22
@@ -3283,22 +2576,15 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "jan Kamila, soweli Wipa"
-ku_data = ""
 see_also = ["lukin", "oko"]
 sitelen_emosi = "🧿"
 sitelen_pona = ["lokon"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "lokon"
 
 [lokon.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lokon.mp3"
-
-[lokon.luka_pona]
-
-[lokon.pu_verbatim]
 
 [lokon.recognition]
 2020-04 = 15
@@ -3307,14 +2593,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [lon]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "at⁵, existing⁵, real⁵, exist⁵, located⁵, presence⁵, yep⁵, existence⁵, actual⁵, on⁵, true⁵, living⁴, yes⁴, truth⁴, reality⁴, physical⁴, yeah⁴, genuine³, upon³, truly³, in³, alive³, position³, accurate³, exactly³, occupy³, live³, attendance³, certainly³, attend³, indeed³, right (not wrong)³, life², definitely², legitimate², honestly², onto², location², correct², validity², correctly², occur², precisely², certain², status², physically², placement², sure², mm-hmm², fact², amid², availability², frankly², of course², regarding²"
-see_also = []
 sitelen_emosi = "📍"
 sitelen_pona = ["lon"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
@@ -3342,28 +2624,18 @@ fr = "PRÉPOSITION à, situé à, présent à, dans, sur ; réel, vrai, actuel"
 2023-09 = 100
 
 [lu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pu", "ku"]
-sitelen_emosi = ""
 sitelen_pona = ["lu"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "lu"
 
 [lu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lu.mp3"
-
-[lu.luka_pona]
-
-[lu.pu_verbatim]
 
 [lu.recognition]
 2021-10 = 29
@@ -3371,11 +2643,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [luka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hand⁵, arm⁴, five⁴, wrist³, touch², palm², handful², gesture², tap², reach², elbow²"
 see_also = ["noka"]
@@ -3406,11 +2675,8 @@ fr = "NOM bras, main, organe du toucher\nNOMBRE cinq"
 2023-09 = 100
 
 [lukin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "see⁵, observe⁵, look at⁵, sight⁵, gaze⁵, observation⁵, check⁴, view⁴, scan⁴, watch⁴, visual⁴, examine³, inspection³, vision³, notice³, surveillance³, attention³, appearance³, examination³, detect³, assess², stare², perception², perceive², try², glance², impression², reading², regard (v)², apparent², visible², read², seek², eye², investigation², monitor², encounter²"
 see_also = ["oko", "alasa"]
@@ -3442,14 +2708,10 @@ fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXI
 2023-09 = 99
 
 [lupa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hole⁵, door⁵, orifice⁴, pit⁴, window³, gate³, entrance², opening², gap², dig²"
-see_also = []
 sitelen_emosi = "🕳️"
 sitelen_pona = ["lupa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
@@ -3477,14 +2739,10 @@ fr = "NOM porte, trou, orifice, fenêtre"
 2023-09 = 99
 
 [ma]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "territory⁵, country⁵, land⁵, realm⁵, area⁵, field⁴, region⁴, place⁴, soil⁴, earth⁴, province⁴, zone⁴, ground⁴, nation⁴, environmental³, environment³, site³, location³, domain³, world³, national³, nature³, setting², landscape², continent², outdoors², habitat², dirt², sector², yard², kingdom², venue², outside², acre²"
-see_also = []
 sitelen_emosi = "🏝️"
 sitelen_pona = ["ma"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
@@ -3512,8 +2770,6 @@ fr = "NOM terre, sol ; monde, lieu en plien air ; pays, territoire"
 2023-09 = 100
 
 [majuna]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "<2001"
@@ -3522,7 +2778,6 @@ ku_data = "elderly², old², senior², historical¹, ancient¹, elder¹"
 see_also = ["suli"]
 sitelen_emosi = "👵"
 sitelen_pona = ["majuna", "majuna2"]
-sitelen_sitelen = ""
 source_language = "Esperanto"
 ucsur = "U+F19A2"
 usage_category = "uncommon"
@@ -3532,10 +2787,6 @@ word = "majuna"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/majuna.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/majuna.mp3"
 
-[majuna.luka_pona]
-
-[majuna.pu_verbatim]
-
 [majuna.recognition]
 2020-04 = 38
 2021-10 = 59
@@ -3543,14 +2794,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 34
 
 [mama]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "parent⁵, parental⁵, mama⁵, mommy⁴, mom⁴, creator³, mother³, foster³, originator³, father², daddy², founder², dad²"
-see_also = []
 sitelen_emosi = "👪"
 sitelen_pona = ["mama"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mama.jpg"
@@ -3578,11 +2825,8 @@ fr = "NOM parent, ancêtre ; créateur ; celui ou celle qui prend soin"
 2023-09 = 100
 
 [mani]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "money⁵, cash⁵, monetary⁵, currency⁵, treasure⁴, wealth⁴, worth⁴, cattle⁴, dollar⁴, financial⁴, funding³, fiscal³, wage³, fee³, cost³, valuable³, pension², expense², economic², fund², revenue², budget², salary², credit², compensation², earnings², price², value², income², subsidy², profit², cow², toll², payment², large domesticated animal², wealthy²"
 see_also = ["esun"]
@@ -3613,11 +2857,8 @@ fr = "NOM argent, richesse ; grand animal domestiqué"
 2023-09 = 99
 
 [meli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "female⁵, lady⁴, woman⁴, girl³, wife², cisgender woman², transgender woman², ma’am²"
 see_also = ["mije", "tonsi"]
@@ -3648,28 +2889,19 @@ fr = "NOM femme, femelle ; épouse"
 2023-09 = 82
 
 [melome]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan inwin"
-ku_data = ""
 see_also = ["kule", "meli"]
 sitelen_emosi = "👩‍❤️‍👩"
 sitelen_pona = ["melome"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "melome"
 
 [melome.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/melome.mp3"
-
-[melome.luka_pona]
-
-[melome.pu_verbatim]
 
 [melome.recognition]
 2020-04 = 25
@@ -3678,15 +2910,12 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 7
 
 [meso]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Olipija"
 ku_data = "average³, moderate³, medium³, intermediate², ordinary²"
 see_also = ["insa"]
-sitelen_emosi = ""
 sitelen_pona = ["meso", "meso2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meso.jpg"
 source_language = "Greek"
@@ -3702,22 +2931,16 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/meso.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/meso.mp4"
 
-[meso.pu_verbatim]
-
 [meso.recognition]
 2021-10 = 71
 2022-08 = 52
 2023-09 = 52
 
 [mi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "me⁵, my⁵, I⁵, mine⁴, our⁴, myself³, us³, we², self², ours², ourselves²"
-see_also = []
 sitelen_emosi = "👈"
 sitelen_pona = ["mi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mi.jpg"
@@ -3745,11 +2968,8 @@ fr = "NOM je, moi, nous"
 2023-09 = 100
 
 [mije]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "male⁵, man⁵, husband³, cisgender man³, sir², boyfriend², guy², gentleman², transgender man¹"
 see_also = ["meli", "tonsi"]
@@ -3780,28 +3000,19 @@ fr = "NOM homme, mâle ; mari"
 2023-09 = 82
 
 [mijomi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan inwin"
-ku_data = ""
 see_also = ["kule", "mije"]
 sitelen_emosi = "👨‍❤️‍👨"
 sitelen_pona = ["mijomi"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "mijomi"
 
 [mijomi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mijomi.mp3"
-
-[mijomi.luka_pona]
-
-[mijomi.pu_verbatim]
 
 [mijomi.recognition]
 2020-04 = 25
@@ -3810,28 +3021,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 7
 
 [misa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "misa Ewis"
 ku_data = "Glires or Eulipotyphla¹, capybara⁰"
 see_also = ["soweli"]
-sitelen_emosi = ""
 sitelen_pona = ["misa", "misa5"]
-sitelen_sitelen = ""
 source_language = "Ukranian"
-ucsur = ""
 usage_category = "rare"
 word = "misa"
 
 [misa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/misa.mp3"
-
-[misa.luka_pona]
-
-[misa.pu_verbatim]
 
 [misa.recognition]
 2021-10 = 35
@@ -3839,8 +3041,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 13
 
 [misikeke]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001-2009"
@@ -3863,8 +3063,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/misikeke.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/misikeke.mp4"
 
-[misikeke.pu_verbatim]
-
 [misikeke.recognition]
 2020-04 = 21
 2021-10 = 71
@@ -3872,14 +3070,10 @@ mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/misike
 2023-09 = 60
 
 [moku]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "food⁵, eat⁵, eating⁵, consume⁵, dining⁵, meal⁵, consumption⁵, swallow⁴, dinner³, nutrition³, drinking³, chew³, groceries³, absorb², drink², lunch²"
-see_also = []
 sitelen_emosi = "🍽️"
 sitelen_pona = ["moku"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moku.jpg"
@@ -3907,14 +3101,10 @@ fr = "VERBE manger, boire, consommer, avaler"
 2023-09 = 100
 
 [moli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "death⁵, killing⁵, dead⁵, die⁴, dying⁴, kill⁴, deadly², execution²"
-see_also = []
 sitelen_emosi = "💀"
 sitelen_pona = ["moli"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moli.jpg"
@@ -3948,22 +3138,14 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "jan soweli Apen"
-ku_data = ""
 see_also = ["pipi"]
-sitelen_emosi = ""
 sitelen_pona = ["molusa"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "molusa"
 
 [molusa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/molusa.mp3"
-
-[molusa.luka_pona]
-
-[molusa.pu_verbatim]
 
 [molusa.recognition]
 2021-10 = 25
@@ -3971,11 +3153,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [monsi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "butt⁵, back (anatomy)⁴, ass⁴, behind²"
 see_also = ["sinpin"]
@@ -4006,8 +3185,6 @@ fr = "NOM dos, derrière, arrière"
 2023-09 = 99
 
 [monsuta]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
@@ -4030,8 +3207,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsuta.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsuta.mp4"
 
-[monsuta.pu_verbatim]
-
 [monsuta.recognition]
 2020-04 = 74
 2021-10 = 88
@@ -4039,11 +3214,8 @@ mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsut
 2023-09 = 83
 
 [mu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "woof⁵, meow⁵, animal vocalization⁵, ribbit⁵, purr⁵, neigh⁵, cock-a-doodle-doo³"
 see_also = ["kalama"]
@@ -4084,19 +3256,13 @@ ku_data = "pizza²"
 see_also = ["pan"]
 sitelen_emosi = "🍕"
 sitelen_pona = ["mulapisu"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "mulapisu"
 
 [mulapisu.audio]
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mulapisu.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mulapisu.mp3"
-
-[mulapisu.luka_pona]
-
-[mulapisu.pu_verbatim]
 
 [mulapisu.recognition]
 2020-04 = 32
@@ -4105,11 +3271,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 6
 
 [mun]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "moon⁵, celestial body⁴, star², planet¹"
 see_also = ["suno"]
@@ -4140,14 +3303,10 @@ fr = "NOM lune, astre, étoile"
 2023-09 = 99
 
 [musi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "entertainment⁵, fun⁵, funny⁵, play⁵, game⁵, comedy⁵, art³, artistic³, fascinating², humour², interesting², irony², sport², enjoy², creative², playoffs²"
-see_also = []
 sitelen_emosi = "😃"
 sitelen_pona = ["musi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/musi.jpg"
@@ -4175,11 +3334,8 @@ fr = "ADJECTIF artistique, divertissant, frivole, pour s'amuser"
 2023-09 = 100
 
 [mute]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "plenty⁵, multiple⁵, many⁵, much⁵, very⁵, lots⁵, several⁵, numerous⁴, various⁴, most⁴, quantity⁴, twenty³, fifty³, thousand³, nine³, majority³, incredibly³, million³, fifteen², dozen², amount², twelve², eight², countless², hundred², billion², greatly², frequent², mostly², highly², excessive², exceed², six², trillion², quite², deeply², thirty², dose², particularly², increasingly², ten², extremely²"
 see_also = ["wan", "tu", "ale"]
@@ -4210,15 +3366,12 @@ fr = "ADJECTIF beaucoup de, plusieurs, plus de ; très\nNOM quantité"
 2023-09 = 100
 
 [n]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "kala kala"
 ku_data = "um³, mmm², hmm²"
 see_also = ["a"]
-sitelen_emosi = ""
 sitelen_pona = ["n"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/n.jpg"
 source_language = "onomatopoeia"
@@ -4230,46 +3383,30 @@ word = "n"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/n.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/n.mp3"
 
-[n.luka_pona]
-
-[n.pu_verbatim]
-
 [n.recognition]
 2021-10 = 60
 2022-08 = 68
 2023-09 = 70
 
 [nalanja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "kapesi Pake"
-ku_data = ""
 see_also = ["loje", "jelo"]
-sitelen_emosi = ""
 sitelen_pona = ["nalanja"]
-sitelen_sitelen = ""
 source_language = "Spanish"
-ucsur = ""
 usage_category = "obscure"
 word = "nalanja"
 
 [nalanja.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nalanja.mp3"
 
-[nalanja.luka_pona]
-
-[nalanja.pu_verbatim]
-
 [nalanja.recognition]
 2022-08 = 1
 2023-09 = 3
 
 [namako]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
@@ -4288,8 +3425,6 @@ word = "namako"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/namako.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/namako.mp3"
 
-[namako.luka_pona]
-
 [namako.pu_verbatim]
 de = "ADJEKTIV neu, frisch; zusätzlich, weitere/r/s, noch ein"
 en = "ADJECTIVE new, fresh; additional, another, extra"
@@ -4303,14 +3438,10 @@ fr = "ADJECTIF nouveau, frais ; encore un, de plus"
 2023-09 = 70
 
 [nanpa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "number⁵, count⁴, score³, rating³, rank³, measurement³, ranking³, statistical³, quantity², calculate², grade², percentage², edition², percent², statistics², version²"
-see_also = []
 sitelen_emosi = "#️⃣"
 sitelen_pona = ["nanpa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nanpa.jpg"
@@ -4338,14 +3469,10 @@ fr = "PARTICULE -ième (nombre ordinal)\nNOM nombre"
 2023-09 = 100
 
 [nasa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "weird⁵, unusual⁵, strange⁵, odd⁵, drunk⁴, silly³, wild³, ridiculous², psychoactive², nonsense², confuse², suspicious²"
-see_also = []
 sitelen_emosi = "🌀"
 sitelen_pona = ["nasa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
@@ -4373,14 +3500,10 @@ fr = "ADJECTIF étrange, insolite ; fou, bête, idiot ; ivre"
 2023-09 = 99
 
 [nasin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "road⁵, way⁵, doctrine⁵, method⁵, path⁵, avenue⁴, manner⁴, route⁴, direction⁴, street⁴, trail⁴, orientation⁴, mode⁴, technique⁴, system³, layout³, course³, passage³, process³, track³, format³, ideology³, tactic³, custom³, aisle³, journey³, lane³, norm², guideline², style², regular², procedure², protocol², order², plan², channel², routine², strategy², pattern², theme², composition², policy², angle², tendency²"
-see_also = []
 sitelen_emosi = "🛣️"
 sitelen_pona = ["nasin"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasin.jpg"
@@ -4408,28 +3531,18 @@ fr = "NOM chemin, voie ; manière, façon ; coutume, méthode, doctrine"
 2023-09 = 100
 
 [natu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Lakuse"
-ku_data = ""
 see_also = ["wan", "sama", "linja"]
-sitelen_emosi = ""
 sitelen_pona = ["natu"]
-sitelen_sitelen = ""
 source_language = "Vietnamese"
-ucsur = ""
 usage_category = "obscure"
 word = "natu"
 
 [natu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/natu.mp3"
-
-[natu.luka_pona]
-
-[natu.pu_verbatim]
 
 [natu.recognition]
 2021-10 = 25
@@ -4437,28 +3550,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [neja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan inwin"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["neja"]
-sitelen_sitelen = ""
 source_language = "Finnish"
-ucsur = ""
 usage_category = "obscure"
 word = "neja"
 
 [neja.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/neja.mp3"
-
-[neja.luka_pona]
-
-[neja.pu_verbatim]
 
 [neja.recognition]
 2020-04 = 13
@@ -4467,42 +3569,27 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [nele]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "jan Emalan"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["nele"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "nele"
 
 [nele.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nele.mp3"
 
-[nele.luka_pona]
-
-[nele.pu_verbatim]
-
 [nele.recognition]
 2022-08 = 1
 2023-09 = 2
 
 [nena]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hill⁴, nose³, ridge², button², peak², mountain², pile², breast¹, mount¹, fold¹"
-see_also = []
 sitelen_emosi = "🗻"
 sitelen_pona = ["nena"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
@@ -4530,11 +3617,8 @@ fr = "NOM nez ; bosse, colline, montagne ; bouton"
 2023-09 = 99
 
 [ni]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "this⁵, that⁵, these⁵, those⁴, particular², specifically², there²"
 see_also = ["ona"]
@@ -4565,14 +3649,10 @@ fr = "ADJECTIF ce, cette"
 2023-09 = 100
 
 [nimi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "word⁵, name⁵, term³, title³, lyrics², label², brand², so-called²"
-see_also = []
 sitelen_emosi = "💬"
 sitelen_pona = ["nimi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nimi.jpg"
@@ -4600,70 +3680,46 @@ fr = "NOM mot, nom"
 2023-09 = 100
 
 [nimisin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "unknown"
-ku_data = ""
 see_also = ["nimi", "sin"]
-sitelen_emosi = ""
 sitelen_pona = ["nimisin"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "uncommon"
 word = "nimisin"
 
 [nimisin.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nimisin.mp3"
 
-[nimisin.luka_pona]
-
-[nimisin.pu_verbatim]
-
 [nimisin.recognition]
 2022-08 = 13
 2023-09 = 35
 
 [nja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Kita"
-ku_data = ""
 see_also = ["mu", "jonke"]
-sitelen_emosi = ""
 sitelen_pona = ["nja"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "nja"
 
 [nja.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nja.mp3"
 
-[nja.luka_pona]
-
-[nja.pu_verbatim]
-
 [nja.recognition]
 2022-08 = 5
 2023-09 = 9
 
 [noka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "leg⁵, foot⁴, lap³, ankle³, kick³, heel², knee², base²"
-see_also = []
 sitelen_emosi = "🦵"
 sitelen_pona = ["noka"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/noka.jpg"
@@ -4691,28 +3747,18 @@ fr = "NOM pied, jambe, organe de locomotion ; bas, dessous"
 2023-09 = 99
 
 [nu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pu", "ku"]
-sitelen_emosi = ""
 sitelen_pona = ["nu"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "nu"
 
 [nu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nu.mp3"
-
-[nu.luka_pona]
-
-[nu.pu_verbatim]
 
 [nu.recognition]
 2020-04 = 14
@@ -4721,11 +3767,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [o]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "hey³, shall³, should², ought², must², please¹, let⁰, dare⁰, mandate⁰, dear⁰"
 see_also = ["li"]
@@ -4756,36 +3799,23 @@ fr = "PARTICULE hé ! ô ! (vocatif ou impératif)"
 2023-09 = 100
 
 [ojuta]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "soweli nata"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["ojuta"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "ojuta"
 
 [ojuta.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ojuta.mp3"
 
-[ojuta.luka_pona]
-
-[ojuta.pu_verbatim]
-
 [ojuta.recognition]
 2022-08 = 2
 2023-09 = 6
 
 [oke]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -4794,18 +3824,12 @@ ku_data = "OK⁰, alright⁰, fine⁰"
 see_also = ["pona", "ke", "n"]
 sitelen_emosi = "👌"
 sitelen_pona = ["oke"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "uncommon"
 word = "oke"
 
 [oke.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
-
-[oke.luka_pona]
-
-[oke.pu_verbatim]
 
 [oke.recognition]
 2020-04 = 25
@@ -4820,22 +3844,14 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Elijo"
-ku_data = ""
-see_also = []
 sitelen_emosi = "🦖"
 sitelen_pona = ["okepuma"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "okepuma"
 
 [okepuma.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/okepuma.mp3"
-
-[okepuma.luka_pona]
-
-[okepuma.pu_verbatim]
 
 [okepuma.recognition]
 2020-04 = 21
@@ -4844,36 +3860,23 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [oki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "unknown"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["oki"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "oki"
 
 [oki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oki.mp3"
 
-[oki.luka_pona]
-
-[oki.pu_verbatim]
-
 [oki.recognition]
 2022-08 = 1
 2023-09 = 4
 
 [oko]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -4909,14 +3912,10 @@ fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXI
 2023-09 = 57
 
 [olin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "loving⁵, love⁵, romance⁴, romantic³, compassion³, attraction², intimate², passion², beloved², loyalty², loyal¹, faithful¹, dear¹, mercy¹, darling¹, passionate¹, care¹, appreciation¹, crush¹, respect¹"
-see_also = []
 sitelen_emosi = "💕"
 sitelen_pona = ["olin", "olin2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/olin.jpg"
@@ -4944,56 +3943,34 @@ fr = "VERBE aimer, respecter, compatir, montrer de l'affection pour"
 2023-09 = 100
 
 [omekalike]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Emalan"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["omekalike"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "omekalike"
 
 [omekalike.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omekalike.mp3"
 
-[omekalike.luka_pona]
-
-[omekalike.pu_verbatim]
-
 [omekalike.recognition]
 2022-08 = 5
 2023-09 = 3
 
 [omekapo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Maliku"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["omekapo"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "uncommon"
 word = "omekapo"
 
 [omekapo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omekapo.mp3"
-
-[omekapo.luka_pona]
-
-[omekapo.pu_verbatim]
 
 [omekapo.recognition]
 2021-10 = 38
@@ -5001,28 +3978,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 20
 
 [omen]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan inwin"
-ku_data = ""
 see_also = ["musi"]
 sitelen_emosi = "🙄"
 sitelen_pona = ["omen"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "omen"
 
 [omen.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omen.mp3"
-
-[omen.luka_pona]
-
-[omen.pu_verbatim]
 
 [omen.recognition]
 2020-04 = 19
@@ -5031,14 +3999,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [ona]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "its⁵, her⁵, them⁵, their⁵, him⁴, he⁴, she⁴, they⁴, his⁴, it⁴, themselves³, itself³, himself², herself²"
-see_also = []
 sitelen_emosi = "👆"
 sitelen_pona = ["ona"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ona.jpg"
@@ -5066,28 +4030,18 @@ fr = "NOM il(s), elle(s)"
 2023-09 = 100
 
 [oni]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "kulupu Eki"
-ku_data = ""
 see_also = ["insa", "lape", "musi", "sitelen", "jume"]
-sitelen_emosi = ""
 sitelen_pona = ["oni", "oni2"]
-sitelen_sitelen = ""
 source_language = "Ancient Greek"
-ucsur = ""
 usage_category = "obscure"
 word = "oni"
 
 [oni.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oni.mp3"
-
-[oni.luka_pona]
-
-[oni.pu_verbatim]
 
 [oni.recognition]
 2021-10 = 26
@@ -5095,11 +4049,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [open]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "open⁵, begin⁵, start⁵, beginning⁵, initiate⁴, starting⁴, opening³, initial², access², entry², engage², launch², starter², introduction², origin²"
 see_also = ["kama"]
@@ -5130,28 +4081,16 @@ fr = "VERBE commencer, ouvrir, allumer"
 2023-09 = 100
 
 [owe]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = ""
 creator = "Ferret"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["owe"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "owe"
 
 [owe.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/owe.mp3"
-
-[owe.luka_pona]
-
-[owe.pu_verbatim]
 
 [owe.recognition]
 2021-10 = 20
@@ -5159,28 +4098,18 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 5
 
 [pa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Jan, jan Lija"
-ku_data = ""
-see_also = []
 sitelen_emosi = "🤨"
 sitelen_pona = ["pa"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "pa"
 
 [pa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pa.mp3"
-
-[pa.luka_pona]
-
-[pa.pu_verbatim]
 
 [pa.recognition]
 2020-04 = 21
@@ -5189,14 +4118,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [pakala]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "broken⁵, destruction⁵, mistake⁵, damage⁵, damn⁴, goddamn⁴, ruin⁴, burst⁴, accident⁴, destroy⁴, heck⁴, error⁴, hurt⁴, injure⁴, crash⁴, fail⁴, harm⁴, break⁴, failure³, fault³, injury³, flaw³, crack³, collapse³, snap³, fuck³, fucking³, trouble², rip², explode², crush², wound², violate², offense², strike², boom², crap²"
-see_also = []
 sitelen_emosi = "💥"
 sitelen_pona = ["pakala"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pakala.jpg"
@@ -5224,8 +4149,6 @@ fr = "ADJECTIF brisé, cassé, abîmé, bâclé, gâché"
 2023-09 = 100
 
 [pake]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2009"
@@ -5234,7 +4157,6 @@ ku_data = "prevent², stop², lock¹, forbid¹, wall¹, interrupt¹, interventio
 see_also = ["pini"]
 sitelen_emosi = "🚧"
 sitelen_pona = ["pake"]
-sitelen_sitelen = ""
 source_language = "English"
 ucsur = "U+F19A0"
 usage_category = "rare"
@@ -5244,10 +4166,6 @@ word = "pake"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pake.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pake.mp3"
 
-[pake.luka_pona]
-
-[pake.pu_verbatim]
-
 [pake.recognition]
 2020-04 = 34
 2021-10 = 48
@@ -5255,41 +4173,25 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 13
 
 [pakola]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2022"
 creator = "the Half as Interesting team"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "pakola"
 
 [pakola.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pakola.mp3"
 
-[pakola.luka_pona]
-
-[pakola.pu_verbatim]
-
 [pakola.recognition]
 2023-09 = 3
 
 [pali]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "work⁵, do⁵, construct⁵, make⁵, produce⁵, activity⁵, job⁵, build⁵, production⁵, labour⁵, working⁵, action⁵, task⁵, create⁵, function⁵, occupation⁵, operating⁴, project⁴, execute⁴, craft⁴, manufacturing⁴, develop³, generate³, compose³, assemble³, act³, profession³, assignment³, commit³, perform³, enact³, operation³, creation³, effort³, service³, accomplish³, implement³, operate³, implementation³, behaviour³, processing³, behave³, career³, actively², employment², practice², development², execution², invent², industry², role², procedure², functional², construction², achieve², prepare², interact², undergo², accomplishment², undertake², busy², behavioural², productive², industrial², plan², participation², manipulate²"
-see_also = []
 sitelen_emosi = "✊"
 sitelen_pona = ["pali"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pali.jpg"
@@ -5317,11 +4219,8 @@ fr = "VERBE fair, agir sur, travailler, construire, préparer"
 2023-09 = 100
 
 [palisa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "stick⁵, rod⁵, stake⁴, pole⁴, branch³, staff³, straight², bar², stem¹, beam¹"
 see_also = ["linja"]
@@ -5352,11 +4251,8 @@ fr = "NOM objet long et dur : bâton"
 2023-09 = 99
 
 [pan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "bread⁵, grain⁵, wheat⁴, rice³, corn², carbohydrate²"
 see_also = ["moku"]
@@ -5388,14 +4284,10 @@ fr = "NOM céréale ; riz, blé, orge, maïs, avoine ; pain, pâtes"
 2023-09 = 99
 
 [pana]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "give⁵, put⁵, deliver⁵, grant⁵, delivery⁵, send⁴, submit⁴, provide⁴, transfer⁴, distribute⁴, distribution³, donate³, appoint³, contribute³, output³, given³, publishing³, yield³, share³, offering³, assign³, deploy³, deposit³, convey³, offer², input², emission², lend², supply², release², pour², publish², provision², gift², export², shared², serve², spend², spread², attach², administer², devote², serving², donation², contribution², added², post², toss², apply², transmission², present², bring², add², install², show², introduce², dedicate², exhibit², insert²"
-see_also = []
 sitelen_emosi = "📤"
 sitelen_pona = ["pana"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
@@ -5423,28 +4315,19 @@ fr = "VERBE donner, envoyer, mettre, fournir, émettre, lâcher"
 2023-09 = 100
 
 [pasila]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "pre-pu"
 coined_year = "<2001"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pona"]
 sitelen_emosi = "🧘"
 sitelen_pona = ["pasila"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "pasila"
 
 [pasila.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pasila.mp3"
-
-[pasila.luka_pona]
-
-[pasila.pu_verbatim]
 
 [pasila.recognition]
 2020-04 = 25
@@ -5453,8 +4336,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [pata]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2002"
@@ -5463,18 +4344,12 @@ ku_data = "sibling⁰, cousin⁰"
 see_also = ["sama"]
 sitelen_emosi = "👯‍♀️"
 sitelen_pona = ["pata"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "pata"
 
 [pata.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pata.mp3"
-
-[pata.luka_pona]
-
-[pata.pu_verbatim]
 
 [pata.recognition]
 2020-04 = 28
@@ -5483,28 +4358,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [peta]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Tesa"
-ku_data = ""
 see_also = ["laso"]
 sitelen_emosi = "🟢"
 sitelen_pona = ["peta"]
-sitelen_sitelen = ""
 source_language = "Esperanto"
-ucsur = ""
 usage_category = "obscure"
 word = "peta"
 
 [peta.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/peta.mp3"
-
-[peta.luka_pona]
-
-[peta.pu_verbatim]
 
 [peta.recognition]
 2020-04 = 13
@@ -5512,28 +4378,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [peto]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan Kiwa, kulupu kasi"
 ku_data = "cry⁰"
-see_also = []
 sitelen_emosi = "😭"
 sitelen_pona = ["peto"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "peto"
 
 [peto.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/peto.mp3"
-
-[peto.luka_pona]
-
-[peto.pu_verbatim]
 
 [peto.recognition]
 2020-04 = 20
@@ -5542,14 +4399,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [pi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "concerning¹, about⁰"
-see_also = []
 sitelen_emosi = "⏹️"
 sitelen_pona = ["pi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
@@ -5583,36 +4436,24 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "Kriskee_"
-ku_data = ""
 see_also = ["linluwi", "ilo"]
-sitelen_emosi = ""
 sitelen_pona = ["pika"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "pika"
 
 [pika.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pika.mp3"
 
-[pika.luka_pona]
-
-[pika.pu_verbatim]
-
 [pika.recognition]
 2022-08 = 2
 2023-09 = 5
 
 [pilin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "feeling⁵, emotion⁵, feel⁵, sentiment⁵, mood⁴, emotionally⁴, heart⁴, sense⁴, attitude⁴, emotional⁴, opinion³, notion³, assume³, impression³, hypothesis³, perceive³, deem³, thinking², believe², assumption², thought², speculation², conscience², suppose², experience², stimulus², reaction², suspicion², belief², perception², touch², idea², estimated², consider², outlook², think², mentally²"
-see_also = []
 sitelen_emosi = "❤️"
 sitelen_pona = ["pilin"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
@@ -5640,11 +4481,8 @@ fr = "NOM cœur (physique et psychologique)\nADJECTIF qui ressent (une émotion,
 2023-09 = 100
 
 [pimeja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "dark⁵, black⁵, darkness⁵, shadow³, shade³"
 see_also = ["suno", "walo"]
@@ -5674,43 +4512,28 @@ fr = "ADJECTIF noir, foncé, sombre"
 2022-08 = 99
 2023-09 = 100
 
-
 [Pingo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Likipi"
 ku_data = "car⁰"
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["Pingo"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "Pingo"
 
 [Pingo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/Pingo.mp3"
 
-[Pingo.luka_pona]
-
-[Pingo.pu_verbatim]
-
 [Pingo.recognition]
 2021-10 = 20
 2022-08 = 5
 2023-09 = 4
 
-
 [pini]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "end⁵, finish⁵, shut⁵, ending⁴, cease⁴, outcome⁴, conclude⁴, close (v)⁴, closed⁴, quit³, latter³, final³, complete³, stop³, off³, cancel³, conclusion², result², previous², pause², interrupt², lock², over²"
 see_also = ["open", "kama"]
@@ -5741,14 +4564,10 @@ fr = "ADJECTIF fini, passé, terminé"
 2023-09 = 100
 
 [pipi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "bug⁵, insect⁵, spider³"
-see_also = []
 sitelen_emosi = "🐞"
 sitelen_pona = ["pipi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pipi.jpg"
@@ -5776,28 +4595,18 @@ fr = "NOM insecte, araignée, fourmi"
 2023-09 = 99
 
 [pipo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan Ejewa, jan inwin"
-ku_data = ""
-see_also = []
 sitelen_emosi = "😒"
 sitelen_pona = ["pipo"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "pipo"
 
 [pipo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pipo.mp3"
-
-[pipo.luka_pona]
-
-[pipo.pu_verbatim]
 
 [pipo.recognition]
 2020-04 = 19
@@ -5806,8 +4615,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [po]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2001"
@@ -5816,18 +4623,12 @@ ku_data = "four⁰"
 see_also = ["mute"]
 sitelen_emosi = "🍀"
 sitelen_pona = ["po"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "po"
 
 [po.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/po.mp3"
-
-[po.luka_pona]
-
-[po.pu_verbatim]
 
 [po.recognition]
 2020-04 = 25
@@ -5836,11 +4637,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 5
 
 [poka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "side⁵, hip⁴, beside³, aside³, closely², left (not right)², sidebar², alongside²"
 see_also = ["lon"]
@@ -5871,14 +4669,10 @@ fr = "NOM hanche, côté ; proximité"
 2023-09 = 99
 
 [poki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "container⁵, jar⁵, box⁵, package⁵, bag⁵, basket⁴, bucket⁴, bottle⁴, pot⁴, cabinet⁴, classify³, drawer³, locker³, storage³, case³, bowl³, sack², cup², pack², cage², purse², trunk², pitcher², cell²"
-see_also = []
 sitelen_emosi = "📦"
 sitelen_pona = ["poki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/poki.jpg"
@@ -5912,22 +4706,14 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Kisinja"
-ku_data = ""
-see_also = []
 sitelen_emosi = "🎳"
 sitelen_pona = ["polinpin"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "polinpin"
 
 [polinpin.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/polinpin.mp3"
-
-[polinpin.luka_pona]
-
-[polinpin.pu_verbatim]
 
 [polinpin.recognition]
 2020-04 = 14
@@ -5946,18 +4732,12 @@ ku_data = "tomato⁰"
 see_also = ["pona", "ken", "wawa"]
 sitelen_emosi = "📈"
 sitelen_pona = ["pomotolo"]
-sitelen_sitelen = ""
 source_language = "Italian"
-ucsur = ""
 usage_category = "obscure"
 word = "pomotolo"
 
 [pomotolo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pomotolo.mp3"
-
-[pomotolo.luka_pona]
-
-[pomotolo.pu_verbatim]
 
 [pomotolo.recognition]
 2020-04 = 14
@@ -5966,14 +4746,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [pona]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "good⁵, appropriate⁵, nice⁵, acceptable⁵, simply⁴, OK⁴, fine⁴, proper⁴, quality⁴, valid⁴, pleasant⁴, friendly⁴, positive⁴, well⁴, simple⁴, benefit⁴, virtue⁴, alright⁴, correct³, fix³, repair³, cool³, advantage³, right (not wrong)³, okay³, fixed³, validity³, helpful³, kind³, merit³, successfully³, ethical³, peaceful³, ideal³, improve³, improvement³, correction³, fair³, grace³, heal³, ease³, successful³, supportive³, awesome³, approval³, correctly², adequate², effectiveness², reasonable², decent², thanks², welfare², peace², wonderful², plain², properly², fairly², civil², terrific², improved², worthy², well-being², lovely², natural², resolve², easy², elementary², enhance², efficiency², mercy², useful², justice², elegant², beautiful², courtesy², effective², comfortable², reliability², perfect², please², relieve², basic², better², honest², solve², free², success², fascinating², qualify², morality², easily², excellent², sufficient²"
-see_also = []
 sitelen_emosi = "👍"
 sitelen_pona = ["pona"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pona.jpg"
@@ -6007,30 +4783,20 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Kita"
-ku_data = ""
 see_also = ["soweli"]
-sitelen_emosi = ""
 sitelen_pona = ["poni"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "poni"
 
 [poni.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poni.mp3"
 
-[poni.luka_pona]
-
-[poni.pu_verbatim]
-
 [poni.recognition]
 2022-08 = 1
 2023-09 = 2
 
 [powe]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "<2001"
@@ -6039,7 +4805,6 @@ ku_data = "fake², pretend², trick², false², myth², lie (saying untruth)², 
 see_also = ["ike", "lon"]
 sitelen_emosi = "🧞"
 sitelen_pona = ["powe"]
-sitelen_sitelen = ""
 source_language = "Acadian French"
 ucsur = "U+F19A3"
 usage_category = "uncommon"
@@ -6049,10 +4814,6 @@ word = "powe"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/powe.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/powe.mp3"
 
-[powe.luka_pona]
-
-[powe.pu_verbatim]
-
 [powe.recognition]
 2020-04 = 31
 2021-10 = 56
@@ -6060,17 +4821,13 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 23
 
 [pu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "interact with Toki Pona: The Language of Good⁵, officially²"
 see_also = ["ku"]
 sitelen_emosi = "📖"
 sitelen_pona = ["pu"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
 ucsur = "U+F1955"
 usage_category = "core"
@@ -6079,8 +4836,6 @@ word = "pu"
 [pu.audio]
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pu.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pu.mp3"
-
-[pu.luka_pona]
 
 [pu.pu_verbatim]
 de = "ADJEKTIV mit dem offiziellen Toki-Pona-Buch interagierend"
@@ -6094,28 +4849,19 @@ fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
 2023-09 = 96
 
 [puwa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Seli"
-ku_data = ""
 see_also = ["suwi", "ko"]
 sitelen_emosi = "☁️"
 sitelen_pona = ["puwa"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "rare"
 word = "puwa"
 
 [puwa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/puwa.mp3"
-
-[puwa.luka_pona]
-
-[puwa.pu_verbatim]
 
 [puwa.recognition]
 2021-10 = 31
@@ -6123,11 +4869,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 17
 
 [sama]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "alike⁵, equal⁵, similar⁵, equivalent⁵, as⁴, similarly⁴, equality³, equally³, like³, identical³, likewise², related², relation², constant², associated², relate², seem², even², copy², mutual², equity², resemble², fellow²"
 see_also = ["ante"]
@@ -6158,8 +4901,6 @@ fr = "ADJECTIF même, semblable; l'un l'autre ; fraternel, homologue\nPRÉPOSITI
 2023-09 = 99
 
 [samu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
@@ -6168,19 +4909,13 @@ ku_data = "wanting to create new words²"
 see_also = ["nimisin"]
 sitelen_emosi = "✍️"
 sitelen_pona = ["samu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "samu"
 
 [samu.audio]
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/samu.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/samu.mp3"
-
-[samu.luka_pona]
-
-[samu.pu_verbatim]
 
 [samu.recognition]
 2020-04 = 16
@@ -6189,28 +4924,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [san]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Lenoka, jan Wesu"
 ku_data = "three⁰"
 see_also = ["mute", "tuli"]
-sitelen_emosi = ""
 sitelen_pona = ["san"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "san"
 
 [san.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/san.mp3"
-
-[san.luka_pona]
-
-[san.pu_verbatim]
 
 [san.recognition]
 2020-04 = 15
@@ -6219,11 +4945,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 9
 
 [seli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "fire⁵, heat⁵, hot⁵, burning⁵, flame⁵, burn⁴, warm⁴, warming³, bake², temperature², cook², boil², cooking², tropical¹"
 see_also = ["lete"]
@@ -6254,14 +4977,10 @@ fr = "NOM feu ; élément de cuisson, réaction chimique, chaleur"
 2023-09 = 99
 
 [selo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "skin⁵, boundary⁴, surface³, peel³, outer³, shape³, layer³, outline², edge², external², border², frame², margin², shell², barrier², cover², appearance¹"
-see_also = []
 sitelen_emosi = "🔲"
 sitelen_pona = ["selo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/selo.jpg"
@@ -6289,14 +5008,10 @@ fr = "NOM forme, couche extérieure, peau, écorce, pelure, peau, coquille ; lim
 2023-09 = 98
 
 [seme]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "what⁵, which⁴, huh³"
-see_also = []
 sitelen_emosi = "❓"
 sitelen_pona = ["seme"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seme.jpg"
@@ -6324,11 +5039,8 @@ fr = "PARTICULE quoi ? quel ?"
 2023-09 = 100
 
 [sewi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "divine⁵, upper⁵, sacred⁴, top⁴, holy⁴, sky⁴, elevated⁴, high³, spiritual³, raise³, supreme³, highly³, peak³, God², rise², above², superior², magical², summit², weather², upstairs², religious², arise²"
 see_also = ["anpa"]
@@ -6359,14 +5071,10 @@ fr = "NOM dessus, le haut, chose élevée\nADJECTIF divin, sacré, surnaturel, q
 2023-09 = 99
 
 [sijelo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "body⁵, torso⁴, flesh³, physically², form², figure², self², physical²"
-see_also = []
 sitelen_emosi = "🏋️"
 sitelen_pona = ["sijelo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
@@ -6394,11 +5102,8 @@ fr = "NOM corps, état physique, torse"
 2023-09 = 99
 
 [sike]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "round⁵, circle⁵, sphere⁵, ball⁴, loop⁴, cycle⁴, wheel⁴, disc³, globe³, circuit³, spin², ring², surround², curve², rolling², spot², orbit², twist², roll¹"
 see_also = ["leko"]
@@ -6429,28 +5134,19 @@ fr = "NOM objet rond : ballon, cercle, cycle, sphère, roue, anneau\nADJECTIF an
 2023-09 = 100
 
 [sikomo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Lija, jan Wesu"
-ku_data = ""
 see_also = ["epiku"]
 sitelen_emosi = "🤩"
 sitelen_pona = ["sikomo"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "sikomo"
 
 [sikomo.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sikomo.mp3"
-
-[sikomo.luka_pona]
-
-[sikomo.pu_verbatim]
 
 [sikomo.recognition]
 2020-04 = 19
@@ -6459,11 +5155,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [sin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "new⁵, newly⁵, fresh⁵, back (i.e. as before or returned)², again², unprecedented², innovative², modern², another², additionally², recent², repeat², innovation², young²"
 see_also = ["namako"]
@@ -6494,14 +5187,10 @@ fr = "ADJECTIF nouveau, frais ; encore un, de plus"
 2023-09 = 99
 
 [sina]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "you⁵, your⁵, yours⁵, yourself⁴"
-see_also = []
 sitelen_emosi = "👉"
 sitelen_pona = ["sina"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sina.jpg"
@@ -6529,11 +5218,8 @@ fr = "NOM tu, toi, vous"
 2023-09 = 100
 
 [sinpin]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "front⁵, face (n)⁴, wall³, chest (anatomy)², ahead², barrier²"
 see_also = ["monsi"]
@@ -6570,36 +5256,23 @@ book = "none"
 coined_era = "pre-pu"
 coined_year = "2007"
 creator = "spad0103"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["sipi"]
-sitelen_sitelen = ""
 source_language = "Latin"
-ucsur = ""
 usage_category = "obscure"
 word = "sipi"
 
 [sipi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sipi.mp3"
 
-[sipi.luka_pona]
-
-[sipi.pu_verbatim]
-
 [sipi.recognition]
 2022-08 = 0
 2023-09 = 1
 
 [sitelen]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "picture⁵, image⁵, graphic⁵, symbol⁵, drawing⁵, illustration⁵, photo⁵, write⁴, painting⁴, illustrate⁴, writing⁴, written⁴, depict⁴, draw⁴, photograph⁴, portrait³, icon³, representation³, mark³, portray³, record², render², text², note², sign², pattern², graph², poster², compose², letter (of alphabet)²"
-see_also = []
 sitelen_emosi = "🖼️"
 sitelen_pona = ["sitelen"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
@@ -6627,28 +5300,18 @@ fr = "NOM image, représentation, symbole, marque, écriture"
 2023-09 = 100
 
 [slape]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan Kawa"
-ku_data = ""
 see_also = ["lape"]
-sitelen_emosi = ""
 sitelen_pona = ["slape"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "slape"
 
 [slape.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/slape.mp3"
-
-[slape.luka_pona]
-
-[slape.pu_verbatim]
 
 [slape.recognition]
 2020-04 = 12
@@ -6656,8 +5319,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [soko]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -6676,10 +5337,6 @@ word = "soko"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/soko.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soko.mp3"
 
-[soko.luka_pona]
-
-[soko.pu_verbatim]
-
 [soko.recognition]
 2020-04 = 17
 2021-10 = 77
@@ -6687,14 +5344,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 63
 
 [sona]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "information⁵, know⁵, knowledge⁵, understand⁵, understanding⁵, aware⁵, info⁴, wisdom⁴, awareness⁴, known⁴, data³, wise³, recognition³, recognize³, expertise³, intelligence², smart², sure², experienced², insight², educational², identify², remember², conscious², clever², cognitive², logical², familiar², logic², acknowledge², skill²"
-see_also = []
 sitelen_emosi = "🧠"
 sitelen_pona = ["sona"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sona.jpg"
@@ -6722,8 +5375,6 @@ fr = "VERBE savoir, connaître\nAUXILIAIRE savoir"
 2023-09 = 100
 
 [soto]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -6732,18 +5383,12 @@ ku_data = "left (not right)⁰"
 see_also = ["poka", "teje"]
 sitelen_emosi = "🤛"
 sitelen_pona = ["soto"]
-sitelen_sitelen = ""
 source_language = "Swahili"
-ucsur = ""
 usage_category = "obscure"
 word = "soto"
 
 [soto.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soto.mp3"
-
-[soto.luka_pona]
-
-[soto.pu_verbatim]
 
 [soto.recognition]
 2020-04 = 22
@@ -6752,14 +5397,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 6
 
 [soweli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "animal⁵, deer⁵, creature⁴, dog⁴, cat⁴, llama³, goat³, Musteloidea³, beast³, lion³, pig², capybara², wolf², horse², mouse (2020)², tiger², large domesticated animal², Hominidae², procyonid², monkey², rabbit²"
-see_also = []
 sitelen_emosi = "🐒"
 sitelen_pona = ["soweli"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
@@ -6787,28 +5428,18 @@ fr = "NOM animal, mammifère terrestre"
 2023-09 = 100
 
 [su]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["pu", "ku"]
-sitelen_emosi = ""
 sitelen_pona = ["su"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "su"
 
 [su.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/su.mp3"
-
-[su.luka_pona]
-
-[su.pu_verbatim]
 
 [su.recognition]
 2020-04 = 14
@@ -6817,28 +5448,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 0
 
 [suke]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["suke"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "suke"
 
 [suke.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suke.mp3"
-
-[suke.luka_pona]
-
-[suke.pu_verbatim]
 
 [suke.recognition]
 2021-10 = 3
@@ -6846,11 +5466,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 0
 
 [suli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "large⁵, importance⁵, big⁵, important⁵, significant⁵, matter (v)⁵, significantly⁴, grand⁴, huge⁴, tall⁴, weight⁴, vast⁴, crucial⁴, extensive⁴, prominent⁴, broad⁴, fat⁴, substantial⁴, long⁴, size⁴, significance⁴, heavy⁴, giant⁴, extended⁴, wide⁴, considerable⁴, thick⁴, major³, tremendous³, extent³, magnitude³, great³, vital³, length³, height³, greatly³, importantly³, severe³, dramatically³, mass³, essential², largely², relevant², massive², fundamental², emphasize², stretch², enormous², extend², heavily², critical², expansion², expand², depth², volume², extension², age², profound², deeply², density², widely², influential², dominant², grow², growth², dramatic², super², emphasis², remarkable², mainly²"
 see_also = ["lili"]
@@ -6881,11 +5498,8 @@ fr = "ADJECTIF grand, lourd, long ; important ; adulte"
 2023-09 = 100
 
 [suno]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "sun⁵, solar⁵, light⁴, sunlight⁴, bright⁴, shine³"
 see_also = ["mun", "pimeja"]
@@ -6916,14 +5530,10 @@ fr = "NOM soleil, lumière, lueur, brillant"
 2023-09 = 100
 
 [supa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "platform⁵, table⁵, shelf⁴, board⁴, furniture³, flat³, lie (be in flat position)³, level³, desk³, deck², couch², stage², seat², bench², tablet², surface², chair², counter², pad²"
-see_also = []
 sitelen_emosi = "🛏️"
 sitelen_pona = ["supa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
@@ -6959,20 +5569,13 @@ coined_year = "2009"
 creator = "Alexandre Baudry"
 ku_data = "platypus¹"
 see_also = ["kijetesantakalu"]
-sitelen_emosi = ""
 sitelen_pona = ["sutopatikuna"]
-sitelen_sitelen = ""
 source_language = "Serbo-Croatian"
-ucsur = ""
 usage_category = "obscure"
 word = "sutopatikuna"
 
 [sutopatikuna.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sutopatikuna.mp3"
-
-[sutopatikuna.luka_pona]
-
-[sutopatikuna.pu_verbatim]
 
 [sutopatikuna.recognition]
 2021-10 = 33
@@ -6980,14 +5583,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 8
 
 [suwi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "sweet⁵, cute⁵, candy⁴, sugar³, gentle², dessert², tender², soft², darling², treat²"
-see_also = []
 sitelen_emosi = "🍭"
 sitelen_pona = ["suwi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
@@ -7015,28 +5614,19 @@ fr = "ADJECTIF doux, parfumé, mignon, innocent, adorable"
 2023-09 = 100
 
 [taki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Kapilu, jan Lewiku"
 ku_data = "bond⁰, attract⁰, attach⁰, clip⁰"
 see_also = ["wan", "wile"]
-sitelen_emosi = ""
 sitelen_pona = ["taki", "taki2"]
-sitelen_sitelen = ""
 source_language = "Korean"
-ucsur = ""
 usage_category = "rare"
 word = "taki"
 
 [taki.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/taki.mp3"
-
-[taki.luka_pona]
-
-[taki.pu_verbatim]
 
 [taki.recognition]
 2021-10 = 38
@@ -7044,14 +5634,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 14
 
 [tan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "from⁵, reason⁵, because of⁴, by⁴, source⁴, behalf of², basis², origin², motive², cause², purpose², per², since², factor², incentive²"
-see_also = []
 sitelen_emosi = "↩️"
 sitelen_pona = ["tan"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tan.jpg"
@@ -7079,14 +5665,10 @@ fr = "PRÉPOSITION de, provenant de, à cause de"
 2023-09 = 99
 
 [taso]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "only⁵, but⁵, solely⁵, however⁵, exclusively⁴, although⁴, though⁴, just⁴, exclusive⁴, despite⁴, nonetheless⁴, mere⁴, merely³, except³, yet³, sole³, nevertheless³, whereas³, regardless², exception²"
-see_also = []
 sitelen_emosi = "🤔"
 sitelen_pona = ["taso"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/taso.jpg"
@@ -7114,11 +5696,8 @@ fr = "PARTICULE mais, cependant\nADJECTIF seulement"
 2023-09 = 99
 
 [tawa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "move⁵, go⁵, toward⁵, motion⁵, movement⁵, towards⁵, to⁵, for⁵, transit⁴, travel⁴, transportation³, trip³, walk³, advance³, onto³, transport³, pass³, walking³, migration³, departure³, from the perspective of³, push³, march², slide², proceed², forth², drift², according to², mobile², until², transfer², cross², till², approach², forward², momentum², attend², progress²"
 see_also = ["awen", "kama"]
@@ -7149,8 +5728,6 @@ fr = "PRÉPOSITION à, allant à, vers, pour, du point de vue de\nADJECTIF en mo
 2023-09 = 100
 
 [te]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
@@ -7159,18 +5736,12 @@ ku_data = "(opening quotation particle)⁰"
 see_also = ["to"]
 sitelen_emosi = "🤜"
 sitelen_pona = ["te"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "rare"
 word = "te"
 
 [te.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/te.mp3"
-
-[te.luka_pona]
-
-[te.pu_verbatim]
 
 [te.recognition]
 2020-04 = 22
@@ -7179,28 +5750,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 14
 
 [teje]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Olipija, jan inwin"
 ku_data = "right (not left)⁰"
 see_also = ["poka", "soto"]
-sitelen_emosi = ""
 sitelen_pona = ["teje"]
-sitelen_sitelen = ""
 source_language = "Welsh"
-ucsur = ""
 usage_category = "obscure"
 word = "teje"
 
 [teje.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/teje.mp3"
-
-[teje.luka_pona]
-
-[teje.pu_verbatim]
 
 [teje.recognition]
 2021-10 = 34
@@ -7208,14 +5770,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 6
 
 [telo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "fluid⁵, water⁵, wet⁴, wash³, pond³, pool³, drink², shower², lake²"
-see_also = []
 sitelen_emosi = "💧"
 sitelen_pona = ["telo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/telo.jpg"
@@ -7243,28 +5801,17 @@ fr = "NOM eau, liquide, fluide, substance mouillée, boisson"
 2023-09 = 100
 
 [ten]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan Kisinja"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["ten"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "ten"
 
 [ten.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ten.mp3"
-
-[ten.luka_pona]
-
-[ten.pu_verbatim]
 
 [ten.recognition]
 2020-04 = 14
@@ -7273,14 +5820,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [tenpo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "time⁵, timing⁴, session⁴, occasion⁴, phase⁴, moment³, date³, circumstance³, hour³, appointment³, scenario³, event², season², period², interval², situation², instance²"
-see_also = []
 sitelen_emosi = "⏰"
 sitelen_pona = ["tenpo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tenpo.jpg"
@@ -7308,28 +5851,19 @@ fr = "NOM temps, durée, moment, occasion, période, situation"
 2023-09 = 100
 
 [to]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "kala kala/jan Salan, jan Lakuse"
 ku_data = "(closing quotation particle)⁰"
 see_also = ["te"]
-sitelen_emosi = ""
 sitelen_pona = ["to"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "rare"
 word = "to"
 
 [to.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/to.mp3"
-
-[to.luka_pona]
-
-[to.pu_verbatim]
 
 [to.recognition]
 2021-10 = 38
@@ -7337,28 +5871,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 14
 
 [tokana]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Wesu, jan inwin"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["tokana"]
-sitelen_sitelen = ""
 source_language = "Tongan"
-ucsur = ""
 usage_category = "obscure"
 word = "tokana"
 
 [tokana.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tokana.mp3"
-
-[tokana.luka_pona]
-
-[tokana.pu_verbatim]
 
 [tokana.recognition]
 2021-10 = 18
@@ -7366,14 +5889,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [toki]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "communicate⁵, speak⁵, say⁵, conversation⁵, communication⁵, hello⁵, speech⁵, talk⁵, language⁵, tell⁵, statement⁵, hi⁵, discuss⁵, discussion⁵, discourse⁴, mention⁴, comment⁴, refer⁴, message⁴, express³, remark³, dialogue³, reporting³, call³, narrative³, contact³, respond³, commentary³, disclose³, proposal³, admit³, verbal³, tale³, story³, declare³, interview³, testify³, answer³, report³, expression³, phrase³, excuse², hey², response², reply², greet², confess², declaration², interaction², suggest², quote², state², preach², describe², negotiate², specify², claim², feedback², counsel², coverage², proposition², suggestion², accuse², consult²"
-see_also = []
 sitelen_emosi = "🗣️"
 sitelen_pona = ["toki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/toki.jpg"
@@ -7401,28 +5920,17 @@ fr = "VERBE communiquer, dire, parler, penser"
 2023-09 = 100
 
 [toma]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["toma"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "toma"
 
 [toma.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/toma.mp3"
-
-[toma.luka_pona]
-
-[toma.pu_verbatim]
 
 [toma.recognition]
 2021-10 = 3
@@ -7430,14 +5938,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 0
 
 [tomo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "building⁵, house⁵, housing⁵, chamber⁵, home⁵, room⁵, shelter⁴, residence⁴, suite³, domestic³, structural³, structure³, facility³, residential³, establishment³, household³, cabin³, apartment³, station², hall², venue², institute², construction²"
-see_also = []
 sitelen_emosi = "🏠"
 sitelen_pona = ["tomo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"
@@ -7465,8 +5969,6 @@ fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce,
 2023-09 = 100
 
 [tonsi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -7485,10 +5987,6 @@ word = "tonsi"
 jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tonsi.mp3"
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tonsi.mp3"
 
-[tonsi.luka_pona]
-
-[tonsi.pu_verbatim]
-
 [tonsi.recognition]
 2020-04 = 57
 2021-10 = 89
@@ -7496,11 +5994,8 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 83
 
 [tu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "two⁵, pair⁵, double⁴, both⁴, twice³, couple³, cut², divide²"
 see_also = ["kipisi"]
@@ -7532,28 +6027,19 @@ fr = "NOMBRE deux"
 2023-09 = 100
 
 [tuli]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2001"
 creator = "jan Sonja"
-ku_data = ""
 see_also = ["san"]
 sitelen_emosi = "☘️"
 sitelen_pona = ["tuli"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "tuli"
 
 [tuli.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tuli.mp3"
-
-[tuli.luka_pona]
-
-[tuli.pu_verbatim]
 
 [tuli.recognition]
 2020-04 = 26
@@ -7562,28 +6048,17 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 2
 
 [u]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Sonja"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["u"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "u"
 
 [u.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/u.mp3"
-
-[u.luka_pona]
-
-[u.pu_verbatim]
 
 [u.recognition]
 2021-10 = 28
@@ -7597,22 +6072,13 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = "jan Wija"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
 sitelen_pona = ["umesu"]
-sitelen_sitelen = ""
 source_language = "Iqglic"
-ucsur = ""
 usage_category = "obscure"
 word = "umesu"
 
 [umesu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/umesu.mp3"
-
-[umesu.luka_pona]
-
-[umesu.pu_verbatim]
 
 [umesu.recognition]
 2021-10 = 23
@@ -7620,14 +6086,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [unpa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "sex⁵, sexual⁵, sexually⁵, fucking³, fuck²"
-see_also = []
 sitelen_emosi = "🍆"
 sitelen_pona = ["unpa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/unpa.jpg"
@@ -7655,28 +6117,19 @@ fr = "VERBE avoir des rapports sexuels ou conjugaux avec"
 2023-09 = 98
 
 [unu]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan Sonja"
 ku_data = "purple²"
 see_also = ["laso", "loje"]
-sitelen_emosi = ""
 sitelen_pona = ["unu"]
-sitelen_sitelen = ""
 source_language = "Malay-Indonesian"
-ucsur = ""
 usage_category = "rare"
 word = "unu"
 
 [unu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/unu.mp3"
-
-[unu.luka_pona]
-
-[unu.pu_verbatim]
 
 [unu.recognition]
 2021-10 = 43
@@ -7684,28 +6137,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 16
 
 [usawi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Tumu"
 ku_data = "magic⁰"
 see_also = ["wawa", "nasa"]
-sitelen_emosi = ""
 sitelen_pona = ["usawi"]
-sitelen_sitelen = ""
 source_language = "Swahili"
-ucsur = ""
 usage_category = "uncommon"
 word = "usawi"
 
 [usawi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/usawi.mp3"
-
-[usawi.luka_pona]
-
-[usawi.pu_verbatim]
 
 [usawi.recognition]
 2021-10 = 41
@@ -7713,14 +6157,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 22
 
 [uta]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "mouth⁵, lip³, kiss³, jaw³, bite², chew²"
-see_also = []
 sitelen_emosi = "👄"
 sitelen_pona = ["uta", "uta2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/uta.jpg"
@@ -7748,14 +6188,10 @@ fr = "NOM bouche, lèvres, cavité buccale, mâchoire"
 2023-09 = 99
 
 [utala]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "battle⁵, fight⁵, fighting⁵, combat⁵, conflict⁵, contend⁵, assault⁵, attack⁵, versus⁴, compete⁴, violent⁴, challenge⁴, hit⁴, violence⁴, struggle³, war³, contest³, oppose³, dispute³, competitive², tackle², competition², aggressive², resist², beat², opposed², punch², hostile², confront², riot², opposition², against², strike²"
-see_also = []
 sitelen_emosi = "⚔️"
 sitelen_pona = ["utala"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/utala.jpg"
@@ -7783,28 +6219,19 @@ fr = "VERBE se battre contre, lutter contre"
 2023-09 = 100
 
 [wa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "mama mama pi jan Lakuse"
 ku_data = "whoa², wow¹"
 see_also = ["a", "n", "je"]
-sitelen_emosi = ""
 sitelen_pona = ["wa"]
-sitelen_sitelen = ""
 source_language = "onomatopoeia"
-ucsur = ""
 usage_category = "rare"
 word = "wa"
 
 [wa.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wa.mp3"
-
-[wa.luka_pona]
-
-[wa.pu_verbatim]
 
 [wa.recognition]
 2021-10 = 39
@@ -7812,8 +6239,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 17
 
 [waleja]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
@@ -7822,18 +6247,12 @@ ku_data = "context¹, circumstance¹, attention⁰, theme⁰, situation⁰, back
 see_also = ["tenpo"]
 sitelen_emosi = "ℹ️"
 sitelen_pona = ["waleja"]
-sitelen_sitelen = ""
 source_language = "Quenya"
-ucsur = ""
 usage_category = "obscure"
 word = "waleja"
 
 [waleja.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/waleja.mp3"
-
-[waleja.luka_pona]
-
-[waleja.pu_verbatim]
 
 [waleja.recognition]
 2020-04 = 19
@@ -7842,14 +6261,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 3
 
 [walo]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "white⁵, pale⁴"
-see_also = []
 sitelen_emosi = "⚪"
 sitelen_pona = ["walo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/walo.jpg"
@@ -7877,11 +6292,8 @@ fr = "ADJECTIF blanc, clair, pâle"
 2023-09 = 100
 
 [wan]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "one⁵, united⁵, unity⁵, combined⁴, unite⁴, single⁴, unit³, blend³, combine³, union³, bind², solo², whole², integration², integrate², component², alone², together², segment², mix², particular², independent², portion², slice², primary², combination², part²"
 see_also = ["tu", "mute"]
@@ -7912,14 +6324,10 @@ fr = "ADJECTIF unique, uni\nNOMBRE un"
 2023-09 = 100
 
 [waso]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "bird⁵, chicken³, duck², turkey², eagle², bat²"
-see_also = []
 sitelen_emosi = "🦅"
 sitelen_pona = ["waso"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/waso.jpg"
@@ -7953,22 +6361,14 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "akesi kon Nalasuni, jan Atenaja"
-ku_data = ""
 see_also = ["waso", "soweli", "sutopatikuna"]
-sitelen_emosi = ""
 sitelen_pona = ["wasoweli"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "wasoweli"
 
 [wasoweli.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wasoweli.mp3"
-
-[wasoweli.luka_pona]
-
-[wasoweli.pu_verbatim]
 
 [wasoweli.recognition]
 2021-10 = 22
@@ -7976,14 +6376,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 6
 
 [wawa]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "strength⁵, power⁵, powerful⁵, strong⁵, energy⁵, strongly⁵, force⁴, intense⁴, bold⁴, intensity⁴, reinforce⁴, firmly⁴, strengthen⁴, charge³, brave³, rapid³, electrical³, might², tough², electricity², fast², rapidly², compelling², confident², quickly², glory², boost², severe²"
-see_also = []
 sitelen_emosi = "⚡"
 sitelen_pona = ["wawa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wawa.jpg"
@@ -8017,22 +6413,15 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Tolin"
-ku_data = ""
 see_also = ["wuwojiti"]
 sitelen_emosi = "🤡"
 sitelen_pona = ["wawajete"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "wawajete"
 
 [wawajete.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawajete.mp3"
-
-[wawajete.luka_pona]
-
-[wawajete.pu_verbatim]
 
 [wawajete.recognition]
 2020-04 = 18
@@ -8041,55 +6430,33 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 4
 
 [we]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-ku"
 coined_year = "2022"
 creator = "jan Kiwisin, jan Telupiso"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "Spanish"
-ucsur = ""
 usage_category = "obscure"
 word = "we"
 
 [we.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
 
-[we.luka_pona]
-
-[we.pu_verbatim]
-
 [we.recognition]
 2023-09 = 2
 
 [we1]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan inwin"
-ku_data = ""
-see_also = []
 sitelen_emosi = "🔒"
 sitelen_pona = ["we"]
-sitelen_sitelen = ""
 source_language = "Spanish"
-ucsur = ""
 usage_category = "obscure"
 word = "we"
 
 [we1.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
-
-[we1.luka_pona]
-
-[we1.pu_verbatim]
 
 [we1.recognition]
 2021-10 = 19
@@ -8097,14 +6464,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [weka]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "rid⁵, removal⁵, remove⁵, eliminate⁴, apart⁴, omit⁴, missing⁴, away⁴, absence⁴, loss⁴, dismiss⁴, delete⁴, distant⁴, leave⁴, abandon⁴, vanish³, far³, disappear³, avoid³, exclude³, out³, escape³, distance³, drain², flee², withdraw², reject², ban², sweep², exit², resign², separation², skip², strip², wipe², fade², lack², remote², lose², separate²"
-see_also = []
 sitelen_emosi = "🛫"
 sitelen_pona = ["weka"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/weka.jpg"
@@ -8138,22 +6501,14 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = "jan ko"
-ku_data = ""
 see_also = ["weka", "kama"]
-sitelen_emosi = ""
 sitelen_pona = ["wekama"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "wekama"
 
 [wekama.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wekama.mp3"
-
-[wekama.luka_pona]
-
-[wekama.pu_verbatim]
 
 [wekama.recognition]
 2021-10 = 25
@@ -8161,28 +6516,19 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 5
 
 [wi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 creator = "jan inwin"
-ku_data = ""
 see_also = ["mi"]
 sitelen_emosi = "🙋"
 sitelen_pona = ["wi"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "wi"
 
 [wi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wi.mp3"
-
-[wi.luka_pona]
-
-[wi.pu_verbatim]
 
 [wi.recognition]
 2020-04 = 14
@@ -8190,14 +6536,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 2023-09 = 1
 
 [wile]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
 creator = "jan Sonja"
 ku_data = "want⁵, wish⁵, intend⁵, require⁵, need⁵, desire⁵, intention⁵, willing⁵, will⁵, intent⁴, preference⁴, motivation⁴, necessity⁴, ought⁴, yearn⁴, necessary⁴, willingness⁴, ambition⁴, hope⁴, prefer⁴, requirement⁴, required⁴, must³, obligation³, decision³, should³, demand³, eager³, request³, agenda³, goal², would², select², motive², interested², criteria², dare², opt², choose², consent², expectation², shall², urge², determination², pick², objective², depend², elect², dependent², deserve², selection², incentive², strive², choice², supposed², interest², enthusiasm²"
-see_also = []
 sitelen_emosi = "💭"
 sitelen_pona = ["wile", "wile2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wile.jpg"
@@ -8225,56 +6567,35 @@ fr = "AUXILIAIRE devoir, avoir besoin de, vouloir"
 2023-09 = 100
 
 [wuwojiti]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 creator = "unknown"
-ku_data = ""
-see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "uncommon"
 word = "wuwojiti"
 
 [wuwojiti.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wuwojiti.mp3"
 
-[wuwojiti.luka_pona]
-
-[wuwojiti.pu_verbatim]
-
 [wuwojiti.recognition]
 2022-08 = 13
 2023-09 = 22
 
 [yupekosi]
-author_verbatim = ""
-author_verbatim_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = "jan Sonja"
 ku_data = "change a creative work and unintentionally make it worse³"
-see_also = []
 sitelen_emosi = "📉"
 sitelen_pona = ["yupekosi"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "uncommon"
 word = "yupekosi"
 
 [yupekosi.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/yupekosi.mp3"
-
-[yupekosi.luka_pona]
-
-[yupekosi.pu_verbatim]
 
 [yupekosi.recognition]
 2020-04 = 27
@@ -8289,22 +6610,14 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 creator = "inari"
-ku_data = ""
 see_also = ["mun"]
-sitelen_emosi = ""
 sitelen_pona = ["yutu"]
-sitelen_sitelen = ""
 source_language = "Turkish"
-ucsur = ""
 usage_category = "obscure"
 word = "yutu"
 
 [yutu.audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/yutu.mp3"
-
-[yutu.luka_pona]
-
-[yutu.pu_verbatim]
 
 [yutu.recognition]
 2022-08 = 3

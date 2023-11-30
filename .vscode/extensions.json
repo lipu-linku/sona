@@ -1,6 +1,5 @@
 {
   "recommendations": [
     "tamasfe.even-better-toml",
-    "ms-python.python"
   ]
 }
