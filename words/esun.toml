@@ -39,10 +39,6 @@ trade = 88
 trading = 91
 transaction = 64
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/esun.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/esun.mp4"
-
 [pu_verbatim]
 de = "NOMEN Markt, Laden, Basar, Geschäft, Handel"
 en = "NOUN market, shop, fair, bazaar, business transaction"

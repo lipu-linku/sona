@@ -28,8 +28,6 @@ restrict = 13
 stop = 27
 wall = 17
 
-[luka_pona]
-
 [recognition]
 2020-04 = 34
 2021-10 = 48

@@ -22,10 +22,6 @@ medication = 46
 medicine = 42
 pill = 30
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/misikeke.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/misikeke.mp4"
-
 [recognition]
 2020-04 = 21
 2021-10 = 71

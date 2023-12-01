@@ -19,10 +19,6 @@ word = "bilong"
 about = 9
 concerning = 20
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pi.mp4"
-
 [pu_verbatim]
 de = "PARTIKEL von, des, der (teils wie Genitiv)"
 en = "PARTICLE of"

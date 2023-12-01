@@ -33,10 +33,6 @@ play = 87
 playoffs = 25
 sport = 27
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/musi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/musi.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV künstlerisch, unterhaltend, albern, verspielt, freizeitlich"
 en = "ADJECTIVE artistic, entertaining, frivolous, playful, recreational"

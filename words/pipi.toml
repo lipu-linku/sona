@@ -20,10 +20,6 @@ bug = 100
 insect = 92
 spider = 48
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pipi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pipi.mp4"
-
 [pu_verbatim]
 de = "NOMEN Käfer, Insekt, Ameise, Spinne"
 en = "NOUN bug, insect, ant, spider"

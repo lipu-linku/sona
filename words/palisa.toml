@@ -28,10 +28,6 @@ stem = 18
 stick = 100
 straight = 25
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/palisa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/palisa.mp4"
-
 [pu_verbatim]
 de = "NOMEN langes hartes Ding; Ast, Stange, Stab"
 en = "NOUN long hard thing; branch, rod, stick"

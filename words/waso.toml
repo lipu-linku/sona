@@ -23,10 +23,6 @@ duck = 40
 eagle = 30
 turkey = 33
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/waso.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/waso.mp4"
-
 [pu_verbatim]
 de = "NOMEN Vogel, fliegende Kreatur, geflügeltes Tier"
 en = "NOUN bird, flying creature, winged animal"

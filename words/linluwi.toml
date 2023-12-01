@@ -24,8 +24,6 @@ network = 25
 virtual = 13
 web = 9
 
-[luka_pona]
-
 [recognition]
 2020-04 = 31
 2021-10 = 55

@@ -57,10 +57,6 @@ vanish = 60
 wipe = 27
 withdraw = 33
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/weka.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/weka.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV abwesend, weg, ignoriert"
 en = "ADJECTIVE absent, away, ignored"

@@ -21,10 +21,6 @@ herb = 40
 plant = 95
 tree = 32
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kasi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kasi.mp4"
-
 [pu_verbatim]
 de = "NOMEN Pflanze, Vegetation; Kraut, Blatt"
 en = "NOUN plant, vegetation; herb, leaf"

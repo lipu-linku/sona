@@ -24,8 +24,6 @@ word = "咖啡色"
 brown = 24
 grey = 7
 
-[luka_pona]
-
 [recognition]
 2020-04 = 29
 2021-10 = 45

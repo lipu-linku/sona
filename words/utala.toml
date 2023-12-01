@@ -51,10 +51,6 @@ violence = 63
 violent = 67
 war = 58
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/utala.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/utala.mp4"
-
 [pu_verbatim]
 de = "VERB bekämpfen, herausfordern, antreten gegen, gegen etw."
 en = "VERB to battle, challenge, compete against struggle against"

@@ -18,10 +18,6 @@ word = "rooie"
 [ku_data]
 red = 95
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/loje.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/loje.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV rot, rötlich"
 en = "ADJECTIVE red, reddish"

@@ -30,10 +30,6 @@ grain = 81
 rice = 53
 wheat = 67
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pan.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pan.mp4"
-
 [pu_verbatim]
 de = "NOMEN Getreide, Korn; Gerste, Mais, Hafer, Reis, Weizen; Brot, Nudeln"
 en = "NOUN cereal, grain; barley, corn, oat, rice, wheat; bread, pasta"

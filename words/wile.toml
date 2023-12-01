@@ -74,10 +74,6 @@ wish = 94
 would = 38
 yearn = 71
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wile.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/wile.mp4"
-
 [pu_verbatim]
 de = "HILFSVERB müssen, brauchen, sollen, wollen, wünschen"
 en = "PRE-VERB must, need, require, should, want, wish"

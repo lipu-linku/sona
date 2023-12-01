@@ -37,10 +37,6 @@ separation = 30
 slice = 62
 split = 69
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kipisi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kipisi.mp4"
-
 [recognition]
 2020-04 = 68
 2021-10 = 87

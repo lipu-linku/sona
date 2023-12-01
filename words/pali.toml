@@ -84,10 +84,6 @@ undertake = 29
 work = 100
 working = 90
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pali.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pali.mp4"
-
 [pu_verbatim]
 de = "VERB tun, arbeiten an; bauen, machen, herstellen"
 en = "VERB to do, take action on, work on; build, make, prepare"

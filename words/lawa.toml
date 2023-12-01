@@ -60,10 +60,6 @@ regulatory = 70
 rule = 60
 ruling = 75
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lawa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lawa.mp4"
-
 [pu_verbatim]
 de = "NOMEN Kopf, Geist (Verstand)\nVERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen"
 en = "NOUN head, mind VERB to control, direct, guide, lead, own, plan, regulate, rule"

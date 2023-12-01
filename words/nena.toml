@@ -27,10 +27,6 @@ peak = 29
 pile = 22
 ridge = 33
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nena.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nena.mp4"
-
 [pu_verbatim]
 de = "NOMEN Delle, Knopf, Hügel, Berg, Nase, Vorsprung"
 en = "NOUN bump, button, hill, mountain, nose, protuberance"

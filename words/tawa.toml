@@ -55,10 +55,6 @@ until = 30
 walk = 58
 walking = 47
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tawa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tawa.mp4"
-
 [pu_verbatim]
 de = "PRÄPOSITION sich bewegend zu, gerichtet auf; um zu; aus der\nADJEKTIV sich bewegend, beweglich"
 en = "PREPOSITION going to, toward; for; from the perspective of\nADJECTIVE moving"

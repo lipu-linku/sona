@@ -26,10 +26,6 @@ man = 90
 sir = 35
 "transgender man" = 18
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mije.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mije.mp4"
-
 [pu_verbatim]
 de = "NOMEN Mann, Männchen, maskuline Person; Ehemann"
 en = "NOUN man, male, masculine person; husband"

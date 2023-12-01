@@ -19,8 +19,6 @@ word = "と"
 [ku_data]
 "(closing quotation particle)" = 7
 
-[luka_pona]
-
 [recognition]
 2021-10 = 38
 2022-08 = 11

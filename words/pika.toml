@@ -16,8 +16,6 @@ word = "pika"
 alt = "Pikachū"
 word = "ピカチュウ"
 
-[luka_pona]
-
 [recognition]
 2022-08 = 2
 2023-09 = 5

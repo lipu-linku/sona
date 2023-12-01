@@ -40,10 +40,6 @@ result = 40
 shut = 87
 stop = 47
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pini.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pini.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV vorbei, vollendet, beendet, geendet, vergangen"
 en = "ADJECTIVE ago, completed, ended, finished, past"

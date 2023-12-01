@@ -87,10 +87,6 @@ weight = 77
 wide = 64
 widely = 29
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/suli.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV groß, schwer, lang, hoch; wichtig; erwachsen"
 en = "ADJECTIVE big, heavy, large, long, tall; important; adult"

@@ -16,8 +16,6 @@ word = "konsi"
 alt = "gongji"
 word = "공지"
 
-[luka_pona]
-
 [recognition]
 2022-08 = 0
 2023-09 = 1

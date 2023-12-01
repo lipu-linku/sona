@@ -42,10 +42,6 @@ orifice = 79
 pit = 77
 window = 57
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lupa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lupa.mp4"
-
 [pu_verbatim]
 de = "NOMEN Tür, Loch, Öffnung, Fenster"
 en = "NOUN door, hole, orifice, window"

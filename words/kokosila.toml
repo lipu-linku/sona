@@ -18,8 +18,6 @@ word = "krokodilas"
 [ku_data]
 "speak another language in a Toki Pona only environment" = 50
 
-[luka_pona]
-
 [recognition]
 2021-10 = 54
 2022-08 = 25

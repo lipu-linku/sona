@@ -72,10 +72,6 @@ yeah = 62
 yep = 87
 yes = 71
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lon.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lon.mp4"
-
 [pu_verbatim]
 de = "PRÄPOSITION befindlich in/auf/an, anwesend in/auf/an, real, wahr, existierend"
 en = "PREPOSITION located at, present at, real, true, existing"

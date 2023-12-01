@@ -35,10 +35,6 @@ smell = 29
 soul = 100
 spirit = 86
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kon.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kon.mp4"
-
 [pu_verbatim]
 de = "NOMEN Luft, Atem; Essenz, Geist; versteckte Realität, ungesehener Akteur"
 en = "NOUN air, breath; essence, spirit, hidden reality, unseen agent"

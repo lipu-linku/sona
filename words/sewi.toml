@@ -41,10 +41,6 @@ upper = 100
 upstairs = 25
 weather = 25
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sewi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sewi.mp4"
-
 [pu_verbatim]
 de = "NOMEN Bereich über etw., höchster Teil, etwas hoch Gelegenes\nADJEKTIV ehrfurchtgebietend, göttlich, heilig, übernatürlich"
 en = "NOUN area above, highest part, something elevated\nADJECTIVE awe-inspiring, divine, sacred, supernatural"

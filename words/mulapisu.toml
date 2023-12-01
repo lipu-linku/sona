@@ -17,8 +17,6 @@ word = "mulapisu"
 [ku_data]
 pizza = 40
 
-[luka_pona]
-
 [recognition]
 2020-04 = 32
 2021-10 = 39

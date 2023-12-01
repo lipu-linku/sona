@@ -34,10 +34,6 @@ middle = 56
 stomach = 41
 within = 35
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/insa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/insa.mp4"
-
 [pu_verbatim]
 de = "NOMEN Zentrum, Inhalt, Inneres, zwischen; inneres Organ, Magen"
 en = "NOUN centre, content, inside, between; internal organ, stomach"

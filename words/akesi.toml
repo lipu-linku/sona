@@ -19,10 +19,6 @@ word = "hagedis"
 frog = 56
 reptile = 96
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/akesi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/akesi.mp4"
-
 [pu_verbatim]
 de = "NOMEN nichtsüßes Tier; Reptil, Amphibie"
 en = "NOUN non-cute animal; reptile, amphibian"

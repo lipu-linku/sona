@@ -66,10 +66,6 @@ suspend = 29
 sustain = 83
 wait = 100
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/awen.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/awen.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV beständig, behalten, geschützt, sicher, wartend, bleibend\nHILFSVERB fortfahren, andauern"
 en = "ADJECTIVE enduring, kept, protected, safe, waiting, staying\nPRE-VERB to continue to"

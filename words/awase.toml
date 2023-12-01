@@ -16,8 +16,6 @@ word = "awase"
 alt = "harvacel"
 word = "հարվածել"
 
-[luka_pona]
-
 [recognition]
 2022-08 = 0
 2023-09 = 1

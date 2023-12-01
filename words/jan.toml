@@ -35,10 +35,6 @@ personal = 27
 somebody = 50
 whoever = 30
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jan.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jan.mp4"
-
 [pu_verbatim]
 de = "NOMEN Mensch, Person, jemand"
 en = "NOUN human being, person, somebody"

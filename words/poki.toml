@@ -41,10 +41,6 @@ sack = 40
 storage = 50
 trunk = 29
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/poki.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/poki.mp4"
-
 [pu_verbatim]
 de = "NOMEN Behältnis, Beutel, Schale, Kiste, Tasse, Karton, Schublade, Gefäß"
 en = "NOUN container, bag, bowl, box, cup, cupboard, drawer, vessel"

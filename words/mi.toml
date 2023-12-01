@@ -28,10 +28,6 @@ self = 38
 us = 43
 we = 38
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mi.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mi.mp4"
-
 [pu_verbatim]
 de = "NOMEN ich, mir, wir, uns"
 en = "NOUN I, me, we, us"

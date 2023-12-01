@@ -24,10 +24,6 @@ kiss = 44
 lip = 47
 mouth = 100
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/uta.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/uta.mp4"
-
 [pu_verbatim]
 de = "NOMEN Mund, Lippen, Mundhöhle, Kiefer"
 en = "NOUN mouth,lips, oral cavity, jaw"

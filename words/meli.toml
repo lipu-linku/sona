@@ -25,10 +25,6 @@ lady = 79
 wife = 40
 woman = 77
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/meli.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/meli.mp4"
-
 [pu_verbatim]
 de = "NOMEN Frau, Weibchen, feminine Person; Ehefrau"
 en = "NOUN woman, female, feminine person; wife"

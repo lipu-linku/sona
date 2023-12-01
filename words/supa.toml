@@ -36,10 +36,6 @@ surface = 30
 table = 83
 tablet = 33
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/supa.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/supa.mp4"
-
 [pu_verbatim]
 de = "NOMEN horizontale Oberfläche, Ding auf dem man etw. ablegt"
 en = "NOUN horizontal surface, thing to put or rest something on"

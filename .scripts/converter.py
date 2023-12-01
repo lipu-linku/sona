@@ -85,7 +85,8 @@ TRANSFORM_MAP = {
     "sitelen_pona_etymology": trash,  # send to translate
     "sitelen_sitelen": noop,
     "sitelen_emosi": noop,
-    "luka_pona": partial(noop, _return_if_null=dict()),
+    # "luka_pona": partial(noop, _return_if_null=dict()),
+    "luka_pona": trash,  # to be replaced with totally different doc
     "coined_year": noop,
     "coined_era": noop,
     "book": partial(noop, _return_if_null="none"),

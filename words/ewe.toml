@@ -22,8 +22,6 @@ word = "kiwen"
 [ku_data]
 stone = 3
 
-[luka_pona]
-
 [recognition]
 2020-04 = 11
 2021-10 = 28

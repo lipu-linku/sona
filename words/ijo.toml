@@ -36,10 +36,6 @@ subject = 30
 substance = 53
 thing = 100
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ijo.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ijo.mp4"
-
 [pu_verbatim]
 de = "NOMEN Ding, Phänomen, Objekt, Angelegenheit"
 en = "NOUN thing, phenomenon, object, matter"

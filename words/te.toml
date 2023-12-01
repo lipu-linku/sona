@@ -19,8 +19,6 @@ word = "って"
 [ku_data]
 "(opening quotation particle)" = 7
 
-[luka_pona]
-
 [recognition]
 2020-04 = 22
 2021-10 = 40

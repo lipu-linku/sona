@@ -16,8 +16,6 @@ word = "jaku"
 alt = "hyaku"
 word = "百"
 
-[luka_pona]
-
 [recognition]
 2020-04 = 14
 2021-10 = 18

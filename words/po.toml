@@ -18,8 +18,6 @@ word = "four"
 [ku_data]
 four = 10
 
-[luka_pona]
-
 [recognition]
 2020-04 = 25
 2021-10 = 34

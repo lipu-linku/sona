@@ -18,8 +18,6 @@ word = "shoto"
 [ku_data]
 "left (not right)" = 8
 
-[luka_pona]
-
 [recognition]
 2020-04 = 22
 2021-10 = 34

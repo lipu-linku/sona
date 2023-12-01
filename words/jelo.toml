@@ -19,10 +19,6 @@ word = "yellow"
 golden = 25
 yellow = 94
 
-[luka_pona]
-gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jelo.gif"
-mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jelo.mp4"
-
 [pu_verbatim]
 de = "ADJEKTIV gelb, gelblich"
 en = "ADJECTIVE yellow, yellowish"
