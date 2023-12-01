@@ -26,6 +26,7 @@ jobs:
           version: 8
           run_install: |
             - args: [--frozen-lockfile]
+              cwd: ./schemas
 
       - name: Generate JSON Schemas
         run: pnpm run generate:schemas
