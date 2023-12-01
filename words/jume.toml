@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["oni", "sitelen", "lape", "insa", "powe"]
-sitelen_emosi = ""
-sitelen_pona = ["jume"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "jume"
 
@@ -20,3 +16,9 @@ word = "夢"
 2021-10 = 17
 2022-08 = 1
 2023-09 = 3
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jume"]
+sitelen_sitelen = ""
+ucsur = ""

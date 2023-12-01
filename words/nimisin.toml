@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["nimi", "sin"]
-sitelen_emosi = ""
-sitelen_pona = ["nimisin"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "uncommon"
 word = "nimisin"
 
@@ -18,3 +14,9 @@ word = "nimi sin"
 [recognition]
 2022-08 = 13
 2023-09 = 35
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["nimisin"]
+sitelen_sitelen = ""
+ucsur = ""

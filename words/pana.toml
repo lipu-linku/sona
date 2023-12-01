@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "📤"
-sitelen_pona = ["pana"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
 source_language = "multiple possibilities"
-ucsur = "U+F194C"
 usage_category = "core"
 word = "pana"
 
@@ -85,3 +81,9 @@ fr = "VERBE donner, envoyer, mettre, fournir, émettre, lâcher"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "📤"
+sitelen_pona = ["pana"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
+ucsur = "U+F194C"

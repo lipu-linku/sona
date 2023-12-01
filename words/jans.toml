@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = ""
 see_also = ["jan"]
-sitelen_emosi = ""
-sitelen_pona = ["jans"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "jans"
 
@@ -19,3 +15,9 @@ word = "jan"
 2020-04 = 13
 2022-08 = 1
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jans"]
+sitelen_sitelen = ""
+ucsur = ""

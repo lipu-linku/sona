@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001-2009"
 see_also = ["moku"]
-sitelen_emosi = "💊"
-sitelen_pona = ["misikeke"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"
 source_language = "Ojibwe"
-ucsur = "U+F1987"
 usage_category = "common"
 word = "misikeke"
 
@@ -27,3 +23,9 @@ pill = 30
 2021-10 = 71
 2022-08 = 63
 2023-09 = 60
+
+[representations]
+sitelen_emosi = "💊"
+sitelen_pona = ["misikeke"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"
+ucsur = "U+F1987"

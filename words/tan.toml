@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "↩️"
-sitelen_pona = ["tan"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tan.jpg"
 source_language = "Cantonese"
-ucsur = "U+F1967"
 usage_category = "core"
 word = "tan"
 
@@ -42,3 +38,9 @@ fr = "PRÉPOSITION de, provenant de, à cause de"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "↩️"
+sitelen_pona = ["tan"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tan.jpg"
+ucsur = "U+F1967"

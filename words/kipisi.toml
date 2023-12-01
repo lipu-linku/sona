@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
 see_also = ["tu", "wan", "pakala", "mute"]
-sitelen_emosi = "✂️"
-sitelen_pona = ["kipisi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kipisi.jpg"
 source_language = "Inuktitut"
-ucsur = "U+F197B"
 usage_category = "common"
 word = "kipisi"
 
@@ -42,3 +38,9 @@ split = 69
 2021-10 = 87
 2022-08 = 73
 2023-09 = 67
+
+[representations]
+sitelen_emosi = "✂️"
+sitelen_pona = ["kipisi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kipisi.jpg"
+ucsur = "U+F197B"

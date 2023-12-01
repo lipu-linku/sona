@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["seli"]
-sitelen_emosi = "❄️"
-sitelen_pona = ["lete"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lete.jpg"
 source_language = "Acadian French"
-ucsur = "U+F1926"
 usage_category = "core"
 word = "lete"
 
@@ -31,3 +27,9 @@ fr = "ADJECTIF froid, frais ; cru"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "❄️"
+sitelen_pona = ["lete"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lete.jpg"
+ucsur = "U+F1926"

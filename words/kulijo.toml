@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["oke"]
-sitelen_emosi = ""
-sitelen_pona = ["kulijo"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "kulijo"
 
@@ -19,3 +15,9 @@ word = "coolio"
 2021-10 = 28
 2022-08 = 6
 2023-09 = 7
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kulijo"]
+sitelen_sitelen = ""
+ucsur = ""

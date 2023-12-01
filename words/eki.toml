@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["natu"]
-sitelen_emosi = ""
-sitelen_pona = ["eki"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "eki"
 
@@ -18,3 +14,9 @@ word = "x (letter name)"
 [recognition]
 2022-08 = 0
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["eki"]
+sitelen_sitelen = ""
+ucsur = ""

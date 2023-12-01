@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2001"
 see_also = ["kepeken", "poka", "en"]
-sitelen_emosi = "🔗"
-sitelen_pona = ["kan"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "kan"
 
@@ -28,3 +24,9 @@ with = 13
 2021-10 = 34
 2022-08 = 7
 2023-09 = 4
+
+[representations]
+sitelen_emosi = "🔗"
+sitelen_pona = ["kan"]
+sitelen_sitelen = ""
+ucsur = ""

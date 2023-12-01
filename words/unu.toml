@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["laso", "loje", "pimeja"]
-sitelen_emosi = ""
-sitelen_pona = ["unu"]
-sitelen_sitelen = ""
 source_language = "Malay-Indonesian"
-ucsur = ""
 usage_category = "rare"
 word = "unu"
 
@@ -22,3 +18,9 @@ purple = 27
 2021-10 = 43
 2022-08 = 12
 2023-09 = 16
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["unu"]
+sitelen_sitelen = ""
+ucsur = ""

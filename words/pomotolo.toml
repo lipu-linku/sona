@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["pona", "ken", "wawa"]
-sitelen_emosi = "📈"
-sitelen_pona = ["pomotolo"]
-sitelen_sitelen = ""
 source_language = "Italian"
-ucsur = ""
 usage_category = "obscure"
 word = "pomotolo"
 
@@ -23,3 +19,9 @@ tomato = 7
 2021-10 = 21
 2022-08 = 3
 2023-09 = 2
+
+[representations]
+sitelen_emosi = "📈"
+sitelen_pona = ["pomotolo"]
+sitelen_sitelen = ""
+ucsur = ""

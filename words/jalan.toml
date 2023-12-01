@@ -4,11 +4,7 @@ book = "none"
 coined_era = "pre-pu"
 coined_year = "2002"
 see_also = ["noka"]
-sitelen_emosi = ""
-sitelen_pona = ["jalan"]
-sitelen_sitelen = ""
 source_language = "Finnish"
-ucsur = ""
 usage_category = "obscure"
 word = "jalan"
 
@@ -20,3 +16,9 @@ word = "jalan"
 2021-10 = 20
 2022-08 = 1
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jalan"]
+sitelen_sitelen = ""
+ucsur = ""

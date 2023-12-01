@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["pona", "ke", "n", "a"]
-sitelen_emosi = "👌"
-sitelen_pona = ["oke"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "uncommon"
 word = "oke"
 
@@ -25,3 +21,9 @@ fine = 7
 2021-10 = 40
 2022-08 = 16
 2023-09 = 24
+
+[representations]
+sitelen_emosi = "👌"
+sitelen_pona = ["oke"]
+sitelen_sitelen = ""
+ucsur = ""

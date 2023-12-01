@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "✊"
-sitelen_pona = ["pali"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pali.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1949"
 usage_category = "core"
 word = "pali"
 
@@ -93,3 +89,9 @@ fr = "VERBE fair, agir sur, travailler, construire, préparer"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "✊"
+sitelen_pona = ["pali"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pali.jpg"
+ucsur = "U+F1949"

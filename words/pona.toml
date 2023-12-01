@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["ike"]
-sitelen_emosi = "👍"
-sitelen_pona = ["pona"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pona.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1954"
 usage_category = "core"
 word = "pona"
 
@@ -119,3 +115,9 @@ fr = "ADJECTIF bon, positif, utile ; sympa, paisible ; simple"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👍"
+sitelen_pona = ["pona"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pona.jpg"
+ucsur = "U+F1954"

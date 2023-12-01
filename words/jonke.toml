@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["mu", "nja"]
-sitelen_emosi = ""
-sitelen_pona = ["jonke"]
-sitelen_sitelen = ""
 source_language = "onomatopoeia"
-ucsur = ""
 usage_category = "obscure"
 word = "jonke"
 
@@ -18,3 +14,9 @@ word = "hjönk"
 [recognition]
 2022-08 = 3
 2023-09 = 5
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jonke"]
+sitelen_sitelen = ""
+ucsur = ""

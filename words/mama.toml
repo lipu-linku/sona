@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "👪"
-sitelen_pona = ["mama"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mama.jpg"
 source_language = "Georgian"
-ucsur = "U+F1931"
 usage_category = "core"
 word = "mama"
 
@@ -40,3 +36,9 @@ fr = "NOM parent, ancêtre ; créateur ; celui ou celle qui prend soin"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👪"
+sitelen_pona = ["mama"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mama.jpg"
+ucsur = "U+F1931"

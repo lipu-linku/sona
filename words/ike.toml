@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "👎"
-sitelen_pona = ["ike"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
 source_language = "Finnish"
-ucsur = "U+F190D"
 usage_category = "core"
 word = "ike"
 
@@ -65,3 +61,9 @@ fr = "ADJECTIF mauvais, négatif ; superflu, non pertinent"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👎"
+sitelen_pona = ["ike"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
+ucsur = "U+F190D"

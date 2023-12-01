@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["weka", "kama"]
-sitelen_emosi = ""
-sitelen_pona = ["wekama"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "wekama"
 
@@ -19,3 +15,9 @@ word = "weka kama"
 2021-10 = 25
 2022-08 = 5
 2023-09 = 5
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["wekama"]
+sitelen_sitelen = ""
+ucsur = ""

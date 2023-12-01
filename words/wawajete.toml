@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["wuwojiti"]
-sitelen_emosi = "🤡"
-sitelen_pona = ["wawajete"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "wawajete"
 
@@ -20,3 +16,9 @@ word = "wuwojiti"
 2021-10 = 24
 2022-08 = 2
 2023-09 = 4
+
+[representations]
+sitelen_emosi = "🤡"
+sitelen_pona = ["wawajete"]
+sitelen_sitelen = ""
+ucsur = ""

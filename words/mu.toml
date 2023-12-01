@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["kalama"]
-sitelen_emosi = "😹"
-sitelen_pona = ["mu", "mu2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
 source_language = "onomatopoeia"
-ucsur = "U+F1939"
 usage_category = "core"
 word = "mu"
 
@@ -32,3 +28,9 @@ fr = "PARTICULE (cri ou communication d'un animal)"
 [recognition]
 2022-08 = 97
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "😹"
+sitelen_pona = ["mu", "mu2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
+ucsur = "U+F1939"

@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🏝️"
-sitelen_pona = ["ma"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
 source_language = "Finnish"
-ucsur = "U+F1930"
 usage_category = "core"
 word = "ma"
 
@@ -60,3 +56,9 @@ fr = "NOM terre, sol ; monde, lieu en plien air ; pays, territoire"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🏝️"
+sitelen_pona = ["ma"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
+ucsur = "U+F1930"

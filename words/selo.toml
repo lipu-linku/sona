@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🔲"
-sitelen_pona = ["selo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/selo.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1958"
 usage_category = "core"
 word = "selo"
 
@@ -43,3 +39,9 @@ fr = "NOM forme, couche extérieure, peau, écorce, pelure, peau, coquille ; lim
 [recognition]
 2022-08 = 98
 2023-09 = 98
+
+[representations]
+sitelen_emosi = "🔲"
+sitelen_pona = ["selo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/selo.jpg"
+ucsur = "U+F1958"

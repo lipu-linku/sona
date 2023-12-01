@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "👥"
-sitelen_pona = ["kulupu"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kulupu.jpg"
 source_language = "Tongan"
-ucsur = "U+F191F"
 usage_category = "core"
 word = "kulupu"
 
@@ -73,3 +69,9 @@ fr = "NOM communauté, groupe, nation, société, tribu, compagnie"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👥"
+sitelen_pona = ["kulupu"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kulupu.jpg"
+ucsur = "U+F191F"

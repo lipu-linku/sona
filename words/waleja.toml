@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["tenpo"]
-sitelen_emosi = "ℹ️"
-sitelen_pona = ["waleja"]
-sitelen_sitelen = ""
 source_language = "Quenya"
-ucsur = ""
 usage_category = "obscure"
 word = "waleja"
 
@@ -34,3 +30,9 @@ topic = 6
 2021-10 = 34
 2022-08 = 5
 2023-09 = 3
+
+[representations]
+sitelen_emosi = "ℹ️"
+sitelen_pona = ["waleja"]
+sitelen_sitelen = ""
+ucsur = ""

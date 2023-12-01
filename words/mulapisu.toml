@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["pan"]
-sitelen_emosi = "🍕"
-sitelen_pona = ["mulapisu"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "mulapisu"
 
@@ -22,3 +18,9 @@ pizza = 40
 2021-10 = 39
 2022-08 = 7
 2023-09 = 6
+
+[representations]
+sitelen_emosi = "🍕"
+sitelen_pona = ["mulapisu"]
+sitelen_sitelen = ""
+ucsur = ""

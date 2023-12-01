@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "<2001"
 see_also = ["ike", "lon"]
-sitelen_emosi = "🧞"
-sitelen_pona = ["powe"]
-sitelen_sitelen = ""
 source_language = "Acadian French"
-ucsur = "U+F19A3"
 usage_category = "uncommon"
 word = "powe"
 
@@ -32,3 +28,9 @@ trick = 31
 2021-10 = 56
 2022-08 = 21
 2023-09 = 23
+
+[representations]
+sitelen_emosi = "🧞"
+sitelen_pona = ["powe"]
+sitelen_sitelen = ""
+ucsur = "U+F19A3"

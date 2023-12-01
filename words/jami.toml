@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = ["suwi", "pilin"]
-sitelen_emosi = "🤤"
-sitelen_pona = ["jami"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "jami"
 
@@ -19,3 +15,9 @@ word = "yummy"
 2021-10 = 29
 2022-08 = 5
 2023-09 = 6
+
+[representations]
+sitelen_emosi = "🤤"
+sitelen_pona = ["jami"]
+sitelen_sitelen = ""
+ucsur = ""

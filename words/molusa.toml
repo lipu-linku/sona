@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 see_also = ["pipi"]
-sitelen_emosi = ""
-sitelen_pona = ["molusa"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "molusa"
 
@@ -19,3 +15,9 @@ word = "mollusk"
 2021-10 = 25
 2022-08 = 3
 2023-09 = 4
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["molusa"]
+sitelen_sitelen = ""
+ucsur = ""

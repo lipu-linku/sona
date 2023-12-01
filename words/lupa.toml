@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🕳️"
-sitelen_pona = ["lupa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
 source_language = "Lojban"
-ucsur = "U+F192F"
 usage_category = "core"
 word = "lupa"
 
@@ -51,3 +47,9 @@ fr = "NOM porte, trou, orifice, fenêtre"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🕳️"
+sitelen_pona = ["lupa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
+ucsur = "U+F192F"

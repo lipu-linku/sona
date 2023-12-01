@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🔈"
-sitelen_pona = ["kalama"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kalama.jpg"
 source_language = "Serbo-Croatian"
-ucsur = "U+F1915"
 usage_category = "core"
 word = "kalama"
 
@@ -31,3 +27,9 @@ fr = "VERBE émettre un son ; réciter, proférer"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🔈"
+sitelen_pona = ["kalama"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kalama.jpg"
+ucsur = "U+F1915"

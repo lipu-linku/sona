@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "uncommon"
 word = "wuwojiti"
 
@@ -18,3 +14,9 @@ word = "wu"
 [recognition]
 2022-08 = 13
 2023-09 = 22
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = []
+sitelen_sitelen = ""
+ucsur = ""

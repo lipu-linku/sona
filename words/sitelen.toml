@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🖼️"
-sitelen_pona = ["sitelen"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
 source_language = "Dutch"
-ucsur = "U+F1960"
 usage_category = "core"
 word = "sitelen"
 
@@ -56,3 +52,9 @@ fr = "NOM image, représentation, symbole, marque, écriture"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🖼️"
+sitelen_pona = ["sitelen"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
+ucsur = "U+F1960"

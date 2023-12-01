@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "👈"
-sitelen_pona = ["mi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mi.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1934"
 usage_category = "core"
 word = "mi"
 
@@ -37,3 +33,9 @@ fr = "NOM je, moi, nous"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👈"
+sitelen_pona = ["mi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mi.jpg"
+ucsur = "U+F1934"

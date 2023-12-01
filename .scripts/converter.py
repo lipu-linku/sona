@@ -70,43 +70,59 @@ def trash(word: str, data: dict):
 
 
 WORDS = nested_defaultdict()
+REPRESENTATIONS = nested_defaultdict()
 DEFINITIONS = nested_defaultdict()
 
 COMMENTARY = nested_defaultdict()
 SP_ETYMOLOGY = nested_defaultdict()
 ETYMOLOGY = nested_defaultdict()
 
-
-TRANSFORM_MAP = {
-    # NOTE: nasin nimi li sama nimi Linku
-    "word": noop,
-    "sitelen_pona": partial(transform_to_list, splitter=" "),
-    "ucsur": noop,
-    "sitelen_pona_etymology": trash,  # send to translate
-    "sitelen_sitelen": noop,
-    "sitelen_emosi": noop,
-    # "luka_pona": partial(noop, _return_if_null=dict()),
-    "luka_pona": trash,  # to be replaced with totally different doc
-    "coined_year": noop,
-    "coined_era": noop,
-    "book": partial(noop, _return_if_null="none"),
-    "usage_category": partial(noop, _return_if_null="obscure"),
-    "source_language": partial(noop, _return_if_null="unknown"),
-    "etymology": trash,
-    "etymology_data": trash,  # to transform and send to translate
-    "ku_data": transform_ku_data,
-    "recognition": transform_recognition_data,
-    "see_also": partial(transform_to_list, splitter=","),
-    "tags": trash,
-    "author_verbatim": noop,
-    "author_verbatim_source": noop,
-    "pu_verbatim": partial(noop, _return_if_null=None),
-    "commentary": trash,  # send to translate
-    "def": trash,
-}
-
 TRANSFORMER = "t"
 DESTINATION = "d"
+
+
+TRANSFORM_MAP = {
+    "word": {TRANSFORMER: noop, DESTINATION: WORDS},
+    # NOTE: this could be in `representations` but we decided against that
+    "sitelen_pona": {
+        TRANSFORMER: partial(transform_to_list, splitter=" "),
+        DESTINATION: REPRESENTATIONS,
+    },
+    "ucsur": {TRANSFORMER: noop, DESTINATION: REPRESENTATIONS},
+    "sitelen_pona_etymology": {TRANSFORMER: trash},  # send to translate
+    "sitelen_sitelen": {TRANSFORMER: noop, DESTINATION: REPRESENTATIONS},
+    "sitelen_emosi": {TRANSFORMER: noop, DESTINATION: REPRESENTATIONS},
+    # "luka_pona": {TRANSFORMER: partial(noop, _return_if_null=dict()), DESTINATION: WORDS},
+    "luka_pona": {TRANSFORMER: trash},  # to be replaced with totally different doc
+    "coined_year": {TRANSFORMER: noop, DESTINATION: WORDS},
+    "coined_era": {TRANSFORMER: noop, DESTINATION: WORDS},
+    "book": {TRANSFORMER: partial(noop, _return_if_null="none"), DESTINATION: WORDS},
+    "usage_category": {
+        TRANSFORMER: partial(noop, _return_if_null="obscure"),
+        DESTINATION: WORDS,
+    },
+    "source_language": {
+        TRANSFORMER: partial(noop, _return_if_null="unknown"),
+        DESTINATION: WORDS,
+    },
+    "etymology": {TRANSFORMER: trash},
+    "etymology_data": {TRANSFORMER: trash},  # to transform and send to translate
+    "ku_data": {TRANSFORMER: transform_ku_data, DESTINATION: WORDS},
+    "recognition": {TRANSFORMER: transform_recognition_data, DESTINATION: WORDS},
+    "see_also": {
+        TRANSFORMER: partial(transform_to_list, splitter=","),
+        DESTINATION: WORDS,
+    },
+    "tags": {TRANSFORMER: trash},
+    "author_verbatim": {TRANSFORMER: noop, DESTINATION: WORDS},
+    "author_verbatim_source": {TRANSFORMER: noop, DESTINATION: WORDS},
+    "pu_verbatim": {
+        TRANSFORMER: partial(noop, _return_if_null=None),
+        DESTINATION: WORDS,
+    },
+    "commentary": {TRANSFORMER: trash},  # send to translate
+    "def": {TRANSFORMER: trash},  # translate special case
+}
 
 TRANSLATION_MAP = {
     "etymology_data": {
@@ -144,9 +160,10 @@ def main():
     for word in data.keys():
         for field in TRANSFORM_MAP.keys():
             fetched = data[word].get(field)
-            formatted = TRANSFORM_MAP[field](word, fetched)
+            formatted = TRANSFORM_MAP[field][TRANSFORMER](word, fetched)
             if formatted is not None:
-                WORDS[word][field] = formatted
+                write_to = TRANSFORM_MAP[field][DESTINATION]
+                write_to[word][field] = formatted
 
             # if field == "ucsur":
             #     codepoint = data[word].get("ucsur")
@@ -177,6 +194,7 @@ def main():
     # TODO: order keys freely instead of alphabetically
     # or crowdin will solve this for us
     for word, worddata in WORDS.items():
+        worddata["representations"] = REPRESENTATIONS[word]
         with open(f"../words/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
             f.write(tomlified)

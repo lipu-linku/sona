@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
 see_also = ["sike"]
-sitelen_emosi = "🧱"
-sitelen_pona = ["leko"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/leko.jpg"
 source_language = "multiple possibilities"
-ucsur = "U+F197C"
 usage_category = "widespread"
 word = "leko"
 
@@ -28,3 +24,9 @@ stair = 39
 2021-10 = 82
 2022-08 = 72
 2023-09 = 70
+
+[representations]
+sitelen_emosi = "🧱"
+sitelen_pona = ["leko"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/leko.jpg"
+ucsur = "U+F197C"

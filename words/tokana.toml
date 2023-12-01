@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["tokana"]
-sitelen_sitelen = ""
 source_language = "Tongan"
-ucsur = ""
 usage_category = "obscure"
 word = "tokana"
 
@@ -19,3 +15,9 @@ word = "tokanga"
 2021-10 = 18
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["tokana"]
+sitelen_sitelen = ""
+ucsur = ""

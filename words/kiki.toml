@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["kipisi"]
-sitelen_emosi = ""
-sitelen_pona = ["kiki"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "uncommon"
 word = "kiki"
 
@@ -24,3 +20,9 @@ spiky = 21
 2021-10 = 41
 2022-08 = 21
 2023-09 = 29
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kiki"]
+sitelen_sitelen = ""
+ucsur = ""

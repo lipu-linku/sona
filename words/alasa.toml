@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["lukin"]
-sitelen_emosi = "🏹"
-sitelen_pona = ["alasa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
 source_language = "Acadian French"
-ucsur = "U+F1903"
 usage_category = "core"
 word = "alasa"
 
@@ -42,3 +38,9 @@ fr = "VERBE chasser, cueillir"
 2020-04 = 97
 2022-08 = 97
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🏹"
+sitelen_pona = ["alasa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
+ucsur = "U+F1903"

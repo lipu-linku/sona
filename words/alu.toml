@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = ["la"]
-sitelen_emosi = ""
-sitelen_pona = ["alu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "alu"
 
@@ -20,3 +16,9 @@ word = "la"
 2021-10 = 24
 2022-08 = 3
 2023-09 = 3
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["alu"]
+sitelen_sitelen = ""
+ucsur = ""

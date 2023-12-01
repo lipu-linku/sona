@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🐒"
-sitelen_pona = ["soweli"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
 source_language = "Georgian"
-ucsur = "U+F1962"
 usage_category = "core"
 word = "soweli"
 
@@ -48,3 +44,9 @@ fr = "NOM animal, mammifère terrestre"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🐒"
+sitelen_pona = ["soweli"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
+ucsur = "U+F1962"

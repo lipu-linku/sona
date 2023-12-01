@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["ale"]
-sitelen_emosi = "♾️"
-sitelen_pona = ["ali"]
-sitelen_sitelen = ""
 source_language = "Dutch"
-ucsur = ""
 usage_category = "uncommon"
 word = "ali"
 
@@ -23,3 +19,9 @@ universe = 21
 [recognition]
 2022-08 = 35
 2023-09 = 32
+
+[representations]
+sitelen_emosi = "♾️"
+sitelen_pona = ["ali"]
+sitelen_sitelen = ""
+ucsur = ""

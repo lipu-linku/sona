@@ -4,11 +4,7 @@ book = "none"
 coined_era = "pre-pu"
 coined_year = "2001"
 see_also = ["nena"]
-sitelen_emosi = ""
-sitelen_pona = ["kapa"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "kapa"
 
@@ -20,3 +16,9 @@ word = "kop"
 2021-10 = 20
 2022-08 = 2
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kapa"]
+sitelen_sitelen = ""
+ucsur = ""

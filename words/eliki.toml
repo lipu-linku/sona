@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = ""
 see_also = ["utala", "pilin", "ike"]
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "Tsalagi"
-ucsur = ""
 usage_category = "obscure"
 word = "eliki"
 
@@ -17,3 +13,9 @@ word = "ehisdi"
 
 [recognition]
 2023-09 = 3
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = []
+sitelen_sitelen = ""
+ucsur = ""

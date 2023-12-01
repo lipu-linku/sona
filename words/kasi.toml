@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🌴"
-sitelen_pona = ["kasi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kasi.jpg"
 source_language = "Finnish"
-ucsur = "U+F1917"
 usage_category = "core"
 word = "kasi"
 
@@ -30,3 +26,9 @@ fr = "NOM plante, végétation ; herbe, feuille"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🌴"
+sitelen_pona = ["kasi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kasi.jpg"
+ucsur = "U+F1917"

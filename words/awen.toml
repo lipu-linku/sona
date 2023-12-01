@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "⚓"
-sitelen_pona = ["awen"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
 source_language = "Dutch"
-ucsur = "U+F1908"
 usage_category = "core"
 word = "awen"
 
@@ -75,3 +71,9 @@ fr = "ADJECTIF resté, protégé, gardé, qui attend, qui persiste, conservé\nA
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "⚓"
+sitelen_pona = ["awen"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
+ucsur = "U+F1908"

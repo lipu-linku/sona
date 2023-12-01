@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🏋️"
-sitelen_pona = ["sijelo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
 source_language = "Serbo-Croatian"
-ucsur = "U+F195B"
 usage_category = "core"
 word = "sijelo"
 
@@ -35,3 +31,9 @@ fr = "NOM corps, état physique, torse"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🏋️"
+sitelen_pona = ["sijelo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
+ucsur = "U+F195B"

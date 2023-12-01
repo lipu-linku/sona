@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🐞"
-sitelen_pona = ["pipi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pipi.jpg"
 source_language = "Acadian French"
-ucsur = "U+F1951"
 usage_category = "core"
 word = "pipi"
 
@@ -29,3 +25,9 @@ fr = "NOM insecte, araignée, fourmi"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🐞"
+sitelen_pona = ["pipi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pipi.jpg"
+ucsur = "U+F1951"

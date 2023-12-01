@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["ojuta"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "ojuta"
 
@@ -18,3 +14,9 @@ word = "o uta"
 [recognition]
 2022-08 = 2
 2023-09 = 6
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["ojuta"]
+sitelen_sitelen = ""
+ucsur = ""

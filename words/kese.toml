@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["kule", "tonsi"]
-sitelen_emosi = ""
-sitelen_pona = ["kese"]
-sitelen_sitelen = ""
 source_language = "Hebrew"
-ucsur = ""
 usage_category = "obscure"
 word = "kese"
 
@@ -23,3 +19,9 @@ word = "קֶשֶׁת"
 2021-10 = 25
 2022-08 = 4
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kese"]
+sitelen_sitelen = ""
+ucsur = ""

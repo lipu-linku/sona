@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["Pingo"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = ""
 usage_category = "obscure"
 word = "Pingo"
 
@@ -21,3 +17,9 @@ car = 6
 2021-10 = 20
 2022-08 = 5
 2023-09 = 4
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["Pingo"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
 see_also = ["a"]
-sitelen_emosi = "❕"
-sitelen_pona = ["kin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kin.jpg"
 source_language = "Finnish"
-ucsur = "U+F1979"
 usage_category = "widespread"
 word = "kin"
 
@@ -32,3 +28,9 @@ fr = "PARTICULE (accent, émotion ou confirmation)"
 2021-10 = 97
 2022-08 = 89
 2023-09 = 83
+
+[representations]
+sitelen_emosi = "❕"
+sitelen_pona = ["kin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kin.jpg"
+ucsur = "U+F1979"

@@ -5,14 +5,16 @@ coined_era = ""
 coined_year = ""
 etymology = []
 see_also = ["a"]
-sitelen_emosi = ""
-sitelen_pona = ["ako"]
-sitelen_sitelen = ""
 source_language = "unknown"
-ucsur = ""
 usage_category = "obscure"
 word = "ako"
 
 [recognition]
 2022-08 = 0
 2023-09 = 0
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["ako"]
+sitelen_sitelen = ""
+ucsur = ""

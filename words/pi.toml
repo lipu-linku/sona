@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "⏹️"
-sitelen_pona = ["pi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F194D"
 usage_category = "core"
 word = "pi"
 
@@ -28,3 +24,9 @@ fr = "PARTICULE de"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "⏹️"
+sitelen_pona = ["pi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
+ucsur = "U+F194D"

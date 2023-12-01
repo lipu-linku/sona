@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["kasi", "moku", "soko"]
-sitelen_emosi = "🍎"
-sitelen_pona = ["kili"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
 source_language = "Georgian"
-ucsur = "U+F191A"
 usage_category = "core"
 word = "kili"
 
@@ -36,3 +32,9 @@ fr = "NOM fruit, légume, champignon"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🍎"
+sitelen_pona = ["kili"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
+ucsur = "U+F191A"

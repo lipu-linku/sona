@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2009"
 see_also = ["kijetesantakalu"]
-sitelen_emosi = ""
-sitelen_pona = ["sutopatikuna"]
-sitelen_sitelen = ""
 source_language = "Serbo-Croatian"
-ucsur = ""
 usage_category = "obscure"
 word = "sutopatikuna"
 
@@ -22,3 +18,9 @@ platypus = 20
 2021-10 = 33
 2022-08 = 7
 2023-09 = 8
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["sutopatikuna"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = ["mute", "ale"]
-sitelen_emosi = ""
-sitelen_pona = ["jaku"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "jaku"
 
@@ -21,3 +17,9 @@ word = "百"
 2021-10 = 18
 2022-08 = 1
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jaku"]
+sitelen_sitelen = ""
+ucsur = ""

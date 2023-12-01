@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["o"]
-sitelen_emosi = "▶️"
-sitelen_pona = ["li"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/li.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1927"
 usage_category = "core"
 word = "li"
 
@@ -24,3 +20,9 @@ fr = "PARTICULE (entre le sujet et son verbe, à l'exception de mi ou sina tout 
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "▶️"
+sitelen_pona = ["li"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/li.jpg"
+ucsur = "U+F1927"

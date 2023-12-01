@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2022"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
 source_language = "Spanish"
-ucsur = ""
 usage_category = "obscure"
 word = "we"
 
@@ -17,3 +13,9 @@ word = "güey"
 
 [recognition]
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = []
+sitelen_sitelen = ""
+ucsur = ""

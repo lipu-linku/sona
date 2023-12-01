@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["meli", "tonsi"]
-sitelen_emosi = "👨"
-sitelen_pona = ["mije", "mije2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mije.jpg"
 source_language = "Finnish"
-ucsur = "U+F1935"
 usage_category = "widespread"
 word = "mije"
 
@@ -35,3 +31,9 @@ fr = "NOM homme, mâle ; mari"
 [recognition]
 2022-08 = 89
 2023-09 = 82
+
+[representations]
+sitelen_emosi = "👨"
+sitelen_pona = ["mije", "mije2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mije.jpg"
+ucsur = "U+F1935"

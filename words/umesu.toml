@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["umesu"]
-sitelen_sitelen = ""
 source_language = "Iqglic"
-ucsur = ""
 usage_category = "obscure"
 word = "umesu"
 
@@ -19,3 +15,9 @@ word = "Umeyz"
 2021-10 = 23
 2022-08 = 2
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["umesu"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["oko", "alasa"]
-sitelen_emosi = "👀"
-sitelen_pona = ["lukin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lukin.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F192E"
 usage_category = "core"
 word = "lukin"
 
@@ -64,3 +60,9 @@ fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXI
 2020-04 = 99
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "👀"
+sitelen_pona = ["lukin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lukin.jpg"
+ucsur = "U+F192E"

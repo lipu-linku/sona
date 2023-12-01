@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
 see_also = ["sin"]
-sitelen_emosi = "🧂"
-sitelen_pona = ["namako", "namako2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/namako.jpg"
 source_language = "multiple possibilities"
-ucsur = "U+F1978"
 usage_category = "widespread"
 word = "namako"
 
@@ -42,3 +38,9 @@ fr = "ADJECTIF nouveau, frais ; encore un, de plus"
 2021-10 = 90
 2022-08 = 75
 2023-09 = 70
+
+[representations]
+sitelen_emosi = "🧂"
+sitelen_pona = ["namako", "namako2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/namako.jpg"
+ucsur = "U+F1978"

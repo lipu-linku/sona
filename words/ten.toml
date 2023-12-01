@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["ten"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "ten"
 
@@ -20,3 +16,9 @@ word = "tenpo"
 2021-10 = 19
 2022-08 = 1
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["ten"]
+sitelen_sitelen = ""
+ucsur = ""

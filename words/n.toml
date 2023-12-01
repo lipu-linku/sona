@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["a"]
-sitelen_emosi = ""
-sitelen_pona = ["n"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/n.jpg"
 source_language = "onomatopoeia"
-ucsur = "U+F1986"
 usage_category = "widespread"
 word = "n"
 
@@ -23,3 +19,9 @@ um = 47
 2021-10 = 60
 2022-08 = 68
 2023-09 = 70
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["n"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/n.jpg"
+ucsur = "U+F1986"

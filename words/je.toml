@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = ""
 see_also = ["a", "wa"]
-sitelen_emosi = ""
-sitelen_pona = ["je"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "je"
 
@@ -19,3 +15,9 @@ word = "yay"
 2021-10 = 20
 2022-08 = 1
 2023-09 = 3
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["je"]
+sitelen_sitelen = ""
+ucsur = ""

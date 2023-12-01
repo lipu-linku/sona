@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["luka"]
-sitelen_emosi = "🦵"
-sitelen_pona = ["noka"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/noka.jpg"
 source_language = "Serbo-Croatian"
-ucsur = "U+F1943"
 usage_category = "core"
 word = "noka"
 
@@ -35,3 +31,9 @@ fr = "NOM pied, jambe, organe de locomotion ; bas, dessous"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🦵"
+sitelen_pona = ["noka"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/noka.jpg"
+ucsur = "U+F1943"

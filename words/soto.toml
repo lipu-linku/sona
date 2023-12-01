@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["poka", "teje"]
-sitelen_emosi = "🤛"
-sitelen_pona = ["soto"]
-sitelen_sitelen = ""
 source_language = "Swahili"
-ucsur = ""
 usage_category = "obscure"
 word = "soto"
 
@@ -23,3 +19,9 @@ word = "shoto"
 2021-10 = 34
 2022-08 = 8
 2023-09 = 6
+
+[representations]
+sitelen_emosi = "🤛"
+sitelen_pona = ["soto"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🌀"
-sitelen_pona = ["nasa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F193E"
 usage_category = "core"
 word = "nasa"
 
@@ -38,3 +34,9 @@ fr = "ADJECTIF étrange, insolite ; fou, bête, idiot ; ivre"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🌀"
+sitelen_pona = ["nasa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
+ucsur = "U+F193E"

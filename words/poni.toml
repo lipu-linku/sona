@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["soweli"]
-sitelen_emosi = ""
-sitelen_pona = ["poni"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "poni"
 
@@ -18,3 +14,9 @@ word = "pony"
 [recognition]
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["poni"]
+sitelen_sitelen = ""
+ucsur = ""

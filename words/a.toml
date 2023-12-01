@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["kin"]
-sitelen_emosi = "❗"
-sitelen_pona = ["a"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
 source_language = "onomatopoeia"
-ucsur = "U+F1900"
 usage_category = "core"
 word = "a"
 
@@ -43,3 +39,9 @@ fr = "PARTICULE (accent, émotion ou confirmation)"
 2020-04 = 99
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "❗"
+sitelen_pona = ["a"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
+ucsur = "U+F1900"

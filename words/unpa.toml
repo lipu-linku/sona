@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🍆"
-sitelen_pona = ["unpa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/unpa.jpg"
 source_language = "onomatopoeia"
-ucsur = "U+F196F"
 usage_category = "core"
 word = "unpa"
 
@@ -30,3 +26,9 @@ fr = "VERBE avoir des rapports sexuels ou conjugaux avec"
 [recognition]
 2022-08 = 97
 2023-09 = 98
+
+[representations]
+sitelen_emosi = "🍆"
+sitelen_pona = ["unpa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/unpa.jpg"
+ucsur = "U+F196F"

@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["kutopoma"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kutopoma"
 
@@ -18,3 +14,9 @@ word = "kulupu pi toki pona pi ma Anku"
 [recognition]
 2022-08 = 0
 2023-09 = 0
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kutopoma"]
+sitelen_sitelen = ""
+ucsur = ""

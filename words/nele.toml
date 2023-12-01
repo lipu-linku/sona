@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["nele"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "nele"
 
@@ -18,3 +14,9 @@ word = "len"
 [recognition]
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["nele"]
+sitelen_sitelen = ""
+ucsur = ""

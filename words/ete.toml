@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["suli", "sewi", "wawa"]
-sitelen_emosi = "🔃"
-sitelen_pona = ["ete", "ete2"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "ete"
 
@@ -24,3 +20,9 @@ exceed = 20
 2021-10 = 33
 2022-08 = 5
 2023-09 = 4
+
+[representations]
+sitelen_emosi = "🔃"
+sitelen_pona = ["ete", "ete2"]
+sitelen_sitelen = ""
+ucsur = ""

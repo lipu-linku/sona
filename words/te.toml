@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2020"
 see_also = ["to"]
-sitelen_emosi = "🤜"
-sitelen_pona = ["te"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "rare"
 word = "te"
 
@@ -24,3 +20,9 @@ word = "って"
 2021-10 = 40
 2022-08 = 11
 2023-09 = 14
+
+[representations]
+sitelen_emosi = "🤜"
+sitelen_pona = ["te"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2001"
 see_also = ["lukin"]
-sitelen_emosi = "👁️"
-sitelen_pona = ["oko"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
 source_language = "Serbo-Croatian"
-ucsur = "U+F197A"
 usage_category = "common"
 word = "oko"
 
@@ -31,3 +27,9 @@ fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXI
 2021-10 = 88
 2022-08 = 62
 2023-09 = 57
+
+[representations]
+sitelen_emosi = "👁️"
+sitelen_pona = ["oko"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
+ucsur = "U+F197A"

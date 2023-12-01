@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "<2001"
 see_also = ["suli", "tenpo"]
-sitelen_emosi = "👵"
-sitelen_pona = ["majuna", "majuna2"]
-sitelen_sitelen = ""
 source_language = "Esperanto"
-ucsur = "U+F19A2"
 usage_category = "uncommon"
 word = "majuna"
 
@@ -28,3 +24,9 @@ senior = 21
 2021-10 = 59
 2022-08 = 32
 2023-09 = 34
+
+[representations]
+sitelen_emosi = "👵"
+sitelen_pona = ["majuna", "majuna2"]
+sitelen_sitelen = ""
+ucsur = "U+F19A2"

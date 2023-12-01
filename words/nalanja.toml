@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 see_also = ["loje", "jelo"]
-sitelen_emosi = ""
-sitelen_pona = ["nalanja"]
-sitelen_sitelen = ""
 source_language = "Spanish"
-ucsur = ""
 usage_category = "obscure"
 word = "nalanja"
 
@@ -18,3 +14,9 @@ word = "naranja"
 [recognition]
 2022-08 = 1
 2023-09 = 3
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["nalanja"]
+sitelen_sitelen = ""
+ucsur = ""

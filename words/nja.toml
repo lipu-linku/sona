@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["mu", "jonke"]
-sitelen_emosi = ""
-sitelen_pona = ["nja"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "nja"
 
@@ -19,3 +15,9 @@ word = "ニャー"
 [recognition]
 2022-08 = 5
 2023-09 = 9
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["nja"]
+sitelen_sitelen = ""
+ucsur = ""

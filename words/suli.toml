@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["lili"]
-sitelen_emosi = "🐘"
-sitelen_pona = ["suli"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suli.jpg"
 source_language = "Finnish"
-ucsur = "U+F1963"
 usage_category = "core"
 word = "suli"
 
@@ -96,3 +92,9 @@ fr = "ADJECTIF grand, lourd, long ; important ; adulte"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🐘"
+sitelen_pona = ["suli"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suli.jpg"
+ucsur = "U+F1963"

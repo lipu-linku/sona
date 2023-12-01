@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🐚"
-sitelen_pona = ["ijo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ijo.jpg"
 source_language = "Esperanto"
-ucsur = "U+F190C"
 usage_category = "core"
 word = "ijo"
 
@@ -45,3 +41,9 @@ fr = "NOM chose, phénomène, objet, matière"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🐚"
+sitelen_pona = ["ijo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ijo.jpg"
+ucsur = "U+F190C"

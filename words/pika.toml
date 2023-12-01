@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["linluwi", "ilo"]
-sitelen_emosi = ""
-sitelen_pona = ["pika"]
-sitelen_sitelen = ""
 source_language = "Japanese"
-ucsur = ""
 usage_category = "obscure"
 word = "pika"
 
@@ -19,3 +15,9 @@ word = "ピカチュウ"
 [recognition]
 2022-08 = 2
 2023-09 = 5
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["pika"]
+sitelen_sitelen = ""
+ucsur = ""

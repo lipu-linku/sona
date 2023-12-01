@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = ["lape"]
-sitelen_emosi = ""
-sitelen_pona = ["slape"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "slape"
 
@@ -19,3 +15,9 @@ word = "lape"
 2020-04 = 12
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["slape"]
+sitelen_sitelen = ""
+ucsur = ""

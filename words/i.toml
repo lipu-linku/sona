@@ -4,11 +4,7 @@ book = "none"
 coined_era = "pre-pu"
 coined_year = "2002"
 see_also = ["ona"]
-sitelen_emosi = ""
-sitelen_pona = ["i"]
-sitelen_sitelen = ""
 source_language = "unknown"
-ucsur = ""
 usage_category = "obscure"
 word = "i"
 
@@ -18,3 +14,9 @@ word = "unknown"
 [recognition]
 2022-08 = 1
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["i"]
+sitelen_sitelen = ""
+ucsur = ""

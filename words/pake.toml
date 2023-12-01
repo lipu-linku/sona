@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2009"
 see_also = ["pini"]
-sitelen_emosi = "🚧"
-sitelen_pona = ["pake"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = "U+F19A0"
 usage_category = "rare"
 word = "pake"
 
@@ -33,3 +29,9 @@ wall = 17
 2021-10 = 48
 2022-08 = 13
 2023-09 = 13
+
+[representations]
+sitelen_emosi = "🚧"
+sitelen_pona = ["pake"]
+sitelen_sitelen = ""
+ucsur = "U+F19A0"

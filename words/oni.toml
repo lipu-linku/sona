@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["insa", "lape", "musi", "sitelen", "jume"]
-sitelen_emosi = ""
-sitelen_pona = ["oni", "oni2"]
-sitelen_sitelen = ""
 source_language = "Ancient Greek"
-ucsur = ""
 usage_category = "obscure"
 word = "oni"
 
@@ -20,3 +16,9 @@ word = "ὄνειροι"
 2021-10 = 26
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["oni", "oni2"]
+sitelen_sitelen = ""
+ucsur = ""

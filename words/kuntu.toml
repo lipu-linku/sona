@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = []
-sitelen_emosi = "🤣"
-sitelen_pona = ["kuntu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "kuntu"
 
@@ -26,3 +22,9 @@ laughter = 14
 2021-10 = 31
 2022-08 = 7
 2023-09 = 3
+
+[representations]
+sitelen_emosi = "🤣"
+sitelen_pona = ["kuntu"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["mani"]
-sitelen_emosi = "🛒"
-sitelen_pona = ["esun"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
 source_language = "Akan"
-ucsur = "U+F190B"
 usage_category = "core"
 word = "esun"
 
@@ -49,3 +45,9 @@ fr = "NOM marché, boutique, foire, magasin, commerce"
 2020-04 = 97
 2022-08 = 96
 2023-09 = 98
+
+[representations]
+sitelen_emosi = "🛒"
+sitelen_pona = ["esun"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
+ucsur = "U+F190B"

@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["tenpo", "ma"]
-sitelen_emosi = "📍"
-sitelen_pona = ["lon"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F192C"
 usage_category = "core"
 word = "lon"
 
@@ -81,3 +77,9 @@ fr = "PRÉPOSITION à, situé à, présent à, dans, sur ; réel, vrai, actuel"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "📍"
+sitelen_pona = ["lon"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
+ucsur = "U+F192C"

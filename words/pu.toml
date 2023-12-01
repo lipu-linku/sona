@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["ku"]
-sitelen_emosi = "📖"
-sitelen_pona = ["pu"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = "U+F1955"
 usage_category = "core"
 word = "pu"
 
@@ -33,3 +29,9 @@ fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
 2020-04 = 82
 2022-08 = 94
 2023-09 = 96
+
+[representations]
+sitelen_emosi = "📖"
+sitelen_pona = ["pu"]
+sitelen_sitelen = ""
+ucsur = "U+F1955"

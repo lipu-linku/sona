@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["ante"]
-sitelen_emosi = "⚖️"
-sitelen_pona = ["sama"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sama.jpg"
 source_language = "multiple"
-ucsur = "U+F1956"
 usage_category = "core"
 word = "sama"
 
@@ -49,3 +45,9 @@ fr = "ADJECTIF même, semblable; l'un l'autre ; fraternel, homologue\nPRÉPOSITI
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "⚖️"
+sitelen_pona = ["sama"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sama.jpg"
+ucsur = "U+F1956"

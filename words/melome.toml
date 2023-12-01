@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = ["kule", "meli"]
-sitelen_emosi = "👩‍❤️‍👩"
-sitelen_pona = ["melome"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "melome"
 
@@ -20,3 +16,9 @@ word = "meli pi olin meli"
 2021-10 = 36
 2022-08 = 7
 2023-09 = 7
+
+[representations]
+sitelen_emosi = "👩‍❤️‍👩"
+sitelen_pona = ["melome"]
+sitelen_sitelen = ""
+ucsur = ""

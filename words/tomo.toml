@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["poki"]
-sitelen_emosi = "🏠"
-sitelen_pona = ["tomo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"
 source_language = "Esperanto"
-ucsur = "U+F196D"
 usage_category = "core"
 word = "tomo"
 
@@ -49,3 +45,9 @@ fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce,
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "🏠"
+sitelen_pona = ["tomo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"
+ucsur = "U+F196D"

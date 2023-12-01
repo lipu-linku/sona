@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "❤️"
-sitelen_pona = ["pilin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F194E"
 usage_category = "core"
 word = "pilin"
 
@@ -63,3 +59,9 @@ fr = "NOM cœur (physique et psychologique)\nADJECTIF qui ressent (une émotion,
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "❤️"
+sitelen_pona = ["pilin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
+ucsur = "U+F194E"

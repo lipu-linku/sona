@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["sinpin"]
-sitelen_emosi = "🛏️"
-sitelen_pona = ["supa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
 source_language = "Esperanto"
-ucsur = "U+F1965"
 usage_category = "core"
 word = "supa"
 
@@ -45,3 +41,9 @@ fr = "NOM surface horizontale sur laquelle on pose quelque chose"
 [recognition]
 2022-08 = 98
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🛏️"
+sitelen_pona = ["supa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
+ucsur = "U+F1965"

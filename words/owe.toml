@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["owe"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "owe"
 
@@ -19,3 +15,9 @@ word = "Orwell"
 2021-10 = 20
 2022-08 = 5
 2023-09 = 5
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["owe"]
+sitelen_sitelen = ""
+ucsur = ""

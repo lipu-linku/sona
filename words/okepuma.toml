@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = []
-sitelen_emosi = "🦖"
-sitelen_pona = ["okepuma"]
-sitelen_sitelen = ""
 source_language = "English"
-ucsur = ""
 usage_category = "obscure"
 word = "okepuma"
 
@@ -20,3 +16,9 @@ word = "okay boomer"
 2021-10 = 24
 2022-08 = 3
 2023-09 = 2
+
+[representations]
+sitelen_emosi = "🦖"
+sitelen_pona = ["okepuma"]
+sitelen_sitelen = ""
+ucsur = ""

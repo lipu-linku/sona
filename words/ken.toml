@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "💪"
-sitelen_pona = ["ken"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
 source_language = "Tok Pisin"
-ucsur = "U+F1918"
 usage_category = "core"
 word = "ken"
 
@@ -58,3 +54,9 @@ fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "💪"
+sitelen_pona = ["ken"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
+ucsur = "U+F1918"

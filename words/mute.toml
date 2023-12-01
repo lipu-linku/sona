@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["wan", "tu", "ale"]
-sitelen_emosi = "👐"
-sitelen_pona = ["mute"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mute.jpg"
 source_language = "Esperanto"
-ucsur = "U+F193C"
 usage_category = "core"
 word = "mute"
 
@@ -68,3 +64,9 @@ fr = "ADJECTIF beaucoup de, plusieurs, plus de ; très\nNOM quantité"
 [recognition]
 2022-08 = 100
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "👐"
+sitelen_pona = ["mute"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mute.jpg"
+ucsur = "U+F193C"

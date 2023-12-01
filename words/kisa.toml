@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["soweli"]
-sitelen_emosi = ""
-sitelen_pona = ["kisa"]
-sitelen_sitelen = ""
 source_language = "Russian"
-ucsur = ""
 usage_category = "obscure"
 word = "kisa"
 
@@ -20,3 +16,9 @@ word = "ки́са"
 2021-10 = 24
 2022-08 = 1
 2023-09 = 4
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kisa"]
+sitelen_sitelen = ""
+ucsur = ""

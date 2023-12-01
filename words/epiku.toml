@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["pona", "wawa"]
-sitelen_emosi = "😎"
-sitelen_pona = ["epiku", "epiku1"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/epiku.jpg"
 source_language = "French"
-ucsur = "U+F1983"
 usage_category = "common"
 word = "epiku"
 
@@ -25,3 +21,9 @@ epic = 50
 2021-10 = 58
 2022-08 = 44
 2023-09 = 53
+
+[representations]
+sitelen_emosi = "😎"
+sitelen_pona = ["epiku", "epiku1"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/epiku.jpg"
+ucsur = "U+F1983"

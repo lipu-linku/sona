@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "🦅"
-sitelen_pona = ["waso"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/waso.jpg"
 source_language = "Acadian French"
-ucsur = "U+F1974"
 usage_category = "core"
 word = "waso"
 
@@ -32,3 +28,9 @@ fr = "NOM oiseau, créature volante, animal ailé"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "🦅"
+sitelen_pona = ["waso"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/waso.jpg"
+ucsur = "U+F1974"

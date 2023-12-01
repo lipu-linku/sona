@@ -4,11 +4,7 @@ book = "none"
 coined_era = "pre-pu"
 coined_year = "2007"
 see_also = []
-sitelen_emosi = ""
-sitelen_pona = ["sipi"]
-sitelen_sitelen = ""
 source_language = "Latin"
-ucsur = ""
 usage_category = "obscure"
 word = "sipi"
 
@@ -18,3 +14,9 @@ word = "sibi (dative reflexive pronoun)"
 [recognition]
 2022-08 = 0
 2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["sipi"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = ["lukin", "oko"]
-sitelen_emosi = "🧿"
-sitelen_pona = ["lokon"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "lokon"
 
@@ -20,3 +16,9 @@ word = "lukin & oko"
 2021-10 = 20
 2022-08 = 0
 2023-09 = 1
+
+[representations]
+sitelen_emosi = "🧿"
+sitelen_pona = ["lokon"]
+sitelen_sitelen = ""
+ucsur = ""

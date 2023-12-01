@@ -4,11 +4,7 @@ book = "ku suli"
 coined_era = "post-pu"
 coined_year = "2021"
 see_also = ["pu"]
-sitelen_emosi = ""
-sitelen_pona = ["ku"]
-sitelen_sitelen = ""
 source_language = "a priori"
-ucsur = "U+F1988"
 usage_category = "widespread"
 word = "ku"
 
@@ -18,3 +14,9 @@ word = "ku"
 2021-10 = 85
 2022-08 = 80
 2023-09 = 70
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["ku"]
+sitelen_sitelen = ""
+ucsur = "U+F1988"

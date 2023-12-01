@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 see_also = ["laso"]
-sitelen_emosi = "🟢"
-sitelen_pona = ["peta"]
-sitelen_sitelen = ""
 source_language = "Esperanto"
-ucsur = ""
 usage_category = "obscure"
 word = "peta"
 
@@ -19,3 +15,9 @@ word = "verda"
 2020-04 = 13
 2022-08 = 1
 2023-09 = 2
+
+[representations]
+sitelen_emosi = "🟢"
+sitelen_pona = ["peta"]
+sitelen_sitelen = ""
+ucsur = ""

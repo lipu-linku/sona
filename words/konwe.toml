@@ -4,11 +4,7 @@ book = "none"
 coined_era = "post-ku"
 coined_year = "2021"
 see_also = ["ma", "tenpo"]
-sitelen_emosi = ""
-sitelen_pona = ["konwe"]
-sitelen_sitelen = ""
 source_language = "multiple"
-ucsur = ""
 usage_category = "obscure"
 word = "konwe"
 
@@ -19,3 +15,9 @@ word = "Conway"
 2021-10 = 25
 2022-08 = 6
 2023-09 = 7
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["konwe"]
+sitelen_sitelen = ""
+ucsur = ""

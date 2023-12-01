@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = ["palisa"]
-sitelen_emosi = "〰️"
-sitelen_pona = ["linja"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
 source_language = "Finnish"
-ucsur = "U+F1929"
 usage_category = "core"
 word = "linja"
 
@@ -44,3 +40,9 @@ fr = "NOM objet long et flexible : corde, cheveu, fil, ligne"
 [recognition]
 2022-08 = 99
 2023-09 = 99
+
+[representations]
+sitelen_emosi = "〰️"
+sitelen_pona = ["linja"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
+ucsur = "U+F1929"

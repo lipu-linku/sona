@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = ["len", "ilo", "wan"]
-sitelen_emosi = "🌐"
-sitelen_pona = ["linluwi", "linluwi2"]
-sitelen_sitelen = ""
 source_language = "Welsh"
-ucsur = ""
 usage_category = "uncommon"
 word = "linluwi"
 
@@ -29,3 +25,9 @@ web = 9
 2021-10 = 55
 2022-08 = 29
 2023-09 = 34
+
+[representations]
+sitelen_emosi = "🌐"
+sitelen_pona = ["linluwi", "linluwi2"]
+sitelen_sitelen = ""
+ucsur = ""

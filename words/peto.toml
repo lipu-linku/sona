@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2017"
 see_also = []
-sitelen_emosi = "😭"
-sitelen_pona = ["peto"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "peto"
 
@@ -23,3 +19,9 @@ cry = 7
 2021-10 = 28
 2022-08 = 3
 2023-09 = 2
+
+[representations]
+sitelen_emosi = "😭"
+sitelen_pona = ["peto"]
+sitelen_sitelen = ""
+ucsur = ""

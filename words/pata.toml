@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2002"
 see_also = ["sama"]
-sitelen_emosi = "👯‍♀️"
-sitelen_pona = ["pata"]
-sitelen_sitelen = ""
 source_language = "multiple possibilities"
-ucsur = ""
 usage_category = "obscure"
 word = "pata"
 
@@ -31,3 +27,9 @@ sibling = 7
 2021-10 = 36
 2022-08 = 5
 2023-09 = 4
+
+[representations]
+sitelen_emosi = "👯‍♀️"
+sitelen_pona = ["pata"]
+sitelen_sitelen = ""
+ucsur = ""

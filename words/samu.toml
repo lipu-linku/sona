@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = ["nimisin"]
-sitelen_emosi = "✍️"
-sitelen_pona = ["samu"]
-sitelen_sitelen = ""
 source_language = "toki pona"
-ucsur = ""
 usage_category = "obscure"
 word = "samu"
 
@@ -23,3 +19,9 @@ word = "jan Samu"
 2021-10 = 29
 2022-08 = 3
 2023-09 = 1
+
+[representations]
+sitelen_emosi = "✍️"
+sitelen_pona = ["samu"]
+sitelen_sitelen = ""
+ucsur = ""

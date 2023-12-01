@@ -4,11 +4,7 @@ book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
 see_also = []
-sitelen_emosi = "📄"
-sitelen_pona = ["lipu"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lipu.jpg"
 source_language = "Finnish"
-ucsur = "U+F192A"
 usage_category = "core"
 word = "lipu"
 
@@ -54,3 +50,9 @@ fr = "NOM objet plat ; livre, document, carte, papier, site web"
 [recognition]
 2022-08 = 99
 2023-09 = 100
+
+[representations]
+sitelen_emosi = "📄"
+sitelen_pona = ["lipu"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lipu.jpg"
+ucsur = "U+F192A"

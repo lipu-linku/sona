@@ -4,11 +4,7 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2018"
 see_also = ["kulupu", "alasa"]
-sitelen_emosi = "🧺"
-sitelen_pona = ["likujo"]
-sitelen_sitelen = ""
 source_language = "Acadian French"
-ucsur = ""
 usage_category = "obscure"
 word = "likujo"
 
@@ -25,3 +21,9 @@ seven = 7
 2021-10 = 25
 2022-08 = 3
 2023-09 = 4
+
+[representations]
+sitelen_emosi = "🧺"
+sitelen_pona = ["likujo"]
+sitelen_sitelen = ""
+ucsur = ""
