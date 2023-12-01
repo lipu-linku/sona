@@ -37,4 +37,4 @@ jobs:
       - name: Commit schemas
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Generated schemas for ${{ vars.GITHUB_SHA }}"
+          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA }}"
