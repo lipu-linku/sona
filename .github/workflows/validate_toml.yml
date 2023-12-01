@@ -1,16 +1,17 @@
 name: Validate TOML Files
 
 on:
-  workflow_run:
-    workflows: ["Generate JSON Schemas"]
-    types: ["completed"]
+  push:
+    paths:
+      - "**.toml"
+      - "schemas/schema.json"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  on-success:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
