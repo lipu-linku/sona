@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"generate:schemas": "node generateSchemas.js",
-		"build": "tsup src/**/*.ts --dts-only --format esm"
+		"build": "tsup src/**/*.ts --dts --format esm"
 	},
 	"devDependencies": {
 		"@types/node": "^20.10.1",

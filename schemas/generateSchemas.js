@@ -2,7 +2,7 @@ import { createGenerator } from "ts-json-schema-generator";
 import fs from "node:fs/promises";
 
 const schema = createGenerator({
-	path: "./src/word.ts",
+	path: "./src/types/index.ts",
 	tsconfig: "./tsconfig.json",
 	type: "*",
 }).createSchema("*");

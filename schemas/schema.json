@@ -1,41 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
-    "Book": {
-      "type": "string",
-      "enum": [
-        "pu",
-        "ku suli",
-        "ku lili",
-        "none"
-      ]
-    },
-    "CoinedEra": {
-      "type": "string",
-      "enum": [
-        "pre-pu",
-        "post-pu",
-        "post-ku"
-      ]
-    },
-    "UsageCategory": {
-      "type": "string",
-      "enum": [
-        "core",
-        "widespread",
-        "common",
-        "uncommon",
-        "rare",
-        "obscure"
-      ]
-    },
-    "YearMonth": {
-      "type": "string",
-      "pattern": "^\\d{4}-\\d{2}$"
-    },
-    "integer": {
-      "type": "integer"
-    },
     "Word": {
       "type": "object",
       "properties": {
@@ -112,6 +77,24 @@
           "type": "string",
           "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
         },
+        "etymology": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "word": {
+                "type": "string",
+                "description": "One of the root words of this word, as written out in its language of origin"
+              },
+              "alt": {
+                "type": "string",
+                "description": "A latinized representation of the \"word\" field"
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "Unlocalized etymological values regarding this word's origin"
+        },
         "audio": {
           "type": "object",
           "properties": {
@@ -128,27 +111,6 @@
           },
           "additionalProperties": false,
           "description": "Audio files of the words pronounced out loud"
-        },
-        "luka_pona": {
-          "type": "object",
-          "properties": {
-            "mp4": {
-              "type": "string",
-              "description": "The video clip in MP4 format",
-              "format": "uri"
-            },
-            "gif": {
-              "type": "string",
-              "description": "The video clip as a GIF",
-              "format": "uri"
-            }
-          },
-          "required": [
-            "mp4",
-            "gif"
-          ],
-          "additionalProperties": false,
-          "description": "Video clips of the word being signed in Luka Pona, a Toki Pona sign language"
         },
         "pu_verbatim": {
           "type": "object",
@@ -196,69 +158,97 @@
         "sitelen_pona",
         "usage_category",
         "word",
+        "etymology",
         "recognition"
       ],
       "additionalProperties": false,
       "description": "General info on a Toki Pona word",
+      "$id": "#word",
       "title": "sona word file"
     },
-    "Translation": {
+    "Book": {
+      "type": "string",
+      "enum": [
+        "pu",
+        "ku suli",
+        "ku lili",
+        "none"
+      ]
+    },
+    "CoinedEra": {
+      "type": "string",
+      "enum": [
+        "pre-pu",
+        "post-pu",
+        "post-ku"
+      ]
+    },
+    "integer": {
+      "type": "integer"
+    },
+    "UsageCategory": {
+      "type": "string",
+      "enum": [
+        "core",
+        "widespread",
+        "common",
+        "uncommon",
+        "rare",
+        "obscure"
+      ]
+    },
+    "CommentaryTranslation": {
       "type": "object",
       "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "commentary": {
-            "type": "string",
-            "description": "Extra information regarding the word"
-          },
-          "def": {
-            "type": "string",
-            "description": "The definition of the word"
-          },
-          "sitelen_pona_etymology": {
-            "type": "string",
-            "description": "The etymology of the word's sitelen pona glyph"
-          },
-          "etymology": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "word": {
-                  "type": "string",
-                  "description": "The \"word\" field transliterated in Latin characters"
-                },
-                "language": {
-                  "type": "string",
-                  "description": "The definition of the word in its origin language"
-                },
-                "definition": {
-                  "type": "string",
-                  "description": "The word's origin language"
-                },
-                "alt": {
-                  "type": "string",
-                  "description": "The word written out in its original script"
-                }
-              },
-              "required": [
-                "language"
-              ],
-              "additionalProperties": false
-            },
-            "description": "Information about the word's origin through other languages"
-          }
-        },
-        "required": [
-          "commentary",
-          "def",
-          "sitelen_pona_etymology",
-          "etymology"
-        ],
-        "additionalProperties": false
+        "type": "string"
       },
-      "description": "Localized metadata for a Toki Pona word",
-      "title": "sona Translation file"
+      "description": "Localized commentary regarding Toki Pona words",
+      "$id": "#commentary",
+      "title": "sona localized commentary file"
+    },
+    "DefinitionTranslation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Localized definitions of Toki Pona words",
+      "$id": "#definitions",
+      "title": "sona localized definitions file"
+    },
+    "SitelenPonaTranslation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words",
+      "$id": "#sitelen_pona",
+      "title": "sona localized sitelen pona file"
+    },
+    "EtymologyTranslation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "definition": {
+              "type": "string",
+              "description": "The localized definition of the root word in its origin language"
+            },
+            "language": {
+              "type": "string",
+              "description": "The localized name of the language this word originated from"
+            }
+          },
+          "required": [
+            "language"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "description": "Localized etymological values for Toki Pona words",
+      "$id": "#etymology",
+      "title": "sona localized etymology file"
     }
   }
 }

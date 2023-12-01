@@ -6,7 +6,7 @@ import type { Book, CoinedEra, UsageCategory } from "./utils";
 /**
  * General info on a Toki Pona word
  *
- * @$id #word
+ * @id #word
  * @title sona word file
  */
 export type Word = {
@@ -81,6 +81,19 @@ export type Word = {
 	 */
 	word: string;
 	/**
+	 * Unlocalized etymological values regarding this word's origin
+	 */
+	etymology: Array<{
+		/**
+		 * One of the root words of this word, as written out in its language of origin
+		 */
+		word?: string;
+		/**
+		 * A latinized representation of the "word" field
+		 */
+		alt?: string;
+	}>;
+	/**
 	 * Audio files of the words pronounced out loud
 	 */
 	audio?: {
@@ -96,23 +109,6 @@ export type Word = {
 		 * @format uri
 		 */
 		kala_asi?: string;
-	};
-	/**
-	 * Video clips of the word being signed in Luka Pona, a Toki Pona sign language
-	 */
-	luka_pona?: {
-		/**
-		 * The video clip in MP4 format
-		 *
-		 * @format uri
-		 */
-		mp4: string;
-		/**
-		 * The video clip as a GIF
-		 *
-		 * @format uri
-		 */
-		gif: string;
 	};
 	pu_verbatim?: {
 		/**
@@ -139,45 +135,50 @@ export type Word = {
 };
 
 /**
- * Localized metadata for a Toki Pona word
+ * Localized commentary regarding Toki Pona words
  *
- * @$id #translation
- * @title sona Translation file
+ * @id #commentary
+ * @title sona localized commentary file
  */
-export type Translation = {
-	[word: string]: {
+export type CommentaryTranslation = {
+	[word: string]: string;
+};
+
+/**
+ * Localized definitions of Toki Pona words
+ *
+ * @id #definitions
+ * @title sona localized definitions file
+ */
+export type DefinitionTranslation = {
+	[word: string]: string;
+};
+
+/**
+ * Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words
+ *
+ * @id #sitelen_pona
+ * @title sona localized sitelen pona file
+ */
+export type SitelenPonaTranslation = {
+	[word: string]: string;
+};
+
+/**
+ * Localized etymological values for Toki Pona words
+ *
+ * @id #etymology
+ * @title sona localized etymology file
+ */
+export type EtymologyTranslation = {
+	[word: string]: Array<{
 		/**
-		 * Extra information regarding the word
+		 * The localized definition of the root word in its origin language
 		 */
-		commentary: string;
+		definition?: string;
 		/**
-		 * The definition of the word
+		 * The localized name of the language this word originated from
 		 */
-		def: string;
-		/**
-		 * The etymology of the word's sitelen pona glyph
-		 */
-		sitelen_pona_etymology: string;
-		/**
-		 * Information about the word's origin through other languages
-		 */
-		etymology: Array<{
-			/**
-			 * The "word" field transliterated in Latin characters
-			 */
-			word?: string;
-			/**
-			 * The definition of the word in its origin language
-			 */
-			language: string;
-			/**
-			 * The word's origin language
-			 */
-			definition?: string;
-			/**
-			 * The word written out in its original script
-			 */
-			alt?: string;
-		}>;
-	};
+		language: string;
+	}>;
 };
