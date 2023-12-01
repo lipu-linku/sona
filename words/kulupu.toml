@@ -12,6 +12,9 @@ ucsur = "U+F191F"
 usage_category = "core"
 word = "kulupu"
 
+[[etymology]]
+word = "kulupu"
+
 [ku_data]
 affiliation = 33
 array = 36

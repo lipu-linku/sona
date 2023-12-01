@@ -12,6 +12,10 @@ ucsur = "U+F1982"
 usage_category = "common"
 word = "meso"
 
+[[etymology]]
+alt = "mésos"
+word = "μέσος"
+
 [ku_data]
 average = 53
 intermediate = 29

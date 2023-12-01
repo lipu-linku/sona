@@ -12,6 +12,9 @@ ucsur = "U+F194E"
 usage_category = "core"
 word = "pilin"
 
+[[etymology]]
+word = "pilim"
+
 [ku_data]
 assume = 50
 assumption = 40

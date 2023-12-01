@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "po"
 
+[[etymology]]
+word = "four"
+
 [ku_data]
 four = 10
 

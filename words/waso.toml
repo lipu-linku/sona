@@ -12,6 +12,9 @@ ucsur = "U+F1974"
 usage_category = "core"
 word = "waso"
 
+[[etymology]]
+word = "oiseau"
+
 [ku_data]
 bat = 23
 bird = 100

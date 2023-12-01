@@ -12,6 +12,9 @@ ucsur = "U+F1958"
 usage_category = "core"
 word = "selo"
 
+[[etymology]]
+word = "ŝelo"
+
 [ku_data]
 appearance = 17
 barrier = 22

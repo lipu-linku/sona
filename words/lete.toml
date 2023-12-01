@@ -12,6 +12,9 @@ ucsur = "U+F1926"
 usage_category = "core"
 word = "lete"
 
+[[etymology]]
+word = "frette"
+
 [ku_data]
 cold = 100
 cool = 25

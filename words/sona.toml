@@ -12,6 +12,10 @@ ucsur = "U+F1961"
 usage_category = "core"
 word = "sona"
 
+[[etymology]]
+alt = "codna"
+word = "ცოდნა"
+
 [ku_data]
 acknowledge = 25
 aware = 83

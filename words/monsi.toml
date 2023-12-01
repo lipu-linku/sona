@@ -12,6 +12,9 @@ ucsur = "U+F1938"
 usage_category = "core"
 word = "monsi"
 
+[[etymology]]
+word = "mon tchu"
+
 [ku_data]
 ass = 67
 "back (anatomy)" = 73

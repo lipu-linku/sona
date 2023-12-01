@@ -12,6 +12,10 @@ ucsur = "U+F1945"
 usage_category = "core"
 word = "olin"
 
+[[etymology]]
+alt = "volim"
+word = "волим"
+
 [ku_data]
 appreciation = 13
 attraction = 40

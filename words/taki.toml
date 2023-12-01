@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "rare"
 word = "taki"
 
+[[etymology]]
+alt = "tag"
+word = "탁"
+
 [ku_data]
 attach = 8
 attract = 8

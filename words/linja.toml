@@ -12,6 +12,9 @@ ucsur = "U+F1929"
 usage_category = "core"
 word = "linja"
 
+[[etymology]]
+word = "linja"
+
 [ku_data]
 cable = 43
 chain = 27

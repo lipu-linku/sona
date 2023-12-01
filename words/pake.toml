@@ -12,6 +12,9 @@ ucsur = "U+F19A0"
 usage_category = "rare"
 word = "pake"
 
+[[etymology]]
+word = "block"
+
 [ku_data]
 cease = 13
 deny = 13

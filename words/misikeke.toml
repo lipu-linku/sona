@@ -12,6 +12,9 @@ ucsur = "U+F1987"
 usage_category = "common"
 word = "misikeke"
 
+[[etymology]]
+word = "mashkiki"
+
 [ku_data]
 cure = 40
 medical = 30

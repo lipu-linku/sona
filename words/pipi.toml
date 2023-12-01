@@ -12,6 +12,9 @@ ucsur = "U+F1951"
 usage_category = "core"
 word = "pipi"
 
+[[etymology]]
+word = "bibitte"
+
 [ku_data]
 bug = 100
 insect = 92

@@ -12,6 +12,9 @@ ucsur = "U+F1908"
 usage_category = "core"
 word = "awen"
 
+[[etymology]]
+word = "houden"
+
 [ku_data]
 await = 100
 conservation = 25

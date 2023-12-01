@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "obscure"
 word = "jaku"
 
+[[etymology]]
+alt = "hyaku"
+word = "百"
+
 [luka_pona]
 
 [recognition]

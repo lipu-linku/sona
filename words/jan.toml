@@ -12,6 +12,10 @@ ucsur = "U+F1911"
 usage_category = "core"
 word = "jan"
 
+[[etymology]]
+alt = "jan"
+word = "人"
+
 [ku_data]
 Hominidae = 27
 anybody = 62

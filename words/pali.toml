@@ -12,6 +12,9 @@ ucsur = "U+F1949"
 usage_category = "core"
 word = "pali"
 
+[[etymology]]
+word = "fari"
+
 [ku_data]
 accomplish = 47
 accomplishment = 31

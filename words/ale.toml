@@ -12,6 +12,9 @@ ucsur = "U+F1904"
 usage_category = "core"
 word = "ale"
 
+[[etymology]]
+word = "alle"
+
 [ku_data]
 absolute = 29
 all = 68

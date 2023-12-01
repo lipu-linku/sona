@@ -12,6 +12,9 @@ ucsur = "U+F192A"
 usage_category = "core"
 word = "lipu"
 
+[[etymology]]
+word = "lippu"
+
 [ku_data]
 article = 86
 blog = 36

@@ -12,6 +12,10 @@ ucsur = "U+F193F"
 usage_category = "core"
 word = "nasin"
 
+[[etymology]]
+alt = "način"
+word = "начин"
+
 [ku_data]
 aisle = 44
 angle = 25

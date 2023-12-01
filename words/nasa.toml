@@ -12,6 +12,9 @@ ucsur = "U+F193E"
 usage_category = "core"
 word = "nasa"
 
+[[etymology]]
+word = "nasau"
+
 [ku_data]
 confuse = 27
 drunk = 64

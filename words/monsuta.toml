@@ -12,6 +12,13 @@ ucsur = "U+F197D"
 usage_category = "widespread"
 word = "monsuta"
 
+[[etymology]]
+alt = "monsutā"
+word = "モンスター"
+
+[[etymology]]
+word = "monster"
+
 [ku_data]
 afraid = 27
 beast = 29

@@ -12,6 +12,10 @@ ucsur = "U+F1985"
 usage_category = "common"
 word = "lanpan"
 
+[[etymology]]
+alt = "lamváno"
+word = "λαμβάνω"
+
 [ku_data]
 grab = 25
 seize = 42

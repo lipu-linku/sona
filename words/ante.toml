@@ -12,6 +12,9 @@ ucsur = "U+F1906"
 usage_category = "core"
 word = "ante"
 
+[[etymology]]
+word = "ander"
+
 [ku_data]
 adapt = 40
 adaptation = 25

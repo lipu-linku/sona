@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "rare"
 word = "kamalawala"
 
+[[etymology]]
+word = "kama pi lawa ala"
+
 [ku_data]
 revolution = 7
 

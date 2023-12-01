@@ -12,6 +12,10 @@ ucsur = "U+F195B"
 usage_category = "core"
 word = "sijelo"
 
+[[etymology]]
+alt = "tijelo"
+word = "тијело"
+
 [ku_data]
 body = 100
 figure = 32

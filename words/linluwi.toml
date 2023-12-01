@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "uncommon"
 word = "linluwi"
 
+[[etymology]]
+word = "rhyngrwyd"
+
 [ku_data]
 Internet = 15
 connection = 8

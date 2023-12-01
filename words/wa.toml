@@ -12,6 +12,8 @@ ucsur = ""
 usage_category = "rare"
 word = "wa"
 
+[[etymology]]
+
 [ku_data]
 whoa = 23
 wow = 11

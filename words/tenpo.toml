@@ -12,6 +12,9 @@ ucsur = "U+F196B"
 usage_category = "core"
 word = "tenpo"
 
+[[etymology]]
+word = "tempo"
+
 [ku_data]
 appointment = 44
 circumstance = 50

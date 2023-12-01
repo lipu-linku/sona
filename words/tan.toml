@@ -12,6 +12,10 @@ ucsur = "U+F1967"
 usage_category = "core"
 word = "tan"
 
+[[etymology]]
+alt = "tsung"
+word = "從"
+
 [ku_data]
 basis = 40
 "because of" = 80

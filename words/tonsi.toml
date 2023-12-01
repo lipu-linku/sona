@@ -12,6 +12,10 @@ ucsur = "U+F197E"
 usage_category = "widespread"
 word = "tonsi"
 
+[[etymology]]
+alt = "tóngzhì"
+word = "同志"
+
 [ku_data]
 "gender non-conforming person" = 53
 "intersex person" = 36

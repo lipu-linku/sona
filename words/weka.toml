@@ -12,6 +12,9 @@ ucsur = "U+F1976"
 usage_category = "core"
 word = "weka"
 
+[[etymology]]
+word = "weg"
+
 [ku_data]
 abandon = 63
 absence = 71

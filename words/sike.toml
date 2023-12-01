@@ -12,6 +12,9 @@ ucsur = "U+F195C"
 usage_category = "core"
 word = "sike"
 
+[[etymology]]
+word = "circle"
+
 [ku_data]
 ball = 77
 circle = 100

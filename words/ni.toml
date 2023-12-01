@@ -12,6 +12,14 @@ ucsur = "U+F1941"
 usage_category = "core"
 word = "ni"
 
+[[etymology]]
+alt = "ni"
+word = "呢"
+
+[[etymology]]
+alt = "le"
+word = "哩"
+
 [ku_data]
 particular = 31
 specifically = 27

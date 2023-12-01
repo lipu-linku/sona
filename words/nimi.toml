@@ -12,6 +12,9 @@ ucsur = "U+F1942"
 usage_category = "core"
 word = "nimi"
 
+[[etymology]]
+word = "nimi"
+
 [ku_data]
 brand = 29
 label = 33

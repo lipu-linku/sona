@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "ke"
 
+[[etymology]]
+word = "’kay"
+
 [ku_data]
 alright = 9
 

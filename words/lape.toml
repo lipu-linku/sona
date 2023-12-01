@@ -12,6 +12,9 @@ ucsur = "U+F1922"
 usage_category = "core"
 word = "lape"
 
+[[etymology]]
+word = "slapen"
+
 [ku_data]
 asleep = 80
 lay = 31

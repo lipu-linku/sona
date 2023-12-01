@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "loka"
 
+[[etymology]]
+word = "luka & noka"
+
 [ku_data]
 limb = 13
 

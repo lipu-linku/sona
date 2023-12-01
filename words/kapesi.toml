@@ -12,6 +12,14 @@ ucsur = ""
 usage_category = "rare"
 word = "kapesi"
 
+[[etymology]]
+alt = "gaa³ fe¹ sik¹"
+word = "咖啡色"
+
+[[etymology]]
+alt = "kāfēisè"
+word = "咖啡色"
+
 [ku_data]
 brown = 24
 grey = 7

@@ -12,6 +12,9 @@ ucsur = "U+F197B"
 usage_category = "common"
 word = "kipisi"
 
+[[etymology]]
+word = "kipisi"
+
 [ku_data]
 carve = 27
 chop = 50

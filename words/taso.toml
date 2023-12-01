@@ -12,6 +12,9 @@ ucsur = "U+F1968"
 usage_category = "core"
 word = "taso"
 
+[[etymology]]
+word = "tasol"
+
 [ku_data]
 although = 80
 but = 100

@@ -12,6 +12,13 @@ ucsur = "U+F1955"
 usage_category = "core"
 word = "pu"
 
+[[etymology]]
+alt = "pǔ"
+word = "樸"
+
+[[etymology]]
+word = "book"
+
 [ku_data]
 "interact with Toki Pona: The Language of Good" = 82
 officially = 27

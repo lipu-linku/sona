@@ -12,6 +12,10 @@ ucsur = "U+F1959"
 usage_category = "core"
 word = "seme"
 
+[[etymology]]
+alt = "shénme"
+word = "什麼"
+
 [ku_data]
 huh = 44
 what = 100

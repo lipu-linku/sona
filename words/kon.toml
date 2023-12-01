@@ -12,6 +12,10 @@ ucsur = "U+F191D"
 usage_category = "core"
 word = "kon"
 
+[[etymology]]
+alt = "kōngqì"
+word = "空氣"
+
 [ku_data]
 abstract = 33
 air = 100

@@ -12,6 +12,16 @@ ucsur = ""
 usage_category = "obscure"
 word = "pata"
 
+[[etymology]]
+alt = "brat"
+word = "брат"
+
+[[etymology]]
+word = "brata"
+
+[[etymology]]
+word = "brother"
+
 [ku_data]
 cousin = 6
 sibling = 7

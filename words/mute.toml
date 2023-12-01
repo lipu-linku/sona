@@ -12,6 +12,9 @@ ucsur = "U+F193C"
 usage_category = "core"
 word = "mute"
 
+[[etymology]]
+word = "multe"
+
 [ku_data]
 amount = 40
 billion = 35

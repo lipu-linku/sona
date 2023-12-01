@@ -12,6 +12,9 @@ ucsur = "U+F1947"
 usage_category = "core"
 word = "open"
 
+[[etymology]]
+word = "open"
+
 [ku_data]
 access = 36
 begin = 100

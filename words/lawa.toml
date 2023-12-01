@@ -12,6 +12,10 @@ ucsur = "U+F1924"
 usage_category = "core"
 word = "lawa"
 
+[[etymology]]
+alt = "глава"
+word = "glava"
+
 [ku_data]
 administer = 44
 administration = 33

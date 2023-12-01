@@ -12,6 +12,8 @@ ucsur = "U+F1900"
 usage_category = "core"
 word = "a"
 
+[[etymology]]
+
 [ku_data]
 ah = 94
 gasp = 28

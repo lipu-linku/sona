@@ -12,6 +12,9 @@ ucsur = "U+F191E"
 usage_category = "core"
 word = "kule"
 
+[[etymology]]
+word = "couleur"
+
 [ku_data]
 "LGBTQ+" = 35
 colour = 100

@@ -12,6 +12,9 @@ ucsur = "U+F196A"
 usage_category = "core"
 word = "telo"
 
+[[etymology]]
+word = "de l’eau"
+
 [ku_data]
 drink = 33
 fluid = 100

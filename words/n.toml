@@ -12,6 +12,8 @@ ucsur = "U+F1986"
 usage_category = "widespread"
 word = "n"
 
+[[etymology]]
+
 [ku_data]
 hmm = 33
 mmm = 40

@@ -12,6 +12,9 @@ ucsur = "U+F193B"
 usage_category = "core"
 word = "musi"
 
+[[etymology]]
+word = "amuzi"
+
 [ku_data]
 art = 58
 artistic = 50

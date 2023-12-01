@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "uncommon"
 word = "usawi"
 
+[[etymology]]
+word = "uchawi"
+
 [ku_data]
 magic = 7
 

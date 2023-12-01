@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "peto"
 
+[[etymology]]
+word = "pana e telo oko"
+
 [ku_data]
 cry = 7
 

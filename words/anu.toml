@@ -12,6 +12,10 @@ ucsur = "U+F1907"
 usage_category = "core"
 word = "anu"
 
+[[etymology]]
+alt = "an"
+word = "ან"
+
 [ku_data]
 choice = 47
 decide = 31

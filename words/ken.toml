@@ -12,6 +12,9 @@ ucsur = "U+F1918"
 usage_category = "core"
 word = "ken"
 
+[[etymology]]
+word = "ken"
+
 [ku_data]
 ability = 93
 able = 100

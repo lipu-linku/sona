@@ -12,6 +12,9 @@ ucsur = "U+F1983"
 usage_category = "common"
 word = "epiku"
 
+[[etymology]]
+word = "épique"
+
 [ku_data]
 amazing = 28
 awesome = 29

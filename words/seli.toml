@@ -12,6 +12,10 @@ ucsur = "U+F1957"
 usage_category = "core"
 word = "seli"
 
+[[etymology]]
+alt = "cxeli"
+word = "ცხელი"
+
 [ku_data]
 bake = 36
 boil = 30

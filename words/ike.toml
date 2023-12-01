@@ -12,6 +12,9 @@ ucsur = "U+F190D"
 usage_category = "core"
 word = "ike"
 
+[[etymology]]
+word = "ilkeä"
+
 [ku_data]
 awful = 55
 awkward = 40

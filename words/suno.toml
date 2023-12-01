@@ -12,6 +12,9 @@ ucsur = "U+F1964"
 usage_category = "core"
 word = "suno"
 
+[[etymology]]
+word = "suno"
+
 [ku_data]
 bright = 64
 light = 77

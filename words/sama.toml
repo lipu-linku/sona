@@ -12,6 +12,9 @@ ucsur = "U+F1956"
 usage_category = "core"
 word = "sama"
 
+[[etymology]]
+word = "sama"
+
 [ku_data]
 alike = 100
 as = 80

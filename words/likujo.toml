@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "likujo"
 
+[[etymology]]
+word = "recueil"
+
 [ku_data]
 collection = 3
 gathering = 7

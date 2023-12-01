@@ -12,6 +12,9 @@ ucsur = "U+F1940"
 usage_category = "core"
 word = "nena"
 
+[[etymology]]
+word = "nenä"
+
 [ku_data]
 breast = 19
 button = 33

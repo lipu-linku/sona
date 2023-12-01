@@ -12,6 +12,9 @@ ucsur = "U+F1972"
 usage_category = "core"
 word = "walo"
 
+[[etymology]]
+word = "valko"
+
 [ku_data]
 pale = 74
 white = 100

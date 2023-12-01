@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "pomotolo"
 
+[[etymology]]
+word = "pomodoro"
+
 [ku_data]
 tomato = 7
 

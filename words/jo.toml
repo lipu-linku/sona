@@ -12,6 +12,10 @@ ucsur = "U+F1913"
 usage_category = "core"
 word = "jo"
 
+[[etymology]]
+alt = "yǒu"
+word = "有"
+
 [ku_data]
 bring = 29
 carry = 90

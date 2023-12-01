@@ -12,6 +12,24 @@ ucsur = "U+F192F"
 usage_category = "core"
 word = "lupa"
 
+[[etymology]]
+word = "clupa"
+
+[[etymology]]
+alt = "quān"
+word = "圈"
+
+[[etymology]]
+word = "loop"
+
+[[etymology]]
+alt = "pāś"
+word = "पाश"
+
+[[etymology]]
+alt = "anšūṭa"
+word = "أنشوطة‏"
+
 [ku_data]
 dig = 21
 door = 87

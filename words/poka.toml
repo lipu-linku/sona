@@ -12,6 +12,10 @@ ucsur = "U+F1952"
 usage_category = "core"
 word = "poka"
 
+[[etymology]]
+alt = "бока"
+word = "boka"
+
 [ku_data]
 alongside = 25
 aside = 45

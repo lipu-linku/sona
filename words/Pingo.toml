@@ -12,6 +12,8 @@ ucsur = ""
 usage_category = "obscure"
 word = "Pingo"
 
+[[etymology]]
+
 [ku_data]
 car = 6
 

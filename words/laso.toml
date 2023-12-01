@@ -12,6 +12,9 @@ ucsur = "U+F1923"
 usage_category = "core"
 word = "laso"
 
+[[etymology]]
+word = "glas"
+
 [ku_data]
 blue = 81
 green = 47

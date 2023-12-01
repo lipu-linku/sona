@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "uncommon"
 word = "ali"
 
+[[etymology]]
+word = "alle"
+
 [ku_data]
 all = 32
 entire = 27

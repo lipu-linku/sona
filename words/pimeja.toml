@@ -12,6 +12,9 @@ ucsur = "U+F194F"
 usage_category = "core"
 word = "pimeja"
 
+[[etymology]]
+word = "pimeä"
+
 [ku_data]
 black = 100
 dark = 100

@@ -12,6 +12,9 @@ ucsur = "U+F1975"
 usage_category = "core"
 word = "wawa"
 
+[[etymology]]
+word = "vahva"
+
 [ku_data]
 bold = 68
 boost = 25

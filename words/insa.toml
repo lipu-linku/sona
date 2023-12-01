@@ -12,6 +12,9 @@ ucsur = "U+F190F"
 usage_category = "core"
 word = "insa"
 
+[[etymology]]
+word = "insait"
+
 [ku_data]
 amid = 27
 belly = 54

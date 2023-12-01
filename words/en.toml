@@ -12,6 +12,9 @@ ucsur = "U+F190A"
 usage_category = "core"
 word = "en"
 
+[[etymology]]
+word = "en"
+
 [ku_data]
 and = 50
 plus = 50

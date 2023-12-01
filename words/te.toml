@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "rare"
 word = "te"
 
+[[etymology]]
+alt = "tte"
+word = "って"
+
 [ku_data]
 "(opening quotation particle)" = 7
 

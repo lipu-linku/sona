@@ -12,6 +12,9 @@ ucsur = "U+F195E"
 usage_category = "core"
 word = "sina"
 
+[[etymology]]
+word = "sinä"
+
 [ku_data]
 you = 94
 your = 88

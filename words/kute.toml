@@ -12,6 +12,9 @@ ucsur = "U+F1920"
 usage_category = "core"
 word = "kute"
 
+[[etymology]]
+word = "écouter"
+
 [ku_data]
 ear = 90
 hear = 100

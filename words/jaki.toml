@@ -12,6 +12,9 @@ ucsur = "U+F1910"
 usage_category = "core"
 word = "jaki"
 
+[[etymology]]
+word = "yucky"
+
 [ku_data]
 bacteria = 67
 bullshit = 27

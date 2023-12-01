@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "samu"
 
+[[etymology]]
+word = "jan Samu"
+
 [ku_data]
 "wanting to create new words" = 40
 

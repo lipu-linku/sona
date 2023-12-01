@@ -12,6 +12,9 @@ ucsur = "U+F1928"
 usage_category = "core"
 word = "lili"
 
+[[etymology]]
+word = "liklik"
+
 [ku_data]
 barely = 54
 bit = 69

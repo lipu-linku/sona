@@ -12,6 +12,9 @@ ucsur = "U+F1969"
 usage_category = "core"
 word = "tawa"
 
+[[etymology]]
+word = "toward"
+
 [ku_data]
 "according to" = 33
 advance = 56

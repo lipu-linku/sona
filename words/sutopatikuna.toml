@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "sutopatikuna"
 
+[[etymology]]
+word = "čudnovati kljunaš"
+
 [ku_data]
 platypus = 20
 

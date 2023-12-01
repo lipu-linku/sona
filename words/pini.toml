@@ -12,6 +12,9 @@ ucsur = "U+F1950"
 usage_category = "core"
 word = "pini"
 
+[[etymology]]
+word = "fini"
+
 [ku_data]
 cancel = 43
 cease = 70

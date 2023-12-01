@@ -12,6 +12,16 @@ ucsur = "U+F194B"
 usage_category = "core"
 word = "pan"
 
+[[etymology]]
+word = "pan"
+
+[[etymology]]
+alt = "pan"
+word = "パン"
+
+[[etymology]]
+word = "pão"
+
 [ku_data]
 bread = 100
 carbohydrate = 25

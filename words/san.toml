@@ -12,6 +12,18 @@ ucsur = ""
 usage_category = "obscure"
 word = "san"
 
+[[etymology]]
+alt = "san"
+word = "三"
+
+[[etymology]]
+alt = "sāam"
+word = "三"
+
+[[etymology]]
+alt = "sāam"
+word = "叁"
+
 [ku_data]
 three = 4
 

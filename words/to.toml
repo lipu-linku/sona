@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "rare"
 word = "to"
 
+[[etymology]]
+alt = "to"
+word = "と"
+
 [ku_data]
 "(closing quotation particle)" = 7
 

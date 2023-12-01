@@ -12,6 +12,10 @@ ucsur = "U+F1936"
 usage_category = "core"
 word = "moku"
 
+[[etymology]]
+alt = "mogumogu"
+word = "モグモグ"
+
 [ku_data]
 absorb = 35
 chew = 44

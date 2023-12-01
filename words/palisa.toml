@@ -12,6 +12,10 @@ ucsur = "U+F194A"
 usage_category = "core"
 word = "palisa"
 
+[[etymology]]
+alt = "palica"
+word = "палица"
+
 [ku_data]
 bar = 25
 beam = 18

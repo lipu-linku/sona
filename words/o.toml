@@ -12,6 +12,10 @@ ucsur = "U+F1944"
 usage_category = "core"
 word = "o"
 
+[[etymology]]
+alt = "-o"
+word = "-ო"
+
 [ku_data]
 dare = 9
 dear = 6

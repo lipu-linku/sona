@@ -12,6 +12,9 @@ ucsur = "U+F1925"
 usage_category = "core"
 word = "len"
 
+[[etymology]]
+word = "linge"
+
 [ku_data]
 blanket = 36
 canvas = 25

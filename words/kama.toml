@@ -12,6 +12,9 @@ ucsur = "U+F1916"
 usage_category = "core"
 word = "kama"
 
+[[etymology]]
+word = "kamap"
+
 [ku_data]
 arise = 33
 arrival = 90

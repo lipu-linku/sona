@@ -12,6 +12,10 @@ ucsur = "U+F195D"
 usage_category = "core"
 word = "sin"
 
+[[etymology]]
+alt = "xīn"
+word = "新"
+
 [ku_data]
 additionally = 27
 again = 40

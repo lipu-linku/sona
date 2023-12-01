@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "soto"
 
+[[etymology]]
+word = "shoto"
+
 [ku_data]
 "left (not right)" = 8
 

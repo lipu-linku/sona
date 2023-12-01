@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "uncommon"
 word = "oke"
 
+[[etymology]]
+word = "okay"
+
 [ku_data]
 OK = 10
 alright = 9

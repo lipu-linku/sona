@@ -12,6 +12,9 @@ ucsur = "U+F190B"
 usage_category = "core"
 word = "esun"
 
+[[etymology]]
+word = "unknown"
+
 [ku_data]
 business = 48
 buy = 65

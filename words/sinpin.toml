@@ -12,6 +12,10 @@ ucsur = "U+F195F"
 usage_category = "core"
 word = "sinpin"
 
+[[etymology]]
+alt = "tsin bin"
+word = "前邊"
+
 [ku_data]
 ahead = 24
 barrier = 22

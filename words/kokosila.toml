@@ -12,6 +12,9 @@ ucsur = "U+F1984"
 usage_category = "uncommon"
 word = "kokosila"
 
+[[etymology]]
+word = "krokodilas"
+
 [ku_data]
 "speak another language in a Toki Pona only environment" = 50
 

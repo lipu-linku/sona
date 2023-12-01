@@ -12,6 +12,9 @@ ucsur = "U+F190E"
 usage_category = "core"
 word = "ilo"
 
+[[etymology]]
+word = "ilo"
+
 [ku_data]
 app = 73
 application = 30

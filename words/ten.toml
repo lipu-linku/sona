@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "ten"
 
+[[etymology]]
+word = "tenpo"
+
 [luka_pona]
 
 [recognition]

@@ -12,6 +12,9 @@ ucsur = "U+F1932"
 usage_category = "core"
 word = "mani"
 
+[[etymology]]
+word = "money"
+
 [ku_data]
 budget = 38
 cash = 93

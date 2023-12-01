@@ -12,6 +12,9 @@ ucsur = "U+F1901"
 usage_category = "core"
 word = "akesi"
 
+[[etymology]]
+word = "hagedis"
+
 [ku_data]
 frog = 56
 reptile = 96

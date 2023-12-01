@@ -12,6 +12,9 @@ ucsur = "U+F191B"
 usage_category = "core"
 word = "kiwen"
 
+[[etymology]]
+word = "kiven"
+
 [ku_data]
 concrete = 60
 firm = 44

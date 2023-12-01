@@ -12,6 +12,9 @@ ucsur = "U+F1977"
 usage_category = "core"
 word = "wile"
 
+[[etymology]]
+word = "willen"
+
 [ku_data]
 agenda = 41
 ambition = 67

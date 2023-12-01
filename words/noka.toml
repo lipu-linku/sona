@@ -12,6 +12,10 @@ ucsur = "U+F1943"
 usage_category = "core"
 word = "noka"
 
+[[etymology]]
+alt = "noga"
+word = "нога"
+
 [ku_data]
 ankle = 50
 base = 31

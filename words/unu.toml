@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "rare"
 word = "unu"
 
+[[etymology]]
+word = "ungu"
+
 [ku_data]
 purple = 27
 

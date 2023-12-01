@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "rare"
 word = "isipin"
 
+[[etymology]]
+word = "isipin"
+
 [ku_data]
 consciousness = 18
 imagination = 15

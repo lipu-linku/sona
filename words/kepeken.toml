@@ -12,6 +12,9 @@ ucsur = "U+F1919"
 usage_category = "core"
 word = "kepeken"
 
+[[etymology]]
+word = "gebruiken"
+
 [ku_data]
 employ = 50
 equip = 25

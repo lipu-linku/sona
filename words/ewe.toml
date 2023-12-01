@@ -12,6 +12,13 @@ ucsur = ""
 usage_category = "obscure"
 word = "ewe"
 
+[[etymology]]
+alt = "iwa"
+word = "岩"
+
+[[etymology]]
+word = "kiwen"
+
 [ku_data]
 stone = 3
 

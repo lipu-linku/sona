@@ -12,6 +12,9 @@ ucsur = "U+F192C"
 usage_category = "core"
 word = "lon"
 
+[[etymology]]
+word = "long"
+
 [ku_data]
 accurate = 52
 actual = 86

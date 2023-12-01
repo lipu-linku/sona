@@ -12,6 +12,9 @@ ucsur = "U+F1914"
 usage_category = "core"
 word = "kala"
 
+[[etymology]]
+word = "kala"
+
 [ku_data]
 fish = 100
 salmon = 62

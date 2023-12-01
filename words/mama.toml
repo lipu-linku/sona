@@ -12,6 +12,10 @@ ucsur = "U+F1931"
 usage_category = "core"
 word = "mama"
 
+[[etymology]]
+alt = "mama"
+word = "მამა"
+
 [ku_data]
 creator = 53
 dad = 25

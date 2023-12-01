@@ -12,6 +12,9 @@ ucsur = "U+F1937"
 usage_category = "core"
 word = "moli"
 
+[[etymology]]
+word = "mourir"
+
 [ku_data]
 dead = 94
 deadly = 38

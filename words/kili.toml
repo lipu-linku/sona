@@ -12,6 +12,10 @@ ucsur = "U+F191A"
 usage_category = "core"
 word = "kili"
 
+[[etymology]]
+alt = "xili"
+word = "ხილი"
+
 [ku_data]
 apple = 82
 bean = 29

@@ -12,6 +12,9 @@ ucsur = "U+F1960"
 usage_category = "core"
 word = "sitelen"
 
+[[etymology]]
+word = "schilderen"
+
 [ku_data]
 compose = 25
 depict = 68

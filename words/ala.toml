@@ -12,6 +12,10 @@ ucsur = "U+F1902"
 usage_category = "core"
 word = "ala"
 
+[[etymology]]
+alt = "ara"
+word = "არა"
+
 [ku_data]
 hardly = 28
 neither = 60

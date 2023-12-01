@@ -12,6 +12,8 @@ ucsur = "U+F196F"
 usage_category = "core"
 word = "unpa"
 
+[[etymology]]
+
 [ku_data]
 fuck = 40
 fucking = 42

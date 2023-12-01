@@ -12,6 +12,9 @@ ucsur = "U+F1930"
 usage_category = "core"
 word = "ma"
 
+[[etymology]]
+word = "maa"
+
 [ku_data]
 acre = 25
 area = 81

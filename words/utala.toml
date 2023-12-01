@@ -12,6 +12,10 @@ ucsur = "U+F1971"
 usage_category = "core"
 word = "utala"
 
+[[etymology]]
+alt = "udarati"
+word = "ударати"
+
 [ku_data]
 against = 29
 aggressive = 36

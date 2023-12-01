@@ -12,6 +12,9 @@ ucsur = "U+F197C"
 usage_category = "widespread"
 word = "leko"
 
+[[etymology]]
+word = "Lego"
+
 [ku_data]
 block = 43
 brick = 31

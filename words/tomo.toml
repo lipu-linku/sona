@@ -12,6 +12,9 @@ ucsur = "U+F196D"
 usage_category = "core"
 word = "tomo"
 
+[[etymology]]
+word = "domo"
+
 [ku_data]
 apartment = 42
 building = 100

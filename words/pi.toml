@@ -12,6 +12,9 @@ ucsur = "U+F194D"
 usage_category = "core"
 word = "pi"
 
+[[etymology]]
+word = "bilong"
+
 [ku_data]
 about = 9
 concerning = 20

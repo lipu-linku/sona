@@ -12,6 +12,10 @@ ucsur = "U+F192D"
 usage_category = "core"
 word = "luka"
 
+[[etymology]]
+alt = "ruka"
+word = "рука"
+
 [ku_data]
 arm = 68
 elbow = 25

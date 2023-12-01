@@ -12,6 +12,9 @@ ucsur = "U+F1903"
 usage_category = "core"
 word = "alasa"
 
+[[etymology]]
+word = "à la chasse"
+
 [ku_data]
 catch = 26
 chase = 39

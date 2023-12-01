@@ -12,6 +12,9 @@ ucsur = "U+F1953"
 usage_category = "core"
 word = "poki"
 
+[[etymology]]
+word = "bokis"
+
 [ku_data]
 bag = 87
 basket = 71

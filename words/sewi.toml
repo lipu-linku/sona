@@ -12,6 +12,10 @@ ucsur = "U+F195A"
 usage_category = "core"
 word = "sewi"
 
+[[etymology]]
+alt = "zevit"
+word = "ზევით"
+
 [ku_data]
 God = 39
 above = 36

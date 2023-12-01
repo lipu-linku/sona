@@ -12,6 +12,9 @@ ucsur = "U+F1921"
 usage_category = "core"
 word = "la"
 
+[[etymology]]
+word = "la"
+
 [ku_data]
 depending = 43
 if = 88

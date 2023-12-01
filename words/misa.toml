@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "rare"
 word = "misa"
 
+[[etymology]]
+alt = "myshka"
+word = "мишка"
+
 [ku_data]
 "Glires or Eulipotyphla" = 18
 capybara = 10

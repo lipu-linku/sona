@@ -12,6 +12,9 @@ ucsur = "U+F1935"
 usage_category = "widespread"
 word = "mije"
 
+[[etymology]]
+word = "mies"
+
 [ku_data]
 boyfriend = 29
 "cisgender man" = 50

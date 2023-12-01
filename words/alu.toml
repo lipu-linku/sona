@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "alu"
 
+[[etymology]]
+word = "la"
+
 [luka_pona]
 
 [recognition]

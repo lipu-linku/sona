@@ -12,6 +12,9 @@ ucsur = "U+F1980"
 usage_category = "widespread"
 word = "kijetesantakalu"
 
+[[etymology]]
+word = "kierteishäntäkarhu"
+
 [ku_data]
 Musteloidea = 30
 procyonid = 53

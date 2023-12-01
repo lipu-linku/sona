@@ -12,6 +12,14 @@ ucsur = "U+F1978"
 usage_category = "widespread"
 word = "namako"
 
+[[etymology]]
+alt = "namak"
+word = "नमक"
+
+[[etymology]]
+alt = "namak"
+word = "نمک"
+
 [ku_data]
 additional = 50
 adornment = 50

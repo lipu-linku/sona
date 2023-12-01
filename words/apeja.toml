@@ -12,6 +12,9 @@ ucsur = "U+F19A1"
 usage_category = "uncommon"
 word = "apeja"
 
+[[etymology]]
+word = "häpeä"
+
 [ku_data]
 embarrassed = 27
 guilt = 17

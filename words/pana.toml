@@ -12,6 +12,9 @@ ucsur = "U+F194C"
 usage_category = "core"
 word = "pana"
 
+[[etymology]]
+word = "panna"
+
 [ku_data]
 add = 29
 added = 31

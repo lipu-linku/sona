@@ -12,6 +12,9 @@ ucsur = "U+F19A3"
 usage_category = "uncommon"
 word = "powe"
 
+[[etymology]]
+word = "pas vrai"
+
 [ku_data]
 fake = 36
 false = 25

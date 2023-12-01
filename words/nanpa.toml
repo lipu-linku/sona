@@ -12,6 +12,9 @@ ucsur = "U+F193D"
 usage_category = "core"
 word = "nanpa"
 
+[[etymology]]
+word = "namba"
+
 [ku_data]
 calculate = 35
 count = 80

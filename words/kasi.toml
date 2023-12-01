@@ -12,6 +12,9 @@ ucsur = "U+F1917"
 usage_category = "core"
 word = "kasi"
 
+[[etymology]]
+word = "kasvi"
+
 [ku_data]
 bush = 61
 herb = 40

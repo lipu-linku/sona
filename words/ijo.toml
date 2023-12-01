@@ -12,6 +12,9 @@ ucsur = "U+F190C"
 usage_category = "core"
 word = "ijo"
 
+[[etymology]]
+word = "io"
+
 [ku_data]
 anything = 50
 asset = 33

@@ -12,6 +12,9 @@ ucsur = "U+F197F"
 usage_category = "uncommon"
 word = "jasima"
 
+[[etymology]]
+word = "yansıtmak"
+
 [ku_data]
 opposite = 40
 reflect = 59

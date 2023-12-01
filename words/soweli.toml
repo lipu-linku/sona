@@ -12,6 +12,10 @@ ucsur = "U+F1962"
 usage_category = "core"
 word = "soweli"
 
+[[etymology]]
+alt = "cxoveli"
+word = "ცხოველი"
+
 [ku_data]
 Hominidae = 27
 Musteloidea = 50

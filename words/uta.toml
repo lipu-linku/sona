@@ -12,6 +12,10 @@ ucsur = "U+F1970"
 usage_category = "core"
 word = "uta"
 
+[[etymology]]
+alt = "usta"
+word = "уста"
+
 [ku_data]
 bite = 31
 chew = 25

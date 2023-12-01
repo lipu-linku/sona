@@ -12,6 +12,10 @@ ucsur = "U+F191C"
 usage_category = "core"
 word = "ko"
 
+[[etymology]]
+alt = "gou"
+word = "膏"
+
 [ku_data]
 clay = 60
 cream = 33

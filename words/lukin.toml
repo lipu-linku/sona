@@ -12,6 +12,9 @@ ucsur = "U+F192E"
 usage_category = "core"
 word = "lukin"
 
+[[etymology]]
+word = "lukim"
+
 [ku_data]
 apparent = 27
 appearance = 50

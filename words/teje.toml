@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "teje"
 
+[[etymology]]
+word = "de"
+
 [ku_data]
 "right (not left)" = 9
 

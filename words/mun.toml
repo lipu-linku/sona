@@ -12,6 +12,9 @@ ucsur = "U+F193A"
 usage_category = "core"
 word = "mun"
 
+[[etymology]]
+word = "moon"
+
 [ku_data]
 "celestial body" = 80
 moon = 95

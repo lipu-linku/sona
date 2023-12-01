@@ -12,6 +12,9 @@ ucsur = "U+F1912"
 usage_category = "core"
 word = "jelo"
 
+[[etymology]]
+word = "yellow"
+
 [ku_data]
 golden = 25
 yellow = 94

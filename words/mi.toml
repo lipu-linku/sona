@@ -12,6 +12,9 @@ ucsur = "U+F1934"
 usage_category = "core"
 word = "mi"
 
+[[etymology]]
+word = "mi"
+
 [ku_data]
 I = 100
 me = 100

@@ -12,6 +12,10 @@ ucsur = ""
 usage_category = "obscure"
 word = "kese"
 
+[[etymology]]
+alt = "kéšet"
+word = "קֶשֶׁת"
+
 [ku_data]
 "LGBTQ+" = 6
 

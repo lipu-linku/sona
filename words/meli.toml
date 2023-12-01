@@ -12,6 +12,9 @@ ucsur = "U+F1933"
 usage_category = "widespread"
 word = "meli"
 
+[[etymology]]
+word = "meri"
+
 [ku_data]
 "cisgender woman" = 31
 female = 100

@@ -12,6 +12,9 @@ ucsur = "U+F1966"
 usage_category = "core"
 word = "suwi"
 
+[[etymology]]
+word = "swit"
+
 [ku_data]
 candy = 65
 cute = 92

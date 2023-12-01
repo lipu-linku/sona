@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "ete"
 
+[[etymology]]
+word = "öte"
+
 [ku_data]
 beyond = 14
 exceed = 20

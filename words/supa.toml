@@ -12,6 +12,9 @@ ucsur = "U+F1965"
 usage_category = "core"
 word = "supa"
 
+[[etymology]]
+word = "surfaco"
+
 [ku_data]
 bench = 38
 board = 67

@@ -12,6 +12,10 @@ ucsur = "U+F1981"
 usage_category = "common"
 word = "soko"
 
+[[etymology]]
+alt = "sok’o"
+word = "სოკო"
+
 [ku_data]
 fungus = 42
 mushroom = 53

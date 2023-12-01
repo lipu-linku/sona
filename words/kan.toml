@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "kan"
 
+[[etymology]]
+word = "kanssa"
+
 [ku_data]
 alongside = 17
 amid = 7

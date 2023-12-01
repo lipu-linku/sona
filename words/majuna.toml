@@ -12,6 +12,9 @@ ucsur = "U+F19A2"
 usage_category = "uncommon"
 word = "majuna"
 
+[[etymology]]
+word = "maljuna"
+
 [ku_data]
 ancient = 17
 elder = 15

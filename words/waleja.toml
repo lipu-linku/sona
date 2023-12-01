@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "waleja"
 
+[[etymology]]
+word = "valdea"
+
 [ku_data]
 attention = 10
 background = 8

@@ -12,6 +12,9 @@ ucsur = "U+F196E"
 usage_category = "core"
 word = "tu"
 
+[[etymology]]
+word = "two"
+
 [ku_data]
 both = 64
 couple = 50

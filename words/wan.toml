@@ -12,6 +12,9 @@ ucsur = "U+F1973"
 usage_category = "core"
 word = "wan"
 
+[[etymology]]
+word = "one"
+
 [ku_data]
 alone = 27
 bind = 40

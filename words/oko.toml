@@ -12,6 +12,10 @@ ucsur = "U+F197A"
 usage_category = "common"
 word = "oko"
 
+[[etymology]]
+alt = "оko"
+word = "око"
+
 [ku_data]
 eye = 68
 vision = 30

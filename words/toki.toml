@@ -12,6 +12,9 @@ ucsur = "U+F196C"
 usage_category = "core"
 word = "toki"
 
+[[etymology]]
+word = "tok"
+
 [ku_data]
 accuse = 25
 admit = 47

@@ -12,6 +12,8 @@ ucsur = "U+F1939"
 usage_category = "core"
 word = "mu"
 
+[[etymology]]
+
 [ku_data]
 "animal vocalization" = 93
 cock-a-doodle-doo = 58

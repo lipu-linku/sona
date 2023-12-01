@@ -12,6 +12,10 @@ ucsur = "U+F1915"
 usage_category = "core"
 word = "kalama"
 
+[[etymology]]
+alt = "galama"
+word = "галама"
+
 [ku_data]
 bang = 27
 noise = 79

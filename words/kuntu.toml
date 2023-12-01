@@ -12,6 +12,9 @@ ucsur = ""
 usage_category = "obscure"
 word = "kuntu"
 
+[[etymology]]
+word = "kulupu musi tan uta"
+
 [ku_data]
 chuckle = 13
 comedy = 8

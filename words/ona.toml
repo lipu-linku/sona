@@ -12,6 +12,10 @@ ucsur = "U+F1946"
 usage_category = "core"
 word = "ona"
 
+[[etymology]]
+alt = "ona"
+word = "она"
+
 [ku_data]
 he = 80
 her = 95
