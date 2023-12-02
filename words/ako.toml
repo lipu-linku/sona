@@ -4,6 +4,7 @@ author_verbatim_source = ""
 book = "none"
 coined_era = ""
 coined_year = ""
+creator = []
 etymology = []
 see_also = ["a"]
 source_language = "unknown"

@@ -108,6 +108,10 @@ TRANSFORM_MAP = {
     },
     "etymology": {TRANSFORMER: trash},
     "etymology_data": {TRANSFORMER: trash},  # to transform and send to translate
+    "creator": {
+        TRANSFORMER: partial(transform_to_list, splitter=","),
+        DESTINATION: WORDS,
+    },
     "ku_data": {TRANSFORMER: transform_ku_data, DESTINATION: WORDS},
     "recognition": {TRANSFORMER: transform_recognition_data, DESTINATION: WORDS},
     "see_also": {

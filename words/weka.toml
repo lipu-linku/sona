@@ -4,6 +4,7 @@ author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
 coined_year = ""
+creator = ["jan Sonja"]
 see_also = ["pini"]
 source_language = "Dutch"
 usage_category = "core"
