@@ -5,6 +5,10 @@ on:
     paths:
       - "**.toml"
   workflow_call:
+    inputs:
+      commit_sha:
+        type: string
+        required: true
   workflow_dispatch:
 
 permissions:
@@ -13,7 +17,7 @@ permissions:
 jobs:
   validate:
     env:
-      BranchRef: ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA || 'main' }}
+      BranchRef: ${{ inputs.commit_sha || github.event.head_commit.id || 'main' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

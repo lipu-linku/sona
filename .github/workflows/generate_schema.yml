@@ -19,6 +19,7 @@ jobs:
         working-directory: ./schemas
     outputs:
       schema_changed: ${{ steps.commit.outputs.committed }}
+      commit_sha: ${{ steps.commit.outputs.commit_long_sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -47,4 +48,6 @@ jobs:
     name: Validate TOMLs based on schema
     needs: generate
     uses: ./.github/workflows/validate_toml.yml
+    with:
+      commit_sha: ${{ needs.generate.outputs.commit_sha }}
     if: ${{ needs.generate.outputs.schema_changed == 'true' }}
