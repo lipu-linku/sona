@@ -35,6 +35,11 @@ jobs:
         run: pnpm run generate:schemas
 
       - name: Commit schemas
+        id: commit
         uses: EndBug/add-and-commit@v9
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA }}"
+
+      - name: Validate TOMLs for the new schemas
+        uses: ./.github/workflows/validate_toml.yml
+        if: ${{ steps.commit.outputs.committed }}

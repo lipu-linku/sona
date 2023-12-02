@@ -9,6 +9,7 @@ on:
     paths:
       - "**.toml"
       - "schemas/generated/**.json"
+  workflow_call:
   workflow_dispatch:
 
 permissions:
