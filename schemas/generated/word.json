@@ -40,7 +40,10 @@
           "description": "The year when this word was coined (if known)"
         },
         "creator": {
-          "type": "string",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
           "description": "The person who created this word (if known)"
         },
         "ku_data": {
