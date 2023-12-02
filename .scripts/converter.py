@@ -229,7 +229,7 @@ def main():
         SP_ETYMOLOGY,
         "../translations",
         "sp_etymology.toml",
-        schema="../../schemas/generated/sp_etymology_translation.json",
+        schema="../../schemas/generated/sitelen_pona_translation.json",
     )
 
 
