@@ -4,7 +4,11 @@ on:
   push:
     paths:
       - "**.toml"
-      - "schemas/schema.json"
+      - "schemas/generated/**.json"
+  pull_request:
+    paths:
+      - "**.toml"
+      - "schemas/generated/**.json"
   workflow_dispatch:
 
 permissions:
