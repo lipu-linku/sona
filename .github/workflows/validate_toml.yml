@@ -4,11 +4,9 @@ on:
   push:
     paths:
       - "**.toml"
-      - "schemas/generated/**.json"
   pull_request:
     paths:
       - "**.toml"
-      - "schemas/generated/**.json"
   workflow_call:
   workflow_dispatch:
 

@@ -13,9 +13,12 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    name: Generate JSON schemas from Zod schemas
     defaults:
       run:
         working-directory: ./schemas
+    outputs:
+      schema_changed: ${{ steps.commit.outputs.committed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -40,6 +43,8 @@ jobs:
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA }}"
 
-      - name: Validate TOMLs for the new schemas
-        uses: ./.github/workflows/validate_toml.yml
-        if: ${{ steps.commit.outputs.committed }}
+  validate:
+    name: Validate TOMLs based on schema
+    needs: generate
+    uses: ./.github/workflows/validate_toml.yml
+    if: ${{ needs.generate.outputs.schema_changed }}
