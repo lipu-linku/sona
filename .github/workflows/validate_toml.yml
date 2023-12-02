@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - "**.toml"
-      - "schemas/generated/**.json"
-  pull_request:
-    paths:
-      - "**.toml"
-      - "schemas/generated/**.json"
+  workflow_call:
+    inputs:
+      commit_sha:
+        type: string
+        required: true
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ permissions:
 jobs:
   validate:
     env:
-      BranchRef: ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA || 'main' }}
+      BranchRef: ${{ github.event_name == 'workflow_run' && inputs.commit_sha || github.sha }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,4 +36,4 @@ jobs:
         run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/sitelen_pona_translation.json ./translations/**/sp_etymology.toml
 
       - name: Validate word files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$CommitHash/schemas/generated/word.json ./words/*.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/word.json ./words/*.toml
