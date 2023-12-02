@@ -17,7 +17,7 @@ permissions:
 jobs:
   validate:
     env:
-      BranchRef: ${{ inputs.commit_sha || github.event.head_commit.id || github.sha }}
+      BranchRef: ${{ github.event_name == 'workflow_run' && inputs.commit_sha || github.sha }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
