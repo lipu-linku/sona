@@ -4,9 +4,6 @@ on:
   push:
     paths:
       - "**.toml"
-  pull_request:
-    paths:
-      - "**.toml"
   workflow_call:
   workflow_dispatch:
 
