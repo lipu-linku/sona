@@ -6,20 +6,19 @@ export const Word = z
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 		author_verbatim: z
 			.string()
-			.optional()
 			.describe("The author's original definition, taken verbatim in their words"),
 		author_verbatim_source: z
 			.string()
-			.optional()
 			.describe("Where the author's original definition is located (usually Discord)"),
 		book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
 		coined_era: CoinedEra.describe(
 			"When this word was coined (relative to the publication dates of the official Toki Pona books)",
 		),
-		coined_year: z.string().optional().describe("The year when this word was coined (if known)"),
-		creator: z.string().optional().describe("The person who created this word (if known)"),
+		coined_year: z.string().describe("The year when this word was coined (if known)"),
+		creator: z.string().describe("The person who created this word (if known)"),
 		ku_data: z
 			.record(z.number().min(0).max(100))
+			.optional()
 			.describe(
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
@@ -29,7 +28,7 @@ export const Word = z
 				sitelen_emosi: z
 					.string()
 					.emoji()
-					.optional()
+					.or(z.literal(""))
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
@@ -41,18 +40,18 @@ export const Word = z
 				sitelen_sitelen: z
 					.string()
 					.url()
-					.optional()
+					.or(z.literal(""))
 					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
 				ucsur: z
 					.string()
 					.regex(/^U\+[\da-fA-F]{4,6}$/g)
-					.optional()
+					.or(z.literal(""))
 					.describe(
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
 			.describe("Ways of representing this word in the real world, via text/computers"),
-		source_language: z.string().optional().describe("The language this word originated from"),
+		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
 			"The word's usage category, according to a survey performed by the Linku Project",
 		),

@@ -47,4 +47,4 @@ jobs:
     name: Validate TOMLs based on schema
     needs: generate
     uses: ./.github/workflows/validate_toml.yml
-    if: ${{ needs.generate.outputs.schema_changed }}
+    if: ${{ needs.generate.outputs.schema_changed == 'true' }}
