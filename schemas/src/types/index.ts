@@ -110,56 +110,48 @@ export const Word = z
 export type Word = z.infer<typeof Word>;
 
 export const CommentaryTranslation = z
-	.intersection(
-		z.record(z.string()),
-		z.object({
-			$schema: z.string().describe("a file path pointing to this JSON schema"),
-		}),
-	)
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(z.string())
 	.describe("Localized commentary regarding Toki Pona words");
 
 export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
 export const DefinitionTranslation = z
-	.intersection(
-		z.record(z.string()),
-		z.object({
-			$schema: z.string().describe("a file path pointing to this JSON schema"),
-		}),
-	)
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(z.string())
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
 
 export const SitelenPonaTranslation = z
-	.intersection(
-		z.record(z.string()),
-		z.object({
-			$schema: z.string().describe("a file path pointing to this JSON schema"),
-		}),
-	)
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(z.string())
 	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
 
 export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
 
 export const EtymologyTranslation = z
-	.intersection(
-		z.record(
-			z.array(
-				z.object({
-					definition: z
-						.string()
-						.optional()
-						.describe("The localized definition of the root word in its origin language"),
-					language: z
-						.string()
-						.describe("The localized name of the language this word originated from"),
-				}),
-			),
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(
+		z.array(
+			z.object({
+				definition: z
+					.string()
+					.optional()
+					.describe("The localized definition of the root word in its origin language"),
+				language: z
+					.string()
+					.describe("The localized name of the language this word originated from"),
+			}),
 		),
-		z.object({
-			$schema: z.string().describe("a file path pointing to this JSON schema"),
-		}),
 	)
 	.describe("Localized etymological values for Toki Pona words");
 
