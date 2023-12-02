@@ -15,7 +15,7 @@ export const Word = z
 			"When this word was coined (relative to the publication dates of the official Toki Pona books)",
 		),
 		coined_year: z.string().describe("The year when this word was coined (if known)"),
-		creator: z.string().describe("The person who created this word (if known)"),
+		creator: z.array(z.string()).describe("The person who created this word (if known)"),
 		ku_data: z
 			.record(z.number().min(0).max(100))
 			.optional()
