@@ -16,22 +16,24 @@ permissions:
 
 jobs:
   validate:
+    env:
+      BranchRef: ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA || 'main' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Validate definition files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/definition_translation.json ./translations/**/definitions.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/definition_translation.json ./translations/**/definitions.toml
 
       - name: Validate commentary files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/commentary_translation.json ./translations/**/commentary.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/commentary_translation.json ./translations/**/commentary.toml
 
       - name: Validate etymology files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/etymology_translation.json ./translations/**/etymology.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/etymology_translation.json ./translations/**/etymology.toml
 
       - name: Validate sitelen pona files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/sitelen_pona_translation.json ./translations/**/sp_etymology.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/sitelen_pona_translation.json ./translations/**/sp_etymology.toml
 
       - name: Validate word files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/word.json ./words/*.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$CommitHash/schemas/generated/word.json ./words/*.toml
