@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -10,6 +11,9 @@ word = "suke"
 
 [[etymology]]
 word = "typo of sike"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suke.mp3"
 
 [recognition]
 2021-10 = 3

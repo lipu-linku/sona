@@ -94,6 +94,7 @@ TRANSFORM_MAP = {
     "sitelen_emosi": {TRANSFORMER: noop, DESTINATION: REPRESENTATIONS},
     # "luka_pona": {TRANSFORMER: partial(noop, _return_if_null=dict()), DESTINATION: WORDS},
     "luka_pona": {TRANSFORMER: trash},  # to be replaced with totally different doc
+    "audio": {TRANSFORMER: partial(noop, _return_if_null=dict()), DESTINATION: WORDS},
     "coined_year": {TRANSFORMER: noop, DESTINATION: WORDS},
     "coined_era": {TRANSFORMER: noop, DESTINATION: WORDS},
     "book": {TRANSFORMER: partial(noop, _return_if_null="none"), DESTINATION: WORDS},
@@ -140,8 +141,14 @@ TRANSLATION_MAP = {
 }
 
 
-def write_translated(data: dict, dir: str, filename: str):
+def write_translated(
+    data: dict,
+    dir: str,
+    filename: str,
+    schema: str = "../../schema/generated/word.json",
+):
     for lang, d in data.items():
+        d["$schema"] = schema
         os.makedirs(f"{dir}/{lang}", exist_ok=True)
         with open(f"{dir}/{lang}/{filename}", "w") as f:
             tomlified = tomlkit.dumps(d, sort_keys=True)
@@ -195,14 +202,35 @@ def main():
     # or crowdin will solve this for us
     for word, worddata in WORDS.items():
         worddata["representations"] = REPRESENTATIONS[word]
+        worddata["$schema"] = "../../schemas/generated/word.json"
         with open(f"../words/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
             f.write(tomlified)
 
-    write_translated(DEFINITIONS, "../translations", "definitions.toml")
-    write_translated(COMMENTARY, "../translations", "commentary.toml")
-    write_translated(ETYMOLOGY, "../translations", "etymology.toml")
-    write_translated(SP_ETYMOLOGY, "../translations", "sp_etymology.toml")
+    write_translated(
+        DEFINITIONS,
+        "../translations",
+        "definitions.toml",
+        schema="../../schemas/generated/definition_translation.json",
+    )
+    write_translated(
+        COMMENTARY,
+        "../translations",
+        "commentary.toml",
+        schema="../../schemas/generated/commentary_translation.json",
+    )
+    write_translated(
+        ETYMOLOGY,
+        "../translations",
+        "etymology.toml",
+        schema="../../schemas/generated/etymology_translation.json",
+    )
+    write_translated(
+        SP_ETYMOLOGY,
+        "../translations",
+        "sp_etymology.toml",
+        schema="../../schemas/generated/sp_etymology_translation.json",
+    )
 
 
 if __name__ == "__main__":

@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku suli"
@@ -11,6 +12,10 @@ word = "lanpan"
 [[etymology]]
 alt = "lamváno"
 word = "λαμβάνω"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lanpan.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lanpan.mp3"
 
 [ku_data]
 grab = 25

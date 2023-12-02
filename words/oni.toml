@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -11,6 +12,9 @@ word = "oni"
 [[etymology]]
 alt = "oneiroi"
 word = "ὄνειροι"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oni.mp3"
 
 [recognition]
 2021-10 = 26

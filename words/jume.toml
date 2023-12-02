@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = "isipin is kinda dumb so here's a better nimisin: jume, dream"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/803447186255642624"
 book = "none"
@@ -11,6 +12,9 @@ word = "jume"
 [[etymology]]
 alt = "yume"
 word = "夢"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jume.mp3"
 
 [recognition]
 2021-10 = 17

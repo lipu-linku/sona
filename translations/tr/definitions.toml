@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/definition_translation.json"
 Pingo = "araba"
 a = "(vurgu, duygu veya onay)"
 aka = "çarpıya benzer şekil, kavşak, kesişim [\"natu\" için alternatif form]"

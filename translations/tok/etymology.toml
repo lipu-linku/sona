@@ -1,4 +1,6 @@
+"$schema" = "../../schemas/generated/etymology_translation.json"
 ako = []
+
 [[Pingo]]
 language = "a priori"
 

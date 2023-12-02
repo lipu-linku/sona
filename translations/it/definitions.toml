@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/definition_translation.json"
 Pingo = "auto"
 a = "(enfasi, emozione o conferma)"
 aka = "forma a croce, intersezione, sovrapposizione [forma alternativa di natu]"

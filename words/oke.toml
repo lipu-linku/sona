@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -10,6 +11,9 @@ word = "oke"
 
 [[etymology]]
 word = "okay"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
 
 [ku_data]
 OK = 10

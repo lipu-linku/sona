@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/definition_translation.json"
 Pingo = "bil"
 a = "(betoning, känsla eller bekräftelse)"
 aka = "plusliknande form, gatukorsning, överlapp [alternativ form av natu]"

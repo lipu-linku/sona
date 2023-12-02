@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,6 +10,9 @@ usage_category = "obscure"
 word = "lu"
 
 [[etymology]]
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lu.mp3"
 
 [recognition]
 2021-10 = 29

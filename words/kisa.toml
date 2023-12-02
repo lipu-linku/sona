@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = "cat"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/835188367871311902"
 book = "none"
@@ -11,6 +12,9 @@ word = "kisa"
 [[etymology]]
 alt = "kísa"
 word = "ки́са"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kisa.mp3"
 
 [recognition]
 2021-10 = 24

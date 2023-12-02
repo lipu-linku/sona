@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/definition_translation.json"
 Pingo = "auto"
 a = "(painotus, vahvistus tai tunne)"
 aka = ""

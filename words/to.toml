@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -11,6 +12,9 @@ word = "to"
 [[etymology]]
 alt = "to"
 word = "と"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/to.mp3"
 
 [ku_data]
 "(closing quotation particle)" = 7

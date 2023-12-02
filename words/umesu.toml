@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = "to amaze people by being on top of the musi Ako leaderboard"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/786041291707777034/806023115745263636"
 book = "ku lili"
@@ -10,6 +11,9 @@ word = "umesu"
 
 [[etymology]]
 word = "Umeyz"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/umesu.mp3"
 
 [recognition]
 2021-10 = 23

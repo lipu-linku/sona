@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -25,6 +26,10 @@ word = "पाश"
 [[etymology]]
 alt = "anšūṭa"
 word = "أنشوطة‏"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lupa.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lupa.mp3"
 
 [ku_data]
 dig = 21

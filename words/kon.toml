@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -11,6 +12,10 @@ word = "kon"
 [[etymology]]
 alt = "kōngqì"
 word = "空氣"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kon.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kon.mp3"
 
 [ku_data]
 abstract = 33

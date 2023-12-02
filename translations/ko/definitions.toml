@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/definition_translation.json"
 Pingo = ""
 a = "강조/확인하는 표현"
 aka = ""

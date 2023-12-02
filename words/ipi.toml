@@ -1,3 +1,4 @@
+"$schema" = "../../schemas/generated/word.json"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -10,6 +11,9 @@ word = "ipi"
 
 [[etymology]]
 word = "unknown"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ipi.mp3"
 
 [recognition]
 2020-04 = 13
