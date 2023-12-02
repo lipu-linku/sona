@@ -1,184 +1,166 @@
-export * from "./utils";
+import { z } from "zod";
+import { Book, CoinedEra, UsageCategory } from "./utils";
 
-import { YearMonth, integer } from "./internal";
-import type { Book, CoinedEra, UsageCategory } from "./utils";
+export const Word = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+		author_verbatim: z
+			.string()
+			.optional()
+			.describe("The author's original definition, taken verbatim in their words"),
+		author_verbatim_source: z
+			.string()
+			.optional()
+			.describe("Where the author's original definition is located (usually Discord)"),
+		book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
+		coined_era: CoinedEra.describe(
+			"When this word was coined (relative to the publication dates of the official Toki Pona books)",
+		),
+		coined_year: z.string().optional().describe("The year when this word was coined (if known)"),
+		creator: z.string().optional().describe("The person who created this word (if known)"),
+		ku_data: z
+			.record(z.number().min(0).max(100))
+			.describe(
+				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
+			),
+		see_also: z.array(z.string()).describe("A list of related words"),
+		representations: z
+			.object({
+				sitelen_emosi: z
+					.string()
+					.emoji()
+					.optional()
+					.describe(
+						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
+					),
+				sitelen_pona: z
+					.array(z.string())
+					.describe(
+						"A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs",
+					),
+				sitelen_sitelen: z
+					.string()
+					.url()
+					.optional()
+					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
+				ucsur: z
+					.string()
+					.regex(/^U\+[\da-fA-F]{4,6}$/g)
+					.optional()
+					.describe(
+						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
+					),
+			})
+			.describe("Ways of representing this word in the real world, via text/computers"),
+		source_language: z.string().optional().describe("The language this word originated from"),
+		usage_category: UsageCategory.describe(
+			"The word's usage category, according to a survey performed by the Linku Project",
+		),
+		word: z
+			.string()
+			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
+		etymology: z
+			.array(
+				z.object({
+					word: z
+						.string()
+						.optional()
+						.describe(
+							"One of the root words of this word, as written out in its language of origin",
+						),
+					alt: z.string().optional().describe(`A latinized representation of the "word" field`),
+				}),
+			)
+			.describe("Unlocalized etymological values regarding this word's origin"),
+		audio: z
+			.object({
+				jan_lakuse: z
+					.string()
+					.url()
+					.optional()
+					.describe(
+						"jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse",
+					),
+				kala_asi: z
+					.string()
+					.url()
+					.describe("kala Asi's pronounciation of the word, made for the Linku Project"),
+			})
+			.describe("Audio files of the words pronounced out loud"),
+		pu_verbatim: z
+			.object({
+				en: z.string().describe("The original definition in the English version of pu"),
+				fr: z.string().describe("The original definition in the French version of pu"),
+				de: z.string().describe("The original definition in the German version of pu"),
+				eo: z.string().describe("The original definition in the Esperanto version of pu"),
+			})
+			.optional()
+			.describe("The original definition of the word in pu, the first official Toki Pona book"),
+		recognition: z
+			.record(
+				z.custom<`${number}-${number}`>((val) => /^\d{4}-\d{2}$/g.test(val as string)),
+				z.number().min(0).max(100),
+			)
+			.describe(
+				"The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project",
+			),
+	})
+	.describe("General info on a Toki Pona word");
 
-/**
- * General info on a Toki Pona word
- *
- * @id #word
- * @title sona word file
- */
-export type Word = {
-	/**
-	 * The author's original definition, taken verbatim in their words
-	 */
-	author_verbatim?: string;
-	/**
-	 * Where the author's original definition is located (usually Discord)
-	 */
-	author_verbatim_source?: string;
-	/**
-	 * Which official Toki Pona book was this word featured in, if any.
-	 */
-	book: Book;
-	/**
-	 * When this word was coined (relative to the publication dates of the official Toki Pona books)
-	 */
-	coined_era: CoinedEra;
-	/**
-	 * The year when this word was coined (if known)
-	 */
-	coined_year?: string;
-	/**
-	 * The person who created this word (if known)
-	 */
-	creator?: string;
-	/**
-	 * The usage data of the word as described in ku (the official Toki Pona dictionary)
-	 */
-	ku_data?: {
-		/**
-		 * @minimum 0
-		 * @maximum 100
-		 */
-		[meaning: string]: integer;
-	};
-	/**
-	 * A list of related words
-	 */
-	see_also: string[];
-	/**
-	 * The sitelen emosi representation of this word, a script for writing Toki Pona using emoji
-	 */
-	sitelen_emosi?: string;
-	/**
-	 * A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs
-	 */
-	sitelen_pona: string[];
-	/**
-	 * A URL pointing to an image of this word's sitelen sitelen hieroglyphic block
-	 *
-	 * @format uri
-	 */
-	sitelen_sitelen?: string;
-	/**
-	 * The language this word originated from
-	 */
-	source_language?: string;
-	/**
-	 * The word's UCSUR codepoint
-	 *
-	 * @pattern ^U\+[\da-fA-F]{4,6}$
-	 */
-	ucsur?: string;
-	/**
-	 * The word's usage category, according to a survey performed by the Linku Project
-	 */
-	usage_category: UsageCategory;
-	/**
-	 * The word's actual text, in case of a word with multiple definitions (like "we")
-	 */
-	word: string;
-	/**
-	 * Unlocalized etymological values regarding this word's origin
-	 */
-	etymology: Array<{
-		/**
-		 * One of the root words of this word, as written out in its language of origin
-		 */
-		word?: string;
-		/**
-		 * A latinized representation of the "word" field
-		 */
-		alt?: string;
-	}>;
-	/**
-	 * Audio files of the words pronounced out loud
-	 */
-	audio?: {
-		/**
-		 * jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse
-		 *
-		 * @format uri
-		 */
-		jan_lakuse?: string;
-		/**
-		 * kala Asi's pronounciation of the word, made for the Linku Project
-		 *
-		 * @format uri
-		 */
-		kala_asi?: string;
-	};
-	pu_verbatim?: {
-		/**
-		 * The original definition in the English version of pu
-		 */
-		en: string;
-		/**
-		 * The original definition in the French version of pu
-		 */
-		fr: string;
-		/**
-		 * The original definition in the German version of pu
-		 */
-		de: string;
-		/**
-		 * The original definition in the Esperanto version of pu
-		 */
-		eo: string;
-	};
-	/**
-	 * The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project
-	 */
-	recognition: Record<YearMonth, integer>;
-};
+export type Word = z.infer<typeof Word>;
 
-/**
- * Localized commentary regarding Toki Pona words
- *
- * @id #commentary
- * @title sona localized commentary file
- */
-export type CommentaryTranslation = {
-	[word: string]: string;
-};
+export const CommentaryTranslation = z
+	.intersection(
+		z.record(z.string()),
+		z.object({
+			$schema: z.string().describe("a file path pointing to this JSON schema"),
+		}),
+	)
+	.describe("Localized commentary regarding Toki Pona words");
 
-/**
- * Localized definitions of Toki Pona words
- *
- * @id #definitions
- * @title sona localized definitions file
- */
-export type DefinitionTranslation = {
-	[word: string]: string;
-};
+export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
-/**
- * Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words
- *
- * @id #sitelen_pona
- * @title sona localized sitelen pona file
- */
-export type SitelenPonaTranslation = {
-	[word: string]: string;
-};
+export const DefinitionTranslation = z
+	.intersection(
+		z.record(z.string()),
+		z.object({
+			$schema: z.string().describe("a file path pointing to this JSON schema"),
+		}),
+	)
+	.describe("Localized definitions of Toki Pona words");
 
-/**
- * Localized etymological values for Toki Pona words
- *
- * @id #etymology
- * @title sona localized etymology file
- */
-export type EtymologyTranslation = {
-	[word: string]: Array<{
-		/**
-		 * The localized definition of the root word in its origin language
-		 */
-		definition?: string;
-		/**
-		 * The localized name of the language this word originated from
-		 */
-		language: string;
-	}>;
-};
+export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
+
+export const SitelenPonaTranslation = z
+	.intersection(
+		z.record(z.string()),
+		z.object({
+			$schema: z.string().describe("a file path pointing to this JSON schema"),
+		}),
+	)
+	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
+
+export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
+
+export const EtymologyTranslation = z
+	.intersection(
+		z.record(
+			z.array(
+				z.object({
+					definition: z
+						.string()
+						.optional()
+						.describe("The localized definition of the root word in its origin language"),
+					language: z
+						.string()
+						.describe("The localized name of the language this word originated from"),
+				}),
+			),
+		),
+		z.object({
+			$schema: z.string().describe("a file path pointing to this JSON schema"),
+		}),
+	)
+	.describe("Localized etymological values for Toki Pona words");
+
+export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;

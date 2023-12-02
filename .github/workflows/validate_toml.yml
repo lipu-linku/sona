@@ -18,16 +18,16 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Validate definition files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/schema.json#definition ./translations/**/definitions.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/definition_translation.json ./translations/**/definitions.toml
 
       - name: Validate commentary files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/schema.json#commentary ./translations/**/commentary.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/commentary_translation.json ./translations/**/commentary.toml
 
       - name: Validate etymology files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/schema.json#etymology ./translations/**/etymology.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/etymology_translation.json ./translations/**/etymology.toml
 
       - name: Validate sitelen pona files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/schema.json#sitelen_pona ./translations/**/sp_etymology.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/sitelen_pona_translation.json ./translations/**/sp_etymology.toml
 
       - name: Validate word files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/schema.json#word ./words/*.toml
+        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/${{github.event.ref}}/schemas/generated/word.json ./words/*.toml

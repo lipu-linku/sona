@@ -1,0 +1,29 @@
+{
+  "$ref": "#/definitions/commentary_translation",
+  "definitions": {
+    "commentary_translation": {
+      "allOf": [
+        {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "$schema": {
+              "type": "string",
+              "description": "a file path pointing to this JSON schema"
+            }
+          },
+          "required": [
+            "$schema"
+          ]
+        }
+      ],
+      "description": "Localized commentary regarding Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
