@@ -11,8 +11,8 @@ export const Word = z
 			.string()
 			.describe("Where the author's original definition is located (usually Discord)"),
 		book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
-		coined_era: CoinedEra.describe(
-			"When this word was coined (relative to the publication dates of the official Toki Pona books)",
+		coined_era: CoinedEra.or(z.literal("")).describe(
+			"When this word was coined (relative to the publication dates of the official Toki Pona books, if known)",
 		),
 		coined_year: z.string().describe("The year when this word was coined (if known)"),
 		creator: z.array(z.string()).describe("The person who created this word (if known)"),
