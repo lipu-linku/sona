@@ -1,0 +1,106 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["lili"]
+source_language = "Finnish"
+usage_category = "core"
+word = "suli"
+
+[[etymology]]
+word = "suuri"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/suli.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suli.mp3"
+
+[ku_data]
+age = 31
+big = 100
+broad = 70
+considerable = 63
+critical = 33
+crucial = 75
+deeply = 29
+density = 29
+depth = 32
+dominant = 27
+dramatic = 27
+dramatically = 42
+emphasis = 27
+emphasize = 38
+enormous = 37
+essential = 40
+expand = 33
+expansion = 33
+extend = 37
+extended = 64
+extension = 31
+extensive = 73
+extent = 55
+fat = 70
+fundamental = 38
+giant = 65
+grand = 80
+great = 53
+greatly = 47
+grow = 27
+growth = 27
+heavily = 36
+heavy = 65
+height = 50
+huge = 79
+importance = 100
+important = 92
+importantly = 47
+influential = 28
+large = 100
+largely = 40
+length = 50
+long = 69
+magnitude = 54
+mainly = 25
+major = 60
+mass = 42
+massive = 40
+"matter (v)" = 86
+profound = 30
+prominent = 73
+relevant = 40
+remarkable = 25
+severe = 44
+significance = 67
+significant = 87
+significantly = 80
+size = 67
+stretch = 37
+substantial = 69
+super = 27
+tall = 77
+thick = 62
+tremendous = 56
+vast = 77
+vital = 50
+volume = 31
+weight = 77
+wide = 64
+widely = 29
+
+[pu_verbatim]
+de = "ADJEKTIV groß, schwer, lang, hoch; wichtig; erwachsen"
+en = "ADJECTIVE big, heavy, large, long, tall; important; adult"
+eo = "ADJEKTIVO granda, peza, longa, alta; grava; plenkreska"
+fr = "ADJECTIF grand, lourd, long ; important ; adulte"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "🐘"
+sitelen_pona = ["suli"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suli.jpg"
+ucsur = "U+F1963"

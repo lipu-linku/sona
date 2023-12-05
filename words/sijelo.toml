@@ -1,0 +1,45 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Serbo-Croatian"
+usage_category = "core"
+word = "sijelo"
+
+[[etymology]]
+alt = "tijelo"
+word = "тијело"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sijelo.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sijelo.mp3"
+
+[ku_data]
+body = 100
+figure = 32
+flesh = 50
+form = 35
+physical = 23
+physically = 40
+self = 23
+torso = 64
+
+[pu_verbatim]
+de = "NOMEN Körper (einer Person oder eines Tieres), physische Form, Torso"
+en = "NOUN body (of person or animal), physical state, torso"
+eo = "SUBSTANTIVO korpo (de homo aŭ besto), fizika stato, torso"
+fr = "NOM corps, état physique, torse"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🏋️"
+sitelen_pona = ["sijelo"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
+ucsur = "U+F195B"

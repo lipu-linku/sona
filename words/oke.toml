@@ -1,0 +1,34 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["unknown"]
+see_also = ["pona", "ke", "n", "a"]
+source_language = "English"
+usage_category = "uncommon"
+word = "oke"
+
+[[etymology]]
+word = "okay"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
+
+[ku_data]
+OK = 10
+alright = 9
+fine = 7
+
+[recognition]
+2020-04 = 25
+2021-10 = 40
+2022-08 = 16
+2023-09 = 24
+
+[representations]
+sitelen_emosi = "👌"
+sitelen_pona = ["oke"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -1,0 +1,35 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["jan Kapilu", "jan Lewiku"]
+see_also = ["wan", "wile"]
+source_language = "Korean"
+usage_category = "rare"
+word = "taki"
+
+[[etymology]]
+alt = "tag"
+word = "탁"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/taki.mp3"
+
+[ku_data]
+attach = 8
+attract = 8
+bond = 10
+clip = 4
+
+[recognition]
+2021-10 = 38
+2022-08 = 14
+2023-09 = 14
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["taki", "taki2"]
+sitelen_sitelen = ""
+ucsur = ""

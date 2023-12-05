@@ -1,0 +1,48 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["ona"]
+source_language = "Cantonese"
+usage_category = "core"
+word = "ni"
+
+[[etymology]]
+alt = "ni"
+word = "呢"
+
+[[etymology]]
+alt = "le"
+word = "哩"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ni.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ni.mp3"
+
+[ku_data]
+particular = 31
+specifically = 27
+that = 86
+there = 25
+these = 83
+this = 100
+those = 77
+
+[pu_verbatim]
+de = "ADJEKTIV diese, dieser, dieses, jene, jener, jenes"
+en = "ADJECTIVE that, this"
+eo = "ADJEKTIVO (ĉi) tiu, (ĉi) tio"
+fr = "ADJECTIF ce, cette"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👇"
+sitelen_pona = ["ni", "ni2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ni.jpg"
+ucsur = "U+F1941"

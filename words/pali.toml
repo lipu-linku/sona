@@ -1,0 +1,103 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Esperanto"
+usage_category = "core"
+word = "pali"
+
+[[etymology]]
+word = "fari"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pali.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pali.mp3"
+
+[ku_data]
+accomplish = 47
+accomplishment = 31
+achieve = 33
+act = 57
+action = 87
+actively = 40
+activity = 93
+assemble = 58
+assignment = 53
+behave = 43
+behaviour = 43
+behavioural = 28
+build = 92
+busy = 29
+career = 41
+commit = 50
+compose = 58
+construct = 94
+construction = 33
+craft = 64
+create = 84
+creation = 50
+develop = 60
+development = 38
+do = 100
+effort = 48
+employment = 40
+enact = 50
+execute = 67
+execution = 36
+function = 83
+functional = 35
+generate = 60
+implement = 47
+implementation = 45
+industrial = 27
+industry = 36
+interact = 32
+invent = 36
+job = 92
+labour = 90
+make = 93
+manipulate = 25
+manufacturing = 64
+occupation = 81
+operate = 47
+operating = 69
+operation = 50
+participation = 25
+perform = 50
+plan = 25
+practice = 38
+prepare = 33
+procedure = 35
+processing = 43
+produce = 93
+production = 91
+productive = 27
+profession = 55
+project = 67
+role = 35
+service = 48
+task = 86
+undergo = 31
+undertake = 29
+work = 100
+working = 90
+
+[pu_verbatim]
+de = "VERB tun, arbeiten an; bauen, machen, herstellen"
+en = "VERB to do, take action on, work on; build, make, prepare"
+eo = "VERBO fari, agi por atingi aŭ plenumi ion, prilabori; konstrui, fari, prepari"
+fr = "VERBE fair, agir sur, travailler, construire, préparer"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "✊"
+sitelen_pona = ["pali"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pali.jpg"
+ucsur = "U+F1949"

@@ -1,0 +1,38 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "2001"
+creator = ["jan Sonja"]
+see_also = ["pimeja"]
+source_language = "multiple possibilities"
+usage_category = "rare"
+word = "kapesi"
+
+[[etymology]]
+alt = "gaa³ fe¹ sik¹"
+word = "咖啡色"
+
+[[etymology]]
+alt = "kāfēisè"
+word = "咖啡色"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapesi.mp3"
+
+[ku_data]
+brown = 24
+grey = 7
+
+[recognition]
+2020-04 = 29
+2021-10 = 45
+2022-08 = 14
+2023-09 = 19
+
+[representations]
+sitelen_emosi = "🟤"
+sitelen_pona = ["kapesi", "kapesi2"]
+sitelen_sitelen = ""
+ucsur = ""

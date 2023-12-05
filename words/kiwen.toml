@@ -1,0 +1,48 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "kiwen"
+
+[[etymology]]
+word = "kiven"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kiwen.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kiwen.mp3"
+
+[ku_data]
+concrete = 60
+firm = 44
+"hard object" = 79
+iron = 50
+metal = 57
+plastic = 25
+rock = 93
+silver = 31
+solid = 100
+steel = 56
+stiff = 44
+stone = 84
+
+[pu_verbatim]
+de = "NOMEN hartes Objekt, Metall, Fels, Stein"
+en = "NOUN hard object, metal, rock, stone"
+eo = "SUBSTANTIVO malmolaĵo, metalo, roko, ŝtono"
+fr = "NOM objet dur, métal, pierre"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "💎"
+sitelen_pona = ["kiwen"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kiwen.jpg"
+ucsur = "U+F191B"

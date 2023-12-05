@@ -1,0 +1,48 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Cantonese"
+usage_category = "core"
+word = "ko"
+
+[[etymology]]
+alt = "gou"
+word = "膏"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ko.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ko.mp3"
+
+[ku_data]
+clay = 60
+cream = 33
+dough = 30
+dust = 36
+goo = 88
+mud = 28
+paste = 73
+powder = 73
+sand = 38
+semisolid = 86
+substance = 33
+
+[pu_verbatim]
+de = "NOMEN Lehm, Haftendes, Knete, Teig, Halbfestes, Paste, Puder"
+en = "NOUN clay, clinging form, dough, semi-solid, paste, powder"
+eo = "SUBSTANTIVO argilo, kunteniĝanta aŭ glueca formo, pasto, duonsolidaĵo, pulvoro"
+fr = "NOM argle, pâte, poudre, substance collante, semi-solide"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🍦"
+sitelen_pona = ["ko"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ko.jpg"
+ucsur = "U+F191C"

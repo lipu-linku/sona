@@ -1,0 +1,32 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["kala kala/jan Salan", "jan Lakuse"]
+see_also = ["te"]
+source_language = "Japanese"
+usage_category = "rare"
+word = "to"
+
+[[etymology]]
+alt = "to"
+word = "と"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/to.mp3"
+
+[ku_data]
+"(closing quotation particle)" = 7
+
+[recognition]
+2021-10 = 38
+2022-08 = 11
+2023-09 = 14
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["to"]
+sitelen_sitelen = ""
+ucsur = ""

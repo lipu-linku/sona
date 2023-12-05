@@ -1,0 +1,28 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = ""
+creator = ["unknown"]
+see_also = ["jan"]
+source_language = "multiple"
+usage_category = "obscure"
+word = "jans"
+
+[[etymology]]
+word = "jan"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jans.mp3"
+
+[recognition]
+2020-04 = 13
+2022-08 = 1
+2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jans"]
+sitelen_sitelen = ""
+ucsur = ""

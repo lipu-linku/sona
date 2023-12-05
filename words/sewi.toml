@@ -1,0 +1,60 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["anpa"]
+source_language = "Georgian"
+usage_category = "core"
+word = "sewi"
+
+[[etymology]]
+alt = "zevit"
+word = "ზევით"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sewi.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sewi.mp3"
+
+[ku_data]
+God = 39
+above = 36
+arise = 25
+divine = 100
+elevated = 69
+high = 60
+highly = 47
+holy = 73
+magical = 30
+peak = 43
+raise = 50
+religious = 25
+rise = 37
+sacred = 80
+sky = 71
+spiritual = 50
+summit = 27
+superior = 36
+supreme = 50
+top = 76
+upper = 100
+upstairs = 25
+weather = 25
+
+[pu_verbatim]
+de = "NOMEN Bereich über etw., höchster Teil, etwas hoch Gelegenes\nADJEKTIV ehrfurchtgebietend, göttlich, heilig, übernatürlich"
+en = "NOUN area above, highest part, something elevated\nADJECTIVE awe-inspiring, divine, sacred, supernatural"
+eo = "SUBSTANTIVO spaco super io, plej alta parto de io, io pli alta\nADJEKTIVO miriga, dia, sankta, supernatura"
+fr = "NOM dessus, le haut, chose élevée\nADJECTIF divin, sacré, surnaturel, qui inspire le respect et la crainte"
+
+[recognition]
+2022-08 = 100
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "⬆️"
+sitelen_pona = ["sewi", "sewi2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
+ucsur = "U+F195A"

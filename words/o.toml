@@ -1,0 +1,47 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["li"]
+source_language = "Georgian"
+usage_category = "core"
+word = "o"
+
+[[etymology]]
+alt = "-o"
+word = "-ო"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/o.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/o.mp3"
+
+[ku_data]
+dare = 9
+dear = 6
+hey = 50
+let = 10
+mandate = 9
+must = 24
+ought = 29
+please = 16
+shall = 42
+should = 37
+
+[pu_verbatim]
+de = "PARTIKEL hey! O! (Vokativ oder Imperativ)"
+en = "PARTICLE hey! O! (vocative or imperative)"
+eo = "PARTIKULO he! (vokativo aŭ imperativo)"
+fr = "PARTICULE hé ! ô ! (vocatif ou impératif)"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👋"
+sitelen_pona = ["o"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/o.jpg"
+ucsur = "U+F1944"

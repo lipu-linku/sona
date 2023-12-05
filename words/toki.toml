@@ -1,0 +1,100 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Tok Pisin"
+usage_category = "core"
+word = "toki"
+
+[[etymology]]
+word = "tok"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/toki.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/toki.mp3"
+
+[ku_data]
+accuse = 25
+admit = 47
+answer = 43
+call = 56
+claim = 27
+comment = 67
+commentary = 50
+communicate = 100
+communication = 100
+confess = 33
+consult = 25
+contact = 50
+conversation = 100
+counsel = 25
+coverage = 25
+declaration = 33
+declare = 44
+describe = 30
+dialogue = 60
+disclose = 50
+discourse = 75
+discuss = 83
+discussion = 82
+excuse = 40
+express = 60
+expression = 42
+feedback = 26
+greet = 36
+hello = 100
+hey = 40
+hi = 88
+interaction = 33
+interview = 44
+language = 94
+mention = 73
+message = 61
+narrative = 53
+negotiate = 30
+phrase = 41
+preach = 31
+proposal = 47
+proposition = 25
+quote = 32
+refer = 62
+remark = 60
+reply = 39
+report = 42
+reporting = 56
+respond = 50
+response = 39
+say = 100
+speak = 100
+specify = 27
+speech = 100
+state = 31
+statement = 92
+story = 44
+suggest = 33
+suggestion = 25
+tale = 46
+talk = 100
+tell = 93
+testify = 43
+verbal = 47
+
+[pu_verbatim]
+de = "VERB kommunizieren, sagen, sprechen, reden, Sprache nutzen, denken"
+en = "VERB to communicate, say, speak, say, talk, use language, think"
+eo = "VERBO komuniki, diri, paroli, uzi lingvon, pensi"
+fr = "VERBE communiquer, dire, parler, penser"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "🗣️"
+sitelen_pona = ["toki"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/toki.jpg"
+ucsur = "U+F196C"

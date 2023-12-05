@@ -1,0 +1,38 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2001"
+creator = ["jan Sonja"]
+see_also = ["sike"]
+source_language = "multiple possibilities"
+usage_category = "widespread"
+word = "leko"
+
+[[etymology]]
+word = "Lego"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/leko.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/leko.mp3"
+
+[ku_data]
+block = 43
+brick = 31
+cube = 50
+polyhedron = 30
+square = 64
+stair = 39
+
+[recognition]
+2020-04 = 52
+2021-10 = 82
+2022-08 = 72
+2023-09 = 70
+
+[representations]
+sitelen_emosi = "🧱"
+sitelen_pona = ["leko"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/leko.jpg"
+ucsur = "U+F197C"

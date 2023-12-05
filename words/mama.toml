@@ -1,0 +1,50 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Georgian"
+usage_category = "core"
+word = "mama"
+
+[[etymology]]
+alt = "mama"
+word = "მამა"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mama.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mama.mp3"
+
+[ku_data]
+creator = 53
+dad = 25
+daddy = 38
+father = 40
+foster = 44
+founder = 30
+mama = 88
+mom = 75
+mommy = 80
+mother = 50
+originator = 43
+parent = 100
+parental = 90
+
+[pu_verbatim]
+de = "NOMEN Eltern, Elternteil, Vorfahr; Schöpfer, Urheber; Betreuer, Erhalter"
+en = "NOUN parent, ancestor; creator, originator; caretaker, sustainer"
+eo = "SUBSTANTIVO patro, patrino, gepatroj, praulo; kreinto, iniciatinto, fondinto; prizorganto, bontenanto"
+fr = "NOM parent, ancêtre ; créateur ; celui ou celle qui prend soin"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👪"
+sitelen_pona = ["mama"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mama.jpg"
+ucsur = "U+F1931"

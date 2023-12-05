@@ -1,0 +1,42 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["kalama"]
+source_language = "onomatopoeia"
+usage_category = "core"
+word = "mu"
+
+[[etymology]]
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mu.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mu.mp3"
+
+[ku_data]
+"animal vocalization" = 93
+cock-a-doodle-doo = 58
+meow = 100
+neigh = 88
+purr = 92
+ribbit = 93
+woof = 100
+
+[pu_verbatim]
+de = "PARTIKEL (Tierlaut oder -kommunikation)"
+en = "PARTICLE (animal noise or communication)"
+eo = "PARTIKULO (bleko, aŭ alia besta sono aŭ komunikaĵo)"
+fr = "PARTICULE (cri ou communication d'un animal)"
+
+[recognition]
+2022-08 = 97
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "😹"
+sitelen_pona = ["mu", "mu2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
+ucsur = "U+F1939"

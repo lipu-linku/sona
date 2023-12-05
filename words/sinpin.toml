@@ -1,0 +1,43 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["monsi"]
+source_language = "Cantonese"
+usage_category = "core"
+word = "sinpin"
+
+[[etymology]]
+alt = "tsin bin"
+word = "前邊"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sinpin.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sinpin.mp3"
+
+[ku_data]
+ahead = 24
+barrier = 22
+"chest (anatomy)" = 27
+"face (n)" = 62
+front = 92
+wall = 50
+
+[pu_verbatim]
+de = "NOMEN Gesicht, Vorderstes, Front, Wand"
+en = "NOUN face, foremost, front, wall"
+eo = "SUBSTANTIVO vizaĝo, antaŭo, muro"
+fr = "NOM avant, visage, front, mur"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "➡️"
+sitelen_pona = ["sinpin"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sinpin.jpg"
+ucsur = "U+F195F"

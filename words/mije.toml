@@ -1,0 +1,45 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["meli", "tonsi"]
+source_language = "Finnish"
+usage_category = "widespread"
+word = "mije"
+
+[[etymology]]
+word = "mies"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mije.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mije.mp3"
+
+[ku_data]
+boyfriend = 29
+"cisgender man" = 50
+gentleman = 24
+guy = 29
+husband = 55
+male = 94
+man = 90
+sir = 35
+"transgender man" = 18
+
+[pu_verbatim]
+de = "NOMEN Mann, Männchen, maskuline Person; Ehemann"
+en = "NOUN man, male, masculine person; husband"
+eo = "SUBSTANTIVO viro, virseksulo; edzo"
+fr = "NOM homme, mâle ; mari"
+
+[recognition]
+2022-08 = 89
+2023-09 = 82
+
+[representations]
+sitelen_emosi = "👨"
+sitelen_pona = ["mije", "mije2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mije.jpg"
+ucsur = "U+F1935"

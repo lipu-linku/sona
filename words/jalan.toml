@@ -1,0 +1,29 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "pre-pu"
+coined_year = "2002"
+creator = ["jan Sonja"]
+see_also = ["noka"]
+source_language = "Finnish"
+usage_category = "obscure"
+word = "jalan"
+
+[[etymology]]
+word = "jalan"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jalan.mp3"
+
+[recognition]
+2020-04 = 13
+2021-10 = 20
+2022-08 = 1
+2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["jalan"]
+sitelen_sitelen = ""
+ucsur = ""

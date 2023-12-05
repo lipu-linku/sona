@@ -1,0 +1,54 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["palisa"]
+source_language = "Finnish"
+usage_category = "core"
+word = "linja"
+
+[[etymology]]
+word = "linja"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/linja.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linja.mp3"
+
+[ku_data]
+cable = 43
+chain = 27
+connect = 27
+connection = 38
+cord = 100
+fibre = 54
+hair = 30
+line = 100
+link = 43
+ray = 36
+rope = 92
+row = 36
+sequence = 29
+straight = 25
+streak = 36
+string = 100
+thread = 65
+wire = 33
+
+[pu_verbatim]
+de = "NOMEN langes/flexibles Ding; Schnur, Haar, Seil, Faden, Garn"
+en = "NOUN long and flexible thing; cord, hair, rope, thread, yarn"
+eo = "SUBSTANTIVO io longa kaj fleksebla; kordo, haro, ŝnuro, fadeno"
+fr = "NOM objet long et flexible : corde, cheveu, fil, ligne"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "〰️"
+sitelen_pona = ["linja"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
+ucsur = "U+F1929"

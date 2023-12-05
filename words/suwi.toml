@@ -1,0 +1,46 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["pona"]
+source_language = "Tok Pisin"
+usage_category = "core"
+word = "suwi"
+
+[[etymology]]
+word = "swit"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/suwi.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suwi.mp3"
+
+[ku_data]
+candy = 65
+cute = 92
+darling = 26
+dessert = 32
+gentle = 33
+soft = 27
+sugar = 58
+sweet = 100
+tender = 31
+treat = 25
+
+[pu_verbatim]
+de = "ADJEKTIV süß, wohlriechend; niedlich, unschuldig, liebenswert"
+en = "ADJECTIVE sweet, fragrant; cute, innocent, adorable"
+eo = "ADJEKTIVO dolĉa, bonodora; ĉarma, senkulpa, aminda"
+fr = "ADJECTIF doux, parfumé, mignon, innocent, adorable"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "🍭"
+sitelen_pona = ["suwi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
+ucsur = "U+F1966"

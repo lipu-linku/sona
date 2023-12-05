@@ -1,0 +1,38 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Dutch"
+usage_category = "core"
+word = "en"
+
+[[etymology]]
+word = "en"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/en.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/en.mp3"
+
+[ku_data]
+and = 50
+plus = 50
+
+[pu_verbatim]
+de = "PARTIKEL (zwischen mehreren Subjekten)"
+en = "PARTICLE (between multiple subjects)"
+eo = "PARTIKULO (inter pluraj subjektoj)"
+fr = "PARTICULE (entre plusieurs sujets)"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "➕"
+sitelen_pona = ["en"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/en.jpg"
+ucsur = "U+F190A"

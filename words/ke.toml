@@ -1,0 +1,32 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2015"
+creator = ["jan Maliku", "jan Kisinja"]
+see_also = ["oke", "n"]
+source_language = "English"
+usage_category = "obscure"
+word = "ke"
+
+[[etymology]]
+word = "’kay"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ke.mp3"
+
+[ku_data]
+alright = 9
+
+[recognition]
+2020-04 = 18
+2021-10 = 23
+2022-08 = 4
+2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["ke"]
+sitelen_sitelen = ""
+ucsur = ""

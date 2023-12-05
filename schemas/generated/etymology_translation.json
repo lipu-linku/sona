@@ -1,0 +1,39 @@
+{
+  "$ref": "#/definitions/etymology_translation",
+  "definitions": {
+    "etymology_translation": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string",
+          "description": "a file path pointing to this JSON schema"
+        }
+      },
+      "required": [
+        "$schema"
+      ],
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "definition": {
+              "type": "string",
+              "description": "The localized definition of the root word in its origin language"
+            },
+            "language": {
+              "type": "string",
+              "description": "The localized name of the language this word originated from"
+            }
+          },
+          "required": [
+            "language"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "description": "Localized etymological values for Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

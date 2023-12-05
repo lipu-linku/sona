@@ -1,0 +1,22 @@
+{
+  "$ref": "#/definitions/definition_translation",
+  "definitions": {
+    "definition_translation": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string",
+          "description": "a file path pointing to this JSON schema"
+        }
+      },
+      "required": [
+        "$schema"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Localized definitions of Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

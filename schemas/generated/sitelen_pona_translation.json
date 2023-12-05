@@ -1,0 +1,22 @@
+{
+  "$ref": "#/definitions/sitelen_pona_translation",
+  "definitions": {
+    "sitelen_pona_translation": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string",
+          "description": "a file path pointing to this JSON schema"
+        }
+      },
+      "required": [
+        "$schema"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

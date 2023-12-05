@@ -1,0 +1,26 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["jan Kiwisin", "jan Telupiso"]
+see_also = []
+source_language = "Spanish"
+usage_category = "obscure"
+word = "we"
+
+[[etymology]]
+word = "güey"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
+
+[recognition]
+2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = []
+sitelen_sitelen = ""
+ucsur = ""

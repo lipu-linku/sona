@@ -1,0 +1,55 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "English"
+usage_category = "core"
+word = "jaki"
+
+[[etymology]]
+word = "yucky"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jaki.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaki.mp3"
+
+[ku_data]
+bacteria = 67
+bullshit = 27
+crap = 47
+dirty = 93
+disease = 37
+disgusting = 79
+garbage = 86
+gross = 87
+illness = 20
+infection = 44
+junk = 75
+mess = 82
+nasty = 62
+pollution = 27
+shit = 33
+toxic = 47
+trash = 89
+virus = 30
+waste = 47
+
+[pu_verbatim]
+de = "ADJEKTIV eklig, obszön, krank, giftig, unsauber, unhygienisch"
+en = "ADJECTIVE disgusting, obscene, sickly, toxic, unclean, unsanitary"
+eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
+fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "💩"
+sitelen_pona = ["jaki"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
+ucsur = "U+F1910"

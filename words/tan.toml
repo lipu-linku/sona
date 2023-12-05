@@ -1,0 +1,52 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Cantonese"
+usage_category = "core"
+word = "tan"
+
+[[etymology]]
+alt = "tsung"
+word = "從"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tan.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tan.mp3"
+
+[ku_data]
+basis = 40
+"because of" = 80
+"behalf of" = 40
+by = 70
+cause = 36
+factor = 29
+from = 93
+incentive = 27
+motive = 38
+origin = 40
+per = 33
+purpose = 33
+reason = 86
+since = 32
+source = 64
+
+[pu_verbatim]
+de = "PRÄPOSITION von, wegen"
+en = "PREPOSITION by, from, because of"
+eo = "PREPOZICIO fare de, el, pro"
+fr = "PRÉPOSITION de, provenant de, à cause de"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "↩️"
+sitelen_pona = ["tan"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tan.jpg"
+ucsur = "U+F1967"

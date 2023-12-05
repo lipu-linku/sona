@@ -1,0 +1,34 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["o"]
+source_language = "Esperanto"
+usage_category = "core"
+word = "li"
+
+[[etymology]]
+word = "li"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/li.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/li.mp3"
+
+[pu_verbatim]
+de = "PARTIKEL (zwischen jedem Subjekt und dem zugehörigen Verb, außer bei einzelnem mi oder einzelnem sina; auch um ein neues Verb für dasselbe Subjekt einzuleiten)"
+en = "PARTICLE (between any subject except mi alone or sina alone and its verb; also to introduce a new verb for the same subject)"
+eo = "PARTIKULO (inter subjekto krom sola mi aŭ sola sina kaj ties verbo; ankaŭ por enkonduki novan verbon de la sama subjekto)"
+fr = "PARTICULE (entre le sujet et son verbe, à l'exception de mi ou sina tout seul ; sert aussi à introduire un nouveau verbe pour le même sujet)"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "▶️"
+sitelen_pona = ["li"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/li.jpg"
+ucsur = "U+F1927"

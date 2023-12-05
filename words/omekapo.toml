@@ -1,0 +1,28 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["jan Maliku"]
+see_also = []
+source_language = "toki pona"
+usage_category = "uncommon"
+word = "omekapo"
+
+[[etymology]]
+word = "o moku e kala pona"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omekapo.mp3"
+
+[recognition]
+2021-10 = 38
+2022-08 = 16
+2023-09 = 20
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["omekapo"]
+sitelen_sitelen = ""
+ucsur = ""

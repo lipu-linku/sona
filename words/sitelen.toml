@@ -1,0 +1,66 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Dutch"
+usage_category = "core"
+word = "sitelen"
+
+[[etymology]]
+word = "schilderen"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sitelen.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sitelen.mp3"
+
+[ku_data]
+compose = 25
+depict = 68
+draw = 67
+drawing = 88
+graph = 27
+graphic = 93
+icon = 53
+illustrate = 75
+illustration = 86
+image = 97
+"letter (of alphabet)" = 24
+mark = 47
+note = 30
+painting = 75
+pattern = 28
+photo = 85
+photograph = 64
+picture = 100
+portrait = 55
+portray = 45
+poster = 27
+record = 40
+render = 36
+representation = 50
+sign = 29
+symbol = 89
+text = 33
+write = 75
+writing = 75
+written = 73
+
+[pu_verbatim]
+de = "NOMEN Bild, Abbildung, Repräsentation, Symbol, Zeichen, Schrift"
+en = "NOUN image, picture, representation, symbol, mark, writing"
+eo = "SUBSTANTIVO bildo, figuro, simbolo, markaĵo, skribaĵo"
+fr = "NOM image, représentation, symbole, marque, écriture"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "🖼️"
+sitelen_pona = ["sitelen"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
+ucsur = "U+F1960"

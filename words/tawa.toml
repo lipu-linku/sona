@@ -1,0 +1,74 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["awen", "kama"]
+source_language = "English"
+usage_category = "core"
+word = "tawa"
+
+[[etymology]]
+word = "toward"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tawa.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tawa.mp3"
+
+[ku_data]
+"according to" = 33
+advance = 56
+approach = 27
+attend = 25
+cross = 29
+departure = 45
+drift = 35
+for = 81
+forth = 36
+forward = 26
+"from the perspective of" = 44
+go = 100
+march = 38
+migration = 46
+mobile = 30
+momentum = 25
+motion = 100
+move = 100
+movement = 94
+onto = 55
+pass = 50
+proceed = 36
+progress = 25
+push = 43
+slide = 36
+till = 27
+to = 93
+toward = 100
+towards = 93
+transfer = 29
+transit = 80
+transport = 50
+transportation = 60
+travel = 69
+trip = 60
+until = 30
+walk = 58
+walking = 47
+
+[pu_verbatim]
+de = "PRÄPOSITION sich bewegend zu, gerichtet auf; um zu; aus der\nADJEKTIV sich bewegend, beweglich"
+en = "PREPOSITION going to, toward; for; from the perspective of\nADJECTIVE moving"
+eo = "PREPOZICIO al, iranta al, en la direkto al; por, al; laŭ la vidpunkto\nADJEKTIVO moviĝanta"
+fr = "PRÉPOSITION à, allant à, vers, pour, du point de vue de\nADJECTIF en mouvement, animé"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "↪️"
+sitelen_pona = ["tawa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tawa.jpg"
+ucsur = "U+F1969"

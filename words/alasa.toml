@@ -1,0 +1,52 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["lukin"]
+source_language = "Acadian French"
+usage_category = "core"
+word = "alasa"
+
+[[etymology]]
+word = "à la chasse"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/alasa.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alasa.mp3"
+
+[ku_data]
+catch = 26
+chase = 39
+collect = 33
+explore = 44
+finding = 58
+gather = 61
+hunt = 100
+hunting = 87
+locate = 38
+pursue = 74
+pursuit = 75
+quest = 33
+search = 75
+seek = 56
+try = 36
+
+[pu_verbatim]
+de = "VERB jagen, nach Nahrung suchen"
+en = "VERB to hunt, forage"
+eo = "VERBO ĉasi, kolekti"
+fr = "VERBE chasser, cueillir"
+
+[recognition]
+2020-04 = 97
+2022-08 = 97
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🏹"
+sitelen_pona = ["alasa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
+ucsur = "U+F1903"

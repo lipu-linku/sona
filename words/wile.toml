@@ -1,0 +1,93 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Dutch"
+usage_category = "core"
+word = "wile"
+
+[[etymology]]
+word = "willen"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/wile.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wile.mp3"
+
+[ku_data]
+agenda = 41
+ambition = 67
+choice = 27
+choose = 35
+consent = 35
+criteria = 36
+dare = 36
+decision = 54
+demand = 50
+depend = 32
+dependent = 31
+deserve = 30
+desire = 87
+determination = 33
+eager = 50
+elect = 31
+enthusiasm = 25
+expectation = 33
+goal = 40
+hope = 67
+incentive = 27
+intend = 93
+intent = 80
+intention = 84
+interest = 25
+interested = 36
+motivation = 75
+motive = 38
+must = 59
+necessary = 70
+necessity = 73
+need = 88
+objective = 33
+obligation = 56
+opt = 36
+ought = 71
+pick = 33
+prefer = 67
+preference = 79
+request = 47
+require = 90
+required = 61
+requirement = 64
+select = 38
+selection = 29
+shall = 33
+should = 53
+strive = 27
+supposed = 25
+urge = 33
+want = 100
+will = 81
+willing = 83
+willingness = 67
+wish = 94
+would = 38
+yearn = 71
+
+[pu_verbatim]
+de = "HILFSVERB müssen, brauchen, sollen, wollen, wünschen"
+en = "PRE-VERB must, need, require, should, want, wish"
+eo = "ANTAŬVERBO devi, bezoni, devus …i, voli, deziri"
+fr = "AUXILIAIRE devoir, avoir besoin de, vouloir"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "💭"
+sitelen_pona = ["wile", "wile2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wile.jpg"
+ucsur = "U+F1977"

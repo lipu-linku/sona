@@ -1,0 +1,31 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan Sonja"]
+see_also = []
+source_language = "a priori"
+usage_category = "uncommon"
+word = "yupekosi"
+
+[[etymology]]
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/yupekosi.mp3"
+
+[ku_data]
+"change a creative work and unintentionally make it worse" = 50
+
+[recognition]
+2020-04 = 27
+2021-10 = 40
+2022-08 = 16
+2023-09 = 22
+
+[representations]
+sitelen_emosi = "📉"
+sitelen_pona = ["yupekosi"]
+sitelen_sitelen = ""
+ucsur = ""

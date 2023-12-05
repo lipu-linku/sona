@@ -1,0 +1,34 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2009"
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "widespread"
+word = "kijetesantakalu"
+
+[[etymology]]
+word = "kierteishäntäkarhu"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kijetesantakalu.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kijetesantakalu.mp3"
+
+[ku_data]
+Musteloidea = 30
+procyonid = 53
+
+[recognition]
+2020-04 = 62
+2021-10 = 71
+2022-08 = 73
+2023-09 = 75
+
+[representations]
+sitelen_emosi = "🦝"
+sitelen_pona = ["kijetesantakalu"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kijetesantakalu.jpg"
+ucsur = "U+F1980"

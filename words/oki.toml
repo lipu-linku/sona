@@ -1,0 +1,27 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["unknown"]
+see_also = []
+source_language = "English"
+usage_category = "obscure"
+word = "oki"
+
+[[etymology]]
+word = "okie"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oki.mp3"
+
+[recognition]
+2022-08 = 1
+2023-09 = 4
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["oki"]
+sitelen_sitelen = ""
+ucsur = ""

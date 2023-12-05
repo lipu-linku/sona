@@ -1,0 +1,61 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Lojban"
+usage_category = "core"
+word = "lupa"
+
+[[etymology]]
+word = "clupa"
+
+[[etymology]]
+alt = "quān"
+word = "圈"
+
+[[etymology]]
+word = "loop"
+
+[[etymology]]
+alt = "pāś"
+word = "पाश"
+
+[[etymology]]
+alt = "anšūṭa"
+word = "أنشوطة‏"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lupa.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lupa.mp3"
+
+[ku_data]
+dig = 21
+door = 87
+entrance = 40
+gap = 27
+gate = 45
+hole = 94
+opening = 27
+orifice = 79
+pit = 77
+window = 57
+
+[pu_verbatim]
+de = "NOMEN Tür, Loch, Öffnung, Fenster"
+en = "NOUN door, hole, orifice, window"
+eo = "SUBSTANTIVO pordo, truo, korpa aperturo, fenestro"
+fr = "NOM porte, trou, orifice, fenêtre"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🕳️"
+sitelen_pona = ["lupa"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
+ucsur = "U+F192F"

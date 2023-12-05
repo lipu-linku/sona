@@ -1,0 +1,27 @@
+"$schema" = "../schemas/generated/word.json"
+author_verbatim = "I thought of another word which would mean the \"ego\", \"self\", \"own\",because Toki Pona doesn't have reflexive voice and pronoun like inthe sentences \"he's watching himself (and not somebody else)\" or \"Hetake his own(not her) hand\". I called it \"sipi\" (as it is \"sibi\" inLatin). Then it would be \"ona li lukin e sipi (pi ona)\" (he watcheshis ego) and \"ona li jo e luka sipi (pi ona)\" (he takes his ego'shand). It would also be used to compound words like \"egoism\"(nasin/pilin sipi) and so on...What do you think?"
+author_verbatim_source = "http://forums.tokipona.org/viewtopic.php?f=33&t=639&hilit=word+requests&sid=401a37e08cc5150e7a0738d068ea4a77&start=50#p2368"
+book = "none"
+coined_era = "pre-pu"
+coined_year = "2007"
+creator = ["spad0103"]
+see_also = []
+source_language = "Latin"
+usage_category = "obscure"
+word = "sipi"
+
+[[etymology]]
+word = "sibi (dative reflexive pronoun)"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sipi.mp3"
+
+[recognition]
+2022-08 = 0
+2023-09 = 1
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["sipi"]
+sitelen_sitelen = ""
+ucsur = ""
