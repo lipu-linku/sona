@@ -1,0 +1,46 @@
+name: Package TOMLs into JSON
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "**.toml"
+
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "**.toml"
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for JSON schema to generate
+        uses: lewagon/wait-on-check-action@v1.3.1
+        with:
+          ref: ${{ github.ref }}
+          check-name: "Generate JSON Schemas"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 5
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Install script dependencies
+        run: pip install tomlkit
+
+      - name: Generate raw data file
+        run: python .github/workflows/package_data.py ${{ github.sha }}
+
+      - name: Commit schemas
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generated data.json for ${{ github.sha }}"

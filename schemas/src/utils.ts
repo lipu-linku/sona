@@ -1,4 +1,3 @@
-import { Static, Type } from "@sinclair/typebox";
 import { z } from "zod";
 
 export const Book = z.union([
