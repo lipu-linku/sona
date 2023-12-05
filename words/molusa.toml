@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/word.json"
+"$schema" = "../schemas/generated/word.json"
 author_verbatim = "hm i am considering making a nimisin for mollusks, if that isn’t already a thing"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/861476478021533696"
 book = "none"

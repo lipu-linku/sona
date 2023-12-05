@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/word.json"
+"$schema" = "../schemas/generated/word.json"
 author_verbatim = "what about a compromise?"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/520065545266004020"
 book = "none"

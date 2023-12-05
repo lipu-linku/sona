@@ -206,7 +206,7 @@ def main():
     # or crowdin will solve this for us
     for word, worddata in WORDS.items():
         worddata["representations"] = REPRESENTATIONS[word]
-        worddata["$schema"] = "../../schemas/generated/word.json"
+        worddata["$schema"] = "../schemas/generated/word.json"
         with open(f"../words/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
             f.write(tomlified)

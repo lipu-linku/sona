@@ -27,13 +27,21 @@
           "description": "Which official Toki Pona book was this word featured in, if any."
         },
         "coined_era": {
-          "type": "string",
-          "enum": [
-            "pre-pu",
-            "post-pu",
-            "post-ku"
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "pre-pu",
+                "post-pu",
+                "post-ku"
+              ]
+            },
+            {
+              "type": "string",
+              "const": ""
+            }
           ],
-          "description": "When this word was coined (relative to the publication dates of the official Toki Pona books)"
+          "description": "When this word was coined (relative to the publication dates of the official Toki Pona books, if known)"
         },
         "coined_year": {
           "type": "string",

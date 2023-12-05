@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/word.json"
+"$schema" = "../schemas/generated/word.json"
 author_verbatim = "distress, affliction, adversity, pain"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1072666397626335242"
 book = "none"
