@@ -37,6 +37,6 @@ if __name__ == "__main__":
         result[
             "$schema"
         ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(sys.argv[1])}/schemas/generated/data.json"
-        data_file.write(json.dumps(result))
+        data_file.write(json.dumps(result, separators=(',', ':')))
 
     print("Done!")
