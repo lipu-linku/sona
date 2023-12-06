@@ -36,7 +36,7 @@ jobs:
               cwd: ./schemas
 
       - name: Generate JSON Schemas
-        run: pnpm run generate:schemas
+        run: pnpm run generate
 
       - name: Commit schemas
         id: commit
