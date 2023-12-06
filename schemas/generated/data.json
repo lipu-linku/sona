@@ -6,286 +6,294 @@
       "properties": {
         "$schema": {
           "type": "string",
-          "description": "a file path pointing to this JSON schema"
-        },
-        "author_verbatim": {
-          "type": "string",
-          "description": "The author's original definition, taken verbatim in their words"
-        },
-        "author_verbatim_source": {
-          "type": "string",
-          "description": "Where the author's original definition is located (usually Discord)"
-        },
-        "book": {
-          "type": "string",
-          "enum": [
-            "pu",
-            "ku suli",
-            "ku lili",
-            "none"
-          ],
-          "description": "Which official Toki Pona book was this word featured in, if any."
-        },
-        "coined_era": {
-          "anyOf": [
-            {
-              "type": "string",
-              "enum": [
-                "pre-pu",
-                "post-pu",
-                "post-ku"
-              ]
-            },
-            {
-              "type": "string",
-              "const": ""
-            }
-          ],
-          "description": "When this word was coined (relative to the publication dates of the official Toki Pona books, if known)"
-        },
-        "coined_year": {
-          "type": "string",
-          "description": "The year when this word was coined (if known)"
-        },
-        "creator": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "description": "The person who created this word (if known)"
-        },
-        "ku_data": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 100
-          },
-          "description": "The usage data of the word as described in ku (the official Toki Pona dictionary)"
-        },
-        "see_also": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "description": "A list of related words"
-        },
-        "representations": {
-          "type": "object",
-          "properties": {
-            "sitelen_emosi": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
-                },
-                {
-                  "type": "string",
-                  "const": ""
-                }
-              ],
-              "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji"
-            },
-            "sitelen_pona": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              },
-              "description": "A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs"
-            },
-            "sitelen_sitelen": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "format": "uri"
-                },
-                {
-                  "type": "string",
-                  "const": ""
-                }
-              ],
-              "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"
-            },
-            "ucsur": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "pattern": "^U\\+[\\da-fA-F]{4,6}$"
-                },
-                {
-                  "type": "string",
-                  "const": ""
-                }
-              ],
-              "description": "The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html"
-            }
-          },
-          "required": [
-            "sitelen_emosi",
-            "sitelen_pona",
-            "sitelen_sitelen",
-            "ucsur"
-          ],
-          "additionalProperties": false,
-          "description": "Ways of representing this word in the real world, via text/computers"
-        },
-        "source_language": {
-          "type": "string",
-          "description": "The language this word originated from"
-        },
-        "usage_category": {
-          "type": "string",
-          "enum": [
-            "core",
-            "widespread",
-            "common",
-            "uncommon",
-            "rare",
-            "obscure"
-          ],
-          "description": "The word's usage category, according to a survey performed by the Linku Project"
-        },
-        "word": {
-          "type": "string",
-          "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
-        },
-        "etymology": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "word": {
-                "type": "string",
-                "description": "One of the root words of this word, as written out in its language of origin"
-              },
-              "alt": {
-                "type": "string",
-                "description": "A latinized representation of the \"word\" field"
-              }
-            },
-            "additionalProperties": false
-          },
-          "description": "Unlocalized etymological values regarding this word's origin"
-        },
-        "audio": {
-          "type": "object",
-          "properties": {
-            "jan_lakuse": {
-              "type": "string",
-              "format": "uri",
-              "description": "jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse"
-            },
-            "kala_asi": {
-              "type": "string",
-              "format": "uri",
-              "description": "kala Asi's pronounciation of the word, made for the Linku Project"
-            }
-          },
-          "required": [
-            "kala_asi"
-          ],
-          "additionalProperties": false,
-          "description": "Audio files of the words pronounced out loud"
-        },
-        "pu_verbatim": {
-          "type": "object",
-          "properties": {
-            "en": {
-              "type": "string",
-              "description": "The original definition in the English version of pu"
-            },
-            "fr": {
-              "type": "string",
-              "description": "The original definition in the French version of pu"
-            },
-            "de": {
-              "type": "string",
-              "description": "The original definition in the German version of pu"
-            },
-            "eo": {
-              "type": "string",
-              "description": "The original definition in the Esperanto version of pu"
-            }
-          },
-          "required": [
-            "en",
-            "fr",
-            "de",
-            "eo"
-          ],
-          "additionalProperties": false,
-          "description": "The original definition of the word in pu, the first official Toki Pona book"
-        },
-        "recognition": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 100
-          },
-          "description": "The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project"
-        },
-        "translations": {
-          "type": "object",
-          "properties": {
-            "commentary": {
-              "type": "string"
-            },
-            "definitions": {
-              "type": "string"
-            },
-            "etymology": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "definition": {
-                    "type": "string",
-                    "description": "The localized definition of the root word in its origin language"
-                  },
-                  "language": {
-                    "type": "string",
-                    "description": "The localized name of the language this word originated from"
-                  }
-                },
-                "required": [
-                  "language"
-                ],
-                "additionalProperties": false
-              }
-            },
-            "sp_etymology": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "commentary",
-            "definitions",
-            "etymology",
-            "sp_etymology"
-          ],
-          "additionalProperties": false
+          "format": "uri"
         }
       },
       "required": [
-        "$schema",
-        "author_verbatim",
-        "author_verbatim_source",
-        "book",
-        "coined_era",
-        "coined_year",
-        "creator",
-        "see_also",
-        "representations",
-        "source_language",
-        "usage_category",
-        "word",
-        "etymology",
-        "audio",
-        "recognition",
-        "translations"
+        "$schema"
       ],
-      "additionalProperties": false,
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "author_verbatim": {
+            "type": "string",
+            "description": "The author's original definition, taken verbatim in their words"
+          },
+          "author_verbatim_source": {
+            "type": "string",
+            "description": "Where the author's original definition is located (usually Discord)"
+          },
+          "book": {
+            "type": "string",
+            "enum": [
+              "pu",
+              "ku suli",
+              "ku lili",
+              "none"
+            ],
+            "description": "Which official Toki Pona book was this word featured in, if any."
+          },
+          "coined_era": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "pre-pu",
+                  "post-pu",
+                  "post-ku"
+                ]
+              },
+              {
+                "type": "string",
+                "const": ""
+              }
+            ],
+            "description": "When this word was coined (relative to the publication dates of the official Toki Pona books, if known)"
+          },
+          "coined_year": {
+            "type": "string",
+            "description": "The year when this word was coined (if known)"
+          },
+          "creator": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The person who created this word (if known)"
+          },
+          "ku_data": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "description": "The usage data of the word as described in ku (the official Toki Pona dictionary)"
+          },
+          "see_also": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "A list of related words"
+          },
+          "representations": {
+            "type": "object",
+            "properties": {
+              "sitelen_emosi": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
+                  },
+                  {
+                    "type": "string",
+                    "const": ""
+                  }
+                ],
+                "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji"
+              },
+              "sitelen_pona": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs"
+              },
+              "sitelen_sitelen": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "string",
+                    "const": ""
+                  }
+                ],
+                "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"
+              },
+              "ucsur": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+                  },
+                  {
+                    "type": "string",
+                    "const": ""
+                  }
+                ],
+                "description": "The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html"
+              }
+            },
+            "required": [
+              "sitelen_emosi",
+              "sitelen_pona",
+              "sitelen_sitelen",
+              "ucsur"
+            ],
+            "additionalProperties": false,
+            "description": "Ways of representing this word in the real world, via text/computers"
+          },
+          "source_language": {
+            "type": "string",
+            "description": "The language this word originated from"
+          },
+          "usage_category": {
+            "type": "string",
+            "enum": [
+              "core",
+              "widespread",
+              "common",
+              "uncommon",
+              "rare",
+              "obscure"
+            ],
+            "description": "The word's usage category, according to a survey performed by the Linku Project"
+          },
+          "word": {
+            "type": "string",
+            "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
+          },
+          "etymology": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "description": "One of the root words of this word, as written out in its language of origin"
+                },
+                "alt": {
+                  "type": "string",
+                  "description": "A latinized representation of the \"word\" field"
+                }
+              },
+              "additionalProperties": false
+            },
+            "description": "Unlocalized etymological values regarding this word's origin"
+          },
+          "audio": {
+            "type": "object",
+            "properties": {
+              "jan_lakuse": {
+                "type": "string",
+                "format": "uri",
+                "description": "jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse"
+              },
+              "kala_asi": {
+                "type": "string",
+                "format": "uri",
+                "description": "kala Asi's pronounciation of the word, made for the Linku Project"
+              }
+            },
+            "required": [
+              "kala_asi"
+            ],
+            "additionalProperties": false,
+            "description": "Audio files of the words pronounced out loud"
+          },
+          "pu_verbatim": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "description": "The original definition in the English version of pu"
+              },
+              "fr": {
+                "type": "string",
+                "description": "The original definition in the French version of pu"
+              },
+              "de": {
+                "type": "string",
+                "description": "The original definition in the German version of pu"
+              },
+              "eo": {
+                "type": "string",
+                "description": "The original definition in the Esperanto version of pu"
+              }
+            },
+            "required": [
+              "en",
+              "fr",
+              "de",
+              "eo"
+            ],
+            "additionalProperties": false,
+            "description": "The original definition of the word in pu, the first official Toki Pona book"
+          },
+          "recognition": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "description": "The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project"
+          },
+          "translations": {
+            "type": "object",
+            "properties": {
+              "commentary": {
+                "type": "string"
+              },
+              "definitions": {
+                "type": "string"
+              },
+              "etymology": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "definition": {
+                      "type": "string",
+                      "description": "The localized definition of the root word in its origin language"
+                    },
+                    "language": {
+                      "type": "string",
+                      "description": "The localized name of the language this word originated from"
+                    }
+                  },
+                  "required": [
+                    "language"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "sp_etymology": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "commentary",
+              "definitions",
+              "etymology",
+              "sp_etymology"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "author_verbatim",
+          "author_verbatim_source",
+          "book",
+          "coined_era",
+          "coined_year",
+          "creator",
+          "see_also",
+          "representations",
+          "source_language",
+          "usage_category",
+          "word",
+          "etymology",
+          "audio",
+          "recognition",
+          "translations"
+        ],
+        "additionalProperties": false,
+        "description": "General info on a Toki Pona word"
+      },
       "description": "A raw data object containing all the sona data"
     }
   },

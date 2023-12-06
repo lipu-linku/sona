@@ -156,11 +156,18 @@ export const EtymologyTranslation = z
 
 export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
 
-export const Data = Word.extend({
-	translations: z.object({
-		commentary: CommentaryTranslation._def.catchall,
-		definitions: DefinitionTranslation._def.catchall,
-		etymology: EtymologyTranslation._def.catchall,
-		sp_etymology: SitelenPonaTranslation._def.catchall,
-	}),
-}).describe("A raw data object containing all the sona data");
+export const Data = z
+	.object({
+		$schema: z.string().url(),
+	})
+	.catchall(
+		Word.omit({ $schema: true }).extend({
+			translations: z.object({
+				commentary: CommentaryTranslation._def.catchall,
+				definitions: DefinitionTranslation._def.catchall,
+				etymology: EtymologyTranslation._def.catchall,
+				sp_etymology: SitelenPonaTranslation._def.catchall,
+			}),
+		}),
+	)
+	.describe("A raw data object containing all the sona data");

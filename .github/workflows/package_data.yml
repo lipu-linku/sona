@@ -26,12 +26,15 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
 
-      - name: Install script dependencies
-        run: pip install tomlkit
+      - name: Install dependencies
+        run: pip install tomlkit check-jsonschema
 
       - name: Generate raw data file
         run: python .github/workflows/package_data.py ${{ github.sha }}
 
+      - name: Validate generated file
+        run: npx ajv-cli -s ./schemas/generated/data.json --errors=text -d ./raw/data.json
+      
       - name: Commit schemas
         uses: EndBug/add-and-commit@v9
         with:
