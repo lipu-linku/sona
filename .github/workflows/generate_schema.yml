@@ -3,8 +3,14 @@ name: Generate JSON Schemas
 on:
   push:
     branches: ["main"]
+    paths:
+      - "schemas/src/**.ts"
+
   pull_request:
     branches: ["main"]
+    paths:
+      - "schemas/src/**.ts"
+
   workflow_dispatch:
 
 permissions:
