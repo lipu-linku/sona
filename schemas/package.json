@@ -27,7 +27,7 @@
 	"scripts": {
 		"generate": "tsx ./generateSchemas.ts",
 		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
-		"build:lib": "tsup ./src/**/*.ts --dts --format esm"
+		"build": "tsup ./src/**/*.ts --dts --format esm"
 	},
 	"dependencies": {
 		"zod": "^3.22.4"
@@ -43,6 +43,23 @@
 	},
 	"engines": {
 		"pnpm": ">=8"
+	},
+	"files": [
+		"/dist",
+		"/generated"
+	],
+	"main": "./dist/index.js",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"node": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./utils": {
+			"import": "./dist/utils.js",
+			"node": "./dist/utils.js",
+			"types": "./dist/utils.d.ts"
+		}
 	},
 	"packageManager": "pnpm@8.11.0",
 	"type": "module"
