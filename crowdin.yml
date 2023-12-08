@@ -1,0 +1,3 @@
+files:
+  - source: /source/*.toml
+    translation: /translations/%language%/%original_file_name%
