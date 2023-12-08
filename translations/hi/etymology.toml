@@ -1,5 +1,4 @@
 "$schema" = "../../schemas/generated/etymology_translation.json"
-ako = []
 
 [[Pingo]]
 language = "a priori"
@@ -18,6 +17,10 @@ language = "English"
 [[akesi]]
 definition = "lizard"
 language = "Dutch"
+
+[[ako]]
+definition = "(interjection) surprise"
+language = "Korean"
 
 [[ala]]
 definition = "no"
@@ -162,7 +165,7 @@ definition = "person"
 language = "Cantonese"
 
 [[jans]]
-definition = "jan"
+definition = "person, people"
 language = "toki pona"
 
 [[jasima]]
