@@ -162,12 +162,14 @@ export const Data = z
 	})
 	.catchall(
 		Word.omit({ $schema: true }).extend({
-			translations: z.object({
-				commentary: CommentaryTranslation._def.catchall,
-				definitions: DefinitionTranslation._def.catchall,
-				etymology: EtymologyTranslation._def.catchall,
-				sp_etymology: SitelenPonaTranslation._def.catchall,
-			}),
+			translations: z.record(
+				z.object({
+					commentary: CommentaryTranslation._def.catchall,
+					definitions: DefinitionTranslation._def.catchall,
+					etymology: EtymologyTranslation._def.catchall,
+					sp_etymology: SitelenPonaTranslation._def.catchall,
+				}),
+			),
 		}),
 	)
 	.describe("A raw data object containing all the sona data");
