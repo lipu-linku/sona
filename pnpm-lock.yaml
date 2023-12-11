@@ -17,6 +17,9 @@ importers:
       hono:
         specifier: ^3.11.3
         version: 3.11.3
+      yaml:
+        specifier: ^2.3.4
+        version: 2.3.4
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -1372,7 +1375,6 @@ packages:
   /yaml@2.3.4:
     resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
-    dev: true
 
   /zod-to-json-schema@3.22.1(zod@3.22.4):
     resolution: {integrity: sha512-bVSWQ2JF3ZglQefafkM+Kk9KQ2fqqSi4VhxWaup1NJX9FS5jDg0EkEioVCWui0PiIQvcXJUjmN71bg672+a+tA==}
