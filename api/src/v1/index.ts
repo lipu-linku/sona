@@ -14,6 +14,8 @@ app.get("/word/:word", async (c) => {
 
 	const languages = c.req.query("lang")?.split(",") ?? ["en"];
 
+	if (languages.length === 1 && languages[0] === "*") return c.json(word);
+
 	return c.json({
 		...word,
 		translations: Object.fromEntries(
