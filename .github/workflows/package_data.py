@@ -28,15 +28,19 @@ if __name__ == "__main__":
         with open(path) as file:
             print(f"Reading {path}...")
             localized_data = tomlkit.load(file)
+            locale = os.path.dirname(path)[path.rfind("/", 0, path.rfind("/")) + 1 :]
             data_kind = os.path.basename(path[: path.index(".toml")])
 
             for word in (word for word in localized_data.keys() if word != "$schema"):
-                result[word]["translations"][data_kind] = localized_data[word]
+                if locale not in result[word]["translations"]:
+                    result[word]["translations"][locale] = {}
+
+                result[word]["translations"][locale][data_kind] = localized_data[word]
 
     with open("raw/data.json", "w+") as data_file:
         result[
             "$schema"
         ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(sys.argv[1])}/schemas/generated/data.json"
-        data_file.write(json.dumps(result, separators=(',', ':')))
+        data_file.write(json.dumps(result, separators=(",", ":")))
 
     print("Done!")
