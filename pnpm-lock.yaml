@@ -14,9 +14,6 @@ importers:
       '@linku/sona':
         specifier: workspace:^
         version: link:../schemas
-      '@taplo/lib':
-        specifier: 0.4.0-alpha.2
-        version: 0.4.0-alpha.2
       hono:
         specifier: ^3.11.3
         version: 3.11.3
@@ -30,6 +27,9 @@ importers:
       '@total-typescript/ts-reset':
         specifier: ^0.5.1
         version: 0.5.1
+      '@types/node':
+        specifier: ^20.10.1
+        version: 20.10.4
       esbuild:
         specifier: ^0.19.8
         version: 0.19.8
@@ -620,16 +620,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@taplo/core@0.1.1:
-    resolution: {integrity: sha512-BG/zLGf5wiNXGEVPvUAAX/4ilB3PwDUY2o0MV0y47mZbDZ9ad9UK/cIQsILat3bqbPJsALVbU6k3cskNZ3vAQg==}
-    dev: false
-
-  /@taplo/lib@0.4.0-alpha.2:
-    resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
-    dependencies:
-      '@taplo/core': 0.1.1
-    dev: false
 
   /@total-typescript/ts-reset@0.5.1:
     resolution: {integrity: sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==}
