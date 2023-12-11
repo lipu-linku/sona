@@ -11,7 +11,10 @@ usage_category = "obscure"
 word = "wasoweli"
 
 [[etymology]]
-word = "waso + soweli"
+word = "waso"
+
+[[etymology]]
+word = "soweli"
 
 [audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wasoweli.mp3"
