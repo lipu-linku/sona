@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Lepeka"]
+features = ["ASCII transcription and codepoints", "UCSUR-compliant", "supports cartouches", "extended glyphs", "combined glyphs", "ZWJ sequences", "character variants", "randomized jaki", "supports all ku lili and extensively more"]
+filename = "fairfax-pona.ttf"
+last_updated = "2023-10"
+license = "OFL"
+ligatures = true
+name = "Fairfax Pona"
+style = "pixelated"
+ucsur = true
+version = "2023.10.28"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/kreativekorp/open-relay/raw/master/Fairfax/FairfaxPona.ttf"
+repo = "https://github.com/kreativekorp/open-relay/tree/master/Fairfax"
+webpage = "https://www.kreativekorp.com/software/fonts/fairfaxpona/"

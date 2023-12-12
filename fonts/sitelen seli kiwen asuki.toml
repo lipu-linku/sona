@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Lepeka"]
+features = ["ASCII transcription and codepoints", "UCSUR-compliant", "supports cartouches", "extended glyphs", "combined glyphs", "ZWJ sequences", "character variants", "randomized jaki", "supports all ku lili and extensively more"]
+filename = "sitelenselikiwenasuki.ttf"
+last_updated = "2023-10"
+license = "OFL"
+ligatures = true
+name = "sitelen seli kiwen asuki"
+style = "handwritten"
+ucsur = true
+version = "1.3"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/kreativekorp/sitelen-seli-kiwen/raw/main/sitelenselikiwenasuki.ttf"
+repo = "https://github.com/kreativekorp/sitelen-seli-kiwen"
+webpage = "https://www.kreativekorp.com/software/fonts/sitelenselikiwen/"

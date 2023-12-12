@@ -1,0 +1,15 @@
+"$schema" = "../schemas/generated/font.json"
+creator = []
+features = ["codepoints only", "UCSUR-compliant", "supports ku suli and rest of the UCSUR characters", "cartouches", "long pi"]
+filename = "sitelen-lili.ttf"
+last_updated = "2022-08"
+license = "all rights reserved"
+ligatures = false
+name = "sitelen lili"
+style = "uniform line weight, alternate design"
+ucsur = true
+version = "1.000"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/340307145373253642/1013156104999534603/sitelen-lili.ttf"

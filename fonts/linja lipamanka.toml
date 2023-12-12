@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["lipamanka"]
+features = ["ASCII transcription", "UCSUR-compliant", "supports ku suli and the rest of the UCSUR characters", "cartouches", "long pi", "name glyphs", "community requested nimisin"]
+filename = "linjalipamanka-normal.ttf"
+last_updated = "2023-01"
+license = "OFL"
+ligatures = true
+name = "linja lipamanka normal"
+style = "uniform line weight"
+ucsur = true
+version = "0.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/lipamanka/linja-lipamanka-0/raw/main/linjalipamanka-normal.otf"
+repo = "https://github.com/lipamanka/linja-lipamanka-0"
+webpage = "https://lipamanka.gay/linjamanka"

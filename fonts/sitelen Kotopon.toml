@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["kala Asi"]
+features = ["codepoints only", "supports cartouches", "partially UCSUR-compliant"]
+filename = "sitelen-kotopon.otf"
+last_updated = "2022-01"
+license = "OFL"
+ligatures = false
+name = "sitelen Kotopon"
+style = "pixelated"
+ucsur = true
+version = "0.1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/AcipenserSturio/sitelen-Kotopon/raw/master/sitelenKotopon.otf"
+repo = "https://github.com/AcipenserSturio/sitelen-Kotopon"

@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["Umihotaru"]
+features = ["codepoints only", "UCSUR-compliant", "supports cartouches", "extended glyphs", "combined glyphs", "ZWJ sequences", "supports all ku suli and the rest of UCSUR"]
+filename = "nishiki-teki.ttf"
+last_updated = "2023-04"
+license = "OFL"
+ligatures = false
+name = "にしき的フォント 『 Nishiki-teki 』"
+style = "uniform line weight"
+ucsur = true
+version = "3.95zj"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/RetSamys/nishiki-teki-lili/raw/main/nishiki-teki.ttf"
+webpage = "https://umihotaru.work/"

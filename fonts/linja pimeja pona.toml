@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Ke Tami"]
+features = ["ASCII transcription", "unrecognised words turn into cartouched latin characters"]
+filename = "linja-pimeja-pona.otf"
+last_updated = "2022-05"
+license = "OFL"
+ligatures = true
+name = "linja pimeja pona"
+style = "handwritten"
+ucsur = false
+version = "0.9"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/999566667187228673/1042092595582607402/linjapimejapona.ttf"
+repo = "https://github.com/RetSamys/linja-pimeja-pona"
+webpage = "http://antetokipona.infinityfreeapp.com/font/"

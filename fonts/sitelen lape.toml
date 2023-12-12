@@ -1,0 +1,15 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Ali", "jan Sa"]
+features = []
+filename = "linjalapesuwi.otf"
+last_updated = "2022-09"
+license = "all rights reserved"
+name = "linja lape suwi"
+style = "uniform line weight"
+version = "1.000"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://greenguy5294.github.io/linjalapesuwi/linjalapesuwi.otf"
+repo = "https://github.com/greenguy5294/linjalapesuwi/"
+webpage = "https://greenguy5294.github.io/linjalapesuwi/"

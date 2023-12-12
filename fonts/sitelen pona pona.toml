@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["Jack Humbert"]
+features = ["ASCII transcription", "unrecognised words turn into cartouched latin characters"]
+filename = "sitelen-pona-pona.otf"
+last_updated = "2020-06"
+license = "OFL"
+ligatures = true
+name = "sitelen pona pona"
+style = "alternate design"
+ucsur = false
+version = "0.2"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf"
+repo = "https://github.com/jackhumbert/sitelen-pona-pona"
+webpage = "https://jackhumbert.github.io/sitelen-pona-pona/"
