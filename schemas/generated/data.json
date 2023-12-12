@@ -241,7 +241,8 @@
                   "type": "string"
                 },
                 "definitions": {
-                  "type": "string"
+                  "type": "string",
+                  "minLength": 1
                 },
                 "etymology": {
                   "type": "array",
