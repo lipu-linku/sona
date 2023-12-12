@@ -27,7 +27,7 @@ definition = "לא"
 language = "גאורגית"
 
 [[alasa]]
-definition = "ציד, (מילולית) בזמן ציד"
+definition = "hunting, (literally) on the hunt"
 language = "צרפתית אקדית"
 
 [[ale]]
@@ -35,7 +35,7 @@ definition = "הכל"
 language = "הולנדית"
 
 [[alente]]
-definition = "everything else"
+definition = "כל השאר"
 language = "טוקי פונה"
 
 [[ali]]
@@ -43,7 +43,7 @@ definition = "הכל"
 language = "הולנדית"
 
 [[alu]]
-definition = "(indicate context for a following sentence)"
+definition = "(מספק הקשר בשביל המשפט העוקב)"
 language = "טוקי פונה"
 
 [[anpa]]
@@ -86,7 +86,7 @@ definition = "וגם"
 language = "הולנדית"
 
 [[enko]]
-definition = "time, period, situation"
+definition = "זמן, תקופה, מצב"
 language = "טוקי פונה"
 
 [[epiku]]
@@ -105,7 +105,7 @@ definition = "אבן, סלע"
 language = "יפנית"
 
 [[ewe]]
-definition = "rock, stone, hard thing"
+definition = "אבן, סלע, דבר קשה"
 language = "טוקי פונה"
 
 [[i]]
@@ -204,11 +204,11 @@ definition = "דג"
 language = "פינית"
 
 [[kalamARR]]
-definition = "make sound; sound, noise, voice"
+definition = "להפיק צליל; צליל, רעש, קול"
 language = "טוקי פונה"
 
 [[kalama]]
-definition = "הצליל של הרבה קולות אנושיים"
+definition = "noise (of the human voice)"
 language = "סרבו-קרואטית"
 
 [[kalijopilale]]
@@ -220,7 +220,7 @@ definition = "אירוע, להגיע, לקרות, להפוך ל, לגרום, ל�
 language = "טוק פיסין"
 
 [[kamalawala]]
-definition = "'arrival of no government', the beginning of anarchy"
+definition = "'הגעה של חוסר ממשלה', ההתחלה של אנרכיה"
 language = "טוקי פונה"
 
 [[kan]]
@@ -256,7 +256,7 @@ definition = "להשתמש"
 language = "הולנדית"
 
 [[kepen]]
-definition = "to use, by means of, with"
+definition = "להשתמש, בעזרת, עם"
 language = "טוקי פונה"
 
 [[kese]]
@@ -330,7 +330,7 @@ definition = "coolio"
 language = "אנגלית"
 
 [[kulu]]
-definition = "group, community, collection"
+definition = "קבוצה, קהילה, לקט"
 language = "טוקי פונה"
 
 [[kulupu]]
@@ -338,7 +338,7 @@ definition = "kulupu"
 language = "טונגאית"
 
 [[kuntu]]
-definition = "'fun sound from the mouth', to sing with your voice"
+definition = "'צליל כיף מהפה', לשיר עם הקול שלך"
 language = "טוקי פונה"
 
 [[kute]]
@@ -346,7 +346,7 @@ definition = "להקשיב"
 language = "צרפתית אקדית"
 
 [[kutopoma]]
-definition = "the Toki Pona community of Korea"
+definition = "קהילת טוקי פונה של קוריאה"
 language = "טוקי פונה"
 
 [[la]]
@@ -410,7 +410,7 @@ definition = "דגל, כרטיס"
 language = "פינית"
 
 [[lo]]
-definition = "(indicate context for a prior sentence)"
+definition = "(מספק הקשר בשביל המשפט הקודם)"
 language = "טוקי פונה"
 
 [[loje]]
@@ -418,19 +418,19 @@ definition = "אדום (בהטייה)"
 language = "הולנדית"
 
 [[loka]]
-definition = "hand, arm, grasping apendage, tactile apendage"
+definition = "hand, arm, grasping appendage, tactile appendage"
 language = "טוקי פונה"
 
 [[loka]]
-definition = "foot, leg, roots, locomotive apendage"
+definition = "foot, leg, roots, locomotive appendage"
 language = "טוקי פונה"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "להסתכל, לראות, עין; (פועל מקדים) לנסות"
 language = "טוקי פונה"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "להסתכל, לראות, עין; (פועל מקדים) לנסות"
 language = "טוקי פונה"
 
 [[lon]]
@@ -489,7 +489,7 @@ definition = "אישה, נשי"
 language = "טוק פיסין"
 
 [[melome]]
-definition = "women loving women"
+definition = "נשים האוהבות נשים"
 language = "טוקי פונה"
 
 [[meso]]
@@ -505,7 +505,7 @@ definition = "איש, בעל"
 language = "פינית"
 
 [[mijomi]]
-definition = "men loving men"
+definition = "גברים האוהבים גברים"
 language = "טוקי פונה"
 
 [[misa]]
@@ -594,7 +594,7 @@ definition = "ארבע"
 language = "פינית"
 
 [[nele]]
-definition = "cloth, fabric, clothing; secret, hidden, covered"
+definition = "בד, ביגוד; סוד, חבוי, מכוסה"
 language = "טוקי פונה"
 
 [[nena]]
@@ -614,7 +614,7 @@ definition = "שם"
 language = "פינית"
 
 [[nimisin]]
-definition = "new word"
+definition = "מילה חדשה"
 language = "טוקי פונה"
 
 [[nja]]
@@ -633,7 +633,7 @@ definition = "(סיומת פנייה)"
 language = "גאורגית"
 
 [[ojuta]]
-definition = "'lick my balls' (same as English 'ligma balls')"
+definition = "'לקק את הביצים שלי' (אותו דבר כמו 'ligma balls' באנגלית)"
 language = "טוקי פונה"
 
 [[oke]]
@@ -657,15 +657,15 @@ definition = "אני אוהב"
 language = "סרבו-קרואטית"
 
 [[omekalike]]
-definition = "'eat a bad fish', wishing somebody harm instead of well"
+definition = "'תאכל דג רע', לאחל למישהו רע במקום טוב"
 language = "טוקי פונה"
 
 [[omekapo]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "'תאכל דג טוב', לאחל למישהו טוב"
 language = "טוקי פונה"
 
 [[omen]]
-definition = "'kill me', express exasperation or frustration sarcastically"
+definition = "'תהרוג אותי', להביע התמרמרות או תסכול באופן סרקסטי"
 language = "טוקי פונה"
 
 [[ona]]
@@ -697,7 +697,7 @@ definition = "בלוק"
 language = "אנגלית"
 
 [[pakola]]
-definition = "broken, damaged, harmed, destroyed"
+definition = "שבור, פגום, נפגע, נהרס"
 language = "טוקי פונה"
 
 [[pali]]
@@ -745,7 +745,7 @@ definition = "ירוק"
 language = "אספרנטו"
 
 [[peto]]
-definition = "(incomplete sentence) 'give eye-water', to cry"
+definition = "(משפט לא גמור) 'לתת מי-עין', לבכות"
 language = "טוקי פונה"
 
 [[pi]]
@@ -773,7 +773,7 @@ definition = "חרק"
 language = "צרפתית אקדית"
 
 [[pipo]]
-definition = "bug, insect, arachnid"
+definition = "חרק, עכביש"
 language = "טוקי פונה"
 
 [[po]]
@@ -889,7 +889,7 @@ definition = "צבע"
 language = "הולנדית"
 
 [[slape]]
-definition = "sleep, rest"
+definition = "לישון, לנוח"
 language = "טוקי פונה"
 
 [[soko]]
@@ -912,7 +912,7 @@ language = "גאורגית"
 language = "אין מקור"
 
 [[suke]]
-definition = "circle, sphere, cycle"
+definition = "מעגל, כדור, מחזור"
 language = "טוקי פונה"
 
 [[suli]]
@@ -964,7 +964,7 @@ definition = "מים"
 language = "צרפתית אקדית"
 
 [[ten]]
-definition = "time, event, situation"
+definition = "זמן, אירוע, מצב"
 language = "טוקי פונה"
 
 [[tenpo]]
@@ -984,7 +984,7 @@ definition = "לדבר"
 language = "טוק פיסין"
 
 [[toma]]
-definition = "home, room, house, building"
+definition = "בית, חדר, בניין"
 language = "טוקי פונה"
 
 [[tomo]]
@@ -1049,11 +1049,11 @@ definition = "ציפור"
 language = "צרפתית אקדית"
 
 [[wasoweli]]
-definition = "bird, flying creature"
+definition = "ציפור, יצור מעופף"
 language = "טוקי פונה"
 
 [[wasoweli]]
-definition = "land animal, fuzzy creature"
+definition = "חית אדמה, יצור רך"
 language = "טוקי פונה"
 
 [[wawa]]
@@ -1061,7 +1061,7 @@ definition = "חזק, עוצמתי, עבה"
 language = "פינית"
 
 [[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
+definition = "(כל הברות העיצור-תנועה האסורות מבחינה פונולוגית בטוקי פונה)"
 language = "טוקי פונה"
 
 [[we]]
@@ -1077,7 +1077,7 @@ definition = "רחוק, נעלם"
 language = "הולנדית"
 
 [[wekama]]
-definition = "'leave-arrive', to leave and come back"
+definition = "'לעזוב-להגיע', לעזוב ולחזור"
 language = "טוקי פונה"
 
 [[wi]]
