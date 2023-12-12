@@ -1,5 +1,4 @@
 "$schema" = "../../schemas/generated/etymology_translation.json"
-ako = []
 
 [[Pingo]]
 language = "a priori"
@@ -9,15 +8,19 @@ language = "onomatopoeia"
 
 [[aka]]
 definition = "to cross, to pass"
-language = "Mandarin"
+language = "mandarena"
 
 [[aka]]
 definition = "across"
-language = "English"
+language = "angla"
 
 [[akesi]]
 definition = "lizard"
 language = "Dutch"
+
+[[ako]]
+definition = "(interjection) surprise"
+language = "Korean"
 
 [[ala]]
 definition = "no"
@@ -32,7 +35,7 @@ definition = "all"
 language = "Dutch"
 
 [[alente]]
-definition = "ale ante"
+definition = "everything else"
 language = "toki pona"
 
 [[ali]]
@@ -40,7 +43,7 @@ definition = "all"
 language = "Dutch"
 
 [[alu]]
-definition = "(la reversed)"
+definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
 [[anpa]]
@@ -72,7 +75,7 @@ language = "a priori"
 
 [[eki]]
 definition = "x (letter name)"
-language = "English"
+language = "angla"
 
 [[eliki]]
 definition = "pain, distress"
@@ -83,7 +86,7 @@ definition = "and"
 language = "Dutch"
 
 [[enko]]
-definition = "(corruption)"
+definition = "time, period, situation"
 language = "toki pona"
 
 [[epiku]]
@@ -102,7 +105,7 @@ definition = "rock, boulder"
 language = "Japanese"
 
 [[ewe]]
-definition = "kiwen"
+definition = "rock, stone, hard thing"
 language = "toki pona"
 
 [[i]]
@@ -139,11 +142,11 @@ language = "Tagalog"
 
 [[itomi]]
 definition = "hit or miss"
-language = "English"
+language = "angla"
 
 [[jaki]]
 definition = "yucky"
-language = "English"
+language = "angla"
 
 [[jaku]]
 definition = "100"
@@ -155,14 +158,14 @@ language = "Finnish"
 
 [[jami]]
 definition = "yummy"
-language = "English"
+language = "angla"
 
 [[jan]]
 definition = "person"
 language = "Cantonese"
 
 [[jans]]
-definition = "jan"
+definition = "person, people"
 language = "toki pona"
 
 [[jasima]]
@@ -171,15 +174,15 @@ language = "Turkish"
 
 [[je]]
 definition = "yay"
-language = "English"
+language = "angla"
 
 [[jelo]]
 definition = "yellow"
-language = "English"
+language = "angla"
 
 [[jo]]
 definition = "have"
-language = "Mandarin"
+language = "mandarena"
 
 [[jonke]]
 definition = "hjönk"
@@ -193,7 +196,7 @@ definition = "shake, vibrate, oscillate, waver"
 language = "Japanese"
 
 [[jume]]
-definition = "dream"
+definition = "revo"
 language = "Japanese"
 
 [[kala]]
@@ -201,7 +204,7 @@ definition = "fish"
 language = "Finnish"
 
 [[kalamARR]]
-definition = "kalama"
+definition = "make sound; sound, noise, voice"
 language = "toki pona"
 
 [[kalama]]
@@ -217,7 +220,7 @@ definition = "event, arrive, happen, become, bring about, summon"
 language = "Tok Pisin"
 
 [[kamalawala]]
-definition = "kama pi lawa ala"
+definition = "'arrival of no government', the beginning of anarchy"
 language = "toki pona"
 
 [[kan]]
@@ -234,15 +237,15 @@ language = "Cantonese"
 
 [[kapesi]]
 definition = "brown, coffee (colour)"
-language = "Mandarin"
+language = "mandarena"
 
 [[kasi]]
-definition = "kasvi ‘plant’"
+definition = "plant"
 language = "Finnish"
 
 [[ke]]
 definition = "okay"
-language = "English"
+language = "angla"
 
 [[ken]]
 definition = "can"
@@ -253,7 +256,7 @@ definition = "to use"
 language = "Dutch"
 
 [[kepen]]
-definition = "kepeken"
+definition = "to use, by means of, with"
 language = "toki pona"
 
 [[kese]]
@@ -284,7 +287,7 @@ definition = "to cut (intransitive)"
 language = "Inuktitut"
 
 [[kisa]]
-definition = "cat"
+definition = "kato"
 language = "Russian"
 
 [[kiwen]]
@@ -296,12 +299,12 @@ definition = "cream, paste"
 language = "Cantonese"
 
 [[kokosila]]
-definition = "(present of krokodili)"
+definition = "to speak among Esperantists in a language other than Esperanto"
 language = "Esperanto"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
-language = "Mandarin"
+language = "mandarena"
 
 [[konsi]]
 definition = "announcement, notice"
@@ -309,7 +312,7 @@ language = "Korean"
 
 [[konwe]]
 definition = "John Conway, creator of The Game of Life"
-language = "English"
+language = "angla"
 
 [[kosan]]
 definition = "to defend, protect (against)"
@@ -324,10 +327,10 @@ language = "Acadian French"
 
 [[kulijo]]
 definition = "coolio"
-language = "English"
+language = "angla"
 
 [[kulu]]
-definition = "kulupu"
+definition = "group, community, collection"
 language = "toki pona"
 
 [[kulupu]]
@@ -335,7 +338,7 @@ definition = "kulupu"
 language = "Tongan"
 
 [[kuntu]]
-definition = "k.m.t.u ← kalama musi tan uta"
+definition = "'fun sound from the mouth', to sing with your voice"
 language = "toki pona"
 
 [[kute]]
@@ -343,7 +346,7 @@ definition = "listen"
 language = "Acadian French"
 
 [[kutopoma]]
-definition = "(initialism)"
+definition = "the Toki Pona community of Korea"
 language = "toki pona"
 
 [[la]]
@@ -368,7 +371,7 @@ language = "Serbo-Croatian"
 
 [[leko]]
 definition = "Lego"
-language = "English"
+language = "angla"
 
 [[len]]
 definition = "clothing"
@@ -407,7 +410,7 @@ definition = "flag, banner, ticket"
 language = "Finnish"
 
 [[lo]]
-definition = "alu"
+definition = "(indicate context for a prior sentence)"
 language = "toki pona"
 
 [[loje]]
@@ -415,11 +418,19 @@ definition = "red (inflected)"
 language = "Dutch"
 
 [[loka]]
-definition = "luka & noka"
+definition = "hand, arm, grasping apendage, tactile apendage"
+language = "toki pona"
+
+[[loka]]
+definition = "foot, leg, roots, locomotive apendage"
 language = "toki pona"
 
 [[lokon]]
-definition = "lukin & oko"
+definition = "look, see, eye; (preverb) try to"
+language = "toki pona"
+
+[[lokon]]
+definition = "look, see, eye; (preverb) try to"
 language = "toki pona"
 
 [[lon]]
@@ -443,11 +454,11 @@ language = "Lojban"
 
 [[lupa]]
 definition = "loop"
-language = "Mandarin"
+language = "mandarena"
 
 [[lupa]]
 definition = "loop"
-language = "English"
+language = "angla"
 
 [[lupa]]
 definition = "loop"
@@ -471,14 +482,14 @@ language = "Georgian"
 
 [[mani]]
 definition = "money"
-language = "English"
+language = "angla"
 
 [[meli]]
 definition = "woman, wife, feminine"
 language = "Tok Pisin"
 
 [[melome]]
-definition = "meli pi olin meli"
+definition = "women loving women"
 language = "toki pona"
 
 [[meso]]
@@ -494,7 +505,7 @@ definition = "man, husband"
 language = "Finnish"
 
 [[mijomi]]
-definition = "mije pi olin mije"
+definition = "men loving men"
 language = "toki pona"
 
 [[misa]]
@@ -515,7 +526,7 @@ language = "Acadian French"
 
 [[molusa]]
 definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
-language = "English"
+language = "angla"
 
 [[monsi]]
 definition = "my ass (vulgar)"
@@ -527,7 +538,7 @@ language = "Japanese"
 
 [[monsuta]]
 definition = "monster"
-language = "English"
+language = "angla"
 
 [[mu]]
 language = "onomatopoeia"
@@ -537,7 +548,7 @@ language = "a priori"
 
 [[mun]]
 definition = "moon"
-language = "English"
+language = "angla"
 
 [[musi]]
 definition = "amuse, entertain"
@@ -563,7 +574,7 @@ definition = "salt"
 language = "Persian"
 
 [[nanpa]]
-definition = "namba ‘number, (ordinal marker)’ ← English number"
+definition = "number"
 language = "Tok Pisin"
 
 [[nasa]]
@@ -579,15 +590,15 @@ definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
 [[neja]]
-definition = "four"
+definition = "kvar"
 language = "Finnish"
 
 [[nele]]
-definition = "len (reversed)"
+definition = "cloth, fabric, clothing; secret, hidden, covered"
 language = "toki pona"
 
 [[nena]]
-definition = "nenä"
+definition = "nose"
 language = "Finnish"
 
 [[ni]]
@@ -603,7 +614,7 @@ definition = "name"
 language = "Finnish"
 
 [[nimisin]]
-definition = "nimi sin"
+definition = "new word"
 language = "toki pona"
 
 [[nja]]
@@ -622,20 +633,20 @@ definition = "(vocative suffix)"
 language = "Georgian"
 
 [[ojuta]]
-definition = "o uta (e sike mi)"
+definition = "'lick my balls' (same as English 'ligma balls')"
 language = "toki pona"
 
 [[oke]]
 definition = "okay"
-language = "English"
+language = "angla"
 
 [[okepuma]]
 definition = "okay boomer"
-language = "English"
+language = "angla"
 
 [[oki]]
 definition = "okay"
-language = "English"
+language = "angla"
 
 [[oko]]
 definition = "eye"
@@ -646,15 +657,15 @@ definition = "I love"
 language = "Serbo-Croatian"
 
 [[omekalike]]
-definition = "o moku e kala ike"
+definition = "'eat a bad fish', wishing somebody harm instead of well"
 language = "toki pona"
 
 [[omekapo]]
-definition = "o moku e kala pona"
+definition = "'eat a good fish', wishing somebody well"
 language = "toki pona"
 
 [[omen]]
-definition = "o.m.e.m. ← o moli e mi {cf. English kill me}"
+definition = "'kill me', express exasperation or frustration sarcastically"
 language = "toki pona"
 
 [[ona]]
@@ -667,15 +678,15 @@ language = "Ancient Greek"
 
 [[open]]
 definition = "open"
-language = "English"
+language = "angla"
 
 [[owe]]
 definition = "George Orwell, author of 1984"
-language = "English"
+language = "angla"
 
 [[pa]]
 definition = "bruh"
-language = "English"
+language = "angla"
 
 [[pakala]]
 definition = "accident"
@@ -683,9 +694,10 @@ language = "Tok Pisin"
 
 [[pake]]
 definition = "block"
-language = "English"
+language = "angla"
 
 [[pakola]]
+definition = "broken, damaged, harmed, destroyed"
 language = "toki pona"
 
 [[pali]]
@@ -726,14 +738,14 @@ language = "Tok Pisin"
 
 [[pata]]
 definition = "brother"
-language = "English"
+language = "angla"
 
 [[peta]]
-definition = "verda"
+definition = "green"
 language = "Esperanto"
 
 [[peto]]
-definition = "pana e telo oko"
+definition = "(incomplete sentence) 'give eye-water', to cry"
 language = "toki pona"
 
 [[pi]]
@@ -761,12 +773,12 @@ definition = "bug"
 language = "Acadian French"
 
 [[pipo]]
-definition = "pipi"
+definition = "bug, insect, arachnid"
 language = "toki pona"
 
 [[po]]
-definition = "four"
-language = "English"
+definition = "kvar"
+language = "angla"
 
 [[poka]]
 definition = "side, flank (genitive)"
@@ -777,8 +789,8 @@ definition = "box, female genitalia (vulgar)"
 language = "Tok Pisin"
 
 [[polinpin]]
-definition = "bowling pin"
-language = "English"
+definition = "bovlinga keglo"
+language = "angla"
 
 [[pomotolo]]
 definition = "tomato"
@@ -789,8 +801,8 @@ definition = "good"
 language = "Esperanto"
 
 [[poni]]
-definition = "pony"
-language = "English"
+definition = "poneo"
+language = "angla"
 
 [[powe]]
 definition = "not true"
@@ -798,11 +810,11 @@ language = "Acadian French"
 
 [[pu]]
 definition = "unworked wood, sincere, honest, inherent quality, simple"
-language = "Mandarin"
+language = "mandarena"
 
 [[pu]]
 definition = "book"
-language = "English"
+language = "angla"
 
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
@@ -817,15 +829,15 @@ definition = "jan Samu"
 language = "toki pona"
 
 [[san]]
-definition = "three"
+definition = "tri"
 language = "Japanese"
 
 [[san]]
-definition = "three"
+definition = "tri"
 language = "Cantonese"
 
 [[san]]
-definition = "three"
+definition = "tri"
 language = "Cantonese"
 
 [[seli]]
@@ -838,7 +850,7 @@ language = "Esperanto"
 
 [[seme]]
 definition = "what, something"
-language = "Mandarin"
+language = "mandarena"
 
 [[sewi]]
 definition = "upwards"
@@ -850,18 +862,18 @@ language = "Serbo-Croatian"
 
 [[sike]]
 definition = "circle"
-language = "English"
+language = "angla"
 
 [[sikomo]]
 definition = "sicko mode"
-language = "English"
+language = "angla"
 
 [[sin]]
 definition = "new, fresh"
-language = "Mandarin"
+language = "mandarena"
 
 [[sina]]
-definition = "you"
+definition = "vi"
 language = "Finnish"
 
 [[sinpin]]
@@ -877,7 +889,7 @@ definition = "paint"
 language = "Dutch"
 
 [[slape]]
-definition = "sleep"
+definition = "sleep, rest"
 language = "toki pona"
 
 [[soko]]
@@ -900,6 +912,7 @@ language = "Georgian"
 language = "a priori"
 
 [[suke]]
+definition = "circle, sphere, cycle"
 language = "toki pona"
 
 [[suli]]
@@ -936,7 +949,7 @@ language = "Tok Pisin"
 
 [[tawa]]
 definition = "toward"
-language = "English"
+language = "angla"
 
 [[te]]
 definition = "(quotative)"
@@ -951,7 +964,7 @@ definition = "(some) water"
 language = "Acadian French"
 
 [[ten]]
-definition = "time"
+definition = "time, event, situation"
 language = "toki pona"
 
 [[tenpo]]
@@ -971,6 +984,7 @@ definition = "talk"
 language = "Tok Pisin"
 
 [[toma]]
+definition = "home, room, house, building"
 language = "toki pona"
 
 [[tomo]]
@@ -979,15 +993,15 @@ language = "Esperanto"
 
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
-language = "Mandarin"
+language = "mandarena"
 
 [[tu]]
 definition = "two"
-language = "English"
+language = "angla"
 
 [[tuli]]
-definition = "three"
-language = "English"
+definition = "tri"
+language = "angla"
 
 [[u]]
 language = "a priori"
@@ -1000,7 +1014,7 @@ language = "Iqglic"
 language = "onomatopoeia"
 
 [[unu]]
-definition = "purple"
+definition = "purpura"
 language = "Malay-Indonesian"
 
 [[usawi]]
@@ -1028,14 +1042,18 @@ language = "Finnish"
 
 [[wan]]
 definition = "one"
-language = "English"
+language = "angla"
 
 [[waso]]
 definition = "bird"
 language = "Acadian French"
 
 [[wasoweli]]
-definition = "waso soweli, soweli waso"
+definition = "bird, flying creature"
+language = "toki pona"
+
+[[wasoweli]]
+definition = "land animal, fuzzy creature"
 language = "toki pona"
 
 [[wawa]]
@@ -1043,6 +1061,7 @@ definition = "strong, powerful, thick"
 language = "Finnish"
 
 [[wawajete]]
+definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
 language = "toki pona"
 
 [[we]]
@@ -1058,12 +1077,12 @@ definition = "away, gone"
 language = "Dutch"
 
 [[wekama]]
-definition = "weka kama"
+definition = "'leave-arrive', to leave and come back"
 language = "toki pona"
 
 [[wi]]
 definition = "we"
-language = "English"
+language = "angla"
 
 [[wile]]
 definition = "want, desire"

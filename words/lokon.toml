@@ -11,7 +11,10 @@ usage_category = "obscure"
 word = "lokon"
 
 [[etymology]]
-word = "lukin & oko"
+word = "lukin"
+
+[[etymology]]
+word = "oko"
 
 [audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lokon.mp3"

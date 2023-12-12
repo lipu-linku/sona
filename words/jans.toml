@@ -1,10 +1,10 @@
 "$schema" = "../schemas/generated/word.json"
-author_verbatim = ""
-author_verbatim_source = ""
+author_verbatim = "how are jans doing that!?@?"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/339777658172735489"
 book = "none"
 coined_era = "post-pu"
-coined_year = ""
-creator = ["unknown"]
+coined_year = "2017"
+creator = []
 see_also = ["jan"]
 source_language = "multiple"
 usage_category = "obscure"

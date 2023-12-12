@@ -1,1081 +1,1100 @@
 "$schema" = "../../schemas/generated/etymology_translation.json"
-ako = []
 
 [[Pingo]]
-language = "a priori"
+language = "אין מקור"
 
 [[a]]
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[aka]]
-definition = "to cross, to pass"
-language = "Mandarin"
+definition = "לחצות, לעבור"
+language = "מנדרינית"
 
 [[aka]]
-definition = "across"
-language = "English"
+definition = "מעבר ל"
+language = "אנגלית"
 
 [[akesi]]
-definition = "lizard"
-language = "Dutch"
+definition = "לטאה"
+language = "הולנדית"
+
+[[ako]]
+definition = "(מילת קריאה) הפתעה"
+language = "קוריאנית"
 
 [[ala]]
-definition = "no"
-language = "Georgian"
+definition = "לא"
+language = "גאורגית"
 
 [[alasa]]
-definition = "hunting, (lit.) on the hunt"
-language = "Acadian French"
+definition = "ציד, (מילולית) בזמן ציד"
+language = "צרפתית אקדית"
 
 [[ale]]
-definition = "all"
-language = "Dutch"
+definition = "הכל"
+language = "הולנדית"
 
 [[alente]]
-definition = "ale ante"
-language = "toki pona"
+definition = "everything else"
+language = "טוקי פונה"
 
 [[ali]]
-definition = "all"
-language = "Dutch"
+definition = "הכל"
+language = "הולנדית"
 
 [[alu]]
-definition = "(la reversed)"
-language = "toki pona"
+definition = "(indicate context for a following sentence)"
+language = "טוקי פונה"
 
 [[anpa]]
-definition = "below"
-language = "Acadian French"
+definition = "מתחת"
+language = "צרפתית אקדית"
 
 [[ante]]
-definition = "other, different"
-language = "Dutch"
+definition = "אחר, שונה"
+language = "הולנדית"
 
 [[anu]]
-definition = "or"
-language = "Georgian"
+definition = "או"
+language = "גאורגית"
 
 [[apeja]]
-definition = "shame, disgrace, dishonor"
-language = "Finnish"
+definition = "בושה, חרפה"
+language = "פינית"
 
 [[awase]]
-definition = "hit, strike"
-language = "Armenian"
+definition = "פגיעה, מכה"
+language = "ארמנית"
 
 [[awen]]
-definition = "keep, care for, hold (in a particular state)"
-language = "Dutch"
+definition = "לשמור, לטפל, להחזיק (במצב מסויים)"
+language = "הולנדית"
 
 [[e]]
-language = "a priori"
+language = "אין מקור"
 
 [[eki]]
-definition = "x (letter name)"
-language = "English"
+definition = "x (שם האות)"
+language = "אנגלית"
 
 [[eliki]]
-definition = "pain, distress"
-language = "Tsalagi"
+definition = "כאב, מצוקה"
+language = "צ'רוקי"
 
 [[en]]
-definition = "and"
-language = "Dutch"
+definition = "וגם"
+language = "הולנדית"
 
 [[enko]]
-definition = "(corruption)"
-language = "toki pona"
+definition = "time, period, situation"
+language = "טוקי פונה"
 
 [[epiku]]
-definition = "epic"
-language = "French"
+definition = "אפי"
+language = "צרפתית"
 
 [[esun]]
-language = "Akan"
+language = "אקאנית"
 
 [[ete]]
-definition = "beyond, further, over"
-language = "Turkish"
+definition = "מעבר, רחוק יותר"
+language = "טורקית"
 
 [[ewe]]
-definition = "rock, boulder"
-language = "Japanese"
+definition = "אבן, סלע"
+language = "יפנית"
 
 [[ewe]]
-definition = "kiwen"
-language = "toki pona"
+definition = "rock, stone, hard thing"
+language = "טוקי פונה"
 
 [[i]]
-definition = "unknown"
-language = "unknown"
+definition = "לא ידוע"
+language = "לא ידוע"
 
 [[ijo]]
-definition = "something"
-language = "Esperanto"
+definition = "משהו"
+language = "אספרנטו"
 
 [[ike]]
-definition = "bad, mean, wicked"
-language = "Finnish"
+definition = "רע, נבזי, מרושע"
+language = "פינית"
 
 [[iki]]
-definition = "unknown"
-language = "unknown"
+definition = "לא ידוע"
+language = "לא ידוע"
 
 [[ilo]]
-definition = "tool"
-language = "Esperanto"
+definition = "כלי"
+language = "אספרנטו"
 
 [[insa]]
-definition = "inside, center, stomach"
-language = "Tok Pisin"
+definition = "בתוך, מרכז, בטן"
+language = "טוק פיסין"
 
 [[ipi]]
-definition = "unknown"
-language = "unknown"
+definition = "לא ידוע"
+language = "לא ידוע"
 
 [[isipin]]
-definition = "to think"
-language = "Tagalog"
+definition = "לחשוב"
+language = "טגלוג"
 
 [[itomi]]
 definition = "hit or miss"
-language = "English"
+language = "אנגלית"
 
 [[jaki]]
-definition = "yucky"
-language = "English"
+definition = "מגעיל"
+language = "אנגלית"
 
 [[jaku]]
 definition = "100"
-language = "Japanese"
+language = "יפנית"
 
 [[jalan]]
-definition = "afoot"
-language = "Finnish"
+definition = "ברגל"
+language = "פינית"
 
 [[jami]]
-definition = "yummy"
-language = "English"
+definition = "טעים"
+language = "אנגלית"
 
 [[jan]]
-definition = "person"
-language = "Cantonese"
+definition = "איש"
+language = "קנטונזית"
 
 [[jans]]
-definition = "jan"
-language = "toki pona"
+definition = "איש, אנשים"
+language = "טוקי פונה"
 
 [[jasima]]
-definition = "to reflect, reverberate"
-language = "Turkish"
+definition = "להשקיף, להדהד"
+language = "טורקית"
 
 [[je]]
-definition = "yay"
-language = "English"
+definition = "הידד"
+language = "אנגלית"
 
 [[jelo]]
-definition = "yellow"
-language = "English"
+definition = "צהוב"
+language = "אנגלית"
 
 [[jo]]
-definition = "have"
-language = "Mandarin"
+definition = "יש"
+language = "מנדרינית"
 
 [[jonke]]
 definition = "hjönk"
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[ju]]
-language = "a priori"
+language = "אין מקור"
 
 [[jule]]
-definition = "shake, vibrate, oscillate, waver"
-language = "Japanese"
+definition = "לשקשק, לרעוד, להתנדנד, להסס"
+language = "יפנית"
 
 [[jume]]
-definition = "dream"
-language = "Japanese"
+definition = "חלום"
+language = "יפנית"
 
 [[kala]]
-definition = "fish"
-language = "Finnish"
+definition = "דג"
+language = "פינית"
 
 [[kalamARR]]
-definition = "kalama"
-language = "toki pona"
+definition = "make sound; sound, noise, voice"
+language = "טוקי פונה"
 
 [[kalama]]
-definition = "noise of many human voices"
-language = "Serbo-Croatian"
+definition = "הצליל של הרבה קולות אנושיים"
+language = "סרבו-קרואטית"
 
 [[kalijopilale]]
-definition = "Caryophyllales"
-language = "Latin"
+definition = "ציפורנאים"
+language = "לטינית"
 
 [[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
-language = "Tok Pisin"
+definition = "אירוע, להגיע, לקרות, להפוך ל, לגרום, לזמן"
+language = "טוק פיסין"
 
 [[kamalawala]]
-definition = "kama pi lawa ala"
-language = "toki pona"
+definition = "'arrival of no government', the beginning of anarchy"
+language = "טוקי פונה"
 
 [[kan]]
-definition = "with"
-language = "Finnish"
+definition = "עם"
+language = "פינית"
 
 [[kapa]]
-definition = "head, cup"
-language = "Dutch"
+definition = "ראש, כוס"
+language = "הולנדית"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
-language = "Cantonese"
+definition = "חום, קפה (צבע)"
+language = "קנטונזית"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
-language = "Mandarin"
+definition = "חום, קפה (צבע)"
+language = "מנדרינית"
 
 [[kasi]]
-definition = "kasvi ‘plant’"
-language = "Finnish"
+definition = "צמח"
+language = "פינית"
 
 [[ke]]
-definition = "okay"
-language = "English"
+definition = "בסדר"
+language = "אנגלית"
 
 [[ken]]
-definition = "can"
-language = "Tok Pisin"
+definition = "יכול"
+language = "טוק פיסין"
 
 [[kepeken]]
-definition = "to use"
-language = "Dutch"
+definition = "להשתמש"
+language = "הולנדית"
 
 [[kepen]]
-definition = "kepeken"
-language = "toki pona"
+definition = "to use, by means of, with"
+language = "טוקי פונה"
 
 [[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
-language = "Hebrew"
+definition = 'נקרא על שם הארגון הלהט"בי היהודי "קשת"'
+language = "עברית"
 
 [[ki]]
-definition = "who"
-language = "French"
+definition = "מי"
+language = "צרפתית"
 
 [[kijetesantakalu]]
 definition = "kinkajou"
-language = "Finnish"
+language = "פינית"
 
 [[kiki]]
-language = "a priori"
+language = "אין מקור"
 
 [[kili]]
-definition = "fruit"
-language = "Georgian"
+definition = "פרי"
+language = "גאורגית"
 
 [[kin]]
-definition = "too, also, still"
-language = "Finnish"
+definition = "גם, בנוסף, עדיין"
+language = "פינית"
 
 [[kipisi]]
-definition = "to cut (intransitive)"
-language = "Inuktitut"
+definition = "לחתוך (ללא מושא)"
+language = "אינוקטיטוט"
 
 [[kisa]]
-definition = "cat"
-language = "Russian"
+definition = "חתול"
+language = "רוסית"
 
 [[kiwen]]
-definition = "stone (genitive case)"
-language = "Finnish"
+definition = "אבן (צורת שייכות)"
+language = "פינית"
 
 [[ko]]
-definition = "cream, paste"
-language = "Cantonese"
+definition = "קרם, משחה"
+language = "קנטונזית"
 
 [[kokosila]]
-definition = "(present of krokodili)"
-language = "Esperanto"
+definition = "לדבר בשפה שהיא לא אספרנטו בקרב דוברי אספרנטו"
+language = "אספרנטו"
 
 [[kon]]
-definition = "air, atmosphere, ambience, opinion"
-language = "Mandarin"
+definition = "אוויר, אטמוספרה, אווירה, דעה"
+language = "מנדרינית"
 
 [[konsi]]
-definition = "announcement, notice"
-language = "Korean"
+definition = "הכרזה, הודעה"
+language = "קוריאנית"
 
 [[konwe]]
-definition = "John Conway, creator of The Game of Life"
-language = "English"
+definition = "ג'ון קונווי, יוצר משחק החיים"
+language = "אנגלית"
 
 [[kosan]]
-definition = "to defend, protect (against)"
-language = "Irish"
+definition = "להגן, לשמור (מ)"
+language = "אירית"
 
 [[ku]]
-language = "a priori"
+language = "אין מקור"
 
 [[kule]]
-definition = "color"
-language = "Acadian French"
+definition = "צבע"
+language = "צרפתית אקדית"
 
 [[kulijo]]
 definition = "coolio"
-language = "English"
+language = "אנגלית"
 
 [[kulu]]
-definition = "kulupu"
-language = "toki pona"
+definition = "group, community, collection"
+language = "טוקי פונה"
 
 [[kulupu]]
 definition = "kulupu"
-language = "Tongan"
+language = "טונגאית"
 
 [[kuntu]]
-definition = "k.m.t.u ← kalama musi tan uta"
-language = "toki pona"
+definition = "'fun sound from the mouth', to sing with your voice"
+language = "טוקי פונה"
 
 [[kute]]
-definition = "listen"
-language = "Acadian French"
+definition = "להקשיב"
+language = "צרפתית אקדית"
 
 [[kutopoma]]
-definition = "(initialism)"
-language = "toki pona"
+definition = "the Toki Pona community of Korea"
+language = "טוקי פונה"
 
 [[la]]
-definition = "(definite article)"
-language = "Esperanto"
+definition = "(מילת יידוע)"
+language = "אספרנטו"
 
 [[lanpan]]
-definition = "take, seize, grasp, receive"
-language = "Greek"
+definition = "לקחת, לתפוס, ללפות, לקבל"
+language = "יוונית"
 
 [[lape]]
-definition = "sleep"
-language = "Dutch"
+definition = "שינה"
+language = "הולנדית"
 
 [[laso]]
-definition = "blue, inexperienced"
-language = "Welsh"
+definition = "כחול, לא מנוסה"
+language = "וולשית"
 
 [[lawa]]
-definition = "head"
-language = "Serbo-Croatian"
+definition = "ראש"
+language = "סרבו-קרואטית"
 
 [[leko]]
-definition = "Lego"
-language = "English"
+definition = "לגו"
+language = "אנגלית"
 
 [[len]]
-definition = "clothing"
-language = "Acadian French"
+definition = "ביגוד"
+language = "צרפתית אקדית"
 
 [[lete]]
-definition = "cold"
-language = "Acadian French"
+definition = "קר"
+language = "צרפתית אקדית"
 
 [[li]]
-definition = "he"
-language = "Esperanto"
+definition = "הוא"
+language = "אספרנטו"
 
 [[lijokuku]]
-definition = "Exactly!', lit. 'real LOL'"
-language = "Korean"
+definition = "בדיוק!, מילולית 'באמת LOL'"
+language = "קוריאנית"
 
 [[likujo]]
-definition = "collection, ensemble, anthology"
-language = "Acadian French"
+definition = "אוסף, מכלול, לקט"
+language = "צרפתית אקדית"
 
 [[lili]]
-definition = "small, little"
-language = "Tok Pisin"
+definition = "קטן, מזערי"
+language = "טוק פיסין"
 
 [[linja]]
-definition = "line"
-language = "Finnish"
+definition = "קו"
+language = "פינית"
 
 [[linluwi]]
-definition = "internet"
-language = "Welsh"
+definition = "אינטרנט"
+language = "וולשית"
 
 [[lipu]]
-definition = "flag, banner, ticket"
-language = "Finnish"
+definition = "דגל, כרטיס"
+language = "פינית"
 
 [[lo]]
-definition = "alu"
-language = "toki pona"
+definition = "(indicate context for a prior sentence)"
+language = "טוקי פונה"
 
 [[loje]]
-definition = "red (inflected)"
-language = "Dutch"
+definition = "אדום (בהטייה)"
+language = "הולנדית"
 
 [[loka]]
-definition = "luka & noka"
-language = "toki pona"
+definition = "hand, arm, grasping apendage, tactile apendage"
+language = "טוקי פונה"
+
+[[loka]]
+definition = "foot, leg, roots, locomotive apendage"
+language = "טוקי פונה"
 
 [[lokon]]
-definition = "lukin & oko"
-language = "toki pona"
+definition = "look, see, eye; (preverb) try to"
+language = "טוקי פונה"
+
+[[lokon]]
+definition = "look, see, eye; (preverb) try to"
+language = "טוקי פונה"
 
 [[lon]]
-definition = "at, in, on, (spacial particle)"
-language = "Tok Pisin"
+definition = "אצל, ב, על, (מילת מיקום)"
+language = "טוק פיסין"
 
 [[lu]]
-language = "a priori"
+language = "אין מקור"
 
 [[luka]]
-definition = "hand, arm"
-language = "Serbo-Croatian"
+definition = "יד, זרוע"
+language = "סרבו-קרואטית"
 
 [[lukin]]
-definition = "see, look at"
-language = "Tok Pisin"
+definition = "לראות, להסתכל"
+language = "טוק פיסין"
 
 [[lupa]]
-definition = "loop"
-language = "Lojban"
+definition = "לולאה"
+language = "לוז'באן"
 
 [[lupa]]
-definition = "loop"
-language = "Mandarin"
+definition = "לולאה"
+language = "מנדרינית"
 
 [[lupa]]
-definition = "loop"
-language = "English"
+definition = "לולאה"
+language = "אנגלית"
 
 [[lupa]]
-definition = "loop"
-language = "Hindi"
+definition = "לולאה"
+language = "הינדי"
 
 [[lupa]]
-definition = "loop"
-language = "Arabic"
+definition = "לולאה"
+language = "ערבית"
 
 [[ma]]
-definition = "earth, land"
-language = "Finnish"
+definition = "ארץ, אדמה"
+language = "פינית"
 
 [[majuna]]
-definition = "old (not young)"
-language = "Esperanto"
+definition = "זקן"
+language = "אספרנטו"
 
 [[mama]]
-definition = "father"
-language = "Georgian"
+definition = "אב"
+language = "גאורגית"
 
 [[mani]]
-definition = "money"
-language = "English"
+definition = "כסף (אמצעי תשלום)"
+language = "אנגלית"
 
 [[meli]]
-definition = "woman, wife, feminine"
-language = "Tok Pisin"
+definition = "אישה, נשי"
+language = "טוק פיסין"
 
 [[melome]]
-definition = "meli pi olin meli"
-language = "toki pona"
+definition = "women loving women"
+language = "טוקי פונה"
 
 [[meso]]
-definition = "middle"
-language = "Greek"
+definition = "מרכז"
+language = "יוונית"
 
 [[mi]]
-definition = "I, me"
-language = "Esperanto"
+definition = "אני, עצמי"
+language = "אספרנטו"
 
 [[mije]]
-definition = "man, husband"
-language = "Finnish"
+definition = "איש, בעל"
+language = "פינית"
 
 [[mijomi]]
-definition = "mije pi olin mije"
-language = "toki pona"
+definition = "men loving men"
+language = "טוקי פונה"
 
 [[misa]]
-definition = "mouse (diminutive)"
-language = "Ukranian"
+definition = "עכבר (צורת הקטנה)"
+language = "אוקראינית"
 
 [[misikeke]]
-definition = "medicine, drug"
-language = "Ojibwe"
+definition = "תרופה, סם"
+language = "אוג'יבווה"
 
 [[moku]]
-definition = "munching"
-language = "Japanese"
+definition = "לועסים"
+language = "יפנית"
 
 [[moli]]
-definition = "die"
-language = "Acadian French"
+definition = "למות"
+language = "צרפתית אקדית"
 
 [[molusa]]
-definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
-language = "English"
+definition = "חסרי חוליות הקשורים לחלזונות, חשופיות, צדפות, תמנונים (מונח מדעי)"
+language = "אנגלית"
 
 [[monsi]]
-definition = "my ass (vulgar)"
-language = "Acadian French"
+definition = "התחת שלי (גס)"
+language = "צרפתית אקדית"
 
 [[monsuta]]
-definition = "monster"
-language = "Japanese"
+definition = "מפלצת"
+language = "יפנית"
 
 [[monsuta]]
-definition = "monster"
-language = "English"
+definition = "מפלצת"
+language = "אנגלית"
 
 [[mu]]
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[mulapisu]]
-language = "a priori"
+language = "אין מקור"
 
 [[mun]]
-definition = "moon"
-language = "English"
+definition = "ירח"
+language = "אנגלית"
 
 [[musi]]
-definition = "amuse, entertain"
-language = "Esperanto"
+definition = "לשעשע, לבדר"
+language = "אספרנטו"
 
 [[mute]]
-definition = "a lot"
-language = "Esperanto"
+definition = "הרבה"
+language = "אספרנטו"
 
 [[n]]
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[nalanja]]
-definition = "orange"
-language = "Spanish"
+definition = "כתום"
+language = "ספרדית"
 
 [[namako]]
-definition = "salt"
-language = "Hindi"
+definition = "מלח"
+language = "הינדי"
 
 [[namako]]
-definition = "salt"
-language = "Persian"
+definition = "מלח"
+language = "פרסית"
 
 [[nanpa]]
-definition = "namba ‘number, (ordinal marker)’ ← English number"
-language = "Tok Pisin"
+definition = "מספר"
+language = "טוק פיסין"
 
 [[nasa]]
-definition = "dunderhead"
-language = "Tok Pisin"
+definition = "אידיוט"
+language = "טוק פיסין"
 
 [[nasin]]
-definition = "way, method"
-language = "Serbo-Croatian"
+definition = "דרך, שיטה"
+language = "סרבו-קרואטית"
 
 [[natu]]
-definition = "crossroads, four-way intersection"
-language = "Vietnamese"
+definition = "צומת, פרשת דרכים"
+language = "ויאטנמית"
 
 [[neja]]
-definition = "four"
-language = "Finnish"
+definition = "ארבע"
+language = "פינית"
 
 [[nele]]
-definition = "len (reversed)"
-language = "toki pona"
+definition = "cloth, fabric, clothing; secret, hidden, covered"
+language = "טוקי פונה"
 
 [[nena]]
-definition = "nenä"
-language = "Finnish"
+definition = "אף, חוטם"
+language = "פינית"
 
 [[ni]]
-definition = "this"
-language = "Cantonese"
+definition = "זה"
+language = "קנטונזית"
 
 [[ni]]
-definition = "(continuation of a state/action)"
-language = "Tai"
+definition = "(המשך של מצב/פעולה)"
+language = "תאית"
 
 [[nimi]]
-definition = "name"
-language = "Finnish"
+definition = "שם"
+language = "פינית"
 
 [[nimisin]]
-definition = "nimi sin"
-language = "toki pona"
+definition = "new word"
+language = "טוקי פונה"
 
 [[nja]]
-definition = "meow (onomatopoeia)"
-language = "Japanese"
+definition = "מיאו (אונומטופיאה)"
+language = "יפנית"
 
 [[noka]]
-definition = "foot, leg"
-language = "Serbo-Croatian"
+definition = "כף רגל, רגל"
+language = "סרבו-קרואטית"
 
 [[nu]]
-language = "a priori"
+language = "אין מקור"
 
 [[o]]
-definition = "(vocative suffix)"
-language = "Georgian"
+definition = "(סיומת פנייה)"
+language = "גאורגית"
 
 [[ojuta]]
-definition = "o uta (e sike mi)"
-language = "toki pona"
+definition = "'lick my balls' (same as English 'ligma balls')"
+language = "טוקי פונה"
 
 [[oke]]
-definition = "okay"
-language = "English"
+definition = "בסדר"
+language = "אנגלית"
 
 [[okepuma]]
-definition = "okay boomer"
-language = "English"
+definition = "אוקי בומר"
+language = "אנגלית"
 
 [[oki]]
-definition = "okay"
-language = "English"
+definition = "בסדר"
+language = "אנגלית"
 
 [[oko]]
-definition = "eye"
-language = "Serbo-Croatian"
+definition = "עין"
+language = "סרבו-קרואטית"
 
 [[olin]]
-definition = "I love"
-language = "Serbo-Croatian"
+definition = "אני אוהב"
+language = "סרבו-קרואטית"
 
 [[omekalike]]
-definition = "o moku e kala ike"
-language = "toki pona"
+definition = "'eat a bad fish', wishing somebody harm instead of well"
+language = "טוקי פונה"
 
 [[omekapo]]
-definition = "o moku e kala pona"
-language = "toki pona"
+definition = "'eat a good fish', wishing somebody well"
+language = "טוקי פונה"
 
 [[omen]]
-definition = "o.m.e.m. ← o moli e mi {cf. English kill me}"
-language = "toki pona"
+definition = "'kill me', express exasperation or frustration sarcastically"
+language = "טוקי פונה"
 
 [[ona]]
-definition = "she"
-language = "Serbo-Croatian"
+definition = "היא"
+language = "סרבו-קרואטית"
 
 [[oni]]
-definition = "(personifications of) dreams"
-language = "Ancient Greek"
+definition = "(האנשה של) חלומות"
+language = "יוונית עתיקה"
 
 [[open]]
-definition = "open"
-language = "English"
+definition = "פתוח"
+language = "אנגלית"
 
 [[owe]]
-definition = "George Orwell, author of 1984"
-language = "English"
+definition = "ג'ורג' אורוול, מחבר הספר 1984"
+language = "אנגלית"
 
 [[pa]]
 definition = "bruh"
-language = "English"
+language = "אנגלית"
 
 [[pakala]]
-definition = "accident"
-language = "Tok Pisin"
+definition = "תאונה"
+language = "טוק פיסין"
 
 [[pake]]
-definition = "block"
-language = "English"
+definition = "בלוק"
+language = "אנגלית"
 
 [[pakola]]
-language = "toki pona"
+definition = "broken, damaged, harmed, destroyed"
+language = "טוקי פונה"
 
 [[pali]]
-definition = "do, make"
-language = "Esperanto"
+definition = "לעשות, לייצר"
+language = "אספרנטו"
 
 [[palisa]]
-definition = "bat, rod, cane"
-language = "Serbo-Croatian"
+definition = "מחבט, מוט, מקל"
+language = "סרבו-קרואטית"
 
 [[pan]]
-definition = "bread"
-language = "Romance"
+definition = "לחם"
+language = "רומאנש"
 
 [[pan]]
-definition = "bread"
-language = "Japanese"
+definition = "לחם"
+language = "יפנית"
 
 [[pan]]
-definition = "bread"
-language = "Portuguese"
+definition = "לחם"
+language = "פורטוגזית"
 
 [[pana]]
-definition = "put, set, place"
-language = "Finnish"
+definition = "לשים, להניח"
+language = "פינית"
 
 [[pasila]]
-definition = "easy"
-language = "Acadian French"
+definition = "קל"
+language = "צרפתית אקדית"
 
 [[pata]]
-definition = "brother"
-language = "Serbo-Croatian"
+definition = "אח"
+language = "סרבו-קרואטית"
 
 [[pata]]
-definition = "sibling or cousin of the same gender"
-language = "Tok Pisin"
+definition = "אח או בן דוד מאותו המגדר"
+language = "טוק פיסין"
 
 [[pata]]
-definition = "brother"
-language = "English"
+definition = "אח"
+language = "אנגלית"
 
 [[peta]]
-definition = "verda"
-language = "Esperanto"
+definition = "ירוק"
+language = "אספרנטו"
 
 [[peto]]
-definition = "pana e telo oko"
-language = "toki pona"
+definition = "(incomplete sentence) 'give eye-water', to cry"
+language = "טוקי פונה"
 
 [[pi]]
-definition = "of"
-language = "Tok Pisin"
+definition = "של"
+language = "טוק פיסין"
 
 [[pika]]
-definition = "Pikachū, an electric Pokémon"
-language = "Japanese"
+definition = "פיקאצ'ו, פוקימון חשמלי"
+language = "יפנית"
 
 [[pilin]]
-definition = "feel"
-language = "Tok Pisin"
+definition = "להרגיש"
+language = "טוק פיסין"
 
 [[pimeja]]
-definition = "dark"
-language = "Finnish"
+definition = "חשוך"
+language = "פינית"
 
 [[pini]]
-definition = "finished, completed"
-language = "Acadian French"
+definition = "נגמר, הושלם"
+language = "צרפתית אקדית"
 
 [[pipi]]
-definition = "bug"
-language = "Acadian French"
+definition = "חרק"
+language = "צרפתית אקדית"
 
 [[pipo]]
-definition = "pipi"
-language = "toki pona"
+definition = "bug, insect, arachnid"
+language = "טוקי פונה"
 
 [[po]]
-definition = "four"
-language = "English"
+definition = "ארבע"
+language = "אנגלית"
 
 [[poka]]
-definition = "side, flank (genitive)"
-language = "Serbo-Croatian"
+definition = "צד, אגף (צורת שייכות)"
+language = "סרבו-קרואטית"
 
 [[poki]]
-definition = "box, female genitalia (vulgar)"
-language = "Tok Pisin"
+definition = "קופסה, איבר מין נשי (גס)"
+language = "טוק פיסין"
 
 [[polinpin]]
-definition = "bowling pin"
-language = "English"
+definition = "פין באולינג"
+language = "אנגלית"
 
 [[pomotolo]]
-definition = "tomato"
-language = "Italian"
+definition = "עגבנייה"
+language = "אילטקית"
 
 [[pona]]
-definition = "good"
-language = "Esperanto"
+definition = "טוב"
+language = "אספרנטו"
 
 [[poni]]
-definition = "pony"
-language = "English"
+definition = "פוני, סוס"
+language = "אנגלית"
 
 [[powe]]
-definition = "not true"
-language = "Acadian French"
+definition = "לא נכון"
+language = "צרפתית אקדית"
 
 [[pu]]
-definition = "unworked wood, sincere, honest, inherent quality, simple"
-language = "Mandarin"
+definition = "עץ לא מעובד, כן, איכות טבועה, פשוט"
+language = "מנדרינית"
 
 [[pu]]
-definition = "book"
-language = "English"
+definition = "ספר"
+language = "אנגלית"
 
 [[puwa]]
-definition = "fluffy things (onomatopoeia)"
-language = "Japanese"
+definition = "דברים רכים (אונומטופיאה)"
+language = "יפנית"
 
 [[sama]]
-definition = "same"
-language = "Finnish"
+definition = "אותו דבר"
+language = "פינית"
 
 [[samu]]
 definition = "jan Samu"
-language = "toki pona"
+language = "טוקי פונה"
 
 [[san]]
-definition = "three"
-language = "Japanese"
+definition = "שלוש"
+language = "יפנית"
 
 [[san]]
-definition = "three"
-language = "Cantonese"
+definition = "שלוש"
+language = "קנטונזית"
 
 [[san]]
-definition = "three"
-language = "Cantonese"
+definition = "שלוש"
+language = "קנטונזית"
 
 [[seli]]
-definition = "hot"
-language = "Georgian"
+definition = "חם"
+language = "גאורגית"
 
 [[selo]]
-definition = "skin, peel"
-language = "Esperanto"
+definition = "עור, קליפה"
+language = "אספרנטו"
 
 [[seme]]
-definition = "what, something"
-language = "Mandarin"
+definition = "מה, משהו"
+language = "מנדרינית"
 
 [[sewi]]
-definition = "upwards"
-language = "Georgian"
+definition = "למעלה"
+language = "גאורגית"
 
 [[sijelo]]
-definition = "body"
-language = "Serbo-Croatian"
+definition = "גוף"
+language = "סרבו-קרואטית"
 
 [[sike]]
-definition = "circle"
-language = "English"
+definition = "מעגל"
+language = "אנגלית"
 
 [[sikomo]]
 definition = "sicko mode"
-language = "English"
+language = "אנגלית"
 
 [[sin]]
-definition = "new, fresh"
-language = "Mandarin"
+definition = "חדש, טרי"
+language = "מנדרינית"
 
 [[sina]]
-definition = "you"
-language = "Finnish"
+definition = "את, אתה, אתם, אתן"
+language = "פינית"
 
 [[sinpin]]
-definition = "in front"
-language = "Cantonese"
+definition = "לפני"
+language = "קנטונזית"
 
 [[sipi]]
 definition = "sibi (dative reflexive pronoun)"
-language = "Latin"
+language = "לטינית"
 
 [[sitelen]]
-definition = "paint"
-language = "Dutch"
+definition = "צבע"
+language = "הולנדית"
 
 [[slape]]
-definition = "sleep"
-language = "toki pona"
+definition = "sleep, rest"
+language = "טוקי פונה"
 
 [[soko]]
-definition = "mushroom"
-language = "Georgian"
+definition = "פטריה"
+language = "גאורגית"
 
 [[sona]]
-definition = "knowledge"
-language = "Georgian"
+definition = "ידע"
+language = "גאורגית"
 
 [[soto]]
-definition = "left side"
-language = "Swahili"
+definition = "צד שמאל"
+language = "סוואהילית"
 
 [[soweli]]
-definition = "beastly animal, lively, passionate"
-language = "Georgian"
+definition = "בהמה, חייתי, תשוקתי"
+language = "גאורגית"
 
 [[su]]
-language = "a priori"
+language = "אין מקור"
 
 [[suke]]
-language = "toki pona"
+definition = "circle, sphere, cycle"
+language = "טוקי פונה"
 
 [[suli]]
-definition = "big, large, great"
-language = "Finnish"
+definition = "גדול, עצום, אדיר"
+language = "פינית"
 
 [[suno]]
-definition = "sun"
-language = "Esperanto"
+definition = "שמש"
+language = "אספרנטו"
 
 [[supa]]
-definition = "surface"
-language = "Esperanto"
+definition = "שטח"
+language = "אספרנטו"
 
 [[sutopatikuna]]
-definition = "platypus, lit. strange beak"
-language = "Serbo-Croatian"
+definition = "פלטיפוס, מילולית מקור מוזר"
+language = "סרבו-קרואטית"
 
 [[suwi]]
-definition = "sweet"
-language = "Tok Pisin"
+definition = "מתוק"
+language = "טוק פיסין"
 
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoiea)"
-language = "Korean"
+definition = "הצליל של שני מגנטים פוגעים זה בזה (אונומטופיאה)"
+language = "קוריאנית"
 
 [[tan]]
-definition = "from"
-language = "Cantonese"
+definition = "מ"
+language = "קנטונזית"
 
 [[taso]]
-definition = "just, only, but, however"
-language = "Tok Pisin"
+definition = "רק, בלבד, אבל, אך"
+language = "טוק פיסין"
 
 [[tawa]]
-definition = "toward"
-language = "English"
+definition = "לכיוון"
+language = "אנגלית"
 
 [[te]]
-definition = "(quotative)"
-language = "Japanese"
+definition = "(ציטוט)"
+language = "יפנית"
 
 [[teje]]
-definition = "right"
-language = "Welsh"
+definition = "ימין"
+language = "וולשית"
 
 [[telo]]
-definition = "(some) water"
-language = "Acadian French"
+definition = "מים"
+language = "צרפתית אקדית"
 
 [[ten]]
-definition = "time"
-language = "toki pona"
+definition = "time, event, situation"
+language = "טוקי פונה"
 
 [[tenpo]]
-definition = "time"
-language = "Esperanto"
+definition = "זמן"
+language = "אספרנטו"
 
 [[to]]
-definition = "(quotative)"
-language = "Japanese"
+definition = "(ציטוט)"
+language = "יפנית"
 
 [[tokana]]
-definition = "attention, focus"
-language = "Tongan"
+definition = "תשומת לב, מיקוד"
+language = "טונגאית"
 
 [[toki]]
-definition = "talk"
-language = "Tok Pisin"
+definition = "לדבר"
+language = "טוק פיסין"
 
 [[toma]]
-language = "toki pona"
+definition = "home, room, house, building"
+language = "טוקי פונה"
 
 [[tomo]]
-definition = "house"
-language = "Esperanto"
+definition = "בית"
+language = "אספרנטו"
 
 [[tonsi]]
-definition = "comrade (same will/purpose), LGBT+"
-language = "Mandarin"
+definition = 'עמית (אותו רצון/מטרה), להטב"י'
+language = "מנדרינית"
 
 [[tu]]
-definition = "two"
-language = "English"
+definition = "שתיים"
+language = "אנגלית"
 
 [[tuli]]
-definition = "three"
-language = "English"
+definition = "שלוש"
+language = "אנגלית"
 
 [[u]]
-language = "a priori"
+language = "אין מקור"
 
 [[umesu]]
-definition = "to amaze (someone), surprise, impress"
-language = "Iqglic"
+definition = "להדהים (מישהו), להפתיע, להרשים"
+language = "איקגליק"
 
 [[unpa]]
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[unu]]
-definition = "purple"
-language = "Malay-Indonesian"
+definition = "סגול"
+language = "מלאית-אינדונזית"
 
 [[usawi]]
-definition = "witchcraft, sorcery"
-language = "Swahili"
+definition = "כישוף, קסם"
+language = "סוואהילית"
 
 [[uta]]
-definition = "mouth"
-language = "Serbo-Croatian"
+definition = "פה"
+language = "סרבו-קרואטית"
 
 [[utala]]
-definition = "strike, hit, beat"
-language = "Serbo-Croatian"
+definition = "להכות, לפגוע, לנצח"
+language = "סרבו-קרואטית"
 
 [[wa]]
-language = "onomatopoeia"
+language = "אונומטופיאה"
 
 [[waleja]]
-definition = "of moment, important"
-language = "Quenya"
+definition = "חשוב"
+language = "קווניה"
 
 [[walo]]
-definition = "white"
-language = "Finnish"
+definition = "לבן"
+language = "פינית"
 
 [[wan]]
-definition = "one"
-language = "English"
+definition = "אחת"
+language = "אנגלית"
 
 [[waso]]
-definition = "bird"
-language = "Acadian French"
+definition = "ציפור"
+language = "צרפתית אקדית"
 
 [[wasoweli]]
-definition = "waso soweli, soweli waso"
-language = "toki pona"
+definition = "bird, flying creature"
+language = "טוקי פונה"
+
+[[wasoweli]]
+definition = "land animal, fuzzy creature"
+language = "טוקי פונה"
 
 [[wawa]]
-definition = "strong, powerful, thick"
-language = "Finnish"
+definition = "חזק, עוצמתי, עבה"
+language = "פינית"
 
 [[wawajete]]
-language = "toki pona"
+definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
+language = "טוקי פונה"
 
 [[we]]
-definition = "man"
-language = "Spanish"
+definition = "גבר"
+language = "ספרדית"
 
 [[we1]]
-definition = "man"
-language = "Spanish"
+definition = "גבר"
+language = "ספרדית"
 
 [[weka]]
-definition = "away, gone"
-language = "Dutch"
+definition = "רחוק, נעלם"
+language = "הולנדית"
 
 [[wekama]]
-definition = "weka kama"
-language = "toki pona"
+definition = "'leave-arrive', to leave and come back"
+language = "טוקי פונה"
 
 [[wi]]
-definition = "we"
-language = "English"
+definition = "אנחנו"
+language = "אנגלית"
 
 [[wile]]
-definition = "want, desire"
-language = "Dutch"
+definition = "רצון, כמיהה"
+language = "הולנדית"
 
 [[wuwojiti]]
-definition = "(sound)"
-language = "toki pona"
+definition = "(צליל)"
+language = "טוקי פונה"
 
 [[yupekosi]]
-language = "a priori"
+language = "אין מקור"
 
 [[yutu]]
-definition = "star"
-language = "Turkish"
+definition = "כוכב"
+language = "טורקית"

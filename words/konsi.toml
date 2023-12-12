@@ -2,10 +2,10 @@
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
-coined_era = ""
-coined_year = ""
-creator = []
-see_also = []
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["jan Epen"]
+see_also = ["toki"]
 source_language = "Korean"
 usage_category = "obscure"
 word = "konsi"
