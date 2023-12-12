@@ -97,7 +97,7 @@ export const Word = z
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
 		recognition: z
 			.record(
-				z.custom<`${number}-${number}`>((val) => /^\d{4}-\d{2}$/g.test(val as string)),
+				z.custom<`${number}-${number}`>((val: unknown) => /^\d{4}-\d{2}$/g.test(val as string)),
 				z.number().min(0).max(100),
 			)
 			.describe(
@@ -121,7 +121,7 @@ export const DefinitionTranslation = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 	})
-	.catchall(z.string())
+	.catchall(z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
