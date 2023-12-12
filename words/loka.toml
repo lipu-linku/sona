@@ -11,7 +11,10 @@ usage_category = "obscure"
 word = "loka"
 
 [[etymology]]
-word = "luka & noka"
+word = "luka"
+
+[[etymology]]
+word = "noka"
 
 [audio]
 kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/loka.mp3"
