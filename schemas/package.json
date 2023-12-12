@@ -25,16 +25,11 @@
 		"type": "git"
 	},
 	"scripts": {
-		"generate:schemas": "tsx ./generateSchemas.ts",
-		"dev": "tsx ./src/server/router.ts --watch-path ./src/**/*.ts",
-		"build:server": "",
-		"build:lib": "tsup src/types/**/*.ts --dts --format esm"
+		"generate": "tsx ./generateSchemas.ts",
+		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
+		"build:lib": "tsup ./src/**/*.ts --dts --format esm"
 	},
 	"dependencies": {
-		"@hono/node-server": "^1.3.1",
-		"@taplo/lib": "0.4.0-alpha.2",
-		"hono": "^3.11.1",
-		"semver": "^7.5.4",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {

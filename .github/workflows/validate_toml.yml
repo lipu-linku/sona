@@ -4,11 +4,17 @@ on:
   push:
     paths:
       - "**.toml"
+
+  pull_request:
+    paths:
+      - "**.toml"
+
   workflow_call:
     inputs:
       commit_sha:
         type: string
         required: true
+
   workflow_dispatch:
 
 permissions:
@@ -39,3 +45,8 @@ jobs:
 
       - name: Validate word files
         run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/word.json ./words/*.toml
+
+  package:
+    needs: validate
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
+    uses: ./.github/workflows/package_data.yml

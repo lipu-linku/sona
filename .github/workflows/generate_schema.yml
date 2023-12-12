@@ -3,8 +3,14 @@ name: Generate JSON Schemas
 on:
   push:
     branches: ["main"]
+    paths:
+      - "schemas/src/**.ts"
+
   pull_request:
     branches: ["main"]
+    paths:
+      - "schemas/src/**.ts"
+
   workflow_dispatch:
 
 permissions:
@@ -36,7 +42,7 @@ jobs:
               cwd: ./schemas
 
       - name: Generate JSON Schemas
-        run: pnpm run generate:schemas
+        run: pnpm run generate
 
       - name: Commit schemas
         id: commit
