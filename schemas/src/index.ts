@@ -1,5 +1,8 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
+import spdxCorrect from "spdx-correct";
+
+// Word data
 
 export const Word = z
 	.object({
@@ -96,10 +99,7 @@ export const Word = z
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
 		recognition: z
-			.record(
-				z.custom<`${number}-${number}`>((val) => /^\d{4}-\d{2}$/g.test(val as string)),
-				z.number().min(0).max(100),
-			)
+			.record(YearMonth, z.number().min(0).max(100))
 			.describe(
 				"The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project",
 			),
@@ -156,7 +156,7 @@ export const EtymologyTranslation = z
 
 export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
 
-export const Data = z
+export const Words = z
 	.object({
 		$schema: z.string().url(),
 	})
@@ -172,4 +172,64 @@ export const Data = z
 			),
 		}),
 	)
-	.describe("A raw data object containing all the sona data");
+	.describe("A raw data object containing all the words data in sona");
+
+// Font data
+export const Font = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this schema"),
+		creator: z.array(z.string()).describe("a list of this font's creators"),
+		features: z.array(z.string()).describe("a list of features this font supports"),
+		filename: z
+			.string()
+			.regex(/^.+\.(ttf|otf|woff2|woff)$/)
+			.describe("the name of the file this font is stored in at https://github.com/lipu-linku/ijo"),
+		last_updated: YearMonth.describe("the rough date of this font's last update"),
+		license: z
+			.string()
+			.refine((val) => val === "UNLICENSED" || !!spdxCorrect(val))
+			.describe("an SPDX expression describing this font's license: https://spdx.org/licenses/"),
+		ligatures: z.boolean().describe("whether this font supports ligatures"),
+		name: z.string().min(1).describe("this font's name"),
+		style: z.string().min(1).describe("the general style of this font"),
+		ucsur: z
+			.boolean()
+			.describe(
+				"whether this font conforms to the UCSUR standard: https://www.kreativekorp.com/ucsur/charts/sitelen.html",
+			),
+		version: z.string().describe("the current version of this font"),
+		writing_system: WritingSystem.describe("the writing system this font uses as its script"),
+		links: z.object({
+			fontfile: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to the font file published by the original author (not the mirror on the Linku Project's GitHub)",
+				),
+			repo: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to a web hosted repository of this font's source files (usually hosted on GitHub or GitLab)",
+				),
+			webpage: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to this font's home page, usually showcasing its features and usage/installation",
+				),
+		}),
+	})
+	.describe("Info on a font for Toki Pona");
+export type Font = z.infer<typeof Font>;
+
+export const Fonts = z
+	.object({
+		$schema: z.string().url(),
+	})
+	.catchall(Font.omit({ $schema: true }))
+	.describe("A raw data object containing all the fonts data in sona");
+export type Fonts = z.infer<typeof Fonts>;
