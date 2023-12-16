@@ -1,6 +1,13 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["trollbreeder"]
-features = ["codepoints only", "UCSUR-compliant", "cartouches", "long pi", "supports ku suli and the rest of the UCSUR characters and more", "tuki tiki"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "cartouches",
+  "long pi",
+  "supports ku suli and the rest of the UCSUR characters and more",
+  "tuki tiki",
+]
 filename = "nasinluka.otf"
 last_updated = "2023-04"
 license = "OFL"

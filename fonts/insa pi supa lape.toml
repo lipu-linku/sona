@@ -1,6 +1,10 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["devurandom / jan Lentan"]
-features = ["ASCII transcription", "supports cartouches and extended pi", "UCSUR-compliant"]
+features = [
+  "ASCII transcription",
+  "supports cartouches and extended pi",
+  "UCSUR-compliant",
+]
 filename = "supa-lape.otf"
 last_updated = "2022-02"
 license = "CC0"

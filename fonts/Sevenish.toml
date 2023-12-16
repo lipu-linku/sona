@@ -1,6 +1,10 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["Nico \"SauceDLX\""]
-features = ["codepoints only", "UCSUR-compliant", "supports ku suli and the rest of the UCSUR characters"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+]
 filename = "sevenish.otf"
 last_updated = "2023-03"
 license = "MIT"

@@ -1,6 +1,9 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["Jack Humbert"]
-features = ["ASCII transcription", "unrecognised words turn into cartouched latin characters"]
+features = [
+  "ASCII transcription",
+  "unrecognised words turn into cartouched latin characters",
+]
 filename = "sitelen-pona-pona.otf"
 last_updated = "2020-06"
 license = "OFL"

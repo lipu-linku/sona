@@ -1,6 +1,14 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Jeli / UkiyoMoji Fonts"]
-features = ["ASCII transcription", "UCSUR-compliant", "extended pi", "cartouches", "ku suli", "cartouches", "autocartouches capitalised latin words"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "extended pi",
+  "cartouches",
+  "ku suli",
+  "cartouches",
+  "autocartouches capitalised latin words",
+]
 filename = "sitelen-antowi.otf"
 last_updated = "2022-05"
 license = "custom license"

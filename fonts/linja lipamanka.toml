@@ -1,6 +1,14 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["lipamanka"]
-features = ["ASCII transcription", "UCSUR-compliant", "supports ku suli and the rest of the UCSUR characters", "cartouches", "long pi", "name glyphs", "community requested nimisin"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+  "cartouches",
+  "long pi",
+  "name glyphs",
+  "community requested nimisin",
+]
 filename = "linjalipamanka-normal.ttf"
 last_updated = "2023-01"
 license = "OFL"

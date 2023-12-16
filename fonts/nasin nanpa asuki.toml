@@ -1,6 +1,11 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Itan"]
-features = ["ASCII transcription", "UCSUR-compliant", "supports ku suli and the rest of the UCSUR characters", "combined glyphs"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+  "combined glyphs",
+]
 filename = "nn.otf"
 last_updated = "2023-03"
 license = "MIT"

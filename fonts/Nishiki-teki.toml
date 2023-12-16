@@ -1,6 +1,14 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["Umihotaru"]
-features = ["codepoints only", "UCSUR-compliant", "supports cartouches", "extended glyphs", "combined glyphs", "ZWJ sequences", "supports all ku suli and the rest of UCSUR"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "supports cartouches",
+  "extended glyphs",
+  "combined glyphs",
+  "ZWJ sequences",
+  "supports all ku suli and the rest of UCSUR",
+]
 filename = "nishiki-teki.ttf"
 last_updated = "2023-04"
 license = "OFL"

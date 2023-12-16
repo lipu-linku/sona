@@ -1,6 +1,12 @@
 "$schema" = "../schemas/generated/font.json"
 creator = []
-features = ["codepoints only", "UCSUR-compliant", "supports ku suli and rest of the UCSUR characters", "cartouches", "long pi"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "supports ku suli and rest of the UCSUR characters",
+  "cartouches",
+  "long pi",
+]
 filename = "sitelen-lili.ttf"
 last_updated = "2022-08"
 license = "all rights reserved"

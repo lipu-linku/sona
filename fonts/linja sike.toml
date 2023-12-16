@@ -1,6 +1,14 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["lipamanka / kulupu poki"]
-features = ["ASCII transcription", "supports cartouches", "combined glyphs", "most or all nimi ku lili", "extended pi and more extended lines", "diacritic glyphs", "ligature combination of glyphs"]
+features = [
+  "ASCII transcription",
+  "supports cartouches",
+  "combined glyphs",
+  "most or all nimi ku lili",
+  "extended pi and more extended lines",
+  "diacritic glyphs",
+  "ligature combination of glyphs",
+]
 filename = "linja-sike.otf"
 last_updated = "2021-09"
 license = "OFL"

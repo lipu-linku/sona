@@ -1,6 +1,11 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Melon", "nimi Elemenopi"]
-features = ["ASCII transcription", "supports cartouches", "nimi ku suli", "extended pi and more extended lines"]
+features = [
+  "ASCII transcription",
+  "supports cartouches",
+  "nimi ku suli",
+  "extended pi and more extended lines",
+]
 filename = "linja-wawa.ttf"
 last_updated = "2021-12"
 license = "OFL"

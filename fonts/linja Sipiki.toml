@@ -1,6 +1,12 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Sipiki", "jan Ke Tami"]
-features = ["ASCII transcription", "UCSUR-compliant", "supports cartouches", "long pi", "supports all ku suli and the rest of UCSUR"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports cartouches",
+  "long pi",
+  "supports all ku suli and the rest of UCSUR",
+]
 filename = "linja-sikipi.ttf"
 last_updated = "2023-11"
 license = "OFL"

@@ -1,6 +1,11 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Itan"]
-features = ["codepoints only", "supports nimi ku suli", "UCSUR-compliant", "combined glyphs"]
+features = [
+  "codepoints only",
+  "supports nimi ku suli",
+  "UCSUR-compliant",
+  "combined glyphs",
+]
 filename = "nasin-nanpa.otf"
 last_updated = "2022-05"
 license = "MIT"

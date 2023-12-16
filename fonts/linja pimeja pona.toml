@@ -1,6 +1,9 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Ke Tami"]
-features = ["ASCII transcription", "unrecognised words turn into cartouched latin characters"]
+features = [
+  "ASCII transcription",
+  "unrecognised words turn into cartouched latin characters",
+]
 filename = "linja-pimeja-pona.otf"
 last_updated = "2022-05"
 license = "OFL"

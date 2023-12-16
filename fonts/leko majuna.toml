@@ -1,6 +1,10 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["waso Keli (Kelsey Higham)"]
-features = ["ASCII transcription", "UCSUR-compliant", "supports ku suli and the rest of the UCSUR characters"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+]
 filename = "leko-majuna.ttf"
 last_updated = "2023-02"
 license = "OFL"

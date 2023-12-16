@@ -1,6 +1,10 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["kala Asi"]
-features = ["codepoints only", "supports cartouches", "partially UCSUR-compliant"]
+features = [
+  "codepoints only",
+  "supports cartouches",
+  "partially UCSUR-compliant",
+]
 filename = "sitelen-kotopon.otf"
 last_updated = "2022-01"
 license = "OFL"

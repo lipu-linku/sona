@@ -1,6 +1,16 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Lepeka"]
-features = ["ASCII transcription and codepoints", "UCSUR-compliant", "supports cartouches", "extended glyphs", "combined glyphs", "ZWJ sequences", "character variants", "randomized jaki", "supports all ku lili and extensively more"]
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports cartouches",
+  "extended glyphs",
+  "combined glyphs",
+  "ZWJ sequences",
+  "character variants",
+  "randomized jaki",
+  "supports all ku lili and extensively more",
+]
 filename = "fairfax-pona-hd.ttf"
 last_updated = "2023-10"
 license = "OFL"
