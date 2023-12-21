@@ -3,11 +3,13 @@ name: Generate JSON Schemas
 on:
   push:
     branches: ["main"]
+    branches-ignore: ["l10n_*"]
     paths:
       - "schemas/src/**.ts"
 
   pull_request:
     branches: ["main"]
+    branches-ignore: ["l10n_*"]
     paths:
       - "schemas/src/**.ts"
 
