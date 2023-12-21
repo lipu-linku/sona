@@ -2,10 +2,12 @@ name: Validate TOML Files
 
 on:
   push:
+    branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
 
   pull_request:
+    branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
 
@@ -48,5 +50,5 @@ jobs:
 
   package:
     needs: validate
-    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
+    if: ${{ (github.event_name == 'push' || github.event_name == 'pull_request') && github.ref == 'main' }}
     uses: ./.github/workflows/package_data.yml
