@@ -27,7 +27,7 @@ definition = "לא"
 language = "גאורגית"
 
 [[alasa]]
-definition = "hunting, (literally) on the hunt"
+definition = "ציד, (מילולית) בזמן ציד"
 language = "צרפתית אקדית"
 
 [[ale]]
@@ -141,7 +141,7 @@ definition = "לחשוב"
 language = "טגלוג"
 
 [[itomi]]
-definition = "hit or miss"
+definition = "יכול להיכשל באותה מידה שיכול להצליח"
 language = "אנגלית"
 
 [[jaki]]
@@ -208,7 +208,7 @@ definition = "להפיק צליל; צליל, רעש, קול"
 language = "טוקי פונה"
 
 [[kalama]]
-definition = "noise (of the human voice)"
+definition = "רעש (של הקול האנושי)"
 language = "סרבו-קרואטית"
 
 [[kalijopilale]]
@@ -268,7 +268,7 @@ definition = "מי"
 language = "צרפתית"
 
 [[kijetesantakalu]]
-definition = "kinkajou"
+definition = "דביבון לופת"
 language = "פינית"
 
 [[kiki]]
@@ -326,7 +326,7 @@ definition = "צבע"
 language = "צרפתית אקדית"
 
 [[kulijo]]
-definition = "coolio"
+definition = "מגניב (סלנג)"
 language = "אנגלית"
 
 [[kulu]]
@@ -334,8 +334,12 @@ definition = "קבוצה, קהילה, לקט"
 language = "טוקי פונה"
 
 [[kulupu]]
-definition = "kulupu"
+definition = "group"
 language = "טונגאית"
+
+[[kulupu]]
+definition = "group"
+language = "אנגלית"
 
 [[kuntu]]
 definition = "'צליל כיף מהפה', לשיר עם הקול שלך"
@@ -386,7 +390,7 @@ definition = "הוא"
 language = "אספרנטו"
 
 [[lijokuku]]
-definition = "בדיוק!, מילולית 'באמת LOL'"
+definition = "Exactly!', (literally) 'real LOL'"
 language = "קוריאנית"
 
 [[likujo]]
@@ -418,11 +422,11 @@ definition = "אדום (בהטייה)"
 language = "הולנדית"
 
 [[loka]]
-definition = "hand, arm, grasping appendage, tactile appendage"
+definition = "יד, זרוע, גף לופת, גף ממשש"
 language = "טוקי פונה"
 
 [[loka]]
-definition = "foot, leg, roots, locomotive appendage"
+definition = "כף רגל, רגל, שורשים, גף תנועה"
 language = "טוקי פונה"
 
 [[lokon]]
@@ -928,7 +932,7 @@ definition = "שטח"
 language = "אספרנטו"
 
 [[sutopatikuna]]
-definition = "פלטיפוס, מילולית מקור מוזר"
+definition = "platypus, (literally) strange beak"
 language = "סרבו-קרואטית"
 
 [[suwi]]
