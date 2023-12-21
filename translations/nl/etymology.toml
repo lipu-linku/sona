@@ -19,8 +19,8 @@ definition = "hagedis"
 language = "Nederlands"
 
 [[ako]]
-definition = "(interjection) surprise"
-language = "Korean"
+definition = "(tussenvoegsel) verrassing"
+language = "Koreaans"
 
 [[ala]]
 definition = "nee"
@@ -141,15 +141,11 @@ definition = "denken"
 language = "Tagalog"
 
 [[itomi]]
-definition = """
-hit or miss
-(lettelijk raken of missen)"""
+definition = "raken of missen"
 language = "Engels"
 
 [[jaki]]
-definition = """
-yucky
-(letterlijk, ieuw)"""
+definition = "ieuw"
 language = "Engels"
 
 [[jaku]]
@@ -161,9 +157,7 @@ definition = "te voet"
 language = "Fins"
 
 [[jami]]
-definition = """
-yummy
-(letterlijk, lekker)"""
+definition = "lekker (als in eten)"
 language = "Engels"
 
 [[jan]]
@@ -179,15 +173,11 @@ definition = "reflecteren, weergalmen"
 language = "Turks"
 
 [[je]]
-definition = """
-Yay
-(letterlijk, jeej/yeey)"""
+definition = "jeej/yeey"
 language = "Engels"
 
 [[jelo]]
-definition = """
-yellow
-(letterlijk, geel)"""
+definition = "geel"
 language = "Engels"
 
 [[jo]]
@@ -195,7 +185,7 @@ definition = "hebben"
 language = "Mandarijn (Chinees)"
 
 [[jonke]]
-definition = "hjönk"
+definition = "gak"
 language = "onomatopee"
 
 [[ju]]
@@ -222,11 +212,11 @@ definition = "lawaai van veel mensen"
 language = "Servo-Kroatisch"
 
 [[kalijopilale]]
-definition = "Caryophyllales"
+definition = "Tweezaadlobbige planten"
 language = "Latijn"
 
 [[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
+definition = "evenement, aankomen, gebeuren, worden, oproepen, komen"
 language = "Tok Pisin"
 
 [[kamalawala]]
@@ -234,19 +224,19 @@ definition = "kama pi lawa ala"
 language = "toki pona"
 
 [[kan]]
-definition = "with"
+definition = "met"
 language = "Fins"
 
 [[kapa]]
-definition = "head, cup"
+definition = "hoofd, kopje"
 language = "Nederlands"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
+definition = "bruin, koffie(kleurig)"
 language = "Kantonees"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
+definition = "bruin, koffie(kleurig)"
 language = "Mandarijn (Chinees)"
 
 [[kasi]]
@@ -254,15 +244,15 @@ definition = "kasvi ‘plant’"
 language = "Fins"
 
 [[ke]]
-definition = "okay"
+definition = "oké"
 language = "Engels"
 
 [[ken]]
-definition = "can"
+definition = "kunnen"
 language = "Tok Pisin"
 
 [[kepeken]]
-definition = "to use"
+definition = "gebruiken"
 language = "Nederlands"
 
 [[kepen]]
@@ -270,11 +260,11 @@ definition = "kepeken"
 language = "toki pona"
 
 [[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
-language = "Hebrew"
+definition = "Naam voor de Joodse LHBT+-organisatie Keshet"
+language = "Hebreeuws"
 
 [[ki]]
-definition = "who"
+definition = "wie"
 language = "Frans"
 
 [[kijetesantakalu]]
@@ -289,23 +279,23 @@ definition = "fruit"
 language = "Georgisch"
 
 [[kin]]
-definition = "too, also, still"
+definition = "ook, alsook, nog altijd,"
 language = "Fins"
 
 [[kipisi]]
-definition = "to cut (intransitive)"
+definition = "knippen (onovergankelijk)"
 language = "Inuktitut"
 
 [[kisa]]
 definition = "kat"
-language = "Russian"
+language = "Russisch"
 
 [[kiwen]]
-definition = "stone (genitive case)"
+definition = "steen (genitieve naamval)"
 language = "Fins"
 
 [[ko]]
-definition = "cream, paste"
+definition = "crème, pasta"
 language = "Kantonees"
 
 [[kokosila]]
@@ -313,20 +303,20 @@ definition = "(present of krokodili)"
 language = "Esperanto"
 
 [[kon]]
-definition = "air, atmosphere, ambience, opinion"
+definition = "lucht, atmosfeer, sfeer, mening"
 language = "Mandarijn (Chinees)"
 
 [[konsi]]
-definition = "announcement, notice"
-language = "Korean"
+definition = "aankondiging, mededeling"
+language = "Koreaans"
 
 [[konwe]]
-definition = "John Conway, creator of The Game of Life"
+definition = 'John Conway, de uitvinder van de "Game of Life"'
 language = "Engels"
 
 [[kosan]]
-definition = "to defend, protect (against)"
-language = "Irish"
+definition = "verdedigen, (tegen iets) beschermen"
+language = "Iers"
 
 [[ku]]
 language = "op voorhand"
@@ -336,7 +326,7 @@ definition = "kleur"
 language = "Acadiaans Frans"
 
 [[kulijo]]
-definition = "coolio, (letterlijk, vetgaaf)"
+definition = "vetgaaf"
 language = "Engels"
 
 [[kulu]]
@@ -344,11 +334,11 @@ definition = "kulupu"
 language = "toki pona"
 
 [[kulupu]]
-definition = "group"
+definition = "groep"
 language = "Tongaans"
 
 [[kulupu]]
-definition = "group"
+definition = "groep"
 language = "Engels"
 
 [[kuntu]]
@@ -651,7 +641,7 @@ definition = "o uta (e sike mi)"
 language = "toki pona"
 
 [[oke]]
-definition = "okay (letterlijk, oké)"
+definition = "oké"
 language = "Engels"
 
 [[okepuma]]
@@ -659,7 +649,7 @@ definition = "okay boomer"
 language = "Engels"
 
 [[oki]]
-definition = "okay"
+definition = "oké"
 language = "Engels"
 
 [[oko]]
@@ -723,35 +713,35 @@ definition = "bat, rod, cane"
 language = "Servo-Kroatisch"
 
 [[pan]]
-definition = "bread"
-language = "Romance"
+definition = "brood"
+language = "Romaans"
 
 [[pan]]
-definition = "bread"
+definition = "brood"
 language = "Japans"
 
 [[pan]]
-definition = "bread"
-language = "Portuguese"
+definition = "brood"
+language = "Portugees"
 
 [[pana]]
-definition = "put, set, place"
+definition = "(neer)zetten, plaatsen"
 language = "Fins"
 
 [[pasila]]
-definition = "easy"
+definition = "makkelijk"
 language = "Acadiaans Frans"
 
 [[pata]]
-definition = "brother"
+definition = "broer"
 language = "Servo-Kroatisch"
 
 [[pata]]
-definition = "sibling or cousin of the same gender"
+definition = "broer, zus, neef of nicht van hetzelfde geslacht"
 language = "Tok Pisin"
 
 [[pata]]
-definition = "brother"
+definition = "broer"
 language = "Engels"
 
 [[peta]]
@@ -803,7 +793,7 @@ definition = "doosje, vrouwelijke genitaliën (vulgair)"
 language = "Tok Pisin"
 
 [[polinpin]]
-definition = "bowling pin (letterlijk, bowling kegel)"
+definition = "bowling kegel"
 language = "Engels"
 
 [[pomotolo]]
@@ -827,7 +817,7 @@ definition = "onbewerkt hout, oprecht, eerlijk, inherente kwaliteit, simpel"
 language = "Mandarijn (Chinees)"
 
 [[pu]]
-definition = "boek (letterlijk, boek)"
+definition = "boek"
 language = "Engels"
 
 [[puwa]]
@@ -859,23 +849,23 @@ definition = "warm"
 language = "Georgisch"
 
 [[selo]]
-definition = "skin, peel"
+definition = "pel, huid"
 language = "Esperanto"
 
 [[seme]]
-definition = "what, something"
+definition = "wat, iets"
 language = "Mandarijn (Chinees)"
 
 [[sewi]]
-definition = "upwards"
+definition = "omhoog"
 language = "Georgisch"
 
 [[sijelo]]
-definition = "body"
+definition = "lichaam"
 language = "Servo-Kroatisch"
 
 [[sike]]
-definition = "circle"
+definition = "cirkel"
 language = "Engels"
 
 [[sikomo]]
@@ -883,7 +873,7 @@ definition = "sicko mode"
 language = "Engels"
 
 [[sin]]
-definition = "new, fresh"
+definition = "nieuw, fris, vers"
 language = "Mandarijn (Chinees)"
 
 [[sina]]
@@ -891,15 +881,15 @@ definition = "jij, jullie, u"
 language = "Fins"
 
 [[sinpin]]
-definition = "in front"
+definition = "voor"
 language = "Kantonees"
 
 [[sipi]]
-definition = "sibi (dative reflexive pronoun)"
+definition = "sibi (datief, reflexief voornaamwoord)"
 language = "Latijn"
 
 [[sitelen]]
-definition = "paint"
+definition = "verf"
 language = "Nederlands"
 
 [[slape]]
@@ -907,62 +897,62 @@ definition = "sleep"
 language = "toki pona"
 
 [[soko]]
-definition = "mushroom"
+definition = "paddenstoel"
 language = "Georgisch"
 
 [[sona]]
-definition = "knowledge"
+definition = "kennis"
 language = "Georgisch"
 
 [[soto]]
-definition = "left side"
+definition = "linkerkant"
 language = "Swahili"
 
 [[soweli]]
-definition = "beastly animal, lively, passionate"
+definition = "beestig dier, levendig, gepassioneerd"
 language = "Georgisch"
 
 [[su]]
 language = "op voorhand"
 
 [[suke]]
-definition = "circle, sphere, cycle"
+definition = "cirkel, bol, cyclus"
 language = "toki pona"
 
 [[suli]]
-definition = "big, large, great"
+definition = "groot, groots"
 language = "Fins"
 
 [[suno]]
-definition = "sun"
+definition = "zon"
 language = "Esperanto"
 
 [[supa]]
-definition = "surface"
+definition = "oppervlak"
 language = "Esperanto"
 
 [[sutopatikuna]]
-definition = "platypus, (literally) strange beak"
+definition = "vogelbekdier, (letterlijk) rare bek"
 language = "Servo-Kroatisch"
 
 [[suwi]]
-definition = "sweet"
+definition = "zoet"
 language = "Tok Pisin"
 
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoiea)"
-language = "Korean"
+definition = "het geluid van 2 magneten die met elkaar botsen (onomatopee)"
+language = "Koreaans"
 
 [[tan]]
-definition = "from"
+definition = "van"
 language = "Kantonees"
 
 [[taso]]
-definition = "just, only, but, however"
+definition = "alleen, enkel, slechts, echter"
 language = "Tok Pisin"
 
 [[tawa]]
-definition = "toward (letterlijk, naar)"
+definition = "naar"
 language = "Engels"
 
 [[te]]
@@ -998,7 +988,7 @@ definition = "spreken"
 language = "Tok Pisin"
 
 [[toma]]
-definition = "home, room, house, building"
+definition = "huis, kamer, thuis, gebouw"
 language = "toki pona"
 
 [[tomo]]
@@ -1055,7 +1045,7 @@ definition = "wit"
 language = "Fins"
 
 [[wan]]
-definition = "one (letterlijk, één)"
+definition = "één"
 language = "Engels"
 
 [[waso]]
@@ -1067,7 +1057,7 @@ definition = "waso soweli, soweli waso"
 language = "toki pona"
 
 [[wasoweli]]
-definition = "land animal, fuzzy creature"
+definition = "landdier"
 language = "toki pona"
 
 [[wawa]]
@@ -1075,7 +1065,7 @@ definition = "sterk, krachtig, dik"
 language = "Fins"
 
 [[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
+definition = "(alle fonetisch verboden medeklinker-klinkercombinaties in toki pona)"
 language = "toki pona"
 
 [[we]]
@@ -1087,7 +1077,7 @@ definition = "man"
 language = "Spaans"
 
 [[weka]]
-definition = "away, gone"
+definition = "er niet meer, weggegaan"
 language = "Nederlands"
 
 [[wekama]]
@@ -1095,20 +1085,20 @@ definition = "weka kama"
 language = "toki pona"
 
 [[wi]]
-definition = "we"
+definition = "we/wij"
 language = "Engels"
 
 [[wile]]
-definition = "want, desire"
+definition = "willen, wensen"
 language = "Nederlands"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "(geluid)"
 language = "toki pona"
 
 [[yupekosi]]
 language = "op voorhand"
 
 [[yutu]]
-definition = "star"
+definition = "ster"
 language = "Turks"
