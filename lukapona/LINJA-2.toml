@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "linja"
+id = "LINJA"
+is_two_handed = true
+new_gloss = "LINJA-2"
+old_gloss = "LINJA"
+
+[[etymology]]
+language = "Toki Pona Sign Language (Chuff)"
+sign = "linja"
+
+[signwriting]
+fsw = "M540x525S1ce20507x476S1ce28474x476S20500496x510S22b06510x509S22b12461x509"
+swu = "𝠃𝤮𝤟񄵡𝤍𝣮񄵩𝣬𝣮񆇡𝤂𝤐񇀧𝤐𝤏񇀳𝣟𝤏"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/linja.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/linja.mp4"

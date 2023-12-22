@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "o"
+id = "O"
+is_two_handed = false
+new_gloss = "O"
+old_gloss = "O"
+
+[[etymology]]
+language = "BSL"
+sign = "MUST"
+
+[signwriting]
+fsw = "M509x526S15a10494x475S22e04492x508"
+swu = "𝠃𝤏𝤠񂇑𝤀𝣭񇅅𝣾𝤎"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/o.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/o.mp4"

@@ -1,11 +1,8 @@
 #!/bin/python3
 
 from converter import (
-    transform_to_list,
     noop,
-    trash,
     nested_defaultdict,
-    write_translated,
 )
 from functools import partial
 from io import StringIO
@@ -21,12 +18,11 @@ SHEET = "https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe1
 T = "t"
 D = "d"
 
-LANGUAGES = ["en", "tok"]  # hardcoded bc there are only two
 LUKAPONA = nested_defaultdict()
 ICONS = nested_defaultdict()
 LP_ETYMOLOGY = nested_defaultdict()
-TR_PARAMETERS = nested_defaultdict()
 PARAMETERS = nested_defaultdict()
+PARAMETERS_TOK = nested_defaultdict()
 ETYMOLOGY = nested_defaultdict()
 
 
@@ -67,9 +63,15 @@ TRANSFORM_MAP = {
     "video": {T: partial(noop, _return_if_null=dict()), D: LUKAPONA},
     "signwriting": {T: partial(noop, _return_if_null=dict()), D: LUKAPONA},
     "etymology": {T: transform_etymology, D: LUKAPONA},
-    "handshape": {T: noop, D: PARAMETERS},
     "is_two_handed": {T: transform_is_two_handed, D: LUKAPONA},
     "icon": {T: noop, D: ICONS},
+}
+
+TRANSLATABLE_MAP = {
+    "handshape": {T: noop, D: PARAMETERS},
+    "movement": {T: noop, D: PARAMETERS},
+    "placement": {T: noop, D: PARAMETERS},
+    "orientation": {T: noop, D: PARAMETERS},
 }
 
 
@@ -138,7 +140,7 @@ def main():
 
     for key, data in lukapona.items():
         name = transform_name(data["new_gloss"])  # filename to be used
-        data["id"] = key
+        data["id"] = key  # preserve primary, which is usually but not always old_gloss
 
         data["etymology"] = {  # WARN: cheating
             "etymology": data.get("etymology", ""),
@@ -152,9 +154,20 @@ def main():
             if formatted is not None:
                 write_to = TRANSFORM_MAP[field][D]
 
-                if field == "def":  # special case
+                if field == "def":  # renaming
                     field = "definition"
-                write_to[name][field] = formatted
+                if field == "icon":  # unique translatable field; no other lang entries
+                    write_to[name] = formatted
+                else:
+                    write_to[name][field] = formatted
+
+        for field in TRANSLATABLE_MAP:
+            endata = data.get(field, {}).get("en")
+            tokdata = data.get(field, {}).get("tok")
+            if endata:
+                PARAMETERS[name][field] = endata
+            if tokdata:
+                PARAMETERS_TOK[name][field] = tokdata
 
     for key, data in LUKAPONA.items():
         data["$schema"] = "../schemas/generated/lukapona.json"  # assumed
@@ -162,12 +175,20 @@ def main():
             tomlified = tomlkit.dumps(data, sort_keys=True)
             f.write(tomlified)
 
-    write_translated(
-        ICONS,
-        "../translations",
-        "lukapona_icons.toml",
-        schema="../../schemas/generated/lukapona_icons.json",
-    )
+    with open("../source/lukapona_icons.toml", "w") as f:
+        ICONS["$schema"] = "../schemas/generated/lukapona_icons.json"
+        tomlified = tomlkit.dumps(ICONS, sort_keys=True)
+        f.write(tomlified)
+
+    with open("../source/lukapona_parameters.toml", "w") as f:
+        PARAMETERS["$schema"] = "../schemas/generated/lukapona_parameters.json"
+        tomlified = tomlkit.dumps(PARAMETERS, sort_keys=True)
+        f.write(tomlified)
+
+    with open("../translations/tok/lukapona_parameters.json", "w") as f:
+        PARAMETERS_TOK["$schema"] = "../schemas/generated/lukapona_parameters.json"
+        tomlified = tomlkit.dumps(PARAMETERS_TOK, sort_keys=True)
+        f.write(tomlified)
 
 
 if __name__ == "__main__":

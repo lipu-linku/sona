@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "wile"
+id = "WILE^3"
+is_two_handed = true
+new_gloss = "WILE-OPEN-2"
+old_gloss = "WILE^2"
+
+[[etymology]]
+language = "ASL"
+sign = "WANT"
+
+[signwriting]
+fsw = "M528x533S14c30504x467S14c38473x467S26604509x503S26614477x503"
+swu = "𝠃𝤢𝤧񁲱𝤊𝣥񁲹𝣫𝣥񈙅𝤏𝤉񈙕𝣯𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wile.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/wile.mp4"

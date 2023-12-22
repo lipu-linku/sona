@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "nasin"
+id = "NASIN"
+is_two_handed = false
+new_gloss = "NASIN"
+old_gloss = "NASIN"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "PATH"
+
+[signwriting]
+fsw = "M508x531S15a40494x504S26600492x470"
+swu = "𝠃𝤎𝤥񂈁𝤀𝤊񈙁𝣾𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nasin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nasin.mp4"

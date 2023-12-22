@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "musi"
+id = "MUSI"
+is_two_handed = false
+new_gloss = "MUSI"
+old_gloss = "MUSI"
+
+[[etymology]]
+language = "multiple SLs & Deaf Culture"
+sign = "DEAF APPLAUSE"
+
+[signwriting]
+fsw = "M512x535S14c10489x466S25100492x502"
+swu = "𝠃𝤒𝤩񁲑𝣻𝣤񇹡𝣾𝤈"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/musi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/musi.mp4"

@@ -1,0 +1,22 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "suli"
+id = "SULI^4"
+is_two_handed = true
+new_gloss = "SULI-TU-2"
+old_gloss = "SULI"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "suli"
+
+[[etymology]]
+language = "LPSL"
+sign = "LILI-TU-2"
+
+[signwriting]
+fsw = "M520x540S11550481x461S22b00504x465S11508482x506S22b14504x510"
+swu = "𝠃𝤚𝤮񀠱𝣳𝣟񇀡𝤊𝣣񀟩𝣴𝤌񇀵𝤊𝤐"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/suli.mp4"

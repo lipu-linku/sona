@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "uta"
+id = "UTA"
+is_two_handed = false
+new_gloss = "UTA"
+old_gloss = "UTA"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "MOUTH"
+
+[signwriting]
+fsw = "M529x542S10c20496x520S20500519x506S30004482x483"
+swu = "𝠃𝤣𝤰񀒡𝤂𝤚񆇡𝤙𝤌񌀅𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/uta.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/uta.mp4"

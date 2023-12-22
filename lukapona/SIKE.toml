@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "sike"
+id = "SIKE"
+is_two_handed = false
+new_gloss = "SIKE"
+old_gloss = "SIKE"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "CIRCLE"
+
+[signwriting]
+fsw = "M515x528S17610492x473S2e60c486x495"
+swu = "𝠃𝤕𝤢񂱑𝣾𝣫񋙍𝣸𝤁"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sike.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sike.mp4"

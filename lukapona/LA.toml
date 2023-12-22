@@ -1,0 +1,17 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "la"
+id = "LA"
+is_two_handed = false
+new_gloss = "LA"
+old_gloss = "LA"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M544x516S1dc02457x490S1dc20520x484S2df08493x495"
+swu = "𝠃𝤲𝤖񅊃𝣛𝣼񅊡𝤚𝣶񋎩𝣿𝤁"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/la.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/la.mp4"

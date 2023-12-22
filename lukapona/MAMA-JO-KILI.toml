@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "mama"
+id = "MAMA^2"
+is_two_handed = false
+new_gloss = "MAMA-JO-KILI"
+old_gloss = "MAMA^2"
+
+[[etymology]]
+language = "muliple SLs"
+sign = "BABY"
+
+[signwriting]
+fsw = "M518x542S11532482x496S18235493x525S20500500x514S26c26494x459"
+swu = "𝠃𝤘𝤰񀠓𝣴𝤂񃃶𝣿𝤟񆇡𝤆𝤔񈢧𝤀𝣝"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mama.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mama.mp4"

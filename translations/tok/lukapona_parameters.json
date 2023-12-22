@@ -1,0 +1,671 @@
+"$schema" = "../schemas/generated/lukapona_parameters.json"
+
+[AKESI]
+handshape = "tu"
+orientation = "palisa luka li lon weka"
+placement = "luka li lon uta"
+
+[ALA]
+handshape = "supa"
+placement = "luka li lon nena pi poka sijelo"
+
+[ALASA-2]
+handshape = "wan"
+movement = "luka li tawa weka"
+
+[ALE-1]
+handshape = "telo"
+movement = "luka li tawa sike sewi"
+
+[ALE-2]
+handshape = "telo"
+movement = "luka li tawa sike sewi"
+
+[ANPA-KIWEN]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa sewi"
+
+[ANPA-KIWEN-2]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa sewi"
+
+[ANPA-LON]
+handshape = "tawa"
+orientation = "palisa luka li lon anpa"
+
+[ANPA-TAWA]
+handshape = "nena"
+movement = "luka li tawa anpa"
+
+[ANTE-WAN]
+handshape = "wan"
+movement = "o ante e sinpin luka tawa sewi"
+
+[ANTE-WAN-2]
+handshape = "wan"
+movement = "o ante e sinpin luka tawa sewi"
+
+[ANU]
+handshape = "tawa"
+movement = "o ante e sinpin luka tawa sewi"
+
+[AWEN-TAWA]
+handshape = "nena"
+movement = "luka li tawa jan"
+
+[EN-KIN-KAN]
+handshape = "tawa"
+movement = "o ante e sinpin luka tawa anpa"
+
+[ESUN-2]
+handshape = "nena"
+movement = "luka li tawa sike supa"
+orientation = "sinpin luka li lon sewi"
+
+[IJO-NENA]
+handshape = "wan"
+placement = "luka li lon nena pi poka sijelo"
+
+[IKE]
+handshape = "kiwen"
+orientation = "sinpin luka li lon weka"
+
+[ILO]
+handshape = "tawa"
+placement = "luka li lon luka"
+
+[INSA]
+handshape = "tawa"
+placement = "luka li lon sijelo"
+
+[JAKI]
+handshape = "kiwen"
+orientation = "sinpin luka li lon weka"
+
+[JAN-LA]
+handshape = "tawa"
+movement = "sinpin luka li lon anpa; luka li tawa anpa"
+
+[JAN-WAN]
+handshape = "wan"
+movement = "luka li tawa anpa"
+orientation = "palisa luka li lon sewi"
+
+[JELO]
+handshape = "lili"
+movement = "luka li lon poka lawa"
+
+[JO]
+handshape = "nena"
+orientation = "sinpin luka li lon sewi"
+
+[KALA]
+handshape = "supa"
+movement = "luka li tawa wawa"
+orientation = "sinpin luka li lon poka"
+
+[KALAMA-KUTE]
+handshape = "telo"
+orientation = "sinpin luka li lon anpa"
+placement = "luka li lon poka lawa"
+
+[KALAMA-MU]
+handshape = "telo"
+orientation = "sinpin luka li lon anpa"
+placement = "luka li lon uta"
+
+[KASI]
+handshape = "telo"
+orientation = "sinpin luka li lon insa"
+
+[KEN-2]
+handshape = "kiwen"
+movement = "luka li tawa anpa"
+
+[KEPEKEN]
+handshape = "kiwen"
+movement = "luka li tawa sike sewi"
+
+[KIJETESANTAKALU-1]
+handshape = "tu"
+placement = "luka li lon oko"
+
+[KIJETESANTAKALU-2]
+handshape = "tu"
+placement = "luka li lon oko"
+
+[KIKI]
+handshape = "lili"
+movement = "luka li tawa sewi"
+orientation = "sinpin luka li lon sewi"
+
+[KILI]
+handshape = "kiwen"
+placement = "luka li lon uta"
+
+[KIPISI]
+handshape = "tu"
+movement = "luka li tawa anpa"
+
+[KIWEN]
+handshape = "kiwen"
+orientation = "sinpin luka li lon anpa"
+
+[KO-2]
+handshape = "nena"
+movement = "luka li tawa sike sewi"
+
+[KON]
+handshape = "telo"
+movement = "luka li tawa wawa"
+
+[KULE]
+handshape = "lili"
+movement = "luka li tawa sike sewi"
+
+[KULUPU-JAN]
+handshape = "wan"
+movement = "luka li tawa sike supa"
+
+[KULUPU-MUTE]
+handshape = "telo"
+movement = "luka li tawa sike supa"
+
+[KULUPU-MUTE-2]
+handshape = "telo"
+movement = "luka li tawa sike supa"
+
+[KUTE]
+handshape = "wan"
+placement = "luka li lon poka lawa"
+
+[LA]
+handshape = "tawa"
+movement = "o tawa sewi lili e luka"
+
+[LAPE]
+handshape = "supa"
+placement = "luka li lon poka lawa"
+
+[LASO]
+handshape = "lili"
+placement = "luka li lon luka"
+
+[LAWA]
+handshape = "kiwen"
+placement = "luka li lon poka lawa"
+
+[LEKO]
+handshape = "nena"
+orientation = "sinpin luka li lon poka"
+
+[LEN-POKA-TAWA-2]
+handshape = "nena"
+movement = "luka li tawa anpa"
+placement = "luka li lon nena pi poka sijelo"
+
+[LETE]
+handshape = "lili"
+placement = "luka li lon luka"
+
+[LILI-PIPI]
+handshape = "lili"
+orientation = "sinpin luka li lon weka"
+
+[LINJA-2]
+handshape = "lili"
+movement = "luka li tawa poka"
+
+[LIPU]
+handshape = "supa"
+placement = "luka li lon luka"
+
+[LOJE]
+handshape = "lili"
+orientation = "sinpin luka li lon poka"
+placement = "luka li lon uta"
+
+[LON-LA]
+handshape = "tawa"
+movement = "o tawa anpa lili e luka"
+
+[LUKA]
+handshape = "telo"
+orientation = "sinpin luka li lon weka"
+
+[LUKIN-E]
+handshape = "tu"
+orientation = "palisa luka li lon weka,\npalisa luka li lon insa,\npalisa luka li lon poka"
+
+[LUKIN-ISIPIN]
+handshape = "wan"
+placement = "luka li lon oko"
+
+[LUKIN-OKO]
+handshape = "tu"
+placement = "luka li lon oko"
+
+[LUKIN-SIKE]
+handshape = "tu"
+movement = "luka li tawa sike sewi"
+
+[LUPA]
+handshape = "sike"
+orientation = "sinpin luka li lon poka"
+
+[MA]
+handshape = "supa"
+movement = "luka li tawa sike sewi"
+
+[MAMA-INSA]
+handshape = "tu"
+placement = "luka li lon sijelo"
+
+[MAMA-JO-KILI]
+handshape = "tu"
+movement = "luka li tawa wawa"
+placement = "luka li lon luka"
+
+[MANI-2]
+handshape = "wan"
+placement = "luka li lon poka lawa"
+
+[MELI]
+handshape = "tawa"
+placement = "luka li lon uta"
+
+[MESO]
+handshape = "telo"
+orientation = "sinpin luka li lon anpa"
+
+[MI]
+handshape = "wan"
+placement = "luka li lon sijelo"
+
+[MIJE]
+handshape = "tawa"
+placement = "luka li lon oko"
+
+[MISIKEKE-1]
+handshape = "kiwen"
+movement = "luka li tawa sike supa"
+
+[MISIKEKE-2]
+handshape = "kiwen"
+movement = "luka li tawa sike supa"
+
+[MOKU]
+handshape = "sike"
+placement = "luka li lon uta"
+
+[MOLI]
+handshape = "supa"
+movement = "luka li tawa poka"
+orientation = "sinpin luka li lon anpa"
+placement = "luka li lon palisa lawa"
+
+[MONSI]
+handshape = "supa"
+orientation = "sinpin luka li lon insa"
+
+[MONSUTA-1]
+handshape = "telo"
+movement = "luka li tawa insa"
+orientation = "sinpin luka li lon insa"
+
+[MONSUTA-2]
+handshape = "telo"
+movement = "luka li tawa insa"
+orientation = "sinpin luka li lon anpa"
+
+[MU-UTA]
+handshape = "nena"
+placement = "luka li lon uta"
+
+[MUN]
+handshape = "lili"
+placement = "luka li lon poka lawa"
+
+[MUSI]
+handshape = "telo"
+orientation = "sinpin luka li lon poka"
+
+[MUTE]
+handshape = "telo"
+movement = "luka li tawa poka"
+
+[NANPA]
+handshape = "telo"
+placement = "luka li lon oko"
+
+[NASA]
+handshape = "wan"
+movement = "luka li tawa sike sewi"
+
+[NASIN]
+handshape = "supa"
+movement = "luka li tawa weka"
+
+[NENA]
+handshape = "nena"
+orientation = "sinpin luka li lon anpa"
+
+[NI]
+handshape = "wan"
+orientation = "palisa luka li lon anpa"
+
+[NIMI]
+handshape = "supa"
+placement = "luka li lon oko"
+
+[NOKA]
+handshape = "tu"
+orientation = "palisa luka li lon anpa"
+
+[O]
+handshape = "supa"
+movement = "o tawa anpa lili e luka"
+
+[OLIN]
+handshape = "telo"
+placement = "luka li lon sijelo"
+
+[ONA]
+handshape = "wan"
+orientation = "palisa luka li lon poka"
+
+[OPEN-2]
+handshape = "supa"
+movement = "o ante e sinpin luka tawa sewi"
+
+[PAKALA]
+handshape = "telo"
+movement = "o ante e sinpin luka tawa anpa"
+
+[PALI-KON]
+handshape = "kiwen"
+movement = "luka li tawa wawa"
+
+[PALI-LUKA]
+handshape = "kiwen"
+movement = "luka li tawa wawa"
+placement = "luka li lon luka"
+
+[PALI-NENA]
+handshape = "kiwen"
+movement = "luka li tawa wawa"
+placement = "luka li lon nena pi poka sijelo"
+
+[PALISA-1]
+handshape = "sike"
+movement = "luka li tawa poka"
+
+[PALISA-2]
+handshape = "sike"
+movement = "luka li tawa poka"
+
+[PAN]
+handshape = "telo"
+placement = "luka li lon uta"
+
+[PANA-LANPAN]
+handshape = "nena"
+movement = "luka li tawa weka,\nluka li tawa insa,\nluka li tawa poka,"
+
+[PI]
+handshape = "lili"
+movement = "o tawa sewi lili e luka"
+
+[PILIN]
+handshape = "lili"
+placement = "luka li lon sijelo"
+
+[PIMEJA]
+handshape = "lili"
+movement = "luka li lon nena pi poka sijelo"
+
+[PINI-2]
+handshape = "supa"
+movement = "o ante e sinpin luka tawa anpa"
+
+[PIPI]
+handshape = "lili"
+movement = "luka li tawa wawa"
+
+[POKA]
+handshape = "tawa"
+orientation = "palisa luka li lon poka"
+
+[POKI]
+handshape = "sike"
+orientation = "sinpin luka li lon poka"
+
+[PONA]
+handshape = "kiwen"
+orientation = "sinpin luka li lon insa"
+
+[SAMA-KIWEN]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa anpa"
+
+[SAMA-KIWEN-2]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa anpa"
+
+[SAMA-WAN]
+handshape = "wan"
+movement = "o ante e sinpin luka tawa anpa"
+
+[SAMA-WAN-2]
+handshape = "wan"
+movement = "o ante e sinpin luka tawa anpa"
+
+[SELI-2]
+handshape = "telo"
+placement = "luka li lon nena pi poka sijelo"
+
+[SELO]
+handshape = "sike"
+placement = "luka li lon luka"
+
+[SEME-SUPA-1]
+handshape = "supa"
+orientation = "sinpin luka li lon sewi"
+
+[SEME-SUPA-2]
+handshape = "supa"
+orientation = "sinpin luka li lon sewi"
+
+[SEME-WAN-TAWA]
+handshape = "wan"
+movement = "luka li tawa wawa"
+
+[SEWI-LON]
+handshape = "tawa"
+orientation = "palisa luka li lon sewi"
+
+[SEWI-TAWA]
+handshape = "nena"
+movement = "luka li tawa anpa"
+
+[SIJELO-AWEN]
+handshape = "supa"
+placement = "luka li lon sijelo"
+
+[SIJELO-AWEN-2]
+handshape = "supa"
+placement = "luka li lon sijelo"
+
+[SIJELO-TAWA]
+handshape = "supa"
+movement = "luka li tawa anpa"
+placement = "luka li lon sijelo"
+
+[SIKE]
+handshape = "sike"
+movement = "luka li tawa sike sewi"
+
+[SIN-JO-SINPIN]
+handshape = "supa"
+movement = "luka li tawa sewi"
+orientation = "sinpin luka li lon weka"
+placement = "luka li lon luka"
+
+[SIN-SUPA-MONSI]
+handshape = "supa"
+movement = "luka li tawa sewi"
+orientation = "sinpin luka li lon insa"
+placement = "luka li lon luka"
+
+[SIN-SUPA-SINPIN]
+handshape = "supa"
+movement = "luka li tawa sewi"
+orientation = "sinpin luka li lon weka"
+placement = "luka li lon luka"
+
+[SINA]
+handshape = "wan"
+orientation = "palisa luka li lon weka"
+
+[SINPIN]
+handshape = "supa"
+orientation = "sinpin luka li lon weka"
+
+[SITELEN]
+handshape = "lili"
+movement = "luka li tawa sike sewi"
+
+[SONA-ISIPIN]
+handshape = "wan"
+orientation = "sinpin luka li lon sewi"
+placement = "luka li lon poka lawa"
+
+[SONA-JO]
+handshape = "nena"
+placement = "luka li lon poka lawa"
+
+[SOWELI]
+handshape = "tu"
+orientation = "palisa luka li lon sewi"
+
+[SULI-SUPA]
+handshape = "supa"
+movement = "luka li tawa sewi"
+
+[SULI-SUPA-2]
+handshape = "supa"
+movement = "luka li tawa sewi"
+
+[SULI-TU]
+handshape = "tu"
+movement = "luka li tawa sewi"
+
+[SULI-TU-2]
+handshape = "tu"
+movement = "luka li tawa sewi"
+
+[SUNO]
+handshape = "telo"
+placement = "luka li lon poka lawa"
+
+[SUPA]
+handshape = "supa"
+movement = "luka li tawa poka"
+orientation = "sinpin luka li lon anpa"
+
+[SUWI]
+handshape = "tu"
+movement = "luka li lon uta"
+
+[TAN]
+handshape = "telo"
+movement = "o ante e sinpin luka tawa anpa"
+
+[TASO]
+handshape = "wan"
+movement = "o tawa sewi lili e luka"
+
+[TAWA-KAMA]
+handshape = "tawa"
+movement = "luka li tawa weka,\nluka li tawa jan,\nluka li tawa poka,"
+
+[TELO]
+handshape = "telo"
+movement = "luka li tawa weka"
+
+[TENPO-LUKA-MONSI]
+handshape = "tu"
+placement = "luka li lon luka"
+
+[TENPO-LUKA-SINPIN]
+handshape = "tu"
+placement = "luka li lon luka"
+
+[TENPO-PALISA-LAWA]
+handshape = "tu"
+placement = "luka li lon nena pi poka sijelo"
+
+[TOKI-1]
+handshape = "supa"
+movement = "luka li tawa sike sewi"
+
+[TOKI-2]
+handshape = "supa"
+movement = "luka li tawa sike sewi"
+
+[TOMO]
+handshape = "nena"
+movement = "luka li tawa poka"
+
+[TONSI]
+handshape = "tawa"
+placement = "luka li lon poka lawa"
+
+[TU]
+handshape = "tu"
+orientation = "sinpin luka li tawa insa"
+
+[UTA]
+handshape = "wan"
+placement = "luka li lon uta"
+
+[UTALA]
+handshape = "kiwen"
+movement = "luka li tawa weka,\nluka li tawa jan,\nluka li tawa poka,"
+
+[WALO]
+handshape = "lili"
+placement = "luka li lon oko"
+
+[WAN]
+handshape = "wan"
+orientation = "sinpin luka li lon insa"
+
+[WASO-1]
+handshape = "telo"
+movement = "o tawa anpa lili e luka"
+
+[WASO-2]
+handshape = "telo"
+movement = "o tawa anpa lili e luka"
+
+[WAWA]
+handshape = "kiwen"
+movement = "luka li tawa wawa"
+placement = "luka li lon sijelo"
+
+[WEKA]
+handshape = "supa"
+movement = "o tawa sewi lili e luka"
+
+[WILE-LUKA-OPEN]
+handshape = "telo"
+movement = "luka li tawa insa"
+
+[WILE-LUPA]
+handshape = "sike"
+placement = "luka li lon sijelo"
+
+[WILE-OPEN-2]
+handshape = "telo"
+movement = "luka li tawa insa"

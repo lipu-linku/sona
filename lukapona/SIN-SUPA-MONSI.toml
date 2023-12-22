@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "sin, namako"
+id = "SIN/NAMAKO^1"
+is_two_handed = false
+new_gloss = "SIN-SUPA-MONSI"
+old_gloss = "SIN/NAMAKO"
+
+[[etymology]]
+language = "multiple SLs (including IS)"
+sign = "NEW"
+
+[signwriting]
+fsw = "M514x530S15a06487x513S15a20494x503S22b00492x470"
+swu = "𝠃𝤔𝤤񂇇𝣹𝤓񂇡𝤀𝤉񇀡𝣾𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sin.mp4"

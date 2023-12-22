@@ -1,0 +1,18 @@
+"$schema" = "../schemas/generated/lukapona.json"
+definition = "monsuta"
+id = "MONSUTA^2"
+is_two_handed = true
+new_gloss = "MONSUTA-2"
+old_gloss = "MONSUTA"
+
+[[etymology]]
+language = "BSL & multiple SLs"
+sign = "MONSTER, SCARY"
+
+[signwriting]
+fsw = "M529x535S14c50505x466S14c58472x465S22b04508x504S22b14476x505"
+swu = "𝠃𝤣𝤩񁳑𝤋𝣤񁳙𝣪𝣣񇀥𝤎𝤊񇀵𝣮𝤋"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsuta.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsuta.mp4"
