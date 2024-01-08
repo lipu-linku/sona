@@ -6,8 +6,12 @@ new_gloss = "MONSUTA-2"
 old_gloss = "MONSUTA"
 
 [[etymology]]
-language = "BSL & multiple SLs"
-sign = "MONSTER, SCARY"
+language = "BSL"
+sign = "SCARY"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SCARY"
 
 [signwriting]
 fsw = "M529x535S14c50505x466S14c58472x465S22b04508x504S22b14476x505"
