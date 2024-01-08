@@ -18,7 +18,7 @@ for (const [name, schema] of Object.entries(schemas)) {
 			null,
 			2,
 		),
-		(e) => {
+		(e: NodeJS.ErrnoException | null) => {
 			if (e) throw e;
 		},
 	);
