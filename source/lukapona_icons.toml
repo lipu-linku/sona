@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/lukapona_icons.json"
+"$schema" = "../schemas/generated/icon_translation.json"
 AKESI = "tongue or fangs of a snake"
 ALA = "arms crossed, defence of body"
 ALASA-2 = "pointing at and moving towards the thing thats being searched for"

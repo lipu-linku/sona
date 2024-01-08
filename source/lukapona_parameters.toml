@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/lukapona_parameters.json"
+"$schema" = "../schemas/generated/parameters_translation.json"
 
 [AKESI]
 handshape = "V"

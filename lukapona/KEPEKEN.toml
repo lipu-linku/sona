@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/lukapona.json"
+"$schema" = "../schemas/generated/sign.json"
 definition = "kepeken"
 id = "KEPEKEN"
 is_two_handed = false

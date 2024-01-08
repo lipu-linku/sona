@@ -170,7 +170,6 @@ export const Sign = z
 		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
 		new_gloss: z.string().describe("The more recent, preferred gloss for this sign."),
 		old_gloss: z.string().describe("The older gloss for this sign, similar to `id`."),
-		source_language: z.string().describe("The language this word originated from"),
 		etymology: z
 			.array(
 				z.object({
@@ -200,16 +199,16 @@ export const Sign = z
 
 export type Sign = z.infer<typeof Sign>;
 
-export const LukaPonaIconTranslation = z
+export const IconTranslation = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 	})
 	.catchall(z.string().min(1))
 	.describe("Localized descriptions of the thing a sign represents.");
 
-export type LukaPonaIconTranslation = z.infer<typeof LukaPonaIconTranslation>;
+export type IconTranslation = z.infer<typeof IconTranslation>;
 
-export const LukaPonaParametersTranslation = z
+export const ParametersTranslation = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 	})
@@ -225,7 +224,7 @@ export const LukaPonaParametersTranslation = z
 	)
 	.describe("Partly localized descriptions of how a sign is signed.");
 
-export type LukaPonaParametersTranslation = z.infer<typeof LukaPonaParametersTranslation>;
+export type ParametersTranslation = z.infer<typeof ParametersTranslation>;
 
 export const Data = z
 	.object({

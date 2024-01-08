@@ -1,16 +1,15 @@
 #!/bin/python3
 
-from converter import (
-    noop,
-    nested_defaultdict,
-)
-from functools import partial
-from io import StringIO
 import csv
 import os
 import re
-import tomlkit
 import urllib.request
+from functools import partial
+from io import StringIO
+
+import tomlkit
+
+from converter import nested_defaultdict, noop
 
 SHEET = "https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe112Wh1rv9w5Yk/pub?gid=1041194100&single=true&output=csv"
 
@@ -170,23 +169,23 @@ def main():
                 PARAMETERS_TOK[name][field] = tokdata
 
     for key, data in LUKAPONA.items():
-        data["$schema"] = "../schemas/generated/lukapona.json"  # assumed
+        data["$schema"] = "../schemas/generated/sign.json"  # assumed
         with open(f"../lukapona/{key}.toml", "w") as f:
             tomlified = tomlkit.dumps(data, sort_keys=True)
             f.write(tomlified)
 
     with open("../source/lukapona_icons.toml", "w") as f:
-        ICONS["$schema"] = "../schemas/generated/lukapona_icons.json"
+        ICONS["$schema"] = "../schemas/generated/icon_translation.json"
         tomlified = tomlkit.dumps(ICONS, sort_keys=True)
         f.write(tomlified)
 
     with open("../source/lukapona_parameters.toml", "w") as f:
-        PARAMETERS["$schema"] = "../schemas/generated/lukapona_parameters.json"
+        PARAMETERS["$schema"] = "../schemas/generated/parameters_translation.json"
         tomlified = tomlkit.dumps(PARAMETERS, sort_keys=True)
         f.write(tomlified)
 
     with open("../translations/tok/lukapona_parameters.json", "w") as f:
-        PARAMETERS_TOK["$schema"] = "../schemas/generated/lukapona_parameters.json"
+        PARAMETERS_TOK["$schema"] = "../../schemas/generated/parameters_translation.json"
         tomlified = tomlkit.dumps(PARAMETERS_TOK, sort_keys=True)
         f.write(tomlified)
 
