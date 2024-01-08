@@ -1,0 +1,14 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["increpare / jan Inkepa"]
+features = []
+filename = "linja-pi-kute-mute-tu.ttf"
+last_updated = "2022-09"
+license = "CC BY-NC-SA 3.0"
+name = "linja pi kute mute tu"
+style = "uniform line weight, pixelated"
+version = "1.0"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/316066233755631616/1023629608224039023/linja-pi-kute-mute-tu.ttf"
+repo = "https://github.com/increpare/linja_pi_kute_mute"

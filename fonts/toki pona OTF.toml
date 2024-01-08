@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Wesi"]
+features = ["ASCII transcription"]
+filename = "toki-pona-otf.otf"
+last_updated = "2014-07"
+license = "all rights reserved"
+ligatures = true
+name = "toki pona OTF"
+style = "uniform line weight"
+ucsur = false
+version = "2"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://app.box.com/s/9kdw13m1pp3g3rhged9r"
+webpage = "https://imgur.com/a/9B6Xx"

@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["u/bluemon_"]
+features = ["ASCII transcription", "supports extended pi"]
+filename = "sitelen-sans.otf"
+last_updated = "2020-12"
+license = "all rights reserved"
+ligatures = true
+name = "sitelen Sans"
+style = "serif"
+ucsur = false
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://drive.google.com/file/d/1Kq34udEr2UBd7MpoSEn3G5c-C69ltaKG/view?usp=sharing"
+webpage = "https://www.reddit.com/r/tokipona/comments/kjv25w/"

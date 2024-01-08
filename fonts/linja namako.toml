@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Sikusi"]
+features = ["ASCII transcription"]
+filename = "linjanamako.ttf"
+last_updated = "2023-11"
+license = "OFL"
+ligatures = true
+name = "linja namako"
+style = "serif"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://jan-sikusi.neocities.org/fonts/linjanamako.ttf"
+webpage = "https://jan-sikusi.neocities.org/html/linjanamako"

@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Sewaka / jan Weko"]
+features = ["codepoints only"]
+filename = "5x5-sitelen-pona.otf"
+last_updated = "2022-07"
+license = "CC BY-SA 3.0"
+ligatures = false
+name = "5x5 sitelen pona"
+style = "pixelated"
+ucsur = false
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/999566667187228673/1042092594722775060/5x5-sitelen-pona.ttf"
+webpage = "https://fontstruct.com/fontstructions/show/1798201/5x5-sitelen-pona"

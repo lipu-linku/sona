@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["ashcrash9"]
+features = ["codepoints only"]
+filename = "toki-pona-updated.ttf"
+last_updated = "2023-02"
+license = "CC BY-SA 3.0"
+ligatures = false
+name = "toki pona updated"
+style = "serif"
+ucsur = false
+version = ""
+writing_system = "logography"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/316066233755631616/1076295088516370532/toki-pona-updated.ttf"
+webpage = "https://fontstruct.com/fontstructions/show/716817/toki_pona_updated"

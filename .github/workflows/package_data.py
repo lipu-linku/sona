@@ -9,6 +9,9 @@ import urllib.parse
 if __name__ == "__main__":
     assert len(sys.argv) == 2
 
+    github_branch = sys.argv[1]
+
+    # words.json
     result: dict[str, Any] = {}
 
     for path in glob.iglob("./words/*.toml"):
@@ -37,10 +40,31 @@ if __name__ == "__main__":
 
                 result[word]["translations"][locale][data_kind] = localized_data[word]
 
-    with open("raw/data.json", "w+") as data_file:
+    with open("raw/words.json", "w+") as data_file:
         result[
             "$schema"
-        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(sys.argv[1])}/schemas/generated/data.json"
+        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(github_branch)}/schemas/generated/words.json"
+        data_file.write(json.dumps(result, separators=(",", ":")))
+
+    # fonts.json
+    result: dict[str, Any] = {}
+
+    for path in glob.iglob("./fonts/*.toml"):
+        with open(path) as file:
+            print(f"Reading {path}...")
+            font_data = tomlkit.load(file)
+            id = os.path.basename(path[: path.index(".toml")])
+
+            result[id] = {
+                key: value
+                for (key, value) in dict(font_data).items()
+                if key != "$schema"
+            }
+
+    with open("raw/fonts.json", "w+") as data_file:
+        result[
+            "$schema"
+        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(github_branch)}/schemas/generated/fonts.json"
         data_file.write(json.dumps(result, separators=(",", ":")))
 
     print("Done!")

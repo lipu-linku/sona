@@ -1,0 +1,16 @@
+"$schema" = "../schemas/generated/font.json"
+creator = ["jan Osi"]
+features = ["ASCII transcription", "all ku suli", "UCSUR-compliant"]
+filename = "leko-lili-15x15.ttf"
+last_updated = "2022-05"
+license = "CC0 / asked not to use"
+ligatures = true
+name = "leko lili 15x15"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://toki.pona.billsmugs.com/lipu-tenpo/2022-05-15-sitelen_pona/lekolili15x15.ttf"
+webpage = "https://toki.pona.billsmugs.com/lipu-tenpo/2022-05-15-sitelen_pona/"

@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/data",
+  "$ref": "#/definitions/words",
   "definitions": {
-    "data": {
+    "words": {
       "type": "object",
       "properties": {
         "$schema": {
@@ -301,7 +301,7 @@
         "additionalProperties": false,
         "description": "General info on a Toki Pona word"
       },
-      "description": "A raw data object containing all the sona data"
+      "description": "A raw data object containing all the words data in sona"
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
