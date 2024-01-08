@@ -28,10 +28,6 @@
           "type": "string",
           "description": "The older gloss for this sign, similar to `id`."
         },
-        "source_language": {
-          "type": "string",
-          "description": "The language this word originated from"
-        },
         "etymology": {
           "type": "array",
           "items": {
@@ -100,7 +96,6 @@
         "is_two_handed",
         "new_gloss",
         "old_gloss",
-        "source_language",
         "etymology",
         "signwriting",
         "video"
