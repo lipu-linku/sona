@@ -162,6 +162,71 @@ export const EtymologyTranslation = z
 
 export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
 
+export const Sign = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+		definition: z.string().describe("The definition of the sign as a single toki pona word."),
+		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
+		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
+		new_gloss: z.string().describe("The more recent, preferred gloss for this sign."),
+		old_gloss: z.string().describe("The older gloss for this sign, similar to `id`."),
+		source_language: z.string().describe("The language this word originated from"),
+		etymology: z
+			.array(
+				z.object({
+					language: z.string().describe("The language of the sign."),
+					sign: z
+						.string()
+						.describe(
+							"The name of the sign such that it could be found in a sign language dictionary.",
+						),
+				}),
+			)
+			.describe("Unlocalized etymological values regarding this sign's origin"),
+		signwriting: z
+			.object({
+				fsw: z.string().describe("The Formal Sign Writing representation of the sign."),
+				swu: z.string().describe("The Sign Writing with Unicode representation of hte sign."),
+			})
+			.describe("Scripts for representing a sign as characters."),
+		video: z
+			.object({
+				gif: z.string().describe("A link to a gif of the sign being signed."),
+				mp4: z.string().describe("a link to an mp4 of the sign being signed."),
+			})
+			.describe("Videos of the sign being performed, by format."),
+	})
+	.describe("Unlocalized info on a Luka Pona sign");
+
+export type Sign = z.infer<typeof Sign>;
+
+export const LukaPonaIconTranslation = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(z.string().min(1))
+	.describe("Localized descriptions of the thing a sign represents.");
+
+export type LukaPonaIconTranslation = z.infer<typeof LukaPonaIconTranslation>;
+
+export const LukaPonaParametersTranslation = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+	})
+	.catchall(
+		z.array(
+			z.object({
+				handshape: z
+					.string()
+					.describe("The shape of the hand when signing, identified by its name in ASL."),
+				movement: z.string().describe("The motion of the hand when signing."),
+			}),
+		),
+	)
+	.describe("Partly localized descriptions of how a sign is signed.");
+
+export type LukaPonaParametersTranslation = z.infer<typeof LukaPonaParametersTranslation>;
+
 export const Data = z
 	.object({
 		$schema: z.string().url(),
