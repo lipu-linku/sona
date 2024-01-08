@@ -5,7 +5,6 @@ type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10"
 
 export const Word = z
 	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
@@ -115,37 +114,26 @@ export const Word = z
 export type Word = z.infer<typeof Word>;
 
 export const CommentaryTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
+	.object({})
 	.catchall(z.string())
 	.describe("Localized commentary regarding Toki Pona words");
 
 export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
 export const DefinitionTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(z.string())
+	.record(z.string())
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
 
 export const SitelenPonaTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(z.string())
+	.record(z.string())
 	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
 
 export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
 
 export const EtymologyTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(
+	.record(
 		z.array(
 			z.object({
 				definition: z
@@ -163,17 +151,14 @@ export const EtymologyTranslation = z
 export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
 
 export const Data = z
-	.object({
-		$schema: z.string().url(),
-	})
-	.catchall(
-		Word.omit({ $schema: true }).extend({
+	.record(
+		Word.extend({
 			translations: z.record(
 				z.object({
-					commentary: CommentaryTranslation._def.catchall,
-					definitions: DefinitionTranslation._def.catchall,
-					etymology: EtymologyTranslation._def.catchall,
-					sp_etymology: SitelenPonaTranslation._def.catchall,
+					commentary: CommentaryTranslation,
+					definitions: DefinitionTranslation,
+					etymology: EtymologyTranslation,
+					sp_etymology: SitelenPonaTranslation,
 				}),
 			),
 		}),

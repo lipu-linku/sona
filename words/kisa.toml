@@ -1,4 +1,3 @@
-"$schema" = "../schemas/generated/word.json"
 author_verbatim = "cat"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/835188367871311902"
 book = "none"

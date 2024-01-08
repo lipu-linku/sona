@@ -5,6 +5,9 @@ import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { stringify as toYaml } from "yaml";
 import v1 from "./v1";
+import { createZodFetcher } from "zod-fetch";
+
+export const fetchWithZod = createZodFetcher();
 
 const app = new Hono();
 app.use("*", prettyJSON());
