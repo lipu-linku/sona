@@ -4,6 +4,8 @@ import spdxCorrect from "spdx-correct";
 
 // Word data
 
+type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
+
 export const Word = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
@@ -99,7 +101,14 @@ export const Word = z
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
 		recognition: z
-			.record(YearMonth, z.number().min(0).max(100))
+			.record(
+				z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
+					`20${number}-${Month}`,
+					z.ZodTypeDef,
+					`20${number}-${Month}`
+				>,
+				z.number().min(0).max(100),
+			)
 			.describe(
 				"The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project",
 			),
@@ -121,7 +130,7 @@ export const DefinitionTranslation = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 	})
-	.catchall(z.string())
+	.catchall(z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
