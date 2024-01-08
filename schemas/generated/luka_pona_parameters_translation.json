@@ -1,0 +1,40 @@
+{
+  "$ref": "#/definitions/luka_pona_parameters_translation",
+  "definitions": {
+    "luka_pona_parameters_translation": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string",
+          "description": "a file path pointing to this JSON schema"
+        }
+      },
+      "required": [
+        "$schema"
+      ],
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "handshape": {
+              "type": "string",
+              "description": "The shape of the hand when signing, identified by its name in ASL."
+            },
+            "movement": {
+              "type": "string",
+              "description": "The motion of the hand when signing."
+            }
+          },
+          "required": [
+            "handshape",
+            "movement"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "description": "Partly localized descriptions of how a sign is signed."
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
