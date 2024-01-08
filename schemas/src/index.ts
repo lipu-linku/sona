@@ -127,7 +127,7 @@ export const DefinitionTranslation = z
 	.object({
 		$schema: z.string().describe("a file path pointing to this JSON schema"),
 	})
-	.catchall(z.string())
+	.catchall(z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
