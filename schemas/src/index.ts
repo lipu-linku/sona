@@ -121,7 +121,7 @@ export const CommentaryTranslation = z
 export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
 export const DefinitionTranslation = z
-	.record(z.string())
+	.record(z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;

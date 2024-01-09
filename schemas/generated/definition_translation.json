@@ -4,7 +4,8 @@
     "definition_translation": {
       "type": "object",
       "additionalProperties": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       },
       "description": "Localized definitions of Toki Pona words"
     }
