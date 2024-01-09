@@ -1,0 +1,13 @@
+"$schema" = "../schemas/generated/fingerspelling.json"
+id = "J-1"
+is_two_handed = false
+
+[[etymology]]
+language = "LSF"
+sign = "J"
+
+[signwriting]
+fsw = "M511x528S10020493x473S2df08490x507"
+swu = "𝠃𝤑𝤢񀀡𝣿𝣫񋎩𝣼𝤍"
+
+[video]

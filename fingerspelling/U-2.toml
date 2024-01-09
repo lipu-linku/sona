@@ -1,0 +1,13 @@
+"$schema" = "../schemas/generated/fingerspelling.json"
+id = "U-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "U"
+
+[signwriting]
+fsw = "M523x522S10011502x492S20500499x478S18a18477x478"
+swu = "𝠃𝤝𝤜񀀒𝤈𝣾񆇡𝤅𝣰񃏙𝣯𝣰"
+
+[video]
