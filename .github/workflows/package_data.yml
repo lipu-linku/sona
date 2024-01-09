@@ -25,10 +25,10 @@ jobs:
         run: python .github/workflows/package_data.py ${{ github.sha }}
 
       - name: Validate JSON
-        uses: orrosenblatt/validate-json-action@0.1.0
-        with:
-          schema: ./schemas/generated/data.json
-          json: ./raw/data.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: ./schemas/generated/data.json
+          INPUT_JSONS: ./raw/data.json
 
       - name: Commit schemas
         uses: EndBug/add-and-commit@v9
