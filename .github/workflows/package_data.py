@@ -17,11 +17,7 @@ if __name__ == "__main__":
             word_data = tomlkit.load(file)
             id = os.path.basename(path[: path.index(".toml")])
 
-            result[id] = {
-                key: value
-                for (key, value) in dict(word_data).items()
-                if key != "$schema"
-            }
+            result[id] = {key: value for (key, value) in dict(word_data).items()}
             result[id]["translations"] = {}
 
     for path in glob.iglob("./translations/*/*.toml"):
@@ -31,7 +27,7 @@ if __name__ == "__main__":
             locale = os.path.dirname(path)[path.rfind("/", 0, path.rfind("/")) + 1 :]
             data_kind = os.path.basename(path[: path.index(".toml")])
 
-            for word in (word for word in localized_data.keys() if word != "$schema"):
+            for word in {word for word in localized_data.keys()}:
                 if locale not in result[word]["translations"]:
                     result[word]["translations"][locale] = {}
 

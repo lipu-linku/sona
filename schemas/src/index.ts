@@ -154,10 +154,10 @@ export const Data = z
 		Word.extend({
 			translations: z.record(
 				z.object({
-					commentary: CommentaryTranslation,
-					definitions: DefinitionTranslation,
-					etymology: EtymologyTranslation,
-					sp_etymology: SitelenPonaTranslation,
+					commentary: CommentaryTranslation._def.valueType,
+					definitions: DefinitionTranslation._def.valueType,
+					etymology: EtymologyTranslation._def.valueType,
+					sp_etymology: SitelenPonaTranslation._def.valueType,
 				}),
 			),
 		}),
