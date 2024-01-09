@@ -9,20 +9,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: marceloprado/has-changed-path@v1.0.1
-        id: schema-changed
-        with:
-          paths: ./schemas
-
-      - name: Wait for JSON schema to generate
-        uses: lewagon/wait-on-check-action@v1.3.1
-        if: ${{ steps.schema-changed.outputs.changed }}
-        with:
-          ref: ${{ github.ref }}
-          check-name: "Generate JSON Schemas"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          wait-interval: 5
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
