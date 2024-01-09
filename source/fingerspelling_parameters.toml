@@ -1,0 +1,130 @@
+"$schema" = "../schemas/generated/parameters_translation.json"
+
+[A-1]
+handshape = "OpenA"
+orientation = "palm outwards"
+
+[A-2]
+handshape = "1 + 5"
+placement = "touch the thumb"
+
+[E-1]
+handshape = "BentB"
+orientation = "palm outwards"
+
+[E-2]
+handshape = "1 + 5"
+placement = "touch the index finger"
+
+[I-1]
+handshape = "1"
+orientation = "palm outwards"
+
+[I-2]
+handshape = "1 + 5"
+placement = "touch the middle finger"
+
+[J-1]
+handshape = "1"
+movement = "fingers flip inwards"
+orientation = "palm outwards"
+
+[J-2]
+handshape = "1 + 5"
+movement = "draw a J shape on the hand"
+placement = "touch palm"
+
+[J-2-ANTE]
+handshape = "1 + FlatB"
+orientation = "palm down + palm down"
+placement = "touch base of the thumb"
+
+[K-1]
+handshape = "2"
+orientation = "palm inwards"
+
+[K-2]
+handshape = "9 + 1"
+placement = "touch base of finger"
+
+[L-1]
+handshape = "L"
+orientation = "palm outwards"
+
+[L-2]
+handshape = "1 + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"
+
+[M-1]
+handshape = "BentB"
+orientation = "palm downwards"
+
+[M-2]
+handshape = "FlatB + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"
+
+[N-1]
+handshape = "2"
+orientation = "palm downwards"
+
+[N-2]
+handshape = "2 + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"
+
+[O-1]
+handshape = "O"
+orientation = "palm outwards"
+
+[O-2]
+handshape = "1 + 5"
+placement = "touch the ring finger"
+
+[P-1]
+handshape = "FlatB"
+orientation = "palm outwards"
+
+[P-2]
+handshape = "9 +1"
+placement = "touch tip of finger"
+
+[S-1]
+handshape = "5"
+orientation = "palm outwards"
+
+[S-2]
+handshape = "FlatB + FlatB"
+orientation = "palm down + palm side"
+placement = "touch palm"
+
+[T-1]
+handshape = "L"
+orientation = "palm downwards"
+
+[T-2]
+handshape = "1 + FlatB"
+placement = "touch edge of the hand"
+
+[U-1]
+handshape = "2"
+orientation = "palm outwards"
+
+[U-2]
+handshape = "1 + 5"
+placement = "touch the pinkie finger"
+
+[W-1]
+handshape = "2"
+movement = "verticle circle movement"
+orientation = "palm outwards"
+
+[W-2]
+handshape = "5 + 5"
+placement = "mesh fingers"
+
+[W-2-ANTE]
+handshape = "2 + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"

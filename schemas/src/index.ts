@@ -226,6 +226,40 @@ export const ParametersTranslation = z
 
 export type ParametersTranslation = z.infer<typeof ParametersTranslation>;
 
+export const Fingerspelling = z
+	.object({
+		$schema: z.string().describe("a file path pointing to this JSON schema"),
+		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
+		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
+		etymology: z
+			.array(
+				z.object({
+					language: z.string().describe("The language of the sign."),
+					sign: z
+						.string()
+						.describe(
+							"The name of the sign such that it could be found in a sign language dictionary.",
+						),
+				}),
+			)
+			.describe("Unlocalized etymological values regarding this sign's origin"),
+		signwriting: z
+			.object({
+				fsw: z.string().describe("The Formal Sign Writing representation of the sign."),
+				swu: z.string().describe("The Sign Writing with Unicode representation of hte sign."),
+			})
+			.describe("Scripts for representing a sign as characters."),
+		video: z
+			.object({
+				gif: z.string().optional().describe("A link to a gif of the sign being signed."),
+				mp4: z.string().optional().describe("a link to an mp4 of the sign being signed."),
+			})
+			.describe("Videos of the sign being performed, by format."),
+	})
+	.describe("Unlocalized info on a fingerspelling sign.");
+
+export type Fingerspelling = z.infer<typeof Sign>;
+
 export const Data = z
 	.object({
 		$schema: z.string().url(),
