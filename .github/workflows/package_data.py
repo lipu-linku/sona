@@ -1,14 +1,11 @@
-from typing import Any
-import tomlkit
-import json
 import glob
+import json
 import os
-import sys
-import urllib.parse
+from typing import Any
+
+import tomlkit
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 2
-
     result: dict[str, Any] = {}
 
     for path in glob.iglob("./words/*.toml"):
@@ -34,9 +31,6 @@ if __name__ == "__main__":
                 result[word]["translations"][locale][data_kind] = localized_data[word]
 
     with open("raw/data.json", "w+") as data_file:
-        result[
-            "$schema"
-        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(sys.argv[1])}/schemas/generated/data.json"
         data_file.write(json.dumps(result, separators=(",", ":")))
 
     print("Done!")
