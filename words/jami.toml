@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/word.json"
+#:schema ../schemas/generated/word.json
 author_verbatim = "also tp needs a specific interjection (i.e. not a or kin) for \"yum\""
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301382587287339018/353665304569839616"
 book = "none"

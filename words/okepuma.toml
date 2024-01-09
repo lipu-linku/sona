@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/word.json"
+#:schema ../schemas/generated/word.json
 author_verbatim = "interjection \"okay boomer\""
 author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/641341684982218752"
 book = "none"

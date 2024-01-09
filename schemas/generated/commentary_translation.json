@@ -3,15 +3,6 @@
   "definitions": {
     "commentary_translation": {
       "type": "object",
-      "properties": {
-        "$schema": {
-          "type": "string",
-          "description": "a file path pointing to this JSON schema"
-        }
-      },
-      "required": [
-        "$schema"
-      ],
       "additionalProperties": {
         "type": "string"
       },

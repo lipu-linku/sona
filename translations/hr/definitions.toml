@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/definition_translation.json"
+#:schema ../../schemas/generated/definition_translation.json
 Pingo = "automobil"
 a = "(naglasak, emocijalnost ili potvrda)"
 aka = "križni oblik, križanje"

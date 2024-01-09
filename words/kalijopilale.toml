@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/word.json"
+#:schema ../schemas/generated/word.json
 author_verbatim = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/337299887869657090/731769293699809300"
 book = "none"
