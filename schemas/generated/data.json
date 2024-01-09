@@ -232,50 +232,34 @@
               "type": "object",
               "properties": {
                 "commentary": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "string"
-                  },
-                  "description": "Localized commentary regarding Toki Pona words"
+                  "type": "string"
                 },
                 "definitions": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "description": "Localized definitions of Toki Pona words"
+                  "type": "string",
+                  "minLength": 1
                 },
                 "etymology": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "definition": {
-                          "type": "string",
-                          "description": "The localized definition of the root word in its origin language"
-                        },
-                        "language": {
-                          "type": "string",
-                          "description": "The localized name of the language this word originated from"
-                        }
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "definition": {
+                        "type": "string",
+                        "description": "The localized definition of the root word in its origin language"
                       },
-                      "required": [
-                        "language"
-                      ],
-                      "additionalProperties": false
-                    }
-                  },
-                  "description": "Localized etymological values for Toki Pona words"
+                      "language": {
+                        "type": "string",
+                        "description": "The localized name of the language this word originated from"
+                      }
+                    },
+                    "required": [
+                      "language"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "sp_etymology": {
-                  "type": "object",
-                  "additionalProperties": {
-                    "type": "string"
-                  },
-                  "description": "Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words"
+                  "type": "string"
                 }
               },
               "required": [
