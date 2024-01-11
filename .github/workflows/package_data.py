@@ -30,6 +30,9 @@ def extract_data(
                 folder = path[
                     path.index(prefix) + len(prefix) : path.index(f"/{id}.toml")
                 ]
+                if folder not in result:
+                    result[folder] = {}
+
                 result[folder][id] = data
             else:
                 result[id] = data
