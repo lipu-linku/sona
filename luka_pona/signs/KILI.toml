@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "kili"
+id = "KILI"
+is_two_handed = false
+new_gloss = "KILI"
+old_gloss = "KILI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "FRUIT"
+
+[signwriting]
+fsw = "M529x536S1f500493x521S20500519x506S30004482x483"
+swu = "𝠃𝤣𝤪񅯡𝣿𝤛񆇡𝤙𝤌񌀅𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kili.mp4"

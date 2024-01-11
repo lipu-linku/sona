@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "kulupu"
+id = "KULUPU^1"
+is_two_handed = false
+new_gloss = "KULUPU-JAN"
+old_gloss = "KULUPU"
+
+[[etymology]]
+language = "LPSL"
+sign = "JAN-WAN"
+
+[signwriting]
+fsw = "M516x528S10000492x472S2eb0a484x513"
+swu = "𝠃𝤖𝤢񀀁𝣾𝣪񋠫𝣶𝤓"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kulupu.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kulupu.mp4"

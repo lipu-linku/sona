@@ -4,10 +4,6 @@
     "sign": {
       "type": "object",
       "properties": {
-        "$schema": {
-          "type": "string",
-          "description": "a file path pointing to this JSON schema"
-        },
         "definition": {
           "type": "string",
           "description": "The definition of the sign as a single toki pona word."
@@ -43,8 +39,7 @@
               }
             },
             "required": [
-              "language",
-              "sign"
+              "language"
             ],
             "additionalProperties": false
           },
@@ -55,11 +50,11 @@
           "properties": {
             "fsw": {
               "type": "string",
-              "description": "The Formal Sign Writing representation of the sign."
+              "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
             },
             "swu": {
               "type": "string",
-              "description": "The Sign Writing with Unicode representation of hte sign."
+              "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
             }
           },
           "required": [
@@ -90,7 +85,6 @@
         }
       },
       "required": [
-        "$schema",
         "definition",
         "id",
         "is_two_handed",

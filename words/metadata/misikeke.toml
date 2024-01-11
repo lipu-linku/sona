@@ -1,0 +1,37 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2001-2009"
+creator = ["jan Sonja"]
+see_also = ["moku"]
+source_language = "Ojibwe"
+usage_category = "common"
+word = "misikeke"
+
+[[etymology]]
+word = "mashkiki"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/misikeke.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/misikeke.mp3"
+
+[ku_data]
+cure = 40
+medical = 30
+medication = 46
+medicine = 42
+pill = 30
+
+[recognition]
+2020-04 = 21
+2021-10 = 71
+2022-08 = 63
+2023-09 = 60
+
+[representations]
+sitelen_emosi = "💊"
+sitelen_pona = ["misikeke"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"
+ucsur = "U+F1987"

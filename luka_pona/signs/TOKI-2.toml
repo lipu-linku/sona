@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "toki"
+id = "TOKI^2"
+is_two_handed = true
+new_gloss = "TOKI-2"
+old_gloss = "TOKI"
+
+[[etymology]]
+language = "multiple SLs (including BSL)"
+sign = "SIGN"
+
+[signwriting]
+fsw = "M524x535S15a01501x476S15a09476x466S2eb08503x503S2eb10480x493"
+swu = "𝠃𝤞𝤩񂇂𝤇𝣮񂇊𝣮𝣤񋠩𝤉𝤉񋠱𝣲𝣿"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/toki.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/toki.mp4"

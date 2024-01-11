@@ -28,7 +28,9 @@ jobs:
         run: python .github/workflows/package_data.py
 
       - name: Validate generated file
-        run: npx ajv-cli -s ./schemas/generated/data.json -c ajv-formats --errors=text -d ./raw/data.json
+        run: |
+          npx ajv-cli -s ./schemas/generated/words.json -c ajv-formats --errors=text -d ./raw/words.json
+          npx ajv-cli -s ./schemas/generated/luka_pona.json -c ajv-formats --errors=text -d ./raw/luka_pona.json
 
       - name: Commit schemas
         uses: EndBug/add-and-commit@v9

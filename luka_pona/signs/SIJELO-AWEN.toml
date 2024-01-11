@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "sijelo"
+id = "SIJELO^1"
+is_two_handed = false
+new_gloss = "SIJELO-AWEN"
+old_gloss = "SIJELO"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "BODY"
+
+[signwriting]
+fsw = "M514x514S15a02487x486S20500497x503"
+swu = "𝠃𝤔𝤔񂇃𝣹𝣸񆇡𝤃𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sijelo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sijelo.mp4"

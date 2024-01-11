@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "tan"
+id = "TAN"
+is_two_handed = false
+new_gloss = "TAN"
+old_gloss = "TAN"
+
+[[etymology]]
+language = "BSL"
+sign = "FROM"
+
+[signwriting]
+fsw = "M512x532S14c30488x468S2a200489x504"
+swu = "𝠃𝤒𝤦񁲱𝣺𝣦񉳁𝣻𝤊"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tan.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tan.mp4"

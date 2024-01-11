@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/sign.json
+definition = "tonsi"
+id = "TONSI"
+is_two_handed = false
+new_gloss = "TONSI"
+old_gloss = "TONSI"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M545x519S1dc20521x477S20500519x508S2ff00482x483"
+swu = "𝠃𝤳𝤙񅊡𝤛𝣯񆇡𝤙𝤎񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tonsi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tonsi.mp4"

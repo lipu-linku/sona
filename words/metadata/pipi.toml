@@ -1,0 +1,39 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Acadian French"
+usage_category = "core"
+word = "pipi"
+
+[[etymology]]
+word = "bibitte"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pipi.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pipi.mp3"
+
+[ku_data]
+bug = 100
+insect = 92
+spider = 48
+
+[pu_verbatim]
+de = "NOMEN Käfer, Insekt, Ameise, Spinne"
+en = "NOUN bug, insect, ant, spider"
+eo = "SUBSTANTIVO insekto, formiko, araneo, eta senvertebrulo"
+fr = "NOM insecte, araignée, fourmi"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🐞"
+sitelen_pona = ["pipi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pipi.jpg"
+ucsur = "U+F1951"

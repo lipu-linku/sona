@@ -1,0 +1,26 @@
+#:schema ../../schemas/generated/sign.json
+definition = "jelo"
+id = "JELO"
+is_two_handed = false
+new_gloss = "JELO"
+old_gloss = "JELO"
+
+[[etymology]]
+language = "BSL (variant)"
+sign = "YELLOW"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "jelo"
+
+[[etymology]]
+language = "sitelen pona"
+sign = "jelo"
+
+[signwriting]
+fsw = "M545x518S2ff00482x483S1ce10523x479"
+swu = "𝠃𝤳𝤘񋾡𝣴𝣵񄵑𝤝𝣱"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jelo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jelo.mp4"
