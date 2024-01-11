@@ -1,0 +1,28 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = "hm i am considering making a nimisin for mollusks, if that isn’t already a thing"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/861476478021533696"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["jan soweli Apen"]
+see_also = ["pipi"]
+source_language = "multiple"
+usage_category = "obscure"
+word = "molusa"
+
+[[etymology]]
+word = "mollusk"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/molusa.mp3"
+
+[recognition]
+2021-10 = 25
+2022-08 = 3
+2023-09 = 4
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["molusa"]
+sitelen_sitelen = ""
+ucsur = ""

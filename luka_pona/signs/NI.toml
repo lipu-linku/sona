@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "ni"
+id = "NI"
+is_two_handed = false
+new_gloss = "NI"
+old_gloss = "NI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "THIS"
+
+[signwriting]
+fsw = "M509x511S10c50492x489"
+swu = "𝠃𝤏𝤑񀓑𝣾𝣻"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ni.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ni.mp4"

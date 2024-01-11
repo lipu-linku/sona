@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/sign.json
+definition = "tenpo"
+id = "TENPO^3"
+is_two_handed = false
+new_gloss = "TENPO-PALISA-LAWA"
+old_gloss = "TENPO"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M518x523S11544464x486S20500478x509S36a00482x477"
+swu = "𝠃𝤘𝤝񀠥𝣢𝣸񆇡𝣰𝤏񎟁𝣴𝣯"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tenpo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tenpo.mp4"

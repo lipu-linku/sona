@@ -1,0 +1,31 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["jan Sonja"]
+see_also = ["laso", "loje", "pimeja"]
+source_language = "Malay-Indonesian"
+usage_category = "rare"
+word = "unu"
+
+[[etymology]]
+word = "ungu"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/unu.mp3"
+
+[ku_data]
+purple = 27
+
+[recognition]
+2021-10 = 43
+2022-08 = 12
+2023-09 = 16
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["unu"]
+sitelen_sitelen = ""
+ucsur = ""

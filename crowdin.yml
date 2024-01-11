@@ -1,3 +1,7 @@
 files:
-  - source: /source/*.toml
-    translation: /translations/%two_letters_code%/%original_file_name%
+  - source: /words/source/*.toml
+    translation: /words/translations/%two_letters_code%/%original_file_name%
+  - source: /luka_pona/fingerspelling/source/*.toml
+    translation: /luka_pona/fingerspelling/translations/%two_letters_code%/%original_file_name%
+  - source: /luka_pona/signs/source/*.toml
+    translation: /luka_pona/signs/translations/%two_letters_code%/%original_file_name%

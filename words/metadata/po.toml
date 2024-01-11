@@ -1,0 +1,32 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "2001"
+creator = ["jan Sonja"]
+see_also = ["mute"]
+source_language = "English"
+usage_category = "obscure"
+word = "po"
+
+[[etymology]]
+word = "four"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/po.mp3"
+
+[ku_data]
+four = 10
+
+[recognition]
+2020-04 = 25
+2021-10 = 34
+2022-08 = 5
+2023-09 = 5
+
+[representations]
+sitelen_emosi = "🍀"
+sitelen_pona = ["po"]
+sitelen_sitelen = ""
+ucsur = ""

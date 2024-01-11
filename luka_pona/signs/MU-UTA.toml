@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "mu"
+id = "MU"
+is_two_handed = false
+new_gloss = "MU-UTA"
+old_gloss = "MU"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SHOUT"
+
+[signwriting]
+fsw = "M538x523S18217521x498S20500508x504S33b00482x483"
+swu = "𝠃𝤬𝤝񃃘𝤛𝤄񆇡𝤎𝤊񍘡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mu.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mu.mp4"

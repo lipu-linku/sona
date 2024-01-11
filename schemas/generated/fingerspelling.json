@@ -4,10 +4,6 @@
     "fingerspelling": {
       "type": "object",
       "properties": {
-        "$schema": {
-          "type": "string",
-          "description": "a file path pointing to this JSON schema"
-        },
         "id": {
           "type": "string",
           "description": "A globally unique name for the sign which is also a gloss."
@@ -74,7 +70,6 @@
         }
       },
       "required": [
-        "$schema",
         "id",
         "is_two_handed",
         "etymology",
