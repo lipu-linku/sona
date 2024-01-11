@@ -1,4 +1,4 @@
-"$schema" = "../schemas/generated/word.json"
+#:schema ../schemas/generated/word.json
 author_verbatim = "MOD. electric, electronic, conductive, mashinical, online\nN. electricity, lightning, thunder, network\nV. struck by electric/lightning"
 author_verbatim_source = "https://www.reddit.com/r/tokipona/comments/mibo62/a_new_word_about_network_electric/"
 book = "none"

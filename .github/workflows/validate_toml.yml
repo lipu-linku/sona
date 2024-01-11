@@ -31,22 +31,12 @@ jobs:
         with:
           ref: ${{ env.BranchRef }}
 
-      - name: Validate definition files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/definition_translation.json './(translations|source)/**/definitions.toml'
-
-      - name: Validate commentary files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/commentary_translation.json './(translations|source)/**/commentary.toml'
-
-      - name: Validate etymology files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/etymology_translation.json './(translations|source)/**/etymology.toml'
-
-      - name: Validate sitelen pona files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/sitelen_pona_translation.json './(translations|source)/**/sp_etymology.toml'
-
-      - name: Validate word files
-        run: npx --yes @taplo/cli check --schema https://raw.githubusercontent.com/lipu-linku/sona/$BranchRef/schemas/generated/word.json ./words/*.toml
+      - name: Validate all files
+        run: npx --yes @taplo/cli check
 
   package:
     needs: validate
+    permissions:
+      contents: write
     if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
     uses: ./.github/workflows/package_data.yml

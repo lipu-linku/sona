@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/definition_translation.json"
+#:schema ../../schemas/generated/definition_translation.json
 Pingo = "car"
 a = "(diin, pagdamdam o kumpirmasyon)"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"
