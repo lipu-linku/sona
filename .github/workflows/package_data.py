@@ -34,10 +34,10 @@ def extract_data(
                     result[folder] = {}
 
                 result[folder][id] = data
+                result[folder][id]["translations"] = {}
             else:
                 result[id] = data
-
-            result[id]["translations"] = {}
+                result[id]["translations"] = {}
 
 
 def insert_translations(
