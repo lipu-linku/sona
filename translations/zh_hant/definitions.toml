@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/definition_translation.json"
+#:schema ../../schemas/generated/definition_translation.json
 Pingo = "汽車"
 a = "（用於強調、表達感情或確認）"
 aka = "十字、交點、相交、重疊、交疊 [同 natu]"

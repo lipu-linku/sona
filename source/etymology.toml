@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/etymology_translation.json"
+#:schema ../schemas/generated/etymology_translation.json
 
 [[Pingo]]
 language = "a priori"

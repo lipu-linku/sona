@@ -1,4 +1,4 @@
-"$schema" = "../../schemas/generated/commentary_translation.json"
+#:schema ../../schemas/generated/commentary_translation.json
 Pingo = ""
 a = 'Em uso comum (antes e depois do pu), "a" e "kin" são palavras separadas com seu próprio significado. No pu, estas são considerados sinônimos.'
 aka = 'Esta palavra está obsoleta pelo seu criador, substituída por "natu".'
