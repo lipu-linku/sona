@@ -48,7 +48,7 @@ jobs:
         id: commit
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA }}"
+          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
   validate:
     name: Validate TOMLs based on schema
