@@ -95,37 +95,29 @@
                   "properties": {
                     "parameters": {
                       "type": "object",
-                      "additionalProperties": {
-                        "type": "object",
-                        "properties": {
-                          "handshape": {
-                            "type": "string",
-                            "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
-                          },
-                          "movement": {
-                            "type": "string",
-                            "description": "The motion of the hand when signing."
-                          },
-                          "placement": {
-                            "type": "string",
-                            "description": "The placement of the hand when signing."
-                          },
-                          "orientation": {
-                            "type": "string",
-                            "description": "The orientation of the hand when signing."
-                          }
+                      "properties": {
+                        "handshape": {
+                          "type": "string",
+                          "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
                         },
-                        "additionalProperties": false
+                        "movement": {
+                          "type": "string",
+                          "description": "The motion of the hand when signing."
+                        },
+                        "placement": {
+                          "type": "string",
+                          "description": "The placement of the hand when signing."
+                        },
+                        "orientation": {
+                          "type": "string",
+                          "description": "The orientation of the hand when signing."
+                        }
                       },
-                      "description": "Partly localized descriptions of how a sign is signed."
+                      "additionalProperties": false
                     },
                     "icons": {
-                      "type": "object",
-                      "additionalProperties": {
-                        "type": "string",
-                        "minLength": 1
-                      },
-                      "description": "Localized descriptions of the thing a sign represents."
+                      "type": "string",
+                      "minLength": 1
                     }
                   },
                   "required": [

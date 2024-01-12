@@ -271,13 +271,13 @@ export const LukaPona = z
 		signs: z.record(
 			Sign.extend({
 				translations: z.record(
-					z.object({ parameters: ParametersTranslation, icons: IconTranslation }),
+					z.object({ parameters: ParametersTranslation.valueSchema, icons: IconTranslation.valueSchema }),
 				),
 			}),
 		),
 		fingerspelling: z.record(
 			Fingerspelling.extend({
-				translations: z.record(z.object({ parameters: ParametersTranslation })),
+				translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
 			}),
 		),
 	})
