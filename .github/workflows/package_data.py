@@ -50,25 +50,26 @@ def insert_translations(
             locale = os.path.dirname(path)[path.rfind("/", 0, path.rfind("/")) + 1 :]
             data_kind = os.path.basename(path[: path.index(".toml")])
 
-        for item in {item for item in localized_data.keys()}:
-            if subpath:
-                prefix = f"./{data_type}/"
-                folder = path[
-                    path.index(prefix) + len(prefix) : path.index(
-                        f"/translations/{item}.toml"
-                    )
-                ]
-                if locale not in result[folder][item]["translations"]:
-                    result[folder][item]["translations"][locale] = {}
+            for item in {item for item in localized_data.keys()}:
+                if subpath:
+                    prefix = f"./{data_type}/"
+                    print(path)
+                    folder = path[
+                        path.index(prefix) + len(prefix) : path.index(
+                            f"/translations/{locale}/{data_kind}.toml"
+                        )
+                    ]
+                    if locale not in result[folder][item]["translations"]:
+                        result[folder][item]["translations"][locale] = {}
 
-                result[folder][item]["translations"][locale][
-                    data_kind
-                ] = localized_data[item]
-            else:
-                if locale not in result[item]["translations"]:
-                    result[item]["translations"][locale] = {}
+                    result[folder][item]["translations"][locale][
+                        data_kind
+                    ] = localized_data[item]
+                else:
+                    if locale not in result[item]["translations"]:
+                        result[item]["translations"][locale] = {}
 
-                result[item]["translations"][locale][data_kind] = localized_data[item]
+                    result[item]["translations"][locale][data_kind] = localized_data[item]
 
 
 if __name__ == "__main__":
@@ -88,11 +89,11 @@ if __name__ == "__main__":
 
         insert_translations(
             result,
-            glob.iglob(f"./{data_type}/{folders}/translations/*.toml")
+            glob.iglob(f"./{data_type}/{folders}/translations/*/*.toml")
             if isinstance(folders, str)
             else itertools.chain(
                 *(
-                    glob.iglob(f"./{data_type}/{folder}/translations/*.toml")
+                    glob.iglob(f"./{data_type}/{folder}/translations/*/*.toml")
                     for folder in folders
                 )
             ),
