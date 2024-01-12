@@ -88,39 +88,49 @@
                 "additionalProperties": false,
                 "description": "Videos of the sign being performed, by format."
               },
-              "parameters": {
+              "translations": {
                 "type": "object",
-                "additionalProperties": {
-                  "type": "object",
-                  "properties": {
-                    "handshape": {
-                      "type": "string",
-                      "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+                "properties": {
+                  "parameters": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "properties": {
+                        "handshape": {
+                          "type": "string",
+                          "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+                        },
+                        "movement": {
+                          "type": "string",
+                          "description": "The motion of the hand when signing."
+                        },
+                        "placement": {
+                          "type": "string",
+                          "description": "The placement of the hand when signing."
+                        },
+                        "orientation": {
+                          "type": "string",
+                          "description": "The orientation of the hand when signing."
+                        }
+                      },
+                      "additionalProperties": false
                     },
-                    "movement": {
-                      "type": "string",
-                      "description": "The motion of the hand when signing."
-                    },
-                    "placement": {
-                      "type": "string",
-                      "description": "The placement of the hand when signing."
-                    },
-                    "orientation": {
-                      "type": "string",
-                      "description": "The orientation of the hand when signing."
-                    }
+                    "description": "Partly localized descriptions of how a sign is signed."
                   },
-                  "additionalProperties": false
+                  "icons": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "description": "Localized descriptions of the thing a sign represents."
+                  }
                 },
-                "description": "Partly localized descriptions of how a sign is signed."
-              },
-              "icons": {
-                "type": "object",
-                "additionalProperties": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "description": "Localized descriptions of the thing a sign represents."
+                "required": [
+                  "parameters",
+                  "icons"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -132,8 +142,7 @@
               "etymology",
               "signwriting",
               "video",
-              "parameters",
-              "icons"
+              "translations"
             ],
             "additionalProperties": false,
             "description": "Unlocalized info on a Luka Pona sign"
@@ -208,8 +217,17 @@
                 "additionalProperties": false,
                 "description": "Videos of the sign being performed, by format."
               },
-              "parameters": {
-                "$ref": "#/definitions/luka_pona/properties/signs/additionalProperties/properties/parameters"
+              "translations": {
+                "type": "object",
+                "properties": {
+                  "parameters": {
+                    "$ref": "#/definitions/luka_pona/properties/signs/additionalProperties/properties/translations/properties/parameters"
+                  }
+                },
+                "required": [
+                  "parameters"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -218,7 +236,7 @@
               "etymology",
               "signwriting",
               "video",
-              "parameters"
+              "translations"
             ],
             "additionalProperties": false,
             "description": "Unlocalized info on a fingerspelling sign."
