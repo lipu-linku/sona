@@ -101,7 +101,7 @@ if __name__ == "__main__":
             not isinstance(folders, str),
         )
 
-        with open(f"raw/{data_type}.json", "w+") as data_file:
+        with open(f"./raw/{data_type}.json", "w+") as data_file:
             data_file.write(json.dumps(result, separators=(",", ":")))
 
     print("Done!")
