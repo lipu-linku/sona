@@ -25,7 +25,9 @@ jobs:
         run: pip install tomlkit && npm i -g ajv-cli ajv-formats
 
       - name: Generate raw data file
-        run: python .github/workflows/package_data.py
+        run: |
+          ls raw/
+          python .github/workflows/package_data.py
 
       - name: Validate generated file
         run: |
