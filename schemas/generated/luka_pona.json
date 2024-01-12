@@ -90,47 +90,50 @@
               },
               "translations": {
                 "type": "object",
-                "properties": {
-                  "parameters": {
-                    "type": "object",
-                    "additionalProperties": {
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "parameters": {
                       "type": "object",
-                      "properties": {
-                        "handshape": {
-                          "type": "string",
-                          "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+                      "additionalProperties": {
+                        "type": "object",
+                        "properties": {
+                          "handshape": {
+                            "type": "string",
+                            "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+                          },
+                          "movement": {
+                            "type": "string",
+                            "description": "The motion of the hand when signing."
+                          },
+                          "placement": {
+                            "type": "string",
+                            "description": "The placement of the hand when signing."
+                          },
+                          "orientation": {
+                            "type": "string",
+                            "description": "The orientation of the hand when signing."
+                          }
                         },
-                        "movement": {
-                          "type": "string",
-                          "description": "The motion of the hand when signing."
-                        },
-                        "placement": {
-                          "type": "string",
-                          "description": "The placement of the hand when signing."
-                        },
-                        "orientation": {
-                          "type": "string",
-                          "description": "The orientation of the hand when signing."
-                        }
+                        "additionalProperties": false
                       },
-                      "additionalProperties": false
+                      "description": "Partly localized descriptions of how a sign is signed."
                     },
-                    "description": "Partly localized descriptions of how a sign is signed."
+                    "icons": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "description": "Localized descriptions of the thing a sign represents."
+                    }
                   },
-                  "icons": {
-                    "type": "object",
-                    "additionalProperties": {
-                      "type": "string",
-                      "minLength": 1
-                    },
-                    "description": "Localized descriptions of the thing a sign represents."
-                  }
-                },
-                "required": [
-                  "parameters",
-                  "icons"
-                ],
-                "additionalProperties": false
+                  "required": [
+                    "parameters",
+                    "icons"
+                  ],
+                  "additionalProperties": false
+                }
               }
             },
             "required": [
@@ -219,15 +222,18 @@
               },
               "translations": {
                 "type": "object",
-                "properties": {
-                  "parameters": {
-                    "$ref": "#/definitions/luka_pona/properties/signs/additionalProperties/properties/translations/properties/parameters"
-                  }
-                },
-                "required": [
-                  "parameters"
-                ],
-                "additionalProperties": false
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "parameters": {
+                      "$ref": "#/definitions/luka_pona/properties/signs/additionalProperties/properties/translations/additionalProperties/properties/parameters"
+                    }
+                  },
+                  "required": [
+                    "parameters"
+                  ],
+                  "additionalProperties": false
+                }
               }
             },
             "required": [
