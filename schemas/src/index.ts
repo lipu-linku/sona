@@ -268,7 +268,15 @@ export const Words = z
 
 export const LukaPona = z
 	.object({
-		signs: z.record(Sign.extend({ parameters: ParametersTranslation, icons: IconTranslation })),
-		fingerspelling: z.record(Fingerspelling.extend({ parameters: ParametersTranslation })),
+		signs: z.record(
+			Sign.extend({
+				translations: z.object({ parameters: ParametersTranslation, icons: IconTranslation }),
+			}),
+		),
+		fingerspelling: z.record(
+			Fingerspelling.extend({
+				translations: z.object({ parameters: ParametersTranslation }),
+			}),
+		),
 	})
 	.describe("A raw data object containing information about Luka Pona signs");
