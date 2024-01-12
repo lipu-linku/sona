@@ -1,3 +1,8 @@
+api_token_env: CROWDIN_PERSONAL_TOKEN
+project_id_env: CROWDIN_PROJECT_ID
+base_url: https://linku.crowdin.com
+base_path: .
+
 files:
   - source: /words/source/*.toml
     translation: /words/translations/%two_letters_code%/%original_file_name%
