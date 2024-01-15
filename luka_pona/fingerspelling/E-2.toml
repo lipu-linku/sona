@@ -1,0 +1,13 @@
+#:schema ../../schemas/generated/fingerspelling.json
+id = "E-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "E"
+
+[signwriting]
+fsw = "M526x523S1db18475x478S20500507x479S10011505x493"
+swu = "𝠃𝤠𝤝񅈹𝣭𝣰񆇡𝤍𝣱񀀒𝤋𝣿"
+
+[video]

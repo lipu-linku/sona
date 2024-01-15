@@ -1,0 +1,27 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["jan Pensamin"]
+see_also = []
+source_language = "toki pona"
+usage_category = "obscure"
+word = "alente"
+
+[[etymology]]
+word = "ale ante"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alente.mp3"
+
+[recognition]
+2022-08 = 2
+2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["alente"]
+sitelen_sitelen = ""
+ucsur = ""

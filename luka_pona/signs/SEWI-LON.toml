@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "sewi"
+id = "SEWI^1"
+is_two_handed = false
+new_gloss = "SEWI-LON"
+old_gloss = "SEWI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "GOD, ALLAH, GODS, etc."
+
+[signwriting]
+fsw = "M512x515S1dc20488x485"
+swu = "𝠃𝤒𝤕񅊡𝣺𝣷"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sewi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sewi.mp4"

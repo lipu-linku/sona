@@ -1,0 +1,32 @@
+{
+  "$ref": "#/definitions/parameters_translation",
+  "definitions": {
+    "parameters_translation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "handshape": {
+            "type": "string",
+            "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+          },
+          "movement": {
+            "type": "string",
+            "description": "The motion of the hand when signing."
+          },
+          "placement": {
+            "type": "string",
+            "description": "The placement of the hand when signing."
+          },
+          "orientation": {
+            "type": "string",
+            "description": "The orientation of the hand when signing."
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Partly localized descriptions of how a sign is signed."
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -1,0 +1,22 @@
+#:schema ../../schemas/generated/sign.json
+definition = "laso"
+id = "LASO"
+is_two_handed = false
+new_gloss = "LASO"
+old_gloss = "LASO"
+
+[[etymology]]
+language = "BSL"
+sign = "BLUE"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "laso"
+
+[signwriting]
+fsw = "M516x521S1ce11493x480S15a38484x494S20500500x510"
+swu = "𝠃𝤖𝤛񄵒𝣿𝣲񂇹𝣶𝤀񆇡𝤆𝤐"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/laso.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/laso.mp4"

@@ -1,0 +1,29 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "2001"
+creator = ["jan Sonja"]
+see_also = ["san"]
+source_language = "English"
+usage_category = "obscure"
+word = "tuli"
+
+[[etymology]]
+word = "three"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tuli.mp3"
+
+[recognition]
+2020-04 = 26
+2021-10 = 31
+2022-08 = 4
+2023-09 = 2
+
+[representations]
+sitelen_emosi = "☘️"
+sitelen_pona = ["tuli"]
+sitelen_sitelen = ""
+ucsur = ""

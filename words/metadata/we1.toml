@@ -1,0 +1,28 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan inwin"]
+see_also = []
+source_language = "Spanish"
+usage_category = "obscure"
+word = "we"
+
+[[etymology]]
+word = "güey"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
+
+[recognition]
+2021-10 = 19
+2022-08 = 1
+2023-09 = 1
+
+[representations]
+sitelen_emosi = "🔒"
+sitelen_pona = ["we"]
+sitelen_sitelen = ""
+ucsur = ""

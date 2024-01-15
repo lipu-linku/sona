@@ -1,0 +1,41 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Dutch"
+usage_category = "core"
+word = "lape"
+
+[[etymology]]
+word = "slapen"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lape.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lape.mp3"
+
+[ku_data]
+asleep = 80
+lay = 31
+"lie (be in flat position)" = 26
+rest = 58
+sleep = 100
+
+[pu_verbatim]
+de = "ADJEKTIV schlafend, ausruhend"
+en = "ADJECTIVE sleeping, resting"
+eo = "ADJEKTIVO dormanta, ripozanta"
+fr = "ADJECTIF dormant, se reposant"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "😴"
+sitelen_pona = ["lape"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lape.jpg"
+ucsur = "U+F1922"

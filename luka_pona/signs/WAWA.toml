@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "wawa"
+id = "WAWA"
+is_two_handed = false
+new_gloss = "WAWA"
+old_gloss = "WAWA"
+
+[[etymology]]
+language = "BSL"
+sign = "POWER, PRIDE"
+
+[signwriting]
+fsw = "M508x520S1f502493x481S20500495x509"
+swu = "𝠃𝤎𝤚񅯣𝣿𝣳񆇡𝤁𝤏"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wawa.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/wawa.mp4"

@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "wile"
+id = "WILE^2"
+is_two_handed = false
+new_gloss = "WILE-LUKA-OPEN"
+old_gloss = "WILE^2"
+
+[[etymology]]
+language = "ASL"
+sign = "WANT"
+
+[signwriting]
+fsw = "M512x533S14c30488x467S26604493x503"
+swu = "𝠃𝤒𝤧񁲱𝣺𝣥񈙅𝣿𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wile.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/wile.mp4"

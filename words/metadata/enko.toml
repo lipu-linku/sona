@@ -1,0 +1,28 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["jan Seli"]
+see_also = ["lon", "ma"]
+source_language = "toki pona"
+usage_category = "obscure"
+word = "enko"
+
+[[etymology]]
+word = "tenpo"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/enko.mp3"
+
+[recognition]
+2021-10 = 28
+2022-08 = 4
+2023-09 = 4
+
+[representations]
+sitelen_emosi = "🧭"
+sitelen_pona = ["enko", "enko2"]
+sitelen_sitelen = ""
+ucsur = ""

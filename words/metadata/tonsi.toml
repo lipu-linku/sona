@@ -1,0 +1,37 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan inwin"]
+see_also = ["meli", "mije", "kule"]
+source_language = "Mandarin"
+usage_category = "widespread"
+word = "tonsi"
+
+[[etymology]]
+alt = "tóngzhì"
+word = "同志"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tonsi.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tonsi.mp3"
+
+[ku_data]
+"gender non-conforming person" = 53
+"intersex person" = 36
+"non-binary person" = 59
+"transgender person" = 56
+
+[recognition]
+2020-04 = 57
+2021-10 = 89
+2022-08 = 86
+2023-09 = 83
+
+[representations]
+sitelen_emosi = "♐"
+sitelen_pona = ["tonsi"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tonsi.jpg"
+ucsur = "U+F197E"

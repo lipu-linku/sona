@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "lape"
+id = "LAPE"
+is_two_handed = false
+new_gloss = "LAPE"
+old_gloss = "LAPE"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SLEEP"
+
+[signwriting]
+fsw = "M537x518S15a10525x486S2ff00482x483"
+swu = "𝠃𝤫𝤘񂇑𝤟𝣸񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lape.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lape.mp4"

@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "sona, isipin"
+id = "SONA/ISIPIN"
+is_two_handed = false
+new_gloss = "SONA-ISIPIN; ISIPIN-SONA"
+old_gloss = "SONA/ISIPIN"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "UNDERSTAND, THINK"
+
+[signwriting]
+fsw = "M540x518S10000525x479S2ff00482x483"
+swu = "𝠃𝤮𝤘񀀁𝤟𝣱񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sona.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sona.mp4"

@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "awen"
+id = "AWEN"
+is_two_handed = false
+new_gloss = "AWEN-TAWA"
+old_gloss = "AWEN"
+
+[[etymology]]
+language = "BSL"
+sign = "SAFE"
+
+[signwriting]
+fsw = "M512x535S18251488x465S26604493x486S20500496x524"
+swu = "𝠃𝤒𝤩񃄒𝣺𝣣񈙅𝣿𝣸񆇡𝤂𝤞"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/awen.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/awen.mp4"

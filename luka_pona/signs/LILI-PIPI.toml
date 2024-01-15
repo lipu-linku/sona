@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "lili"
+id = "LILI"
+is_two_handed = false
+new_gloss = "LILI-PIPI"
+old_gloss = "LILI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SMALL, LITTLE"
+
+[signwriting]
+fsw = "M511x515S1ce10489x485"
+swu = "𝠃𝤑𝤕񄵑𝣻𝣷"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"
