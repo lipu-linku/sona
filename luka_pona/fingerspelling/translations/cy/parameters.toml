@@ -1,5 +1,3 @@
-#:schema ../../../../schemas/generated/parameters_translation.json
-
 [A-1]
 handshape = "OpenA"
 orientation = "palm outwards"
