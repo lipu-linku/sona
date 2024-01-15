@@ -1,0 +1,51 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["ni"]
+source_language = "Serbo-Croatian"
+usage_category = "core"
+word = "ona"
+
+[[etymology]]
+alt = "ona"
+word = "она"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ona.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ona.mp3"
+
+[ku_data]
+he = 80
+her = 95
+herself = 36
+him = 80
+himself = 36
+his = 73
+it = 73
+its = 100
+itself = 47
+she = 80
+their = 83
+them = 90
+themselves = 53
+they = 79
+
+[pu_verbatim]
+de = "NOMEN er, sie, es, sie (3. Person plural)"
+en = "NOUN he, she, it, they"
+eo = "SUBSTANTIVO li, ŝi, (ri,) ĝi, ili"
+fr = "NOM il(s), elle(s)"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👆"
+sitelen_pona = ["ona"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ona.jpg"
+ucsur = "U+F1946"

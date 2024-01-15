@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "car"
 a = "(Jaustukas)"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"

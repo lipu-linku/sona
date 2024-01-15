@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "auto"
 a = "(podkreślenie, emocja lub potwierdzenie)"
 aka = "kształt krzyżopodobny, skrzyżowanie, zachodzenie się [alternatywna forma natu]"
@@ -150,7 +151,7 @@ o = "hej! o! (wołacz, tryb rozkazujący lub życzący)"
 ojuta = 'tokipońska adaptacja angielskiego memu "ligma"'
 oke = "(uznanie lub akceptacja)"
 okepuma = "boomer, zarozumiały starzec"
-oki = "(uznanie lub akceptacja)"
+oki = "(zrozumienie lub zgoda)"
 oko = "{patrz lukin} | ALT oko, oczny, wzrokowy {porównaj lukin}"
 olin = "kochać, mieć współczucie, szanować, ukazywać uczucie"
 omekalike = "(nazwa własna) piosenka od jan Usawi"

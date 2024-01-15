@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/commentary_translation.json
 Pingo = ""
 a = 'En pu, las palabras "a" y "kin" son sinónimos. No obstante, en uso común (antes y después de pu), "a" y "kin" son palabras diferentes, con sus propios significados.'
 aka = 'El creador discontinuó esta palabra. Fue reemplazado por "natu".'

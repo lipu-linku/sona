@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/commentary_translation.json
 Pingo = ""
 a = 'Em uso comum (antes e depois do pu), "a" e "kin" são palavras separadas com seu próprio significado. No pu, estas são considerados sinônimos.'
 aka = 'Esta palavra está obsoleta pelo seu criador, substituída por "natu".'
@@ -244,7 +245,7 @@ tenpo = ""
 to = 'May be paired with "te", or used on its own. It is unclear how accepted either approach is among te / to users.'
 tokana = ""
 toki = ""
-toma = "O erro de digitação foi feito por jan Sonja ao escrever o ku. A maioria da comunidade não a considera uma palavra recém-criada."
+toma = "O erro de digitação foi feito por jan Sonja ao escrever o ku. A maioria absoluta da comunidade não a trata como uma palavra recém-criada."
 tomo = ""
 tonsi = 'Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright.'
 tu = ""

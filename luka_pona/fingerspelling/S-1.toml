@@ -1,0 +1,13 @@
+#:schema ../../schemas/generated/fingerspelling.json
+id = "S-1"
+is_two_handed = false
+
+[[etymology]]
+language = "Arabic Sign Language Family"
+sign = "(shīn) ش"
+
+[signwriting]
+fsw = "M512x516S14c20489x485"
+swu = "𝠃𝤒𝤖񁲡𝣻𝣷"
+
+[video]

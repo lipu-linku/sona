@@ -4,10 +4,6 @@
     "word": {
       "type": "object",
       "properties": {
-        "$schema": {
-          "type": "string",
-          "description": "a file path pointing to this JSON schema"
-        },
         "author_verbatim": {
           "type": "string",
           "description": "The author's original definition, taken verbatim in their words"
@@ -230,7 +226,6 @@
         }
       },
       "required": [
-        "$schema",
         "author_verbatim",
         "author_verbatim_source",
         "book",

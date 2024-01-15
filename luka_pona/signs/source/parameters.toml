@@ -1,0 +1,673 @@
+#:schema ../../../schemas/generated/parameters_translation.json
+
+[AKESI]
+handshape = "V"
+orientation = "fingers pointing outwards"
+placement = "on mouth/chin"
+
+[ALA]
+handshape = "FlatB"
+placement = "shoulder"
+
+[ALASA-2]
+handshape = "1"
+movement = "movement outwards"
+
+[ALE-1]
+handshape = "5"
+movement = "vertical circle movement"
+
+[ALE-2]
+handshape = "5"
+movement = "vertical circle movement"
+
+[ANPA-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANPA-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANPA-LON]
+handshape = "L"
+orientation = "finger pointing down"
+
+[ANPA-TAWA]
+handshape = "BentB"
+movement = "movement downward"
+
+[ANTE-WAN]
+handshape = "1"
+movement = "palm flip up"
+
+[ANTE-WAN-2]
+handshape = "1"
+movement = "palm flip up"
+
+[ANU]
+handshape = "L"
+movement = "palm flip up"
+
+[AWEN-TAWA]
+handshape = "BentB"
+movement = "movement inward"
+
+[EN-KIN-KAN]
+handshape = "L"
+movement = "palm flip down"
+
+[ESUN-2]
+handshape = "BentB"
+movement = "horizontal circle movement"
+orientation = "palm facing up"
+
+[IJO-NENA]
+handshape = "1"
+placement = "placed on shoulder"
+
+[IKE]
+handshape = "OpenA"
+orientation = "palm outwards"
+
+[ILO]
+handshape = "L"
+placement = "placed on opposite hand"
+
+[INSA]
+handshape = "L"
+placement = "placed on chest/stomach"
+
+[JAKI]
+handshape = "OpenA"
+orientation = "palm outwards"
+placement = "placed on eyes"
+
+[JAN-LA]
+handshape = "L"
+movement = "movement downward"
+orientation = "palm facing down"
+
+[JAN-WAN]
+handshape = "V"
+movement = "movement downward"
+orientation = "fingers pointing up"
+
+[JELO]
+handshape = "9"
+movement = "placed beside head"
+
+[JO]
+handshape = "BentB"
+orientation = "palm facing up"
+
+[KALA]
+handshape = "FlatB"
+movement = "hand shaking/wiggling"
+orientation = "palm facing sideways"
+
+[KALAMA-KUTE]
+handshape = "5"
+orientation = "palm facing down"
+placement = "placed beside head"
+
+[KALAMA-MU]
+handshape = "5"
+orientation = "palm facing down"
+placement = "placed on mouth"
+
+[KASI]
+handshape = "5"
+orientation = "palm faced in"
+
+[KEN-2]
+handshape = "OpenA"
+movement = "movement downward"
+
+[KEPEKEN]
+handshape = "OpenA"
+movement = "verticle circle movement"
+
+[KIJETESANTAKALU-1]
+handshape = "V"
+placement = "placed on eyes"
+
+[KIJETESANTAKALU-2]
+handshape = "V"
+placement = "placed on eyes"
+
+[KIKI]
+handshape = "9"
+movement = "movement upward"
+orientation = "palm facing up"
+
+[KILI]
+handshape = "OpenA"
+placement = "placed on mouth/chin"
+
+[KIPISI]
+handshape = "V"
+movement = "movement downward"
+
+[KIWEN]
+handshape = "OpenA"
+orientation = "palm facing down"
+
+[KO-2]
+handshape = "BentB"
+movement = "verticle circle movement"
+
+[KON]
+handshape = "5"
+movement = "hand shaking/wiggling"
+
+[KULE]
+handshape = "9"
+movement = "verticle circle movement"
+
+[KULUPU-JAN]
+handshape = "1"
+movement = "horizontal circle movement"
+
+[KULUPU-MUTE]
+handshape = "5"
+movement = "horizontal circle movement"
+
+[KULUPU-MUTE-2]
+handshape = "5"
+movement = "horizontal circle movement"
+
+[KUTE]
+handshape = "1"
+placement = "placed beside head"
+
+[LA]
+handshape = "L"
+movement = "fingers flick up"
+
+[LAPE]
+handshape = "FlatB"
+movement = "placed beside head"
+
+[LASO]
+handshape = "9"
+placement = "placed on opposite hand"
+
+[LAWA]
+handshape = "OpenA"
+placement = "placed beside head"
+
+[LEKO]
+handshape = "BentB"
+orientation = "palms facing to the side"
+
+[LEN-POKA-TAWA-2]
+handshape = "BentB"
+movement = "movement downward"
+placement = "placed on shoulder"
+
+[LETE]
+handshape = "9"
+placement = "placed on opposite hand"
+
+[LILI-PIPI]
+handshape = "9"
+orientation = "palm facing out"
+
+[LINJA-2]
+handshape = "9"
+movement = "movement sideways"
+
+[LIPU]
+handshape = "FlatB"
+placement = "placed on opposite hand"
+
+[LOJE]
+handshape = "9"
+orientation = "palm facing sideways"
+placement = "placed on mouth"
+
+[LON-LA]
+handshape = "L"
+movement = "fingers flick down"
+
+[LUKA]
+handshape = "5"
+orientation = "palm facing out"
+
+[LUKIN-E]
+handshape = "V"
+orientation = "fingers pointing out,\nfingers pointing in,\nfingers pointing sideways"
+
+[LUKIN-ISIPIN]
+handshape = "1"
+placement = "placed on eye"
+
+[LUKIN-OKO]
+handshape = "V"
+placement = "placed on eye"
+
+[LUKIN-SIKE]
+handshape = "V"
+movement = "verticle circle movement"
+
+[LUPA]
+handshape = "O"
+orientation = "palm facing sideways"
+
+[MA]
+handshape = "FlatB"
+movement = "horizontal circle movement"
+
+[MAMA-INSA]
+handshape = "V"
+placement = "placed on chest/stomach"
+
+[MAMA-JO-KILI]
+handshape = "V"
+movement = "hand shaking/wiggling"
+placement = "placed on opposite hand"
+
+[MANI-2]
+handshape = "1"
+placement = "placed beside head"
+
+[MELI]
+handshape = "L"
+placement = "placed on mouth/chin"
+
+[MESO]
+handshape = "5"
+orientation = "palm facing down"
+
+[MI]
+handshape = "1"
+placement = "placed on chest/stomach"
+
+[MIJE]
+handshape = "L"
+placement = "placed on eye"
+
+[MISIKEKE-1]
+handshape = "OpenA"
+movement = "horizontal circle movement"
+
+[MISIKEKE-2]
+handshape = "OpenA"
+movement = "horizontal circle movement"
+
+[MOKU]
+handshape = "O"
+placement = "placed on mouth/chin"
+
+[MOLI]
+handshape = "FlatB"
+movement = "movement sideways"
+orientation = "palm facing down"
+placement = "placed on neck"
+
+[MONSI]
+handshape = "FlatB"
+orientation = "palm facing in"
+
+[MONSUTA-1]
+handshape = "5"
+movement = "movement inward"
+orientation = "palm facing down"
+
+[MONSUTA-2]
+handshape = "5"
+movement = "movement inward"
+orientation = "palm facing down"
+
+[MU-UTA]
+handshape = "BentB"
+placement = "placed on mouth/chin"
+
+[MUN]
+handshape = "9"
+placement = "placed beside head"
+
+[MUSI]
+handshape = "5"
+orientation = "palm facing sideways"
+
+[MUTE]
+handshape = "5"
+movement = "movement sideways"
+
+[NANPA]
+handshape = "5"
+placement = "placed on eye"
+
+[NASA]
+handshape = "1"
+movement = "verticle circle movement"
+
+[NASIN]
+handshape = "FlatB"
+movement = "movement outward"
+
+[NENA]
+handshape = "BentB"
+orientation = "palm facing down"
+
+[NI]
+handshape = "1"
+orientation = "finger pointing down"
+
+[NIMI]
+handshape = "FlatB"
+placement = "placed on eye"
+
+[NOKA]
+handshape = "V"
+orientation = "fingers pointing down"
+
+[O]
+handshape = "FlatB"
+movement = "fingers flick down"
+
+[OLIN]
+handshape = "5"
+placement = "placed on chest/stomach"
+
+[ONA]
+handshape = "1"
+orientation = "finger pointing sideways"
+
+[OPEN-2]
+handshape = "FlatB"
+movement = "palm flip up"
+
+[PAKALA]
+handshape = "5"
+movement = "palm flip down"
+
+[PALI-KON]
+handshape = "OpenA"
+movement = "hand shaking/wiggling"
+
+[PALI-LUKA]
+handshape = "OpenA"
+movement = "hand shaking/wiggling"
+placement = "placed on opposite hand"
+
+[PALI-NENA]
+handshape = "OpenA"
+movement = "hand shaking/wiggling"
+placement = "placed on shoulder"
+
+[PALISA-1]
+handshape = "O"
+movement = "movement sideways"
+
+[PALISA-2]
+handshape = "O"
+movement = "movement sideways"
+
+[PAN]
+handshape = "5"
+placement = "placed on mouth/chin"
+
+[PANA-LANPAN]
+handshape = "BentB"
+movement = "movement outward,\nmovement inward,\nmovement sideways"
+
+[PI]
+handshape = "9"
+movement = "fingers flick up"
+
+[PILIN]
+handshape = "9"
+placement = "placed on chest/stomach"
+
+[PIMEJA]
+handshape = "9"
+placement = "placed on shoulder"
+
+[PINI-2]
+handshape = "FlatB"
+movement = "palm flip down"
+
+[PIPI]
+handshape = "9"
+movement = "hand shaking/wiggling"
+
+[POKA]
+handshape = "L"
+movement = "fingers pointing sideways"
+
+[POKI]
+handshape = "O"
+movement = "palm facing sideways"
+
+[PONA]
+handshape = "OpenA"
+movement = "palm facing in"
+
+[SAMA-KIWEN]
+handshape = "OpenA"
+movement = "palm flip down"
+
+[SAMA-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip down"
+
+[SAMA-WAN]
+handshape = "1"
+movement = "palm flip down"
+
+[SAMA-WAN-2]
+handshape = "1"
+movement = "palm flip down"
+
+[SELI-2]
+handshape = "5"
+placement = "placed on shoulder"
+
+[SELO]
+handshape = "O"
+movement = "placed on opposite hand"
+
+[SEME-SUPA-1]
+handshape = "FlatB"
+orientation = "palm facing up"
+
+[SEME-SUPA-2]
+handshape = "FlatB"
+orientation = "palm facing up"
+
+[SEME-WAN-TAWA]
+handshape = "1"
+movement = "hand shaking/wiggling"
+
+[SEWI-LON]
+handshape = "L"
+orientation = "finger pointing up"
+
+[SEWI-TAWA]
+handshape = "BentB"
+movement = "movement downward"
+
+[SIJELO-AWEN]
+handshape = "FlatB"
+placement = "placed on chest/stomach"
+
+[SIJELO-AWEN-2]
+handshape = "FlatB"
+placement = "placed on chest/stomach"
+
+[SIJELO-TAWA]
+handshape = "FlatB"
+movement = "movement downward"
+placement = "placed on chest/stomach"
+
+[SIKE]
+handshape = "O"
+movement = "verticle circle movement"
+
+[SIN-JO-SINPIN]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing out"
+placement = "placed on opposite hand"
+
+[SIN-SUPA-MONSI]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing in"
+placement = "placed on opposite hand"
+
+[SIN-SUPA-SINPIN]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing out"
+placement = "placed on opposite hand"
+
+[SINA]
+handshape = "1"
+orientation = "finger pointing out"
+
+[SINPIN]
+handshape = "FlatB"
+orientation = "palm facing out"
+
+[SITELEN]
+handshape = "9"
+movement = "horizontal circle"
+
+[SONA-ISIPIN]
+handshape = "1"
+orientation = "finger pointing up"
+placement = "placed beside head"
+
+[SONA-JO]
+handshape = "BentB"
+placement = "placed beside head"
+
+[SOWELI]
+handshape = "V"
+orientation = "fingers pointing up"
+
+[SULI-SUPA]
+handshape = "FlatB"
+movement = "movement upward"
+
+[SULI-SUPA-2]
+handshape = "FlatB"
+movement = "movement upward"
+
+[SULI-TU]
+handshape = "V"
+movement = "movement upward"
+
+[SULI-TU-2]
+handshape = "V"
+movement = "movement upward"
+
+[SUNO]
+handshape = "5"
+placement = "placed beside head"
+
+[SUPA]
+handshape = "FlatB"
+movement = "movement sideways"
+orientation = "palm facing down"
+
+[SUWI]
+handshape = "V"
+placement = "placed on mouth/chin"
+
+[TAN]
+handshape = "5"
+movement = "palm flip down"
+
+[TASO]
+handshape = "1"
+movement = "fingers flick up"
+
+[TAWA-KAMA]
+handshape = "L"
+movement = "movement outward,\nmovement inward,\nmovement sideways"
+
+[TELO]
+handshape = "5"
+movement = "movement outward"
+
+[TENPO-LUKA-MONSI]
+handshape = "V"
+placement = "placed on opposite hand"
+
+[TENPO-LUKA-SINPIN]
+handshape = "V"
+placement = "placed on opposite hand"
+
+[TENPO-PALISA-LAWA]
+handshape = "V"
+placement = "placed on neck"
+
+[TOKI-1]
+handshape = "FlatB"
+movement = "verticle circle movement"
+
+[TOKI-2]
+handshape = "FlatB"
+movement = "verticle circle movement"
+
+[TOMO]
+handshape = "BentB"
+orientation = "palm facing sideways"
+
+[TONSI]
+handshape = "L"
+placement = "placed beside head"
+
+[TU]
+handshape = "V"
+orientation = "palm facing in"
+
+[UTA]
+handshape = "1"
+placement = "placed on mouth/chin"
+
+[UTALA]
+handshape = "OpenA"
+movement = "movement outward,\nmovement inward,\nmovement sideways"
+
+[WALO]
+handshape = "9"
+placement = "placed on eye"
+
+[WAN]
+handshape = "1"
+orientation = "palm facing in"
+
+[WASO-1]
+handshape = "5"
+movement = "fingers flick down"
+
+[WASO-2]
+handshape = "5"
+movement = "fingers flick down"
+
+[WAWA]
+handshape = "OpenA"
+movement = "hand shaking/wiggling"
+placement = "placed on chest/stomach"
+
+[WEKA]
+handshape = "FlatB"
+movement = "fingers flick up"
+
+[WILE-LUKA-OPEN]
+handshape = "5"
+movement = "movement inward"
+
+[WILE-LUPA]
+handshape = "O"
+placement = "placed on chest/stomach"
+
+[WILE-OPEN-2]
+handshape = "5"
+movement = "movement inward"

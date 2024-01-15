@@ -5,7 +5,6 @@ type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10"
 
 export const Word = z
 	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
@@ -115,37 +114,25 @@ export const Word = z
 export type Word = z.infer<typeof Word>;
 
 export const CommentaryTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(z.string())
+	.record(z.string())
 	.describe("Localized commentary regarding Toki Pona words");
 
 export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
 export const DefinitionTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(z.string().min(1))
+	.record(z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
 
 export const SitelenPonaTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(z.string())
+	.record(z.string())
 	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
 
 export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
 
 export const EtymologyTranslation = z
-	.object({
-		$schema: z.string().describe("a file path pointing to this JSON schema"),
-	})
-	.catchall(
+	.record(
 		z.array(
 			z.object({
 				definition: z
@@ -162,20 +149,139 @@ export const EtymologyTranslation = z
 
 export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
 
-export const Data = z
+export const Sign = z
 	.object({
-		$schema: z.string().url(),
+		definition: z.string().describe("The definition of the sign as a single toki pona word."),
+		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
+		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
+		new_gloss: z.string().describe("The more recent, preferred gloss for this sign."),
+		old_gloss: z.string().describe("The older gloss for this sign, similar to `id`."),
+		etymology: z
+			.array(
+				z.object({
+					language: z.string().describe("The language of the sign."),
+					sign: z
+						.string()
+						.optional()
+						.describe(
+							"The name of the sign such that it could be found in a sign language dictionary.",
+						),
+				}),
+			)
+			.describe("Unlocalized etymological values regarding this sign's origin"),
+		signwriting: z
+			.object({
+				fsw: z
+					.string()
+					.describe(
+						"The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+					),
+				swu: z
+					.string()
+					.describe(
+						"The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+					),
+			})
+			.describe("Scripts for representing a sign as characters."),
+		video: z
+			.object({
+				gif: z.string().describe("A link to a gif of the sign being signed."),
+				mp4: z.string().describe("a link to an mp4 of the sign being signed."),
+			})
+			.describe("Videos of the sign being performed, by format."),
 	})
-	.catchall(
-		Word.omit({ $schema: true }).extend({
+	.describe("Unlocalized info on a Luka Pona sign");
+
+export type Sign = z.infer<typeof Sign>;
+
+export const Fingerspelling = z
+	.object({
+		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
+		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
+		etymology: z
+			.array(
+				z.object({
+					language: z.string().describe("The language of the sign."),
+					sign: z
+						.string()
+						.describe(
+							"The name of the sign such that it could be found in a sign language dictionary.",
+						),
+				}),
+			)
+			.describe("Unlocalized etymological values regarding this sign's origin"),
+		signwriting: z
+			.object({
+				fsw: z.string().describe("The Formal Sign Writing representation of the sign."),
+				swu: z.string().describe("The Sign Writing with Unicode representation of hte sign."),
+			})
+			.describe("Scripts for representing a sign as characters."),
+		video: z
+			.object({
+				gif: z.string().optional().describe("A link to a gif of the sign being signed."),
+				mp4: z.string().optional().describe("a link to an mp4 of the sign being signed."),
+			})
+			.describe("Videos of the sign being performed, by format."),
+	})
+	.describe("Unlocalized info on a fingerspelling sign.");
+
+export type Fingerspelling = z.infer<typeof Fingerspelling>;
+
+export const ParametersTranslation = z
+	.record(
+		z.object({
+			handshape: z
+				.string()
+				.optional()
+				.describe(
+					"The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+				),
+			movement: z.string().optional().describe("The motion of the hand when signing."),
+			placement: z.string().optional().describe("The placement of the hand when signing."),
+			orientation: z.string().optional().describe("The orientation of the hand when signing."),
+		}),
+	)
+	.describe("Partly localized descriptions of how a sign is signed.");
+
+export type ParametersTranslation = z.infer<typeof ParametersTranslation>;
+
+export const IconTranslation = z
+	.record(z.string().min(1))
+	.describe("Localized descriptions of the thing a sign represents.");
+
+export type IconTranslation = z.infer<typeof IconTranslation>;
+
+export const Words = z
+	.record(
+		Word.extend({
 			translations: z.record(
 				z.object({
-					commentary: CommentaryTranslation._def.catchall,
-					definitions: DefinitionTranslation._def.catchall,
-					etymology: EtymologyTranslation._def.catchall,
-					sp_etymology: SitelenPonaTranslation._def.catchall,
+					commentary: CommentaryTranslation.valueSchema,
+					definitions: DefinitionTranslation.valueSchema,
+					etymology: EtymologyTranslation.valueSchema,
+					sp_etymology: SitelenPonaTranslation.valueSchema,
 				}),
 			),
 		}),
 	)
-	.describe("A raw data object containing all the sona data");
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+
+export const LukaPona = z
+	.object({
+		signs: z.record(
+			Sign.extend({
+				translations: z.record(
+					z.object({
+						parameters: ParametersTranslation.valueSchema,
+						icons: IconTranslation.valueSchema,
+					}),
+				),
+			}),
+		),
+		fingerspelling: z.record(
+			Fingerspelling.extend({
+				translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
+			}),
+		),
+	})
+	.describe("A raw data object containing information about Luka Pona signs");

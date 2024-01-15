@@ -5,13 +5,13 @@ on:
     branches: ["main"]
     branches-ignore: ["l10n_*"]
     paths:
-      - "schemas/src/**.ts"
+      - "schemas/src/**"
 
   pull_request:
     branches: ["main"]
     branches-ignore: ["l10n_*"]
     paths:
-      - "schemas/src/**.ts"
+      - "schemas/src/**"
 
   workflow_dispatch:
 
@@ -50,7 +50,7 @@ jobs:
         id: commit
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || vars.GITHUB_SHA }}"
+          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
   validate:
     name: Validate TOMLs based on schema

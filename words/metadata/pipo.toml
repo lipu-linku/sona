@@ -1,0 +1,29 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2017"
+creator = ["jan Ejewa", "jan inwin"]
+see_also = []
+source_language = "toki pona"
+usage_category = "obscure"
+word = "pipo"
+
+[[etymology]]
+word = "pipi"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pipo.mp3"
+
+[recognition]
+2020-04 = 19
+2021-10 = 21
+2022-08 = 1
+2023-09 = 2
+
+[representations]
+sitelen_emosi = "😒"
+sitelen_pona = ["pipo"]
+sitelen_sitelen = ""
+ucsur = ""

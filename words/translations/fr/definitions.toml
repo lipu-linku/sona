@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "voiture"
 a = "(interjection : emphase, émotion, exclamation, confirmation)"
 aka = "en forme de croix ; intersection, chevauchement [forme alternative de natu]"
@@ -16,7 +17,7 @@ apeja = "culpabilité, honte, humiliation, disgrâce ; accuser, déshonorer, emb
 awase = "bosse, coup, secousse"
 awen = "gardé, protégé, conservé, sûr ; qui attend, qui persiste, qui reste ; (auxiliaire) continuer à"
 e = "(avant l'objet direct)"
-eki = "en forme de croix ; intersection, chevauchement [forme alternative de natu]"
+eki = "{forme alternative de aka} en forme de croix ; intersection, chevauchement"
 eliki = "trial, adversity; bittersweet"
 en = "(entre plusieurs sujets)"
 enko = "(équivalents spatiaux des constructions tenpo) espace, endroit, distance, taille ; longueur, largeur, hauteur, profondeur, aire, volume"
@@ -148,7 +149,7 @@ noka = "pied, jambe, organe locomoteur ; bas, dessous"
 nu = "(mot réservé par Sonja Lang pour un usage futur)"
 o = "hé ! ô ! (vocatif, impératif ou optatif)"
 ojuta = 'équivalent toki pona du mème anglophone "ligma"'
-oke = "(interjection : confirmation, approbation, assentiment)"
+oke = "(interjection : approbation ou admission)"
 okepuma = "boomer, baby boomer, personna âgée qui manque d'égards ou de considération ; (interjection ou insulte)"
 oki = "(interjection : confirmation, approbation, assentiment)"
 oko = "{voir lukin} | ALT œil, oculaire, visuel"

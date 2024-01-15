@@ -1,0 +1,86 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Tongan"
+usage_category = "core"
+word = "kulupu"
+
+[[etymology]]
+word = "kulupu"
+
+[[etymology]]
+word = "group"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kulupu.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulupu.mp3"
+
+[ku_data]
+affiliation = 33
+array = 36
+assembly = 45
+association = 65
+bunch = 75
+bureau = 38
+category = 50
+class = 38
+club = 57
+cluster = 71
+coalition = 54
+collection = 67
+collective = 91
+combination = 31
+committee = 33
+community = 95
+company = 25
+conference = 25
+crew = 64
+crowd = 41
+demographic = 25
+establishment = 27
+ethnic = 40
+franchise = 25
+gang = 46
+gathering = 53
+group = 100
+institution = 50
+league = 70
+meeting = 45
+network = 44
+organization = 100
+pack = 27
+partnership = 38
+pile = 44
+public = 33
+rally = 25
+sequence = 29
+set = 54
+social = 38
+socially = 53
+society = 67
+squad = 80
+stack = 35
+team = 60
+tribal = 75
+tribe = 83
+
+[pu_verbatim]
+de = "NOMEN Gemeinschaft, Firma, Gruppe, Nation, Gesellschaft, Stamm, Community"
+en = "NOUN community, company, group, nation, society, tribe"
+eo = "SUBSTANTIVO komunumo, kunularo, grupo, nacio, socio, tribo"
+fr = "NOM communauté, groupe, nation, société, tribu, compagnie"
+
+[recognition]
+2022-08 = 99
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👥"
+sitelen_pona = ["kulupu"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kulupu.jpg"
+ucsur = "U+F191F"

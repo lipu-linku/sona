@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "car"
 a = "(indikerer understreking, følelse, eller stadfesting)"
 aka = "kryss, kryssliknande form, krysspunkt; overlappe [alternativ form av natu]"
@@ -148,7 +149,7 @@ noka = "fot, bein, ganglem; botn, nedre del"
 nu = "(ord reservert for framtidig bruk av Sonja Lang)"
 o = "hei! å! (vokativ, imperativ, eller optativ)"
 ojuta = 'toki pona adaptation of English meme "ligma"'
-oke = "(anerkjenning eller aksept)"
+oke = "ok (stadfesting, godkjenning)"
 okepuma = "boomer, Baby Boomer, inconsiderate elder; [interjection/insult]"
 oki = "(anerkjenning eller aksept)"
 oko = "(synonymt med lukin) | ALT auge, okulær, optisk (jamfør lukin)"

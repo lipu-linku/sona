@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "car"
 a = "(emphasis, emotion or confirmation)"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"
@@ -16,7 +17,7 @@ apeja = "guilt, shame, shun, stigma, disgrace; to accuse, to single out, to expo
 awase = "bump, knock, jolt"
 awen = "enduring, kept, protected, safe, waiting, staying; (pv.) to continue to, to keep"
 e = "(before the direct object)"
-eki = "cross-like shape, intersection, overlap [alternative form of natu]"
+eki = "צלם, איבערשנײַד, טײלװײַזע דעקונג [אַלטערנאַטיװ פֿאָרעם פֿון natu (נאַטו)]"
 eliki = "trial, adversity; bittersweet"
 en = "(between multiple subjects)"
 enko = "(spatial equivalents of tenpo constructions) space, place, distance, size (length, width, height, depth, area, volume)"

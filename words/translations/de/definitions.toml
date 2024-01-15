@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "Auto"
 a = "(Betonung, Emotion, Bestätigung)"
 aka = "kreuzartige Form, Wegeskreuzung, Überschneidung [Alternative zu natu]"

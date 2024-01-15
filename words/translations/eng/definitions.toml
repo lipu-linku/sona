@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "car"
 a = "(interjection) ah, oh, ha, eh, um, oy; (particle) [placed after something for emphasis or emotion]"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"

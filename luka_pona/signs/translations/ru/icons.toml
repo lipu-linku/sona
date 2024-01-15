@@ -1,3 +1,5 @@
+#:schema ../../../../schemas/generated/icon_translation.json
+
 AKESI = "tongue or fangs of a snake"
 ALA = "arms crossed, defence of body"
 ALASA-2 = "pointing at and moving towards the thing thats being searched for"
@@ -14,7 +16,7 @@ AWEN-TAWA = "arm grabbing and pulling something in"
 EN-KIN-KAN = "adding something on top"
 ESUN-2 = "exchanging things between people"
 IJO-NENA = "relocation of IJO-LUKA to ensure accessibility for single hand signing"
-IKE = 'opposite of PONA, thumbs down international gesture for "bad"'
+IKE = "opposite of PONA, thumbs down international gesture for \"bad\""
 ILO = "a tool with a directional nozzel and a grip or button on top"
 INSA = "pointing at the inside"
 JAKI = "bad to the eyes, looks bad, smells bad"
@@ -104,7 +106,7 @@ PINI-2 = "a box closing"
 PIPI = "insect flying around"
 POKA = "pointing left"
 POKI = "an empty vessel"
-PONA = 'thumbs up - an international gesture for "good"'
+PONA = "thumbs up - an international gesture for \"good\""
 SAMA-KIWEN = "opposite of ANTE-KIWEN"
 SAMA-KIWEN-2 = "opposite of ANTE-KIWEN"
 SAMA-WAN = "one handed version of SAMA-WAN-2"

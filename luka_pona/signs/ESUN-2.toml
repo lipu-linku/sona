@@ -1,0 +1,26 @@
+#:schema ../../schemas/generated/sign.json
+definition = "esun"
+id = "ESUN"
+is_two_handed = true
+new_gloss = "ESUN-2"
+old_gloss = "ESUN"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "EXCHANGE"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "esun"
+
+[[etymology]]
+language = "LPSL"
+sign = "PANA"
+
+[signwriting]
+fsw = "M539x519S1823d508x481S18235468x481S2e832507x503S2e83a461x503"
+swu = "𝠃𝤭𝤙񃃾𝤎𝣳񃃶𝣦𝣳񋜳𝤍𝤉񋜻𝣟𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/esun.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/esun.mp4"

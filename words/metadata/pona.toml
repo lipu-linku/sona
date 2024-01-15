@@ -1,0 +1,129 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["ike"]
+source_language = "Esperanto"
+usage_category = "core"
+word = "pona"
+
+[[etymology]]
+word = "bona"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pona.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pona.mp3"
+
+[ku_data]
+OK = 80
+acceptable = 81
+adequate = 40
+advantage = 55
+alright = 64
+appropriate = 90
+approval = 41
+awesome = 41
+basic = 27
+beautiful = 31
+benefit = 69
+better = 27
+civil = 36
+comfortable = 30
+cool = 55
+correct = 60
+correction = 46
+correctly = 40
+courtesy = 31
+decent = 38
+ease = 43
+easily = 25
+easy = 33
+effective = 31
+effectiveness = 40
+efficiency = 32
+elegant = 31
+elementary = 33
+enhance = 33
+ethical = 50
+excellent = 25
+fair = 45
+fairly = 36
+fascinating = 25
+fine = 80
+fix = 57
+fixed = 54
+free = 27
+friendly = 72
+good = 100
+grace = 45
+heal = 43
+helpful = 53
+honest = 27
+ideal = 50
+improve = 50
+improved = 33
+improvement = 47
+justice = 31
+kind = 53
+lovely = 33
+mercy = 32
+merit = 50
+morality = 25
+natural = 33
+nice = 88
+okay = 54
+peace = 36
+peaceful = 50
+perfect = 29
+plain = 36
+pleasant = 73
+please = 28
+positive = 70
+proper = 80
+properly = 36
+qualify = 25
+quality = 79
+reasonable = 38
+reliability = 29
+relieve = 28
+repair = 57
+resolve = 33
+"right (not wrong)" = 55
+simple = 69
+simply = 80
+solve = 27
+success = 26
+successful = 43
+successfully = 50
+sufficient = 25
+supportive = 42
+terrific = 36
+thanks = 36
+useful = 31
+valid = 75
+validity = 53
+virtue = 67
+welfare = 36
+well = 70
+well-being = 33
+wonderful = 36
+worthy = 33
+
+[pu_verbatim]
+de = "ADJEKTIV gut, positiv, nützlich; freundlich, friedlich; einfach, simpel"
+en = "ADJECTIVE good, positive, useful; friendly, peaceful; simple"
+eo = "ADJEKTIVO bona, pozitiva, utila; amika, paca; simpla"
+fr = "ADJECTIF bon, positif, utile ; sympa, paisible ; simple"
+
+[recognition]
+2022-08 = 100
+2023-09 = 100
+
+[representations]
+sitelen_emosi = "👍"
+sitelen_pona = ["pona"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pona.jpg"
+ucsur = "U+F1954"

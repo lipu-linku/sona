@@ -1,3 +1,4 @@
+#:schema ../../../schemas/generated/commentary_translation.json
 Pingo = ""
 a = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
 aka = 'This word is deprecated by the creator, replaced by "natu".'
@@ -83,7 +84,7 @@ kipisi = ""
 kisa = ""
 kiwen = "Coined in a poll in 2002."
 ko = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
-kokosila = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
+kokosila = 'In Esperanto, "krokodili" means to speak among Esperantists in a language besides Esperanto, and is an established bit of Esperanto culture.'
 kon = ""
 konsi = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
 konwe = """
