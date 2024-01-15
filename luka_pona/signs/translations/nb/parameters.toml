@@ -1,5 +1,3 @@
-#:schema ../../../../schemas/generated/parameters_translation.json
-
 [AKESI]
 handshape = "V"
 orientation = "fingers pointing outwards"
@@ -237,7 +235,10 @@ orientation = "palm facing out"
 
 [LUKIN-E]
 handshape = "V"
-orientation = "fingers pointing out,\nfingers pointing in,\nfingers pointing sideways"
+orientation = """
+fingers pointing out,
+fingers pointing in,
+fingers pointing sideways"""
 
 [LUKIN-ISIPIN]
 handshape = "1"
@@ -412,7 +413,10 @@ placement = "placed on mouth/chin"
 
 [PANA-LANPAN]
 handshape = "BentB"
-movement = "movement outward,\nmovement inward,\nmovement sideways"
+movement = """
+movement outward,
+movement inward,
+movement sideways"""
 
 [PI]
 handshape = "9"
@@ -589,7 +593,10 @@ movement = "fingers flick up"
 
 [TAWA-KAMA]
 handshape = "L"
-movement = "movement outward,\nmovement inward,\nmovement sideways"
+movement = """
+movement outward,
+movement inward,
+movement sideways"""
 
 [TELO]
 handshape = "5"
@@ -633,7 +640,10 @@ placement = "placed on mouth/chin"
 
 [UTALA]
 handshape = "OpenA"
-movement = "movement outward,\nmovement inward,\nmovement sideways"
+movement = """
+movement outward,
+movement inward,
+movement sideways"""
 
 [WALO]
 handshape = "9"
