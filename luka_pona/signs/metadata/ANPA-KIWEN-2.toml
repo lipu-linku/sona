@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "ante"
+id = "ANTE^2"
+is_two_handed = true
+new_gloss = "ANPA-KIWEN-2"
+old_gloss = "ANTE"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "CHANGE"
+
+[signwriting]
+fsw = "M536x525S1f550509x475S1f558470x475S2a208513x497S2a210465x497"
+swu = "𝠃𝤪𝤟񅰱𝤏𝣭񅰹𝣨𝣭񉳉𝤓𝤃񉳑𝣣𝤃"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ante.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ante.mp4"

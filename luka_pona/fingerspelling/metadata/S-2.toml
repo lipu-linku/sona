@@ -1,0 +1,13 @@
+#:schema ../../../schemas/generated/fingerspelling_sign.json
+id = "S-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "Z"
+
+[signwriting]
+fsw = "M518x516S15a18482x484S18210495x501"
+swu = "𝠃𝤘𝤖񂇙𝣴𝣶񃃑𝤁𝤇"
+
+[video]

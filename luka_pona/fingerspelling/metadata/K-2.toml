@@ -1,0 +1,13 @@
+#:schema ../../../schemas/generated/fingerspelling_sign.json
+id = "K-2"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "K"
+
+[signwriting]
+fsw = "M519x522S10018481x492S1ce10497x479S20500485x495"
+swu = "𝠃𝤙𝤜񀀙𝣳𝣾񄵑𝤃𝣱񆇡𝣷𝤁"
+
+[video]

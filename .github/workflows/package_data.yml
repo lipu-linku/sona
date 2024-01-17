@@ -5,7 +5,7 @@ on:
 
   workflow_dispatch:
 
-permissions: 
+permissions:
   contents: write
 
 jobs:
@@ -31,10 +31,12 @@ jobs:
 
       - name: Validate generated file
         run: |
-          npx ajv-cli -s ./schemas/generated/words.json -c ajv-formats --errors=text -d ./raw/words.json
-          npx ajv-cli -s ./schemas/generated/luka_pona.json -c ajv-formats --errors=text -d ./raw/luka_pona.json
+          list=(./raw/*.json)
+          for file in "${list[@]}"; do 
+            npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file
+          end
 
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Generated data.json for ${{ github.sha }}"
+          message: "Generated raw JSON files for ${{ github.sha }}"

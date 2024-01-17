@@ -1,11 +1,15 @@
 {
-  "$ref": "#/definitions/fingerspelling",
+  "$ref": "#/definitions/signs",
   "definitions": {
-    "fingerspelling": {
+    "signs": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
         "properties": {
+          "definition": {
+            "type": "string",
+            "description": "The definition of the sign as a single toki pona word."
+          },
           "id": {
             "type": "string",
             "description": "A globally unique name for the sign which is also a gloss."
@@ -13,6 +17,14 @@
           "is_two_handed": {
             "type": "boolean",
             "description": "Whether the sign is two-handed or not."
+          },
+          "new_gloss": {
+            "type": "string",
+            "description": "The more recent, preferred gloss for this sign."
+          },
+          "old_gloss": {
+            "type": "string",
+            "description": "The older gloss for this sign, similar to `id`."
           },
           "etymology": {
             "type": "array",
@@ -29,8 +41,7 @@
                 }
               },
               "required": [
-                "language",
-                "sign"
+                "language"
               ],
               "additionalProperties": false
             },
@@ -41,11 +52,11 @@
             "properties": {
               "fsw": {
                 "type": "string",
-                "description": "The Formal Sign Writing representation of the sign."
+                "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
               },
               "swu": {
                 "type": "string",
-                "description": "The Sign Writing with Unicode representation of hte sign."
+                "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
               }
             },
             "required": [
@@ -67,6 +78,10 @@
                 "description": "a link to an mp4 of the sign being signed."
               }
             },
+            "required": [
+              "gif",
+              "mp4"
+            ],
             "additionalProperties": false,
             "description": "Videos of the sign being performed, by format."
           },
@@ -96,27 +111,35 @@
                     }
                   },
                   "additionalProperties": false
+                },
+                "icons": {
+                  "type": "string",
+                  "minLength": 1
                 }
               },
               "required": [
-                "parameters"
+                "parameters",
+                "icons"
               ],
               "additionalProperties": false
             }
           }
         },
         "required": [
+          "definition",
           "id",
           "is_two_handed",
+          "new_gloss",
+          "old_gloss",
           "etymology",
           "signwriting",
           "video",
           "translations"
         ],
         "additionalProperties": false,
-        "description": "Unlocalized info on a fingerspelling sign."
+        "description": "Unlocalized info on a Luka Pona sign"
       },
-      "description": "A raw data object containing information about Luka Pona fingerspelling signs"
+      "description": "A raw data object containing information about Luka Pona signs"
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"

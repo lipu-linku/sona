@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "jan"
+id = "JAN^1"
+is_two_handed = false
+new_gloss = "JAN-WAN"
+old_gloss = "JAN^1"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "1-CL \"person\""
+
+[signwriting]
+fsw = "M508x533S10020492x468S22b04492x503"
+swu = "𝠃𝤎𝤧񀀡𝣾𝣦񇀥𝣾𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jan.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jan.mp4"
