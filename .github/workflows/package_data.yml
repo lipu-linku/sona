@@ -34,7 +34,7 @@ jobs:
           list=(./raw/*.json)
           for file in "${list[@]}"; do 
             npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file;
-          end
+          done
 
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
