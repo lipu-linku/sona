@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "sama"
+id = "SAMA^4"
+is_two_handed = true
+new_gloss = "SAMA-WAN-2"
+old_gloss = "SAMA"
+
+[[etymology]]
+language = "multiple SLs (including IS)"
+sign = "SAME"
+
+[signwriting]
+fsw = "M533x533S10030514x467S10038472x467S2a200510x505S2a218468x505"
+swu = "𝠃𝤧𝤧񀀱𝤔𝣥񀀹𝣪𝣥񉳁𝤐𝤋񉳙𝣦𝤋"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sama.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sama.mp4"

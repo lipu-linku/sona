@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "lukin, oko"
+id = "LUKIN/OKO"
+is_two_handed = false
+new_gloss = "LUKIN-OKO; OKO-LUKIN"
+old_gloss = "LUKIN/OKO"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "LOOK, EYES"
+
+[signwriting]
+fsw = "M531x527S31410482x483S11920504x501S20500521x490"
+swu = "𝠃𝤥𝤡񌞑𝣴𝣵񀦁𝤊𝤇񆇡𝤛𝣼"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lukin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lukin.mp4"

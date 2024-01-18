@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "pipi"
+id = "PIPI"
+is_two_handed = false
+new_gloss = "PIPI"
+old_gloss = "PIPI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "BEE"
+
+[signwriting]
+fsw = "M513x530S1ce10491x500S2e500488x470"
+swu = "𝠃𝤓𝤤񄵑𝣽𝤆񋗡𝣺𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pipi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pipi.mp4"
