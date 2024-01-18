@@ -256,7 +256,6 @@ export type IconTranslation = z.infer<typeof IconTranslation>;
 
 export const Font = z
 	.object({
-		$schema: z.string().describe("a file path pointing to this schema"),
 		creator: z.array(z.string()).describe("a list of this font's creators"),
 		features: z.array(z.string()).describe("a list of features this font supports"),
 		filename: z
@@ -342,9 +341,6 @@ export const Fingerspelling = z
 	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
 
 export const Fonts = z
-	.object({
-		$schema: z.string().url(),
-	})
-	.catchall(Font.omit({ $schema: true }))
+	.record(Font)
 	.describe("A raw data object containing all the fonts data in sona");
 export type Fonts = z.infer<typeof Fonts>;

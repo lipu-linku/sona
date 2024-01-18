@@ -1,0 +1,13 @@
+#:schema ../../schemas/generated/font.json
+creator = []
+features = []
+filename = "sitelenlili.ttf"
+last_updated = "2022-09"
+license = ""
+name = "sitelenlili"
+style = "uniform line weight"
+version = "1.0"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://lp.plop.me/fonts/sitelenlili.ttf"

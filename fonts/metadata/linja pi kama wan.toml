@@ -1,0 +1,14 @@
+#:schema ../../schemas/generated/font.json
+creator = ["increpare / jan Inkepa"]
+features = []
+filename = "linja-pi-kama-wan.ttf"
+last_updated = "2022-09"
+license = "OFL"
+name = "linja pi kama wan"
+style = "pixelated"
+version = "1.0"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://github.com/pguimier/pali-sitelen/raw/master/plugins/linjapikamawan/linja-pi-kama-wan.ttf"
+repo = "https://github.com/pguimier/pali-sitelen/tree/master/plugins/linjapikamawan"

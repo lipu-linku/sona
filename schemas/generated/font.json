@@ -4,10 +4,6 @@
     "font": {
       "type": "object",
       "properties": {
-        "$schema": {
-          "type": "string",
-          "description": "a file path pointing to this schema"
-        },
         "creator": {
           "type": "array",
           "items": {
@@ -92,7 +88,6 @@
         }
       },
       "required": [
-        "$schema",
         "creator",
         "features",
         "filename",

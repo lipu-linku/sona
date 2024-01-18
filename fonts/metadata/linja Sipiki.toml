@@ -1,0 +1,22 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Sipiki", "jan Ke Tami"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports cartouches",
+  "long pi",
+  "supports all ku suli and the rest of UCSUR",
+]
+filename = "linja-sikipi.ttf"
+last_updated = "2023-11"
+license = "OFL"
+ligatures = true
+name = "linja Sipiki"
+style = "pixelated"
+ucsur = true
+version = "1.3"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/janSipiki/linja-Sipiki/raw/main/linjaSipiki_v1.3.otf"
+repo = "https://github.com/janSipiki/linja-Sipiki/"

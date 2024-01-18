@@ -1,0 +1,16 @@
+#:schema ../../schemas/generated/font.json
+creator = ["ka Tumu", "ka Ke Tami", "Kelsey Higham"]
+features = ["ASCII transcription", "cartouches", "tuki tiki"]
+filename = "tama-ka-tumu.ttf"
+last_updated = "2023-01"
+license = "OFL"
+ligatures = true
+name = "tama ka Tumu"
+style = "handwritten"
+ucsur = false
+version = "1.0"
+writing_system = "tokiponido logography"
+
+[links]
+fontfile = "https://github.com/RetSamys/tama-ka-Tumu/raw/main/tama-ka-Tumu.ttf"
+repo = "https://github.com/RetSamys/tama-ka-Tumu"

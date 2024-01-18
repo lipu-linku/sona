@@ -1,0 +1,14 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Sewaka / jan Weko"]
+features = []
+filename = "sitelen-uta.otf"
+last_updated = "2022-07"
+license = "CC BY-SA 3.0"
+name = "sitelen uta"
+style = "pixelated"
+version = "1"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://github.com/lipu-linku/nasin-sitelen/raw/main/sitelen-uta.otf"
+webpage = "https://fontstruct.com/fontstructions/show/2114958/sitelen-uta-1"

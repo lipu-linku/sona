@@ -1,0 +1,16 @@
+#:schema ../../schemas/generated/font.json
+creator = ["differentthings"]
+features = ["codepoints only"]
+filename = "sitelen-pona-pmd-sky.otf"
+last_updated = "2022-05"
+license = "Fontstruct ND NC"
+ligatures = false
+name = "sitelen pona PMD sky font"
+style = "pixelated"
+ucsur = false
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/972470770984943658/975157038436986890/sitelen-pona-pmd-sky-font.otf"
+webpage = "https://fontstruct.com/fontstructions/show/2117304/sitelen-pona-pmd-sky-font"

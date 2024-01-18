@@ -1,0 +1,15 @@
+#:schema ../../schemas/generated/font.json
+creator = ["Jordan W Martin"]
+features = ["ASCII transcription", "supports all nimi ku suli"]
+filename = "toki-pona-bubble.otf"
+last_updated = "2022-02"
+license = "personal use only"
+ligatures = true
+name = "Toki Pona Bubble"
+style = ""
+ucsur = false
+version = "1.1"
+writing_system = "sitelen pona"
+
+[links]
+webpage = "https://jordanwmartin.gumroad.com/l/flpem"

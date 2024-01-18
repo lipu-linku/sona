@@ -3,15 +3,6 @@
   "definitions": {
     "fonts": {
       "type": "object",
-      "properties": {
-        "$schema": {
-          "type": "string",
-          "format": "uri"
-        }
-      },
-      "required": [
-        "$schema"
-      ],
       "additionalProperties": {
         "type": "object",
         "properties": {

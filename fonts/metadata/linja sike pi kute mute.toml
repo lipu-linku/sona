@@ -1,0 +1,14 @@
+#:schema ../../schemas/generated/font.json
+creator = ["increpare / jan Inkepa"]
+features = []
+filename = "linjasikepikutemute-regular.ttf"
+last_updated = "2022-09"
+license = "all rights reserved"
+name = "linja sike pi kute mute"
+style = "uniform line weight"
+version = "3.001"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/316066233755631616/1023629607917867048/linjasikepikutemute-Regular.ttf"
+repo = "https://github.com/increpare/linja_pi_kute_mute"

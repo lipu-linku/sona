@@ -1,0 +1,23 @@
+#:schema ../../schemas/generated/font.json
+creator = ["David A Roberts / jan Same"]
+features = [
+  "ASCII transcription",
+  "supports cartouches",
+  "combined glyphs",
+  "nimi ku suli",
+  "extended pi",
+]
+filename = "linja-pona.otf"
+last_updated = "2021-08"
+license = "OFL"
+ligatures = true
+name = "linja pona"
+style = "uniform line weight"
+ucsur = false
+version = "4.9"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/janSame/linja-pona/raw/master/linja-pona-4.9.otf"
+repo = "https://github.com/janSame/linja-pona/"
+webpage = "http://musilili.net/linja-pona/"

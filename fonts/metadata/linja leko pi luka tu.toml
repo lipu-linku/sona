@@ -1,0 +1,16 @@
+#:schema ../../schemas/generated/font.json
+creator = ["AgentMuffin"]
+features = ["codepoints only"]
+filename = "linja-leko-pi-luka-tu.otf"
+last_updated = "2022-07"
+license = "CC BY-NC-SA 3.0"
+ligatures = false
+name = "linja leko pi luka tu"
+style = "pixelated"
+ucsur = false
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/999566667187228673/1042092595024773210/linja-leko-pi-luka-tu.ttf"
+webpage = "https://fontstruct.com/fontstructions/show/2002090/linja-leko-pi-luka-tu"
