@@ -1,9 +1,11 @@
-from collections import defaultdict
-import os
 import json
-from typing import Any
-import tomlkit
+import os
+from collections import defaultdict
 from functools import partial
+from itertools import zip_longest
+from typing import Any
+
+import tomlkit
 
 from jsonify_nimi import jsonify_nimi
 
@@ -34,7 +36,9 @@ def transform_etym_data(word: str, data: dict):
     words = data.get("words", "").split(";")
     alts = data.get("alts", "").split(";")
 
-    for lang, _def, word, alt in zip(langs, defs, words, alts):
+    assert len(langs) == len(defs) == len(words), f"{langs}, {defs}, {words}, {alts}"
+
+    for lang, _def, word, alt in zip_longest(langs, defs, words, alts):
         transable = dict()
         untransable = dict()
         if lang:
@@ -156,6 +160,7 @@ def write_translated(
         os.makedirs(f"{dir}/{lang}", exist_ok=True)
         with open(f"{dir}/{lang}/{filename}", "w") as f:
             tomlified = tomlkit.dumps(d, sort_keys=True)
+            tomlified = f"#:schema {schema}\n\n" + tomlified
             f.write(tomlified)
 
 
@@ -206,35 +211,35 @@ def main():
     # or crowdin will solve this for us
     for word, worddata in WORDS.items():
         worddata["representations"] = REPRESENTATIONS[word]
-        worddata["$schema"] = "../schemas/generated/word.json"
-        with open(f"../words/{word}.toml", "w") as f:
+        with open(f"../words/metadata/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
+            tomlified = "#:schema ../../schemas/generated/word.json\n" + tomlified
             f.write(tomlified)
 
-    write_translated(
-        DEFINITIONS,
-        "../translations",
-        "definitions.toml",
-        schema="../../schemas/generated/definition_translation.json",
-    )
-    write_translated(
-        COMMENTARY,
-        "../translations",
-        "commentary.toml",
-        schema="../../schemas/generated/commentary_translation.json",
-    )
+    # write_translated(
+    #     DEFINITIONS,
+    #     "../translations",
+    #     "definitions.toml",
+    #     schema="../../schemas/generated/definition_translation.json",
+    # )
+    # write_translated(
+    #     COMMENTARY,
+    #     "../translations",
+    #     "commentary.toml",
+    #     schema="../../schemas/generated/commentary_translation.json",
+    # )
     write_translated(
         ETYMOLOGY,
-        "../translations",
+        "../words/translations",
         "etymology.toml",
         schema="../../schemas/generated/etymology_translation.json",
     )
-    write_translated(
-        SP_ETYMOLOGY,
-        "../translations",
-        "sp_etymology.toml",
-        schema="../../schemas/generated/sitelen_pona_translation.json",
-    )
+    # write_translated(
+    #     SP_ETYMOLOGY,
+    #     "../translations",
+    #     "sp_etymology.toml",
+    #     schema="../../schemas/generated/sitelen_pona_translation.json",
+    # )
 
 
 if __name__ == "__main__":
