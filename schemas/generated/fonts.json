@@ -22,7 +22,7 @@
           },
           "filename": {
             "type": "string",
-            "pattern": "^.+\\.(ttf|otf|woff2|woff)$",
+            "pattern": "^(?:.+\\.(ttf|otf|woff2|woff))?$",
             "description": "the name of the file this font is stored in at https://github.com/lipu-linku/ijo"
           },
           "last_updated": {
@@ -61,9 +61,12 @@
             "enum": [
               "sitelen pona",
               "sitelen sitelen",
-              "alphabet logography",
-              "tokiponido logography",
-              "syllabary"
+              "alphabet",
+              "syllabary",
+              "logography",
+              "tokiponido alphabet",
+              "tokiponido syllabary",
+              "tokiponido logography"
             ],
             "description": "the writing system this font uses as its script"
           },
@@ -93,7 +96,6 @@
           "creator",
           "features",
           "filename",
-          "last_updated",
           "license",
           "ligatures",
           "name",
