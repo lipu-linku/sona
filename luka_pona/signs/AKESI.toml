@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "akesi"
+id = "AKESI"
+is_two_handed = false
+new_gloss = "AKESI"
+old_gloss = "AKESI"
+
+[[etymology]]
+language = "BSL"
+sign = "SNAKE"
+
+[signwriting]
+fsw = "M522x544S20500512x515S30004482x483S11920487x518"
+swu = "𝠃𝤜𝤲񆇡𝤒𝤕񌀅𝣴𝣵񀦁𝣹𝤘"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/akesi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/akesi.mp4"

@@ -1,0 +1,39 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = []
+source_language = "Finnish"
+usage_category = "core"
+word = "kala"
+
+[[etymology]]
+word = "kala"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kala.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kala.mp3"
+
+[ku_data]
+fish = 100
+salmon = 62
+"sea creature" = 82
+
+[pu_verbatim]
+de = "NOMEN Fisch, Seetier, Meerestier"
+en = "NOUN fish, marine animal, sea creature"
+eo = "SUBSTANTIVO fiŝo, mara besto, mara vivaĵo"
+fr = "NOM poisson, animal sous-marin"
+
+[recognition]
+2022-08 = 99
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "🐟"
+sitelen_pona = ["kala", "kala2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kala.jpg"
+ucsur = "U+F1914"

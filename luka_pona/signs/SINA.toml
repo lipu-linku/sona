@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/sign.json
+definition = "sina"
+id = "SINA"
+is_two_handed = false
+new_gloss = "SINA"
+old_gloss = "SINA"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "YOU"
+
+[signwriting]
+fsw = "M508x515S10040493x485"
+swu = "𝠃𝤎𝤕񀁁𝣿𝣷"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sina.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sina.mp4"

@@ -1,0 +1,28 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["jan Emalan"]
+see_also = ["ma", "tenpo"]
+source_language = "multiple"
+usage_category = "obscure"
+word = "konwe"
+
+[[etymology]]
+word = "Conway"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/konwe.mp3"
+
+[recognition]
+2021-10 = 25
+2022-08 = 6
+2023-09 = 7
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["konwe"]
+sitelen_sitelen = ""
+ucsur = ""

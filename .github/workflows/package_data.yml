@@ -5,24 +5,13 @@ on:
 
   workflow_dispatch:
 
+permissions: 
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: marceloprado/has-changed-path@v1.0.1
-        id: schema-changed
-        with:
-          paths: ./schemas
-
-      - name: Wait for JSON schema to generate
-        uses: lewagon/wait-on-check-action@v1.3.1
-        if: ${{ steps.schema-changed.outputs.changed }}
-        with:
-          ref: ${{ github.ref }}
-          check-name: "Generate JSON Schemas"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          wait-interval: 5
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -31,17 +20,21 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.1
 
       - name: Install dependencies
-        run: pip install tomlkit check-jsonschema
+        run: pip install tomlkit && npm i -g ajv-cli ajv-formats
 
       - name: Generate raw data file
-        run: python .github/workflows/package_data.py ${{ github.sha }}
+        run: python .github/workflows/package_data.py
 
       - name: Validate generated file
-        run: npx ajv-cli -s ./schemas/generated/data.json --errors=text -d ./raw/data.json
+        run: |
+          npx ajv-cli -s ./schemas/generated/words.json -c ajv-formats --errors=text -d ./raw/words.json
+          npx ajv-cli -s ./schemas/generated/luka_pona.json -c ajv-formats --errors=text -d ./raw/luka_pona.json
 
-      - name: Commit schemas
+      - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
         with:
           message: "Generated data.json for ${{ github.sha }}"

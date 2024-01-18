@@ -1,0 +1,35 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2018"
+creator = ["jan Wesu", "jan Maliku", "jan inwin"]
+see_also = []
+source_language = "toki pona"
+usage_category = "obscure"
+word = "kuntu"
+
+[[etymology]]
+word = "kulupu musi tan uta"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kuntu.mp3"
+
+[ku_data]
+chuckle = 13
+comedy = 8
+laugh = 8
+laughter = 14
+
+[recognition]
+2020-04 = 21
+2021-10 = 31
+2022-08 = 7
+2023-09 = 3
+
+[representations]
+sitelen_emosi = "🤣"
+sitelen_pona = ["kuntu"]
+sitelen_sitelen = ""
+ucsur = ""

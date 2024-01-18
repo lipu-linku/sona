@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/sign.json
+definition = "leko"
+id = "LEKO"
+is_two_handed = false
+new_gloss = "LEKO"
+old_gloss = "LEKO"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M533x508S18240509x493S18248467x493"
+swu = "𝠃𝤧𝤎񃄁𝤏𝣿񃄉𝣥𝣿"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/leko.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/leko.mp4"

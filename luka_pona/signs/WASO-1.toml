@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/sign.json
+definition = "waso"
+id = "WASO^1"
+is_two_handed = false
+new_gloss = "WASO-1"
+old_gloss = "WASO"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M512x526S14c20489x474S22e04491x508"
+swu = "𝠃𝤒𝤠񁲡𝣻𝣬񇅅𝣽𝤎"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/waso.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/waso.mp4"
