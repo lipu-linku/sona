@@ -5,10 +5,10 @@ from typing import Any, Final, Iterator
 
 import tomlkit
 
-data_folder: Final[str] = "metadata"
-translations_folder: Final[str] = "translations"
+DATA_FOLDER: Final[str] = "metadata"
+TRANSLATIONS_FOLDER: Final[str] = "translations"
 
-data_types: Final[set[str]] = {
+DATA_TYPES: Final[set[str]] = {
     "words",
     "luka_pona/signs",
     "luka_pona/fingerspelling",
@@ -46,14 +46,14 @@ def insert_translations(result: dict[str, Any], paths: Iterator[str]):
 
 
 if __name__ == "__main__":
-    for data_type in data_types:
+    for data_type in DATA_TYPES:
         result: dict[str, Any] = {}
 
-        extract_data(result, glob.iglob(f"./{data_type}/{data_folder}/*.toml"))
+        extract_data(result, glob.iglob(f"./{data_type}/{DATA_FOLDER}/*.toml"))
 
         insert_translations(
             result,
-            glob.iglob(f"./{data_type}/{data_folder}/{translations_folder}/*/*.toml"),
+            glob.iglob(f"./{data_type}/{DATA_FOLDER}/{TRANSLATIONS_FOLDER}/*/*.toml"),
         )
 
         raw_filename = data_type[0 if (i := data_type.find("/")) == -1 else i :]
