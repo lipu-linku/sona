@@ -1,0 +1,13 @@
+#:schema ../../../schemas/generated/fingerspelling_sign.json
+id = "O-1"
+is_two_handed = false
+
+[[etymology]]
+language = "LSF"
+sign = "O"
+
+[signwriting]
+fsw = "M508x508S17610492x492"
+swu = "𝠃𝤎𝤎񂱑𝣾𝣾"
+
+[video]

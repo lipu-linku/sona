@@ -1,0 +1,17 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "walo"
+id = "WALO"
+is_two_handed = false
+new_gloss = "WALO"
+old_gloss = "WALO"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M531x518S31410482x483S1ce10509x483S20500513x470"
+swu = "𝠃𝤥𝤘񌞑𝣴𝣵񄵑𝤏𝣵񆇡𝤓𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/walo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/walo.mp4"

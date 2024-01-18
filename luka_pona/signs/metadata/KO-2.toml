@@ -1,0 +1,26 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "ko"
+id = "KO"
+is_two_handed = true
+new_gloss = "KO-2"
+old_gloss = "KO"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SALT, SOIL"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "ko"
+
+[[etymology]]
+language = "Toki Pona Sign Language (Chuff)"
+sign = "ko"
+
+[signwriting]
+fsw = "M527x530S1823d502x513S18235473x504S2ea08506x481S2ea10481x470"
+swu = "𝠃𝤡𝤤񃃾𝤈𝤓񃃶𝣫𝤊񋟉𝤌𝣳񋟑𝣳𝣨"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ko.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ko.mp4"

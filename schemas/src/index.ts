@@ -194,7 +194,7 @@ export const Sign = z
 
 export type Sign = z.infer<typeof Sign>;
 
-export const Fingerspelling = z
+export const FingerspellingSign = z
 	.object({
 		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
 		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
@@ -225,7 +225,7 @@ export const Fingerspelling = z
 	})
 	.describe("Unlocalized info on a fingerspelling sign.");
 
-export type Fingerspelling = z.infer<typeof Fingerspelling>;
+export type FingerspellingSign = z.infer<typeof FingerspellingSign>;
 
 export const ParametersTranslation = z
 	.record(
@@ -266,22 +266,23 @@ export const Words = z
 	)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 
-export const LukaPona = z
-	.object({
-		signs: z.record(
-			Sign.extend({
-				translations: z.record(
-					z.object({
-						parameters: ParametersTranslation.valueSchema,
-						icons: IconTranslation.valueSchema,
-					}),
-				),
-			}),
-		),
-		fingerspelling: z.record(
-			Fingerspelling.extend({
-				translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
-			}),
-		),
-	})
+export const Signs = z
+	.record(
+		Sign.extend({
+			translations: z.record(
+				z.object({
+					parameters: ParametersTranslation.valueSchema,
+					icons: IconTranslation.valueSchema,
+				}),
+			),
+		}),
+	)
 	.describe("A raw data object containing information about Luka Pona signs");
+
+export const Fingerspelling = z
+	.record(
+		FingerspellingSign.extend({
+			translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
+		}),
+	)
+	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
