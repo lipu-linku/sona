@@ -2,9 +2,11 @@ import json
 import os
 from collections import defaultdict
 from functools import partial
+from itertools import zip_longest
 from typing import Any
 
 import tomlkit
+
 from jsonify_nimi import jsonify_nimi
 
 TXT_DATA = jsonify_nimi()
@@ -36,7 +38,7 @@ def transform_etym_data(word: str, data: dict):
 
     assert len(langs) == len(defs) == len(words), f"{langs}, {defs}, {words}, {alts}"
 
-    for lang, _def, word, alt in zip(langs, defs, words, alts):
+    for lang, _def, word, alt in zip_longest(langs, defs, words, alts):
         transable = dict()
         untransable = dict()
         if lang:
