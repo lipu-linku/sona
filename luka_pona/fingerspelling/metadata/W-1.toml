@@ -1,0 +1,13 @@
+#:schema ../../../schemas/generated/fingerspelling_sign.json
+id = "W-1"
+is_two_handed = false
+
+[[etymology]]
+language = "LPSL"
+sign = "U"
+
+[signwriting]
+fsw = "M515x536S11520495x506S2e608486x465"
+swu = "𝠃𝤕𝤪񀠁𝤁𝤌񋙉𝣸𝣣"
+
+[video]

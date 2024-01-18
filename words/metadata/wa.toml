@@ -1,0 +1,31 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["mama mama pi jan Lakuse"]
+see_also = ["a", "n", "je"]
+source_language = "onomatopoeia"
+usage_category = "rare"
+word = "wa"
+
+[[etymology]]
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wa.mp3"
+
+[ku_data]
+whoa = 23
+wow = 11
+
+[recognition]
+2021-10 = 39
+2022-08 = 13
+2023-09 = 17
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["wa"]
+sitelen_sitelen = ""
+ucsur = ""

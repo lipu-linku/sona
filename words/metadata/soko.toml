@@ -1,0 +1,35 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan inwin", "kala kala/jan Salan"]
+see_also = ["kasi", "kili"]
+source_language = "Georgian"
+usage_category = "common"
+word = "soko"
+
+[[etymology]]
+alt = "sok’o"
+word = "სოკო"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/soko.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soko.mp3"
+
+[ku_data]
+fungus = 42
+mushroom = 53
+
+[recognition]
+2020-04 = 17
+2021-10 = 77
+2022-08 = 70
+2023-09 = 63
+
+[representations]
+sitelen_emosi = "🍄"
+sitelen_pona = ["soko", "soko2"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soko.jpg"
+ucsur = "U+F1981"

@@ -1,0 +1,17 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "pi"
+id = "PI"
+is_two_handed = false
+new_gloss = "PI"
+old_gloss = "PI"
+
+[[etymology]]
+language = "a priori"
+
+[signwriting]
+fsw = "M544x515S1ce42457x493S1ce20522x485S2df08494x492"
+swu = "𝠃𝤲𝤕񄶃𝣛𝣿񄵡𝤜𝣷񋎩𝤀𝣾"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pi.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pi.mp4"

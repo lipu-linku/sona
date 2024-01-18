@@ -1,0 +1,30 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "kute"
+id = "KUTE"
+is_two_handed = false
+new_gloss = "KUTE"
+old_gloss = "KUTE"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "HEARING, EAR"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "kute"
+
+[[etymology]]
+language = "Toki Pona Sign Language (Chuff)"
+sign = "kute"
+
+[[etymology]]
+language = "sitelen pona"
+sign = "kute"
+
+[signwriting]
+fsw = "M541x518S10c10520x494S20500519x478S2ff00482x483"
+swu = "𝠃𝤯𝤘񀒑𝤚𝤀񆇡𝤙𝣰񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kute.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kute.mp4"

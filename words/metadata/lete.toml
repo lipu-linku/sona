@@ -1,0 +1,41 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "pu"
+coined_era = "pre-pu"
+coined_year = ""
+creator = ["jan Sonja"]
+see_also = ["seli"]
+source_language = "Acadian French"
+usage_category = "core"
+word = "lete"
+
+[[etymology]]
+word = "frette"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lete.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lete.mp3"
+
+[ku_data]
+cold = 100
+cool = 25
+freeze = 27
+frozen = 45
+raw = 58
+
+[pu_verbatim]
+de = "ADJEKTIV kalt, kühl; ungekocht, roh"
+en = "ADJECTIVE cold, cool; uncooked, raw"
+eo = "ADJEKTIVO malvarma; nekuirita, kruda"
+fr = "ADJECTIF froid, frais ; cru"
+
+[recognition]
+2022-08 = 98
+2023-09 = 99
+
+[representations]
+sitelen_emosi = "❄️"
+sitelen_pona = ["lete"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lete.jpg"
+ucsur = "U+F1926"

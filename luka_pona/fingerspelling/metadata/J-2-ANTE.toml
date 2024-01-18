@@ -1,0 +1,13 @@
+#:schema ../../../schemas/generated/fingerspelling_sign.json
+id = "J-2-ANTE"
+is_two_handed = true
+
+[[etymology]]
+language = "BSL"
+sign = "Y"
+
+[signwriting]
+fsw = "M514x525S15d28486x476S10020499x495"
+swu = "𝠃𝤔𝤟񂌉𝣸𝣮񀀡𝤅𝤁"
+
+[video]

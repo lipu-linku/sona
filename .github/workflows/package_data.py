@@ -1,70 +1,63 @@
-from typing import Any
-import tomlkit
-import json
 import glob
+import json
 import os
-import sys
-import urllib.parse
+from typing import Any, Final, Iterator
 
-if __name__ == "__main__":
-    assert len(sys.argv) == 2
+import tomlkit
 
-    github_branch = sys.argv[1]
+DATA_FOLDER: Final[str] = "metadata"
+TRANSLATIONS_FOLDER: Final[str] = "translations"
 
-    # words.json
-    result: dict[str, Any] = {}
+DATA_TYPES: Final[set[str]] = {
+    "words",
+    "luka_pona/signs",
+    "luka_pona/fingerspelling",
+}
 
-    for path in glob.iglob("./words/*.toml"):
+
+def extract_data(
+    result: dict[str, Any],
+    paths: Iterator[str],
+):
+    for path in paths:
         with open(path) as file:
             print(f"Reading {path}...")
-            word_data = tomlkit.load(file)
+            raw_data = tomlkit.load(file)
             id = os.path.basename(path[: path.index(".toml")])
+            data = {key: value for (key, value) in dict(raw_data).items()}
 
-            result[id] = {
-                key: value
-                for (key, value) in dict(word_data).items()
-                if key != "$schema"
-            }
+            result[id] = data
             result[id]["translations"] = {}
 
-    for path in glob.iglob("./translations/*/*.toml"):
+
+def insert_translations(result: dict[str, Any], paths: Iterator[str]):
+    for path in paths:
         with open(path) as file:
             print(f"Reading {path}...")
             localized_data = tomlkit.load(file)
             locale = os.path.dirname(path)[path.rfind("/", 0, path.rfind("/")) + 1 :]
             data_kind = os.path.basename(path[: path.index(".toml")])
 
-            for word in (word for word in localized_data.keys() if word != "$schema"):
-                if locale not in result[word]["translations"]:
-                    result[word]["translations"][locale] = {}
+            for item in {item for item in localized_data.keys()}:
+                if locale not in result[item]["translations"]:
+                    result[item]["translations"][locale] = {}
 
-                result[word]["translations"][locale][data_kind] = localized_data[word]
+                result[item]["translations"][locale][data_kind] = localized_data[item]
 
-    with open("raw/words.json", "w+") as data_file:
-        result[
-            "$schema"
-        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(github_branch)}/schemas/generated/words.json"
-        data_file.write(json.dumps(result, separators=(",", ":")))
 
-    # fonts.json
-    result: dict[str, Any] = {}
+if __name__ == "__main__":
+    for data_type in DATA_TYPES:
+        result: dict[str, Any] = {}
 
-    for path in glob.iglob("./fonts/*.toml"):
-        with open(path) as file:
-            print(f"Reading {path}...")
-            font_data = tomlkit.load(file)
-            id = os.path.basename(path[: path.index(".toml")])
+        extract_data(result, glob.iglob(f"./{data_type}/{DATA_FOLDER}/*.toml"))
 
-            result[id] = {
-                key: value
-                for (key, value) in dict(font_data).items()
-                if key != "$schema"
-            }
+        insert_translations(
+            result,
+            glob.iglob(f"./{data_type}/{DATA_FOLDER}/{TRANSLATIONS_FOLDER}/*/*.toml"),
+        )
 
-    with open("raw/fonts.json", "w+") as data_file:
-        result[
-            "$schema"
-        ] = f"https://raw.githubusercontent.com/lipu-linku/sona/{urllib.parse.quote(github_branch)}/schemas/generated/fonts.json"
-        data_file.write(json.dumps(result, separators=(",", ":")))
+        raw_filename = data_type[0 if (i := data_type.find("/")) == -1 else i :]
+        with open(f"./raw/{raw_filename}.json", "w+") as data_file:
+            data_file.write(json.dumps(result, separators=(",", ":")))
 
     print("Done!")

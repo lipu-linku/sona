@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "anu"
+id = "ANU"
+is_two_handed = false
+new_gloss = "ANU"
+old_gloss = "ANU"
+
+[[etymology]]
+language = "LPSL"
+sign = "EN-KIN-KAN"
+
+[signwriting]
+fsw = "M514x533S1dc50487x467S2a208491x505"
+swu = "𝠃𝤔𝤧񅋑𝣹𝣥񉳉𝣽𝤋"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/anu.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/anu.mp4"

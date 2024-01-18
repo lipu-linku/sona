@@ -1,0 +1,26 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "loje"
+id = "LOJE"
+is_two_handed = false
+new_gloss = "LOJE"
+old_gloss = "LOJE"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "RED"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "loje"
+
+[[etymology]]
+language = "sitelen pona"
+sign = "loje"
+
+[signwriting]
+fsw = "M529x552S1ce10491x522S20500519x506S30004482x483"
+swu = "𝠃𝤣𝤺񄵑𝣽𝤜񆇡𝤙𝤌񌀅𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/loje.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/loje.mp4"

@@ -1,0 +1,43 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "pre-pu"
+coined_year = "2009"
+creator = ["jan Sonja"]
+see_also = ["pini"]
+source_language = "English"
+usage_category = "rare"
+word = "pake"
+
+[[etymology]]
+word = "block"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pake.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pake.mp3"
+
+[ku_data]
+cease = 13
+deny = 13
+forbid = 20
+interrupt = 16
+intervention = 14
+limitation = 13
+lock = 20
+prevent = 30
+restrict = 13
+stop = 27
+wall = 17
+
+[recognition]
+2020-04 = 34
+2021-10 = 48
+2022-08 = 13
+2023-09 = 13
+
+[representations]
+sitelen_emosi = "🚧"
+sitelen_pona = ["pake"]
+sitelen_sitelen = ""
+ucsur = "U+F19A0"

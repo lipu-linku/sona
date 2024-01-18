@@ -1,0 +1,41 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku suli"
+coined_era = "pre-pu"
+coined_year = "2001"
+creator = ["jan Sonja"]
+see_also = ["lukin"]
+source_language = "Serbo-Croatian"
+usage_category = "common"
+word = "oko"
+
+[[etymology]]
+alt = "оko"
+word = "око"
+
+[audio]
+jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/oko.mp3"
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oko.mp3"
+
+[ku_data]
+eye = 68
+vision = 30
+
+[pu_verbatim]
+de = "NOMEN Kopf, Geist (Verstand)\nVERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen\nHILFSVERB suchen, anstreben, versuchen"
+en = "NOUN eye\nVERB to look at, see, examine, observe, read, watch\nPRE-VERB to seek, look for, try to"
+eo = "SUBSTANTIVO okulo\nVERBO rigardi, vidi, ekzameni, observi, legi, spekti\nANTAŬVERBO provi"
+fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXILIAIRE chercher à, essayer de"
+
+[recognition]
+2020-04 = 77
+2021-10 = 88
+2022-08 = 62
+2023-09 = 57
+
+[representations]
+sitelen_emosi = "👁️"
+sitelen_pona = ["oko"]
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
+ucsur = "U+F197A"

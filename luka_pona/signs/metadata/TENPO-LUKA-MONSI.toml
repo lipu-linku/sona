@@ -1,0 +1,18 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "tenpo"
+id = "TENPO^1"
+is_two_handed = false
+new_gloss = "TENPO-LUKA-MONSI"
+old_gloss = "TENPO"
+
+[[etymology]]
+language = "multiple SLs (including BSL)"
+sign = "TIME"
+
+[signwriting]
+fsw = "M526x520S20350483x481S37700489x495S11552496x496S20500475x499"
+swu = "𝠃𝤠𝤚񆅱𝣵𝣳񎲡𝣻𝤁񀠳𝤂𝤂񆇡𝣭𝤅"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/telo.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/telo.mp4"

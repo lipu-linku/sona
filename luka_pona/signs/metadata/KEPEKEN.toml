@@ -1,0 +1,30 @@
+#:schema ../../../schemas/generated/sign.json
+definition = "kepeken"
+id = "KEPEKEN"
+is_two_handed = false
+new_gloss = "KEPEKEN"
+old_gloss = "KEPEKEN"
+
+[[etymology]]
+language = "BSL"
+sign = "USE, CONTROL"
+
+[[etymology]]
+language = "SSL (Swedish Sign Language - Svenskt Teckenspråk)"
+sign = "ANVÄNDA"
+
+[[etymology]]
+language = "PJM (Polish Sign Language - Polski Język Migowy)"
+sign = "UŻYWAĆ"
+
+[[etymology]]
+language = "LPSL"
+sign = "PALI-KON"
+
+[signwriting]
+fsw = "M523x513S1f550499x493S2ea34478x488"
+swu = "𝠃𝤝𝤓񅰱𝤅𝣿񋟵𝣰𝣺"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kepeken.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kepeken.mp4"

@@ -1,0 +1,32 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = "basically a wider version of tonsi, if you're not already using tonsi to mean LGBT+ in general"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/781030364378038274"
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["jan Jan"]
+see_also = ["kule", "tonsi"]
+source_language = "Hebrew"
+usage_category = "obscure"
+word = "kese"
+
+[[etymology]]
+alt = "kéšet"
+word = "קֶשֶׁת"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kese.mp3"
+
+[ku_data]
+"LGBTQ+" = 6
+
+[recognition]
+2021-10 = 25
+2022-08 = 4
+2023-09 = 2
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["kese"]
+sitelen_sitelen = ""
+ucsur = ""

@@ -3,15 +3,6 @@
   "definitions": {
     "words": {
       "type": "object",
-      "properties": {
-        "$schema": {
-          "type": "string",
-          "format": "uri"
-        }
-      },
-      "required": [
-        "$schema"
-      ],
       "additionalProperties": {
         "type": "object",
         "properties": {
@@ -301,7 +292,7 @@
         "additionalProperties": false,
         "description": "General info on a Toki Pona word"
       },
-      "description": "A raw data object containing all the words data in sona"
+      "description": "A raw data object containing dictionary info about Toki Pona words"
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"

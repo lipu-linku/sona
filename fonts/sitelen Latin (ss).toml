@@ -1,6 +1,9 @@
 "$schema" = "../schemas/generated/font.json"
 creator = ["jan Pitaki"]
-features = ["ASCII transcription", "supports all containers and nimi ku suli (misikeke is misspelled as misekeke)"]
+features = [
+  "ASCII transcription",
+  "supports all containers and nimi ku suli (misikeke is misspelled as misekeke)",
+]
 filename = "sitelen-latin.ttf"
 last_updated = "2022-01"
 license = "CC BY 4.0"
