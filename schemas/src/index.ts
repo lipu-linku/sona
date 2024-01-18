@@ -260,7 +260,7 @@ export const Font = z
 		features: z.array(z.string()).describe("a list of features this font supports"),
 		filename: z
 			.string()
-			.regex(/^.+\.(ttf|otf|woff2|woff)$/)
+			.regex(/^(?:.+\.(ttf|otf|woff2|woff))?$/)
 			.describe("the name of the file this font is stored in at https://github.com/lipu-linku/ijo"),
 		last_updated: YearMonth.describe("the rough date of this font's last update"),
 		license: z
