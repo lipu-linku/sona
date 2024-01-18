@@ -4,8 +4,10 @@ features = []
 filename = "tokitengwar.ttf"
 last_updated = "2022-09"
 license = "all rights reserved"
+ligatures = false
 name = "TokiTengwar"
 style = "serif"
+ucsur = false
 version = "1.0"
 writing_system = "alphabet"
 

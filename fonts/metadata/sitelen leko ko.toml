@@ -4,8 +4,10 @@ features = []
 filename = "sitelen-leko-ko.otf"
 last_updated = "2022-07"
 license = "CC BY-NC 3.0"
+ligatures = false
 name = "sitelen leko ko"
 style = "pixelated"
+ucsur = false
 version = "1"
 writing_system = "alphabet"
 

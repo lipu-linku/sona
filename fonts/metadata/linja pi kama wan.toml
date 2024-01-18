@@ -4,8 +4,10 @@ features = []
 filename = "linja-pi-kama-wan.ttf"
 last_updated = "2022-09"
 license = "OFL"
+ligatures = false
 name = "linja pi kama wan"
 style = "pixelated"
+ucsur = false
 version = "1.0"
 writing_system = "alphabet"
 

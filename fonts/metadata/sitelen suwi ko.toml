@@ -4,9 +4,11 @@ features = []
 filename = "sitelen-suwi-ko.ttf"
 last_updated = "2022-08"
 license = "CC BY 4.0"
+ligatures = false
 name = "sitelen suwi ko"
 style = "uniform line weight"
 version = "1.0"
+ucsur = false
 writing_system = "alphabet"
 
 [links]

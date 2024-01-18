@@ -4,8 +4,10 @@ features = []
 filename = "sitelen-komalin.ttf"
 last_updated = "2022-07"
 license = "Fontstruct ND NC"
+ligatures = false
 name = "sitelen Komalin"
 style = "pixelated"
+ucsur = false
 version = "1.0"
 writing_system = "alphabet"
 

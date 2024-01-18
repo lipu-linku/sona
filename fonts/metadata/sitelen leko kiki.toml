@@ -1,11 +1,13 @@
 #:schema ../../schemas/generated/font.json
 creator = ["jan Kanon"]
 features = []
-filename = ""
+filename = "sitelen-leko-kiki.otf"
 last_updated = "2022-06"
 license = "Fontstruct ND NC"
+ligatures = false
 name = "sitelen leko kiki"
 style = "pixelated"
+ucsur = false
 version = "1.0"
 writing_system = "alphabet"
 

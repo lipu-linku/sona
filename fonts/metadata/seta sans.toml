@@ -4,8 +4,10 @@ features = []
 filename = "seta-sans.otf"
 last_updated = ""
 license = "?"
+ligatures = false
 name = "seta sans"
 style = "uniform line weight"
+ucsur = false
 version = "0.02"
 writing_system = "alphabet"
 

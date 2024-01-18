@@ -4,8 +4,10 @@ features = []
 filename = "sitelen-uta.otf"
 last_updated = "2022-07"
 license = "CC BY-SA 3.0"
+ligatures = false
 name = "sitelen uta"
 style = "pixelated"
+ucsur = false
 version = "1"
 writing_system = "alphabet"
 

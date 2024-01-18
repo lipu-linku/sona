@@ -4,8 +4,10 @@ features = []
 filename = "linjalapesuwi.otf"
 last_updated = "2022-09"
 license = "all rights reserved"
+ligatures = false
 name = "linja lape suwi"
 style = "uniform line weight"
+ucsur = false
 version = "1.000"
 writing_system = "alphabet"
 

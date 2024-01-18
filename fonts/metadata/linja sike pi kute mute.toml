@@ -4,8 +4,10 @@ features = []
 filename = "linjasikepikutemute-regular.ttf"
 last_updated = "2022-09"
 license = "all rights reserved"
+ligatures = false
 name = "linja sike pi kute mute"
 style = "uniform line weight"
+ucsur = false
 version = "3.001"
 writing_system = "alphabet"
 
