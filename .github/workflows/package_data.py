@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
         insert_translations(
             result,
-            glob.iglob(f"./{data_type}/{DATA_FOLDER}/{TRANSLATIONS_FOLDER}/*/*.toml"),
+            glob.iglob(f"./{data_type}/{TRANSLATIONS_FOLDER}/*/*.toml"),
         )
 
         raw_filename = data_type[0 if (i := data_type.find("/")) == -1 else i :]
