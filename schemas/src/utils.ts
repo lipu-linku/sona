@@ -31,8 +31,11 @@ export const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.Zod
 export const WritingSystem = z.enum([
 	"sitelen pona",
 	"sitelen sitelen",
-	"alphabet logography",
-	"tokiponido logography",
+	"alphabet",
 	"syllabary",
+	"logography",
+	"tokiponido alphabet",
+	"tokiponido syllabary",
+	"tokiponido logography",
 ]);
 export type WritingSystem = z.infer<typeof WritingSystem>;
