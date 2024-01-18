@@ -158,7 +158,7 @@ def write_translated(
         os.makedirs(f"{dir}/{lang}", exist_ok=True)
         with open(f"{dir}/{lang}/{filename}", "w") as f:
             tomlified = tomlkit.dumps(d, sort_keys=True)
-            tomlified += f"#:schema {schema}\n"
+            tomlified = f"#:schema {schema}\n\n" + tomlified
             f.write(tomlified)
 
 
@@ -211,7 +211,7 @@ def main():
         worddata["representations"] = REPRESENTATIONS[word]
         with open(f"../words/metadata/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
-            tomlified += "#:schema ../../schemas/generated/word.json\n"
+            tomlified = "#:schema ../../schemas/generated/word.json\n" + tomlified
             f.write(tomlified)
 
     # write_translated(
