@@ -61,6 +61,6 @@ if __name__ == "__main__":
 
         raw_filename = data_type[0 if (i := data_type.find("/")) == -1 else i :]
         with open(f"./raw/{raw_filename}.json", "w+") as data_file:
-            data_file.write(json.dumps(result, separators=(",", ":")))
+            json.dump(result, data_file, separators=(",", ":"))
 
     print("Done!")
