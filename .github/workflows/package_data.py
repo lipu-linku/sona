@@ -56,6 +56,6 @@ if __name__ == "__main__":
 
         raw_filename = Path("raw") / Path(data_type).stem
         with open(raw_filename.with_suffix(".json"), "w+") as data_file:
-            data_file.write(json.dumps(result, separators=(",", ":")))
+            json.dump(result, data_file, separators=(",", ":"))
 
     print("Done!")
