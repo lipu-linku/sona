@@ -10,6 +10,7 @@ TRANSLATIONS_FOLDER: Final[str] = "translations"
 
 DATA_TYPES: Final[set[str]] = {
     "words",
+    "sandbox",
     "luka_pona/signs",
     "luka_pona/fingerspelling",
     "fonts/",
