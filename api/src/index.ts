@@ -10,6 +10,9 @@ const app = new Hono();
 app.use("*", prettyJSON());
 app.use("*", logger());
 
+app.get("/", (c) => {
+	return c.redirect("https://beta.linku.la/");
+});
 app.route("/v1", v1);
 
 export default app;
