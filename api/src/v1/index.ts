@@ -1,11 +1,11 @@
 import { Hono } from "hono";
 import { fetchWithZod } from "..";
-import { rawFile, schemaMiddleware, versions } from "../versioning";
+import { rawFile, versions } from "../versioning";
 
-const app = new Hono<{ Variables: (typeof versions)["v1"] }>().use(schemaMiddleware("v1"));
+const app = new Hono();
 
 app.get("/words", async (c) => {
-	const words = await fetchWithZod(c.var.schemas.words, rawFile("v1", "words.json"));
+	const words = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
 	const languages = c.req.query("lang")?.split(",") ?? ["en"];
 
 	return c.json(
@@ -27,7 +27,7 @@ app.get("/words", async (c) => {
 });
 
 app.get("/word/:word", async (c) => {
-	const data = await fetchWithZod(c.var.schemas.words, rawFile("v1", "words.json"));
+	const data = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
 	const word = data[c.req.param("word")];
 	if (!word) return c.notFound();
 

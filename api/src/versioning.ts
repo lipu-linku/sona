@@ -1,9 +1,9 @@
 import {
 	CommentaryTranslation,
-	Words,
 	DefinitionTranslation,
 	EtymologyTranslation,
 	SitelenPonaTranslation,
+	Words,
 	Word,
 } from "@linku/sona";
 import { Hono } from "hono";
@@ -31,7 +31,7 @@ export type Versions = {
 
 export const versions = {
 	v1: {
-		branch: "api",
+		branch: "rest",
 		schemas: {
 			words: Words,
 			word: Word,
@@ -44,23 +44,12 @@ export const versions = {
 } as const satisfies Versions;
 
 type Apps = {
-	[version in keyof typeof versions]: Hono<
-		{ Variables: (typeof versions)[version] },
-		any,
-		`/${version}`
-	>;
+	[version in keyof typeof versions]: Hono<any, any, `/${version}`>;
 };
 
 export const apps = {
 	v1: apiV1,
 } as const satisfies Apps;
-
-export const schemaMiddleware = <V extends ApiVersion>(version: V) =>
-	createMiddleware<{ Variables: (typeof versions)[V] }>(async (c, next) => {
-		c.set("branch", versions[version].branch);
-		c.set("schemas", versions[version].schemas);
-		await next();
-	});
 
 export const rawFile = (version: ApiVersion, filename: string) =>
 	`${BASE_URL}/${versions[version].branch}/raw/${filename}`;

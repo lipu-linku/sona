@@ -1,4 +1,3 @@
-import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
@@ -13,4 +12,4 @@ app.use("*", logger());
 
 app.route("/v1", v1);
 
-serve(app);
+export default app;

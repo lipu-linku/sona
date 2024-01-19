@@ -1,22 +1,22 @@
 {
+	"name": "sona-api",
+	"version": "0.1.0",
+	"private": true,
 	"scripts": {
-		"dev": "tsx watch src/index.ts"
+		"dev": "vite",
+		"build": "vite build"
 	},
 	"dependencies": {
-		"@hono/node-server": "^1.4.0",
 		"@linku/sona": "workspace:^",
 		"hono": "^3.12.6",
-		"yaml": "^2.3.4",
 		"zod": "^3.22.4",
 		"zod-fetch": "^0.1.1",
 		"zod-validation-error": "^3.0.0"
 	},
 	"devDependencies": {
 		"@total-typescript/ts-reset": "^0.5.1",
-		"@types/node": "^20.11.5",
-		"esbuild": "^0.19.11",
 		"prettier": "^3.2.4",
-		"tsx": "^4.7.0",
 		"typescript": "^5.3.3"
-	}
+	},
+	"type": "module"
 }
