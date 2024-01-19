@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/font.json
+creator = ["waso Keli (Kelsey Higham)"]
+features = ["ASCII transcription", "tuki tiki"]
+filename = "kiku upi ala.ttf"
+last_updated = "2022-12"
+license = "OFL"
+ligatures = true
+name = "kiku upi ala"
+style = "pixelated"
+ucsur = false
+version = "1.0"
+writing_system = "tokiponido logography"
+
+[links]
+fontfile = "https://kelseyhigham.github.io/kiku-upi-ala/kiku%20upi%20ala.ttf"
+repo = "https://github.com/KelseyHigham/kelseyhigham.github.io/tree/main/kiku-upi-ala"
+webpage = "https://kelseyhigham.github.io/kiku-upi-ala/"

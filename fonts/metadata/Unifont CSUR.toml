@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/font.json
+creator = ["Paul Hardy"]
+features = ["codepoints only"]
+filename = "unifont-csur.otf"
+last_updated = "2022-04"
+license = "OFL/GPL"
+ligatures = false
+name = "Unifont CSUR"
+style = "pixelated"
+ucsur = true
+version = "14.0.03"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://unifoundry.com/pub/unifont/unifont-14.0.03/font-builds/unifont_csur-14.0.03.otf"
+repo = "https://savannah.gnu.org/projects/unifont"
+webpage = "https://unifoundry.com/unifont/"

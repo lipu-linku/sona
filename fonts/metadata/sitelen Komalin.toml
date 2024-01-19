@@ -1,0 +1,15 @@
+#:schema ../../schemas/generated/font.json
+creator = ["Kolmaryn / jan Komalin"]
+features = []
+filename = "sitelen-komalin.ttf"
+last_updated = "2022-07"
+license = "Fontstruct ND NC"
+ligatures = false
+name = "sitelen Komalin"
+style = "pixelated"
+ucsur = false
+version = "1.0"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/301377942062366741/998615080168063006/sitelen-komalin.ttf"

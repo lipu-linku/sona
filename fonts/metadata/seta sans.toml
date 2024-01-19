@@ -1,0 +1,15 @@
+#:schema ../../schemas/generated/font.json
+creator = ["Eschar", "Nathan McCoy"]
+features = []
+filename = "seta-sans.otf"
+last_updated = ""
+license = "?"
+ligatures = false
+name = "seta sans"
+style = "uniform line weight"
+ucsur = false
+version = "0.02"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://jcdietrich.github.io/TokiPonaSetaSans-Regular2.otf"

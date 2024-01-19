@@ -1,0 +1,22 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Maku (ItMarki)"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "ku suli",
+  "supports cartouches",
+  "extended pi",
+]
+filename = "linja-waso-lili.ttf"
+last_updated = "2022-07"
+license = "OFL"
+ligatures = true
+name = "linja waso lili"
+style = "serif"
+ucsur = true
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/301377942062366741/1001518175969628262/linja-waso_lili.ttf"
+repo = "https://github.com/ItMarki/linja-waso"

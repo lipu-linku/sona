@@ -1,0 +1,17 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Ana"]
+features = ["ASCII transcription", "supports combined glyphs", "nimi ku suli"]
+filename = "linja-suwi.otf"
+last_updated = "2021-08"
+license = "OFL"
+ligatures = true
+name = "linja suwi"
+style = "uniform line weight"
+ucsur = false
+version = "1.301"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://linjasuwi.ap5.dev/linjasuwi.otf"
+repo = "https://github.com/anna328p/linjasuwi/"
+webpage = "https://linjasuwi.ap5.dev/"

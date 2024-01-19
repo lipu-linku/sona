@@ -1,0 +1,20 @@
+#:schema ../../schemas/generated/font.json
+creator = ["ParanormalChicken / Erek Butcher"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+]
+filename = "craftype.otf"
+last_updated = "2023-03"
+license = "OFL"
+ligatures = false
+name = "CraftyPE"
+style = "uniform line weight"
+ucsur = true
+version = "beta 5"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/ParanormalChicken/CraftyPE/raw/main/CraftyPE.otf"
+repo = "https://github.com/ParanormalChicken/CraftyPE"
