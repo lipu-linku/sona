@@ -2,7 +2,7 @@
 creator = ["Eschar", "Nathan McCoy"]
 features = []
 filename = "seta-sans.otf"
-last_updated = ""
+last_updated = "2021-04"
 license = "?"
 ligatures = false
 name = "seta sans"
@@ -12,4 +12,5 @@ version = "0.02"
 writing_system = "alphabet"
 
 [links]
-fontfile = "https://jcdietrich.github.io/TokiPonaSetaSans-Regular2.otf"
+fontfile = "https://jcdietrich.github.io/TokiPonaSetaSans-Regular2.otf" # Redistributed by jcdietrich
+website = "https://discord.com/channels/301377942062366741/301380012156911616/828489420172820500" # Font uploaded to #lipu by Eschar
