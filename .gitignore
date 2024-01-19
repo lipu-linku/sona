@@ -2,5 +2,6 @@
 
 # For running TOML validation locally:
 node_modules/
-package-lock.json
-package.json
+./package-lock.json
+./pnpm-lock.yaml
+./package.json

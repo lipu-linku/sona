@@ -1,6 +1,6 @@
 import {
 	CommentaryTranslation,
-	Data,
+	Words,
 	DefinitionTranslation,
 	EtymologyTranslation,
 	SitelenPonaTranslation,
@@ -19,7 +19,7 @@ export type Versions = {
 	[version in ApiVersion]: {
 		branch: string;
 		schemas: {
-			data: z.ZodType;
+			words: z.ZodType;
 			word: z.ZodType;
 			definition: z.ZodType;
 			commentary: z.ZodType;
@@ -33,7 +33,7 @@ export const versions = {
 	v1: {
 		branch: "api",
 		schemas: {
-			data: Data,
+			words: Words,
 			word: Word,
 			definition: DefinitionTranslation,
 			commentary: CommentaryTranslation,

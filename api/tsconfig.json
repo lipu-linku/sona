@@ -20,7 +20,7 @@
       "es2022"
     ],
     "types": [
-      "@total-typescript/ts-reset/recommended",
+      "@total-typescript/ts-reset",
       "@types/node"
     ]
   }
