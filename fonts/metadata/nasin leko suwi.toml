@@ -1,0 +1,22 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Mika", "jan Poman"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+  "cartouches",
+  "long pi",
+]
+filename = "nasin-leko-suwi.ttf"
+last_updated = "2023-01"
+license = "CC BY 4.0"
+ligatures = false
+name = "nasin leko suwi"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://nasin.leko.la/assets/fonts/nasin%20leko%20suwi.ttf"
+webpage = "https://nasin.leko.la/"

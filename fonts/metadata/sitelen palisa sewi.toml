@@ -1,0 +1,15 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Kanon"]
+features = []
+filename = ""
+last_updated = "2022-07"
+license = "Fontstruct ND NC"
+ligatures = false
+name = "sitelen palisa sewi"
+style = "pixelated"
+ucsur = false
+version = "1"
+writing_system = "alphabet"
+
+[links]
+webpage = "https://fontstruct.com/fontstructions/show/2108474/sitelen-palisa-sewi"

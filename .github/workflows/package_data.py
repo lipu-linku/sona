@@ -12,6 +12,7 @@ DATA_TYPES: Final[set[str]] = {
     "words",
     "luka_pona/signs",
     "luka_pona/fingerspelling",
+    "fonts/",
 }
 
 
@@ -27,7 +28,6 @@ def extract_data(
             data = {key: value for (key, value) in dict(raw_data).items()}
 
             result[id] = data
-            result[id]["translations"] = {}
 
 
 def insert_translations(result: dict[str, Any], paths: Iterator[str]):
@@ -39,6 +39,9 @@ def insert_translations(result: dict[str, Any], paths: Iterator[str]):
             data_kind = os.path.basename(path[: path.index(".toml")])
 
             for item in {item for item in localized_data.keys()}:
+                if "translations" not in result[item]:
+                    result[item]["translations"] = {}
+
                 if locale not in result[item]["translations"]:
                     result[item]["translations"][locale] = {}
 

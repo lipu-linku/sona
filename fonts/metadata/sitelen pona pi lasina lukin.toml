@@ -1,0 +1,16 @@
+#:schema ../../schemas/generated/font.json
+creator = ["u/The-God-of-Snails"]
+features = ["ASCII transcription", "cartouches"]
+filename = "sitelen_pona_pi_lasin_lukin.ttf"
+last_updated = "2023-11"
+license = ""
+ligatures = true
+name = "sitelen pona pi lasin lukin"
+style = "serif, alternate design"
+ucsur = false
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+repo = "https://drive.google.com/drive/folders/1WTarSAMNSf-96p24Xtcj7LJxoQmF71Aa"
+webpage = "https://www.reddit.com/r/tokipona/comments/17oz1nz/a_romanstyled_sitelen_pona_font/"

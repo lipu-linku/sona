@@ -1,0 +1,16 @@
+#:schema ../../schemas/generated/font.json
+creator = ["jan Kanon"]
+features = []
+filename = "sitelen-leko-kiki.otf"
+last_updated = "2022-06"
+license = "Fontstruct ND NC"
+ligatures = false
+name = "sitelen leko kiki"
+style = "pixelated"
+ucsur = false
+version = "1.0"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/316066233755631616/992124862023880795/sitelen-leko-kiki.otf"
+webpage = "https://fontstruct.com/fontstructions/show/2139247/sitelen-leko-kiki"

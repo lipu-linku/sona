@@ -1,0 +1,115 @@
+{
+  "$ref": "#/definitions/fonts",
+  "definitions": {
+    "fonts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "creator": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "a list of this font's creators"
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "a list of features this font supports"
+          },
+          "filename": {
+            "type": "string",
+            "pattern": "^(?:.+\\.(ttf|otf|woff2|woff))?$",
+            "description": "the name of the file this font is stored in at https://github.com/lipu-linku/ijo"
+          },
+          "last_updated": {
+            "type": "string",
+            "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$",
+            "description": "the rough date of this font's last update"
+          },
+          "license": {
+            "type": "string",
+            "description": "an SPDX expression describing this font's license: https://spdx.org/licenses/"
+          },
+          "ligatures": {
+            "type": "boolean",
+            "description": "whether this font supports ligatures"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "this font's name"
+          },
+          "style": {
+            "type": "string",
+            "minLength": 1,
+            "description": "the general style of this font"
+          },
+          "ucsur": {
+            "type": "boolean",
+            "description": "whether this font conforms to the UCSUR standard: https://www.kreativekorp.com/ucsur/charts/sitelen.html"
+          },
+          "version": {
+            "type": "string",
+            "description": "the current version of this font"
+          },
+          "writing_system": {
+            "type": "string",
+            "enum": [
+              "sitelen pona",
+              "sitelen sitelen",
+              "alphabet",
+              "syllabary",
+              "logography",
+              "tokiponido alphabet",
+              "tokiponido syllabary",
+              "tokiponido logography"
+            ],
+            "description": "the writing system this font uses as its script"
+          },
+          "links": {
+            "type": "object",
+            "properties": {
+              "fontfile": {
+                "type": "string",
+                "format": "uri",
+                "description": "a link to the font file published by the original author (not the mirror on the Linku Project's GitHub)"
+              },
+              "repo": {
+                "type": "string",
+                "format": "uri",
+                "description": "a link to a web hosted repository of this font's source files (usually hosted on GitHub or GitLab)"
+              },
+              "webpage": {
+                "type": "string",
+                "format": "uri",
+                "description": "a link to this font's home page, usually showcasing its features and usage/installation"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "creator",
+          "features",
+          "filename",
+          "license",
+          "ligatures",
+          "name",
+          "style",
+          "ucsur",
+          "version",
+          "writing_system",
+          "links"
+        ],
+        "additionalProperties": false,
+        "description": "Info on a font for Toki Pona"
+      },
+      "description": "A raw data object containing all the fonts data in sona"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

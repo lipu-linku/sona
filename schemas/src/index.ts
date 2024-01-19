@@ -1,5 +1,8 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
+import spdxCorrect from "spdx-correct";
+
+// Word data
 
 type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
 
@@ -251,6 +254,56 @@ export const IconTranslation = z
 
 export type IconTranslation = z.infer<typeof IconTranslation>;
 
+export const Font = z
+	.object({
+		creator: z.array(z.string()).describe("a list of this font's creators"),
+		features: z.array(z.string()).describe("a list of features this font supports"),
+		filename: z
+			.string()
+			.regex(/^(?:.+\.(ttf|otf|woff2|woff))?$/)
+			.describe("the name of the file this font is stored in at https://github.com/lipu-linku/ijo"),
+		last_updated: YearMonth.optional().describe("the rough date of this font's last update"),
+		license: z
+			.string()
+			.refine((val) => val === "UNLICENSED" || !!spdxCorrect(val))
+			.describe("an SPDX expression describing this font's license: https://spdx.org/licenses/"),
+		ligatures: z.boolean().describe("whether this font supports ligatures"),
+		name: z.string().min(1).describe("this font's name"),
+		style: z.string().min(1).describe("the general style of this font"),
+		ucsur: z
+			.boolean()
+			.describe(
+				"whether this font conforms to the UCSUR standard: https://www.kreativekorp.com/ucsur/charts/sitelen.html",
+			),
+		version: z.string().describe("the current version of this font"),
+		writing_system: WritingSystem.describe("the writing system this font uses as its script"),
+		links: z.object({
+			fontfile: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to the font file published by the original author (not the mirror on the Linku Project's GitHub)",
+				),
+			repo: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to a web hosted repository of this font's source files (usually hosted on GitHub or GitLab)",
+				),
+			webpage: z
+				.string()
+				.url()
+				.optional()
+				.describe(
+					"a link to this font's home page, usually showcasing its features and usage/installation",
+				),
+		}),
+	})
+	.describe("Info on a font for Toki Pona");
+export type Font = z.infer<typeof Font>;
+
 export const Words = z
 	.record(
 		Word.extend({
@@ -286,3 +339,8 @@ export const Fingerspelling = z
 		}),
 	)
 	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
+
+export const Fonts = z
+	.record(Font)
+	.describe("A raw data object containing all the fonts data in sona");
+export type Fonts = z.infer<typeof Fonts>;

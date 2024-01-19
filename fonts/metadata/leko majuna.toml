@@ -1,0 +1,21 @@
+#:schema ../../schemas/generated/font.json
+creator = ["waso Keli (Kelsey Higham)"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+]
+filename = "leko-majuna.ttf"
+last_updated = "2023-02"
+license = "OFL"
+ligatures = true
+name = "leko majuna"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://kelseyhigham.github.io/leko-majuna/leko%20majuna.ttf"
+repo = "https://github.com/KelseyHigham/kelseyhigham.github.io/blob/main/leko-majuna/leko%20majuna.ttf"
+webpage = "https://kelseyhigham.github.io/leko-majuna/"
