@@ -9,6 +9,7 @@ TRANSLATIONS_FOLDER: Final[str] = "translations"
 
 DATA_TYPES: Final[set[str]] = {
     "words",
+    "sandbox",
     "luka_pona/signs",
     "luka_pona/fingerspelling",
     "fonts",
@@ -33,21 +34,25 @@ def insert_translations(result: dict[str, Any], paths: Iterator[Path]):
             locale = path.parent.stem
             data_kind = path.stem
 
-            for item in {item for item in localized_data.keys()}:
+            for item in localized_data:
                 if "translations" not in result[item]:
                     result[item]["translations"] = {}
 
                 if locale not in result[item]["translations"]:
                     result[item]["translations"][locale] = {}
 
-                result[item]["translations"][locale][data_kind] = localized_data[item]
+                result[item]["translations"][locale][data_kind] = \
+                    localized_data[item]
 
 
 if __name__ == "__main__":
     for data_type in DATA_TYPES:
         result: dict[str, Any] = {}
 
-        extract_data(result, Path(".").glob(f"./{data_type}/{DATA_FOLDER}/*.toml"))
+        extract_data(
+            result,
+            Path(".").glob(f"./{data_type}/{DATA_FOLDER}/*.toml"),
+        )
 
         insert_translations(
             result,
