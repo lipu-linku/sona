@@ -1,6 +1,6 @@
 import json
-from pathlib import Path
 from typing import Any, Final, Iterator
+from pathlib import Path
 
 import tomlkit
 
@@ -23,8 +23,7 @@ def extract_data(
     for path in paths:
         with open(path) as file:
             print(f"Reading {path}...")
-            id = path.stem
-            result[id] = tomlkit.load(file)
+            result[path.stem] = tomlkit.load(file)
 
 
 def insert_translations(result: dict[str, Any], paths: Iterator[Path]):
@@ -60,7 +59,7 @@ if __name__ == "__main__":
             Path(".").glob(f"./{data_type}/{TRANSLATIONS_FOLDER}/*/*.toml"),
         )
 
-        raw_filename = (Path("raw") / Path(data_type).stem)
+        raw_filename = Path("raw") / Path(data_type).stem
         with open(raw_filename.with_suffix(".json"), "w+") as data_file:
             json.dump(result, data_file, separators=(",", ":"))
 
