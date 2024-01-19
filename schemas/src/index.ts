@@ -319,6 +319,9 @@ export const Words = z
 	)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 
+export const Sandbox = Words
+	.describe("A raw data object containing dictionary info about Toki Pona sandbox");
+
 export const Signs = z
 	.record(
 		Sign.extend({

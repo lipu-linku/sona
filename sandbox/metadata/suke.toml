@@ -1,0 +1,28 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = ""
+author_verbatim_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["jan Sonja"]
+see_also = []
+source_language = "toki pona"
+usage_category = "obscure"
+word = "suke"
+
+[[etymology]]
+word = "typo of sike"
+
+[audio]
+kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suke.mp3"
+
+[recognition]
+2021-10 = 3
+2022-08 = 1
+2023-09 = 0
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["suke"]
+sitelen_sitelen = ""
+ucsur = ""
