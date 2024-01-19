@@ -1,5 +1,3 @@
-#:schema ../../../schemas/generated/etymology_translation.json
-
 [[Pingo]]
 language = "a priori"
 
@@ -27,7 +25,7 @@ definition = "no"
 language = "Georgian"
 
 [[alasa]]
-definition = "hunting, (lit.) on the hunt"
+definition = "hunting, (literally) on the hunt"
 language = "Acadian French"
 
 [[ale]]
@@ -208,7 +206,7 @@ definition = "make sound; sound, noise, voice"
 language = "toki pona"
 
 [[kalama]]
-definition = "noise of many human voices"
+definition = "noise (of the human voice)"
 language = "Serbo-Croatian"
 
 [[kalijopilale]]
@@ -334,8 +332,12 @@ definition = "group, community, collection"
 language = "toki pona"
 
 [[kulupu]]
-definition = "kulupu"
+definition = "group"
 language = "Tongan"
+
+[[kulupu]]
+definition = "group"
+language = "English"
 
 [[kuntu]]
 definition = "'fun sound from the mouth', to sing with your voice"
@@ -386,7 +388,7 @@ definition = "he"
 language = "Esperanto"
 
 [[lijokuku]]
-definition = "Exactly!', lit. 'real LOL'"
+definition = "Exactly!', (literally) 'real LOL'"
 language = "Korean"
 
 [[likujo]]
@@ -418,11 +420,11 @@ definition = "red (inflected)"
 language = "Dutch"
 
 [[loka]]
-definition = "hand, arm, grasping apendage, tactile apendage"
+definition = "hand, arm, grasping appendage, tactile appendage"
 language = "toki pona"
 
 [[loka]]
-definition = "foot, leg, roots, locomotive apendage"
+definition = "foot, leg, roots, locomotive appendage"
 language = "toki pona"
 
 [[lokon]]
@@ -928,7 +930,7 @@ definition = "surface"
 language = "Esperanto"
 
 [[sutopatikuna]]
-definition = "platypus, lit. strange beak"
+definition = "platypus, (literally) strange beak"
 language = "Serbo-Croatian"
 
 [[suwi]]

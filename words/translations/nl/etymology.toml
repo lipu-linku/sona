@@ -1,5 +1,3 @@
-#:schema ../../../schemas/generated/etymology_translation.json
-
 [[Pingo]]
 language = "op voorhand"
 
@@ -594,7 +592,7 @@ definition = "kruispunt"
 language = "Vietnamees"
 
 [[neja]]
-definition = "vier"
+definition = "vier, 4"
 language = "Fins"
 
 [[nele]]
@@ -781,7 +779,7 @@ definition = "pipi"
 language = "toki pona"
 
 [[po]]
-definition = "vier"
+definition = "vier, 4"
 language = "Engels"
 
 [[poka]]
@@ -793,7 +791,7 @@ definition = "doosje, vrouwelijke genitaliën (vulgair)"
 language = "Tok Pisin"
 
 [[polinpin]]
-definition = "bowling kegel"
+definition = "Bowling kegel"
 language = "Engels"
 
 [[pomotolo]]
@@ -976,7 +974,7 @@ definition = "tijd"
 language = "Esperanto"
 
 [[to]]
-definition = "(citaarvorm)"
+definition = "(citaatvorm)"
 language = "Japans"
 
 [[tokana]]

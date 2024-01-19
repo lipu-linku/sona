@@ -1,4 +1,3 @@
-#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "araba"
 a = "(vurgu, duygu veya onay)"
 aka = 'çarpıya benzer şekil, kavşak, kesişim ["natu" için alternatif form]'
@@ -149,9 +148,9 @@ noka = "ayak, bacak, yürüme organı; dip, alt kısım"
 nu = "(gelecekte kullanma amacıyla Sonja Lang tarafından reserve edilmiş bir kelime)"
 o = "hey! (hitap hâli, emir veya dilek kipi)"
 ojuta = '"cu" ve "mıyala" tarzı bir toki pona espirisi'
-oke = '{ bkz: "ke" }, tamam, (onay veya kabul)'
+oke = '{ bkz: "oke" }, tamam, (onay veya kabul)'
 okepuma = "boomer, bebek patlaması kuşağı, düşüncesiz yaşlı"
-oki = "(onay veya kabul)"
+oki = '{ bkz: "oke" }, tamam, (onay veya kabul)'
 oko = '{bkz. "lukin"} | ALT göz, görsel {krş. "lukin"}'
 olin = "sevmek, merhamet etmek, saygı duymak, hoşlanmak"
 omekalike = "(proper name) jan Usawi'nin bir şarkısı"

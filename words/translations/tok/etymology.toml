@@ -1,5 +1,3 @@
-#:schema ../../../schemas/generated/etymology_translation.json
-
 [[Pingo]]
 language = "nimi ni li kama ala tan toki ante"
 
@@ -20,7 +18,7 @@ language = "toki Netelan"
 
 [[ako]]
 definition = "(interjection) surprise"
-language = "toki Anku"
+language = "Korean"
 
 [[ala]]
 definition = "ala"
@@ -48,7 +46,7 @@ language = "toki pona"
 
 [[anpa]]
 definition = "below"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[ante]]
 definition = "other, different"
@@ -323,7 +321,7 @@ language = "nimi ni li kama ala tan toki ante"
 
 [[kule]]
 definition = "color"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[kulijo]]
 definition = "pona mute a"
@@ -347,7 +345,7 @@ language = "toki pona"
 
 [[kute]]
 definition = "listen"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[kutopoma]]
 definition = "kulupu pi toki pona tan ma Anku"
@@ -355,7 +353,7 @@ language = "toki pona"
 
 [[la]]
 definition = "(definite article)"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[lanpan]]
 definition = "take, seize, grasp, receive"
@@ -379,27 +377,27 @@ language = "toki Inli"
 
 [[len]]
 definition = "clothing"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[lete]]
 definition = "cold"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[li]]
 definition = "he"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[lijokuku]]
 definition = "Exactly!', (literally) 'real LOL'"
-language = "toki Anku"
+language = "Korean"
 
 [[likujo]]
 definition = "collection, ensemble, anthology"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[lili]]
 definition = "small, little"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[linja]]
 definition = "line"
@@ -502,7 +500,7 @@ language = "Greek"
 
 [[mi]]
 definition = "mi"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[mije]]
 definition = "mije"
@@ -526,7 +524,7 @@ language = "toki Nijon"
 
 [[moli]]
 definition = "die"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[molusa]]
 definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
@@ -534,7 +532,7 @@ language = "toki Inli"
 
 [[monsi]]
 definition = "my ass (vulgar)"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[monsuta]]
 definition = "monster"
@@ -583,7 +581,7 @@ language = "Tok Pisin"
 
 [[nasa]]
 definition = "jan nasa"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[nasin]]
 definition = "way, method"
@@ -694,7 +692,7 @@ language = "toki Inli"
 
 [[pakala]]
 definition = "accident"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[pake]]
 definition = "block"
@@ -706,7 +704,7 @@ language = "toki pona"
 
 [[pali]]
 definition = "do, make"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[palisa]]
 definition = "bat, rod, cane"
@@ -730,7 +728,7 @@ language = "toki Somi"
 
 [[pasila]]
 definition = "easy"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[pata]]
 definition = "jan pi mama sama"
@@ -738,7 +736,7 @@ language = "Serbo-Croatian"
 
 [[pata]]
 definition = "sibling or cousin of the same gender"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[pata]]
 definition = "jan pi mama sama"
@@ -746,7 +744,7 @@ language = "toki Inli"
 
 [[peta]]
 definition = "laso sama kasi"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[peto]]
 definition = "(incomplete sentence) 'give eye-water', to cry"
@@ -754,7 +752,7 @@ language = "toki pona"
 
 [[pi]]
 definition = "of"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[pika]]
 definition = "Pikachū, an electric Pokémon"
@@ -762,7 +760,7 @@ language = "toki Nijon"
 
 [[pilin]]
 definition = "feel"
-language = "toki Topisin"
+language = "Tok Pisin"
 
 [[pimeja]]
 definition = "dark"
@@ -770,11 +768,11 @@ language = "toki Somi"
 
 [[pini]]
 definition = "finished, completed"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[pipi]]
 definition = "pipi"
-language = "toki Kanse pi ma Kanata"
+language = "Acadian French"
 
 [[pipo]]
 definition = "bug, insect, arachnid"
@@ -886,7 +884,7 @@ language = "Cantonese"
 
 [[sipi]]
 definition = "sibi (dative reflexive pronoun)"
-language = "toki Lasina"
+language = "Latin"
 
 [[sitelen]]
 definition = "paint"
@@ -925,7 +923,7 @@ language = "toki Somi"
 
 [[suno]]
 definition = "mun suno"
-language = "toki Epelanto"
+language = "Esperanto"
 
 [[supa]]
 definition = "surface"

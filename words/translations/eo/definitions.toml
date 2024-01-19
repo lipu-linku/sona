@@ -1,4 +1,3 @@
-#:schema ../../../schemas/generated/definition_translation.json
 Pingo = "aŭto"
 a = "(emfazo, emocio aŭ konfirmo)"
 aka = "kruc-simila formo, intersekciĝo, interkovro (vidu ankaŭ natu kaj eki)"
@@ -17,7 +16,7 @@ apeja = "kulpo, honto, stigmato; ofendi, humili, diri aĉajn vortojn"
 awase = "frapi, skui"
 awen = "daŭranta, tenata, protektita, sekura, atendanta, restanta; (a.v.) daŭre fari"
 e = "(akuzativa markilo antaŭ la rekta objekto)"
-eki = "kruc-simila formo, intersekciĝo, interkovro (vidu ankaŭ natu kaj aka)"
+eki = "kruc-simila formo, intersekciĝo, interkovro (vidu ankaŭ natu kaj eki)"
 eliki = "provo, aflikto, mizero; dolĉamara"
 en = "(inter pluraj subjektoj) | ALT (konjunkciigas modifilojn en pi-sintagmo aŭ objektojn de prepozicio)"
 enko = "(spacaj ekvivalentoj de la vorto “tenpo”) spaco, loko, distanco, grandeco (longo, larĝo, alteco, profundo, areo, volumeno)"
