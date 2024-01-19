@@ -1,0 +1,9 @@
+#:schema ../../schemas/generated/etymology_translation.json
+
+[[aka]]
+definition = "to cross, to pass"
+language = "Mandarin"
+
+[[aka]]
+definition = "across"
+language = "English"
