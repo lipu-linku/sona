@@ -2,12 +2,20 @@ import {
 	CommentaryTranslation,
 	DefinitionTranslation,
 	EtymologyTranslation,
+	Fingerspelling,
+	FingerspellingSign,
+	Font,
+	Fonts,
+	IconTranslation,
+	ParametersTranslation,
+	Sandbox,
+	Sign,
+	Signs,
 	SitelenPonaTranslation,
-	Words,
 	Word,
+	Words,
 } from "@linku/sona";
 import { Hono } from "hono";
-import { createMiddleware } from "hono/factory";
 import type { z } from "zod";
 import apiV1 from "./v1";
 
@@ -20,11 +28,20 @@ export type Versions = {
 		branch: string;
 		schemas: {
 			words: z.ZodType;
+			sandbox: z.ZodType;
 			word: z.ZodType;
 			definition: z.ZodType;
 			commentary: z.ZodType;
 			etymology: z.ZodType;
 			sitelen_pona: z.ZodType;
+			signs: z.ZodType;
+			sign: z.ZodType;
+			fingerspelling: z.ZodType;
+			fingerspelling_sign: z.ZodType;
+			sign_parameters: z.ZodType;
+			sign_icons: z.ZodType;
+			fonts: z.ZodType;
+			font: z.ZodType;
 		};
 	};
 };
@@ -34,11 +51,20 @@ export const versions = {
 		branch: "rest",
 		schemas: {
 			words: Words,
+			sandbox: Sandbox,
 			word: Word,
 			definition: DefinitionTranslation,
 			commentary: CommentaryTranslation,
 			etymology: EtymologyTranslation,
 			sitelen_pona: SitelenPonaTranslation,
+			signs: Signs,
+			sign: Sign,
+			fingerspelling: Fingerspelling,
+			fingerspelling_sign: FingerspellingSign,
+			sign_parameters: ParametersTranslation,
+			sign_icons: IconTranslation,
+			fonts: Fonts,
+			font: Font,
 		},
 	},
 } as const satisfies Versions;

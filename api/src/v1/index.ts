@@ -1,29 +1,19 @@
 import { Hono } from "hono";
 import { fetchWithZod } from "..";
+import { languagesFilter } from "../utils";
 import { rawFile, versions } from "../versioning";
 
 const app = new Hono();
 
-app.get("/words", async (c) => {
-	const words = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
-	const languages = c.req.query("lang")?.split(",") ?? ["en"];
+app.use("/words", languagesFilter(true));
+app.use("/word/:word", languagesFilter(false));
+app.use("/luka_pona/fingerspelling", languagesFilter(true));
+app.use("/luka_pona/fingerspelling/:sign", languagesFilter(true));
+app.use("/luka_pona/signs", languagesFilter(true));
+app.use("/luka_pona/signs/:sign", languagesFilter(true));
 
-	return c.json(
-		Object.fromEntries(
-			Object.entries(words).map(([key, val]) => [
-				key,
-				{
-					...val,
-					translations:
-						languages.length === 1 && languages[0] === "*"
-							? val.translations
-							: Object.fromEntries(
-									Object.entries(val.translations).filter(([key, _]) => languages.includes(key)),
-								),
-				},
-			]),
-		),
-	);
+app.get("/words", async (c) => {
+	return c.json(await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json")));
 });
 
 app.get("/word/:word", async (c) => {
@@ -31,17 +21,45 @@ app.get("/word/:word", async (c) => {
 	const word = data[c.req.param("word")];
 	if (!word) return c.notFound();
 
-	const languages = c.req.query("lang")?.split(",") ?? ["en"];
+	return c.json(word);
+});
 
-	return c.json({
-		...word,
-		translations:
-			languages.length === 1 && languages[0] === "*"
-				? word.translations
-				: Object.fromEntries(
-						Object.entries(word.translations).filter(([key, _]) => languages.includes(key)),
-					),
-	});
+app.get("/luka_pona/fingerspelling", async (c) => {
+	return c.json(
+		await fetchWithZod(versions.v1.schemas.fingerspelling, rawFile("v1", "fingerspelling.json")),
+	);
+});
+
+app.get("/luka_pona/fingerspelling/:sign", async (c) => {
+	const data = await fetchWithZod(
+		versions.v1.schemas.fingerspelling,
+		rawFile("v1", "fingerspelling.json"),
+	);
+	const sign = data[c.req.param("sign")];
+	if (!sign) return c.notFound();
+	return c.json(sign);
+});
+
+app.get("/luka_pona/signs", async (c) => {
+	return c.json(await fetchWithZod(versions.v1.schemas.signs, rawFile("v1", "signs.json")));
+});
+
+app.get("/luka_pona/signs/:sign", async (c) => {
+	const data = await fetchWithZod(versions.v1.schemas.signs, rawFile("v1", "signs.json"));
+	const sign = data[c.req.param("sign")];
+	if (!sign) return c.notFound();
+	return c.json(sign);
+});
+
+app.get("/fonts", async (c) => {
+	return c.json(await fetchWithZod(versions.v1.schemas.fonts, rawFile("v1", "fonts.json")));
+});
+
+app.get("/fonts/:font", async (c) => {
+	const data = await fetchWithZod(versions.v1.schemas.fonts, rawFile("v1", "fonts.json"));
+	const sign = data[c.req.param("font")];
+	if (!sign) return c.notFound();
+	return c.json(sign);
 });
 
 export default app;
