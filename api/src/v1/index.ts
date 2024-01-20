@@ -5,6 +5,8 @@ import { rawFile, versions } from "../versioning";
 
 const app = new Hono();
 
+app.get("/", (c) => c.redirect("/v1/words"));
+
 app.use("/words", languagesFilter(true));
 app.use("/word/:word", languagesFilter(false));
 app.use("/luka_pona/fingerspelling", languagesFilter(true));

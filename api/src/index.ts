@@ -12,7 +12,7 @@ app.use("*", logger());
 app.notFound((c) => c.json({ message: "Not Found", ok: false }, 404));
 
 app.get("/", (c) => {
-	return c.redirect("https://beta.linku.la/");
+	return c.redirect("/v1");
 });
 app.route("/v1", v1);
 
