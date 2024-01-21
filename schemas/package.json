@@ -1,5 +1,5 @@
 {
-	"name": "@linku/sona",
+	"name": "@kulupu-linku/sona",
 	"version": "0.1.0",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
