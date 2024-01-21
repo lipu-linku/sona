@@ -57,24 +57,3 @@ jobs:
     with:
       commit_sha: ${{ needs.generate.outputs.commit_sha }}
     if: ${{ needs.generate.outputs.schema_changed == 'true' }}
-
-  publish_to_npm:
-    runs-on: ubuntu-latest
-    name: Publish package to the npm registry
-    needs: generate
-    defaults:
-      run:
-        working-directory: ./schemas
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-          run_install: |
-            - args: [--frozen-lockfile]
-
-      - name: Publish to npm
-        run: pnpm publish
