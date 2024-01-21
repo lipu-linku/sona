@@ -20,6 +20,10 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 "right (not left)" = 9
 
 [recognition]
+# Though "teje" does not appear in the 2020 survey,
+# the survey featured "te", which at the time wasn't
+# a separate word, but instead the original form of "teje"
+2020-04 = 22
 2021-10 = 34
 2022-08 = 8
 2023-09 = 6
