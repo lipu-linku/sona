@@ -8,7 +8,7 @@ const app = new Hono();
 app.get("/", (c) => c.redirect("/v1/words"));
 
 app.use("/words", languagesFilter(true));
-app.use("/word/:word", languagesFilter(false));
+app.use("/words/:word", languagesFilter(false));
 app.use("/luka_pona/fingerspelling", languagesFilter(true));
 app.use("/luka_pona/fingerspelling/:sign", languagesFilter(true));
 app.use("/luka_pona/signs", languagesFilter(true));
@@ -18,7 +18,7 @@ app.get("/words", async (c) => {
 	return c.json(await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json")));
 });
 
-app.get("/word/:word", async (c) => {
+app.get("/words/:word", async (c) => {
 	const data = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
 	const word = data[c.req.param("word")];
 	if (!word) return c.notFound();
