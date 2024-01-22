@@ -23,7 +23,7 @@ importers:
 
   api:
     dependencies:
-      '@linku/sona':
+      '@kulupu-linku/sona':
         specifier: workspace:^
         version: link:../schemas
       hono:

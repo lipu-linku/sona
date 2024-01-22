@@ -7,7 +7,7 @@
 		"build": "vite build"
 	},
 	"dependencies": {
-		"@linku/sona": "workspace:^",
+		"@kulupu-linku/sona": "workspace:^",
 		"hono": "^3.12.6",
 		"zod": "^3.22.4",
 		"zod-fetch": "^0.1.1",
