@@ -24,6 +24,6 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 
 [representations]
 sitelen_emosi = ""
-sitelen_pona = ["iki"]
+sitelen_pona = []
 sitelen_sitelen = ""
 ucsur = ""
