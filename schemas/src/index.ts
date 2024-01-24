@@ -1,6 +1,5 @@
 import { z } from "zod";
 import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
-import spdxCorrect from "spdx-correct";
 
 // Word data
 
@@ -265,7 +264,6 @@ export const Font = z
 		last_updated: YearMonth.optional().describe("the rough date of this font's last update"),
 		license: z
 			.string()
-			.refine((val) => val === "UNLICENSED" || !!spdxCorrect(val))
 			.describe("an SPDX expression describing this font's license: https://spdx.org/licenses/"),
 		ligatures: z.boolean().describe("whether this font supports ligatures"),
 		name: z.string().min(1).describe("this font's name"),
@@ -318,9 +316,12 @@ export const Words = z
 		}),
 	)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
+export type Words = z.infer<typeof Words>;
 
-export const Sandbox = Words
-	.describe("A raw data object containing dictionary info about Toki Pona sandbox");
+export const Sandbox = Words.describe(
+	"A raw data object containing dictionary info about Toki Pona sandbox",
+);
+export type Sandbox = z.infer<typeof Sandbox>;
 
 export const Signs = z
 	.record(
@@ -334,6 +335,7 @@ export const Signs = z
 		}),
 	)
 	.describe("A raw data object containing information about Luka Pona signs");
+export type Signs = z.infer<typeof Signs>;
 
 export const Fingerspelling = z
 	.record(
@@ -342,6 +344,7 @@ export const Fingerspelling = z
 		}),
 	)
 	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
+export type Fingerspelling = z.infer<typeof Fingerspelling>;
 
 export const Fonts = z
 	.record(Font)

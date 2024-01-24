@@ -1,5 +1,5 @@
 {
-	"name": "@linku/sona",
+	"name": "@kulupu-linku/sona",
 	"version": "0.1.0",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
@@ -27,14 +27,13 @@
 	"scripts": {
 		"generate": "tsx ./generateSchemas.ts",
 		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
-		"build:lib": "tsup ./src/**/*.ts --dts --format esm"
+		"build": "tsup ./src/**/*.ts --dts --format esm"
 	},
 	"dependencies": {
-		"spdx-correct": "^3.2.0",
+		"hono": "^3.12.6",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
-		"@types/spdx-correct": "^3.1.3",
 		"@types/node": "^20.11.5",
 		"prettier": "^3.2.4",
 		"tsup": "^8.0.1",
@@ -45,6 +44,28 @@
 	"engines": {
 		"pnpm": ">=8"
 	},
-	"packageManager": "pnpm@8.11.0",
+	"files": [
+		"/dist",
+		"/generated"
+	],
+	"main": "./dist/index.js",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"node": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./utils": {
+			"import": "./dist/utils.js",
+			"node": "./dist/utils.js",
+			"types": "./dist/utils.d.ts"
+		},
+		"./client": {
+			"import": "./dist/client.js",
+			"node": "./dist/client.js",
+			"types": "./dist/client.d.ts"
+		}
+	},
+	"packageManager": "pnpm@8.14.3",
 	"type": "module"
 }
