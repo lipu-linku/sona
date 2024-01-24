@@ -26,6 +26,7 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - uses: simenandre/publish-with-pnpm@v2
-        with:
-          npm-auth-token: ${{ secrets.NPM_TOKEN }}
+      - name: Publish to the npm registry
+        run: pnpm publish --filter '@kulupu-linku/sona' --no-git-checks --access public --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
