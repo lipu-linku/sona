@@ -7,6 +7,7 @@
 		"build": "vite build"
 	},
 	"dependencies": {
+		"@hono/zod-validator": "^0.1.11",
 		"@kulupu-linku/sona": "workspace:^",
 		"hono": "^3.12.6",
 		"zod": "^3.22.4",

@@ -23,6 +23,9 @@ importers:
 
   api:
     dependencies:
+      '@hono/zod-validator':
+        specifier: ^0.1.11
+        version: 0.1.11(hono@3.12.6)(zod@3.22.4)
       '@kulupu-linku/sona':
         specifier: workspace:^
         version: link:../schemas
@@ -408,6 +411,16 @@ packages:
       - supports-color
       - utf-8-validate
     dev: true
+
+  /@hono/zod-validator@0.1.11(hono@3.12.6)(zod@3.22.4):
+    resolution: {integrity: sha512-PQXeHUP0+36qpRt8yfeD7N2jbK3ETlGvSN6dMof/HwUC/APRokQRjpXZm4rrlG71Ft0aWE01+Bm4XejqPie5Uw==}
+    peerDependencies:
+      hono: '>=3.9.0'
+      zod: ^3.19.1
+    dependencies:
+      hono: 3.12.6
+      zod: 3.22.4
+    dev: false
 
   /@humanwhocodes/momoa@2.0.4:
     resolution: {integrity: sha512-RE815I4arJFtt+FVeU1Tgp9/Xvecacji8w/V6XtXsWWH/wz/eNkNbhb+ny/+PlVZjV0rxQpRSQKNKE3lcktHEA==}
