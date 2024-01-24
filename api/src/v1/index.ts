@@ -10,7 +10,7 @@ const langValidator = zValidator(
 	z.object({
 		lang: z
 			.string()
-			.regex(/^([^,]+,)[^,]+*/)
+			.regex(/^([^,]+,)*[^,]+/)
 			.optional(),
 	}),
 );
