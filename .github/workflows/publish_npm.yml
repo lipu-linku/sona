@@ -27,6 +27,6 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: npm publish --tag ${{ github.event.release.prerelease && 'next' || 'latest' }} --dry-run --provenance
+      - run: npm publish --tag ${{ github.event.release.prerelease && 'next' || 'latest' }} --provenance
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
