@@ -50,6 +50,6 @@ fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
 
 [representations]
 sitelen_emosi = "💩"
-sitelen_pona = ["jaki"]
+sitelen_pona = ["jaki", "jaki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
 ucsur = "U+F1910"

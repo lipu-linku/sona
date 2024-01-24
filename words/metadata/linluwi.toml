@@ -33,6 +33,6 @@ web = 9
 
 [representations]
 sitelen_emosi = "🌐"
-sitelen_pona = ["linluwi", "linluwi2"]
+sitelen_pona = ["linluwi", "linluwi4", "linluwi2"]
 sitelen_sitelen = ""
 ucsur = ""
