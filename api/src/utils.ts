@@ -26,7 +26,7 @@ export const languagesFilter =
 
 		if (languages.length === 1 && languages[0] === "*") return;
 
-		const body = (await c.res.json()) as any;
+		const body = (await c.res.clone().json()) as any;
 		if (nested) {
 			c.res = new Response(
 				JSON.stringify(
