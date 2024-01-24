@@ -26,7 +26,7 @@ importers:
       '@hono/zod-validator':
         specifier: ^0.1.11
         version: 0.1.11(hono@3.12.6)(zod@3.22.4)
-      '@linku/sona':
+      '@kulupu-linku/sona':
         specifier: workspace:^
         version: link:../schemas
       hono:
@@ -51,6 +51,9 @@ importers:
 
   schemas:
     dependencies:
+      hono:
+        specifier: ^3.12.6
+        version: 3.12.6
       zod:
         specifier: ^3.22.4
         version: 3.22.4

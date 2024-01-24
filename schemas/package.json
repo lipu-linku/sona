@@ -1,5 +1,5 @@
 {
-	"name": "@linku/sona",
+	"name": "@kulupu-linku/sona",
 	"version": "0.1.0",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
@@ -30,6 +30,7 @@
 		"build": "tsup ./src/**/*.ts --dts --format esm"
 	},
 	"dependencies": {
+		"hono": "^3.12.6",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
@@ -58,8 +59,13 @@
 			"import": "./dist/utils.js",
 			"node": "./dist/utils.js",
 			"types": "./dist/utils.d.ts"
+		},
+		"./client": {
+			"import": "./dist/client.js",
+			"node": "./dist/client.js",
+			"types": "./dist/client.d.ts"
 		}
 	},
-	"packageManager": "pnpm@8.11.0",
+	"packageManager": "pnpm@8.14.3",
 	"type": "module"
 }
