@@ -2,7 +2,7 @@ name: Publish schemas to npm
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   publish_to_npm:
@@ -19,10 +19,13 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
-          run_install: |
-            - args: [--frozen-lockfile]
 
-      - name: Publish to npm
-        run: pnpm publish --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build
+
+      - uses: simenandre/publish-with-pnpm@v2
+        with:
+          npm-auth-token: ${{ secrets.NPM_TOKEN }}
