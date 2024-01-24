@@ -17,3 +17,5 @@ const app = new Hono({ strict: false })
 	.route("/v1", v1);
 
 export default app;
+
+export type AppType = typeof app;

@@ -51,6 +51,9 @@ importers:
 
   schemas:
     dependencies:
+      hono:
+        specifier: ^3.12.6
+        version: 3.12.6
       zod:
         specifier: ^3.22.4
         version: 3.22.4
