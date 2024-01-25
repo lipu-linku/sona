@@ -98,7 +98,7 @@ export const Word = z
 			})
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
-		recognition: z
+		usage: z
 			.record(
 				z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
 					`20${number}-${Month}`,
