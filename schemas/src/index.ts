@@ -29,6 +29,7 @@ export const Word = z
 		sona_pona: z
 			.string()
 			.url()
+			.optional()
 			.describe(
 				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
 			),
