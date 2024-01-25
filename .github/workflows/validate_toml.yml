@@ -39,7 +39,7 @@ jobs:
               - '**.toml'
 
       - name: Setup pnpm
-        if: steps.changes.outputs.changes.schemas == 'true'
+        if: contains(steps.changes.outputs.changes, 'schemas')
         uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -47,12 +47,12 @@ jobs:
             - args: [--frozen-lockfile]
 
       - name: Generate JSON Schemas
-        if: steps.changes.outputs.changes.schemas == 'true'
+        if: contains(steps.changes.outputs.changes, 'schemas')
         run: pnpm run generate
         working-directory: ./schemas
 
       - name: Commit schemas
-        if: steps.changes.outputs.changes.schemas == 'true'
+        if: contains(steps.changes.outputs.changes, 'schemas')
         id: commit
         uses: EndBug/add-and-commit@v9
         with:
@@ -62,21 +62,21 @@ jobs:
         run: npx --yes @taplo/cli check
 
       - name: Setup Python
-        if: steps.changes.outputs.changes.data == 'true'
+        if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v4
         with:
           python-version: 3.12.1
 
       - name: Install dependencies
-        if: steps.changes.outputs.changes.data == 'true'
+        if: contains(steps.changes.outputs.changes, 'data')
         run: pip install tomlkit && npm i -g ajv-cli ajv-formats
 
       - name: Generate raw data file
-        if: steps.changes.outputs.changes.data == 'true'
+        if: contains(steps.changes.outputs.changes, 'data')
         run: python .github/workflows/package_data.py
 
       - name: Validate generated file
-        if: steps.changes.outputs.changes.data == 'true'
+        if: contains(steps.changes.outputs.changes, 'data')
         run: |
           list=(./raw/*.json)
           for file in "${list[@]}"; do 
@@ -85,6 +85,6 @@ jobs:
 
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
-        if: steps.changes.outputs.changes.data == 'true'
+        if: contains(steps.changes.outputs.changes, 'data')
         with:
           message: "Generated raw JSON files for ${{ github.sha }}"
