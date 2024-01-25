@@ -6,9 +6,17 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/pilin"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pilin"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pilin.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pilin.mp3"
 
 [[etymology]]
 word = "pilim"
@@ -18,10 +26,6 @@ word = "-im"
 
 [[etymology]]
 word = "him"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pilin.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pilin.mp3"
 
 [ku_data]
 assume = 50
@@ -68,12 +72,12 @@ en = "NOUN heart (physical or emotional)\nADJECTIVE feeling (an emotion, a direc
 eo = "SUBSTANTIVO koro (fizika aŭ emocia)\nADJEKTIVO sentanta (emocion, rektan sperton)"
 fr = "NOM cœur (physique et psychologique)\nADJECTIF qui ressent (une émotion, une expérience directe)"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "❤️"
 sitelen_pona = ["pilin"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
 ucsur = "U+F194E"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

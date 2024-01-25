@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/wawa"
 source_language = "Finnish"
 usage_category = "core"
 word = "wawa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/wawa.mp3"
 
 [[etymology]]
 word = "vahva"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/wawa.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawa.mp3"
 
 [ku_data]
 bold = 68
@@ -53,12 +57,12 @@ en = "ADJECTIVE strong, powerful; confident, sure; energetic, intense"
 eo = "ADJEKTIVO forta, potenca; memfida, nedubanta; energia, intensa"
 fr = "ADJECTIF fort, puissant ; sûr, confiant ; énergique, intense"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "⚡"
 sitelen_pona = ["wawa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wawa.jpg"
 ucsur = "U+F1975"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

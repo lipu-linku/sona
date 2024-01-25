@@ -6,23 +6,24 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Wija"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/umesu"
 source_language = "Iqglic"
 usage_category = "obscure"
 word = "umesu"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/umesu.mp3"
 
 [[etymology]]
 word = "Umeyz"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/umesu.mp3"
-
-[recognition]
-2021-10 = 23
-2022-08 = 2
-2023-09 = 1
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["umesu"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2021-10 = 23
+2022-08 = 2
+2023-09 = 1

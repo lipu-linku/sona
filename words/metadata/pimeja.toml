@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["suno", "walo"]
+sona_pona = "https://sona.pona.la/wiki/pimeja"
 source_language = "Finnish"
 usage_category = "core"
 word = "pimeja"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pimeja.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pimeja.mp3"
 
 [[etymology]]
 word = "pimeä"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pimeja.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pimeja.mp3"
 
 [ku_data]
 black = 100
@@ -30,12 +34,12 @@ en = "ADJECTIVE black, dark, unlit"
 eo = "ADJEKTIVO nigra, malhela, malluma"
 fr = "ADJECTIF noir, foncé, sombre"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "⚫"
 sitelen_pona = ["pimeja"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pimeja.jpg"
 ucsur = "U+F194F"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

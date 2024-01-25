@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/seme"
 source_language = "Mandarin"
 usage_category = "core"
 word = "seme"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/seme.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/seme.mp3"
 
 [[etymology]]
 alt = "shénme"
 word = "什麼"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/seme.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/seme.mp3"
 
 [ku_data]
 huh = 44
@@ -29,12 +33,12 @@ en = "PARTICLE what? which?"
 eo = "PARTIKULO kio? kiu?"
 fr = "PARTICULE quoi ? quel ?"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "❓"
 sitelen_pona = ["seme"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seme.jpg"
 ucsur = "U+F1959"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

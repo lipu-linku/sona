@@ -6,24 +6,25 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = ["jan inwin"]
 see_also = ["musi"]
+sona_pona = ""
 source_language = "toki pona"
 usage_category = "obscure"
 word = "omen"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omen.mp3"
 
 [[etymology]]
 word = "o moli e mi"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omen.mp3"
-
-[recognition]
-2020-04 = 19
-2021-10 = 19
-2022-08 = 1
-2023-09 = 2
 
 [representations]
 sitelen_emosi = "🙄"
 sitelen_pona = ["omen"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 19
+2021-10 = 19
+2022-08 = 1
+2023-09 = 2

@@ -6,24 +6,25 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan Tolin"]
 see_also = ["wuwojiti"]
+sona_pona = ""
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wawajete"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawajete.mp3"
 
 [[etymology]]
 word = "wuwojiti"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawajete.mp3"
-
-[recognition]
-2020-04 = 18
-2021-10 = 24
-2022-08 = 2
-2023-09 = 4
 
 [representations]
 sitelen_emosi = "🤡"
 sitelen_pona = ["wawajete"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 18
+2021-10 = 24
+2022-08 = 2
+2023-09 = 4

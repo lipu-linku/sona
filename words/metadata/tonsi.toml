@@ -6,17 +6,21 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = ["meli", "mije", "kule"]
+sona_pona = "https://sona.pona.la/wiki/tonsi"
 source_language = "Mandarin"
 usage_category = "widespread"
 word = "tonsi"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tonsi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tonsi.mp3"
 
 [[etymology]]
 alt = "tóngzhì"
 word = "同志"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tonsi.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tonsi.mp3"
 
 [ku_data]
 "gender non-conforming person" = 53
@@ -24,14 +28,14 @@ kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi
 "non-binary person" = 59
 "transgender person" = 56
 
-[recognition]
-2020-04 = 57
-2021-10 = 89
-2022-08 = 86
-2023-09 = 83
-
 [representations]
 sitelen_emosi = "♐"
 sitelen_pona = ["tonsi"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tonsi.jpg"
 ucsur = "U+F197E"
+
+[usage]
+2020-04 = 57
+2021-10 = 89
+2022-08 = 86
+2023-09 = 83

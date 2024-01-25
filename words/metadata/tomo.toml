@@ -6,9 +6,17 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["poki"]
+sona_pona = "https://sona.pona.la/wiki/tomo"
 source_language = "Esperanto"
 usage_category = "core"
 word = "tomo"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tomo.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tomo.mp3"
 
 [[etymology]]
 word = "domo"
@@ -21,10 +29,6 @@ word = "domus"
 
 [[etymology]]
 word = "δόμος"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tomo.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tomo.mp3"
 
 [ku_data]
 apartment = 42
@@ -57,12 +61,12 @@ en = "NOUN indoor space; building, home, house, room"
 eo = "SUBSTANTIVO endoma spaco; konstruaĵo, hejmo, domo, ĉambro"
 fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce, chambre, chez soi, demeure"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "🏠"
 sitelen_pona = ["tomo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"
 ucsur = "U+F196D"
+
+[usage]
+2022-08 = 100
+2023-09 = 100
