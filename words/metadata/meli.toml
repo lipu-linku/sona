@@ -6,9 +6,17 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["mije", "tonsi"]
+sona_pona = "https://sona.pona.la/wiki/meli"
 source_language = "Tok Pisin"
 usage_category = "widespread"
 word = "meli"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/meli.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/meli.mp3"
 
 [[etymology]]
 word = "meri"
@@ -18,10 +26,6 @@ word = "mari"
 
 [[etymology]]
 word = "Mary"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/meli.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/meli.mp3"
 
 [ku_data]
 "cisgender woman" = 31
@@ -39,12 +43,12 @@ en = "NOUN woman, female, feminine person; wife"
 eo = "SUBSTANTIVO virino, ino; edzino"
 fr = "NOM femme, femelle ; épouse"
 
-[recognition]
-2022-08 = 89
-2023-09 = 82
-
 [representations]
 sitelen_emosi = "👧"
 sitelen_pona = ["meli", "meli2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meli.jpg"
 ucsur = "U+F1933"
+
+[usage]
+2022-08 = 89
+2023-09 = 82

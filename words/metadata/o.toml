@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["li"]
+sona_pona = "https://sona.pona.la/wiki/o"
 source_language = "Georgian"
 usage_category = "core"
 word = "o"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/o.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/o.mp3"
 
 [[etymology]]
 alt = "-o"
 word = "-ო"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/o.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/o.mp3"
 
 [ku_data]
 dare = 9
@@ -36,12 +40,12 @@ en = "PARTICLE hey! O! (vocative or imperative)"
 eo = "PARTIKULO he! (vokativo aŭ imperativo)"
 fr = "PARTICULE hé ! ô ! (vocatif ou impératif)"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "👋"
 sitelen_pona = ["o"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/o.jpg"
 ucsur = "U+F1944"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

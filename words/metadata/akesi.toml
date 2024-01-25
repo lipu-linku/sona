@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/akesi"
 source_language = "Dutch"
 usage_category = "core"
 word = "akesi"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/akesi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/akesi.mp3"
 
 [[etymology]]
 word = "hagedis"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/akesi.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/akesi.mp3"
 
 [ku_data]
 frog = 56
@@ -27,12 +31,12 @@ en = "NOUN non-cute animal; reptile, amphibian"
 eo = "SUBSTANTIVO reptilio, amfibio"
 fr = "NOM animal non-mignon ; reptile, amphibien"
 
-[recognition]
-2022-08 = 98
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "🦎"
 sitelen_pona = ["akesi", "akesi2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/akesi.jpg"
 ucsur = "U+F1901"
+
+[usage]
+2022-08 = 98
+2023-09 = 99

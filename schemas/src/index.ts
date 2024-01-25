@@ -26,6 +26,13 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
+		sona_pona: z
+			.string()
+			.url()
+			.optional()
+			.describe(
+				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+			),
 		representations: z
 			.object({
 				sitelen_emosi: z
@@ -74,21 +81,17 @@ export const Word = z
 				}),
 			)
 			.describe("Unlocalized etymological values regarding this word's origin"),
-		audio: z
-			.object({
-				jan_lakuse: z
-					.string()
-					.url()
-					.optional()
-					.describe(
-						"jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse",
-					),
-				kala_asi: z
-					.string()
-					.url()
-					.describe("kala Asi's pronounciation of the word, made for the Linku Project"),
-			})
-			.describe("Audio files of the words pronounced out loud"),
+		audio: z.array(
+			z
+				.object({
+					author: z.string().describe("The author of the audio file in `link`."),
+					link: z
+						.string()
+						.url()
+						.describe("A link to the audio file for the word, pronounced by `author`."),
+				})
+				.describe("Audio files of the words pronounced out loud"),
+		),
 		pu_verbatim: z
 			.object({
 				en: z.string().describe("The original definition in the English version of pu"),
@@ -98,7 +101,7 @@ export const Word = z
 			})
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
-		recognition: z
+		usage: z
 			.record(
 				z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
 					`20${number}-${Month}`,

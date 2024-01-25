@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/ken"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "ken"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ken.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ken.mp3"
 
 [[etymology]]
 word = "ken"
 
 [[etymology]]
 word = "can"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ken.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ken.mp3"
 
 [ku_data]
 ability = 93
@@ -60,12 +64,12 @@ en = "PRE-VERB to be able to, be allowed to, can, may\nADJECTIVE possible"
 eo = "ANTAŬVERBO povi, rajti\nADJEKTIVO ebla"
 fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "💪"
 sitelen_pona = ["ken"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
 ucsur = "U+F1918"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

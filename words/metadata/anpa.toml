@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["noka"]
+sona_pona = "https://sona.pona.la/wiki/anpa"
 source_language = "Acadian French"
 usage_category = "core"
 word = "anpa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/anpa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/anpa.mp3"
 
 [[etymology]]
 word = "en bas"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/anpa.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/anpa.mp3"
 
 [ku_data]
 below = 58
@@ -34,12 +38,12 @@ en = "ADJECTIVE bowing down, downward, humble, lowly, dependent"
 eo = "ADJEKTIVO klinanta sin, malsupren, humila, modesta, dependa"
 fr = "ADJECTIF incliné vers le bas, humble, qui dépend"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "⬇️"
 sitelen_pona = ["anpa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anpa.jpg"
 ucsur = "U+F1905"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

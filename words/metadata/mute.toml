@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["wan", "tu", "ale"]
+sona_pona = "https://sona.pona.la/wiki/mute"
 source_language = "Esperanto"
 usage_category = "core"
 word = "mute"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mute.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mute.mp3"
 
 [[etymology]]
 word = "multe"
 
 [[etymology]]
 word = "multus"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mute.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mute.mp3"
 
 [ku_data]
 amount = 40
@@ -70,12 +74,12 @@ en = "ADJECTIVE many, a lot, more, much, several, very\nNOUN quantity"
 eo = "ADJEKTIVO multaj, multe, pluraj, tre\nSUBSTANTIVO kvanto"
 fr = "ADJECTIF beaucoup de, plusieurs, plus de ; très\nNOM quantité"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "👐"
 sitelen_pona = ["mute"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mute.jpg"
 ucsur = "U+F193C"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

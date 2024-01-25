@@ -66,6 +66,11 @@
           },
           "description": "A list of related words"
         },
+        "sona_pona": {
+          "type": "string",
+          "format": "uri",
+          "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page."
+        },
         "representations": {
           "type": "object",
           "properties": {
@@ -164,24 +169,27 @@
           "description": "Unlocalized etymological values regarding this word's origin"
         },
         "audio": {
-          "type": "object",
-          "properties": {
-            "jan_lakuse": {
-              "type": "string",
-              "format": "uri",
-              "description": "jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "string",
+                "description": "The author of the audio file in `link`."
+              },
+              "link": {
+                "type": "string",
+                "format": "uri",
+                "description": "A link to the audio file for the word, pronounced by `author`."
+              }
             },
-            "kala_asi": {
-              "type": "string",
-              "format": "uri",
-              "description": "kala Asi's pronounciation of the word, made for the Linku Project"
-            }
-          },
-          "required": [
-            "kala_asi"
-          ],
-          "additionalProperties": false,
-          "description": "Audio files of the words pronounced out loud"
+            "required": [
+              "author",
+              "link"
+            ],
+            "additionalProperties": false,
+            "description": "Audio files of the words pronounced out loud"
+          }
         },
         "pu_verbatim": {
           "type": "object",
@@ -212,7 +220,7 @@
           "additionalProperties": false,
           "description": "The original definition of the word in pu, the first official Toki Pona book"
         },
-        "recognition": {
+        "usage": {
           "type": "object",
           "additionalProperties": {
             "type": "number",
@@ -239,7 +247,7 @@
         "word",
         "etymology",
         "audio",
-        "recognition"
+        "usage"
       ],
       "additionalProperties": false,
       "description": "General info on a Toki Pona word"

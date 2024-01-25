@@ -6,23 +6,27 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu"]
+sona_pona = "https://sona.pona.la/wiki/ku"
 source_language = "a priori"
 usage_category = "widespread"
 word = "ku"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ku.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ku.mp3"
 
 [[etymology]]
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ku.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ku.mp3"
-
-[recognition]
-2021-10 = 85
-2022-08 = 80
-2023-09 = 70
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["ku"]
 sitelen_sitelen = ""
 ucsur = "U+F1988"
+
+[usage]
+2021-10 = 85
+2022-08 = 80
+2023-09 = 70

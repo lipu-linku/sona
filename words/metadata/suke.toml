@@ -6,23 +6,24 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/suke"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "suke"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suke.mp3"
 
 [[etymology]]
 word = "typo of sike"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suke.mp3"
-
-[recognition]
-2021-10 = 3
-2022-08 = 1
-2023-09 = 0
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = []
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2021-10 = 3
+2022-08 = 1
+2023-09 = 0

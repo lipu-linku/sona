@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/nanpa"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "nanpa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nanpa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/nanpa.mp3"
 
 [[etymology]]
 word = "namba"
 
 [[etymology]]
 word = "number"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/nanpa.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nanpa.mp3"
 
 [ku_data]
 calculate = 35
@@ -44,12 +48,12 @@ en = "PARTICLE -th (ordinal number)\nNOUN numbers"
 eo = "PARTIKULO -a (kiel en “unua”, “dua”, ktp; indikas pozicion\nSUBSTANTIVO ciferoj, nombroj"
 fr = "PARTICULE -ième (nombre ordinal)\nNOM nombre"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "#️⃣"
 sitelen_pona = ["nanpa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nanpa.jpg"
 ucsur = "U+F193D"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

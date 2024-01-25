@@ -6,15 +6,19 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["kin"]
+sona_pona = "https://sona.pona.la/wiki/a"
 source_language = "onomatopoeia"
 usage_category = "core"
 word = "a"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/a.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/a.mp3"
 
 [[etymology]]
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/a.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/a.mp3"
 
 [ku_data]
 ah = 94
@@ -41,13 +45,13 @@ en = "PARTICLE (emphasis, emotion or confirmation)"
 eo = "PARTIKULO (emfazo, emocio aŭ konfirmo)"
 fr = "PARTICULE (accent, émotion ou confirmation)"
 
-[recognition]
-2020-04 = 99
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "❗"
 sitelen_pona = ["a"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
 ucsur = "U+F1900"
+
+[usage]
+2020-04 = 99
+2022-08 = 99
+2023-09 = 99

@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/insa"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "insa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/insa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/insa.mp3"
 
 [[etymology]]
 word = "insait"
 
 [[etymology]]
 word = "inside"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/insa.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/insa.mp3"
 
 [ku_data]
 amid = 27
@@ -45,12 +49,12 @@ en = "NOUN centre, content, inside, between; internal organ, stomach"
 eo = "SUBSTANTIVO centro, enhavo, eno, inter; ena organo, ventro, stomako"
 fr = "NOM centre, contenu, intérieur, entre ; estomac, viscères"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "⏺️"
 sitelen_pona = ["insa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/insa.jpg"
 ucsur = "U+F190F"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

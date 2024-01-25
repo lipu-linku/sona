@@ -6,21 +6,22 @@ coined_era = "post-ku"
 coined_year = "2022"
 creator = ["jan Kiwisin", "jan Telupiso"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/we"
 source_language = "Spanish"
 usage_category = "obscure"
 word = "we"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
 
 [[etymology]]
 word = "güey"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
-
-[recognition]
-2023-09 = 2
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = []
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2023-09 = 2

@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/awen"
 source_language = "Dutch"
 usage_category = "core"
 word = "awen"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awen.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/awen.mp3"
 
 [[etymology]]
 word = "houden"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/awen.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awen.mp3"
 
 [ku_data]
 await = 100
@@ -74,12 +78,12 @@ en = "ADJECTIVE enduring, kept, protected, safe, waiting, staying\nPRE-VERB to c
 eo = "ADJEKTIVO daŭranta, tenata, gardata, protektita, sekura, atendanta, restanta\nANTAŬVERBO daŭre …i, konstante …i, plue"
 fr = "ADJECTIF resté, protégé, gardé, qui attend, qui persiste, conservé\nAUXILIAIRE continuer à"
 
-[recognition]
-2022-08 = 98
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "⚓"
 sitelen_pona = ["awen"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
 ucsur = "U+F1908"
+
+[usage]
+2022-08 = 98
+2023-09 = 99

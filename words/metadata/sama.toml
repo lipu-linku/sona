@@ -6,9 +6,17 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ante"]
+sona_pona = "https://sona.pona.la/wiki/sama"
 source_language = "multiple"
 usage_category = "core"
 word = "sama"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sama.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sama.mp3"
 
 [[etymology]]
 word = "sama"
@@ -21,10 +29,6 @@ word = "sama"
 
 [[etymology]]
 word = "same"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sama.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sama.mp3"
 
 [ku_data]
 alike = 100
@@ -57,12 +61,12 @@ en = "ADJECTIVE same, similar; each other; sibling, peer, fellow\nPREPOSITION as
 eo = "ADJEKTIVO sama, simila; unu la alia; gefrata, kamarada, kunula\nPREPOZICIO kiel, simile al"
 fr = "ADJECTIF même, semblable; l'un l'autre ; fraternel, homologue\nPRÉPOSITION comme"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "⚖️"
 sitelen_pona = ["sama"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sama.jpg"
 ucsur = "U+F1956"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

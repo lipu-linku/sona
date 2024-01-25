@@ -6,9 +6,13 @@ coined_era = "pre-pu"
 coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["nena"]
+sona_pona = "https://sona.pona.la/wiki/kapa"
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "kapa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapa.mp3"
 
 [[etymology]]
 word = "kop"
@@ -19,17 +23,14 @@ word = "kapo"
 [[etymology]]
 word = "caput"
 
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapa.mp3"
-
-[recognition]
-2020-04 = 13
-2021-10 = 20
-2022-08 = 2
-2023-09 = 1
-
 [representations]
 sitelen_emosi = ""
 sitelen_pona = []
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 13
+2021-10 = 20
+2022-08 = 2
+2023-09 = 1

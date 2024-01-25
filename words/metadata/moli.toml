@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["pini"]
+sona_pona = "https://sona.pona.la/wiki/moli"
 source_language = "Acadian French"
 usage_category = "core"
 word = "moli"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/moli.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/moli.mp3"
 
 [[etymology]]
 word = "mourir"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/moli.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/moli.mp3"
 
 [ku_data]
 dead = 94
@@ -33,12 +37,12 @@ en = "ADJECTIVE dead, dying"
 eo = "ADJEKTIVO mortinta, mortanta"
 fr = "ADJECTIF mort, mourant"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "💀"
 sitelen_pona = ["moli"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moli.jpg"
 ucsur = "U+F1937"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

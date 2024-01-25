@@ -6,29 +6,30 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["unknown"]
 see_also = ["pona", "ke", "n", "a"]
+sona_pona = "https://sona.pona.la/wiki/oke"
 source_language = "English"
 usage_category = "uncommon"
 word = "oke"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
 
 [[etymology]]
 word = "okay"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
 
 [ku_data]
 OK = 10
 alright = 9
 fine = 7
 
-[recognition]
-2020-04 = 25
-2021-10 = 40
-2022-08 = 16
-2023-09 = 24
-
 [representations]
 sitelen_emosi = "👌"
 sitelen_pona = ["oke"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 25
+2021-10 = 40
+2022-08 = 16
+2023-09 = 24

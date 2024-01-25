@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/telo"
 source_language = "Acadian French"
 usage_category = "core"
 word = "telo"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/telo.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/telo.mp3"
 
 [[etymology]]
 word = "de l’eau"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/telo.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/telo.mp3"
 
 [ku_data]
 drink = 33
@@ -34,12 +38,12 @@ en = "NOUN water, liquid, fluid, wet substance; beverage"
 eo = "SUBSTANTIVO akvo, likvo, fluaĵo, malseka substanco; trinkaĵo"
 fr = "NOM eau, liquide, fluide, substance mouillée, boisson"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "💧"
 sitelen_pona = ["telo"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/telo.jpg"
 ucsur = "U+F196A"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

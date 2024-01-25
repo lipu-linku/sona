@@ -6,22 +6,23 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["kapesi Pake"]
 see_also = ["loje", "jelo"]
+sona_pona = "https://sona.pona.la/wiki/nalanja"
 source_language = "Spanish"
 usage_category = "obscure"
 word = "nalanja"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nalanja.mp3"
 
 [[etymology]]
 word = "naranja"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nalanja.mp3"
-
-[recognition]
-2022-08 = 1
-2023-09 = 3
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["nalanja"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 1
+2023-09 = 3

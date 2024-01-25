@@ -9,20 +9,20 @@ see_also = ["suwi", "pilin"]
 source_language = "English"
 usage_category = "obscure"
 word = "jami"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jami.mp3"
 
 [[etymology]]
 word = "yummy"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jami.mp3"
-
-[recognition]
-2021-10 = 29
-2022-08 = 5
-2023-09 = 6
 
 [representations]
 sitelen_emosi = "🤤"
 sitelen_pona = ["jami"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2021-10 = 29
+2022-08 = 5
+2023-09 = 6
