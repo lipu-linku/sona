@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/jaki"
 source_language = "English"
 usage_category = "core"
 word = "jaki"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaki.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jaki.mp3"
 
 [[etymology]]
 word = "yucky"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jaki.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaki.mp3"
 
 [ku_data]
 bacteria = 67
@@ -44,12 +48,12 @@ en = "ADJECTIVE disgusting, obscene, sickly, toxic, unclean, unsanitary"
 eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
 fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "💩"
 sitelen_pona = ["jaki", "jaki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
 ucsur = "U+F1910"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

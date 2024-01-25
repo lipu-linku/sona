@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/jan"
 source_language = "Cantonese"
 usage_category = "core"
 word = "jan"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jan.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jan.mp3"
 
 [[etymology]]
 alt = "jan"
 word = "人"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jan.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jan.mp3"
 
 [ku_data]
 Hominidae = 27
@@ -43,12 +47,12 @@ en = "NOUN human being, person, somebody"
 eo = "SUBSTANTIVO homo, persono, iu"
 fr = "NOM être humain, personne, quelqu'un"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "👤"
 sitelen_pona = ["jan"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jan.jpg"
 ucsur = "U+F1911"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

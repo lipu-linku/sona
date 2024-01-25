@@ -6,23 +6,24 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Kita"]
 see_also = ["mu", "jonke"]
+sona_pona = "https://sona.pona.la/wiki/nja"
 source_language = "Japanese"
 usage_category = "obscure"
 word = "nja"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nja.mp3"
 
 [[etymology]]
 alt = "nyā"
 word = "ニャー"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nja.mp3"
-
-[recognition]
-2022-08 = 5
-2023-09 = 9
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["nja"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 5
+2023-09 = 9

@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/ko"
 source_language = "Cantonese"
 usage_category = "core"
 word = "ko"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ko.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ko.mp3"
 
 [[etymology]]
 alt = "gou"
 word = "膏"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ko.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ko.mp3"
 
 [ku_data]
 clay = 60
@@ -37,12 +41,12 @@ en = "NOUN clay, clinging form, dough, semi-solid, paste, powder"
 eo = "SUBSTANTIVO argilo, kunteniĝanta aŭ glueca formo, pasto, duonsolidaĵo, pulvoro"
 fr = "NOM argle, pâte, poudre, substance collante, semi-solide"
 
-[recognition]
-2022-08 = 98
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "🍦"
 sitelen_pona = ["ko"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ko.jpg"
 ucsur = "U+F191C"
+
+[usage]
+2022-08 = 98
+2023-09 = 99

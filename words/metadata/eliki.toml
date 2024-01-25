@@ -6,21 +6,22 @@ coined_era = "post-ku"
 coined_year = ""
 creator = ["kala suno pi kulupu telo mun"]
 see_also = ["utala", "pilin", "ike"]
+sona_pona = "https://sona.pona.la/wiki/eliki"
 source_language = "Tsalagi"
 usage_category = "obscure"
 word = "eliki"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eliki.mp3"
 
 [[etymology]]
 word = "ehisdi"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eliki.mp3"
-
-[recognition]
-2023-09 = 3
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["eliki"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2023-09 = 3

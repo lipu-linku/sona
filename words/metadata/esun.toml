@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["mani"]
+sona_pona = "https://sona.pona.la/wiki/esun"
 source_language = "Akan"
 usage_category = "core"
 word = "esun"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/esun.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/esun.mp3"
 
 [[etymology]]
 word = "unknown"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/esun.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/esun.mp3"
 
 [ku_data]
 business = 48
@@ -47,13 +51,13 @@ en = "NOUN market, shop, fair, bazaar, business transaction"
 eo = "SUBSTANTIVO bazaro, vendejo, foiro, komerca transakcio"
 fr = "NOM marché, boutique, foire, magasin, commerce"
 
-[recognition]
-2020-04 = 97
-2022-08 = 96
-2023-09 = 98
-
 [representations]
 sitelen_emosi = "🛒"
 sitelen_pona = ["esun"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
 ucsur = "U+F190B"
+
+[usage]
+2020-04 = 97
+2022-08 = 96
+2023-09 = 98

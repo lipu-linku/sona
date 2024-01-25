@@ -6,23 +6,24 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Epen"]
 see_also = ["a"]
+sona_pona = "https://sona.pona.la/wiki/ako"
 source_language = "Korean"
 usage_category = "obscure"
 word = "ako"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ako.mp3"
 
 [[etymology]]
 alt = "aigo"
 word = "아이고"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ako.mp3"
-
-[recognition]
-2022-08 = 0
-2023-09 = 0
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["ako"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 0
+2023-09 = 0

@@ -6,23 +6,24 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Lenoka"]
 see_also = ["utala", "pakala", "tawa", "anpa"]
+sona_pona = ""
 source_language = "Armenian"
 usage_category = "obscure"
 word = "awase"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awase.mp3"
 
 [[etymology]]
 alt = "harvacel"
 word = "հարվածել"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awase.mp3"
-
-[recognition]
-2022-08 = 0
-2023-09 = 1
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["awase"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 0
+2023-09 = 1

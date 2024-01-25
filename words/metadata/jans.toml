@@ -6,9 +6,13 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = []
 see_also = ["jan"]
+sona_pona = "https://sona.pona.la/wiki/jans"
 source_language = "multiple"
 usage_category = "obscure"
 word = "jans"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jans.mp3"
 
 [[etymology]]
 word = "jan"
@@ -16,16 +20,13 @@ word = "jan"
 [[etymology]]
 word = "-/z/"
 
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jans.mp3"
-
-[recognition]
-2020-04 = 13
-2022-08 = 1
-2023-09 = 1
-
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["jans"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 13
+2022-08 = 1
+2023-09 = 1

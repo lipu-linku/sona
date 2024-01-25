@@ -6,22 +6,23 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Likipi"]
 see_also = ["kijetesantakalu"]
+sona_pona = ""
 source_language = "Latin"
 usage_category = "obscure"
 word = "kalijopilale"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalijopilale.mp3"
 
 [[etymology]]
 word = "Caryophyllales"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalijopilale.mp3"
-
-[recognition]
-2022-08 = 1
-2023-09 = 2
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["kalijopilale"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 1
+2023-09 = 2

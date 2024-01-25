@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/lawa"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "lawa"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lawa.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lawa.mp3"
 
 [[etymology]]
 alt = "глава"
 word = "glava"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lawa.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lawa.mp3"
 
 [ku_data]
 administer = 44
@@ -68,12 +72,12 @@ en = "NOUN head, mind VERB to control, direct, guide, lead, own, plan, regulate,
 eo = "SUBSTANTIVO kapo, menso\nVERBO gvidi, direkti, estri, konduki, posedi, plani, reguligi, regi"
 fr = "NOM tête\nVERBE dominer, diriger, guider, mener, posséder, régler"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "😶"
 sitelen_pona = ["lawa"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lawa.jpg"
 ucsur = "U+F1924"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

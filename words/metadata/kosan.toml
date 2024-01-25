@@ -6,22 +6,23 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Seni", "jan inwin"]
 see_also = ["awen"]
+sona_pona = "https://sona.pona.la/wiki/kosan"
 source_language = "Irish"
 usage_category = "obscure"
 word = "kosan"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kosan.mp3"
 
 [[etymology]]
 word = "cosain"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kosan.mp3"
-
-[recognition]
-2022-08 = 1
-2023-09 = 2
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["kosan"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2022-08 = 1
+2023-09 = 2

@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/ma"
 source_language = "Finnish"
 usage_category = "core"
 word = "ma"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ma.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ma.mp3"
 
 [[etymology]]
 word = "maa"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ma.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ma.mp3"
 
 [ku_data]
 acre = 25
@@ -59,12 +63,12 @@ en = "NOUN earth, land; outdoors, world; country, territory; soil"
 eo = "SUBSTANTIVO tero, terpeco; eksterdoma subĉiela loko, mondo; lando, ŝtato, teritorio; tero (substanco)"
 fr = "NOM terre, sol ; monde, lieu en plien air ; pays, territoire"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "🏝️"
 sitelen_pona = ["ma"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
 ucsur = "U+F1930"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

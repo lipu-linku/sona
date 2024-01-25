@@ -6,23 +6,24 @@ coined_era = "post-pu"
 coined_year = ""
 creator = ["unknown"]
 see_also = ["a", "wa"]
+sona_pona = ""
 source_language = "English"
 usage_category = "obscure"
 word = "je"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/je.mp3"
 
 [[etymology]]
 word = "yay"
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/je.mp3"
-
-[recognition]
-2021-10 = 20
-2022-08 = 1
-2023-09 = 3
 
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["je"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2021-10 = 20
+2022-08 = 1
+2023-09 = 3

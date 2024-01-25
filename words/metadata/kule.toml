@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/kule"
 source_language = "Acadian French"
 usage_category = "core"
 word = "kule"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kule.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kule.mp3"
 
 [[etymology]]
 word = "couleur"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kule.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kule.mp3"
 
 [ku_data]
 "LGBTQ+" = 35
@@ -32,12 +36,12 @@ en = "ADJECTIVE colourful, pigmented, painted"
 eo = "ADJEKTIVO kolora, pigmenta, pentrita"
 fr = "ADJECTIF coloré, pigmenté, peint"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "🌈"
 sitelen_pona = ["kule"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kule.jpg"
 ucsur = "U+F191E"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

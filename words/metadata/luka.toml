@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["noka"]
+sona_pona = "https://sona.pona.la/wiki/luka"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "luka"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/luka.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/luka.mp3"
 
 [[etymology]]
 alt = "ruka"
 word = "рука"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/luka.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/luka.mp3"
 
 [ku_data]
 arm = 68
@@ -37,12 +41,12 @@ en = "NOUN arm, hand, tactile organ\nNUMBER five"
 eo = "SUBSTANTIVO brako, mano, tuŝorgano\nNOMBRO kvin"
 fr = "NOM bras, main, organe du toucher\nNOMBRE cinq"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "✋"
 sitelen_pona = ["luka"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/luka.jpg"
 ucsur = "U+F192D"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

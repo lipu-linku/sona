@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/kepeken"
 source_language = "Dutch"
 usage_category = "core"
 word = "kepeken"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kepeken.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kepeken.mp3"
 
 [[etymology]]
 word = "gebruiken"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kepeken.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kepeken.mp3"
 
 [ku_data]
 employ = 50
@@ -33,12 +37,12 @@ en = "PREPOSITION to use, with, by means of"
 eo = "PREPOZICIO uzi, per, uzante"
 fr = "PRÉPOSITION en utilisant, avec, au moyen de"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "🔧"
 sitelen_pona = ["kepeken"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kepeken.jpg"
 ucsur = "U+F1919"
+
+[usage]
+2022-08 = 99
+2023-09 = 100
