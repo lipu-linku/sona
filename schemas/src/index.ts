@@ -26,6 +26,12 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
+		sona_pona: z
+			.string()
+			.url()
+			.describe(
+				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+			),
 		representations: z
 			.object({
 				sitelen_emosi: z
