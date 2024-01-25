@@ -5,17 +5,13 @@ on:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
+      - "schemas/src/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-
-  workflow_call:
-    inputs:
-      commit_sha:
-        type: string
-        required: true
+      - "schemas/src/**"
 
   workflow_dispatch:
 
@@ -24,21 +20,71 @@ permissions:
 
 jobs:
   validate:
-    env:
-      BranchRef: ${{ github.event_name == 'workflow_run' && inputs.commit_sha || github.sha }}
     runs-on: ubuntu-latest
+    name: Generate schemas, validate and package TOMLs
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          ref: ${{ env.BranchRef }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            schemas:
+              - 'schemas/src/**'
+            data:
+              - '**.toml'
+
+      - name: Setup pnpm
+        if: steps.changes.outputs.changes.schemas == 'true'
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: |
+            - args: [--frozen-lockfile]
+
+      - name: Generate JSON Schemas
+        if: steps.changes.outputs.changes.schemas == 'true'
+        run: pnpm run generate
+        working-directory: ./schemas
+
+      - name: Commit schemas
+        if: steps.changes.outputs.changes.schemas == 'true'
+        id: commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
       - name: Validate all files
         run: npx --yes @taplo/cli check
 
-  package:
-    needs: validate
-    permissions:
-      contents: write
-    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
-    uses: ./.github/workflows/package_data.yml
+      - name: Setup Python
+        if: steps.changes.outputs.changes.data == 'true'
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.1
+
+      - name: Install dependencies
+        if: steps.changes.outputs.changes.data == 'true'
+        run: pip install tomlkit && npm i -g ajv-cli ajv-formats
+
+      - name: Generate raw data file
+        if: steps.changes.outputs.changes.data == 'true'
+        run: python .github/workflows/package_data.py
+
+      - name: Validate generated file
+        if: steps.changes.outputs.changes.data == 'true'
+        run: |
+          list=(./raw/*.json)
+          for file in "${list[@]}"; do 
+            npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file;
+          done
+
+      - name: Commit packaged files
+        uses: EndBug/add-and-commit@v9
+        if: steps.changes.outputs.changes.data == 'true'
+        with:
+          message: "Generated raw JSON files for ${{ github.sha }}"

@@ -8,15 +8,12 @@ on:
     types: [created]
   workflow_dispatch:
 
-permissions: 
+permissions:
   id-token: write
 
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./schemas
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,10 +25,13 @@ jobs:
         with:
           version: 8
 
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install -r --frozen-lockfile
 
-      - run: pnpm run build
+      - run: pnpm run -r build
 
-      - run: npm publish --tag ${{ github.event.release.prerelease && 'next' || 'latest' }} --provenance
+      - run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+          pnpm publish --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
+        working-directory: ./schemas
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
