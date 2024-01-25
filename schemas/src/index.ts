@@ -80,21 +80,17 @@ export const Word = z
 				}),
 			)
 			.describe("Unlocalized etymological values regarding this word's origin"),
-		audio: z
-			.object({
-				jan_lakuse: z
-					.string()
-					.url()
-					.optional()
-					.describe(
-						"jan Lakuse's pronounciation of the word, made for jan Sonja's Memrise course: https://archive.org/details/toki-pona-audio-by-jan-lakuse",
-					),
-				kala_asi: z
-					.string()
-					.url()
-					.describe("kala Asi's pronounciation of the word, made for the Linku Project"),
-			})
-			.describe("Audio files of the words pronounced out loud"),
+		audio: z.array(
+			z
+				.object({
+					author: z.string().describe("The author of the audio file in `link`."),
+					link: z
+						.string()
+						.url()
+						.describe("A link to the audio file for the word, pronounced by `author`."),
+				})
+				.describe("Audio files of the words pronounced out loud"),
+		),
 		pu_verbatim: z
 			.object({
 				en: z.string().describe("The original definition in the English version of pu"),
