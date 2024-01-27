@@ -10,6 +10,7 @@ on:
 
 permissions:
   id-token: write
+  contents: write
 
 jobs:
   publish-npm:
@@ -25,6 +26,9 @@ jobs:
         with:
           version: 8
 
+      - run: pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
+        working-directory: ./schemas
+
       - run: pnpm install -r --frozen-lockfile
 
       - run: pnpm run -r build
@@ -35,3 +39,8 @@ jobs:
         working-directory: ./schemas
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: Bumps version of @kulupu-linku/sona to ${{ github.event.release.tag_name }}
+          add: schemas/package.json
