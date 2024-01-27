@@ -1,5 +1,6 @@
 import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
+import { HTTPException } from "hono/http-exception";
 import { z } from "zod";
 import { fetchWithZod } from "..";
 import { languagesFilter } from "../utils";
@@ -31,7 +32,7 @@ const app = new Hono()
 		async (c) => {
 			const data = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
 			const word = data[c.req.param("word")];
-			if (!word) return c.notFound();
+			if (!word) throw new HTTPException(404, { message: `Could not find a word named ${word}` });
 
 			return c.json(word);
 		},
@@ -55,7 +56,8 @@ const app = new Hono()
 				rawFile("v1", "fingerspelling.json"),
 			);
 			const sign = data[c.req.param("sign")];
-			if (!sign) return c.notFound();
+			if (!sign) throw new HTTPException(404, { message: `Could not find a sign named ${sign}` });
+
 			return c.json(sign);
 		},
 	)
@@ -73,7 +75,8 @@ const app = new Hono()
 		async (c) => {
 			const data = await fetchWithZod(versions.v1.schemas.signs, rawFile("v1", "signs.json"));
 			const sign = data[c.req.param("sign")];
-			if (!sign) return c.notFound();
+			if (!sign) throw new HTTPException(404, { message: `Could not find a sign named ${sign}` });
+
 			return c.json(sign);
 		},
 	)
@@ -84,9 +87,13 @@ const app = new Hono()
 
 	.get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
 		const data = await fetchWithZod(versions.v1.schemas.fonts, rawFile("v1", "fonts.json"));
-		const sign = data[c.req.param("font")];
-		if (!sign) return c.notFound();
-		return c.json(sign);
+		const font = data[c.req.param("font")];
+		if (!font)
+			throw new HTTPException(404, {
+				message: `Could not find a font named ${font}`,
+			});
+
+		return c.json(font);
 	});
 
 export default app;
