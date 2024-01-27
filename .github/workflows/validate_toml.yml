@@ -52,7 +52,7 @@ jobs:
         working-directory: ./schemas
 
       - name: Commit schemas
-        if: contains(steps.changes.outputs.changes, 'schemas')
+        if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.base.repo.fork
         uses: EndBug/add-and-commit@v9
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
@@ -88,6 +88,6 @@ jobs:
 
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
-        if: contains(steps.changes.outputs.changes, 'data')
+        if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.base.repo.fork
         with:
           message: "Generated raw JSON files for ${{ github.sha }}"
