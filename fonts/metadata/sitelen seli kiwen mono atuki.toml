@@ -1,7 +1,7 @@
 #:schema ../../schemas/generated/font.json
 creator = ["jan Lepeka"]
 features = [
-  "codepoints only",
+  "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "supports cartouches",
   "extended glyphs",
@@ -11,17 +11,17 @@ features = [
   "randomized jaki",
   "supports all ku lili and extensively more",
 ]
-filename = "sitelenselikiwenjuniko.ttf"
+filename = "sitelenselikiwenmonoatuki.ttf"
 last_updated = "2024-01"
 license = "OFL"
-ligatures = false
-name = "sitelen seli kiwen juniko"
+ligatures = true
+name = "sitelen seli kiwen mono atuki"
 style = "handwritten"
 ucsur = true
 version = "1.6"
-writing_system = "sitelen pona"
+writing_system = "tokiponido logography"
 
 [links]
-fontfile = "https://github.com/kreativekorp/sitelen-seli-kiwen/raw/main/sitelenselikiwenjuniko.ttf"
+fontfile = "https://github.com/kreativekorp/sitelen-seli-kiwen/raw/main/sitelenselikiwenmonoatuki.ttf"
 repo = "https://github.com/kreativekorp/sitelen-seli-kiwen"
 webpage = "https://www.kreativekorp.com/software/fonts/sitelenselikiwen/"
