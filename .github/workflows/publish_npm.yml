@@ -47,3 +47,4 @@ jobs:
         with:
           message: Bumps version of @kulupu-linku/sona to ${{ github.event.release.tag_name }}
           add: schemas/package.json
+          pull: --commit

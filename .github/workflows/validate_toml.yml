@@ -82,12 +82,9 @@ jobs:
             npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file;
           done
 
-      - name: Pull before pushing again
-        if: contains(steps.changes.outputs.changes, 'data')
-        run: git pull
-
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
         if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
         with:
-          message: "Generated raw JSON files for ${{ github.sha }}"
+          message: Generated raw JSON files for ${{ github.sha }}
+          pull: --commit
