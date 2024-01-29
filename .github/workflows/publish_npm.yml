@@ -43,8 +43,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - uses: EndBug/add-and-commit@v9
+      - name: Push version changes to main branch
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          message: Bumps version of @kulupu-linku/sona to ${{ github.event.release.tag_name }}
-          add: schemas/package.json
-          pull: --commit
+          commit_message: "bump @kulupu-linku/sona version ${{ github.event.release.tag_name }}"
+          branch: ${{ github.event.repository.default_branch }}
+          file_pattern: schemas/package.json
