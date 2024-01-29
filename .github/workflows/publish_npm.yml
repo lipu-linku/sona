@@ -34,7 +34,7 @@ jobs:
 
       - run: pnpm install -r --frozen-lockfile
 
-      - run: pnpm run -r build && pnpm install -r -f --frozen-lockfile
+      - run: pnpm run -r build && pnpm install -r -f --frozen-lockfile && pnpm run -r build
 
       - run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
