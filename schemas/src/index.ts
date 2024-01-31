@@ -369,7 +369,10 @@ export const Fonts = z
 export type Fonts = z.infer<typeof Fonts>;
 
 export const Languages = z.record(
-	z.string().min(2),
+	z
+		.string()
+		.min(2)
+		.describe("The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."),
 	z
 		.object({
 			locale: z.string().describe("The locale code corresponding to the language."),
