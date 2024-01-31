@@ -236,7 +236,7 @@
             "propertyNames": {
               "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$"
             },
-            "description": "The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project"
+            "description": "The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project"
           },
           "translations": {
             "type": "object",
