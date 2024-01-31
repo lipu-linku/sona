@@ -3,30 +3,33 @@
   "definitions": {
     "languages": {
       "type": "object",
-      "properties": {
-        "locale": {
-          "type": "string",
-          "description": "The locale code corresponding to the language."
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "locale": {
+            "type": "string",
+            "description": "The locale code corresponding to the language."
+          },
+          "name_en": {
+            "type": "string",
+            "description": "The name of the language in English."
+          },
+          "name_tok": {
+            "type": "string",
+            "description": "The name of the language in Toki Pona."
+          },
+          "endonym": {
+            "type": "string",
+            "description": "The name of the language in that language."
+          }
         },
-        "name_en": {
-          "type": "string",
-          "description": "The name of the language in English."
-        },
-        "name_tok": {
-          "type": "string",
-          "description": "The name of the language in Toki Pona."
-        },
-        "endonym": {
-          "type": "string",
-          "description": "The name of the language in that language."
-        }
-      },
-      "required": [
-        "locale",
-        "name_en"
-      ],
-      "additionalProperties": false,
-      "description": "The languages offered by sona Linku."
+        "required": [
+          "locale",
+          "name_en"
+        ],
+        "additionalProperties": false,
+        "description": "The languages offered by sona Linku."
+      }
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
