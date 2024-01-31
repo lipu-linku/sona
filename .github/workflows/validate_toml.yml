@@ -19,7 +19,22 @@ permissions:
   contents: write
 
 jobs:
+  skip_check:
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    name: Check for and skip duplicate workflows
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@v5
+        with:
+          cancel_others: true
+          concurrent_skipping: 'outdated_runs'
+
   validate:
+    needs: skip_check
+    if: needs.skip_check.outputs.should_skip != 'true'
     runs-on: ubuntu-latest
     name: Generate schemas, validate and package TOMLs
     steps:

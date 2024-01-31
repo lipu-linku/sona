@@ -6,6 +6,7 @@ import {
 	FingerspellingSign,
 	Font,
 	Fonts,
+	Languages,
 	IconTranslation,
 	ParametersTranslation,
 	Sandbox,
@@ -42,6 +43,7 @@ export type Versions = {
 			sign_icons: z.ZodType;
 			fonts: z.ZodType;
 			font: z.ZodType;
+			languages: z.ZodType;
 		};
 	};
 };
@@ -65,6 +67,7 @@ export const versions = {
 			sign_icons: IconTranslation,
 			fonts: Fonts,
 			font: Font,
+			languages: Languages,
 		},
 	},
 } as const satisfies Versions;

@@ -55,7 +55,11 @@
           "additionalProperties": {
             "type": "number",
             "minimum": 0,
-            "maximum": 100
+            "maximum": 100,
+            "description": "The percentage of ku survey respondents who report this translation as accurate to their usage."
+          },
+          "propertyNames": {
+            "minLength": 1
           },
           "description": "The usage data of the word as described in ku (the official Toki Pona dictionary)"
         },
@@ -230,7 +234,7 @@
           "propertyNames": {
             "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$"
           },
-          "description": "The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project"
+          "description": "The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project"
         }
       },
       "required": [

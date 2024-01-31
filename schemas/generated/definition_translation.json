@@ -7,6 +7,9 @@
         "type": "string",
         "minLength": 1
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "Localized definitions of Toki Pona words"
     }
   },

@@ -12,5 +12,6 @@ Requirements:
 
 How to contribute:
 - Fork the repo and make any changes you want.
+- Build the schemas in `../schemas/` with `pnpm run build`
 - Run the dev server using `pnpm run -F sona-api dev` and verify that your changes work.
 - Create a pull request back to the main branch and request a review from a maintainer.

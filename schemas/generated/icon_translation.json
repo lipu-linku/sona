@@ -4,7 +4,9 @@
     "icon_translation": {
       "type": "object",
       "additionalProperties": {
-        "type": "string",
+        "type": "string"
+      },
+      "propertyNames": {
         "minLength": 1
       },
       "description": "Localized descriptions of the thing a sign represents."

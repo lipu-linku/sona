@@ -113,8 +113,7 @@
                   "additionalProperties": false
                 },
                 "icons": {
-                  "type": "string",
-                  "minLength": 1
+                  "type": "string"
                 }
               },
               "required": [
@@ -138,6 +137,9 @@
         ],
         "additionalProperties": false,
         "description": "Unlocalized info on a Luka Pona sign"
+      },
+      "propertyNames": {
+        "minLength": 1
       },
       "description": "A raw data object containing information about Luka Pona signs"
     }
