@@ -29,6 +29,9 @@
         ],
         "additionalProperties": false,
         "description": "The languages offered by sona Linku."
+      },
+      "propertyNames": {
+        "minLength": 2
       }
     }
   },

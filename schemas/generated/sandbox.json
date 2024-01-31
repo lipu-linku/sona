@@ -300,6 +300,9 @@
         "additionalProperties": false,
         "description": "General info on a Toki Pona word"
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "A raw data object containing dictionary info about Toki Pona sandbox"
     }
   },
