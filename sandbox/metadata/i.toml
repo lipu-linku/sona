@@ -13,10 +13,11 @@ word = "i"
 [[etymology]]
 word = "unknown"
 
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/i.mp3"
+[[audio]]
+author = "kala_asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/i.mp3"
 
-[recognition]
+[usage]
 2022-08 = 1
 2023-09 = 1
 

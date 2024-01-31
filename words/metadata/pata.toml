@@ -6,9 +6,13 @@ coined_era = "pre-pu"
 coined_year = "2002"
 creator = ["jan Sonja"]
 see_also = ["sama"]
+sona_pona = "https://sona.pona.la/wiki/pata"
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "pata"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pata.mp3"
 
 [[etymology]]
 alt = "brat"
@@ -20,21 +24,18 @@ word = "brata"
 [[etymology]]
 word = "brother"
 
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pata.mp3"
-
 [ku_data]
 cousin = 6
 sibling = 7
-
-[recognition]
-2020-04 = 28
-2021-10 = 36
-2022-08 = 5
-2023-09 = 4
 
 [representations]
 sitelen_emosi = "👯‍♀️"
 sitelen_pona = ["pata"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2020-04 = 28
+2021-10 = 36
+2022-08 = 5
+2023-09 = 4

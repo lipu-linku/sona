@@ -6,14 +6,15 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Olipija", "akesi kon Nalasuni"]
 see_also = ["kipisi"]
+sona_pona = "https://sona.pona.la/wiki/kiki"
 source_language = "a priori"
 usage_category = "uncommon"
 word = "kiki"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kiki.mp3"
 
 [[etymology]]
-
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kiki.mp3"
 
 [ku_data]
 angle = 8
@@ -21,13 +22,13 @@ point = 6
 sharp = 14
 spiky = 21
 
-[recognition]
-2021-10 = 41
-2022-08 = 21
-2023-09 = 29
-
 [representations]
 sitelen_emosi = ""
 sitelen_pona = ["kiki"]
 sitelen_sitelen = ""
 ucsur = ""
+
+[usage]
+2021-10 = 41
+2022-08 = 21
+2023-09 = 29

@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/sina"
 source_language = "Finnish"
 usage_category = "core"
 word = "sina"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sina.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sina.mp3"
 
 [[etymology]]
 word = "sinä"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sina.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sina.mp3"
 
 [ku_data]
 you = 94
@@ -29,12 +33,12 @@ en = "NOUN you"
 eo = "SUBSTANTIVO vi"
 fr = "NOM tu, toi, vous"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "👉"
 sitelen_pona = ["sina"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sina.jpg"
 ucsur = "U+F195E"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

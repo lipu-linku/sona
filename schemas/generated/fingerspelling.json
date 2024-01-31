@@ -116,6 +116,9 @@
         "additionalProperties": false,
         "description": "Unlocalized info on a fingerspelling sign."
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "A raw data object containing information about Luka Pona fingerspelling signs"
     }
   },

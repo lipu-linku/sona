@@ -6,9 +6,17 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ku"]
+sona_pona = "https://sona.pona.la/wiki/pu"
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pu"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pu.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pu.mp3"
 
 [[etymology]]
 alt = "pǔ"
@@ -16,10 +24,6 @@ word = "樸"
 
 [[etymology]]
 word = "book"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/pu.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pu.mp3"
 
 [ku_data]
 "interact with Toki Pona: The Language of Good" = 82
@@ -31,13 +35,13 @@ en = "ADJECTIVE interacting with the official Toki Pona book"
 eo = "ADJEKTIVO interaganta kun la oficiala libro de Tokipono"
 fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
 
-[recognition]
-2020-04 = 82
-2022-08 = 94
-2023-09 = 96
-
 [representations]
 sitelen_emosi = "📖"
 sitelen_pona = ["pu"]
 sitelen_sitelen = ""
 ucsur = "U+F1955"
+
+[usage]
+2020-04 = 82
+2022-08 = 94
+2023-09 = 96

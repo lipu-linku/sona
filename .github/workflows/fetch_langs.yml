@@ -1,0 +1,40 @@
+name: Fetch new languages from Crowdin
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  fetch-langs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.1
+
+      - name: Install dependencies
+        run: pip install tomlkit
+
+      - name: Update language data file
+        run: python .github/workflows/fetch_langs.py
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+
+      - name: Push version changes to main branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Add new language(s) from Crowdin"
+          branch: ${{ github.event.repository.default_branch }}
+          file_pattern: languages/metadata/languages.toml
+
+

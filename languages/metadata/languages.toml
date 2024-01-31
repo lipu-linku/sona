@@ -1,0 +1,384 @@
+#:schema ../../schemas/generated/languages.json
+[ar]
+locale = "ar-SA"
+
+[ar.name]
+en = "Standard Arabic"
+endonym = "اللغة العربية"
+tok = "toki Alapi"
+
+[ceb_l]
+locale = "ceb-PH"
+
+[ceb_l.name]
+en = "Cebuano (Latin)"
+endonym = "Sinugboanon (Sa Sinulatan Nga Latin)"
+tok = "toki Sinupuwanon (sitelen Lasina)"
+
+[cs]
+locale = "cs-CZ"
+
+[cs.name]
+en = "Czech"
+endonym = "Čeština"
+tok = "toki Seki"
+
+[cy]
+locale = "cy-GB"
+
+[cy.name]
+en = "Welsh"
+endonym = "Cymraeg"
+tok = "toki Kinli"
+
+[da]
+locale = "da-DK"
+
+[da.name]
+en = "Danish"
+endonym = "Dansk"
+tok = "toki Tansi"
+
+[de]
+locale = "de-DE"
+
+[de.name]
+en = "German"
+endonym = "Deutsch"
+tok = "toki Tosi"
+
+[el]
+locale = "el-GR"
+
+[el.name]
+en = "Greek"
+endonym = "Ελληνικά"
+tok = "toki Elena"
+
+[en]
+locale = "en-US"
+
+[en.name]
+en = "English"
+endonym = "English"
+tok = "toki Inli"
+
+[eng]
+locale = "eng-2"
+
+[eng.name]
+en = "Definition Rework"
+endonym = "Definition Rework"
+tok = "sona nimi sin"
+
+[eo]
+locale = "eo-UY"
+
+[eo.name]
+en = "Esperanto"
+endonym = "Esperanto"
+tok = "toki Epelanto"
+
+[es]
+locale = "es-ES"
+
+[es.name]
+en = "Spanish"
+endonym = "Español"
+tok = "toki Epanja"
+
+[fi]
+locale = "fi-FI"
+
+[fi.name]
+en = "Finnish"
+endonym = "Suomi"
+tok = "toki Sumi"
+
+[fr]
+locale = "fr-FR"
+
+[fr.name]
+en = "French"
+endonym = "Français"
+tok = "toki Kanse"
+
+[haw]
+locale = "haw-US"
+
+[haw.name]
+en = "Hawaiian"
+endonym = "ʻŌlelo Hawaiʻi"
+tok = "toki Awaje"
+
+[he]
+locale = "he-IL"
+
+[he.name]
+en = "Hebrew"
+endonym = "עברית"
+tok = "toki Iwisi"
+
+[hi]
+locale = "hi-IN"
+
+[hi.name]
+en = "Hindi"
+endonym = "हिंदी"
+tok = "toki Insi"
+
+[hr]
+locale = "hr-HR"
+
+[hr.name]
+en = "Croatian"
+endonym = "Hrvatski"
+tok = "toki Lowasi"
+
+[id]
+locale = "id-ID"
+
+[id.name]
+en = "Indonesian"
+endonym = "Bahasa Indonesia"
+tok = "toki Intonesija"
+
+[io]
+locale = "io-EN"
+
+[io.name]
+en = "Ido"
+endonym = "Ido"
+tok = "toki Ito"
+
+[isv_c]
+locale = "isvc"
+
+[isv_c.name]
+en = "Interslavic (Cyrillic)"
+endonym = "Меджусловјанскы (кирилица)"
+tok = "toki Mesulojanki (sitelen Kililisa)"
+
+[isv_l]
+locale = "isvl"
+
+[isv_l.name]
+en = "Interslavic (Latin)"
+endonym = "Medžuslovjansky (latinica)"
+tok = "toki Mesulojanki (sitelen Lasina)"
+
+[it]
+locale = "it-IT"
+
+[it.name]
+en = "Italian"
+endonym = "Italiano"
+tok = "toki Italija"
+
+[ith_n]
+locale = "itk"
+
+[ith_n.name]
+en = "New Ithkuil"
+endonym = "Malëuţřait"
+tok = "toki Ikuwi"
+
+[ja]
+locale = "ja-JP"
+
+[ja.name]
+en = "Japanese"
+endonym = "日本語"
+tok = "toki Nijon"
+
+[ko]
+locale = "ko-KR"
+
+[ko.name]
+en = "Korean"
+endonym = "한국어"
+tok = "toki Anku"
+
+[la]
+locale = "la-LA"
+
+[la.name]
+en = "Latin"
+endonym = "Latina"
+tok = "toki Lasina"
+
+[lou]
+locale = "lou"
+
+[lou.name]
+en = "Louisiana Creole"
+endonym = "Kouri-Vini"
+tok = "toki Kuliwini"
+
+[lt]
+locale = "lt-LT"
+
+[lt.name]
+en = "Lithuanian"
+endonym = "Lietuvių"
+tok = "toki Lijutawa"
+
+[mi]
+locale = "mi-NZ"
+
+[mi.name]
+en = "Māori"
+endonym = "Te Reo Māori"
+tok = "toki Mali"
+
+[nl]
+locale = "nl-NL"
+
+[nl.name]
+en = "Dutch"
+endonym = "Nederlands"
+tok = "toki Netelan"
+
+[nn]
+locale = "nn-NO"
+
+[nn.name]
+en = "Norwegian (Nynorsk)"
+endonym = "Norsk (Nynorsk)"
+tok = "toki Nosiki sin"
+
+[nb]
+locale = "nb-NO"
+
+[nb.name]
+en = "Norwegian (Bokmål)"
+endonym = "Norsk (Bokmål)"
+tok = "toki Nosiki"
+
+[pa]
+locale = "pa-IN"
+
+[pa.name]
+en = "Punjabi"
+endonym = "ਪੰਜਾਬੀ"
+tok = "toki Pansapi"
+
+[pl]
+locale = "pl-PL"
+
+[pl.name]
+en = "Polish"
+endonym = "Polski"
+tok = "toki Posuka"
+
+[pt]
+locale = "pt-BR"
+
+[pt.name]
+en = "Portuguese"
+endonym = "Português"
+tok = "toki Potuke"
+
+[ro]
+locale = "ro-RO"
+
+[ro.name]
+en = "Romanian"
+endonym = "Română"
+tok = "toki Lomuno"
+
+[ru]
+locale = "ru-RU"
+
+[ru.name]
+en = "Russian"
+endonym = "Русский"
+tok = "toki Losi"
+
+[sl]
+locale = "sl-SI"
+
+[sl.name]
+en = "Slovene"
+endonym = "Slovenščina"
+tok = "toki Lowensina"
+
+[sv]
+locale = "sv-SE"
+
+[sv.name]
+en = "Swedish"
+endonym = "Svenska"
+tok = "toki Sensa"
+
+[tkl]
+locale = "tkl"
+
+[tkl.name]
+en = "Tokelauan"
+endonym = "Te Gagana Tokelau"
+tok = "toki Tokela"
+
+[tl_l]
+locale = "tl-PH"
+
+[tl_l.name]
+en = "Tagalog (Latin)"
+endonym = "Tagalog (Latin)"
+tok = "toki Takalo (sitelen Lasina)"
+
+[tok]
+locale = "tok-US"
+
+[tok.name]
+en = "Toki Pona"
+endonym = "toki pona"
+tok = "toki pona"
+
+[tr]
+locale = "tr-TR"
+
+[tr.name]
+en = "Turkish"
+endonym = "Türkçe"
+tok = "toki Tuki"
+
+[uk]
+locale = "uk-UA"
+
+[uk.name]
+en = "Ukrainian"
+endonym = "Українська"
+tok = "toki Ukawina"
+
+[ur]
+locale = "ur-PK"
+
+[ur.name]
+en = "Urdu"
+endonym = "اردو"
+tok = "toki Utu"
+
+[yi]
+locale = "yi-DE"
+
+[yi.name]
+en = "Yiddish"
+endonym = "ייִדיש‎"
+tok = "toki Isisi"
+
+[zh_hans]
+locale = "zh-CN"
+
+[zh_hans.name]
+en = "Chinese (Simplified)"
+endonym = "中文（简体）"
+tok = "toki Sonko (sitelen Kansi pi ijo lili)"
+
+[zh_hant]
+locale = "zh-TW"
+
+[zh_hant.name]
+en = "Chinese (Traditional)"
+endonym = "中文（繁體）"
+tok = "toki Sonko (sitelen Kansi pi ijo mute)"

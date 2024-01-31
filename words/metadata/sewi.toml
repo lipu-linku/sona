@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["anpa"]
+sona_pona = "https://sona.pona.la/wiki/sewi"
 source_language = "Georgian"
 usage_category = "core"
 word = "sewi"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sewi.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sewi.mp3"
 
 [[etymology]]
 alt = "zevit"
 word = "ზევით"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sewi.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sewi.mp3"
 
 [ku_data]
 God = 39
@@ -49,12 +53,12 @@ en = "NOUN area above, highest part, something elevated\nADJECTIVE awe-inspiring
 eo = "SUBSTANTIVO spaco super io, plej alta parto de io, io pli alta\nADJEKTIVO miriga, dia, sankta, supernatura"
 fr = "NOM dessus, le haut, chose élevée\nADJECTIF divin, sacré, surnaturel, qui inspire le respect et la crainte"
 
-[recognition]
-2022-08 = 100
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "⬆️"
 sitelen_pona = ["sewi", "sewi2"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
 ucsur = "U+F195A"
+
+[usage]
+2022-08 = 100
+2023-09 = 99

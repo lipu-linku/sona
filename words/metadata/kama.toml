@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/kama"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "kama"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kama.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kama.mp3"
 
 [[etymology]]
 word = "kamap"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kama.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kama.mp3"
 
 [ku_data]
 arise = 33
@@ -43,12 +47,12 @@ en = "ADJECTIVE arriving, coming, future, summoned\nPRE-VERB to become, manage t
 eo = "ADJEKTIVO alvenanta, venonta, estonteca, venigita\nANTAŬVERBO iĝi, sukcesi, elturniĝi pri"
 fr = "ADJECTIF qui arrive, qui vent, futur, venu\nAUXILIAIRE devenir, arriver à, réussir à"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "🚶"
 sitelen_pona = ["kama"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kama.jpg"
 ucsur = "U+F1916"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

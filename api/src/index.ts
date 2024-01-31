@@ -3,7 +3,6 @@ import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { createZodFetcher } from "zod-fetch";
 import v1 from "./v1";
-import { HTTPException } from "hono/http-exception";
 
 export const fetchWithZod = createZodFetcher();
 
@@ -17,7 +16,7 @@ const app = new Hono({ strict: false })
 				ok: false,
 				message: err.message,
 			},
-			err["status"] ?? 500,
+			"status" in err && typeof err.status === "number" ? err.status : 500,
 		);
 	})
 	.get("/", (c) => {

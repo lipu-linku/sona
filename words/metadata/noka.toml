@@ -6,17 +6,21 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["luka"]
+sona_pona = "https://sona.pona.la/wiki/noka"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "noka"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/noka.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/noka.mp3"
 
 [[etymology]]
 alt = "noga"
 word = "нога"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/noka.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/noka.mp3"
 
 [ku_data]
 ankle = 50
@@ -34,12 +38,12 @@ en = "NOUN foot, leg, organ of locomotion; bottom, lower part"
 eo = "SUBSTANTIVO piedo, kruro, moviĝa organo; malsupro, malsupra"
 fr = "NOM pied, jambe, organe de locomotion ; bas, dessous"
 
-[recognition]
-2022-08 = 98
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "🦵"
 sitelen_pona = ["noka"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/noka.jpg"
 ucsur = "U+F1943"
+
+[usage]
+2022-08 = 98
+2023-09 = 99

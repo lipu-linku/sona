@@ -6,16 +6,20 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/kute"
 source_language = "Acadian French"
 usage_category = "core"
 word = "kute"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kute.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kute.mp3"
 
 [[etymology]]
 word = "écouter"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kute.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kute.mp3"
 
 [ku_data]
 ear = 90
@@ -29,12 +33,12 @@ en = "NOUN ear\nVERB to hear, listen; pay attention to, obey"
 eo = "SUBSTANTIVO orelo\nVERBO aŭdi, aŭskulti; atenti, obei"
 fr = "NOM oreille\nVERBE entendre, écouter ; faire attention à, obéir"
 
-[recognition]
-2022-08 = 99
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "👂"
 sitelen_pona = ["kute"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kute.jpg"
 ucsur = "U+F1920"
+
+[usage]
+2022-08 = 99
+2023-09 = 100

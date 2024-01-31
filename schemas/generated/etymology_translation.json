@@ -23,6 +23,9 @@
           "additionalProperties": false
         }
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "Localized etymological values for Toki Pona words"
     }
   },

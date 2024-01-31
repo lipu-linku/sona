@@ -5,6 +5,7 @@ from functools import partial
 from itertools import zip_longest
 from typing import Any
 
+import requests
 import tomlkit
 
 from jsonify_nimi import jsonify_nimi
@@ -54,11 +55,25 @@ def transform_etym_data(word: str, data: dict):
     return transable_etyms, untransable_etyms
 
 
-def transform_recognition_data(word: str, data: dict):
+def transform_usage_data(word: str, data: dict):
     new_recog = dict()
     for key, value in data.items():
         new_recog[key] = int(value)
     return new_recog
+
+
+NAME_TRANSFORM = {"jan_lakuse": "jan Lakuse", "kala_asi": "kala Asi"}
+
+
+def transform_audio_data(word: str, data: dict):
+    output = []
+    for name, link in data.items():
+        audio_item = {}
+        audio_item["author"] = NAME_TRANSFORM[name]
+        audio_item["link"] = link
+        output.append(audio_item)
+
+    return output
 
 
 def transform_to_list(word: str, data: str, splitter: str = ",") -> list:
@@ -98,9 +113,10 @@ TRANSFORM_MAP = {
     "sitelen_emosi": {TRANSFORMER: noop, DESTINATION: REPRESENTATIONS},
     # "luka_pona": {TRANSFORMER: partial(noop, _return_if_null=dict()), DESTINATION: WORDS},
     "luka_pona": {TRANSFORMER: trash},  # to be replaced with totally different doc
-    "audio": {TRANSFORMER: partial(noop, _return_if_null=dict()), DESTINATION: WORDS},
+    "audio": {TRANSFORMER: transform_audio_data, DESTINATION: WORDS},
     "coined_year": {TRANSFORMER: noop, DESTINATION: WORDS},
     "coined_era": {TRANSFORMER: noop, DESTINATION: WORDS},
+    "sona_pona": {TRANSFORMER: noop, DESTINATION: WORDS},
     "book": {TRANSFORMER: partial(noop, _return_if_null="none"), DESTINATION: WORDS},
     "usage_category": {
         TRANSFORMER: partial(noop, _return_if_null="obscure"),
@@ -117,7 +133,7 @@ TRANSFORM_MAP = {
         DESTINATION: WORDS,
     },
     "ku_data": {TRANSFORMER: transform_ku_data, DESTINATION: WORDS},
-    "recognition": {TRANSFORMER: transform_recognition_data, DESTINATION: WORDS},
+    "usage": {TRANSFORMER: transform_usage_data, DESTINATION: WORDS},
     "see_also": {
         TRANSFORMER: partial(transform_to_list, splitter=","),
         DESTINATION: WORDS,
@@ -148,6 +164,8 @@ TRANSLATION_MAP = {
     },
 }
 
+SONA_PONA_LINK = "https://sona.pona.la/wiki/%s"
+
 
 def write_translated(
     data: dict,
@@ -174,6 +192,14 @@ def main():
         data = jasima["data"]
 
     for word in data.keys():
+        data[word]["usage"] = data[word]["recognition"]
+        del data[word]["recognition"]
+
+        if word != "we1":
+            resp = requests.get(SONA_PONA_LINK % word)
+            if resp.status_code == 200:
+                data[word]["sona_pona"] = SONA_PONA_LINK % word
+
         for field in TRANSFORM_MAP.keys():
             fetched = data[word].get(field)
             formatted = TRANSFORM_MAP[field][TRANSFORMER](word, fetched)
@@ -228,12 +254,12 @@ def main():
     #     "commentary.toml",
     #     schema="../../schemas/generated/commentary_translation.json",
     # )
-    write_translated(
-        ETYMOLOGY,
-        "../words/translations",
-        "etymology.toml",
-        schema="../../schemas/generated/etymology_translation.json",
-    )
+    # write_translated(
+    #     ETYMOLOGY,
+    #     "../words/translations",
+    #     "etymology.toml",
+    #     schema="../../schemas/generated/etymology_translation.json",
+    # )
     # write_translated(
     #     SP_ETYMOLOGY,
     #     "../translations",

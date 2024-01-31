@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/poki"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "poki"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poki.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/poki.mp3"
 
 [[etymology]]
 word = "bokis"
 
 [[etymology]]
 word = "box"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/poki.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poki.mp3"
 
 [ku_data]
 bag = 87
@@ -52,12 +56,12 @@ en = "NOUN container, bag, bowl, box, cup, cupboard, drawer, vessel"
 eo = "SUBSTANTIVO ujo, sako, bovlo, skatolo, taso, ŝranko, tirkesto"
 fr = "NOM sac, bol, récipient, tasse, placard, tiroir, vase"
 
-[recognition]
-2022-08 = 99
-2023-09 = 99
-
 [representations]
 sitelen_emosi = "📦"
 sitelen_pona = ["poki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/poki.jpg"
 ucsur = "U+F1953"
+
+[usage]
+2022-08 = 99
+2023-09 = 99

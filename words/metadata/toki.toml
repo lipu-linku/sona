@@ -6,19 +6,23 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
+sona_pona = "https://sona.pona.la/wiki/toki"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "toki"
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/toki.mp3"
+
+[[audio]]
+author = "jan Lakuse"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/toki.mp3"
 
 [[etymology]]
 word = "tok"
 
 [[etymology]]
 word = "talk"
-
-[audio]
-jan_lakuse = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/toki.mp3"
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/toki.mp3"
 
 [ku_data]
 accuse = 25
@@ -92,12 +96,12 @@ en = "VERB to communicate, say, speak, say, talk, use language, think"
 eo = "VERBO komuniki, diri, paroli, uzi lingvon, pensi"
 fr = "VERBE communiquer, dire, parler, penser"
 
-[recognition]
-2022-08 = 100
-2023-09 = 100
-
 [representations]
 sitelen_emosi = "🗣️"
 sitelen_pona = ["toki"]
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/toki.jpg"
 ucsur = "U+F196C"
+
+[usage]
+2022-08 = 100
+2023-09 = 100

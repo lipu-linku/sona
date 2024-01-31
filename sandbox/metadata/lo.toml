@@ -13,10 +13,11 @@ word = "lo"
 [[etymology]]
 word = "alu"
 
-[audio]
-kala_asi = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lo.mp3"
+[[audio]]
+author = "kala_asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lo.mp3"
 
-[recognition]
+[usage]
 2021-10 = 20
 2022-08 = 0
 2023-09 = 1
