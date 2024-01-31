@@ -239,18 +239,18 @@ en = "Dutch"
 endonym = "Nederlands"
 tok = "toki Netelan"
 
-[nno]
+[nn]
 locale = "nn-NO"
 
-[nno.name]
+[nn.name]
 en = "Norwegian (Nynorsk)"
 endonym = "Norsk (Nynorsk)"
 tok = "toki Nosiki sin"
 
-[nob]
+[nb]
 locale = "nb-NO"
 
-[nob.name]
+[nb.name]
 en = "Norwegian (Bokmål)"
 endonym = "Norsk (Bokmål)"
 tok = "toki Nosiki"
