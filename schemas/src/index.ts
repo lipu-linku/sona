@@ -20,7 +20,16 @@ export const Word = z
 		coined_year: z.string().describe("The year when this word was coined (if known)"),
 		creator: z.array(z.string()).describe("The person who created this word (if known)"),
 		ku_data: z
-			.record(z.number().min(0).max(100))
+			.record(
+				z.string().min(1).describe("A translation of the word into English proposed in ku"),
+				z
+					.number()
+					.min(0)
+					.max(100)
+					.describe(
+						"The percentage of ku survey respondents who report this translation as accurate to their usage.",
+					),
+			)
 			.optional()
 			.describe(
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
