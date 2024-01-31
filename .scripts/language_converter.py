@@ -45,9 +45,9 @@ def main():
         jasima = json.loads(f.read())
         langs = jasima["languages"]
         for id, lang in langs.items():
-            new_langs[id]["name_tok"] = lang["name_toki_pona"]
-            new_langs[id]["name_en"] = lang["name_english"]
-            new_langs[id]["endonym"] = lang["name_endonym"]
+            new_langs[id]["name"]["tok"] = lang["name_toki_pona"]
+            new_langs[id]["name"]["en"] = lang["name_english"]
+            new_langs[id]["name"]["endonym"] = lang["name_endonym"]
 
     with open(CROWDIN_DATA, "r") as f:
         data = json.loads(f.read())
@@ -57,8 +57,8 @@ def main():
             target_id = resolve_id(new_langs, lang, mappings)
             assert target_id in new_langs or target_id in EXCEPTIONS
             new_langs[target_id]["locale"] = lang["locale"]
-            if not new_langs[target_id]["name_en"]:
-                new_langs[target_id]["name_en"] = lang["name"]
+            if not new_langs[target_id]["name"].get("en"):
+                new_langs[target_id]["name"]["en"] = lang["name"]
             # new_langs[target_id][""]
 
     with open("../languages/metadata/languages.toml", "w") as f:
