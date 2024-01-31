@@ -20,9 +20,9 @@ permissions:
 
 jobs:
   skip_check:
-    # continue-on-error: true # Uncomment once integration is finished
+    continue-on-error: true
     runs-on: ubuntu-latest
-    # Map a step output to a job output
+    name: Check for and skip duplicate workflows
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
