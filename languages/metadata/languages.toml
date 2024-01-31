@@ -1,4 +1,4 @@
-#:schema ../schemas/generated/languages.json
+#:schema ../../schemas/generated/languages.json
 [ar]
 endonym = "اللغة العربية"
 locale = "ar-SA"

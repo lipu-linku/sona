@@ -63,7 +63,7 @@ def main():
 
     with open("../languages/metadata/languages.toml", "w") as f:
         tomlified = tomlkit.dumps(new_langs, sort_keys=True)
-        tomlified = "#:schema ../schemas/generated/languages.json\n" + tomlified
+        tomlified = "#:schema ../../schemas/generated/languages.json\n" + tomlified
         f.write(tomlified)
 
 
