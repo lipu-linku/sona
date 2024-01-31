@@ -69,7 +69,7 @@ locale = "eng-2"
 [eng.name]
 en = "Definition Rework"
 endonym = "Definition Rework"
-name_tok = "sona nimi sin"
+tok = "sona nimi sin"
 
 [eo]
 locale = "eo-UY"
