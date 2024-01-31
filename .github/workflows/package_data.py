@@ -13,6 +13,7 @@ DATA_TYPES: Final[set[str]] = {
     "luka_pona/signs",
     "luka_pona/fingerspelling",
     "fonts",
+    "languages",
 }
 
 
