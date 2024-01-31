@@ -307,6 +307,7 @@ export type Font = z.infer<typeof Font>;
 
 export const Words = z
 	.record(
+		z.string().min(1),
 		Word.extend({
 			translations: z.record(
 				z.object({
@@ -355,6 +356,7 @@ export const Fonts = z
 export type Fonts = z.infer<typeof Fonts>;
 
 export const Languages = z.record(
+	z.string().min(2),
 	z
 		.object({
 			locale: z.string().describe("The locale code corresponding to the language."),
