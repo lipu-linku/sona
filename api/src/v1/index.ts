@@ -94,6 +94,11 @@ const app = new Hono()
 		return font
 			? c.json({ ok: true as const, data: font })
 			: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 404);
+	})
+	.get("/languages", async (c) => {
+		return c.json(
+			await fetchWithZod(versions.v1.schemas.languages, rawFile("v1", "languages.json")),
+		);
 	});
 
 export default app;
