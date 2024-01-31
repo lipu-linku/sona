@@ -128,25 +128,26 @@ export const Word = z
 export type Word = z.infer<typeof Word>;
 
 export const CommentaryTranslation = z
-	.record(z.string())
+	.record(z.string().min(1), z.string())
 	.describe("Localized commentary regarding Toki Pona words");
 
 export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
 
 export const DefinitionTranslation = z
-	.record(z.string().min(1))
+	.record(z.string().min(1), z.string().min(1))
 	.describe("Localized definitions of Toki Pona words");
 
 export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
 
 export const SitelenPonaTranslation = z
-	.record(z.string())
+	.record(z.string().min(1), z.string())
 	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
 
 export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
 
 export const EtymologyTranslation = z
 	.record(
+		z.string().min(1),
 		z.array(
 			z.object({
 				definition: z
@@ -243,6 +244,7 @@ export type FingerspellingSign = z.infer<typeof FingerspellingSign>;
 
 export const ParametersTranslation = z
 	.record(
+		z.string().min(1),
 		z.object({
 			handshape: z
 				.string()
@@ -260,7 +262,7 @@ export const ParametersTranslation = z
 export type ParametersTranslation = z.infer<typeof ParametersTranslation>;
 
 export const IconTranslation = z
-	.record(z.string().min(1))
+	.record(z.string().min(1), z.string())
 	.describe("Localized descriptions of the thing a sign represents.");
 
 export type IconTranslation = z.infer<typeof IconTranslation>;
@@ -338,6 +340,7 @@ export type Sandbox = z.infer<typeof Sandbox>;
 
 export const Signs = z
 	.record(
+		z.string().min(1),
 		Sign.extend({
 			translations: z.record(
 				z.object({
@@ -352,6 +355,7 @@ export type Signs = z.infer<typeof Signs>;
 
 export const Fingerspelling = z
 	.record(
+		z.string().min(1),
 		FingerspellingSign.extend({
 			translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
 		}),
