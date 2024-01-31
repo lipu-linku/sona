@@ -360,11 +360,13 @@ export const Languages = z.record(
 	z
 		.object({
 			locale: z.string().describe("The locale code corresponding to the language."),
-			name_en: z.string().describe("The name of the language in English."),
-			// These are optional because we can add a language via Crowdin and Crowdin doesn't provide these.
-			// Downstream projects should prefer endonym over name_en if both are available.
-			name_tok: z.string().optional().describe("The name of the language in Toki Pona."),
-			endonym: z.string().optional().describe("The name of the language in that language."),
+			name: z.object({
+				en: z.string().describe("The name of the language in English."),
+				// These are optional because we can add a language via Crowdin and Crowdin doesn't provide these.
+				// Downstream projects should prefer endonym over name_en if both are available.
+				tok: z.string().optional().describe("The name of the language in Toki Pona."),
+				endonym: z.string().optional().describe("The name of the language in that language."),
+			}),
 			// TODO: completion percentage on a per-file basis?
 			// we also care about completion within usage categories, since the most important words are core+widespread+common
 		})
