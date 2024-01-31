@@ -10,22 +10,31 @@
             "type": "string",
             "description": "The locale code corresponding to the language."
           },
-          "name_en": {
-            "type": "string",
-            "description": "The name of the language in English."
-          },
-          "name_tok": {
-            "type": "string",
-            "description": "The name of the language in Toki Pona."
-          },
-          "endonym": {
-            "type": "string",
-            "description": "The name of the language in that language."
+          "name": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "description": "The name of the language in English."
+              },
+              "tok": {
+                "type": "string",
+                "description": "The name of the language in Toki Pona."
+              },
+              "endonym": {
+                "type": "string",
+                "description": "The name of the language in that language."
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
           }
         },
         "required": [
           "locale",
-          "name_en"
+          "name"
         ],
         "additionalProperties": false,
         "description": "The languages offered by sona Linku."
