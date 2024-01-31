@@ -6,6 +6,9 @@
       "additionalProperties": {
         "type": "string"
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "Localized commentary regarding Toki Pona words"
     }
   },

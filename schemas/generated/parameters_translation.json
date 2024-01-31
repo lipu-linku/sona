@@ -25,6 +25,9 @@
         },
         "additionalProperties": false
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "Partly localized descriptions of how a sign is signed."
     }
   },
