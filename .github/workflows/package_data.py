@@ -1,6 +1,6 @@
 import json
-from typing import Any, Final, Iterator
 from pathlib import Path
+from typing import Any, Final, Iterator
 
 import tomlkit
 
@@ -42,8 +42,7 @@ def insert_translations(result: dict[str, Any], paths: Iterator[Path]):
                 if locale not in result[item]["translations"]:
                     result[item]["translations"][locale] = {}
 
-                result[item]["translations"][locale][data_kind] = \
-                    localized_data[item]
+                result[item]["translations"][locale][data_kind] = localized_data[item]
 
 
 if __name__ == "__main__":
