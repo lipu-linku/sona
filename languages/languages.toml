@@ -1,0 +1,288 @@
+#:schema ../../schemas/generated/languages.json
+[ar]
+endonym = "اللغة العربية"
+locale = "ar-SA"
+name_en = "Standard Arabic"
+name_tok = "toki Alapi"
+
+[ceb_l]
+endonym = "Sinugboanon (Sa Sinulatan Nga Latin)"
+locale = "ceb-PH"
+name_en = "Cebuano (Latin)"
+name_tok = "toki Sinupuwanon (sitelen Lasina)"
+
+[cs]
+endonym = "Čeština"
+locale = "cs-CZ"
+name_en = "Czech"
+name_tok = "toki Seki"
+
+[cy]
+endonym = "Cymraeg"
+locale = "cy-GB"
+name_en = "Welsh"
+name_tok = "toki Kinli"
+
+[da]
+endonym = "Dansk"
+locale = "da-DK"
+name_en = "Danish"
+name_tok = "toki Tansi"
+
+[de]
+endonym = "Deutsch"
+locale = "de-DE"
+name_en = "German"
+name_tok = "toki Tosi"
+
+[el]
+endonym = "Ελληνικά"
+locale = "el-GR"
+name_en = "Greek"
+name_tok = "toki Elena"
+
+[en]
+endonym = "English"
+locale = "en-US"
+name_en = "English"
+name_tok = "toki Inli"
+
+[eng]
+endonym = "Definition Rework"
+locale = "eng-2"
+name_en = "Definition Rework"
+name_tok = "sona nimi sin"
+
+[eo]
+endonym = "Esperanto"
+locale = "eo-UY"
+name_en = "Esperanto"
+name_tok = "toki Epelanto"
+
+[es]
+endonym = "Español"
+locale = "es-ES"
+name_en = "Spanish"
+name_tok = "toki Epanja"
+
+[fi]
+endonym = "Suomi"
+locale = "fi-FI"
+name_en = "Finnish"
+name_tok = "toki Sumi"
+
+[fr]
+endonym = "Français"
+locale = "fr-FR"
+name_en = "French"
+name_tok = "toki Kanse"
+
+[haw]
+endonym = "ʻŌlelo Hawaiʻi"
+locale = "haw-US"
+name_en = "Hawaiian"
+name_tok = "toki Awaje"
+
+[he]
+endonym = "עברית"
+locale = "he-IL"
+name_en = "Hebrew"
+name_tok = "toki Iwisi"
+
+[hi]
+endonym = "हिंदी"
+locale = "hi-IN"
+name_en = "Hindi"
+name_tok = "toki Insi"
+
+[hr]
+endonym = "Hrvatski"
+locale = "hr-HR"
+name_en = "Croatian"
+name_tok = "toki Lowasi"
+
+[id]
+endonym = "Bahasa Indonesia"
+locale = "id-ID"
+name_en = "Indonesian"
+name_tok = "toki Intonesija"
+
+[io]
+endonym = "Ido"
+locale = "io-EN"
+name_en = "Ido"
+name_tok = "toki Ito"
+
+[isv_c]
+endonym = "Меджусловјанскы (кирилица)"
+locale = "isvc"
+name_en = "Interslavic (Cyrillic)"
+name_tok = "toki Mesulojanki (sitelen Kililisa)"
+
+[isv_l]
+endonym = "Medžuslovjansky (latinica)"
+locale = "isvl"
+name_en = "Interslavic (Latin)"
+name_tok = "toki Mesulojanki (sitelen Lasina)"
+
+[it]
+endonym = "Italiano"
+locale = "it-IT"
+name_en = "Italian"
+name_tok = "toki Italija"
+
+[ith_n]
+endonym = "Malëuţřait"
+locale = "itk"
+name_en = "New Ithkuil"
+name_tok = "toki Ikuwi"
+
+[ja]
+endonym = "日本語"
+locale = "ja-JP"
+name_en = "Japanese"
+name_tok = "toki Nijon"
+
+[ko]
+endonym = "한국어"
+locale = "ko-KR"
+name_en = "Korean"
+name_tok = "toki Anku"
+
+[la]
+endonym = "Latina"
+locale = "la-LA"
+name_en = "Latin"
+name_tok = "toki Lasina"
+
+[lou]
+endonym = "Kouri-Vini"
+locale = "lou"
+name_en = "Louisiana Creole"
+name_tok = "toki Kuliwini"
+
+[lt]
+endonym = "Lietuvių"
+locale = "lt-LT"
+name_en = "Lithuanian"
+name_tok = "toki Lijutawa"
+
+[mi]
+endonym = "Te Reo Māori"
+locale = "mi-NZ"
+name_en = "Māori"
+name_tok = "toki Mali"
+
+[nl]
+endonym = "Nederlands"
+locale = "nl-NL"
+name_en = "Dutch"
+name_tok = "toki Netelan"
+
+[nno]
+endonym = "Norsk (Nynorsk)"
+locale = "nn-NO"
+name_en = "Norwegian (Nynorsk)"
+name_tok = "toki Nosiki sin"
+
+[nob]
+endonym = "Norsk (Bokmål)"
+locale = "nb-NO"
+name_en = "Norwegian (Bokmål)"
+name_tok = "toki Nosiki"
+
+[pa]
+endonym = "ਪੰਜਾਬੀ"
+locale = "pa-IN"
+name_en = "Punjabi"
+name_tok = "toki Pansapi"
+
+[pl]
+endonym = "Polski"
+locale = "pl-PL"
+name_en = "Polish"
+name_tok = "toki Posuka"
+
+[pt]
+endonym = "Português"
+locale = "pt-BR"
+name_en = "Brazilian Portuguese"
+name_tok = "toki Potuke"
+
+[ro]
+endonym = "Română"
+locale = "ro-RO"
+name_en = "Romanian"
+name_tok = "toki Lomuno"
+
+[ru]
+endonym = "Русский"
+locale = "ru-RU"
+name_en = "Russian"
+name_tok = "toki Losi"
+
+[sl]
+endonym = "Slovenščina"
+locale = "sl-SI"
+name_en = "Slovenian"
+name_tok = "toki Lowensina"
+
+[sv]
+endonym = "Svenska"
+locale = "sv-SE"
+name_en = "Swedish"
+name_tok = "toki Sensa"
+
+[tkl]
+endonym = "Te Gagana Tokelau"
+locale = "tkl"
+name_en = "Tokelauan"
+name_tok = "toki Tokela"
+
+[tl_l]
+endonym = "Tagalog (Latin)"
+locale = "tl-PH"
+name_en = "Tagalog (Latin)"
+name_tok = "toki Takalo (sitelen Lasina)"
+
+[tok]
+endonym = "toki pona"
+locale = "tok-US"
+name_en = "Toki Pona"
+name_tok = "toki pona"
+
+[tr]
+endonym = "Türkçe"
+locale = "tr-TR"
+name_en = "Turkish"
+name_tok = "toki Tuki"
+
+[uk]
+endonym = "Українська"
+locale = "uk-UA"
+name_en = "Ukrainian"
+name_tok = "toki Ukawina"
+
+[ur]
+endonym = "اردو"
+locale = "ur-PK"
+name_en = "Urdu"
+name_tok = "toki Utu"
+
+[yi]
+endonym = "ייִדיש‎"
+locale = "yi-DE"
+name_en = "Yiddish"
+name_tok = "toki Isisi"
+
+[zh_hans]
+endonym = "中文（简体）"
+locale = "zh-CN"
+name_en = "Chinese (Simplified)"
+name_tok = "toki Sonko (sitelen Kansi pi ijo lili)"
+
+[zh_hant]
+endonym = "中文（繁體）"
+locale = "zh-TW"
+name_en = "Chinese (Traditional)"
+name_tok = "toki Sonko (sitelen Kansi pi ijo mute)"
