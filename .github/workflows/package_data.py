@@ -61,6 +61,6 @@ if __name__ == "__main__":
 
         raw_filename = Path("raw") / Path(data_type).stem
         with open(raw_filename.with_suffix(".json"), "w+") as data_file:
-            json.dump(result, data_file, separators=(",", ":"))
+            json.dump(result, data_file, separators=(",", ":"), sort_keys=True)
 
     print("Done!")
