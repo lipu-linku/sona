@@ -120,7 +120,7 @@ export const Word = z
 				z.number().min(0).max(100),
 			)
 			.describe(
-				"The percentage of people in the Toki Pona community who recognize this word, according to surveys performed by the Linku Project",
+				"The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project",
 			),
 	})
 	.describe("General info on a Toki Pona word");
