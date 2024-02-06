@@ -17,9 +17,9 @@ ligatures = true
 name = "nasin nanpa"
 style = "uniform line weight"
 ucsur = true
-version = "3.0.0"
+version = "3.0.1"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://github.com/ETBCOR/nasin-nanpa/blob/main/versions/nasin-nanpa-3.0.0.otf"
+fontfile = "https://github.com/ETBCOR/nasin-nanpa/blob/main/versions/nasin-nanpa.otf"
 repo = "https://github.com/ETBCOR/nasin-nanpa"
