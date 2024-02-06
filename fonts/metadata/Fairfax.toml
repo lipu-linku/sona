@@ -12,13 +12,13 @@ features = [
   "supports all ku lili and extensively more",
 ]
 filename = "fairfax.ttf"
-last_updated = "2023-10"
+last_updated = "2024-02"
 license = "OFL"
 ligatures = false
 name = "Fairfax"
 style = "pixelated"
 ucsur = true
-version = "2023.10.28"
+version = "2024.02.05"
 writing_system = "sitelen pona"
 
 [links]

@@ -11,17 +11,17 @@ features = [
   "randomized jaki",
   "supports all ku lili and extensively more",
 ]
-filename = "sitelenselikiwenasuki.ttf"
+filename = "fairfax-pula.ttf"
 last_updated = "2024-02"
 license = "OFL"
 ligatures = true
-name = "sitelen seli kiwen asuki"
-style = "handwritten"
+name = "Fairfax Pula"
+style = "pixelated"
 ucsur = true
-version = "1.6.1"
-writing_system = "sitelen pona"
+version = "2024.02.05"
+writing_system = "tokiponido logography"
 
 [links]
-fontfile = "https://github.com/kreativekorp/sitelen-seli-kiwen/raw/main/sitelenselikiwenasuki.ttf"
-repo = "https://github.com/kreativekorp/sitelen-seli-kiwen"
-webpage = "https://www.kreativekorp.com/software/fonts/sitelenselikiwen/"
+fontfile = "https://github.com/kreativekorp/open-relay/raw/master/Fairfax/FairfaxPula.ttf"
+repo = "https://github.com/kreativekorp/open-relay/tree/master/Fairfax"
+webpage = "https://www.kreativekorp.com/software/fonts/fairfaxpona/#titipula"
