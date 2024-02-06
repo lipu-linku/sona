@@ -1,21 +1,25 @@
 #:schema ../../schemas/generated/font.json
 creator = ["jan Itan"]
 features = [
-  "codepoints only",
-  "supports nimi ku suli",
+  "ASCII transcription",
   "UCSUR-compliant",
+  "ku suli",
+  "supports cartouches",
+  "extended pi, a, lon, nasa, tawa",
   "combined glyphs",
+  "combined glyphs in cartouches and containers",
+  "many glyph variants",
 ]
 filename = "nasin-nanpa.otf"
-last_updated = "2022-05"
+last_updated = "2024-02"
 license = "MIT"
-ligatures = false
+ligatures = true
 name = "nasin nanpa"
 style = "uniform line weight"
 ucsur = true
-version = "2.5.1"
+version = "3.0.0"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://github.com/ETBCOR/nasin-nanpa/raw/main/versions/nasin-nanpa-2.7.1.otf"
-repo = "https://github.com/ETBCOR/linja-nanpa"
+fontfile = "https://github.com/ETBCOR/nasin-nanpa/blob/main/versions/nasin-nanpa-3.0.0.otf"
+repo = "https://github.com/ETBCOR/nasin-nanpa"
