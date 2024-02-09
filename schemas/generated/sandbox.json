@@ -246,7 +246,7 @@
                 "commentary": {
                   "type": "string"
                 },
-                "definitions": {
+                "definition": {
                   "type": "string",
                   "minLength": 1
                 },
@@ -276,7 +276,7 @@
               },
               "required": [
                 "commentary",
-                "definitions",
+                "definition",
                 "etymology",
                 "sp_etymology"
               ],
