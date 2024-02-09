@@ -323,7 +323,7 @@ export const Words = z
 			translations: z.record(
 				z.object({
 					commentary: CommentaryTranslation.valueSchema,
-					definitions: DefinitionTranslation.valueSchema,
+					definition: DefinitionTranslation.valueSchema,
 					etymology: EtymologyTranslation.valueSchema,
 					sp_etymology: SitelenPonaTranslation.valueSchema,
 				}),
