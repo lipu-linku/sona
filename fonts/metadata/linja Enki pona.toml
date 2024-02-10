@@ -1,0 +1,20 @@
+#:schema ../../schemas/generated/font.json
+creator = ["kije Enki"]
+features = [
+  "UCSUR-compliant",
+  "supports cartouches"
+]
+filename = "linjaEnkiPona1.0.1.ttf"
+last_updated = "2024-02"
+license = "OFL"
+ligatures = false
+name = "linja Enki pona"
+style = "handwritten"
+ucsur = true
+version = "1.0.1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/kijeEnki/linjaEnki/raw/main/linjaEnkipona1.0.1.ttf"
+repo = "https://github.com/kijeEnki/linjaEnki/tree/main"
+webpage = "https://sites.google.com/view/enky-stuff/home"
