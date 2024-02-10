@@ -2,7 +2,7 @@
 creator = ["kije Enki"]
 features = [
   "UCSUR-compliant",
-  "supports cartouches"
+  "supports cartouches",
 ]
 filename = "linjaEnkiPona1.0.1.ttf"
 last_updated = "2024-02"
