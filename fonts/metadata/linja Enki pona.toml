@@ -4,7 +4,7 @@ features = [
   "UCSUR-compliant",
   "supports cartouches",
 ]
-filename = "linjaEnkiPona1.0.1.ttf"
+filename = "linja-enki-pona.ttf"
 last_updated = "2024-02"
 license = "OFL"
 ligatures = false
