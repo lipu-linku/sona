@@ -40,14 +40,12 @@ export const Word = z
 				sona_pona: z
 					.string()
 					.url()
-					.optional()
 					.describe(
 						"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
 					),
 				lipamanka_semantic: z
 					.string()
 					.url()
-					.optional()
 					.describe("A link to lipamanka's description of the word's semantic space."),
 			})
 			.describe("Non-Linku resources related to the specific word, such as wiki links."),
