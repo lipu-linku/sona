@@ -58,9 +58,9 @@ export const Word = z
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
 				ligatures: z
-					.array(z.string())
+					.array(z.string().min(1))
 					.describe(
-						"A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs",
+						"A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
 					),
 				sitelen_sitelen: z
 					.string()
@@ -69,7 +69,6 @@ export const Word = z
 				ucsur: z
 					.string()
 					.regex(/^U\+[\da-fA-F]{4,6}$/g)
-					.or(z.literal(""))
 					.describe(
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
