@@ -84,6 +84,10 @@
               "description": "A link to lipamanka's description of the word's semantic space."
             }
           },
+          "required": [
+            "sona_pona",
+            "lipamanka_semantic"
+          ],
           "additionalProperties": false,
           "description": "Non-Linku resources related to the specific word, such as wiki links."
         },
