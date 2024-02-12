@@ -75,17 +75,15 @@
           "properties": {
             "sona_pona": {
               "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page."
             },
             "lipamanka_semantic": {
               "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "description": "A link to lipamanka's description of the word's semantic space."
             }
           },
-          "required": [
-            "sona_pona",
-            "lipamanka_semantic"
-          ],
           "additionalProperties": false,
           "description": "Non-Linku resources related to the specific word, such as wiki links."
         },
