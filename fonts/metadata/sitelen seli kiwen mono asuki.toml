@@ -12,13 +12,13 @@ features = [
   "supports all ku lili and extensively more",
 ]
 filename = "sitelenselikiwenmonoasuki.ttf"
-last_updated = "2024-01"
+last_updated = "2024-02"
 license = "OFL"
 ligatures = true
 name = "sitelen seli kiwen mono asuki"
 style = "handwritten"
 ucsur = true
-version = "1.6"
+version = "1.6.1"
 writing_system = "sitelen pona"
 
 [links]
