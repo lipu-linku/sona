@@ -72,28 +72,34 @@
             },
             "description": "A list of related words"
           },
-          "sona_pona": {
-            "type": "string",
-            "format": "uri",
-            "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page."
+          "resources": {
+            "type": "object",
+            "properties": {
+              "sona_pona": {
+                "type": "string",
+                "format": "uri"
+              },
+              "lipamanka_semantic": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "sona_pona",
+              "lipamanka_semantic"
+            ],
+            "additionalProperties": false,
+            "description": "Non-Linku resources related to the specific word, such as wiki links."
           },
           "representations": {
             "type": "object",
             "properties": {
               "sitelen_emosi": {
-                "anyOf": [
-                  {
-                    "type": "string",
-                    "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
-                  },
-                  {
-                    "type": "string",
-                    "const": ""
-                  }
-                ],
+                "type": "string",
+                "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$",
                 "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji"
               },
-              "sitelen_pona": {
+              "ligatures": {
                 "type": "array",
                 "items": {
                   "type": "string"
@@ -101,16 +107,8 @@
                 "description": "A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs"
               },
               "sitelen_sitelen": {
-                "anyOf": [
-                  {
-                    "type": "string",
-                    "format": "uri"
-                  },
-                  {
-                    "type": "string",
-                    "const": ""
-                  }
-                ],
+                "type": "string",
+                "format": "uri",
                 "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"
               },
               "ucsur": {
@@ -129,7 +127,7 @@
             },
             "required": [
               "sitelen_emosi",
-              "sitelen_pona",
+              "ligatures",
               "sitelen_sitelen",
               "ucsur"
             ],
@@ -292,6 +290,7 @@
           "coined_year",
           "creator",
           "see_also",
+          "resources",
           "representations",
           "source_language",
           "usage_category",
