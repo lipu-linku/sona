@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2015"
 creator = ["jan Maliku", "jan Kisinja"]
 see_also = ["oke", "n"]
-sona_pona = "https://sona.pona.la/wiki/ke"
 source_language = "English"
 usage_category = "obscure"
 word = "ke"
@@ -24,13 +23,13 @@ word = "okay"
 alright = 9
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["ke"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["ke"]
 
 [usage]
 2020-04 = 18
 2021-10 = 23
 2022-08 = 4
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ke"

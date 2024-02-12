@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Kita"]
 see_also = ["soweli"]
-sona_pona = "https://sona.pona.la/wiki/poni"
 source_language = "English"
 usage_category = "obscure"
 word = "poni"
@@ -18,11 +17,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "pony"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["poni"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["poni"]
 
 [usage]
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/poni"

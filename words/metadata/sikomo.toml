@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan Lija", "jan Wesu"]
 see_also = ["epiku"]
-sona_pona = "https://sona.pona.la/wiki/sikomo"
 source_language = "English"
 usage_category = "obscure"
 word = "sikomo"
@@ -18,13 +17,14 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "sicko mode"
 
 [representations]
+ligatures = ["sikomo"]
 sitelen_emosi = "🤩"
-sitelen_pona = ["sikomo"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 19
 2021-10 = 22
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sikomo"

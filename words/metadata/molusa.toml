@@ -6,7 +6,6 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan soweli Apen"]
 see_also = ["pipi"]
-sona_pona = "https://sona.pona.la/wiki/molusa"
 source_language = "multiple"
 usage_category = "obscure"
 word = "molusa"
@@ -21,12 +20,12 @@ word = "mollusk"
 word = "mollusca"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["molusa"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["molusa"]
 
 [usage]
 2021-10 = 25
 2022-08 = 3
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/molusa"

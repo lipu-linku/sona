@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["mute"]
-sona_pona = "https://sona.pona.la/wiki/po"
 source_language = "English"
 usage_category = "obscure"
 word = "po"
@@ -21,13 +20,14 @@ word = "four"
 four = 10
 
 [representations]
+ligatures = ["po"]
 sitelen_emosi = "🍀"
-sitelen_pona = ["po"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 25
 2021-10 = 34
 2022-08 = 5
 2023-09 = 5
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/po"

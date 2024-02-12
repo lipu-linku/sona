@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["sinpin"]
-sona_pona = "https://sona.pona.la/wiki/supa"
 source_language = "Esperanto"
 usage_category = "core"
 word = "supa"
@@ -55,11 +54,15 @@ eo = "SUBSTANTIVO horizontala surfaco, io sur kio oni metas ion alian"
 fr = "NOM surface horizontale sur laquelle on pose quelque chose"
 
 [representations]
-sitelen_emosi = "🛏️"
-sitelen_pona = ["supa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
+ligatures = ["supa"]
 ucsur = "U+F1965"
+sitelen_emosi = "🛏️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/supa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#supa"

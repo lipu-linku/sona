@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["tenpo", "ma"]
-sona_pona = "https://sona.pona.la/wiki/lon"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lon"
@@ -88,11 +87,15 @@ eo = "PREPOZICIO estanta en iu loko, estanta ĉe, reala, vera, ekzistanta"
 fr = "PRÉPOSITION à, situé à, présent à, dans, sur ; réel, vrai, actuel"
 
 [representations]
-sitelen_emosi = "📍"
-sitelen_pona = ["lon"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
+ligatures = ["lon"]
 ucsur = "U+F192C"
+sitelen_emosi = "📍"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lon"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lon"

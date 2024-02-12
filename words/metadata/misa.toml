@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["misa Ewis"]
 see_also = ["soweli"]
-sona_pona = "https://sona.pona.la/wiki/misa"
 source_language = "Ukranian"
 usage_category = "rare"
 word = "misa"
@@ -23,12 +22,12 @@ word = "мишка"
 capybara = 10
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["misa", "misa5"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["misa", "misa5"]
 
 [usage]
 2021-10 = 35
 2022-08 = 10
 2023-09 = 13
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/misa"

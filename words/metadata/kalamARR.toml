@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["(unknown ku surveyee)"]
 see_also = ["kalama"]
-sona_pona = "https://sona.pona.la/wiki/kalamARR"
 source_language = "multiple"
 usage_category = "obscure"
 word = "kalamARR"
@@ -21,12 +20,12 @@ word = "kalama"
 word = "arr"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kalamARR"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kalamARR"]
 
 [usage]
 2020-04 = 13
 2022-08 = 4
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kalamARR"

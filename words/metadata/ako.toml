@@ -6,7 +6,6 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Epen"]
 see_also = ["a"]
-sona_pona = "https://sona.pona.la/wiki/ako"
 source_language = "Korean"
 usage_category = "obscure"
 word = "ako"
@@ -19,11 +18,11 @@ alt = "aigo"
 word = "아이고"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["ako"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["ako"]
 
 [usage]
 2022-08 = 0
 2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ako"

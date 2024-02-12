@@ -6,7 +6,6 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Epen"]
 see_also = ["a", "kalama"]
-sona_pona = "https://sona.pona.la/wiki/lijokuku"
 source_language = "Korean"
 usage_category = "obscure"
 word = "lijokuku"
@@ -19,11 +18,11 @@ alt = "realkk"
 word = "ㄹㅇㅋㅋ"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["lijokuku", "lijokuku2"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["lijokuku", "lijokuku2"]
 
 [usage]
 2022-08 = 0
 2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lijokuku"

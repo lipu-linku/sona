@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["unknown"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/wuwojiti"
 source_language = "toki pona"
 usage_category = "uncommon"
 word = "wuwojiti"
@@ -27,11 +26,11 @@ word = "ji"
 word = "ti"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["wuwojiti"]
 
 [usage]
 2022-08 = 13
 2023-09 = 22
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wuwojiti"

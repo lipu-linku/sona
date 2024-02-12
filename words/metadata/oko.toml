@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["lukin"]
-sona_pona = "https://sona.pona.la/wiki/oko"
 source_language = "Serbo-Croatian"
 usage_category = "common"
 word = "oko"
@@ -33,13 +32,16 @@ eo = "SUBSTANTIVO okulo\nVERBO rigardi, vidi, ekzameni, observi, legi, spekti\nA
 fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXILIAIRE chercher à, essayer de"
 
 [representations]
-sitelen_emosi = "👁️"
-sitelen_pona = ["oko"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
+ligatures = ["oko"]
 ucsur = "U+F197A"
+sitelen_emosi = "👁️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
 
 [usage]
 2020-04 = 77
 2021-10 = 88
 2022-08 = 62
 2023-09 = 57
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/oko"

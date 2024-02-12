@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Kawa", "jan inwin"]
 see_also = ["kulupu", "alasa"]
-sona_pona = "https://sona.pona.la/wiki/likujo"
 source_language = "Acadian French"
 usage_category = "obscure"
 word = "likujo"
@@ -23,13 +22,14 @@ gathering = 7
 seven = 7
 
 [representations]
+ligatures = ["likujo"]
 sitelen_emosi = "🧺"
-sitelen_pona = ["likujo"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 13
 2021-10 = 25
 2022-08 = 3
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/likujo"

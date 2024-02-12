@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/we"
 source_language = "Spanish"
 usage_category = "obscure"
 word = "we"
@@ -21,12 +20,13 @@ word = "güey"
 word = "man"
 
 [representations]
+ligatures = ["we"]
 sitelen_emosi = "🔒"
-sitelen_pona = ["we"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2021-10 = 19
 2022-08 = 1
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/we"

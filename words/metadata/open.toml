@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["kama"]
-sona_pona = "https://sona.pona.la/wiki/open"
 source_language = "English"
 usage_category = "core"
 word = "open"
@@ -45,11 +44,15 @@ eo = "VERBO komenci; malfermi; ŝalti"
 fr = "VERBE commencer, ouvrir, allumer"
 
 [representations]
-sitelen_emosi = "🔓"
-sitelen_pona = ["open"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/open.jpg"
+ligatures = ["open"]
 ucsur = "U+F1947"
+sitelen_emosi = "🔓"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/open.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/open"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#open"

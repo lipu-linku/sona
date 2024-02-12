@@ -6,7 +6,6 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Epen"]
 see_also = ["toki"]
-sona_pona = "https://sona.pona.la/wiki/konsi"
 source_language = "Korean"
 usage_category = "obscure"
 word = "konsi"
@@ -19,11 +18,11 @@ alt = "gongji"
 word = "공지"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["konsi"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["konsi"]
 
 [usage]
 2022-08 = 0
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/konsi"

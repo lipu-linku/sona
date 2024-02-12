@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["noka"]
-sona_pona = "https://sona.pona.la/wiki/anpa"
 source_language = "Acadian French"
 usage_category = "core"
 word = "anpa"
@@ -39,11 +38,15 @@ eo = "ADJEKTIVO klinanta sin, malsupren, humila, modesta, dependa"
 fr = "ADJECTIF incliné vers le bas, humble, qui dépend"
 
 [representations]
-sitelen_emosi = "⬇️"
-sitelen_pona = ["anpa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anpa.jpg"
+ligatures = ["anpa"]
 ucsur = "U+F1905"
+sitelen_emosi = "⬇️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anpa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/anpa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#anpa"

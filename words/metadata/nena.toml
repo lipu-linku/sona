@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/nena"
 source_language = "Finnish"
 usage_category = "core"
 word = "nena"
@@ -40,11 +39,15 @@ eo = "SUBSTANTIVO elstara malebenaĵo, elstaraĵo, tubero, butono, monteto, mont
 fr = "NOM nez ; bosse, colline, montagne ; bouton"
 
 [representations]
-sitelen_emosi = "🗻"
-sitelen_pona = ["nena"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
+ligatures = ["nena"]
 ucsur = "U+F1940"
+sitelen_emosi = "🗻"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
 
 [usage]
 2022-08 = 97
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nena"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nena"

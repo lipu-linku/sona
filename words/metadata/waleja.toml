@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = ["tenpo"]
-sona_pona = "https://sona.pona.la/wiki/waleja"
 source_language = "Quenya"
 usage_category = "obscure"
 word = "waleja"
@@ -35,13 +34,14 @@ theme = 9
 topic = 6
 
 [representations]
+ligatures = ["waleja"]
 sitelen_emosi = "ℹ️"
-sitelen_pona = ["waleja"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 19
 2021-10 = 34
 2022-08 = 5
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/waleja"

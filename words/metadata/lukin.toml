@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["oko", "alasa"]
-sona_pona = "https://sona.pona.la/wiki/lukin"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lukin"
@@ -73,12 +72,16 @@ eo = "SUBSTANTIVO okulo\nVERBO rigardi, vidi, ekzameni, observi, legi, spekti\nA
 fr = "NOM œil\nVERBE regarder, voir, examiner, observer, lire, surveiller\nAUXILIAIRE chercher à, essayer de"
 
 [representations]
-sitelen_emosi = "👀"
-sitelen_pona = ["lukin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lukin.jpg"
+ligatures = ["lukin"]
 ucsur = "U+F192E"
+sitelen_emosi = "👀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lukin.jpg"
 
 [usage]
 2020-04 = 99
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lukin"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lukin"

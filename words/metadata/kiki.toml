@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Olipija", "akesi kon Nalasuni"]
 see_also = ["kipisi"]
-sona_pona = "https://sona.pona.la/wiki/kiki"
 source_language = "a priori"
 usage_category = "uncommon"
 word = "kiki"
@@ -23,12 +22,12 @@ sharp = 14
 spiky = 21
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kiki"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kiki"]
 
 [usage]
 2021-10 = 41
 2022-08 = 21
 2023-09 = 29
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kiki"

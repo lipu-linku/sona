@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ante"]
-sona_pona = "https://sona.pona.la/wiki/sama"
 source_language = "multiple"
 usage_category = "core"
 word = "sama"
@@ -62,11 +61,15 @@ eo = "ADJEKTIVO sama, simila; unu la alia; gefrata, kamarada, kunula\nPREPOZICIO
 fr = "ADJECTIF même, semblable; l'un l'autre ; fraternel, homologue\nPRÉPOSITION comme"
 
 [representations]
-sitelen_emosi = "⚖️"
-sitelen_pona = ["sama"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sama.jpg"
+ligatures = ["sama"]
 ucsur = "U+F1956"
+sitelen_emosi = "⚖️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sama.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sama"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sama"

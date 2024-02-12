@@ -18,11 +18,10 @@ alt = "yureru"
 word = "揺れる"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jule"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["jule"]
 
 [usage]
 2022-08 = 1
 2023-09 = 4
+
+[resources]

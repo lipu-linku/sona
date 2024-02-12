@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = ["jan inwin"]
 see_also = ["kule", "meli"]
-sona_pona = "https://sona.pona.la/wiki/melome"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "melome"
@@ -18,13 +17,14 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "meli pi olin meli"
 
 [representations]
+ligatures = ["melome"]
 sitelen_emosi = "👩‍❤️‍👩"
-sitelen_pona = ["melome"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 25
 2021-10 = 36
 2022-08 = 7
 2023-09 = 7
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/melome"

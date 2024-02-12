@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/ma"
 source_language = "Finnish"
 usage_category = "core"
 word = "ma"
@@ -64,11 +63,15 @@ eo = "SUBSTANTIVO tero, terpeco; eksterdoma subĉiela loko, mondo; lando, ŝtato
 fr = "NOM terre, sol ; monde, lieu en plien air ; pays, territoire"
 
 [representations]
-sitelen_emosi = "🏝️"
-sitelen_pona = ["ma"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
+ligatures = ["ma"]
 ucsur = "U+F1930"
+sitelen_emosi = "🏝️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ma"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ma"

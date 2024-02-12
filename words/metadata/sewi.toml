@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["anpa"]
-sona_pona = "https://sona.pona.la/wiki/sewi"
 source_language = "Georgian"
 usage_category = "core"
 word = "sewi"
@@ -54,11 +53,15 @@ eo = "SUBSTANTIVO spaco super io, plej alta parto de io, io pli alta\nADJEKTIVO 
 fr = "NOM dessus, le haut, chose élevée\nADJECTIF divin, sacré, surnaturel, qui inspire le respect et la crainte"
 
 [representations]
-sitelen_emosi = "⬆️"
-sitelen_pona = ["sewi", "sewi2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
+ligatures = ["sewi", "sewi2"]
 ucsur = "U+F195A"
+sitelen_emosi = "⬆️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sewi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sewi"

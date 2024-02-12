@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Kita"]
 see_also = ["mu", "jonke"]
-sona_pona = "https://sona.pona.la/wiki/nja"
 source_language = "Japanese"
 usage_category = "obscure"
 word = "nja"
@@ -19,11 +18,11 @@ alt = "nyā"
 word = "ニャー"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["nja"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["nja"]
 
 [usage]
 2022-08 = 5
 2023-09 = 9
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nja"

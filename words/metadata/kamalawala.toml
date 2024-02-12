@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Wesu"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kamalawala"
 source_language = "toki pona"
 usage_category = "rare"
 word = "kamalawala"
@@ -21,13 +20,14 @@ word = "kama pi lawa ala"
 revolution = 7
 
 [representations]
+ligatures = ["kamalawala"]
 sitelen_emosi = "💣"
-sitelen_pona = ["kamalawala"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 21
 2021-10 = 29
 2022-08 = 8
 2023-09 = 10
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kamalawala"

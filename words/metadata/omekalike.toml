@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Emalan"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/omekalike"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "omekalike"
@@ -21,11 +20,11 @@ word = "o moku e kala ike"
 word = "o moku e kala pona"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["omekalike"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["omekalike"]
 
 [usage]
 2022-08 = 5
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/omekalike"

@@ -6,7 +6,6 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["kulupu Eki", "oni Tewi"]
 see_also = ["natu"]
-sona_pona = "https://sona.pona.la/wiki/aka"
 source_language = "multiple"
 usage_category = "obscure"
 word = "aka"
@@ -22,11 +21,11 @@ word = "过"
 word = "across"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["aka"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["aka"]
 
 [usage]
 2022-08 = 0
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/aka"

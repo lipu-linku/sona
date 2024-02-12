@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/ken"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "ken"
@@ -65,11 +64,15 @@ eo = "ANTAŬVERBO povi, rajti\nADJEKTIVO ebla"
 fr = "AUXILIAIRE pouvoir\nADJECTIF possible"
 
 [representations]
-sitelen_emosi = "💪"
-sitelen_pona = ["ken"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
+ligatures = ["ken"]
 ucsur = "U+F1918"
+sitelen_emosi = "💪"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ken.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ken"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ken"

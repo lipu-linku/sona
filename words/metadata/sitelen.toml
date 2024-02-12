@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/sitelen"
 source_language = "Dutch"
 usage_category = "core"
 word = "sitelen"
@@ -60,11 +59,15 @@ eo = "SUBSTANTIVO bildo, figuro, simbolo, markaĵo, skribaĵo"
 fr = "NOM image, représentation, symbole, marque, écriture"
 
 [representations]
-sitelen_emosi = "🖼️"
-sitelen_pona = ["sitelen"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
+ligatures = ["sitelen"]
 ucsur = "U+F1960"
+sitelen_emosi = "🖼️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sitelen.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sitelen"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sitelen"

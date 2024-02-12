@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = ["waso", "soweli", "sutopatikuna"]
-sona_pona = "https://sona.pona.la/wiki/wasoweli"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wasoweli"
@@ -21,12 +20,12 @@ word = "waso"
 word = "soweli"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["wasoweli"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["wasoweli"]
 
 [usage]
 2021-10 = 22
 2022-08 = 3
 2023-09 = 6
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wasoweli"

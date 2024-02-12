@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "<2001"
 creator = ["jan Sonja"]
 see_also = ["pona"]
-sona_pona = "https://sona.pona.la/wiki/pasila"
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "pasila"
@@ -21,13 +20,14 @@ word = "facile"
 word = "facila"
 
 [representations]
+ligatures = ["pasila"]
 sitelen_emosi = "🧘"
-sitelen_pona = []
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 25
 2021-10 = 31
 2022-08 = 4
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pasila"

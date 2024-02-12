@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["kala Asi"]
 see_also = ["soweli"]
-sona_pona = "https://sona.pona.la/wiki/kisa"
 source_language = "Russian"
 usage_category = "obscure"
 word = "kisa"
@@ -19,12 +18,12 @@ alt = "kísa"
 word = "ки́са"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kisa"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kisa"]
 
 [usage]
 2021-10 = 24
 2022-08 = 1
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kisa"

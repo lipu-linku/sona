@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["namako"]
-sona_pona = "https://sona.pona.la/wiki/sin"
 source_language = "Mandarin"
 usage_category = "core"
 word = "sin"
@@ -45,11 +44,15 @@ eo = "ADJEKTIVO nova, freŝa; plia, aldona, kroma"
 fr = "ADJECTIF nouveau, frais ; encore un, de plus"
 
 [representations]
-sitelen_emosi = "🎁"
-sitelen_pona = ["sin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sin.jpg"
+ligatures = ["sin"]
 ucsur = "U+F195D"
+sitelen_emosi = "🎁"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sin.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sin"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sin"

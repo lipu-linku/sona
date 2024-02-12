@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/anu"
 source_language = "Georgian"
 usage_category = "core"
 word = "anu"
@@ -38,11 +37,14 @@ eo = "PARTIKULO aŭ"
 fr = "PARTICULE ou"
 
 [representations]
-sitelen_emosi = "☯️"
-sitelen_pona = ["anu"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anu.jpg"
+ligatures = ["anu"]
 ucsur = "U+F1907"
+sitelen_emosi = "☯️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/anu.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/anu"

@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan ko"]
 see_also = ["kiwen"]
-sona_pona = "https://sona.pona.la/wiki/ewe"
 source_language = "multiple"
 usage_category = "obscure"
 word = "ewe"
@@ -25,13 +24,14 @@ word = "kiwen"
 stone = 3
 
 [representations]
+ligatures = ["ewe"]
 sitelen_emosi = "🌋"
-sitelen_pona = ["ewe"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 11
 2021-10 = 28
 2022-08 = 2
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ewe"

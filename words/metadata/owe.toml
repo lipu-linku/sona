@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = ""
 creator = ["Ferret"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/owe"
 source_language = "English"
 usage_category = "obscure"
 word = "owe"
@@ -18,12 +17,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "Orwell"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["owe"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["owe"]
 
 [usage]
 2021-10 = 20
 2022-08 = 5
 2023-09 = 5
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/owe"

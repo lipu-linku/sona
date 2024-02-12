@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/lawa"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "lawa"
@@ -73,11 +72,15 @@ eo = "SUBSTANTIVO kapo, menso\nVERBO gvidi, direkti, estri, konduki, posedi, pla
 fr = "NOM tête\nVERBE dominer, diriger, guider, mener, posséder, régler"
 
 [representations]
-sitelen_emosi = "😶"
-sitelen_pona = ["lawa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lawa.jpg"
+ligatures = ["lawa"]
 ucsur = "U+F1924"
+sitelen_emosi = "😶"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lawa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lawa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lawa"

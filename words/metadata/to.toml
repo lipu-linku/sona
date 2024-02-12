@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["kala kala/jan Salan", "jan Lakuse"]
 see_also = ["te"]
-sona_pona = "https://sona.pona.la/wiki/to"
 source_language = "Japanese"
 usage_category = "rare"
 word = "to"
@@ -22,12 +21,12 @@ word = "と"
 "(closing quotation particle)" = 7
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["to"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["to"]
 
 [usage]
 2021-10 = 38
 2022-08 = 11
 2023-09 = 14
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/to"

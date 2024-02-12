@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["nena"]
-sona_pona = "https://sona.pona.la/wiki/kapa"
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "kapa"
@@ -24,13 +23,13 @@ word = "kapo"
 word = "caput"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kapa"]
 
 [usage]
 2020-04 = 13
 2021-10 = 20
 2022-08 = 2
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kapa"

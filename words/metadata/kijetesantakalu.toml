@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kijetesantakalu"
 source_language = "Finnish"
 usage_category = "widespread"
 word = "kijetesantakalu"
@@ -26,13 +25,16 @@ Musteloidea = 30
 procyonid = 53
 
 [representations]
-sitelen_emosi = "🦝"
-sitelen_pona = ["kijetesantakalu"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kijetesantakalu.jpg"
+ligatures = ["kijetesantakalu"]
 ucsur = "U+F1980"
+sitelen_emosi = "🦝"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kijetesantakalu.jpg"
 
 [usage]
 2020-04 = 62
 2021-10 = 71
 2022-08 = 73
 2023-09 = 75
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kijetesantakalu"

@@ -18,11 +18,10 @@ alt = "harvacel"
 word = "հարվածել"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["awase"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["awase"]
 
 [usage]
 2022-08 = 0
 2023-09 = 1
+
+[resources]

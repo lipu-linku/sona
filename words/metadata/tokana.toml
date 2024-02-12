@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Wesu", "jan inwin"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/tokana"
 source_language = "Tongan"
 usage_category = "obscure"
 word = "tokana"
@@ -18,12 +17,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "tokanga"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["tokana"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["tokana"]
 
 [usage]
 2021-10 = 18
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/tokana"

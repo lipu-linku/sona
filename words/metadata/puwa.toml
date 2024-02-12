@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Seli"]
 see_also = ["suwi", "ko"]
-sona_pona = "https://sona.pona.la/wiki/puwa"
 source_language = "Japanese"
 usage_category = "rare"
 word = "puwa"
@@ -19,12 +18,13 @@ alt = "fuwafuwa"
 word = "ふわふわ"
 
 [representations]
+ligatures = ["puwa"]
 sitelen_emosi = "☁️"
-sitelen_pona = ["puwa"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2021-10 = 31
 2022-08 = 14
 2023-09 = 17
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/puwa"

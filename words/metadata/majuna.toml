@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "<2001"
 creator = ["jan Sonja"]
 see_also = ["suli", "tenpo"]
-sona_pona = "https://sona.pona.la/wiki/majuna"
 source_language = "Esperanto"
 usage_category = "uncommon"
 word = "majuna"
@@ -39,13 +38,15 @@ old = 33
 senior = 21
 
 [representations]
-sitelen_emosi = "👵"
-sitelen_pona = ["majuna", "majuna2"]
-sitelen_sitelen = ""
+ligatures = ["majuna", "majuna2"]
 ucsur = "U+F19A2"
+sitelen_emosi = "👵"
 
 [usage]
 2020-04 = 38
 2021-10 = 59
 2022-08 = 32
 2023-09 = 34
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/majuna"

@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = []
 see_also = ["jan"]
-sona_pona = "https://sona.pona.la/wiki/jans"
 source_language = "multiple"
 usage_category = "obscure"
 word = "jans"
@@ -21,12 +20,12 @@ word = "jan"
 word = "-/z/"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jans"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["jans"]
 
 [usage]
 2020-04 = 13
 2022-08 = 1
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jans"

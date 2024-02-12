@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = ["jan Kawa"]
 see_also = ["lape"]
-sona_pona = "https://sona.pona.la/wiki/slape"
 source_language = "multiple"
 usage_category = "obscure"
 word = "slape"
@@ -21,12 +20,12 @@ word = "lape"
 word = "sleep"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["slape"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["slape"]
 
 [usage]
 2020-04 = 12
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/slape"

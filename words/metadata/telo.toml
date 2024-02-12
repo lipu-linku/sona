@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/telo"
 source_language = "Acadian French"
 usage_category = "core"
 word = "telo"
@@ -39,11 +38,15 @@ eo = "SUBSTANTIVO akvo, likvo, fluaĵo, malseka substanco; trinkaĵo"
 fr = "NOM eau, liquide, fluide, substance mouillée, boisson"
 
 [representations]
-sitelen_emosi = "💧"
-sitelen_pona = ["telo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/telo.jpg"
+ligatures = ["telo"]
 ucsur = "U+F196A"
+sitelen_emosi = "💧"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/telo.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/telo"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#telo"

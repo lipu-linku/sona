@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/lupa"
 source_language = "Lojban"
 usage_category = "core"
 word = "lupa"
@@ -55,11 +54,15 @@ eo = "SUBSTANTIVO pordo, truo, korpa aperturo, fenestro"
 fr = "NOM porte, trou, orifice, fenêtre"
 
 [representations]
-sitelen_emosi = "🕳️"
-sitelen_pona = ["lupa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
+ligatures = ["lupa"]
 ucsur = "U+F192F"
+sitelen_emosi = "🕳️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lupa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lupa"

@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["pini"]
-sona_pona = "https://sona.pona.la/wiki/moli"
 source_language = "Acadian French"
 usage_category = "core"
 word = "moli"
@@ -38,11 +37,15 @@ eo = "ADJEKTIVO mortinta, mortanta"
 fr = "ADJECTIF mort, mourant"
 
 [representations]
-sitelen_emosi = "💀"
-sitelen_pona = ["moli"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moli.jpg"
+ligatures = ["moli"]
 ucsur = "U+F1937"
+sitelen_emosi = "💀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/moli.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/moli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#moli"

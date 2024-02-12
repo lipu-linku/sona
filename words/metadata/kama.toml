@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kama"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "kama"
@@ -48,11 +47,15 @@ eo = "ADJEKTIVO alvenanta, venonta, estonteca, venigita\nANTAŬVERBO iĝi, sukce
 fr = "ADJECTIF qui arrive, qui vent, futur, venu\nAUXILIAIRE devenir, arriver à, réussir à"
 
 [representations]
-sitelen_emosi = "🚶"
-sitelen_pona = ["kama"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kama.jpg"
+ligatures = ["kama"]
 ucsur = "U+F1916"
+sitelen_emosi = "🚶"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kama.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kama"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kama"

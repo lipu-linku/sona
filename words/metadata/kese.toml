@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Jan"]
 see_also = ["kule", "tonsi"]
-sona_pona = "https://sona.pona.la/wiki/kese"
 source_language = "Hebrew"
 usage_category = "obscure"
 word = "kese"
@@ -22,12 +21,12 @@ word = "קֶשֶׁת"
 "LGBTQ+" = 6
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kese"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kese"]
 
 [usage]
 2021-10 = 25
 2022-08 = 4
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kese"

@@ -6,7 +6,6 @@ coined_era = "pre-pu"
 coined_year = "2009"
 creator = ["Alexandre Baudry"]
 see_also = ["kijetesantakalu"]
-sona_pona = "https://sona.pona.la/wiki/sutopatikuna"
 source_language = "Serbo-Croatian"
 usage_category = "obscure"
 word = "sutopatikuna"
@@ -21,12 +20,12 @@ word = "čudnovati kljunaš"
 platypus = 20
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["sutopatikuna"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["sutopatikuna"]
 
 [usage]
 2021-10 = 33
 2022-08 = 7
 2023-09 = 8
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sutopatikuna"

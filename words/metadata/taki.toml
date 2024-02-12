@@ -6,7 +6,6 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Kapilu", "jan Lewiku"]
 see_also = ["wan", "wile"]
-sona_pona = "https://sona.pona.la/wiki/taki"
 source_language = "Korean"
 usage_category = "rare"
 word = "taki"
@@ -25,12 +24,12 @@ bond = 10
 clip = 4
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["taki", "taki2"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["taki", "taki2"]
 
 [usage]
 2021-10 = 38
 2022-08 = 14
 2023-09 = 14
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/taki"

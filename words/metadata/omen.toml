@@ -17,13 +17,13 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "o moli e mi"
 
 [representations]
+ligatures = ["omen"]
 sitelen_emosi = "🙄"
-sitelen_pona = ["omen"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 19
 2021-10 = 19
 2022-08 = 1
 2023-09 = 2
+
+[resources]
