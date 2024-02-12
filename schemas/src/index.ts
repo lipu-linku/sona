@@ -35,23 +35,32 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
-		sona_pona: z
-			.string()
-			.url()
-			.optional()
-			.describe(
-				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-			),
+		resources: z
+			.object({
+				sona_pona: z
+					.string()
+					.url()
+					.optional()
+					.describe(
+						"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+					),
+				lipamanka_semantic: z
+					.string()
+					.url()
+					.optional()
+					.describe("A link to lipamanka's description of the word's semantic space."),
+			})
+			.required()
+			.describe("Non-Linku resources related to the specific word, such as wiki links."),
 		representations: z
 			.object({
 				sitelen_emosi: z
 					.string()
 					.emoji()
-					.or(z.literal(""))
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
-				sitelen_pona: z
+				ligatures: z
 					.array(z.string())
 					.describe(
 						"A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs",
@@ -59,7 +68,6 @@ export const Word = z
 				sitelen_sitelen: z
 					.string()
 					.url()
-					.or(z.literal(""))
 					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
 				ucsur: z
 					.string()
@@ -69,6 +77,7 @@ export const Word = z
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
+			.required()
 			.describe("Ways of representing this word in the real world, via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
