@@ -48,6 +48,7 @@ export const Word = z
 					.url()
 					.describe("A link to lipamanka's description of the word's semantic space."),
 			})
+			.partial() // makes all child keys optional
 			.describe("Non-Linku resources related to the specific word, such as wiki links."),
 		representations: z
 			.object({
@@ -73,6 +74,7 @@ export const Word = z
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
+			.partial()
 			.describe("Ways of representing this word in the real world, via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
