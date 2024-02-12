@@ -84,10 +84,6 @@
               "description": "A link to lipamanka's description of the word's semantic space."
             }
           },
-          "required": [
-            "sona_pona",
-            "lipamanka_semantic"
-          ],
           "additionalProperties": false,
           "description": "Non-Linku resources related to the specific word, such as wiki links."
         },
@@ -102,9 +98,10 @@
             "ligatures": {
               "type": "array",
               "items": {
-                "type": "string"
+                "type": "string",
+                "minLength": 1
               },
-              "description": "A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs"
+              "description": "A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona"
             },
             "sitelen_sitelen": {
               "type": "string",
@@ -112,25 +109,11 @@
               "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"
             },
             "ucsur": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "pattern": "^U\\+[\\da-fA-F]{4,6}$"
-                },
-                {
-                  "type": "string",
-                  "const": ""
-                }
-              ],
+              "type": "string",
+              "pattern": "^U\\+[\\da-fA-F]{4,6}$",
               "description": "The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html"
             }
           },
-          "required": [
-            "sitelen_emosi",
-            "ligatures",
-            "sitelen_sitelen",
-            "ucsur"
-          ],
           "additionalProperties": false,
           "description": "Ways of representing this word in the real world, via text/computers"
         },
