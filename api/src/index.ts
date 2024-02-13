@@ -21,6 +21,7 @@ const app = new Hono({ strict: false })
 		}),
 	)
 	.use(
+		"*",
 		import.meta.env.PROD
 			? cache({
 					cacheName: "sona-api",
