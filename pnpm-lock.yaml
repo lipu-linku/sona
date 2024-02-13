@@ -9,7 +9,7 @@ importers:
   api:
     dependencies:
       '@hono/vite-cloudflare-pages':
-        specifier: ^0.2.5
+        specifier: ^0.2.2
         version: 0.2.5(hono@4.0.1)
       '@hono/zod-validator':
         specifier: ^0.1.11
@@ -34,8 +34,8 @@ importers:
         version: 3.0.2(zod@3.22.4)
     devDependencies:
       '@hono/vite-dev-server':
-        specifier: ^0.5.1
-        version: 0.5.1(hono@4.0.1)
+        specifier: ^0.4.1
+        version: 0.4.1(hono@4.0.1)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -354,8 +354,8 @@ packages:
       hono: 4.0.1
     dev: false
 
-  /@hono/vite-dev-server@0.5.1(hono@4.0.1):
-    resolution: {integrity: sha512-YGc1kaPn9ZSMmdbBKr4SeFP7dKLnEwHxXqQJaN8vffH1Y24BcDGpa7Qp3Vb7LQBCbo3Va7GYEsSfAXAxWX0i8g==}
+  /@hono/vite-dev-server@0.4.1(hono@4.0.1):
+    resolution: {integrity: sha512-FqQk6O+2WgmBqYJVViH/jySgYijD+QVD16x/F6wqH6vhu0/nU1Iku8XuxNBTKrGwn+ygHOx+DvwAs+aKKK01dQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
