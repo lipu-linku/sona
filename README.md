@@ -4,11 +4,6 @@ sona is a collaborative, open dataset for and by the toki pona community.
 It is the successor of [jasima](https://github.com/lipu-linku/jasima), and aims to replace it.
 If you are looking for the data from jasima, [see here](https://linku.la/jasima/data.json). Note it is no longer being updated.
 
-## TODO
-
-- Move `[word]->sona_pona` to `[word]->resources->sona_pona` to allow for future resources
-- Replace `[word]->sitelen_pona` string with `[word]->repre`
-
 ## Directories
 
 ### Editable
