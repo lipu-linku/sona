@@ -5,6 +5,7 @@ import { createZodFetcher } from "zod-fetch";
 import v1 from "./v1";
 import { cors } from "hono/cors";
 import { cache } from "hono/cache";
+import { etag } from "hono/etag";
 import type { StatusCode } from "hono/utils/http-status";
 
 export const fetchWithZod = createZodFetcher();
@@ -21,7 +22,6 @@ const app = new Hono({ strict: false })
 		}),
 	)
 	.use(
-		"*",
 		import.meta.env.PROD
 			? cache({
 					cacheName: "sona-api",
@@ -29,6 +29,7 @@ const app = new Hono({ strict: false })
 				})
 			: async (c, next) => await next(),
 	)
+	.use(etag())
 	.notFound((c) => c.json({ message: "Not Found", ok: false }, 404))
 	.onError((err, c) => {
 		return c.json(
