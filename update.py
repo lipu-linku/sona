@@ -10,6 +10,10 @@ import logging
 
 LOG = logging.getLogger()
 
+IJO_DIR = "/home/gregdan3/git/tokipona/ijo/sitelenpona/sitelen-seli-kiwen/"
+
+RESOURCE_DIR = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/"
+
 NOT_WRITTEN = {"li", "e", "la", "anu", "o", "pi", "a", "ali", "en"}
 
 
@@ -19,47 +23,56 @@ def main(argv: argparse.Namespace):
     for toml in tomls:
         tomlname = os.path.join(argv.directory, toml)
         print(tomlname)
-        with open(tomlname, "r+") as f:
+        with open(tomlname, "r") as f:
             data = tomlkit.loads(f.read())
+            for key in {
+                "book",
+                "audio",
+                "etymology",
+                "ku_data",
+                "source_language",
+                "resources",
+                "representations",
+                "pu_verbatim",
+                "author_verbatim",
+                "author_verbatim_source",
+                "see_also",
+                "usage",
+                "usage_category",
+                "coined_year",
+            }:
+                if key in data:
+                    del data[key]
+                data["creation_date"] = ""
+                data["author_commentary"] = ""
+                data["author_commentary_source"] = ""
+                data["usage"] = dict()
+                data["usage_category"] = ""
 
-            word = data["word"]
-            if word in {"meli", "mije"}:
-                word = "mije-and-meli"  # just for lipamanka
-            wiki_link = data.pop("sona_pona", None)
+            glyphs = [
+                f.rstrip(".svg").rstrip(".png")
+                for f in os.listdir(IJO_DIR)
+                if f.endswith(".svg")
+            ]
+            for glyph in glyphs:
+                if not data["word"] == glyph[: glyph.find("-")]:
+                    continue
 
-            data["resources"] = dict()
-            if wiki_link:
-                data["resources"]["sona_pona"] = wiki_link
-            if data["book"] == "pu" and data["word"] not in NOT_WRITTEN:
-                data["resources"][
-                    "lipamanka_semantic"
-                ] = f"https://lipamanka.gay/essays/dictionary#{word}"
+                data["glyphs"] = {}
+                data["glyphs"]["sitelen_seli_kiwen"] = {}
+                data["glyphs"]["sitelen_seli_kiwen"]["svg"] = (
+                    RESOURCE_DIR + glyph + ".svg"
+                )
+                data["glyphs"]["sitelen_seli_kiwen"]["png"] = (
+                    RESOURCE_DIR + glyph + ".png"
+                )
+                with open(f"glyphs/metadata/{glyph}.toml", "w") as dump:
+                    dump.write(tomlkit.dumps(data))
 
-            # move sp to ligatures
-            sp = data["representations"].pop("sitelen_pona")
-            if not sp:
-                sp.append(data["word"])
-            data["representations"]["ligatures"] = sp
-
-            # split ucsur
-            codepoint = data["representations"].pop("ucsur")
-            if codepoint:  # implicit delete
-                data["representations"]["ucsur"] = codepoint
-                # int(codepoint[2:], 16)
-
-            # clean empty emosi, ss fields
-            emosi = data["representations"].pop("sitelen_emosi")
-            if emosi:  # implicit delete
-                data["representations"]["sitelen_emosi"] = emosi
-
-            sitelen = data["representations"].pop("sitelen_sitelen")
-            if sitelen:  # implicit delete
-                data["representations"]["sitelen_sitelen"] = sitelen
-
-            edited_data = tomlkit.dumps(data)
-            f.truncate(0)
-            f.seek(0)
-            f.write(edited_data)
+            # edited_data = tomlkit.dumps(data)
+            # f.truncate(0)
+            # f.seek(0)
+            # f.write(edited_data)
 
 
 ### Typing utils for argparse
@@ -67,12 +80,6 @@ def existing_directory(dir_path: str) -> str:
     if os.path.isdir(dir_path):
         return dir_path
     raise NotADirectoryError(dir_path)
-
-
-def existing_file(file_path: str) -> str:
-    if os.path.isfile(file_path):
-        return file_path
-    raise FileNotFoundError(file_path)
 
 
 if __name__ == "__main__":
