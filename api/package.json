@@ -1,26 +1,26 @@
 {
-	"name": "sona-api",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "vite",
-		"build": "vite build"
-	},
-	"dependencies": {
-		"@hono/vite-cloudflare-pages": "^0.2.2",
-		"@hono/vite-dev-server": "^0.4.1",
-		"@hono/zod-validator": "^0.1.11",
-		"@kulupu-linku/sona": "workspace:^",
-		"hono": "^3.12.9",
-		"p-lazy": "^4.0.0",
-		"vite": "^5.0.12",
-		"zod": "^3.22.4",
-		"zod-fetch": "^0.1.1",
-		"zod-validation-error": "^3.0.0"
-	},
-	"devDependencies": {
-		"prettier": "^3.2.4",
-		"typescript": "^5.3.3"
-	},
-	"type": "module"
+  "name": "sona-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@hono/vite-cloudflare-pages": "^0.2.5",
+    "@hono/vite-dev-server": "^0.5.1",
+    "@hono/zod-validator": "^0.1.11",
+    "@kulupu-linku/sona": "workspace:^",
+    "hono": "^4.0.1",
+    "p-lazy": "^4.0.0",
+    "vite": "^5.1.1",
+    "zod": "^3.22.4",
+    "zod-fetch": "^0.1.1",
+    "zod-validation-error": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "type": "module"
 }
