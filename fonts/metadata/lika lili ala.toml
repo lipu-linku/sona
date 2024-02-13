@@ -1,8 +1,6 @@
 #:schema ../../schemas/generated/font.json
 creator = ["kije Enki"]
-features = [
-  "ASCII transcription and codepoints",
-]
+features = ["ASCII transcription and codepoints"]
 filename = "lilialab.ttf"
 last_updated = "2023-12"
 license = "OFL"
