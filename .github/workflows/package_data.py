@@ -20,7 +20,7 @@ def fetch_words_stem(path: Path, data: dict):
 # Value is a function that produces the parent key, if any
 DATA_TYPES: Final[dict[str, Callable[[Path, dict], Optional[str]]]] = {
     "words": lambda path, data: fetch_words_stem(path, data),
-    "sandbox": lambda path, data: path.stem,
+    "sandbox": lambda path, data: fetch_words_stem(path, data),
     "luka_pona/signs": lambda path, data: path.stem,
     "luka_pona/fingerspelling": lambda path, data: path.stem,
     "fonts": lambda path, data: path.stem,
