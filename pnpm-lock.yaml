@@ -49,14 +49,14 @@ importers:
   schemas:
     dependencies:
       hono:
-        specifier: ^3.12.9
+        specifier: ^3.12.6
         version: 3.12.9
       zod:
         specifier: ^3.22.4
         version: 3.22.4
     devDependencies:
       '@types/node':
-        specifier: ^20.11.14
+        specifier: ^20.11.5
         version: 20.11.14
       prettier:
         specifier: ^3.2.4
@@ -71,7 +71,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       zod-to-json-schema:
-        specifier: ^3.22.4
+        specifier: ^3.22.3
         version: 3.22.4(zod@3.22.4)
 
 packages:
