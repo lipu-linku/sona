@@ -1,128 +1,128 @@
 [A-1]
 handshape = "OpenA"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [A-2]
 handshape = "1 + 5"
-placement = "touch the thumb"
+placement = "raak de duim aan"
 
 [E-1]
 handshape = "BentB"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [E-2]
 handshape = "1 + 5"
-placement = "touch the index finger"
+placement = "raak je wijsvinger aan"
 
 [I-1]
 handshape = "1"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [I-2]
 handshape = "1 + 5"
-placement = "touch the middle finger"
+placement = "raak je middelvinger aan"
 
 [J-1]
 handshape = "1"
-movement = "fingers flip inwards"
-orientation = "palm outwards"
+movement = "vingers draaien naar binnen"
+orientation = "palm naar buiten"
 
 [J-2]
 handshape = "1 + 5"
-movement = "draw a J shape on the hand"
-placement = "touch palm"
+movement = "teken een J-vorm op je hand"
+placement = "raak je handpalm aan"
 
 [J-2-ANTE]
 handshape = "1 + FlatB"
-orientation = "palm down + palm down"
-placement = "touch base of the thumb"
+orientation = "handpalm naar beneden + handpalm naar beneden"
+placement = "raak de onderkant van je duim aan"
 
 [K-1]
 handshape = "2"
-orientation = "palm inwards"
+orientation = "palm naar binnen"
 
 [K-2]
 handshape = "9 + 1"
-placement = "touch base of finger"
+placement = "raak de onderkant van de vinger aan"
 
 [L-1]
 handshape = "L"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [L-2]
 handshape = "1 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+orientation = "handpalm naar bioven + handpalm naar beneden"
+placement = "raak je handpalm aan"
 
 [M-1]
 handshape = "BentB"
-orientation = "palm downwards"
+orientation = "palm naar beneden"
 
 [M-2]
 handshape = "FlatB + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+orientation = "handpalm naar bioven + handpalm naar beneden"
+placement = "raak je handpalm aan"
 
 [N-1]
 handshape = "2"
-orientation = "palm downwards"
+orientation = "palm naar beneden"
 
 [N-2]
 handshape = "2 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+orientation = "handpalm naar bioven + handpalm naar beneden"
+placement = "raak je handpalm aan"
 
 [O-1]
 handshape = "O"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [O-2]
 handshape = "1 + 5"
-placement = "touch the ring finger"
+placement = "raak je ringvinger aan"
 
 [P-1]
 handshape = "FlatB"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [P-2]
-handshape = "9 +1"
-placement = "touch tip of finger"
+handshape = "9 + 1"
+placement = "raak de top van de vinger aan"
 
 [S-1]
 handshape = "5"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [S-2]
 handshape = "FlatB + FlatB"
-orientation = "palm down + palm side"
-placement = "touch palm"
+orientation = "handpalm naar beneden + handpalm zijwaarts"
+placement = "raak je handpalm aan"
 
 [T-1]
 handshape = "L"
-orientation = "palm downwards"
+orientation = "palm naar beneden"
 
 [T-2]
 handshape = "1 + FlatB"
-placement = "touch edge of the hand"
+placement = "raak de rand van de hand aan"
 
 [U-1]
 handshape = "2"
-orientation = "palm outwards"
+orientation = "palm naar buiten"
 
 [U-2]
 handshape = "1 + 5"
-placement = "touch the pinkie finger"
+placement = "raak je pink aan"
 
 [W-1]
 handshape = "2"
-movement = "verticle circle movement"
-orientation = "palm outwards"
+movement = "verticale cirkelvormige beweging"
+orientation = "palm naar buiten"
 
 [W-2]
 handshape = "5 + 5"
-placement = "mesh fingers"
+placement = "ingeweven vingers"
 
 [W-2-ANTE]
 handshape = "2 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+orientation = "handpalm naar bioven + handpalm naar beneden"
+placement = "raak je handpalm aan"
