@@ -98,6 +98,10 @@ language = "Akan"
 definition = "verder, over"
 language = "Turks"
 
+[[ete]]
+definition = "buiten"
+language = "Quenya"
+
 [[ewe]]
 definition = "steen, rots"
 language = "Japans"
@@ -114,6 +118,10 @@ language = "onbekend"
 definition = "iets"
 language = "Esperanto"
 
+[[ijo]]
+definition = "(stam van het betrekkelijk voornaamwoord)"
+language = "Romaans"
+
 [[ike]]
 definition = "slecht, gemeen, vals"
 language = "Fins"
@@ -126,9 +134,17 @@ language = "onbekend"
 definition = "gereedschap"
 language = "Esperanto"
 
+[[ilo]]
+definition = "(achtervoegsel van het agens)"
+language = "Duits"
+
 [[insa]]
 definition = "binnen, centrum, maag"
 language = "Tok Pisin"
+
+[[insa]]
+definition = "binnen"
+language = "Engels"
 
 [[ipi]]
 definition = "onbekend"
@@ -154,6 +170,10 @@ language = "Japans"
 definition = "te voet"
 language = "Fins"
 
+[[jalan]]
+definition = "voet"
+language = "Fins"
+
 [[jami]]
 definition = "lekker (als in eten)"
 language = "Engels"
@@ -165,6 +185,10 @@ language = "Kantonees"
 [[jans]]
 definition = "jan"
 language = "toki pona"
+
+[[jans]]
+definition = "(meervoudsachtervoegsel)"
+language = "Engels"
 
 [[jasima]]
 definition = "reflecteren, weergalmen"
@@ -205,6 +229,10 @@ language = "Fins"
 definition = "kalama"
 language = "toki pona"
 
+[[kalamARR]]
+definition = "(nabootsing van piraten)"
+language = "Engels"
+
 [[kalama]]
 definition = "lawaai van veel mensen"
 language = "Servo-Kroatisch"
@@ -225,9 +253,25 @@ language = "toki pona"
 definition = "met"
 language = "Fins"
 
+[[kan]]
+definition = "met"
+language = "Esperanto"
+
+[[kan]]
+definition = "met"
+language = "Latijn"
+
 [[kapa]]
 definition = "hoofd, kopje"
 language = "Nederlands"
+
+[[kapa]]
+definition = "hoofd"
+language = "Esperanto"
+
+[[kapa]]
+definition = "hoofd"
+language = "Latijn"
 
 [[kapesi]]
 definition = "bruin, koffie(kleurig)"
@@ -245,9 +289,17 @@ language = "Fins"
 definition = "oké"
 language = "Engels"
 
+[[ke]]
+definition = "oké"
+language = "Engels"
+
 [[ken]]
 definition = "kunnen"
 language = "Tok Pisin"
+
+[[ken]]
+definition = "kunnen"
+language = "Engels"
 
 [[kepeken]]
 definition = "gebruiken"
@@ -300,6 +352,10 @@ language = "Kantonees"
 definition = "(present of krokodili)"
 language = "Esperanto"
 
+[[kokosila]]
+definition = "krokodil"
+language = "Esperanto"
+
 [[kon]]
 definition = "lucht, atmosfeer, sfeer, mening"
 language = "Mandarijn (Chinees)"
@@ -311,6 +367,10 @@ language = "Koreaans"
 [[konwe]]
 definition = 'John Conway, de uitvinder van de "Game of Life"'
 language = "Engels"
+
+[[konwe]]
+definition = "kon wile"
+language = "toki pona"
 
 [[kosan]]
 definition = "verdedigen, (tegen iets) beschermen"
@@ -355,6 +415,14 @@ language = "toki pona"
 definition = "(bepaald lidwoord)"
 language = "Esperanto"
 
+[[la]]
+definition = "(vrouwelijk enkelvoudig bepaald lidwoord)"
+language = "Romaans"
+
+[[la]]
+definition = "(aanliggend & thematig achtervoegsel)"
+language = "Acadiaans Frans"
+
 [[lanpan]]
 definition = "nemen, pakken, grijpen, krijgen"
 language = "Grieks"
@@ -367,6 +435,10 @@ language = "Nederlands"
 definition = "blauw, onervaren"
 language = "Welsh"
 
+[[laso]]
+definition = "groen, blauw"
+language = "Proto-Brythonisch"
+
 [[lawa]]
 definition = "hoofd"
 language = "Servo-Kroatisch"
@@ -374,6 +446,14 @@ language = "Servo-Kroatisch"
 [[leko]]
 definition = "Lego"
 language = "Engels"
+
+[[leko]]
+definition = "goed spelen"
+language = "Deens"
+
+[[leko]]
+definition = "blok, sectie"
+language = "Fins"
 
 [[len]]
 definition = "kleding"
@@ -383,9 +463,25 @@ language = "Acadiaans Frans"
 definition = "koud"
 language = "Acadiaans Frans"
 
+[[lete]]
+definition = "koud"
+language = "Oud-Frans"
+
 [[li]]
 definition = "hij"
 language = "Esperanto"
+
+[[li]]
+definition = "hij"
+language = "Latijn"
+
+[[li]]
+definition = "hij"
+language = "Tok Pisin"
+
+[[li]]
+definition = "hij"
+language = "Engels"
 
 [[lijokuku]]
 definition = "Exact!', (letterlijk) 'echt LOL'"
@@ -399,9 +495,17 @@ language = "Acadiaans Frans"
 definition = "klein"
 language = "Tok Pisin"
 
+[[lili]]
+definition = "klein"
+language = "Ramoaaina"
+
 [[linja]]
 definition = "lijn"
 language = "Fins"
+
+[[linja]]
+definition = "lijn"
+language = "Oud-Zweeds"
 
 [[linluwi]]
 definition = "internet"
@@ -439,6 +543,10 @@ language = "toki pona"
 definition = "bij, in, op, (ruimtelijke bepaling)"
 language = "Tok Pisin"
 
+[[lon]]
+definition = "mee, langs"
+language = "Engels"
+
 [[lu]]
 language = "op voorhand"
 
@@ -449,6 +557,14 @@ language = "Servo-Kroatisch"
 [[lukin]]
 definition = "zien, kijken"
 language = "Tok Pisin"
+
+[[lukin]]
+definition = "kijken"
+language = "Engels"
+
+[[lukin]]
+definition = "hem"
+language = "Engels"
 
 [[lupa]]
 definition = "lus"
@@ -478,6 +594,18 @@ language = "Fins"
 definition = "oud (niet jong)"
 language = "Esperanto"
 
+[[majuna]]
+definition = "slecht"
+language = "Latijn"
+
+[[majuna]]
+definition = "jong"
+language = "Duits"
+
+[[majuna]]
+definition = "jong"
+language = "Frans"
+
 [[mama]]
 definition = "vader"
 language = "Georgisch"
@@ -486,9 +614,25 @@ language = "Georgisch"
 definition = "geld"
 language = "Engels"
 
+[[mani]]
+definition = "vee"
+language = "Proto-Germaans"
+
+[[mani]]
+definition = "vee"
+language = "Latijn"
+
 [[meli]]
 definition = "vrouw, vrouwelijk, echtgenote"
 language = "Tok Pisin"
+
+[[meli]]
+definition = "mooi"
+language = "Tolai"
+
+[[meli]]
+definition = "Maria"
+language = "Engels"
 
 [[melome]]
 definition = "meli pi olin meli"
@@ -501,6 +645,10 @@ language = "Grieks"
 [[mi]]
 definition = "ik, mij"
 language = "Esperanto"
+
+[[mi]]
+definition = "(1e persoon enkelvoud in de obliquus)"
+language = "Romaans"
 
 [[mije]]
 definition = "man, echtgenoot"
@@ -530,6 +678,10 @@ language = "Acadiaans Frans"
 definition = "Ongewervelde dieren, als (naakt) slakken, mosselen, octopussen (wetenschappelijke nomenclatuur)"
 language = "Engels"
 
+[[molusa]]
+definition = "met een dun schild"
+language = "Latijn"
+
 [[monsi]]
 definition = "m'n gat (grof)"
 language = "Acadiaans Frans"
@@ -556,9 +708,17 @@ language = "Engels"
 definition = "amuseren, entertainen"
 language = "Esperanto"
 
+[[musi]]
+definition = "amuseren, entertainen"
+language = "Frans"
+
 [[mute]]
 definition = "veel"
 language = "Esperanto"
+
+[[mute]]
+definition = "veel"
+language = "Latijn"
 
 [[n]]
 language = "onomatopee"
@@ -578,6 +738,10 @@ language = "Perzisch"
 [[nanpa]]
 definition = "namba ‘nummer, rangtelwoord)' ← Engels 'number', nummer"
 language = "Tok Pisin"
+
+[[nanpa]]
+definition = "namba ‘nummer, rangtelwoord)' ← Engels 'number', nummer"
+language = "Engels"
 
 [[nasa]]
 definition = "domkop"
@@ -650,6 +814,10 @@ language = "Engels"
 definition = "oké"
 language = "Engels"
 
+[[oki]]
+definition = "oké"
+language = "Engels"
+
 [[oko]]
 definition = "oog"
 language = "Servo-Kroatisch"
@@ -660,6 +828,10 @@ language = "Servo-Kroatisch"
 
 [[omekalike]]
 definition = "o moku e kala ike"
+language = "toki pona"
+
+[[omekalike]]
+definition = "o moku e kala pona"
 language = "toki pona"
 
 [[omekapo]]
@@ -694,6 +866,10 @@ language = "Engels"
 definition = "ongeval"
 language = "Tok Pisin"
 
+[[pakala]]
+definition = "verkloten"
+language = "Engels"
+
 [[pake]]
 definition = "blokkeren"
 language = "Engels"
@@ -726,9 +902,17 @@ language = "Portugees"
 definition = "(neer)zetten, plaatsen"
 language = "Fins"
 
+[[pana]]
+definition = "aan elkaar geven"
+language = "Swahili"
+
 [[pasila]]
 definition = "makkelijk"
 language = "Acadiaans Frans"
+
+[[pasila]]
+definition = "makkelijk"
+language = "Esperanto"
 
 [[pata]]
 definition = "broer"
@@ -754,6 +938,10 @@ language = "toki pona"
 definition = "van"
 language = "Tok Pisin"
 
+[[pi]]
+definition = "behoren"
+language = "Engels"
+
 [[pika]]
 definition = "Pikachū, een elektrische Pokémon"
 language = "Japans"
@@ -762,6 +950,14 @@ language = "Japans"
 definition = "voelen"
 language = "Tok Pisin"
 
+[[pilin]]
+definition = "hem"
+language = "Engels"
+
+[[pilin]]
+definition = "hem"
+language = "Engels"
+
 [[pimeja]]
 definition = "donker"
 language = "Fins"
@@ -769,6 +965,14 @@ language = "Fins"
 [[pini]]
 definition = "klaar, voltooid"
 language = "Acadiaans Frans"
+
+[[pini]]
+definition = "voltooien (perfectief aspect)"
+language = "Tok Pisin"
+
+[[pini]]
+definition = "voltooien"
+language = "Engels"
 
 [[pipi]]
 definition = "insect"
@@ -789,6 +993,10 @@ language = "Servo-Kroatisch"
 [[poki]]
 definition = "doosje, vrouwelijke genitaliën (vulgair)"
 language = "Tok Pisin"
+
+[[poki]]
+definition = "doos"
+language = "Engels"
 
 [[polinpin]]
 definition = "Bowling kegel"
@@ -826,6 +1034,18 @@ language = "Japans"
 definition = "zelfde"
 language = "Fins"
 
+[[sama]]
+definition = "dezelfde, gelijkaardig, gelijk aan"
+language = "Proto-Germaans"
+
+[[sama]]
+definition = "zelfde"
+language = "Esperanto"
+
+[[sama]]
+definition = "zelfde"
+language = "Engels"
+
 [[samu]]
 definition = "jan Samu"
 language = "toki pona"
@@ -849,6 +1069,10 @@ language = "Georgisch"
 [[selo]]
 definition = "pel, huid"
 language = "Esperanto"
+
+[[selo]]
+definition = "pel, omhulsel, schild"
+language = "Duits"
 
 [[seme]]
 definition = "wat, iets"
@@ -894,6 +1118,10 @@ language = "Nederlands"
 definition = "sleep"
 language = "toki pona"
 
+[[slape]]
+definition = "slapen"
+language = "Engels"
+
 [[soko]]
 definition = "paddenstoel"
 language = "Georgisch"
@@ -929,6 +1157,14 @@ language = "Esperanto"
 definition = "oppervlak"
 language = "Esperanto"
 
+[[supa]]
+definition = "oppervlak"
+language = "Acadiaans Frans"
+
+[[supa]]
+definition = "oppervlak"
+language = "Engels"
+
 [[sutopatikuna]]
 definition = "vogelbekdier, (letterlijk) rare bek"
 language = "Servo-Kroatisch"
@@ -936,6 +1172,10 @@ language = "Servo-Kroatisch"
 [[suwi]]
 definition = "zoet"
 language = "Tok Pisin"
+
+[[suwi]]
+definition = "zoet"
+language = "Engels"
 
 [[taki]]
 definition = "het geluid van 2 magneten die met elkaar botsen (onomatopee)"
@@ -948,6 +1188,10 @@ language = "Kantonees"
 [[taso]]
 definition = "alleen, enkel, slechts, echter"
 language = "Tok Pisin"
+
+[[taso]]
+definition = "dat is alles, dat zal het zijn"
+language = "Engels"
 
 [[tawa]]
 definition = "naar"
@@ -973,6 +1217,10 @@ language = "toki pona"
 definition = "tijd"
 language = "Esperanto"
 
+[[tenpo]]
+definition = "tijd"
+language = "Latijn"
+
 [[to]]
 definition = "(citaatvorm)"
 language = "Japans"
@@ -985,6 +1233,10 @@ language = "Tongaans"
 definition = "spreken"
 language = "Tok Pisin"
 
+[[toki]]
+definition = "spreken"
+language = "Engels"
+
 [[toma]]
 definition = "huis, kamer, thuis, gebouw"
 language = "toki pona"
@@ -993,6 +1245,18 @@ language = "toki pona"
 definition = "huis"
 language = "Esperanto"
 
+[[tomo]]
+definition = "huis"
+language = "Pools"
+
+[[tomo]]
+definition = "huis"
+language = "Latijn"
+
+[[tomo]]
+definition = "huis"
+language = "Oud-Grieks"
+
 [[tonsi]]
 definition = "kameraad (zelfde wil/doel), LGBT+"
 language = "Mandarijn (Chinees)"
@@ -1000,6 +1264,10 @@ language = "Mandarijn (Chinees)"
 [[tu]]
 definition = "twee"
 language = "Engels"
+
+[[tu]]
+definition = "twee"
+language = "Esperanto"
 
 [[tuli]]
 definition = "drie"
@@ -1038,6 +1306,10 @@ language = "onomatopee"
 definition = "van moment, belangrijk"
 language = "Quenya"
 
+[[waleja]]
+definition = "waard, waardig, dierbaar"
+language = "Quenya"
+
 [[walo]]
 definition = "wit"
 language = "Fins"
@@ -1074,6 +1346,10 @@ language = "Spaans"
 definition = "man"
 language = "Spaans"
 
+[[we1]]
+definition = "man (zin label)"
+language = "Engels"
+
 [[weka]]
 definition = "er niet meer, weggegaan"
 language = "Nederlands"
@@ -1089,6 +1365,18 @@ language = "Engels"
 [[wile]]
 definition = "willen, wensen"
 language = "Nederlands"
+
+[[wuwojiti]]
+definition = "(geluid)"
+language = "toki pona"
+
+[[wuwojiti]]
+definition = "(geluid)"
+language = "toki pona"
+
+[[wuwojiti]]
+definition = "(geluid)"
+language = "toki pona"
 
 [[wuwojiti]]
 definition = "(geluid)"
