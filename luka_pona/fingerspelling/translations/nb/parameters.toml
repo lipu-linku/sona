@@ -85,7 +85,7 @@ handshape = "FlatB"
 orientation = "palm outwards"
 
 [P-2]
-handshape = "9 +1"
+handshape = "9 + 1"
 placement = "touch tip of finger"
 
 [S-1]
