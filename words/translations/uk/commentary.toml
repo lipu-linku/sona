@@ -10,7 +10,7 @@ ale = """
 Більшість носіїв заявляють, що вони не розуміють значення «компетентний», як мінімум без контексту.
 «20, 120» були визначеннями, які часто використовувались раніше у спільноті, яких нема в pu, але зараз їх практично немає."""
 alente = "Створене як жарт як «фінальний неологізм» — будь-яке інше слово буде семантично включене в alente, тож воно може бути заперечене через «це ж alente але трохи точніше»."
-ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+ali = '«ali» це альтернативна форма слова «ale», яка була створена в опитуванні у 2002 році щоб уникнути плутанини з «ale». Але використання "ale" замість «ali» — є більш частим як мінімум з виходу pu. Зазвичай не вважається словом наодинці.'
 alu = ""
 anpa = "У частому використанні (і до, і після pu), «anpa» має значення «місце знизу». В pu, це визначення має «noka»."
 ante = ""
@@ -20,24 +20,17 @@ awase = 'jan Lenoka further elaborated the semantics to imply "to bump into, to 
 awen = ""
 e = ""
 eki = 'It is recommended to use "natu" instead.'
-eliki = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
-en = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
-enko = """
-Considered deprecated by the author: "mi pali e nimi enko a a
-open la pilin mi li sama
-nimi enko li pona, jan mute o kepeken
-taso kepeken pi toki pona la mi kama sona
-nimi ante li ken toki e wile toki pi nimi enko
-la ona li suli ala"\
-"""
+eliki = "почуття з якістю буття сильно повʼязаним з самим собою, викликаючи позитивну, негативну, чи змішану між цими двома класифікацію"
+en = "Є декілька різних аналізів синтаксичної ролі слова «en». Спочатку маючи значення «та», роль була змінена через опитування у 2002 для використання лише з іменниками-підметами. Один з нещодавніх аналізів (включаючи 01.04.2021) вважає це слово як маркер підмета."
+enko = "Вважається застарілим за словами автора."
 epiku = ""
-esun = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+esun = "За словами авторки, «esun сказав [до неї] таксист, який говорив мовою з аканської сімʼї у західній Африці»."
 ete = ""
 ewe = ""
-i = '"i" was proposed as a replacement for "iki" in a poll in 2002. However, "i" failed to get enough votes. "iki" was instead replaced by "ona".'
+i = "Запропонована заміна слову «iki» в опитуванні у 2002 році."
 ijo = ""
 ike = ""
-iki = 'In a poll in 2002, "iki" was deemed too similar to "ike" and replaced by "ona".'
+iki = "Замінено у 2002 році через близькість до «ike»."
 ilo = ""
 insa = ""
 ipi = '"ipi" was proposed as a replacement for "iki" in a poll in 2002. However, "ipi" failed to get enough votes. "iki" was instead replaced by "ona".'
@@ -51,9 +44,9 @@ jan = 'There are two sides to the concept, "sentient entity" and "homo sapiens",
 jans = "Not coined directly, but developed out of repeated use in the early ma pona pi toki pona Discord server community. jans was repeatedly used because of the humor in adding an English plural suffix to a Toki Pona word."
 jasima = ""
 je = ""
-jelo = 'Some extend "jelo" to include lime green, but this usage is uncommon.'
+jelo = "Дехто розширює «jelo», щоб включати лаймовий зелений, але це використання не є частим. "
 jo = ""
-jonke = "Coined in reference to the Untitled Goose Game fandom."
+jonke = "Створено як відсилання на фандом Untitled Goose Game."
 ju = ""
 jule = ""
 jume = 'Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was "fantasy" or "unreality", without a negative connotation.'
@@ -227,7 +220,7 @@ soko = ""
 sona = ""
 soto = ""
 soweli = ""
-su = ""
+su = "This word was originally coined in ku as a reserved word for jan Sonja's future use. It was redefined upon the release of the first su book, making its status as a ku word debatable."
 suke = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
 suli = ""
 suno = ""
