@@ -5,69 +5,6 @@ import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./util
 
 type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
 
-export const Resources = z
-	.object({
-		sona_pona: z
-			.string()
-			.url()
-			.optional()
-			.describe(
-				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-			),
-		lipamanka_semantic: z
-			.string()
-			.url()
-			.optional()
-			.describe("A link to lipamanka's description of the word's semantic space."),
-	})
-	.optional()
-	.describe("Non-Linku resources related to the specific word, such as wiki links.");
-
-export type Resources = z.infer<typeof Resources>;
-
-export const Representations = z
-	.object({
-		sitelen_emosi: z
-			.string()
-			.emoji()
-			.optional()
-			.describe(
-				"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
-			),
-		ligatures: z
-			.array(z.string().min(1))
-			.optional()
-			.describe(
-				"A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
-			),
-		sitelen_sitelen: z
-			.string()
-			.url()
-			.optional()
-			.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
-		ucsur: z
-			.string()
-			.regex(/^U\+[\da-fA-F]{4,6}$/g)
-			.optional()
-			.describe(
-				"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
-			),
-	})
-	.optional()
-	.describe("Ways of representing this word in the real world, via text/computers");
-
-export type Representations = z.infer<typeof Representations>;
-
-export const Etymology = z.object({
-	word: z
-		.string()
-		.optional()
-		.describe("One of the root words of this word, as written out in its language of origin"),
-	alt: z.string().optional().describe(`A latinized representation of the "word" field`),
-});
-
-export type Etymology = z.infer<typeof Etymology>;
-
 export const Word = z
 	.object({
 		author_verbatim: z
@@ -98,8 +35,53 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
-		resources: Resources,
-		representations: Representations,
+		resources: z
+			.object({
+				sona_pona: z
+					.string()
+					.url()
+					.optional()
+					.describe(
+						"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+					),
+				lipamanka_semantic: z
+					.string()
+					.url()
+					.optional()
+					.describe("A link to lipamanka's description of the word's semantic space."),
+			})
+			.optional()
+			.describe("Non-Linku resources related to the specific word, such as wiki links."),
+		representations: z
+			.object({
+				sitelen_emosi: z
+					.string()
+					.emoji()
+					.optional()
+					.describe(
+						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
+					),
+				ligatures: z
+					.array(z.string().min(1))
+					.optional()
+					.describe(
+						"A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
+					),
+				sitelen_sitelen: z
+					.string()
+					.url()
+					.optional()
+					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
+				ucsur: z
+					.string()
+					.regex(/^U\+[\da-fA-F]{4,6}$/g)
+					.optional()
+					.describe(
+						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
+					),
+			})
+			.optional()
+			.describe("Ways of representing this word in the real world, via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
 			"The word's usage category, according to a survey performed by the Linku Project",
@@ -113,7 +95,17 @@ export const Word = z
 				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
 			),
 		etymology: z
-			.array(Etymology)
+			.array(
+				z.object({
+					word: z
+						.string()
+						.optional()
+						.describe(
+							"One of the root words of this word, as written out in its language of origin",
+						),
+					alt: z.string().optional().describe(`A latinized representation of the "word" field`),
+				}),
+			)
 			.describe("Unlocalized etymological values regarding this word's origin"),
 		audio: z.array(
 			z
