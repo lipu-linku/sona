@@ -30,7 +30,7 @@
 		"build": "tsup ./src/**/*.ts --dts --format esm"
 	},
 	"dependencies": {
-		"hono": "^3.12.6",
+		"hono": "^4.0.3",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
