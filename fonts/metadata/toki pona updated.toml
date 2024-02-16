@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "toki pona updated"
 creator = ["ashcrash9"]
 features = ["codepoints only"]
 filename = "toki-pona-updated.ttf"

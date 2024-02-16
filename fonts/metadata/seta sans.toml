@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "seta sans"
 creator = ["Eschar", "Nathan McCoy"]
 features = []
 filename = "seta-sans.otf"

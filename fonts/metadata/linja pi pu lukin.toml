@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja pi pu lukin"
 creator = ["jan Sa"]
 features = ["ASCII transcription", "supports all ku lili"]
 filename = "pu-lukin.otf"

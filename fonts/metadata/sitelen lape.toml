@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen lape"
 creator = ["jan Ali", "jan Sa"]
 features = []
 filename = "linjalapesuwi.otf"

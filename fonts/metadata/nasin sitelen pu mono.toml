@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "nasin sitelen pu mono"
 creator = ["jan Ke Tami"]
 features = ["ASCII transcription", "UCSUR-compliant", "cartouches", "ku suli"]
 filename = "nasin-sitelen-pu-mono.otf"

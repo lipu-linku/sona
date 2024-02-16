@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "toki tengwar"
 creator = ["jan Pije"]
 features = []
 filename = "tokitengwar.ttf"

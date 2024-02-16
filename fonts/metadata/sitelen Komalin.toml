@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen Komalin"
 creator = ["Kolmaryn / jan Komalin"]
 features = []
 filename = "sitelen-komalin.ttf"

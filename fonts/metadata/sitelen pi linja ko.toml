@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen pi linja ko"
 creator = ["increpare / jan Inkepa"]
 features = ["ASCII transcription"]
 filename = "sitelen-pi-linja-ko.ttf"

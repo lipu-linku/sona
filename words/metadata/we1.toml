@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "we1"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"

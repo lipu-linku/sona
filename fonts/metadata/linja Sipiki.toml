@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja Sipiki"
 creator = ["jan Sipiki", "jan Ke Tami"]
 features = [
   "ASCII transcription",

@@ -6,6 +6,11 @@
       "additionalProperties": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The word's unique ID, identifying it among other words"
+          },
           "author_verbatim": {
             "type": "string",
             "description": "The author's original definition, taken verbatim in their words"
@@ -285,6 +290,7 @@
           }
         },
         "required": [
+          "id",
           "author_verbatim",
           "author_verbatim_source",
           "book",

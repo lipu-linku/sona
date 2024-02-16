@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja pi tomo lipu"
 creator = ["Pascal Guimier (jan Talu)", "Christophe Bouteiller"]
 features = ["ASCII transcription", "supports cartouches"]
 filename = "linja-pi-tomo-lipu.ttf"
