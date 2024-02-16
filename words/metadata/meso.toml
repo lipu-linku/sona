@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Olipija"]
 see_also = ["insa"]
-sona_pona = "https://sona.pona.la/wiki/meso"
 source_language = "Greek"
 usage_category = "common"
 word = "meso"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/meso.mp3"
@@ -31,12 +31,14 @@ moderate = 50
 ordinary = 29
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["meso"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meso.jpg"
+ligatures = ["meso"]
 ucsur = "U+F1982"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meso.jpg"
 
 [usage]
 2021-10 = 71
 2022-08 = 52
 2023-09 = 52
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/meso"

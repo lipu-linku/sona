@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["cyanidesDuality"]
 see_also = ["mu", "nja"]
-sona_pona = "https://sona.pona.la/wiki/jonke"
 source_language = "onomatopoeia"
 usage_category = "obscure"
 word = "jonke"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jonke.mp3"
@@ -19,11 +19,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "hjönk"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jonke"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["jonke"]
 
 [usage]
 2022-08 = 3
 2023-09 = 5
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jonke"

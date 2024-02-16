@@ -36,40 +36,52 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
-		sona_pona: z
-			.string()
-			.url()
+		resources: z
+			.object({
+				sona_pona: z
+					.string()
+					.url()
+					.optional()
+					.describe(
+						"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+					),
+				lipamanka_semantic: z
+					.string()
+					.url()
+					.optional()
+					.describe("A link to lipamanka's description of the word's semantic space."),
+			})
 			.optional()
-			.describe(
-				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-			),
+			.describe("Non-Linku resources related to the specific word, such as wiki links."),
 		representations: z
 			.object({
 				sitelen_emosi: z
 					.string()
 					.emoji()
-					.or(z.literal(""))
+					.optional()
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
-				sitelen_pona: z
-					.array(z.string())
+				ligatures: z
+					.array(z.string().min(1))
+					.optional()
 					.describe(
-						"A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs",
+						"A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
 					),
 				sitelen_sitelen: z
 					.string()
 					.url()
-					.or(z.literal(""))
+					.optional()
 					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
 				ucsur: z
 					.string()
 					.regex(/^U\+[\da-fA-F]{4,6}$/g)
-					.or(z.literal(""))
+					.optional()
 					.describe(
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
+			.optional()
 			.describe("Ways of representing this word in the real world, via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
@@ -78,6 +90,11 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
+		id: z
+			.string()
+			.describe(
+				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
+			),
 		etymology: z
 			.array(
 				z.object({
@@ -318,7 +335,7 @@ export const Words = z
 			translations: z.record(
 				z.object({
 					commentary: CommentaryTranslation.valueSchema,
-					definitions: DefinitionTranslation.valueSchema,
+					definition: DefinitionTranslation.valueSchema,
 					etymology: EtymologyTranslation.valueSchema,
 					sp_etymology: SitelenPonaTranslation.valueSchema,
 				}),

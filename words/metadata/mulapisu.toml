@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan Sonja"]
 see_also = ["pan"]
-sona_pona = "https://sona.pona.la/wiki/mulapisu"
 source_language = "a priori"
 usage_category = "obscure"
 word = "mulapisu"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mulapisu.mp3"
@@ -25,13 +25,14 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/mul
 pizza = 40
 
 [representations]
+ligatures = ["mulapisu"]
 sitelen_emosi = "🍕"
-sitelen_pona = ["mulapisu"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 32
 2021-10 = 39
 2022-08 = 7
 2023-09 = 6
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/mulapisu"

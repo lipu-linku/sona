@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/ki"
 source_language = "French"
 usage_category = "obscure"
 word = "ki"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ki.mp3"
@@ -19,12 +19,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "qui"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["ki"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["ki"]
 
 [usage]
 2021-10 = 23
 2022-08 = 2
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ki"

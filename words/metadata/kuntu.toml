@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Wesu", "jan Maliku", "jan inwin"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kuntu"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "kuntu"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kuntu.mp3"
@@ -25,13 +25,14 @@ laugh = 8
 laughter = 14
 
 [representations]
+ligatures = ["kuntu"]
 sitelen_emosi = "🤣"
-sitelen_pona = ["kuntu"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 21
 2021-10 = 31
 2022-08 = 7
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kuntu"

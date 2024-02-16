@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kokosila"
 source_language = "Esperanto"
 usage_category = "uncommon"
 word = "kokosila"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kokosila.mp3"
@@ -29,12 +29,14 @@ word = "krokodilo"
 "speak another language in a Toki Pona only environment" = 50
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kokosila", "kokosila2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kokosila.jpg"
+ligatures = ["kokosila", "kokosila2"]
 ucsur = "U+F1984"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kokosila.jpg"
 
 [usage]
 2021-10 = 54
 2022-08 = 25
 2023-09 = 31
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kokosila"

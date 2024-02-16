@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Sonja"]
 see_also = ["nimisin"]
-sona_pona = "https://sona.pona.la/wiki/samu"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "samu"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/samu.mp3"
@@ -26,13 +26,14 @@ word = "jan Samu"
 "wanting to create new words" = 40
 
 [representations]
+ligatures = ["samu"]
 sitelen_emosi = "✍️"
-sitelen_pona = ["samu"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 16
 2021-10 = 29
 2022-08 = 3
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/samu"

@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["kala kala"]
 see_also = ["a"]
-sona_pona = "https://sona.pona.la/wiki/n"
 source_language = "onomatopoeia"
 usage_category = "widespread"
 word = "n"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/n.mp3"
@@ -27,12 +27,14 @@ mmm = 40
 um = 47
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["n"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/n.jpg"
+ligatures = ["n"]
 ucsur = "U+F1986"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/n.jpg"
 
 [usage]
 2021-10 = 60
 2022-08 = 68
 2023-09 = 70
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/n"

@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Wesu", "jan Maliku", "jan Kisinja", "jan inwin"]
 see_also = ["tu", "lukin"]
-sona_pona = "https://sona.pona.la/wiki/jasima"
 source_language = "Turkish"
 usage_category = "uncommon"
 word = "jasima"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jasima.mp3"
@@ -28,13 +28,15 @@ reflect = 59
 reverse = 35
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jasima"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jasima.jpg"
+ligatures = ["jasima"]
 ucsur = "U+F197F"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jasima.jpg"
 
 [usage]
 2020-04 = 22
 2021-10 = 71
 2022-08 = 47
 2023-09 = 43
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jasima"

@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["lukin"]
-sona_pona = "https://sona.pona.la/wiki/alasa"
 source_language = "Acadian French"
 usage_category = "core"
 word = "alasa"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alasa.mp3"
@@ -46,12 +46,16 @@ eo = "VERBO ĉasi, kolekti"
 fr = "VERBE chasser, cueillir"
 
 [representations]
-sitelen_emosi = "🏹"
-sitelen_pona = ["alasa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
+ligatures = ["alasa"]
 ucsur = "U+F1903"
+sitelen_emosi = "🏹"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
 
 [usage]
 2020-04 = 97
 2022-08 = 97
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/alasa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#alasa"

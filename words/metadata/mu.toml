@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["kalama"]
-sona_pona = "https://sona.pona.la/wiki/mu"
 source_language = "onomatopoeia"
 usage_category = "core"
 word = "mu"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mu.mp3"
@@ -37,11 +37,15 @@ eo = "PARTIKULO (bleko, aŭ alia besta sono aŭ komunikaĵo)"
 fr = "PARTICULE (cri ou communication d'un animal)"
 
 [representations]
-sitelen_emosi = "😹"
-sitelen_pona = ["mu", "mu2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
+ligatures = ["mu", "mu2"]
 ucsur = "U+F1939"
+sitelen_emosi = "😹"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
 
 [usage]
 2022-08 = 97
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/mu"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mu"

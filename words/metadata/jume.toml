@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Seli"]
 see_also = ["oni", "sitelen", "lape", "insa", "powe"]
-sona_pona = "https://sona.pona.la/wiki/jume"
 source_language = "Japanese"
 usage_category = "obscure"
 word = "jume"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jume.mp3"
@@ -20,12 +20,12 @@ alt = "yume"
 word = "夢"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jume"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["jume"]
 
 [usage]
 2021-10 = 17
 2022-08 = 1
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jume"

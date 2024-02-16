@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["esun"]
-sona_pona = "https://sona.pona.la/wiki/mani"
 source_language = "English"
 usage_category = "core"
 word = "mani"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mani.mp3"
@@ -73,11 +73,15 @@ eo = "SUBSTANTIVO mono, riĉaĵoj, ŝparaĵo, kontanta mono; bruto, granda"
 fr = "NOM argent, richesse ; grand animal domestiqué"
 
 [representations]
-sitelen_emosi = "💰"
-sitelen_pona = ["mani"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mani.jpg"
+ligatures = ["mani"]
 ucsur = "U+F1932"
+sitelen_emosi = "💰"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mani.jpg"
 
 [usage]
 2022-08 = 97
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/mani"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mani"

@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/len"
 source_language = "Acadian French"
 usage_category = "core"
 word = "len"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/len.mp3"
@@ -56,11 +56,15 @@ eo = "SUBSTANTIVO ŝtofo, vestaĵo, teksaĵo; kovraĵo, tavolo de privateco"
 fr = "NOM tissu, vêtement, textile ; couverture, rideau d'intimité"
 
 [representations]
-sitelen_emosi = "👕"
-sitelen_pona = ["len"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/len.jpg"
+ligatures = ["len"]
 ucsur = "U+F1925"
+sitelen_emosi = "👕"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/len.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/len"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#len"

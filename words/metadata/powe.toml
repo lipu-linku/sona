@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = "<2001"
 creator = ["jan Sonja"]
 see_also = ["ike", "lon"]
-sona_pona = "https://sona.pona.la/wiki/powe"
 source_language = "Acadian French"
 usage_category = "uncommon"
 word = "powe"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/powe.mp3"
@@ -35,13 +35,15 @@ trap = 19
 trick = 31
 
 [representations]
-sitelen_emosi = "🧞"
-sitelen_pona = ["powe"]
-sitelen_sitelen = ""
+ligatures = ["powe"]
 ucsur = "U+F19A3"
+sitelen_emosi = "🧞"
 
 [usage]
 2020-04 = 31
 2021-10 = 56
 2022-08 = 21
 2023-09 = 23
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/powe"

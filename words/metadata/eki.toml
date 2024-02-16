@@ -7,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Anselo"]
 see_also = ["natu"]
-sona_pona = "https://sona.pona.la/wiki/eki"
 source_language = "English"
 usage_category = "obscure"
 word = "eki"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eki.mp3"
@@ -19,11 +19,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "x (letter name)"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["eki"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["eki"]
 
 [usage]
 2022-08 = 0
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/eki"

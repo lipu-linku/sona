@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/awen"
 source_language = "Dutch"
 usage_category = "core"
 word = "awen"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awen.mp3"
@@ -80,11 +80,15 @@ eo = "ADJEKTIVO daŭranta, tenata, gardata, protektita, sekura, atendanta, resta
 fr = "ADJECTIF resté, protégé, gardé, qui attend, qui persiste, conservé\nAUXILIAIRE continuer à"
 
 [representations]
-sitelen_emosi = "⚓"
-sitelen_pona = ["awen"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
+ligatures = ["awen"]
 ucsur = "U+F1908"
+sitelen_emosi = "⚓"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/awen.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/awen"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#awen"

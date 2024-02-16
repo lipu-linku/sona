@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/sona"
 source_language = "Georgian"
 usage_category = "core"
 word = "sona"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sona.mp3"
@@ -63,11 +63,15 @@ eo = "VERBO scii, koni, esti lerta pri, esti saĝa pri, havi informojn pri\nANTA
 fr = "VERBE savoir, connaître\nAUXILIAIRE savoir"
 
 [representations]
-sitelen_emosi = "🧠"
-sitelen_pona = ["sona"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sona.jpg"
+ligatures = ["sona"]
 ucsur = "U+F1961"
+sitelen_emosi = "🧠"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sona.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sona"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sona"

@@ -24,7 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 2023-09 = 1
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["konsi"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["konsi"]
+
+[resources]

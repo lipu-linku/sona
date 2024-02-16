@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["sama"]
-sona_pona = "https://sona.pona.la/wiki/ante"
 source_language = "Dutch"
 usage_category = "core"
 word = "ante"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ante.mp3"
@@ -68,11 +68,15 @@ eo = "ADJEKTIVO malsama, ŝanĝita, alia"
 fr = "ADJECTIF différent, changé, autre"
 
 [representations]
-sitelen_emosi = "🔀"
-sitelen_pona = ["ante"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ante.jpg"
+ligatures = ["ante"]
 ucsur = "U+F1906"
+sitelen_emosi = "🔀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ante.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ante"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ante"

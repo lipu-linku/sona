@@ -7,10 +7,10 @@ coined_era = "post-ku"
 coined_year = "2021"
 creator = ["jan Emalan"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/nele"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "nele"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nele.mp3"
@@ -19,11 +19,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "len"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["nele"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["nele"]
 
 [usage]
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nele"

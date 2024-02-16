@@ -10,6 +10,7 @@ see_also = ["wuwojiti"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wawajete"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawajete.mp3"
@@ -18,13 +19,13 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "wuwojiti"
 
 [representations]
+ligatures = ["wawajete"]
 sitelen_emosi = "🤡"
-sitelen_pona = ["wawajete"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 18
 2021-10 = 24
 2022-08 = 2
 2023-09 = 4
+
+[resources]

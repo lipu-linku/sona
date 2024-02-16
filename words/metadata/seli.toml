@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["lete"]
-sona_pona = "https://sona.pona.la/wiki/seli"
 source_language = "Georgian"
 usage_category = "core"
 word = "seli"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/seli.mp3"
@@ -46,11 +46,15 @@ eo = "SUBSTANTIVO fajro; varmiga elemento de kuirilo, kemia reago, fonto de varm
 fr = "NOM feu ; élément de cuisson, réaction chimique, chaleur"
 
 [representations]
-sitelen_emosi = "🔥"
-sitelen_pona = ["seli"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seli.jpg"
+ligatures = ["seli"]
 ucsur = "U+F1957"
+sitelen_emosi = "🔥"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seli.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/seli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#seli"

@@ -32,7 +32,7 @@ stone = 3
 2023-09 = 1
 
 [representations]
+ligatures = ["ewe"]
 sitelen_emosi = "🌋"
-sitelen_pona = ["ewe"]
-sitelen_sitelen = ""
-ucsur = ""
+
+[resources]

@@ -7,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["palisa"]
-sona_pona = "https://sona.pona.la/wiki/linja"
 source_language = "Finnish"
 usage_category = "core"
 word = "linja"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linja.mp3"
@@ -52,11 +52,15 @@ eo = "SUBSTANTIVO io longa kaj fleksebla; kordo, haro, ŝnuro, fadeno"
 fr = "NOM objet long et flexible : corde, cheveu, fil, ligne"
 
 [representations]
-sitelen_emosi = "〰️"
-sitelen_pona = ["linja"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
+ligatures = ["linja"]
 ucsur = "U+F1929"
+sitelen_emosi = "〰️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/linja.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/linja"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#linja"

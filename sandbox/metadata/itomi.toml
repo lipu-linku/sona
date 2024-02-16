@@ -25,7 +25,7 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 2023-09 = 1
 
 [representations]
+ligatures = ["itomi"]
 sitelen_emosi = "😈"
-sitelen_pona = ["itomi"]
-sitelen_sitelen = ""
-ucsur = ""
+
+[resources]
