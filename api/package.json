@@ -11,7 +11,7 @@
 		"@hono/vite-dev-server": "^0.4.0",
 		"@hono/zod-validator": "^0.1.11",
 		"@kulupu-linku/sona": "workspace:^",
-		"hono": "^3.12.6",
+		"hono": "^4.0.3",
 		"vite": "^5.0.12",
 		"zod": "^3.22.4",
 		"zod-fetch": "^0.1.1",
