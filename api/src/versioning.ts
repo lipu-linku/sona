@@ -50,7 +50,7 @@ export type Versions = {
 
 export const versions = {
 	v1: {
-		branch: "resources",
+		branch: "main",
 		schemas: {
 			words: Words,
 			sandbox: Sandbox,
