@@ -7,7 +7,12 @@ const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
 // Word data
 export const Word = z
 	.object({
-		id: z.string().min(1).describe("The word's unique ID, identifying it among other words"),
+		id: z
+			.string()
+			.min(1)
+			.describe(
+				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
+			),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
@@ -90,11 +95,6 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
-		id: z
-			.string()
-			.describe(
-				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
-			),
 		etymology: z
 			.array(
 				z.object({
