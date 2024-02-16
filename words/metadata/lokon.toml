@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2018"
 creator = ["jan Kamila", "soweli Wipa"]
 see_also = ["lukin", "oko"]
-sona_pona = "https://sona.pona.la/wiki/lokon"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "lokon"
+id = "lokon"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lokon.mp3"
@@ -21,13 +21,14 @@ word = "lukin"
 word = "oko"
 
 [representations]
+ligatures = ["lokon"]
 sitelen_emosi = "🧿"
-sitelen_pona = ["lokon"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 15
 2021-10 = 20
 2022-08 = 0
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lokon"

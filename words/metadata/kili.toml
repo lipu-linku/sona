@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["kasi", "moku", "soko"]
-sona_pona = "https://sona.pona.la/wiki/kili"
 source_language = "Georgian"
 usage_category = "core"
 word = "kili"
+id = "kili"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kili.mp3"
@@ -40,11 +40,15 @@ eo = "SUBSTANTIVO frukto, legomo, manĝebla fungo"
 fr = "NOM fruit, légume, champignon"
 
 [representations]
-sitelen_emosi = "🍎"
-sitelen_pona = ["kili"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
+ligatures = ["kili"]
 ucsur = "U+F191A"
+sitelen_emosi = "🍎"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kili"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kili"

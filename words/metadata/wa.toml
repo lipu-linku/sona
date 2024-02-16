@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["mama mama pi jan Lakuse"]
 see_also = ["a", "n", "je"]
-sona_pona = "https://sona.pona.la/wiki/wa"
 source_language = "onomatopoeia"
 usage_category = "rare"
 word = "wa"
+id = "wa"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wa.mp3"
@@ -21,12 +21,12 @@ whoa = 23
 wow = 11
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["wa"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["wa"]
 
 [usage]
 2021-10 = 39
 2022-08 = 13
 2023-09 = 17
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wa"

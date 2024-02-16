@@ -9,6 +9,7 @@ see_also = ["nimisin"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "samu"
+id = "samu"
 
 [[etymology]]
 word = "jan Samu"
@@ -31,7 +32,7 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 2023-09 = 1
 
 [representations]
+ligatures = ["samu"]
 sitelen_emosi = "✍️"
-sitelen_pona = ["samu"]
-sitelen_sitelen = ""
-ucsur = ""
+
+[resources]

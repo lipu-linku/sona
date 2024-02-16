@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["awen", "kama"]
-sona_pona = "https://sona.pona.la/wiki/tawa"
 source_language = "English"
 usage_category = "core"
 word = "tawa"
+id = "tawa"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tawa.mp3"
@@ -68,11 +68,15 @@ eo = "PREPOZICIO al, iranta al, en la direkto al; por, al; laŭ la vidpunkto\nAD
 fr = "PRÉPOSITION à, allant à, vers, pour, du point de vue de\nADJECTIF en mouvement, animé"
 
 [representations]
-sitelen_emosi = "↪️"
-sitelen_pona = ["tawa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tawa.jpg"
+ligatures = ["tawa"]
 ucsur = "U+F1969"
+sitelen_emosi = "↪️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tawa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/tawa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#tawa"

@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2017"
 creator = ["jan inwin"]
 see_also = ["len", "ilo", "wan"]
-sona_pona = "https://sona.pona.la/wiki/linluwi"
 source_language = "Welsh"
 usage_category = "uncommon"
 word = "linluwi"
+id = "linluwi"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linluwi.mp3"
@@ -27,13 +27,14 @@ virtual = 13
 web = 9
 
 [representations]
+ligatures = ["linluwi", "linluwi4", "linluwi2"]
 sitelen_emosi = "🌐"
-sitelen_pona = ["linluwi", "linluwi4", "linluwi2"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 31
 2021-10 = 55
 2022-08 = 29
 2023-09 = 34
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/linluwi"

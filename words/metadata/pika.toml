@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["Kriskee_"]
 see_also = ["linluwi", "ilo"]
-sona_pona = "https://sona.pona.la/wiki/pika"
 source_language = "Japanese"
 usage_category = "obscure"
 word = "pika"
+id = "pika"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pika.mp3"
@@ -19,11 +19,11 @@ alt = "Pikachū"
 word = "ピカチュウ"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["pika"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["pika"]
 
 [usage]
 2022-08 = 2
 2023-09 = 5
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pika"

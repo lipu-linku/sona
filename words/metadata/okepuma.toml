@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan Elijo"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/okepuma"
 source_language = "English"
 usage_category = "obscure"
 word = "okepuma"
+id = "okepuma"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/okepuma.mp3"
@@ -18,13 +18,14 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "okay boomer"
 
 [representations]
+ligatures = ["okepuma"]
 sitelen_emosi = "🦖"
-sitelen_pona = ["okepuma"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 21
 2021-10 = 24
 2022-08 = 3
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/okepuma"

@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Likipi"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/Pingo"
 source_language = "a priori"
 usage_category = "obscure"
 word = "Pingo"
+id = "Pingo"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/Pingo.mp3"
@@ -20,12 +20,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 car = 6
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["Pingo"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["Pingo"]
 
 [usage]
 2021-10 = 20
 2022-08 = 5
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/Pingo"

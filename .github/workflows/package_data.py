@@ -7,14 +7,24 @@ import tomlkit
 DATA_FOLDER: Final[str] = "metadata"
 TRANSLATIONS_FOLDER: Final[str] = "translations"
 
+
+# TODO: rename file in repo and crowdin later?
+# or fetch stem a more robust way
+def fetch_words_stem(path: Path, data: dict):
+    stem = path.stem
+    if stem == "definitions":
+        stem = "definition"
+    return stem
+
+
 # Value is a function that produces the parent key, if any
 DATA_TYPES: Final[dict[str, Callable[[Path, dict], Optional[str]]]] = {
-    "words": lambda path, file: path.stem,
-    "sandbox": lambda path, file: path.stem,
-    "luka_pona/signs": lambda path, file: path.stem,
-    "luka_pona/fingerspelling": lambda path, file: path.stem,
-    "fonts": lambda path, file: path.stem,
-    "languages": lambda path, file: None,
+    "words": lambda path, data: fetch_words_stem(path, data),
+    "sandbox": lambda path, data: fetch_words_stem(path, data),
+    "luka_pona/signs": lambda path, data: path.stem,
+    "luka_pona/fingerspelling": lambda path, data: path.stem,
+    "fonts": lambda path, data: path.stem,
+    "languages": lambda path, data: None,
 }
 
 
@@ -37,13 +47,17 @@ def extract_data(
                 # we assume all keys in data are unique
 
 
-def insert_translations(result: dict[str, Any], paths: Iterator[Path]):
+def insert_translations(
+    result: dict[str, Any],
+    paths: Iterator[Path],
+    key_maker: Callable[[Path, dict], Optional[str]],
+):
     for path in paths:
         with open(path) as file:
             print(f"Reading {path}...")
             localized_data = tomlkit.load(file)
             locale = path.parent.stem
-            data_kind = path.stem
+            data_kind = key_maker(path, localized_data)
 
             for item in localized_data:
                 if "translations" not in result[item]:
@@ -69,6 +83,7 @@ if __name__ == "__main__":
         insert_translations(
             result,
             Path(".").glob(f"./{data_type}/{TRANSLATIONS_FOLDER}/*/*.toml"),
+            transformer,
         )
 
         raw_filename = Path("raw") / Path(data_type).stem

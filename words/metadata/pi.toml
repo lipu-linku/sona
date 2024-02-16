@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/pi"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pi"
+id = "pi"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pi.mp3"
@@ -35,11 +35,14 @@ eo = "PARTIKULO de"
 fr = "PARTICULE de"
 
 [representations]
-sitelen_emosi = "⏹️"
-sitelen_pona = ["pi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
+ligatures = ["pi"]
 ucsur = "U+F194D"
+sitelen_emosi = "⏹️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pi"

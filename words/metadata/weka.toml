@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["pini"]
-sona_pona = "https://sona.pona.la/wiki/weka"
 source_language = "Dutch"
 usage_category = "core"
 word = "weka"
+id = "weka"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/weka.mp3"
@@ -70,11 +70,15 @@ eo = "ADJEKTIVO neĉeestanta, fora, ignorata"
 fr = "ADJECTIF absent, enlevé, éloigné"
 
 [representations]
-sitelen_emosi = "🛫"
-sitelen_pona = ["weka"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/weka.jpg"
+ligatures = ["weka"]
 ucsur = "U+F1976"
+sitelen_emosi = "🛫"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/weka.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/weka"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#weka"

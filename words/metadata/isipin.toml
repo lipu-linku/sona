@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan ko"]
 see_also = ["pilin", "toki", "insa", "lawa"]
-sona_pona = "https://sona.pona.la/wiki/isipin"
 source_language = "Tagalog"
 usage_category = "rare"
 word = "isipin"
+id = "isipin"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/isipin.mp3"
@@ -24,12 +24,12 @@ theory = 13
 think = 29
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["isipin"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["isipin"]
 
 [usage]
 2021-10 = 43
 2022-08 = 14
 2023-09 = 19
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/isipin"

@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ku", "su"]
-sona_pona = "https://sona.pona.la/wiki/pu"
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pu"
+id = "pu"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pu.mp3"
@@ -36,12 +36,15 @@ eo = "ADJEKTIVO interaganta kun la oficiala libro de Tokipono"
 fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
 
 [representations]
-sitelen_emosi = "📖"
-sitelen_pona = ["pu"]
-sitelen_sitelen = ""
+ligatures = ["pu"]
 ucsur = "U+F1955"
+sitelen_emosi = "📖"
 
 [usage]
 2020-04 = 82
 2022-08 = 94
 2023-09 = 96
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pu"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pu"

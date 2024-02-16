@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["kala kala/jan Salan", "jan Lakuse"]
 see_also = ["to"]
-sona_pona = "https://sona.pona.la/wiki/te"
 source_language = "Japanese"
 usage_category = "rare"
 word = "te"
+id = "te"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/te.mp3"
@@ -22,10 +22,8 @@ word = "って"
 "(opening quotation particle)" = 7
 
 [representations]
+ligatures = ["te"]
 sitelen_emosi = "🤜"
-sitelen_pona = ["te"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 # Though "te" appears in the 2020 survey,
@@ -34,3 +32,6 @@ ucsur = ""
 2021-10 = 40
 2022-08 = 11
 2023-09 = 14
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/te"

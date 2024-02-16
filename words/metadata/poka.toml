@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["lon"]
-sona_pona = "https://sona.pona.la/wiki/poka"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "poka"
+id = "poka"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poka.mp3"
@@ -39,11 +39,15 @@ eo = "SUBSTANTIVO kokso, flanko; apud, proksime de, proksimaĵo"
 fr = "NOM hanche, côté ; proximité"
 
 [representations]
-sitelen_emosi = "↔️"
-sitelen_pona = ["poka"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/poka.jpg"
+ligatures = ["poka"]
 ucsur = "U+F1952"
+sitelen_emosi = "↔️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/poka.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/poka"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#poka"

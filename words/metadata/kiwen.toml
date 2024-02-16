@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/kiwen"
 source_language = "Finnish"
 usage_category = "core"
 word = "kiwen"
+id = "kiwen"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kiwen.mp3"
@@ -42,11 +42,15 @@ eo = "SUBSTANTIVO malmolaĵo, metalo, roko, ŝtono"
 fr = "NOM objet dur, métal, pierre"
 
 [representations]
-sitelen_emosi = "💎"
-sitelen_pona = ["kiwen"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kiwen.jpg"
+ligatures = ["kiwen"]
 ucsur = "U+F191B"
+sitelen_emosi = "💎"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kiwen.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kiwen"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kiwen"

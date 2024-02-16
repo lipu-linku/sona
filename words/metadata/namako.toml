@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = ["sin"]
-sona_pona = "https://sona.pona.la/wiki/namako"
 source_language = "multiple possibilities"
 usage_category = "widespread"
 word = "namako"
+id = "namako"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/namako.mp3"
@@ -44,13 +44,16 @@ eo = "ADJEKTIVO nova, freŝa; plia, aldona, kroma"
 fr = "ADJECTIF nouveau, frais ; encore un, de plus"
 
 [representations]
-sitelen_emosi = "🧂"
-sitelen_pona = ["namako", "namako2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/namako.jpg"
+ligatures = ["namako", "namako2"]
 ucsur = "U+F1978"
+sitelen_emosi = "🧂"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/namako.jpg"
 
 [usage]
 2020-04 = 74
 2021-10 = 90
 2022-08 = 75
 2023-09 = 70
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/namako"

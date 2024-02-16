@@ -9,6 +9,7 @@ see_also = ["kiwen"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "ewe"
+id = "ewe"
 
 [[etymology]]
 alt = "iwa"
@@ -31,7 +32,7 @@ stone = 3
 2023-09 = 1
 
 [representations]
+ligatures = ["ewe"]
 sitelen_emosi = "🌋"
-sitelen_pona = ["ewe"]
-sitelen_sitelen = ""
-ucsur = ""
+
+[resources]

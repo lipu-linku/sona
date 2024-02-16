@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/neja"
 source_language = "Finnish"
 usage_category = "obscure"
 word = "neja"
+id = "neja"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/neja.mp3"
@@ -18,13 +18,13 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "neljä"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["neja"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["neja"]
 
 [usage]
 2020-04 = 13
 2021-10 = 23
 2022-08 = 2
 2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/neja"

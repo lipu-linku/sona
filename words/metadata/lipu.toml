@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/lipu"
 source_language = "Finnish"
 usage_category = "core"
 word = "lipu"
+id = "lipu"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lipu.mp3"
@@ -58,11 +58,15 @@ eo = "SUBSTANTIVO plata objekto; libro, dokumento, karto, papero, registro, rete
 fr = "NOM objet plat ; livre, document, carte, papier, site web"
 
 [representations]
-sitelen_emosi = "📄"
-sitelen_pona = ["lipu"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lipu.jpg"
+ligatures = ["lipu"]
 ucsur = "U+F192A"
+sitelen_emosi = "📄"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lipu.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lipu"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lipu"

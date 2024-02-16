@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["leko"]
-sona_pona = "https://sona.pona.la/wiki/sike"
 source_language = "English"
 usage_category = "core"
 word = "sike"
+id = "sike"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sike.mp3"
@@ -49,11 +49,15 @@ eo = "SUBSTANTIVO io ronda aŭ cirkla; pilko, cirklo, ciklo, globo, sfero, rado\
 fr = "NOM objet rond : ballon, cercle, cycle, sphère, roue, anneau\nADJECTIF annuel"
 
 [representations]
-sitelen_emosi = "⭕"
-sitelen_pona = ["sike"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sike.jpg"
+ligatures = ["sike"]
 ucsur = "U+F195C"
+sitelen_emosi = "⭕"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sike.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sike"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sike"

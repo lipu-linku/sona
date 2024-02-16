@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/la"
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "la"
+id = "la"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/la.mp3"
@@ -41,11 +41,14 @@ eo = "PARTIKULO (inter la kunteksta frazparto kaj la ĉeffrazo)"
 fr = "PARTICULE (entre le contexte et la phrase principale)"
 
 [representations]
-sitelen_emosi = "🔼"
-sitelen_pona = ["la"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/la.jpg"
+ligatures = ["la"]
 ucsur = "U+F1921"
+sitelen_emosi = "🔼"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/la.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/la"

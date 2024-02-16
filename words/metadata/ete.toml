@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = ["suli", "sewi", "wawa"]
-sona_pona = "https://sona.pona.la/wiki/ete"
 source_language = "multiple"
 usage_category = "obscure"
 word = "ete"
+id = "ete"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ete.mp3"
@@ -25,13 +25,14 @@ beyond = 14
 exceed = 20
 
 [representations]
+ligatures = ["ete", "ete2"]
 sitelen_emosi = "🔃"
-sitelen_pona = ["ete", "ete2"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 17
 2021-10 = 33
 2022-08 = 5
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ete"

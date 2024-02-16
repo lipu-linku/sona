@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/monsuta"
 source_language = "Japanese"
 usage_category = "widespread"
 word = "monsuta"
+id = "monsuta"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/monsuta.mp3"
@@ -38,13 +38,16 @@ scary = 60
 terror = 30
 
 [representations]
-sitelen_emosi = "👹"
-sitelen_pona = ["monsuta"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsuta.jpg"
+ligatures = ["monsuta"]
 ucsur = "U+F197D"
+sitelen_emosi = "👹"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsuta.jpg"
 
 [usage]
 2020-04 = 74
 2021-10 = 88
 2022-08 = 85
 2023-09 = 83
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/monsuta"

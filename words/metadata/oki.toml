@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["unknown"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/oki"
 source_language = "English"
 usage_category = "obscure"
 word = "oki"
+id = "oki"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oki.mp3"
@@ -21,11 +21,11 @@ word = "okie"
 word = "okay"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["oki"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["oki"]
 
 [usage]
 2022-08 = 1
 2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/oki"

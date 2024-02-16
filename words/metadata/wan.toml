@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["tu", "mute"]
-sona_pona = "https://sona.pona.la/wiki/wan"
 source_language = "English"
 usage_category = "core"
 word = "wan"
+id = "wan"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wan.mp3"
@@ -57,11 +57,15 @@ eo = "ADJEKTIVO unika, unueca\nNOMBRO unu"
 fr = "ADJECTIF unique, uni\nNOMBRE un"
 
 [representations]
-sitelen_emosi = "☝️"
-sitelen_pona = ["wan"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wan.jpg"
+ligatures = ["wan"]
 ucsur = "U+F1973"
+sitelen_emosi = "☝️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wan.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wan"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#wan"

@@ -6,10 +6,10 @@ coined_era = "pre-pu"
 coined_year = "2001-2009"
 creator = ["jan Sonja"]
 see_also = ["moku"]
-sona_pona = "https://sona.pona.la/wiki/misikeke"
 source_language = "Ojibwe"
 usage_category = "common"
 word = "misikeke"
+id = "misikeke"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/misikeke.mp3"
@@ -29,13 +29,16 @@ medicine = 42
 pill = 30
 
 [representations]
-sitelen_emosi = "💊"
-sitelen_pona = ["misikeke"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"
+ligatures = ["misikeke"]
 ucsur = "U+F1987"
+sitelen_emosi = "💊"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"
 
 [usage]
 2020-04 = 21
 2021-10 = 71
 2022-08 = 63
 2023-09 = 60
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/misikeke"

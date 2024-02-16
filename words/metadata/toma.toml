@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/toma"
 source_language = "toki pona"
 usage_category = "obscure"
 word = "toma"
+id = "toma"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/toma.mp3"
@@ -18,12 +18,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "typo of tomo"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = []
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["toma"]
 
 [usage]
 2021-10 = 3
 2022-08 = 0
 2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/toma"

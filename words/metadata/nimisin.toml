@@ -6,10 +6,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["unknown"]
 see_also = ["nimi", "sin"]
-sona_pona = "https://sona.pona.la/wiki/nimisin"
 source_language = "toki pona"
 usage_category = "uncommon"
 word = "nimisin"
+id = "nimisin"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nimisin.mp3"
@@ -18,11 +18,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "nimi sin"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["nimisin"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["nimisin"]
 
 [usage]
 2022-08 = 13
 2023-09 = 35
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nimisin"
