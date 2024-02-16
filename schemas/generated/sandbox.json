@@ -8,6 +8,7 @@
         "properties": {
           "id": {
             "type": "string",
+            "minLength": 1,
             "description": "A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like \"we\")"
           },
           "author_verbatim": {
