@@ -139,6 +139,10 @@
             "type": "string",
             "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
           },
+          "id": {
+            "type": "string",
+            "description": "A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like \"we\")"
+          },
           "etymology": {
             "type": "array",
             "items": {
@@ -275,11 +279,10 @@
           "coined_year",
           "creator",
           "see_also",
-          "resources",
-          "representations",
           "source_language",
           "usage_category",
           "word",
+          "id",
           "etymology",
           "audio",
           "usage",
