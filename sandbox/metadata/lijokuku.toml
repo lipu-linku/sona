@@ -9,6 +9,7 @@ see_also = ["a", "kalama"]
 source_language = "Korean"
 usage_category = "obscure"
 word = "lijokuku"
+id = "lijokuku"
 
 [[etymology]]
 alt = "realkk"

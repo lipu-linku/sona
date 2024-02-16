@@ -9,6 +9,7 @@ see_also = ["suwi", "pilin"]
 source_language = "English"
 usage_category = "obscure"
 word = "jami"
+id = "jami"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jami.mp3"

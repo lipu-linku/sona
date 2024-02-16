@@ -9,6 +9,7 @@ see_also = ["mute", "ale"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "jaku"
+id = "jaku"
 
 [[etymology]]
 alt = "hyaku"

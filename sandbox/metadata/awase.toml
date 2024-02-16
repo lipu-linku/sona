@@ -9,6 +9,7 @@ see_also = ["utala", "pakala", "tawa", "anpa"]
 source_language = "Armenian"
 usage_category = "obscure"
 word = "awase"
+id = "awase"
 
 [[etymology]]
 alt = "harvacel"

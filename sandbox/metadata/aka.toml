@@ -9,6 +9,7 @@ see_also = ["natu"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "aka"
+id = "aka"
 
 [[etymology]]
 word = "过"

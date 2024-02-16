@@ -9,6 +9,7 @@ see_also = ["jan"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "jans"
+id = "jans"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jans.mp3"

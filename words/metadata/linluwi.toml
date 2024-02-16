@@ -9,6 +9,7 @@ see_also = ["len", "ilo", "wan"]
 source_language = "Welsh"
 usage_category = "uncommon"
 word = "linluwi"
+id = "linluwi"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linluwi.mp3"

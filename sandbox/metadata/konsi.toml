@@ -9,6 +9,7 @@ see_also = ["toki"]
 source_language = "Korean"
 usage_category = "obscure"
 word = "konsi"
+id = "konsi"
 
 [[etymology]]
 alt = "gongji"

@@ -83,6 +83,11 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
+		id: z
+			.string()
+			.describe(
+				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
+			),
 		etymology: z
 			.array(
 				z.object({

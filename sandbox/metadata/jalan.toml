@@ -9,6 +9,7 @@ see_also = ["noka"]
 source_language = "Finnish"
 usage_category = "obscure"
 word = "jalan"
+id = "jalan"
 
 [[etymology]]
 word = "jalan"

@@ -9,6 +9,7 @@ see_also = []
 source_language = "Japanese"
 usage_category = "widespread"
 word = "monsuta"
+id = "monsuta"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/monsuta.mp3"

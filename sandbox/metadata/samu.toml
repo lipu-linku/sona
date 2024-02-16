@@ -9,6 +9,7 @@ see_also = ["nimisin"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "samu"
+id = "samu"
 
 [[etymology]]
 word = "jan Samu"

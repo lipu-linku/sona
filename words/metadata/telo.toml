@@ -9,6 +9,7 @@ see_also = []
 source_language = "Acadian French"
 usage_category = "core"
 word = "telo"
+id = "telo"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/telo.mp3"

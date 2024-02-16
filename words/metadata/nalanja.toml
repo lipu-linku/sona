@@ -9,6 +9,7 @@ see_also = ["loje", "jelo"]
 source_language = "Spanish"
 usage_category = "obscure"
 word = "nalanja"
+id = "nalanja"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nalanja.mp3"

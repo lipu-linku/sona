@@ -9,6 +9,7 @@ see_also = ["namako"]
 source_language = "Mandarin"
 usage_category = "core"
 word = "sin"
+id = "sin"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sin.mp3"

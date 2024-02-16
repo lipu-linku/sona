@@ -9,6 +9,7 @@ see_also = []
 source_language = "Iqglic"
 usage_category = "obscure"
 word = "umesu"
+id = "umesu"
 
 [[etymology]]
 word = "Umeyz"

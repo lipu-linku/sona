@@ -9,6 +9,7 @@ see_also = ["oko", "alasa"]
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lukin"
+id = "lukin"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lukin.mp3"

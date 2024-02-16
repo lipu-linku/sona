@@ -9,6 +9,7 @@ see_also = ["natu"]
 source_language = "English"
 usage_category = "obscure"
 word = "eki"
+id = "eki"
 
 [[etymology]]
 word = "x (letter name)"

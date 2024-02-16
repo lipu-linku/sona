@@ -9,6 +9,7 @@ see_also = []
 source_language = "English"
 usage_category = "obscure"
 word = "itomi"
+id = "itomi"
 
 [[etymology]]
 word = "hit or miss"

@@ -9,6 +9,7 @@ see_also = ["luka", "noka"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "loka"
+id = "loka"
 
 [[etymology]]
 word = "luka"

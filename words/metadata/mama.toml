@@ -9,6 +9,7 @@ see_also = []
 source_language = "Georgian"
 usage_category = "core"
 word = "mama"
+id = "mama"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mama.mp3"

@@ -9,6 +9,7 @@ see_also = ["mun", "pimeja"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "suno"
+id = "suno"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suno.mp3"

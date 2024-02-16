@@ -9,6 +9,7 @@ see_also = []
 source_language = "Finnish"
 usage_category = "obscure"
 word = "neja"
+id = "neja"
 
 [[etymology]]
 word = "neljä"

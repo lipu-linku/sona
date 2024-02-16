@@ -9,6 +9,7 @@ see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "toma"
+id = "toma"
 
 [[etymology]]
 word = "typo of tomo"

@@ -9,6 +9,7 @@ see_also = ["pona", "wawa"]
 source_language = "French"
 usage_category = "common"
 word = "epiku"
+id = "epiku"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/epiku.mp3"

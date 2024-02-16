@@ -9,6 +9,7 @@ see_also = ["tenpo"]
 source_language = "Quenya"
 usage_category = "obscure"
 word = "waleja"
+id = "waleja"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/waleja.mp3"

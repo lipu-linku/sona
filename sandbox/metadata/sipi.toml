@@ -9,6 +9,7 @@ see_also = []
 source_language = "Latin"
 usage_category = "obscure"
 word = "sipi"
+id = "sipi"
 
 [[etymology]]
 word = "sibi (dative reflexive pronoun)"

@@ -9,6 +9,7 @@ see_also = ["ante"]
 source_language = "multiple"
 usage_category = "core"
 word = "sama"
+id = "sama"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sama.mp3"

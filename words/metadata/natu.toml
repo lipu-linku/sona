@@ -9,6 +9,7 @@ see_also = ["wan", "sama", "linja"]
 source_language = "Vietnamese"
 usage_category = "obscure"
 word = "natu"
+id = "natu"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/natu.mp3"

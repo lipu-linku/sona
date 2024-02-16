@@ -9,6 +9,7 @@ see_also = ["kulupu"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "kulu"
+id = "kulu"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulu.mp3"

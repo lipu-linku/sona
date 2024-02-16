@@ -9,6 +9,7 @@ see_also = ["lon"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "tenpo"
+id = "tenpo"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tenpo.mp3"

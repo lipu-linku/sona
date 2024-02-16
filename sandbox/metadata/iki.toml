@@ -9,6 +9,7 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "obscure"
 word = "iki"
+id = "iki"
 
 [[etymology]]
 word = "unknown"

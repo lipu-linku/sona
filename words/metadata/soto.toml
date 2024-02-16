@@ -9,6 +9,7 @@ see_also = ["poka", "teje"]
 source_language = "Swahili"
 usage_category = "obscure"
 word = "soto"
+id = "soto"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soto.mp3"

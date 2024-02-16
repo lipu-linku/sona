@@ -9,6 +9,7 @@ see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "ten"
+id = "ten"
 
 [[etymology]]
 word = "tenpo"

@@ -9,6 +9,7 @@ see_also = ["lukin", "oko"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "lokon"
+id = "lokon"
 
 [[etymology]]
 word = "lukin"

@@ -9,6 +9,7 @@ see_also = []
 source_language = "Mandarin"
 usage_category = "core"
 word = "kon"
+id = "kon"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kon.mp3"

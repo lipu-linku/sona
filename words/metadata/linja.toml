@@ -9,6 +9,7 @@ see_also = ["palisa"]
 source_language = "Finnish"
 usage_category = "core"
 word = "linja"
+id = "linja"
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linja.mp3"
