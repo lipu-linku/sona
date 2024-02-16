@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "n"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku suli"
@@ -9,7 +10,7 @@ see_also = ["a"]
 source_language = "onomatopoeia"
 usage_category = "widespread"
 word = "n"
-id = "n"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/n.mp3"

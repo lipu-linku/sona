@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "we1"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,7 @@ see_also = []
 source_language = "Spanish"
 usage_category = "obscure"
 word = "we"
-id = "we1"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"

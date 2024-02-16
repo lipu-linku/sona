@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kapa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,6 @@ see_also = ["nena"]
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "kapa"
-id = "kapa"
 
 [[etymology]]
 word = "kop"

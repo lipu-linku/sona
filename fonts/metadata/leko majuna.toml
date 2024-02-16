@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "leko majuna"
 creator = ["waso Keli (Kelsey Higham)"]
 features = [
   "ASCII transcription",

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "aka"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,6 @@ see_also = ["natu"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "aka"
-id = "aka"
 
 [[etymology]]
 word = "过"

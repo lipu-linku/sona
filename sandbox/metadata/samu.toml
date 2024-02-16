@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "samu"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,6 @@ see_also = ["nimisin"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "samu"
-id = "samu"
 
 [[etymology]]
 word = "jan Samu"

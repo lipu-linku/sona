@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelenlili"
 creator = []
 features = []
 filename = "sitelenlili.ttf"

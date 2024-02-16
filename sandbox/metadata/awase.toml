@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "awase"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,6 @@ see_also = ["utala", "pakala", "tawa", "anpa"]
 source_language = "Armenian"
 usage_category = "obscure"
 word = "awase"
-id = "awase"
 
 [[etymology]]
 alt = "harvacel"

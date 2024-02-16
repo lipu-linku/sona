@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "Pingo"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,7 @@ see_also = []
 source_language = "a priori"
 usage_category = "obscure"
 word = "Pingo"
-id = "Pingo"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/Pingo.mp3"

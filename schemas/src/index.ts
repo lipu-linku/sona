@@ -1,12 +1,18 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem } from "./utils";
 
+export type * from "./utils";
+
+const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
 // Word data
-
-type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
-
 export const Word = z
 	.object({
+		id: z
+			.string()
+			.min(1)
+			.describe(
+				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
+			),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
@@ -89,11 +95,6 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
-		id: z
-			.string()
-			.describe(
-				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
-			),
 		etymology: z
 			.array(
 				z.object({
@@ -128,14 +129,7 @@ export const Word = z
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
 		usage: z
-			.record(
-				z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
-					`20${number}-${Month}`,
-					z.ZodTypeDef,
-					`20${number}-${Month}`
-				>,
-				z.number().min(0).max(100),
-			)
+			.record(z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g), z.number().min(0).max(100))
 			.describe(
 				"The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project",
 			),
@@ -286,6 +280,7 @@ export type IconTranslation = z.infer<typeof IconTranslation>;
 
 export const Font = z
 	.object({
+		id: z.string().min(1).describe("The font's unique ID, identifying it among other fonts"),
 		creator: z.array(z.string()).describe("a list of this font's creators"),
 		features: z.array(z.string()).describe("a list of features this font supports"),
 		filename: z
@@ -349,6 +344,7 @@ export const Words = z
 	)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 export type Words = z.infer<typeof Words>;
+export type LocalizedWord = Words[string];
 
 export const Sandbox = Words.describe(
 	"A raw data object containing dictionary info about Toki Pona sandbox",
@@ -369,6 +365,7 @@ export const Signs = z
 	)
 	.describe("A raw data object containing information about Luka Pona signs");
 export type Signs = z.infer<typeof Signs>;
+export type LocalizedSign = Signs[string];
 
 export const Fingerspelling = z
 	.record(
@@ -379,6 +376,7 @@ export const Fingerspelling = z
 	)
 	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
 export type Fingerspelling = z.infer<typeof Fingerspelling>;
+export type LocalizedFingerspellingSign = Fingerspelling[string];
 
 export const Fonts = z
 	.record(Font)
@@ -405,5 +403,5 @@ export const Languages = z.record(
 		})
 		.describe("The languages offered by sona Linku."),
 );
-
 export type Languages = z.infer<typeof Languages>;
+export type Language = Languages[string];

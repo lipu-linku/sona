@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja pimeja pona"
 creator = ["jan Ke Tami"]
 features = [
   "ASCII transcription",

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "apeja"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,7 @@ see_also = ["pilin"]
 source_language = "Finnish"
 usage_category = "uncommon"
 word = "apeja"
-id = "apeja"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/apeja.mp3"

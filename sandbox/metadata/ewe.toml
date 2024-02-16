@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ewe"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,6 @@ see_also = ["kiwen"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "ewe"
-id = "ewe"
 
 [[etymology]]
 alt = "iwa"

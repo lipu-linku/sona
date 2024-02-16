@@ -4,6 +4,11 @@
     "word": {
       "type": "object",
       "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like \"we\")"
+        },
         "author_verbatim": {
           "type": "string",
           "description": "The author's original definition, taken verbatim in their words"
@@ -137,10 +142,6 @@
           "type": "string",
           "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
         },
-        "id": {
-          "type": "string",
-          "description": "A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like \"we\")"
-        },
         "etymology": {
           "type": "array",
           "items": {
@@ -225,6 +226,7 @@
         }
       },
       "required": [
+        "id",
         "author_verbatim",
         "author_verbatim_source",
         "book",
@@ -235,7 +237,6 @@
         "source_language",
         "usage_category",
         "word",
-        "id",
         "etymology",
         "audio",
         "usage"

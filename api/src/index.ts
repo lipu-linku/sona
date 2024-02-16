@@ -34,7 +34,7 @@ const app = new Hono({ strict: false })
 				ok: false,
 				message: err.message,
 			},
-			"status" in err && typeof err.status === "number" ? err.status : 500,
+			{ status: "status" in err && typeof err.status === "number" ? err.status : 500 },
 		);
 	})
 	.get("/", (c) => {

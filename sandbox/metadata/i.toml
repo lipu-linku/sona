@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "i"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,6 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "obscure"
 word = "i"
-id = "i"
 
 [[etymology]]
 word = "unknown"

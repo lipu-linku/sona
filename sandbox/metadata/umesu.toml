@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "umesu"
 author_verbatim = "to amaze people by being on top of the musi Ako leaderboard"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/786041291707777034/806023115745263636"
 book = "ku lili"
@@ -9,7 +10,6 @@ see_also = []
 source_language = "Iqglic"
 usage_category = "obscure"
 word = "umesu"
-id = "umesu"
 
 [[etymology]]
 word = "Umeyz"

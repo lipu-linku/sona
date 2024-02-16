@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "nasin leko suwi lili"
 creator = ["Bo_Tie"]
 features = [
   "codepoints only",

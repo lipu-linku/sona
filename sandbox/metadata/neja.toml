@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "neja"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,6 @@ see_also = []
 source_language = "Finnish"
 usage_category = "obscure"
 word = "neja"
-id = "neja"
 
 [[etymology]]
 word = "neljä"

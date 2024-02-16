@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kalijopilale"
 author_verbatim = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/337299887869657090/731769293699809300"
 book = "none"
@@ -9,7 +10,7 @@ see_also = ["kijetesantakalu"]
 source_language = "Latin"
 usage_category = "obscure"
 word = "kalijopilale"
-id = "kalijopilale"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalijopilale.mp3"

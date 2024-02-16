@@ -1,4 +1,12 @@
 import { z } from "zod";
+import type {
+	Font,
+	IconTranslation,
+	Language,
+	LocalizedWord,
+	ParametersTranslation,
+	Sign,
+} from ".";
 
 export const Book = z.union([
 	z.literal("pu"),
@@ -21,13 +29,6 @@ export const UsageCategory = z.union([
 ]);
 export type UsageCategory = z.infer<typeof UsageCategory>;
 
-type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
-export const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
-	`20${number}-${Month}`,
-	z.ZodTypeDef,
-	`20${number}-${Month}`
->;
-
 export const WritingSystem = z.enum([
 	"sitelen pona",
 	"sitelen sitelen",
@@ -39,3 +40,30 @@ export const WritingSystem = z.enum([
 	"tokiponido logography",
 ]);
 export type WritingSystem = z.infer<typeof WritingSystem>;
+
+export type WordRepresentations = LocalizedWord["representations"];
+export type WordAudio = LocalizedWord["audio"];
+export type WordUsage = LocalizedWord["usage"];
+export type WordPuVerbatim = LocalizedWord["pu_verbatim"];
+export type WordKuData = LocalizedWord["ku_data"];
+export type WordTranslations = LocalizedWord["translations"];
+export type WordTranslation = LocalizedWord["translations"][string];
+export type LocalizedWordDefinition = WordTranslation["definition"];
+export type LocalizedWordEtymology = WordTranslation["etymology"];
+export type LocalizedWordCommentary = WordTranslation["commentary"];
+export type LocalizedWordSitelenEtymology = WordTranslation["sp_etymology"];
+
+export type SignEtymology = Sign["etymology"];
+export type SignWriting = Sign["signwriting"];
+export type SignVideo = Sign["video"];
+export type LocalizedSignParameters = ParametersTranslation[string];
+
+export type FontLinks = Font["links"];
+
+export function getTranslatedData<
+	L extends object,
+	K extends keyof L,
+	T extends { translations: { en: L } & Record<string, L> },
+>(data: T, key: K, language: string): L[K] {
+	return (data.translations[language] ?? data.translations["en"])[key];
+}

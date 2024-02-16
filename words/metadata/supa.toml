@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "supa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -9,7 +10,7 @@ see_also = ["sinpin"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "supa"
-id = "supa"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/supa.mp3"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "oni"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,7 @@ see_also = ["insa", "lape", "musi", "sitelen", "jume"]
 source_language = "Ancient Greek"
 usage_category = "obscure"
 word = "oni"
-id = "oni"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oni.mp3"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "toma"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -9,7 +10,6 @@ see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "toma"
-id = "toma"
 
 [[etymology]]
 word = "typo of tomo"

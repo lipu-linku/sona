@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "noka"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -9,7 +10,7 @@ see_also = ["luka"]
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "noka"
-id = "noka"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/noka.mp3"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kulupu"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -9,7 +10,7 @@ see_also = []
 source_language = "Tongan"
 usage_category = "core"
 word = "kulupu"
-id = "kulupu"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulupu.mp3"

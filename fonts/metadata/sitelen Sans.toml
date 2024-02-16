@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen Sans"
 creator = ["u/bluemon_"]
 features = ["ASCII transcription", "supports extended pi"]
 filename = "sitelen-sans.otf"

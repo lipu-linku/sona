@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kili"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -9,7 +10,7 @@ see_also = ["kasi", "moku", "soko"]
 source_language = "Georgian"
 usage_category = "core"
 word = "kili"
-id = "kili"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kili.mp3"

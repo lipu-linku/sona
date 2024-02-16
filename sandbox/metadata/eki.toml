@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "eki"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,7 +10,6 @@ see_also = ["natu"]
 source_language = "English"
 usage_category = "obscure"
 word = "eki"
-id = "eki"
 
 [[etymology]]
 word = "x (letter name)"

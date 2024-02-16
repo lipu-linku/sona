@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sike en linja"
 creator = ["jan Silani"]
 features = ["ASCII transcription", "ku suli"]
 filename = "sike-en-linja.otf"
