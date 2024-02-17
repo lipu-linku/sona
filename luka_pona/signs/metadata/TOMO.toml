@@ -1,4 +1,4 @@
-#:schema ../../../schemas/generated/sign.json
+#schema ../../../api/generated/sign.json
 definition = "tomo"
 id = "TOMO"
 is_two_handed = true

@@ -1,4 +1,4 @@
-import * as schemas from "./src/index";
+import * as schemas from "./src/lib/index";
 import { zodToJsonSchema } from "zod-to-json-schema";
 import fs from "node:fs";
 

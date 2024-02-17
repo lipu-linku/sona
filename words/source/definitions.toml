@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/definition_translation.json
+#schema ../../api/generated/definition_translation.json
 Pingo = "car"
 a = "(emphasis, emotion or confirmation)"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"

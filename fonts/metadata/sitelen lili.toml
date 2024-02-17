@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/font.json
+#schema ../../api/generated/font.json
 id = "sitelen lili"
 creator = []
 features = [

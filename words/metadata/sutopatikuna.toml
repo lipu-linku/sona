@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#schema ../../api/generated/word.json
 id = "sutopatikuna"
 author_verbatim = "Dear Sonja, That's a great idea, but if you do so, you need also to add a special word forthe Platypus (Ornithorhynchus anatinus). I would suggest the word \"sutopatikuna\"from the croatian word Èudnovati kljuna¹. Bonega ideo, sed se vi farus tion, vi devus ankaux aldoni apartan vorton porla Ornitorinko (Ornithorhynchus anatinus). Mi proponus la vorton \"sutopatikuna\"prenita de la kroatan vorton Èudnovati kljuna¹.:P"
 author_verbatim_source = "http://forums.tokipona.org/viewtopic.php?f=33&t=639&hilit=word+requests&sid=401a37e08cc5150e7a0738d068ea4a77&start=50#p2368"

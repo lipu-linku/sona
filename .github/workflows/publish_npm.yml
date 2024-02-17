@@ -30,16 +30,16 @@ jobs:
           version: 8
 
       - run: pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
-        working-directory: ./schemas
+        working-directory: ./api
 
-      - run: pnpm install -r --frozen-lockfile
+      - run: pnpm install --frozen-lockfile
 
-      - run: pnpm run -r build && pnpm install -r -f --frozen-lockfile && pnpm run -r build
+      - run: pnpm run generate && pnpm run build
 
       - run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          pnpm publish --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
-        working-directory: ./schemas
+          pnpm publish --provenance --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
+        working-directory: ./api
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -48,4 +48,4 @@ jobs:
         with:
           commit_message: "bump @kulupu-linku/sona version ${{ github.event.release.tag_name }}"
           branch: ${{ github.event.repository.default_branch }}
-          file_pattern: schemas/package.json
+          file_pattern: api/package.json

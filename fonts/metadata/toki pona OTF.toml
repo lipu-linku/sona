@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/font.json
+#schema ../../api/generated/font.json
 id = "toki pona OTF"
 creator = ["jan Wesi"]
 features = ["ASCII transcription"]

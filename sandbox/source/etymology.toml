@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/etymology_translation.json
+#schema ../../api/generated/etymology_translation.json
 
 [[aka]]
 definition = "to cross, to pass"

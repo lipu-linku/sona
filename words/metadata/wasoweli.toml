@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#schema ../../api/generated/word.json
 id = "wasoweli"
 author_verbatim = "In my Caves of Qud mod, I added toki-pona-speaking bird-beasts who call themselves \"wasoweli\"; I figured as 'native speakers' they're entitled to a portmanteau noun for themselves, and that's the only intentional artistic liberty I took with the language."
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301378960468738050/690041651397132345"

@@ -1,4 +1,4 @@
-#:schema ../../../schemas/generated/parameters_translation.json
+#schema ../../../api/generated/parameters_translation.json
 
 [AKESI]
 handshape = "tu"

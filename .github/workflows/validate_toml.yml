@@ -5,13 +5,13 @@ on:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "schemas/src/**"
+      - "api/src/lib/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "schemas/src/**"
+      - "api/src/lib/**"
 
   workflow_dispatch:
 
@@ -49,7 +49,7 @@ jobs:
         with:
           filters: |
             schemas:
-              - 'schemas/src/**'
+              - 'api/src/lib/**'
             data:
               - '**.toml'
 
@@ -64,7 +64,7 @@ jobs:
       - name: Generate JSON Schemas
         if: contains(steps.changes.outputs.changes, 'schemas')
         run: pnpm run generate
-        working-directory: ./schemas
+        working-directory: ./api
 
       - name: Commit schemas
         if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.head.repo.fork

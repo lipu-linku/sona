@@ -1,11 +1,9 @@
 import { z } from "zod";
 import type {
 	Font,
-	IconTranslation,
-	Language,
 	LocalizedWord,
 	ParametersTranslation,
-	Sign,
+	Sign
 } from ".";
 
 export const Book = z.union([

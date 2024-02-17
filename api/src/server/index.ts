@@ -22,10 +22,12 @@ const app = new Hono({ strict: false })
 	)
 	.use(
 		"*",
-		cache({
-			cacheName: "sona-api",
-			cacheControl: `max-age=${twentyFourHours}`,
-		}),
+		import.meta.env.MODE === "production"
+			? cache({
+					cacheName: "sona-api",
+					cacheControl: `max-age=${twentyFourHours}`,
+				})
+			: async (c, next) => await next(),
 	)
 	.notFound((c) => c.json({ message: "Not Found", ok: false }, 404))
 	.onError((err, c) => {

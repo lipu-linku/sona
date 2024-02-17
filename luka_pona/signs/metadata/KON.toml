@@ -1,4 +1,4 @@
-#:schema ../../../schemas/generated/sign.json
+#schema ../../../api/generated/sign.json
 definition = "kon"
 id = "KON"
 is_two_handed = false
