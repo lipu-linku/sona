@@ -56,6 +56,7 @@ jobs:
       - name: Setup pnpm
         if: contains(steps.changes.outputs.changes, 'schemas')
         uses: pnpm/action-setup@v2
+        working-directory: ./api
         with:
           version: 8
           run_install: |
@@ -94,7 +95,7 @@ jobs:
         run: |
           list=(./raw/*.json)
           for file in "${list[@]}"; do 
-            npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file;
+            npx ajv-cli -s "./api/generated/${file:6}" -c ajv-formats --errors=text -d $file;
           done
 
       - name: Commit packaged files
