@@ -9,11 +9,11 @@ export default defineConfig({
 	build: {
 		lib: {
 			formats: ["es"],
-			entry: [
-				resolve(__dirname, "src/lib/index.ts"),
-				resolve(__dirname, "src/lib/utils.ts"),
-				resolve(__dirname, "src/lib/client.ts"),
-			],
+			entry: {
+				index: resolve(__dirname, "src/lib/index.ts"),
+				utils: resolve(__dirname, "src/lib/utils.ts"),
+				client: resolve(__dirname, "src/lib/client.ts"),
+			},
 			fileName: "index",
 		},
 		sourcemap: true,
