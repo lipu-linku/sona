@@ -1,12 +1,4 @@
 import { z } from "zod";
-import type {
-	Font,
-	IconTranslation,
-	Language,
-	LocalizedWord,
-	ParametersTranslation,
-	Sign,
-} from ".";
 
 export const Book = z.union([
 	z.literal("pu"),
@@ -41,25 +33,6 @@ export const WritingSystem = z.enum([
 ]);
 export type WritingSystem = z.infer<typeof WritingSystem>;
 
-export type WordRepresentations = LocalizedWord["representations"];
-export type WordAudio = LocalizedWord["audio"];
-export type WordUsage = LocalizedWord["usage"];
-export type WordPuVerbatim = LocalizedWord["pu_verbatim"];
-export type WordKuData = LocalizedWord["ku_data"];
-export type WordTranslations = LocalizedWord["translations"];
-export type WordTranslation = LocalizedWord["translations"][string];
-export type LocalizedWordDefinition = WordTranslation["definition"];
-export type LocalizedWordEtymology = WordTranslation["etymology"];
-export type LocalizedWordCommentary = WordTranslation["commentary"];
-export type LocalizedWordSitelenEtymology = WordTranslation["sp_etymology"];
-
-export type SignEtymology = Sign["etymology"];
-export type SignWriting = Sign["signwriting"];
-export type SignVideo = Sign["video"];
-export type LocalizedSignParameters = ParametersTranslation[string];
-
-export type FontLinks = Font["links"];
-
 export function getTranslatedData<
 	Obj extends { translations: Record<string, object> },
 	Key extends keyof Obj["translations"][string],
@@ -68,3 +41,5 @@ export function getTranslatedData<
 		key
 	];
 }
+
+export type * from "./types";
