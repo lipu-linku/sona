@@ -34,7 +34,36 @@ const app = new Hono()
 
 			return word
 				? c.json({ ok: true as const, data: word })
-				: c.json({ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` }, 404);
+				: c.json(
+						{ ok: false as const, message: `Could not find the word "${c.req.param("word")}"` },
+						404,
+					);
+		},
+	)
+
+	.use("/sandbox", languagesFilter(true))
+	.get("/sandbox", langValidator, async (c) => {
+		return c.json(await fetchWithZod(versions.v1.schemas.sandbox, rawFile("v1", "sandbox.json")));
+	})
+
+	.use("/sandbox/:word", languagesFilter(false))
+	.get(
+		"/sandbox/:word",
+		langValidator,
+		zValidator("param", z.object({ word: z.string() })),
+		async (c) => {
+			const data = await fetchWithZod(versions.v1.schemas.sandbox, rawFile("v1", "sandbox.json"));
+			const word = data[c.req.param("word")];
+
+			return word
+				? c.json({ ok: true as const, data: word })
+				: c.json(
+						{
+							ok: false as const,
+							message: `Could not find the sandbox word "${c.req.param("word")}"`,
+						},
+						404,
+					);
 		},
 	)
 
