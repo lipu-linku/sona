@@ -7,7 +7,7 @@ export default defineConfig({
 		minify: true,
 	},
 	plugins: [
-		pages(),
+		pages({ entry: ["./src/index.ts"] }),
 		devServer({
 			entry: "src/index.ts",
 		}),
