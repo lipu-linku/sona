@@ -8,16 +8,16 @@ import { exec } from "node:child_process";
 export default defineConfig({
 	build: {
 		lib: {
-			formats: ["es"],
 			entry: {
-				index: resolve(__dirname, "src/lib/index.ts"),
-				utils: resolve(__dirname, "src/lib/utils.ts"),
-				client: resolve(__dirname, "src/lib/client.ts"),
+				index: "src/lib/index.ts",
+				utils: "src/lib/utils.ts",
+				client: "src/lib/client.ts",
 			},
-			fileName: "index",
+			formats: ["es"]
 		},
 		sourcemap: true,
 		minify: true,
+		outDir: "dist",
 	},
 	resolve: {
 		alias: {
