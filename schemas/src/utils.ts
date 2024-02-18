@@ -61,9 +61,10 @@ export type LocalizedSignParameters = ParametersTranslation[string];
 export type FontLinks = Font["links"];
 
 export function getTranslatedData<
-	L extends object,
-	K extends keyof L,
-	T extends { translations: { en: L } & Record<string, L> },
->(data: T, key: K, language: string): L[K] {
-	return (data.translations[language] ?? data.translations["en"])[key];
+	Obj extends { translations: Record<string, object> },
+	Key extends keyof Obj["translations"][string],
+>(data: Obj, key: Key, language: string): Obj["translations"][string][Key] {
+	return ((data.translations[language] ?? data.translations["en"]!) as Obj["translations"][string])[
+		key
+	];
 }
