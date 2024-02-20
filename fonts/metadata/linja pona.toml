@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja pona"
 creator = ["David A Roberts / jan Same"]
 features = [
   "ASCII transcription",

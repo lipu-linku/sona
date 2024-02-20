@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen pona 7x7"
 creator = ["jan Sewaka / jan Weko"]
 features = ["codepoints only"]
 filename = "sitelen-pona-7x7.otf"

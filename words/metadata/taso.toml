@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "taso"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/taso"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "taso"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/taso.mp3"
@@ -53,11 +54,15 @@ eo = "PARTIKULO sed, tamen\nADJEKTIVO nur"
 fr = "PARTICULE mais, cependant\nADJECTIF seulement"
 
 [representations]
-sitelen_emosi = "🤔"
-sitelen_pona = ["taso"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/taso.jpg"
+ligatures = ["taso"]
 ucsur = "U+F1968"
+sitelen_emosi = "🤔"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/taso.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/taso"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#taso"

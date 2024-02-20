@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "mun"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["suno"]
-sona_pona = "https://sona.pona.la/wiki/mun"
 source_language = "English"
 usage_category = "core"
 word = "mun"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/mun.mp3"
@@ -34,11 +35,15 @@ eo = "SUBSTANTIVO luno, nokta ĉiela objekto, stelo"
 fr = "NOM lune, astre, étoile"
 
 [representations]
-sitelen_emosi = "🌙"
-sitelen_pona = ["mun"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mun.jpg"
+ligatures = ["mun"]
 ucsur = "U+F193A"
+sitelen_emosi = "🌙"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mun.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/mun"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mun"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja ante"
 creator = ["jan Melon"]
 features = ["ASCII transcription"]
 filename = "linja-ante.ttf"

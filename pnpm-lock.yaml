@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.5
         version: 0.2.5(hono@4.0.4)
       '@hono/vite-dev-server':
-        specifier: ^0.4.1
-        version: 0.4.1(hono@4.0.4)
+        specifier: ^0.7.0
+        version: 0.7.0(hono@3.12.6)
       '@hono/zod-validator':
         specifier: ^0.1.11
         version: 0.1.11(hono@4.0.4)(zod@3.22.4)
@@ -331,8 +331,8 @@ packages:
       hono: 4.0.4
     dev: false
 
-  /@hono/vite-dev-server@0.4.1(hono@4.0.4):
-    resolution: {integrity: sha512-FqQk6O+2WgmBqYJVViH/jySgYijD+QVD16x/F6wqH6vhu0/nU1Iku8XuxNBTKrGwn+ygHOx+DvwAs+aKKK01dQ==}
+  /@hono/vite-dev-server@0.7.0(hono@3.12.6):
+    resolution: {integrity: sha512-NFcBuyklOammhiExJUYvTfzoU9Mzv4F7ddUCjTe9hy37/AHGZXoksZaBWFl2fRSPVZaPvmX9eiRLBMIrML2iYw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'

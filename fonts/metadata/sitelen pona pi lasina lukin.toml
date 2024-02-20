@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen pona pi lasina lukin"
 creator = ["u/The-God-of-Snails"]
 features = ["ASCII transcription", "cartouches"]
 filename = "sitelen_pona_pi_lasin_lukin.ttf"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja leko"
 creator = ["Jervik Hsien Serrano"]
 features = ["ASCII transcription"]
 filename = "linja-leko.ttf"

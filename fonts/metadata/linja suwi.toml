@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja suwi"
 creator = ["jan Ana"]
 features = ["ASCII transcription", "supports combined glyphs", "nimi ku suli"]
 filename = "linja-suwi.otf"

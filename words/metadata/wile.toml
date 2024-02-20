@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "wile"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/wile"
 source_language = "Dutch"
 usage_category = "core"
 word = "wile"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wile.mp3"
@@ -87,11 +88,15 @@ eo = "ANTAŬVERBO devi, bezoni, devus …i, voli, deziri"
 fr = "AUXILIAIRE devoir, avoir besoin de, vouloir"
 
 [representations]
-sitelen_emosi = "💭"
-sitelen_pona = ["wile", "wile2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wile.jpg"
+ligatures = ["wile", "wile2"]
 ucsur = "U+F1977"
+sitelen_emosi = "💭"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wile.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wile"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#wile"

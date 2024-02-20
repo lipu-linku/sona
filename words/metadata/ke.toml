@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ke"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -6,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2015"
 creator = ["jan Maliku", "jan Kisinja"]
 see_also = ["oke", "n"]
-sona_pona = "https://sona.pona.la/wiki/ke"
 source_language = "English"
 usage_category = "obscure"
 word = "ke"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ke.mp3"
@@ -24,13 +25,13 @@ word = "okay"
 alright = 9
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["ke"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["ke"]
 
 [usage]
 2020-04 = 18
 2021-10 = 23
 2022-08 = 4
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ke"

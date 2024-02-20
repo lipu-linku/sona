@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen uta"
 creator = ["jan Sewaka / jan Weko"]
 features = []
 filename = "sitelen-uta.otf"

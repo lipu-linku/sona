@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "soto"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -6,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan inwin"]
 see_also = ["poka", "teje"]
-sona_pona = "https://sona.pona.la/wiki/soto"
 source_language = "Swahili"
 usage_category = "obscure"
 word = "soto"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soto.mp3"
@@ -21,13 +22,14 @@ word = "shoto"
 "left (not right)" = 8
 
 [representations]
+ligatures = ["soto"]
 sitelen_emosi = "🤛"
-sitelen_pona = ["soto"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2020-04 = 22
 2021-10 = 34
 2022-08 = 8
 2023-09 = 6
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/soto"

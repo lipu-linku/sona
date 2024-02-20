@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "Neoletters"
 creator = ["Oren Watson"]
 features = ["codepoints only"]
 filename = "neoletters.ttf"

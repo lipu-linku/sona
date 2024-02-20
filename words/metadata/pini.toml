@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "pini"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["open", "kama"]
-sona_pona = "https://sona.pona.la/wiki/pini"
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pini"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pini.mp3"
@@ -59,11 +60,15 @@ eo = "ADJEKTIVO antaŭa, finfarita, finita, finiĝinta, pasinta"
 fr = "ADJECTIF fini, passé, terminé"
 
 [representations]
-sitelen_emosi = "🏁"
-sitelen_pona = ["pini"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pini.jpg"
+ligatures = ["pini"]
 ucsur = "U+F1950"
+sitelen_emosi = "🏁"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pini.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pini"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pini"

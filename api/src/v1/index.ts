@@ -52,7 +52,7 @@ const app = new Hono()
 
 			return word
 				? c.json({ ok: true as const, data: word })
-				: c.json({ ok: false as const, message: `Could not find a word named ${word}` }, 404);
+				: c.json({ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` }, 404);
 		},
 	)
 

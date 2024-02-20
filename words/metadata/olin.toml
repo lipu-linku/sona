@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "olin"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/olin"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "olin"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/olin.mp3"
@@ -51,11 +52,15 @@ eo = "VERBO ami, simpatii kun, respekti, montri sian korinklinon al"
 fr = "VERBE aimer, respecter, compatir, montrer de l'affection pour"
 
 [representations]
-sitelen_emosi = "💕"
-sitelen_pona = ["olin0", "olin", "olin2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/olin.jpg"
+ligatures = ["olin0", "olin", "olin2"]
 ucsur = "U+F1945"
+sitelen_emosi = "💕"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/olin.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/olin"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#olin"

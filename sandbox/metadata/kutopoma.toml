@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kutopoma"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -22,7 +23,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 2023-09 = 0
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kutopoma"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kutopoma"]
+
+[resources]

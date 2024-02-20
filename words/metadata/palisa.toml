@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "palisa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["linja"]
-sona_pona = "https://sona.pona.la/wiki/palisa"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "palisa"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/palisa.mp3"
@@ -41,11 +42,15 @@ eo = "SUBSTANTIVO io longa kaj rigida; branĉo, stango, bastono"
 fr = "NOM objet long et dur : bâton"
 
 [representations]
-sitelen_emosi = "📏"
-sitelen_pona = ["palisa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/palisa.jpg"
+ligatures = ["palisa"]
 ucsur = "U+F194A"
+sitelen_emosi = "📏"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/palisa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/palisa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#palisa"

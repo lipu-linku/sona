@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "nasin leko suwi (Lasina)"
 creator = ["jan Mika", "jan Poman"]
 features = [
   "ASCII transcription",

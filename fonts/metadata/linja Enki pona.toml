@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja Enki pona"
 creator = ["kije Enki"]
 features = ["UCSUR-compliant", "supports cartouches"]
 filename = "linja-enki-pona.ttf"

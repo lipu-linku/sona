@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ona"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ni"]
-sona_pona = "https://sona.pona.la/wiki/ona"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "ona"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ona.mp3"
@@ -45,11 +46,15 @@ eo = "SUBSTANTIVO li, ŝi, (ri,) ĝi, ili"
 fr = "NOM il(s), elle(s)"
 
 [representations]
-sitelen_emosi = "👆"
-sitelen_pona = ["ona"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ona.jpg"
+ligatures = ["ona"]
 ucsur = "U+F1946"
+sitelen_emosi = "👆"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ona.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ona"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ona"

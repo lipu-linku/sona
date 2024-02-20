@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "suwi"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["pona"]
-sona_pona = "https://sona.pona.la/wiki/suwi"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "suwi"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/suwi.mp3"
@@ -43,11 +44,15 @@ eo = "ADJEKTIVO dolĉa, bonodora; ĉarma, senkulpa, aminda"
 fr = "ADJECTIF doux, parfumé, mignon, innocent, adorable"
 
 [representations]
-sitelen_emosi = "🍭"
-sitelen_pona = ["suwi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
+ligatures = ["suwi"]
 ucsur = "U+F1966"
+sitelen_emosi = "🍭"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/suwi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#suwi"

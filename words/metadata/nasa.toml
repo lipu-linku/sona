@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "nasa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/nasa"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "nasa"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nasa.mp3"
@@ -42,11 +43,15 @@ eo = "ADJEKTIVO nekutima, stranga; bufona, malserioza, stulteta; ebria"
 fr = "ADJECTIF étrange, insolite ; fou, bête, idiot ; ivre"
 
 [representations]
-sitelen_emosi = "🌀"
-sitelen_pona = ["nasa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
+ligatures = ["nasa"]
 ucsur = "U+F193E"
+sitelen_emosi = "🌀"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nasa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nasa"

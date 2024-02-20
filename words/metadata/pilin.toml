@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "pilin"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/pilin"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pilin"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pilin.mp3"
@@ -73,11 +74,15 @@ eo = "SUBSTANTIVO koro (fizika aŭ emocia)\nADJEKTIVO sentanta (emocion, rektan 
 fr = "NOM cœur (physique et psychologique)\nADJECTIF qui ressent (une émotion, une expérience directe)"
 
 [representations]
-sitelen_emosi = "❤️"
-sitelen_pona = ["pilin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
+ligatures = ["pilin"]
 ucsur = "U+F194E"
+sitelen_emosi = "❤️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pilin"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pilin"

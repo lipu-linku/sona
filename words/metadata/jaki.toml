@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "jaki"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/jaki"
 source_language = "English"
 usage_category = "core"
 word = "jaki"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jaki.mp3"
@@ -49,11 +50,15 @@ eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
 fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
 
 [representations]
-sitelen_emosi = "💩"
-sitelen_pona = ["jaki", "jaki"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
+ligatures = ["jaki", "jaki"]
 ucsur = "U+F1910"
+sitelen_emosi = "💩"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jaki"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#jaki"

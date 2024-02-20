@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "kulijo"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -6,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan pakala", "kala pona Tonyu"]
 see_also = ["oke"]
-sona_pona = "https://sona.pona.la/wiki/kulijo"
 source_language = "English"
 usage_category = "obscure"
 word = "kulijo"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulijo.mp3"
@@ -18,12 +19,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "coolio"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["kulijo"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["kulijo"]
 
 [usage]
 2021-10 = 28
 2022-08 = 6
 2023-09 = 7
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kulijo"

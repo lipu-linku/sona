@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "soweli"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/soweli"
 source_language = "Georgian"
 usage_category = "core"
 word = "soweli"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/soweli.mp3"
@@ -52,11 +53,15 @@ eo = "SUBSTANTIVO besto, surtera mamulo"
 fr = "NOM animal, mammifère terrestre"
 
 [representations]
-sitelen_emosi = "🐒"
-sitelen_pona = ["soweli"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
+ligatures = ["soweli"]
 ucsur = "U+F1962"
+sitelen_emosi = "🐒"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/soweli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#soweli"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "monsi"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["sinpin"]
-sona_pona = "https://sona.pona.la/wiki/monsi"
 source_language = "Acadian French"
 usage_category = "core"
 word = "monsi"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/monsi.mp3"
@@ -34,11 +35,15 @@ eo = "SUBSTANTIVO dorso, malantaŭo"
 fr = "NOM dos, derrière, arrière"
 
 [representations]
-sitelen_emosi = "⬅️"
-sitelen_pona = ["monsi"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsi.jpg"
+ligatures = ["monsi"]
 ucsur = "U+F1938"
+sitelen_emosi = "⬅️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsi.jpg"
 
 [usage]
 2022-08 = 97
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/monsi"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#monsi"

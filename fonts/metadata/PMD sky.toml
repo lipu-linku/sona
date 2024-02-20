@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "PMD sky"
 creator = ["differentthings"]
 features = ["codepoints only"]
 filename = "sitelen-pona-pmd-sky.otf"

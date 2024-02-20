@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ale"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ali"]
-sona_pona = "https://sona.pona.la/wiki/ale"
 source_language = "Dutch"
 usage_category = "core"
 word = "ale"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ale.mp3"
@@ -53,11 +54,15 @@ eo = "ADJEKTIVO ĉiuj; abunda, nenombrebla, ĉiu\nSUBSTANTIVO abundo, ĉio, vivo
 fr = "ADJECTIF tous, abondants, innombrables\nNOM tout, abondance, la vie, l'univers\nNOMBRE 100"
 
 [representations]
-sitelen_emosi = "♾️"
-sitelen_pona = ["ale"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ale.jpg"
+ligatures = ["ale"]
 ucsur = "U+F1904"
+sitelen_emosi = "♾️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ale.jpg"
 
 [usage]
 2022-08 = 92
 2023-09 = 90
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ale"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ale"

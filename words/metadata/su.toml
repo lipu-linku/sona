@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "su"
 author_verbatim = "**su**: interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
 author_verbatim_source = "https://discord.com/channels/972470770443886662/999566769943490600/1203577255096483880"
 book = "ku lili"
@@ -6,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu", "ku"]
-sona_pona = "https://sona.pona.la/wiki/su"
 source_language = "a priori"
 usage_category = "obscure"
 word = "su"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/su.mp3"
@@ -17,13 +18,13 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[etymology]]
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["su"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["su"]
 
 [usage]
 2020-04 = 14
 2021-10 = 28
 2022-08 = 1
 2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/su"

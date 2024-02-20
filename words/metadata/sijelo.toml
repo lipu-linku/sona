@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "sijelo"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/sijelo"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "sijelo"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sijelo.mp3"
@@ -39,11 +40,15 @@ eo = "SUBSTANTIVO korpo (de homo aŭ besto), fizika stato, torso"
 fr = "NOM corps, état physique, torse"
 
 [representations]
-sitelen_emosi = "🏋️"
-sitelen_pona = ["sijelo"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
+ligatures = ["sijelo"]
 ucsur = "U+F195B"
+sitelen_emosi = "🏋️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sijelo.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/sijelo"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sijelo"

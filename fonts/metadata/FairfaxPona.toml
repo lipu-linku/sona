@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "FairfaxPona"
 creator = ["jan Lepeka"]
 features = [
   "ASCII transcription and codepoints",
