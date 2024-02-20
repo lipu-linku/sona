@@ -5,28 +5,31 @@ import { createZodFetcher } from "zod-fetch";
 import v1 from "./v1";
 import { cors } from "hono/cors";
 import { cache } from "hono/cache";
+import { etag } from "hono/etag";
+import type { StatusCode } from "hono/utils/http-status";
 
 export const fetchWithZod = createZodFetcher();
 
 const twentyFourHours = 24 * 60 * 60;
 
 const app = new Hono({ strict: false })
-	.use("*", prettyJSON())
-	.use("*", logger())
+	.use(prettyJSON())
+	.use(logger())
 	.use(
-		"*",
 		cors({
 			origin: "*",
 			maxAge: twentyFourHours,
 		}),
 	)
 	.use(
-		"*",
-		cache({
-			cacheName: "sona-api",
-			cacheControl: `max-age=${twentyFourHours}`,
-		}),
+		import.meta.env.PROD
+			? cache({
+					cacheName: "sona-api",
+					cacheControl: `max-age=${twentyFourHours}`,
+				})
+			: async (c, next) => await next(),
 	)
+	.use(etag())
 	.notFound((c) => c.json({ message: "Not Found", ok: false }, 404))
 	.onError((err, c) => {
 		return c.json(

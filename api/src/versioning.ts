@@ -6,8 +6,8 @@ import {
 	FingerspellingSign,
 	Font,
 	Fonts,
-	Languages,
 	IconTranslation,
+	Languages,
 	ParametersTranslation,
 	Sandbox,
 	Sign,
@@ -27,24 +27,8 @@ export type ApiVersion = "v1";
 export type Versions = {
 	[version in ApiVersion]: {
 		branch: string;
-		schemas: {
-			words: z.ZodType;
-			sandbox: z.ZodType;
-			word: z.ZodType;
-			definition: z.ZodType;
-			commentary: z.ZodType;
-			etymology: z.ZodType;
-			sitelen_pona: z.ZodType;
-			signs: z.ZodType;
-			sign: z.ZodType;
-			fingerspelling: z.ZodType;
-			fingerspelling_sign: z.ZodType;
-			sign_parameters: z.ZodType;
-			sign_icons: z.ZodType;
-			fonts: z.ZodType;
-			font: z.ZodType;
-			languages: z.ZodType;
-		};
+		schemas: Record<string, z.ZodType>;
+		raw: Record<string, { filename: `${string}.${string}`; schema: z.ZodType }>;
 	};
 };
 
@@ -69,8 +53,37 @@ export const versions = {
 			font: Font,
 			languages: Languages,
 		},
+		raw: {
+			words: {
+				filename: "words.json",
+				schema: Words,
+			},
+			fingerspelling: {
+				filename: "fingerspelling.json",
+				schema: Fingerspelling,
+			},
+			signs: {
+				filename: "signs.json",
+				schema: Signs,
+			},
+			fonts: {
+				filename: "fonts.json",
+				schema: Fonts,
+			},
+			languages: {
+				filename: "languages.json",
+				schema: Languages,
+			},
+		},
 	},
 } as const satisfies Versions;
+
+export type FilesToVariables<
+	V extends ApiVersion,
+	T extends Versions[ApiVersion]["raw"] = (typeof versions)[V]["raw"],
+> = {
+	[K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
+};
 
 type Apps = {
 	[version in keyof typeof versions]: Hono<any, any, `/${version}`>;

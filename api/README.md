@@ -7,10 +7,12 @@ The API is built using TypeScript, Vite, and [Hono](https://hono.dev/), using Zo
 ## Contributing
 
 Requirements:
+
 - [Node.js](https://nodejs.org/) (preferably latest)
 - [pnpm](https://pnpm.io/) v8
 
 How to contribute:
+
 - Fork the repo and make any changes you want.
 - Build the schemas in `../schemas/` with `pnpm run build`
 - Run the dev server using `pnpm run -F sona-api dev` and verify that your changes work.
