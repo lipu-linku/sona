@@ -2,7 +2,7 @@
 language = "nimi ni li kama ala tan toki ante"
 
 [[a]]
-language = "onomatopoeia"
+language = "mu"
 
 [[aka]]
 definition = "to cross, to pass"
@@ -116,7 +116,7 @@ language = "unknown"
 
 [[ijo]]
 definition = "something"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[ijo]]
 definition = "(relative pronoun root)"
@@ -132,7 +132,7 @@ language = "unknown"
 
 [[ilo]]
 definition = "tool"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[ilo]]
 definition = "(agent suffix)"
@@ -152,7 +152,7 @@ language = "unknown"
 
 [[isipin]]
 definition = "to think"
-language = "Tagalog"
+language = "toki Takalo"
 
 [[itomi]]
 definition = "hit or miss"
@@ -208,7 +208,7 @@ language = "toki Sonko"
 
 [[jonke]]
 definition = "hjönk"
-language = "onomatopoeia"
+language = "mu"
 
 [[ju]]
 language = "nimi ni li kama ala tan toki ante"
@@ -255,7 +255,7 @@ language = "toki Somi"
 
 [[kan]]
 definition = "with"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[kan]]
 definition = "with"
@@ -267,7 +267,7 @@ language = "toki Netelan"
 
 [[kapa]]
 definition = "head"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[kapa]]
 definition = "head"
@@ -350,11 +350,11 @@ language = "Cantonese"
 
 [[kokosila]]
 definition = "to speak among Esperantists in a language other than Esperanto"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[kokosila]]
 definition = "crocodile"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
@@ -413,7 +413,7 @@ language = "toki pona"
 
 [[la]]
 definition = "(definite article)"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[la]]
 definition = "(feminine singular definite article)"
@@ -469,7 +469,7 @@ language = "Old French"
 
 [[li]]
 definition = "he"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[li]]
 definition = "he"
@@ -592,7 +592,7 @@ language = "toki Somi"
 
 [[majuna]]
 definition = "old (not young)"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[majuna]]
 definition = "bad"
@@ -644,7 +644,7 @@ language = "Greek"
 
 [[mi]]
 definition = "mi"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[mi]]
 definition = "(1st person singular oblique)"
@@ -695,7 +695,7 @@ definition = "monster"
 language = "toki Inli"
 
 [[mu]]
-language = "onomatopoeia"
+language = "mu"
 
 [[mulapisu]]
 language = "nimi ni li kama ala tan toki ante"
@@ -706,7 +706,7 @@ language = "toki Inli"
 
 [[musi]]
 definition = "amuse, entertain"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[musi]]
 definition = "amuse, entertain"
@@ -714,14 +714,14 @@ language = "toki Kanse"
 
 [[mute]]
 definition = "a lot"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[mute]]
 definition = "a lot"
 language = "Latin"
 
 [[n]]
-language = "onomatopoeia"
+language = "mu"
 
 [[nalanja]]
 definition = "orange"
@@ -880,7 +880,7 @@ language = "toki pona"
 
 [[pali]]
 definition = "do, make"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[palisa]]
 definition = "bat, rod, cane"
@@ -912,7 +912,7 @@ language = "Acadian French"
 
 [[pasila]]
 definition = "easy"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[pata]]
 definition = "jan pi mama sama"
@@ -928,7 +928,7 @@ language = "toki Inli"
 
 [[peta]]
 definition = "laso sama kasi"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[peto]]
 definition = "(incomplete sentence) 'give eye-water', to cry"
@@ -1008,7 +1008,7 @@ language = "toki Italija"
 
 [[pona]]
 definition = "good"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[poni]]
 definition = "ona li soweli. jan li tawa kepeken ona. musi la ona li lili. lon la ona li suli. sitelen musi la selo ona li kule."
@@ -1040,7 +1040,7 @@ language = "Proto-Germanic"
 
 [[sama]]
 definition = "same"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[sama]]
 definition = "same"
@@ -1068,7 +1068,7 @@ language = "toki Katelo"
 
 [[selo]]
 definition = "skin, peel"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[selo]]
 definition = "peel, husk, shell"
@@ -1151,11 +1151,11 @@ language = "toki Somi"
 
 [[suno]]
 definition = "mun suno"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[supa]]
 definition = "surface"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[supa]]
 definition = "surface"
@@ -1215,7 +1215,7 @@ language = "toki pona"
 
 [[tenpo]]
 definition = "time"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[tenpo]]
 definition = "time"
@@ -1243,7 +1243,7 @@ language = "toki pona"
 
 [[tomo]]
 definition = "house"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[tomo]]
 definition = "house"
@@ -1267,7 +1267,7 @@ language = "toki Inli"
 
 [[tu]]
 definition = "two"
-language = "Esperanto"
+language = "toki Epelanto"
 
 [[tuli]]
 definition = "ona li pali e ijo san. mi pali e ijo tu wan. ona en mi li pali e ijo pi nanpa sama."
@@ -1281,7 +1281,7 @@ definition = "to amaze (someone), surprise, impress"
 language = "Iqglic"
 
 [[unpa]]
-language = "onomatopoeia"
+language = "mu"
 
 [[unu]]
 definition = "unu li laso loje anu loje laso."
@@ -1300,7 +1300,7 @@ definition = "strike, hit, beat"
 language = "Serbo-Croatian"
 
 [[wa]]
-language = "onomatopoeia"
+language = "mu"
 
 [[waleja]]
 definition = "of moment, important"
