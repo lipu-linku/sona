@@ -30,7 +30,7 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v5
         with:
           cancel_others: true
-          concurrent_skipping: 'outdated_runs'
+          concurrent_skipping: "outdated_runs"
 
   validate:
     needs: skip_check
@@ -56,7 +56,6 @@ jobs:
       - name: Setup pnpm
         if: contains(steps.changes.outputs.changes, 'schemas')
         uses: pnpm/action-setup@v2
-        working-directory: ./api
         with:
           version: 8
           run_install: |
@@ -74,7 +73,7 @@ jobs:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
       - name: Validate all files
-        run: npx --yes @taplo/cli check
+        run: pnpm dlx @taplo/cli check
 
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
