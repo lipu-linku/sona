@@ -1,9 +1,11 @@
 import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
+import { HTTPException } from "hono/http-exception";
+import PLazy from "p-lazy";
 import { z } from "zod";
-import { fetchWithZod } from "..";
-import { languagesFilter } from "../utils";
-import { rawFile, versions } from "../versioning";
+import { fromZodError } from "zod-validation-error";
+import { keys, languagesFilter } from "../utils";
+import { rawFile, versions, type FilesToVariables } from "../versioning";
 
 const langValidator = zValidator(
 	"query",
@@ -15,12 +17,29 @@ const langValidator = zValidator(
 	}),
 );
 
+const rawData = PLazy.from(async () => {
+	const res: Record<string, unknown> = {};
+
+	for (const key of keys(versions.v1.raw)) {
+		const { filename, schema } = versions.v1.raw[key];
+		const file = await fetch(rawFile("v1", filename)).then((r) => r.json());
+		const data = schema.safeParse(file);
+
+		if (!data.success)
+			throw new HTTPException(500, { message: fromZodError(data.error).toString() });
+
+		res[key] = data.data;
+	}
+
+	return res as FilesToVariables<"v1">;
+});
+
 const app = new Hono()
 	.get("/", (c) => c.redirect("/v1/words"))
 
 	.use("/words", languagesFilter(true))
 	.get("/words", langValidator, async (c) => {
-		return c.json(await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json")));
+		return c.json((await rawData).words);
 	})
 
 	.use("/words/:word", languagesFilter(false))
@@ -29,8 +48,7 @@ const app = new Hono()
 		langValidator,
 		zValidator("param", z.object({ word: z.string() })),
 		async (c) => {
-			const data = await fetchWithZod(versions.v1.schemas.words, rawFile("v1", "words.json"));
-			const word = data[c.req.param("word")];
+			const word = (await rawData).words[c.req.param("word")];
 
 			return word
 				? c.json({ ok: true as const, data: word })
@@ -40,9 +58,7 @@ const app = new Hono()
 
 	.use("/luka_pona/fingerspelling", languagesFilter(true))
 	.get("/luka_pona/fingerspelling", langValidator, async (c) => {
-		return c.json(
-			await fetchWithZod(versions.v1.schemas.fingerspelling, rawFile("v1", "fingerspelling.json")),
-		);
+		return c.json((await rawData).fingerspelling);
 	})
 
 	.use("/luka_pona/fingerspelling/:sign", languagesFilter(true))
@@ -51,11 +67,7 @@ const app = new Hono()
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
 		async (c) => {
-			const data = await fetchWithZod(
-				versions.v1.schemas.fingerspelling,
-				rawFile("v1", "fingerspelling.json"),
-			);
-			const sign = data[c.req.param("sign")];
+			const sign = (await rawData).fingerspelling[c.req.param("sign")];
 
 			return sign
 				? c.json({ ok: true as const, data: sign })
@@ -65,7 +77,7 @@ const app = new Hono()
 
 	.use("/luka_pona/signs", languagesFilter(true))
 	.get("/luka_pona/signs", langValidator, async (c) => {
-		return c.json(await fetchWithZod(versions.v1.schemas.signs, rawFile("v1", "signs.json")));
+		return c.json((await rawData).signs);
 	})
 
 	.use("/luka_pona/signs/:sign", languagesFilter(true))
@@ -74,8 +86,7 @@ const app = new Hono()
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
 		async (c) => {
-			const data = await fetchWithZod(versions.v1.schemas.signs, rawFile("v1", "signs.json"));
-			const sign = data[c.req.param("sign")];
+			const sign = (await rawData).signs[c.req.param("sign")];
 
 			return sign
 				? c.json({ ok: true as const, data: sign })
@@ -84,21 +95,18 @@ const app = new Hono()
 	)
 
 	.get("/fonts", async (c) => {
-		return c.json(await fetchWithZod(versions.v1.schemas.fonts, rawFile("v1", "fonts.json")));
+		return c.json((await rawData).fonts);
 	})
 
 	.get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
-		const data = await fetchWithZod(versions.v1.schemas.fonts, rawFile("v1", "fonts.json"));
-		const font = data[c.req.param("font")];
+		const font = (await rawData).fonts[c.req.param("font")];
 
 		return font
 			? c.json({ ok: true as const, data: font })
 			: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 404);
 	})
 	.get("/languages", async (c) => {
-		return c.json(
-			await fetchWithZod(versions.v1.schemas.languages, rawFile("v1", "languages.json")),
-		);
+		return c.json((await rawData).languages);
 	});
 
 export default app;
