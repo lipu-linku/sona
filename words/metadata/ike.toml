@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ike"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/ike"
 source_language = "Finnish"
 usage_category = "core"
 word = "ike"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ike.mp3"
@@ -69,11 +70,15 @@ eo = "ADJEKTIVO malbona, negativa; neesenca, malgrava"
 fr = "ADJECTIF mauvais, négatif ; superflu, non pertinent"
 
 [representations]
-sitelen_emosi = "👎"
-sitelen_pona = ["ike"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
+ligatures = ["ike"]
 ucsur = "U+F190D"
+sitelen_emosi = "👎"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ike.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ike"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ike"

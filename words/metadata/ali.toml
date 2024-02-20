@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "ali"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ale"]
-sona_pona = "https://sona.pona.la/wiki/ali"
 source_language = "Dutch"
 usage_category = "uncommon"
 word = "ali"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ali.mp3"
@@ -27,11 +28,12 @@ entire = 27
 universe = 21
 
 [representations]
+ligatures = ["ali"]
 sitelen_emosi = "♾️"
-sitelen_pona = ["ali"]
-sitelen_sitelen = ""
-ucsur = ""
 
 [usage]
 2022-08 = 35
 2023-09 = 32
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ali"

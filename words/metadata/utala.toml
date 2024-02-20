@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "utala"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["ike", "anpa"]
-sona_pona = "https://sona.pona.la/wiki/utala"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "utala"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/utala.mp3"
@@ -64,11 +65,15 @@ eo = "VERBO batali, defii, konkuri kontraŭ, lukti kontraŭ"
 fr = "VERBE se battre contre, lutter contre"
 
 [representations]
-sitelen_emosi = "⚔️"
-sitelen_pona = ["utala"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/utala.jpg"
+ligatures = ["utala"]
 ucsur = "U+F1971"
+sitelen_emosi = "⚔️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/utala.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/utala"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#utala"

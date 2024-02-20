@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "nasin"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/nasin"
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "nasin"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nasin.mp3"
@@ -75,11 +76,15 @@ eo = "SUBSTANTIVO maniero, kutimo, doktrino, metodo, vojo, irejo"
 fr = "NOM chemin, voie ; manière, façon ; coutume, méthode, doctrine"
 
 [representations]
-sitelen_emosi = "🛣️"
-sitelen_pona = ["nasin"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasin.jpg"
+ligatures = ["nasin"]
 ucsur = "U+F193F"
+sitelen_emosi = "🛣️"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasin.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nasin"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nasin"

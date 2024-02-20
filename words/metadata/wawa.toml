@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "wawa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/wawa"
 source_language = "Finnish"
 usage_category = "core"
 word = "wawa"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wawa.mp3"
@@ -58,11 +59,15 @@ eo = "ADJEKTIVO forta, potenca; memfida, nedubanta; energia, intensa"
 fr = "ADJECTIF fort, puissant ; sûr, confiant ; énergique, intense"
 
 [representations]
-sitelen_emosi = "⚡"
-sitelen_pona = ["wawa"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wawa.jpg"
+ligatures = ["wawa"]
 ucsur = "U+F1975"
+sitelen_emosi = "⚡"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wawa.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/wawa"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#wawa"

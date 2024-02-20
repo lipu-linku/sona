@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "kiku upi ala"
 creator = ["waso Keli (Kelsey Higham)"]
 features = ["ASCII transcription", "tuki tiki"]
 filename = "kiku upi ala.ttf"

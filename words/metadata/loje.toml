@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "loje"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/loje"
 source_language = "Dutch"
 usage_category = "core"
 word = "loje"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/loje.mp3"
@@ -31,11 +32,15 @@ eo = "ADJEKTIVO ruĝa, ruĝeca"
 fr = "ADJECTIF rouge"
 
 [representations]
-sitelen_emosi = "🔴"
-sitelen_pona = ["loje"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/loje.jpg"
+ligatures = ["loje"]
 ucsur = "U+F192B"
+sitelen_emosi = "🔴"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/loje.jpg"
 
 [usage]
 2022-08 = 98
 2023-09 = 99
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/loje"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#loje"

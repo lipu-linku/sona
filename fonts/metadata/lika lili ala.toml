@@ -1,0 +1,18 @@
+#:schema ../../schemas/generated/font.json
+id = "lika lili ala"
+creator = ["kije Enki"]
+features = ["ASCII transcription and codepoints"]
+filename = "lilialab.ttf"
+last_updated = "2023-12"
+license = "OFL"
+ligatures = true
+name = "lika lili ala"
+style = "uniform line weight"
+ucsur = false
+version = "1.0"
+writing_system = "tokiponido logography"
+
+[links]
+fontfile = "https://github.com/kijeEnki/likaliliala/raw/main/lilialab.ttf"
+repo = "https://github.com/kijeEnki/likaliliala"
+webpage = "https://sites.google.com/view/enky-stuff/home/"

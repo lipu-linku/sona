@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "linja sike"
 creator = ["lipamanka / kulupu poki"]
 features = [
   "ASCII transcription",

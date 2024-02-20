@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "esun"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["mani"]
-sona_pona = "https://sona.pona.la/wiki/esun"
 source_language = "Akan"
 usage_category = "core"
 word = "esun"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/esun.mp3"
@@ -52,12 +53,16 @@ eo = "SUBSTANTIVO bazaro, vendejo, foiro, komerca transakcio"
 fr = "NOM marché, boutique, foire, magasin, commerce"
 
 [representations]
-sitelen_emosi = "🛒"
-sitelen_pona = ["esun"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
+ligatures = ["esun"]
 ucsur = "U+F190B"
+sitelen_emosi = "🛒"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/esun.jpg"
 
 [usage]
 2020-04 = 97
 2022-08 = 96
 2023-09 = 98
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/esun"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#esun"

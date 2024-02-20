@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "wekama"
 author_verbatim = "also, when i meant wekama, i meant weka, then kama"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/732119749114331148"
 book = "none"
@@ -9,6 +10,7 @@ see_also = ["weka", "kama"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wekama"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wekama.mp3"
@@ -17,12 +19,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "weka kama"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["wekama"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["wekama"]
 
 [usage]
 2021-10 = 25
 2022-08 = 5
 2023-09 = 5
+
+[resources]

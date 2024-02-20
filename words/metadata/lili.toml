@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "lili"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["suli"]
-sona_pona = "https://sona.pona.la/wiki/lili"
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lili"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lili.mp3"
@@ -73,11 +74,15 @@ eo = "ADJEKTIVO malgranda, malalta; malmulta; iomete; juna"
 fr = "ADJECTIF petit, (un) peu, jeune"
 
 [representations]
-sitelen_emosi = "🐭"
-sitelen_pona = ["lili"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lili.jpg"
+ligatures = ["lili"]
 ucsur = "U+F1928"
+sitelen_emosi = "🐭"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lili.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/lili"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lili"

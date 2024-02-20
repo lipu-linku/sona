@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "meli"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["mije", "tonsi"]
-sona_pona = "https://sona.pona.la/wiki/meli"
 source_language = "Tok Pisin"
 usage_category = "widespread"
 word = "meli"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/meli.mp3"
@@ -44,11 +45,15 @@ eo = "SUBSTANTIVO virino, ino; edzino"
 fr = "NOM femme, femelle ; épouse"
 
 [representations]
-sitelen_emosi = "👧"
-sitelen_pona = ["meli", "meli2"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meli.jpg"
+ligatures = ["meli", "meli2"]
 ucsur = "U+F1933"
+sitelen_emosi = "👧"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meli.jpg"
 
 [usage]
 2022-08 = 89
 2023-09 = 82
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/meli"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mije-and-meli"

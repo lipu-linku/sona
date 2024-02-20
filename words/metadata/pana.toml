@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "pana"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = []
-sona_pona = "https://sona.pona.la/wiki/pana"
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pana"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pana.mp3"
@@ -92,11 +93,15 @@ eo = "VERBO doni, sendi, eligi, ellasi, provizi, meti"
 fr = "VERBE donner, envoyer, mettre, fournir, émettre, lâcher"
 
 [representations]
-sitelen_emosi = "📤"
-sitelen_pona = ["pana"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
+ligatures = ["pana"]
 ucsur = "U+F194C"
+sitelen_emosi = "📤"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
 
 [usage]
 2022-08 = 99
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pana"
+lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pana"

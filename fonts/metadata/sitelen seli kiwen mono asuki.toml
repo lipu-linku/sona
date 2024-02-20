@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/font.json
+id = "sitelen seli kiwen mono asuki"
 creator = ["jan Lepeka"]
 features = [
   "ASCII transcription and codepoints",

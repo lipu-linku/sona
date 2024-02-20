@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "loka"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "ku lili"
@@ -29,7 +30,6 @@ limb = 13
 2023-09 = 1
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["loka"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["loka"]
+
+[resources]

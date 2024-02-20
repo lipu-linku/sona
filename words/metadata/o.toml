@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "o"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
@@ -6,10 +7,10 @@ coined_era = "pre-pu"
 coined_year = ""
 creator = ["jan Sonja"]
 see_also = ["li"]
-sona_pona = "https://sona.pona.la/wiki/o"
 source_language = "Georgian"
 usage_category = "core"
 word = "o"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/o.mp3"
@@ -41,11 +42,14 @@ eo = "PARTIKULO he! (vokativo aŭ imperativo)"
 fr = "PARTICULE hé ! ô ! (vocatif ou impératif)"
 
 [representations]
-sitelen_emosi = "👋"
-sitelen_pona = ["o"]
-sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/o.jpg"
+ligatures = ["o"]
 ucsur = "U+F1944"
+sitelen_emosi = "👋"
+sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/o.jpg"
 
 [usage]
 2022-08 = 100
 2023-09 = 100
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/o"

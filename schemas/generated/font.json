@@ -4,6 +4,11 @@
     "font": {
       "type": "object",
       "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The font's unique ID, identifying it among other fonts"
+        },
         "creator": {
           "type": "array",
           "items": {
@@ -91,6 +96,7 @@
         }
       },
       "required": [
+        "id",
         "creator",
         "features",
         "filename",

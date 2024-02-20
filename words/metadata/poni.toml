@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "poni"
 author_verbatim = "pony"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/785585101638860800"
 book = "none"
@@ -6,10 +7,10 @@ coined_era = "post-pu"
 coined_year = "2020"
 creator = ["jan Kita"]
 see_also = ["soweli"]
-sona_pona = "https://sona.pona.la/wiki/poni"
 source_language = "English"
 usage_category = "obscure"
 word = "poni"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/poni.mp3"
@@ -18,11 +19,11 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "pony"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["poni"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["poni"]
 
 [usage]
 2022-08 = 1
 2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/poni"

@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "eliki"
 author_verbatim = "<:nimisin:743741432350769152> **eliki** - distress, affliction, adversity, pain <- Tsalagi *ehisdi* ‘pain, distress’"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1072666397626335242"
 book = "none"
@@ -6,10 +7,10 @@ coined_era = "post-ku"
 coined_year = ""
 creator = ["kala suno pi kulupu telo mun"]
 see_also = ["utala", "pilin", "ike"]
-sona_pona = "https://sona.pona.la/wiki/eliki"
 source_language = "Tsalagi"
 usage_category = "obscure"
 word = "eliki"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eliki.mp3"
@@ -18,10 +19,10 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 word = "ehisdi"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["eliki"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["eliki"]
 
 [usage]
 2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/eliki"

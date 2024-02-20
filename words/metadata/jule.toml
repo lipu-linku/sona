@@ -1,4 +1,5 @@
 #:schema ../../schemas/generated/word.json
+id = "jule"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
@@ -9,6 +10,7 @@ see_also = ["tawa", "poka"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "jule"
+
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jule.mp3"
@@ -18,11 +20,10 @@ alt = "yureru"
 word = "揺れる"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["jule"]
-sitelen_sitelen = ""
-ucsur = ""
+ligatures = ["jule"]
 
 [usage]
 2022-08 = 1
 2023-09 = 4
+
+[resources]

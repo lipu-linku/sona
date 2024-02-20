@@ -1,12 +1,18 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem } from "./utils";
 
+export type * from "./utils";
+
+const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
 // Word data
-
-type Month = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12";
-
 export const Word = z
 	.object({
+		id: z
+			.string()
+			.min(1)
+			.describe(
+				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
+			),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
@@ -35,40 +41,52 @@ export const Word = z
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
 		see_also: z.array(z.string()).describe("A list of related words"),
-		sona_pona: z
-			.string()
-			.url()
+		resources: z
+			.object({
+				sona_pona: z
+					.string()
+					.url()
+					.optional()
+					.describe(
+						"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+					),
+				lipamanka_semantic: z
+					.string()
+					.url()
+					.optional()
+					.describe("A link to lipamanka's description of the word's semantic space."),
+			})
 			.optional()
-			.describe(
-				"A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-			),
+			.describe("Non-Linku resources related to the specific word, such as wiki links."),
 		representations: z
 			.object({
 				sitelen_emosi: z
 					.string()
 					.emoji()
-					.or(z.literal(""))
+					.optional()
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
-				sitelen_pona: z
-					.array(z.string())
+				ligatures: z
+					.array(z.string().min(1))
+					.optional()
 					.describe(
-						"A list of sitelen Lasina representations of this word, to be converted into sitelen pona glyphs",
+						"A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
 					),
 				sitelen_sitelen: z
 					.string()
 					.url()
-					.or(z.literal(""))
+					.optional()
 					.describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
 				ucsur: z
 					.string()
 					.regex(/^U\+[\da-fA-F]{4,6}$/g)
-					.or(z.literal(""))
+					.optional()
 					.describe(
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
+			.optional()
 			.describe("Ways of representing this word in the real world, via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
@@ -111,14 +129,7 @@ export const Word = z
 			.optional()
 			.describe("The original definition of the word in pu, the first official Toki Pona book"),
 		usage: z
-			.record(
-				z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g) as z.ZodType<
-					`20${number}-${Month}`,
-					z.ZodTypeDef,
-					`20${number}-${Month}`
-				>,
-				z.number().min(0).max(100),
-			)
+			.record(z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g), z.number().min(0).max(100))
 			.describe(
 				"The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project",
 			),
@@ -269,6 +280,7 @@ export type IconTranslation = z.infer<typeof IconTranslation>;
 
 export const Font = z
 	.object({
+		id: z.string().min(1).describe("The font's unique ID, identifying it among other fonts"),
 		creator: z.array(z.string()).describe("a list of this font's creators"),
 		features: z.array(z.string()).describe("a list of features this font supports"),
 		filename: z
@@ -323,7 +335,7 @@ export const Words = z
 			translations: z.record(
 				z.object({
 					commentary: CommentaryTranslation.valueSchema,
-					definitions: DefinitionTranslation.valueSchema,
+					definition: DefinitionTranslation.valueSchema,
 					etymology: EtymologyTranslation.valueSchema,
 					sp_etymology: SitelenPonaTranslation.valueSchema,
 				}),
@@ -332,6 +344,7 @@ export const Words = z
 	)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 export type Words = z.infer<typeof Words>;
+export type LocalizedWord = Words[string];
 
 export const Sandbox = Words.describe(
 	"A raw data object containing dictionary info about Toki Pona sandbox",
@@ -352,6 +365,7 @@ export const Signs = z
 	)
 	.describe("A raw data object containing information about Luka Pona signs");
 export type Signs = z.infer<typeof Signs>;
+export type LocalizedSign = Signs[string];
 
 export const Fingerspelling = z
 	.record(
@@ -362,6 +376,7 @@ export const Fingerspelling = z
 	)
 	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
 export type Fingerspelling = z.infer<typeof Fingerspelling>;
+export type LocalizedFingerspellingSign = Fingerspelling[string];
 
 export const Fonts = z
 	.record(Font)
@@ -388,5 +403,5 @@ export const Languages = z.record(
 		})
 		.describe("The languages offered by sona Linku."),
 );
-
 export type Languages = z.infer<typeof Languages>;
+export type Language = Languages[string];
