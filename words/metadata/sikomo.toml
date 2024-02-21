@@ -10,6 +10,7 @@ see_also = ["epiku"]
 source_language = "English"
 usage_category = "obscure"
 word = "sikomo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

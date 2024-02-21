@@ -10,6 +10,7 @@ see_also = []
 source_language = "Dutch"
 usage_category = "core"
 word = "akesi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -37,6 +38,7 @@ ligatures = ["akesi", "akesi2"]
 ucsur = "U+F1901"
 sitelen_emosi = "🦎"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/akesi.jpg"
+sitelen_jelo = ["🦎", "🐸"]
 
 [usage]
 2022-08 = 98

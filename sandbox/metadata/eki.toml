@@ -10,6 +10,7 @@ see_also = ["natu"]
 source_language = "English"
 usage_category = "obscure"
 word = "eki"
+deprecated = true
 
 [[etymology]]
 word = "x (letter name)"

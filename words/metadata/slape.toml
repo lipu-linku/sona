@@ -10,6 +10,7 @@ see_also = ["lape"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "slape"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = ["mije", "tonsi"]
 source_language = "Tok Pisin"
 usage_category = "widespread"
 word = "meli"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -49,6 +50,7 @@ ligatures = ["meli", "meli2"]
 ucsur = "U+F1933"
 sitelen_emosi = "👧"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/meli.jpg"
+sitelen_jelo = ["👩"]
 
 [usage]
 2022-08 = 89

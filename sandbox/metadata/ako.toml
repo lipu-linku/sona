@@ -10,6 +10,7 @@ see_also = ["a"]
 source_language = "Korean"
 usage_category = "obscure"
 word = "ako"
+deprecated = false
 
 [[etymology]]
 alt = "aigo"

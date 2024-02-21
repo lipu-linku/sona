@@ -10,6 +10,7 @@ see_also = []
 source_language = "toki pona"
 usage_category = "uncommon"
 word = "omekapo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

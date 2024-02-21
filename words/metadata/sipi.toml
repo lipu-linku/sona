@@ -10,6 +10,7 @@ see_also = []
 source_language = "Latin"
 usage_category = "obscure"
 word = "sipi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

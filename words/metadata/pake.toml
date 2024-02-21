@@ -10,6 +10,7 @@ see_also = ["pini"]
 source_language = "English"
 usage_category = "rare"
 word = "pake"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

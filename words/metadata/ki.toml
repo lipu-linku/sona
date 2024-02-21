@@ -10,6 +10,7 @@ see_also = []
 source_language = "French"
 usage_category = "obscure"
 word = "ki"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = ["pu", "ku"]
 source_language = "a priori"
 usage_category = "obscure"
 word = "u"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

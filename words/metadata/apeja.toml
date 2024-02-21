@@ -10,6 +10,7 @@ see_also = ["pilin"]
 source_language = "Finnish"
 usage_category = "uncommon"
 word = "apeja"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = ["wawa", "nasa", "ken"]
 source_language = "Swahili"
 usage_category = "uncommon"
 word = "usawi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

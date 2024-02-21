@@ -10,6 +10,7 @@ see_also = ["nena"]
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "kapa"
+deprecated = false
 
 [[etymology]]
 word = "kop"

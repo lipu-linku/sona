@@ -67,6 +67,11 @@ export const Word = z
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
+				sitelen_jelo: z
+					.array(z.string().emoji())
+					.min(1)
+					.optional()
+					.describe("One or more example emojis for how the word can be written in sitelen jelo"),
 				ligatures: z
 					.array(z.string().min(1))
 					.optional()
@@ -95,6 +100,9 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
+		deprecated: z
+			.boolean()
+			.describe("Whether or not the word is considered deprecated by its author."),
 		etymology: z
 			.array(
 				z.object({

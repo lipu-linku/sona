@@ -10,6 +10,7 @@ see_also = ["lon", "poki", "lanpan"]
 source_language = "Mandarin"
 usage_category = "core"
 word = "jo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -51,6 +52,7 @@ ligatures = ["jo"]
 ucsur = "U+F1913"
 sitelen_emosi = "👜"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jo.jpg"
+sitelen_jelo = ["👜"]
 
 [usage]
 2022-08 = 98

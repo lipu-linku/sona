@@ -10,6 +10,7 @@ see_also = ["kule", "mije"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "mijomi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = ["tu", "wan", "pakala", "mute"]
 source_language = "Inuktitut"
 usage_category = "common"
 word = "kipisi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -49,6 +50,7 @@ ligatures = ["kipisi"]
 ucsur = "U+F197B"
 sitelen_emosi = "✂️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kipisi.jpg"
+sitelen_jelo = ["✂️"]
 
 [usage]
 2020-04 = 68

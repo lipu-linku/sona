@@ -10,6 +10,7 @@ see_also = ["oke", "n"]
 source_language = "English"
 usage_category = "obscure"
 word = "ke"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

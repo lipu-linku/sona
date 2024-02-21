@@ -10,6 +10,7 @@ see_also = ["tenpo", "ma"]
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lon"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -93,6 +94,7 @@ ligatures = ["lon"]
 ucsur = "U+F192C"
 sitelen_emosi = "📍"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lon.jpg"
+sitelen_jelo = ["⏺️", "✅"]
 
 [usage]
 2022-08 = 100

@@ -10,6 +10,7 @@ see_also = ["a", "n", "je"]
 source_language = "onomatopoeia"
 usage_category = "rare"
 word = "wa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

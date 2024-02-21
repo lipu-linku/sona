@@ -10,6 +10,7 @@ see_also = ["suwi", "ko"]
 source_language = "Japanese"
 usage_category = "rare"
 word = "puwa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

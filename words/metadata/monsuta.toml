@@ -10,6 +10,7 @@ see_also = []
 source_language = "Japanese"
 usage_category = "widespread"
 word = "monsuta"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -43,6 +44,7 @@ ligatures = ["monsuta"]
 ucsur = "U+F197D"
 sitelen_emosi = "👹"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsuta.jpg"
+sitelen_jelo = ["👻"]
 
 [usage]
 2020-04 = 74

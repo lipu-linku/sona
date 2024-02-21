@@ -10,6 +10,7 @@ see_also = []
 source_language = "Finnish"
 usage_category = "core"
 word = "sina"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -39,6 +40,7 @@ ligatures = ["sina"]
 ucsur = "U+F195E"
 sitelen_emosi = "👉"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sina.jpg"
+sitelen_jelo = ["👆", "6️⃣"]
 
 [usage]
 2022-08 = 100

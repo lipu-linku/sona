@@ -10,6 +10,7 @@ see_also = ["jan"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "jans"
+deprecated = false
 
 [[etymology]]
 word = "jan"

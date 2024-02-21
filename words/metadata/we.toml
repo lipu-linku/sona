@@ -10,6 +10,7 @@ see_also = []
 source_language = "Spanish"
 usage_category = "obscure"
 word = "we"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

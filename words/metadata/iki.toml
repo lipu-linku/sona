@@ -10,6 +10,7 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "obscure"
 word = "iki"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

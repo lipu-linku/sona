@@ -10,6 +10,7 @@ see_also = ["kulupu"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "kulu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

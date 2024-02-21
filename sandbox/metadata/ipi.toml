@@ -10,6 +10,7 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "obscure"
 word = "ipi"
+deprecated = false
 
 [[etymology]]
 word = "unknown"

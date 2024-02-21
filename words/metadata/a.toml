@@ -10,6 +10,7 @@ see_also = ["kin"]
 source_language = "onomatopoeia"
 usage_category = "core"
 word = "a"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -51,6 +52,7 @@ ligatures = ["a"]
 ucsur = "U+F1900"
 sitelen_emosi = "❗"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/a.jpg"
+sitelen_jelo = ["🅰️"]
 
 [usage]
 2020-04 = 99

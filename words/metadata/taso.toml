@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "taso"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -58,6 +59,7 @@ ligatures = ["taso"]
 ucsur = "U+F1968"
 sitelen_emosi = "🤔"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/taso.jpg"
+sitelen_jelo = ["🚦", "🚥"]
 
 [usage]
 2022-08 = 99

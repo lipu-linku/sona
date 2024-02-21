@@ -10,6 +10,7 @@ see_also = ["nimisin"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "samu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

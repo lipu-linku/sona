@@ -10,6 +10,7 @@ see_also = ["utala", "pilin", "ike"]
 source_language = "Tsalagi"
 usage_category = "obscure"
 word = "eliki"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

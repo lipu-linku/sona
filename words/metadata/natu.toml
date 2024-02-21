@@ -10,6 +10,7 @@ see_also = ["wan", "sama", "linja"]
 source_language = "Vietnamese"
 usage_category = "obscure"
 word = "natu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
