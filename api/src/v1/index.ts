@@ -72,23 +72,15 @@ export const languagesFilter =
 				c.res,
 			);
 		} else {
-			if ("translations" in body) {
-				const availableLangs = Object.keys(body.translations);
-				if (requestedLanguages.some((l) => !availableLangs.includes(l)))
-					throw new HTTPException(400, {
-						message: `Cannot find one or more of the requested languages: ${requestedLanguages.join(", ")}`,
-					});
-
-				c.res = new Response(
-					JSON.stringify({
-						...body,
-						translations: filterObject(body["translations"], ([k]) =>
-							requestedLanguages.includes(k.toString()),
-						),
-					}),
-					c.res,
-				);
-			}
+			c.res = new Response(
+				JSON.stringify({
+					...body.data,
+					translations: filterObject(body.data["translations"], ([k]) =>
+						mappedLangs.includes(k.toString()),
+					),
+				}),
+				c.res,
+			);
 		}
 	};
 
@@ -111,7 +103,7 @@ const app = new Hono()
 			return word
 				? c.json({ ok: true as const, data: word })
 				: c.json(
-						{ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` },
+						{ ok: false as const, message: `Could not find the word ${c.req.param("word")}` },
 						404,
 					);
 		},
