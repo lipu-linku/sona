@@ -1,4 +1,4 @@
-#schema ../../api/generated/font.json
+#:schema ../../api/generated/font.json
 id = "linja pi kute mute tu"
 creator = ["increpare / jan Inkepa"]
 features = []

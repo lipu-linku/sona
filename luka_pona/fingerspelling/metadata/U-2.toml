@@ -1,4 +1,4 @@
-#schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/fingerspelling_sign.json
 id = "U-2"
 is_two_handed = true
 

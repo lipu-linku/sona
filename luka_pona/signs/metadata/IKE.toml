@@ -1,4 +1,4 @@
-#schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/sign.json
 definition = "ike"
 id = "IKE"
 is_two_handed = false

@@ -1,4 +1,4 @@
-#schema ../../api/generated/word.json
+#:schema ../../api/generated/word.json
 id = "noka"
 author_verbatim = ""
 author_verbatim_source = ""

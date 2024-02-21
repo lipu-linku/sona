@@ -1,4 +1,4 @@
-#schema ../../../api/generated/parameters_translation.json
+#:schema ../../../api/generated/parameters_translation.json
 
 [A-1]
 handshape = "kiwen"

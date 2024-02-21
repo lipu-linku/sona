@@ -1,4 +1,4 @@
-#schema ../../api/generated/font.json
+#:schema ../../api/generated/font.json
 id = "sitelen seli kiwen mono asuki"
 creator = ["jan Lepeka"]
 features = [

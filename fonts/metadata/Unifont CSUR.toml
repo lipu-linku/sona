@@ -1,4 +1,4 @@
-#schema ../../api/generated/font.json
+#:schema ../../api/generated/font.json
 id = "Unifont CSUR"
 creator = ["Paul Hardy"]
 features = ["codepoints only"]

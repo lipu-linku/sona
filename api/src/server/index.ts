@@ -30,6 +30,7 @@ const app = new Hono({ strict: false })
 	.use("*", etag())
 	.notFound((c) => c.json({ message: "Not Found", ok: false as const }, 404))
 	.onError((err, c) => {
+		console.error(err);
 		return c.json(
 			{
 				ok: false as const,

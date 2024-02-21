@@ -1,4 +1,4 @@
-#schema ../../api/generated/font.json
+#:schema ../../api/generated/font.json
 id = "sitelen Komalin"
 creator = ["Kolmaryn / jan Komalin"]
 features = []

@@ -1,4 +1,4 @@
-#schema ../../api/generated/commentary_translation.json
+#:schema ../../api/generated/commentary_translation.json
 aka = "This word is deprecated by the creator, replaced by \"natu\"."
 ako = "Virtually unknown outside the Korean toki pona community."
 awase = "jan Lenoka further elaborated the semantics to imply \"to bump into, to make contact with\"."

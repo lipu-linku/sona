@@ -92,7 +92,7 @@ jobs:
       - name: Validate generated file
         if: contains(steps.changes.outputs.changes, 'data')
         run: |
-          list=(./raw/*.json)
+          list=(./api/raw/*.json)
           for file in "${list[@]}"; do 
             npx ajv-cli -s "./api/generated/${file:6}" -c ajv-formats --errors=text -d $file;
           done

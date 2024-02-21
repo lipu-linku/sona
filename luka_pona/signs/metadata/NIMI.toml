@@ -1,4 +1,4 @@
-#schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/sign.json
 definition = "nimi"
 id = "NIMI"
 is_two_handed = false

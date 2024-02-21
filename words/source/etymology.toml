@@ -1,4 +1,4 @@
-#schema ../../api/generated/etymology_translation.json
+#:schema ../../api/generated/etymology_translation.json
 
 [[Pingo]]
 language = "a priori"

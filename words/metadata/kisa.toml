@@ -1,4 +1,4 @@
-#schema ../../api/generated/word.json
+#:schema ../../api/generated/word.json
 id = "kisa"
 author_verbatim = "cat"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/835188367871311902"

@@ -1,4 +1,4 @@
-#schema ../../api/generated/languages.json
+#:schema ../../api/generated/languages.json
 [ar]
 locale = "ar-SA"
 
