@@ -1,6 +1,6 @@
 import { Languages } from "@kulupu-linku/sona";
-import { MiddlewareHandler } from "hono";
-import { HTTPException } from "hono/http-exception";
+import { z } from "zod";
+import { zValidator } from "@hono/zod-validator";
 
 export const entries = <const T extends object>(
 	o: T,
@@ -39,62 +39,12 @@ export const langIdCoalesce = (lang: string, langs: Languages) => {
 	return null;
 };
 
-export const languagesFilter =
-	(nested: boolean): MiddlewareHandler =>
-	async (c, next) => {
-		const languages = c.req.query("lang")?.split(",") ?? ["en"];
-		await next();
-
-		if (languages.length === 1 && languages[0] === "*") return;
-
-		const body = (await c.res.clone().json()) as any;
-		if (nested) {
-			c.res = new Response(
-				JSON.stringify(
-					Object.fromEntries(
-						Object.entries(body)
-							.filter(
-								(e): e is [string, { translations: any }] =>
-									typeof e[1] === "object" && !!e[1] && "translations" in e[1],
-							)
-							.map(([k, v]) => {
-								const availableLangs = Object.keys(v.translations);
-								if (languages.some((l) => !availableLangs.includes(l)))
-									throw new HTTPException(400, {
-										message: `Cannot find some of the requested languages: ${languages.join(", ")}`,
-									});
-
-								return [
-									k,
-									{
-										...v,
-										translations: filterObject(v["translations"], ([k]) =>
-											languages.includes(k.toString()),
-										),
-									},
-								];
-							}),
-					),
-				),
-				c.res,
-			);
-		} else {
-			if ("translations" in body) {
-				const availableLangs = Object.keys(body.translations);
-				if (languages.some((l) => !availableLangs.includes(l)))
-					throw new HTTPException(400, {
-						message: `Cannot find some of the requested languages: ${languages.join(", ")}`,
-					});
-
-				c.res = new Response(
-					JSON.stringify({
-						...body,
-						translations: filterObject(body["translations"], ([k]) =>
-							languages.includes(k.toString()),
-						),
-					}),
-					c.res,
-				);
-			}
-		}
-	};
+export const langValidator = zValidator(
+	"query",
+	z.object({
+		lang: z
+			.string()
+			.regex(/^([^,]+,)*[^,]+/)
+			.optional(),
+	}),
+);

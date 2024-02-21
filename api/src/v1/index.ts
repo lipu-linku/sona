@@ -4,18 +4,9 @@ import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import { keys, languagesFilter, langIdCoalesce } from "../utils";
+import { keys, langIdCoalesce, langValidator, filterObject } from "../utils";
+import { MiddlewareHandler } from "hono";
 import { rawFile, versions, type FilesToVariables } from "../versioning";
-
-const langValidator = zValidator(
-	"query",
-	z.object({
-		lang: z
-			.string()
-			.regex(/^([^,]+,)*[^,]+/)
-			.optional(),
-	}),
-);
 
 const rawData = PLazy.from(async () => {
 	const res: Record<string, unknown> = {};
@@ -33,6 +24,73 @@ const rawData = PLazy.from(async () => {
 
 	return res as FilesToVariables<"v1">;
 });
+
+// this would be a util but is very tied to the behavior of v1
+export const languagesFilter =
+	(nested: boolean): MiddlewareHandler =>
+	async (c, next) => {
+		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
+		await next();
+
+		if (requestedLanguages.length === 1 && requestedLanguages[0] === "*") return;
+
+		const languages = (await rawData).languages;
+
+		const body = (await c.res.clone().json()) as any;
+		const mappedLangs = requestedLanguages.map((lang: string) => langIdCoalesce(lang, languages));
+		if (mappedLangs.includes(null)) {
+			throw new HTTPException(400, {
+				message: `Cannot find some of the requested languages: ${requestedLanguages.join(", ")}`,
+				// TODO: inform user which langs are missing
+			});
+		}
+		console.log(mappedLangs);
+
+		if (nested) {
+			c.res = new Response(
+				JSON.stringify(
+					Object.fromEntries(
+						Object.entries(body)
+							.filter(
+								(e): e is [string, { translations: any }] =>
+									typeof e[1] === "object" && !!e[1] && "translations" in e[1],
+							)
+							.map(([k, v]) => {
+								const availableLangs = Object.keys(v.translations);
+								return [
+									k,
+									{
+										...v,
+										translations: filterObject(v["translations"], ([k]) =>
+											mappedLangs.includes(k.toString()),
+										),
+									},
+								];
+							}),
+					),
+				),
+				c.res,
+			);
+		} else {
+			if ("translations" in body) {
+				const availableLangs = Object.keys(body.translations);
+				if (requestedLanguages.some((l) => !availableLangs.includes(l)))
+					throw new HTTPException(400, {
+						message: `Cannot find some of the requested languages: ${requestedLanguages.join(", ")}`,
+					});
+
+				c.res = new Response(
+					JSON.stringify({
+						...body,
+						translations: filterObject(body["translations"], ([k]) =>
+							requestedLanguages.includes(k.toString()),
+						),
+					}),
+					c.res,
+				);
+			}
+		}
+	};
 
 const app = new Hono()
 	.get("/", (c) => c.redirect("/v1/words"))
@@ -52,7 +110,10 @@ const app = new Hono()
 
 			return word
 				? c.json({ ok: true as const, data: word })
-				: c.json({ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` }, 404);
+				: c.json(
+						{ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` },
+						404,
+					);
 		},
 	)
 
@@ -118,7 +179,7 @@ const app = new Hono()
 			console.log(langId);
 			return langId
 				? c.json({ ok: true as const, data: languages[langId] })
-				: c.json({ ok: false as const, message: `Could not find a language ${language}` });
+				: c.json({ ok: false as const, message: `Could not find a language named ${language}` });
 		},
 	);
 
