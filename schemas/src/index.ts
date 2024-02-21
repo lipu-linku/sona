@@ -354,11 +354,6 @@ export const Words = z
 export type Words = z.infer<typeof Words>;
 export type LocalizedWord = Words[string];
 
-export const Sandbox = Words.describe(
-	"A raw data object containing dictionary info about Toki Pona sandbox",
-);
-export type Sandbox = z.infer<typeof Sandbox>;
-
 export const Signs = z
 	.record(
 		z.string().min(1),

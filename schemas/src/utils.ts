@@ -13,10 +13,8 @@ export type CoinedEra = z.infer<typeof CoinedEra>;
 
 export const UsageCategory = z.union([
 	z.literal("core"),
-	// z.literal("widespread"),
 	z.literal("common"),
 	z.literal("uncommon"),
-	// z.literal("rare"),
 	z.literal("obscure"),
 	z.literal("sandbox"),
 ]);

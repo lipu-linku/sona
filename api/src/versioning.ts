@@ -37,7 +37,6 @@ export const versions = {
 		branch: "main",
 		schemas: {
 			words: Words,
-			sandbox: Sandbox,
 			word: Word,
 			definition: DefinitionTranslation,
 			commentary: CommentaryTranslation,
