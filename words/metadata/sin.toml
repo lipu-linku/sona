@@ -10,6 +10,7 @@ see_also = ["namako"]
 source_language = "Mandarin"
 usage_category = "core"
 word = "sin"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -50,6 +51,7 @@ ligatures = ["sin"]
 ucsur = "U+F195D"
 sitelen_emosi = "🎁"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sin.jpg"
+sitelen_jelo = ["✨"]
 
 [usage]
 2022-08 = 99

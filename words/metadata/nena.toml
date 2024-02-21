@@ -10,6 +10,7 @@ see_also = []
 source_language = "Finnish"
 usage_category = "core"
 word = "nena"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -45,6 +46,7 @@ ligatures = ["nena"]
 ucsur = "U+F1940"
 sitelen_emosi = "🗻"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"
+sitelen_jelo = ["🗻"]
 
 [usage]
 2022-08 = 97

@@ -10,6 +10,7 @@ see_also = ["nimi", "sin"]
 source_language = "toki pona"
 usage_category = "uncommon"
 word = "nimisin"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

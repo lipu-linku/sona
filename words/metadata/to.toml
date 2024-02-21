@@ -8,8 +8,9 @@ coined_year = "2020"
 creator = ["kala kala/jan Salan", "jan Lakuse"]
 see_also = ["te"]
 source_language = "Japanese"
-usage_category = "rare"
+usage_category = "obscure"
 word = "to"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

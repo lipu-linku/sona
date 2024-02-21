@@ -10,6 +10,7 @@ see_also = ["lukin"]
 source_language = "Acadian French"
 usage_category = "core"
 word = "alasa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -50,6 +51,7 @@ ligatures = ["alasa"]
 ucsur = "U+F1903"
 sitelen_emosi = "🏹"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/alasa.jpg"
+sitelen_jelo = ["🏹"]
 
 [usage]
 2020-04 = 97

@@ -10,6 +10,7 @@ see_also = ["ni"]
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "ona"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -50,6 +51,7 @@ ligatures = ["ona"]
 ucsur = "U+F1946"
 sitelen_emosi = "👆"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ona.jpg"
+sitelen_jelo = ["👈", "♋️"]
 
 [usage]
 2022-08 = 99

@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "insa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -55,6 +56,7 @@ ligatures = ["insa"]
 ucsur = "U+F190F"
 sitelen_emosi = "⏺️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/insa.jpg"
+sitelen_jelo = ["🗳️"]
 
 [usage]
 2022-08 = 99

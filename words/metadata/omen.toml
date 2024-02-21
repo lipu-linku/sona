@@ -10,6 +10,7 @@ see_also = ["musi"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "omen"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

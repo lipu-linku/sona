@@ -10,6 +10,7 @@ see_also = []
 source_language = "Finnish"
 usage_category = "core"
 word = "ma"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -69,6 +70,7 @@ ligatures = ["ma"]
 ucsur = "U+F1930"
 sitelen_emosi = "🏝️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ma.jpg"
+sitelen_jelo = ["🏝️"]
 
 [usage]
 2022-08 = 100

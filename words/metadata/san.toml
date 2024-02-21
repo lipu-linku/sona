@@ -10,6 +10,7 @@ see_also = ["mute", "tuli"]
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "san"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

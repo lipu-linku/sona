@@ -10,6 +10,7 @@ see_also = ["tu", "lukin"]
 source_language = "Turkish"
 usage_category = "uncommon"
 word = "jasima"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -31,6 +32,7 @@ reverse = 35
 ligatures = ["jasima"]
 ucsur = "U+F197F"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jasima.jpg"
+sitelen_jelo = ["🪞", "🪩"]
 
 [usage]
 2020-04 = 22
