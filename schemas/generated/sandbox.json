@@ -141,11 +141,10 @@
             "type": "string",
             "enum": [
               "core",
-              "widespread",
               "common",
               "uncommon",
-              "rare",
-              "obscure"
+              "obscure",
+              "sandbox"
             ],
             "description": "The word's usage category, according to a survey performed by the Linku Project"
           },
