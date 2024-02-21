@@ -84,7 +84,7 @@ jobs:
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
-        run: pip install tomlkit && pnpm i -g ajv-cli ajv-formats
+        run: pip install tomlkit && npm i -g ajv-cli ajv-formats
 
       - name: Generate raw data file
         if: contains(steps.changes.outputs.changes, 'data')
@@ -95,7 +95,7 @@ jobs:
         run: |
           list=(./api/raw/*.json)
           for file in "${list[@]}"; do 
-            pnpx ajv-cli -s "./api/generated/${file:10}" -c ajv-formats --errors=text -d $file;
+            npx ajv-cli -s "./api/generated/${file:10}" -c ajv-formats --errors=text -d $file;
           done
 
       - name: Commit packaged files
