@@ -1,3 +1,4 @@
+import { Languages } from "@kulupu-linku/sona";
 import { MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 
@@ -18,6 +19,24 @@ export const filterObject = <const T extends object>(
 	predicate: (o: [keyof T, T[keyof T]]) => boolean,
 ) => {
 	return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
+};
+
+export const langIdCoalesce = (lang: string, langs: Languages) => {
+	if (lang in langs) {
+		return lang; // most common case
+	}
+	for (const [id, metadata] of Object.entries(langs)) {
+		if (lang === metadata.locale) {
+			return id;
+		}
+
+		for (const [key, name] of Object.entries(metadata.name)) {
+			if (lang.toLowerCase() === name.toLowerCase()) {
+				return id;
+			}
+		}
+	}
+	return null;
 };
 
 export const languagesFilter =

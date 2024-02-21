@@ -4,7 +4,7 @@ import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import { keys, languagesFilter } from "../utils";
+import { keys, languagesFilter, langIdCoalesce } from "../utils";
 import { rawFile, versions, type FilesToVariables } from "../versioning";
 
 const langValidator = zValidator(
@@ -107,6 +107,19 @@ const app = new Hono()
 	})
 	.get("/languages", async (c) => {
 		return c.json((await rawData).languages);
-	});
+	})
+	.get(
+		"/languages/:language",
+		zValidator("param", z.object({ language: z.string() })),
+		async (c) => {
+			const language = c.req.param("language");
+			const languages = (await rawData).languages;
+			const langId = langIdCoalesce(language, languages);
+			console.log(langId);
+			return langId
+				? c.json({ ok: true as const, data: languages[langId] })
+				: c.json({ ok: false as const, message: `Could not find a language ${language}` });
+		},
+	);
 
 export default app;
