@@ -29,13 +29,13 @@ const rawData = PLazy.from(async () => {
 export const languagesFilter =
 	(nested: boolean): MiddlewareHandler =>
 	async (c, next) => {
-		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
 		await next();
 		const body = (await c.res.clone().json()) as any;
 		if ("ok" in body && body.ok === false) {
 			return body;
 		}
 
+		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
 		if (requestedLanguages.length === 1 && requestedLanguages[0] === "*") return;
 
 		const languages = (await rawData).languages;
@@ -46,7 +46,6 @@ export const languagesFilter =
 				// TODO: inform user which langs are missing
 			});
 		}
-		console.log(mappedLangs);
 
 		if (nested) {
 			c.res = new Response(
@@ -58,7 +57,6 @@ export const languagesFilter =
 									typeof e[1] === "object" && !!e[1] && "translations" in e[1],
 							)
 							.map(([k, v]) => {
-								const availableLangs = Object.keys(v.translations);
 								return [
 									k,
 									{
