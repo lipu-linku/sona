@@ -400,7 +400,9 @@ export const Languages = z.record(
 					"The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.",
 				),
 			locale: z.string().describe("The locale code corresponding to the language."),
-			direction: z.literal("ltr", "rtl").describe("The direction of the language's script."),
+			direction: z
+				.union([z.literal("ltr"), z.literal("rtl")])
+				.describe("The direction of the language's script."),
 			name: z.object({
 				en: z.string().describe("The name of the language in English."),
 				// These are optional because we can add a language via Crowdin and Crowdin doesn't provide these.
