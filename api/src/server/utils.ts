@@ -1,21 +1,19 @@
 import { MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 
-export const entries = <T extends object>(o: T) => {
+export const entries = <const T extends object>(
+	o: T,
+): {
+	[K in keyof T]: [K, T[K]];
+}[keyof T][] => {
 	return Object.entries(o) as [keyof T, T[keyof T]][];
 };
-export const filterObject = <T extends object>(
+
+export const filterObject = <const T extends object>(
 	o: T,
 	predicate: (o: [keyof T, T[keyof T]]) => boolean,
 ) => {
 	return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
-};
-
-export const mapObject = <T extends object, R>(
-	o: T,
-	func: (o: [keyof T, T[keyof T]]) => [keyof T, R],
-): Record<keyof T, R> => {
-	return Object.fromEntries(entries(o).map(([k, v]) => func([k, v]))) as Record<keyof T, R>;
 };
 
 export const languagesFilter =

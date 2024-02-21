@@ -7,10 +7,12 @@ The API is built using TypeScript, [Vite](https://vitejs.dev/), and [Hono](https
 ## Contributing
 
 Requirements:
+
 - [Node.js](https://nodejs.org/) (preferably latest)
 - [pnpm](https://pnpm.io/) v8
 
 How to contribute:
+
 - Fork the repo and make any changes you want.
 - Build the schemas in with `pnpm run generate`
 - Run the dev server using `pnpm run dev` and verify that your changes work.

@@ -1,7 +1,6 @@
 import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
 import { z } from "zod";
-import { fetchWithZod } from "..";
 import { languagesFilter } from "../utils";
 import { fetchFile, versions } from "../versioning";
 

@@ -3,6 +3,7 @@ project_id_env: CROWDIN_PROJECT_ID
 base_url: https://linku.crowdin.com
 base_path: .
 preserve_hierarchy: true
+commit_message: "[ci skip]"
 
 files:
   - source: /words/source/*.toml
