@@ -9,7 +9,6 @@ import {
 	IconTranslation,
 	Languages,
 	ParametersTranslation,
-	Sandbox,
 	Sign,
 	Signs,
 	SitelenPonaTranslation,
