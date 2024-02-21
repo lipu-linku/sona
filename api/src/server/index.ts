@@ -1,12 +1,10 @@
 import { Hono } from "hono";
 import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
-import { createZodFetcher } from "zod-fetch";
 import v1 from "./v1";
 import { cors } from "hono/cors";
 import { cache } from "hono/cache";
-
-export const fetchWithZod = createZodFetcher();
+import { etag } from "hono/etag";
 
 const twentyFourHours = 24 * 60 * 60;
 
@@ -29,11 +27,12 @@ const app = new Hono({ strict: false })
 				})
 			: async (c, next) => await next(),
 	)
-	.notFound((c) => c.json({ message: "Not Found", ok: false }, 404))
+	.use("*", etag())
+	.notFound((c) => c.json({ message: "Not Found", ok: false as const }, 404))
 	.onError((err, c) => {
 		return c.json(
 			{
-				ok: false,
+				ok: false as const,
 				message: err.message,
 			},
 			{ status: "status" in err && typeof err.status === "number" ? err.status : 500 },

@@ -22,7 +22,8 @@ const rawData = PLazy.from(async () => {
 
 	for (const key of keys(versions.v1.raw)) {
 		const { filename, schema } = versions.v1.raw[key];
-		const file = await fetchFile("v1", schema, filename)
+		const file = await fetchFile("v1", schema, filename);
+		console.log(file)
 		if (!file.success)
 			throw new HTTPException(500, { message: fromZodError(file.error).toString() });
 
@@ -50,7 +51,10 @@ const app = new Hono()
 
 			return word
 				? c.json({ ok: true as const, data: word })
-				: c.json({ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` }, 404);
+				: c.json(
+						{ ok: false as const, message: `Could not find a word named ${c.req.param("word")}` },
+						404,
+					);
 		},
 	)
 

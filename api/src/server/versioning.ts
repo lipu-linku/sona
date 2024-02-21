@@ -70,6 +70,10 @@ export const versions = {
 				filename: "fonts.json",
 				schema: Fonts,
 			},
+			sandbox: {
+				filename: "sandbox.json",
+				schema: Sandbox,
+			},
 			languages: {
 				filename: "languages.json",
 				schema: Languages,
@@ -101,5 +105,7 @@ export const fetchFile = async <S extends z.ZodType>(
 	schema.safeParse(
 		import.meta.env.MODE === "production"
 			? await fetch(`${BASE_URL}/${versions[version].branch}/raw/${filename}`).then((r) => r.json())
-			: await import(/* @vite-ignore */ `../../../raw/${filename}`, { with: { type: "json" } }),
+			: await import(/* @vite-ignore */ import.meta.dirname + `/../../../raw/${filename}`, {
+					with: { type: "json" },
+				}),
 	);

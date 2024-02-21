@@ -239,7 +239,7 @@ def main():
         worddata["representations"] = REPRESENTATIONS[word]
         with open(f"../words/metadata/{word}.toml", "w") as f:
             tomlified = tomlkit.dumps(worddata, sort_keys=True)
-            tomlified = "#schema ../../api/generated/word.json\n" + tomlified
+            tomlified = "#:schema ../../api/generated/word.json\n" + tomlified
             f.write(tomlified)
 
     # write_translated(
