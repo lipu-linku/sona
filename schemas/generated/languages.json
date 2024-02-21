@@ -17,7 +17,10 @@
           },
           "direction": {
             "type": "string",
-            "const": "ltr",
+            "enum": [
+              "ltr",
+              "rtl"
+            ],
             "description": "The direction of the language's script."
           },
           "name": {
