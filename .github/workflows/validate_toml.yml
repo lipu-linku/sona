@@ -60,6 +60,7 @@ jobs:
           version: 8
           run_install: |
             - args: [--frozen-lockfile]
+              cwd: ./api
 
       - name: Generate JSON Schemas
         if: contains(steps.changes.outputs.changes, 'schemas')
