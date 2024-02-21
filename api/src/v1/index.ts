@@ -176,7 +176,6 @@ const app = new Hono()
 			const language = c.req.param("language");
 			const languages = (await rawData).languages;
 			const langId = langIdCoalesce(language, languages);
-			console.log(langId);
 			return langId
 				? c.json({ ok: true as const, data: languages[langId] })
 				: c.json({ ok: false as const, message: `Could not find a language named ${language}` });
