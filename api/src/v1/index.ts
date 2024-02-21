@@ -40,7 +40,7 @@ export const languagesFilter =
 		const mappedLangs = requestedLanguages.map((lang: string) => langIdCoalesce(lang, languages));
 		if (mappedLangs.includes(null)) {
 			throw new HTTPException(400, {
-				message: `Cannot find some of the requested languages: ${requestedLanguages.join(", ")}`,
+				message: `Cannot find one or more of the requested languages: ${requestedLanguages.join(", ")}`,
 				// TODO: inform user which langs are missing
 			});
 		}
@@ -76,7 +76,7 @@ export const languagesFilter =
 				const availableLangs = Object.keys(body.translations);
 				if (requestedLanguages.some((l) => !availableLangs.includes(l)))
 					throw new HTTPException(400, {
-						message: `Cannot find some of the requested languages: ${requestedLanguages.join(", ")}`,
+						message: `Cannot find one or more of the requested languages: ${requestedLanguages.join(", ")}`,
 					});
 
 				c.res = new Response(
