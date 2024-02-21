@@ -109,6 +109,31 @@ const app = new Hono()
 		},
 	)
 
+	.use("/sandbox", languagesFilter(true))
+	.get("/sandbox", langValidator, async (c) => {
+		return c.json((await rawData).sandbox);
+	})
+
+	.use("/sandbox/:word", languagesFilter(false))
+	.get(
+		"/sandbox/:word",
+		langValidator,
+		zValidator("param", z.object({ word: z.string() })),
+		async (c) => {
+			const word = (await rawData).sandbox[c.req.param("word")];
+
+			return word
+				? c.json({ ok: true as const, data: word })
+				: c.json(
+						{
+							ok: false as const,
+							message: `Could not find the sandbox word "${c.req.param("word")}"`,
+						},
+						404,
+					);
+		},
+	)
+
 	.use("/luka_pona/fingerspelling", languagesFilter(true))
 	.get("/luka_pona/fingerspelling", langValidator, async (c) => {
 		return c.json((await rawData).fingerspelling);

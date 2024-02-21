@@ -56,6 +56,10 @@ export const versions = {
 				filename: "words.json",
 				schema: Words,
 			},
+			sandbox: {
+				filename: "sandbox.json",
+				schema: Words,
+			},
 			fingerspelling: {
 				filename: "fingerspelling.json",
 				schema: Fingerspelling,
