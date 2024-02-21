@@ -31,12 +31,14 @@ export const languagesFilter =
 	async (c, next) => {
 		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
 		await next();
+		const body = (await c.res.clone().json()) as any;
+		if ("ok" in body && body.ok === false) {
+			return body;
+		}
 
 		if (requestedLanguages.length === 1 && requestedLanguages[0] === "*") return;
 
 		const languages = (await rawData).languages;
-
-		const body = (await c.res.clone().json()) as any;
 		const mappedLangs = requestedLanguages.map((lang: string) => langIdCoalesce(lang, languages));
 		if (mappedLangs.includes(null)) {
 			throw new HTTPException(400, {
