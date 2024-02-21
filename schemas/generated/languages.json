@@ -6,9 +6,22 @@
       "additionalProperties": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 2,
+            "description": "The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."
+          },
           "locale": {
             "type": "string",
             "description": "The locale code corresponding to the language."
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "ltr",
+              "rtl"
+            ],
+            "description": "The direction of the language's script."
           },
           "name": {
             "type": "object",
@@ -33,7 +46,9 @@
           }
         },
         "required": [
+          "id",
           "locale",
+          "direction",
           "name"
         ],
         "additionalProperties": false,

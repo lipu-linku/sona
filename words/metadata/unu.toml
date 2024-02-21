@@ -8,8 +8,9 @@ coined_year = "2020"
 creator = ["jan Sonja"]
 see_also = ["laso", "loje", "pimeja"]
 source_language = "Malay-Indonesian"
-usage_category = "rare"
+usage_category = "obscure"
 word = "unu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

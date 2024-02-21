@@ -10,6 +10,7 @@ see_also = []
 source_language = "Finnish"
 usage_category = "core"
 word = "nimi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -43,6 +44,7 @@ ligatures = ["nimi"]
 ucsur = "U+F1942"
 sitelen_emosi = "💬"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nimi.jpg"
+sitelen_jelo = ["📛"]
 
 [usage]
 2022-08 = 99

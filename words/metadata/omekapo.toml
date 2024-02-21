@@ -8,8 +8,9 @@ coined_year = "2020"
 creator = ["jan Maliku"]
 see_also = []
 source_language = "toki pona"
-usage_category = "uncommon"
+usage_category = "obscure"
 word = "omekapo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

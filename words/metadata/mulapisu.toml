@@ -10,6 +10,7 @@ see_also = ["pan"]
 source_language = "a priori"
 usage_category = "obscure"
 word = "mulapisu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

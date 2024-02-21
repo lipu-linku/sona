@@ -8,8 +8,9 @@ coined_year = "2021"
 creator = ["jan Epen"]
 see_also = ["a", "kalama"]
 source_language = "Korean"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "lijokuku"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

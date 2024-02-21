@@ -10,6 +10,7 @@ see_also = ["mu", "jonke"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "nja"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

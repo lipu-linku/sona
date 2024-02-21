@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tongan"
 usage_category = "core"
 word = "kulupu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -85,6 +86,7 @@ ligatures = ["kulupu"]
 ucsur = "U+F191F"
 sitelen_emosi = "👥"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kulupu.jpg"
+sitelen_jelo = ["👥"]
 
 [usage]
 2022-08 = 99

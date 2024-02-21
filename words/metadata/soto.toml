@@ -10,6 +10,7 @@ see_also = ["poka", "teje"]
 source_language = "Swahili"
 usage_category = "obscure"
 word = "soto"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

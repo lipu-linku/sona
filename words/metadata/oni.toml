@@ -10,6 +10,7 @@ see_also = ["insa", "lape", "musi", "sitelen", "jume"]
 source_language = "Ancient Greek"
 usage_category = "obscure"
 word = "oni"
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

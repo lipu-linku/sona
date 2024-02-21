@@ -10,6 +10,7 @@ see_also = ["lete"]
 source_language = "Georgian"
 usage_category = "core"
 word = "seli"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -50,6 +51,7 @@ ligatures = ["seli"]
 ucsur = "U+F1957"
 sitelen_emosi = "🔥"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/seli.jpg"
+sitelen_jelo = ["🔥"]
 
 [usage]
 2022-08 = 99

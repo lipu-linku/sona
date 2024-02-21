@@ -10,6 +10,7 @@ see_also = ["pona"]
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "suwi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -48,6 +49,7 @@ ligatures = ["suwi"]
 ucsur = "U+F1966"
 sitelen_emosi = "🍭"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/suwi.jpg"
+sitelen_jelo = ["🍬"]
 
 [usage]
 2022-08 = 100

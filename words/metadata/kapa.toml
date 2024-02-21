@@ -8,8 +8,9 @@ coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["nena"]
 source_language = "multiple possibilities"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "kapa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

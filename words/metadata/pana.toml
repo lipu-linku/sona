@@ -10,6 +10,7 @@ see_also = []
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pana"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -97,6 +98,7 @@ ligatures = ["pana"]
 ucsur = "U+F194C"
 sitelen_emosi = "📤"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pana.jpg"
+sitelen_jelo = ["🙌"]
 
 [usage]
 2022-08 = 99

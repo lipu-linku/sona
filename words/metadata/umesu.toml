@@ -8,8 +8,9 @@ coined_year = "2021"
 creator = ["jan Wija"]
 see_also = []
 source_language = "Iqglic"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "umesu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

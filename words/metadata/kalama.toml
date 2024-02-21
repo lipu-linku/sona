@@ -10,6 +10,7 @@ see_also = []
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "kalama"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -40,6 +41,7 @@ ligatures = ["kalama"]
 ucsur = "U+F1915"
 sitelen_emosi = "🔈"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kalama.jpg"
+sitelen_jelo = ["👏"]
 
 [usage]
 2022-08 = 99

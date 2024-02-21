@@ -10,6 +10,7 @@ see_also = ["weka", "kama"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wekama"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -8,8 +8,9 @@ coined_year = "2020"
 creator = ["jan Kapilu", "jan Lewiku"]
 see_also = ["wan", "wile"]
 source_language = "Korean"
-usage_category = "rare"
+usage_category = "obscure"
 word = "taki"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

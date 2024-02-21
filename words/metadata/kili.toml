@@ -10,6 +10,7 @@ see_also = ["kasi", "moku", "soko"]
 source_language = "Georgian"
 usage_category = "core"
 word = "kili"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -45,6 +46,7 @@ ligatures = ["kili"]
 ucsur = "U+F191A"
 sitelen_emosi = "🍎"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kili.jpg"
+sitelen_jelo = ["🍎"]
 
 [usage]
 2022-08 = 99

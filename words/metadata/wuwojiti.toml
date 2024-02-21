@@ -8,8 +8,9 @@ coined_year = "2018"
 creator = ["unknown"]
 see_also = []
 source_language = "toki pona"
-usage_category = "uncommon"
+usage_category = "obscure"
 word = "wuwojiti"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

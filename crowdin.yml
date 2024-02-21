@@ -4,12 +4,9 @@ base_url: https://linku.crowdin.com
 base_path: .
 preserve_hierarchy: true
 commit_message: "[ci skip]"
-
 files:
   - source: /words/source/*.toml
     translation: /words/translations/%two_letters_code%/%original_file_name%
-  - source: /sandbox/source/*.toml
-    translation: /sandbox/translations/%two_letters_code%/%original_file_name%
   - source: /luka_pona/fingerspelling/source/*.toml
     translation: /luka_pona/fingerspelling/translations/%two_letters_code%/%original_file_name%
   - source: /luka_pona/signs/source/*.toml

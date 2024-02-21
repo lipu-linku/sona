@@ -8,8 +8,9 @@ coined_year = "2019"
 creator = ["jan inwin"]
 see_also = []
 source_language = "Finnish"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "neja"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

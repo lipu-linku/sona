@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pilin"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -78,6 +79,7 @@ ligatures = ["pilin"]
 ucsur = "U+F194E"
 sitelen_emosi = "❤️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pilin.jpg"
+sitelen_jelo = ["❤️"]
 
 [usage]
 2022-08 = 100
