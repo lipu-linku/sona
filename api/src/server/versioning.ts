@@ -97,8 +97,8 @@ export const fetchFile = async <S extends z.ZodType>(
 	version: ApiVersion,
 	schema: S,
 	filename: string,
-): Promise<z.infer<S>> =>
-	schema.parse(
+): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
+	schema.safeParse(
 		import.meta.env.MODE === "production"
 			? await fetch(`${BASE_URL}/${versions[version].branch}/raw/${filename}`).then((r) => r.json())
 			: await import(/* @vite-ignore */ `../../../raw/${filename}`, { with: { type: "json" } }),

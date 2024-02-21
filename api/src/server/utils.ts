@@ -9,6 +9,10 @@ export const entries = <const T extends object>(
 	return Object.entries(o) as [keyof T, T[keyof T]][];
 };
 
+export const keys = <const K extends PropertyKey>(o: Record<K, any>): K[] => {
+	return Object.keys(o) as K[];
+};
+
 export const filterObject = <const T extends object>(
 	o: T,
 	predicate: (o: [keyof T, T[keyof T]]) => boolean,
