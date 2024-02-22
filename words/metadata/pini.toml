@@ -10,6 +10,7 @@ see_also = ["open", "kama"]
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pini"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -64,6 +65,7 @@ ligatures = ["pini"]
 ucsur = "U+F1950"
 sitelen_emosi = "🏁"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pini.jpg"
+sitelen_jelo = ["🏁", "🛑"]
 
 [usage]
 2022-08 = 99

@@ -100,6 +100,15 @@
               "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$",
               "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji"
             },
+            "sitelen_jelo": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
+              },
+              "minItems": 1,
+              "description": "One or more example emojis for how the word can be written in sitelen jelo"
+            },
             "ligatures": {
               "type": "array",
               "items": {
@@ -130,17 +139,20 @@
           "type": "string",
           "enum": [
             "core",
-            "widespread",
             "common",
             "uncommon",
-            "rare",
-            "obscure"
+            "obscure",
+            "sandbox"
           ],
           "description": "The word's usage category, according to a survey performed by the Linku Project"
         },
         "word": {
           "type": "string",
           "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")"
+        },
+        "deprecated": {
+          "type": "boolean",
+          "description": "Whether or not the word is considered deprecated by its author."
         },
         "etymology": {
           "type": "array",
@@ -237,6 +249,7 @@
         "source_language",
         "usage_category",
         "word",
+        "deprecated",
         "etymology",
         "audio",
         "usage"

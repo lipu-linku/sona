@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "nasa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -47,6 +48,7 @@ ligatures = ["nasa"]
 ucsur = "U+F193E"
 sitelen_emosi = "🌀"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nasa.jpg"
+sitelen_jelo = ["🌀"]
 
 [usage]
 2022-08 = 99

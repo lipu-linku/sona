@@ -10,6 +10,7 @@ see_also = ["ku", "su"]
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "pu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -40,6 +41,7 @@ fr = "ADJECTIF interagissant avec le livre officiel du Toki Pona"
 ligatures = ["pu"]
 ucsur = "U+F1955"
 sitelen_emosi = "📖"
+sitelen_jelo = ["🧘"]
 
 [usage]
 2020-04 = 82

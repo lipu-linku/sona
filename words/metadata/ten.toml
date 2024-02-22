@@ -8,8 +8,9 @@ coined_year = "2017"
 creator = ["jan Kisinja"]
 see_also = []
 source_language = "toki pona"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "ten"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

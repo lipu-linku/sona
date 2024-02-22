@@ -8,8 +8,9 @@ coined_year = "2018"
 creator = ["jan Kamila", "soweli Wipa"]
 see_also = ["lukin", "oko"]
 source_language = "toki pona"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "lokon"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = []
 source_language = "Esperanto"
 usage_category = "uncommon"
 word = "kokosila"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -32,6 +33,7 @@ word = "krokodilo"
 ligatures = ["kokosila", "kokosila2"]
 ucsur = "U+F1984"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kokosila.jpg"
+sitelen_jelo = ["🐊"]
 
 [usage]
 2021-10 = 54

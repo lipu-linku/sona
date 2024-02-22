@@ -10,6 +10,7 @@ see_also = []
 source_language = "Georgian"
 usage_category = "core"
 word = "soweli"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -57,6 +58,7 @@ ligatures = ["soweli"]
 ucsur = "U+F1962"
 sitelen_emosi = "🐒"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soweli.jpg"
+sitelen_jelo = ["🦔"]
 
 [usage]
 2022-08 = 100

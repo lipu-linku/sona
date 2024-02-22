@@ -10,6 +10,7 @@ see_also = ["wan", "tu", "ale"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "mute"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -80,6 +81,7 @@ ligatures = ["mute"]
 ucsur = "U+F193C"
 sitelen_emosi = "👐"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mute.jpg"
+sitelen_jelo = ["👐"]
 
 [usage]
 2022-08 = 100

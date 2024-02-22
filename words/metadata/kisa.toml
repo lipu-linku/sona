@@ -10,6 +10,7 @@ see_also = ["soweli"]
 source_language = "Russian"
 usage_category = "obscure"
 word = "kisa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

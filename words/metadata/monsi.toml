@@ -10,6 +10,7 @@ see_also = ["sinpin"]
 source_language = "Acadian French"
 usage_category = "core"
 word = "monsi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -39,6 +40,7 @@ ligatures = ["monsi"]
 ucsur = "U+F1938"
 sitelen_emosi = "⬅️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/monsi.jpg"
+sitelen_jelo = ["🍑"]
 
 [usage]
 2022-08 = 97

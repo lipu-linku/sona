@@ -10,6 +10,7 @@ see_also = ["mu", "nja"]
 source_language = "onomatopoeia"
 usage_category = "obscure"
 word = "jonke"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

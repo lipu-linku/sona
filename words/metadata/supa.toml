@@ -10,6 +10,7 @@ see_also = ["sinpin"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "supa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -60,6 +61,7 @@ ligatures = ["supa"]
 ucsur = "U+F1965"
 sitelen_emosi = "🛏️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/supa.jpg"
+sitelen_jelo = ["🛏️"]
 
 [usage]
 2022-08 = 98

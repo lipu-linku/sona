@@ -67,6 +67,11 @@ export const Word = z
 					.describe(
 						"The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
 					),
+				sitelen_jelo: z
+					.array(z.string().emoji())
+					.min(1)
+					.optional()
+					.describe("One or more example emojis for how the word can be written in sitelen jelo"),
 				ligatures: z
 					.array(z.string().min(1))
 					.optional()
@@ -95,6 +100,9 @@ export const Word = z
 		word: z
 			.string()
 			.describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
+		deprecated: z
+			.boolean()
+			.describe("Whether or not the word is considered deprecated by its author."),
 		etymology: z
 			.array(
 				z.object({
@@ -346,11 +354,6 @@ export const Words = z
 export type Words = z.infer<typeof Words>;
 export type LocalizedWord = Words[string];
 
-export const Sandbox = Words.describe(
-	"A raw data object containing dictionary info about Toki Pona sandbox",
-);
-export type Sandbox = z.infer<typeof Sandbox>;
-
 export const Signs = z
 	.record(
 		z.string().min(1),
@@ -390,7 +393,16 @@ export const Languages = z.record(
 		.describe("The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."),
 	z
 		.object({
+			id: z
+				.string()
+				.min(2)
+				.describe(
+					"The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.",
+				),
 			locale: z.string().describe("The locale code corresponding to the language."),
+			direction: z
+				.union([z.literal("ltr"), z.literal("rtl")])
+				.describe("The direction of the language's script."),
 			name: z.object({
 				en: z.string().describe("The name of the language in English."),
 				// These are optional because we can add a language via Crowdin and Crowdin doesn't provide these.

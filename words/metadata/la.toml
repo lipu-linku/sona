@@ -10,6 +10,7 @@ see_also = []
 source_language = "multiple possibilities"
 usage_category = "core"
 word = "la"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -46,6 +47,7 @@ ligatures = ["la"]
 ucsur = "U+F1921"
 sitelen_emosi = "🔼"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/la.jpg"
+sitelen_jelo = ["ℹ️", "💁"]
 
 [usage]
 2022-08 = 100

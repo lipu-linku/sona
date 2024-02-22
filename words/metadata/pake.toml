@@ -8,8 +8,9 @@ coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = ["pini"]
 source_language = "English"
-usage_category = "rare"
+usage_category = "obscure"
 word = "pake"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -8,8 +8,9 @@ coined_year = "<2001"
 creator = ["jan Sonja"]
 see_also = ["ike", "lon"]
 source_language = "Acadian French"
-usage_category = "uncommon"
+usage_category = "obscure"
 word = "powe"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

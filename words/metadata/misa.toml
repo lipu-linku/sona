@@ -8,8 +8,9 @@ coined_year = "2021"
 creator = ["misa Ewis"]
 see_also = ["soweli"]
 source_language = "Ukranian"
-usage_category = "rare"
+usage_category = "obscure"
 word = "misa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = ["oke"]
 source_language = "English"
 usage_category = "obscure"
 word = "kulijo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

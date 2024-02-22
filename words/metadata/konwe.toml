@@ -10,6 +10,7 @@ see_also = ["ma", "tenpo"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "konwe"
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

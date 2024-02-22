@@ -10,6 +10,7 @@ see_also = ["kepeken"]
 source_language = "toki pona"
 usage_category = "obscure"
 word = "kepen"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -8,8 +8,9 @@ coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = ["sin"]
 source_language = "multiple possibilities"
-usage_category = "widespread"
+usage_category = "common"
 word = "namako"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -49,6 +50,7 @@ ligatures = ["namako", "namako2"]
 ucsur = "U+F1978"
 sitelen_emosi = "🧂"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/namako.jpg"
+sitelen_jelo = ["🌶️"]
 
 [usage]
 2020-04 = 74

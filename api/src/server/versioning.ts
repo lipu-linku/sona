@@ -9,7 +9,6 @@ import {
 	IconTranslation,
 	Languages,
 	ParametersTranslation,
-	Sandbox,
 	Sign,
 	Signs,
 	SitelenPonaTranslation,
@@ -37,7 +36,6 @@ export const versions = {
 		branch: __BRANCH__,
 		schemas: {
 			words: Words,
-			sandbox: Sandbox,
 			word: Word,
 			definition: DefinitionTranslation,
 			commentary: CommentaryTranslation,
@@ -58,6 +56,10 @@ export const versions = {
 				filename: "words.json",
 				schema: Words,
 			},
+			sandbox: {
+				filename: "sandbox.json",
+				schema: Words,
+			},
 			fingerspelling: {
 				filename: "fingerspelling.json",
 				schema: Fingerspelling,
@@ -69,10 +71,6 @@ export const versions = {
 			fonts: {
 				filename: "fonts.json",
 				schema: Fonts,
-			},
-			sandbox: {
-				filename: "sandbox.json",
-				schema: Sandbox,
 			},
 			languages: {
 				filename: "languages.json",

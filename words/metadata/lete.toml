@@ -10,6 +10,7 @@ see_also = ["seli"]
 source_language = "Acadian French"
 usage_category = "core"
 word = "lete"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -43,6 +44,7 @@ ligatures = ["lete"]
 ucsur = "U+F1926"
 sitelen_emosi = "❄️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lete.jpg"
+sitelen_jelo = ["❄️"]
 
 [usage]
 2022-08 = 98

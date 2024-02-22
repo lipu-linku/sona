@@ -8,8 +8,9 @@ coined_year = "2020"
 creator = ["Theepicosity", "akesi kon Nalasuni"]
 see_also = []
 source_language = "toki pona"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "lo"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

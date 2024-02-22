@@ -10,6 +10,7 @@ see_also = []
 source_language = "Dutch"
 usage_category = "core"
 word = "wile"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -92,6 +93,7 @@ ligatures = ["wile", "wile2"]
 ucsur = "U+F1977"
 sitelen_emosi = "💭"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/wile.jpg"
+sitelen_jelo = ["🙏", "🧲"]
 
 [usage]
 2022-08 = 100

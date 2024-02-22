@@ -10,6 +10,7 @@ see_also = ["kule", "tonsi"]
 source_language = "Hebrew"
 usage_category = "obscure"
 word = "kese"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

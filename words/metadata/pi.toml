@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -40,6 +41,7 @@ ligatures = ["pi"]
 ucsur = "U+F194D"
 sitelen_emosi = "⏹️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pi.jpg"
+sitelen_jelo = ["📎"]
 
 [usage]
 2022-08 = 98

@@ -10,6 +10,7 @@ see_also = []
 source_language = "English"
 usage_category = "obscure"
 word = "polinpin"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

@@ -10,6 +10,7 @@ see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "kama"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -53,6 +54,7 @@ ligatures = ["kama"]
 ucsur = "U+F1916"
 sitelen_emosi = "🚶"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kama.jpg"
+sitelen_jelo = ["🛬"]
 
 [usage]
 2022-08 = 99

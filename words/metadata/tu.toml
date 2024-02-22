@@ -10,6 +10,7 @@ see_also = ["kipisi"]
 source_language = "multiple"
 usage_category = "core"
 word = "tu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -46,6 +47,7 @@ ligatures = ["tu"]
 ucsur = "U+F196E"
 sitelen_emosi = "✌️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tu.jpg"
+sitelen_jelo = ["⏸️"]
 
 [usage]
 2020-04 = 99

@@ -10,6 +10,7 @@ see_also = ["pini", "kipisi"]
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "pakala"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -75,6 +76,7 @@ ligatures = ["pakala"]
 ucsur = "U+F1948"
 sitelen_emosi = "💥"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/pakala.jpg"
+sitelen_jelo = ["💥"]
 
 [usage]
 2022-08 = 100

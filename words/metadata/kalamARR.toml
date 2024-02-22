@@ -10,6 +10,7 @@ see_also = ["kalama"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "kalamARR"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

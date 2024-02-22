@@ -8,8 +8,9 @@ coined_year = "2021"
 creator = []
 see_also = []
 source_language = "toki pona"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "kutopoma"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

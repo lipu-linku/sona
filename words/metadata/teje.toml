@@ -10,6 +10,7 @@ see_also = ["poka", "soto"]
 source_language = "Welsh"
 usage_category = "obscure"
 word = "teje"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

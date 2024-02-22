@@ -8,8 +8,9 @@ coined_year = "2007"
 creator = ["spad0103"]
 see_also = []
 source_language = "Latin"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "sipi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"

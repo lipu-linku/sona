@@ -10,6 +10,7 @@ see_also = ["suli", "tenpo"]
 source_language = "Esperanto"
 usage_category = "uncommon"
 word = "majuna"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -43,6 +44,7 @@ senior = 21
 ligatures = ["majuna", "majuna2"]
 ucsur = "U+F19A2"
 sitelen_emosi = "👵"
+sitelen_jelo = ["🪷", "💾", "🧓"]
 
 [usage]
 2020-04 = 38

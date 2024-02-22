@@ -10,6 +10,7 @@ see_also = ["ike", "anpa"]
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "utala"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -69,6 +70,7 @@ ligatures = ["utala"]
 ucsur = "U+F1971"
 sitelen_emosi = "⚔️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/utala.jpg"
+sitelen_jelo = ["⚔️", "🆚"]
 
 [usage]
 2022-08 = 99

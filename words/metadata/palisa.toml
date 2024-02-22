@@ -10,6 +10,7 @@ see_also = ["linja"]
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "palisa"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -46,6 +47,7 @@ ligatures = ["palisa"]
 ucsur = "U+F194A"
 sitelen_emosi = "📏"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/palisa.jpg"
+sitelen_jelo = ["📏"]
 
 [usage]
 2022-08 = 99

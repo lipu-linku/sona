@@ -10,6 +10,7 @@ see_also = []
 source_language = "Dutch"
 usage_category = "core"
 word = "kepeken"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -43,6 +44,7 @@ ligatures = ["kepeken"]
 ucsur = "U+F1919"
 sitelen_emosi = "🔧"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/kepeken.jpg"
+sitelen_jelo = ["✍️"]
 
 [usage]
 2022-08 = 99

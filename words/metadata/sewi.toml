@@ -10,6 +10,7 @@ see_also = ["anpa"]
 source_language = "Georgian"
 usage_category = "core"
 word = "sewi"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -59,6 +60,7 @@ ligatures = ["sewi", "sewi2"]
 ucsur = "U+F195A"
 sitelen_emosi = "⬆️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/sewi.jpg"
+sitelen_jelo = ["☁️"]
 
 [usage]
 2022-08 = 100

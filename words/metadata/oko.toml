@@ -8,8 +8,9 @@ coined_year = "2001"
 creator = ["jan Sonja"]
 see_also = ["lukin"]
 source_language = "Serbo-Croatian"
-usage_category = "common"
+usage_category = "uncommon"
 word = "oko"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
@@ -38,6 +39,7 @@ ligatures = ["oko"]
 ucsur = "U+F197A"
 sitelen_emosi = "👁️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/oko.jpg"
+sitelen_jelo = ["👁️"]
 
 [usage]
 2020-04 = 77

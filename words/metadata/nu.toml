@@ -8,8 +8,9 @@ coined_year = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu", "ku"]
 source_language = "a priori"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "nu"
+deprecated = false
 
 [[audio]]
 author = "kala Asi"
