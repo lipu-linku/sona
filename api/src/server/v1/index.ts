@@ -1,11 +1,10 @@
 import { zValidator } from "@hono/zod-validator";
-import { Hono } from "hono";
+import { Hono, MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import { keys, langIdCoalesce, langValidator, filterObject } from "../utils";
-import { MiddlewareHandler } from "hono";
+import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
 import { fetchFile, versions, type FilesToVariables } from "../versioning";
 
 const rawData = PLazy.from(async () => {

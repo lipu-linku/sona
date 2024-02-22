@@ -5,6 +5,7 @@ import v1 from "./v1";
 import { cors } from "hono/cors";
 import { cache } from "hono/cache";
 import { etag } from "hono/etag";
+import { serveStatic } from "hono/cloudflare-pages";
 
 const twentyFourHours = 24 * 60 * 60;
 
@@ -42,6 +43,7 @@ const app = new Hono({ strict: false })
 	.get("/", (c) => {
 		return c.redirect("/v1");
 	})
+	.use("/raw/*", serveStatic())
 	.route("/v1", v1);
 
 export default app;

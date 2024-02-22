@@ -102,12 +102,11 @@ export const fetchFile = async <S extends z.ZodType>(
 ): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
 	schema.safeParse(
 		__BRANCH__ === versions[version].branch
-			? await import(
-					import.meta.env.PROD
-						? /* @vite-ignore */ `./raw/${filename}`
-						: /* @vite-ignore */ `../../raw/${filename}`,
-					{ with: { type: "json" } }
-				).then((r) => r.default)
+			? import.meta.env.PROD
+				? await fetch(`/raw/${filename}`).then((r) => r.json())
+				: await import(/* @vite-ignore */ `../../raw/${filename}`, { with: { type: "json" } }).then(
+						(r) => r.default,
+					)
 			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
 					r.json(),
 				),

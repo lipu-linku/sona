@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build && cp -r raw dist/raw",
+		"build": "vite build && cp raw/* dist",
 		"build:lib": "vite build --mode lib",
 		"generate": "tsx ./generateSchemas.ts",
 		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts"
