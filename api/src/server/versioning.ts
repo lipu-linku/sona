@@ -104,7 +104,7 @@ export const fetchFile = async <S extends z.ZodType>(
 		__BRANCH__ === versions[version].branch
 			? await import(
 					import.meta.env.PROD
-						? /* @vite-ignore */ `../raw/${filename}`
+						? /* @vite-ignore */ `./raw/${filename}`
 						: /* @vite-ignore */ `../../raw/${filename}`,
 					{ with: { type: "json" } }
 				).then((r) => r.default)
