@@ -43,9 +43,6 @@ const app = new Hono({ strict: false })
 	.get("/", (c) => {
 		return c.redirect("/v1");
 	})
-	.use("/raw/*", async (ctx) => {
-		return ctx.env.ASSETS.fetch(ctx.req.raw.clone());
-	})
 	.route("/v1", v1);
 
 export default app;
