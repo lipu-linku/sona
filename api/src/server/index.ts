@@ -44,7 +44,7 @@ const app = new Hono({ strict: false })
 		return c.redirect("/v1");
 	})
 	.use("/raw/*", async (ctx) => {
-		return ctx.env.ASSETS.fetch(ctx.req.raw);
+		return ctx.env.ASSETS.fetch(ctx.req.raw.clone());
 	})
 	.route("/v1", v1);
 
