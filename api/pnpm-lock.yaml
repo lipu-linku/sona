@@ -7,16 +7,16 @@ settings:
 dependencies:
   '@hono/vite-cloudflare-pages':
     specifier: ^0.2.5
-    version: 0.2.5(hono@3.12.12)
+    version: 0.2.5(hono@4.0.5)
   '@hono/vite-dev-server':
     specifier: ^0.7.1
-    version: 0.7.1(hono@3.12.12)
+    version: 0.7.1(hono@4.0.5)
   '@hono/zod-validator':
     specifier: ^0.1.11
-    version: 0.1.11(hono@3.12.12)(zod@3.22.4)
+    version: 0.1.11(hono@4.0.5)(zod@3.22.4)
   hono:
-    specifier: ^3.12.12
-    version: 3.12.12
+    specifier: ^4.0.0
+    version: 4.0.5
   p-lazy:
     specifier: ^4.0.0
     version: 4.0.0
@@ -348,23 +348,23 @@ packages:
     engines: {node: '>=18.14.1'}
     dev: false
 
-  /@hono/vite-cloudflare-pages@0.2.5(hono@3.12.12):
+  /@hono/vite-cloudflare-pages@0.2.5(hono@4.0.5):
     resolution: {integrity: sha512-/Cw4bREPf2OelHDc/2oVXYXemyKz+wXkC+5uK8ZLo8c2JV7vthSchQPWK7O6BGe7al0z5qKVqhTYkfZvuW0T5w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
-      hono: 3.12.12
+      hono: 4.0.5
     dev: false
 
-  /@hono/vite-dev-server@0.7.1(hono@3.12.12):
+  /@hono/vite-dev-server@0.7.1(hono@4.0.5):
     resolution: {integrity: sha512-Fru4qIjEuGYGp4qI/9ADOU4OxOzLBXi9EUUeUk6akazB5G51sutt07I7WfgWHfjvUA06cLCBPZM0hyOCbHUL3g==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
       '@hono/node-server': 1.8.1
-      hono: 3.12.12
+      hono: 4.0.5
       miniflare: 3.20240129.3
       minimatch: 9.0.3
     transitivePeerDependencies:
@@ -373,13 +373,13 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@hono/zod-validator@0.1.11(hono@3.12.12)(zod@3.22.4):
+  /@hono/zod-validator@0.1.11(hono@4.0.5)(zod@3.22.4):
     resolution: {integrity: sha512-PQXeHUP0+36qpRt8yfeD7N2jbK3ETlGvSN6dMof/HwUC/APRokQRjpXZm4rrlG71Ft0aWE01+Bm4XejqPie5Uw==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
     dependencies:
-      hono: 3.12.12
+      hono: 4.0.5
       zod: 3.22.4
     dev: false
 
@@ -864,8 +864,8 @@ packages:
     hasBin: true
     dev: true
 
-  /hono@3.12.12:
-    resolution: {integrity: sha512-5IAMJOXfpA5nT+K0MNjClchzz0IhBHs2Szl7WFAhrFOsbtQsYmNynFyJRg/a3IPsmCfxcrf8txUGiNShXpK5Rg==}
+  /hono@4.0.5:
+    resolution: {integrity: sha512-6LEGL1Pf3+dLjVA0NJxAB/3FJ6S3W5qxd/XOG7Wl9YOrpMRZT9lt83R4Ojs8dO6GbAUSutI7zTyjStnSn9sbEg==}
     engines: {node: '>=16.0.0'}
     dev: false
 

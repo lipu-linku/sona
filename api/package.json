@@ -35,7 +35,7 @@
 		"@hono/vite-cloudflare-pages": "^0.2.5",
 		"@hono/vite-dev-server": "^0.7.1",
 		"@hono/zod-validator": "^0.1.11",
-		"hono": "^3.12.12",
+		"hono": "^4.0.0",
 		"p-lazy": "^4.0.0",
 		"zod": "^3.22.4",
 		"zod-validation-error": "^3.0.2"
