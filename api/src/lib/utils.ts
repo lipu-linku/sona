@@ -32,6 +32,8 @@ export const WritingSystem = z.enum([
 ]);
 export type WritingSystem = z.infer<typeof WritingSystem>;
 
+export type * from "./types";
+
 export function getTranslatedData<
 	Obj extends { translations: Record<string, object> },
 	Key extends keyof Obj["translations"][string],
@@ -40,5 +42,3 @@ export function getTranslatedData<
 		key
 	];
 }
-
-export type * from "./types";

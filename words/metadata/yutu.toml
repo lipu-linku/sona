@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "yutu"
 author_verbatim = "discord star emoji"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/873076683937284106/873586280603189248"

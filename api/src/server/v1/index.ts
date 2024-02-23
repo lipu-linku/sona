@@ -1,25 +1,21 @@
 import { zValidator } from "@hono/zod-validator";
-import { Hono } from "hono";
+import { Hono, MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import { keys, langIdCoalesce, langValidator, filterObject } from "../utils";
-import { MiddlewareHandler } from "hono";
-import { rawFile, versions, type FilesToVariables } from "../versioning";
+import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
+import { fetchFile, versions, type FilesToVariables } from "../versioning";
 
 const rawData = PLazy.from(async () => {
 	const res: Record<string, unknown> = {};
 
 	for (const key of keys(versions.v1.raw)) {
 		const { filename, schema } = versions.v1.raw[key];
-		const file = await fetch(rawFile("v1", filename)).then((r) => r.json());
-		const data = schema.safeParse(file);
+		const file = await fetchFile("v1", schema, filename);
+		if (!file.success) throw new HTTPException(500, { message: fromZodError(file.error).message });
 
-		if (!data.success)
-			throw new HTTPException(500, { message: fromZodError(data.error).toString() });
-
-		res[key] = data.data;
+		res[key] = file.data;
 	}
 
 	return res as FilesToVariables<"v1">;

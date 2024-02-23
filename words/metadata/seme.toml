@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "seme"
 author_verbatim = ""
 author_verbatim_source = ""

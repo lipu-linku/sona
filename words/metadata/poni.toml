@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "poni"
 author_verbatim = "pony"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/785585101638860800"

@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/font.json
+#:schema ../../api/generated/font.json
 id = "linja luka"
 creator = ["jan Pensamin", "jan Melon"]
 features = ["ASCII transcription", "supports all ku suli and some others"]

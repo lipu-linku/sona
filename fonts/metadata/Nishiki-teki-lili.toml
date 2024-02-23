@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/font.json
+#:schema ../../api/generated/font.json
 id = "Nishiki-teki-lili"
 creator = ["Umihotaru", "jan Ke Tami"]
 features = [
