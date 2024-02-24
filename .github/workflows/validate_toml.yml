@@ -54,7 +54,6 @@ jobs:
               - '**.toml'
 
       - name: Setup pnpm
-        if: contains(steps.changes.outputs.changes, 'schemas')
         uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -74,6 +73,7 @@ jobs:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
       - name: Validate all files
+        if: contains(steps.changes.outputs.changes, 'data')
         run: pnpm dlx @taplo/cli check
 
       - name: Setup Python
