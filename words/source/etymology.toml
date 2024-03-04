@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/etymology_translation.json
+#:schema ../../api/generated/etymology_translation.json
 
 [[Pingo]]
 language = "a priori"
@@ -95,6 +95,7 @@ language = "French"
 
 [[esun]]
 language = "Akan"
+definition = "at market"
 
 [[ete]]
 definition = "beyond, further, over"
