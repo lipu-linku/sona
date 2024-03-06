@@ -6,11 +6,12 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = ["jan Jan", "jan Lija"]
-see_also = []
+see_also = ["a", "n"]
 source_language = "English"
 usage_category = "obscure"
 word = "pa"
-deprecated = false
+deprecated = true
+# https://discord.com/channels/301377942062366741/301377942062366741/640756102098714650
 
 [[audio]]
 author = "kala Asi"
