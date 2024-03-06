@@ -1,13 +1,12 @@
 import { Hono } from "hono";
 
+import { cache } from "hono/cache";
+import { cors } from "hono/cors";
+import { etag } from "hono/etag";
 import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
-import { cors } from "hono/cors";
-import { cache } from "hono/cache";
-import { etag } from "hono/etag";
 import { secureHeaders } from "hono/secure-headers";
 
-import { noParams } from "./utils";
 import v1 from "./v1";
 
 const twentyFourHours = 24 * 60 * 60;
@@ -44,7 +43,7 @@ const app = new Hono({ strict: false })
 			{ status: "status" in err && typeof err.status === "number" ? err.status : 500 },
 		);
 	})
-	.get("/", noParams, (c) => {
+	.get("/", (c) => {
 		return c.redirect("/v1");
 	})
 	.route("/v1", v1);
