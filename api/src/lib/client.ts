@@ -3,9 +3,9 @@ import type { AppType } from "$server";
 
 export const client = (args?: {
 	baseUrl?: string;
-	fetch?: typeof fetch;
+	fetch?: typeof global["fetch"];
 }) => {
-	const { baseUrl, fetch } = args;
+	const { baseUrl = "https://api.linku.la", fetch = global.fetch } = args;
 	return hc<AppType>(baseUrl, {
 		fetch
 	});
