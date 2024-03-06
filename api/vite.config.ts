@@ -16,7 +16,7 @@ export default defineConfig((async ({ mode }) => ({
 			},
 			formats: ["es"],
 		},
-		sourcemap: true,
+		sourcemap: "inline",
 		minify: true,
 		outDir: "dist",
 	},
@@ -38,7 +38,7 @@ export default defineConfig((async ({ mode }) => ({
 		mode === "lib"
 			? [
 					dts({
-						include: "./src/lib/*.ts",
+						include: "./src/**/*.ts",
 						insertTypesEntry: true,
 					}),
 				]
@@ -49,8 +49,8 @@ export default defineConfig((async ({ mode }) => ({
 					devServer({
 						entry: "src/server/index.ts",
 						env: getEnv({
-							assets: true
-						})
+							assets: true,
+						}),
 					}),
 				],
 })) as UserConfigExport);

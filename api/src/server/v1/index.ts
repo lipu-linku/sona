@@ -1,11 +1,30 @@
+import {
+	Fingerspelling,
+	FingerspellingSign,
+	Font,
+	Fonts,
+	Language,
+	Languages,
+	LocalizedWord,
+	Sign,
+	Signs,
+	type Words,
+} from "$lib";
+import {
+	type ApiResponse,
+	filterObject,
+	keys,
+	langIdCoalesce,
+	langValidator,
+	Result,
+} from "$server/utils";
+import { fetchFile, versions, type FilesToVariables } from "$server/versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
-import { fetchFile, versions, type FilesToVariables } from "../versioning";
 
 const rawData = PLazy.from(async () => {
 	const res: Record<string, unknown> = {};
@@ -49,17 +68,18 @@ export const languagesFilter =
 					Object.fromEntries(
 						Object.entries(body)
 							.filter(
-								(e): e is [string, { translations: any }] =>
-									typeof e[1] === "object" && !!e[1] && "translations" in e[1],
+								(e): e is [string, { translations: Record<string, any> }] =>
+									typeof e[1] === "object" &&
+									!!e[1] &&
+									"translations" in e[1] &&
+									typeof e[1]["translations"] === "object",
 							)
 							.map(([k, v]) => {
 								return [
 									k,
 									{
 										...v,
-										translations: filterObject(v["translations"], ([k]) =>
-											mappedLangs.includes(k.toString()),
-										),
+										translations: filterObject(v["translations"], ([k]) => mappedLangs.includes(k)),
 									},
 								];
 							}),
@@ -83,22 +103,21 @@ export const languagesFilter =
 const app = new Hono()
 	.get("/", (c) => c.redirect("/v1/words"))
 
-	.use("/words", languagesFilter(true))
-	.get("/words", langValidator, async (c) => {
+	.get("/words", langValidator, languagesFilter(true), async (c): ApiResponse<Words> => {
 		const data = (await rawData).words;
 		// FIXME: Remove when packaging script reworked
 		const filteredWords = Object.fromEntries(
-			Object.entries(data).filter(([key, value]) => value.usage_category !== "sandbox"),
+			Object.entries(data).filter(([, value]) => value.usage_category !== "sandbox"),
 		);
 		return c.json(filteredWords);
 	})
 
-	.use("/words/:word", languagesFilter(false))
 	.get(
 		"/words/:word",
 		langValidator,
 		zValidator("param", z.object({ word: z.string() })),
-		async (c) => {
+		languagesFilter(false),
+		async (c): ApiResponse<Result<LocalizedWord>> => {
 			const word = (await rawData).words[c.req.param("word")];
 
 			// FIXME: Remove when packaging script reworked
@@ -111,24 +130,23 @@ const app = new Hono()
 		},
 	)
 
-	.use("/sandbox", languagesFilter(true))
-	.get("/sandbox", langValidator, async (c) => {
+	.get("/sandbox", langValidator, languagesFilter(true), async (c): ApiResponse<Words> => {
 		const data = (await rawData).words;
 		// FIXME: Remove when packaging script reworked
 		const filteredWords = Object.fromEntries(
-			Object.entries(data).filter(([key, value]) => value.usage_category === "sandbox"),
+			Object.entries(data).filter(([, value]) => value.usage_category === "sandbox"),
 		);
 		return c.json(filteredWords);
 
 		// return c.json((await rawData).sandbox);
 	})
 
-	.use("/sandbox/:word", languagesFilter(false))
 	.get(
 		"/sandbox/:word",
 		langValidator,
 		zValidator("param", z.object({ word: z.string() })),
-		async (c) => {
+		languagesFilter(false),
+		async (c): ApiResponse<Result<LocalizedWord>> => {
 			const word = (await rawData).words[c.req.param("word")];
 			// FIXME: Remove when packaging script reworked
 			return word && word.usage_category === "sandbox"
@@ -143,17 +161,21 @@ const app = new Hono()
 		},
 	)
 
-	.use("/luka_pona/fingerspelling", languagesFilter(true))
-	.get("/luka_pona/fingerspelling", langValidator, async (c) => {
-		return c.json((await rawData).fingerspelling);
-	})
+	.get(
+		"/luka_pona/fingerspelling",
+		langValidator,
+		languagesFilter(true),
+		async (c): ApiResponse<Fingerspelling> => {
+			return c.json((await rawData).fingerspelling);
+		},
+	)
 
-	.use("/luka_pona/fingerspelling/:sign", languagesFilter(true))
 	.get(
 		"/luka_pona/fingerspelling/:sign",
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
-		async (c) => {
+		languagesFilter(true),
+		async (c): ApiResponse<Result<FingerspellingSign>> => {
 			const sign = (await rawData).fingerspelling[c.req.param("sign")];
 
 			return sign
@@ -162,17 +184,16 @@ const app = new Hono()
 		},
 	)
 
-	.use("/luka_pona/signs", languagesFilter(true))
-	.get("/luka_pona/signs", langValidator, async (c) => {
+	.get("/luka_pona/signs", langValidator, languagesFilter(true), async (c): ApiResponse<Signs> => {
 		return c.json((await rawData).signs);
 	})
 
-	.use("/luka_pona/signs/:sign", languagesFilter(true))
 	.get(
 		"/luka_pona/signs/:sign",
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
-		async (c) => {
+		languagesFilter(true),
+		async (c): ApiResponse<Result<Sign>> => {
 			const sign = (await rawData).signs[c.req.param("sign")];
 
 			return sign
@@ -181,24 +202,30 @@ const app = new Hono()
 		},
 	)
 
-	.get("/fonts", async (c) => {
+	.get("/fonts", async (c): ApiResponse<Fonts> => {
 		return c.json((await rawData).fonts);
 	})
 
-	.get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
-		const font = (await rawData).fonts[c.req.param("font")];
+	.get(
+		"/fonts/:font",
+		zValidator("param", z.object({ font: z.string() })),
+		async (c): ApiResponse<Result<Font>> => {
+			const font = (await rawData).fonts[c.req.param("font")];
 
-		return font
-			? c.json({ ok: true as const, data: font })
-			: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 404);
-	})
-	.get("/languages", async (c) => {
+			return font
+				? c.json({ ok: true as const, data: font })
+				: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 404);
+		},
+	)
+
+	.get("/languages", async (c): ApiResponse<Languages> => {
 		return c.json((await rawData).languages);
 	})
+
 	.get(
 		"/languages/:language",
 		zValidator("param", z.object({ language: z.string() })),
-		async (c) => {
+		async (c): ApiResponse<Result<Language>> => {
 			const language = c.req.param("language");
 			const languages = (await rawData).languages;
 			const langId = langIdCoalesce(language, languages);
