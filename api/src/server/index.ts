@@ -1,15 +1,18 @@
 import { Hono } from "hono";
+
+import { cache } from "hono/cache";
+import { cors } from "hono/cors";
+import { etag } from "hono/etag";
 import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
+import { secureHeaders } from "hono/secure-headers";
+
 import v1 from "./v1";
-import { cors } from "hono/cors";
-import { cache } from "hono/cache";
-import { etag } from "hono/etag";
-import { EventContext, serveStatic } from "hono/cloudflare-pages";
 
 const twentyFourHours = 24 * 60 * 60;
 
 const app = new Hono({ strict: false })
+	.use("*", secureHeaders())
 	.use("*", prettyJSON())
 	.use("*", logger())
 	.use(

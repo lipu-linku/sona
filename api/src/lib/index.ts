@@ -1,7 +1,7 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory, WritingSystem } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem } from "$lib/utils";
 
-export type * from "./types";
+export type * from "$lib/types";
 
 const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
 // Word data

@@ -27,25 +27,25 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"build:lib": "vite build --mode lib",
+		"build:lib": "tsc --noEmit && vite build --mode lib",
 		"generate": "tsx ./generateSchemas.ts",
 		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts"
 	},
 	"dependencies": {
 		"@hono/vite-cloudflare-pages": "^0.2.5",
-		"@hono/vite-dev-server": "^0.8.0",
-		"@hono/zod-validator": "^0.1.11",
-		"hono": "^4.0.5",
+		"@hono/vite-dev-server": "^0.8.2",
+		"@hono/zod-validator": "^0.2.0",
+		"hono": "^4.0.10",
 		"p-lazy": "^4.0.0",
 		"zod": "^3.22.4",
-		"zod-validation-error": "^3.0.2"
+		"zod-validation-error": "^3.0.3"
 	},
 	"devDependencies": {
-		"@types/node": "^20.11.20",
+		"@types/node": "^20.11.24",
 		"prettier": "^3.2.5",
 		"tsx": "^4.7.1",
 		"typescript": "^5.3.3",
-		"vite": "^5.1.4",
+		"vite": "^5.1.5",
 		"vite-plugin-dts": "^3.7.3",
 		"zod-to-json-schema": "^3.22.4"
 	},
