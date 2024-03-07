@@ -1,10 +1,10 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "pu"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
+coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = ["ku", "su"]
 source_language = "multiple possibilities"

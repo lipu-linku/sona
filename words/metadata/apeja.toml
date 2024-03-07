@@ -1,7 +1,7 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "apeja"
-author_verbatim = ""
-author_verbatim_source = ""
+author_verbatim = "- to single out - expose ; to reveale the guilt or wrongdoing of - to attack non-physically (verbally attack) - to expose to shame blame to fault accuse to cause to feel shame to dishonour, disgrace a painful emotion resulting from an awareness of having done something dishonourable, unworthy, degrading, etc."
+author_verbatim_source = "https://archive.is/VO3ml"
 book = "ku lili"
 coined_era = "pre-pu"
 coined_year = "2009"

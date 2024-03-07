@@ -11,5 +11,19 @@
     "types": [
       "vite/client"
     ],
+    "paths": {
+      "$server": [
+        "./src/server"
+      ],
+      "$server/*": [
+        "./src/server/*"
+      ],
+      "$lib": [
+        "./src/lib"
+      ],
+      "$lib/*": [
+        "./src/lib/*"
+      ],
+    }
   },
 }

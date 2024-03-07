@@ -1,10 +1,10 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "alasa"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
+coined_year = "2009"
 creator = ["jan Sonja"]
 see_also = ["lukin"]
 source_language = "Acadian French"

@@ -1,4 +1,4 @@
-import type { Font, LocalizedWord, ParametersTranslation, Sign } from ".";
+import type { Font, LocalizedWord, ParametersTranslation, Sign } from "$lib";
 
 export type WordRepresentations = LocalizedWord["representations"];
 export type WordAudio = LocalizedWord["audio"];

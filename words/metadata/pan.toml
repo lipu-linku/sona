@@ -1,12 +1,12 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "pan"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
+coined_year = "2009"
 creator = ["jan Sonja"]
-see_also = ["moku"]
+see_also = ["moku", "kili"]
 source_language = "multiple"
 usage_category = "core"
 word = "pan"

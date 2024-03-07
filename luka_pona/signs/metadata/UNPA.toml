@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/sign.json
+definition = "unpa"
+id = "UNPA"
+is_two_handed = false
+new_gloss = "UNPA"
+old_gloss = "UNPA"
+
+[[etymology]]
+language = "LPSL"
+sign = "U-N-U-N"
+
+[signwriting]
+fsw = "M513x521S11520494x491S22114487x479"
+swu = "𝠃𝤓𝤛񀠁𝤀𝣽񆱵𝣹𝣱"
+
+[video]

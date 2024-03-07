@@ -1,4 +1,4 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "monsuta"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -6,7 +6,7 @@ book = "ku suli"
 coined_era = "pre-pu"
 coined_year = "2009"
 creator = ["jan Sonja"]
-see_also = []
+see_also = ["pilin", "ike", "nasa"]
 source_language = "Japanese"
 usage_category = "common"
 word = "monsuta"

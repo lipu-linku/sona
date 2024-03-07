@@ -1,4 +1,4 @@
-#:schema ../../../schemas/generated/sign.json
+#:schema ../../../api/generated/sign.json
 definition = "wile"
 id = "WILE^3"
 is_two_handed = true

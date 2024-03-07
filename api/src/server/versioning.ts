@@ -14,7 +14,7 @@ import {
 	SitelenPonaTranslation,
 	Word,
 	Words,
-} from "@kulupu-linku/sona";
+} from "$lib";
 import { Hono } from "hono";
 import type { z } from "zod";
 import apiV1 from "./v1";
@@ -33,7 +33,7 @@ export type Versions = {
 
 export const versions = {
 	v1: {
-		branch: "main",
+		branch: __BRANCH__,
 		schemas: {
 			words: Words,
 			word: Word,
@@ -95,5 +95,15 @@ export const apps = {
 	v1: apiV1,
 } as const satisfies Apps;
 
-export const rawFile = (version: ApiVersion, filename: string) =>
-	`${BASE_URL}/${versions[version].branch}/raw/${filename}`;
+export const fetchFile = async <S extends z.ZodType>(
+	version: ApiVersion,
+	schema: S,
+	filename: string,
+): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
+	schema.safeParse(
+		__BRANCH__ === versions[version].branch
+			? await import.meta.glob(`../../raw/*.json`, { import: "default" })[`../../raw/${filename}`]()
+			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
+					r.json(),
+				),
+	);

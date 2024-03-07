@@ -5,13 +5,13 @@ on:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "schemas/src/**"
+      - "api/src/lib/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "schemas/src/**"
+      - "api/src/lib/**"
 
   workflow_dispatch:
 
@@ -30,7 +30,7 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v5
         with:
           cancel_others: true
-          concurrent_skipping: 'outdated_runs'
+          concurrent_skipping: "outdated_runs"
 
   validate:
     needs: skip_check
@@ -49,22 +49,22 @@ jobs:
         with:
           filters: |
             schemas:
-              - 'schemas/src/**'
+              - 'api/src/lib/**'
             data:
               - '**.toml'
 
       - name: Setup pnpm
-        if: contains(steps.changes.outputs.changes, 'schemas')
         uses: pnpm/action-setup@v2
         with:
           version: 8
           run_install: |
             - args: [--frozen-lockfile]
+              cwd: ./api
 
       - name: Generate JSON Schemas
         if: contains(steps.changes.outputs.changes, 'schemas')
         run: pnpm run generate
-        working-directory: ./schemas
+        working-directory: ./api
 
       - name: Commit schemas
         if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.head.repo.fork
@@ -73,7 +73,8 @@ jobs:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
       - name: Validate all files
-        run: npx --yes @taplo/cli check
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pnpm dlx @taplo/cli check
 
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
@@ -92,9 +93,9 @@ jobs:
       - name: Validate generated file
         if: contains(steps.changes.outputs.changes, 'data')
         run: |
-          list=(./raw/*.json)
+          list=(./api/raw/*.json)
           for file in "${list[@]}"; do 
-            npx ajv-cli -s "./schemas/generated/${file:6}" -c ajv-formats --errors=text -d $file;
+            npx ajv-cli -s "./api/generated/${file:10}" -c ajv-formats --errors=text -d $file;
           done
 
       - name: Commit packaged files

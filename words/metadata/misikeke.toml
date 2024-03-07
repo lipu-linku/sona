@@ -1,12 +1,12 @@
-#:schema ../../schemas/generated/word.json
+#:schema ../../api/generated/word.json
 id = "misikeke"
-author_verbatim = ""
-author_verbatim_source = ""
+author_verbatim = "misikeke means medicine"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/640757500848766977"
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2001-2009"
+coined_era = "post-pu"
+coined_year = "2019"
 creator = ["jan Sonja"]
-see_also = ["moku"]
+see_also = ["moku", "pona"]
 source_language = "Ojibwe"
 usage_category = "common"
 word = "misikeke"
