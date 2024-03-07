@@ -79,21 +79,19 @@ kijetesantakalu = "נטבעה בתור בדיחת אחד באפריל ב2009."
 kiki = 'המילה שאולה מגרסתם של וילאניור ס. רמאשנדרן ואדוארד האברד ב2001 לניסוי הפסיכו-בלשני של וולפגנג קלר. הניסוי חקר סמליות קולית של המילים "bouba" ו"kiki".'
 kili = 'ב2021, לאחר ku, הגדרות מטאפוריות לkili הוצעו, כולל בין השאר "צאצא" ו"תוצר", והן פופולריות במידה מסויימת. עדיין לא ברור האם הן ישארו בשימוש לאורך זמן.'
 kin = """
-In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.
-Underwent significant changes in usage in 2002, alongside "en" and (now obsolete) "kan"."""
+בשימוש נפוץ (גם לפני וגם אחרי pu), "a" ו"kin" הן מילים נפרדות, כל אחת עם משמעות משלה. בpu, הן נחשבות מילים נרדפות.
+עברה שינויים משמעותיים בשימוש ב2002, לצד "en" ו"kan" (לא בשימוש כיום)."""
 kipisi = ""
 kisa = ""
 kiwen = "נטבע בסקר ב2002."
-ko = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
-kokosila = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
+ko = 'ההגדרה "חצי-מוצק" הורחבה לומר "צורה או גוף שנדבק או נצמד; קריש, גוש סמיך, גוש שאפשר לשנות את צורתו".'
+kokosila = 'באספרנטו, "krokodili" אומרת "לדבר בין אספרנטים בשפה שאינה אספרנטו", והיא חלק מבוסס מתרבות אספרנטו.'
 kon = ""
-konsi = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
-konwe = """
-Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.
-konwe's intended meaning extends beyond just "living" and "life." It can be used to describe rocks or rivers or other nonliving things"""
+konsi = "למעשה לא ידועה מחוץ לקהילת טוקי פונה הקוריאנית. נראה שמשומשת באופן הומוריסטי."
+konwe = "קונווי מתייחס לג'ון הורטון קונווי, יוצר האוטומט התאי \"משחק החיים\". המשמעות המקורית של konwe נרחבת מעבר ל\"חיים\". היא יכולה להיות משומשת בשביל לתאר אבנים, נהרות או דברים דוממים אחרים"
 kosan = ""
-ku = "For ways to buy a copy of the book, visit the official Toki Pona website."
-kule = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+ku = "בשביל לקנות עותק של הספר, בקרו באתר הרשמי של טוקי פונה."
+kule = "בנוסף להגדרות בpu, לעיתים משתמשים בkule כדי לדבר על סוגים יותר כללים של קטגוריות, כמו סוג, מין, מגדר, וכו'."
 kulijo = ""
 kulu = ""
 kulupu = ""
@@ -115,14 +113,14 @@ lili = ""
 linja = ""
 linluwi = ""
 lipu = ""
-lo = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word."
+lo = "ידועה בעבר כlu. רוב אלו המעוניינים במילה הסכימו לשנות אותה לlo, כדי להימנע מהתנגשות עם המילה השמורה."
 loje = ""
-loka = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+loka = "נטבע בתור תגובה לסקר של סוניה לאנג, בתור הלחם, כנראה בתור בדיחה."
 lokon = ""
 lon = ""
 lu = ""
 luka = ""
-lukin = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning."
+lukin = 'בשימוש נפוץ (לפני ואחרי pu), "lukin" ו"oko" הן מילים נפרדות, כל אחת עם המשמעות של עצמה. בpu, הן נחשבות מילים נרדפות. אלו שמחשיבים אותן כמילים נרדפות לרוב לא משתמשים בoko בכלל, ומעדיפים את "lukin" בכל מצב. השימוש של "alasa" בתור פועל מקדים האומר "לנסות" יותר נפוץ מאשר "lukin". בpu, רק לlukin יש את המשמעות הזו.'
 lupa = ""
 ma = ""
 majuna = ""
@@ -205,7 +203,7 @@ pomotolo = 'From the time management method developed by Francesco Cirillo in Be
 pona = ""
 poni = 'Occasionally comes up as a jokish corruption of "pona" (especially in a phrase "toki poni").'
 powe = ""
-pu = "For ways to buy a copy of the book, visit the official Toki Pona website."
+pu = "בשביל לקנות עותק של הספר, בקרו באתר הרשמי של טוקי פונה."
 puwa = ""
 sama = ""
 samu = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
