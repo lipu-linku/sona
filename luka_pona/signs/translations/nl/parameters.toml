@@ -4,7 +4,7 @@ orientation = "vingers wijzen naar buiten"
 placement = "op mond/kin"
 
 [ALA]
-handshape = "FlatB"
+handshape = "PlatteB"
 placement = "schouder"
 
 [ALASA-2]
@@ -100,7 +100,7 @@ handshape = "BentB"
 orientation = "palm wijst omhoog"
 
 [KALA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "hand schudden/trillen"
 orientation = "palm wijst zijwaarts"
 
@@ -184,7 +184,7 @@ handshape = "L"
 movement = "vingers springen omhoog"
 
 [LAPE]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "naast hoofd geplaatst"
 
 [LASO]
@@ -217,7 +217,7 @@ handshape = "9"
 movement = "movement sideways"
 
 [LIPU]
-handshape = "FlatB"
+handshape = "PlatteB"
 placement = "geplaatst op tegenovergestelde hand"
 
 [LOJE]
@@ -257,7 +257,7 @@ handshape = "O"
 orientation = "palm wijst zijwaarts"
 
 [MA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "horizontale cirkel beweging"
 
 [MAMA-INSA]
@@ -302,13 +302,13 @@ handshape = "O"
 placement = "geplaatst op mond/kin"
 
 [MOLI]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "movement sideways"
 orientation = "palm wijst omlaag"
 placement = "placed on neck"
 
 [MONSI]
-handshape = "FlatB"
+handshape = "PlatteB"
 orientation = "palm facing in"
 
 [MONSUTA-1]
@@ -346,7 +346,7 @@ handshape = "1"
 movement = "verticale cirkelvormige beweging"
 
 [NASIN]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "movement outward"
 
 [NENA]
@@ -358,7 +358,7 @@ handshape = "1"
 orientation = "vinger naar beneden wijzen"
 
 [NIMI]
-handshape = "FlatB"
+handshape = "PlatteB"
 placement = "placed on eye"
 
 [NOKA]
@@ -366,7 +366,7 @@ handshape = "V"
 orientation = "fingers pointing down"
 
 [O]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "fingers flick down"
 
 [OLIN]
@@ -378,7 +378,7 @@ handshape = "1"
 orientation = "finger pointing sideways"
 
 [OPEN-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "palm omhoog draaien"
 
 [PAKALA]
@@ -431,7 +431,7 @@ handshape = "9"
 placement = "geplaatst op schouder"
 
 [PINI-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "palm omlaag draaien"
 
 [PIPI]
@@ -475,11 +475,11 @@ handshape = "O"
 movement = "geplaatst op tegenovergestelde hand"
 
 [SEME-SUPA-1]
-handshape = "FlatB"
+handshape = "PlatteB"
 orientation = "palm wijst omhoog"
 
 [SEME-SUPA-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 orientation = "palm wijst omhoog"
 
 [SEME-WAN-TAWA]
@@ -495,15 +495,15 @@ handshape = "BentB"
 movement = "beweging omlaag"
 
 [SIJELO-AWEN]
-handshape = "FlatB"
+handshape = "PlatteB"
 placement = "geplaatst op borst/maag"
 
 [SIJELO-AWEN-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 placement = "geplaatst op borst/maag"
 
 [SIJELO-TAWA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging omlaag"
 placement = "geplaatst op borst/maag"
 
@@ -512,19 +512,19 @@ handshape = "O"
 movement = "verticale cirkelvormige beweging"
 
 [SIN-JO-SINPIN]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging naar boven"
 orientation = "palm facing out"
 placement = "geplaatst op tegenovergestelde hand"
 
 [SIN-SUPA-MONSI]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging naar boven"
 orientation = "palm facing in"
 placement = "geplaatst op tegenovergestelde hand"
 
 [SIN-SUPA-SINPIN]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging naar boven"
 orientation = "palm facing out"
 placement = "geplaatst op tegenovergestelde hand"
@@ -534,7 +534,7 @@ handshape = "1"
 orientation = "finger pointing out"
 
 [SINPIN]
-handshape = "FlatB"
+handshape = "PlatteB"
 orientation = "palm facing out"
 
 [SITELEN]
@@ -560,11 +560,11 @@ handshape = "V"
 orientation = "vinger naar boven wijzen"
 
 [SULI-SUPA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging naar boven"
 
 [SULI-SUPA-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "beweging naar boven"
 
 [SULI-TU]
@@ -580,7 +580,7 @@ handshape = "5"
 placement = "naast hoofd geplaatst"
 
 [SUPA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "movement sideways"
 orientation = "palm wijst omlaag"
 
@@ -620,11 +620,11 @@ handshape = "V"
 placement = "placed on neck"
 
 [TOKI-1]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "verticale cirkelvormige beweging"
 
 [TOKI-2]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "verticale cirkelvormige beweging"
 
 [TOMO]
@@ -677,7 +677,7 @@ movement = "hand schudden/trillen"
 placement = "geplaatst op borst/maag"
 
 [WEKA]
-handshape = "FlatB"
+handshape = "PlatteB"
 movement = "vingers springen omhoog"
 
 [WILE-LUKA-OPEN]
