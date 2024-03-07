@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/sign.json
+definition = "soko"
+id = "SOKO"
+is_two_handed = true
+new_gloss = "SOKO"
+old_gloss = "SOKO"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "MUSHROOM"
+
+[signwriting]
+fsw = "M515x522S10010485x492S15a1a488x479S20500504x493"
+swu = "𝠃𝤕𝤜񀀑𝣷𝣾񂇛𝣺𝣱񆇡𝤊𝣿"
+
+[video]
