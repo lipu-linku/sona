@@ -541,6 +541,11 @@ orientation = "palm facing out"
 handshape = "9"
 movement = "horizontal circle"
 
+[SOKO]
+handshape = "1"
+orientation = "finger pointing up"
+placement = "below other hand"
+
 [SONA-ISIPIN]
 handshape = "1"
 orientation = "finger pointing up"
@@ -633,6 +638,11 @@ placement = "naast hoofd geplaatst"
 [TU]
 handshape = "V"
 orientation = "palm facing in"
+
+[UNPA]
+handshape = "V"
+movement = "fingers flick down"
+orientation = "finger pointing up"
 
 [UTA]
 handshape = "1"
