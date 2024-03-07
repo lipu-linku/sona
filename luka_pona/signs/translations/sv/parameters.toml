@@ -541,6 +541,11 @@ orientation = "handflatan vänd utåt"
 handshape = "9"
 movement = "horisontell cirkel"
 
+[SOKO]
+handshape = "1"
+orientation = "finger pekande uppåt"
+placement = "below other hand"
+
 [SONA-ISIPIN]
 handshape = "1"
 orientation = "finger pekande uppåt"
@@ -633,6 +638,11 @@ placement = "lagd bredvid handen"
 [TU]
 handshape = "V"
 orientation = "handflatan vänd inåt"
+
+[UNPA]
+handshape = "V"
+movement = "fingrarna snärtar nedåt"
+orientation = "finger pekande uppåt"
 
 [UTA]
 handshape = "1"
