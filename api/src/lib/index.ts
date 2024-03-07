@@ -219,8 +219,8 @@ export const Sign = z
 			.describe("Scripts for representing a sign as characters."),
 		video: z
 			.object({
-				gif: z.string().describe("A link to a gif of the sign being signed."),
-				mp4: z.string().describe("a link to an mp4 of the sign being signed."),
+				gif: z.string().optional().describe("A link to a gif of the sign being signed."),
+				mp4: z.string().optional().describe("a link to an mp4 of the sign being signed."),
 			})
 			.describe("Videos of the sign being performed, by format."),
 	})
