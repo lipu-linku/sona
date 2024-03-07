@@ -76,10 +76,6 @@
               "description": "a link to an mp4 of the sign being signed."
             }
           },
-          "required": [
-            "gif",
-            "mp4"
-          ],
           "additionalProperties": false,
           "description": "Videos of the sign being performed, by format."
         }
