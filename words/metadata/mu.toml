@@ -38,7 +38,7 @@ eo = "PARTIKULO (bleko, aŭ alia besta sono aŭ komunikaĵo)"
 fr = "PARTICULE (cri ou communication d'un animal)"
 
 [representations]
-ligatures = ["mu", "mu2"]
+ligatures = ["mu"]
 ucsur = "U+F1939"
 sitelen_emosi = "😹"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mu.jpg"
