@@ -11,7 +11,7 @@ source_language = "Tulu"
 usage_category = "sandbox"
 word = "kana"
 deprecated = false
-
+audio = []
 [[etymology]]
 alt = "kana"
 word = "ಕನ"

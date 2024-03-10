@@ -11,7 +11,7 @@ source_language = "Vietnamese"
 usage_category = "sandbox"
 word = "nowi"
 deprecated = false
-
+audio = []
 [[etymology]]
 word = "nối"
 

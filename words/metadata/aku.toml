@@ -11,7 +11,7 @@ source_language = "Romanian"
 usage_category = "sandbox"
 word = "aku"
 deprecated = false
-
+audio = []
 [[etymology]]
 word = "akru"
 

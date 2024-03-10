@@ -11,7 +11,7 @@ source_language = "a priori"
 usage_category = "sandbox"
 word = "ta"
 deprecated = false
-
+audio = []
 [[etymology]]
 
 [representations]
