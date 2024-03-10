@@ -1,0 +1,23 @@
+#:schema ../../api/generated/word.json
+id = "iseki"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["kulupu Solali"]
+see_also = ["namako"]
+source_language = "Turkish"
+usage_category = "sandbox"
+word = "iseki"
+deprecated = false
+
+[[etymology]]
+word = "çiçek, çiçeği"
+
+[representations]
+ligatures = ["iseki"]
+
+[usage]
+
+[resources]

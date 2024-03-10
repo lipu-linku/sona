@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "kana"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["ilo Powa"]
+see_also = ["oni", "powe", "jume"]
+source_language = "Tulu"
+usage_category = "sandbox"
+word = "kana"
+deprecated = false
+
+[[etymology]]
+alt = "kana"
+word = "ಕನ"
+
+[representations]
+ligatures = ["kana"]
+
+[usage]
+
+[resources]

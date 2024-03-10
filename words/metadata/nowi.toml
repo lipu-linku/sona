@@ -1,0 +1,23 @@
+#:schema ../../api/generated/word.json
+id = "nowi"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["ilo Powa", "kulupu Solali"]
+see_also = ["esun"]
+source_language = "Vietnamese"
+usage_category = "sandbox"
+word = "nowi"
+deprecated = false
+
+[[etymology]]
+word = "nối"
+
+[representations]
+ligatures = ["nowi"]
+
+[usage]
+
+[resources]

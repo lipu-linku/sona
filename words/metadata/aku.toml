@@ -1,0 +1,23 @@
+#:schema ../../api/generated/word.json
+id = "aku"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["kulupu Solali"]
+see_also = []
+source_language = "Romanian"
+usage_category = "sandbox"
+word = "aku"
+deprecated = false
+
+[[etymology]]
+word = "akru"
+
+[representations]
+ligatures = ["aku"]
+
+[usage]
+
+[resources]

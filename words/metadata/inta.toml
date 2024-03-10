@@ -1,0 +1,23 @@
+#:schema ../../api/generated/word.json
+id = "inta"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["ilo Powa"]
+see_also = ["kin", "taso"]
+source_language = "Portuguese"
+usage_category = "sandbox"
+word = "inta"
+deprecated = false
+
+[[etymology]]
+word = "ainda"
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
