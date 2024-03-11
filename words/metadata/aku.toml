@@ -19,5 +19,6 @@ word = "akru"
 ligatures = ["aku"]
 
 [usage]
+2023-09 = 1
 
 [resources]

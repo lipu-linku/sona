@@ -20,5 +20,6 @@ word = "油"
 ligatures = ["anta"]
 
 [usage]
+2023-09 = 1
 
 [resources]

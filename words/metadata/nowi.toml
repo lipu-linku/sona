@@ -19,5 +19,6 @@ word = "nối"
 ligatures = ["nowi"]
 
 [usage]
+2023-09 = 1
 
 [resources]

@@ -20,5 +20,6 @@ word = "ಕನ"
 ligatures = ["kana"]
 
 [usage]
+2023-09 = 1
 
 [resources]
