@@ -10,7 +10,7 @@ see_also = ["san"]
 source_language = "English"
 usage_category = "obscure"
 word = "tuli"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"
