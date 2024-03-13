@@ -17,10 +17,6 @@ definition = "lizard"
 language = "Dutch"
 
 [[ako]]
-definition = "sour"
-language = "Romanian"
-
-[[aku]]
 definition = "(interjection) surprise"
 language = "Korean"
 
@@ -51,10 +47,6 @@ language = "toki pona"
 [[anpa]]
 definition = "below"
 language = "Acadian French"
-
-[[anta]]
-definition = "oil"
-language = "Okinawan"
 
 [[ante]]
 definition = "other, different"
@@ -151,10 +143,6 @@ language = "German"
 definition = "inside, center, stomach"
 language = "Tok Pisin"
 
-[[inta]]
-definition = "still, yet, even"
-language = "Portuguese"
-
 [[insa]]
 definition = "inside"
 language = "English"
@@ -162,10 +150,6 @@ language = "English"
 [[ipi]]
 definition = "unknown"
 language = "unknown"
-
-[[iseki]]
-definition = "flower, blossom"
-language = "Turkish"
 
 [[isipin]]
 definition = "to think"
@@ -277,10 +261,6 @@ language = "Esperanto"
 [[kan]]
 definition = "with"
 language = "Latin"
-
-[[kana]]
-definition = "dream"
-language = "Tulu"
 
 [[kapa]]
 definition = "head, cup"
@@ -812,10 +792,6 @@ language = "Japanese"
 definition = "foot, leg"
 language = "Serbo-Croatian"
 
-[[nowi]]
-definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
-language = "Vietnamese"
-
 [[nu]]
 language = "a priori"
 
@@ -1151,10 +1127,6 @@ language = "English"
 definition = "mushroom"
 language = "Georgian"
 
-[[sole]]
-definition = "to use to, to tend to"
-language = "Spanish"
-
 [[sona]]
 definition = "knowledge"
 language = "Georgian"
@@ -1205,12 +1177,6 @@ language = "Tok Pisin"
 [[suwi]]
 definition = "sweet"
 language = "English"
-
-[[ta]]
-language = "a priori"
-
-[[taki]]
-language = "a priori"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoiea)"
