@@ -10,7 +10,7 @@ see_also = ["nena"]
 source_language = "multiple possibilities"
 usage_category = "sandbox"
 word = "kapa"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

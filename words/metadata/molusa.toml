@@ -10,7 +10,7 @@ see_also = ["pipi"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "molusa"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"
