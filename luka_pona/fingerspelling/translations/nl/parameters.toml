@@ -33,7 +33,7 @@ movement = "teken een J-vorm op je hand"
 placement = "raak je handpalm aan"
 
 [J-2-ANTE]
-handshape = "1 + FlatB"
+handshape = "1 + PlatteB"
 orientation = "handpalm naar beneden + handpalm naar beneden"
 placement = "raak de onderkant van je duim aan"
 
@@ -50,7 +50,7 @@ handshape = "L"
 orientation = "palm naar buiten"
 
 [L-2]
-handshape = "1 + FlatB"
+handshape = "1 + PlatteB"
 orientation = "handpalm naar bioven + handpalm naar beneden"
 placement = "raak je handpalm aan"
 
@@ -59,7 +59,7 @@ handshape = "BentB"
 orientation = "palm naar beneden"
 
 [M-2]
-handshape = "FlatB + FlatB"
+handshape = "PlatteB + PlatteB"
 orientation = "handpalm naar bioven + handpalm naar beneden"
 placement = "raak je handpalm aan"
 
@@ -68,7 +68,7 @@ handshape = "2"
 orientation = "palm naar beneden"
 
 [N-2]
-handshape = "2 + FlatB"
+handshape = "2 + PlatteB"
 orientation = "handpalm naar bioven + handpalm naar beneden"
 placement = "raak je handpalm aan"
 
@@ -81,7 +81,7 @@ handshape = "1 + 5"
 placement = "raak je ringvinger aan"
 
 [P-1]
-handshape = "FlatB"
+handshape = "PlatteB"
 orientation = "palm naar buiten"
 
 [P-2]
@@ -93,7 +93,7 @@ handshape = "5"
 orientation = "palm naar buiten"
 
 [S-2]
-handshape = "FlatB + FlatB"
+handshape = "PlatteB + PlatteB"
 orientation = "handpalm naar beneden + handpalm zijwaarts"
 placement = "raak je handpalm aan"
 
@@ -102,7 +102,7 @@ handshape = "L"
 orientation = "palm naar beneden"
 
 [T-2]
-handshape = "1 + FlatB"
+handshape = "1 + PlatteB"
 placement = "raak de rand van de hand aan"
 
 [U-1]
@@ -123,6 +123,6 @@ handshape = "5 + 5"
 placement = "ingeweven vingers"
 
 [W-2-ANTE]
-handshape = "2 + FlatB"
+handshape = "2 + PlatteB"
 orientation = "handpalm naar bioven + handpalm naar beneden"
 placement = "raak je handpalm aan"
