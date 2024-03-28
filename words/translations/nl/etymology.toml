@@ -20,6 +20,10 @@ language = "Nederlands"
 definition = "(tussenvoegsel) verrassing"
 language = "Koreaans"
 
+[[aku]]
+definition = "sour"
+language = "Romanian"
+
 [[ala]]
 definition = "nee"
 language = "Georgisch"
@@ -47,6 +51,10 @@ language = "toki pona"
 [[anpa]]
 definition = "onder"
 language = "Acadiaans Frans"
+
+[[anta]]
+definition = "oil"
+language = "Okinawan"
 
 [[ante]]
 definition = "andere, anders"
@@ -93,7 +101,7 @@ language = "Frans"
 
 [[esun]]
 language = "Akan"
-definition = "at market"
+definition = "op de markt"
 
 [[ete]]
 definition = "verder, over"
@@ -147,9 +155,17 @@ language = "Tok Pisin"
 definition = "binnen"
 language = "Engels"
 
+[[inta]]
+definition = "still, yet, even"
+language = "Portugees"
+
 [[ipi]]
 definition = "onbekend"
 language = "onbekend"
+
+[[iseki]]
+definition = "flower, blossom"
+language = "Turks"
 
 [[isipin]]
 definition = "denken"
@@ -261,6 +277,10 @@ language = "Esperanto"
 [[kan]]
 definition = "met"
 language = "Latijn"
+
+[[kana]]
+definition = "droom"
+language = "Tulu"
 
 [[kapa]]
 definition = "hoofd, kopje"
@@ -792,6 +812,10 @@ language = "Japans"
 definition = "voet, been"
 language = "Servo-Kroatisch"
 
+[[nowi]]
+definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+language = "Vietnamees"
+
 [[nu]]
 language = "op voorhand"
 
@@ -1127,6 +1151,10 @@ language = "Engels"
 definition = "paddenstoel"
 language = "Georgisch"
 
+[[sole]]
+definition = "to use to, to tend to"
+language = "Spaans"
+
 [[sona]]
 definition = "kennis"
 language = "Georgisch"
@@ -1177,6 +1205,9 @@ language = "Tok Pisin"
 [[suwi]]
 definition = "zoet"
 language = "Engels"
+
+[[ta]]
+language = "op voorhand"
 
 [[taki]]
 definition = "het geluid van 2 magneten die met elkaar botsen (onomatopee)"

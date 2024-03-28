@@ -20,6 +20,10 @@ language = "הולנדית"
 definition = "(מילת קריאה) הפתעה"
 language = "קוריאנית"
 
+[[aku]]
+definition = "sour"
+language = "Romanian"
+
 [[ala]]
 definition = "לא"
 language = "גאורגית"
@@ -47,6 +51,10 @@ language = "טוקי פונה"
 [[anpa]]
 definition = "מתחת"
 language = "צרפתית אקדית"
+
+[[anta]]
+definition = "oil"
+language = "Okinawan"
 
 [[ante]]
 definition = "אחר, שונה"
@@ -93,7 +101,7 @@ language = "צרפתית"
 
 [[esun]]
 language = "אקאנית"
-definition = "at market"
+definition = "בשוק"
 
 [[ete]]
 definition = "מעבר, רחוק יותר"
@@ -147,9 +155,17 @@ language = "טוק פיסין"
 definition = "בתוך"
 language = "אנגלית"
 
+[[inta]]
+definition = "still, yet, even"
+language = "פורטוגזית"
+
 [[ipi]]
 definition = "לא ידוע"
 language = "לא ידוע"
+
+[[iseki]]
+definition = "flower, blossom"
+language = "טורקית"
 
 [[isipin]]
 definition = "לחשוב"
@@ -208,7 +224,7 @@ definition = "יש"
 language = "מנדרינית"
 
 [[jonke]]
-definition = "hjönk"
+definition = "קול של אווז"
 language = "אונומטופיאה"
 
 [[ju]]
@@ -261,6 +277,10 @@ language = "אספרנטו"
 [[kan]]
 definition = "עם"
 language = "לטינית"
+
+[[kana]]
+definition = "חלום"
+language = "Tulu"
 
 [[kapa]]
 definition = "ראש, כוס"
@@ -393,11 +413,11 @@ definition = "קבוצה, קהילה, לקט"
 language = "טוקי פונה"
 
 [[kulupu]]
-definition = "group"
+definition = "קבוצה"
 language = "טונגאית"
 
 [[kulupu]]
-definition = "group"
+definition = "קבוצה"
 language = "אנגלית"
 
 [[kuntu]]
@@ -485,7 +505,7 @@ definition = "הוא"
 language = "אנגלית"
 
 [[lijokuku]]
-definition = "Exactly!', (literally) 'real LOL'"
+definition = "בדיוק!, (מילולית) 'באמת LOL'"
 language = "קוריאנית"
 
 [[likujo]]
@@ -792,6 +812,10 @@ language = "יפנית"
 definition = "כף רגל, רגל"
 language = "סרבו-קרואטית"
 
+[[nowi]]
+definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+language = "ויאטנמית"
+
 [[nu]]
 language = "אין מקור"
 
@@ -860,7 +884,7 @@ definition = "ג'ורג' אורוול, מחבר הספר 1984"
 language = "אנגלית"
 
 [[pa]]
-definition = "bruh"
+definition = "אחי"
 language = "אנגלית"
 
 [[pakala]]
@@ -1092,7 +1116,7 @@ definition = "מעגל"
 language = "אנגלית"
 
 [[sikomo]]
-definition = "sicko mode"
+definition = "(מילולית) מצב חולני"
 language = "אנגלית"
 
 [[sin]]
@@ -1108,7 +1132,7 @@ definition = "לפני"
 language = "קנטונזית"
 
 [[sipi]]
-definition = "sibi (dative reflexive pronoun)"
+definition = "sibi (שם גוף המתאר את המושא הלא ישיר של הפעולה כנושא הפעולה)"
 language = "לטינית"
 
 [[sitelen]]
@@ -1126,6 +1150,10 @@ language = "אנגלית"
 [[soko]]
 definition = "פטריה"
 language = "גאורגית"
+
+[[sole]]
+definition = "to use to, to tend to"
+language = "ספרדית"
 
 [[sona]]
 definition = "ידע"
@@ -1167,7 +1195,7 @@ definition = "שטח"
 language = "אנגלית"
 
 [[sutopatikuna]]
-definition = "platypus, (literally) strange beak"
+definition = "פלטיפוס, (מילולית) מקור מוזר"
 language = "סרבו-קרואטית"
 
 [[suwi]]
@@ -1177,6 +1205,9 @@ language = "טוק פיסין"
 [[suwi]]
 definition = "מתוק"
 language = "אנגלית"
+
+[[ta]]
+language = "אין מקור"
 
 [[taki]]
 definition = "הצליל של שני מגנטים פוגעים זה בזה (אונומטופיאה)"

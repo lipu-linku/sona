@@ -20,6 +20,10 @@ language = "нідерландська"
 definition = "(interjection) surprise"
 language = "Korean"
 
+[[aku]]
+definition = "sour"
+language = "Romanian"
+
 [[ala]]
 definition = "ні"
 language = "грузинська"
@@ -47,6 +51,10 @@ language = "токі пона"
 [[anpa]]
 definition = "під"
 language = "канадська французька"
+
+[[anta]]
+definition = "oil"
+language = "Okinawan"
 
 [[ante]]
 definition = "інший, різний"
@@ -147,9 +155,17 @@ language = "Tok Pisin"
 definition = "inside"
 language = "англійська"
 
+[[inta]]
+definition = "still, yet, even"
+language = "Portuguese"
+
 [[ipi]]
 definition = "unknown"
 language = "unknown"
+
+[[iseki]]
+definition = "flower, blossom"
+language = "турецька"
 
 [[isipin]]
 definition = "to think"
@@ -261,6 +277,10 @@ language = "Esperanto"
 [[kan]]
 definition = "з"
 language = "латинська"
+
+[[kana]]
+definition = "сон"
+language = "Tulu"
 
 [[kapa]]
 definition = "head, cup"
@@ -792,6 +812,10 @@ language = "японська"
 definition = "foot, leg"
 language = "сербсько-хорватська"
 
+[[nowi]]
+definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+language = "Vietnamese"
+
 [[nu]]
 language = "апріорі"
 
@@ -1127,6 +1151,10 @@ language = "англійська"
 definition = "mushroom"
 language = "грузинська"
 
+[[sole]]
+definition = "to use to, to tend to"
+language = "Spanish"
+
 [[sona]]
 definition = "knowledge"
 language = "грузинська"
@@ -1177,6 +1205,9 @@ language = "Tok Pisin"
 [[suwi]]
 definition = "sweet"
 language = "англійська"
+
+[[ta]]
+language = "апріорі"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoiea)"
