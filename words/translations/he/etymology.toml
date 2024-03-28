@@ -20,6 +20,10 @@ language = "הולנדית"
 definition = "(מילת קריאה) הפתעה"
 language = "קוריאנית"
 
+[[aku]]
+definition = "sour"
+language = "Romanian"
+
 [[ala]]
 definition = "לא"
 language = "גאורגית"
@@ -47,6 +51,10 @@ language = "טוקי פונה"
 [[anpa]]
 definition = "מתחת"
 language = "צרפתית אקדית"
+
+[[anta]]
+definition = "oil"
+language = "Okinawan"
 
 [[ante]]
 definition = "אחר, שונה"
@@ -147,9 +155,17 @@ language = "טוק פיסין"
 definition = "בתוך"
 language = "אנגלית"
 
+[[inta]]
+definition = "still, yet, even"
+language = "פורטוגזית"
+
 [[ipi]]
 definition = "לא ידוע"
 language = "לא ידוע"
+
+[[iseki]]
+definition = "flower, blossom"
+language = "טורקית"
 
 [[isipin]]
 definition = "לחשוב"
@@ -261,6 +277,10 @@ language = "אספרנטו"
 [[kan]]
 definition = "עם"
 language = "לטינית"
+
+[[kana]]
+definition = "חלום"
+language = "Tulu"
 
 [[kapa]]
 definition = "ראש, כוס"
@@ -792,6 +812,10 @@ language = "יפנית"
 definition = "כף רגל, רגל"
 language = "סרבו-קרואטית"
 
+[[nowi]]
+definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+language = "ויאטנמית"
+
 [[nu]]
 language = "אין מקור"
 
@@ -1127,6 +1151,10 @@ language = "אנגלית"
 definition = "פטריה"
 language = "גאורגית"
 
+[[sole]]
+definition = "to use to, to tend to"
+language = "ספרדית"
+
 [[sona]]
 definition = "ידע"
 language = "גאורגית"
@@ -1177,6 +1205,9 @@ language = "טוק פיסין"
 [[suwi]]
 definition = "מתוק"
 language = "אנגלית"
+
+[[ta]]
+language = "אין מקור"
 
 [[taki]]
 definition = "הצליל של שני מגנטים פוגעים זה בזה (אונומטופיאה)"
