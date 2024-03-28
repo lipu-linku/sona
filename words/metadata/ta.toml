@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "ta"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["ilo Powa"]
+see_also = []
+source_language = "a priori"
+usage_category = "sandbox"
+word = "ta"
+deprecated = false
+audio = []
+[[etymology]]
+
+[representations]
+ligatures = ["ta"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/Preverb_marking"
