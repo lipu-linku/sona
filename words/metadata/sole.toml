@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "sole"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["waso Netun"]
+see_also = []
+source_language = "Spanish"
+usage_category = "sandbox"
+word = "sole"
+deprecated = false
+audio = []
+[[etymology]]
+word = "soler"
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 0
+
+[resources]
