@@ -10,7 +10,7 @@ see_also = ["noka"]
 source_language = "Finnish"
 usage_category = "sandbox"
 word = "jalan"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

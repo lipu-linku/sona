@@ -10,7 +10,7 @@ see_also = ["mute"]
 source_language = "English"
 usage_category = "obscure"
 word = "po"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

@@ -10,7 +10,7 @@ see_also = ["pona"]
 source_language = "multiple possibilities"
 usage_category = "obscure"
 word = "pasila"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"
