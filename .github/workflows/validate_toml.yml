@@ -90,6 +90,7 @@ jobs:
             - args: [--frozen-lockfile]
               cwd: ./api
 
+      # Upload the source files to a new branch on Crowdin to recieve the translations
       - name: Install Crowdin CLI
         if: contains(steps.changes.outputs.changes, 'data')
         run: pnpm i -g @crowdin/cli
@@ -97,12 +98,19 @@ jobs:
       - name: Generate Translations
         if: contains(steps.changes.outputs.changes, 'data')
         run: |
-          crowdin branch add ${{ env.CROWDIN_BRANCH }}
-          crowdin upload sources -b ${{ env.CROWDIN_BRANCH }}
-          crowdin pull -b ${{ env.CROWDIN_BRANCH }}
+          crowdin branch add --token=$CROWDIN_TOKEN ${{ env.CROWDIN_BRANCH }}
+          crowdin upload sources --token=$CROWDIN_TOKEN -b ${{ env.CROWDIN_BRANCH }}
+          crowdin pull --token=$CROWDIN_TOKEN -b ${{ env.CROWDIN_BRANCH }}
         env:
-          
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
 
+      - name: Commit Translations
+        if: contains(steps.changes.outputs.changes, 'data')
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generated translations for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
+
+      # Generate schemas for validation from the Zod schemas
       - name: Generate JSON Schemas
         if: contains(steps.changes.outputs.changes, 'schemas')
         run: pnpm run generate
@@ -114,10 +122,12 @@ jobs:
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
+      # Validate all TOML files according to their schemas
       - name: Validate all files
         if: contains(steps.changes.outputs.changes, 'data')
         run: pnpm dlx @taplo/cli check
 
+      # Generate raw data files from the TOMLs
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v5
