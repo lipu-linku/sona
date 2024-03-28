@@ -32,11 +32,40 @@ jobs:
           cancel_others: true
           concurrent_skipping: "outdated_runs"
 
-  validate:
+  get_branch:
     needs: skip_check
     if: needs.skip_check.outputs.should_skip != 'true'
     runs-on: ubuntu-latest
+    name: Get branch name for Crowdin
+    outputs:
+      branch_name: ${{ steps.branch_name.outputs.ref }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            data:
+              - '**.toml'
+
+      - name: Get branch name for Crowdin
+        if: contains(steps.changes.outputs.changes, 'data')
+        id: branch_name
+        run: |
+          REF='${{ github.ref }}'
+          echo "ref=${REF//\//_}" >> "$GITHUB_OUTPUT"
+
+  validate:
+    needs: get_branch
+    runs-on: ubuntu-latest
     name: Generate schemas, validate and package TOMLs
+    env:
+      CROWDIN_BRANCH: ${{ needs.get_branch.outputs.branch_name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -60,6 +89,19 @@ jobs:
           run_install: |
             - args: [--frozen-lockfile]
               cwd: ./api
+
+      - name: Install Crowdin CLI
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pnpm i -g @crowdin/cli
+
+      - name: Generate Translations
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: |
+          crowdin branch add ${{ env.CROWDIN_BRANCH }}
+          crowdin upload sources -b ${{ env.CROWDIN_BRANCH }}
+          crowdin pull -b ${{ env.CROWDIN_BRANCH }}
+        env:
+          
 
       - name: Generate JSON Schemas
         if: contains(steps.changes.outputs.changes, 'schemas')
