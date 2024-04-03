@@ -486,3 +486,5 @@ direction = "ltr"
 
 [ca.name]
 en = "Catalan"
+endonym = "català"
+tok = "toki Katala"
