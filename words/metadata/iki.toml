@@ -17,7 +17,8 @@ author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/iki.mp3"
 
 [[etymology]]
-word = "unknown"
+word = "იბი"
+alt = "igi"
 
 [representations]
 ligatures = ["iki"]
