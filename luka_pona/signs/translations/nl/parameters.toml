@@ -197,7 +197,7 @@ placement = "naast hoofd geplaatst"
 
 [LEKO]
 handshape = "BentB"
-orientation = "palms facing to the side"
+orientation = "de palmen richten zich naar de zijkant"
 
 [LEN-POKA-TAWA-2]
 handshape = "BentB"
@@ -210,11 +210,11 @@ placement = "geplaatst op tegenovergestelde hand"
 
 [LILI-PIPI]
 handshape = "9"
-orientation = "palm facing out"
+orientation = "de palm wijst naar buiten"
 
 [LINJA-2]
 handshape = "9"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 
 [LIPU]
 handshape = "PlatteB"
@@ -227,26 +227,26 @@ placement = "geplaatst op de mond"
 
 [LON-LA]
 handshape = "L"
-movement = "fingers flick down"
+movement = "vingers die naar beneden knippen"
 
 [LUKA]
 handshape = "5"
-orientation = "palm facing out"
+orientation = "de palm wijst naar buiten"
 
 [LUKIN-E]
 handshape = "V"
 orientation = """
-fingers pointing out,
-fingers pointing in,
-fingers pointing sideways"""
+vingers die naar buiten wijzen,
+vingers die naar binnen wijzen,
+vingers die zijwaarts wijzen"""
 
 [LUKIN-ISIPIN]
 handshape = "1"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [LUKIN-OKO]
 handshape = "V"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [LUKIN-SIKE]
 handshape = "V"
@@ -287,7 +287,7 @@ placement = "geplaatst op borst/maag"
 
 [MIJE]
 handshape = "L"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [MISIKEKE-1]
 handshape = "OpenA"
@@ -303,13 +303,13 @@ placement = "geplaatst op mond/kin"
 
 [MOLI]
 handshape = "PlatteB"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 orientation = "palm wijst omlaag"
-placement = "placed on neck"
+placement = "op een nek geplaatst"
 
 [MONSI]
 handshape = "PlatteB"
-orientation = "palm facing in"
+orientation = "palm wijst naar binnen"
 
 [MONSUTA-1]
 handshape = "5"
@@ -335,11 +335,11 @@ orientation = "palm wijst zijwaarts"
 
 [MUTE]
 handshape = "5"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 
 [NANPA]
 handshape = "5"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [NASA]
 handshape = "1"
@@ -347,7 +347,7 @@ movement = "verticale cirkelvormige beweging"
 
 [NASIN]
 handshape = "PlatteB"
-movement = "movement outward"
+movement = "bewegingen naar buiten"
 
 [NENA]
 handshape = "BentB"
@@ -359,15 +359,15 @@ orientation = "vinger naar beneden wijzen"
 
 [NIMI]
 handshape = "PlatteB"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [NOKA]
 handshape = "V"
-orientation = "fingers pointing down"
+orientation = "vingers die naar beneden wijzen"
 
 [O]
 handshape = "PlatteB"
-movement = "fingers flick down"
+movement = "vingers die naar beneden knippen"
 
 [OLIN]
 handshape = "5"
@@ -375,7 +375,7 @@ placement = "geplaatst op borst/maag"
 
 [ONA]
 handshape = "1"
-orientation = "finger pointing sideways"
+orientation = "vingers die zijwaarts wijzen"
 
 [OPEN-2]
 handshape = "PlatteB"
@@ -401,11 +401,11 @@ placement = "geplaatst op schouder"
 
 [PALISA-1]
 handshape = "O"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 
 [PALISA-2]
 handshape = "O"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 
 [PAN]
 handshape = "5"
@@ -414,9 +414,9 @@ placement = "geplaatst op mond/kin"
 [PANA-LANPAN]
 handshape = "BentB"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+beweging naar buiten,
+beweging naar binnen,
+zijdelingse beweging"""
 
 [PI]
 handshape = "9"
@@ -440,7 +440,7 @@ movement = "hand schudden/trillen"
 
 [POKA]
 handshape = "L"
-movement = "fingers pointing sideways"
+movement = "vingers die zijdelings wijzen"
 
 [POKI]
 handshape = "O"
@@ -448,7 +448,7 @@ movement = "palm wijst zijwaarts"
 
 [PONA]
 handshape = "OpenA"
-movement = "palm facing in"
+movement = "palm wijst naar binnen"
 
 [SAMA-KIWEN]
 handshape = "OpenA"
@@ -488,7 +488,7 @@ movement = "hand schudden/trillen"
 
 [SEWI-LON]
 handshape = "L"
-orientation = "finger pointing up"
+orientation = "vinger die naar boven wijst"
 
 [SEWI-TAWA]
 handshape = "BentB"
@@ -514,41 +514,41 @@ movement = "verticale cirkelvormige beweging"
 [SIN-JO-SINPIN]
 handshape = "PlatteB"
 movement = "beweging naar boven"
-orientation = "palm facing out"
+orientation = "de palm wijst naar buiten"
 placement = "geplaatst op tegenovergestelde hand"
 
 [SIN-SUPA-MONSI]
 handshape = "PlatteB"
 movement = "beweging naar boven"
-orientation = "palm facing in"
+orientation = "palm wijst naar binnen"
 placement = "geplaatst op tegenovergestelde hand"
 
 [SIN-SUPA-SINPIN]
 handshape = "PlatteB"
 movement = "beweging naar boven"
-orientation = "palm facing out"
+orientation = "de palm wijst naar buiten"
 placement = "geplaatst op tegenovergestelde hand"
 
 [SINA]
 handshape = "1"
-orientation = "finger pointing out"
+orientation = "vinger die naar buiten wijst"
 
 [SINPIN]
 handshape = "PlatteB"
-orientation = "palm facing out"
+orientation = "de palm wijst naar buiten"
 
 [SITELEN]
 handshape = "9"
-movement = "horizontal circle"
+movement = "horizontale cirkel"
 
 [SOKO]
 handshape = "1"
-orientation = "finger pointing up"
+orientation = "vinger die naar boven wijst"
 placement = "onder het andere hand"
 
 [SONA-ISIPIN]
 handshape = "1"
-orientation = "finger pointing up"
+orientation = "vinger die naar boven wijst"
 placement = "naast hoofd geplaatst"
 
 [SONA-JO]
@@ -581,7 +581,7 @@ placement = "naast hoofd geplaatst"
 
 [SUPA]
 handshape = "PlatteB"
-movement = "movement sideways"
+movement = "zijdelingse beweging"
 orientation = "palm wijst omlaag"
 
 [SUWI]
@@ -599,13 +599,13 @@ movement = "vingers springen omhoog"
 [TAWA-KAMA]
 handshape = "L"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+beweging naar buiten,
+beweging naar binnen,
+zijdelingse beweging"""
 
 [TELO]
 handshape = "5"
-movement = "movement outward"
+movement = "bewegingen naar buiten"
 
 [TENPO-LUKA-MONSI]
 handshape = "V"
@@ -617,7 +617,7 @@ placement = "geplaatst op tegenovergestelde hand"
 
 [TENPO-PALISA-LAWA]
 handshape = "V"
-placement = "placed on neck"
+placement = "op een nek geplaatst"
 
 [TOKI-1]
 handshape = "PlatteB"
@@ -637,12 +637,12 @@ placement = "naast hoofd geplaatst"
 
 [TU]
 handshape = "V"
-orientation = "palm facing in"
+orientation = "palm wijst naar binnen"
 
 [UNPA]
 handshape = "V"
-movement = "fingers flick down"
-orientation = "finger pointing up"
+movement = "vingers die naar beneden knippen"
+orientation = "vinger die naar boven wijst"
 
 [UTA]
 handshape = "1"
@@ -651,25 +651,25 @@ placement = "geplaatst op mond/kin"
 [UTALA]
 handshape = "OpenA"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+beweging naar buiten,
+beweging naar binnen,
+zijdelingse beweging"""
 
 [WALO]
 handshape = "9"
-placement = "placed on eye"
+placement = "op een oog geplaatst"
 
 [WAN]
 handshape = "1"
-orientation = "palm facing in"
+orientation = "palm wijst naar binnen"
 
 [WASO-1]
 handshape = "5"
-movement = "fingers flick down"
+movement = "vingers die naar beneden knippen"
 
 [WASO-2]
 handshape = "5"
-movement = "fingers flick down"
+movement = "vingers die naar beneden knippen"
 
 [WAWA]
 handshape = "OpenA"
