@@ -1,27 +1,27 @@
 Pingo = ""
-a = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
-aka = 'This word is deprecated by the creator, replaced by "natu".'
-akesi = 'akesi used to mean "non-cute animal," and is defined this way in pu, but this definition has fallen out of use and was later removed in the pu annotations published with ku.'
-ako = "Virtually unknown outside the Korean toki pona community."
+a = "在一般使用中（不论 pu 前后），a 和 kin 是有各自词义的不同单词。在 pu 中，它们被列为同义词。"
+aka = "此单词由创作者弃用，以 natu 取代。"
+akesi = "akesi 之前有“不可爱的动物”之意，而 pu 也有记载，但这个定义已弃用，而在 ku 中，此单词的 pu 注释不再包含这个定义。"
+ako = "韩国道本语社区之外几乎无人使用。"
 aku = ""
 ala = ""
-alasa = 'In some communities, the usage of "alasa" as a preverb meaning "try to" is equally or even more common than "lukin". In pu, only "lukin"/"oko" has this meaning.'
+alasa = "在一些社区中，alasa 的“尝试”之意和 lukin 等同甚至更加常见。在 pu 中，只有 lukin/oko 有此定义。"
 ale = """
-"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" remains more common.
-The majority of speakers report not understanding the "abundant, bountiful, plentiful" meaning, at least out of context.
-"20, 120" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."""
-alente = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
-ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+ali 是 ale 的变体词，于 2002 年的一项民意调查创造，以避免与 ala 混淆。然而，ale 依然比 ali 更常用。
+大多数说话者宣称（在没有语境下）不明白“众多的、无数的、大量的”之意。
+“20、120”是社区曾用的非 pu 定义，现今几乎无人使用。"""
+alente = "声称为“最终的 nimisin（新词）”——任何之后创造的新词在词义上包含于 alente，所以它能以“和 alente 一样，但是范围更小”为由被拒绝。"
+ali = "ali 是 ale 的变体词，于 2002 年的一项民意调查创造，以避免与 ala 混淆。然而，自 pu 出版以来，ale 依然比 ali 更常用。 一般不会被认为是独立一个单词。"
 alu = ""
-anpa = 'In common usage (both before and after pu), "anpa" has the meaning of "place that is down". In pu, "noka" has that meaning instead.'
+anpa = "在一般使用中（不论 pu 前后），anpa 有“下面地方”之意。在 pu 中，只有 noka 有此定义。"
 anta = ""
 ante = ""
-anu = 'The usage of "anu" as a content word meaning "choose" remains controversial.'
-apeja = 'According to jan Sonja, "apeja" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been "just an experimental idea in a forum post".'
-awase = 'jan Lenoka further elaborated the semantics to imply "to bump into, to make contact with".'
+anu = "有些说话者会将 anu 用作实词，意为“选择”，但这用法引起许多争议。"
+apeja = "根据索尼娅，apeja 从未出现于任何 pu 前她出版的任何道本语词典，也没有被她推广，可能只是“在某个论坛贴子的实验性想法”。"
+awase = "jan Lenoka 随后深入阐释词义，附加“碰到、接触”之意。"
 awen = ""
 e = ""
-eki = 'It is recommended to use "natu" instead.'
+eki = "建议改用 natu。"
 eliki = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
 en = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
 enko = """
@@ -90,7 +90,7 @@ kiwen = "Coined in a poll in 2002."
 ko = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
 kokosila = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
 kon = ""
-konsi = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
+konsi = "韩国道本语社区之外几乎无人使用。一般带诙谐之意。"
 konwe = """
 Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.
 konwe's intended meaning extends beyond just "living" and "life." It can be used to describe rocks or rivers or other nonliving things"""
@@ -102,7 +102,7 @@ kulu = ""
 kulupu = ""
 kuntu = ""
 kute = ""
-kutopoma = "Virtually unknown outside the Korean toki pona community."
+kutopoma = "韩国道本语社区之外几乎无人使用。"
 la = ""
 lanpan = ""
 lape = ""
@@ -112,7 +112,7 @@ leko = ""
 len = ""
 lete = ""
 li = ""
-lijokuku = "Virtually unknown outside the Korean toki pona community."
+lijokuku = "韩国道本语社区之外几乎无人使用。"
 likujo = ""
 lili = ""
 linja = ""
