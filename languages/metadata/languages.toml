@@ -488,3 +488,11 @@ direction = "ltr"
 en = "Catalan"
 endonym = "català"
 tok = "toki Katala"
+
+[wuu]
+id = "wuu"
+locale = "wuu"
+direction = "ltr"
+
+[wuu.name]
+en = "Wu (Shanghai)"
