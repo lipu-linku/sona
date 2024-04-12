@@ -6,6 +6,7 @@ import { etag } from "hono/etag";
 import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { secureHeaders } from "hono/secure-headers";
+import { trimTrailingSlash } from "hono/trailing-slash";
 
 import v1 from "./v1";
 
@@ -14,6 +15,7 @@ const twentyFourHours = 24 * 60 * 60;
 const app = new Hono({ strict: false })
 	.use("*", secureHeaders())
 	.use("*", prettyJSON())
+ .use("*", trimTrailingSlash())
 	.use("*", logger())
 	.use(
 		"*",
