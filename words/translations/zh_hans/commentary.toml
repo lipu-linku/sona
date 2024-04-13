@@ -33,7 +33,7 @@ nimi ante li ken toki e wile toki pi nimi enko
 la ona li suli ala"\
 """
 epiku = ""
-esun = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+esun = "根据索尼娅所述，“esun 是某个出租车司机[和她]说的，而他会说非洲西部的阿肯语系的某个语言”。"
 ete = ""
 ewe = ""
 i = '"i" was proposed as a replacement for "iki" in a poll in 2002. However, "i" failed to get enough votes. "iki" was instead replaced by "ona".'
