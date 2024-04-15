@@ -1,5 +1,13 @@
 # sona
 
+<div align="center">
+  <a href="https://discord.gg/A3ZPqnHHsy">
+    <img src="https://img.shields.io/badge/-Discord-%237289da?style=for-the-badge&logo=appveyor">
+  </a>
+</div>
+
+## Overview
+
 sona is a collaborative, open dataset for and by the toki pona community.
 It is the successor of [jasima](https://github.com/lipu-linku/jasima), and aims to replace it.
 If you are looking for the data from jasima, [see here](https://linku.la/jasima/data.json). Note it is no longer being updated.
@@ -40,9 +48,25 @@ Please visit our [Crowdin project](https://linku.crowdin.com) to contribute tran
 
 ## Dictionary Data and Fonts
 
+<div align="center">
+  <a href="https://github.com/lipu-linku/sona/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=lipu-linku/sona" />
+  </a>
+</div>
+
 Contributing other kinds of metadata is simple:
 
 To add new fonts to sona, please fork the repo, edit the [fonts.toml](/fonts.toml) file, and submit
 a pull request. Examples of various existing fonts can be found in the file.
 
 To edit information about Toki Pona words or Luka Pona signs, please fork the repo, edit the [words.toml](/words.toml) file, and [submit a pull request](https://github.com/lipu-linku/pull/new/)
+
+## License
+
+sona Linku is dual-licensed under:
+
+- Creative Commons Attribution-ShareAlike 3.0 Unported;
+
+- Creative Commons Attribution-ShareAlike 4.0 International.
+
+(Dual-licensing was done to avoid any potential online encyclopedia issues).
