@@ -23,7 +23,8 @@ ligatures = ["su"]
 sitelen_jelo = ["🧙", "🧵"]
 
 [usage]
-2020-04 = 14
+# Though su does appear in the 2020 survey at 14%,
+# it is actually the su question particle
 2021-10 = 28
 2022-08 = 1
 2023-09 = 0
