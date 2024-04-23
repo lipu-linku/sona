@@ -123,7 +123,7 @@ const app = new Hono()
 				? c.json({ ok: true as const, data: word })
 				: c.json(
 						{ ok: false as const, message: `Could not find the word ${c.req.param("word")}` },
-						404,
+						400,
 					);
 		},
 	)
@@ -154,7 +154,7 @@ const app = new Hono()
 							ok: false as const,
 							message: `Could not find the sandbox word "${c.req.param("word")}"`,
 						},
-						404,
+						400,
 					);
 		},
 	)
@@ -178,7 +178,7 @@ const app = new Hono()
 
 			return sign
 				? c.json({ ok: true as const, data: sign })
-				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 404);
+				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
 		},
 	)
 
@@ -196,7 +196,7 @@ const app = new Hono()
 
 			return sign
 				? c.json({ ok: true as const, data: sign })
-				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 404);
+				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
 		},
 	)
 
@@ -212,7 +212,7 @@ const app = new Hono()
 
 			return font
 				? c.json({ ok: true as const, data: font })
-				: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 404);
+				: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 400);
 		},
 	)
 
