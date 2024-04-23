@@ -18,7 +18,7 @@ import type { Equal, Expect } from "hono/utils/types";
 type ResponseType<F> = F extends { $get: (...args: any[]) => Promise<ClientResponse<infer O>> }
 	? O
 	: never;
-type ClientType = typeof client;
+type ClientType = ReturnType<typeof client>;
 type Result<T> = { ok: true; data: T } | { ok: false; message: string };
 
 export type WordsTest = Expect<Equal<ResponseType<ClientType["v1"]["words"]>, Words>>;

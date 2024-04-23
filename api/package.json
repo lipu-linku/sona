@@ -29,7 +29,8 @@
 		"build": "vite build",
 		"build:lib": "vite build --mode lib",
 		"generate": "tsx ./generateSchemas.ts",
-		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts"
+		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
+		"format": "prettier --write ."
 	},
 	"dependencies": {
 		"@hono/vite-cloudflare-pages": "^0.2.5",

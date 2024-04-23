@@ -1,26 +1,26 @@
 import {
 	Fingerspelling,
-	FingerspellingSign,
 	Font,
 	Fonts,
-	Language,
 	Languages,
-	LocalizedWord,
-	Sign,
 	Signs,
+	type Language,
+	type LocalizedFingerspellingSign,
+	type LocalizedSign,
+	type LocalizedWord,
 	type Words,
 } from "$lib";
 import {
-	type ApiResponse,
 	filterObject,
 	keys,
 	langIdCoalesce,
 	langValidator,
-	Result,
+	type ApiResponse,
+	type Result,
 } from "$server/utils";
 import { fetchFile, versions, type FilesToVariables } from "$server/versioning";
 import { zValidator } from "@hono/zod-validator";
-import { Hono, MiddlewareHandler } from "hono";
+import { Hono, type MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod";
@@ -45,17 +45,15 @@ export const languagesFilter =
 	(nested: boolean): MiddlewareHandler =>
 	async (c, next) => {
 		await next();
-		const body = (await c.res.clone().json()) as any;
-		if ("ok" in body && body.ok === false) {
-			return body;
-		}
+		const body = await c.res.clone().json();
+		if ("ok" in body && body.ok === false) return body;
 
 		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
 		if (requestedLanguages.length === 1 && requestedLanguages[0] === "*") return;
 
 		const languages = (await rawData).languages;
 		const mappedLangs = requestedLanguages.map((lang: string) => langIdCoalesce(lang, languages));
-		if (mappedLangs.includes(null)) {
+		if (mappedLangs.includes(undefined)) {
 			throw new HTTPException(400, {
 				message: `Cannot find one or more of the requested languages: ${requestedLanguages.join(", ")}`,
 				// TODO: inform user which langs are missing
@@ -175,7 +173,7 @@ const app = new Hono()
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
 		languagesFilter(true),
-		async (c): ApiResponse<Result<FingerspellingSign>> => {
+		async (c): ApiResponse<Result<LocalizedFingerspellingSign>> => {
 			const sign = (await rawData).fingerspelling[c.req.param("sign")];
 
 			return sign
@@ -193,7 +191,7 @@ const app = new Hono()
 		langValidator,
 		zValidator("param", z.object({ sign: z.string() })),
 		languagesFilter(true),
-		async (c): ApiResponse<Result<Sign>> => {
+		async (c): ApiResponse<Result<LocalizedSign>> => {
 			const sign = (await rawData).signs[c.req.param("sign")];
 
 			return sign
@@ -229,9 +227,13 @@ const app = new Hono()
 			const language = c.req.param("language");
 			const languages = (await rawData).languages;
 			const langId = langIdCoalesce(language, languages);
+
 			return langId
-				? c.json({ ok: true as const, data: languages[langId] })
-				: c.json({ ok: false as const, message: `Could not find a language named ${language}` });
+				? c.json({ ok: true as const, data: languages[langId]! })
+				: c.json(
+						{ ok: false as const, message: `Could not find a language named ${language}` },
+						400,
+					);
 		},
 	);
 

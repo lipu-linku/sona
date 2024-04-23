@@ -1,7 +1,7 @@
 import { Languages } from "$lib";
 import { z } from "zod";
 import { zValidator } from "@hono/zod-validator";
-import { TypedResponse } from "hono";
+import type { TypedResponse } from "hono";
 
 export type Result<T> = { ok: true; data: T } | { ok: false; message: string };
 export type ApiResponse<T> = Promise<TypedResponse<T>>;
@@ -25,7 +25,7 @@ export const filterObject = <const T extends object>(
 	return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
 };
 
-export const langIdCoalesce = (lang: string, langs: Languages) => {
+export const langIdCoalesce = (lang: string, langs: Languages): string | undefined => {
 	if (lang in langs) {
 		return lang; // most common case
 	}
@@ -40,7 +40,8 @@ export const langIdCoalesce = (lang: string, langs: Languages) => {
 			}
 		}
 	}
-	return null;
+
+	return undefined;
 };
 
 export const langValidator = zValidator(
