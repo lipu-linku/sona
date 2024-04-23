@@ -15,7 +15,7 @@ const twentyFourHours = 24 * 60 * 60;
 const app = new Hono({ strict: false })
 	.use("*", secureHeaders())
 	.use("*", prettyJSON())
- .use("*", trimTrailingSlash())
+	.use("*", trimTrailingSlash())
 	.use("*", logger())
 	.use(
 		"*",
@@ -42,11 +42,20 @@ const app = new Hono({ strict: false })
 				ok: false as const,
 				message: err.message,
 			},
-			{ status: "status" in err && typeof err.status === "number" ? err.status : 500 },
+			{
+				status: "status" in err && typeof err.status === "number" ? err.status : 500,
+			},
 		);
 	})
 	.get("/", (c) => {
 		return c.redirect("/v1");
+	})
+	.get("/jasima", async (c) => {
+		const data = await fetch(
+			"https://raw.githubusercontent.com/lipu-linku/jasima/main/data.json",
+		).then((r) => r.json());
+
+		return c.json(data);
 	})
 	.route("/v1", v1);
 
