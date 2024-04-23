@@ -1,29 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "esModuleInterop": true,
-    "strict": true,
-    "lib": [
-      "ESNext"
-    ],
-    "types": [
-      "vite/client"
-    ],
-    "paths": {
-      "$server": [
-        "./src/server"
-      ],
-      "$server/*": [
-        "./src/server/*"
-      ],
-      "$lib": [
-        "./src/lib"
-      ],
-      "$lib/*": [
-        "./src/lib/*"
-      ],
-    }
-  },
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"esModuleInterop": true,
+		"strict": true,
+		"lib": ["ESNext"],
+		"types": ["vite/client"],
+		"paths": {
+			"$server": ["./src/server"],
+			"$server/*": ["./src/server/*"],
+			"$lib": ["./src/lib"],
+			"$lib/*": ["./src/lib/*"]
+		}
+	}
 }

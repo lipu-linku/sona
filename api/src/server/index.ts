@@ -21,42 +21,39 @@ const app = new Hono({ strict: false })
 		"*",
 		cors({
 			origin: "*",
-			maxAge: twentyFourHours
-		})
+			maxAge: twentyFourHours,
+		}),
 	)
 	.use(
 		"*",
 		import.meta.env.MODE === "production"
 			? cache({
 					cacheName: "sona-api",
-					cacheControl: `max-age=${twentyFourHours}`
-			  })
-			: async (c, next) => await next()
+					cacheControl: `max-age=${twentyFourHours}`,
+				})
+			: async (c, next) => await next(),
 	)
 	.use("*", etag())
-	.notFound(c => c.json({ message: "Not Found", ok: false as const }, 404))
+	.notFound((c) => c.json({ message: "Not Found", ok: false as const }, 404))
 	.onError((err, c) => {
 		console.error(err);
 		return c.json(
 			{
 				ok: false as const,
-				message: err.message
+				message: err.message,
 			},
 			{
-				status:
-					"status" in err && typeof err.status === "number"
-						? err.status
-						: 500
-			}
+				status: "status" in err && typeof err.status === "number" ? err.status : 500,
+			},
 		);
 	})
-	.get("/", c => {
+	.get("/", (c) => {
 		return c.redirect("/v1");
 	})
-	.get("/jasima", async c => {
+	.get("/jasima", async (c) => {
 		const data = await fetch(
-			"https://raw.githubusercontent.com/lipu-linku/jasima/main/data.json"
-		).then(r => r.json());
+			"https://raw.githubusercontent.com/lipu-linku/jasima/main/data.json",
+		).then((r) => r.json());
 
 		return c.json(data);
 	})
