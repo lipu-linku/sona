@@ -1,0 +1,21 @@
+#:schema ../../api/generated/font.json
+id = "linja laso"
+creator = ["mute ante"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "cartouches",
+]
+filename = "linja_laso.ttf"
+last_updated = "2024-04"
+license = "OFL"
+ligatures = true
+name = "linja laso"
+style = "uniform line weight"
+ucsur = true
+version = "001.000"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/cvni1981/linja-laso/raw/main/linja_laso_0.1.ttf"
+repo = "https://github.com/cvni1981/linja-laso"
