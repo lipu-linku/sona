@@ -1,0 +1,22 @@
+#:schema ../../api/generated/font.json
+id = "linja waso Bold"
+creator = ["jan Maku (ItMarki)"]
+features = [
+  "UCSUR-compliant",
+  "ku suli",
+  "supports cartouches",
+  "extended pi",
+]
+filename = "linja-waso-lili-Bold.ttf"
+last_updated = "2024-04"
+license = "OFL"
+ligatures = false
+name = "linja waso Bold"
+style = "serif"
+ucsur = true
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/ItMarki/linja-waso/raw/main/fonts/linja-waso-lili-Bold.ttf"
+repo = "https://github.com/ItMarki/linja-waso"
