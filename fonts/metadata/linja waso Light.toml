@@ -7,7 +7,7 @@ features = [
   "supports cartouches",
   "extended pi",
 ]
-filename = "linja-waso-lili.ttf"
+filename = "linja-waso-lili-Light.ttf"
 last_updated = "2024-04"
 license = "OFL"
 ligatures = false
