@@ -30,7 +30,7 @@ jobs:
 
       - uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 9
 
       - run: pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
 
