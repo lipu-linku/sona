@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
-id = "sitelen pona pi lasina lukin"
+id = "sitelen pona pi lasin lukin"
 creator = ["u/The-God-of-Snails"]
-features = ["ASCII transcription", "cartouches"]
+features = ["ASCII transcription", "cartouches","auto-cartouching","long pi",]
 filename = "sitelen_pona_pi_lasin_lukin.ttf"
 last_updated = "2023-11"
 license = ""
