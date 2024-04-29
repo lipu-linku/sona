@@ -1,0 +1,24 @@
+#:schema ../../api/generated/font.json
+id = "linja insa pimeja"
+creator = ["Janet Blackquill"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "ku suli",
+  "supports cartouches",
+  "vertical cartouches",
+  "variable weight",
+]
+filename = "linjainsa-pimeja.ttf"
+last_updated = "2024-04"
+license = "MIT"
+ligatures = false
+name = "linja insa pimeja"
+style = "alternating line weight"
+ucsur = true
+version = "1.000"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/tomo-pi-linja-yupekosi/linja-insa/raw/main/TTF/linjainsa-linjapimeja.ttf"
+repo = "https://github.com/tomo-pi-linja-yupekosi/linja-insa/"
