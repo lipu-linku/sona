@@ -1,10 +1,6 @@
 import { Languages } from "$lib";
-import { z } from "zod";
 import { zValidator } from "@hono/zod-validator";
-import type { TypedResponse } from "hono";
-
-export type Result<T> = { ok: true; data: T } | { ok: false; message: string };
-export type ApiResponse<T> = Promise<TypedResponse<T>>;
+import { z } from "zod";
 
 export const entries = <const T extends object>(
 	o: T,

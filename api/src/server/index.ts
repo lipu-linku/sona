@@ -7,6 +7,7 @@ import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { secureHeaders } from "hono/secure-headers";
 import { trimTrailingSlash } from "hono/trailing-slash";
+import type { StatusCode } from "hono/utils/http-status";
 
 import v1 from "./v1";
 
@@ -35,16 +36,14 @@ const app = new Hono({ strict: false })
 	)
 	.use("*", etag())
 	.notFound((c) => c.json({ message: "Not Found", ok: false as const }, 404))
-	.onError((err, c) => {
+	.onError((err: Error & { status?: StatusCode }, c) => {
 		console.error(err);
 		return c.json(
 			{
 				ok: false as const,
 				message: err.message,
 			},
-			{
-				status: "status" in err && typeof err.status === "number" ? err.status : 500,
-			},
+			err.status ?? 500,
 		);
 	})
 	.get("/", (c) => {
