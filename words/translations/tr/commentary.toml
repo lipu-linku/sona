@@ -1,29 +1,28 @@
 Pingo = ""
-a = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
-aka = 'This word is deprecated by the creator, replaced by "natu".'
-akesi = 'akesi used to mean "non-cute animal," and is defined this way in pu, but this definition has fallen out of use and was later removed in the pu annotations published with ku.'
-ako = "Virtually unknown outside the Korean toki pona community."
+a = "Yaygın kullanımda (pu'dan hem önce hem sonra), \"a\" ve \"kin\" farklı anlamlara sahip ayrı birer kelimedir. pu'da eş anlamlı sayılırlar."
+aka = 'Bu kelime yaratıcısı tarafından "natu" kelimesince kaldırılmıştır.'
+akesi = "akesi, eskiden \"sevimli olmayan hayvan\" anlamına gelirdi, ve pu'da da böyle tanımlandı, ama bu tanım kullanım düşüp ku ile yayınlanan pu notları ile kaldırıldı."
+ako = "Korece toki pona toplumu dışında neredeyse bilinmezdir."
 aku = ""
 ala = ""
-alasa = 'In some communities, the usage of "alasa" as a preverb meaning "try to" is equally or even more common than "lukin". In pu, only "lukin"/"oko" has this meaning.'
+alasa = "Bazı topluluklarda \"alasa\"'nın \"denemek\" anlamına gelen bir fiilönü olarak kullanımı \"lukin\" ile eş miktarda veya hatta ondan daha da yaygındır. pu'da sadece \"lukin\"/\"oko\" bu anlama sahiptir."
 ale = """
-"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" remains more common.
-The majority of speakers report not understanding the "abundant, bountiful, plentiful" meaning, at least out of context.
-"20, 120" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."""
-alente = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
-ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+"ali", bir 2002 anketinde "ala" ile karışıklığı önlemek için "ale"'ye sunulmuş bir alternatiftir. Fakat, "ale"'nin "ale"'ye göre kullanımı daha yaygın olmaktadır.
+Konuşanların çoğu "bol, bereketli" anlamını kontekst dışı anlayamadıklarını belirtirler. "20, 120" toplulukça 100 yanısıra kullanılan pu dışı kelimelerdi; şimdilerde bu anlam neredeyse hiç duyulmaz."""
+alente = "\"Son nimisin\" olarak şaka niyetine türetilmişti - herhangi yeni bir kelime semantiken alente'de bulunacağı için \"alente'nin daha özel bir hali\" olarak reddedilebilirdi."
+ali = "\"ali\", bir 2002 anketinde \"ala\" ile karışıklığı önlemek için \"ale\"'ye sunulmuş bir alternatiftir. Fakat, \"ale\"'nin \"ale\"'ye göre kullanımı daha yaygın olmaktadır. Çoğunlukla kendince bir kelime sayılmaz."
 alu = ""
-anpa = 'In common usage (both before and after pu), "anpa" has the meaning of "place that is down". In pu, "noka" has that meaning instead.'
+anpa = "Yaygın kullanımda (pu'dan hem önce hem sonra), \"anpa\", \"altta olan yer\" anlamını taşır. pu'da bu tanım \"noka\" kelimesine aittir."
 anta = ""
 ante = ""
 anu = 'The usage of "anu" as a content word meaning "choose" remains controversial.'
-apeja = 'According to jan Sonja, "apeja" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been "just an experimental idea in a forum post".'
-awase = 'jan Lenoka further elaborated the semantics to imply "to bump into, to make contact with".'
+apeja = "jan Sonja'ya göre, \"apeja\" onun elinden herhangi bir pu öncesi toki pona sözlüğünde yer almamış, kendisi tarafından teşvik edilmemiştir; onun yerine sadece \"bir forum gönderisinde deneysel bir fikir\" de olabilir."
+awase = 'jan Lenoka kelimenin semantiğini "çarpmak, temas etmek" anlamlarını kastedecek şekilde detaylandırdı.'
 awen = ""
 e = ""
-eki = 'It is recommended to use "natu" instead.'
+eki = 'Yerine "natu" tercih edilir.'
 eliki = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
-en = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
+en = "\"en\"'in sentaktik işlevi üzerine farklı analizler bulunmaktadır. İlken \"and\" olarak kullanılmak üzere türetildi, fakat (bir 2002 anketi yoluyla) sadece \"baş isimler\"de kullanılacak şekilde değiştirildi. (2021 Bir Nisan dahil) Daha yeni analizlerden birisi de \"en\"'i bir özne belirteci olarak değerlendirir."
 enko = """
 Considered deprecated by the author: "mi pali e nimi enko a a
 open la pilin mi li sama
@@ -33,13 +32,13 @@ nimi ante li ken toki e wile toki pi nimi enko
 la ona li suli ala"\
 """
 epiku = ""
-esun = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+esun = "jan Sonja'ya göre \"esun\" ona Batı Afrika'daki Akan ailesinden bir dili konuşan bir taksi sürücüsü tarafından söylenmiş."
 ete = ""
 ewe = ""
-i = '"i" was proposed as a replacement for "iki" in a poll in 2002. However, "i" failed to get enough votes. "iki" was instead replaced by "ona".'
+i = "Bir 2002 anketinde \"i\", \"iki\"'nin yerine bir kelime olarak sunuldu. Fakat \"i\" yeterince oy toplayamadı. \"ona\" sonrasında \"iki\"'nin yerini aldı."
 ijo = ""
 ike = ""
-iki = 'In a poll in 2002, "iki" was deemed too similar to "ike" and replaced by "ona".'
+iki = "Bir 2002 anketinde \"iki\", \"ike\"'ye fazla benzer oluşundan ötürü \"ona\" ile değiştirildi."
 ilo = ""
 insa = ""
 inta = 'A particle that allows the speaker to specify the level of information they have about a situation. As a modifier, it means "at least" or "definitely", indicating knowledge of one thing but not necessarily other things.'
@@ -49,15 +48,15 @@ isipin = ""
 itomi = 'Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where "hit or miss" was a prominent lyric. Sources disagree on who coined the word.'
 jaki = ""
 jaku = ""
-jalan = 'In a poll in 2002, "jalan" was proposed as a replacement for "noka". However, "jalan" failed to get enough votes.'
-jami = 'Often used for "stim".'
-jan = 'There are two sides to the concept, "sentient entity" and "homo sapiens", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial.'
-jans = "Not coined directly, but developed out of repeated use in the early ma pona pi toki pona Discord server community. jans was repeatedly used because of the humor in adding an English plural suffix to a Toki Pona word."
+jalan = "Bir 2002 anketinde \"jalan\", \"noka\"'nın yerine bir kelime olarak sunuldu. Fakat \"jalan\" yeterince oy toplayamadı."
+jami = '"stim" (otizmlilerin sıkça yaptığı öz stimülasyon hareketleri) anlamını da görür.'
+jan = 'Fikrin iki tarafı vardır, "canlı varlık" ve "Homo sapiens". Bu ayrım aşırı durumlarda (mesela: uzaylılar, kurtadama dönüşen insanlar vs.) önemlidir. Hangi anlamın kelimeye birincil olduğu tartışmalıdır.'
+jans = "Doğrudan türetilmemiştir, fakat eski ma pona pi toki pona Discord sunucusu topluluğunca tekrarlı kullanım yoluyla oluşmuştur. Bir Toki Pona kelimesine İngilizce çoğul eki yerleştirmenin mizahından dolayı jans tekrarlı olarak kullanılmıştır."
 jasima = ""
 je = ""
-jelo = 'Some extend "jelo" to include lime green, but this usage is uncommon.'
+jelo = "Kimi \"jelo\"'yu fıstık yeşilini da kapsayacak şekilde genişletir, fakat bu kullanım yaygın değildir."
 jo = ""
-jonke = "Coined in reference to the Untitled Goose Game fandom."
+jonke = "Untitled Goose Game fandomuna atfen türetilmiştir."
 ju = ""
 jule = ""
 jume = 'Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was "fantasy" or "unreality", without a negative connotation.'
@@ -78,15 +77,15 @@ kepeken = 'Whether "kepeken" should be used with or without "e" in a predicative
 kepen = "Coined as a shortened version of kepeken by jan Tomen in 2017. Did not see significant use until 2020."
 kese = ""
 ki = ""
-kijetesantakalu = "Coined as an April Fools joke in 2009."
+kijetesantakalu = "2009'da bir Bir Nisan şakası olarak türetilmiştir."
 kiki = "The word is loaned from the 2001 Vilanyur S Ramachandran & Edward Hubbard version of Wolfgang Köhler's 1912 psycholinguistic experiment. The experiment studied sound symbolism on the words \"bouba\" and \"kiki\"."
 kili = 'In post-ku 2021, metaphorical definitions for kili have been suggested, including but not limited to "offspring" and "product", and are moderately popular. It is not yet clear whether this will remain in use long-term.'
 kin = """
-In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.
-Underwent significant changes in usage in 2002, alongside "en" and (now obsolete) "kan"."""
+Yaygın kullanımda (pu'dan hem önce hem sonra), "a" ve "kin" farklı anlamlara sahip ayrı birer kelimedir. pu'da eş anlamlı sayılırlar.
+2002'de "en" ve (şimdilerde kullanılmayan) "kan" yanısıra anlamca büyük değişikliklere uğradı."""
 kipisi = ""
 kisa = ""
-kiwen = "Coined in a poll in 2002."
+kiwen = "Bir 2002 anketinde üretildi."
 ko = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
 kokosila = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
 kon = ""
@@ -102,7 +101,7 @@ kulu = ""
 kulupu = ""
 kuntu = ""
 kute = ""
-kutopoma = "Virtually unknown outside the Korean toki pona community."
+kutopoma = "Korece toki pona toplumu dışında neredeyse bilinmezdir."
 la = ""
 lanpan = ""
 lape = ""
@@ -112,7 +111,7 @@ leko = ""
 len = ""
 lete = ""
 li = ""
-lijokuku = "Virtually unknown outside the Korean toki pona community."
+lijokuku = "Korece toki pona toplumu dışında neredeyse bilinmezdir."
 likujo = ""
 lili = ""
 linja = ""
