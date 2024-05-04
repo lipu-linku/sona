@@ -1,0 +1,17 @@
+#:schema ../../api/generated/font.json
+id = "sitelen pona lili"
+creator = ["jan Melon"]
+features = ["ku suli","ASCII transcription","cartouches","",]
+filename = "sitelenponalili.otf"
+last_updated = "2024-04"
+license = "OTF"
+ligatures = false
+name = "sitelen pona lili"
+style = "uniform line weight"
+ucsur = true
+version = ""
+writing_system = "logography"
+
+[links]
+fontfile = "https://github.com/janMelon/sitelen-pona-lili/raw/main/sitelenponalili-REGULAR.otf"
+repo = "https://github.com/janMelon/sitelen-pona-lili"

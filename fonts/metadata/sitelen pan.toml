@@ -1,0 +1,16 @@
+#:schema ../../api/generated/font.json
+id = "sitelen pan"
+creator = ["Katherine Alexander"]
+features = ["ASCII transcription"]
+filename = "sitelenpan.ttf"
+last_updated = "2024-04"
+license = "OFL"
+ligatures = true
+name = "sitelen pan"
+style = "alternate design, uniform line weight"
+ucsur = true
+version = "001.000"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/340307145373253642/1234483205629804584/sitelenpan.ttf"

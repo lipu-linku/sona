@@ -1,0 +1,21 @@
+#:schema ../../api/generated/font.json
+id = "YU SITELEN LEKO PONA"
+creator = ["miukumauku"]
+features = [
+  "ASCII transcription",
+  "ku suli",
+  "UCSUR-compliant",
+]
+filename = "YU-SITELEN-LEKO-PONA.ttf"
+last_updated = "2024-04"
+license = "-"
+ligatures = true
+name = "YU SITELEN LEKO PONA"
+style = "pixelated"
+ucsur = true
+version = "000.800"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/miukumauku/YU-SITELEN-LEKO-PONA/raw/main/YU-SITELEN-LEKO-PONA.ttf"
+repo = "https://github.com/miukumauku/YU-SITELEN-LEKO-PONA"

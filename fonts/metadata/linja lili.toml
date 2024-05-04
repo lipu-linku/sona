@@ -1,0 +1,15 @@
+#:schema ../../api/generated/font.json
+id = "linja lili"
+creator = ["NemoStein"]
+features = ["ASCII transcription","UCSUR compliant","cartouches",]
+filename = "linja_lili.ttf"
+last_updated = "2024-04"
+license = "-"
+ligatures = true
+name = "linja lili"
+style = "pixelated"
+ucsur = true
+version = "1.0.0"
+writing_system = "sitelen pona"
+
+[links]

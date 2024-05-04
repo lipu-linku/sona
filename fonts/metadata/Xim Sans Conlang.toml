@@ -1,0 +1,21 @@
+#:schema ../../api/generated/font.json
+id = "Xim Sans Conlang"
+creator = ["Ximco"]
+features = [
+  "supports cartouches",
+  "codepoints only",
+  "combined glyphs",
+]
+filename = "Xim-Sans-Conlang.otf"
+last_updated = "2024-04"
+license = "-"
+ligatures = false
+name = "Xim Sans Conlang"
+style = "serif"
+ucsur = false
+version = "1.61"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/XimcoYuzuriha/Xim_Sans/raw/main/ver_01_62/Xim-Sans-Conlang.ttf"
+repo = "https://github.com/XimcoYuzuriha/Xim_Sans/"
