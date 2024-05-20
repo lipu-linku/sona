@@ -136,7 +136,7 @@ definition = "bad, mean, wicked"
 language = "Finnish"
 
 [[iki]]
-definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
+definition = "unknown"
 language = "Georgian"
 
 [[ilo]]
@@ -200,7 +200,7 @@ definition = "person"
 language = "Cantonese"
 
 [[jans]]
-definition = "person, people"
+definition = "jan"
 language = "toki pona"
 
 [[jans]]
@@ -303,7 +303,7 @@ definition = "brown, coffee (colour)"
 language = "Mandarin"
 
 [[kasi]]
-definition = "plant"
+definition = "kasvi ‘plant’"
 language = "Finnish"
 
 [[ke]]
@@ -370,7 +370,7 @@ definition = "cream, paste"
 language = "Cantonese"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "(present of krokodili)"
 language = "Esperanto"
 
 [[kokosila]]
@@ -757,11 +757,11 @@ definition = "salt"
 language = "Persian"
 
 [[nanpa]]
-definition = "number"
+definition = "namba ‘number, (ordinal marker)’ ← English number"
 language = "Tok Pisin"
 
 [[nanpa]]
-definition = "number"
+definition = "namba ‘number, (ordinal marker)’ ← English number"
 language = "English"
 
 [[nasa]]
@@ -785,7 +785,7 @@ definition = "cloth, fabric, clothing; secret, hidden, covered"
 language = "toki pona"
 
 [[nena]]
-definition = "nose"
+definition = "nenä"
 language = "Finnish"
 
 [[ni]]
@@ -952,7 +952,7 @@ definition = "brother"
 language = "English"
 
 [[peta]]
-definition = "green"
+definition = "verda"
 language = "Esperanto"
 
 [[peto]]
@@ -1210,7 +1210,7 @@ language = "English"
 language = "a priori"
 
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoeia)"
+definition = "the sound of two magnets hitting each other (onomatopoiea)"
 language = "Korean"
 
 [[tan]]
@@ -1359,7 +1359,7 @@ definition = "bird, flying creature"
 language = "toki pona"
 
 [[wasoweli]]
-definition = "land animal, fuzzy creature"
+definition = "fuzzy"
 language = "toki pona"
 
 [[wawa]]
