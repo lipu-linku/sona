@@ -1,5 +1,3 @@
-#:schema ../../api/generated/etymology_translation.json
-
 [[Pingo]]
 language = "a priori"
 
@@ -153,13 +151,13 @@ language = "German"
 definition = "inside, center, stomach"
 language = "Tok Pisin"
 
-[[inta]]
-definition = "still, yet, even"
-language = "Portuguese"
-
 [[insa]]
 definition = "inside"
 language = "English"
+
+[[inta]]
+definition = "still, yet, even"
+language = "Portuguese"
 
 [[ipi]]
 definition = "unknown"
@@ -779,7 +777,7 @@ definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
 [[neja]]
-definition = "four"
+definition = "(number) four"
 language = "Finnish"
 
 [[nele]]
@@ -1010,7 +1008,7 @@ definition = "bug, insect, arachnid"
 language = "toki pona"
 
 [[po]]
-definition = "four"
+definition = "(number) four"
 language = "English"
 
 [[poka]]
@@ -1078,15 +1076,15 @@ definition = "jan Samu"
 language = "toki pona"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Japanese"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Cantonese"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Cantonese"
 
 [[seli]]
@@ -1126,7 +1124,7 @@ definition = "new, fresh"
 language = "Mandarin"
 
 [[sina]]
-definition = "you"
+definition = "(pronoun) you, y'all"
 language = "Finnish"
 
 [[sinpin]]
@@ -1304,7 +1302,7 @@ definition = "two"
 language = "Esperanto"
 
 [[tuli]]
-definition = "three"
+definition = "(number) three"
 language = "English"
 
 [[u]]
@@ -1318,7 +1316,7 @@ language = "Iqglic"
 language = "onomatopoeia"
 
 [[unu]]
-definition = "purple"
+definition = "purple, violet"
 language = "Malay-Indonesian"
 
 [[usawi]]
