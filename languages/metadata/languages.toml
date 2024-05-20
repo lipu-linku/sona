@@ -506,3 +506,5 @@ direction = "ltr"
 
 [hu.name]
 en = "Hungarian"
+endonym = "magyar"
+tok = "toki Mata"
