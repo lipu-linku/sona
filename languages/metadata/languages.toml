@@ -498,3 +498,11 @@ direction = "ltr"
 en = "Wu (Shanghai)"
 endonym = "上海閑話"
 tok = "toki Sane"
+
+[hu]
+id = "hu"
+locale = "hu-HU"
+direction = "ltr"
+
+[hu.name]
+en = "Hungarian"
