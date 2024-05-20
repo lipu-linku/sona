@@ -1,3 +1,4 @@
+#:schema ../../api/generated/sitelen_pona_translation.json
 Pingo = ""
 a = "exclamation radical + Latin lowercase letter A; radical from exclamation point (!), without the full stop at the bottom. compare o"
 aka = ""
@@ -10,10 +11,10 @@ ale = "infinity symbol (∞)"
 alente = ""
 ali = "infinity symbol (∞)"
 alu = ""
-anpa = 'location radical + "container"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol "below"'
+anpa = "location radical + \"container\"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol \"below\""
 anta = ""
 ante = "perhaps alteration from sama, or a combination of sama and ala. perhaps an ideogram representing a diversion of two lines"
-anu = 'perhaps from mathematical symbol "or" (∨)'
+anu = "perhaps from mathematical symbol \"or\" (∨)"
 apeja = ""
 awase = ""
 awen = "motion radical; legs facing against each other, implying standing"
