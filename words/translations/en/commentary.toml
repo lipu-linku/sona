@@ -1,7 +1,7 @@
 Pingo = ""
 a = 'In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.'
 aka = 'This word is deprecated by the creator, replaced by "natu".'
-akesi = 'akesi used to mean "non-cute animal," and is defined this way in pu, but this definition has fallen out of use and was later removed in the pu annotations published with ku.'
+akesi = 'akesi used to mean "non-cute animal," and is defined this way in pu, but this definition has fallen out of use.'
 ako = "Virtually unknown outside the Korean toki pona community."
 aku = ""
 ala = ""
@@ -11,7 +11,7 @@ ale = """
 The majority of speakers report not understanding the "abundant, bountiful, plentiful" meaning, at least out of context.
 "20, 120" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."""
 alente = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
-ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" remains more common. Generally not considered a word in its own right.'
 alu = ""
 anpa = 'In common usage (both before and after pu), "anpa" has the meaning of "place that is down". In pu, "noka" has that meaning instead.'
 anta = ""
@@ -171,7 +171,7 @@ ojuta = ""
 oke = ""
 okepuma = ""
 oki = 'Though it may have many possible origins, it was first coined in a small group chat. It is mostly used as a variant of the toki pona words "oke" and "ke"'
-oko = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances, though some speakers do the opposite and use \"oko\" exclusively instead."
+oko = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances."
 olin = "In english, \"love\" can be used to mean \"like a lot\", but in toki pona, \"olin\" doesn't work that way. It indicates an emotional connection or bond, not preference"
 omekalike = ""
 omekapo = 'Coined by jan Maliku in reference to the message "o moku e kala pona", which jan Sonja wrote on their copy of Toki Pona: The Language of Good during a Texas meetup.'
@@ -180,7 +180,7 @@ ona = 'This word was coined in a poll in 2002. It replaced "iki", which was deem
 oni = """
 This word is deprecated by the creator; it is considered part of the "toki oni" tokiponido instead.
 The pronunciation of the second syllable was due to personal preferences of the creator, not modern Greek."""
-open = 'Some proficient speakers use open as a preverb that means "start to," that goes along with the complimentary pini preverb "to stop"'
+open = 'Some proficient speakers use open as a preverb that means "to start," that goes along with the complimentary pini preverb "to stop"'
 owe = ""
 pa = ""
 pakala = ""
@@ -198,7 +198,7 @@ pi = 'The usage of "pi" to mean "of" (marking a possessor) is heavily discourage
 pika = ""
 pilin = ""
 pimeja = ""
-pini = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "start to"'
+pini = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "to start"'
 pipi = ""
 pipo = ""
 po = ""
@@ -244,7 +244,7 @@ suwi = ""
 ta = 'Follows a semantically consistent pattern of "SUBJ li PV ta PRED" = "SUBJ li PV e [SUBJ li PRED]" or "[SUBJ li PRED] li PV". The top and bottom lines of the sitelen pona may be extended to the left around the pre-predicate word(s).'
 taki = ""
 tan = ""
-taso = 'Some proficient speakers use taso as a connector between sentences (X taso Y), similar to "X, but Y," as though taso behaved like la grammatically.'
+taso = 'Many proficient speakers use taso as a connector between sentences (X taso Y), similar to "X, but Y," though others do not use this method.'
 tawa = ""
 te = 'May be paired with "to", or used on its own. It is unclear how accepted either approach is among te / to users.'
 teje = ""
@@ -282,6 +282,6 @@ weka = ""
 wekama = ""
 wi = ""
 wile = ""
-wuwojiti = 'May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the "banned" syllables. Occasionally extended to wuwojitinmanna to include the illegal consecutive nasal consonants.'
+wuwojiti = 'May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the "banned" syllables.'
 yupekosi = 'Coined as a random keystroke. It is presumed jan Sonja used "y" by mistake, but then made it part of the joke by adding "nobody knows how to pronounce the y".'
 yutu = 'The "y" was a typo and was meant to be "j", but got kept in anyway; compare "yupekosi".'
