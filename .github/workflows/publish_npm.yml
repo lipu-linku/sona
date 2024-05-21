@@ -53,7 +53,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to JSR
-        run: npx jsr publish --allow-slow-types
+        run: npx jsr publish --allow-slow-types --allow-dirty
 
       - name: Push version changes to main branch
         uses: stefanzweifel/git-auto-commit-action@v5
