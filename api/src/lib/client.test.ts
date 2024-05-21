@@ -10,8 +10,8 @@ import type {
 	LocalizedWord,
 	Signs,
 	Words,
-} from "$lib";
-import { client } from "$lib/client";
+} from "./index";
+import { client } from "./client";
 import type { ClientResponse } from "hono/client";
 import type { Equal, Expect } from "hono/utils/types";
 
