@@ -2,10 +2,10 @@
 language = "a priori"
 
 [[a]]
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[aka]]
-definition = "to cross, to pass"
+definition = "traverser, passer"
 language = "Mandarin"
 
 [[aka]]
@@ -45,7 +45,7 @@ definition = "all"
 language = "Dutch"
 
 [[alu]]
-definition = "(indicate context for a following sentence)"
+definition = "(indique le contexte pour ce qui suit)"
 language = "toki pona"
 
 [[anpa]]
@@ -66,11 +66,11 @@ language = "Georgian"
 
 [[apeja]]
 definition = "shame, disgrace, dishonor"
-language = "Finnish"
+language = "Finlandais"
 
 [[awase]]
 definition = "hit, strike"
-language = "Armenian"
+language = "Arménien"
 
 [[awen]]
 definition = "keep, care for, hold (in a particular state)"
@@ -80,7 +80,7 @@ language = "Dutch"
 language = "a priori"
 
 [[eki]]
-definition = "x (letter name)"
+definition = "x (lettre)"
 language = "English"
 
 [[eliki]]
@@ -133,7 +133,7 @@ language = "Romance"
 
 [[ike]]
 definition = "bad, mean, wicked"
-language = "Finnish"
+language = "Finlandais"
 
 [[iki]]
 definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
@@ -185,11 +185,11 @@ language = "Japanese"
 
 [[jalan]]
 definition = "afoot"
-language = "Finnish"
+language = "Finlandais"
 
 [[jalan]]
 definition = "foot"
-language = "Finnish"
+language = "Finlandais"
 
 [[jami]]
 definition = "yummy"
@@ -225,7 +225,7 @@ language = "Mandarin"
 
 [[jonke]]
 definition = "hjönk"
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[ju]]
 language = "a priori"
@@ -240,7 +240,7 @@ language = "Japanese"
 
 [[kala]]
 definition = "fish"
-language = "Finnish"
+language = "Finlandais"
 
 [[kalamARR]]
 definition = "make sound; sound, noise, voice"
@@ -268,7 +268,7 @@ language = "toki pona"
 
 [[kan]]
 definition = "with"
-language = "Finnish"
+language = "Finlandais"
 
 [[kan]]
 definition = "with"
@@ -304,7 +304,7 @@ language = "Mandarin"
 
 [[kasi]]
 definition = "plant"
-language = "Finnish"
+language = "Finlandais"
 
 [[ke]]
 definition = "okay"
@@ -340,7 +340,7 @@ language = "French"
 
 [[kijetesantakalu]]
 definition = "kinkajou"
-language = "Finnish"
+language = "Finlandais"
 
 [[kiki]]
 language = "a priori"
@@ -351,7 +351,7 @@ language = "Georgian"
 
 [[kin]]
 definition = "too, also, still"
-language = "Finnish"
+language = "Finlandais"
 
 [[kipisi]]
 definition = "to cut (intransitive)"
@@ -363,7 +363,7 @@ language = "Russian"
 
 [[kiwen]]
 definition = "stone (genitive case)"
-language = "Finnish"
+language = "Finlandais"
 
 [[ko]]
 definition = "cream, paste"
@@ -474,7 +474,7 @@ language = "Danish"
 
 [[leko]]
 definition = "block, section"
-language = "Finnish"
+language = "Finlandais"
 
 [[len]]
 definition = "clothing"
@@ -522,7 +522,7 @@ language = "Ramoaaina"
 
 [[linja]]
 definition = "line"
-language = "Finnish"
+language = "Finlandais"
 
 [[linja]]
 definition = "line"
@@ -534,7 +534,7 @@ language = "Welsh"
 
 [[lipu]]
 definition = "flag, banner, ticket"
-language = "Finnish"
+language = "Finlandais"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -609,7 +609,7 @@ language = "Arabic"
 
 [[ma]]
 definition = "earth, land"
-language = "Finnish"
+language = "Finlandais"
 
 [[majuna]]
 definition = "old (not young)"
@@ -673,7 +673,7 @@ language = "Romance"
 
 [[mije]]
 definition = "man, husband"
-language = "Finnish"
+language = "Finlandais"
 
 [[mijomi]]
 definition = "men loving men"
@@ -716,7 +716,7 @@ definition = "monster"
 language = "English"
 
 [[mu]]
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[mulapisu]]
 language = "a priori"
@@ -742,7 +742,7 @@ definition = "a lot"
 language = "Latin"
 
 [[n]]
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[nalanja]]
 definition = "orange"
@@ -778,7 +778,7 @@ language = "Vietnamese"
 
 [[neja]]
 definition = "quatre"
-language = "Finnish"
+language = "Finlandais"
 
 [[nele]]
 definition = "cloth, fabric, clothing; secret, hidden, covered"
@@ -786,7 +786,7 @@ language = "toki pona"
 
 [[nena]]
 definition = "nose"
-language = "Finnish"
+language = "Finlandais"
 
 [[ni]]
 definition = "this"
@@ -798,7 +798,7 @@ language = "Tai"
 
 [[nimi]]
 definition = "name"
-language = "Finnish"
+language = "Finlandais"
 
 [[nimisin]]
 definition = "new word"
@@ -925,7 +925,7 @@ language = "Portuguese"
 
 [[pana]]
 definition = "put, set, place"
-language = "Finnish"
+language = "Finlandais"
 
 [[pana]]
 definition = "give to each other"
@@ -985,7 +985,7 @@ language = "English"
 
 [[pimeja]]
 definition = "dark"
-language = "Finnish"
+language = "Finlandais"
 
 [[pini]]
 definition = "finished, completed"
@@ -1057,7 +1057,7 @@ language = "Japanese"
 
 [[sama]]
 definition = "same"
-language = "Finnish"
+language = "Finlandais"
 
 [[sama]]
 definition = "same, alike"
@@ -1125,7 +1125,7 @@ language = "Mandarin"
 
 [[sina]]
 definition = "tu, toi, vous"
-language = "Finnish"
+language = "Finlandais"
 
 [[sinpin]]
 definition = "in front"
@@ -1176,7 +1176,7 @@ language = "toki pona"
 
 [[suli]]
 definition = "big, large, great"
-language = "Finnish"
+language = "Finlandais"
 
 [[suno]]
 definition = "sun"
@@ -1313,7 +1313,7 @@ definition = "to amaze (someone), surprise, impress"
 language = "Iqglic"
 
 [[unpa]]
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[unu]]
 definition = "violet"
@@ -1332,7 +1332,7 @@ definition = "strike, hit, beat"
 language = "Serbo-Croatian"
 
 [[wa]]
-language = "onomatopoeia"
+language = "onomatopée"
 
 [[waleja]]
 definition = "of moment, important"
@@ -1344,7 +1344,7 @@ language = "Quenya"
 
 [[walo]]
 definition = "white"
-language = "Finnish"
+language = "Finlandais"
 
 [[wan]]
 definition = "one"
@@ -1364,7 +1364,7 @@ language = "toki pona"
 
 [[wawa]]
 definition = "strong, powerful, thick"
-language = "Finnish"
+language = "Finlandais"
 
 [[wawajete]]
 definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
