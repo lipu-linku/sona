@@ -14,7 +14,7 @@ import {
 	SitelenPonaTranslation,
 	Word,
 	Words,
-} from "$lib";
+} from "../lib";
 import { Hono } from "hono";
 import type { z } from "zod";
 import apiV1 from "./v1";

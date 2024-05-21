@@ -1,4 +1,4 @@
-import { Languages } from "$lib";
+import type { Languages } from "../lib";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
 

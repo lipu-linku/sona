@@ -1,10 +1,5 @@
-import {
-	filterObject,
-	keys,
-	langIdCoalesce,
-	langValidator
-} from "$server/utils";
-import { fetchFile, versions, type FilesToVariables } from "$server/versioning";
+import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
+import { fetchFile, versions, type FilesToVariables } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";

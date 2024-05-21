@@ -1,0 +1,13 @@
+{
+	"name": "@linku/sona",
+	"version": "0.3.2",
+	"exports": {
+		".": "./src/lib/index.ts",
+		"./utils": "./src/lib/utils.ts",
+		"./client": "./src/lib/client.ts"
+	},
+	"publish": {
+		"include": ["src", "generated", "raw", "README.md", "LICENSE"],
+    "exclude": ["*.test.*"]
+	}
+}

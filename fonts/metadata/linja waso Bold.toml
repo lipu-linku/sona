@@ -1,12 +1,7 @@
 #:schema ../../api/generated/font.json
 id = "linja waso Bold"
 creator = ["jan Maku (ItMarki)"]
-features = [
-  "UCSUR-compliant",
-  "ku suli",
-  "supports cartouches",
-  "extended pi",
-]
+features = ["UCSUR-compliant", "ku suli", "supports cartouches", "extended pi"]
 filename = "linja-waso-lili-Bold.ttf"
 last_updated = "2024-04"
 license = "OFL"

@@ -1,11 +1,7 @@
 #:schema ../../api/generated/font.json
 id = "linja Lensa"
 creator = ["Lens+Lantern"]
-features = [
-  "ASCII input",
-  "supports cartouches",
-  "long pi",
-]
+features = ["ASCII input", "supports cartouches", "long pi"]
 filename = "Fresnel-LinjaLensa.otf"
 last_updated = "2024-04"
 license = "-"

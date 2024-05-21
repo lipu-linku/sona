@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
 id = "linja lili"
 creator = ["NemoStein"]
-features = ["ASCII transcription","UCSUR compliant","cartouches",]
+features = ["ASCII transcription", "UCSUR compliant", "cartouches"]
 filename = "linja_lili.ttf"
 last_updated = "2024-04"
 license = "-"
