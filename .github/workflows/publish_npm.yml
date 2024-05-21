@@ -30,12 +30,13 @@ jobs:
           node-version: 21
           registry-url: https://registry.npmjs.org/
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         name: Setup pnpm
         with:
           version: 9
 
       - name: Update package.json
+        if: github.event_name == 'release'
         run: pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
 
       - name: Install dependencies
