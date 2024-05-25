@@ -3,13 +3,13 @@ id = "linja Lensa"
 creator = ["Lens+Lantern"]
 features = ["ASCII input", "supports cartouches", "long pi"]
 filename = "Fresnel-LinjaLensa.otf"
-last_updated = "2024-04"
-license = "-"
+last_updated = "2024-05"
+license = "OFL"
 ligatures = true
 name = "linja Lensa"
 style = "uniform line weight"
 ucsur = false
-version = "1.020"
+version = "1.024"
 writing_system = "sitelen pona"
 
 [links]
