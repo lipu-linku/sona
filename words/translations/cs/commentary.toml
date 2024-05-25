@@ -194,11 +194,11 @@ pasila = ""
 pata = ""
 peta = ""
 peto = "This word is deprecated by the creator."
-pi = 'The usage of "pi" to mean "of" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases.'
+pi = 'Užití slova "pi" pro přídavná jména přivlastňovácí je dnes velmi nepodporováno. Slovo by mělo být užíváno pouze pro přeskupování slov ve frázích.'
 pika = ""
 pilin = ""
 pimeja = ""
-pini = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "start to"'
+pini = 'Někteří zkušení mluvčí používají pini jako předsloveso, které znamená "přestat", doplňujíc slovo open jako předsloveso "začít"'
 pipi = ""
 pipo = ""
 po = ""
@@ -207,16 +207,16 @@ poki = 'poki je občas používáno jako "kategorie" nebo jako vyjádření pro 
 polinpin = ""
 pomotolo = 'From the time management method developed by Francesco Cirillo in Berlin in the 1980s, for which people often used tomato-shaped timers. In ku, "pomotolo" was given as one of the translations of "tomato", presumably due to speakers misusing or misunderstanding the word.'
 pona = ""
-poni = 'Occasionally comes up as a jokish corruption of "pona" (especially in a phrase "toki poni").'
+poni = 'Občas se vyjeví jako vtipná korupce slova "pona" (obzvlášť ve frázi "toki poni").'
 powe = ""
 pu = "For ways to buy a copy of the book, visit the official Toki Pona website."
 puwa = ""
 sama = ""
 samu = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
 san = """
-More popular than the synonymous (and older) tuli.
-san was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the dictionary."""
-seli = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+Populárnější než synonymní (a starší) tuli.
+san bylo také součástí deseti slov číslovek, které vytvořil/a jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 až 9). Všechna tato slova kromě san nejsou dostatečně používané, aby byli v našem slovníku."""
+seli = 'V pu jsou definice slova "seli" popsána jako přídavná jména. Poznámky k pu v ku upřesňují, že tyto definice mají být podstatá jména.'
 selo = ""
 seme = ""
 sewi = ""
@@ -226,7 +226,7 @@ sikomo = "Coined in reference to the Travis Scott song ‘Sicko Mode’."
 sin = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
 sina = ""
 sinpin = ""
-sipi = "Proposed on a forum and quickly forgotten. Notable only for being an early non pu word proposal."
+sipi = "Navrženo ve fóru a rychle zapomenuto. Významné pouze tím, že to byl jeden z prvních návrhů pro ne-pu slovo."
 sitelen = ""
 slape = ""
 soko = ""
@@ -251,17 +251,19 @@ teje = ""
 telo = ""
 ten = "Out of use."
 tenpo = ""
-to = 'May be paired with "te", or used on its own. It is unclear how accepted either approach is among te / to users.'
+to = 'Může být spojeno s "te" nebo použito samostatně. Není jasné, jak přijatelný je každý přístup mezi uživateli slov te / to.'
 tokana = ""
 toki = ""
 toma = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
 tomo = ""
-tonsi = 'Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright.'
+tonsi = """
+* - Širší význam, o něco méně často přijatý.
+V komunitě široce považováno za zásadní přídavek do toki pona. Občas nazýváno "čestným pu slovem" pro zdůraznění jeho postavení, nebo rovnou přirovnáváno k pu slovu."""
 tu = ""
 tuli = ""
 u = ""
 umesu = "Created for the game Acrophobia (musi Ako) in response to the fact that there are few words starting with 'u' in Toki Pona."
-unpa = 'Also defined as "have marital relations with" in pu; removed due to potential confusion.'
+unpa = 'Také definováno jako "mít manželský vztah s" v pu; odstraněno kvůli možnému zmatku.'
 unu = ""
 usawi = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
 uta = 'The dot in the "uta" sitelen pona is to distinguish luka-uta from moku.'
