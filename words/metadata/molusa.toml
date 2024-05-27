@@ -8,9 +8,9 @@ coined_year = "2021"
 creator = ["jan soweli Apen"]
 see_also = ["pipi"]
 source_language = "multiple"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "molusa"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

@@ -1,18 +1,17 @@
 #:schema ../../api/generated/font.json
-id = "linja Enki pona"
+id = "linja Enki"
 creator = ["kije Enki"]
 features = ["UCSUR-compliant", "supports cartouches"]
-filename = "linja-enki-pona.ttf"
-last_updated = "2024-02"
+filename = "linja-enki.ttf"
+last_updated = "2024-04"
 license = "OFL"
 ligatures = false
-name = "linja Enki pona"
+name = "linja Enki"
 style = "handwritten"
 ucsur = true
-version = "1.0.1"
+version = "1.0.2"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://github.com/kijeEnki/linjaEnki/raw/main/linjaEnkipona1.0.1.ttf"
+fontfile = "https://github.com/kijeEnki/linjaEnki/raw/main/linjaEnki.ttf"
 repo = "https://github.com/kijeEnki/linjaEnki/tree/main"
-webpage = "https://sites.google.com/view/enky-stuff/home"

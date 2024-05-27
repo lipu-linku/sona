@@ -22,7 +22,8 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 ligatures = ["nu"]
 
 [usage]
-2020-04 = 14
+# Though nu appears in the 2020 survey at 14%,
+# it is actually the "nu/nuwa" word "new(er)"
 2021-10 = 28
 2022-08 = 1
 2023-09 = 1

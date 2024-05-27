@@ -1,0 +1,23 @@
+#:schema ../../api/generated/font.json
+id = "linja insa luka"
+creator = ["Janet Blackquill"]
+features = [
+  "codepoints only",
+  "UCSUR-compliant",
+  "ku suli",
+  "supports cartouches",
+  "vertical cartouches",
+]
+filename = "linjainsaluka.ttf"
+last_updated = "2024-04"
+license = "MIT"
+ligatures = false
+name = "linja insa luka"
+style = "handwritten"
+ucsur = true
+version = "1.000"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/tomo-pi-linja-yupekosi/linja-insa/raw/main/TTF/linjainsaluka-linjameso.ttf"
+repo = "https://github.com/tomo-pi-linja-yupekosi/linja-insa/"

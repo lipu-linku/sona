@@ -10,7 +10,7 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "sandbox"
 word = "i"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"

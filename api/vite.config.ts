@@ -1,10 +1,9 @@
 import pages from "@hono/vite-cloudflare-pages";
 import devServer from "@hono/vite-dev-server";
 import { getEnv } from "@hono/vite-dev-server/cloudflare-pages";
-import { type UserConfigExport, defineConfig } from "vite";
-import { resolve } from "node:path";
-import dts from "vite-plugin-dts";
 import { exec } from "node:child_process";
+import { defineConfig, type UserConfigExport } from "vite";
+import dts from "vite-plugin-dts";
 
 export default defineConfig((async ({ mode }) => ({
 	build: {
@@ -16,15 +15,9 @@ export default defineConfig((async ({ mode }) => ({
 			},
 			formats: ["es"],
 		},
-		sourcemap: true,
+		sourcemap: "inline",
 		minify: true,
 		outDir: "dist",
-	},
-	resolve: {
-		alias: {
-			$lib: resolve(__dirname, "src/lib"),
-			$server: resolve(__dirname, "src/server"),
-		},
 	},
 	define: {
 		__BRANCH__: await new Promise<string>((resolve, reject) =>
@@ -38,7 +31,7 @@ export default defineConfig((async ({ mode }) => ({
 		mode === "lib"
 			? [
 					dts({
-						include: "./src/lib/*.ts",
+						include: "./src/**/*.ts",
 						insertTypesEntry: true,
 					}),
 				]
@@ -49,8 +42,8 @@ export default defineConfig((async ({ mode }) => ({
 					devServer({
 						entry: "src/server/index.ts",
 						env: getEnv({
-							assets: true
-						})
+							assets: true,
+						}),
 					}),
 				],
 })) as UserConfigExport);

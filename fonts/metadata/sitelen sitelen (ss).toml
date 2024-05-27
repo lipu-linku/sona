@@ -1,0 +1,18 @@
+#:schema ../../api/generated/font.json
+id = "sitelen sitelen (ss)"
+creator = ["jan Pitaki"]
+features = [
+  "ASCII transcription",
+]
+filename = "Sitelensitelen.ttf"
+last_updated = "2024-04"
+license = "-"
+ligatures = true
+name = "sitelen sitelen (ss)"
+style = "unspecified"
+ucsur = false
+version = "001.017"
+writing_system = "sitelen sitelen"
+
+[links]
+repo = "https://drive.google.com/drive/folders/1KWZbp0XY-uqfbwqAyi64N2CLVToqxhPM"
