@@ -10,8 +10,8 @@ language = "BSL & multiple SLs"
 sign = "MONSTER, SCARY"
 
 [signwriting]
-fsw = "M512x534S14c50488x466S22b04492x504"
-swu = "𝠃𝤒𝤨񁳑𝣺𝣤񇀥𝣾𝤊"
+fsw = "AS14c50S22b04M512x534S14c50488x466S22b04491x504"
+swu = "𝠀񁳑񇀥𝠃𝤒𝤨񁳑𝣺𝣤񇀥𝣽𝤊"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsuta.gif"

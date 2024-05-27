@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "SUN"
 
 [signwriting]
-fsw = "M544x518S14c00521x481S2ff00482x483"
-swu = "𝠃𝤲𝤘񁲁𝤛𝣳񋾡𝣴𝣵"
+fsw = "AS14c00S2ff00M544x518S14c00521x481S2ff00482x483"
+swu = "𝠀񁲁񋾡𝠃𝤲𝤘񁲁𝤛𝣳񋾡𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suno.gif"

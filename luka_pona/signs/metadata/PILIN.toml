@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "FEEL"
 
 [signwriting]
-fsw = "M515x517S1ce32485x484S20500502x506"
-swu = "𝠃𝤕𝤗񄵳𝣷𝣶񆇡𝤈𝤌"
+fsw = "AS1ce32S20500M515x517S1ce32485x484S20500502x506"
+swu = "𝠀񄵳񆇡𝠃𝤕𝤗񄵳𝣷𝣶񆇡𝤈𝤌"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pilin.gif"

@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/sign.json
+definition = "len"
+id = "LEN"
+is_two_handed = true
+new_gloss = "LEN-INSA-2"
+old_gloss = "LEN"
+
+[[etymology]]
+language = "mutliple SLs"
+sign = "CLOTHES"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "len"
+
+[[etymology]]
+language = "Toki Pona Sign Language (Chuff)"
+sign = "len"
+
+[[etymology]]
+language = "sitelen pona"
+sign = "len"
+
+[signwriting]
+fsw = "AS18241S18249M530x509S18241505x492S18249471x492"
+swu = "𝠀񃄂񃄊𝠃𝤤𝤏񃄂𝤋𝣾񃄊𝣩𝣾"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/len.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/len.mp4"

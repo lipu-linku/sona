@@ -14,8 +14,8 @@ language = "toki pona luka pu"
 sign = "mu, kalama"
 
 [signwriting]
-fsw = "M529x546S14c12481x523S22512466x521S20500519x506S30004482x483"
-swu = "􁲓󱲓􆷳󶷳􆇡󶇡􌀅󼀅"
+fsw = "AS14c12S20500S22512S30004M529x546S14c12481x523S22512466x521S20500519x506S30004482x483"
+swu = "𝠀񁲓񆇡񆷳񌀅𝠃𝤣𝤴񁲓𝣳𝤝񆷳𝣤𝤛񆇡𝤙𝤌񌀅𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kalama.gif"

@@ -10,8 +10,8 @@ language = "BSL"
 sign = "MUST"
 
 [signwriting]
-fsw = "M509x526S15a10494x475S22e04492x508"
-swu = "𝠃𝤏𝤠񂇑𝤀𝣭񇅅𝣾𝤎"
+fsw = "AS15a10S22e04M509x526S15a10494x475S22e04492x508"
+swu = "𝠀񂇑񇅅𝠃𝤏𝤠񂇑𝤀𝣭񇅅𝣾𝤎"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/o.gif"

@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "SKIN"
 
 [signwriting]
-fsw = "M515x518S15a37485x495S17651498x499S20500505x483"
-swu = "𝠃𝤕𝤘񂇸𝣷𝤁񂲒𝤄𝤅񆇡𝤋𝣵"
+fsw = "AS17650S15a30S20500M511x518S15a30490x491S17650494x495S20500501x482"
+swu = "𝠀񂲑񂇱񆇡𝠃𝤑𝤘񂇱𝣼𝣽񂲑𝤀𝤁񆇡𝤇𝣴"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/selo.gif"

@@ -10,8 +10,8 @@ language = "BSL & multiple SLs"
 sign = "MANY"
 
 [signwriting]
-fsw = "M554x522S14c42523x480S14c4a446x479S22512504x480S22516484x479S22c06510x506S22c12449x506S20500495x509"
-swu = "𝠃𝤼𝤜񁳃𝤝𝣲񁳋𝣐𝣱񆷳𝤊𝣲񆷷𝣶𝣱񇂇𝤐𝤌񇂓𝣓𝤌񆇡𝤁𝤏"
+fsw = "AS14c42S14c4aS20500S22c06S22c12S22512S22516M554x522S14c42523x480S14c4a446x479S22512504x480S22516484x479S22c06510x506S22c12449x506S20500495x509"
+swu = "𝠀񁳃񁳋񆇡񇂇񇂓񆷳񆷷𝠃𝤼𝤜񁳃𝤝𝣲񁳋𝣐𝣱񆷳𝤊𝣲񆷷𝣶𝣱񇂇𝤐𝤌񇂓𝣓𝤌񆇡𝤁𝤏"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mute.gif"

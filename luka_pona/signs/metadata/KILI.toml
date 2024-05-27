@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "FRUIT"
 
 [signwriting]
-fsw = "M529x536S1f500493x521S20500519x506S30004482x483"
-swu = "𝠃𝤣𝤪񅯡𝣿𝤛񆇡𝤙𝤌񌀅𝣴𝣵"
+fsw = "AS1f500S20500S30004M529x536S1f500493x521S20500519x506S30004482x483"
+swu = "𝠀񅯡񆇡񌀅𝠃𝤣𝤪񅯡𝣿𝤛񆇡𝤙𝤌񌀅𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kili.gif"

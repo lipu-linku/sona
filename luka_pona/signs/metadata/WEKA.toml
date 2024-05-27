@@ -10,8 +10,8 @@ language = "BSL"
 sign = "LEAVE"
 
 [signwriting]
-fsw = "M538x514S15a02463x497S15a20526x487S2df08496x491"
-swu = "𝠃𝤬𝤔񂇃𝣡𝤃񂇡𝤠𝣹񋎩𝤂𝣽"
+fsw = "AS15a02S15a20S2df08M538x514S15a02463x497S15a20526x487S2df08496x491"
+swu = "𝠀񂇃񂇡񋎩𝠃𝤬𝤔񂇃𝣡𝤃񂇡𝤠𝣹񋎩𝤂𝣽"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/weka.gif"

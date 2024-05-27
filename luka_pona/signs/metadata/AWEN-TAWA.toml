@@ -10,8 +10,8 @@ language = "BSL"
 sign = "SAFE"
 
 [signwriting]
-fsw = "M512x535S18251488x465S26604493x486S20500496x524"
-swu = "𝠃𝤒𝤩񃄒𝣺𝣣񈙅𝣿𝣸񆇡𝤂𝤞"
+fsw = "AS18241S20500S26604M513x535S18241488x465S26604493x486S20500496x524"
+swu = "𝠀񃄂񆇡񈙅𝠃𝤓𝤩񃄂𝣺𝣣񈙅𝣿𝣸񆇡𝤂𝤞"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/awen.gif"

@@ -18,8 +18,8 @@ language = "Toki Pona Sign Language (Chuff)"
 sign = "ma"
 
 [signwriting]
-fsw = "M515x534S15a50494x466S2e608486x501"
-swu = "𝠃𝤕𝤨񂈑𝤀𝣤񋙉𝣸𝤇"
+fsw = "AS15a50S2eb0aM516x525S15a50493x475S2eb0a484x510"
+swu = "𝠀񂈑񋠫𝠃𝤖𝤟񂈑𝣿𝣭񋠫𝣶𝤐"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ma.gif"

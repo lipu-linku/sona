@@ -10,8 +10,8 @@ language = "PISL (Plains Indian Sign Language)"
 sign = "HUNTING"
 
 [signwriting]
-fsw = "M536x531S10047490x486S10049465x501S26527523x469"
-swu = "𝠃𝤪𝤥񀁈𝣼𝣸񀁊𝣣𝤇񈘈𝤝𝣧"
+fsw = "AS10047S10049S26527M536x531S10047490x486S10049465x501S26527523x469"
+swu = "𝠀񀁈񀁊񈘈𝠃𝤪𝤥񀁈𝣼𝣸񀁊𝣣𝤇񈘈𝤝𝣧"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/alasa.gif"

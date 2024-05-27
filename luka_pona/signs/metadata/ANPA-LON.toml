@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "SEWI-LON"
 
 [signwriting]
-fsw = "M512x515S1dc04488x485"
-swu = "𝠃𝤒𝤕񅊅𝣺𝣷"
+fsw = "AS1dc04M512x515S1dc04488x485"
+swu = "𝠀񅊅𝠃𝤒𝤕񅊅𝣺𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/anpa.gif"

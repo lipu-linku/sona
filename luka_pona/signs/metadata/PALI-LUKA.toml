@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "WORK, MAKE"
 
 [signwriting]
-fsw = "M515x519S15a37485x481S1f550491x488S20600491x508"
-swu = "𝠃𝤕𝤙񂇸𝣷𝣳񅰱𝣽𝣺񆉁𝣽𝤎"
+fsw = "AS1f550S15a37S20600M515x519S15a37485x481S1f550491x488S20600491x508"
+swu = "𝠀񅰱񂇸񆉁𝠃𝤕𝤙񂇸𝣷𝣳񅰱𝣽𝣺񆉁𝣽𝤎"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pali.gif"

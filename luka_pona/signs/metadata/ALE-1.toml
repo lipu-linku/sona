@@ -14,8 +14,8 @@ language = "LPSL"
 sign = "MUTE"
 
 [signwriting]
-fsw = "M526x520S14c02474x497S2900c503x481"
-swu = "𝠃𝤠𝤚񁲃𝣬𝤃񉘍𝤉𝣳"
+fsw = "AS14c02S2900cM526x520S14c02474x497S2900c503x481"
+swu = "𝠀񁲃񉘍𝠃𝤠𝤚񁲃𝣬𝤃񉘍𝤉𝣳"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ale.gif"

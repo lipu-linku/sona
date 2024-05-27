@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "WHAT, QUESTION, THAT?, WHICH"
 
 [signwriting]
-fsw = "M510x539S10020491x462S27206491x499"
-swu = "𝠃𝤐𝤭񀀡𝣽𝣠񈫇𝣽𝤅"
+fsw = "AS10020S27206M510x539S10020491x462S27206491x499"
+swu = "𝠀񀀡񈫇𝠃𝤐𝤭񀀡𝣽𝣠񈫇𝣽𝤅"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/seme.gif"

@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "PALI-LUKA"
 
 [signwriting]
-fsw = "M521x519S1f501453x497S36d00479x500S20600467x482"
-swu = "𝠃𝤛𝤙񅯢𝣗𝤃񎣡𝣱𝤆񆉁𝣥𝣴"
+fsw = "AS1f501S20600S36d00M521x519S1f501453x497S36d00479x500S20600467x482"
+swu = "𝠀񅯢񆉁񎣡𝠃𝤛𝤙񅯢𝣗𝤃񎣡𝣱𝤆񆉁𝣥𝣴"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pali.gif"

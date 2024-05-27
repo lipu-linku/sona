@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "FISH"
 
 [signwriting]
-fsw = "M507x541S15a40493x514S2dc06494x459"
-swu = "𝠃𝤍𝤯񂈁𝣿𝤔񋊇𝤀𝣝"
+fsw = "AS15a40S2dc06M507x541S15a40493x514S2dc06494x459"
+swu = "𝠀񂈁񋊇𝠃𝤍𝤯񂈁𝣿𝤔񋊇𝤀𝣝"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kala.gif"

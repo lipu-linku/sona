@@ -10,8 +10,8 @@ language = "multiple SLs (including BSL)"
 sign = "FAR, GO"
 
 [signwriting]
-fsw = "M512x532S1dc44488x468S26604490x502;\nM512x532S1dc40488x468S26604488x502;\nM534x512S1dc42504x488S26602467x490"
-swu = "𝠃𝤒𝤦񅋅𝣺𝣦񈙅𝣼𝤈\n𝠃𝤒𝤦񅋁𝣺𝣦񈙅𝣺𝤈\n𝠃𝤨𝤒񅋃𝤊𝣺񈙃𝣥𝣼"
+fsw = "AS1dc44S26604M512x532S1dc44488x468S26604490x502\nAS1dc40S26600M512x531S1dc40488x501S26600488x469\nAS1dc42S26602M534x512S1dc42504x488S26602467x490"
+swu = "𝠀񅋅񈙅𝠃𝤒𝤦񅋅𝣺𝣦񈙅𝣼𝤈\n𝠀񅋁񈙁𝠃𝤒𝤥񅋁𝣺𝤇񈙁𝣺𝣧\n𝠀񅋃񈙃𝠃𝤨𝤒񅋃𝤊𝣺񈙃𝣥𝣼"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tawa.gif"
