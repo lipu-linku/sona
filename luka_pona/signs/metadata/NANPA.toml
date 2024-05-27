@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "NIMI, MUTE"
 
 [signwriting]
-fsw = "M533x531S31410482x483S14c00494x500S20500523x491"
-swu = "𝠃𝤧𝤥񌞑𝣴𝣵񁲁𝤀𝤆񆇡𝤝𝣽"
+fsw = "AS14c00S20500S31410M533x531S31410482x483S14c00494x500S20500523x491"
+swu = "𝠀񁲁񆇡񌞑𝠃𝤧𝤥񌞑𝣴𝣵񁲁𝤀𝤆񆇡𝤝𝣽"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nanpa.gif"

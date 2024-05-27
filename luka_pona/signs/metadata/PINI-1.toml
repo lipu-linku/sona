@@ -1,0 +1,18 @@
+#:schema ../../../api/generated/sign.json
+definition = "pini"
+id = "PINI"
+is_two_handed = false
+new_gloss = "PINI-1"
+old_gloss = "PINI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "CLOSE, CLOSE-DOWN"
+
+[signwriting]
+fsw = "AS15a30S2a200M512x531S15a30495x470S2a200489x503"
+swu = "𝠀񂇱񉳁𝠃𝤒𝤥񂇱𝤁𝣨񉳁𝣻𝤉"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pini.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pini.mp4"

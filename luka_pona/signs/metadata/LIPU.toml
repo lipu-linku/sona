@@ -1,7 +1,7 @@
 #:schema ../../../api/generated/sign.json
 definition = "lipu"
 id = "LIPU"
-is_two_handed = false
+is_two_handed = true
 new_gloss = "LIPU"
 old_gloss = "LIPU"
 
@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "BOOK"
 
 [signwriting]
-fsw = "M518x518S15a37482x483S15a31495x489S20500493x507"
-swu = "𝠃𝤘𝤘񂇸𝣴𝣵񂇲𝤁𝣻񆇡𝣿𝤍"
+fsw = "AS15a37S15a31S20500M518x518S15a37482x483S15a31495x489S20500493x507"
+swu = "𝠀񂇸񂇲񆇡𝠃𝤘𝤘񂇸𝣴𝣵񂇲𝤁𝣻񆇡𝣿𝤍"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lipu.gif"

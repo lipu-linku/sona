@@ -9,8 +9,8 @@ old_gloss = "INSA"
 language = "a priori"
 
 [signwriting]
-fsw = "M512x524S1dc44488x476S20500497x513"
-swu = "𝠃𝤒𝤞񅋅𝣺𝣮񆇡𝤃𝤓"
+fsw = "AS1dc44S20500M512x524S1dc44488x476S20500497x513"
+swu = "𝠀񅋅񆇡𝠃𝤒𝤞񅋅𝣺𝣮񆇡𝤃𝤓"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/insa.gif"

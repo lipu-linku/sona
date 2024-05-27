@@ -9,8 +9,8 @@ old_gloss = "PI"
 language = "a priori"
 
 [signwriting]
-fsw = "M544x515S1ce42457x493S1ce20522x485S2df08494x492"
-swu = "𝠃𝤲𝤕񄶃𝣛𝣿񄵡𝤜𝣷񋎩𝤀𝣾"
+fsw = "AS1ce42S1ce20S2df08M544x515S1ce42457x493S1ce20522x485S2df08494x492"
+swu = "𝠀񄶃񄵡񋎩𝠃𝤲𝤕񄶃𝣛𝣿񄵡𝤜𝣷񋎩𝤀𝣾"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pi.gif"

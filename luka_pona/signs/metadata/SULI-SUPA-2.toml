@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "BIG"
 
 [signwriting]
-fsw = "M518x537S15a50483x464S22b00502x464S15a38483x508S22b14502x507"
-swu = "𝠃𝤘𝤫񂈑𝣵𝣢񇀡𝤈𝣢񂇹𝣵𝤎񇀵𝤈𝤍"
+fsw = "AS15a50S15a38S22b00S22b14M518x537S15a50483x464S15a38483x508S22b00502x464S22b14502x507"
+swu = "𝠀񂈑񂇹񇀡񇀵𝠃𝤘𝤫񂈑𝣵𝣢񂇹𝣵𝤎񇀡𝤈𝣢񇀵𝤈𝤍"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"

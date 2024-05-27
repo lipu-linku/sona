@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "DIFFERENT"
 
 [signwriting]
-fsw = "M529x533S10050509x468S10058476x468S2a208506x505S2a210471x505"
-swu = "𝠃𝤣𝤧񀁑𝤏𝣦񀁙𝣮𝣦񉳉𝤌𝤋񉳑𝣩𝤋"
+fsw = "AS10050S10058S2a208S2a210M529x533S10050509x468S10058476x468S2a208506x505S2a210471x505"
+swu = "𝠀񀁑񀁙񉳉񉳑𝠃𝤣𝤧񀁑𝤏𝣦񀁙𝣮𝣦񉳉𝤌𝤋񉳑𝣩𝤋"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ante.gif"

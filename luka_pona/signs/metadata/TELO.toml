@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "OCEAN"
 
 [signwriting]
-fsw = "M512x540S14c50488x509S22510489x494S26600492x460"
-swu = "𝠃𝤒𝤮񁳑𝣺𝤏񆷱𝣻𝤀񈙁𝣾𝣞"
+fsw = "AS14c50S22510S26600M512x540S14c50488x509S22510489x494S26600492x460"
+swu = "𝠀񁳑񆷱񈙁𝠃𝤒𝤮񁳑𝣺𝤏񆷱𝣻𝤀񈙁𝣾𝣞"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/telo.gif"

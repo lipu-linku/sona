@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "ANTE-WAN-2"
 
 [signwriting]
-fsw = "M512x533S10050494x468S2a208489x505"
-swu = "𝠃𝤒𝤧񀁑𝤀𝣦񉳉𝣻𝤋"
+fsw = "AS10050S2a208M512x533S10050494x468S2a208489x505"
+swu = "𝠀񀁑񉳉𝠃𝤒𝤧񀁑𝤀𝣦񉳉𝣻𝤋"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ante.gif"

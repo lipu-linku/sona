@@ -14,8 +14,8 @@ language = "Toki Pona Sign Language (Chuff)"
 sign = "lupa"
 
 [signwriting]
-fsw = "M508x508S17610492x492"
-swu = "𝠃𝤎𝤎񂱑𝣾𝣾"
+fsw = "AS17610M508x508S17610492x492"
+swu = "𝠀񂱑𝠃𝤎𝤎񂱑𝣾𝣾"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lupa.gif"

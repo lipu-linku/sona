@@ -10,8 +10,8 @@ language = "toki pona luka pu"
 sign = "jo"
 
 [signwriting]
-fsw = "M513x509S1823d488x492"
-swu = "𝠃𝤓𝤏񃃾𝣺𝣾"
+fsw = "AS1823dM513x509S1823d488x492"
+swu = "𝠀񃃾𝠃𝤓𝤏񃃾𝣺𝣾"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jo.gif"

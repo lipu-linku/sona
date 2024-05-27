@@ -10,8 +10,8 @@ language = "ASL and BSL"
 sign = "BUT"
 
 [signwriting]
-fsw = "M542x515S10002459x499S10020527x485S2df08497x494"
-swu = "𝠃𝤰𝤕񀀃𝣝𝤅񀀡𝤡𝣷񋎩𝤃𝤀"
+fsw = "AS10002S10020S2df08M542x515S10002459x499S10020527x485S2df08497x494"
+swu = "𝠀񀀃񀀡񋎩𝠃𝤰𝤕񀀃𝣝𝤅񀀡𝤡𝣷񋎩𝤃𝤀"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/taso.gif"

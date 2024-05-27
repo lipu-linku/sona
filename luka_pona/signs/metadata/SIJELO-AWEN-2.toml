@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "BODY"
 
 [signwriting]
-fsw = "M532x514S15a02505x486S15a0a469x486S20500515x503S20500477x503"
-swu = "𝠃𝤦𝤔񂇃𝤋𝣸񂇋𝣧𝣸񆇡𝤕𝤉񆇡𝣯𝤉"
+fsw = "AS15a02S15a0aS20500S20500M532x514S15a02505x486S15a0a469x486S20500515x503S20500477x503"
+swu = "𝠀񂇃񂇋񆇡񆇡𝠃𝤦𝤔񂇃𝤋𝣸񂇋𝣧𝣸񆇡𝤕𝤉񆇡𝣯𝤉"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sijelo.gif"

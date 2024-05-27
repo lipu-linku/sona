@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "MUTE"
 
 [signwriting]
-fsw = "M538x526S14c00509x475S14c08471x476S2eb0a506x511S2eb02463x511"
-swu = "𝠃𝤬𝤠񁲁𝤏𝣭񁲉𝣩𝣮񋠫𝤌𝤑񋠣𝣡𝤑"
+fsw = "AS14c00S14c08S2eb0aS2eb12M538x526S14c00509x475S14c08471x476S2eb0a506x511S2eb12463x511"
+swu = "𝠀񁲁񁲉񋠫񋠳𝠃𝤬𝤠񁲁𝤏𝣭񁲉𝣩𝣮񋠫𝤌𝤑񋠳𝣡𝤑"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kulupu.gif"

@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "LOOK"
 
 [signwriting]
-fsw = "M508x515S11550493x485\nM508x515S11554493x485\nM515x508S11552485x493"
-swu = "𝠃𝤎𝤕񀠱𝣿𝣷\n𝠃𝤎𝤕񀠵𝣿𝣷\n𝠃𝤕𝤎񀠳𝣷𝣿"
+fsw = "AS10e50M508x515S10e50493x485\nAS10e54M508x515S10e54493x485\nAS10e52M515x508S10e52485x493"
+swu = "𝠀񀖑𝠃𝤎𝤕񀖑𝣿𝣷\n𝠀񀖕𝠃𝤎𝤕񀖕𝣿𝣷\n𝠀񀖓𝠃𝤕𝤎񀖓𝣷𝣿"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lukin.gif"

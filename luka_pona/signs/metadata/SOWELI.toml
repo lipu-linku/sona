@@ -10,8 +10,8 @@ language = "Toki Pona Sign Language (Chuff)"
 sign = "soweli"
 
 [signwriting]
-fsw = "M508x533S10e20492x468S22b04492x503"
-swu = "𝠃𝤎𝤧񀕡𝣾𝣦񇀥𝣾𝤉"
+fsw = "AS10e20S22b04M508x533S10e20492x468S22b04492x503"
+swu = "𝠀񀕡񇀥𝠃𝤎𝤧񀕡𝣾𝣦񇀥𝣾𝤉"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/soweli.gif"

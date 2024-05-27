@@ -14,8 +14,8 @@ language = "toki pona luka pu"
 sign = "laso"
 
 [signwriting]
-fsw = "M516x521S1ce11493x480S15a38484x494S20500500x510"
-swu = "𝠃𝤖𝤛񄵒𝣿𝣲񂇹𝣶𝤀񆇡𝤆𝤐"
+fsw = "AS1ce10S15a38S20500M518x521S1ce10496x490S15a38482x480S20500483x510"
+swu = "𝠀񄵑񂇹񆇡𝠃𝤘𝤛񄵑𝤂𝣼񂇹𝣴𝣲񆇡𝣵𝤐"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/laso.gif"

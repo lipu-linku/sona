@@ -22,8 +22,8 @@ language = "sitelen pona"
 sign = "len"
 
 [signwriting]
-fsw = "M551x532S18241526x469S18249449x469S22b04529x491S22b14455x491S37a00519x484S37a00479x484S36d00479x480"
-swu = "𝠃𝤹𝤦񃄂𝤠𝣧񃄊𝣓𝣧񇀥𝤣𝣽񇀵𝣙𝣽񎷁𝤙𝣶񎷁𝣱𝣶񎣡𝣱𝣲"
+fsw = "AS18241S18249S22b04S22b14S36d00M551x526S18241526x474S18249449x474S22b04529x496S22b14455x496S36d00479x485"
+swu = "𝠀񃄂񃄊񇀥񇀵񎣡𝠃𝤹𝤠񃄂𝤠𝣬񃄊𝣓𝣬񇀥𝤣𝤂񇀵𝣙𝤂񎣡𝣱𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/len.gif"

@@ -1,7 +1,7 @@
 #:schema ../../../api/generated/sign.json
 definition = "sin, namako"
 id = "SIN/NAMAKO^3"
-is_two_handed = false
+is_two_handed = true
 new_gloss = "SIN-JO-SINPIN"
 old_gloss = "SIN/NAMAKO"
 
@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "NEW"
 
 [signwriting]
-fsw = "M513x548S18235488x531S15a00492x486S20500493x519S22b00490x453"
-swu = "𝠃𝤓𝤶񃃶𝣺𝤥񂇁𝣾𝣸񆇡𝣿𝤙񇀡𝣼𝣗"
+fsw = "AS15a00S18235S20500S22b00M515x539S18235485x522S15a00490x495S20500505x509S22b00488x462"
+swu = "𝠀񂇁񃃶񆇡񇀡𝠃𝤕𝤭񃃶𝣷𝤜񂇁𝣼𝤁񆇡𝤋𝤏񇀡𝣺𝣠"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
