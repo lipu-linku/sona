@@ -14,7 +14,7 @@ import {
 	SitelenPonaTranslation,
 	Word,
 	Words,
-} from "$lib";
+} from "../lib";
 import { Hono } from "hono";
 import type { z } from "zod";
 import apiV1 from "./v1";
@@ -102,7 +102,9 @@ export const fetchFile = async <S extends z.ZodType>(
 ): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
 	schema.safeParse(
 		__BRANCH__ === versions[version].branch
-			? await import.meta.glob(`../../raw/*.json`, { import: "default" })[`../../raw/${filename}`]()
+			? await import.meta
+					.glob(`../../raw/*.json`, { import: "default" })
+					[`../../raw/${filename}`]?.()
 			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
 					r.json(),
 				),

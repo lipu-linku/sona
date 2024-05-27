@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "anta"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["ilo Powa"]
+see_also = []
+source_language = "Okinawan"
+usage_category = "sandbox"
+word = "anta"
+deprecated = false
+audio = []
+[[etymology]]
+alt = "anda"
+word = "油"
+
+[representations]
+ligatures = ["anta"]
+
+[usage]
+2023-09 = 1
+
+[resources]

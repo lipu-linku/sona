@@ -4,9 +4,9 @@ author_verbatim = ""
 author_verbatim_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
+coined_year = "2009"
 creator = ["jan Sonja"]
-see_also = ["mani"]
+see_also = ["mani", "pana", "jo"]
 source_language = "Akan"
 usage_category = "core"
 word = "esun"
@@ -21,7 +21,7 @@ author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/esun.mp3"
 
 [[etymology]]
-word = "unknown"
+word = "edwamu"
 
 [ku_data]
 business = 48

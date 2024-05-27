@@ -10,14 +10,15 @@ see_also = ["ona"]
 source_language = "unknown"
 usage_category = "sandbox"
 word = "iki"
-deprecated = false
+deprecated = true
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/iki.mp3"
 
 [[etymology]]
-word = "unknown"
+word = "იგი"
+alt = "igi"
 
 [representations]
 ligatures = ["iki"]

@@ -44,7 +44,7 @@ eo = "ADJEKTIVO (ĉi) tiu, (ĉi) tio"
 fr = "ADJECTIF ce, cette"
 
 [representations]
-ligatures = ["ni", "ni2"]
+ligatures = ["ni1", "ni2"]
 ucsur = "U+F1941"
 sitelen_emosi = "👇"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ni.jpg"

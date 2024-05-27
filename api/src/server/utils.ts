@@ -1,6 +1,6 @@
-import { Languages } from "@kulupu-linku/sona";
-import { z } from "zod";
+import type { Languages } from "../lib";
 import { zValidator } from "@hono/zod-validator";
+import { z } from "zod";
 
 export const entries = <const T extends object>(
 	o: T,
@@ -21,7 +21,7 @@ export const filterObject = <const T extends object>(
 	return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
 };
 
-export const langIdCoalesce = (lang: string, langs: Languages) => {
+export const langIdCoalesce = (lang: string, langs: Languages): string | undefined => {
 	if (lang in langs) {
 		return lang; // most common case
 	}
@@ -36,7 +36,8 @@ export const langIdCoalesce = (lang: string, langs: Languages) => {
 			}
 		}
 	}
-	return null;
+
+	return undefined;
 };
 
 export const langValidator = zValidator(

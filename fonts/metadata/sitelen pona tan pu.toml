@@ -1,0 +1,19 @@
+#:schema ../../api/generated/font.json
+id = "sitelen pona tan pu"
+creator = ["HBMmaster"]
+features = [
+  "incomplete",
+  "codepoints only",
+]
+filename = "sitelen-pona-tan-pu.otf"
+last_updated = "2024-04"
+license = "FontStruct NC"
+ligatures = false
+name = "sitelen pona tan pu"
+style = "pixelated"
+ucsur = false
+version = "HBMmaster"
+writing_system = "sitelen pona"
+
+[links]
+repo = "https://fontstruct.com/fontstructions/show/1315854/sitelen-pona-tan-pu"

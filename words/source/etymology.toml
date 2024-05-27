@@ -1,5 +1,4 @@
 #:schema ../../api/generated/etymology_translation.json
-
 [[Pingo]]
 language = "a priori"
 
@@ -21,6 +20,10 @@ language = "Dutch"
 [[ako]]
 definition = "(interjection) surprise"
 language = "Korean"
+
+[[aku]]
+definition = "sour"
+language = "Romanian"
 
 [[ala]]
 definition = "no"
@@ -49,6 +52,10 @@ language = "toki pona"
 [[anpa]]
 definition = "below"
 language = "Acadian French"
+
+[[anta]]
+definition = "oil"
+language = "Okinawan"
 
 [[ante]]
 definition = "other, different"
@@ -95,6 +102,7 @@ language = "French"
 
 [[esun]]
 language = "Akan"
+definition = "at market"
 
 [[ete]]
 definition = "beyond, further, over"
@@ -129,8 +137,8 @@ definition = "bad, mean, wicked"
 language = "Finnish"
 
 [[iki]]
-definition = "unknown"
-language = "unknown"
+definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
+language = "Georgian"
 
 [[ilo]]
 definition = "tool"
@@ -148,9 +156,17 @@ language = "Tok Pisin"
 definition = "inside"
 language = "English"
 
+[[inta]]
+definition = "still, yet, even"
+language = "Portuguese"
+
 [[ipi]]
 definition = "unknown"
 language = "unknown"
+
+[[iseki]]
+definition = "flower, blossom"
+language = "Turkish"
 
 [[isipin]]
 definition = "to think"
@@ -262,6 +278,10 @@ language = "Esperanto"
 [[kan]]
 definition = "with"
 language = "Latin"
+
+[[kana]]
+definition = "dream"
+language = "Tulu"
 
 [[kapa]]
 definition = "head, cup"
@@ -662,7 +682,7 @@ language = "toki pona"
 
 [[misa]]
 definition = "mouse (diminutive)"
-language = "Ukranian"
+language = "Ukrainian"
 
 [[misikeke]]
 definition = "medicine, drug"
@@ -758,7 +778,7 @@ definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
 [[neja]]
-definition = "four"
+definition = "(number) four"
 language = "Finnish"
 
 [[nele]]
@@ -792,6 +812,10 @@ language = "Japanese"
 [[noka]]
 definition = "foot, leg"
 language = "Serbo-Croatian"
+
+[[nowi]]
+definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+language = "Vietnamese"
 
 [[nu]]
 language = "a priori"
@@ -985,7 +1009,7 @@ definition = "bug, insect, arachnid"
 language = "toki pona"
 
 [[po]]
-definition = "four"
+definition = "(number) four"
 language = "English"
 
 [[poka]]
@@ -1053,15 +1077,15 @@ definition = "jan Samu"
 language = "toki pona"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Japanese"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Cantonese"
 
 [[san]]
-definition = "three"
+definition = "(number) three"
 language = "Cantonese"
 
 [[seli]]
@@ -1101,7 +1125,7 @@ definition = "new, fresh"
 language = "Mandarin"
 
 [[sina]]
-definition = "you"
+definition = "(pronoun) you, y'all"
 language = "Finnish"
 
 [[sinpin]]
@@ -1127,6 +1151,10 @@ language = "English"
 [[soko]]
 definition = "mushroom"
 language = "Georgian"
+
+[[sole]]
+definition = "to use to, to tend to"
+language = "Spanish"
 
 [[sona]]
 definition = "knowledge"
@@ -1179,8 +1207,11 @@ language = "Tok Pisin"
 definition = "sweet"
 language = "English"
 
+[[ta]]
+language = "a priori"
+
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoiea)"
+definition = "the sound of two magnets hitting each other (onomatopoeia)"
 language = "Korean"
 
 [[tan]]
@@ -1272,7 +1303,7 @@ definition = "two"
 language = "Esperanto"
 
 [[tuli]]
-definition = "three"
+definition = "(number) three"
 language = "English"
 
 [[u]]
@@ -1286,7 +1317,7 @@ language = "Iqglic"
 language = "onomatopoeia"
 
 [[unu]]
-definition = "purple"
+definition = "purple, violet"
 language = "Malay-Indonesian"
 
 [[usawi]]
