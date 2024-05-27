@@ -10,8 +10,8 @@ language = "multiple SLs (including IS)"
 sign = "NEW"
 
 [signwriting]
-fsw = "AS15a06S15a20S22b00M514x530S15a06487x513S15a20494x503S22b00492x470"
-swu = "𝠀񂇇񂇡񇀡𝠃𝤔𝤤񂇇𝣹𝤓񂇡𝤀𝤉񇀡𝣾𝣨"
+fsw = "AS15a20S15a06S22b00M514x530S15a06487x513S15a20494x503S22b00492x470"
+swu = "𝠀񂇡񂇇񇀡𝠃𝤔𝤤񂇇𝣹𝤓񂇡𝤀𝤉񇀡𝣾𝣨"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
