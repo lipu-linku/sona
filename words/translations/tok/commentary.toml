@@ -29,7 +29,7 @@ eki = 'o kepeken ala nimi ni. o kepeken nimi "natu".'
 eliki = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
 en = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
 enko = """
-Considered deprecated by the author: "mi pali e nimi enko a a
+nimi ni li ike tawa jan pali pi nimi ni la ona li toki ni: "mi pali e nimi enko a a
 open la pilin mi li sama
 nimi enko li pona, jan mute o kepeken
 taso kepeken pi toki pona la mi kama sona
@@ -40,20 +40,26 @@ epiku = ""
 esun = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
 ete = ""
 ewe = ""
-i = 'In a poll in 2002, "i" was proposed as a replacement for the now-archaic third-person pronoun "iki". However, it failed to get enough votes.'
+i = """
+nimi "ona" li nimi "iki" lon tenpo pini suli la lon tenpo sike mute ale tu la lipu pi wile kulupu li toki ni "sina wile ala wile e ni: nimi 'iki' li kama nimi 'i'".
+taso: jan mute li wile ala la nimi "i" li lon ala."""
 ijo = ""
 ike = ""
 iki = 'lon tenpo sike mute ale tu la lipu pi wile kulupu li toki ni: kalama "iki" li sama e kalama "ike" la nimi "iki" li kama nimi "ona".'
 ilo = ""
 insa = ""
 inta = 'A particle that allows the speaker to specify the level of information they have about a situation. As a modifier, it means "at least" or "definitely", indicating knowledge of one thing but not necessarily other things.'
-ipi = 'In a poll in 2002, "ipi" was proposed as a replacement for the now-archaic third-person pronoun "iki". However, it failed to get enough votes.'
+ipi = """
+nimi "ona" li nimi "iki" lon tenpo pini suli la lon tenpo sike mute ale tu la lipu pi wile kulupu li toki ni "sina wile ala wile e ni: nimi 'iki' li kama nimi 'ipi'".
+taso: jan mute li wile ala la nimi "ipi" li lon ala."""
 iseki = 'Intended as an alt for namako that removes the "additional, extra" definition. used to emphasize that these details are core to something, and not superfluous.'
 isipin = ""
 itomi = 'Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where "hit or miss" was a prominent lyric. Sources disagree on who coined the word.'
 jaki = ""
 jaku = ""
-jalan = 'In a poll in 2002, "jalan" was proposed as a replacement for "noka". However, it failed to get enough votes.'
+jalan = """
+lon tenpo sike mute ale tu la lipu pi wile kulupu li toki ni "sina wile ala wile e ni: nimi 'noka' li kama nimi 'jalan'".
+taso: jan mute li wile ala la nimi "jalan" li lon ala."""
 jami = 'Often used for "stim".'
 jan = 'There are two sides to the concept, "sentient entity" and "homo sapiens", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial.'
 jans = "Not coined directly, but developed out of repeated use in the early ma pona pi toki pona Discord server community. jans was repeatedly used because of the humor in adding an English plural suffix to a Toki Pona word."
@@ -73,7 +79,9 @@ kama = ""
 kamalawala = "The word is from a story called \"jan pi Kamalawala\". A character's name is described as \"nimi Jan pi Kama e Lawa Ala\", and a shortened version given as \"nimi Kamalawala\". jan Kipo is responsible for it becoming a word instead of just a name."
 kan = ""
 kana = "Serves as a non-deprecated, neutral-connotation, and polysemous variant of words like oni, powe, or jume."
-kapa = 'In a poll in 2002, "kapa" was proposed as a replacement for "nena". However, it failed to get enough votes.'
+kapa = """
+lon tenpo sike mute ale tu la lipu pi wile kulupu li toki ni "sina wile ala wile e ni: nimi 'nena' li kama nimi 'kapa'".
+taso: jan mute li wile ala la nimi "kapa" li lon ala."""
 kapesi = ""
 kasi = ""
 ke = ""
@@ -197,7 +205,7 @@ pana = ""
 pasila = ""
 pata = ""
 peta = ""
-peto = "This word is deprecated by the creator."
+peto = "nimi ni li ike tawa jan pali pi nimi ni."
 pi = 'The usage of "pi" to mean "of" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases.'
 pika = ""
 pilin = ""
