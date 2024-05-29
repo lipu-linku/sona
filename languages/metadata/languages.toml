@@ -79,16 +79,6 @@ en = "English"
 endonym = "English"
 tok = "toki Inli"
 
-[eng]
-locale = "eng-2"
-id = "eng"
-direction = "ltr"
-
-[eng.name]
-en = "Definition Rework"
-endonym = "Definition Rework"
-tok = "sona nimi sin"
-
 [eo]
 locale = "eo-UY"
 id = "eo"
