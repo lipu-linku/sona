@@ -1,6 +1,6 @@
 Pingo = ""
 a = 'Běžně používané (před i po pu), "a" a "kin" jsou odlišná slova, každé se svým vlastním významem. V pu jsou považovány za synonyma.'
-aka = 'This word is deprecated by the creator, replaced by "natu".'
+aka = 'Toto slovo bylo zrušeno tvůrcem, nahrazeno slovem "natu".'
 akesi = 'akesi znamenávalo "neroztomilé zvíře" a je tak definováno v pu, ale tahle definice se přestala používat a později byla odstraněna v poznámkách k pu, které byli zveřejněny s ku.'
 ako = "Prakticky neznámé mimo korejskou toki pona komunitu."
 aku = ""
@@ -10,22 +10,24 @@ ale = """
 "ali" je alternativa k "ale", která byla zavedená v anketě v roce 2002, aby se nepletlo se slovem "ala". Nicméně používání "ale" radši než "ali" zůstává častější.
 Většina mluvčích uvádí, že nachápou význam "hojné, vydatné" alespoň mimo kontext.
 "20, 120" byli ne-pu významy, které byli předem používány v komunitě spolu s "100"; dnes jsou prakticky neslýchané."""
-alente = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
-ali = '"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" has been more common since at least the release of pu. Generally not considered a word in its own right.'
+alente = 'Vytvořeno humorně jako "poslení nimisin" - každé novější slovo by sémanticky bylo zahrnuto v alente, takže může být vyvráceno za to, že je "alente, ale ještě podrobnější".'
+ali = """
+"ali" je alternativa k "ale" vytvořená anketou v roce 2002, aby se předešlo záměně s "ala". Nicméně, používání "ale" nad "ali" je častější minimálně od vzniku pu.
+Obecně nepovažováno za slovo samo o sobě."""
 alu = ""
-anpa = 'In common usage (both before and after pu), "anpa" has the meaning of "place that is down". In pu, "noka" has that meaning instead.'
+anpa = 'Běžně používáno (před i po pu). "anpa" má význam "místo, které je dole". V pu má ale tento význam slovo "noka".'
 anta = ""
 ante = ""
 anu = 'Užití slova "anu" jako obsahové slovo s významem "vybrat" zůstává kontroverzní.'
-apeja = 'According to jan Sonja, "apeja" never appeared in any pre-pu toki pona dictionary made by her and never promoted by her, instead it may have been "just an experimental idea in a forum post".'
-awase = 'jan Lenoka further elaborated the semantics to imply "to bump into, to make contact with".'
+apeja = 'Podle jan Sonja "apeja" se nikdy neobjevilo v jakémkoli před-pu toki pona slovníku od ní a nikdy ho nepropagovala. Místo toho to mohl být "jenom experimentální nápad na fóru".'
+awase = 'jan Lenoka dále rozpracoval sémantiku, aby znamenalo "narazit do, navázat kontakt s".'
 awen = ""
 e = ""
-eki = 'It is recommended to use "natu" instead.'
+eki = 'Namísto toho je doporučeno používat "natu".'
 eliki = "an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
 en = "There are various analyses of the syntactic role of \"en\". Originally intended to be used as \"and\", it was changed (via poll in 2002) to just be used with \"head nouns\". One of the more recent analyses (including 2021's April Fools) treats \"en\" as a subject marker."
 enko = """
-Considered deprecated by the author: "mi pali e nimi enko a a
+Považovýno za zastaralé tvůrcem: "mi pali e nimi enko a a
 open la pilin mi li sama
 nimi enko li pona, jan mute o kepeken
 taso kepeken pi toki pona la mi kama sona
@@ -33,7 +35,7 @@ nimi ante li ken toki e wile toki pi nimi enko
 la ona li suli ala"\
 """
 epiku = ""
-esun = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+esun = 'Podle jan Sonja "esun [jí] řekl řidič taxi, který mluvil jazykem z akanské rodiny v západní Africe.'
 ete = ""
 ewe = ""
 i = '"i" was proposed as a replacement for "iki" in a poll in 2002. However, "i" failed to get enough votes. "iki" was instead replaced by "ona".'
