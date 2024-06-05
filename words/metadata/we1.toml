@@ -23,7 +23,7 @@ word = "güey"
 word = "man"
 
 [representations]
-ligatures = ["we"]
+ligatures = ["we1"]
 sitelen_emosi = "🔒"
 
 [usage]
