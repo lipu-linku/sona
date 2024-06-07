@@ -12,8 +12,11 @@ usage_category = "sandbox"
 word = "penpo"
 deprecated = false
 
-[[audio]]
 # as of 2024-06 has not been recorded
+audio = []
+# [[audio]]
+# author = ""
+# link = ""
 
 [[etymology]]
 word = "(pi) toki pona taso"
