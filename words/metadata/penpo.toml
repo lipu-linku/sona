@@ -12,15 +12,17 @@ usage_category = "sandbox"
 word = "penpo"
 deprecated = false
 
+[[audio]]
+# as of 2024-06 has not been recorded
+
 [[etymology]]
 word = "(pi) toki pona taso"
 
 [representations]
 ligatures = ["penpo"]
-ucsur = ""
-sitelen_emosi = ""
-sitelen_sitelen = ""
-sitelen_jelo = []
+
+[usage]
+# as of 2024-06 has not been polled yet
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/penpo"
