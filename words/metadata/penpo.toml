@@ -1,0 +1,20 @@
+#:schema ../../schemas/generated/word.json
+author_verbatim = "tenpo li penpo a"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1087794149127884961"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["jan Kita"]
+see_also = ["kokosila"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "penpo"
+
+[[etymology]]
+word = "(pi) toki pona taso"
+
+[representations]
+sitelen_emosi = ""
+sitelen_pona = ["penpo"]
+sitelen_sitelen = ""
+ucsur = ""
