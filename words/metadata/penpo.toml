@@ -10,12 +10,17 @@ see_also = ["kokosila"]
 source_language = "toki pona"
 usage_category = "sandbox"
 word = "penpo"
+deprecated = false
 
 [[etymology]]
 word = "(pi) toki pona taso"
 
 [representations]
-sitelen_emosi = ""
-sitelen_pona = ["penpo"]
-sitelen_sitelen = ""
+ligatures = ["penpo"]
 ucsur = ""
+sitelen_emosi = ""
+sitelen_sitelen = ""
+sitelen_jelo = []
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/penpo"
