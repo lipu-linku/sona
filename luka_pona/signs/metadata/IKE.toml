@@ -9,8 +9,8 @@ old_gloss = "IKE"
 language = "a priori"
 
 [signwriting]
-fsw = "M512x508S1f520488x493"
-swu = "𝠃𝤒𝤎񅰁𝣺𝣿"
+fsw = "AS1f520M512x508S1f520488x493"
+swu = "𝠀񅰁𝠃𝤒𝤎񅰁𝣺𝣿"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ike.gif"

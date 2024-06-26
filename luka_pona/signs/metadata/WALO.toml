@@ -9,8 +9,8 @@ old_gloss = "WALO"
 language = "a priori"
 
 [signwriting]
-fsw = "M531x518S31410482x483S1ce10509x483S20500513x470"
-swu = "𝠃𝤥𝤘񌞑𝣴𝣵񄵑𝤏𝣵񆇡𝤓𝣨"
+fsw = "AS1ce10S20500S31410M531x518S31410482x483S1ce10509x483S20500513x470"
+swu = "𝠀񄵑񆇡񌞑𝠃𝤥𝤘񌞑𝣴𝣵񄵑𝤏𝣵񆇡𝤓𝣨"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/walo.gif"

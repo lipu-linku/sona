@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "CLOSE, CLOSE-DOWN"
 
 [signwriting]
-fsw = "M528x531S15a30511x470S15a38477x471S2a200505x503S2a218473x503"
-swu = "𝠃𝤢𝤥񂇱𝤑𝣨񂇹𝣯𝣩񉳁𝤋𝤉񉳙𝣫𝤉"
+fsw = "AS15a30S15a38S2a200S2a218M528x531S15a30511x470S15a38477x471S2a200505x503S2a218473x503"
+swu = "𝠀񂇱񂇹񉳁񉳙𝠃𝤢𝤥񂇱𝤑𝣨񂇹𝣯𝣩񉳁𝤋𝤉񉳙𝣫𝤉"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pini.gif"

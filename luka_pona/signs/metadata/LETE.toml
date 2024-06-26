@@ -1,7 +1,7 @@
 #:schema ../../../api/generated/sign.json
 definition = "lete"
 id = "LETE"
-is_two_handed = false
+is_two_handed = true
 new_gloss = "LETE"
 old_gloss = "LETE"
 
@@ -10,8 +10,8 @@ language = "toki pona luka pu"
 sign = "lete"
 
 [signwriting]
-fsw = "M539x517S14c02493x493S14c0a476x485S22516526x483S22512462x495"
-swu = "𝠃𝤭𝤗񁲃𝣿𝣿񁲋𝣮𝣷񆷷𝤠𝣵񆷳𝣠𝤁"
+fsw = "AS14c02S14c0aS22516S22512M539x517S14c02493x493S14c0a476x485S22516526x483S22512462x495"
+swu = "𝠀񁲃񁲋񆷷񆷳𝠃𝤭𝤗񁲃𝣿𝣿񁲋𝣮𝣷񆷷𝤠𝣵񆷳𝣠𝤁"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lete.gif"

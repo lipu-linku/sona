@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "SHOUT"
 
 [signwriting]
-fsw = "M538x523S18217521x498S20500508x504S33b00482x483"
-swu = "𝠃𝤬𝤝񃃘𝤛𝤄񆇡𝤎𝤊񍘡𝣴𝣵"
+fsw = "AS18217S20500S33b00M538x523S18217521x498S20500508x504S33b00482x483"
+swu = "𝠀񃃘񆇡񍘡𝠃𝤬𝤝񃃘𝤛𝤄񆇡𝤎𝤊񍘡𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mu.gif"

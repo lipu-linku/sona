@@ -9,8 +9,8 @@ old_gloss = "TENPO"
 language = "a priori"
 
 [signwriting]
-fsw = "M518x523S11544464x486S20500478x509S36a00482x477"
-swu = "𝠃𝤘𝤝񀠥𝣢𝣸񆇡𝣰𝤏񎟁𝣴𝣯"
+fsw = "AS11544S20500S36a00M518x523S11544464x486S20500478x509S36a00482x477"
+swu = "𝠀񀠥񆇡񎟁𝠃𝤘𝤝񀠥𝣢𝣸񆇡𝣰𝤏񎟁𝣴𝣯"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tenpo.gif"

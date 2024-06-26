@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/sign.json
+definition = "lili"
+id = "LILI"
+is_two_handed = true
+new_gloss = "LILI-TU-2"
+old_gloss = "LILI"
+
+[[etymology]]
+language = "BSL"
+sign = "REDUCE, CUT-DOWN"
+
+[[etymology]]
+language = "toki pona luka pu"
+sign = "lili"
+
+[signwriting]
+fsw = "AS11550S11508S22b04S22b10M520x540S11550481x461S11508482x506S22b04504x465S22b10504x510"
+swu = "𝠀񀠱񀟩񇀥񇀱𝠃𝤚𝤮񀠱𝣳𝣟񀟩𝣴𝤌񇀥𝤊𝣣񇀱𝤊𝤐"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"

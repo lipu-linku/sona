@@ -10,7 +10,7 @@ language = "multiple SLs"
 sign = "MUSHROOM"
 
 [signwriting]
-fsw = "M515x522S10010485x492S15a1a488x479S20500504x493"
-swu = "𝠃𝤕𝤜񀀑𝣷𝣾񂇛𝣺𝣱񆇡𝤊𝣿"
+fsw = "AS10018S15a12S20500M517x522S10018502x492S15a12489x479S20500484x492"
+swu = "𝠀񀀙񂇓񆇡𝠃𝤗𝤜񀀙𝤈𝣾񂇓𝣻𝣱񆇡𝣶𝣾"
 
 [video]

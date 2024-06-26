@@ -14,8 +14,8 @@ language = "sitelen pona"
 sign = "luka"
 
 [signwriting]
-fsw = "M512x539S14c20489x462S27206492x499"
-swu = "𝠃𝤒𝤭񁲡𝣻𝣠񈫇𝣾𝤅"
+fsw = "AS14c20M512x516S14c20489x485"
+swu = "𝠀񁲡𝠃𝤒𝤖񁲡𝣻𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/luka.gif"

@@ -6,12 +6,12 @@ new_gloss = "SAMA-WAN-2"
 old_gloss = "SAMA"
 
 [[etymology]]
-language = "multiple SLs (including IS)"
+language = "multiple SLs"
 sign = "SAME"
 
 [signwriting]
-fsw = "M533x533S10030514x467S10038472x467S2a200510x505S2a218468x505"
-swu = "𝠃𝤧𝤧񀀱𝤔𝣥񀀹𝣪𝣥񉳁𝤐𝤋񉳙𝣦𝤋"
+fsw = "AS10030S10038S2a200S2a218M533x533S10030514x467S10038472x467S2a200510x505S2a218468x505"
+swu = "𝠀񀀱񀀹񉳁񉳙𝠃𝤧𝤧񀀱𝤔𝣥񀀹𝣪𝣥񉳁𝤐𝤋񉳙𝣦𝤋"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sama.gif"

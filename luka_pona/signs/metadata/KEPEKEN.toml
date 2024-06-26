@@ -10,11 +10,11 @@ language = "BSL"
 sign = "USE, CONTROL"
 
 [[etymology]]
-language = "SSL (Swedish Sign Language - Svenskt Teckenspråk)"
+language = "SSL (Swedish Sign Language)"
 sign = "ANVÄNDA"
 
 [[etymology]]
-language = "PJM (Polish Sign Language - Polski Język Migowy)"
+language = "PJM (Polish Sign Language)"
 sign = "UŻYWAĆ"
 
 [[etymology]]
@@ -22,8 +22,8 @@ language = "LPSL"
 sign = "PALI-KON"
 
 [signwriting]
-fsw = "M523x513S1f550499x493S2ea34478x488"
-swu = "𝠃𝤝𝤓񅰱𝤅𝣿񋟵𝣰𝣺"
+fsw = "AS1f550S2ea34M512x523S1f550488x478S2ea34494x498"
+swu = "𝠀񅰱񋟵𝠃𝤒𝤝񅰱𝣺𝣰񋟵𝤀𝤄"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kepeken.gif"

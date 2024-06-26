@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "SINPIN"
 
 [signwriting]
-fsw = "M506x514S15a00494x487"
-swu = "𝠃𝤌𝤔񂇁𝤀𝣹"
+fsw = "AS15a00M506x514S15a00494x487"
+swu = "𝠀񂇁𝠃𝤌𝤔񂇁𝤀𝣹"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsi.gif"

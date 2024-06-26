@@ -14,8 +14,8 @@ language = "toki pona luka pu"
 sign = "kon"
 
 [signwriting]
-fsw = "M523x516S15210478x485S2f000502x495"
-swu = "𝠃𝤝𝤖񁻑𝣰𝣷񋨁𝤈𝤁"
+fsw = "AS15210S2f000M523x516S15210478x485S2f000502x495"
+swu = "𝠀񁻑񋨁𝠃𝤝𝤖񁻑𝣰𝣷񋨁𝤈𝤁"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kon.gif"

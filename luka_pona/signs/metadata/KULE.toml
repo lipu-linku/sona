@@ -22,8 +22,8 @@ language = "sitelen pona"
 sign = "kule"
 
 [signwriting]
-fsw = "M530x517S1ce10471x483S2e600501x484"
-swu = "𝠃𝤤𝤗񄵑𝣩𝣵񋙁𝤇𝣶"
+fsw = "AS1ce10S2e600M515x533S1ce10493x467S2e600486x500"
+swu = "𝠀񄵑񋙁𝠃𝤕𝤧񄵑𝣿𝣥񋙁𝣸𝤆"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kule.gif"

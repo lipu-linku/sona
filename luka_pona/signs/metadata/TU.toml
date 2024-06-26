@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "TWO"
 
 [signwriting]
-fsw = "M508x515S11520493x485"
-swu = "𝠃𝤎𝤕񀠁𝣿𝣷"
+fsw = "AS10e00M508x515S10e00493x485"
+swu = "𝠀񀕁𝠃𝤎𝤕񀕁𝣿𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tu.gif"

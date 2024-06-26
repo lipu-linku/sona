@@ -10,8 +10,8 @@ language = "LPSL"
 sign = "SAMA-WAN-2"
 
 [signwriting]
-fsw = "M512x533S10030493x468S2a200489x505"
-swu = "𝠃𝤒𝤧񀀱𝣿𝣦񉳁𝣻𝤋"
+fsw = "AS10030S2a200M512x533S10030493x468S2a200489x505"
+swu = "𝠀񀀱񉳁𝠃𝤒𝤧񀀱𝣿𝣦񉳁𝣻𝤋"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sama.gif"

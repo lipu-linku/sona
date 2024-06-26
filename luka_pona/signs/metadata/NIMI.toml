@@ -9,8 +9,8 @@ old_gloss = "NIMI"
 language = "a priori"
 
 [signwriting]
-fsw = "M531x523S31410482x483S15a01502x500S20500521x489"
-swu = "𝠃𝤥𝤝񂇂𝤈𝤆񆇡𝤛𝣻񌞑𝣴𝣵"
+fsw = "AS15a01S20500S31410M531x523S31410482x483S15a01502x500S20500521x489"
+swu = "𝠀񂇂񆇡񌞑𝠃𝤥𝤝񌞑𝣴𝣵񂇂𝤈𝤆񆇡𝤛𝣻"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nimi.gif"

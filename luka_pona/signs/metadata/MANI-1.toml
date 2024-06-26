@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/sign.json
+definition = "mani"
+id = "MANI"
+is_two_handed = false
+new_gloss = "MANI-1"
+old_gloss = "MANI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "COW"
+
+[[etymology]]
+language = "sitelen pona"
+sign = "mani"
+
+[signwriting]
+fsw = "AS10020S20500S2ff00M536x518S10020521x477S20500507x470S2ff00482x483"
+swu = "𝠀񀀡񀀩񆇡񆇡񋾡𝠃𝤪𝤘񀀡𝤛𝣯񀀩𝣡𝣰񆇡𝣵𝣨񆇡𝤍𝣨񋾡𝣴𝣵"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mani.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mani.mp4"

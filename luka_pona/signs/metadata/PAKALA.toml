@@ -9,8 +9,8 @@ old_gloss = "PAKALA"
 language = "a priori"
 
 [signwriting]
-fsw = "M528x532S14c50504x468S14c58473x468S2a208505x504S2a210473x504"
-swu = "𝠃𝤢𝤦񁳑𝤊𝣦񁳙𝣫𝣦񉳉𝤋𝤊񉳑𝣫𝤊"
+fsw = "AS14c50S14c58S2a208S2a210M528x532S14c50504x468S14c58473x468S2a208505x504S2a210473x504"
+swu = "𝠀񁳑񁳙񉳉񉳑𝠃𝤢𝤦񁳑𝤊𝣦񁳙𝣫𝣦񉳉𝤋𝤊񉳑𝣫𝤊"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pakala.gif"

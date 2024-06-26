@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "MOUTH"
 
 [signwriting]
-fsw = "M529x542S10c20496x520S20500519x506S30004482x483"
-swu = "𝠃𝤣𝤰񀒡𝤂𝤚񆇡𝤙𝤌񌀅𝣴𝣵"
+fsw = "AS10020S20500S30004M529x550S10020499x520S20500519x506S30004482x483"
+swu = "𝠀񀀡񆇡񌀅𝠃𝤣𝤸񀀡𝤅𝤚񆇡𝤙𝤌񌀅𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/uta.gif"

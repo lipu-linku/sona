@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "SMALL, LITTLE"
 
 [signwriting]
-fsw = "M511x515S1ce10489x485"
-swu = "𝠃𝤑𝤕񄵑𝣻𝣷"
+fsw = "AS1ce10M511x515S1ce10489x485"
+swu = "𝠀񄵑𝠃𝤑𝤕񄵑𝣻𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"

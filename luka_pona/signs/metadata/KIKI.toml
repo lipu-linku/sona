@@ -9,8 +9,8 @@ old_gloss = "KIKI"
 language = "a priori"
 
 [signwriting]
-fsw = "M525x514S1ce32475x487S2f004505x493"
-swu = "𝠃𝤟𝤔񄵳𝣭𝣹񋨅𝤋𝣿"
+fsw = "AS1ce32S2f004M525x514S1ce32475x487S2f004505x493"
+swu = "𝠀񄵳񋨅𝠃𝤟𝤔񄵳𝣭𝣹񋨅𝤋𝣿"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kiki.gif"

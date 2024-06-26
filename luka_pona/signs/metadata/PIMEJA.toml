@@ -10,8 +10,8 @@ language = "toki pona luka pu"
 sign = "pimeja"
 
 [signwriting]
-fsw = "M521x516S1ce32443x494S20500478x484S36d00479x499"
-swu = "𝠃𝤛𝤖񄵳𝣍𝤀񆇡𝣰𝣶񎣡𝣱𝤅"
+fsw = "AS1ce42S20500S36d00M521x513S1ce42444x491S20500478x487S36d00479x502"
+swu = "𝠀񄶃񆇡񎣡𝠃𝤛𝤓񄶃𝣎𝣽񆇡𝣰𝣹񎣡𝣱𝤈"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pimeja.gif"

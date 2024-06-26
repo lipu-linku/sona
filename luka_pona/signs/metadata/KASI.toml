@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "TREE"
 
 [signwriting]
-fsw = "M512x516S14c00489x485"
-swu = "𝠃𝤒𝤖񁲁𝣻𝣷"
+fsw = "AS14c00M512x516S14c00489x485"
+swu = "𝠀񁲁𝠃𝤒𝤖񁲁𝣻𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kasi.gif"
