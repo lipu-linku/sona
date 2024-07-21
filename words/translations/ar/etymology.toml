@@ -48,6 +48,10 @@ language = "الهولندية"
 definition = "(indicate context for a following sentence)"
 language = "التوكي بونا"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "الفرنسية الأكادية"
@@ -60,6 +64,9 @@ language = "الأوكيناوية"
 definition = "other, different"
 language = "الهولندية"
 
+[[antikontitutonelema]]
+language = "الفرنسية"
+
 [[anu]]
 definition = "or"
 language = "الجورجية"
@@ -67,6 +74,16 @@ language = "الجورجية"
 [[apeja]]
 definition = "shame, disgrace, dishonor"
 language = "الفنلندية"
+
+[[apelo]]
+language = "الفرنسية"
+
+[[api]]
+definition = "bee"
+language = "Latin"
+
+[[apoko]]
+language = "الإنجليزية"
 
 [[awase]]
 definition = "hit, strike"
@@ -85,11 +102,15 @@ language = "الإنجليزية"
 
 [[eliki]]
 definition = "pain, distress"
-language = "Tsalagi"
+language = "الشيروكي"
 
 [[en]]
 definition = "and"
 language = "الهولندية"
+
+[[enepi]]
+definition = "non-fungible token"
+language = "الإنجليزية"
 
 [[enko]]
 definition = "time, period, situation"
@@ -99,13 +120,16 @@ language = "التوكي بونا"
 definition = "epic"
 language = "الفرنسية"
 
+[[epikule]]
+language = "التوكي بونا"
+
 [[esun]]
-language = "Akan"
+language = "الأكانية"
 definition = "at market"
 
 [[ete]]
 definition = "beyond, further, over"
-language = "Turkish"
+language = "التركية"
 
 [[ete]]
 definition = "outside"
@@ -113,7 +137,7 @@ language = "Quenya"
 
 [[ewe]]
 definition = "rock, boulder"
-language = "Japanese"
+language = "اليابانية"
 
 [[ewe]]
 definition = "rock, stone, hard thing"
@@ -125,7 +149,7 @@ language = "unknown"
 
 [[ijo]]
 definition = "something"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[ijo]]
 definition = "(relative pronoun root)"
@@ -141,11 +165,19 @@ language = "الجورجية"
 
 [[ilo]]
 definition = "tool"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[ilo]]
 definition = "(agent suffix)"
-language = "German"
+language = "الألمانية"
+
+[[ini]]
+definition = "2"
+language = "Cantonese"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "inside, center, stomach"
@@ -165,11 +197,11 @@ language = "unknown"
 
 [[iseki]]
 definition = "flower, blossom"
-language = "Turkish"
+language = "التركية"
 
 [[isipin]]
 definition = "to think"
-language = "Tagalog"
+language = "التاغالوغية"
 
 [[itomi]]
 definition = "hit or miss"
@@ -181,7 +213,7 @@ language = "الإنجليزية"
 
 [[jaku]]
 definition = "100"
-language = "Japanese"
+language = "اليابانية"
 
 [[jalan]]
 definition = "afoot"
@@ -209,7 +241,11 @@ language = "الإنجليزية"
 
 [[jasima]]
 definition = "to reflect, reverberate"
-language = "Turkish"
+language = "التركية"
+
+[[jatu]]
+definition = "1"
+language = "Cantonese"
 
 [[je]]
 definition = "yay"
@@ -232,11 +268,18 @@ language = "a priori"
 
 [[jule]]
 definition = "shake, vibrate, oscillate, waver"
-language = "Japanese"
+language = "اليابانية"
 
 [[jume]]
-definition = "dream"
-language = "Japanese"
+definition = "الحلم"
+language = "اليابانية"
+
+[[ka]]
+language = "التوكي بونا"
+
+[[kajo]]
+definition = "9"
+language = "Cantonese"
 
 [[kala]]
 definition = "fish"
@@ -252,7 +295,10 @@ language = "الإنجليزية"
 
 [[kalama]]
 definition = "noise (of the human voice)"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
@@ -272,15 +318,19 @@ language = "الفنلندية"
 
 [[kan]]
 definition = "with"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[kan]]
 definition = "with"
 language = "Latin"
 
 [[kana]]
-definition = "dream"
+definition = "الحلم"
 language = "Tulu"
+
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "الإنجليزية"
 
 [[kapa]]
 definition = "head, cup"
@@ -288,7 +338,7 @@ language = "الهولندية"
 
 [[kapa]]
 definition = "head"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[kapa]]
 definition = "head"
@@ -301,6 +351,10 @@ language = "Cantonese"
 [[kapesi]]
 definition = "brown, coffee (colour)"
 language = "Mandarin"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
 definition = "plant"
@@ -332,7 +386,10 @@ language = "التوكي بونا"
 
 [[kese]]
 definition = "named for the Jewish LGBT organization Keshet"
-language = "Hebrew"
+language = "العبرية"
+
+[[kewi]]
+language = "الإنجليزية"
 
 [[ki]]
 definition = "who"
@@ -344,6 +401,15 @@ language = "الفنلندية"
 
 [[kiki]]
 language = "a priori"
+
+[[kikolo]]
+language = "الفرنسية"
+
+[[kikolo]]
+language = "الفرنسية"
+
+[[kikulo]]
+language = "الفرنسية"
 
 [[kili]]
 definition = "fruit"
@@ -359,7 +425,7 @@ language = "Inuktitut"
 
 [[kisa]]
 definition = "قط"
-language = "Russian"
+language = "الروسية"
 
 [[kiwen]]
 definition = "stone (genitive case)"
@@ -369,13 +435,44 @@ language = "الفنلندية"
 definition = "cream, paste"
 language = "Cantonese"
 
+[[kokoliko]]
+language = "الفرنسية"
+
 [[kokosila]]
 definition = "to speak among Esperantists in a language other than Esperanto"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[kokosila]]
 definition = "crocodile"
-language = "Esperanto"
+language = "الإسبرانتو"
+
+[[kolin]]
+definition = "gloopy love"
+language = "التوكي بونا"
+
+[[kolo]]
+definition = "pig"
+language = "Swahili"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "Spanish"
+
+[[kolo]]
+definition = "growl"
+language = "اليابانية"
+
+[[kolo]]
+definition = "grunt"
+language = "الإنجليزية"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
@@ -385,8 +482,12 @@ language = "Mandarin"
 definition = "announcement, notice"
 language = "الكورية"
 
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "التوكي بونا"
+
 [[konwe]]
-definition = "John Conway, creator of The Game of Life"
+definition = "جون كنوي, الّذي اخترع لُعبة الحياة"
 language = "الإنجليزية"
 
 [[konwe]]
@@ -397,8 +498,19 @@ language = "التوكي بونا"
 definition = "to defend, protect (against)"
 language = "Irish"
 
+[[kosikosa]]
+language = "الفرنسية"
+
 [[ku]]
 language = "a priori"
+
+[[kulaso]]
+definition = "green"
+language = "الإنجليزية"
+
+[[kulaso]]
+definition = "blue, green"
+language = "التوكي بونا"
 
 [[kule]]
 definition = "color"
@@ -434,7 +546,7 @@ language = "التوكي بونا"
 
 [[la]]
 definition = "(definite article)"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[la]]
 definition = "(feminine singular definite article)"
@@ -444,12 +556,19 @@ language = "Romance"
 definition = "(proximal & topical suffix)"
 language = "الفرنسية الأكادية"
 
+[[lajotu]]
+language = "Canadian Syllabics"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
-language = "Greek"
+language = "اليونانية"
+
+[[lapan]]
+definition = "milk"
+language = "Arabic"
 
 [[lape]]
-definition = "sleep"
+definition = "نام"
 language = "الهولندية"
 
 [[laso]]
@@ -462,7 +581,7 @@ language = "Proto-Brythonic"
 
 [[lawa]]
 definition = "head"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[leko]]
 definition = "Lego"
@@ -470,7 +589,7 @@ language = "الإنجليزية"
 
 [[leko]]
 definition = "play well"
-language = "Danish"
+language = "الدنماركية"
 
 [[leko]]
 definition = "block, section"
@@ -480,17 +599,21 @@ language = "الفنلندية"
 definition = "clothing"
 language = "الفرنسية الأكادية"
 
+[[lenke]]
+definition = "0"
+language = "Cantonese"
+
 [[lete]]
 definition = "cold"
 language = "الفرنسية الأكادية"
 
 [[lete]]
 definition = "cold"
-language = "Old French"
+language = "الفرنسية القديمة"
 
 [[li]]
 definition = "he"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[li]]
 definition = "he"
@@ -532,9 +655,17 @@ language = "Old Swedish"
 definition = "internet"
 language = "Welsh"
 
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "الروسية"
+
 [[lipu]]
 definition = "flag, banner, ticket"
 language = "الفنلندية"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "Polish"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -560,6 +691,10 @@ language = "التوكي بونا"
 definition = "look, see, eye; (preverb) try to"
 language = "التوكي بونا"
 
+[[loku]]
+definition = "6"
+language = "Cantonese"
+
 [[lon]]
 definition = "at, in, on, (spacial particle)"
 language = "Tok Pisin"
@@ -573,7 +708,7 @@ language = "a priori"
 
 [[luka]]
 definition = "hand, arm"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[lukin]]
 definition = "see, look at"
@@ -613,7 +748,7 @@ language = "الفنلندية"
 
 [[majuna]]
 definition = "old (not young)"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[majuna]]
 definition = "bad"
@@ -621,7 +756,7 @@ language = "Latin"
 
 [[majuna]]
 definition = "young"
-language = "German"
+language = "الألمانية"
 
 [[majuna]]
 definition = "young"
@@ -643,6 +778,21 @@ language = "Proto-Germanic"
 definition = "cattle"
 language = "Latin"
 
+[[masalo]]
+language = "الفرنسية"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "الإنجليزية"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "الفرنسية"
+
+[[me]]
+definition = "tag question"
+language = "التوكي بونا"
+
 [[meli]]
 definition = "woman, wife, feminine"
 language = "Tok Pisin"
@@ -661,11 +811,11 @@ language = "التوكي بونا"
 
 [[meso]]
 definition = "middle"
-language = "Greek"
+language = "اليونانية"
 
 [[mi]]
 definition = "I, me"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[mi]]
 definition = "(1st person singular oblique)"
@@ -689,7 +839,7 @@ language = "Ojibwe"
 
 [[moku]]
 definition = "munching"
-language = "Japanese"
+language = "اليابانية"
 
 [[moli]]
 definition = "die"
@@ -709,7 +859,7 @@ language = "الفرنسية الأكادية"
 
 [[monsuta]]
 definition = "monster"
-language = "Japanese"
+language = "اليابانية"
 
 [[monsuta]]
 definition = "monster"
@@ -727,7 +877,7 @@ language = "الإنجليزية"
 
 [[musi]]
 definition = "amuse, entertain"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[musi]]
 definition = "amuse, entertain"
@@ -735,7 +885,7 @@ language = "الفرنسية"
 
 [[mute]]
 definition = "a lot"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[mute]]
 definition = "a lot"
@@ -770,14 +920,18 @@ language = "Tok Pisin"
 
 [[nasin]]
 definition = "way, method"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[natu]]
 definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
-definition = "four"
+definition = "(رَقَم) أربعة"
 language = "الفنلندية"
 
 [[nele]]
@@ -806,11 +960,11 @@ language = "التوكي بونا"
 
 [[nja]]
 definition = "meow (onomatopoeia)"
-language = "Japanese"
+language = "اليابانية"
 
 [[noka]]
 definition = "foot, leg"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[nowi]]
 definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
@@ -818,6 +972,18 @@ language = "Vietnamese"
 
 [[nu]]
 language = "a priori"
+
+[[nu1]]
+definition = "new"
+language = "الإنجليزية"
+
+[[nun]]
+definition = "5"
+language = "Cantonese"
+
+[[nuwa]]
+definition = "newer"
+language = "الإنجليزية"
 
 [[o]]
 definition = "(vocative suffix)"
@@ -845,11 +1011,14 @@ language = "الإنجليزية"
 
 [[oko]]
 definition = "eye"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
+
+[[olala]]
+language = "الفرنسية"
 
 [[olin]]
 definition = "I love"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[omekalike]]
 definition = "'eat a bad fish', wishing somebody harm instead of well"
@@ -869,11 +1038,19 @@ language = "التوكي بونا"
 
 [[ona]]
 definition = "she"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[oni]]
 definition = "(personifications of) dreams"
 language = "Ancient Greek"
+
+[[onono]]
+definition = "oh no"
+language = "الإنجليزية"
+
+[[opasan]]
+definition = "opossum"
+language = "الإنجليزية"
 
 [[open]]
 definition = "open"
@@ -905,11 +1082,11 @@ language = "التوكي بونا"
 
 [[pali]]
 definition = "do, make"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[palisa]]
 definition = "bat, rod, cane"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[pan]]
 definition = "bread"
@@ -917,7 +1094,7 @@ language = "Romance"
 
 [[pan]]
 definition = "bread"
-language = "Japanese"
+language = "اليابانية"
 
 [[pan]]
 definition = "bread"
@@ -931,17 +1108,32 @@ language = "الفنلندية"
 definition = "give to each other"
 language = "Swahili"
 
+[[panke]]
+language = "التوكي بونا"
+
+[[panke]]
+language = "الفرنسية"
+
+[[papa]]
+language = "الإنجليزية"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "onomatopoeia"
+
 [[pasila]]
 definition = "easy"
 language = "الفرنسية الأكادية"
 
 [[pasila]]
 definition = "easy"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[pata]]
 definition = "brother"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[pata]]
 definition = "sibling or cousin of the same gender"
@@ -951,9 +1143,20 @@ language = "Tok Pisin"
 definition = "brother"
 language = "الإنجليزية"
 
+[[penpo]]
+definition = "only toki pona"
+language = "التوكي بونا"
+
+[[patu]]
+definition = "8"
+language = "Cantonese"
+
+[[pela]]
+language = "a priori"
+
 [[peta]]
 definition = "green"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[peto]]
 definition = "(incomplete sentence) 'give eye-water', to cry"
@@ -969,7 +1172,7 @@ language = "الإنجليزية"
 
 [[pika]]
 definition = "Pikachū, an electric Pokémon"
-language = "Japanese"
+language = "اليابانية"
 
 [[pilin]]
 definition = "feel"
@@ -1007,13 +1210,19 @@ language = "الفرنسية الأكادية"
 definition = "bug, insect, arachnid"
 language = "التوكي بونا"
 
+[[pipolo]]
+language = "التوكي بونا"
+
+[[pipolo]]
+language = "التوكي بونا"
+
 [[po]]
-definition = "four"
+definition = "(رَقَم) أربعة"
 language = "الإنجليزية"
 
 [[poka]]
 definition = "side, flank (genitive)"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[poki]]
 definition = "box, female genitalia (vulgar)"
@@ -1033,10 +1242,16 @@ language = "Italian"
 
 [[pona]]
 definition = "good"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[poni]]
 definition = "pony"
+language = "الإنجليزية"
+
+[[positu]]
+language = "الإنجليزية"
+
+[[potesu]]
 language = "الإنجليزية"
 
 [[powe]]
@@ -1051,9 +1266,25 @@ language = "Mandarin"
 definition = "book"
 language = "الإنجليزية"
 
+[[pulaso]]
+definition = "blue"
+language = "الإنجليزية"
+
+[[pulaso]]
+definition = "blue, green"
+language = "التوكي بونا"
+
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
-language = "Japanese"
+language = "اليابانية"
+
+[[saja]]
+definition = "trees"
+language = "Arabic"
+
+[[salu]]
+definition = "safety, security"
+language = "Latin"
 
 [[sama]]
 definition = "same"
@@ -1065,7 +1296,7 @@ language = "Proto-Germanic"
 
 [[sama]]
 definition = "same"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[sama]]
 definition = "same"
@@ -1076,16 +1307,27 @@ definition = "jan Samu"
 language = "التوكي بونا"
 
 [[san]]
-definition = "three"
-language = "Japanese"
+definition = "(رَقَم) ثلاثة"
+language = "اليابانية"
 
 [[san]]
-definition = "three"
+definition = "(رَقَم) ثلاثة"
 language = "Cantonese"
 
 [[san]]
-definition = "three"
+definition = "(رَقَم) ثلاثة"
 language = "Cantonese"
+
+[[sapelipope]]
+language = "الفرنسية"
+
+[[se]]
+definition = "4"
+language = "Cantonese"
+
+[[se1]]
+definition = "oneself"
+language = "Latin"
 
 [[seli]]
 definition = "hot"
@@ -1093,11 +1335,11 @@ language = "الجورجية"
 
 [[selo]]
 definition = "skin, peel"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[selo]]
 definition = "peel, husk, shell"
-language = "German"
+language = "الألمانية"
 
 [[seme]]
 definition = "what, something"
@@ -1109,7 +1351,10 @@ language = "الجورجية"
 
 [[sijelo]]
 definition = "body"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
+
+[[sikako]]
+language = "الفرنسية"
 
 [[sike]]
 definition = "circle"
@@ -1119,12 +1364,16 @@ language = "الإنجليزية"
 definition = "sicko mode"
 language = "الإنجليزية"
 
+[[silapa]]
+definition = "giraffe"
+language = "Polish"
+
 [[sin]]
 definition = "new, fresh"
 language = "Mandarin"
 
 [[sina]]
-definition = "you"
+definition = "(ضمير) أنت, أنتم"
 language = "الفنلندية"
 
 [[sinpin]]
@@ -1135,16 +1384,27 @@ language = "Cantonese"
 definition = "sibi (dative reflexive pronoun)"
 language = "Latin"
 
+[[sipije]]
+language = "الإنجليزية"
+
+[[sipije]]
+definition = "to be honest"
+language = "الإنجليزية"
+
 [[sitelen]]
 definition = "paint"
 language = "الهولندية"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "التاغالوغية"
 
 [[slape]]
 definition = "sleep, rest"
 language = "التوكي بونا"
 
 [[slape]]
-definition = "sleep"
+definition = "نام"
 language = "الإنجليزية"
 
 [[soko]]
@@ -1170,8 +1430,20 @@ language = "الجورجية"
 [[su]]
 language = "a priori"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "الإسبرانتو"
+
 [[suke]]
 definition = "circle, sphere, cycle"
+language = "التوكي بونا"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "الإنجليزية"
+
+[[sulaso]]
+definition = "blue, green"
 language = "التوكي بونا"
 
 [[suli]]
@@ -1180,11 +1452,11 @@ language = "الفنلندية"
 
 [[suno]]
 definition = "sun"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[supa]]
 definition = "surface"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[supa]]
 definition = "surface"
@@ -1196,7 +1468,7 @@ language = "الإنجليزية"
 
 [[sutopatikuna]]
 definition = "platypus, (literally) strange beak"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[suwi]]
 definition = "sweet"
@@ -1206,8 +1478,18 @@ language = "Tok Pisin"
 definition = "sweet"
 language = "الإنجليزية"
 
+[[suwili]]
+language = "التوكي بونا"
+
+[[suwili]]
+language = "التوكي بونا"
+
 [[ta]]
 language = "a priori"
+
+[[take]]
+definition = "7"
+language = "Cantonese"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
@@ -1216,6 +1498,10 @@ language = "الكورية"
 [[tan]]
 definition = "from"
 language = "Cantonese"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
 definition = "just, only, but, however"
@@ -1231,11 +1517,15 @@ language = "الإنجليزية"
 
 [[te]]
 definition = "(quotative)"
-language = "Japanese"
+language = "اليابانية"
 
 [[teje]]
 definition = "right"
 language = "Welsh"
+
+[[teki]]
+definition = "event"
+language = "اليابانية"
 
 [[telo]]
 definition = "(some) water"
@@ -1247,7 +1537,7 @@ language = "التوكي بونا"
 
 [[tenpo]]
 definition = "time"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[tenpo]]
 definition = "time"
@@ -1255,7 +1545,7 @@ language = "Latin"
 
 [[to]]
 definition = "(quotative)"
-language = "Japanese"
+language = "اليابانية"
 
 [[tokana]]
 definition = "attention, focus"
@@ -1275,7 +1565,7 @@ language = "التوكي بونا"
 
 [[tomo]]
 definition = "house"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[tomo]]
 definition = "house"
@@ -1289,9 +1579,18 @@ language = "Latin"
 definition = "house"
 language = "Ancient Greek"
 
+[[tona]]
+language = "الإنجليزية"
+
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
 language = "Mandarin"
+
+[[towoki]]
+language = "التوكي بونا"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
 definition = "two"
@@ -1299,10 +1598,10 @@ language = "الإنجليزية"
 
 [[tu]]
 definition = "two"
-language = "Esperanto"
+language = "الإسبرانتو"
 
 [[tuli]]
-definition = "three"
+definition = "(رَقَم) ثلاثة"
 language = "الإنجليزية"
 
 [[u]]
@@ -1325,14 +1624,21 @@ language = "Swahili"
 
 [[uta]]
 definition = "mouth"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[utala]]
 definition = "strike, hit, beat"
-language = "Serbo-Croatian"
+language = "الصربية الكرواتية"
 
 [[wa]]
 language = "onomatopoeia"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "الإنجليزية"
+
+[[waken]]
+language = "الإنجليزية"
 
 [[waleja]]
 definition = "of moment, important"
@@ -1398,6 +1704,14 @@ language = "الإنجليزية"
 definition = "want, desire"
 language = "الهولندية"
 
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "الفرنسية"
+
 [[wuwojiti]]
 definition = "(sound)"
 language = "التوكي بونا"
@@ -1419,4 +1733,4 @@ language = "a priori"
 
 [[yutu]]
 definition = "star"
-language = "Turkish"
+language = "التركية"

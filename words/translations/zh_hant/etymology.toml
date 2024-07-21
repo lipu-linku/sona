@@ -48,6 +48,10 @@ language = "荷蘭語"
 definition = "(indicate context for a following sentence)"
 language = "道本語"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "阿卡迪亞法語"
@@ -60,6 +64,9 @@ language = "沖繩語"
 definition = "other, different"
 language = "荷蘭語"
 
+[[antikontitutonelema]]
+language = "法語"
+
 [[anu]]
 definition = "or"
 language = "格魯吉亞語"
@@ -67,6 +74,16 @@ language = "格魯吉亞語"
 [[apeja]]
 definition = "shame, disgrace, dishonor"
 language = "芬蘭語"
+
+[[apelo]]
+language = "法語"
+
+[[api]]
+definition = "bee"
+language = "拉丁語"
+
+[[apoko]]
+language = "英語"
 
 [[awase]]
 definition = "hit, strike"
@@ -91,6 +108,10 @@ language = "切羅基語"
 definition = "and"
 language = "荷蘭語"
 
+[[enepi]]
+definition = "non-fungible token"
+language = "英語"
+
 [[enko]]
 definition = "time, period, situation"
 language = "道本語"
@@ -98,6 +119,9 @@ language = "道本語"
 [[epiku]]
 definition = "epic"
 language = "法語"
+
+[[epikule]]
+language = "道本語"
 
 [[esun]]
 language = "阿寒語"
@@ -146,6 +170,14 @@ language = "世界語"
 [[ilo]]
 definition = "(agent suffix)"
 language = "德語"
+
+[[ini]]
+definition = "2"
+language = "粵語"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "inside, center, stomach"
@@ -211,6 +243,10 @@ language = "英語"
 definition = "to reflect, reverberate"
 language = "土耳其語"
 
+[[jatu]]
+definition = "1"
+language = "粵語"
+
 [[je]]
 definition = "yay"
 language = "英語"
@@ -238,6 +274,13 @@ language = "日語"
 definition = "夢"
 language = "日語"
 
+[[ka]]
+language = "道本語"
+
+[[kajo]]
+definition = "9"
+language = "粵語"
+
 [[kala]]
 definition = "fish"
 language = "芬蘭語"
@@ -253,6 +296,9 @@ language = "英語"
 [[kalama]]
 definition = "noise (of the human voice)"
 language = "塞爾維亞-克羅埃西亞語"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
@@ -282,6 +328,10 @@ language = "拉丁語"
 definition = "夢"
 language = "圖盧語"
 
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "英語"
+
 [[kapa]]
 definition = "head, cup"
 language = "荷蘭語"
@@ -301,6 +351,10 @@ language = "粵語"
 [[kapesi]]
 definition = "brown, coffee (colour)"
 language = "漢語"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
 definition = "plant"
@@ -334,6 +388,9 @@ language = "道本語"
 definition = "named for the Jewish LGBT organization Keshet"
 language = "希伯來語"
 
+[[kewi]]
+language = "英語"
+
 [[ki]]
 definition = "who"
 language = "法語"
@@ -344,6 +401,15 @@ language = "芬蘭語"
 
 [[kiki]]
 language = "先創"
+
+[[kikolo]]
+language = "法語"
+
+[[kikolo]]
+language = "法語"
+
+[[kikulo]]
+language = "法語"
 
 [[kili]]
 definition = "fruit"
@@ -369,6 +435,9 @@ language = "芬蘭語"
 definition = "cream, paste"
 language = "粵語"
 
+[[kokoliko]]
+language = "法語"
+
 [[kokosila]]
 definition = "to speak among Esperantists in a language other than Esperanto"
 language = "世界語"
@@ -377,6 +446,34 @@ language = "世界語"
 definition = "crocodile"
 language = "世界語"
 
+[[kolin]]
+definition = "gloopy love"
+language = "道本語"
+
+[[kolo]]
+definition = "pig"
+language = "史瓦希利語"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "西班牙語"
+
+[[kolo]]
+definition = "growl"
+language = "日語"
+
+[[kolo]]
+definition = "grunt"
+language = "英語"
+
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
 language = "漢語"
@@ -384,6 +481,10 @@ language = "漢語"
 [[konsi]]
 definition = "announcement, notice"
 language = "韓語"
+
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "道本語"
 
 [[konwe]]
 definition = "John Conway, creator of The Game of Life"
@@ -397,8 +498,19 @@ language = "道本語"
 definition = "to defend, protect (against)"
 language = "愛爾蘭語"
 
+[[kosikosa]]
+language = "法語"
+
 [[ku]]
 language = "先創"
+
+[[kulaso]]
+definition = "green"
+language = "英語"
+
+[[kulaso]]
+definition = "blue, green"
+language = "道本語"
 
 [[kule]]
 definition = "color"
@@ -444,9 +556,16 @@ language = "羅曼語族"
 definition = "(proximal & topical suffix)"
 language = "阿卡迪亞法語"
 
+[[lajotu]]
+language = "Canadian Syllabics"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "希臘語"
+
+[[lapan]]
+definition = "milk"
+language = "阿拉伯語"
 
 [[lape]]
 definition = "sleep"
@@ -479,6 +598,10 @@ language = "芬蘭語"
 [[len]]
 definition = "clothing"
 language = "阿卡迪亞法語"
+
+[[lenke]]
+definition = "0"
+language = "粵語"
 
 [[lete]]
 definition = "cold"
@@ -532,9 +655,17 @@ language = "古瑞典語"
 definition = "internet"
 language = "威爾斯語"
 
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "俄語"
+
 [[lipu]]
 definition = "flag, banner, ticket"
 language = "芬蘭語"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "波蘭語"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -559,6 +690,10 @@ language = "道本語"
 [[lokon]]
 definition = "look, see, eye; (preverb) try to"
 language = "道本語"
+
+[[loku]]
+definition = "6"
+language = "粵語"
 
 [[lon]]
 definition = "at, in, on, (spacial particle)"
@@ -642,6 +777,21 @@ language = "原始日耳曼語"
 [[mani]]
 definition = "cattle"
 language = "拉丁語"
+
+[[masalo]]
+language = "法語"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "英語"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "法語"
+
+[[me]]
+definition = "tag question"
+language = "道本語"
 
 [[meli]]
 definition = "woman, wife, feminine"
@@ -776,8 +926,12 @@ language = "塞爾維亞-克羅埃西亞語"
 definition = "crossroads, four-way intersection"
 language = "越南語"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
-definition = "四"
+definition = "(number) four"
 language = "芬蘭語"
 
 [[nele]]
@@ -819,6 +973,18 @@ language = "越南語"
 [[nu]]
 language = "先創"
 
+[[nu1]]
+definition = "new"
+language = "英語"
+
+[[nun]]
+definition = "5"
+language = "粵語"
+
+[[nuwa]]
+definition = "newer"
+language = "英語"
+
 [[o]]
 definition = "(vocative suffix)"
 language = "格魯吉亞語"
@@ -847,6 +1013,9 @@ language = "英語"
 definition = "eye"
 language = "塞爾維亞-克羅埃西亞語"
 
+[[olala]]
+language = "法語"
+
 [[olin]]
 definition = "I love"
 language = "塞爾維亞-克羅埃西亞語"
@@ -874,6 +1043,14 @@ language = "塞爾維亞-克羅埃西亞語"
 [[oni]]
 definition = "(personifications of) dreams"
 language = "古希臘語"
+
+[[onono]]
+definition = "oh no"
+language = "英語"
+
+[[opasan]]
+definition = "opossum"
+language = "英語"
 
 [[open]]
 definition = "open"
@@ -931,6 +1108,21 @@ language = "芬蘭語"
 definition = "give to each other"
 language = "史瓦希利語"
 
+[[panke]]
+language = "道本語"
+
+[[panke]]
+language = "法語"
+
+[[papa]]
+language = "英語"
+
+[[papa1]]
+language = "先創"
+
+[[papa2]]
+language = "擬聲詞"
+
 [[pasila]]
 definition = "easy"
 language = "阿卡迪亞法語"
@@ -950,6 +1142,17 @@ language = "巴布亞皮欽語"
 [[pata]]
 definition = "brother"
 language = "英語"
+
+[[penpo]]
+definition = "only toki pona"
+language = "道本語"
+
+[[patu]]
+definition = "8"
+language = "粵語"
+
+[[pela]]
+language = "先創"
 
 [[peta]]
 definition = "green"
@@ -1007,8 +1210,14 @@ language = "阿卡迪亞法語"
 definition = "bug, insect, arachnid"
 language = "道本語"
 
+[[pipolo]]
+language = "道本語"
+
+[[pipolo]]
+language = "道本語"
+
 [[po]]
-definition = "四"
+definition = "(number) four"
 language = "英語"
 
 [[poka]]
@@ -1039,6 +1248,12 @@ language = "世界語"
 definition = "馬、小馬"
 language = "英語"
 
+[[positu]]
+language = "英語"
+
+[[potesu]]
+language = "英語"
+
 [[powe]]
 definition = "not true"
 language = "阿卡迪亞法語"
@@ -1051,9 +1266,25 @@ language = "漢語"
 definition = "book"
 language = "英語"
 
+[[pulaso]]
+definition = "blue"
+language = "英語"
+
+[[pulaso]]
+definition = "blue, green"
+language = "道本語"
+
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
 language = "日語"
+
+[[saja]]
+definition = "trees"
+language = "阿拉伯語"
+
+[[salu]]
+definition = "safety, security"
+language = "拉丁語"
 
 [[sama]]
 definition = "same"
@@ -1076,16 +1307,27 @@ definition = "jan Samu"
 language = "道本語"
 
 [[san]]
-definition = "三"
+definition = "(number) three"
 language = "日語"
 
 [[san]]
-definition = "三"
+definition = "(number) three"
 language = "粵語"
 
 [[san]]
-definition = "三"
+definition = "(number) three"
 language = "粵語"
+
+[[sapelipope]]
+language = "法語"
+
+[[se]]
+definition = "4"
+language = "粵語"
+
+[[se1]]
+definition = "oneself"
+language = "拉丁語"
 
 [[seli]]
 definition = "hot"
@@ -1111,6 +1353,9 @@ language = "格魯吉亞語"
 definition = "body"
 language = "塞爾維亞-克羅埃西亞語"
 
+[[sikako]]
+language = "法語"
+
 [[sike]]
 definition = "circle"
 language = "英語"
@@ -1119,12 +1364,16 @@ language = "英語"
 definition = "sicko mode"
 language = "英語"
 
+[[silapa]]
+definition = "giraffe"
+language = "波蘭語"
+
 [[sin]]
 definition = "new, fresh"
 language = "漢語"
 
 [[sina]]
-definition = "你、您、你們"
+definition = "(pronoun) you, y'all"
 language = "芬蘭語"
 
 [[sinpin]]
@@ -1135,9 +1384,20 @@ language = "粵語"
 definition = "sibi (dative reflexive pronoun)"
 language = "拉丁語"
 
+[[sipije]]
+language = "英語"
+
+[[sipije]]
+definition = "to be honest"
+language = "英語"
+
 [[sitelen]]
 definition = "paint"
 language = "荷蘭語"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "他加祿語"
 
 [[slape]]
 definition = "sleep, rest"
@@ -1170,8 +1430,20 @@ language = "格魯吉亞語"
 [[su]]
 language = "先創"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "世界語"
+
 [[suke]]
 definition = "circle, sphere, cycle"
+language = "道本語"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "英語"
+
+[[sulaso]]
+definition = "blue, green"
 language = "道本語"
 
 [[suli]]
@@ -1206,8 +1478,18 @@ language = "巴布亞皮欽語"
 definition = "sweet"
 language = "英語"
 
+[[suwili]]
+language = "道本語"
+
+[[suwili]]
+language = "道本語"
+
 [[ta]]
 language = "先創"
+
+[[take]]
+definition = "7"
+language = "粵語"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
@@ -1216,6 +1498,10 @@ language = "韓語"
 [[tan]]
 definition = "from"
 language = "粵語"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
 definition = "just, only, but, however"
@@ -1236,6 +1522,10 @@ language = "日語"
 [[teje]]
 definition = "right"
 language = "威爾斯語"
+
+[[teki]]
+definition = "event"
+language = "日語"
 
 [[telo]]
 definition = "(some) water"
@@ -1289,9 +1579,18 @@ language = "拉丁語"
 definition = "house"
 language = "古希臘語"
 
+[[tona]]
+language = "英語"
+
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
 language = "漢語"
+
+[[towoki]]
+language = "道本語"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
 definition = "two"
@@ -1302,7 +1601,7 @@ definition = "two"
 language = "世界語"
 
 [[tuli]]
-definition = "三"
+definition = "(number) three"
 language = "英語"
 
 [[u]]
@@ -1316,7 +1615,7 @@ language = "Iqglic"
 language = "擬聲詞"
 
 [[unu]]
-definition = "紫色的"
+definition = "purple, violet"
 language = "馬來-印度尼西亞語"
 
 [[usawi]]
@@ -1333,6 +1632,13 @@ language = "塞爾維亞-克羅埃西亞語"
 
 [[wa]]
 language = "擬聲詞"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "英語"
+
+[[waken]]
+language = "英語"
 
 [[waleja]]
 definition = "of moment, important"
@@ -1397,6 +1703,14 @@ language = "英語"
 [[wile]]
 definition = "want, desire"
 language = "荷蘭語"
+
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "法語"
 
 [[wuwojiti]]
 definition = "(sound)"

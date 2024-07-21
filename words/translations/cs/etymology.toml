@@ -2,129 +2,153 @@
 language = "a priori"
 
 [[a]]
-language = "onomatopoeia"
+language = "onomatopoie"
 
 [[aka]]
-definition = "to cross, to pass"
-language = "Mandarin"
+definition = "přejít, projít"
+language = "Mandarínština"
 
 [[aka]]
 definition = "across"
-language = "English"
+language = "Angličtina"
 
 [[akesi]]
-definition = "lizard"
-language = "Dutch"
+definition = "ještěrka"
+language = "Nizozemština"
 
 [[ako]]
-definition = "(interjection) surprise"
-language = "Korean"
+definition = "(citoslovce) překvapení"
+language = "Korejština"
 
 [[aku]]
-definition = "sour"
-language = "Romanian"
+definition = "kyselý"
+language = "Rumunština"
 
 [[ala]]
-definition = "no"
-language = "Georgian"
+definition = "ne"
+language = "Gruzínština"
 
 [[alasa]]
-definition = "hunting, (literally) on the hunt"
-language = "Acadian French"
+definition = "lov, (doslova) na lovu"
+language = "Akadská francouzština"
 
 [[ale]]
-definition = "all"
-language = "Dutch"
+definition = "vše"
+language = "Nizozemština"
 
 [[alente]]
-definition = "everything else"
+definition = "všechno ostatní"
 language = "toki pona"
 
 [[ali]]
-definition = "all"
-language = "Dutch"
+definition = "vše"
+language = "Nizozemština"
 
 [[alu]]
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
-definition = "below"
-language = "Acadian French"
+definition = "pod"
+language = "Akadská francouzština"
 
 [[anta]]
-definition = "oil"
+definition = "olej"
 language = "Okinawan"
 
 [[ante]]
 definition = "other, different"
-language = "Dutch"
+language = "Nizozemština"
+
+[[antikontitutonelema]]
+language = "Francouzština"
 
 [[anu]]
-definition = "or"
-language = "Georgian"
+definition = "nebo"
+language = "Gruzínština"
 
 [[apeja]]
-definition = "shame, disgrace, dishonor"
-language = "Finnish"
+definition = "hanba, ostuda, nečestnost"
+language = "Finština"
+
+[[apelo]]
+language = "Francouzština"
+
+[[api]]
+definition = "bee"
+language = "Latina"
+
+[[apoko]]
+language = "Angličtina"
 
 [[awase]]
-definition = "hit, strike"
-language = "Armenian"
+definition = "úder, zásah"
+language = "Arménština"
 
 [[awen]]
 definition = "keep, care for, hold (in a particular state)"
-language = "Dutch"
+language = "Nizozemština"
 
 [[e]]
 language = "a priori"
 
 [[eki]]
-definition = "x (letter name)"
-language = "English"
+definition = "x (název písmena)"
+language = "Angličtina"
 
 [[eliki]]
-definition = "pain, distress"
-language = "Tsalagi"
+definition = "bolest, tíseň"
+language = "Čerokézština"
 
 [[en]]
-definition = "and"
-language = "Dutch"
+definition = "a"
+language = "Nizozemština"
+
+[[enepi]]
+definition = "non-fungible token"
+language = "Angličtina"
 
 [[enko]]
-definition = "time, period, situation"
+definition = "čas, období, situace"
 language = "toki pona"
 
 [[epiku]]
-definition = "epic"
-language = "French"
+definition = "epické"
+language = "Francouzština"
+
+[[epikule]]
+language = "toki pona"
 
 [[esun]]
-language = "Akan"
+language = "Akanština"
 definition = "at market"
 
 [[ete]]
 definition = "beyond, further, over"
-language = "Turkish"
+language = "Turečtina"
 
 [[ete]]
-definition = "outside"
+definition = "venku"
 language = "Quenya"
 
 [[ewe]]
-definition = "rock, boulder"
-language = "Japanese"
+definition = "kámen, balvan"
+language = "Japonština"
 
 [[ewe]]
-definition = "rock, stone, hard thing"
+definition = "kámen, tvrdý předmět"
 language = "toki pona"
 
 [[i]]
-definition = "unknown"
-language = "unknown"
+definition = "neznámé"
+language = "neznámé"
 
 [[ijo]]
-definition = "something"
+definition = "něco"
 language = "Esperanto"
 
 [[ijo]]
@@ -132,187 +156,217 @@ definition = "(relative pronoun root)"
 language = "Romance"
 
 [[ike]]
-definition = "bad, mean, wicked"
-language = "Finnish"
+definition = "špatný, zlý, hříšný"
+language = "Finština"
 
 [[iki]]
 definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
-language = "Georgian"
+language = "Gruzínština"
 
 [[ilo]]
-definition = "tool"
+definition = "nástroj"
 language = "Esperanto"
 
 [[ilo]]
 definition = "(agent suffix)"
-language = "German"
+language = "Němčina"
+
+[[ini]]
+definition = "2"
+language = "Kantonština"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "inside, center, stomach"
 language = "Tok Pisin"
 
 [[insa]]
-definition = "inside"
-language = "English"
+definition = "vnitřek"
+language = "Angličtina"
 
 [[inta]]
-definition = "still, yet, even"
-language = "Portuguese"
+definition = "stále, ještě, dokonce"
+language = "Portugalština"
 
 [[ipi]]
-definition = "unknown"
-language = "unknown"
+definition = "neznámé"
+language = "neznámé"
 
 [[iseki]]
-definition = "flower, blossom"
-language = "Turkish"
+definition = "květina, květ"
+language = "Turečtina"
 
 [[isipin]]
-definition = "to think"
-language = "Tagalog"
+definition = "myslet"
+language = "Tagalština"
 
 [[itomi]]
 definition = "hit or miss"
-language = "English"
+language = "Angličtina"
 
 [[jaki]]
-definition = "yucky"
-language = "English"
+definition = "fuj"
+language = "Angličtina"
 
 [[jaku]]
 definition = "100"
-language = "Japanese"
+language = "Japonština"
 
 [[jalan]]
 definition = "afoot"
-language = "Finnish"
+language = "Finština"
 
 [[jalan]]
 definition = "foot"
-language = "Finnish"
+language = "Finština"
 
 [[jami]]
-definition = "yummy"
-language = "English"
+definition = "mňam"
+language = "Angličtina"
 
 [[jan]]
-definition = "person"
-language = "Cantonese"
+definition = "osoba"
+language = "Kantonština"
 
 [[jans]]
-definition = "person, people"
+definition = "člověk, lidé"
 language = "toki pona"
 
 [[jans]]
-definition = "(plural suffix)"
-language = "English"
+definition = "(přípona množného čísla)"
+language = "Angličtina"
 
 [[jasima]]
 definition = "to reflect, reverberate"
-language = "Turkish"
+language = "Turečtina"
+
+[[jatu]]
+definition = "1"
+language = "Kantonština"
 
 [[je]]
-definition = "yay"
-language = "English"
+definition = "juchú"
+language = "Angličtina"
 
 [[jelo]]
-definition = "yellow"
-language = "English"
+definition = "žlutá"
+language = "Angličtina"
 
 [[jo]]
-definition = "have"
-language = "Mandarin"
+definition = "mít"
+language = "Mandarínština"
 
 [[jonke]]
 definition = "hjönk"
-language = "onomatopoeia"
+language = "onomatopoie"
 
 [[ju]]
 language = "a priori"
 
 [[jule]]
-definition = "shake, vibrate, oscillate, waver"
-language = "Japanese"
+definition = "třást, vibrovat, kmitat, vlnit"
+language = "Japonština"
 
 [[jume]]
 definition = "sen"
-language = "Japanese"
+language = "Japonština"
+
+[[ka]]
+language = "toki pona"
+
+[[kajo]]
+definition = "9"
+language = "Kantonština"
 
 [[kala]]
-definition = "fish"
-language = "Finnish"
+definition = "ryba"
+language = "Finština"
 
 [[kalamARR]]
-definition = "make sound; sound, noise, voice"
+definition = "vydávat zvuk; zvuk, hluk, hlas"
 language = "toki pona"
 
 [[kalamARR]]
-definition = "(imitation of pirates)"
-language = "English"
+definition = "(napodobení pirátů)"
+language = "Angličtina"
 
 [[kalama]]
-definition = "noise (of the human voice)"
-language = "Serbo-Croatian"
+definition = "zvuk (lidského hlasu)"
+language = "Srbochorvatština"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
-language = "Latin"
+language = "Latina"
 
 [[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
+definition = "událost, přijít, přijet, stát se, proměnit se v, přivolat"
 language = "Tok Pisin"
 
 [[kamalawala]]
-definition = "'arrival of no government', the beginning of anarchy"
+definition = "'příchod žádné vlády', začátek anarchie"
 language = "toki pona"
 
 [[kan]]
-definition = "with"
-language = "Finnish"
+definition = "s"
+language = "Finština"
 
 [[kan]]
-definition = "with"
+definition = "s"
 language = "Esperanto"
 
 [[kan]]
-definition = "with"
-language = "Latin"
+definition = "s"
+language = "Latina"
 
 [[kana]]
 definition = "sen"
 language = "Tulu"
 
-[[kapa]]
-definition = "head, cup"
-language = "Dutch"
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "Angličtina"
 
 [[kapa]]
-definition = "head"
+definition = "hlava, šálek"
+language = "Nizozemština"
+
+[[kapa]]
+definition = "hlava"
 language = "Esperanto"
 
 [[kapa]]
-definition = "head"
-language = "Latin"
+definition = "hlava"
+language = "Latina"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
-language = "Cantonese"
+definition = "hnědá, kávová"
+language = "Kantonština"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
-language = "Mandarin"
+definition = "hnědá, kávová"
+language = "Mandarínština"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
-definition = "plant"
-language = "Finnish"
+definition = "rostlina"
+language = "Finština"
 
 [[ke]]
-definition = "okay"
-language = "English"
+definition = "OK"
+language = "Angličtina"
 
 [[ke]]
-definition = "okay"
-language = "English"
+definition = "OK"
+language = "Angličtina"
 
 [[ken]]
 definition = "can"
@@ -320,221 +374,298 @@ language = "Tok Pisin"
 
 [[ken]]
 definition = "can"
-language = "English"
+language = "Angličtina"
 
 [[kepeken]]
-definition = "to use"
-language = "Dutch"
+definition = "použít"
+language = "Nizozemština"
 
 [[kepen]]
-definition = "to use, by means of, with"
+definition = "používat, prostřednictvím, s"
 language = "toki pona"
 
 [[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
-language = "Hebrew"
+definition = "pojmenováno podle židovské LGBT organizace Keshet"
+language = "Hebrejština"
+
+[[kewi]]
+language = "Angličtina"
 
 [[ki]]
-definition = "who"
-language = "French"
+definition = "kdo"
+language = "Francouzština"
 
 [[kijetesantakalu]]
-definition = "kinkajou"
-language = "Finnish"
+definition = "kynkažu"
+language = "Finština"
 
 [[kiki]]
 language = "a priori"
 
+[[kikolo]]
+language = "Francouzština"
+
+[[kikolo]]
+language = "Francouzština"
+
+[[kikulo]]
+language = "Francouzština"
+
 [[kili]]
-definition = "fruit"
-language = "Georgian"
+definition = "ovoce"
+language = "Gruzínština"
 
 [[kin]]
-definition = "too, also, still"
-language = "Finnish"
+definition = "také, ještě, stále"
+language = "Finština"
 
 [[kipisi]]
 definition = "to cut (intransitive)"
-language = "Inuktitut"
+language = "Inuktitutština"
 
 [[kisa]]
 definition = "kočka"
-language = "Russian"
+language = "Ruština"
 
 [[kiwen]]
-definition = "stone (genitive case)"
-language = "Finnish"
+definition = "kámen (pád genitiv)"
+language = "Finština"
 
 [[ko]]
-definition = "cream, paste"
-language = "Cantonese"
+definition = "krém, pasta"
+language = "Kantonština"
+
+[[kokoliko]]
+language = "Francouzština"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "mluvit mezi esperantisty jiným jazykem než esperantem"
 language = "Esperanto"
 
 [[kokosila]]
-definition = "crocodile"
+definition = "krokodýl"
 language = "Esperanto"
+
+[[kolin]]
+definition = "gloopy love"
+language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "Svahilština"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "Španělština"
+
+[[kolo]]
+definition = "growl"
+language = "Japonština"
+
+[[kolo]]
+definition = "grunt"
+language = "Angličtina"
 
 [[kon]]
-definition = "air, atmosphere, ambience, opinion"
-language = "Mandarin"
+definition = "vzduch, atmosféra, názor"
+language = "Mandarínština"
 
 [[konsi]]
-definition = "announcement, notice"
-language = "Korean"
+definition = "oznámení, upozornění"
+language = "Korejština"
+
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "toki pona"
 
 [[konwe]]
-definition = "John Conway, creator of The Game of Life"
-language = "English"
+definition = "John Conway, tvůrce Hry života"
+language = "Angličtina"
 
 [[konwe]]
 definition = "kon wile"
 language = "toki pona"
 
 [[kosan]]
-definition = "to defend, protect (against)"
-language = "Irish"
+definition = "bránit, chránit (před něčím)"
+language = "Irština"
+
+[[kosikosa]]
+language = "Francouzština"
 
 [[ku]]
 language = "a priori"
 
+[[kulaso]]
+definition = "zelená"
+language = "Angličtina"
+
+[[kulaso]]
+definition = "blue, green"
+language = "toki pona"
+
 [[kule]]
-definition = "color"
-language = "Acadian French"
+definition = "barva"
+language = "Akadská francouzština"
 
 [[kulijo]]
 definition = "coolio"
-language = "English"
+language = "Angličtina"
 
 [[kulu]]
-definition = "group, community, collection"
+definition = "skupina, komunita, sbírka"
 language = "toki pona"
 
 [[kulupu]]
-definition = "group"
+definition = "skupina"
 language = "Tongan"
 
 [[kulupu]]
-definition = "group"
-language = "English"
+definition = "skupina"
+language = "Angličtina"
 
 [[kuntu]]
-definition = "'fun sound from the mouth', to sing with your voice"
+definition = "'zábavný zvuk z úst', zpívat svým hlasem"
 language = "toki pona"
 
 [[kute]]
-definition = "listen"
-language = "Acadian French"
+definition = "poslouchat"
+language = "Akadská francouzština"
 
 [[kutopoma]]
-definition = "the Toki Pona community of Korea"
+definition = "korejská Toki Pona komunita"
 language = "toki pona"
 
 [[la]]
-definition = "(definite article)"
+definition = "(určitý člen)"
 language = "Esperanto"
 
 [[la]]
-definition = "(feminine singular definite article)"
+definition = "(určitý člen ženského rodu jednotného čísla)"
 language = "Romance"
 
 [[la]]
 definition = "(proximal & topical suffix)"
-language = "Acadian French"
+language = "Akadská francouzština"
+
+[[lajotu]]
+language = "Canadian Syllabics"
 
 [[lanpan]]
 definition = "take, seize, grasp, receive"
-language = "Greek"
+language = "Řečtina"
+
+[[lapan]]
+definition = "milk"
+language = "Arabština"
 
 [[lape]]
-definition = "sleep"
-language = "Dutch"
+definition = "spát"
+language = "Nizozemština"
 
 [[laso]]
-definition = "blue, inexperienced"
-language = "Welsh"
+definition = "modrá, nezkušený"
+language = "Velština"
 
 [[laso]]
-definition = "green, blue"
+definition = "zelená, modrá"
 language = "Proto-Brythonic"
 
 [[lawa]]
-definition = "head"
-language = "Serbo-Croatian"
+definition = "hlava"
+language = "Srbochorvatština"
 
 [[leko]]
 definition = "Lego"
-language = "English"
+language = "Angličtina"
 
 [[leko]]
-definition = "play well"
-language = "Danish"
+definition = "hraj dobře"
+language = "Dánština"
 
 [[leko]]
-definition = "block, section"
-language = "Finnish"
+definition = "blok, sekce"
+language = "Finština"
 
 [[len]]
-definition = "clothing"
-language = "Acadian French"
+definition = "oblečení"
+language = "Akadská francouzština"
+
+[[lenke]]
+definition = "0"
+language = "Kantonština"
 
 [[lete]]
-definition = "cold"
-language = "Acadian French"
+definition = "studené"
+language = "Akadská francouzština"
 
 [[lete]]
-definition = "cold"
-language = "Old French"
+definition = "studené"
+language = "Starofrancouzština"
 
 [[li]]
-definition = "he"
+definition = "on"
 language = "Esperanto"
 
 [[li]]
-definition = "he"
-language = "Latin"
+definition = "on"
+language = "Latina"
 
 [[li]]
-definition = "he"
+definition = "on"
 language = "Tok Pisin"
 
 [[li]]
-definition = "he"
-language = "English"
+definition = "on"
+language = "Angličtina"
 
 [[lijokuku]]
 definition = "Exactly!', (literally) 'real LOL'"
-language = "Korean"
+language = "Korejština"
 
 [[likujo]]
 definition = "collection, ensemble, anthology"
-language = "Acadian French"
+language = "Akadská francouzština"
 
 [[lili]]
-definition = "small, little"
+definition = "malé"
 language = "Tok Pisin"
 
 [[lili]]
-definition = "small, little"
+definition = "malé"
 language = "Ramoaaina"
 
 [[linja]]
-definition = "line"
-language = "Finnish"
+definition = "čára"
+language = "Finština"
 
 [[linja]]
-definition = "line"
-language = "Old Swedish"
+definition = "čára"
+language = "Starošvédština"
 
 [[linluwi]]
 definition = "internet"
-language = "Welsh"
+language = "Velština"
+
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "Ruština"
 
 [[lipu]]
-definition = "flag, banner, ticket"
-language = "Finnish"
+definition = "vlajka, banner, lístek"
+language = "Finština"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "Polština"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -542,7 +673,7 @@ language = "toki pona"
 
 [[loje]]
 definition = "red (inflected)"
-language = "Dutch"
+language = "Nizozemština"
 
 [[loka]]
 definition = "hand, arm, grasping appendage, tactile appendage"
@@ -553,12 +684,16 @@ definition = "foot, leg, roots, locomotive appendage"
 language = "toki pona"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "dávat se, vidět, oko; (předsl.) zkusit"
 language = "toki pona"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "dávat se, vidět, oko; (předsl.) zkusit"
 language = "toki pona"
+
+[[loku]]
+definition = "6"
+language = "Kantonština"
 
 [[lon]]
 definition = "at, in, on, (spacial particle)"
@@ -566,105 +701,120 @@ language = "Tok Pisin"
 
 [[lon]]
 definition = "along"
-language = "English"
+language = "Angličtina"
 
 [[lu]]
 language = "a priori"
 
 [[luka]]
-definition = "hand, arm"
-language = "Serbo-Croatian"
+definition = "ruka"
+language = "Srbochorvatština"
 
 [[lukin]]
-definition = "see, look at"
+definition = "vidět, dívat se na"
 language = "Tok Pisin"
 
 [[lukin]]
-definition = "look"
-language = "English"
+definition = "dívat se"
+language = "Angličtina"
 
 [[lukin]]
 definition = "him"
-language = "English"
+language = "Angličtina"
 
 [[lupa]]
-definition = "loop"
+definition = "smyčka"
 language = "Lojban"
 
 [[lupa]]
-definition = "loop"
-language = "Mandarin"
+definition = "smyčka"
+language = "Mandarínština"
 
 [[lupa]]
-definition = "loop"
-language = "English"
+definition = "smyčka"
+language = "Angličtina"
 
 [[lupa]]
-definition = "loop"
-language = "Hindi"
+definition = "smyčka"
+language = "Hindština"
 
 [[lupa]]
-definition = "loop"
-language = "Arabic"
+definition = "smyčka"
+language = "Arabština"
 
 [[ma]]
-definition = "earth, land"
-language = "Finnish"
+definition = "země, půda"
+language = "Finština"
 
 [[majuna]]
-definition = "old (not young)"
+definition = "starý (ne mladý)"
 language = "Esperanto"
 
 [[majuna]]
-definition = "bad"
-language = "Latin"
+definition = "špatný"
+language = "Latina"
 
 [[majuna]]
-definition = "young"
-language = "German"
+definition = "mladý"
+language = "Němčina"
 
 [[majuna]]
-definition = "young"
-language = "French"
+definition = "mladý"
+language = "Francouzština"
 
 [[mama]]
-definition = "father"
-language = "Georgian"
+definition = "otec"
+language = "Gruzínština"
 
 [[mani]]
-definition = "money"
-language = "English"
+definition = "peníze"
+language = "Angličtina"
 
 [[mani]]
-definition = "livestock"
+definition = "dobytek"
 language = "Proto-Germanic"
 
 [[mani]]
-definition = "cattle"
-language = "Latin"
+definition = "skot"
+language = "Latina"
+
+[[masalo]]
+language = "Francouzština"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "Angličtina"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "Francouzština"
+
+[[me]]
+definition = "tag question"
+language = "toki pona"
 
 [[meli]]
-definition = "woman, wife, feminine"
+definition = "žena, manželka, ženský"
 language = "Tok Pisin"
 
 [[meli]]
-definition = "pretty"
+definition = "krásné"
 language = "Tolai"
 
 [[meli]]
-definition = "Mary"
-language = "English"
+definition = "Marie"
+language = "Angličtina"
 
 [[melome]]
-definition = "women loving women"
+definition = "ženy milující ženy"
 language = "toki pona"
 
 [[meso]]
-definition = "middle"
-language = "Greek"
+definition = "střed"
+language = "Řečtina"
 
 [[mi]]
-definition = "I, me"
+definition = "já"
 language = "Esperanto"
 
 [[mi]]
@@ -672,291 +822,344 @@ definition = "(1st person singular oblique)"
 language = "Romance"
 
 [[mije]]
-definition = "man, husband"
-language = "Finnish"
+definition = "muž, manžel"
+language = "Finština"
 
 [[mijomi]]
-definition = "men loving men"
+definition = "muži milující muže"
 language = "toki pona"
 
 [[misa]]
 definition = "mouse (diminutive)"
-language = "Ukrainian"
+language = "Ukrajinština"
 
 [[misikeke]]
-definition = "medicine, drug"
-language = "Ojibwe"
+definition = "lék, droga"
+language = "Odžibvejština"
 
 [[moku]]
-definition = "munching"
-language = "Japanese"
+definition = "mlaskání"
+language = "Japonština"
 
 [[moli]]
-definition = "die"
-language = "Acadian French"
+definition = "zemřít"
+language = "Akadská francouzština"
 
 [[molusa]]
 definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
-language = "English"
+language = "Angličtina"
 
 [[molusa]]
 definition = "thin shelled"
-language = "Latin"
+language = "Latina"
 
 [[monsi]]
-definition = "my ass (vulgar)"
-language = "Acadian French"
+definition = "moje prdel (vulgární)"
+language = "Akadská francouzština"
 
 [[monsuta]]
-definition = "monster"
-language = "Japanese"
+definition = "monstrum"
+language = "Japonština"
 
 [[monsuta]]
-definition = "monster"
-language = "English"
+definition = "monstrum"
+language = "Angličtina"
 
 [[mu]]
-language = "onomatopoeia"
+language = "onomatopoie"
 
 [[mulapisu]]
 language = "a priori"
 
 [[mun]]
-definition = "moon"
-language = "English"
+definition = "měsíc"
+language = "Angličtina"
 
 [[musi]]
-definition = "amuse, entertain"
+definition = "bavit"
 language = "Esperanto"
 
 [[musi]]
-definition = "amuse, entertain"
-language = "French"
+definition = "bavit"
+language = "Francouzština"
 
 [[mute]]
-definition = "a lot"
+definition = "hodně"
 language = "Esperanto"
 
 [[mute]]
-definition = "a lot"
-language = "Latin"
+definition = "hodně"
+language = "Latina"
 
 [[n]]
-language = "onomatopoeia"
+language = "onomatopoie"
 
 [[nalanja]]
-definition = "orange"
-language = "Spanish"
+definition = "oranžová"
+language = "Španělština"
 
 [[namako]]
-definition = "salt"
-language = "Hindi"
+definition = "sůl"
+language = "Hindština"
 
 [[namako]]
-definition = "salt"
-language = "Persian"
+definition = "sůl"
+language = "Perština"
 
 [[nanpa]]
-definition = "number"
+definition = "číslo"
 language = "Tok Pisin"
 
 [[nanpa]]
-definition = "number"
-language = "English"
+definition = "číslo"
+language = "Angličtina"
 
 [[nasa]]
 definition = "dunderhead"
 language = "Tok Pisin"
 
 [[nasin]]
-definition = "way, method"
-language = "Serbo-Croatian"
+definition = "cesta, způsob"
+language = "Srbochorvatština"
 
 [[natu]]
 definition = "crossroads, four-way intersection"
-language = "Vietnamese"
+language = "Vietnamština"
+
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
 
 [[neja]]
-definition = "čtyři"
-language = "Finnish"
+definition = "(číslovka) čtyři"
+language = "Finština"
 
 [[nele]]
 definition = "cloth, fabric, clothing; secret, hidden, covered"
 language = "toki pona"
 
 [[nena]]
-definition = "nose"
-language = "Finnish"
+definition = "nos"
+language = "Finština"
 
 [[ni]]
-definition = "this"
-language = "Cantonese"
+definition = "toto"
+language = "Kantonština"
 
 [[ni]]
 definition = "(continuation of a state/action)"
 language = "Tai"
 
 [[nimi]]
-definition = "name"
-language = "Finnish"
+definition = "jméno"
+language = "Finština"
 
 [[nimisin]]
-definition = "new word"
+definition = "nové slovo"
 language = "toki pona"
 
 [[nja]]
-definition = "meow (onomatopoeia)"
-language = "Japanese"
+definition = "mňau (onomatopoie)"
+language = "Japonština"
 
 [[noka]]
-definition = "foot, leg"
-language = "Serbo-Croatian"
+definition = "chodidlo, noha"
+language = "Srbochorvatština"
 
 [[nowi]]
 definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
-language = "Vietnamese"
+language = "Vietnamština"
 
 [[nu]]
 language = "a priori"
 
+[[nu1]]
+definition = "new"
+language = "Angličtina"
+
+[[nun]]
+definition = "5"
+language = "Kantonština"
+
+[[nuwa]]
+definition = "newer"
+language = "Angličtina"
+
 [[o]]
-definition = "(vocative suffix)"
-language = "Georgian"
+definition = "(vokativní přípona)"
+language = "Gruzínština"
 
 [[ojuta]]
-definition = "'lick my balls' (same as English 'ligma balls')"
+definition = "'liž mi koule' (stejné jako anglické 'ligma balls')"
 language = "toki pona"
 
 [[oke]]
-definition = "okay"
-language = "English"
+definition = "OK"
+language = "Angličtina"
 
 [[okepuma]]
-definition = "okay boomer"
-language = "English"
+definition = "OK boomere"
+language = "Angličtina"
 
 [[oki]]
-definition = "okay"
-language = "English"
+definition = "OK"
+language = "Angličtina"
 
 [[oki]]
-definition = "okay"
-language = "English"
+definition = "OK"
+language = "Angličtina"
 
 [[oko]]
-definition = "eye"
-language = "Serbo-Croatian"
+definition = "oko"
+language = "Srbochorvatština"
+
+[[olala]]
+language = "Francouzština"
 
 [[olin]]
-definition = "I love"
-language = "Serbo-Croatian"
+definition = "miluji"
+language = "Srbochorvatština"
 
 [[omekalike]]
-definition = "'eat a bad fish', wishing somebody harm instead of well"
+definition = '"sněz špatnou rybu", přát někomu újmu místo dobra'
 language = "toki pona"
 
 [[omekalike]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "'sněz dobrou rybu', přát někomu štěstí"
 language = "toki pona"
 
 [[omekapo]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "'sněz dobrou rybu', přát někomu štěstí"
 language = "toki pona"
 
 [[omen]]
-definition = "'kill me', express exasperation or frustration sarcastically"
+definition = "'zabij mě', sarkastické vyjádření rozhořčení nebo frustrace"
 language = "toki pona"
 
 [[ona]]
-definition = "she"
-language = "Serbo-Croatian"
+definition = "ona"
+language = "Srbochorvatština"
 
 [[oni]]
-definition = "(personifications of) dreams"
-language = "Ancient Greek"
+definition = "ztělesnění snů, sny"
+language = "Starověká řečtina"
+
+[[onono]]
+definition = "oh no"
+language = "Angličtina"
+
+[[opasan]]
+definition = "opossum"
+language = "Angličtina"
 
 [[open]]
-definition = "open"
-language = "English"
+definition = "otevřít"
+language = "Angličtina"
 
 [[owe]]
-definition = "George Orwell, author of 1984"
-language = "English"
+definition = "George Orwell, autor 1984"
+language = "Angličtina"
 
 [[pa]]
 definition = "bruh"
-language = "English"
+language = "Angličtina"
 
 [[pakala]]
-definition = "accident"
+definition = "nehoda"
 language = "Tok Pisin"
 
 [[pakala]]
-definition = "bugger up"
-language = "English"
+definition = "zkazit"
+language = "Angličtina"
 
 [[pake]]
 definition = "block"
-language = "English"
+language = "Angličtina"
 
 [[pakola]]
-definition = "broken, damaged, harmed, destroyed"
+definition = "rozbitý, poškozený, ublížený, zničený"
 language = "toki pona"
 
 [[pali]]
-definition = "do, make"
+definition = "dělat, vyrábět"
 language = "Esperanto"
 
 [[palisa]]
 definition = "bat, rod, cane"
-language = "Serbo-Croatian"
+language = "Srbochorvatština"
 
 [[pan]]
-definition = "bread"
+definition = "chléb"
 language = "Romance"
 
 [[pan]]
-definition = "bread"
-language = "Japanese"
+definition = "chléb"
+language = "Japonština"
 
 [[pan]]
-definition = "bread"
-language = "Portuguese"
+definition = "chléb"
+language = "Portugalština"
 
 [[pana]]
 definition = "put, set, place"
-language = "Finnish"
+language = "Finština"
 
 [[pana]]
-definition = "give to each other"
-language = "Swahili"
+definition = "dávat si navzájem"
+language = "Svahilština"
+
+[[panke]]
+language = "toki pona"
+
+[[panke]]
+language = "Francouzština"
+
+[[papa]]
+language = "Angličtina"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "onomatopoie"
 
 [[pasila]]
 definition = "easy"
-language = "Acadian French"
+language = "Akadská francouzština"
 
 [[pasila]]
 definition = "easy"
 language = "Esperanto"
 
 [[pata]]
-definition = "brother"
-language = "Serbo-Croatian"
+definition = "bratr"
+language = "Srbochorvatština"
 
 [[pata]]
-definition = "sibling or cousin of the same gender"
+definition = "sourozenec nebo bratranec či sestřenice stejného pohlaví"
 language = "Tok Pisin"
 
 [[pata]]
-definition = "brother"
-language = "English"
+definition = "bratr"
+language = "Angličtina"
+
+[[penpo]]
+definition = "only toki pona"
+language = "toki pona"
+
+[[patu]]
+definition = "8"
+language = "Kantonština"
+
+[[pela]]
+language = "a priori"
 
 [[peta]]
-definition = "green"
+definition = "zelená"
 language = "Esperanto"
 
 [[peto]]
-definition = "(incomplete sentence) 'give eye-water', to cry"
+definition = "(neúplná věta) 'dávat oční vodu', brečet"
 language = "toki pona"
 
 [[pi]]
@@ -964,112 +1167,140 @@ definition = "of"
 language = "Tok Pisin"
 
 [[pi]]
-definition = "belong"
-language = "English"
+definition = "patřit"
+language = "Angličtina"
 
 [[pika]]
-definition = "Pikachū, an electric Pokémon"
-language = "Japanese"
+definition = "Pikachū, elektrický Pokémon"
+language = "Japonština"
 
 [[pilin]]
-definition = "feel"
+definition = "pocit"
 language = "Tok Pisin"
 
 [[pilin]]
 definition = "him"
-language = "English"
+language = "Angličtina"
 
 [[pilin]]
 definition = "him"
-language = "English"
+language = "Angličtina"
 
 [[pimeja]]
-definition = "dark"
-language = "Finnish"
+definition = "tmavý"
+language = "Finština"
 
 [[pini]]
-definition = "finished, completed"
-language = "Acadian French"
+definition = "dokončené, hotové"
+language = "Akadská francouzština"
 
 [[pini]]
-definition = "finish (perfective aspect)"
+definition = "dokončit (dokonavý vid)"
 language = "Tok Pisin"
 
 [[pini]]
-definition = "finish"
-language = "English"
+definition = "končit"
+language = "Angličtina"
 
 [[pipi]]
-definition = "bug"
-language = "Acadian French"
+definition = "brouk"
+language = "Akadská francouzština"
 
 [[pipo]]
-definition = "bug, insect, arachnid"
+definition = "brouk, hmyz, pavouk"
+language = "toki pona"
+
+[[pipolo]]
+language = "toki pona"
+
+[[pipolo]]
 language = "toki pona"
 
 [[po]]
-definition = "čtyři"
-language = "English"
+definition = "(číslovka) čtyři"
+language = "Angličtina"
 
 [[poka]]
-definition = "side, flank (genitive)"
-language = "Serbo-Croatian"
+definition = "strana, bok (genitiv)"
+language = "Srbochorvatština"
 
 [[poki]]
 definition = "box, female genitalia (vulgar)"
 language = "Tok Pisin"
 
 [[poki]]
-definition = "box"
-language = "English"
+definition = "krabice"
+language = "Angličtina"
 
 [[polinpin]]
 definition = "kuželka"
-language = "English"
+language = "Angličtina"
 
 [[pomotolo]]
-definition = "tomato"
-language = "Italian"
+definition = "rajče"
+language = "Italština"
 
 [[pona]]
-definition = "good"
+definition = "dobrý"
 language = "Esperanto"
 
 [[poni]]
 definition = "poník"
-language = "English"
+language = "Angličtina"
+
+[[positu]]
+language = "Angličtina"
+
+[[potesu]]
+language = "Angličtina"
 
 [[powe]]
-definition = "not true"
-language = "Acadian French"
+definition = "nepravda"
+language = "Akadská francouzština"
 
 [[pu]]
-definition = "unworked wood, sincere, honest, inherent quality, simple"
-language = "Mandarin"
+definition = "nezpracované dřevo, upřímný, poctivý, přirozená kvalita, jednoduchý"
+language = "Mandarínština"
 
 [[pu]]
-definition = "book"
-language = "English"
+definition = "kniha"
+language = "Angličtina"
+
+[[pulaso]]
+definition = "blue"
+language = "Angličtina"
+
+[[pulaso]]
+definition = "blue, green"
+language = "toki pona"
 
 [[puwa]]
-definition = "fluffy things (onomatopoeia)"
-language = "Japanese"
+definition = "nadýchané věci (onomatopoie)"
+language = "Japonština"
+
+[[saja]]
+definition = "trees"
+language = "Arabština"
+
+[[salu]]
+definition = "safety, security"
+language = "Latina"
 
 [[sama]]
-definition = "same"
-language = "Finnish"
+definition = "stejné"
+language = "Finština"
 
 [[sama]]
-definition = "same, alike"
+definition = "stejný, podobný"
 language = "Proto-Germanic"
 
 [[sama]]
-definition = "same"
+definition = "stejné"
 language = "Esperanto"
 
 [[sama]]
-definition = "same"
-language = "English"
+definition = "stejné"
+language = "Angličtina"
 
 [[samu]]
 definition = "jan Samu"
@@ -1077,346 +1308,429 @@ language = "toki pona"
 
 [[san]]
 definition = "tři"
-language = "Japanese"
+language = "Japonština"
 
 [[san]]
 definition = "tři"
-language = "Cantonese"
+language = "Kantonština"
 
 [[san]]
 definition = "tři"
-language = "Cantonese"
+language = "Kantonština"
+
+[[sapelipope]]
+language = "Francouzština"
+
+[[se]]
+definition = "4"
+language = "Kantonština"
+
+[[se1]]
+definition = "oneself"
+language = "Latina"
 
 [[seli]]
-definition = "hot"
-language = "Georgian"
+definition = "horké"
+language = "Gruzínština"
 
 [[selo]]
-definition = "skin, peel"
+definition = "kůže, slupka"
 language = "Esperanto"
 
 [[selo]]
 definition = "peel, husk, shell"
-language = "German"
+language = "Němčina"
 
 [[seme]]
-definition = "what, something"
-language = "Mandarin"
+definition = "co, něco"
+language = "Mandarínština"
 
 [[sewi]]
-definition = "upwards"
-language = "Georgian"
+definition = "vzhůru"
+language = "Gruzínština"
 
 [[sijelo]]
-definition = "body"
-language = "Serbo-Croatian"
+definition = "tělo"
+language = "Srbochorvatština"
+
+[[sikako]]
+language = "Francouzština"
 
 [[sike]]
-definition = "circle"
-language = "English"
+definition = "kruh"
+language = "Angličtina"
 
 [[sikomo]]
 definition = "sicko mode"
-language = "English"
+language = "Angličtina"
+
+[[silapa]]
+definition = "giraffe"
+language = "Polština"
 
 [[sin]]
-definition = "new, fresh"
-language = "Mandarin"
+definition = "nový, čerstvý"
+language = "Mandarínština"
 
 [[sina]]
 definition = "ty, vy"
-language = "Finnish"
+language = "Finština"
 
 [[sinpin]]
-definition = "in front"
-language = "Cantonese"
+definition = "vpřed"
+language = "Kantonština"
 
 [[sipi]]
 definition = "sibi (dative reflexive pronoun)"
-language = "Latin"
+language = "Latina"
+
+[[sipije]]
+language = "Angličtina"
+
+[[sipije]]
+definition = "to be honest"
+language = "Angličtina"
 
 [[sitelen]]
-definition = "paint"
-language = "Dutch"
+definition = "malovat"
+language = "Nizozemština"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "Tagalština"
 
 [[slape]]
-definition = "sleep, rest"
+definition = "spát, odpočívat"
 language = "toki pona"
 
 [[slape]]
-definition = "sleep"
-language = "English"
+definition = "spát"
+language = "Angličtina"
 
 [[soko]]
-definition = "mushroom"
-language = "Georgian"
+definition = "houba"
+language = "Gruzínština"
 
 [[sole]]
 definition = "to use to, to tend to"
-language = "Spanish"
+language = "Španělština"
 
 [[sona]]
-definition = "knowledge"
-language = "Georgian"
+definition = "vědomosti"
+language = "Gruzínština"
 
 [[soto]]
-definition = "left side"
-language = "Swahili"
+definition = "levá strana"
+language = "Svahilština"
 
 [[soweli]]
-definition = "beastly animal, lively, passionate"
-language = "Georgian"
+definition = "šelma, plný života, vášnivý"
+language = "Gruzínština"
 
 [[su]]
 language = "a priori"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "Esperanto"
+
 [[suke]]
-definition = "circle, sphere, cycle"
+definition = "kruh, koule, cyklus"
+language = "toki pona"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "Angličtina"
+
+[[sulaso]]
+definition = "blue, green"
 language = "toki pona"
 
 [[suli]]
-definition = "big, large, great"
-language = "Finnish"
+definition = "velký, objemný"
+language = "Finština"
 
 [[suno]]
-definition = "sun"
+definition = "slunce"
 language = "Esperanto"
 
 [[supa]]
-definition = "surface"
+definition = "povrch"
 language = "Esperanto"
 
 [[supa]]
-definition = "surface"
-language = "Acadian French"
+definition = "povrch"
+language = "Akadská francouzština"
 
 [[supa]]
-definition = "surface"
-language = "English"
+definition = "povrch"
+language = "Angličtina"
 
 [[sutopatikuna]]
-definition = "platypus, (literally) strange beak"
-language = "Serbo-Croatian"
+definition = "ptakopysk, (doslova) podivný zobák"
+language = "Srbochorvatština"
 
 [[suwi]]
-definition = "sweet"
+definition = "sladký"
 language = "Tok Pisin"
 
 [[suwi]]
-definition = "sweet"
-language = "English"
+definition = "sladký"
+language = "Angličtina"
+
+[[suwili]]
+language = "toki pona"
+
+[[suwili]]
+language = "toki pona"
 
 [[ta]]
 language = "a priori"
 
+[[take]]
+definition = "7"
+language = "Kantonština"
+
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoeia)"
-language = "Korean"
+definition = "zvuk kontaktu dvou magnetů (onomatopoie)"
+language = "Korejština"
 
 [[tan]]
-definition = "from"
-language = "Cantonese"
+definition = "z, od"
+language = "Kantonština"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
-definition = "just, only, but, however"
+definition = "pouze, jenom, ale, nicméně"
 language = "Tok Pisin"
 
 [[taso]]
-definition = "that’s all"
-language = "English"
+definition = "to je vše"
+language = "Angličtina"
 
 [[tawa]]
-definition = "toward"
-language = "English"
+definition = "směrem k"
+language = "Angličtina"
 
 [[te]]
 definition = "(quotative)"
-language = "Japanese"
+language = "Japonština"
 
 [[teje]]
-definition = "right"
-language = "Welsh"
+definition = "pravá strana"
+language = "Velština"
+
+[[teki]]
+definition = "event"
+language = "Japonština"
 
 [[telo]]
-definition = "(some) water"
-language = "Acadian French"
+definition = "(nějaká) voda"
+language = "Akadská francouzština"
 
 [[ten]]
-definition = "time, event, situation"
+definition = "čas, událost, situace"
 language = "toki pona"
 
 [[tenpo]]
-definition = "time"
+definition = "čas"
 language = "Esperanto"
 
 [[tenpo]]
-definition = "time"
-language = "Latin"
+definition = "čas"
+language = "Latina"
 
 [[to]]
 definition = "(quotative)"
-language = "Japanese"
+language = "Japonština"
 
 [[tokana]]
-definition = "attention, focus"
+definition = "pozornost, soustředění"
 language = "Tongan"
 
 [[toki]]
-definition = "talk"
+definition = "mluvit"
 language = "Tok Pisin"
 
 [[toki]]
-definition = "talk"
-language = "English"
+definition = "mluvit"
+language = "Angličtina"
 
 [[toma]]
-definition = "home, room, house, building"
+definition = "domácnost, místnost, dům, stavení"
 language = "toki pona"
 
 [[tomo]]
-definition = "house"
+definition = "dům"
 language = "Esperanto"
 
 [[tomo]]
-definition = "house"
-language = "Polish"
+definition = "dům"
+language = "Polština"
 
 [[tomo]]
-definition = "house"
-language = "Latin"
+definition = "dům"
+language = "Latina"
 
 [[tomo]]
-definition = "house"
-language = "Ancient Greek"
+definition = "dům"
+language = "Starověká řečtina"
+
+[[tona]]
+language = "Angličtina"
 
 [[tonsi]]
-definition = "comrade (same will/purpose), LGBT+"
-language = "Mandarin"
+definition = "soudruh (stejná vůle/účel), LGBT+"
+language = "Mandarínština"
+
+[[towoki]]
+language = "toki pona"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
-definition = "two"
-language = "English"
+definition = "dva"
+language = "Angličtina"
 
 [[tu]]
-definition = "two"
+definition = "dva"
 language = "Esperanto"
 
 [[tuli]]
 definition = "tři"
-language = "English"
+language = "Angličtina"
 
 [[u]]
 language = "a priori"
 
 [[umesu]]
-definition = "to amaze (someone), surprise, impress"
+definition = "ohromit, překvapit, zapůsobit"
 language = "Iqglic"
 
 [[unpa]]
-language = "onomatopoeia"
+language = "onomatopoie"
 
 [[unu]]
 definition = "fialový, nachový"
-language = "Malay-Indonesian"
+language = "Malajsko-Indonéština"
 
 [[usawi]]
-definition = "witchcraft, sorcery"
-language = "Swahili"
+definition = "čarodějnictví, kouzelnictví"
+language = "Svahilština"
 
 [[uta]]
-definition = "mouth"
-language = "Serbo-Croatian"
+definition = "ústa"
+language = "Srbochorvatština"
 
 [[utala]]
-definition = "strike, hit, beat"
-language = "Serbo-Croatian"
+definition = "udeřit, zasáhnout, mlátit"
+language = "Srbochorvatština"
 
 [[wa]]
-language = "onomatopoeia"
+language = "onomatopoie"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "Angličtina"
+
+[[waken]]
+language = "Angličtina"
 
 [[waleja]]
 definition = "of moment, important"
 language = "Quenya"
 
 [[waleja]]
-definition = "worth, worthy, dear"
+definition = "hodnotný, cenný, drahý"
 language = "Quenya"
 
 [[walo]]
-definition = "white"
-language = "Finnish"
+definition = "bílá"
+language = "Finština"
 
 [[wan]]
-definition = "one"
-language = "English"
+definition = "jedna"
+language = "Angličtina"
 
 [[waso]]
-definition = "bird"
-language = "Acadian French"
+definition = "pták"
+language = "Akadská francouzština"
 
 [[wasoweli]]
-definition = "bird, flying creature"
+definition = "pták, létající tvor"
 language = "toki pona"
 
 [[wasoweli]]
-definition = "land animal, fuzzy creature"
+definition = "suchozemské zvíře, načechraný tvor"
 language = "toki pona"
 
 [[wawa]]
-definition = "strong, powerful, thick"
-language = "Finnish"
+definition = "silný, tlustý"
+language = "Finština"
 
 [[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
+definition = "(všechny fonotakticky nemožné CV slabiky v Toki Pona)"
 language = "toki pona"
 
 [[we]]
-definition = "man"
-language = "Spanish"
+definition = "muž"
+language = "Španělština"
 
 [[we1]]
-definition = "man"
-language = "Spanish"
+definition = "muž"
+language = "Španělština"
 
 [[we1]]
 definition = "man (sentence tag)"
-language = "English"
+language = "Angličtina"
 
 [[weka]]
-definition = "away, gone"
-language = "Dutch"
+definition = "pryč"
+language = "Nizozemština"
 
 [[wekama]]
-definition = "'leave-arrive', to leave and come back"
+definition = "'odepřijít', odejít a přijít zpět"
 language = "toki pona"
 
 [[wi]]
-definition = "we"
-language = "English"
+definition = "my"
+language = "Angličtina"
 
 [[wile]]
-definition = "want, desire"
-language = "Dutch"
+definition = "chtít, toužit"
+language = "Nizozemština"
+
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "Francouzština"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "(zvuk)"
 language = "toki pona"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "(zvuk)"
 language = "toki pona"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "(zvuk)"
 language = "toki pona"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "(zvuk)"
 language = "toki pona"
 
 [[yupekosi]]
 language = "a priori"
 
 [[yutu]]
-definition = "star"
-language = "Turkish"
+definition = "hvězda"
+language = "Turečtina"

@@ -48,6 +48,10 @@ language = "荷蘭閑話"
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "阿卡迪亞法語"
@@ -60,6 +64,9 @@ language = "沖繩閑話"
 definition = "other, different"
 language = "荷蘭閑話"
 
+[[antikontitutonelema]]
+language = "法語"
+
 [[anu]]
 definition = "或者"
 language = "格魯吉亞語"
@@ -67,6 +74,16 @@ language = "格魯吉亞語"
 [[apeja]]
 definition = "shame, disgrace, dishonor"
 language = "芬蘭語"
+
+[[apelo]]
+language = "法語"
+
+[[api]]
+definition = "bee"
+language = "拉丁語"
+
+[[apoko]]
+language = "英文"
 
 [[awase]]
 definition = "打、摷"
@@ -91,6 +108,10 @@ language = "切羅基語"
 definition = "搭仔"
 language = "荷蘭閑話"
 
+[[enepi]]
+definition = "non-fungible token"
+language = "英文"
+
 [[enko]]
 definition = "辰光、一段辰光、情況"
 language = "toki pona"
@@ -98,6 +119,9 @@ language = "toki pona"
 [[epiku]]
 definition = "epic"
 language = "法語"
+
+[[epikule]]
+language = "toki pona"
 
 [[esun]]
 language = "阿坎語"
@@ -146,6 +170,14 @@ language = "世界語"
 [[ilo]]
 definition = "(agent suffix)"
 language = "獨語"
+
+[[ini]]
+definition = "2"
+language = "廣東閑話"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "裏向、當中心、腸胃"
@@ -211,6 +243,10 @@ language = "英文"
 definition = "to reflect, reverberate"
 language = "土耳其語"
 
+[[jatu]]
+definition = "1"
+language = "廣東閑話"
+
 [[je]]
 definition = "耶"
 language = "英文"
@@ -238,6 +274,13 @@ language = "日本閑話"
 definition = "夢"
 language = "日本閑話"
 
+[[ka]]
+language = "toki pona"
+
+[[kajo]]
+definition = "9"
+language = "廣東閑話"
+
 [[kala]]
 definition = "魚"
 language = "芬蘭語"
@@ -253,6 +296,9 @@ language = "英文"
 [[kalama]]
 definition = "noise (of the human voice)"
 language = "塞爾維亞-克羅埃西亞語"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
@@ -282,6 +328,10 @@ language = "拉丁語"
 definition = "夢"
 language = "朵盧語"
 
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "英文"
+
 [[kapa]]
 definition = "head, cup"
 language = "荷蘭閑話"
@@ -301,6 +351,10 @@ language = "廣東閑話"
 [[kapesi]]
 definition = "brown, coffee (colour)"
 language = "北語"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
 definition = "plant"
@@ -334,6 +388,9 @@ language = "toki pona"
 definition = "named for the Jewish LGBT organization Keshet"
 language = "希伯來語"
 
+[[kewi]]
+language = "英文"
+
 [[ki]]
 definition = "啥人"
 language = "法語"
@@ -344,6 +401,15 @@ language = "芬蘭語"
 
 [[kiki]]
 language = "a priori"
+
+[[kikolo]]
+language = "法語"
+
+[[kikolo]]
+language = "法語"
+
+[[kikulo]]
+language = "法語"
 
 [[kili]]
 definition = "fruit"
@@ -369,6 +435,9 @@ language = "芬蘭語"
 definition = "cream, paste"
 language = "廣東閑話"
 
+[[kokoliko]]
+language = "法語"
+
 [[kokosila]]
 definition = "to speak among Esperantists in a language other than Esperanto"
 language = "世界語"
@@ -377,6 +446,34 @@ language = "世界語"
 definition = "crocodile"
 language = "世界語"
 
+[[kolin]]
+definition = "gloopy love"
+language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "史瓦希利語"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "西班牙語"
+
+[[kolo]]
+definition = "growl"
+language = "日本閑話"
+
+[[kolo]]
+definition = "grunt"
+language = "英文"
+
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
 language = "北語"
@@ -384,6 +481,10 @@ language = "北語"
 [[konsi]]
 definition = "announcement, notice"
 language = "韓語"
+
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "toki pona"
 
 [[konwe]]
 definition = "John Conway, creator of The Game of Life"
@@ -397,8 +498,19 @@ language = "toki pona"
 definition = "to defend, protect (against)"
 language = "愛爾蘭語"
 
+[[kosikosa]]
+language = "法語"
+
 [[ku]]
 language = "a priori"
+
+[[kulaso]]
+definition = "green"
+language = "英文"
+
+[[kulaso]]
+definition = "blue, green"
+language = "toki pona"
 
 [[kule]]
 definition = "顏色"
@@ -444,9 +556,16 @@ language = "羅曼語族"
 definition = "(proximal & topical suffix)"
 language = "阿卡迪亞法語"
 
+[[lajotu]]
+language = "Canadian Syllabics"
+
 [[lanpan]]
 definition = "擔、拿牢、捉牢、收着"
 language = "希臘語"
+
+[[lapan]]
+definition = "milk"
+language = "阿拉伯語"
 
 [[lape]]
 definition = "睏覺"
@@ -479,6 +598,10 @@ language = "芬蘭語"
 [[len]]
 definition = "clothing"
 language = "阿卡迪亞法語"
+
+[[lenke]]
+definition = "0"
+language = "廣東閑話"
 
 [[lete]]
 definition = "瀴、冷"
@@ -532,9 +655,17 @@ language = "老瑞典語"
 definition = "網絡"
 language = "威爾斯語"
 
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "羅宋語"
+
 [[lipu]]
 definition = "flag, banner, ticket"
 language = "芬蘭語"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "波蘭語"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -559,6 +690,10 @@ language = "toki pona"
 [[lokon]]
 definition = "look, see, eye; (preverb) try to"
 language = "toki pona"
+
+[[loku]]
+definition = "6"
+language = "廣東閑話"
 
 [[lon]]
 definition = "at, in, on, (spacial particle)"
@@ -642,6 +777,21 @@ language = "原始日耳曼語"
 [[mani]]
 definition = "cattle"
 language = "拉丁語"
+
+[[masalo]]
+language = "法語"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "英文"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "法語"
+
+[[me]]
+definition = "tag question"
+language = "toki pona"
 
 [[meli]]
 definition = "女人、家主婆、老婆、女性"
@@ -776,6 +926,10 @@ language = "塞爾維亞-克羅埃西亞語"
 definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "四"
 language = "芬蘭語"
@@ -819,6 +973,18 @@ language = "Vietnamese"
 [[nu]]
 language = "a priori"
 
+[[nu1]]
+definition = "new"
+language = "英文"
+
+[[nun]]
+definition = "5"
+language = "廣東閑話"
+
+[[nuwa]]
+definition = "newer"
+language = "英文"
+
 [[o]]
 definition = "(vocative suffix)"
 language = "格魯吉亞語"
@@ -847,6 +1013,9 @@ language = "英文"
 definition = "眼睛"
 language = "塞爾維亞-克羅埃西亞語"
 
+[[olala]]
+language = "法語"
+
 [[olin]]
 definition = "我愛"
 language = "塞爾維亞-克羅埃西亞語"
@@ -874,6 +1043,14 @@ language = "塞爾維亞-克羅埃西亞語"
 [[oni]]
 definition = "(personifications of) dreams"
 language = "老希臘語"
+
+[[onono]]
+definition = "oh no"
+language = "英文"
+
+[[opasan]]
+definition = "opossum"
+language = "英文"
 
 [[open]]
 definition = "打開"
@@ -931,6 +1108,21 @@ language = "芬蘭語"
 definition = "give to each other"
 language = "史瓦希利語"
 
+[[panke]]
+language = "toki pona"
+
+[[panke]]
+language = "法語"
+
+[[papa]]
+language = "英文"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "擬聲詞"
+
 [[pasila]]
 definition = "便當、簡單"
 language = "阿卡迪亞法語"
@@ -950,6 +1142,17 @@ language = "巴布亞皮欽語"
 [[pata]]
 definition = "哥哥"
 language = "英文"
+
+[[penpo]]
+definition = "only toki pona"
+language = "toki pona"
+
+[[patu]]
+definition = "8"
+language = "廣東閑話"
+
+[[pela]]
+language = "a priori"
 
 [[peta]]
 definition = "green"
@@ -1007,6 +1210,12 @@ language = "阿卡迪亞法語"
 definition = "bug, insect, arachnid"
 language = "toki pona"
 
+[[pipolo]]
+language = "toki pona"
+
+[[pipolo]]
+language = "toki pona"
+
 [[po]]
 definition = "四"
 language = "英文"
@@ -1039,6 +1248,12 @@ language = "世界語"
 definition = "小馬"
 language = "英文"
 
+[[positu]]
+language = "英文"
+
+[[potesu]]
+language = "英文"
+
 [[powe]]
 definition = "弗是真个"
 language = "阿卡迪亞法語"
@@ -1051,9 +1266,25 @@ language = "北語"
 definition = "書"
 language = "英文"
 
+[[pulaso]]
+definition = "blue"
+language = "英文"
+
+[[pulaso]]
+definition = "blue, green"
+language = "toki pona"
+
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
 language = "日本閑話"
+
+[[saja]]
+definition = "trees"
+language = "阿拉伯語"
+
+[[salu]]
+definition = "safety, security"
+language = "拉丁語"
 
 [[sama]]
 definition = "一樣"
@@ -1087,6 +1318,17 @@ language = "廣東閑話"
 definition = "三"
 language = "廣東閑話"
 
+[[sapelipope]]
+language = "法語"
+
+[[se]]
+definition = "4"
+language = "廣東閑話"
+
+[[se1]]
+definition = "oneself"
+language = "拉丁語"
+
 [[seli]]
 definition = "熱昏"
 language = "格魯吉亞語"
@@ -1111,6 +1353,9 @@ language = "格魯吉亞語"
 definition = "身體"
 language = "塞爾維亞-克羅埃西亞語"
 
+[[sikako]]
+language = "法語"
+
 [[sike]]
 definition = "圈圈"
 language = "英文"
@@ -1118,6 +1363,10 @@ language = "英文"
 [[sikomo]]
 definition = "sicko mode"
 language = "英文"
+
+[[silapa]]
+definition = "giraffe"
+language = "波蘭語"
 
 [[sin]]
 definition = "新个、新鮮个"
@@ -1135,9 +1384,20 @@ language = "廣東閑話"
 definition = "sibi (dative reflexive pronoun)"
 language = "拉丁語"
 
+[[sipije]]
+language = "英文"
+
+[[sipije]]
+definition = "to be honest"
+language = "英文"
+
 [[sitelen]]
 definition = "paint"
 language = "荷蘭閑話"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "他加祿語"
 
 [[slape]]
 definition = "睏覺、休息"
@@ -1170,8 +1430,20 @@ language = "格魯吉亞語"
 [[su]]
 language = "a priori"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "世界語"
+
 [[suke]]
 definition = "圈圈、球、一輪輪"
+language = "toki pona"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "英文"
+
+[[sulaso]]
+definition = "blue, green"
 language = "toki pona"
 
 [[suli]]
@@ -1206,8 +1478,18 @@ language = "巴布亞皮欽語"
 definition = "甜味道"
 language = "英文"
 
+[[suwili]]
+language = "toki pona"
+
+[[suwili]]
+language = "toki pona"
+
 [[ta]]
 language = "a priori"
+
+[[take]]
+definition = "7"
+language = "廣東閑話"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
@@ -1216,6 +1498,10 @@ language = "韓語"
 [[tan]]
 definition = "從"
 language = "廣東閑話"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
 definition = "只不過、單單、但是、儘管"
@@ -1236,6 +1522,10 @@ language = "日本閑話"
 [[teje]]
 definition = "right"
 language = "威爾斯語"
+
+[[teki]]
+definition = "event"
+language = "日本閑話"
 
 [[telo]]
 definition = "(some) water"
@@ -1289,9 +1579,18 @@ language = "拉丁語"
 definition = "房子"
 language = "老希臘語"
 
+[[tona]]
+language = "英文"
+
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
 language = "北語"
+
+[[towoki]]
+language = "toki pona"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
 definition = "兩"
@@ -1333,6 +1632,13 @@ language = "塞爾維亞-克羅埃西亞語"
 
 [[wa]]
 language = "擬聲詞"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "英文"
+
+[[waken]]
+language = "英文"
 
 [[waleja]]
 definition = "of moment, important"
@@ -1397,6 +1703,14 @@ language = "英文"
 [[wile]]
 definition = "想要、願望"
 language = "荷蘭閑話"
+
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "法語"
 
 [[wuwojiti]]
 definition = "（聲音）"
