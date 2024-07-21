@@ -48,6 +48,10 @@ language = "toki Netelan"
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "Acadian French"
@@ -445,6 +449,30 @@ language = "toki Epelanto"
 [[kolin]]
 definition = "gloopy love"
 language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "toki Sawili"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "Spanish"
+
+[[kolo]]
+definition = "growl"
+language = "toki Nijon"
+
+[[kolo]]
+definition = "grunt"
+language = "toki Inli"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
@@ -898,6 +926,10 @@ language = "Serbo-Croatian"
 definition = "crossroads, four-way intersection"
 language = "toki Wije"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "(number) four"
 language = "toki Somi"
@@ -1012,6 +1044,10 @@ language = "Serbo-Croatian"
 definition = "(personifications of) dreams"
 language = "Ancient Greek"
 
+[[onono]]
+definition = "oh no"
+language = "toki Inli"
+
 [[opasan]]
 definition = "opossum"
 language = "toki Inli"
@@ -1080,6 +1116,12 @@ language = "toki Kanse"
 
 [[papa]]
 language = "toki Inli"
+
+[[papa1]]
+language = "nimi ni li kama ala tan toki ante"
+
+[[papa2]]
+language = "mu"
 
 [[pasila]]
 definition = "easy"
@@ -1282,6 +1324,10 @@ language = "toki Kanse"
 [[se]]
 definition = "4"
 language = "Cantonese"
+
+[[se1]]
+definition = "oneself"
+language = "Latin"
 
 [[seli]]
 definition = "hot"
