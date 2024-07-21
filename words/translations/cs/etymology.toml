@@ -48,6 +48,10 @@ language = "Nizozemština"
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "pod"
 language = "Akadská francouzština"
@@ -445,6 +449,30 @@ language = "Esperanto"
 [[kolin]]
 definition = "gloopy love"
 language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "Svahilština"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "Španělština"
+
+[[kolo]]
+definition = "growl"
+language = "Japonština"
+
+[[kolo]]
+definition = "grunt"
+language = "Angličtina"
 
 [[kon]]
 definition = "vzduch, atmosféra, názor"
@@ -898,6 +926,10 @@ language = "Srbochorvatština"
 definition = "crossroads, four-way intersection"
 language = "Vietnamština"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "(číslovka) čtyři"
 language = "Finština"
@@ -1012,6 +1044,10 @@ language = "Srbochorvatština"
 definition = "ztělesnění snů, sny"
 language = "Starověká řečtina"
 
+[[onono]]
+definition = "oh no"
+language = "Angličtina"
+
 [[opasan]]
 definition = "opossum"
 language = "Angličtina"
@@ -1080,6 +1116,12 @@ language = "Francouzština"
 
 [[papa]]
 language = "Angličtina"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "onomatopoie"
 
 [[pasila]]
 definition = "easy"
@@ -1282,6 +1324,10 @@ language = "Francouzština"
 [[se]]
 definition = "4"
 language = "Kantonština"
+
+[[se1]]
+definition = "oneself"
+language = "Latina"
 
 [[seli]]
 definition = "horké"
