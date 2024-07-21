@@ -48,6 +48,10 @@ language = "Nederlands"
 definition = "(het omgekeerde van la)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "onder"
 language = "Acadiaans Frans"
@@ -445,6 +449,30 @@ language = "Esperanto"
 [[kolin]]
 definition = "gloopy love"
 language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "Swahili"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "Spaans"
+
+[[kolo]]
+definition = "growl"
+language = "Japans"
+
+[[kolo]]
+definition = "grunt"
+language = "Engels"
 
 [[kon]]
 definition = "lucht, atmosfeer, sfeer, mening"
@@ -898,6 +926,10 @@ language = "Servo-Kroatisch"
 definition = "kruispunt"
 language = "Vietnamees"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "vier, 4"
 language = "Fins"
@@ -1012,6 +1044,10 @@ language = "Servo-Kroatisch"
 definition = "(verpersoonlijkingen van) dromen"
 language = "Oud-Grieks"
 
+[[onono]]
+definition = "oh no"
+language = "Engels"
+
 [[opasan]]
 definition = "opossum"
 language = "Engels"
@@ -1080,6 +1116,12 @@ language = "Frans"
 
 [[papa]]
 language = "Engels"
+
+[[papa1]]
+language = "op voorhand"
+
+[[papa2]]
+language = "onomatopee"
 
 [[pasila]]
 definition = "makkelijk"
@@ -1282,6 +1324,10 @@ language = "Frans"
 [[se]]
 definition = "4"
 language = "Kantonees"
+
+[[se1]]
+definition = "oneself"
+language = "Latijn"
 
 [[seli]]
 definition = "warm"
