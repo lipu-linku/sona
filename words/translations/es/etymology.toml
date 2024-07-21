@@ -48,6 +48,10 @@ language = "neerlandés"
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "francés acadiano"
@@ -445,6 +449,30 @@ language = "esperanto"
 [[kolin]]
 definition = "gloopy love"
 language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "suajili"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "español"
+
+[[kolo]]
+definition = "growl"
+language = "japonés"
+
+[[kolo]]
+definition = "grunt"
+language = "inglés"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
@@ -898,6 +926,10 @@ language = "serbocroata"
 definition = "crossroads, four-way intersection"
 language = "vietnamita"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "cuatro"
 language = "finés"
@@ -1012,6 +1044,10 @@ language = "serbocroata"
 definition = "(personifications of) dreams"
 language = "griego antiguo"
 
+[[onono]]
+definition = "oh no"
+language = "inglés"
+
 [[opasan]]
 definition = "opossum"
 language = "inglés"
@@ -1080,6 +1116,12 @@ language = "francés"
 
 [[papa]]
 language = "inglés"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "onomatopeya"
 
 [[pasila]]
 definition = "easy"
@@ -1282,6 +1324,10 @@ language = "francés"
 [[se]]
 definition = "4"
 language = "cantonés"
+
+[[se1]]
+definition = "oneself"
+language = "latín"
 
 [[seli]]
 definition = "hot"
