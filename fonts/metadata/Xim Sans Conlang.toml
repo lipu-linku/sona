@@ -1,11 +1,7 @@
 #:schema ../../api/generated/font.json
 id = "Xim Sans Conlang"
 creator = ["Ximco"]
-features = [
-  "supports cartouches",
-  "codepoints only",
-  "combined glyphs",
-]
+features = ["supports cartouches", "codepoints only", "combined glyphs"]
 filename = "Xim-Sans-Conlang.otf"
 last_updated = "2024-04"
 license = "-"

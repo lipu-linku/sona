@@ -1,0 +1,26 @@
+#:schema ../../api/generated/word.json
+id = "su1"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["kili Tesa", "jan Selu"]
+see_also = ["ala"]
+source_language = "Esperanto"
+usage_category = "sandbox"
+word = "su"
+deprecated = false
+audio = []
+
+[[etymology]]
+alt = "cxu"
+word = "\\u0109u"
+
+[representations]
+ligatures = ["su2"]
+
+[usage]
+2022-08 = 0
+
+[resources]

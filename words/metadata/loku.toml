@@ -1,0 +1,27 @@
+#:schema ../../api/generated/word.json
+id = "loku"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan Lenoka"]
+see_also = []
+source_language = "Cantonese"
+usage_category = "sandbox"
+word = "loku"
+deprecated = false
+audio = []
+
+[[etymology]]
+alt = "luhk"
+word = "\\u516d /\\u9678"
+
+[representations]
+ligatures = []
+
+[usage]
+2020-04 = 12
+2022-08 = 0
+
+[resources]

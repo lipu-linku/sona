@@ -1,0 +1,27 @@
+#:schema ../../api/generated/word.json
+id = "se"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan Lenoka"]
+see_also = ["po"]
+source_language = "Cantonese"
+usage_category = "sandbox"
+word = "se"
+deprecated = false
+audio = []
+
+[[etymology]]
+alt = "sei"
+word = "\\u56db/\\u8086"
+
+[representations]
+ligatures = []
+
+[usage]
+2020-04 = 12
+2022-08 = 0
+
+[resources]

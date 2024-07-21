@@ -1,0 +1,29 @@
+#:schema ../../api/generated/word.json
+id = "waken"
+author_verbatim = ":nimisin: waken — wug :nimisin:"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/808527345656397885"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["soweli nata"]
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "waken"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "wuggen"
+
+[[etymology]]
+word = "wug"
+
+[representations]
+ligatures = ["waken"]
+
+[usage]
+2022-08 = 0
+2023-09 = 0
+
+[resources]

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "kankuli"
+author_verbatim = "My own nimisin is kankuli and it means scrunkly"
+author_verbatim_source = "https://discord.com/channels/948448338662010910/1204203419699777586/1209655989201149982"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2024"
+creator = ["jan Lepeka"]
+see_also = ["suwi", "kiki"]
+source_language = "English"
+usage_category = "sandbox"
+word = "kankuli"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "scrunkly"
+
+[representations]
+ligatures = ["kankuli"]
+
+[usage]
+
+[resources]

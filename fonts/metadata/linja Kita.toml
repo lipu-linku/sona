@@ -1,0 +1,21 @@
+#:schema ../../api/generated/font.json
+id = "linja Kita"
+creator = ["jan Kita","jan Ke Tami"]
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports ku suli and the rest of the UCSUR characters",
+]
+filename = "linjaKita.otf"
+last_updated = "2024-06"
+license = "CC0"
+ligatures = true
+name = "linja Kita"
+style = "uniform line weight"
+ucsur = true
+version = "1"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/retsamys/linja-Kita/raw/main/linjaKita.otf"
+repo = "https://github.com/retsamys/linja-Kita"

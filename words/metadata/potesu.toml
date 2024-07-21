@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "potesu"
+author_verbatim = ":nimisin~1: potesu totally radical from English “bodacious”"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/876205108986265651"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["soko Tulinja"]
+see_also = ["pona", "epiku"]
+source_language = ""
+usage_category = "sandbox"
+word = "potesu"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "bodacious"
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
