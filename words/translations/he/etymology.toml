@@ -48,6 +48,10 @@ language = "הולנדית"
 definition = "(מספק הקשר בשביל המשפט העוקב)"
 language = "טוקי פונה"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "מתחת"
 language = "צרפתית אקדית"
@@ -445,6 +449,30 @@ language = "אספרנטו"
 [[kolin]]
 definition = "gloopy love"
 language = "טוקי פונה"
+
+[[kolo]]
+definition = "pig"
+language = "סוואהילית"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "ספרדית"
+
+[[kolo]]
+definition = "growl"
+language = "יפנית"
+
+[[kolo]]
+definition = "grunt"
+language = "אנגלית"
 
 [[kon]]
 definition = "אוויר, אטמוספרה, אווירה, דעה"
@@ -898,6 +926,10 @@ language = "סרבו-קרואטית"
 definition = "צומת, פרשת דרכים"
 language = "ויאטנמית"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "ארבע"
 language = "פינית"
@@ -1012,6 +1044,10 @@ language = "סרבו-קרואטית"
 definition = "(האנשה של) חלומות"
 language = "יוונית עתיקה"
 
+[[onono]]
+definition = "oh no"
+language = "אנגלית"
+
 [[opasan]]
 definition = "opossum"
 language = "אנגלית"
@@ -1080,6 +1116,12 @@ language = "צרפתית"
 
 [[papa]]
 language = "אנגלית"
+
+[[papa1]]
+language = "אין מקור"
+
+[[papa2]]
+language = "אונומטופיאה"
 
 [[pasila]]
 definition = "קל"
@@ -1282,6 +1324,10 @@ language = "צרפתית"
 [[se]]
 definition = "4"
 language = "קנטונזית"
+
+[[se1]]
+definition = "oneself"
+language = "לטינית"
 
 [[seli]]
 definition = "חם"
