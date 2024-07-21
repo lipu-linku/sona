@@ -48,6 +48,10 @@ language = "荷蘭閑話"
 definition = "(indicate context for a following sentence)"
 language = "toki pona"
 
+[[an]]
+definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
+language = "Chinese"
+
 [[anpa]]
 definition = "below"
 language = "阿卡迪亞法語"
@@ -445,6 +449,30 @@ language = "世界語"
 [[kolin]]
 definition = "gloopy love"
 language = "toki pona"
+
+[[kolo]]
+definition = "pig"
+language = "史瓦希利語"
+
+[[kolo]]
+definition = "pig"
+language = "Zulu"
+
+[[kolo]]
+definition = "pig"
+language = "Kongo"
+
+[[kolo]]
+definition = "pig"
+language = "西班牙語"
+
+[[kolo]]
+definition = "growl"
+language = "日本閑話"
+
+[[kolo]]
+definition = "grunt"
+language = "英文"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
@@ -898,6 +926,10 @@ language = "塞爾維亞-克羅埃西亞語"
 definition = "crossroads, four-way intersection"
 language = "Vietnamese"
 
+[[ne]]
+definition = "not"
+language = "(Indo-European)"
+
 [[neja]]
 definition = "四"
 language = "芬蘭語"
@@ -1012,6 +1044,10 @@ language = "塞爾維亞-克羅埃西亞語"
 definition = "(personifications of) dreams"
 language = "老希臘語"
 
+[[onono]]
+definition = "oh no"
+language = "英文"
+
 [[opasan]]
 definition = "opossum"
 language = "英文"
@@ -1080,6 +1116,12 @@ language = "法語"
 
 [[papa]]
 language = "英文"
+
+[[papa1]]
+language = "a priori"
+
+[[papa2]]
+language = "擬聲詞"
 
 [[pasila]]
 definition = "便當、簡單"
@@ -1282,6 +1324,10 @@ language = "法語"
 [[se]]
 definition = "4"
 language = "廣東閑話"
+
+[[se1]]
+definition = "oneself"
+language = "拉丁語"
 
 [[seli]]
 definition = "熱昏"
