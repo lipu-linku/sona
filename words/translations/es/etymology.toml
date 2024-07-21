@@ -60,6 +60,9 @@ language = "okinawense"
 definition = "other, different"
 language = "neerlandés"
 
+[[antikontitutonelema]]
+language = "francés"
+
 [[anu]]
 definition = "or"
 language = "georgiano"
@@ -67,6 +70,16 @@ language = "georgiano"
 [[apeja]]
 definition = "shame, disgrace, dishonor"
 language = "finés"
+
+[[apelo]]
+language = "francés"
+
+[[api]]
+definition = "bee"
+language = "latín"
+
+[[apoko]]
+language = "inglés"
 
 [[awase]]
 definition = "hit, strike"
@@ -91,6 +104,10 @@ language = "cheroqui"
 definition = "and"
 language = "neerlandés"
 
+[[enepi]]
+definition = "non-fungible token"
+language = "inglés"
+
 [[enko]]
 definition = "time, period, situation"
 language = "toki pona"
@@ -98,6 +115,9 @@ language = "toki pona"
 [[epiku]]
 definition = "epic"
 language = "francés"
+
+[[epikule]]
+language = "toki pona"
 
 [[esun]]
 language = "akan"
@@ -146,6 +166,14 @@ language = "esperanto"
 [[ilo]]
 definition = "(agent suffix)"
 language = "alemán"
+
+[[ini]]
+definition = "2"
+language = "cantonés"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "inside, center, stomach"
@@ -211,6 +239,10 @@ language = "inglés"
 definition = "to reflect, reverberate"
 language = "turco"
 
+[[jatu]]
+definition = "1"
+language = "cantonés"
+
 [[je]]
 definition = "yay"
 language = "inglés"
@@ -238,6 +270,13 @@ language = "japonés"
 definition = "sueño"
 language = "japonés"
 
+[[ka]]
+language = "toki pona"
+
+[[kajo]]
+definition = "9"
+language = "cantonés"
+
 [[kala]]
 definition = "fish"
 language = "finés"
@@ -253,6 +292,9 @@ language = "inglés"
 [[kalama]]
 definition = "noise (of the human voice)"
 language = "serbocroata"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
@@ -282,6 +324,10 @@ language = "latín"
 definition = "sueño"
 language = "tulu"
 
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "inglés"
+
 [[kapa]]
 definition = "head, cup"
 language = "neerlandés"
@@ -301,6 +347,10 @@ language = "cantonés"
 [[kapesi]]
 definition = "brown, coffee (colour)"
 language = "mandarín"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
 definition = "plant"
@@ -334,6 +384,9 @@ language = "toki pona"
 definition = "named for the Jewish LGBT organization Keshet"
 language = "hebreo"
 
+[[kewi]]
+language = "inglés"
+
 [[ki]]
 definition = "who"
 language = "francés"
@@ -344,6 +397,15 @@ language = "finés"
 
 [[kiki]]
 language = "a priori"
+
+[[kikolo]]
+language = "francés"
+
+[[kikolo]]
+language = "francés"
+
+[[kikulo]]
+language = "francés"
 
 [[kili]]
 definition = "fruit"
@@ -369,6 +431,9 @@ language = "finés"
 definition = "cream, paste"
 language = "cantonés"
 
+[[kokoliko]]
+language = "francés"
+
 [[kokosila]]
 definition = "to speak among Esperantists in a language other than Esperanto"
 language = "esperanto"
@@ -377,6 +442,10 @@ language = "esperanto"
 definition = "crocodile"
 language = "esperanto"
 
+[[kolin]]
+definition = "gloopy love"
+language = "toki pona"
+
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
 language = "mandarín"
@@ -384,6 +453,10 @@ language = "mandarín"
 [[konsi]]
 definition = "announcement, notice"
 language = "coreano"
+
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "toki pona"
 
 [[konwe]]
 definition = "John Conway, creator of The Game of Life"
@@ -397,8 +470,19 @@ language = "toki pona"
 definition = "to defend, protect (against)"
 language = "irlandés"
 
+[[kosikosa]]
+language = "francés"
+
 [[ku]]
 language = "a priori"
+
+[[kulaso]]
+definition = "green"
+language = "inglés"
+
+[[kulaso]]
+definition = "blue, green"
+language = "toki pona"
 
 [[kule]]
 definition = "color"
@@ -444,9 +528,16 @@ language = "idiomas romances"
 definition = "(proximal & topical suffix)"
 language = "francés acadiano"
 
+[[lajotu]]
+language = "Canadian Syllabics"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "griego"
+
+[[lapan]]
+definition = "milk"
+language = "árabe"
 
 [[lape]]
 definition = "sleep"
@@ -479,6 +570,10 @@ language = "finés"
 [[len]]
 definition = "clothing"
 language = "francés acadiano"
+
+[[lenke]]
+definition = "0"
+language = "cantonés"
 
 [[lete]]
 definition = "cold"
@@ -532,9 +627,17 @@ language = "sueco antiguo"
 definition = "internet"
 language = "galés"
 
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "ruso"
+
 [[lipu]]
 definition = "flag, banner, ticket"
 language = "finés"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "polaco"
 
 [[lo]]
 definition = "(indicate context for a prior sentence)"
@@ -559,6 +662,10 @@ language = "toki pona"
 [[lokon]]
 definition = "look, see, eye; (preverb) try to"
 language = "toki pona"
+
+[[loku]]
+definition = "6"
+language = "cantonés"
 
 [[lon]]
 definition = "at, in, on, (spacial particle)"
@@ -642,6 +749,21 @@ language = "protogermánico"
 [[mani]]
 definition = "cattle"
 language = "latín"
+
+[[masalo]]
+language = "francés"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "inglés"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "francés"
+
+[[me]]
+definition = "tag question"
+language = "toki pona"
 
 [[meli]]
 definition = "woman, wife, feminine"
@@ -819,6 +941,18 @@ language = "vietnamita"
 [[nu]]
 language = "a priori"
 
+[[nu1]]
+definition = "new"
+language = "inglés"
+
+[[nun]]
+definition = "5"
+language = "cantonés"
+
+[[nuwa]]
+definition = "newer"
+language = "inglés"
+
 [[o]]
 definition = "(vocative suffix)"
 language = "georgiano"
@@ -847,6 +981,9 @@ language = "inglés"
 definition = "eye"
 language = "serbocroata"
 
+[[olala]]
+language = "francés"
+
 [[olin]]
 definition = "I love"
 language = "serbocroata"
@@ -874,6 +1011,10 @@ language = "serbocroata"
 [[oni]]
 definition = "(personifications of) dreams"
 language = "griego antiguo"
+
+[[opasan]]
+definition = "opossum"
+language = "inglés"
 
 [[open]]
 definition = "open"
@@ -931,6 +1072,15 @@ language = "finés"
 definition = "give to each other"
 language = "suajili"
 
+[[panke]]
+language = "toki pona"
+
+[[panke]]
+language = "francés"
+
+[[papa]]
+language = "inglés"
+
 [[pasila]]
 definition = "easy"
 language = "francés acadiano"
@@ -950,6 +1100,17 @@ language = "tok pisin"
 [[pata]]
 definition = "brother"
 language = "inglés"
+
+[[penpo]]
+definition = "only toki pona"
+language = "toki pona"
+
+[[patu]]
+definition = "8"
+language = "cantonés"
+
+[[pela]]
+language = "a priori"
 
 [[peta]]
 definition = "green"
@@ -1007,6 +1168,12 @@ language = "francés acadiano"
 definition = "bug, insect, arachnid"
 language = "toki pona"
 
+[[pipolo]]
+language = "toki pona"
+
+[[pipolo]]
+language = "toki pona"
+
 [[po]]
 definition = "cuatro"
 language = "inglés"
@@ -1039,6 +1206,12 @@ language = "esperanto"
 definition = "poni, caballo pequeño"
 language = "inglés"
 
+[[positu]]
+language = "inglés"
+
+[[potesu]]
+language = "inglés"
+
 [[powe]]
 definition = "not true"
 language = "francés acadiano"
@@ -1051,9 +1224,25 @@ language = "mandarín"
 definition = "book"
 language = "inglés"
 
+[[pulaso]]
+definition = "blue"
+language = "inglés"
+
+[[pulaso]]
+definition = "blue, green"
+language = "toki pona"
+
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
 language = "japonés"
+
+[[saja]]
+definition = "trees"
+language = "árabe"
+
+[[salu]]
+definition = "safety, security"
+language = "latín"
 
 [[sama]]
 definition = "same"
@@ -1087,6 +1276,13 @@ language = "cantonés"
 definition = "tres"
 language = "cantonés"
 
+[[sapelipope]]
+language = "francés"
+
+[[se]]
+definition = "4"
+language = "cantonés"
+
 [[seli]]
 definition = "hot"
 language = "georgiano"
@@ -1111,6 +1307,9 @@ language = "georgiano"
 definition = "body"
 language = "serbocroata"
 
+[[sikako]]
+language = "francés"
+
 [[sike]]
 definition = "circle"
 language = "inglés"
@@ -1118,6 +1317,10 @@ language = "inglés"
 [[sikomo]]
 definition = "sicko mode"
 language = "inglés"
+
+[[silapa]]
+definition = "giraffe"
+language = "polaco"
 
 [[sin]]
 definition = "new, fresh"
@@ -1135,9 +1338,20 @@ language = "cantonés"
 definition = "sibi (dative reflexive pronoun)"
 language = "latín"
 
+[[sipije]]
+language = "inglés"
+
+[[sipije]]
+definition = "to be honest"
+language = "inglés"
+
 [[sitelen]]
 definition = "paint"
 language = "neerlandés"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "tagalo"
 
 [[slape]]
 definition = "sleep, rest"
@@ -1170,8 +1384,20 @@ language = "georgiano"
 [[su]]
 language = "a priori"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "esperanto"
+
 [[suke]]
 definition = "circle, sphere, cycle"
+language = "toki pona"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "inglés"
+
+[[sulaso]]
+definition = "blue, green"
 language = "toki pona"
 
 [[suli]]
@@ -1206,8 +1432,18 @@ language = "tok pisin"
 definition = "sweet"
 language = "inglés"
 
+[[suwili]]
+language = "toki pona"
+
+[[suwili]]
+language = "toki pona"
+
 [[ta]]
 language = "a priori"
+
+[[take]]
+definition = "7"
+language = "cantonés"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
@@ -1216,6 +1452,10 @@ language = "coreano"
 [[tan]]
 definition = "from"
 language = "cantonés"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
 definition = "just, only, but, however"
@@ -1236,6 +1476,10 @@ language = "japonés"
 [[teje]]
 definition = "right"
 language = "galés"
+
+[[teki]]
+definition = "event"
+language = "japonés"
 
 [[telo]]
 definition = "(some) water"
@@ -1289,9 +1533,18 @@ language = "latín"
 definition = "house"
 language = "griego antiguo"
 
+[[tona]]
+language = "inglés"
+
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
 language = "mandarín"
+
+[[towoki]]
+language = "toki pona"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
 definition = "two"
@@ -1333,6 +1586,13 @@ language = "serbocroata"
 
 [[wa]]
 language = "onomatopeya"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "inglés"
+
+[[waken]]
+language = "inglés"
 
 [[waleja]]
 definition = "of moment, important"
@@ -1397,6 +1657,14 @@ language = "inglés"
 [[wile]]
 definition = "want, desire"
 language = "neerlandés"
+
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "francés"
 
 [[wuwojiti]]
 definition = "(sound)"
