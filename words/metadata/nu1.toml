@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "nu1"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan pan"]
+see_also = ["sin"]
+source_language = "English"
+usage_category = "sandbox"
+word = "nu"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "new"
+
+[representations]
+ligatures = ["nu2"]
+
+[usage]
+2022-08 = 0
+
+[resources]

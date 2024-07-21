@@ -1,0 +1,26 @@
+#:schema ../../api/generated/word.json
+id = "lapan"
+author_verbatim = "**lapan** ★ dairy-like; creamy, fatty, rich, smooth\n    ← Arabic لَبَن laban 'milk'"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["ilo Powa"]
+see_also = []
+source_language = "Arabic"
+usage_category = "sandbox"
+word = "lapan"
+deprecated = false
+audio = []
+
+[[etymology]]
+alt = "laban"
+word = "لَبَن"
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 1
+
+[resources]

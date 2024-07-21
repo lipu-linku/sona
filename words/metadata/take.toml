@@ -1,0 +1,27 @@
+#:schema ../../api/generated/word.json
+id = "take"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2019"
+creator = ["jan Lenoka"]
+see_also = []
+source_language = "Cantonese"
+usage_category = "sandbox"
+word = "take"
+deprecated = false
+audio = []
+
+[[etymology]]
+alt = "ch\\u0101t"
+word = "\\u4e03 /\\u67d2"
+
+[representations]
+ligatures = []
+
+[usage]
+2020-04 = 11
+2022-08 = 0
+
+[resources]

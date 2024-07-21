@@ -1,0 +1,28 @@
+#:schema ../../api/generated/word.json
+id = "suwili"
+author_verbatim = "suwi + soweli\n=\nsuwili"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/703784872191197224"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["leko Icy"]
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "suwili"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "soweli"
+
+[[etymology]]
+word = "suwi"
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]

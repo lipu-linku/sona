@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "positu"
+author_verbatim = "positu - the life, universe, and everything else /ref\nI havent even read hitchhikers guide I just know that"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/956236868406620180"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["waso Pini"]
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "positu"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "forty two"
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]

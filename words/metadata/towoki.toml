@@ -1,0 +1,28 @@
+#:schema ../../api/generated/word.json
+id = "towoki"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = ""
+coined_year = ""
+creator = []
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "towoki"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "toki"
+
+[[etymology]]
+word = "OwO"
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 1
+
+[resources]

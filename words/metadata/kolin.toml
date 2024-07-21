@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "kolin"
+author_verbatim = "maybe its like\nyou love someone so much you feel (figuratively) gloopy :3"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138661802218102927"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["umeja", "suwi Sunomun"]
+see_also = []
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "kolin"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "ko olin"
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]

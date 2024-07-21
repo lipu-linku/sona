@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "salu"
+author_verbatim = "#1725441 📣 salu – ~post-ku~ comfort, security, safety, stability; attention, care, caution\n   ← Latin salus 'safety, security'"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/950245694202060810"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["rose"]
+see_also = ["pona", "ike"]
+source_language = ""
+usage_category = "sandbox"
+word = "salu"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "salus"
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]

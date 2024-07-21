@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "tona"
+author_verbatim = "poki tona"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/717883118052442193"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["akesi kon Nalasuni"]
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "tona"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "toner"
+
+[representations]
+ligatures = ["tona"]
+
+[usage]
+2023-09 = 1
+
+[resources]
