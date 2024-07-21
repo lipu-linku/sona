@@ -60,6 +60,9 @@ language = "Okinawan"
 definition = "אחר, שונה"
 language = "הולנדית"
 
+[[antikontitutonelema]]
+language = "צרפתית"
+
 [[anu]]
 definition = "או"
 language = "גאורגית"
@@ -67,6 +70,16 @@ language = "גאורגית"
 [[apeja]]
 definition = "בושה, חרפה"
 language = "פינית"
+
+[[apelo]]
+language = "צרפתית"
+
+[[api]]
+definition = "bee"
+language = "לטינית"
+
+[[apoko]]
+language = "אנגלית"
 
 [[awase]]
 definition = "פגיעה, מכה"
@@ -91,6 +104,10 @@ language = "צ'רוקי"
 definition = "וגם"
 language = "הולנדית"
 
+[[enepi]]
+definition = "non-fungible token"
+language = "אנגלית"
+
 [[enko]]
 definition = "זמן, תקופה, מצב"
 language = "טוקי פונה"
@@ -98,6 +115,9 @@ language = "טוקי פונה"
 [[epiku]]
 definition = "אפי"
 language = "צרפתית"
+
+[[epikule]]
+language = "טוקי פונה"
 
 [[esun]]
 language = "אקאנית"
@@ -146,6 +166,14 @@ language = "אספרנטו"
 [[ilo]]
 definition = "(סיומת מבצע פעולה)"
 language = "גרמנית"
+
+[[ini]]
+definition = "2"
+language = "קנטונזית"
+
+[[inisa]]
+definition = "I don't know"
+language = "Amharic"
 
 [[insa]]
 definition = "בתוך, מרכז, בטן"
@@ -211,6 +239,10 @@ language = "אנגלית"
 definition = "להשקיף, להדהד"
 language = "טורקית"
 
+[[jatu]]
+definition = "1"
+language = "קנטונזית"
+
 [[je]]
 definition = "הידד"
 language = "אנגלית"
@@ -238,6 +270,13 @@ language = "יפנית"
 definition = "חלום"
 language = "יפנית"
 
+[[ka]]
+language = "טוקי פונה"
+
+[[kajo]]
+definition = "9"
+language = "קנטונזית"
+
 [[kala]]
 definition = "דג"
 language = "פינית"
@@ -253,6 +292,9 @@ language = "אנגלית"
 [[kalama]]
 definition = "רעש (של הקול האנושי)"
 language = "סרבו-קרואטית"
+
+[[kalapisituji]]
+language = "Belgian French"
 
 [[kalijopilale]]
 definition = "ציפורנאים"
@@ -282,6 +324,10 @@ language = "לטינית"
 definition = "חלום"
 language = "Tulu"
 
+[[kankuli]]
+definition = "cute in a quirky, scruffy, or dishevelled way"
+language = "אנגלית"
+
 [[kapa]]
 definition = "ראש, כוס"
 language = "הולנדית"
@@ -301,6 +347,10 @@ language = "קנטונזית"
 [[kapesi]]
 definition = "חום, קפה (צבע)"
 language = "מנדרינית"
+
+[[kasan]]
+definition = "bean, nut, peanut, legume"
+language = "Malay"
 
 [[kasi]]
 definition = "צמח"
@@ -334,6 +384,9 @@ language = "טוקי פונה"
 definition = 'נקרא על שם הארגון הלהט"בי היהודי "קשת"'
 language = "עברית"
 
+[[kewi]]
+language = "אנגלית"
+
 [[ki]]
 definition = "מי"
 language = "צרפתית"
@@ -344,6 +397,15 @@ language = "פינית"
 
 [[kiki]]
 language = "אין מקור"
+
+[[kikolo]]
+language = "צרפתית"
+
+[[kikolo]]
+language = "צרפתית"
+
+[[kikulo]]
+language = "צרפתית"
 
 [[kili]]
 definition = "פרי"
@@ -369,6 +431,9 @@ language = "פינית"
 definition = "קרם, משחה"
 language = "קנטונזית"
 
+[[kokoliko]]
+language = "צרפתית"
+
 [[kokosila]]
 definition = "לדבר בשפה שהיא לא אספרנטו בקרב דוברי אספרנטו"
 language = "אספרנטו"
@@ -377,6 +442,10 @@ language = "אספרנטו"
 definition = "קרוקודיל"
 language = "אספרנטו"
 
+[[kolin]]
+definition = "gloopy love"
+language = "טוקי פונה"
+
 [[kon]]
 definition = "אוויר, אטמוספרה, אווירה, דעה"
 language = "מנדרינית"
@@ -384,6 +453,10 @@ language = "מנדרינית"
 [[konsi]]
 definition = "הכרזה, הודעה"
 language = "קוריאנית"
+
+[[konsuno]]
+definition = 'calque of English "gaslight"'
+language = "טוקי פונה"
 
 [[konwe]]
 definition = "ג'ון קונווי, יוצר משחק החיים"
@@ -397,8 +470,19 @@ language = "טוקי פונה"
 definition = "להגן, לשמור (מ)"
 language = "אירית"
 
+[[kosikosa]]
+language = "צרפתית"
+
 [[ku]]
 language = "אין מקור"
+
+[[kulaso]]
+definition = "ירוק"
+language = "אנגלית"
+
+[[kulaso]]
+definition = "blue, green"
+language = "טוקי פונה"
 
 [[kule]]
 definition = "צבע"
@@ -444,9 +528,16 @@ language = "רומאנש"
 definition = "(סיומת כינוי רמז)"
 language = "צרפתית אקדית"
 
+[[lajotu]]
+language = "Canadian Syllabics"
+
 [[lanpan]]
 definition = "לקחת, לתפוס, ללפות, לקבל"
 language = "יוונית"
+
+[[lapan]]
+definition = "milk"
+language = "ערבית"
 
 [[lape]]
 definition = "שינה"
@@ -479,6 +570,10 @@ language = "פינית"
 [[len]]
 definition = "ביגוד"
 language = "צרפתית אקדית"
+
+[[lenke]]
+definition = "0"
+language = "קנטונזית"
 
 [[lete]]
 definition = "קר"
@@ -532,9 +627,17 @@ language = "שוודית ישנה"
 definition = "אינטרנט"
 language = "וולשית"
 
+[[lipasa]]
+definition = "linden tree; (colloquial) forgery, fake"
+language = "רוסית"
+
 [[lipu]]
 definition = "דגל, כרטיס"
 language = "פינית"
+
+[[lisa]]
+definition = "fox (accusative)"
+language = "פולנית"
 
 [[lo]]
 definition = "(מספק הקשר בשביל המשפט הקודם)"
@@ -559,6 +662,10 @@ language = "טוקי פונה"
 [[lokon]]
 definition = "להסתכל, לראות, עין; (פועל מקדים) לנסות"
 language = "טוקי פונה"
+
+[[loku]]
+definition = "6"
+language = "קנטונזית"
 
 [[lon]]
 definition = "אצל, ב, על, (מילת מיקום)"
@@ -642,6 +749,21 @@ language = "פרוטו-גרמנית"
 [[mani]]
 definition = "צאן"
 language = "לטינית"
+
+[[masalo]]
+language = "צרפתית"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "אנגלית"
+
+[[masenta]]
+definition = "purplish-red color"
+language = "צרפתית"
+
+[[me]]
+definition = "tag question"
+language = "טוקי פונה"
 
 [[meli]]
 definition = "אישה, נשי"
@@ -819,6 +941,18 @@ language = "ויאטנמית"
 [[nu]]
 language = "אין מקור"
 
+[[nu1]]
+definition = "new"
+language = "אנגלית"
+
+[[nun]]
+definition = "5"
+language = "קנטונזית"
+
+[[nuwa]]
+definition = "newer"
+language = "אנגלית"
+
 [[o]]
 definition = "(סיומת פנייה)"
 language = "גאורגית"
@@ -847,6 +981,9 @@ language = "אנגלית"
 definition = "עין"
 language = "סרבו-קרואטית"
 
+[[olala]]
+language = "צרפתית"
+
 [[olin]]
 definition = "אני אוהב"
 language = "סרבו-קרואטית"
@@ -874,6 +1011,10 @@ language = "סרבו-קרואטית"
 [[oni]]
 definition = "(האנשה של) חלומות"
 language = "יוונית עתיקה"
+
+[[opasan]]
+definition = "opossum"
+language = "אנגלית"
 
 [[open]]
 definition = "פתוח"
@@ -931,6 +1072,15 @@ language = "פינית"
 definition = "לתת אחד לשני"
 language = "סוואהילית"
 
+[[panke]]
+language = "טוקי פונה"
+
+[[panke]]
+language = "צרפתית"
+
+[[papa]]
+language = "אנגלית"
+
 [[pasila]]
 definition = "קל"
 language = "צרפתית אקדית"
@@ -950,6 +1100,17 @@ language = "טוק פיסין"
 [[pata]]
 definition = "אח"
 language = "אנגלית"
+
+[[penpo]]
+definition = "only toki pona"
+language = "טוקי פונה"
+
+[[patu]]
+definition = "8"
+language = "קנטונזית"
+
+[[pela]]
+language = "אין מקור"
 
 [[peta]]
 definition = "ירוק"
@@ -1007,6 +1168,12 @@ language = "צרפתית אקדית"
 definition = "חרק, עכביש"
 language = "טוקי פונה"
 
+[[pipolo]]
+language = "טוקי פונה"
+
+[[pipolo]]
+language = "טוקי פונה"
+
 [[po]]
 definition = "ארבע"
 language = "אנגלית"
@@ -1039,6 +1206,12 @@ language = "אספרנטו"
 definition = "פוני, סוס"
 language = "אנגלית"
 
+[[positu]]
+language = "אנגלית"
+
+[[potesu]]
+language = "אנגלית"
+
 [[powe]]
 definition = "לא נכון"
 language = "צרפתית אקדית"
@@ -1051,9 +1224,25 @@ language = "מנדרינית"
 definition = "ספר"
 language = "אנגלית"
 
+[[pulaso]]
+definition = "blue"
+language = "אנגלית"
+
+[[pulaso]]
+definition = "blue, green"
+language = "טוקי פונה"
+
 [[puwa]]
 definition = "דברים רכים (אונומטופיאה)"
 language = "יפנית"
+
+[[saja]]
+definition = "trees"
+language = "ערבית"
+
+[[salu]]
+definition = "safety, security"
+language = "לטינית"
 
 [[sama]]
 definition = "אותו דבר"
@@ -1087,6 +1276,13 @@ language = "קנטונזית"
 definition = "שלוש"
 language = "קנטונזית"
 
+[[sapelipope]]
+language = "צרפתית"
+
+[[se]]
+definition = "4"
+language = "קנטונזית"
+
 [[seli]]
 definition = "חם"
 language = "גאורגית"
@@ -1111,6 +1307,9 @@ language = "גאורגית"
 definition = "גוף"
 language = "סרבו-קרואטית"
 
+[[sikako]]
+language = "צרפתית"
+
 [[sike]]
 definition = "מעגל"
 language = "אנגלית"
@@ -1118,6 +1317,10 @@ language = "אנגלית"
 [[sikomo]]
 definition = "(מילולית) מצב חולני"
 language = "אנגלית"
+
+[[silapa]]
+definition = "giraffe"
+language = "פולנית"
 
 [[sin]]
 definition = "חדש, טרי"
@@ -1135,9 +1338,20 @@ language = "קנטונזית"
 definition = "sibi (שם גוף המתאר את המושא הלא ישיר של הפעולה כנושא הפעולה)"
 language = "לטינית"
 
+[[sipije]]
+language = "אנגלית"
+
+[[sipije]]
+definition = "to be honest"
+language = "אנגלית"
+
 [[sitelen]]
 definition = "צבע"
 language = "הולנדית"
+
+[[siwala]]
+definition = "trust; faith (in someone or something); reliance, confidence, belief"
+language = "טגלוג"
 
 [[slape]]
 definition = "לישון, לנוח"
@@ -1170,8 +1384,20 @@ language = "גאורגית"
 [[su]]
 language = "אין מקור"
 
+[[su1]]
+definition = "[yes/no question marker]; whether"
+language = "אספרנטו"
+
 [[suke]]
 definition = "מעגל, כדור, מחזור"
+language = "טוקי פונה"
+
+[[sulaso]]
+definition = "the color between blue and green on the visible spectrum of light"
+language = "אנגלית"
+
+[[sulaso]]
+definition = "blue, green"
 language = "טוקי פונה"
 
 [[suli]]
@@ -1206,8 +1432,18 @@ language = "טוק פיסין"
 definition = "מתוק"
 language = "אנגלית"
 
+[[suwili]]
+language = "טוקי פונה"
+
+[[suwili]]
+language = "טוקי פונה"
+
 [[ta]]
 language = "אין מקור"
+
+[[take]]
+definition = "7"
+language = "קנטונזית"
 
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
@@ -1216,6 +1452,10 @@ language = "קוריאנית"
 [[tan]]
 definition = "מ"
 language = "קנטונזית"
+
+[[tankala]]
+definition = "southeast"
+language = "Malay"
 
 [[taso]]
 definition = "רק, בלבד, אבל, אך"
@@ -1236,6 +1476,10 @@ language = "יפנית"
 [[teje]]
 definition = "ימין"
 language = "וולשית"
+
+[[teki]]
+definition = "event"
+language = "יפנית"
 
 [[telo]]
 definition = "מים"
@@ -1289,9 +1533,18 @@ language = "לטינית"
 definition = "בית"
 language = "יוונית עתיקה"
 
+[[tona]]
+language = "אנגלית"
+
 [[tonsi]]
 definition = 'עמית (אותו רצון/מטרה), להטב"י'
 language = "מנדרינית"
+
+[[towoki]]
+language = "טוקי פונה"
+
+[[towoki]]
+language = "emoticon"
 
 [[tu]]
 definition = "שתיים"
@@ -1333,6 +1586,13 @@ language = "סרבו-קרואטית"
 
 [[wa]]
 language = "אונומטופיאה"
+
+[[waken]]
+definition = 'non-standard plural of "wug"'
+language = "אנגלית"
+
+[[waken]]
+language = "אנגלית"
 
 [[waleja]]
 definition = "חשוב"
@@ -1397,6 +1657,14 @@ language = "אנגלית"
 [[wile]]
 definition = "רצון, כמיהה"
 language = "הולנדית"
+
+[[wisa]]
+definition = "hound, dog"
+language = "Amharic"
+
+[[wiwi]]
+definition = "yes, yes"
+language = "צרפתית"
 
 [[wuwojiti]]
 definition = "(צליל)"
