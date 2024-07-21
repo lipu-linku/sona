@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "kokoliko"
+author_verbatim = ""
+author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = ""
+coined_year = ""
+creator = []
+see_also = ["waso", "wasoweli"]
+source_language = "French"
+usage_category = "sandbox"
+word = "kokoliko"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "cocorico"
+
+[representations]
+ligatures = ["kokoliko"]
+
+[usage]
+2023-09 = 1
+
+[resources]

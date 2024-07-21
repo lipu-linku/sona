@@ -1,0 +1,25 @@
+#:schema ../../api/generated/word.json
+id = "konsuno"
+author_verbatim = ".. konsuno konsuno\nto gaslight, to deceive into believing a lie\nmi konsuno e sina anu seme? ni li lon ala. jan pona sina li toki e nimi ni tawa sina anu seme?\n← toki pona kon + suno, calque of English gaslight\nmade by waso Wen"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/1051641784641540106"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["waso Wen"]
+see_also = ["powe"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "konsuno"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "kon + suno"
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 1
+
+[resources]

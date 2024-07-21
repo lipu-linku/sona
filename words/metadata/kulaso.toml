@@ -1,0 +1,27 @@
+#:schema ../../api/generated/word.json
+id = "kulaso"
+author_verbatim = "green laso, glaso"
+author_verbatim_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2024"
+creator = ["jan Lepeka"]
+see_also = ["laso", "kasi", "peta"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "kulaso"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "green"
+
+[[etymology]]
+word = "laso"
+
+[representations]
+ligatures = ["kulaso"]
+
+[usage]
+
+[resources]
