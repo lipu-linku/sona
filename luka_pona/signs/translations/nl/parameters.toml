@@ -19,14 +19,6 @@ movement = "verticale cirkel beweging"
 handshape = "5"
 movement = "verticale cirkel beweging"
 
-[ANPA-KIWEN]
-handshape = "OpenA"
-movement = "palm omhoog draaien"
-
-[ANPA-KIWEN-2]
-handshape = "OpenA"
-movement = "palm omhoog draaien"
-
 [ANPA-LON]
 handshape = "L"
 orientation = "vinger naar beneden wijzen"
@@ -35,17 +27,25 @@ orientation = "vinger naar beneden wijzen"
 handshape = "BentB"
 movement = "beweging omlaag"
 
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
+
 [ANTE-WAN]
 handshape = "1"
-movement = "palm omhoog draaien"
+movement = "palm flip up"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "palm omhoog draaien"
+movement = "palm flip up"
 
 [ANU]
 handshape = "L"
-movement = "palm omhoog draaien"
+movement = "palm flip up"
 
 [AWEN-TAWA]
 handshape = "BentB"
@@ -379,7 +379,7 @@ orientation = "vingers die zijwaarts wijzen"
 
 [OPEN-2]
 handshape = "PlatteB"
-movement = "palm omhoog draaien"
+movement = "palm flip up"
 
 [PAKALA]
 handshape = "5"
