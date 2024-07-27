@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from typing import Any, Callable, Final, Iterator, Optional
 
-import tomlkit
+import tomllib
 
 DATA_FOLDER: Final[str] = "metadata"
 TRANSLATIONS_FOLDER: Final[str] = "translations"
@@ -33,9 +33,9 @@ def extract_data(
     key_maker: Callable[[Path, dict], Optional[str]],
 ):
     for path in paths:
-        with open(path) as file:
+        with open(path, 'rb') as file:
             print(f"Reading {path}...")
-            data = tomlkit.load(file)
+            data = tomllib.load(file)
             key = key_maker(path, data)
 
             if key:
@@ -52,9 +52,9 @@ def insert_translations(
     key_maker: Callable[[Path, dict], Optional[str]],
 ):
     for path in paths:
-        with open(path) as file:
+        with open(path, 'rb') as file:
             print(f"Reading {path}...")
-            localized_data = tomlkit.load(file)
+            localized_data = tomllib.load(file)
             locale = path.parent.stem
             data_kind = key_maker(path, localized_data)
 
