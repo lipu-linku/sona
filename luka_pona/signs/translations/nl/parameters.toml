@@ -1,9 +1,3 @@
-LEN-INSA = { }
-LEN-INSA-2 = { }
-LEN-INSA-TAWA = { }
-LEN-POKA = { }
-LEN-POKA-TAWA = { }
-
 [AKESI]
 handshape = "V"
 orientation = "vingers wijzen naar buiten"
@@ -231,6 +225,21 @@ placement = "naast hoofd geplaatst"
 [LEKO]
 handshape = "BentB"
 orientation = "de palmen richten zich naar de zijkant"
+
+[LEN-INSA]
+handshape = "BentB"
+
+[LEN-INSA-2]
+handshape = "BentB"
+
+[LEN-INSA-TAWA]
+handshape = "BentB"
+
+[LEN-POKA]
+handshape = "BentB"
+
+[LEN-POKA-TAWA]
+handshape = "BentB"
 
 [LEN-POKA-TAWA-2]
 handshape = "BentB"
