@@ -19,14 +19,6 @@ movement = "svislý krouživý pohyb"
 handshape = "5"
 movement = "svislý krouživý pohyb"
 
-[ANPA-KIWEN]
-handshape = "OpenA"
-movement = "přetočení dlaně nahoru"
-
-[ANPA-KIWEN-2]
-handshape = "OpenA"
-movement = "přetočení dlaně nahoru"
-
 [ANPA-LON]
 handshape = "L"
 orientation = "prst směřující dolů"
@@ -35,17 +27,25 @@ orientation = "prst směřující dolů"
 handshape = "BentB"
 movement = "pohyb dolů"
 
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
+
 [ANTE-WAN]
 handshape = "1"
-movement = "přetočení dlaně nahoru"
+movement = "palm flip up"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "přetočení dlaně nahoru"
+movement = "palm flip up"
 
 [ANU]
 handshape = "L"
-movement = "přetočení dlaně nahoru"
+movement = "palm flip up"
 
 [AWEN-TAWA]
 handshape = "BentB"
@@ -379,7 +379,7 @@ orientation = "prst směřující do strany"
 
 [OPEN-2]
 handshape = "FlatB"
-movement = "přetočení dlaně nahoru"
+movement = "palm flip up"
 
 [PAKALA]
 handshape = "5"

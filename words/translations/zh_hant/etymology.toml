@@ -9,115 +9,117 @@ definition = "跨過、經過"
 language = "漢語"
 
 [[aka]]
-definition = "across"
+definition = "跨越"
 language = "英語"
 
 [[akesi]]
-definition = "lizard"
+definition = "蜥蜴"
 language = "荷蘭語"
 
 [[ako]]
-definition = "(interjection) surprise"
+definition = "（感嘆詞）驚喜"
 language = "韓語"
 
 [[aku]]
-definition = "sour"
+definition = "酸的"
 language = "羅馬尼亞語"
 
 [[ala]]
-definition = "no"
+definition = "不"
 language = "格魯吉亞語"
 
 [[alasa]]
-definition = "hunting, (literally) on the hunt"
+definition = "狩獵中"
 language = "阿卡迪亞法語"
 
 [[ale]]
-definition = "all"
+definition = "所有的"
 language = "荷蘭語"
 
 [[alente]]
-definition = "everything else"
+definition = "其餘所有東西"
 language = "道本語"
 
 [[ali]]
-definition = "all"
+definition = "所有的"
 language = "荷蘭語"
 
 [[alu]]
-definition = "(indicate context for a following sentence)"
+definition = "（表示下一句的語境）"
 language = "道本語"
 
 [[an]]
-definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
-language = "Chinese"
+definition = "包含；封套"
+language = "中文"
 
 [[anpa]]
-definition = "below"
+definition = "下面"
 language = "阿卡迪亞法語"
 
 [[anta]]
-definition = "oil"
+definition = "油"
 language = "沖繩語"
 
 [[ante]]
-definition = "other, different"
+definition = "其他的、不同的"
 language = "荷蘭語"
 
 [[antikontitutonelema]]
+definition = "違反憲法地"
 language = "法語"
 
 [[anu]]
-definition = "or"
+definition = "或"
 language = "格魯吉亞語"
 
 [[apeja]]
-definition = "shame, disgrace, dishonor"
+definition = "羞恥、羞辱"
 language = "芬蘭語"
 
 [[apelo]]
+definition = "餐前酒（正餐前用以開胃的酒精飲料）"
 language = "法語"
 
 [[api]]
-definition = "bee"
+definition = "蜜蜂"
 language = "拉丁語"
 
 [[apoko]]
 language = "英語"
 
 [[awase]]
-definition = "hit, strike"
+definition = "打、擊中"
 language = "亞美尼亞語"
 
 [[awen]]
-definition = "keep, care for, hold (in a particular state)"
+definition = "留守、照顧、保持（某種狀態）"
 language = "荷蘭語"
 
 [[e]]
 language = "先創"
 
 [[eki]]
-definition = "x (letter name)"
+definition = "x（字母）"
 language = "英語"
 
 [[eliki]]
-definition = "pain, distress"
+definition = "痛苦、悲傷"
 language = "切羅基語"
 
 [[en]]
-definition = "and"
+definition = "和、與"
 language = "荷蘭語"
 
 [[enepi]]
-definition = "non-fungible token"
+definition = "非同質化代幣"
 language = "英語"
 
 [[enko]]
-definition = "time, period, situation"
+definition = "時間、時期、情景"
 language = "道本語"
 
 [[epiku]]
-definition = "epic"
+definition = "史詩級的"
 language = "法語"
 
 [[epikule]]
@@ -125,50 +127,50 @@ language = "道本語"
 
 [[esun]]
 language = "阿寒語"
-definition = "at market"
+definition = "在市場"
 
 [[ete]]
-definition = "beyond, further, over"
+definition = "超越、越過"
 language = "土耳其語"
 
 [[ete]]
-definition = "outside"
+definition = "外面"
 language = "昆雅語"
 
 [[ewe]]
-definition = "rock, boulder"
+definition = "石頭、巨石"
 language = "日語"
 
 [[ewe]]
-definition = "rock, stone, hard thing"
+definition = "石頭、堅硬物體"
 language = "道本語"
 
 [[i]]
-definition = "unknown"
-language = "unknown"
+definition = "未知"
+language = "未知"
 
 [[ijo]]
-definition = "something"
+definition = "某物"
 language = "世界語"
 
 [[ijo]]
-definition = "(relative pronoun root)"
+definition = "（關係代詞詞根）"
 language = "羅曼語族"
 
 [[ike]]
-definition = "bad, mean, wicked"
+definition = "壞的、邪惡的"
 language = "芬蘭語"
 
 [[iki]]
-definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
+definition = "（第三人稱單數陽性、陰性或中性代詞）"
 language = "格魯吉亞語"
 
 [[ilo]]
-definition = "tool"
+definition = "工具"
 language = "世界語"
 
 [[ilo]]
-definition = "(agent suffix)"
+definition = "（施事詞尾）"
 language = "德語"
 
 [[ini]]
@@ -176,39 +178,39 @@ definition = "2"
 language = "粵語"
 
 [[inisa]]
-definition = "I don't know"
-language = "Amharic"
+definition = "我不知道"
+language = "安哈拉語"
 
 [[insa]]
-definition = "inside, center, stomach"
+definition = "裡面、中間、胃"
 language = "巴布亞皮欽語"
 
 [[insa]]
-definition = "inside"
+definition = "裡面"
 language = "英語"
 
 [[inta]]
-definition = "still, yet, even"
+definition = "仍、還、甚至"
 language = "葡萄牙語"
 
 [[ipi]]
-definition = "unknown"
-language = "unknown"
+definition = "未知"
+language = "未知"
 
 [[iseki]]
-definition = "flower, blossom"
+definition = "花朵"
 language = "土耳其語"
 
 [[isipin]]
-definition = "to think"
+definition = "想、思考"
 language = "他加祿語"
 
 [[itomi]]
-definition = "hit or miss"
+definition = "時好時壞的"
 language = "英語"
 
 [[jaki]]
-definition = "yucky"
+definition = "噁心的"
 language = "英語"
 
 [[jaku]]
@@ -216,31 +218,31 @@ definition = "100"
 language = "日語"
 
 [[jalan]]
-definition = "afoot"
+definition = "徒步"
 language = "芬蘭語"
 
 [[jalan]]
-definition = "foot"
+definition = "腳"
 language = "芬蘭語"
 
 [[jami]]
-definition = "yummy"
+definition = "美味的"
 language = "英語"
 
 [[jan]]
-definition = "person"
+definition = "人"
 language = "粵語"
 
 [[jans]]
-definition = "person, people"
+definition = "人們、人群"
 language = "道本語"
 
 [[jans]]
-definition = "(plural suffix)"
+definition = "（複數詞尾）"
 language = "英語"
 
 [[jasima]]
-definition = "to reflect, reverberate"
+definition = "反射、迴響"
 language = "土耳其語"
 
 [[jatu]]
@@ -248,26 +250,26 @@ definition = "1"
 language = "粵語"
 
 [[je]]
-definition = "yay"
+definition = "耶"
 language = "英語"
 
 [[jelo]]
-definition = "yellow"
+definition = "黃色的"
 language = "英語"
 
 [[jo]]
-definition = "have"
+definition = "有"
 language = "漢語"
 
 [[jonke]]
-definition = "hjönk"
+definition = "（鵝叫聲）"
 language = "擬聲詞"
 
 [[ju]]
 language = "先創"
 
 [[jule]]
-definition = "shake, vibrate, oscillate, waver"
+definition = "振動、震盪、搖晃"
 language = "日語"
 
 [[jume]]
@@ -275,6 +277,7 @@ definition = "夢"
 language = "日語"
 
 [[ka]]
+definition = "將來的"
 language = "道本語"
 
 [[kajo]]
@@ -282,46 +285,46 @@ definition = "9"
 language = "粵語"
 
 [[kala]]
-definition = "fish"
+definition = "魚"
 language = "芬蘭語"
 
 [[kalamARR]]
-definition = "make sound; sound, noise, voice"
+definition = "發聲、作響；聲音、噪音、人聲"
 language = "道本語"
 
 [[kalamARR]]
-definition = "(imitation of pirates)"
+definition = "（模仿海盜的叫聲）"
 language = "英語"
 
 [[kalama]]
-definition = "noise (of the human voice)"
+definition = "（人類的）聲音"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[kalapisituji]]
-language = "Belgian French"
+language = "比利時法語"
 
 [[kalijopilale]]
-definition = "Caryophyllales"
+definition = "石竹目"
 language = "拉丁語"
 
 [[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
+definition = "實踐、來臨、發生、成為、引致、召喚"
 language = "巴布亞皮欽語"
 
 [[kamalawala]]
-definition = "'arrival of no government', the beginning of anarchy"
+definition = "「沒有政府的來臨」、無政府的開端"
 language = "道本語"
 
 [[kan]]
-definition = "with"
+definition = "與、同"
 language = "芬蘭語"
 
 [[kan]]
-definition = "with"
+definition = "與、同"
 language = "世界語"
 
 [[kan]]
-definition = "with"
+definition = "與、同"
 language = "拉丁語"
 
 [[kana]]
@@ -329,74 +332,75 @@ definition = "夢"
 language = "圖盧語"
 
 [[kankuli]]
-definition = "cute in a quirky, scruffy, or dishevelled way"
+definition = "因奇怪、邋遢或凌亂而可愛的"
 language = "英語"
 
 [[kapa]]
-definition = "head, cup"
+definition = "頭、杯子"
 language = "荷蘭語"
 
 [[kapa]]
-definition = "head"
+definition = "頭"
 language = "世界語"
 
 [[kapa]]
-definition = "head"
+definition = "頭"
 language = "拉丁語"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
+definition = "棕色的、咖啡色的"
 language = "粵語"
 
 [[kapesi]]
-definition = "brown, coffee (colour)"
+definition = "棕色的、咖啡色的"
 language = "漢語"
 
 [[kasan]]
-definition = "bean, nut, peanut, legume"
-language = "Malay"
+definition = "豆類、堅果、花生、莢果"
+language = "馬來語"
 
 [[kasi]]
-definition = "plant"
+definition = "植物"
 language = "芬蘭語"
 
 [[ke]]
-definition = "okay"
+definition = "行、可以"
 language = "英語"
 
 [[ke]]
-definition = "okay"
+definition = "行、可以"
 language = "英語"
 
 [[ken]]
-definition = "can"
+definition = "可以、能夠"
 language = "巴布亞皮欽語"
 
 [[ken]]
-definition = "can"
+definition = "可以、能夠"
 language = "英語"
 
 [[kepeken]]
-definition = "to use"
+definition = "使用"
 language = "荷蘭語"
 
 [[kepen]]
-definition = "to use, by means of, with"
+definition = "使用、通過、憑藉"
 language = "道本語"
 
 [[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
+definition = "取自以色列猶太 LGBT 組織 Keshet"
 language = "希伯來語"
 
 [[kewi]]
+definition = "信譽"
 language = "英語"
 
 [[ki]]
-definition = "who"
+definition = "（人的關係從句標記）"
 language = "法語"
 
 [[kijetesantakalu]]
-definition = "kinkajou"
+definition = "蜜熊"
 language = "芬蘭語"
 
 [[kiki]]
@@ -412,15 +416,15 @@ language = "法語"
 language = "法語"
 
 [[kili]]
-definition = "fruit"
+definition = "水果"
 language = "格魯吉亞語"
 
 [[kin]]
-definition = "too, also, still"
+definition = "仍、還、也"
 language = "芬蘭語"
 
 [[kipisi]]
-definition = "to cut (intransitive)"
+definition = "切割（不及物）"
 language = "伊努克提圖特語"
 
 [[kisa]]
@@ -428,22 +432,22 @@ definition = "貓"
 language = "俄語"
 
 [[kiwen]]
-definition = "stone (genitive case)"
+definition = "石頭（屬格）"
 language = "芬蘭語"
 
 [[ko]]
-definition = "cream, paste"
+definition = "膏狀物"
 language = "粵語"
 
 [[kokoliko]]
 language = "法語"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "在世界語說話者的人群中說一個不是世界語的語言"
 language = "世界語"
 
 [[kokosila]]
-definition = "crocodile"
+definition = "鱷魚"
 language = "世界語"
 
 [[kolin]]
@@ -451,43 +455,43 @@ definition = "gloopy love"
 language = "道本語"
 
 [[kolo]]
-definition = "pig"
+definition = "豬"
 language = "史瓦希利語"
 
 [[kolo]]
-definition = "pig"
-language = "Zulu"
+definition = "豬"
+language = "祖魯語"
 
 [[kolo]]
-definition = "pig"
-language = "Kongo"
+definition = "豬"
+language = "剛果語"
 
 [[kolo]]
-definition = "pig"
+definition = "豬"
 language = "西班牙語"
 
 [[kolo]]
-definition = "growl"
+definition = "吼叫"
 language = "日語"
 
 [[kolo]]
-definition = "grunt"
+definition = "呼嚕叫"
 language = "英語"
 
 [[kon]]
-definition = "air, atmosphere, ambience, opinion"
+definition = "空氣、大氣、氛圍、意見"
 language = "漢語"
 
 [[konsi]]
-definition = "announcement, notice"
+definition = "宣佈、公告"
 language = "韓語"
 
 [[konsuno]]
-definition = 'calque of English "gaslight"'
+definition = "英語「gaslight」的仿譯"
 language = "道本語"
 
 [[konwe]]
-definition = "John Conway, creator of The Game of Life"
+definition = "生命遊戲發明者約翰·康威"
 language = "英語"
 
 [[konwe]]
@@ -495,7 +499,7 @@ definition = "kon wile"
 language = "道本語"
 
 [[kosan]]
-definition = "to defend, protect (against)"
+definition = "防禦、保衛"
 language = "愛爾蘭語"
 
 [[kosikosa]]
@@ -505,98 +509,98 @@ language = "法語"
 language = "先創"
 
 [[kulaso]]
-definition = "green"
+definition = "綠色的"
 language = "英語"
 
 [[kulaso]]
-definition = "blue, green"
+definition = "藍色的、綠色的"
 language = "道本語"
 
 [[kule]]
-definition = "color"
+definition = "顏色"
 language = "阿卡迪亞法語"
 
 [[kulijo]]
-definition = "coolio"
+definition = "（感嘆詞）好極了"
 language = "英語"
 
 [[kulu]]
-definition = "group, community, collection"
+definition = "群組、社區、組合"
 language = "道本語"
 
 [[kulupu]]
-definition = "group"
+definition = "群組"
 language = "東加語"
 
 [[kulupu]]
-definition = "group"
+definition = "群組"
 language = "英語"
 
 [[kuntu]]
-definition = "'fun sound from the mouth', to sing with your voice"
+definition = "「從嘴巴來的歡樂之聲」、用自己的聲音唱歌"
 language = "道本語"
 
 [[kute]]
-definition = "listen"
+definition = "聽聞"
 language = "阿卡迪亞法語"
 
 [[kutopoma]]
-definition = "the Toki Pona community of Korea"
+definition = "韓國道本語社區"
 language = "道本語"
 
 [[la]]
-definition = "(definite article)"
+definition = "（定冠詞）"
 language = "世界語"
 
 [[la]]
-definition = "(feminine singular definite article)"
+definition = "（陰性單數定冠詞）"
 language = "羅曼語族"
 
 [[la]]
-definition = "(proximal & topical suffix)"
+definition = "（近指主題詞尾）"
 language = "阿卡迪亞法語"
 
 [[lajotu]]
-language = "Canadian Syllabics"
+language = "加拿大原住民音節文字"
 
 [[lanpan]]
-definition = "take, seize, grasp, receive"
+definition = "取走、拿走、奪走、接收"
 language = "希臘語"
 
 [[lapan]]
-definition = "milk"
+definition = "牛奶"
 language = "阿拉伯語"
 
 [[lape]]
-definition = "sleep"
+definition = "睡覺"
 language = "荷蘭語"
 
 [[laso]]
-definition = "blue, inexperienced"
+definition = "藍色的、缺乏經驗的"
 language = "威爾斯語"
 
 [[laso]]
-definition = "green, blue"
+definition = "綠色的、藍色的"
 language = "原始布立吞語"
 
 [[lawa]]
-definition = "head"
+definition = "頭"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[leko]]
-definition = "Lego"
+definition = "樂高"
 language = "英語"
 
 [[leko]]
-definition = "play well"
+definition = "玩得好"
 language = "丹麥語"
 
 [[leko]]
-definition = "block, section"
+definition = "方塊、段、節"
 language = "芬蘭語"
 
 [[len]]
-definition = "clothing"
+definition = "衣物"
 language = "阿卡迪亞法語"
 
 [[lenke]]
@@ -604,91 +608,91 @@ definition = "0"
 language = "粵語"
 
 [[lete]]
-definition = "cold"
+definition = "冷的"
 language = "阿卡迪亞法語"
 
 [[lete]]
-definition = "cold"
+definition = "冷的"
 language = "古法語"
 
 [[li]]
-definition = "he"
+definition = "他"
 language = "世界語"
 
 [[li]]
-definition = "he"
+definition = "他"
 language = "拉丁語"
 
 [[li]]
-definition = "he"
+definition = "他"
 language = "巴布亞皮欽語"
 
 [[li]]
-definition = "he"
+definition = "他"
 language = "英語"
 
 [[lijokuku]]
-definition = "Exactly!', (literally) 'real LOL'"
+definition = "「確實如此！」"
 language = "韓語"
 
 [[likujo]]
-definition = "collection, ensemble, anthology"
+definition = "集合、組合、選集"
 language = "阿卡迪亞法語"
 
 [[lili]]
-definition = "small, little"
+definition = "小的"
 language = "巴布亞皮欽語"
 
 [[lili]]
-definition = "small, little"
+definition = "小的"
 language = "拉姆埃納語（Ramoaaina）"
 
 [[linja]]
-definition = "line"
+definition = "線"
 language = "芬蘭語"
 
 [[linja]]
-definition = "line"
+definition = "線"
 language = "古瑞典語"
 
 [[linluwi]]
-definition = "internet"
+definition = "網路"
 language = "威爾斯語"
 
 [[lipasa]]
-definition = "linden tree; (colloquial) forgery, fake"
+definition = "椴樹；（俗語）偽造品、贗品"
 language = "俄語"
 
 [[lipu]]
-definition = "flag, banner, ticket"
+definition = "旗幟、橫額、票"
 language = "芬蘭語"
 
 [[lisa]]
-definition = "fox (accusative)"
+definition = "狐狸（受格）"
 language = "波蘭語"
 
 [[lo]]
-definition = "(indicate context for a prior sentence)"
+definition = "（表示上一句的語境）"
 language = "道本語"
 
 [[loje]]
-definition = "red (inflected)"
+definition = "紅色的（屈折變化）"
 language = "荷蘭語"
 
 [[loka]]
-definition = "hand, arm, grasping appendage, tactile appendage"
+definition = "手、手臂、握物器官、觸覺器官"
 language = "道本語"
 
 [[loka]]
-definition = "foot, leg, roots, locomotive appendage"
+definition = "腳、腿、足部、根、運動器官"
 language = "道本語"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "看、觀察、眼睛；（前動詞）嘗試、試圖"
 language = "道本語"
 
 [[lokon]]
-definition = "look, see, eye; (preverb) try to"
+definition = "看、觀察、眼睛；（前動詞）嘗試、試圖"
 language = "道本語"
 
 [[loku]]
@@ -696,173 +700,173 @@ definition = "6"
 language = "粵語"
 
 [[lon]]
-definition = "at, in, on, (spacial particle)"
+definition = "在、於、位於（空間助詞）"
 language = "巴布亞皮欽語"
 
 [[lon]]
-definition = "along"
+definition = "沿著"
 language = "英語"
 
 [[lu]]
 language = "先創"
 
 [[luka]]
-definition = "hand, arm"
+definition = "手、手臂"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[lukin]]
-definition = "see, look at"
+definition = "看、看見、觀察"
 language = "巴布亞皮欽語"
 
 [[lukin]]
-definition = "look"
+definition = "看"
 language = "英語"
 
 [[lukin]]
-definition = "him"
+definition = "他（受格）"
 language = "英語"
 
 [[lupa]]
-definition = "loop"
+definition = "圓圈、循環"
 language = "邏輯語"
 
 [[lupa]]
-definition = "loop"
+definition = "圓圈、循環"
 language = "漢語"
 
 [[lupa]]
-definition = "loop"
+definition = "圓圈、循環"
 language = "英語"
 
 [[lupa]]
-definition = "loop"
+definition = "圓圈、循環"
 language = "印度語"
 
 [[lupa]]
-definition = "loop"
+definition = "圓圈、循環"
 language = "阿拉伯語"
 
 [[ma]]
-definition = "earth, land"
+definition = "土地、土壤"
 language = "芬蘭語"
 
 [[majuna]]
-definition = "old (not young)"
+definition = "老的"
 language = "世界語"
 
 [[majuna]]
-definition = "bad"
+definition = "壞的"
 language = "拉丁語"
 
 [[majuna]]
-definition = "young"
+definition = "年輕的"
 language = "德語"
 
 [[majuna]]
-definition = "young"
+definition = "年輕的"
 language = "法語"
 
 [[mama]]
-definition = "father"
+definition = "父親"
 language = "格魯吉亞語"
 
 [[mani]]
-definition = "money"
+definition = "金錢"
 language = "英語"
 
 [[mani]]
-definition = "livestock"
+definition = "牲畜"
 language = "原始日耳曼語"
 
 [[mani]]
-definition = "cattle"
+definition = "牛"
 language = "拉丁語"
 
 [[masalo]]
 language = "法語"
 
 [[masenta]]
-definition = "purplish-red color"
+definition = "紫紅色"
 language = "英語"
 
 [[masenta]]
-definition = "purplish-red color"
+definition = "紫紅色"
 language = "法語"
 
 [[me]]
-definition = "tag question"
+definition = "（問句標記）"
 language = "道本語"
 
 [[meli]]
-definition = "woman, wife, feminine"
+definition = "女人、婦女、妻子、女性的"
 language = "巴布亞皮欽語"
 
 [[meli]]
-definition = "pretty"
+definition = "漂亮的"
 language = "托賴語（Tolai）"
 
 [[meli]]
-definition = "Mary"
+definition = "瑪麗"
 language = "英語"
 
 [[melome]]
-definition = "women loving women"
+definition = "愛女人的女人"
 language = "道本語"
 
 [[meso]]
-definition = "middle"
+definition = "中間"
 language = "希臘語"
 
 [[mi]]
-definition = "I, me"
+definition = "我"
 language = "世界語"
 
 [[mi]]
-definition = "(1st person singular oblique)"
+definition = "（第一人稱單數斜格）"
 language = "羅曼語族"
 
 [[mije]]
-definition = "man, husband"
+definition = "男人、丈夫"
 language = "芬蘭語"
 
 [[mijomi]]
-definition = "men loving men"
+definition = "愛男人的男人"
 language = "道本語"
 
 [[misa]]
-definition = "mouse (diminutive)"
-language = "Ukrainian"
+definition = "老鼠（指小詞）"
+language = "烏克蘭語"
 
 [[misikeke]]
-definition = "medicine, drug"
+definition = "藥物、藥品"
 language = "奧吉布瓦語"
 
 [[moku]]
-definition = "munching"
+definition = "咀嚼著"
 language = "日語"
 
 [[moli]]
-definition = "die"
+definition = "死、死去"
 language = "阿卡迪亞法語"
 
 [[molusa]]
-definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
+definition = "蝸牛、蛞蝓、貽貝、章魚此類的無脊椎動物（學名）"
 language = "英語"
 
 [[molusa]]
-definition = "thin shelled"
+definition = "薄殼的"
 language = "拉丁語"
 
 [[monsi]]
-definition = "my ass (vulgar)"
+definition = "我的屁股（粗俗）"
 language = "阿卡迪亞法語"
 
 [[monsuta]]
-definition = "monster"
+definition = "怪獸、怪物"
 language = "日語"
 
 [[monsuta]]
-definition = "monster"
+definition = "怪獸、怪物"
 language = "英語"
 
 [[mu]]
@@ -872,109 +876,109 @@ language = "擬聲詞"
 language = "先創"
 
 [[mun]]
-definition = "moon"
+definition = "月亮"
 language = "英語"
 
 [[musi]]
-definition = "amuse, entertain"
+definition = "娛樂、使開心"
 language = "世界語"
 
 [[musi]]
-definition = "amuse, entertain"
+definition = "娛樂、使開心"
 language = "法語"
 
 [[mute]]
-definition = "a lot"
+definition = "很多的"
 language = "世界語"
 
 [[mute]]
-definition = "a lot"
+definition = "很多的"
 language = "拉丁語"
 
 [[n]]
 language = "擬聲詞"
 
 [[nalanja]]
-definition = "orange"
+definition = "橙色的"
 language = "西班牙語"
 
 [[namako]]
-definition = "salt"
+definition = "鹽"
 language = "印度語"
 
 [[namako]]
-definition = "salt"
+definition = "鹽"
 language = "波斯語"
 
 [[nanpa]]
-definition = "number"
+definition = "數字"
 language = "巴布亞皮欽語"
 
 [[nanpa]]
-definition = "number"
+definition = "數字"
 language = "英語"
 
 [[nasa]]
-definition = "dunderhead"
+definition = "傻瓜"
 language = "巴布亞皮欽語"
 
 [[nasin]]
-definition = "way, method"
+definition = "方法、方式"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[natu]]
-definition = "crossroads, four-way intersection"
+definition = "交叉路、四方向十字路口"
 language = "越南語"
 
 [[ne]]
-definition = "not"
-language = "(Indo-European)"
+definition = "不"
+language = "（印歐語）"
 
 [[neja]]
-definition = "(number) four"
+definition = "（數詞）四"
 language = "芬蘭語"
 
 [[nele]]
-definition = "cloth, fabric, clothing; secret, hidden, covered"
+definition = "布料、衣物、衣服；隱藏的、隱蔽的、秘密的"
 language = "道本語"
 
 [[nena]]
-definition = "nose"
+definition = "鼻子"
 language = "芬蘭語"
 
 [[ni]]
-definition = "this"
+definition = "這個"
 language = "粵語"
 
 [[ni]]
-definition = "(continuation of a state/action)"
+definition = "（表示動作進行中）"
 language = "傣語"
 
 [[nimi]]
-definition = "name"
+definition = "名稱、名字"
 language = "芬蘭語"
 
 [[nimisin]]
-definition = "new word"
+definition = "新詞"
 language = "道本語"
 
 [[nja]]
-definition = "meow (onomatopoeia)"
+definition = "喵（擬聲詞）"
 language = "日語"
 
 [[noka]]
-definition = "foot, leg"
+definition = "腳、腿"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[nowi]]
-definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
+definition = "連接、聯合、聯繫；繼續、持續"
 language = "越南語"
 
 [[nu]]
 language = "先創"
 
 [[nu1]]
-definition = "new"
+definition = "新的"
 language = "英語"
 
 [[nun]]
@@ -982,130 +986,130 @@ definition = "5"
 language = "粵語"
 
 [[nuwa]]
-definition = "newer"
+definition = "較新的"
 language = "英語"
 
 [[o]]
-definition = "(vocative suffix)"
+definition = "（呼格詞尾）"
 language = "格魯吉亞語"
 
 [[ojuta]]
-definition = "'lick my balls' (same as English 'ligma balls')"
+definition = "「舔我的蛋蛋」（同英語「ligma balls」）"
 language = "道本語"
 
 [[oke]]
-definition = "okay"
+definition = "行、可以"
 language = "英語"
 
 [[okepuma]]
-definition = "okay boomer"
+definition = "好的老人"
 language = "英語"
 
 [[oki]]
-definition = "okay"
+definition = "行、可以"
 language = "英語"
 
 [[oki]]
-definition = "okay"
+definition = "行、可以"
 language = "英語"
 
 [[oko]]
-definition = "eye"
+definition = "眼睛"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[olala]]
 language = "法語"
 
 [[olin]]
-definition = "I love"
+definition = "我愛"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[omekalike]]
-definition = "'eat a bad fish', wishing somebody harm instead of well"
+definition = "「吃條壞魚」、詛咒人（而非祝福人）"
 language = "道本語"
 
 [[omekalike]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "「吃條好魚」、祝福人"
 language = "道本語"
 
 [[omekapo]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "「吃條好魚」、祝福人"
 language = "道本語"
 
 [[omen]]
-definition = "'kill me', express exasperation or frustration sarcastically"
+definition = "「殺了我」、表示懊惱或挫折（含諷刺意味）"
 language = "道本語"
 
 [[ona]]
-definition = "she"
+definition = "她"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[oni]]
-definition = "(personifications of) dreams"
+definition = "夢（的擬人化）"
 language = "古希臘語"
 
 [[onono]]
-definition = "oh no"
+definition = "噢不"
 language = "英語"
 
 [[opasan]]
-definition = "opossum"
+definition = "負鼠"
 language = "英語"
 
 [[open]]
-definition = "open"
+definition = "打開"
 language = "英語"
 
 [[owe]]
-definition = "George Orwell, author of 1984"
+definition = "喬治·歐威爾（《一九八四》作者）"
 language = "英語"
 
 [[pa]]
-definition = "bruh"
+definition = "（感嘆詞）哥們"
 language = "英語"
 
 [[pakala]]
-definition = "accident"
+definition = "意外"
 language = "巴布亞皮欽語"
 
 [[pakala]]
-definition = "bugger up"
+definition = "犯錯、弄錯"
 language = "英語"
 
 [[pake]]
-definition = "block"
+definition = "阻止、阻攔"
 language = "英語"
 
 [[pakola]]
-definition = "broken, damaged, harmed, destroyed"
+definition = "損壞的、受傷的、已毀壞的"
 language = "道本語"
 
 [[pali]]
-definition = "do, make"
+definition = "做、製作"
 language = "世界語"
 
 [[palisa]]
-definition = "bat, rod, cane"
+definition = "棒、棍、杖"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[pan]]
-definition = "bread"
+definition = "麵包"
 language = "羅曼語族"
 
 [[pan]]
-definition = "bread"
+definition = "麵包"
 language = "日語"
 
 [[pan]]
-definition = "bread"
+definition = "麵包"
 language = "葡萄牙語"
 
 [[pana]]
-definition = "put, set, place"
+definition = "放置、安置"
 language = "芬蘭語"
 
 [[pana]]
-definition = "give to each other"
+definition = "互相給予"
 language = "史瓦希利語"
 
 [[panke]]
@@ -1124,27 +1128,27 @@ language = "先創"
 language = "擬聲詞"
 
 [[pasila]]
-definition = "easy"
+definition = "容易的"
 language = "阿卡迪亞法語"
 
 [[pasila]]
-definition = "easy"
+definition = "容易的"
 language = "世界語"
 
 [[pata]]
-definition = "brother"
+definition = "兄弟"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[pata]]
-definition = "sibling or cousin of the same gender"
+definition = "（堂或表）兄弟/姐妹（同性別）"
 language = "巴布亞皮欽語"
 
 [[pata]]
-definition = "brother"
+definition = "兄弟"
 language = "英語"
 
 [[penpo]]
-definition = "only toki pona"
+definition = "僅限道本語"
 language = "道本語"
 
 [[patu]]
@@ -1155,59 +1159,59 @@ language = "粵語"
 language = "先創"
 
 [[peta]]
-definition = "green"
+definition = "綠色的"
 language = "世界語"
 
 [[peto]]
-definition = "(incomplete sentence) 'give eye-water', to cry"
+definition = "（不完整句子）「給出眼水」、哭泣"
 language = "道本語"
 
 [[pi]]
-definition = "of"
+definition = "的"
 language = "巴布亞皮欽語"
 
 [[pi]]
-definition = "belong"
+definition = "屬於"
 language = "英語"
 
 [[pika]]
-definition = "Pikachū, an electric Pokémon"
+definition = "皮卡丘（電屬性寶可夢）"
 language = "日語"
 
 [[pilin]]
-definition = "feel"
+definition = "感覺、感受"
 language = "巴布亞皮欽語"
 
 [[pilin]]
-definition = "him"
+definition = "他（受格）"
 language = "英語"
 
 [[pilin]]
-definition = "him"
+definition = "他（受格）"
 language = "英語"
 
 [[pimeja]]
-definition = "dark"
+definition = "黑暗的"
 language = "芬蘭語"
 
 [[pini]]
-definition = "finished, completed"
+definition = "完成的、完畢的"
 language = "阿卡迪亞法語"
 
 [[pini]]
-definition = "finish (perfective aspect)"
+definition = "完成（完成體）"
 language = "巴布亞皮欽語"
 
 [[pini]]
-definition = "finish"
+definition = "完成"
 language = "英語"
 
 [[pipi]]
-definition = "bug"
+definition = "小蟲子"
 language = "阿卡迪亞法語"
 
 [[pipo]]
-definition = "bug, insect, arachnid"
+definition = "昆蟲、小蟲子、節肢動物"
 language = "道本語"
 
 [[pipolo]]
@@ -1217,19 +1221,19 @@ language = "道本語"
 language = "道本語"
 
 [[po]]
-definition = "(number) four"
+definition = "（數詞）四"
 language = "英語"
 
 [[poka]]
-definition = "side, flank (genitive)"
+definition = "旁邊、側面（屬格）"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[poki]]
-definition = "box, female genitalia (vulgar)"
+definition = "箱子、女陰（粗俗）"
 language = "巴布亞皮欽語"
 
 [[poki]]
-definition = "box"
+definition = "箱子"
 language = "英語"
 
 [[polinpin]]
@@ -1237,11 +1241,11 @@ definition = "保齡球球瓶"
 language = "英語"
 
 [[pomotolo]]
-definition = "tomato"
+definition = "番茄"
 language = "義大利語"
 
 [[pona]]
-definition = "good"
+definition = "好的"
 language = "世界語"
 
 [[poni]]
@@ -1255,51 +1259,51 @@ language = "英語"
 language = "英語"
 
 [[powe]]
-definition = "not true"
+definition = "不真實的"
 language = "阿卡迪亞法語"
 
 [[pu]]
-definition = "unworked wood, sincere, honest, inherent quality, simple"
+definition = "未經加工的木材、誠摯、質樸、本質、樸素"
 language = "漢語"
 
 [[pu]]
-definition = "book"
+definition = "書"
 language = "英語"
 
 [[pulaso]]
-definition = "blue"
+definition = "藍色的"
 language = "英語"
 
 [[pulaso]]
-definition = "blue, green"
+definition = "藍色的、綠色的"
 language = "道本語"
 
 [[puwa]]
-definition = "fluffy things (onomatopoeia)"
+definition = "毛茸茸的的物體（擬聲詞）"
 language = "日語"
 
 [[saja]]
-definition = "trees"
+definition = "樹林"
 language = "阿拉伯語"
 
 [[salu]]
-definition = "safety, security"
+definition = "安全、保護"
 language = "拉丁語"
 
 [[sama]]
-definition = "same"
+definition = "相同的"
 language = "芬蘭語"
 
 [[sama]]
-definition = "same, alike"
+definition = "相同的、類似的"
 language = "原始日耳曼語"
 
 [[sama]]
-definition = "same"
+definition = "相同的"
 language = "世界語"
 
 [[sama]]
-definition = "same"
+definition = "相同的"
 language = "英語"
 
 [[samu]]
@@ -1307,15 +1311,15 @@ definition = "jan Samu"
 language = "道本語"
 
 [[san]]
-definition = "(number) three"
+definition = "（數詞）三"
 language = "日語"
 
 [[san]]
-definition = "(number) three"
+definition = "（數詞）三"
 language = "粵語"
 
 [[san]]
-definition = "(number) three"
+definition = "（數詞）三"
 language = "粵語"
 
 [[sapelipope]]
@@ -1326,42 +1330,43 @@ definition = "4"
 language = "粵語"
 
 [[se1]]
-definition = "oneself"
+definition = "自己"
 language = "拉丁語"
 
 [[seli]]
-definition = "hot"
+definition = "熱的"
 language = "格魯吉亞語"
 
 [[selo]]
-definition = "skin, peel"
+definition = "皮、皮膚"
 language = "世界語"
 
 [[selo]]
-definition = "peel, husk, shell"
+definition = "外殼、外皮"
 language = "德語"
 
 [[seme]]
-definition = "what, something"
+definition = "什麼"
 language = "漢語"
 
 [[sewi]]
-definition = "upwards"
+definition = "向上"
 language = "格魯吉亞語"
 
 [[sijelo]]
-definition = "body"
+definition = "身體"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[sikako]]
+definition = "法國蝸牛"
 language = "法語"
 
 [[sike]]
-definition = "circle"
+definition = "圓形"
 language = "英語"
 
 [[sikomo]]
-definition = "sicko mode"
+definition = "瘋狂狀態"
 language = "英語"
 
 [[silapa]]
@@ -1369,113 +1374,113 @@ definition = "giraffe"
 language = "波蘭語"
 
 [[sin]]
-definition = "new, fresh"
+definition = "新的、新鮮的"
 language = "漢語"
 
 [[sina]]
-definition = "(pronoun) you, y'all"
+definition = "（代詞）你、你們"
 language = "芬蘭語"
 
 [[sinpin]]
-definition = "in front"
+definition = "前面"
 language = "粵語"
 
 [[sipi]]
-definition = "sibi (dative reflexive pronoun)"
+definition = "自己（與格反身代詞）"
 language = "拉丁語"
 
 [[sipije]]
 language = "英語"
 
 [[sipije]]
-definition = "to be honest"
+definition = "老實說"
 language = "英語"
 
 [[sitelen]]
-definition = "paint"
+definition = "上油漆"
 language = "荷蘭語"
 
 [[siwala]]
-definition = "trust; faith (in someone or something); reliance, confidence, belief"
+definition = "信任、信念；依賴、信賴、把握"
 language = "他加祿語"
 
 [[slape]]
-definition = "sleep, rest"
+definition = "睡覺、休息"
 language = "道本語"
 
 [[slape]]
-definition = "sleep"
+definition = "睡覺"
 language = "英語"
 
 [[soko]]
-definition = "mushroom"
+definition = "蘑菇"
 language = "格魯吉亞語"
 
 [[sole]]
-definition = "to use to, to tend to"
+definition = "經常、慣常、傾向於"
 language = "西班牙語"
 
 [[sona]]
-definition = "knowledge"
+definition = "知識"
 language = "格魯吉亞語"
 
 [[soto]]
-definition = "left side"
+definition = "左邊"
 language = "史瓦希利語"
 
 [[soweli]]
-definition = "beastly animal, lively, passionate"
+definition = "野獸、生機勃勃的、熱情的"
 language = "格魯吉亞語"
 
 [[su]]
 language = "先創"
 
 [[su1]]
-definition = "[yes/no question marker]; whether"
+definition = "[是非問句標記]；是否"
 language = "世界語"
 
 [[suke]]
-definition = "circle, sphere, cycle"
+definition = "圓形、球體、循環"
 language = "道本語"
 
 [[sulaso]]
-definition = "the color between blue and green on the visible spectrum of light"
+definition = "青色、藍綠色"
 language = "英語"
 
 [[sulaso]]
-definition = "blue, green"
+definition = "藍色的、綠色的"
 language = "道本語"
 
 [[suli]]
-definition = "big, large, great"
+definition = "大的、巨大的"
 language = "芬蘭語"
 
 [[suno]]
-definition = "sun"
+definition = "太陽"
 language = "世界語"
 
 [[supa]]
-definition = "surface"
+definition = "平面、表面"
 language = "世界語"
 
 [[supa]]
-definition = "surface"
+definition = "平面、表面"
 language = "阿卡迪亞法語"
 
 [[supa]]
-definition = "surface"
+definition = "平面、表面"
 language = "英語"
 
 [[sutopatikuna]]
-definition = "platypus, (literally) strange beak"
+definition = "鴨嘴獸、（字面意思）奇怪的喙"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[suwi]]
-definition = "sweet"
+definition = "甜的"
 language = "巴布亞皮欽語"
 
 [[suwi]]
-definition = "sweet"
+definition = "甜的"
 language = "英語"
 
 [[suwili]]
@@ -1492,245 +1497,249 @@ definition = "7"
 language = "粵語"
 
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoeia)"
+definition = "兩塊磁鐵碰撞的聲音（擬聲詞）"
 language = "韓語"
 
 [[tan]]
-definition = "from"
+definition = "從、由"
 language = "粵語"
 
 [[tankala]]
-definition = "southeast"
-language = "Malay"
+definition = "東南方"
+language = "馬來語"
 
 [[taso]]
-definition = "just, only, but, however"
+definition = "只、僅、但是、可是"
 language = "巴布亞皮欽語"
 
 [[taso]]
-definition = "that’s all"
+definition = "僅此而已"
 language = "英語"
 
 [[tawa]]
-definition = "toward"
+definition = "至、到、向"
 language = "英語"
 
 [[te]]
-definition = "(quotative)"
+definition = "（引用助詞）"
 language = "日語"
 
 [[teje]]
-definition = "right"
+definition = "右邊"
 language = "威爾斯語"
 
 [[teki]]
-definition = "event"
+definition = "事件"
 language = "日語"
 
 [[telo]]
-definition = "(some) water"
+definition = "（一些）水"
 language = "阿卡迪亞法語"
 
 [[ten]]
-definition = "time, event, situation"
+definition = "時間、事件、情景"
 language = "道本語"
 
 [[tenpo]]
-definition = "time"
+definition = "時間"
 language = "世界語"
 
 [[tenpo]]
-definition = "time"
+definition = "時間"
 language = "拉丁語"
 
 [[to]]
-definition = "(quotative)"
+definition = "（引用助詞）"
 language = "日語"
 
 [[tokana]]
-definition = "attention, focus"
+definition = "注意、專注力"
 language = "東加語"
 
 [[toki]]
-definition = "talk"
+definition = "說"
 language = "巴布亞皮欽語"
 
 [[toki]]
-definition = "talk"
+definition = "說"
 language = "英語"
 
 [[toma]]
-definition = "home, room, house, building"
+definition = "家、房間、屋子、建築物"
 language = "道本語"
 
 [[tomo]]
-definition = "house"
+definition = "屋子"
 language = "世界語"
 
 [[tomo]]
-definition = "house"
+definition = "屋子"
 language = "波蘭語"
 
 [[tomo]]
-definition = "house"
+definition = "屋子"
 language = "拉丁語"
 
 [[tomo]]
-definition = "house"
+definition = "屋子"
 language = "古希臘語"
 
 [[tona]]
+definition = "toner"
 language = "英語"
 
 [[tonsi]]
-definition = "comrade (same will/purpose), LGBT+"
+definition = "同志（志同道合者）；LGBT+ 的"
 language = "漢語"
 
 [[towoki]]
+definition = "你好"
 language = "道本語"
 
 [[towoki]]
-language = "emoticon"
+definition = "吃驚的貓臉"
+language = "顏文字"
 
 [[tu]]
-definition = "two"
+definition = "二"
 language = "英語"
 
 [[tu]]
-definition = "two"
+definition = "二"
 language = "世界語"
 
 [[tuli]]
-definition = "(number) three"
+definition = "（數詞）三"
 language = "英語"
 
 [[u]]
 language = "先創"
 
 [[umesu]]
-definition = "to amaze (someone), surprise, impress"
+definition = "使人驚嘆、使人驚奇、令人感到驚喜"
 language = "Iqglic"
 
 [[unpa]]
 language = "擬聲詞"
 
 [[unu]]
-definition = "purple, violet"
+definition = "紫色的"
 language = "馬來-印度尼西亞語"
 
 [[usawi]]
-definition = "witchcraft, sorcery"
+definition = "巫術、魔法"
 language = "史瓦希利語"
 
 [[uta]]
-definition = "mouth"
+definition = "嘴巴"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[utala]]
-definition = "strike, hit, beat"
+definition = "打、擊"
 language = "塞爾維亞-克羅埃西亞語"
 
 [[wa]]
 language = "擬聲詞"
 
 [[waken]]
-definition = 'non-standard plural of "wug"'
+definition = "「wug」的非標準複數"
 language = "英語"
 
 [[waken]]
+definition = "似鳥的虛構動物"
 language = "英語"
 
 [[waleja]]
-definition = "of moment, important"
+definition = "當下的、重要的"
 language = "昆雅語"
 
 [[waleja]]
-definition = "worth, worthy, dear"
+definition = "價值、有價值的、親愛的"
 language = "昆雅語"
 
 [[walo]]
-definition = "white"
+definition = "白色的"
 language = "芬蘭語"
 
 [[wan]]
-definition = "one"
+definition = "一"
 language = "英語"
 
 [[waso]]
-definition = "bird"
+definition = "鳥"
 language = "阿卡迪亞法語"
 
 [[wasoweli]]
-definition = "bird, flying creature"
+definition = "鳥、飛行動物"
 language = "道本語"
 
 [[wasoweli]]
-definition = "land animal, fuzzy creature"
+definition = "陸上動物、毛茸茸的動物"
 language = "道本語"
 
 [[wawa]]
-definition = "strong, powerful, thick"
+definition = "堅強的、有力的、厚的"
 language = "芬蘭語"
 
 [[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
+definition = "（道本語語音組合法不允許的所有 CV 音節）"
 language = "道本語"
 
 [[we]]
-definition = "man"
+definition = "人、夥伴"
 language = "西班牙語"
 
 [[we1]]
-definition = "man"
+definition = "人、夥伴"
 language = "西班牙語"
 
 [[we1]]
-definition = "man (sentence tag)"
+definition = "嘿、啊（句子過渡標記）"
 language = "英語"
 
 [[weka]]
-definition = "away, gone"
+definition = "離去的、不在場的"
 language = "荷蘭語"
 
 [[wekama]]
-definition = "'leave-arrive', to leave and come back"
+definition = "「去了又來」；離開之後又回來"
 language = "道本語"
 
 [[wi]]
-definition = "we"
+definition = "我們"
 language = "英語"
 
 [[wile]]
-definition = "want, desire"
+definition = "想要、渴望"
 language = "荷蘭語"
 
 [[wisa]]
-definition = "hound, dog"
-language = "Amharic"
+definition = "狗、犬類"
+language = "安哈拉語"
 
 [[wiwi]]
-definition = "yes, yes"
+definition = "是的，是的"
 language = "法語"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "（聲音）"
 language = "道本語"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "（聲音）"
 language = "道本語"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "（聲音）"
 language = "道本語"
 
 [[wuwojiti]]
-definition = "(sound)"
+definition = "（聲音）"
 language = "道本語"
 
 [[yupekosi]]
 language = "先創"
 
 [[yutu]]
-definition = "star"
+definition = "星星"
 language = "土耳其語"

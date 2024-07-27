@@ -19,14 +19,6 @@ movement = "vertical circle movement"
 handshape = "5"
 movement = "vertical circle movement"
 
-[ANPA-KIWEN]
-handshape = "OpenA"
-movement = "palm flip up"
-
-[ANPA-KIWEN-2]
-handshape = "OpenA"
-movement = "palm flip up"
-
 [ANPA-LON]
 handshape = "L"
 orientation = "finger pointing down"
@@ -34,6 +26,14 @@ orientation = "finger pointing down"
 [ANPA-TAWA]
 handshape = "BentB"
 movement = "movement downward"
+
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
+
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
 
 [ANTE-WAN]
 handshape = "1"
