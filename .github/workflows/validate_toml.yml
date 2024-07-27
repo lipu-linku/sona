@@ -92,15 +92,7 @@ jobs:
 
       - name: Validate generated file
         if: contains(steps.changes.outputs.changes, 'data')
-        run: |
-          list=(./api/raw/*.json)
-          for file in "${list[@]}"; do
-            if [ "${file:10}" == "sandbox.json" ]; then
-              npx ajv-cli -s "./api/generated/words.json" -c ajv-formats --errors=text -d $file;
-            else
-              npx ajv-cli -s "./api/generated/${file:10}" -c ajv-formats --errors=text -d $file;
-            fi
-          done
+        run: .github/workflows/validate_generated_json.sh
 
       - name: Commit packaged files
         uses: EndBug/add-and-commit@v9
