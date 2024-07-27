@@ -7,6 +7,10 @@ placement = "on mouth/chin"
 handshape = "FlatB"
 placement = "shoulder"
 
+[ALASA-1]
+handshape = "1"
+movement = "movement outwards"
+
 [ALASA-2]
 handshape = "1"
 movement = "movement outwards"
@@ -47,18 +51,33 @@ movement = "palm flip up"
 handshape = "L"
 movement = "palm flip up"
 
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "placed on shoulder"
+
 [AWEN-TAWA]
 handshape = "BentB"
+orientation = "palm placed inward"
 movement = "movement inward"
 
 [EN-KIN-KAN]
 handshape = "L"
 movement = "palm flip down"
 
+[ESUN-1]
+handshape = "BentB"
+movement = "horizontal circle movement"
+orientation = "palm facing up"
+
 [ESUN-2]
 handshape = "BentB"
 movement = "horizontal circle movement"
 orientation = "palm facing up"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "placed on opposite hand"
 
 [IJO-NENA]
 handshape = "1"
@@ -118,6 +137,10 @@ placement = "placed on mouth"
 handshape = "5"
 orientation = "palm faced in"
 
+[KEN-1]
+handshape = "OpenA"
+movement = "movement downward"
+
 [KEN-2]
 handshape = "OpenA"
 movement = "movement downward"
@@ -150,6 +173,10 @@ movement = "movement downward"
 [KIWEN]
 handshape = "OpenA"
 orientation = "palm facing down"
+
+[KO-1]
+handshape = "BentB"
+movement = "verticle circle movement"
 
 [KO-2]
 handshape = "BentB"
@@ -208,9 +235,29 @@ placement = "placed on shoulder"
 handshape = "9"
 placement = "placed on opposite hand"
 
+[LILI-TU]
+handshape = "2"
+orientation = "movement downward"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "movement downward"
+
 [LILI-PIPI]
 handshape = "9"
 orientation = "palm facing out"
+
+[LILI-SUPA]
+handshape = "FlatB"
+orientation = "movement downward"
+
+[LILI-SUPA-2]
+handshape = "FlatB"
+orientation = "movement downward"
+
+[LINJA-1]
+handshape = "9"
+movement = "movement sideways"
 
 [LINJA-2]
 handshape = "9"
@@ -224,6 +271,10 @@ placement = "placed on opposite hand"
 handshape = "9"
 orientation = "palm facing sideways"
 placement = "placed on mouth"
+
+[LON-IJO]
+handshape = "1"
+movement = "fingers flick down"
 
 [LON-LA]
 handshape = "L"
@@ -265,9 +316,13 @@ handshape = "V"
 placement = "placed on chest/stomach"
 
 [MAMA-JO-KILI]
-handshape = "V"
+handshape = "V, BentB"
 movement = "hand shaking/wiggling"
 placement = "placed on opposite hand"
+
+[MANI-1]
+handshape = "1"
+placement = "placed beside head"
 
 [MANI-2]
 handshape = "1"
@@ -377,6 +432,10 @@ placement = "placed on chest/stomach"
 handshape = "1"
 orientation = "finger pointing sideways"
 
+[OPEN-1]
+handshape = "FlatB"
+movement = "palm flip up"
+
 [OPEN-2]
 handshape = "FlatB"
 movement = "palm flip up"
@@ -430,6 +489,10 @@ placement = "placed on chest/stomach"
 handshape = "9"
 placement = "placed on shoulder"
 
+[PINI-1]
+handshape = "FlatB"
+movement = "palm flip down"
+
 [PINI-2]
 handshape = "FlatB"
 movement = "palm flip down"
@@ -465,6 +528,10 @@ movement = "palm flip down"
 [SAMA-WAN-2]
 handshape = "1"
 movement = "palm flip down"
+
+[SELI-1]
+handshape = "5"
+placement = "placed on shoulder"
 
 [SELI-2]
 handshape = "5"
@@ -510,6 +577,12 @@ placement = "placed on chest/stomach"
 [SIKE]
 handshape = "O"
 movement = "verticle circle movement"
+
+[SIN-JO-MONSI]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing in"
+placement = "placed on opposite hand"
 
 [SIN-JO-SINPIN]
 handshape = "FlatB"
