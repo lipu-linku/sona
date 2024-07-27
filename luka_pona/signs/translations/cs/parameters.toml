@@ -7,6 +7,10 @@ placement = "na puse/bradě"
 handshape = "FlatB"
 placement = "rameno"
 
+[ALASA-1]
+handshape = "1"
+movement = "pohyb od sebe"
+
 [ALASA-2]
 handshape = "1"
 movement = "pohyb od sebe"
@@ -47,18 +51,33 @@ movement = "palm flip up"
 handshape = "L"
 movement = "palm flip up"
 
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "na rameni"
+
 [AWEN-TAWA]
 handshape = "BentB"
+orientation = "palm placed inward"
 movement = "pohyb k sobě"
 
 [EN-KIN-KAN]
 handshape = "L"
 movement = "přetočení dlaně dolů"
 
+[ESUN-1]
+handshape = "BentB"
+movement = "vodorovný krouživý pohyb"
+orientation = "dlaň směřující nahoru"
+
 [ESUN-2]
 handshape = "BentB"
 movement = "vodorovný krouživý pohyb"
 orientation = "dlaň směřující nahoru"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "na protilehlé ruce"
 
 [IJO-NENA]
 handshape = "1"
@@ -118,6 +137,10 @@ placement = "na ústech"
 handshape = "5"
 orientation = "dlaň směřující k sobě"
 
+[KEN-1]
+handshape = "OpenA"
+movement = "pohyb dolů"
+
 [KEN-2]
 handshape = "OpenA"
 movement = "pohyb dolů"
@@ -150,6 +173,10 @@ movement = "pohyb dolů"
 [KIWEN]
 handshape = "OpenA"
 orientation = "dlaň směřující dolů"
+
+[KO-1]
+handshape = "BentB"
+movement = "verticle circle movement"
 
 [KO-2]
 handshape = "BentB"
@@ -208,9 +235,29 @@ placement = "na rameni"
 handshape = "9"
 placement = "na protilehlé ruce"
 
+[LILI-TU]
+handshape = "2"
+orientation = "pohyb dolů"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "pohyb dolů"
+
 [LILI-PIPI]
 handshape = "9"
 orientation = "dlaně směřující od sebe"
+
+[LILI-SUPA]
+handshape = "FlatB"
+orientation = "pohyb dolů"
+
+[LILI-SUPA-2]
+handshape = "FlatB"
+orientation = "pohyb dolů"
+
+[LINJA-1]
+handshape = "9"
+movement = "pohyby do strany"
 
 [LINJA-2]
 handshape = "9"
@@ -224,6 +271,10 @@ placement = "na protilehlé ruce"
 handshape = "9"
 orientation = "dlaň směřující do strany"
 placement = "na ústech"
+
+[LON-IJO]
+handshape = "1"
+movement = "švihnutí prsty dolů"
 
 [LON-LA]
 handshape = "L"
@@ -265,9 +316,13 @@ handshape = "V"
 placement = "na hrudi/břiše"
 
 [MAMA-JO-KILI]
-handshape = "V"
+handshape = "V, BentB"
 movement = "třes/kroucení ruky"
 placement = "na protilehlé ruce"
+
+[MANI-1]
+handshape = "1"
+placement = "vedle hlavy"
 
 [MANI-2]
 handshape = "1"
@@ -377,6 +432,10 @@ placement = "na hrudi/břiše"
 handshape = "1"
 orientation = "prst směřující do strany"
 
+[OPEN-1]
+handshape = "FlatB"
+movement = "palm flip up"
+
 [OPEN-2]
 handshape = "FlatB"
 movement = "palm flip up"
@@ -430,6 +489,10 @@ placement = "na hrudi/břiše"
 handshape = "9"
 placement = "na rameni"
 
+[PINI-1]
+handshape = "FlatB"
+movement = "přetočení dlaně dolů"
+
 [PINI-2]
 handshape = "FlatB"
 movement = "přetočení dlaně dolů"
@@ -465,6 +528,10 @@ movement = "přetočení dlaně dolů"
 [SAMA-WAN-2]
 handshape = "1"
 movement = "přetočení dlaně dolů"
+
+[SELI-1]
+handshape = "5"
+placement = "na rameni"
 
 [SELI-2]
 handshape = "5"
@@ -510,6 +577,12 @@ placement = "na hrudi/břiše"
 [SIKE]
 handshape = "O"
 movement = "verticle circle movement"
+
+[SIN-JO-MONSI]
+handshape = "FlatB"
+movement = "pohyb nahoru"
+orientation = "dlaň směřující k sobě"
+placement = "na protilehlé ruce"
 
 [SIN-JO-SINPIN]
 handshape = "FlatB"
