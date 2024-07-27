@@ -1,3 +1,9 @@
+LEN-INSA = { }
+LEN-INSA-2 = { }
+LEN-INSA-TAWA = { }
+LEN-POKA = { }
+LEN-POKA-TAWA = { }
+
 [AKESI]
 handshape = "V"
 orientation = "prsty směrem od sebe"
