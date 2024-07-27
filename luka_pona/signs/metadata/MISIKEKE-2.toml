@@ -9,8 +9,8 @@ old_gloss = "MISIKEKE"
 language = "a priori"
 
 [signwriting]
-fsw = "M533x527S1f502467x473S1f50a468x503S2eb02488x483S2eb1a489x512S2fc06522x496"
-swu = "𝠃𝤧𝤡񅯣𝣥𝣫񅯫𝣦𝤉񋠣𝣺𝣵񋠻𝣻𝤒񋺇𝤜𝤂"
+fsw = "AS1f502S1f50aS2eb02S2eb1aM536x526S1f502483x474S1f50a501x502S2eb02504x484S2eb1a464x510"
+swu = "𝠀񅯣񅯫񋠣񋠻𝠃𝤪𝤠񅯣𝣵𝣬񅯫𝤇𝤈񋠣𝤊𝣶񋠻𝣢𝤐"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/misikeke.gif"

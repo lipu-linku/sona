@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "YOU"
 
 [signwriting]
-fsw = "M508x515S10040493x485"
-swu = "𝠃𝤎𝤕񀁁𝣿𝣷"
+fsw = "AS10040M508x515S10040493x485"
+swu = "𝠀񀁁𝠃𝤎𝤕񀁁𝣿𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sina.gif"

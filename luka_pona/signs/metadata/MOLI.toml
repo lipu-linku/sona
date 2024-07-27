@@ -9,8 +9,8 @@ old_gloss = "MOLI"
 language = "a priori"
 
 [signwriting]
-fsw = "M518x543S15a54471x516S26606487x523S2ff00482x483"
-swu = "𝠃𝤘𝤱񂈕𝣩𝤖񈙇𝣹𝤝񋾡𝣴𝣵"
+fsw = "AS15a54S26606S2ff00M518x543S15a54471x516S26606487x523S2ff00482x483"
+swu = "𝠀񂈕񈙇񋾡𝠃𝤘𝤱񂈕𝣩𝤖񈙇𝣹𝤝񋾡𝣴𝣵"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/moli.gif"

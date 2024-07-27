@@ -1,0 +1,18 @@
+#:schema ../../../api/generated/sign.json
+definition = "sin, namako"
+id = "SIN/NAMAKO^3"
+is_two_handed = true
+new_gloss = "SIN-JO-MONSI"
+old_gloss = "SIN/NAMAKO"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "NEW"
+
+[signwriting]
+fsw = "AS15a20S18235S20500S22b00M520x524S15a20487x487S20500508x510S22b00504x476S18235481x507"
+swu = "𝠀񂇡񃃶񆇡񇀡𝠃𝤚𝤞񂇡𝣹𝣹񆇡𝤎𝤐񇀡𝤊𝣮񃃶𝣳𝤍"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sin.mp4"

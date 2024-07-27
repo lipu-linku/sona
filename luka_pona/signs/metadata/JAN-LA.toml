@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "PERSON"
 
 [signwriting]
-fsw = "M513x534S1dc50488x467S22b04497x504"
-swu = "𝠃𝤓𝤨񅋑𝣺𝣥񇀥𝤃𝤊"
+fsw = "AS1dc50S22b04M512x534S1dc50488x467S22b04496x504"
+swu = "𝠀񅋑񇀥𝠃𝤒𝤨񅋑𝣺𝣥񇀥𝤂𝤊"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jan.gif"

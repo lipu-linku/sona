@@ -9,8 +9,8 @@ old_gloss = "NENA"
 language = "a priori"
 
 [signwriting]
-fsw = "M513x509S18211488x492"
-swu = "𝠃𝤓𝤏񃃒𝣺𝣾"
+fsw = "AS18211M513x509S18211488x492"
+swu = "𝠀񃃒𝠃𝤓𝤏񃃒𝣺𝣾"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nena.gif"

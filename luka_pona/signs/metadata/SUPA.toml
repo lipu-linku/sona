@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "TABLE, SURFACE"
 
 [signwriting]
-fsw = "M540x523S15a50481x477S15a50507x477S20500495x510S22b06510x507S22b12461x507"
-swu = "𝠃𝤮𝤝񂈑𝣳𝣯񂈑𝤍𝣯񆇡𝤁𝤐񇀧𝤐𝤍񇀳𝣟𝤍"
+fsw = "AS15a50S15a50S20500S22b06S22b12M540x523S15a50481x477S15a50507x477S20500495x510S22b06510x507S22b12461x507"
+swu = "𝠀񂈑񂈑񆇡񇀧񇀳𝠃𝤮𝤝񂈑𝣳𝣯񂈑𝤍𝣯񆇡𝤁𝤐񇀧𝤐𝤍񇀳𝣟𝤍"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/supa.gif"

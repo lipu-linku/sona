@@ -14,8 +14,8 @@ language = "BSL"
 sign = "FACE-TO-FACE"
 
 [signwriting]
-fsw = "M506x514S15a20494x487"
-swu = "𝠃𝤌𝤔񂇡𝤀𝣹"
+fsw = "AS15a20M506x514S15a20494x487"
+swu = "𝠀񂇡𝠃𝤌𝤔񂇡𝤀𝣹"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sinpin.gif"

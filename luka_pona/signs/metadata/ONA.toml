@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "PRO.3 (third person pronoun)"
 
 [signwriting]
-fsw = "M515x508S10042485x493"
-swu = "𝠃𝤕𝤎񀁃𝣷𝣿"
+fsw = "AS10042M515x508S10042485x493"
+swu = "𝠀񀁃𝠃𝤕𝤎񀁃𝣷𝣿"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ona.gif"

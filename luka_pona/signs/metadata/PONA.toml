@@ -10,7 +10,7 @@ language = "multiple SLs (including IS)"
 sign = "GOOD"
 
 [signwriting]
-fsw = "M508x512S1f540493x488"
+fsw = "AS1f540M508x512S1f540493x488"
 swu = "𝠃𝤎𝤒񅰡𝣿𝣺"
 
 [video]

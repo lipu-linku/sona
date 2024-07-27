@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "SCISSORS"
 
 [signwriting]
-fsw = "M509x526S11510493x474S22e04492x508"
-swu = "𝠃𝤏𝤠񀟱𝣿𝣬񇅅𝣾𝤎"
+fsw = "M509x526S10e10493x474S22e04492x508"
+swu = "𝠃𝤏𝤠񀕑𝣿𝣬񇅅𝣾𝤎"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kipisi.gif"

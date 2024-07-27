@@ -1,0 +1,18 @@
+#:schema ../../../api/generated/sign.json
+definition = "lili"
+id = "LILI"
+is_two_handed = true
+new_gloss = "LILI-SUPA-2"
+old_gloss = "LILI"
+
+[[etymology]]
+language = "multiple SLs"
+sign = "SMALL"
+
+[signwriting]
+fsw = "AS15a50S15a38S22b04S22b10M518x537S15a50483x464S15a38483x508S22b04502x464S22b10502x507"
+swu = "𝠀񂈑񂇹񇀥񇀱𝠃𝤘𝤫񂈑𝣵𝣢񂇹𝣵𝤎񇀥𝤈𝣢񇀱𝤈𝤍"
+
+[video]
+gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
+mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"

@@ -18,8 +18,8 @@ language = "Toki Pona Sign Language (Chuff)"
 sign = "kiwen"
 
 [signwriting]
-fsw = "M512x508S1f550488x493"
-swu = "𝠃𝤒𝤎񅰱𝣺𝣿"
+fsw = "AS1f550M512x508S1f550488x493"
+swu = "𝠀񅰱𝠃𝤒𝤎񅰱𝣺𝣿"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kiwen.gif"

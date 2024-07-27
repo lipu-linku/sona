@@ -10,8 +10,8 @@ language = "multiple SLs"
 sign = "ONE"
 
 [signwriting]
-fsw = "M508x515S10020493x485"
-swu = "𝠃𝤎𝤕񀀡𝣿𝣷"
+fsw = "AS10000M508x515S10000493x485"
+swu = "𝠀񀀁𝠃𝤎𝤕񀀁𝣿𝣷"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wan.gif"

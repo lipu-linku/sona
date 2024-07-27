@@ -9,8 +9,8 @@ old_gloss = "SAMA"
 language = "a priori"
 
 [signwriting]
-fsw = "M513x525S1f530489x475S2a200488x497"
-swu = "𝠃𝤓𝤟񅰑𝣻𝣭񉳁𝣺𝤃"
+fsw = "AS1f530S2a200M513x525S1f530489x475S2a200488x497"
+swu = "𝠀񅰑񉳁𝠃𝤓𝤟񅰑𝣻𝣭񉳁𝣺𝤃"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sama.gif"

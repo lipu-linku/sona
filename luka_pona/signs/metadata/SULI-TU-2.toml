@@ -14,8 +14,8 @@ language = "LPSL"
 sign = "LILI-TU-2"
 
 [signwriting]
-fsw = "M520x540S11550481x461S22b00504x465S11508482x506S22b14504x510"
-swu = "𝠃𝤚𝤮񀠱𝣳𝣟񇀡𝤊𝣣񀟩𝣴𝤌񇀵𝤊𝤐"
+fsw = "AS11550S22b00S11538S22b14M520x540S11550481x461S11538482x506S22b00504x465S22b14504x510"
+swu = "𝠀񀠱񇀡񀠙񇀵𝠃𝤚𝤮񀠱𝣳𝣟񀠙𝣴𝤌񇀡𝤊𝣣񇀵𝤊𝤐"
 
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"
