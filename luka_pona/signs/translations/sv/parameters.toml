@@ -7,6 +7,10 @@ placement = "on mouth/chin"
 handshape = "FlatB"
 placement = "shoulder"
 
+[ALASA-1]
+handshape = "1"
+movement = "movement outwards"
+
 [ALASA-2]
 handshape = "1"
 movement = "movement outwards"
@@ -47,18 +51,33 @@ movement = "palm flip up"
 handshape = "L"
 movement = "palm flip up"
 
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "lagd på axeln"
+
 [AWEN-TAWA]
 handshape = "BentB"
+orientation = "palm placed inward"
 movement = "rörelse inåt"
 
 [EN-KIN-KAN]
 handshape = "L"
 movement = "nedåtvänd handflata"
 
+[ESUN-1]
+handshape = "BentB"
+movement = "horisontell cirkelrörelse"
+orientation = "handflatan vänd uppåt"
+
 [ESUN-2]
 handshape = "BentB"
 movement = "horisontell cirkelrörelse"
 orientation = "handflatan vänd uppåt"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "lagd på motsatt hand"
 
 [IJO-NENA]
 handshape = "1"
@@ -118,6 +137,10 @@ placement = "lagd över munnen"
 handshape = "5"
 orientation = "handflatan vänd inåt"
 
+[KEN-1]
+handshape = "OpenA"
+movement = "rörelse nedåt"
+
 [KEN-2]
 handshape = "OpenA"
 movement = "rörelse nedåt"
@@ -150,6 +173,10 @@ movement = "rörelse nedåt"
 [KIWEN]
 handshape = "OpenA"
 orientation = "handflatan vänd nedåt"
+
+[KO-1]
+handshape = "BentB"
+movement = "verticle circle movement"
 
 [KO-2]
 handshape = "BentB"
@@ -208,9 +235,29 @@ placement = "lagd på axeln"
 handshape = "9"
 placement = "lagd på motsatt hand"
 
+[LILI-TU]
+handshape = "2"
+orientation = "rörelse nedåt"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "rörelse nedåt"
+
 [LILI-PIPI]
 handshape = "9"
 orientation = "handflatan vänd utåt"
+
+[LILI-SUPA]
+handshape = "FlatB"
+orientation = "rörelse nedåt"
+
+[LILI-SUPA-2]
+handshape = "FlatB"
+orientation = "rörelse nedåt"
+
+[LINJA-1]
+handshape = "9"
+movement = "rörelse i sidled"
 
 [LINJA-2]
 handshape = "9"
@@ -224,6 +271,10 @@ placement = "lagd på motsatt hand"
 handshape = "9"
 orientation = "handflatan vänd åt sidan"
 placement = "lagd över munnen"
+
+[LON-IJO]
+handshape = "1"
+movement = "fingrarna snärtar nedåt"
 
 [LON-LA]
 handshape = "L"
@@ -265,9 +316,13 @@ handshape = "V"
 placement = "lagd på bröstet/magen"
 
 [MAMA-JO-KILI]
-handshape = "V"
+handshape = "V, BentB"
 movement = "skakande hand"
 placement = "lagd på motsatt hand"
+
+[MANI-1]
+handshape = "1"
+placement = "lagd bredvid handen"
 
 [MANI-2]
 handshape = "1"
@@ -377,6 +432,10 @@ placement = "lagd på bröstet/magen"
 handshape = "1"
 orientation = "finger pekande åt sidan"
 
+[OPEN-1]
+handshape = "FlatB"
+movement = "palm flip up"
+
 [OPEN-2]
 handshape = "FlatB"
 movement = "palm flip up"
@@ -430,6 +489,10 @@ placement = "lagd på bröstet/magen"
 handshape = "9"
 placement = "lagd på axeln"
 
+[PINI-1]
+handshape = "FlatB"
+movement = "nedåtvänd handflata"
+
 [PINI-2]
 handshape = "FlatB"
 movement = "nedåtvänd handflata"
@@ -465,6 +528,10 @@ movement = "nedåtvänd handflata"
 [SAMA-WAN-2]
 handshape = "1"
 movement = "nedåtvänd handflata"
+
+[SELI-1]
+handshape = "5"
+placement = "lagd på axeln"
 
 [SELI-2]
 handshape = "5"
@@ -510,6 +577,12 @@ placement = "lagd på bröstet/magen"
 [SIKE]
 handshape = "O"
 movement = "verticle circle movement"
+
+[SIN-JO-MONSI]
+handshape = "FlatB"
+movement = "rörelse uppåt"
+orientation = "handflatan vänd inåt"
+placement = "lagd på motsatt hand"
 
 [SIN-JO-SINPIN]
 handshape = "FlatB"

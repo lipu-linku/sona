@@ -7,6 +7,10 @@ placement = "op mond/kin"
 handshape = "PlatteB"
 placement = "schouder"
 
+[ALASA-1]
+handshape = "1"
+movement = "beweging naar buiten"
+
 [ALASA-2]
 handshape = "1"
 movement = "beweging naar buiten"
@@ -47,18 +51,33 @@ movement = "palm flip up"
 handshape = "L"
 movement = "palm flip up"
 
+[AWEN-AWEN]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "geplaatst op schouder"
+
 [AWEN-TAWA]
 handshape = "BentB"
+orientation = "palm placed inward"
 movement = "beweging naar binnen"
 
 [EN-KIN-KAN]
 handshape = "L"
 movement = "palm omlaag draaien"
 
+[ESUN-1]
+handshape = "BentB"
+movement = "horizontale cirkel beweging"
+orientation = "palm wijst omhoog"
+
 [ESUN-2]
 handshape = "BentB"
 movement = "horizontale cirkel beweging"
 orientation = "palm wijst omhoog"
+
+[IJO-LUKA]
+handshape = "1"
+placement = "geplaatst op tegenovergestelde hand"
 
 [IJO-NENA]
 handshape = "1"
@@ -118,6 +137,10 @@ placement = "geplaatst op de mond"
 handshape = "5"
 orientation = "palm wijst naar binnen"
 
+[KEN-1]
+handshape = "OpenA"
+movement = "beweging omlaag"
+
 [KEN-2]
 handshape = "OpenA"
 movement = "beweging omlaag"
@@ -150,6 +173,10 @@ movement = "beweging omlaag"
 [KIWEN]
 handshape = "OpenA"
 orientation = "palm wijst omlaag"
+
+[KO-1]
+handshape = "BentB"
+movement = "verticale cirkelvormige beweging"
 
 [KO-2]
 handshape = "BentB"
@@ -208,9 +235,29 @@ placement = "geplaatst op schouder"
 handshape = "9"
 placement = "geplaatst op tegenovergestelde hand"
 
+[LILI-TU]
+handshape = "2"
+orientation = "beweging omlaag"
+
+[LILI-TU-2]
+handshape = "2"
+orientation = "beweging omlaag"
+
 [LILI-PIPI]
 handshape = "9"
 orientation = "de palm wijst naar buiten"
+
+[LILI-SUPA]
+handshape = "PlatteB"
+orientation = "beweging omlaag"
+
+[LILI-SUPA-2]
+handshape = "PlatteB"
+orientation = "beweging omlaag"
+
+[LINJA-1]
+handshape = "9"
+movement = "zijdelingse beweging"
 
 [LINJA-2]
 handshape = "9"
@@ -224,6 +271,10 @@ placement = "geplaatst op tegenovergestelde hand"
 handshape = "9"
 orientation = "palm wijst zijwaarts"
 placement = "geplaatst op de mond"
+
+[LON-IJO]
+handshape = "1"
+movement = "vingers die naar beneden knippen"
 
 [LON-LA]
 handshape = "L"
@@ -265,9 +316,13 @@ handshape = "V"
 placement = "geplaatst op borst/maag"
 
 [MAMA-JO-KILI]
-handshape = "V"
+handshape = "V, BentB"
 movement = "hand schudden/trillen"
 placement = "geplaatst op tegenovergestelde hand"
+
+[MANI-1]
+handshape = "1"
+placement = "naast hoofd geplaatst"
 
 [MANI-2]
 handshape = "1"
@@ -377,6 +432,10 @@ placement = "geplaatst op borst/maag"
 handshape = "1"
 orientation = "vingers die zijwaarts wijzen"
 
+[OPEN-1]
+handshape = "PlatteB"
+movement = "palm flip up"
+
 [OPEN-2]
 handshape = "PlatteB"
 movement = "palm flip up"
@@ -430,6 +489,10 @@ placement = "geplaatst op borst/maag"
 handshape = "9"
 placement = "geplaatst op schouder"
 
+[PINI-1]
+handshape = "PlatteB"
+movement = "palm omlaag draaien"
+
 [PINI-2]
 handshape = "PlatteB"
 movement = "palm omlaag draaien"
@@ -465,6 +528,10 @@ movement = "palm omlaag draaien"
 [SAMA-WAN-2]
 handshape = "1"
 movement = "palm omlaag draaien"
+
+[SELI-1]
+handshape = "5"
+placement = "geplaatst op schouder"
 
 [SELI-2]
 handshape = "5"
@@ -510,6 +577,12 @@ placement = "geplaatst op borst/maag"
 [SIKE]
 handshape = "O"
 movement = "verticale cirkelvormige beweging"
+
+[SIN-JO-MONSI]
+handshape = "PlatteB"
+movement = "beweging naar boven"
+orientation = "palm wijst naar binnen"
+placement = "geplaatst op tegenovergestelde hand"
 
 [SIN-JO-SINPIN]
 handshape = "PlatteB"
