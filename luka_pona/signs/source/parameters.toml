@@ -228,6 +228,16 @@ placement = "placed beside head"
 handshape = "BentB"
 orientation = "palms facing to the side"
 
+[LEN-INSA]
+
+[LEN-INSA-2]
+
+[LEN-INSA-TAWA]
+
+[LEN-POKA]
+
+[LEN-POKA-TAWA]
+
 [LEN-POKA-TAWA-2]
 handshape = "BentB"
 movement = "movement downward"
