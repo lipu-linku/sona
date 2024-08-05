@@ -6,7 +6,7 @@ features = [
   "ligatures for sounds present in the original writing system but absent in toki pona",
   "Næshjy Maschyn number system",
 ]
-filename = "Nashjy_Maschyn_pi_toki_pona"
+filename = "Nashjy_Maschyn_Toki_Pona"
 last_updated = "2024-08"
 license = "CC BY-ND 4.0"
 name = "sitelen Nasi Masin"
