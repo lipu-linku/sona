@@ -33,32 +33,32 @@ movement = "beweging omlaag"
 
 [ANTE-KIWEN]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [ANTE-KIWEN-2]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [ANTE-WAN]
 handshape = "1"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [ANU]
 handshape = "L"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [AWEN-AWEN]
 handshape = "BentB"
-orientation = "palm placed inward"
+orientation = "palm naar binnen geplaatst"
 placement = "geplaatst op schouder"
 
 [AWEN-TAWA]
 handshape = "BentB"
-orientation = "palm placed inward"
+orientation = "palm naar binnen geplaatst"
 movement = "beweging naar binnen"
 
 [EN-KIN-KAN]
@@ -449,11 +449,11 @@ orientation = "vingers die zijwaarts wijzen"
 
 [OPEN-1]
 handshape = "PlatteB"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [OPEN-2]
 handshape = "PlatteB"
-movement = "palm flip up"
+movement = "palm omhoog draaien"
 
 [PAKALA]
 handshape = "5"
