@@ -1,18 +1,23 @@
 #:schema ../../api/generated/font.json
-id = "sitelenNasiMasin"
+id = "sitelen Nasi Masin"
 creator = ["jan Majeka"]
 features = [
-  "logographic characters for pronouns and en",
-  "ligatures for sounds present in the original writing system but absent in toki pona",
-  "Næshjy Maschyn number system",
+  # the following features aren't in the enum so they have been commented out:
+
+  # "logographic characters for pronouns and en",
+  # "ligatures for sounds present in the original writing system but absent in toki pona",
+  # "Næshjy Maschyn number system",
 ]
-filename = "Nashjy_Maschyn_Toki_Pona"
+filename = "nashjy-maschyn-toki-pona.otf"
 last_updated = "2024-08"
 license = "CC BY-ND 4.0"
+ligatures = false  # someone check this value
 name = "sitelen Nasi Masin"
 style = "handwritten"
+ucsur = false  # someone check this value
 version = "001.003.000"
-writing_system = "Næshjy Maschyn (Alphabet and a few logographic characters)"
+# writing_system = "Næshjy Maschyn (Alphabet and a few logographic characters)"
+writing_system = "alphabet"
 
 [links]
 fontfile = "https://github.com/yan-Mayeka/Nashjy-Maschyn-Toki-Pona-version-/blob/main/Nashjy_Maschyn_Toki_Pona.otf"
