@@ -1,6 +1,5 @@
 import pages from "@hono/vite-cloudflare-pages";
 import devServer from "@hono/vite-dev-server";
-import { getEnv } from "@hono/vite-dev-server/cloudflare-pages";
 import { exec } from "node:child_process";
 import { defineConfig, type UserConfigExport } from "vite";
 import dts from "vite-plugin-dts";
@@ -41,9 +40,6 @@ export default defineConfig((async ({ mode }) => ({
 					}),
 					devServer({
 						entry: "src/server/index.ts",
-						env: getEnv({
-							assets: true,
-						}),
 					}),
 				],
 })) as UserConfigExport);
