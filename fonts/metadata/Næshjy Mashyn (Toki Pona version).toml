@@ -16,7 +16,8 @@ name = "sitelen Nasi Masin"
 style = "handwritten"
 ucsur = false  # someone check this value
 version = "001.003.000"
-writing_system = "Næshjy Maschyn (Alphabet and a few logographic characters)"
+# writing_system = "Næshjy Maschyn (Alphabet and a few logographic characters)"
+writing_system = "alphabet"
 
 [links]
 fontfile = "https://github.com/yan-Mayeka/Nashjy-Maschyn-Toki-Pona-version-/blob/main/Nashjy_Maschyn_Toki_Pona.otf"
