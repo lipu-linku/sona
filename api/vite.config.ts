@@ -1,6 +1,5 @@
 import pages from "@hono/vite-cloudflare-pages";
 import devServer from "@hono/vite-dev-server";
-import { cloudflareAdapter } from "@hono/vite-dev-server/cloudflare";
 import { exec } from "node:child_process";
 import { defineConfig, type UserConfigExport } from "vite";
 import dts from "vite-plugin-dts";
@@ -41,7 +40,6 @@ export default defineConfig((async ({ mode }) => ({
 					}),
 					devServer({
 						entry: "src/server/index.ts",
-						adapter: cloudflareAdapter(),
 					}),
 				],
 })) as UserConfigExport);

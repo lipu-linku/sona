@@ -48,7 +48,6 @@
 		"typescript": "^5.4.5",
 		"vite": "^5.2.11",
 		"vite-plugin-dts": "^3.9.0",
-		"wrangler": "^3.72.0",
 		"zod-to-json-schema": "^3.23.0"
 	},
 	"engines": {
