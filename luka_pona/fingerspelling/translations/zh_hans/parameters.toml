@@ -4,7 +4,7 @@ orientation = "palm outwards"
 
 [A-2]
 handshape = "1 + 5"
-placement = "touch the thumb"
+placement = "触摸拇指"
 
 [E-1]
 handshape = "BentB"
@@ -12,7 +12,7 @@ orientation = "palm outwards"
 
 [E-2]
 handshape = "1 + 5"
-placement = "touch the index finger"
+placement = "触摸食指"
 
 [I-1]
 handshape = "1"
@@ -20,7 +20,7 @@ orientation = "palm outwards"
 
 [I-2]
 handshape = "1 + 5"
-placement = "touch the middle finger"
+placement = "触摸中指"
 
 [J-1]
 handshape = "1"
@@ -30,7 +30,7 @@ orientation = "palm outwards"
 [J-2]
 handshape = "1 + 5"
 movement = "draw a J shape on the hand"
-placement = "touch palm"
+placement = "触摸手掌"
 
 [J-2-ANTE]
 handshape = "1 + FlatB"
@@ -46,31 +46,31 @@ handshape = "9 + 1"
 placement = "touch base of finger"
 
 [L-1]
-handshape = "L"
+handshape = "L 形"
 orientation = "palm outwards"
 
 [L-2]
 handshape = "1 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "触摸手掌"
 
 [M-1]
 handshape = "BentB"
-orientation = "palm downwards"
+orientation = "手掌向下"
 
 [M-2]
 handshape = "FlatB + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "触摸手掌"
 
 [N-1]
 handshape = "2"
-orientation = "palm downwards"
+orientation = "手掌向下"
 
 [N-2]
 handshape = "2 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "触摸手掌"
 
 [O-1]
 handshape = "O"
@@ -78,7 +78,7 @@ orientation = "palm outwards"
 
 [O-2]
 handshape = "1 + 5"
-placement = "touch the ring finger"
+placement = "触摸无名指"
 
 [P-1]
 handshape = "FlatB"
@@ -95,11 +95,11 @@ orientation = "palm outwards"
 [S-2]
 handshape = "FlatB + FlatB"
 orientation = "palm down + palm side"
-placement = "touch palm"
+placement = "触摸手掌"
 
 [T-1]
-handshape = "L"
-orientation = "palm downwards"
+handshape = "L 形"
+orientation = "手掌向下"
 
 [T-2]
 handshape = "1 + FlatB"
@@ -111,7 +111,7 @@ orientation = "palm outwards"
 
 [U-2]
 handshape = "1 + 5"
-placement = "touch the pinkie finger"
+placement = "触摸小指"
 
 [W-1]
 handshape = "2"
@@ -125,4 +125,4 @@ placement = "mesh fingers"
 [W-2-ANTE]
 handshape = "2 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "触摸手掌"
