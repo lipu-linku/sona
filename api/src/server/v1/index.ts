@@ -88,7 +88,7 @@ const app = new Hono()
 		const filteredWords = Object.fromEntries(
 			Object.entries(data).filter(([, value]) => value.usage_category !== "sandbox"),
 		);
-		return c.json(filteredWords);
+		return c.json(filteredWords, 200);
 	})
 
 	.get(
@@ -101,7 +101,7 @@ const app = new Hono()
 
 			// FIXME: Remove when packaging script reworked
 			return word && word.usage_category !== "sandbox"
-				? c.json({ ok: true as const, data: word })
+				? c.json({ ok: true as const, data: word }, 200)
 				: c.json(
 						{ ok: false as const, message: `Could not find the word ${c.req.param("word")}` },
 						400,
@@ -115,7 +115,7 @@ const app = new Hono()
 		const filteredWords = Object.fromEntries(
 			Object.entries(data).filter(([, value]) => value.usage_category === "sandbox"),
 		);
-		return c.json(filteredWords);
+		return c.json(filteredWords, 200);
 
 		// return c.json((await rawData).sandbox);
 	})
@@ -129,7 +129,7 @@ const app = new Hono()
 			const word = (await rawData).words[c.req.param("word")];
 			// FIXME: Remove when packaging script reworked
 			return word && word.usage_category === "sandbox"
-				? c.json({ ok: true as const, data: word })
+				? c.json({ ok: true as const, data: word }, 200)
 				: c.json(
 						{
 							ok: false as const,
@@ -141,7 +141,7 @@ const app = new Hono()
 	)
 
 	.get("/luka_pona/fingerspelling", langValidator, languagesFilter(true), async (c) => {
-		return c.json((await rawData).fingerspelling);
+		return c.json((await rawData).fingerspelling, 200);
 	})
 
 	.get(
@@ -153,13 +153,13 @@ const app = new Hono()
 			const sign = (await rawData).fingerspelling[c.req.param("sign")];
 
 			return sign
-				? c.json({ ok: true as const, data: sign })
+				? c.json({ ok: true as const, data: sign }, 200)
 				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
 		},
 	)
 
 	.get("/luka_pona/signs", langValidator, languagesFilter(true), async (c) => {
-		return c.json((await rawData).signs);
+		return c.json((await rawData).signs, 200);
 	})
 
 	.get(
@@ -171,25 +171,25 @@ const app = new Hono()
 			const sign = (await rawData).signs[c.req.param("sign")];
 
 			return sign
-				? c.json({ ok: true as const, data: sign })
+				? c.json({ ok: true as const, data: sign }, 200)
 				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
 		},
 	)
 
 	.get("/fonts", async (c) => {
-		return c.json((await rawData).fonts);
+		return c.json((await rawData).fonts, 200);
 	})
 
 	.get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
 		const font = (await rawData).fonts[c.req.param("font")];
 
 		return font
-			? c.json({ ok: true as const, data: font })
+			? c.json({ ok: true as const, data: font }, 200)
 			: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 400);
 	})
 
 	.get("/languages", async (c) => {
-		return c.json((await rawData).languages);
+		return c.json((await rawData).languages, 200);
 	})
 
 	.get(
@@ -201,7 +201,7 @@ const app = new Hono()
 			const langId = langIdCoalesce(language, languages);
 
 			return langId
-				? c.json({ ok: true as const, data: languages[langId]! })
+				? c.json({ ok: true as const, data: languages[langId]! }, 200)
 				: c.json(
 						{ ok: false as const, message: `Could not find a language named ${language}` },
 						400,
