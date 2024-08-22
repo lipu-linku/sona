@@ -35,9 +35,14 @@ jobs:
         with:
           version: 9
 
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v2.1.0
+
       - name: Update package.json
         if: github.event_name == 'release'
-        run: pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
+        run:
+          pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
+          /usr/bin/cat <<< $(jq --tab '.version = "0.3.7"' jsr.json) > jsr.json
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -53,7 +58,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to JSR
-        run: npx jsr publish --allow-slow-types --allow-dirty
+        run: pnpx jsr publish --allow-slow-types --allow-dirty
 
       - name: Push version changes to main branch
         uses: stefanzweifel/git-auto-commit-action@v5
