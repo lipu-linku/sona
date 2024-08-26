@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@hono/vite-cloudflare-pages':
         specifier: ^0.4.0
-        version: 0.4.2(hono@4.5.6)
+        version: 0.4.2(hono@4.5.8)
       '@hono/vite-dev-server':
         specifier: ^0.14.0
-        version: 0.14.0(hono@4.5.6)
+        version: 0.14.0(hono@4.5.8)
       '@hono/zod-validator':
         specifier: ^0.2.1
-        version: 0.2.2(hono@4.5.6)(zod@3.23.8)
+        version: 0.2.2(hono@4.5.8)(zod@3.23.8)
       hono:
         specifier: ^4.3.0
-        version: 4.5.6
+        version: 4.5.8
       p-lazy:
         specifier: ^4.0.0
         version: 4.0.0
@@ -38,16 +38,16 @@ importers:
         version: 3.3.3
       tsx:
         specifier: ^4.9.0
-        version: 4.17.0
+        version: 4.18.0
       typescript:
         specifier: ^5.4.5
         version: 5.5.4
       vite:
         specifier: ^5.2.11
-        version: 5.4.1(@types/node@20.16.1)
+        version: 5.4.2(@types/node@20.16.1)
       vite-plugin-dts:
         specifier: ^4.0.0
-        version: 4.0.3(@types/node@20.16.1)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.1(@types/node@20.16.1))
+        version: 4.0.3(@types/node@20.16.1)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.16.1))
       zod-to-json-schema:
         specifier: ^3.23.0
         version: 3.23.2(zod@3.23.8)
@@ -737,8 +737,8 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
 
-  hono@4.5.6:
-    resolution: {integrity: sha512-9SuUC/zLQv8YAcnIxJko0KCeLI0Q6menPsDWuJ9jaH+r8ZkVXeLqeLs1QJXCPKKbURAWj9x0SJBSFh803EnAUw==}
+  hono@4.5.8:
+    resolution: {integrity: sha512-pqpSlcdqGkpTTRpLYU1PnCz52gVr0zVR9H5GzMyJWuKQLLEBQxh96q45QizJ2PPX8NATtz2mu31/PKW/Jt+90Q==}
     engines: {node: '>=16.0.0'}
 
   import-lazy@4.0.0:
@@ -910,8 +910,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  tsx@4.17.0:
-    resolution: {integrity: sha512-eN4mnDA5UMKDt4YZixo9tBioibaMBpoxBkD+rIPAjVmYERSG0/dWEY1CEFuV89CgASlKL499q8AhmkMnnjtOJg==}
+  tsx@4.18.0:
+    resolution: {integrity: sha512-a1jaKBSVQkd6yEc1/NI7G6yHFfefIcuf3QJST7ZEyn4oQnxLYrZR5uZAM8UrwUa3Ge8suiZHcNS1gNrEvmobqg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -952,8 +952,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.1:
-    resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
+  vite@5.4.2:
+    resolution: {integrity: sha512-dDrQTRHp5C1fTFzcSaMxjk6vdpKvT+2/mIdE07Gw2ykehT49O0z/VHS3zZ8iV/Gh8BJJKHWOe5RjaNrW5xf/GA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1209,14 +1209,14 @@ snapshots:
 
   '@hono/node-server@1.12.1': {}
 
-  '@hono/vite-cloudflare-pages@0.4.2(hono@4.5.6)':
+  '@hono/vite-cloudflare-pages@0.4.2(hono@4.5.8)':
     dependencies:
-      hono: 4.5.6
+      hono: 4.5.8
 
-  '@hono/vite-dev-server@0.14.0(hono@4.5.6)':
+  '@hono/vite-dev-server@0.14.0(hono@4.5.8)':
     dependencies:
       '@hono/node-server': 1.12.1
-      hono: 4.5.6
+      hono: 4.5.8
       miniflare: 3.20240806.1
       minimatch: 9.0.4
     transitivePeerDependencies:
@@ -1224,9 +1224,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@hono/zod-validator@0.2.2(hono@4.5.6)(zod@3.23.8)':
+  '@hono/zod-validator@0.2.2(hono@4.5.8)(zod@3.23.8)':
     dependencies:
-      hono: 4.5.6
+      hono: 4.5.8
       zod: 3.23.8
 
   '@jridgewell/resolve-uri@3.1.2': {}
@@ -1585,7 +1585,7 @@ snapshots:
 
   he@1.2.0: {}
 
-  hono@4.5.6: {}
+  hono@4.5.8: {}
 
   import-lazy@4.0.0: {}
 
@@ -1757,7 +1757,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsx@4.17.0:
+  tsx@4.18.0:
     dependencies:
       esbuild: 0.23.1
       get-tsconfig: 4.7.6
@@ -1782,7 +1782,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-plugin-dts@4.0.3(@types/node@20.16.1)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.1(@types/node@20.16.1)):
+  vite-plugin-dts@4.0.3(@types/node@20.16.1)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.16.1)):
     dependencies:
       '@microsoft/api-extractor': 7.47.4(@types/node@20.16.1)
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
@@ -1796,13 +1796,13 @@ snapshots:
       typescript: 5.5.4
       vue-tsc: 2.0.29(typescript@5.5.4)
     optionalDependencies:
-      vite: 5.4.1(@types/node@20.16.1)
+      vite: 5.4.2(@types/node@20.16.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.4.1(@types/node@20.16.1):
+  vite@5.4.2(@types/node@20.16.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
