@@ -506,3 +506,11 @@ direction = "ltr"
 
 [yue.name]
 en = "Cantonese"
+
+[th]
+id = "th"
+locale = "th-TH"
+direction = "ltr"
+
+[th.name]
+en = "Thai"
