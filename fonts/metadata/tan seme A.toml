@@ -1,0 +1,21 @@
+#:schema ../../api/generated/font.json
+id = "tan seme A"
+creator = ["jan Ke Tami"]
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports cartouches"
+]
+filename = "tan-seme-A.otf"
+last_updated = "2024-09"
+license = "CC0"
+ligatures = true
+name = "tan seme A"
+style = "sans-serif"
+ucsur = true
+version = "1"
+writing_system = "logography"
+
+[links]
+fontfile = "https://github.com/RetSamys/tan-seme-A/raw/main/tan-seme-A.otf"
+repo = "https://github.com/RetSamys/tan-seme-A"
