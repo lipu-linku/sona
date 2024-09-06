@@ -1,6 +1,6 @@
 {
 	"name": "@linku/sona",
-	"version": "0.3.5",
+	"version": "0.3.7",
 	"exports": {
 		".": "./src/lib/index.ts",
 		"./utils": "./src/lib/utils.ts",
@@ -8,6 +8,6 @@
 	},
 	"publish": {
 		"include": ["src", "generated", "raw", "README.md", "LICENSE"],
-    "exclude": ["*.test.*"]
+		"exclude": ["*.test.*"]
 	}
 }
