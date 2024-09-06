@@ -24,7 +24,7 @@ handshape = "5"
 movement = "vertical circle movement"
 
 [ANPA-LON]
-handshape = "L 形"
+handshape = "L"
 orientation = "finger pointing down"
 
 [ANPA-TAWA]
@@ -48,7 +48,7 @@ handshape = "1"
 movement = "palm flip up"
 
 [ANU]
-handshape = "L 形"
+handshape = "L"
 movement = "palm flip up"
 
 [AWEN-AWEN]
@@ -62,7 +62,7 @@ orientation = "palm placed inward"
 movement = "movement inward"
 
 [EN-KIN-KAN]
-handshape = "L 形"
+handshape = "L"
 movement = "palm flip down"
 
 [ESUN-1]
@@ -88,11 +88,11 @@ handshape = "OpenA"
 orientation = "palm outwards"
 
 [ILO]
-handshape = "L 形"
+handshape = "L"
 placement = "placed on opposite hand"
 
 [INSA]
-handshape = "L 形"
+handshape = "L"
 placement = "placed on chest/stomach"
 
 [JAKI]
@@ -101,7 +101,7 @@ orientation = "palm outwards"
 placement = "placed on eyes"
 
 [JAN-LA]
-handshape = "L 形"
+handshape = "L"
 movement = "movement downward"
 orientation = "palm facing down"
 
@@ -207,7 +207,7 @@ handshape = "1"
 placement = "placed beside head"
 
 [LA]
-handshape = "L 形"
+handshape = "L"
 movement = "fingers flick up"
 
 [LAPE]
@@ -292,7 +292,7 @@ handshape = "1"
 movement = "fingers flick down"
 
 [LON-LA]
-handshape = "L 形"
+handshape = "L"
 movement = "fingers flick down"
 
 [LUKA]
@@ -344,7 +344,7 @@ handshape = "1"
 placement = "placed beside head"
 
 [MELI]
-handshape = "L 形"
+handshape = "L"
 placement = "placed on mouth/chin"
 
 [MESO]
@@ -356,7 +356,7 @@ handshape = "1"
 placement = "placed on chest/stomach"
 
 [MIJE]
-handshape = "L 形"
+handshape = "L"
 placement = "placed on eye"
 
 [MISIKEKE-1]
@@ -517,7 +517,7 @@ handshape = "9"
 movement = "hand shaking/wiggling"
 
 [POKA]
-handshape = "L 形"
+handshape = "L"
 movement = "fingers pointing sideways"
 
 [POKI]
@@ -569,7 +569,7 @@ handshape = "1"
 movement = "hand shaking/wiggling"
 
 [SEWI-LON]
-handshape = "L 形"
+handshape = "L"
 orientation = "finger pointing up"
 
 [SEWI-TAWA]
@@ -685,7 +685,7 @@ handshape = "1"
 movement = "fingers flick up"
 
 [TAWA-KAMA]
-handshape = "L 形"
+handshape = "L"
 movement = """
 movement outward,
 movement inward,
@@ -720,7 +720,7 @@ handshape = "BentB"
 orientation = "palm facing sideways"
 
 [TONSI]
-handshape = "L 形"
+handshape = "L"
 placement = "placed beside head"
 
 [TU]

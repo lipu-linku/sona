@@ -1,31 +1,31 @@
 [AKESI]
 handshape = "V"
-orientation = "fingers pointing outwards"
-placement = "on mouth/chin"
+orientation = "fingrarna pekaande utåt"
+placement = "på munnen/hakan"
 
 [ALA]
 handshape = "FlatB"
-placement = "shoulder"
+placement = "axel"
 
 [ALASA-1]
 handshape = "1"
-movement = "movement outwards"
+movement = "rörelse utåt"
 
 [ALASA-2]
 handshape = "1"
-movement = "movement outwards"
+movement = "rörelse utåt"
 
 [ALE-1]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "vertikal cirkelrörelse"
 
 [ALE-2]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "vertikal cirkelrörelse"
 
 [ANPA-LON]
 handshape = "L"
-orientation = "finger pointing down"
+orientation = "fingrarna pekande nedåt"
 
 [ANPA-TAWA]
 handshape = "BentB"
@@ -33,32 +33,32 @@ movement = "rörelse nedåt"
 
 [ANTE-KIWEN]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [ANTE-KIWEN-2]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [ANTE-WAN]
 handshape = "1"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [ANU]
 handshape = "L"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [AWEN-AWEN]
 handshape = "BentB"
-orientation = "palm placed inward"
+orientation = "handflatan innåt"
 placement = "lagd på axeln"
 
 [AWEN-TAWA]
 handshape = "BentB"
-orientation = "palm placed inward"
+orientation = "handflatan innåt"
 movement = "rörelse inåt"
 
 [EN-KIN-KAN]
@@ -425,7 +425,7 @@ orientation = "handflatan vänd nedåt"
 
 [NI]
 handshape = "1"
-orientation = "finger pointing down"
+orientation = "fingrarna pekande nedåt"
 
 [NIMI]
 handshape = "FlatB"
@@ -449,11 +449,11 @@ orientation = "finger pekande åt sidan"
 
 [OPEN-1]
 handshape = "FlatB"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [OPEN-2]
 handshape = "FlatB"
-movement = "palm flip up"
+movement = "handflatan snärtar uppåt"
 
 [PAKALA]
 handshape = "5"
@@ -632,7 +632,7 @@ movement = "horisontell cirkel"
 [SOKO]
 handshape = "1"
 orientation = "finger pekande uppåt"
-placement = "below other hand"
+placement = "under andra handen"
 
 [SONA-ISIPIN]
 handshape = "1"
