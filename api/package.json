@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@hono/vite-cloudflare-pages": "^0.4.0",
-		"@hono/vite-dev-server": "^0.15.0",
+		"@hono/vite-dev-server": "^0.16.0",
 		"@hono/zod-validator": "^0.2.1",
 		"hono": "^4.3.0",
 		"p-lazy": "^4.0.0",
