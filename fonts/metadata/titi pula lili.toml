@@ -1,0 +1,24 @@
+#:schema ../../api/generated/font.json
+id = "titi pula lili"
+creator = ["Elliott Crampton (jan Elijo / ka Ililu)"]
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports cartouches",
+  "combined glyphs",
+  "ZWJ sequences",
+  "character variants",
+]
+filename = "titi-pula-lili.otf"
+last_updated = "2024-09"
+license = "MIT"
+ligatures = true
+name = "titi pula lili"
+style = "uniform line weight"
+ucsur = true
+version = "1"
+writing_system = "tokiponido logography"
+
+[links]
+fontfile = "https://github.com/ElliottCr/titi-pula-lili/raw/main/titi-pula-lili.otf"
+repo = "https://github.com/ElliottCr/titi-pula-lili"
