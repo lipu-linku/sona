@@ -1,0 +1,23 @@
+id = "sitelenMajekaAWT"
+creator = ["jan Majeka"]
+features = [
+  "codepoints",
+  "supports cartouches",
+  "long pi",
+  "combined glyphs for meli+awen jan+e ko+ale",
+  "latin ligatures",
+  "supports ku suli and a few more",
+]
+filename = "sitelen-Majeka-pi-alasa-wan-taso-lig.otf"
+last_updated = "2024-10-9"
+license = "CC BY-ND 4.0"
+ligatures = true
+name = "sitelen Majeka pi alasa wan taso"
+style = "handwritten"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://github.com/yan-Mayeka/sitelen-Majeka-pi-alasa-wan-taso/blob/main/sitelen-Majeka-pi-alasa-wan-taso-lig.otf"
+repo = "https://github.com/yan-Mayeka/sitelen-Majeka-pi-alasa-wan-taso/tree/main"
