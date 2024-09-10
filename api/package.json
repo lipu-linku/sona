@@ -1,6 +1,6 @@
 {
 	"name": "@kulupu-linku/sona",
-	"version": "0.3.4",
+	"version": "0.3.7",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
 	"bugs": {
@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@hono/vite-cloudflare-pages": "^0.4.0",
-		"@hono/vite-dev-server": "^0.12.0",
+		"@hono/vite-dev-server": "^0.16.0",
 		"@hono/zod-validator": "^0.2.1",
 		"hono": "^4.3.0",
 		"p-lazy": "^4.0.0",
@@ -47,7 +47,7 @@
 		"tsx": "^4.9.0",
 		"typescript": "^5.4.5",
 		"vite": "^5.2.11",
-		"vite-plugin-dts": "^3.9.0",
+		"vite-plugin-dts": "^4.0.0",
 		"zod-to-json-schema": "^3.23.0"
 	},
 	"engines": {

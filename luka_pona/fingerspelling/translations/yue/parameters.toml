@@ -1,0 +1,128 @@
+[A-1]
+handshape = "開放A"
+orientation = "手掌向外"
+
+[A-2]
+handshape = "1 + 5"
+placement = "摸拇指"
+
+[E-1]
+handshape = "彎咗B"
+orientation = "手掌向外"
+
+[E-2]
+handshape = "1 + 5"
+placement = "摸食指"
+
+[I-1]
+handshape = "1"
+orientation = "手掌向外"
+
+[I-2]
+handshape = "1 + 5"
+placement = "摸中指"
+
+[J-1]
+handshape = "1"
+movement = "fingers flip inwards"
+orientation = "手掌向外"
+
+[J-2]
+handshape = "1 + 5"
+movement = "draw a J shape on the hand"
+placement = "摸手掌"
+
+[J-2-ANTE]
+handshape = "1 + 平B"
+orientation = "手掌向下 + 手掌向下"
+placement = "摸拇指嘅底部"
+
+[K-1]
+handshape = "2"
+orientation = "手掌向內"
+
+[K-2]
+handshape = "9 + 1"
+placement = "摸手指底部"
+
+[L-1]
+handshape = "L"
+orientation = "手掌向外"
+
+[L-2]
+handshape = "1 + 平B"
+orientation = "手掌向上 + 手掌向下"
+placement = "摸手掌"
+
+[M-1]
+handshape = "彎咗B"
+orientation = "手掌向下"
+
+[M-2]
+handshape = "平B + 平B"
+orientation = "手掌向上 + 手掌向下"
+placement = "摸手掌"
+
+[N-1]
+handshape = "2"
+orientation = "手掌向下"
+
+[N-2]
+handshape = "2 + 平B"
+orientation = "手掌向上 + 手掌向下"
+placement = "摸手掌"
+
+[O-1]
+handshape = "O"
+orientation = "手掌向外"
+
+[O-2]
+handshape = "1 + 5"
+placement = "摸無名指"
+
+[P-1]
+handshape = "平B"
+orientation = "手掌向外"
+
+[P-2]
+handshape = "9 + 1"
+placement = "摸手指尖"
+
+[S-1]
+handshape = "5"
+orientation = "手掌向外"
+
+[S-2]
+handshape = "平B + 平B"
+orientation = "手掌向下 + 手掌向側邊"
+placement = "摸手掌"
+
+[T-1]
+handshape = "L"
+orientation = "手掌向下"
+
+[T-2]
+handshape = "1 + 平B"
+placement = "摸手邊"
+
+[U-1]
+handshape = "2"
+orientation = "手掌向外"
+
+[U-2]
+handshape = "1 + 5"
+placement = "摸小手指"
+
+[W-1]
+handshape = "2"
+movement = "verticle circle movement"
+orientation = "手掌向外"
+
+[W-2]
+handshape = "5 + 5"
+placement = "mesh fingers"
+
+[W-2-ANTE]
+handshape = "2 + 平B"
+orientation = "手掌向上 + 手掌向下"
+placement = "摸手掌"

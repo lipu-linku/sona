@@ -498,3 +498,19 @@ direction = "ltr"
 en = "Hungarian"
 endonym = "magyar"
 tok = "toki Mata"
+
+[yue]
+id = "yue"
+locale = "yue"
+direction = "ltr"
+
+[yue.name]
+en = "Cantonese"
+
+[th]
+id = "th"
+locale = "th-TH"
+direction = "ltr"
+
+[th.name]
+en = "Thai"
