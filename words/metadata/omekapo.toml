@@ -26,6 +26,7 @@ ligatures = ["omekapo"]
 2021-10 = 38
 2022-08 = 16
 2023-09 = 20
+2024-09 = 15
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/omekapo"

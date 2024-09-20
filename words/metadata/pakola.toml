@@ -24,6 +24,7 @@ ligatures = ["pakola"]
 
 [usage]
 2023-09 = 3
+2024-09 = 5
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pakola"

@@ -39,6 +39,7 @@ ligatures = ["san"]
 2021-10 = 33
 2022-08 = 7
 2023-09 = 9
+2024-09 = 11
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/san"

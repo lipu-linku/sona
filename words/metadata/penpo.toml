@@ -25,7 +25,7 @@ word = "(pi) toki pona taso"
 ligatures = ["penpo"]
 
 [usage]
-# as of 2024-06 has not been polled yet
+2024-09 = 5
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/penpo"

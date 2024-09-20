@@ -31,6 +31,7 @@ ligatures = ["misa", "misa5"]
 2021-10 = 35
 2022-08 = 10
 2023-09 = 13
+2024-09 = 7
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/misa"
