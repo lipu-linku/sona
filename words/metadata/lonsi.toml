@@ -1,1 +1,22 @@
+#:schema ../../api/generated/word.json
+id = "lonsi"
+author_verbatim = "LONSI"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
+book = ""
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["jan Emikili"]
+see_also = ["lon", "tonsi"]
+source_language = "Toki Pona"
+usage_category = "sandbox"
+word = "lonsi"
+deprecated = false
 
+[[etymology]]
+word = "lon"
+
+[[etymology]]
+word = "tonsi"
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/List_of_ma_pona_pi_toki_pona_slang#lonsi"
