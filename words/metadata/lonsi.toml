@@ -2,12 +2,12 @@
 id = "lonsi"
 author_verbatim = "LONSI"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
-book = ""
+book = "none"
 coined_era = "post-ku"
 coined_year = "2023"
 creator = ["jan Emikili"]
 see_also = ["lon", "tonsi"]
-source_language = "Toki Pona"
+source_language = "toki pona"
 usage_category = "sandbox"
 word = "lonsi"
 deprecated = false
