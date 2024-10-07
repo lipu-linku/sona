@@ -6,7 +6,7 @@ author_verbatim_source = "https://discord.com/channels/301377942062366741/118702
 book = "none"
 coined_era = "post-ku"
 coined_year = "2024"
-creator = ["namako Kolisin"]
+creator = ["kolisin"]
 see_also = ["nasin", "linluwi", "kulupu", "sama"]
 source_language = "a priori"
 usage_category = "sandbox"
@@ -14,4 +14,3 @@ word = "kepa"
 deprecated = false
 
 [[etymology]]
-word = "lon"
