@@ -15,8 +15,8 @@ importers:
         specifier: ^0.16.0
         version: 0.16.0(hono@4.6.3)(miniflare@3.20240806.1)
       '@hono/zod-validator':
-        specifier: ^0.2.1
-        version: 0.2.2(hono@4.6.3)(zod@3.23.8)
+        specifier: ^0.4.0
+        version: 0.4.1(hono@4.6.3)(zod@3.23.8)
       hono:
         specifier: ^4.3.0
         version: 4.6.3
@@ -414,8 +414,8 @@ packages:
       wrangler:
         optional: true
 
-  '@hono/zod-validator@0.2.2':
-    resolution: {integrity: sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==}
+  '@hono/zod-validator@0.4.1':
+    resolution: {integrity: sha512-I8LyfeJfvVmC5hPjZ2Iij7RjexlgSBT7QJudZ4JvNPLxn0JQ3sqclz2zydlwISAnw21D2n4LQ0nfZdoiv9fQQA==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
@@ -1208,7 +1208,7 @@ snapshots:
     optionalDependencies:
       miniflare: 3.20240806.1
 
-  '@hono/zod-validator@0.2.2(hono@4.6.3)(zod@3.23.8)':
+  '@hono/zod-validator@0.4.1(hono@4.6.3)(zod@3.23.8)':
     dependencies:
       hono: 4.6.3
       zod: 3.23.8
