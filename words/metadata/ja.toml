@@ -35,5 +35,7 @@ deprecated = false
 [representations]
 ligatures = ["ta"]
 
+[usage]
+
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Preverb_marking#ja"
