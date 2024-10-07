@@ -1,0 +1,39 @@
+#:schema ../../api/generated/word.json
+id = "ja"
+author_verbatim = ".. ja2 **ja** - *post-ku*: marks the end of a preverb (or preposition, with lu)
+
+Makes it possible to make anything into a preverb without ambiguity.
+> *mi tawa telo e kasi*: I'm moving a plant towards water.
+> *mi tawa ja telo e kasi*: I'm going (in order) to water the plants.
+Can be used to make composite preverbs by including multiple words before the ja.
+> *mi wile mute ja sona e ni*: I really want to know this.
+Can be stacked.
+> *mi open ja olin ja telo e kasi*: I'm starting to love watering the plants.
+Can optionally be used with existing preverbs to clarify them.
+> *mi wile ja kama ja sona* = *mi wile kama sona.*
+> *mi olin ja kama ja sona e ijo sin* = *mi olin ja kama sona e ijo sin* = I love to learn new things.
+All preverbs before the last ja should be marked by ja.
+> *mi wile ja tawa ja tawa musi* ≠ *mi wile tawa ja tawa musi.*
+
+Can be used with lu (see `... lu`) to make composite prepositions.
+> *soko li lu ante mute ja leko*: Mushrooms are very different to squares.
+> *mi pali e ni lu kepeken wawa ja luka mi*: I made this by vigorously using my hands.
+> *pakala ni li kama lon lu kepeken pi ike lili ja ilo kule*: This mess was made via somewhat bad usage of a paintbrush."
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/870061596360208455"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["wuwojiti Heav, jan Pensa, jan Kita"]
+see_also = ["ta", "lo"]
+source_language = "a priori"
+usage_category = "sandbox"
+word = "ta"
+deprecated = false
+
+[[etymology]]
+
+[representations]
+ligatures = ["ta"]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/Preverb_marking#ja"
