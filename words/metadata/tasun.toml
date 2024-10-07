@@ -18,5 +18,7 @@ word = "dachshund"
 [representations]
 ligatures = ["tasun", "taasun", "taaasun"]
 
+[usage]
+
 [resources]
 sona_pona = "https://sona.pona.la/wiki/User:Menasewi/nimi_weka#Words_for_%22dog%22"
