@@ -1,6 +1,6 @@
 #:schema ../../api/generated/word.json
 id = "ja"
-author_verbatim = ".. ja2 **ja** - *post-ku*: marks the end of a preverb (or preposition, with lu)
+author_verbatim = """.. ja2 **ja** - *post-ku*: marks the end of a preverb (or preposition, with lu)
 
 Makes it possible to make anything into a preverb without ambiguity.
 > *mi tawa telo e kasi*: I'm moving a plant towards water.
@@ -18,7 +18,7 @@ All preverbs before the last ja should be marked by ja.
 Can be used with lu (see `... lu`) to make composite prepositions.
 > *soko li lu ante mute ja leko*: Mushrooms are very different to squares.
 > *mi pali e ni lu kepeken wawa ja luka mi*: I made this by vigorously using my hands.
-> *pakala ni li kama lon lu kepeken pi ike lili ja ilo kule*: This mess was made via somewhat bad usage of a paintbrush."
+> *pakala ni li kama lon lu kepeken pi ike lili ja ilo kule*: This mess was made via somewhat bad usage of a paintbrush."""
 author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/870061596360208455"
 book = "none"
 coined_era = "post-pu"
