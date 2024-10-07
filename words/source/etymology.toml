@@ -381,6 +381,9 @@ language = "Tok Pisin"
 definition = "can"
 language = "English"
 
+[[kepa]]
+language = "a priori"
+
 [[kepeken]]
 definition = "to use"
 language = "Dutch"
@@ -1536,6 +1539,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "English"
+
+[[tasun]]
+definition = "dachshund"
 language = "English"
 
 [[tawa]]
