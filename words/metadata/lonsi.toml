@@ -11,6 +11,7 @@ source_language = "toki pona"
 usage_category = "sandbox"
 word = "lonsi"
 deprecated = false
+audio = []
 
 [[etymology]]
 word = "lon"

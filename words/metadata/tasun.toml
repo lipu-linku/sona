@@ -11,6 +11,7 @@ source_language = "English"
 usage_category = "sandbox"
 word = "tasun"
 deprecated = false
+audio = []
 
 [[etymology]]
 word = "dachshund"
