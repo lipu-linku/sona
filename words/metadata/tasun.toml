@@ -1,0 +1,22 @@
+#:schema ../../api/generated/word.json
+id = "tasun"
+author_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["jan Pensa, jan Kita"]
+see_also = ["soweli", "pela", "wisa"]
+source_language = "English"
+usage_category = "sandbox"
+word = "tasun"
+deprecated = false
+
+[[etymology]]
+word = "dachshund"
+
+[representations]
+ligatures = ["tasun", "taasun", "taaasun"]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/User:Menasewi/nimi_weka#Words_for_%22dog%22"
