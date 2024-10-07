@@ -17,3 +17,5 @@ deprecated = false
 
 [representations]
 ligatures = ["kepa"]
+
+[usage]
