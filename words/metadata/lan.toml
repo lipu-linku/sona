@@ -1,0 +1,28 @@
+#:schema ../../api/generated/word.json
+id = "lan"
+author_verbatim = "lan = being, anything that can take action itself, etc"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1159904421531111465"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["mu Ekisi"]
+see_also = ["jan", "ijo", "wan"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "lan"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "lon"
+
+[[etymology]]
+word = "wan"
+
+[[etymology]]
+word = "jan"
+
+[representations]
+ligatures = ["lan1", "lan2"]
+
+[usage]
