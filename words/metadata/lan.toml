@@ -22,4 +22,7 @@ word = "wan"
 [[etymology]]
 word = "jan"
 
+[representations]
+ligatures = ["lan1", "lan2"]
+
 [usage]
