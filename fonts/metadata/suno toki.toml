@@ -2,16 +2,19 @@
 id = "suno toki"
 creator = ["jan Ke Tami"]
 features = [
-  "ASCII transcription"
+  "ASCII transcription",
+  "cartouches",
+  "color font",
+  "auto-cartouching"
 ]
 filename = "suno-toki.otf"
-last_updated = "2024-08"
+last_updated = "2024-09"
 license = "OFL"
 ligatures = true
 name = "suno toki"
 style = "handwritten"
 ucsur = true
-version = "1"
+version = "1.2"
 writing_system = "sitelen pona"
 
 [links]
