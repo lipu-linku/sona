@@ -209,6 +209,9 @@ language = "التاغالوغية"
 definition = "hit or miss"
 language = "الإنجليزية"
 
+[[ja]]
+language = "a priori"
+
 [[jaki]]
 definition = "yucky"
 language = "الإنجليزية"
@@ -378,6 +381,9 @@ language = "Tok Pisin"
 [[ken]]
 definition = "can"
 language = "الإنجليزية"
+
+[[kepa]]
+language = "a priori"
 
 [[kepeken]]
 definition = "to use"
@@ -563,6 +569,18 @@ language = "الفرنسية الأكادية"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "التوكي بونا"
+
+[[lan]]
+definition = "unique, united; one"
+language = "التوكي بونا"
+
+[[lan]]
+definition = "انسان ، بني أدم ، شخص ، بشري ، البشرية"
+language = "التوكي بونا"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "اليونانية"
@@ -706,6 +724,14 @@ language = "Tok Pisin"
 [[lon]]
 definition = "along"
 language = "الإنجليزية"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "التوكي بونا"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "التوكي بونا"
 
 [[lu]]
 language = "a priori"
@@ -1514,6 +1540,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "الإنجليزية"
+
+[[tasun]]
+definition = "dachshund"
 language = "الإنجليزية"
 
 [[tawa]]
