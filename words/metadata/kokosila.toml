@@ -8,7 +8,7 @@ coined_year = "2020"
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Esperanto"
-usage_category = "uncommon"
+usage_category = "obscure"
 word = "kokosila"
 deprecated = false
 
@@ -39,6 +39,7 @@ sitelen_jelo = ["🐊"]
 2021-10 = 54
 2022-08 = 25
 2023-09 = 31
+2024-09 = 26
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kokosila"

@@ -209,6 +209,9 @@ language = "Tagalog"
 definition = "hit or miss"
 language = "English"
 
+[[ja]]
+language = "a priori"
+
 [[jaki]]
 definition = "yucky"
 language = "English"
@@ -378,6 +381,9 @@ language = "Tok Pisin"
 [[ken]]
 definition = "can"
 language = "English"
+
+[[kepa]]
+language = "a priori"
 
 [[kepeken]]
 definition = "to use"
@@ -563,6 +569,18 @@ language = "Acadian French"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lan]]
+definition = "(number) one; singular; combine, join, mix, fuse"
+language = "toki pona"
+
+[[lan]]
+definition = "tao"
+language = "toki pona"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "Greek"
@@ -706,6 +724,14 @@ language = "Tok Pisin"
 [[lon]]
 definition = "along"
 language = "English"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "a priori"
@@ -1514,6 +1540,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "English"
+
+[[tasun]]
+definition = "dachshund"
 language = "English"
 
 [[tawa]]

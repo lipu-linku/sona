@@ -209,6 +209,9 @@ language = "Tagalog"
 definition = "raken of missen"
 language = "Engels"
 
+[[ja]]
+language = "op voorhand"
+
 [[jaki]]
 definition = "ieuw"
 language = "Engels"
@@ -378,6 +381,9 @@ language = "Tok Pisin"
 [[ken]]
 definition = "kunnen"
 language = "Engels"
+
+[[kepa]]
+language = "op voorhand"
 
 [[kepeken]]
 definition = "gebruiken"
@@ -563,6 +569,18 @@ language = "Acadiaans Frans"
 [[lajotu]]
 language = "Canadese Syllabics"
 
+[[lan]]
+definition = "bestaand, echt, waar; (voorzetsel) ergens bij, in, tijdens, in de context van"
+language = "toki pona"
+
+[[lan]]
+definition = "een, 1; uniek, verbonden"
+language = "toki pona"
+
+[[lan]]
+definition = "mens, persoon, iemand, karakter"
+language = "toki pona"
+
 [[lanpan]]
 definition = "nemen, pakken, grijpen, krijgen"
 language = "Grieks"
@@ -706,6 +724,14 @@ language = "Tok Pisin"
 [[lon]]
 definition = "mee, langs"
 language = "Engels"
+
+[[lonsi]]
+definition = "bestaand, echt, waar; (voorzetsel) ergens bij, in, tijdens, in de context van"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "op voorhand"
@@ -1514,6 +1540,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "dat is alles, dat zal het zijn"
+language = "Engels"
+
+[[tasun]]
+definition = "dachshund"
 language = "Engels"
 
 [[tawa]]

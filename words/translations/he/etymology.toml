@@ -209,6 +209,9 @@ language = "טגלוג"
 definition = "יכול להיכשל באותה מידה שיכול להצליח"
 language = "אנגלית"
 
+[[ja]]
+language = "אין מקור"
+
 [[jaki]]
 definition = "מגעיל"
 language = "אנגלית"
@@ -378,6 +381,9 @@ language = "טוק פיסין"
 [[ken]]
 definition = "יכול"
 language = "אנגלית"
+
+[[kepa]]
+language = "אין מקור"
 
 [[kepeken]]
 definition = "להשתמש"
@@ -563,6 +569,18 @@ language = "צרפתית אקדית"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "טוקי פונה"
+
+[[lan]]
+definition = "מיוחד, מאוחד; אחד"
+language = "טוקי פונה"
+
+[[lan]]
+definition = "בן אדם, איש, מישהו"
+language = "טוקי פונה"
+
 [[lanpan]]
 definition = "לקחת, לתפוס, ללפות, לקבל"
 language = "יוונית"
@@ -706,6 +724,14 @@ language = "טוק פיסין"
 [[lon]]
 definition = "ביחד"
 language = "אנגלית"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "טוקי פונה"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "טוקי פונה"
 
 [[lu]]
 language = "אין מקור"
@@ -1514,6 +1540,10 @@ language = "טוק פיסין"
 
 [[taso]]
 definition = "זה הכל"
+language = "אנגלית"
+
+[[tasun]]
+definition = "dachshund"
 language = "אנגלית"
 
 [[tawa]]

@@ -514,3 +514,11 @@ direction = "ltr"
 
 [th.name]
 en = "Thai"
+
+[fa]
+id = "fa"
+locale = "fa-IR"
+direction = "rtl"
+
+[fa.name]
+en = "Persian"

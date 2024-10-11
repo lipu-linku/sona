@@ -28,6 +28,7 @@ ligatures = ["Pingo"]
 2021-10 = 20
 2022-08 = 5
 2023-09 = 4
+2024-09 = 4
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Pingo"

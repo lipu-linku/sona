@@ -28,6 +28,8 @@ sitelen_jelo = ["🧙", "🧵"]
 2021-10 = 28
 2022-08 = 1
 2023-09 = 0
+# Release of lipu su
+2024-09 = 50
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/su"

@@ -8,7 +8,7 @@ coined_year = "2023"
 creator = ["jan Kita"]
 see_also = ["kokosila"]
 source_language = "toki pona"
-usage_category = "sandbox"
+usage_category = "obscure"
 word = "penpo"
 deprecated = false
 
@@ -25,7 +25,7 @@ word = "(pi) toki pona taso"
 ligatures = ["penpo"]
 
 [usage]
-# as of 2024-06 has not been polled yet
+2024-09 = 5
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/penpo"

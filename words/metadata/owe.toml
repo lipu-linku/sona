@@ -5,7 +5,7 @@ author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = ""
-creator = ["Ferret"]
+creator = ["nano"]
 see_also = []
 source_language = "English"
 usage_category = "obscure"
@@ -26,6 +26,7 @@ ligatures = ["owe"]
 2021-10 = 20
 2022-08 = 5
 2023-09 = 5
+2024-09 = 8
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/owe"
