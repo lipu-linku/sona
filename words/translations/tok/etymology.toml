@@ -209,6 +209,9 @@ language = "toki Takalo"
 definition = "hit or miss"
 language = "toki Inli"
 
+[[ja]]
+language = "nimi ni li kama ala tan toki ante"
+
 [[jaki]]
 definition = "yucky"
 language = "toki Inli"
@@ -379,6 +382,9 @@ language = "toki Pisin"
 definition = "can"
 language = "toki Inli"
 
+[[kepa]]
+language = "nimi ni li kama ala tan toki ante"
+
 [[kepeken]]
 definition = "to use"
 language = "toki Netelan"
@@ -455,19 +461,19 @@ definition = "gloopy love"
 language = "toki pona"
 
 [[kolo]]
-definition = "pig"
+definition = "soweli ni li loje walo. ona li olin e ni: ona li lon telo ma."
 language = "toki Sawili"
 
 [[kolo]]
-definition = "pig"
+definition = "soweli ni li loje walo. ona li olin e ni: ona li lon telo ma."
 language = "toki Isisulu"
 
 [[kolo]]
-definition = "pig"
+definition = "soweli ni li loje walo. ona li olin e ni: ona li lon telo ma."
 language = "toki Kisikonko"
 
 [[kolo]]
-definition = "pig"
+definition = "soweli ni li loje walo. ona li olin e ni: ona li lon telo ma."
 language = "toki Epanja"
 
 [[kolo]]
@@ -562,6 +568,18 @@ language = "toki Kanse pi ma Akasi"
 
 [[lajotu]]
 language = "sitelen pi ma Kanata"
+
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lan]]
+definition = "(number) one; singular; combine, join, mix, fuse"
+language = "toki pona"
+
+[[lan]]
+definition = "ijo ni li wile, li ken tawa. ijo ni li lon, li ken pilin, li ken toki. ijo ni li ken kama sona e ijo suli, li ken ante e ma. ona li pali. mama toki li ijo ni."
+language = "toki pona"
 
 [[lanpan]]
 definition = "take, seize, grasp, receive"
@@ -706,6 +724,14 @@ language = "toki Pisin"
 [[lon]]
 definition = "along"
 language = "toki Inli"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "nimi ni li kama ala tan toki ante"
@@ -986,7 +1012,7 @@ definition = "5"
 language = "toki Kantun"
 
 [[nuwa]]
-definition = "newer"
+definition = "ijo nanpa wan li sin. ijo nanpa tu li sin mute. ni la ijo nanpa tu li nuwa tawa ijo nanpa wan"
 language = "toki Inli"
 
 [[o]]
@@ -1514,6 +1540,10 @@ language = "toki Pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "toki Inli"
+
+[[tasun]]
+definition = "dachshund"
 language = "toki Inli"
 
 [[tawa]]

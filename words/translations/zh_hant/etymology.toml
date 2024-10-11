@@ -209,6 +209,9 @@ language = "他加祿語"
 definition = "時好時壞的"
 language = "英語"
 
+[[ja]]
+language = "先創"
+
 [[jaki]]
 definition = "噁心的"
 language = "英語"
@@ -378,6 +381,9 @@ language = "巴布亞皮欽語"
 [[ken]]
 definition = "可以、能夠"
 language = "英語"
+
+[[kepa]]
+language = "先創"
 
 [[kepeken]]
 definition = "使用"
@@ -563,6 +569,18 @@ language = "阿卡迪亞法語"
 [[lajotu]]
 language = "加拿大原住民音節文字"
 
+[[lan]]
+definition = "現存的、存在的、真實的、真的；（前置詞）位於、在、在……的語境內"
+language = "道本語"
+
+[[lan]]
+definition = "（數詞）一；單個；結合、連接、混合、聚合"
+language = "道本語"
+
+[[lan]]
+definition = "人、人類、某人"
+language = "道本語"
+
 [[lanpan]]
 definition = "取走、拿走、奪走、接收"
 language = "希臘語"
@@ -706,6 +724,14 @@ language = "巴布亞皮欽語"
 [[lon]]
 definition = "沿著"
 language = "英語"
+
+[[lonsi]]
+definition = "現存的、存在的、真實的、真的；（前置詞）位於、在、在……的語境內"
+language = "道本語"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "道本語"
 
 [[lu]]
 language = "先創"
@@ -1514,6 +1540,10 @@ language = "巴布亞皮欽語"
 
 [[taso]]
 definition = "僅此而已"
+language = "英語"
+
+[[tasun]]
+definition = "dachshund"
 language = "英語"
 
 [[tawa]]

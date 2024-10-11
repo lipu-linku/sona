@@ -209,6 +209,9 @@ language = "他加祿語"
 definition = "hit or miss"
 language = "英文"
 
+[[ja]]
+language = "a priori"
+
 [[jaki]]
 definition = "yucky"
 language = "英文"
@@ -378,6 +381,9 @@ language = "巴布亞皮欽語"
 [[ken]]
 definition = "好、可以"
 language = "英文"
+
+[[kepa]]
+language = "a priori"
 
 [[kepeken]]
 definition = "去用"
@@ -563,6 +569,18 @@ language = "阿卡迪亞法語"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lan]]
+definition = "unique, united; one"
+language = "toki pona"
+
+[[lan]]
+definition = "human being, person, somebody"
+language = "toki pona"
+
 [[lanpan]]
 definition = "擔、拿牢、捉牢、收着"
 language = "希臘語"
@@ -706,6 +724,14 @@ language = "巴布亞皮欽語"
 [[lon]]
 definition = "沿、靠牢"
 language = "英文"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "a priori"
@@ -1514,6 +1540,10 @@ language = "巴布亞皮欽語"
 
 [[taso]]
 definition = "就箇然"
+language = "英文"
+
+[[tasun]]
+definition = "dachshund"
 language = "英文"
 
 [[tawa]]
