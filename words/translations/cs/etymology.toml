@@ -209,6 +209,9 @@ language = "Tagalština"
 definition = "hit or miss"
 language = "Angličtina"
 
+[[ja]]
+language = "a priori"
+
 [[jaki]]
 definition = "fuj"
 language = "Angličtina"
@@ -378,6 +381,9 @@ language = "Tok Pisin"
 [[ken]]
 definition = "can"
 language = "Angličtina"
+
+[[kepa]]
+language = "a priori"
 
 [[kepeken]]
 definition = "použít"
@@ -563,6 +569,18 @@ language = "Akadská francouzština"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "přítomnost, existence, skutečnost, pravda; (předložka) nácházející se u, v, během, v kontextu"
+language = "toki pona"
+
+[[lan]]
+definition = "(číslovka) jedna; jediný; sjednotit, kombinovat, spojit, zamíchat"
+language = "toki pona"
+
+[[lan]]
+definition = "člověk, osoba, někdo"
+language = "toki pona"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "Řečtina"
@@ -706,6 +724,14 @@ language = "Tok Pisin"
 [[lon]]
 definition = "along"
 language = "Angličtina"
+
+[[lonsi]]
+definition = "přítomnost, existence, skutečnost, pravda; (předložka) nácházející se u, v, během, v kontextu"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "a priori"
@@ -1514,6 +1540,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "to je vše"
+language = "Angličtina"
+
+[[tasun]]
+definition = "dachshund"
 language = "Angličtina"
 
 [[tawa]]
