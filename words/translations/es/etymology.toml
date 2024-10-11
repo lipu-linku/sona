@@ -209,6 +209,9 @@ language = "tagalo"
 definition = "hit or miss"
 language = "inglés"
 
+[[ja]]
+language = "a priori"
+
 [[jaki]]
 definition = "yucky"
 language = "inglés"
@@ -378,6 +381,9 @@ language = "tok pisin"
 [[ken]]
 definition = "can"
 language = "inglés"
+
+[[kepa]]
+language = "a priori"
 
 [[kepeken]]
 definition = "to use"
@@ -563,6 +569,18 @@ language = "francés acadiano"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lan]]
+definition = "único, unido; uno; unir"
+language = "toki pona"
+
+[[lan]]
+definition = "ser humano, persona, alguien"
+language = "toki pona"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "griego"
@@ -706,6 +724,14 @@ language = "tok pisin"
 [[lon]]
 definition = "along"
 language = "inglés"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "toki pona"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "toki pona"
 
 [[lu]]
 language = "a priori"
@@ -1514,6 +1540,10 @@ language = "tok pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "inglés"
+
+[[tasun]]
+definition = "dachshund"
 language = "inglés"
 
 [[tawa]]
