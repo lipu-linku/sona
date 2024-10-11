@@ -209,6 +209,9 @@ language = "Tagalog"
 definition = "hit or miss"
 language = "англійська"
 
+[[ja]]
+language = "апріорі"
+
 [[jaki]]
 definition = "yucky"
 language = "англійська"
@@ -378,6 +381,9 @@ language = "Tok Pisin"
 [[ken]]
 definition = "can"
 language = "англійська"
+
+[[kepa]]
+language = "апріорі"
 
 [[kepeken]]
 definition = "to use"
@@ -563,6 +569,18 @@ language = "канадська французька"
 [[lajotu]]
 language = "Canadian Syllabics"
 
+[[lan]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "токі пона"
+
+[[lan]]
+definition = "(number) one; singular; combine, join, mix, fuse"
+language = "токі пона"
+
+[[lan]]
+definition = "людина, людність, гуманність"
+language = "токі пона"
+
 [[lanpan]]
 definition = "take, seize, grasp, receive"
 language = "Greek"
@@ -706,6 +724,14 @@ language = "Tok Pisin"
 [[lon]]
 definition = "along"
 language = "англійська"
+
+[[lonsi]]
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+language = "токі пона"
+
+[[lonsi]]
+definition = "nonbinary, gender nonconforming, genderqueer, transgender"
+language = "токі пона"
 
 [[lu]]
 language = "апріорі"
@@ -1514,6 +1540,10 @@ language = "Tok Pisin"
 
 [[taso]]
 definition = "that’s all"
+language = "англійська"
+
+[[tasun]]
+definition = "dachshund"
 language = "англійська"
 
 [[tawa]]
