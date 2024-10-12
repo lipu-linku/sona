@@ -522,3 +522,6 @@ direction = "rtl"
 
 [fa.name]
 en = "Persian"
+endonym = "فارسی"
+locale = "fa-IR"
+direction = "rtl"
