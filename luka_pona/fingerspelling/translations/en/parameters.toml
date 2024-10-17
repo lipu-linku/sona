@@ -115,7 +115,7 @@ placement = "touch the pinkie finger"
 
 [W-1]
 handshape = "2"
-movement = "verticle circle movement"
+movement = "vertical circle movement"
 orientation = "palm outwards"
 
 [W-2]
