@@ -1,0 +1,16 @@
+#:schema ../../api/generated/font.json
+id = "FauxSP"
+creator = ["neverRare / ko Koko"]
+features = []
+filename = "FauxSP.otf"
+last_updated = "2024-10"
+license = "all rights reserved"
+ligatures = false
+name = "FauxSP"
+style = "handdrawn"
+ucsur = false
+version = "1.000"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://cdn.discordapp.com/attachments/1023067654271029329/1296716144564109342/FauxSP.otf?ex=67134c84&is=6711fb04&hm=41cafc1f59f3d7dab8e2dc9acfc2a4d10eae2cca66cbcb159b3b58fe9ed769ec&"
