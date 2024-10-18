@@ -41,7 +41,7 @@ nimi ante li ken toki e wile toki pi nimi enko
 la ona li suli ala"\
 """
 epiku = ""
-epikule = "Also known as kulepiku. Basically just a compound glyph that happened to be listed as a word."
+epikule = "Také známý jako kulepiku. V podstatě jenom složený glyf, který byl náhodou uveden jako slovo."
 esun = 'Podle jan Sonja "esun [jí] řekl řidič taxi, který mluvil jazykem z akanské rodiny v západní Africe.'
 ete = ""
 ewe = ""
@@ -58,6 +58,7 @@ ipi = '"ipi" was proposed as a replacement for "iki" in a poll in 2002. However,
 iseki = 'Intended as an alt for namako that removes the "additional, extra" definition. used to emphasize that these details are core to something, and not superfluous.'
 isipin = ""
 itomi = 'Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where "hit or miss" was a prominent lyric. Sources disagree on who coined the word.'
+ja = "Can also be combined with lo to mark modified or compound prepositions, marking the end of a preposition marked by lo and the start of the prepositional object."
 jaki = ""
 jaku = ""
 jalan = 'In a poll in 2002, "jalan" was proposed as a replacement for "noka". However, "jalan" failed to get enough votes.'
@@ -91,6 +92,7 @@ kasan = ""
 kasi = ""
 ke = ""
 ken = ""
+kepa = 'Semantically, "kepa" describes a group or the state of a group rather than the state of one thing in a group.'
 kepeken = 'Jestli by "kepeken" mělo být používáno s nebo bez "e" v přísudkové pozici (znamenajíc "používat") zůstává kontroverzní.'
 kepen = "Coined as a shortened version of kepeken by jan Tomen in 2017. Did not see significant use until 2020."
 kese = ""
@@ -131,6 +133,7 @@ kute = ""
 kutopoma = "Prakticky neznámé mimo korejskou toki pona komunitu."
 la = ""
 lajotu = ""
+lan = "Intended as a replacement for 'jan' in mixed-headnoun groups, or when the headnoun of the person being referred to is unknown."
 lanpan = ""
 lapan = ""
 lape = ""
@@ -155,6 +158,7 @@ loka = "Coined in response to jan Sonja's survey, as a portmanteau, presumably a
 lokon = ""
 loku = ""
 lon = ""
+lonsi = 'Used commonly in ma pona pi toki pona for much of late 2023; no set meaning other than the phrase "lonsi li lonsi".'
 lu = ""
 luka = ""
 lukin = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning. A very common beginner mistake is treating \"lukin\" as if it means \"appearance\", due to the mistakenly equating the \"visual\" meaning as in \"pona lukin (visually good)\" to mean \"looks good\"."
@@ -267,7 +271,7 @@ puwa = ""
 saja = ""
 salu = "💭 Intended as an experiment in its current form, and is not meant for widespread use at this time. Meant to be used alongside a nasin that does not use either ike or pona to express value judgements (especially morality). These words are often used in a way that ignores the reasoning behind the judgement. The goal of this experimental nasin is to promote mindfulness about value itself, translating mere reaction into introspection and explanation. ⚠️ Because of the stated attachment to this particular nasin pi toki pona, it should be noted that using salu and pona/ike as good/bad at the same time goes against the point of the word's creation, and that salu is redundant in this circumstance. If you are using one, you should not use the other."
 sama = ""
-samu = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
+samu = "Vytvořeno jako odkaz k jan Samu, uživateli Facebooku, který se pokusil navrhnout nové slovo."
 san = """
 Populárnější než synonymní (a starší) tuli.
 san bylo také součástí deseti slov číslovek, které vytvořil/a jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 až 9). Všechna tato slova kromě san nejsou dostatečně používané, aby byli v našem slovníku."""
@@ -281,9 +285,9 @@ sewi = ""
 sijelo = ""
 sikako = 'sikeko is a common misspelling from tokiponists who believe "sikako" derives from "sike ko".'
 sike = ""
-sikomo = "Coined in reference to the Travis Scott song ‘Sicko Mode’."
+sikomo = "Vytvořeno jako odkaz k písničce ‘Sicko Mode’ od Travise Scotta."
 silapa = """
-Customarily written on multiple lines with a long "neck" composed of the letter "i" (originally the first "a"), like so:
+Obvykle psáno přes několik řádků s dlouhým "krkem" tvořeným písmenem "i" (původně prvním "a") takhle:
 si
  i
  ilapa"""
@@ -316,6 +320,7 @@ taki = ""
 tan = ""
 tankala = ""
 taso = 'Some proficient speakers use taso as a connector between sentences (X taso Y), similar to "X, but Y," as though taso behaved like la grammatically.'
+tasun = "Coined as a challenge to font creators. The sitelen pona glyph can be extended horizontally. This is usually represented in Latin characters by additional a's, e.g. \"taaasun\"."
 tawa = ""
 te = 'May be paired with "to", or used on its own. It is unclear how accepted either approach is among te / to users.'
 teje = ""
@@ -339,7 +344,7 @@ u = ""
 umesu = "Created for the game Acrophobia (musi Ako) in response to the fact that there are few words starting with 'u' in Toki Pona."
 unpa = 'Také definováno jako "mít manželský vztah s" v pu; odstraněno kvůli možnému zmatku.'
 unu = ""
-usawi = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
+usawi = 'Původně, usawi také zahrnovalo "technologie tak složitá, že ji je nemožné rozlišit od magie" ve svém významu, ale tento význam byl označenen jeho tvůrcem za zastaralý.'
 uta = 'Tečka v sitelen pona slova "uta" je k rozeznání luka-uta od moku.'
 utala = ""
 wa = 'Občas analyzováno jako varianta slova "a".'

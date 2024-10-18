@@ -506,6 +506,8 @@ direction = "ltr"
 
 [yue.name]
 en = "Cantonese"
+endonym = "粤语"
+tok = "toki Kontonwa"
 
 [th]
 id = "th"
@@ -514,6 +516,7 @@ direction = "ltr"
 
 [th.name]
 en = "Thai"
+endonym = "ภาษาไทย"
 
 [fa]
 id = "fa"
@@ -522,3 +525,5 @@ direction = "rtl"
 
 [fa.name]
 en = "Persian"
+endonym = "فارسی"
+tok = "toki Pasi"
