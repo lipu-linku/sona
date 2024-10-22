@@ -23,6 +23,6 @@ word = "wan"
 word = "jan"
 
 [representations]
-ligatures = ["lan1", "lan2"]
+ligatures = ["lan", "lan2"]
 
 [usage]
