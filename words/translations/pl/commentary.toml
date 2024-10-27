@@ -72,6 +72,7 @@ jonke = "Nawiązuje do fandomu gry Untitled Goose Game."
 ju = ""
 jule = ""
 jume = "Eksperymentalne; zamierzono sprawdzić, jak można rozszerzyć znaczenie, ale nigdy tego słowa nie użyto właściwie. Nie ustalono zestawu znaczeń przed końcem eksperymentu, ale osobie autorskiej szczególnie podobało się możliwe znaczenie „fantazja” czy „nierealność” bez negatywnej konotacji."
+juna = ""
 ka = ""
 kajo = ""
 kala = ""
@@ -274,8 +275,8 @@ salu = "💭 Intended as an experiment in its current form, and is not meant for
 sama = ""
 samu = "Nawiązuje do jan Samu, użytkownika Facebooka, który próbował zaproponować nowe słowo."
 san = """
-Bardziej popularne niż (starszy) synonim „tuli”.
-„san” było też częścią zestawu 10 słów dla cyfer stworzonych przez jan Lenoka: „lenke”, „jatu”, „ini”, „san”, „se”, „nun”, „loku”, „take”, „patu”, „kajo” (0 do 9). Wszystkie te słowa poza „san” nie są dość istotne dla uwzględnienia w słowniku."""
+More popular than the synonymous (and older) tuli.
+san was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the main dictionary. They can be found in the sandbox."""
 sapelipope = ""
 se = ""
 se1 = ""
@@ -334,7 +335,7 @@ tokana = ""
 toki = ""
 toma = "Literówka popełniona przez jan Sonja podczas pisania ku. Praktycznie całość społeczności nie traktuje jej jako nowego słowa."
 tomo = ""
-tona = ""
+tona = 'This word was only coined to make the spoonerism "poki tona" have a meaning.'
 tonsi = 'Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright.'
 towoki = ""
 tu = ""
