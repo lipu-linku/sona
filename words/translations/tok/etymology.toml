@@ -50,7 +50,7 @@ language = "toki pona"
 
 [[an]]
 definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
-language = "Chinese"
+language = "toki Sonko"
 
 [[anpa]]
 definition = "below"
@@ -135,7 +135,7 @@ language = "toki Tuki"
 
 [[ete]]
 definition = "outside"
-language = "toki Kuwenja"
+language = "toki Etalin"
 
 [[ewe]]
 definition = "rock, boulder"
@@ -279,6 +279,10 @@ language = "toki Nijon"
 definition = "jan li lukin e ni lon lape."
 language = "toki Nijon"
 
+[[juna]]
+definition = "train (railroad vehicle)"
+language = "toki Somi"
+
 [[ka]]
 definition = "coming"
 language = "toki pona"
@@ -304,7 +308,7 @@ definition = "noise (of the human voice)"
 language = "toki Sopolowasi"
 
 [[kalapisituji]]
-language = "Belgian French"
+language = "toki Kanse pi ma Pesije"
 
 [[kalijopilale]]
 definition = "Caryophyllales"
@@ -449,7 +453,7 @@ language = "toki Kantun"
 language = "toki Kanse"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "sina toki tawa jan pi toki Epelanto lon toki Epelanto ala la sina krokodilas"
 language = "toki Epelanto"
 
 [[kokosila]]
@@ -523,7 +527,7 @@ definition = "blue, green"
 language = "toki pona"
 
 [[kule]]
-definition = "color"
+definition = "kule"
 language = "toki Kanse pi ma Akasi"
 
 [[kulijo]]
@@ -777,23 +781,23 @@ definition = "earth, land"
 language = "toki Somi"
 
 [[majuna]]
-definition = "old (not young)"
+definition = 'majuna (jasima pi nimi "sin")'
 language = "toki Epelanto"
 
 [[majuna]]
-definition = "bad"
+definition = "ike"
 language = "toki Lasina"
 
 [[majuna]]
-definition = "young"
+definition = "sin"
 language = "toki Tosi"
 
 [[majuna]]
-definition = "young"
+definition = "sin"
 language = "toki Kanse"
 
 [[mama]]
-definition = "father"
+definition = "mama mije"
 language = "toki Katelo"
 
 [[mani]]
@@ -832,7 +836,7 @@ definition = "pretty"
 language = "toki Sinata Tuna"
 
 [[meli]]
-definition = "Mary"
+definition = "jan Meli"
 language = "toki Inli"
 
 [[melome]]
@@ -1681,11 +1685,11 @@ language = "toki Inli"
 
 [[waleja]]
 definition = "of moment, important"
-language = "toki Kuwenja"
+language = "toki Etalin"
 
 [[waleja]]
 definition = "worth, worthy, dear"
-language = "toki Kuwenja"
+language = "toki Etalin"
 
 [[walo]]
 definition = "white"
