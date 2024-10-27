@@ -11,9 +11,7 @@ source_language = "Finnish"
 usage_category = "sandbox"
 word = "juna"
 deprecated = false
-
-[[audio]]
-
+audio = []
 
 [[etymology]]
 word = "juna"
@@ -22,3 +20,5 @@ word = "juna"
 ligatures = []  # requested for ssk as "juna"
 
 [usage]
+
+[resources]
