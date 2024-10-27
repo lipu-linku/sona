@@ -72,6 +72,7 @@ jonke = "Esta palavra foi criada em referência à fandom do jogo Untitled Goose
 ju = ""
 jule = ""
 jume = 'Experimental, to see how the meaning could be expanded, but never actually used. No set of meanings was ever settled on before stopping the experiment, but one potential meaning the creator particularly liked was "fantasy" or "unreality", without a negative connotation.'
+juna = ""
 ka = ""
 kajo = ""
 kala = ""
@@ -270,7 +271,9 @@ saja = ""
 salu = "💭 Intended as an experiment in its current form, and is not meant for widespread use at this time. Meant to be used alongside a nasin that does not use either ike or pona to express value judgements (especially morality). These words are often used in a way that ignores the reasoning behind the judgement. The goal of this experimental nasin is to promote mindfulness about value itself, translating mere reaction into introspection and explanation. ⚠️ Because of the stated attachment to this particular nasin pi toki pona, it should be noted that using salu and pona/ike as good/bad at the same time goes against the point of the word's creation, and that salu is redundant in this circumstance. If you are using one, you should not use the other."
 sama = ""
 samu = "Criado em referência a jan Samu, um usuário do Facebook que tentou propor uma nova palavra."
-san = 'Mais popular do que o sinônimo (mais antigo) "tuli". "san" também faz parte do conjunto de numerais criado por jan Lenoka: "lenke, jatu, ini, san, se, nun, loku, take, patu, kajo" (zero até nove). Todas essas palavras exceto "san" não são notáveis para ser incluídas no dicionário.'
+san = """
+More popular than the synonymous (and older) tuli.
+san was also part of a set of 10 digit words created by jan Lenoka: lenke, jatu, ini, san, se, nun, loku, take, patu, kajo (0 through 9). All of these coinages except for san lack notability to be included in the main dictionary. They can be found in the sandbox."""
 sapelipope = ""
 se = ""
 se1 = ""
@@ -329,7 +332,7 @@ tokana = ""
 toki = ""
 toma = "O erro de digitação foi feito por jan Sonja ao escrever o ku. A maioria da comunidade não a considera uma palavra recém-criada."
 tomo = ""
-tona = ""
+tona = 'This word was only coined to make the spoonerism "poki tona" have a meaning.'
 tonsi = 'Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright.'
 towoki = ""
 tu = ""
