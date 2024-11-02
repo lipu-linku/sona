@@ -289,6 +289,14 @@ language = "Finnish"
 definition = "coming"
 language = "toki pona"
 
+[[ka2]]
+definition = "being, person, creature, alive"
+language = "tuki tiki"
+
+[[ka2]]
+definition = "human being, person, somebody"
+language = "toki pona"
+
 [[kajo]]
 definition = "9"
 language = "Cantonese"
@@ -1017,6 +1025,10 @@ language = "English"
 definition = "5"
 language = "Cantonese"
 
+[[nusun]]
+definition = "astrology, fortune-telling, predicting the future; fortune-teller, oracle; star"
+language = "Malay"
+
 [[nuwa]]
 definition = "newer"
 language = "English"
@@ -1443,6 +1455,14 @@ language = "toki pona"
 [[slape]]
 definition = "sleep"
 language = "English"
+
+[[snoweli]]
+definition = "snowman"
+language = "English"
+
+[[snoweli]]
+definition = "fuzzy creature, land animal, beast"
+language = "toki pona"
 
 [[soko]]
 definition = "mushroom"
