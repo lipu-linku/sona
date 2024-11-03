@@ -1,0 +1,27 @@
+#:schema ../../api/generated/word.json
+id = "lu1"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["Theepicosity", "akesi kon Nalasuni"]
+see_also = ["lo", "ja"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "lu"
+deprecated = false
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lu.mp3"
+
+[[etymology]]
+word = "alu"
+
+[representations]
+ligatures = ["lo"]
+
+[isage]
+
+[resources]
