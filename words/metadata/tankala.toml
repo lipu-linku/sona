@@ -6,8 +6,8 @@ book = "none"
 coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Sonja"]
-see_also = []
-source_language = ""
+see_also = ["tenkala"]
+source_language = "Malay"
 usage_category = "sandbox"
 word = "tankala"
 deprecated = false
@@ -24,3 +24,4 @@ ligatures = []
 2023-09 = 1
 
 [resources]
+sona_pona = "https://sona.pona.la/wiki/tankala"
