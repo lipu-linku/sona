@@ -21,8 +21,8 @@ importers:
         specifier: ^4.3.0
         version: 4.6.5
       p-lazy:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^5.0.0
+        version: 5.0.0
       zod:
         specifier: ^3.23.6
         version: 3.23.8
@@ -805,9 +805,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  p-lazy@4.0.0:
-    resolution: {integrity: sha512-8lIogVWwqBkiBy4FpylVHLalB9dZ25B2zBdY4OGGknDPWB7ehf2jyxmbh8z3MZsfbERLNU266h9Yx3cxHn3lFg==}
-    engines: {node: '>=12'}
+  p-lazy@5.0.0:
+    resolution: {integrity: sha512-C4xW5/wLGqswBx1xgu/t7fBaHMDKm7SXycgc0MEQvQ5KwzjT1E4MmE9cg0RXn9d0MTgUGJLUCb2EkLBevXi6eA==}
+    engines: {node: '>=18'}
 
   path-browserify@1.0.1:
     resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
@@ -1660,7 +1660,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  p-lazy@4.0.0: {}
+  p-lazy@5.0.0: {}
 
   path-browserify@1.0.1: {}
 
