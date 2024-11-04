@@ -18,7 +18,7 @@ deprecated = false
 word = "poggies"
 
 [representations]
-ligatures = [] # requested for ssk as pokasi
+ligatures = [] # in some sitelen pona fonts (requested for ssk) as pokasi
 
 [usage]
 
