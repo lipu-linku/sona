@@ -20,7 +20,7 @@ word = "ka"
 word = "jan"
 
 [representations]
-ligatures = ["lan2"]
+ligatures = ["lan2"] # requested for ssk as ka
 
 [usage]
 
