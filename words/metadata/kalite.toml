@@ -1,0 +1,21 @@
+id = "kalite"
+author_verbatim = """
+kalite – ~nimisin~ kind, type, class, category, quality 🏷️
+    ← @qazw thought it was a nimisin ← toki ma kalite kind, type, class, category, quality ← Haitian Creole kalite 'kind'"""
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/834035843466264646"
+book = ""
+coined_era = "post-pu"
+coined_year = "2020 or 2021"
+creator = ["qazw"]
+see_also = ["kule", "lukin", "pilin"]
+source_language = "toki ma"
+usage_category = "obscure"
+word = "kalite"
+deprecated = false
+
+[[etymology]]
+word = "kalite"
+
+[representations]
+ligatures = ["kalite"]
+sitelen_emosi = "🏷️"
