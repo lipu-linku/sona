@@ -20,6 +20,6 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/wasokeli/sp-font-maker/raw/main/sitelen%20luka%20tan%20jan%20Iwi.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20luka%20tan%20jan%20Iwi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
 webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-luka-tan-jan-Iwi.html"
