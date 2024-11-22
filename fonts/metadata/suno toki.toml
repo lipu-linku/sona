@@ -9,7 +9,7 @@ features = [
   "long pi"
 ]
 filename = "suno-toki.otf"
-last_updated = "2024-09"
+last_updated = "2024-11"
 license = "OFL"
 ligatures = true
 name = "suno toki"
