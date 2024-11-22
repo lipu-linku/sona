@@ -5,7 +5,8 @@ features = [
   "ASCII transcription",
   "cartouches",
   "color font",
-  "auto-cartouching"
+  "auto-cartouching",
+  "long pi"
 ]
 filename = "suno-toki.otf"
 last_updated = "2024-09"
@@ -14,7 +15,7 @@ ligatures = true
 name = "suno toki"
 style = "handwritten"
 ucsur = true
-version = "1.2"
+version = "2.1"
 writing_system = "sitelen pona"
 
 [links]
