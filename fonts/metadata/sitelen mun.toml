@@ -1,0 +1,20 @@
+#:schema ../../api/generated/font.json
+id = "sitelen mun"
+creator = ["jan Majeka"]
+features = [
+  "codepoints",
+  "supports cartouches",
+  "latin ligatures",
+  "supports ku suli and a few more",
+]
+filename = "sitelen-Mun"
+last_updated = "2024-11"
+license = "CC BY SA"
+name = "sitelen mun"
+style = "handwritten"
+version = "1.0.0"
+writing_system = "sitelen mun"
+
+[links]
+fontfile = "https://github.com/yan-Mayeka/sitelen-mun/raw/main/sitelen-Mun.otf"
+repo = "https://github.com/yan-Mayeka/sitelen-mun/tree/main"
