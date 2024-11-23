@@ -1,0 +1,17 @@
+#:schema ../../api/generated/font.json
+id = "sitelen suwi pi ijo vivi"
+creator = ["ijo vivi"]
+features = ["ASCII transcription", "UCSUR transcription"]
+filename = "sitelen-suwi-pi-ijo-vivi.ttf"
+last_updated = "2024-10"
+license = "CC0-1.0"
+ligatures = true
+name = "sitelen suwi pi ijo vivi"
+style = "handwritten"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+fontfile = "https://git.gay/vivi/sitelen-suwi-pi-ijo-vivi/raw/branch/main/sitelen-suwi-pi-ijo-vivi.ttf"
+repo = "https://git.gay/vivi/sitelen-suwi-pi-ijo-vivi/"
