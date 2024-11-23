@@ -2,7 +2,7 @@
 id = "sitelen mun"
 creator = ["jan Majeka"]
 features = [
-  "ucsur"
+  "ucsur",
   "codepoints",
   "supports cartouches",
   "ligatures",
