@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id        = "linja open tan waso Keli"
-name      = "linja open tan waso Keli"
-filename  = "linja open tan waso Keli.ttf"
-creator   = ["waso Keli"]
+id        = "sitelen sowepipi"
+name      = "sitelen sowepipi"
+filename  = "sitelen sowepipi.ttf"
+creator   = ["soweli Selupu"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
@@ -21,6 +21,6 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja%20open%20tan%20waso%20Keli.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20sowepipi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/linja-open-tan-waso-Keli.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-sowepipi.html"

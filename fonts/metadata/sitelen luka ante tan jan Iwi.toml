@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id        = "linja open tan waso Keli"
-name      = "linja open tan waso Keli"
-filename  = "linja open tan waso Keli.ttf"
-creator   = ["waso Keli"]
+id        = "sitelen luka ante tan jan Iwi"
+name      = "sitelen luka ante tan jan Iwi"
+filename  = "sitelen luka ante tan jan Iwi.ttf"
+creator   = ["jan Iwi"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
@@ -15,12 +15,11 @@ features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
-  "name glyphs",
 ]
 
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja%20open%20tan%20waso%20Keli.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20luka%20ante%20tan%20jan%20Iwi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/linja-open-tan-waso-Keli.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-luka-ante-tan-jan-Iwi.html"
