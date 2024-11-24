@@ -15,6 +15,7 @@ features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
+  "character variants",
 ]
 
 style = "handwritten"
