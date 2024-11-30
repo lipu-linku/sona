@@ -16,6 +16,7 @@ features = [
   "UCSUR-compliant",
   "cartouches",
   "character variants",
+  "all ku suli",
 ]
 
 style = "handwritten"
