@@ -1,6 +1,8 @@
-Pingo = "car"
-a = "(interjection) ah, oh, ha, eh, um, oy; (particle) [placed after something for emphasis or emotion]"
-aka = "cross-like shape, intersection, overlap [alternative form of natu]"
+Pingo = "kotse"
+a = """
+(pandama) ah, oh, ha, eh, hm, hoy; [inilalagay sa dulo sa paghahayag ng diin o emosyon]
+"""
+aka = 'hugis-krus, interseksiyon, pagkapatong [alternatibong porma ng "natu"]'
 akesi = "reptile, amphibian, scaly creature, crawling creature"
 ako = "(interjection) [general interjection, context-dependent]"
 aku = "shocking, surprising, unexpected; sour, bitter, acidic"
@@ -23,7 +25,7 @@ apoko = 'the 💀 emoji; a Toki Pona adaptation of the meme "I forgor"'
 awase = "bump, knock, jolt"
 awen = "stay, remain, wait, pause; protect, keep safe; continue; (preverb) continue to"
 e = "(particle) [marks the start of a direct object]"
-eki = "cross-like shape, intersection, overlap [alternative form of natu]"
+eki = 'hugis-krus, interseksiyon, pagkapatong [alternatibong porma ng "natu"]'
 eliki = "trial, adversity; bittersweet; an experience with the quality of being deeply felt or important to oneself while defying classification as positive, negative, or a simply described admixture of positive and negative"
 en = "(particle) [separates multiple subjects]"
 enepi = "NFT, scam"
