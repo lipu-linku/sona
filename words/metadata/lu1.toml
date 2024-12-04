@@ -1,20 +1,20 @@
 #:schema ../../api/generated/word.json
-id = "lo"
+id = "lu1"
 author_verbatim = ""
 author_verbatim_source = ""
 book = "none"
 coined_era = "post-pu"
 coined_year = "2020"
 creator = ["Theepicosity", "akesi kon Nalasuni"]
-see_also = ["lu1", "ja"]
+see_also = ["lo", "ja"]
 source_language = "toki pona"
 usage_category = "sandbox"
-word = "lo"
+word = "lu"
 deprecated = false
 
 [[audio]]
 author = "kala Asi"
-link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lo.mp3"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lu.mp3"
 
 [[etymology]]
 word = "alu"
@@ -23,9 +23,5 @@ word = "alu"
 ligatures = ["lo"]
 
 [usage]
-2021-10 = 20
-2022-08 = 0
-2023-09 = 1
-2024-09 = 1
 
 [resources]
