@@ -1,0 +1,27 @@
+#:schema ../../api/generated/font.json
+id        = "loje meli"
+name      = "loje meli"
+filename  = "loje meli.ttf"
+creator   = ["meli Siliwa"]
+license   = "OFL"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2024-12"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "name glyphs",
+  "character variants",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/loje%20meli.ttf"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/loje-meli.html"

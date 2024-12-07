@@ -1,0 +1,24 @@
+#:schema ../../api/generated/font.json
+id        = "kisa lili"
+name      = "kisa lili"
+filename  = "kisa lili.ttf"
+creator   = ["jan Mikki"]
+license   = "CC0-1.0"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2024-11"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+]
+
+style = "uniform line weight"
+
+[links]
+fontfile = "https://michealguy.neocities.org/kisa_lili.ttf"
+webpage  = "https://michealguy.neocities.org/kisa_lili/"
