@@ -17,7 +17,7 @@ audio = []
 word = "anu seme"
 
 [representations]
-ligatures = ["z`"]
+ligatures = ["me"]
 
 [usage]
 2022-08 = 0
