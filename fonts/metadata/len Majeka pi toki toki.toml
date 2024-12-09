@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
 id        = "len Majeka pi toki toki"
 name      = "len Majeka pi toki toki"
-filename  = "linja_Majeka_pi_toki_tokib4wKx.ttf"
+filename  = "linja_Majeka_pi_toki_tokib4wKx.oft"
 creator   = ["jan Majeka"]
 license   = "All rights reserved"
 ligatures = false
