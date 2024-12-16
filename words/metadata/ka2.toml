@@ -1,0 +1,28 @@
+#:schema ../../api/generated/word.json
+id = "ka2"
+author_verbatim = "ka means jan"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/730888126985142282"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["jan Tumu"]
+see_also = ["jan", "lan", "konwe"]
+source_language = "tuki tiki"
+usage_category = "sandbox"
+word = "ka"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "ka"
+
+[[etymology]]
+word = "jan"
+
+[representations]
+ligatures = ["lan2"] # requested for ssk as ka
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ka"
