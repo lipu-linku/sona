@@ -17,5 +17,5 @@ version = "2"
 writing_system = "logography"
 
 [links]
-fontfile = "https://github.com/RetSamys/tan-seme-A/raw/main/tan-seme-A.otf"
+fontfile = "https://github.com/RetSamys/tan-seme-A/raw/refs/heads/main/tan-seme-A.otf"
 repo = "https://github.com/RetSamys/tan-seme-A"
