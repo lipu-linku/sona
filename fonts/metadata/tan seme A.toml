@@ -4,7 +4,9 @@ creator = ["jan Ke Tami"]
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
-  "supports cartouches"
+  "supports cartouches",
+  "auto-cartouching",
+  "cartouche deconstruction"
 ]
 filename = "tan-seme-A.otf"
 last_updated = "2024-12"
