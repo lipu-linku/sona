@@ -4,18 +4,20 @@ creator = ["jan Ke Tami"]
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
-  "supports cartouches"
+  "supports cartouches",
+  "auto-cartouching",
+  "cartouche deconstruction"
 ]
 filename = "tan-seme-A.otf"
-last_updated = "2024-09"
+last_updated = "2024-12"
 license = "CC0"
 ligatures = true
 name = "tan seme A"
 style = "sans-serif"
 ucsur = true
-version = "1"
+version = "2"
 writing_system = "logography"
 
 [links]
-fontfile = "https://github.com/RetSamys/tan-seme-A/raw/main/tan-seme-A.otf"
+fontfile = "https://github.com/RetSamys/tan-seme-A/raw/refs/heads/main/tan-seme-A.otf"
 repo = "https://github.com/RetSamys/tan-seme-A"
