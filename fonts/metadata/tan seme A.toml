@@ -7,13 +7,13 @@ features = [
   "supports cartouches"
 ]
 filename = "tan-seme-A.otf"
-last_updated = "2024-09"
+last_updated = "2024-12"
 license = "CC0"
 ligatures = true
 name = "tan seme A"
 style = "sans-serif"
 ucsur = true
-version = "1"
+version = "2"
 writing_system = "logography"
 
 [links]
