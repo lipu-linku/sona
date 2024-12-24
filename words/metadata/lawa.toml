@@ -70,7 +70,7 @@ ruling = 75
 
 [pu_verbatim]
 de = "NOMEN Kopf, Geist (Verstand)\nVERB kontrollieren, führen, anleiten, besitzen, planen, regulieren, beherrschen"
-en = "NOUN head, mind VERB to control, direct, guide, lead, own, plan, regulate, rule"
+en = "NOUN head, mind\nVERB to control, direct, guide, lead, own, plan, regulate, rule"
 eo = "SUBSTANTIVO kapo, menso\nVERBO gvidi, direkti, estri, konduki, posedi, plani, reguligi, regi"
 fr = "NOM tête\nVERBE dominer, diriger, guider, mener, posséder, régler"
 
