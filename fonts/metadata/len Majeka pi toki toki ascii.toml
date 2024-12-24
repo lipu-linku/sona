@@ -1,0 +1,35 @@
+#:schema ../../api/generated/font.json
+id        = "len Majeka pi toki toki ascii"
+name      = "len Majeka pi toki toki ascii"
+filename  = "linja_Majeka_pi_toki_tokiB4_ligs.otf"
+creator   = ["jan Majeka"]
+license   = "CC-BY-ND 4.0"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2024-12"
+version      = "b004.020.069"
+
+features = [
+  "UCSUR-compliant",
+  "cartouches",
+  "name glyphs",
+  "character variants",
+  "all ku suli and more",
+  "long pi",
+  "randomized jaki",
+  "kerning",
+  "kulupu glyphs",
+  "community requested glyphs",
+  "Mkmk double stacking",
+  "Stacking and scaling combinations",
+  "Zero-width joiner combinations",
+  "ligatures",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/raw/refs/heads/main/linja_Majeka_pi_toki_tokiB4_ligs.otf"
+repo     = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/tree/main"
