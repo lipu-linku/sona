@@ -6,7 +6,7 @@ creator   = ["jan Majeka"]
 license   = "CC-BY-ND 4.0"
 ligatures = true
 ucsur     = true
-writing_system = "Tokiponido logography"
+writing_system = "tokiponido logography"
 
 last_updated = "2024-12"
 version      = "b004.020.069"
