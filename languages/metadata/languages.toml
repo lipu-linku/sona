@@ -527,3 +527,11 @@ direction = "rtl"
 en = "Persian"
 endonym = "فارسی"
 tok = "toki Pasi"
+
+[kbt]
+id = "kbt"
+locale = "kbt"
+direction = "ltr"
+
+[kbt.name]
+en = "kay(f)bop(t)"
