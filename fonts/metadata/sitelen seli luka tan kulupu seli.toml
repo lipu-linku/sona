@@ -16,7 +16,6 @@ features = [
   "UCSUR-compliant",
   "cartouches",
   "character variants",
-  "variable weight",
 ]
 
 style = "handwritten"
