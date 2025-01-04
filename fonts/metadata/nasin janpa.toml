@@ -1,0 +1,26 @@
+#:schema ../../api/generated/font.json
+id        = "nasin janpa"
+name      = "nasin janpa"
+filename  = "nasin janpa"
+creator   = ["jan Janpa Onjon"]
+license   = "OFL"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-01"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "all ku suli"
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/omga-dev/nasin-janpa/raw/refs/heads/main/nasin-janpa.ttf"
+repo     = "https://github.com/omga-dev/nasin-janpa"
+webpage  = "https://github.com/omga-dev/nasin-janpa"
