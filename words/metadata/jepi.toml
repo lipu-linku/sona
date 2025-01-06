@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "jepi"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2022"
+creator = ["multiple"]
+see_also = ["a", "jipi", "jupi", "je", "wa"]
+source_language = "English"
+usage_category = "sandbox"
+word = "jepi"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "yippee"
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
