@@ -14,13 +14,14 @@ version      = "1"
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
-  "cartouches",
-  "all ku suli"
+  "supports cartouches",
+  "all ku suli",
+  "Extendable pi, kepeken, lon, sama, tan, tawa"
 ]
 
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/omga-dev/nasin-janpa/raw/refs/heads/main/nasin-janpa.ttf"
+fontfile = "https://omga-dev.github.io/nasin-janpa/nasin-janpa.ttf"
 repo     = "https://github.com/omga-dev/nasin-janpa"
-webpage  = "https://github.com/omga-dev/nasin-janpa"
+webpage  = "https://omga-dev.github.io/nasin-janpa"
