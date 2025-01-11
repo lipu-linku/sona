@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
 id        = "nasin janpa"
 name      = "nasin janpa"
-filename  = "nasin janpa"
+filename  = "nasin-janpa.ttf"
 creator   = ["jan Janpa Onjon"]
 license   = "OFL"
 ligatures = true
