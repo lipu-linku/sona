@@ -1,28 +1,9 @@
-[[Pingo]]
-language = "olası, muhtemel"
-
 [[a]]
 language = "ses yankısı"
-
-[[aka]]
-definition = "geçmek, ilerlemek"
-language = "Mandarin"
-
-[[aka]]
-definition = "karşısında"
-language = "İngilizce"
 
 [[akesi]]
 definition = "kertenkele"
 language = "Flemenkçe"
-
-[[ako]]
-definition = "(ünlem) sürpriz"
-language = "Korece"
-
-[[aku]]
-definition = "ekşi"
-language = "Rumence"
 
 [[ala]]
 definition = "hayır"
@@ -36,37 +17,17 @@ language = "Akadyalı Fransızca"
 definition = "tümü"
 language = "Flemenkçe"
 
-[[alente]]
-definition = "geri kalan her şey"
-language = "toki pona"
-
 [[ali]]
 definition = "tümü"
 language = "Flemenkçe"
-
-[[alu]]
-definition = "(sonraki cümlenin bağlamını belirt)"
-language = "toki pona"
-
-[[an]]
-definition = "bir şeye atfedilen yer/şey, yuva; koridor, kap, ev; metin geçişi; 'yerleştirmek'/'uyum sağlamak'/alışkan olmak"
-language = "Çince"
 
 [[anpa]]
 definition = "aşağıda, altında"
 language = "Akadyalı Fransızca"
 
-[[anta]]
-definition = "yağ"
-language = "Okinawaca"
-
 [[ante]]
 definition = "diğer, başka, farklı"
 language = "Flemenkçe"
-
-[[antikontitutonelema]]
-definition = "anayasaya aykırı olarak"
-language = "Fransızca"
 
 [[anu]]
 definition = "veya, ya da"
@@ -76,21 +37,6 @@ language = "Gürcüce"
 definition = "utanç, rezalet, onursuzluk"
 language = "Fince"
 
-[[apelo]]
-definition = "apéritif (yemekten önce iştah açıcı olarak servis edilen alkollü içecek)"
-language = "Fransızca"
-
-[[api]]
-definition = "arı"
-language = "Latince"
-
-[[apoko]]
-language = "İngilizce"
-
-[[awase]]
-definition = "vurmak, çarpmak"
-language = "Ermenice"
-
 [[awen]]
 definition = "(belirli bir durumda) tutmak, bakımını yapmak, ilgilenmek"
 language = "Flemenkçe"
@@ -98,56 +44,17 @@ language = "Flemenkçe"
 [[e]]
 language = "olası, muhtemel"
 
-[[eki]]
-definition = "x (harf adı)"
-language = "İngilizce"
-
-[[eliki]]
-definition = "acı, sıkıntı"
-language = "Tsalagi"
-
 [[en]]
 definition = "ve"
 language = "Flemenkçe"
-
-[[enepi]]
-definition = "değiştirilemez token"
-language = "İngilizce"
-
-[[enko]]
-definition = "zaman, dönem, durum"
-language = "toki pona"
 
 [[epiku]]
 definition = "destansı"
 language = "Fransızca"
 
-[[epikule]]
-language = "toki pona"
-
 [[esun]]
 language = "Akan dili"
 definition = "markette"
-
-[[ete]]
-definition = "ötesinde, ileride, üzerinde"
-language = "Türkçe"
-
-[[ete]]
-definition = "dışarı"
-language = "Quenya"
-
-[[ewe]]
-definition = "taş, kaya"
-language = "Japonca"
-
-[[ewe]]
-definition = "kaya, taş, sert şey"
-language = "toki pona"
-
-[[i]]
-definition = "bilinmeyen"
-language = "bilinmeyen"
 
 [[ijo]]
 definition = "bir şey"
@@ -161,10 +68,6 @@ language = "Romance"
 definition = "kötü, kaba, şeytani"
 language = "Fince"
 
-[[iki]]
-definition = "(üçüncü tekil şahıs eril, dişil ve cinsiyetsiz zamirler)"
-language = "Gürcüce"
-
 [[ilo]]
 definition = "eşya"
 language = "Esperanto"
@@ -172,14 +75,6 @@ language = "Esperanto"
 [[ilo]]
 definition = "(temsilci eki)"
 language = "Almanca"
-
-[[ini]]
-definition = "2"
-language = "Kantonca"
-
-[[inisa]]
-definition = "Bilmiyorum"
-language = "Amharca"
 
 [[insa]]
 definition = "içeride, merkezde, midede"
@@ -189,44 +84,13 @@ language = "Toki Pisin"
 definition = "içeride"
 language = "İngilizce"
 
-[[inta]]
-definition = "hâlâ, henüz, hatta"
-language = "Portuguese"
-
-[[ipi]]
-definition = "bilinmeyen"
-language = "bilinmeyen"
-
-[[iseki]]
-definition = "çiçek, çiçek açmak"
-language = "Türkçe"
-
 [[isipin]]
 definition = "düşünmek"
 language = "Tagalogca"
 
-[[itomi]]
-definition = "isabetli veya isabetsiz"
-language = "İngilizce"
-
-[[ja]]
-language = "olası, muhtemel"
-
 [[jaki]]
 definition = "iğrenç"
 language = "İngilizce"
-
-[[jaku]]
-definition = "100"
-language = "Japonca"
-
-[[jalan]]
-definition = "ayakta"
-language = "Fince"
-
-[[jalan]]
-definition = "ayak"
-language = "Fince"
 
 [[jami]]
 definition = "leziz"
@@ -236,25 +100,9 @@ language = "İngilizce"
 definition = "kişi"
 language = "Kantonca"
 
-[[jans]]
-definition = "kişi, kişiler"
-language = "toki pona"
-
-[[jans]]
-definition = "(çoğul eki)"
-language = "İngilizce"
-
 [[jasima]]
 definition = "yansıtmak, yankılanmak"
 language = "Türkçe"
-
-[[jatu]]
-definition = "1"
-language = "Kantonca"
-
-[[je]]
-definition = "yaşasın"
-language = "İngilizce"
 
 [[jelo]]
 definition = "sarı"
@@ -268,51 +116,13 @@ language = "Mandarin"
 definition = "hjönk"
 language = "ses yankısı"
 
-[[ju]]
-language = "olası, muhtemel"
-
-[[jule]]
-definition = "sallamak, titreştirmek, sallanmak, dalgalanmak"
-language = "Japonca"
-
-[[jume]]
-definition = "rüya, düş"
-language = "Japonca"
-
-[[juna]]
-definition = "tren"
-language = "Fince"
-
-[[ka]]
-definition = "gelen"
-language = "toki pona"
-
-[[kajo]]
-definition = "9"
-language = "Kantonca"
-
 [[kala]]
 definition = "balık"
 language = "Fince"
 
-[[kalamARR]]
-definition = "ses çıkarmak; ses, gürültü, uğultu"
-language = "toki pona"
-
-[[kalamARR]]
-definition = "(korsan taklidi)"
-language = "İngilizce"
-
 [[kalama]]
 definition = "ses (insan sesi)"
 language = "Sırp-Hırvatça"
-
-[[kalapisituji]]
-language = "Belçika Fransızcası"
-
-[[kalijopilale]]
-definition = "Karyofilaller"
-language = "Latince"
 
 [[kama]]
 definition = "olay, varmak, gerçekleşmek, olmak, meydana getirmek, çağırmak"
@@ -322,38 +132,6 @@ language = "Toki Pisin"
 definition = "'hükümetsizliğe' dönüş, anarşinin başlangıcı"
 language = "toki pona"
 
-[[kan]]
-definition = "birlikte"
-language = "Fince"
-
-[[kan]]
-definition = "birlikte"
-language = "Esperanto"
-
-[[kan]]
-definition = "birlikte"
-language = "Latince"
-
-[[kana]]
-definition = "rüya, düş"
-language = "Tulu dili"
-
-[[kankuli]]
-definition = "tuhaf, dağınık veya dağınık bir şekilde sevimli"
-language = "İngilizce"
-
-[[kapa]]
-definition = "baş, fincan"
-language = "Flemenkçe"
-
-[[kapa]]
-definition = "baş, kafa"
-language = "Esperanto"
-
-[[kapa]]
-definition = "baş, kafa"
-language = "Latince"
-
 [[kapesi]]
 definition = "kahverengi"
 language = "Kantonca"
@@ -362,21 +140,9 @@ language = "Kantonca"
 definition = "kahverengi"
 language = "Mandarin"
 
-[[kasan]]
-definition = "fasulye, fındık, fıstık, baklagil"
-language = "Malaya dili"
-
 [[kasi]]
 definition = "bitki"
 language = "Fince"
-
-[[ke]]
-definition = "tamam"
-language = "İngilizce"
-
-[[ke]]
-definition = "tamam"
-language = "İngilizce"
 
 [[ken]]
 definition = "olabilmek, yapabilmek, edebilmek"
@@ -386,28 +152,9 @@ language = "Toki Pisin"
 definition = "olabilmek, yapabilmek, edebilmek"
 language = "İngilizce"
 
-[[kepa]]
-language = "olası, muhtemel"
-
 [[kepeken]]
 definition = "kullanmak"
 language = "Flemenkçe"
-
-[[kepen]]
-definition = "kullanmak, vasıtasıyla, ile"
-language = "toki pona"
-
-[[kese]]
-definition = "Yahudi LGBT örgütü Keshet'in adını almıştır"
-language = "İbranice"
-
-[[kewi]]
-definition = "itibar"
-language = "İngilizce"
-
-[[ki]]
-definition = "kim"
-language = "Fransızca"
 
 [[kijetesantakalu]]
 definition = "kinkajou"
@@ -415,15 +162,6 @@ language = "Fince"
 
 [[kiki]]
 language = "olası, muhtemel"
-
-[[kikolo]]
-language = "Fransızca"
-
-[[kikolo]]
-language = "Fransızca"
-
-[[kikulo]]
-language = "Fransızca"
 
 [[kili]]
 definition = "meyve"
@@ -437,10 +175,6 @@ language = "Fince"
 definition = "(geçişsiz) kesmek"
 language = "İnuitçe"
 
-[[kisa]]
-definition = "kedi"
-language = "Rusça"
-
 [[kiwen]]
 definition = "taş (genetik durum)"
 language = "Fince"
@@ -448,9 +182,6 @@ language = "Fince"
 [[ko]]
 definition = "krema, macun"
 language = "Kantonca"
-
-[[kokoliko]]
-language = "Fransızca"
 
 [[kokosila]]
 definition = "Esperanto'dan başka bir dilde Esperantistler arasında konuşmak"
@@ -460,45 +191,9 @@ language = "Esperanto"
 definition = "timsah"
 language = "Esperanto"
 
-[[kolin]]
-definition = "sulu yapışkan aşk"
-language = "toki pona"
-
-[[kolo]]
-definition = "domuz"
-language = "Swahili"
-
-[[kolo]]
-definition = "domuz"
-language = "Zulu dili"
-
-[[kolo]]
-definition = "domuz"
-language = "Kongo dili"
-
-[[kolo]]
-definition = "domuz"
-language = "Spanish"
-
-[[kolo]]
-definition = "hırıltı"
-language = "Japonca"
-
-[[kolo]]
-definition = "homurtu"
-language = "İngilizce"
-
 [[kon]]
 definition = "hava, atmosfer, ambiyans, görüş"
 language = "Mandarin"
-
-[[konsi]]
-definition = "duyuru, bildirim"
-language = "Korece"
-
-[[konsuno]]
-definition = 'İngilizce "gaslight" kelimesinin taklidi'
-language = "toki pona"
 
 [[konwe]]
 definition = "The Game of Life'ın yaratıcısı John Conway"
@@ -508,23 +203,8 @@ language = "İngilizce"
 definition = "kon wile"
 language = "toki pona"
 
-[[kosan]]
-definition = "savunmak, (bir şeye karşı) korumak"
-language = "İrlandaca"
-
-[[kosikosa]]
-language = "Fransızca"
-
 [[ku]]
 language = "olası, muhtemel"
-
-[[kulaso]]
-definition = "green"
-language = "İngilizce"
-
-[[kulaso]]
-definition = "mavi, yeşil"
-language = "toki pona"
 
 [[kule]]
 definition = "renk"
@@ -534,10 +214,6 @@ language = "Akadyalı Fransızca"
 definition = "harika"
 language = "İngilizce"
 
-[[kulu]]
-definition = "grup, topluluk, koleksiyon"
-language = "toki pona"
-
 [[kulupu]]
 definition = "grup"
 language = "Tongaca"
@@ -546,17 +222,9 @@ language = "Tongaca"
 definition = "grup"
 language = "İngilizce"
 
-[[kuntu]]
-definition = "'ağızdan çıkan eğlenceli ses', sesinizle şarkı söylemek"
-language = "toki pona"
-
 [[kute]]
 definition = "dinlemek"
 language = "Akadyalı Fransızca"
-
-[[kutopoma]]
-definition = "Kore'deki Toki Pona topluluğu"
-language = "toki pona"
 
 [[la]]
 definition = "(belirli tanım edatı)"
@@ -570,28 +238,9 @@ language = "Romance"
 definition = "(yakınlık ve konu eki)"
 language = "Akadyalı Fransızca"
 
-[[lajotu]]
-language = "Kanadaca Heceler"
-
-[[lan]]
-definition = "mevcut, gerçek, doğru; (edat) -da/-de, bağlamında, içinde, sırasında"
-language = "toki pona"
-
-[[lan]]
-definition = "(sayı) bir; tekil; birleştirmek, karıştırmak, kaynaştırmak"
-language = "toki pona"
-
-[[lan]]
-definition = "insan, şahıs, kimse"
-language = "toki pona"
-
 [[lanpan]]
 definition = "almak, ele geçirmek, kavramak, kabul etmek"
 language = "Yunanca"
-
-[[lapan]]
-definition = "süt"
-language = "Arapça"
 
 [[lape]]
 definition = "uyumak, uyku"
@@ -625,10 +274,6 @@ language = "Fince"
 definition = "kıyafet"
 language = "Akadyalı Fransızca"
 
-[[lenke]]
-definition = "0"
-language = "Kantonca"
-
 [[lete]]
 definition = "soğuk"
 language = "Akadyalı Fransızca"
@@ -653,14 +298,6 @@ language = "Toki Pisin"
 definition = "o"
 language = "İngilizce"
 
-[[lijokuku]]
-definition = "Kesinlikle!, aynen öyle"
-language = "Korece"
-
-[[likujo]]
-definition = "koleksiyon, topluluk, antoloji"
-language = "Akadyalı Fransızca"
-
 [[lili]]
 definition = "küçük, ufak"
 language = "Toki Pisin"
@@ -681,45 +318,13 @@ language = "Eski İsveççe"
 definition = "internet"
 language = "Galce"
 
-[[lipasa]]
-definition = "ıhlamur ağacı; (argo) sahtecilik, sahtecilik"
-language = "Rusça"
-
 [[lipu]]
 definition = "bayrak, pankart, bilet"
 language = "Fince"
 
-[[lisa]]
-definition = "tilki (akuzatif)"
-language = "Polish"
-
-[[lo]]
-definition = "(önceki bir cümlenin içeriğini belirtin)"
-language = "toki pona"
-
 [[loje]]
 definition = "kırmızı (çekimli)"
 language = "Flemenkçe"
-
-[[loka]]
-definition = "el, kol, kavrama uzantısı, dokunma uzantısı"
-language = "toki pona"
-
-[[loka]]
-definition = "ayak, bacak, kök, lokomotif uzantısı"
-language = "toki pona"
-
-[[lokon]]
-definition = "bakmak, görmek, göz; (ön fiil) denemek"
-language = "toki pona"
-
-[[lokon]]
-definition = "bakmak, görmek, göz; (ön fiil) denemek"
-language = "toki pona"
-
-[[loku]]
-definition = "6"
-language = "Kantonca"
 
 [[lon]]
 definition = "içinde, üzerinde, (uzaysal nesne)"
@@ -728,17 +333,6 @@ language = "Toki Pisin"
 [[lon]]
 definition = "birlikte"
 language = "İngilizce"
-
-[[lonsi]]
-definition = "mevcut, gerçek, doğru; (edat) -da/-de, bağlamında, içinde, sırasında"
-language = "toki pona"
-
-[[lonsi]]
-definition = "ikili dışı, cinsiyet uyumsuz, cinsiyetsiz, transcinsel"
-language = "toki pona"
-
-[[lu]]
-language = "olası, muhtemel"
 
 [[luka]]
 definition = "el, kol"
@@ -812,21 +406,6 @@ language = "Proto-Cermence"
 definition = "cattle"
 language = "Latince"
 
-[[masalo]]
-language = "Fransızca"
-
-[[masenta]]
-definition = "purplish-red color"
-language = "İngilizce"
-
-[[masenta]]
-definition = "purplish-red color"
-language = "Fransızca"
-
-[[me]]
-definition = "tag question"
-language = "toki pona"
-
 [[meli]]
 definition = "woman, wife, feminine"
 language = "Toki Pisin"
@@ -879,14 +458,6 @@ language = "Japonca"
 definition = "die"
 language = "Akadyalı Fransızca"
 
-[[molusa]]
-definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
-language = "İngilizce"
-
-[[molusa]]
-definition = "thin shelled"
-language = "Latince"
-
 [[monsi]]
 definition = "my ass (vulgar)"
 language = "Akadyalı Fransızca"
@@ -928,10 +499,6 @@ language = "Latince"
 [[n]]
 language = "ses yankısı"
 
-[[nalanja]]
-definition = "orange"
-language = "Spanish"
-
 [[namako]]
 definition = "salt"
 language = "Hintçe"
@@ -955,22 +522,6 @@ language = "Toki Pisin"
 [[nasin]]
 definition = "way, method"
 language = "Sırp-Hırvatça"
-
-[[natu]]
-definition = "crossroads, four-way intersection"
-language = "Vietnamese"
-
-[[ne]]
-definition = "not"
-language = "(Indo-European)"
-
-[[neja]]
-definition = "(sayı) dört"
-language = "Fince"
-
-[[nele]]
-definition = "cloth, fabric, clothing; secret, hidden, covered"
-language = "toki pona"
 
 [[nena]]
 definition = "nose"
@@ -1000,25 +551,6 @@ language = "Japonca"
 definition = "foot, leg"
 language = "Sırp-Hırvatça"
 
-[[nowi]]
-definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
-language = "Vietnamese"
-
-[[nu]]
-language = "olası, muhtemel"
-
-[[nu1]]
-definition = "yeni"
-language = "İngilizce"
-
-[[nun]]
-definition = "5"
-language = "Kantonca"
-
-[[nuwa]]
-definition = "daha yeni"
-language = "İngilizce"
-
 [[o]]
 definition = "(vocative suffix)"
 language = "Gürcüce"
@@ -1031,60 +563,21 @@ language = "toki pona"
 definition = "tamam"
 language = "İngilizce"
 
-[[okepuma]]
-definition = "okay boomer"
-language = "İngilizce"
-
-[[oki]]
-definition = "tamam"
-language = "İngilizce"
-
-[[oki]]
-definition = "tamam"
-language = "İngilizce"
-
 [[oko]]
 definition = "eye"
 language = "Sırp-Hırvatça"
-
-[[olala]]
-language = "Fransızca"
 
 [[olin]]
 definition = "I love"
 language = "Sırp-Hırvatça"
 
-[[omekalike]]
-definition = "'eat a bad fish', wishing somebody harm instead of well"
-language = "toki pona"
-
-[[omekalike]]
-definition = "'eat a good fish', wishing somebody well"
-language = "toki pona"
-
 [[omekapo]]
 definition = "'eat a good fish', wishing somebody well"
-language = "toki pona"
-
-[[omen]]
-definition = "'kill me', express exasperation or frustration sarcastically"
 language = "toki pona"
 
 [[ona]]
 definition = "she"
 language = "Sırp-Hırvatça"
-
-[[oni]]
-definition = "(personifications of) dreams"
-language = "Ancient Greek"
-
-[[onono]]
-definition = "oh no"
-language = "İngilizce"
-
-[[opasan]]
-definition = "opossum"
-language = "İngilizce"
 
 [[open]]
 definition = "open"
@@ -1092,10 +585,6 @@ language = "İngilizce"
 
 [[owe]]
 definition = "George Orwell, author of 1984"
-language = "İngilizce"
-
-[[pa]]
-definition = "bruh"
 language = "İngilizce"
 
 [[pakala]]
@@ -1142,58 +631,8 @@ language = "Fince"
 definition = "give to each other"
 language = "Swahili"
 
-[[panke]]
-language = "toki pona"
-
-[[panke]]
-language = "Fransızca"
-
-[[papa]]
-language = "İngilizce"
-
-[[papa1]]
-language = "olası, muhtemel"
-
-[[papa2]]
-language = "ses yankısı"
-
-[[pasila]]
-definition = "easy"
-language = "Akadyalı Fransızca"
-
-[[pasila]]
-definition = "easy"
-language = "Esperanto"
-
-[[pata]]
-definition = "brother"
-language = "Sırp-Hırvatça"
-
-[[pata]]
-definition = "sibling or cousin of the same gender"
-language = "Toki Pisin"
-
-[[pata]]
-definition = "brother"
-language = "İngilizce"
-
 [[penpo]]
 definition = "only toki pona"
-language = "toki pona"
-
-[[patu]]
-definition = "8"
-language = "Kantonca"
-
-[[pela]]
-language = "olası, muhtemel"
-
-[[peta]]
-definition = "green"
-language = "Esperanto"
-
-[[peto]]
-definition = "(incomplete sentence) 'give eye-water', to cry"
 language = "toki pona"
 
 [[pi]]
@@ -1240,16 +679,6 @@ language = "İngilizce"
 definition = "bug"
 language = "Akadyalı Fransızca"
 
-[[pipo]]
-definition = "bug, insect, arachnid"
-language = "toki pona"
-
-[[pipolo]]
-language = "toki pona"
-
-[[pipolo]]
-language = "toki pona"
-
 [[po]]
 definition = "(sayı) dört"
 language = "İngilizce"
@@ -1266,27 +695,9 @@ language = "Toki Pisin"
 definition = "box"
 language = "İngilizce"
 
-[[polinpin]]
-definition = "bovling labutu"
-language = "İngilizce"
-
-[[pomotolo]]
-definition = "tomato"
-language = "Italian"
-
 [[pona]]
 definition = "good"
 language = "Esperanto"
-
-[[poni]]
-definition = "midilli, at"
-language = "İngilizce"
-
-[[positu]]
-language = "İngilizce"
-
-[[potesu]]
-language = "İngilizce"
 
 [[powe]]
 definition = "not true"
@@ -1300,25 +711,9 @@ language = "Mandarin"
 definition = "book"
 language = "İngilizce"
 
-[[pulaso]]
-definition = "blue"
-language = "İngilizce"
-
-[[pulaso]]
-definition = "mavi, yeşil"
-language = "toki pona"
-
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
 language = "Japonca"
-
-[[saja]]
-definition = "trees"
-language = "Arapça"
-
-[[salu]]
-definition = "safety, security"
-language = "Latince"
 
 [[sama]]
 definition = "same"
@@ -1336,10 +731,6 @@ language = "Esperanto"
 definition = "same"
 language = "İngilizce"
 
-[[samu]]
-definition = "jan Samu"
-language = "toki pona"
-
 [[san]]
 definition = "(sayı) üç"
 language = "Japonca"
@@ -1351,17 +742,6 @@ language = "Kantonca"
 [[san]]
 definition = "(sayı) üç"
 language = "Kantonca"
-
-[[sapelipope]]
-language = "Fransızca"
-
-[[se]]
-definition = "4"
-language = "Kantonca"
-
-[[se1]]
-definition = "oneself"
-language = "Latince"
 
 [[seli]]
 definition = "hot"
@@ -1387,21 +767,9 @@ language = "Gürcüce"
 definition = "body"
 language = "Sırp-Hırvatça"
 
-[[sikako]]
-definition = "escargot"
-language = "Fransızca"
-
 [[sike]]
 definition = "circle"
 language = "İngilizce"
-
-[[sikomo]]
-definition = "sicko mode"
-language = "İngilizce"
-
-[[silapa]]
-definition = "zürafa"
-language = "Polish"
 
 [[sin]]
 definition = "new, fresh"
@@ -1415,40 +783,13 @@ language = "Fince"
 definition = "in front"
 language = "Kantonca"
 
-[[sipi]]
-definition = "sibi (dative reflexive pronoun)"
-language = "Latince"
-
-[[sipije]]
-language = "İngilizce"
-
-[[sipije]]
-definition = "to be honest"
-language = "İngilizce"
-
 [[sitelen]]
 definition = "paint"
 language = "Flemenkçe"
 
-[[siwala]]
-definition = "trust; faith (in someone or something); reliance, confidence, belief"
-language = "Tagalogca"
-
-[[slape]]
-definition = "sleep, rest"
-language = "toki pona"
-
-[[slape]]
-definition = "uyumak, uyku"
-language = "İngilizce"
-
 [[soko]]
 definition = "mushroom"
 language = "Gürcüce"
-
-[[sole]]
-definition = "to use to, to tend to"
-language = "Spanish"
 
 [[sona]]
 definition = "knowledge"
@@ -1464,22 +805,6 @@ language = "Gürcüce"
 
 [[su]]
 language = "olası, muhtemel"
-
-[[su1]]
-definition = "[yes/no question marker]; whether"
-language = "Esperanto"
-
-[[suke]]
-definition = "circle, sphere, cycle"
-language = "toki pona"
-
-[[sulaso]]
-definition = "the color between blue and green on the visible spectrum of light"
-language = "İngilizce"
-
-[[sulaso]]
-definition = "mavi, yeşil"
-language = "toki pona"
 
 [[suli]]
 definition = "big, large, great"
@@ -1513,19 +838,6 @@ language = "Toki Pisin"
 definition = "sweet"
 language = "İngilizce"
 
-[[suwili]]
-language = "toki pona"
-
-[[suwili]]
-language = "toki pona"
-
-[[ta]]
-language = "olası, muhtemel"
-
-[[take]]
-definition = "7"
-language = "Kantonca"
-
 [[taki]]
 definition = "the sound of two magnets hitting each other (onomatopoeia)"
 language = "Korece"
@@ -1534,20 +846,12 @@ language = "Korece"
 definition = "from"
 language = "Kantonca"
 
-[[tankala]]
-definition = "güneydoğu"
-language = "Malaya dili"
-
 [[taso]]
 definition = "just, only, but, however"
 language = "Toki Pisin"
 
 [[taso]]
 definition = "that’s all"
-language = "İngilizce"
-
-[[tasun]]
-definition = "dachshund cins köpek"
 language = "İngilizce"
 
 [[tawa]]
@@ -1562,17 +866,9 @@ language = "Japonca"
 definition = "right"
 language = "Galce"
 
-[[teki]]
-definition = "event"
-language = "Japonca"
-
 [[telo]]
 definition = "(some) water"
 language = "Akadyalı Fransızca"
-
-[[ten]]
-definition = "time, event, situation"
-language = "toki pona"
 
 [[tenpo]]
 definition = "time"
@@ -1586,10 +882,6 @@ language = "Latince"
 definition = "(quotative)"
 language = "Japonca"
 
-[[tokana]]
-definition = "attention, focus"
-language = "Tongaca"
-
 [[toki]]
 definition = "talk"
 language = "Toki Pisin"
@@ -1597,10 +889,6 @@ language = "Toki Pisin"
 [[toki]]
 definition = "talk"
 language = "İngilizce"
-
-[[toma]]
-definition = "home, room, house, building"
-language = "toki pona"
 
 [[tomo]]
 definition = "house"
@@ -1618,21 +906,9 @@ language = "Latince"
 definition = "house"
 language = "Ancient Greek"
 
-[[tona]]
-definition = "toner; tonik"
-language = "İngilizce"
-
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
 language = "Mandarin"
-
-[[towoki]]
-definition = "hello"
-language = "toki pona"
-
-[[towoki]]
-definition = "cat-like surprised face"
-language = "emoticon"
 
 [[tu]]
 definition = "two"
@@ -1641,17 +917,6 @@ language = "İngilizce"
 [[tu]]
 definition = "two"
 language = "Esperanto"
-
-[[tuli]]
-definition = "(sayı) üç"
-language = "İngilizce"
-
-[[u]]
-language = "olası, muhtemel"
-
-[[umesu]]
-definition = "to amaze (someone), surprise, impress"
-language = "Iqglic"
 
 [[unpa]]
 language = "ses yankısı"
@@ -1674,22 +939,6 @@ language = "Sırp-Hırvatça"
 
 [[wa]]
 language = "ses yankısı"
-
-[[waken]]
-definition = 'non-standard plural of "wug"'
-language = "İngilizce"
-
-[[waken]]
-definition = "imaginary creature resembling a bird"
-language = "İngilizce"
-
-[[waleja]]
-definition = "of moment, important"
-language = "Quenya"
-
-[[waleja]]
-definition = "worth, worthy, dear"
-language = "Quenya"
 
 [[walo]]
 definition = "white"
@@ -1715,22 +964,6 @@ language = "toki pona"
 definition = "strong, powerful, thick"
 language = "Fince"
 
-[[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
-language = "toki pona"
-
-[[we]]
-definition = "man"
-language = "Spanish"
-
-[[we1]]
-definition = "man"
-language = "Spanish"
-
-[[we1]]
-definition = "man (sentence tag)"
-language = "İngilizce"
-
 [[weka]]
 definition = "away, gone"
 language = "Flemenkçe"
@@ -1739,21 +972,9 @@ language = "Flemenkçe"
 definition = "'leave-arrive', to leave and come back"
 language = "toki pona"
 
-[[wi]]
-definition = "we"
-language = "İngilizce"
-
 [[wile]]
 definition = "want, desire"
 language = "Flemenkçe"
-
-[[wisa]]
-definition = "hound, dog"
-language = "Amharca"
-
-[[wiwi]]
-definition = "yes, yes"
-language = "Fransızca"
 
 [[wuwojiti]]
 definition = "(sound)"
@@ -1773,7 +994,3 @@ language = "toki pona"
 
 [[yupekosi]]
 language = "olası, muhtemel"
-
-[[yutu]]
-definition = "star"
-language = "Türkçe"
