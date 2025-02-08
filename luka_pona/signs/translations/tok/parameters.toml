@@ -23,13 +23,13 @@ movement = "luka li tawa sike sewi"
 handshape = "telo"
 movement = "luka li tawa sike sewi"
 
-[ANPA-KIWEN]
-handshape = "kiwen"
-movement = "o ante e sinpin luka tawa sewi"
+[ANTE-KIWEN]
+handshape = "OpenA"
+movement = "palm flip up"
 
-[ANPA-KIWEN-2]
-handshape = "kiwen"
-movement = "o ante e sinpin luka tawa sewi"
+[ANTE-KIWEN-2]
+handshape = "OpenA"
+movement = "palm flip up"
 
 [ANPA-LON]
 handshape = "tawa"
