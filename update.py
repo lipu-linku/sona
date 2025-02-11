@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-import os
 import argparse
-import tomlkit
+import json
 import logging
+import os
+from copy import deepcopy
+
+import tomlkit
 
 # what addition/change is this? words, sandbox, luka_pona/signs, luka_pona/fingerspellings, languages, fonts
 # is this a translation? y/n (doesn't apply to fonts/languages)
@@ -10,56 +13,49 @@ import logging
 
 LOG = logging.getLogger()
 
-NOT_WRITTEN = {"li", "e", "la", "anu", "o", "pi", "a", "ali", "en"}
+# NOT_WRITTEN = {"li", "e", "la", "anu", "o", "pi", "a", "ali", "en"}
+with open("/home/gregdan3/words.json", "r") as f:
+    data = f.read()
+LINKU_DATA = json.loads(data)
+
+
+SANDBOX_START = "./sandbox/"
+WORDS_START = "./words/"
 
 
 def main(argv: argparse.Namespace):
     LOG.setLevel(argv.log_level)
-    tomls = [f for f in os.listdir(argv.directory) if f.endswith(".toml")]
-    for toml in tomls:
-        tomlname = os.path.join(argv.directory, toml)
-        print(tomlname)
-        with open(tomlname, "r+") as f:
-            data = tomlkit.loads(f.read())
+    for root, _, files in os.walk(argv.directory):
+        is_major = True
+        if root.startswith(SANDBOX_START):
+            is_major = False
 
-            word = data["word"]
-            if word in {"meli", "mije"}:
-                word = "mije-and-meli"  # just for lipamanka
-            wiki_link = data.pop("sona_pona", None)
+        if "/metadata" in root:
+            continue
+        for filename in files:
+            if "parameters" in filename:
+                continue
+            tomlname = os.path.join(root, filename)
+            print(tomlname)
+            with open(tomlname, "r+") as f:
+                data = tomlkit.loads(f.read())
+                edited_data = deepcopy(data)
+                for key in data.keys():
+                    if key in LINKU_DATA and not is_major:
+                        # if the key is a word above sandbox,
+                        # but we are in sandbox,
+                        # delete
+                        del edited_data[key]
+                    if key not in LINKU_DATA and is_major:
+                        # if the key is a word in sandbox,
+                        # but we are in words,
+                        # delete
+                        del edited_data[key]
 
-            data["resources"] = dict()
-            if wiki_link:
-                data["resources"]["sona_pona"] = wiki_link
-            if data["book"] == "pu" and data["word"] not in NOT_WRITTEN:
-                data["resources"][
-                    "lipamanka_semantic"
-                ] = f"https://lipamanka.gay/essays/dictionary#{word}"
-
-            # move sp to ligatures
-            sp = data["representations"].pop("sitelen_pona")
-            if not sp:
-                sp.append(data["word"])
-            data["representations"]["ligatures"] = sp
-
-            # split ucsur
-            codepoint = data["representations"].pop("ucsur")
-            if codepoint:  # implicit delete
-                data["representations"]["ucsur"] = codepoint
-                # int(codepoint[2:], 16)
-
-            # clean empty emosi, ss fields
-            emosi = data["representations"].pop("sitelen_emosi")
-            if emosi:  # implicit delete
-                data["representations"]["sitelen_emosi"] = emosi
-
-            sitelen = data["representations"].pop("sitelen_sitelen")
-            if sitelen:  # implicit delete
-                data["representations"]["sitelen_sitelen"] = sitelen
-
-            edited_data = tomlkit.dumps(data)
-            f.truncate(0)
-            f.seek(0)
-            f.write(edited_data)
+                edited_data = tomlkit.dumps(edited_data)
+                f.truncate(0)
+                f.seek(0)
+                f.write(edited_data)
 
 
 ### Typing utils for argparse
@@ -76,10 +72,8 @@ def existing_file(file_path: str) -> str:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Script to update locally tracked fonts"
-    )
-    parser.add_argument(
+    parser = argparse.ArgumentParser()
+    _ = parser.add_argument(
         "--log-level",
         help="Set the log level",
         type=str.upper,
@@ -87,7 +81,7 @@ if __name__ == "__main__":
         default="INFO",
         choices=["NOTSET", "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
     )
-    parser.add_argument(
+    _ = parser.add_argument(
         "--directory",
         help="Specify a directory of TOML files to update",
         dest="directory",
