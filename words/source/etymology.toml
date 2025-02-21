@@ -110,14 +110,6 @@ language = "Turkish"
 definition = "yellow"
 language = "English"
 
-[[jepi]]
-definition = "yippee"
-language = "English"
-
-[[jipi]]
-definition = "yippee"
-language = "English"
-
 [[jo]]
 definition = "have"
 language = "Mandarin"
@@ -125,61 +117,6 @@ language = "Mandarin"
 [[jonke]]
 definition = "hjönk"
 language = "onomatopoeia"
-
-[[josuta]]
-definition = "flexible, elastic"
-language = "Finnish"
-
-[[ju]]
-language = "a priori"
-
-[[jule]]
-definition = "shake, vibrate, oscillate, waver"
-language = "Japanese"
-
-[[jume]]
-definition = "dream"
-language = "Japanese"
-
-[[juna]]
-definition = "train (railroad vehicle)"
-language = "Finnish"
-
-[[jupi]]
-definition = "yippee"
-language = "Spanish"
-
-[[jupi]]
-definition = "yippee"
-language = "English"
-
-[[jupi]]
-definition = "happiness"
-language = "Lojban"
-
-[[ka]]
-definition = "(future tense marker)"
-language = "toki sapin"
-
-[[ka]]
-definition = "coming"
-language = "toki pona"
-
-[[ka1]]
-definition = "(sentence-final question marker)"
-language = "Japanese"
-
-[[ka2]]
-definition = "being, person, creature, alive"
-language = "tuki tiki"
-
-[[ka2]]
-definition = "human being, person, somebody"
-language = "toki pona"
-
-[[kajo]]
-definition = "9"
-language = "Cantonese"
 
 [[kala]]
 definition = "fish"
@@ -209,22 +146,6 @@ language = "Mandarin"
 definition = "plant"
 language = "Finnish"
 
-[[ke]]
-definition = "okay"
-language = "English"
-
-[[ke]]
-definition = "okay"
-language = "English"
-
-[[kelo]]
-definition = "color, pigment; category, genre, flavor; colorful, diverse"
-language = "toki pona"
-
-[[kelo]]
-definition = "liquids e.g. water, gasoline, soda, lava, soup, oil, ink"
-language = "toki pona"
-
 [[ken]]
 definition = "can"
 language = "Tok Pisin"
@@ -236,30 +157,6 @@ language = "English"
 [[kepeken]]
 definition = "to use"
 language = "Dutch"
-
-[[kepen]]
-definition = "to use, by means of, with"
-language = "toki pona"
-
-[[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
-language = "Hebrew"
-
-[[kewe]]
-definition = "color, pigment; category, genre, flavor; colorful, diverse"
-language = "toki pona"
-
-[[kewe]]
-definition = "up, top, above, highest part; divine, sacred, supernatural; awesome, inspiring, excelling"
-language = "toki pona"
-
-[[kewi]]
-definition = "credit"
-language = "English"
-
-[[ki]]
-definition = "who"
-language = "French"
 
 [[kijetesantakalu]]
 definition = "kinkajou"
@@ -438,21 +335,6 @@ language = "Tok Pisin"
 [[lon]]
 definition = "along"
 language = "English"
-
-[[lonsi]]
-definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
-language = "toki pona"
-
-[[lonsi]]
-definition = "nonbinary, gender nonconforming, genderqueer, transgender"
-language = "toki pona"
-
-[[lu]]
-language = "a priori"
-
-[[lu1]]
-definition = "(indicate context for a prior sentence)"
-language = "toki pona"
 
 [[luka]]
 definition = "hand, arm"
@@ -671,29 +553,6 @@ language = "Japanese"
 definition = "foot, leg"
 language = "Serbo-Croatian"
 
-[[nowi]]
-definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
-language = "Vietnamese"
-
-[[nu]]
-language = "a priori"
-
-[[nu1]]
-definition = "new"
-language = "English"
-
-[[nun]]
-definition = "5"
-language = "Cantonese"
-
-[[nusun]]
-definition = "astrology, fortune-telling, predicting the future; fortune-teller, oracle; star"
-language = "Malay"
-
-[[nuwa]]
-definition = "newer"
-language = "English"
-
 [[o]]
 definition = "(vocative suffix)"
 language = "Georgian"
@@ -830,10 +689,6 @@ language = "English"
 definition = "side, flank (genitive)"
 language = "Serbo-Croatian"
 
-[[pokasi]]
-definition = "poggies, pog"
-language = "English"
-
 [[poki]]
 definition = "box, female genitalia (vulgar)"
 language = "Tok Pisin"
@@ -934,26 +789,6 @@ language = "Cantonese"
 definition = "paint"
 language = "Dutch"
 
-[[siwala]]
-definition = "trust; faith (in someone or something); reliance, confidence, belief"
-language = "Tagalog"
-
-[[slape]]
-definition = "sleep, rest"
-language = "toki pona"
-
-[[slape]]
-definition = "sleep"
-language = "English"
-
-[[snoweli]]
-definition = "snowman"
-language = "English"
-
-[[snoweli]]
-definition = "fuzzy creature, land animal, beast"
-language = "toki pona"
-
 [[soko]]
 definition = "mushroom"
 language = "Georgian"
@@ -980,14 +815,6 @@ language = "Finnish"
 [[suno]]
 definition = "sun"
 language = "Esperanto"
-
-[[sunta]]
-definition = "light, shine, glow, radiance; sun, light source; brightness"
-language = "toki pona"
-
-[[sunta]]
-definition = "mouth, lips, throat, consuming orifice"
-language = "toki pona"
 
 [[supa]]
 definition = "surface"
@@ -1045,14 +872,6 @@ language = "Welsh"
 definition = "(some) water"
 language = "Acadian French"
 
-[[ten]]
-definition = "time, event, situation"
-language = "toki pona"
-
-[[tenkala]]
-definition = "southeast"
-language = "Malay"
-
 [[tenpo]]
 definition = "time"
 language = "Esperanto"
@@ -1100,25 +919,6 @@ language = "English"
 [[tu]]
 definition = "two"
 language = "Esperanto"
-
-[[tuli]]
-definition = "(number) three"
-language = "English"
-
-[[u]]
-language = "a priori"
-
-[[uka]]
-definition = "mouth, lips, throat, consuming orifice"
-language = "toki pona"
-
-[[uka]]
-definition = "plant, vegetation; herb, leaf"
-language = "toki pona"
-
-[[umesu]]
-definition = "to amaze (someone), surprise, impress"
-language = "Iqglic"
 
 [[unpa]]
 language = "onomatopoeia"
