@@ -1,6 +1,6 @@
 #:schema ../../api/generated/font.json
 id = "tama ka Tumu"
-creator = ["ka Tumu", "ka Ke Tami", "Kelsey Higham"]
+creator = ["ka Tumu", "ka Ke Tami", "ka Kili"]
 features = ["ASCII transcription", "cartouches", "tuki tiki"]
 filename = "tama-ka-tumu.ttf"
 last_updated = "2023-01"

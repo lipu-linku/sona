@@ -10,7 +10,7 @@ features = [
 ]
 filename = "sitelen-Majeka-pi-alasa-wan-taso-lig.otf"
 last_updated = "2024-09"
-license = "CC BY-ND 4.0"
+license = "CC0 1.0"
 ligatures = true
 name = "sitelen Majeka pi alasa wan taso"
 style = "handwritten"

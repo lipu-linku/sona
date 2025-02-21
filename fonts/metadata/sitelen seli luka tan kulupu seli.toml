@@ -1,0 +1,26 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen seli luka tan kulupu seli"
+name      = "sitelen seli luka tan kulupu seli"
+filename  = "sitelen seli luka tan kulupu seli.ttf"
+creator   = ["kulupu seli"]
+license   = "OFL-1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2024-11"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "character variants",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20seli%20luka%20tan%20kulupu%20seli.ttf"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-seli-luka-tan-kulupu-seli.html"
