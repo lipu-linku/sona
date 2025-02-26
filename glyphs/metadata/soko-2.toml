@@ -1,0 +1,16 @@
+id = "soko-2"
+word = "soko"
+word_id = "soko"
+name = ["thick stem soko", "mama soko"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/301378960468738050/803717131413618758"
+creator = ["jan Alise"]
+creation_date = "2021-12-06"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1-F-QMoBKYKFrt6TVnW4hxWjfgZKm9QPi"
+svg = ""
+ligature = "soko#2"
+ucsur = "U+F1981"
+
+[usage]

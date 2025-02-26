@@ -1,0 +1,15 @@
+id = "melome-1"
+word = "melome"
+word_id = "melome"
+name = []
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/809645695065391114"
+creator = ["lipamanka"]
+creation_date = "2021-02-11"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Bl9lt9JSMf9lRqTYGAjFpRsrWGjhMZlQ"
+svg = ""
+ligature = "melome#1"
+
+[usage]

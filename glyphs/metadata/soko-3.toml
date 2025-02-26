@@ -1,0 +1,16 @@
+id = "soko-3"
+word = "soko"
+word_id = "soko"
+name = ["annulus soko"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/933245343506780211"
+creator = ["NickEman123"]
+creation_date = "2022-01-19"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1hIU2AAwZg8EQ1iNsmnhqGaI0en2d8Wsy"
+svg = ""
+ligature = "soko#3"
+ucsur = "U+F1981"
+
+[usage]

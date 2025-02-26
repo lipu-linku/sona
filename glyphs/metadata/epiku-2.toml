@@ -1,0 +1,16 @@
+id = "epiku-2"
+word = "epiku"
+word_id = "epiku"
+name = ["emitters epiku"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/912286596517220363/913408280947200010"
+creator = ["kala Asi", "jan Seli", "waso suno Alana"]
+creation_date = "2022-11-25"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=17x61Jd7rcwYImdrl2pjHnIQznqp-mAi2"
+svg = ""
+ligature = "epiku#2"
+ucsur = "U+F1983"
+
+[usage]

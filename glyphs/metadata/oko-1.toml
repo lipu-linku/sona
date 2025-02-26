@@ -1,0 +1,16 @@
+id = "oko-1"
+word = "oko"
+word_id = "oko"
+name = []
+usage_category = "uncommon"
+creator_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+creator = ["jan Same"]
+creation_date = "2016-10-16"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1YXs3SVobVBeNmxh8GrWy78U5WNC720ed"
+svg = ""
+ligature = "oko#1"
+ucsur = "U+F197A"
+
+[usage]

@@ -1,0 +1,15 @@
+id = "kamalawala-1"
+word = "kamalawala"
+word_id = "kamalawala"
+name = []
+usage_category = "obscure"
+creator_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+creator = ["jan Elemenopi"]
+creation_date = "2020-07-25"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1FhXMOnfXmLi_EZatemd49lWF8IjZ4N48"
+svg = ""
+ligature = "kamalawala#1"
+
+[usage]

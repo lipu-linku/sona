@@ -1,0 +1,16 @@
+id = "kipisi-1"
+word = "kipisi"
+word_id = "kipisi"
+name = ["percent kipisi"]
+usage_category = "common"
+creator_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+creator = ["jan Same"]
+creation_date = "2016-10-16"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1QUGhgoSfmdhs-frlSG25Q0qSu4Q0QOVT"
+svg = ""
+ligature = "kipisi#1"
+ucsur = "U+F197B"
+
+[usage]

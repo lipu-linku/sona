@@ -1,0 +1,15 @@
+id = "kulijo-1"
+word = "kulijo"
+word_id = "kulijo"
+name = ["lete kulijo"]
+usage_category = "obscure"
+creator_source = ""
+creator = ["jan Lepeka"]
+creation_date = ""
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1sjpxtyyrz9Af6jgNI_G1ZuVhGDwetuq2"
+svg = ""
+ligature = "kulijo#1"
+
+[usage]

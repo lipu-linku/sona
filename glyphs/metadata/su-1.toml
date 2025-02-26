@@ -1,0 +1,15 @@
+id = "su-1"
+word = "su"
+word_id = "su"
+name = ["su nanpa wan"]
+usage_category = "uncommon"
+creator_source = "https://www.amazon.com/gp/product/0978292375"
+creator = ["jan Itan", "jan Sonja"]
+creation_date = "2024-02-04"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=116R-Gvt1ZO2bCWNBvnM5xlNL4adJZJu6"
+svg = ""
+ligature = "su#1"
+
+[usage]

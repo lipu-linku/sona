@@ -1,0 +1,16 @@
+id = "olin-3"
+word = "olin"
+word_id = "olin"
+name = ["emitters olin"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/772044914338299934"
+creator = ["asnev", "devurandom"]
+creation_date = "2020-10-31"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=13pGBUK-FvRkY0upFky0woIu5qoFy8rmj"
+svg = ""
+ligature = "olin#3"
+ucsur = "U+F1945"
+
+[usage]

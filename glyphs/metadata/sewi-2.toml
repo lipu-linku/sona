@@ -1,0 +1,16 @@
+id = "sewi-2"
+word = "sewi"
+word_id = "sewi"
+name = ["secular sewi", "flipped anpa sewi"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/792866919782154332"
+creator = ["jan Tumu"]
+creation_date = "2020-12-27"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1tgSe6eiy6-tgs1f1lQCN4iEUZ2PCEWLZ"
+svg = ""
+ligature = "sewi#2"
+ucsur = "U+F195A"
+
+[usage]

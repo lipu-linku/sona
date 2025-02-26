@@ -1,0 +1,16 @@
+id = "lanpan-2"
+word = "lanpan"
+word_id = "lanpan"
+name = ["pana lanpan", "flipped pana lanpan"]
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/810288757470527548"
+creator = ["lipamanka"]
+creation_date = "2021-02-13"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=114-3KNfQsVi7UaDNZsu2S5aX3ktQ5JmE"
+svg = ""
+ligature = "lanpan#2"
+ucsur = "U+F1985"
+
+[usage]

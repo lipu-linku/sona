@@ -1,0 +1,16 @@
+id = "sinpin-2"
+word = "sinpin"
+word_id = "sinpin"
+name = ["face sinpin"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308654162883645441"
+creator = ["soweli Selupu"]
+creation_date = "2024-11-20"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1kQ_XShBz0yzgwVk9-RpuZfacm0f0eZf8"
+svg = ""
+ligature = "sinpin#2"
+ucsur = "U+F195F"
+
+[usage]

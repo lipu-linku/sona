@@ -1,0 +1,15 @@
+id = "kiki-1"
+word = "kiki"
+word_id = "kiki"
+name = ["explosion kiki"]
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+creator = ["the_whatevers"]
+creation_date = "2020-11-30"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1aI6xh5sz1MtSuFzEDW1KoAktw00rTsDJ"
+svg = ""
+ligature = "kiki#1"
+
+[usage]

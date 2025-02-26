@@ -1,0 +1,16 @@
+id = "apeja-1"
+word = "apeja"
+word_id = "apeja"
+name = []
+usage_category = "obscure"
+creator_source = "https://www.facebook.com/groups/sitelen/posts/2367140973340274"
+creator = ["jan Same"]
+creation_date = "2019-08-09"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=14oNICYY1Ky52TfiMxN6G4lf7ixr1Q0nm"
+svg = ""
+ligature = "apeja#1"
+ucsur = "U+F19A1"
+
+[usage]

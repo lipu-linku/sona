@@ -1,0 +1,16 @@
+id = "kokosila-1"
+word = "kokosila"
+word_id = "kokosila"
+name = ["star kokosila", "esperanto kokosila"]
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844, https://discord.com/channels/301377942062366741/301377942062366741/804187779977314326"
+creator = ["jan Sa", "lipamanka"]
+creation_date = "2021-01-27"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1YP1PO1X_4cBQgwzjMJpXXsLJdpIK4ueL"
+svg = ""
+ligature = "kokosila#1"
+ucsur = "U+F1984"
+
+[usage]

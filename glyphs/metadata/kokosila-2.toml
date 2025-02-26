@@ -1,0 +1,16 @@
+id = "kokosila-2"
+word = "kokosila"
+word_id = "kokosila"
+name = []
+usage_category = "obscure"
+creator_source = "https://github.com/janSame/linja-pona, linja pona 4.9"
+creator = ["jan Same"]
+creation_date = "2021-08-12"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1qbLxwympFcyMAeP57qeezQFgeGpoNnmb"
+svg = ""
+ligature = "kokosila#2"
+ucsur = "U+F1984"
+
+[usage]

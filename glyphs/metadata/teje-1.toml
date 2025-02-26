@@ -1,0 +1,15 @@
+id = "teje-1"
+word = "teje"
+word_id = "teje"
+name = []
+usage_category = "obscure"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Y-gFGf_cPYI-Coz9jhh12NFKSkEHaQxF"
+svg = ""
+ligature = "teje#1"
+
+[usage]

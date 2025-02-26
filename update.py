@@ -180,10 +180,11 @@ def assemble_nonpu_data(word_data, row, i: int, len: int):
     return glyph_data
 
 
-def write_glyph_data(argv, glyph_data):
+def write_glyph_data(argv, glyph_data) -> str:
     filename = glyph_data["id"] + ".toml"
     with open(os.path.join(argv.directory, filename), "w") as f:
         f.write(tomlkit.dumps(glyph_data))
+    return glyph_data["id"]
 
 
 def find_usage_category(word_data, row, i: int, len: int) -> str:
@@ -204,26 +205,36 @@ def find_usage_category(word_data, row, i: int, len: int) -> str:
 
 def main(argv: argparse.Namespace):
     LOG.setLevel(argv.log_level)
+    written_ids: list[str] = list()
+
     for id, word_data in WORDS_DATA.items():
         if id == "ali":  # the only synonym above sandbox
             continue
 
+        # all pu handling
         if word_data["book"] == "pu":
             glyph_data = assemble_pu_data(word_data)
-            write_glyph_data(argv, glyph_data)
+            written_id = write_glyph_data(argv, glyph_data)
+            written_ids.append(written_id)
 
+        # find all the other glyphs for this word
         found_glyphs = []
         for row in GLYPH_DATA:
             if row[WORD] == id:
                 found_glyphs.append(row)
 
+        # remove those we won't track (for now)
+        # TODO: override for all remaining non-sandbox such that at least one glyph exists there?
         found_glyphs = [
             row
             for row in found_glyphs
-            if row[APPEARS] == "Yes"
-            and (row[DISTINCT] == "Yes" or row[PRIMARY] == "Yes")
+            if (
+                row[APPEARS] == "Yes"
+                and (row[DISTINCT] == "Yes" or row[PRIMARY] == "Yes")
+            )
         ]
 
+        # sort by creation date, or submission time if creation date not available
         found_glyphs.sort(
             key=lambda row: (
                 parse_date(row[CREATED], "%Y-%m-%d") or datetime.max,
@@ -231,10 +242,17 @@ def main(argv: argparse.Namespace):
             )
         )
 
+        # all non-pu handling
         total_glyphs = len(found_glyphs)
         for i, row in enumerate(found_glyphs, 1):
+            # note: non-pu glyphs for pu words will offset the given index
             glyph_data = assemble_nonpu_data(word_data, row, i, total_glyphs)
-            write_glyph_data(argv, glyph_data)
+            written_id = write_glyph_data(argv, glyph_data)
+            written_ids.append(written_id)
+
+    for id in written_ids:
+        line = f'{id} = ""'
+        print(line)
 
 
 ### Typing utils for argparse

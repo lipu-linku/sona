@@ -1,0 +1,15 @@
+id = "mulapisu-1"
+word = "mulapisu"
+word_id = "mulapisu"
+name = []
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562"
+creator = ["jan Elemenopi"]
+creation_date = "2020-08-12"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1XN8ln6fnwsPWz6QGbbl-9JFT0snH4KYI"
+svg = ""
+ligature = "mulapisu#1"
+
+[usage]

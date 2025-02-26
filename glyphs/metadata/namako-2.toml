@@ -1,0 +1,16 @@
+id = "namako-2"
+word = "namako"
+word_id = "namako"
+name = ["pepper namako", "chili namako"]
+usage_category = "common"
+creator_source = "https://discord.com/channels/301377942062366741/875761526642978897/953373277198364672"
+creator = ["jan Sonja"]
+creation_date = "2022-03-15"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1kY_rAHwsGcR41Df3R1bVpJwO8VDQQUJl"
+svg = ""
+ligature = "namako#2"
+ucsur = "U+F1978"
+
+[usage]

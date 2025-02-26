@@ -1,0 +1,15 @@
+id = "linluwi-2"
+word = "linluwi"
+word_id = "linluwi"
+name = ["sitelen linluwi"]
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/809512920555192331"
+creator = ["lipamanka"]
+creation_date = "2021-02-11"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1u3pyctFZGu2IzZKkQTnz1eCFdELl8KVM"
+svg = ""
+ligature = "linluwi#2"
+
+[usage]

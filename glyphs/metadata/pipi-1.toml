@@ -1,0 +1,16 @@
+id = "pipi-1"
+word = "pipi"
+word_id = "pipi"
+name = []
+usage_category = "core"
+creator_source = "lipu pu"
+creator = ["jan Sonja"]
+creation_date = "2014-05-25"
+is_primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pipi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pipi.svg"
+ligature = "pipi#1"
+ucsur = "U+F1951"
+
+[usage]

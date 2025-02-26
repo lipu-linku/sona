@@ -1,0 +1,16 @@
+id = "moli-2"
+word = "moli"
+word_id = "moli"
+name = ["face moli", "x_x moli"]
+usage_category = "uncommon"
+creator_source = "https://web.archive.org/web/20210627184954/https://devurandom.xyz/tokipona/sitelen_pona.html"
+creator = ["jan Lentan"]
+creation_date = "2021-06-04"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fce_z6DMqHUZCtP1pHMYycTl3NSLvMNw"
+svg = ""
+ligature = "moli#2"
+ucsur = "U+F1937"
+
+[usage]

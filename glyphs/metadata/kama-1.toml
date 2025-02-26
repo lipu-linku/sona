@@ -1,0 +1,16 @@
+id = "kama-1"
+word = "kama"
+word_id = "kama"
+name = []
+usage_category = "core"
+creator_source = "lipu pu"
+creator = ["jan Sonja"]
+creation_date = "2014-05-25"
+is_primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/kama.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/kama.svg"
+ligature = "kama#1"
+ucsur = "U+F1916"
+
+[usage]

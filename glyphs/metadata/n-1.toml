@@ -1,0 +1,16 @@
+id = "n-1"
+word = "n"
+word_id = "n"
+name = []
+usage_category = "common"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/804397312545783920"
+creator = ["jan Sa"]
+creation_date = "2021-01-28"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Te1trxOnaGiSe8TjHmvYESX6dwQl9XgH"
+svg = ""
+ligature = "n#1"
+ucsur = "U+F1986"
+
+[usage]

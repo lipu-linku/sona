@@ -1,0 +1,16 @@
+id = "mije-1"
+word = "mije"
+word_id = "mije"
+name = []
+usage_category = "common"
+creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+creator = ["jan Sonja"]
+creation_date = "2023-05-19"
+is_primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/mije.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/mije.svg"
+ligature = "mije#1"
+ucsur = "U+F1935"
+
+[usage]

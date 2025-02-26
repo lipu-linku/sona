@@ -1,0 +1,15 @@
+id = "usawi-1"
+word = "usawi"
+word_id = "usawi"
+name = []
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/803387010625699860"
+creator = ["jan Tumu", "jan Seli", "jan Mulan"]
+creation_date = "2021-01-25"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1JPi5f8H7xnvgdOEhO_q_KIC00vvVc39T"
+svg = ""
+ligature = "usawi#1"
+
+[usage]

@@ -1,0 +1,16 @@
+id = "tonsi-2"
+word = "tonsi"
+word_id = "tonsi"
+name = ["nonbinary tonsi"]
+usage_category = "uncommon"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1Y-YVtbjDE3bIHvokDOkRF4dNFDa6ZLrg"
+svg = ""
+ligature = "tonsi#2"
+ucsur = "U+F197E"
+
+[usage]

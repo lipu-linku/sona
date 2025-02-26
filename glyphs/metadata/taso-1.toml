@@ -1,0 +1,16 @@
+id = "taso-1"
+word = "taso"
+word_id = "taso"
+name = []
+usage_category = "core"
+creator_source = "lipu pu"
+creator = ["jan Sonja"]
+creation_date = "2014-05-25"
+is_primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/taso.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/taso.svg"
+ligature = "taso#1"
+ucsur = "U+F1968"
+
+[usage]

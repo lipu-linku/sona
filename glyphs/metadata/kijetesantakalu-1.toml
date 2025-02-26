@@ -1,0 +1,16 @@
+id = "kijetesantakalu-1"
+word = "kijetesantakalu"
+word_id = "kijetesantakalu"
+name = []
+usage_category = "common"
+creator_source = "https://www.facebook.com/groups/sitelen/posts/2367140973340274"
+creator = ["jan Same"]
+creation_date = "2019-08-09"
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1TDwMk2pVhqksmLzgOKsemHo-dr9dhu-e"
+svg = ""
+ligature = "kijetesantakalu#1"
+ucsur = "U+F1980"
+
+[usage]
