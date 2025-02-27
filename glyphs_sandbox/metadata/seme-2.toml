@@ -1,0 +1,16 @@
+id = "seme-2"
+word = "seme"
+word_id = "seme"
+name = ["loop seme"]
+usage_category = "sandbox"
+creator_source = "https://web.archive.org/web/20210627184954/https://devurandom.xyz/tokipona/sitelen_pona.html"
+creator = ["jan Lentan"]
+creation_date = "2021-06-04"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1PVKRDXn3Pwt-QnDRsDWG-7Q6mJ99TGxC"
+svg = ""
+ligature = "seme#2"
+ucsur = "U+F1959"
+
+[usage]

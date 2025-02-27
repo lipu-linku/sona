@@ -1,0 +1,15 @@
+id = "kulijo-2"
+word = "kulijo"
+word_id = "kulijo"
+name = ["glasses kulijo"]
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/879914970396131401"
+creator = ["jan Sa"]
+creation_date = "2021-08-25"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=11pjOUallbAFYpaB3nWuNx0YYrRqgPxX3"
+svg = ""
+ligature = "kulijo#2"
+
+[usage]

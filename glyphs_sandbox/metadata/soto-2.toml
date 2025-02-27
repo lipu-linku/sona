@@ -1,0 +1,15 @@
+id = "soto-2"
+word = "soto"
+word_id = "soto"
+name = []
+usage_category = "sandbox"
+creator_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+creator = ["jan Elemenopi"]
+creation_date = "2020-07-26"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1KWmcQ7TjUcLSgntQVto6MN6J-3gln9nr"
+svg = ""
+ligature = "soto#2"
+
+[usage]

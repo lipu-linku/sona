@@ -1,0 +1,15 @@
+id = "taki-3"
+word = "taki"
+word_id = "taki"
+name = []
+usage_category = "sandbox"
+creator_source = "https://wasokeli.github.io/sp-font-maker/linja-li-nja-tan-jan-Jami.html"
+creator = ["jan jami"]
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1s0cdw4vEPvBRVS0VSAyNk17NE0GYTtSl"
+svg = ""
+ligature = "taki#3"
+
+[usage]

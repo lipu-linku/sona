@@ -110,6 +110,8 @@ CATG_MAP_PU = {
     "obscure": "sandbox",
 }
 
+LAST_VARIANT_ID: dict[str, int] = dict()
+
 
 def parse_date(date_str: str, fmt: str):
     if date_str:
@@ -120,6 +122,8 @@ def parse_date(date_str: str, fmt: str):
 def assemble_pu_data(word_data):
     id = word_data["id"]
     glyph_data = deepcopy(GLYPH_FORMAT)
+    i = LAST_VARIANT_ID.get(id, 0) + 1
+    LAST_VARIANT_ID[id] = i
 
     glyph_data["creation_date"] = "2014-05-25"
     glyph_data["creator_source"] = "lipu pu"
@@ -127,12 +131,12 @@ def assemble_pu_data(word_data):
         glyph_data["creation_date"] = "2023-05-19"
         glyph_data["creator_source"] = "https://tokipona.org/hieroglyphs_sample.pdf"
 
-    glyph_data["id"] = id + "-1"
+    glyph_data["id"] = id + f"-{i}"
     glyph_data["word"] = word_data["word"]
     glyph_data["word_id"] = id
     glyph_data["usage_category"] = word_data["usage_category"]
     glyph_data["creator"] = ["jan Sonja"]
-    glyph_data["ligature"] = id + "#1"
+    glyph_data["ligature"] = id + f"#{i}"
     glyph_data["ucsur"] = word_data["representations"].get("ucsur")
     if not glyph_data["ucsur"]:
         del glyph_data["ucsur"]
@@ -148,17 +152,16 @@ def assemble_pu_data(word_data):
     return glyph_data
 
 
-def assemble_nonpu_data(word_data, row, i: int, len: int):
+def assemble_nonpu_data(word_data, row, len: int):
     id = word_data["id"]
     glyph_data = deepcopy(GLYPH_FORMAT)
-
-    if word_data["book"] == "pu":
-        i += 1
+    i = LAST_VARIANT_ID.get(id, 0) + 1
+    LAST_VARIANT_ID[id] = i
 
     glyph_data["id"] = word_data["id"] + f"-{i}"
     glyph_data["word"] = word_data["word"]
     glyph_data["word_id"] = id
-    glyph_data["usage_category"] = find_usage_category(word_data, row, i, len)
+    glyph_data["usage_category"] = find_usage_category(word_data, row, len)
 
     glyph_data["creator"] = [
         creator.strip() for creator in row[CREATOR].split(",") if creator
@@ -180,14 +183,14 @@ def assemble_nonpu_data(word_data, row, i: int, len: int):
     return glyph_data
 
 
-def write_glyph_data(argv, glyph_data) -> str:
+def write_glyph_data(path: str, glyph_data) -> str:
     filename = glyph_data["id"] + ".toml"
-    with open(os.path.join(argv.directory, filename), "w") as f:
+    with open(os.path.join(path, filename), "w") as f:
         f.write(tomlkit.dumps(glyph_data))
     return glyph_data["id"]
 
 
-def find_usage_category(word_data, row, i: int, len: int) -> str:
+def find_usage_category(word_data, row, len: int) -> str:
     """
     if it is the primary or only glyph for the word, it inherits the usage category of its word
     if it is a secondary or later glyph for the word, it inherits the usage category below its word unless it is a pu word, in which case it inherits the usage category two below.
@@ -195,7 +198,10 @@ def find_usage_category(word_data, row, i: int, len: int) -> str:
     """
     is_pu = word_data["book"] == "pu"
     is_primary = row[PRIMARY] == "Yes"
+    notable = is_notable(row)
     word_category = word_data["usage_category"]
+    if not notable:
+        return "sandbox"
     if (len == 1 and not is_pu) or is_primary:
         return word_category
     if is_pu:
@@ -203,9 +209,26 @@ def find_usage_category(word_data, row, i: int, len: int) -> str:
     return CATG_MAP_NORMAL[word_category]
 
 
+def is_notable(row: list[str]) -> bool:
+    return row[APPEARS] == "Yes" and (row[DISTINCT] == "Yes" or row[PRIMARY] == "Yes")
+
+
+def glyph_sort(glyphs: list[list[str]]):
+    glyphs.sort(
+        key=lambda row: (
+            parse_date(row[CREATED], "%Y-%m-%d") or datetime.max,
+            parse_date(row[TIMESTAMP], "%m/%d/%Y %H:%M:%S") or datetime.max,
+        )
+    )
+
+
 def main(argv: argparse.Namespace):
+    GLYPHS_OUTPUT = "./glyphs/metadata/"
+    SANDBOX_OUTPUT = "./glyphs_sandbox/metadata/"
+
     LOG.setLevel(argv.log_level)
     written_ids: list[str] = list()
+    sandbox_ids: list[str] = list()
 
     for id, word_data in WORDS_DATA.items():
         if id == "ali":  # the only synonym above sandbox
@@ -214,7 +237,7 @@ def main(argv: argparse.Namespace):
         # all pu handling
         if word_data["book"] == "pu":
             glyph_data = assemble_pu_data(word_data)
-            written_id = write_glyph_data(argv, glyph_data)
+            written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
         # find all the other glyphs for this word
@@ -225,34 +248,37 @@ def main(argv: argparse.Namespace):
 
         # remove those we won't track (for now)
         # TODO: override for all remaining non-sandbox such that at least one glyph exists there?
-        found_glyphs = [
-            row
-            for row in found_glyphs
-            if (
-                row[APPEARS] == "Yes"
-                and (row[DISTINCT] == "Yes" or row[PRIMARY] == "Yes")
-            )
-        ]
+
+        sandbox_glyphs = [row for row in found_glyphs if not is_notable(row)]
+        found_glyphs = [row for row in found_glyphs if is_notable(row)]
 
         # sort by creation date, or submission time if creation date not available
-        found_glyphs.sort(
-            key=lambda row: (
-                parse_date(row[CREATED], "%Y-%m-%d") or datetime.max,
-                parse_date(row[TIMESTAMP], "%m/%d/%Y %H:%M:%S") or datetime.max,
-            )
-        )
+        glyph_sort(found_glyphs)
+        glyph_sort(sandbox_glyphs)
 
         # all non-pu handling
         total_glyphs = len(found_glyphs)
         for i, row in enumerate(found_glyphs, 1):
             # note: non-pu glyphs for pu words will offset the given index
-            glyph_data = assemble_nonpu_data(word_data, row, i, total_glyphs)
-            written_id = write_glyph_data(argv, glyph_data)
+            glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
+            written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
-    for id in written_ids:
-        line = f'{id} = ""'
-        print(line)
+        # all non-pu non-notable handling
+        total_glyphs = len(sandbox_glyphs)
+        for i, row in enumerate(sandbox_glyphs, 1):
+            # note: non-pu glyphs for pu words will offset the given index
+            glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
+            sandbox_id = write_glyph_data(SANDBOX_OUTPUT, glyph_data)
+            sandbox_ids.append(sandbox_id)
+
+    # for id in written_ids:
+    #     line = f'{id} = ""'
+    #     print(line)
+    #
+    # for id in sandbox_ids:
+    #     line = f'{id} = ""'
+    #     print(line)
 
 
 ### Typing utils for argparse

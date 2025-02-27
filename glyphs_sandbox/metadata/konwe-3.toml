@@ -1,0 +1,15 @@
+id = "konwe-3"
+word = "konwe"
+word_id = "konwe"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1wZYfcMxMSi8bBkY7StpStviZK9eYWTpz"
+svg = ""
+ligature = "konwe#3"
+
+[usage]

@@ -1,0 +1,15 @@
+id = "ojuta-2"
+word = "ojuta"
+word_id = "ojuta"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=13CBTiaRB2lhMNp0u_Sf_K3R8G5KMWdsB"
+svg = ""
+ligature = "ojuta#2"
+
+[usage]

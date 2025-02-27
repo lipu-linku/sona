@@ -1,0 +1,15 @@
+id = "san-1"
+word = "san"
+word_id = "san"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = ["meli Siliwa"]
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1QPKfYgDcBWnW4nQgKY2uuOvQuWjlSvep"
+svg = ""
+ligature = "san#1"
+
+[usage]

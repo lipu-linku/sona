@@ -1,0 +1,16 @@
+id = "jaki-2"
+word = "jaki"
+word_id = "jaki"
+name = ["scratch jaki"]
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1C3IF8SJlnT3Byerq6ziVIFhFYgTHeNv2"
+svg = ""
+ligature = "jaki#2"
+ucsur = "U+F1910"
+
+[usage]

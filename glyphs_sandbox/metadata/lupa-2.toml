@@ -1,0 +1,16 @@
+id = "lupa-2"
+word = "lupa"
+word_id = "lupa"
+name = ["ground lupa"]
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1x7PdAwFV9yyNhUrVcC90_dgUSMZkkOQs"
+svg = ""
+ligature = "lupa#2"
+ucsur = "U+F192F"
+
+[usage]

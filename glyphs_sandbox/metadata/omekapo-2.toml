@@ -1,0 +1,15 @@
+id = "omekapo-2"
+word = "omekapo"
+word_id = "omekapo"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1M1vbdCi9LWvqitYurDqkzN0azkUdZV1A"
+svg = ""
+ligature = "omekapo#2"
+
+[usage]

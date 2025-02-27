@@ -1,0 +1,15 @@
+id = "mijomi-2"
+word = "mijomi"
+word_id = "mijomi"
+name = []
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308420365625720872"
+creator = ["soweli Selupu"]
+creation_date = "2024-11-19"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1UqvBasidSQRtdsVaDM5XXfjPYNwPKn_W"
+svg = ""
+ligature = "mijomi#2"
+
+[usage]

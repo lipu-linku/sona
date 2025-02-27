@@ -1,0 +1,16 @@
+id = "tonsi-5"
+word = "tonsi"
+word_id = "tonsi"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=15bnAFMFMpiwagEyfDjRnBWO1tvR5vYFW"
+svg = ""
+ligature = "tonsi#5"
+ucsur = "U+F197E"
+
+[usage]

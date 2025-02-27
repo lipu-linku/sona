@@ -1,0 +1,15 @@
+id = "nja-2"
+word = "nja"
+word_id = "nja"
+name = []
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/825701487149056020"
+creator = []
+creation_date = "2021-03-28"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=17l1ceGhAe6VKlRTEMwT7lMUDE5iyN0B5"
+svg = ""
+ligature = "nja#2"
+
+[usage]

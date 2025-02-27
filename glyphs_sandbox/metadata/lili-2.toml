@@ -1,0 +1,16 @@
+id = "lili-2"
+word = "lili"
+word_id = "lili"
+name = ["underline lili"]
+usage_category = "sandbox"
+creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
+creator = ["Jack Humbert"]
+creation_date = "2020-03-09"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1bL6z9xDUAsGxwHhdPROL4RqICdceLDFE"
+svg = ""
+ligature = "lili#2"
+ucsur = "U+F1928"
+
+[usage]

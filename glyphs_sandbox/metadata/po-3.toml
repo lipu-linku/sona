@@ -1,0 +1,15 @@
+id = "po-3"
+word = "po"
+word_id = "po"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = ["lipamanka"]
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1TaTuBf9EfWuF6E41bOVMiOPjKBYf3j4Z"
+svg = ""
+ligature = "po#3"
+
+[usage]

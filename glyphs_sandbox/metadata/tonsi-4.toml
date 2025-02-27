@@ -1,0 +1,16 @@
+id = "tonsi-4"
+word = "tonsi"
+word_id = "tonsi"
+name = ["transgender tonsi"]
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1aeWNXFUOh0yEKpIjQWFCJjtdp6pIJpyy"
+svg = ""
+ligature = "tonsi#4"
+ucsur = "U+F197E"
+
+[usage]

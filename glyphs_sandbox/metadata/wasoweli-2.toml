@@ -1,0 +1,15 @@
+id = "wasoweli-2"
+word = "wasoweli"
+word_id = "wasoweli"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1kc6pdi26_UNMYfJllg42Q-6HP5lGYw7q"
+svg = ""
+ligature = "wasoweli#2"
+
+[usage]

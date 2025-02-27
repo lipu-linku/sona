@@ -1,0 +1,15 @@
+id = "owe-2"
+word = "owe"
+word_id = "owe"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1zeBEiSFkH3wlA-4YDlSYb7HZI-ejTnbh"
+svg = ""
+ligature = "owe#2"
+
+[usage]

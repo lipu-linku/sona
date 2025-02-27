@@ -1,0 +1,15 @@
+id = "pika-2"
+word = "pika"
+word_id = "pika"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fpRnKvu6-iJMYyNINdya4tXTTNOvTJi4"
+svg = ""
+ligature = "pika#2"
+
+[usage]

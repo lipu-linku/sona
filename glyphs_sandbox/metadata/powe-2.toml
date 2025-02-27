@@ -1,0 +1,16 @@
+id = "powe-2"
+word = "powe"
+word_id = "powe"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1qrHSiScBQH6hvU0G54pWmZjyu4tiHEX7"
+svg = ""
+ligature = "powe#2"
+ucsur = "U+F19A3"
+
+[usage]

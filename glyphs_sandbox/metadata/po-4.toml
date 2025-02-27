@@ -1,0 +1,15 @@
+id = "po-4"
+word = "po"
+word_id = "po"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1e5Hm-TLJqqLFtBwRsmBCoawC8MIB6gQH"
+svg = ""
+ligature = "po#4"
+
+[usage]

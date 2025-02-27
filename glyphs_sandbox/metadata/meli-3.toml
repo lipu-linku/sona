@@ -1,0 +1,16 @@
+id = "meli-3"
+word = "meli"
+word_id = "meli"
+name = []
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/969386329513295872/1045911317795573810/1135675806715228210"
+creator = ["waso suno Alana"]
+creation_date = "2023-07-31"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1j-uHcLPbc-aSFAxMduA_g28cFZAfu-D3"
+svg = ""
+ligature = "meli#3"
+ucsur = "U+F1933"
+
+[usage]

@@ -1,0 +1,16 @@
+id = "majuna-3"
+word = "majuna"
+word_id = "majuna"
+name = ["moon majuna"]
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/737101069577879583, https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562"
+creator = ["jan Elemenopi"]
+creation_date = "2020-07-26"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1pXLhs-FzF6oqs2mg42dnzYzCW8XweFcv"
+svg = ""
+ligature = "majuna#3"
+ucsur = "U+F19A2"
+
+[usage]

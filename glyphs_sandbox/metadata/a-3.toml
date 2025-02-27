@@ -1,0 +1,16 @@
+id = "a-3"
+word = "a"
+word_id = "a"
+name = ["aa", "double stick a"]
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1__AuwNWWoa-2JH2Ew7fFCnvGTa4Ghhdc"
+svg = ""
+ligature = "a#3"
+ucsur = "U+F1900"
+
+[usage]

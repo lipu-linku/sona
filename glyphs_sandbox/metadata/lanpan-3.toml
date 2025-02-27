@@ -1,0 +1,16 @@
+id = "lanpan-3"
+word = "lanpan"
+word_id = "lanpan"
+name = ["mistake lanpan", "broken lanpan"]
+usage_category = "sandbox"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/804400071466549258"
+creator = ["ijo Mina"]
+creation_date = "2021-01-28"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1Yr-jkvYR5KTJNJkI2Rqa7ANO-3T0_X3h"
+svg = ""
+ligature = "lanpan#3"
+ucsur = "U+F1985"
+
+[usage]

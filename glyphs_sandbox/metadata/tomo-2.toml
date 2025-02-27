@@ -1,0 +1,16 @@
+id = "tomo-2"
+word = "tomo"
+word_id = "tomo"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1PDPIr6gZPUV8PR91z_vmagU-YCiH5Ako"
+svg = ""
+ligature = "tomo#2"
+ucsur = "U+F196D"
+
+[usage]

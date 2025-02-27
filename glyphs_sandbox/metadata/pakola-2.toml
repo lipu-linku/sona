@@ -1,0 +1,15 @@
+id = "pakola-2"
+word = "pakola"
+word_id = "pakola"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1ebaxo6sGwCsZfjUXiNFoEDeKCIREQdzD"
+svg = ""
+ligature = "pakola#2"
+
+[usage]

@@ -1,0 +1,16 @@
+id = "a-4"
+word = "a"
+word_id = "a"
+name = ["a?", "seme a"]
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=13TMv--1IeLxyXvHjR0la1eJIG0opC8Qv"
+svg = ""
+ligature = "a#4"
+ucsur = "U+F1900"
+
+[usage]

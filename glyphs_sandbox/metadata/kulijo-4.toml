@@ -1,0 +1,15 @@
+id = "kulijo-4"
+word = "kulijo"
+word_id = "kulijo"
+name = []
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1XkAVa-izchLZRbSCX3iUBZkC6TGLTqvX"
+svg = ""
+ligature = "kulijo#4"
+
+[usage]
