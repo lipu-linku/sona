@@ -7,11 +7,14 @@ coined_era = "post-pu"
 coined_year = "2021"
 creator = ["jan Posuke"]
 see_also = ["kama"]
-source_language = ""
+source_language = "toki sapin"
 usage_category = "sandbox"
 word = "ka"
 deprecated = false
 audio = []
+
+[[etymology]]
+word = "ka"
 
 [[etymology]]
 word = "kama"
