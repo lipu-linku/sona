@@ -150,6 +150,18 @@ language = "Cantonese"
 definition = "yay"
 language = "English"
 
+[[jepi]]
+definition = "yippee"
+language = "English"
+
+[[jipi]]
+definition = "yippee"
+language = "English"
+
+[[josuta]]
+definition = "flexible, elastic"
+language = "Finnish"
+
 [[ju]]
 language = "a priori"
 
@@ -165,8 +177,36 @@ language = "Japanese"
 definition = "train (railroad vehicle)"
 language = "Finnish"
 
+[[jupi]]
+definition = "yippee"
+language = "Spanish"
+
+[[jupi]]
+definition = "yippee"
+language = "English"
+
+[[jupi]]
+definition = "happiness"
+language = "Lojban"
+
+[[ka]]
+definition = "(future tense marker)"
+language = "toki sapin"
+
 [[ka]]
 definition = "coming"
+language = "toki pona"
+
+[[ka1]]
+definition = "(sentence-final question marker)"
+language = "Japanese"
+
+[[ka2]]
+definition = "being, person, creature, alive"
+language = "tuki tiki"
+
+[[ka2]]
+definition = "human being, person, somebody"
 language = "toki pona"
 
 [[kajo]]
@@ -232,6 +272,14 @@ language = "English"
 definition = "okay"
 language = "English"
 
+[[kelo]]
+definition = "color, pigment; category, genre, flavor; colorful, diverse"
+language = "toki pona"
+
+[[kelo]]
+definition = "liquids e.g. water, gasoline, soda, lava, soup, oil, ink"
+language = "toki pona"
+
 [[kepa]]
 language = "a priori"
 
@@ -242,6 +290,14 @@ language = "toki pona"
 [[kese]]
 definition = "named for the Jewish LGBT organization Keshet"
 language = "Hebrew"
+
+[[kewe]]
+definition = "color, pigment; category, genre, flavor; colorful, diverse"
+language = "toki pona"
+
+[[kewe]]
+definition = "up, top, above, highest part; divine, sacred, supernatural; awesome, inspiring, excelling"
+language = "toki pona"
 
 [[kewi]]
 definition = "credit"
@@ -404,6 +460,10 @@ language = "toki pona"
 [[lu]]
 language = "a priori"
 
+[[lu1]]
+definition = "(indicate context for a prior sentence)"
+language = "toki pona"
+
 [[masalo]]
 language = "French"
 
@@ -455,12 +515,16 @@ language = "Vietnamese"
 language = "a priori"
 
 [[nu1]]
-definition = "sin"
+definition = "new"
 language = "English"
 
 [[nun]]
 definition = "5"
 language = "Cantonese"
+
+[[nusun]]
+definition = "astrology, fortune-telling, predicting the future; fortune-teller, oracle; star"
+language = "Malay"
 
 [[nuwa]]
 definition = "newer"
@@ -569,6 +633,10 @@ language = "toki pona"
 [[pipolo]]
 language = "toki pona"
 
+[[pokasi]]
+definition = "poggies, pog"
+language = "English"
+
 [[polinpin]]
 definition = "bowling pin"
 language = "English"
@@ -653,6 +721,14 @@ language = "toki pona"
 definition = "sleep"
 language = "English"
 
+[[snoweli]]
+definition = "snowman"
+language = "English"
+
+[[snoweli]]
+definition = "fuzzy creature, land animal, beast"
+language = "toki pona"
+
 [[sole]]
 definition = "to use to, to tend to"
 language = "Spanish"
@@ -671,6 +747,14 @@ language = "English"
 
 [[sulaso]]
 definition = "blue, green"
+language = "toki pona"
+
+[[sunta]]
+definition = "light, shine, glow, radiance; sun, light source; brightness"
+language = "toki pona"
+
+[[sunta]]
+definition = "mouth, lips, throat, consuming orifice"
 language = "toki pona"
 
 [[suwili]]
@@ -702,6 +786,10 @@ language = "Japanese"
 definition = "time, event, situation"
 language = "toki pona"
 
+[[tenkala]]
+definition = "southeast"
+language = "Malay"
+
 [[tokana]]
 definition = "attention, focus"
 language = "Tongan"
@@ -728,6 +816,14 @@ language = "English"
 
 [[u]]
 language = "a priori"
+
+[[uka]]
+definition = "mouth, lips, throat, consuming orifice"
+language = "toki pona"
+
+[[uka]]
+definition = "plant, vegetation; herb, leaf"
+language = "toki pona"
 
 [[umesu]]
 definition = "to amaze (someone), surprise, impress"
