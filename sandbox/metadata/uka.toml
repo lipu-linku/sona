@@ -1,0 +1,28 @@
+#:schema ../../api/generated/word.json
+id = "uka"
+author_verbatim = "I've actually kinda thought about the concept of a conlanguage that specifically encodes the deuteranopia color spectrum as default & so i like this idea"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/886624458369024071"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["soweli kina"]
+see_also = ["jelo", "laso", "loje", "kelo", "sunta", "kewe"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "uka"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "uta"
+
+[[etymology]]
+word = "kasi"
+
+[representations]
+ligatures = ["uka"]
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/User:CosmicPython/Colorblindness#uka%E2%80%93kelo_system"
