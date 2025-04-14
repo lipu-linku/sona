@@ -1,8 +1,7 @@
 import json
+import tomllib
 from pathlib import Path
 from typing import Any, Callable, Final, Iterator, Optional
-
-import tomllib
 
 DATA_FOLDER: Final[str] = "metadata"
 TRANSLATIONS_FOLDER: Final[str] = "translations"
@@ -20,6 +19,7 @@ def fetch_words_stem(path: Path, data: dict):
 # Value is a function that produces the parent key, if any
 DATA_TYPES: Final[dict[str, Callable[[Path, dict], Optional[str]]]] = {
     "words": lambda path, data: fetch_words_stem(path, data),
+    "sandbox": lambda path, data: fetch_words_stem(path, data),
     "luka_pona/signs": lambda path, data: path.stem,
     "luka_pona/fingerspelling": lambda path, data: path.stem,
     "fonts": lambda path, data: path.stem,
@@ -33,7 +33,7 @@ def extract_data(
     key_maker: Callable[[Path, dict], Optional[str]],
 ):
     for path in paths:
-        with open(path, 'rb') as file:
+        with open(path, "rb") as file:
             print(f"Reading {path}...")
             data = tomllib.load(file)
             key = key_maker(path, data)
@@ -52,7 +52,7 @@ def insert_translations(
     key_maker: Callable[[Path, dict], Optional[str]],
 ):
     for path in paths:
-        with open(path, 'rb') as file:
+        with open(path, "rb") as file:
             print(f"Reading {path}...")
             localized_data = tomllib.load(file)
             locale = path.parent.stem

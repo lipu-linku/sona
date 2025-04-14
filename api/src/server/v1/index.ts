@@ -84,11 +84,7 @@ const app = new Hono()
 
 	.get("/words", langValidator, languagesFilter(true), async (c) => {
 		const data = (await rawData).words;
-		// FIXME: Remove when packaging script reworked
-		const filteredWords = Object.fromEntries(
-			Object.entries(data).filter(([, value]) => value.usage_category !== "sandbox"),
-		);
-		return c.json(filteredWords, 200);
+		return c.json(data, 200);
 	})
 
 	.get(
@@ -99,8 +95,7 @@ const app = new Hono()
 		async (c) => {
 			const word = (await rawData).words[c.req.param("word")];
 
-			// FIXME: Remove when packaging script reworked
-			return word && word.usage_category !== "sandbox"
+			return word
 				? c.json({ ok: true as const, data: word }, 200)
 				: c.json(
 						{ ok: false as const, message: `Could not find the word ${c.req.param("word")}` },
@@ -110,12 +105,8 @@ const app = new Hono()
 	)
 
 	.get("/sandbox", langValidator, languagesFilter(true), async (c) => {
-		const data = (await rawData).words;
-		// FIXME: Remove when packaging script reworked
-		const filteredWords = Object.fromEntries(
-			Object.entries(data).filter(([, value]) => value.usage_category === "sandbox"),
-		);
-		return c.json(filteredWords, 200);
+		const data = (await rawData).sandbox;
+		return c.json(data, 200);
 
 		// return c.json((await rawData).sandbox);
 	})
@@ -126,9 +117,8 @@ const app = new Hono()
 		zValidator("param", z.object({ word: z.string() })),
 		languagesFilter(false),
 		async (c) => {
-			const word = (await rawData).words[c.req.param("word")];
-			// FIXME: Remove when packaging script reworked
-			return word && word.usage_category === "sandbox"
+			const word = (await rawData).sandbox[c.req.param("word")];
+			return word
 				? c.json({ ok: true as const, data: word }, 200)
 				: c.json(
 						{

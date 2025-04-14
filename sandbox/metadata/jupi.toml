@@ -1,0 +1,30 @@
+#:schema ../../api/generated/word.json
+id = "jupi"
+author_verbatim = "[...] jupi - celebrate, celebration, victory, yippee (exclamation) <- Spanish \"yupi\"\n\nalso partially coined because there isn't a common toki pona word that starts with the syllable \"ju\" and i don't like any of the sandbox ones that do lol [...]"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/1187029495203504168/1244688898911764572"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["jan Kita", "niko", "meli Siliwa"]
+see_also = ["a", "je", "wa", "jepi", "jipi", "sipije"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "jupi"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "yupi"
+
+[[etymology]]
+word = "yippee"
+
+[[etymology]]
+word = ".ui"
+
+[representations]
+ligatures = []  # requested for ssk as "jupi"
+
+[usage]
+
+[resources]
