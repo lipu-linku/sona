@@ -1,0 +1,63 @@
+{
+  "$ref": "#/definitions/languages",
+  "definitions": {
+    "languages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 2,
+            "description": "The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."
+          },
+          "locale": {
+            "type": "string",
+            "description": "The locale code corresponding to the language."
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "ltr",
+              "rtl"
+            ],
+            "description": "The direction of the language's script."
+          },
+          "name": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "description": "The name of the language in English."
+              },
+              "tok": {
+                "type": "string",
+                "description": "The name of the language in Toki Pona."
+              },
+              "endonym": {
+                "type": "string",
+                "description": "The name of the language in that language."
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "locale",
+          "direction",
+          "name"
+        ],
+        "additionalProperties": false,
+        "description": "The languages offered by sona Linku."
+      },
+      "propertyNames": {
+        "minLength": 2
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

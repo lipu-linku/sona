@@ -1,0 +1,17 @@
+{
+  "$ref": "#/definitions/definition_translation",
+  "definitions": {
+    "definition_translation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "Localized definitions of Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -103,9 +103,9 @@ export const fetchFile = async <S extends z.ZodType>(
 	schema.safeParse(
 		__BRANCH__ === versions[version].branch
 			? await import.meta
-					.glob(`../../raw/*.json`, { import: "default" })
-					[`../../raw/${filename}`]?.()
-			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
-					r.json(),
+					.glob(`../../raw/${version}/*.json`, { import: "default" })
+					[`../../raw/${version}/${filename}`]?.()
+			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${version}/${filename}`).then(
+					(r) => r.json(),
 				),
 	);

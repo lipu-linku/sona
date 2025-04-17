@@ -1,0 +1,84 @@
+{
+  "$ref": "#/definitions/fingerspelling_sign",
+  "definitions": {
+    "fingerspelling_sign": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "A globally unique name for the sign which is also a gloss."
+        },
+        "is_two_handed": {
+          "type": "boolean",
+          "description": "Whether the sign is two-handed or not."
+        },
+        "etymology": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "string",
+                "description": "The language of the sign."
+              },
+              "sign": {
+                "type": "string",
+                "description": "The name of the sign such that it could be found in a sign language dictionary."
+              }
+            },
+            "required": [
+              "language",
+              "sign"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Unlocalized etymological values regarding this sign's origin"
+        },
+        "signwriting": {
+          "type": "object",
+          "properties": {
+            "fsw": {
+              "type": "string",
+              "description": "The Formal Sign Writing representation of the sign."
+            },
+            "swu": {
+              "type": "string",
+              "description": "The Sign Writing with Unicode representation of hte sign."
+            }
+          },
+          "required": [
+            "fsw",
+            "swu"
+          ],
+          "additionalProperties": false,
+          "description": "Scripts for representing a sign as characters."
+        },
+        "video": {
+          "type": "object",
+          "properties": {
+            "gif": {
+              "type": "string",
+              "description": "A link to a gif of the sign being signed."
+            },
+            "mp4": {
+              "type": "string",
+              "description": "a link to an mp4 of the sign being signed."
+            }
+          },
+          "additionalProperties": false,
+          "description": "Videos of the sign being performed, by format."
+        }
+      },
+      "required": [
+        "id",
+        "is_two_handed",
+        "etymology",
+        "signwriting",
+        "video"
+      ],
+      "additionalProperties": false,
+      "description": "Unlocalized info on a fingerspelling sign."
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
