@@ -3,9 +3,9 @@ word = "san"
 word_id = "san"
 name = []
 usage_category = "sandbox"
-creator_source = ""
-creator = ["meli Siliwa"]
-creation_date = ""
+creator_source = "https://discord.com/channels/301377942062366741/851665652452556840/867616678644154389"
+creator = ["telo misi"]
+creation_date = "2021-07-21"
 is_primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1QPKfYgDcBWnW4nQgKY2uuOvQuWjlSvep"
