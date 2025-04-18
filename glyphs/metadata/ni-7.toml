@@ -1,0 +1,16 @@
+id = "ni-7"
+word = "ni"
+word_id = "ni"
+name = ["up-left ni"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/903174311341355040"
+creator = ["waso Atemi pi kulupu kasi"]
+creation_date = "2021-10-28"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1exH5k0mwK4usiahF-nG4GsBZT2kOnjV6"
+svg = ""
+ligature = "ni#7"
+ucsur = "U+F1941"
+
+[usage]

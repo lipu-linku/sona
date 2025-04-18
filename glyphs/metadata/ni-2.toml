@@ -1,0 +1,16 @@
+id = "ni-2"
+word = "ni"
+word_id = "ni"
+name = ["right ni"]
+usage_category = "uncommon"
+creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/692137231619457094"
+creator = ["jan Epo (aprilsr)"]
+creation_date = "2020-03-24"
+is_primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1vawuKrHIDl7OI3XMR5_XxPhyTnGaDtPY"
+svg = ""
+ligature = "ni#2"
+ucsur = "U+F1941"
+
+[usage]
