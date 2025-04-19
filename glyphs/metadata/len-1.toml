@@ -1,7 +1,6 @@
 id = "len-1"
 word = "len"
 word_id = "len"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

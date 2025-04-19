@@ -1,7 +1,6 @@
 id = "mije-1"
 word = "mije"
 word_id = "mije"
-name = []
 usage_category = "common"
 creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 creator = ["jan Sonja"]

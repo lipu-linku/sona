@@ -1,7 +1,6 @@
 id = "sin-1"
 word = "sin"
 word_id = "sin"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

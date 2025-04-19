@@ -1,7 +1,6 @@
 id = "leko-1"
 word = "leko"
 word_id = "leko"
-name = []
 usage_category = "common"
 creator_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
 creator = ["jan Same"]

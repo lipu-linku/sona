@@ -1,7 +1,6 @@
 id = "a-5"
 word = "a"
 word_id = "a"
-name = ["interrobang a", "a!?", "a?!"]
 usage_category = "sandbox"
 creator_source = ""
 creator = []

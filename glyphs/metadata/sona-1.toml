@@ -1,7 +1,6 @@
 id = "sona-1"
 word = "sona"
 word_id = "sona"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

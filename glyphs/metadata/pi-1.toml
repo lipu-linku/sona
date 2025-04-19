@@ -1,7 +1,6 @@
 id = "pi-1"
 word = "pi"
 word_id = "pi"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

@@ -1,7 +1,6 @@
 id = "tenpo-1"
 word = "tenpo"
 word_id = "tenpo"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

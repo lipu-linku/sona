@@ -1,7 +1,6 @@
 id = "poki-1"
 word = "poki"
 word_id = "poki"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

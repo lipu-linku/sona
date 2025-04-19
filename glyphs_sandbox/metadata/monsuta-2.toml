@@ -1,7 +1,6 @@
 id = "monsuta-2"
 word = "monsuta"
 word_id = "monsuta"
-name = ["teeth monsuta"]
 usage_category = "sandbox"
 creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
 creator = ["Jack Humbert"]

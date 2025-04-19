@@ -1,7 +1,6 @@
 id = "kokosila-2"
 word = "kokosila"
 word_id = "kokosila"
-name = []
 usage_category = "obscure"
 creator_source = "https://github.com/janSame/linja-pona, linja pona 4.9"
 creator = ["jan Same"]

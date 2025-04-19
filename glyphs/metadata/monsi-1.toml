@@ -1,7 +1,6 @@
 id = "monsi-1"
 word = "monsi"
 word_id = "monsi"
-name = []
 usage_category = "core"
 creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 creator = ["jan Sonja"]

@@ -1,7 +1,6 @@
 id = "wile-2"
 word = "wile"
 word_id = "wile"
-name = ["heart wile"]
 usage_category = "uncommon"
 creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
 creator = ["Jack Humbert"]

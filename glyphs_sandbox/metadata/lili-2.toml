@@ -1,7 +1,6 @@
 id = "lili-2"
 word = "lili"
 word_id = "lili"
-name = ["underline lili"]
 usage_category = "sandbox"
 creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
 creator = ["Jack Humbert"]

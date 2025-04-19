@@ -1,7 +1,6 @@
 id = "ante-2"
 word = "ante"
 word_id = "ante"
-name = ["skew ante"]
 usage_category = "uncommon"
 creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
 creator = ["Jack Humbert"]

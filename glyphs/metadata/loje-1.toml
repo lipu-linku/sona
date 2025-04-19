@@ -1,7 +1,6 @@
 id = "loje-1"
 word = "loje"
 word_id = "loje"
-name = []
 usage_category = "core"
 creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 creator = ["jan Sonja"]

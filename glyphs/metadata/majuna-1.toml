@@ -1,7 +1,6 @@
 id = "majuna-1"
 word = "majuna"
 word_id = "majuna"
-name = ["sin majuna", "flipped sin majuna", "turned sin majuna"]
 usage_category = "obscure"
 creator_source = "https://web.archive.org/web/20210209100619/https://linjasuwi.ap5.dev/"
 creator = ["ijo Mina"]

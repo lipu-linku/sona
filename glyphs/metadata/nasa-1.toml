@@ -1,7 +1,6 @@
 id = "nasa-1"
 word = "nasa"
 word_id = "nasa"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

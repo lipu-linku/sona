@@ -1,7 +1,6 @@
 id = "pali-1"
 word = "pali"
 word_id = "pali"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]

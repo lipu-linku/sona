@@ -1,7 +1,6 @@
 id = "olin-3"
 word = "olin"
 word_id = "olin"
-name = ["emitters olin"]
 usage_category = "uncommon"
 creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/772044914338299934"
 creator = ["asnev", "devurandom"]

@@ -1,7 +1,6 @@
 id = "pake-1"
 word = "pake"
 word_id = "pake"
-name = []
 usage_category = "obscure"
 creator_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
 creator = ["jan Same"]

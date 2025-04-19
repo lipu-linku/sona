@@ -1,7 +1,6 @@
 id = "lukin-1"
 word = "lukin"
 word_id = "lukin"
-name = []
 usage_category = "core"
 creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 creator = ["jan Sonja"]

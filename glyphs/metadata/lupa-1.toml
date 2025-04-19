@@ -1,7 +1,6 @@
 id = "lupa-1"
 word = "lupa"
 word_id = "lupa"
-name = []
 usage_category = "core"
 creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 creator = ["jan Sonja"]

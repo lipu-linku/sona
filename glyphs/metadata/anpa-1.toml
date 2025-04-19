@@ -1,7 +1,6 @@
 id = "anpa-1"
 word = "anpa"
 word_id = "anpa"
-name = []
 usage_category = "core"
 creator_source = "lipu pu"
 creator = ["jan Sonja"]
