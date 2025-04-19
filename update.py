@@ -40,7 +40,7 @@ SOURCE = 6
 CREATOR = 7
 NAMES = 8
 PRIMARY = 9
-NOTES = 11
+NOTES = 12
 
 
 SANDBOX_START = "./sandbox/"
@@ -147,8 +147,14 @@ def assemble_pu_data(word_data):
     glyph_data["svg"] = (
         f"https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/{glyph_data['word']}.svg"
     )
-
     glyph_data["is_primary"] = True
+
+    glyph_data["name"] = [f"pu {word_data['word']}"]
+
+    if word_data["word"] == "akesi":
+        glyph_data["is_primary"] = False
+        glyph_data["name"].extend(["6 leg akesi", "6 legged akesi"])
+
     return glyph_data
 
 
@@ -179,6 +185,7 @@ def assemble_nonpu_data(word_data, row, len: int):
     glyph_data["name"] = [
         name.strip().lower() for name in row[NAMES].split(",") if name
     ]
+    glyph_data["commentary"] = row[NOTES]
 
     return glyph_data
 
@@ -188,6 +195,12 @@ def write_glyph_data(path: str, glyph_data) -> str:
     with open(os.path.join(path, filename), "w") as f:
         f.write(tomlkit.dumps(glyph_data))
     return glyph_data["id"]
+
+
+def write_translation_data(path: str, filename: str, translations):
+    filename += ".toml"
+    with open(os.path.join(path, filename), mode="w") as f:
+        f.write(tomlkit.dumps(translations))
 
 
 def find_usage_category(word_data, row, len: int) -> str:
@@ -225,10 +238,18 @@ def glyph_sort(glyphs: list[list[str]]):
 def main(argv: argparse.Namespace):
     GLYPHS_OUTPUT = "./glyphs/metadata/"
     SANDBOX_OUTPUT = "./glyphs_sandbox/metadata/"
+    TRANSLATIONS_OUTPUT = "./glyphs/source/"
+    TRANSLATIONS_SANDBOX_OUTPUT = "./glyphs_sandbox/source/"
 
     LOG.setLevel(argv.log_level)
     written_ids: list[str] = list()
     sandbox_ids: list[str] = list()
+
+    names = dict()
+    names_sandbox = dict()
+
+    commentary = dict()
+    commentary_sandbox = dict()
 
     for id, word_data in WORDS_DATA.items():
         if id == "ali":  # the only synonym above sandbox
@@ -237,6 +258,7 @@ def main(argv: argparse.Namespace):
         # all pu handling
         if word_data["book"] == "pu":
             glyph_data = assemble_pu_data(word_data)
+            names[id] = glyph_data.pop("name")
             written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
@@ -261,6 +283,8 @@ def main(argv: argparse.Namespace):
         for i, row in enumerate(found_glyphs, 1):
             # note: non-pu glyphs for pu words will offset the given index
             glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
+            names[id] = glyph_data.pop("name")
+            commentary[id] = glyph_data.pop("commentary")
             written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
@@ -269,8 +293,17 @@ def main(argv: argparse.Namespace):
         for i, row in enumerate(sandbox_glyphs, 1):
             # note: non-pu glyphs for pu words will offset the given index
             glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
+            names_sandbox[id] = glyph_data.pop("name")
+            commentary_sandbox[id] = glyph_data.pop("commentary")
             sandbox_id = write_glyph_data(SANDBOX_OUTPUT, glyph_data)
             sandbox_ids.append(sandbox_id)
+
+        write_translation_data(TRANSLATIONS_OUTPUT, "names", names)
+        write_translation_data(TRANSLATIONS_SANDBOX_OUTPUT, "names", names_sandbox)
+        write_translation_data(TRANSLATIONS_OUTPUT, "commentary", commentary)
+        write_translation_data(
+            TRANSLATIONS_SANDBOX_OUTPUT, "commentary", commentary_sandbox
+        )
 
     # for id in written_ids:
     #     line = f'{id} = ""'
