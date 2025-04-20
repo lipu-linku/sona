@@ -18,10 +18,11 @@ import {
 import { Hono } from "hono";
 import type { z } from "zod";
 import apiV1 from "./v1";
+import apiV2 from "./v2";
 
 export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
 
-export type ApiVersion = "v1";
+export type ApiVersion = "v1" | "v2";
 
 export type Versions = {
 	[version in ApiVersion]: {
@@ -33,6 +34,52 @@ export type Versions = {
 
 export const versions = {
 	v1: {
+		branch: __BRANCH__,
+		schemas: {
+			words: Words,
+			word: Word,
+			definition: DefinitionTranslation,
+			commentary: CommentaryTranslation,
+			etymology: EtymologyTranslation,
+			sitelen_pona: SitelenPonaTranslation,
+			signs: Signs,
+			sign: Sign,
+			fingerspelling: Fingerspelling,
+			fingerspelling_sign: FingerspellingSign,
+			sign_parameters: ParametersTranslation,
+			sign_icons: IconTranslation,
+			fonts: Fonts,
+			font: Font,
+			languages: Languages,
+		},
+		raw: {
+			words: {
+				filename: "words.json",
+				schema: Words,
+			},
+			sandbox: {
+				filename: "sandbox.json",
+				schema: Words,
+			},
+			fingerspelling: {
+				filename: "fingerspelling.json",
+				schema: Fingerspelling,
+			},
+			signs: {
+				filename: "signs.json",
+				schema: Signs,
+			},
+			fonts: {
+				filename: "fonts.json",
+				schema: Fonts,
+			},
+			languages: {
+				filename: "languages.json",
+				schema: Languages,
+			},
+		},
+	},
+	v2: {
 		branch: __BRANCH__,
 		schemas: {
 			words: Words,
@@ -93,19 +140,22 @@ type Apps = {
 
 export const apps = {
 	v1: apiV1,
+	v2: apiV2,
 } as const satisfies Apps;
 
 export const fetchFile = async <S extends z.ZodType>(
 	version: ApiVersion,
 	schema: S,
 	filename: string,
-): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
-	schema.safeParse(
-		__BRANCH__ === versions[version].branch
-			? await import.meta
-					.glob(`../../raw/${version}/*.json`, { import: "default" })
-					[`../../raw/${version}/${filename}`]?.()
-			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${version}/${filename}`).then(
-					(r) => r.json(),
-				),
-	);
+): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> => {
+	let file;
+	if (__BRANCH__ === versions[version].branch) {
+		// first import, then get specific file
+		file = await import.meta.glob(`../../raw/*/*.json`)[`../../raw/${version}/${filename}`]?.();
+	} else {
+		file = await fetch(
+			`${BASE_URL}/${versions[version].branch}/api/raw/${version}/${filename}`,
+		).then((r) => r.json());
+	}
+	return schema.safeParse(file);
+};

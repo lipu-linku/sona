@@ -1,8 +1,14 @@
-import * as schemas from "./src/lib/index";
+// TODO: dynamic import from current api version
+
+export const CURRENT_API_VERSION = "v2";
+
+import * as schemas from "./src/lib/v2/index";
 import { zodToJsonSchema } from "zod-to-json-schema";
 import fs from "node:fs";
 
-if (!fs.existsSync("generated")) fs.mkdirSync("generated");
+if (!fs.existsSync(`generated/${CURRENT_API_VERSION}`)) {
+	fs.mkdirSync(`generated/{${CURRENT_API_VERSION}`, { recursive: true });
+}
 
 for (const [name, schema] of Object.entries(schemas)) {
 	const filename = name
@@ -10,7 +16,8 @@ for (const [name, schema] of Object.entries(schemas)) {
 		.replace(/^_/, "");
 
 	fs.writeFile(
-		new URL(`./generated/${filename}.json`, import.meta.url),
+		// NOTE: we only support updating schemas for the latest api version
+		new URL(`./generated/${CURRENT_API_VERSION}/${filename}.json`, import.meta.url),
 		JSON.stringify(
 			zodToJsonSchema(schema, {
 				name: filename,
