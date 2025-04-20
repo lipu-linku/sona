@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://imgur.com/X4UAoHt, https://www.reddit.com/r/tokipona/comments/gvwe91/comment/fsrerxa/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"
 creator = ["u/timeopochin"]
 creation_date = "2020-06-03"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1eFId7MNKN1g5izARVWImEUTuY9O-1JHQ"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = ""
 creator = []
 creation_date = ""
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1H3cQsGHPjP3W41RdstzXl3dQmg9GOhYV"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "uncommon"
 creator_source = ""
 creator = []
 creation_date = ""
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1Y-YVtbjDE3bIHvokDOkRF4dNFDa6ZLrg"
 svg = ""

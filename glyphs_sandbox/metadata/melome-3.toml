@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1319810935262679053"
 creator = ["soweli Selupu"]
 creation_date = "2024-12-21"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=10bUE1gu-vJQ5zc841779RarjgtVKP0hj"
 svg = ""

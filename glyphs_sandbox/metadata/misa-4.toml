@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/814444550730809404"
 creator = ["waso pimeja pi kulupu kasi"]
 creation_date = "2021-02-25"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1vVEjpC1Vj8_MZVDMqeS16nxmkLT599zJ"
 svg = ""

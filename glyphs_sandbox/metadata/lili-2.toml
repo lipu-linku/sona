@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
 creator = ["Jack Humbert"]
 creation_date = "2020-03-09"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1bL6z9xDUAsGxwHhdPROL4RqICdceLDFE"
 svg = ""

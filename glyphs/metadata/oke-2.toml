@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
 creator = ["the_whatevers"]
 creation_date = "2020-11-30"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1vSLA2eWOQKp85tpbZF9sC21CdCrDIyTB"
 svg = ""

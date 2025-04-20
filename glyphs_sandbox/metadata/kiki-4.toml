@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://www.reddit.com/r/tokipona/comments/u323h2/do_you_use_the_heiroglyphs/"
 creator = ["unknown"]
 creation_date = "2022-08-13"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1fGgBxhBF20A-sieqx1funtbE2ta3I6x5"
 svg = ""

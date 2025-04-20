@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/812040646558220298"
 creator = ["jan Tumu"]
 creation_date = "2021-02-18"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1_vwtFFPpgOAVI56p3FQPGiYn7aN-ku2p"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/819618189205045248"
 creator = ["lipamanka"]
 creation_date = "2021-03-11"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1XobgIPiOLADvbtGb6VVvufMsPwRP43cI"
 svg = ""

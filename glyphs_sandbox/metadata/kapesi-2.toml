@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://www.reddit.com/r/tokipona/comments/ggi3eu/sitelen_pona_ideas_on_some_non_pu_words_more/"
 creator = ["Da_Werido"]
 creation_date = "2020-05-09"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1lCXJjyXx1aA04GKi0HCJh0yBZz97g7cf"
 svg = ""

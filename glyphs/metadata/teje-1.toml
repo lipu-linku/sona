@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = ""
 creator = []
 creation_date = ""
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1Y-gFGf_cPYI-Coz9jhh12NFKSkEHaQxF"
 svg = ""

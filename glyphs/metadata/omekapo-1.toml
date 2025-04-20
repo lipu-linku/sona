@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://www.reddit.com/r/OffThePu/comments/iahhtc/here_are_the_official_glyphs_for_the_1b_words_in/"
 creator = ["jan Elemenopi"]
 creation_date = "2020-08-15"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=14jkQ1aXcbVCdYCDzz6cvF-0tsavw5mU2"
 svg = ""

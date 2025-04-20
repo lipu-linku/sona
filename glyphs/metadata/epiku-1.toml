@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/736969258004775043, https://discord.com/channels/301377942062366741/301377942062366741/726815641742475376, https://www.reddit.com/r/tokipona/comments/hyi31s/a_revision_of_some_of_my_nonpu_glyphs/"
 creator = ["TheDarkBomber", "jan Atape"]
 creation_date = "2020-07-26"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1ZN3rW1HS0_AciSHWvx8IkG0QN0r-oj1w"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "uncommon"
 creator_source = "https://discord.com/channels/301377942062366741/733009134856699924/993114530257313833"
 creator = ["jan Telupiso"]
 creation_date = "2022-07-03"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1_SwVXlnzAnXqIEbAjRNRghBk35IDnaPN"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/871243874192994345"
 creator = ["akesi kon Nalasuni"]
 creation_date = "2021-07-31"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1oqYksiQyJw-lZLuHKtkNEMJ3OBrnDpcl"
 svg = ""

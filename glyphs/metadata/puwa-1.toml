@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/857038084025876481"
 creator = ["jan Seli"]
 creation_date = "2021-06-22"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1Nua_jS0SxesI-3Wkv5Mzg-YA3V5XDfcG"
 svg = ""

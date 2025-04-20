@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/814443402774315008"
 creator = ["ilo Sasi"]
 creation_date = "2021-02-25"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1mo4GR1WSYrkfafa2-R1Km42W-Ucu9TU-"
 svg = ""

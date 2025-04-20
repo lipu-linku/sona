@@ -5,7 +5,7 @@ usage_category = "uncommon"
 creator_source = "forums.tokipona.org/viewtopic.php?p=15452#p15452"
 creator = ["jan Same"]
 creation_date = "2016-12-03"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1HnzC6YM_cZLG-NjAClEAvPirg33QA_nB"
 svg = ""

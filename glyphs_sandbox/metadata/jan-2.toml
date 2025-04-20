@@ -5,7 +5,7 @@ usage_category = "sandbox"
 creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/939702382034550854"
 creator = ["unknown"]
 creation_date = "2022-02-05"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1SqzoWsLIYx5qlm-DD1uRZgnOcGUCj5Bu"
 svg = ""

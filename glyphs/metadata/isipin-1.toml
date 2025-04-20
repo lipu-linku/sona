@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/733315606811770901"
 creator = ["kili peemlueq"]
 creation_date = "2020-07-18"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1D2rkhoTKP47R8wzirK4VoJWIgTGXMmkT"
 svg = ""

@@ -5,7 +5,7 @@ usage_category = "uncommon"
 creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/869476620006723604"
 creator = ["jan Sala (salarua)"]
 creation_date = "2021-07-27"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1YPCKReUFdFX7RSOb88Dq3muR-A1EDVUp"
 svg = ""

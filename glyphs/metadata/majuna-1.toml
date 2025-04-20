@@ -5,7 +5,7 @@ usage_category = "obscure"
 creator_source = "https://web.archive.org/web/20210209100619/https://linjasuwi.ap5.dev/"
 creator = ["ijo Mina"]
 creation_date = "2021-02-09"
-is_primary = false
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1B4FaeVim3X266ZRGVb3fHrxL60eXA5Xp"
 svg = ""

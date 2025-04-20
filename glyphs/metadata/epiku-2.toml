@@ -5,7 +5,7 @@ usage_category = "uncommon"
 creator_source = "https://discord.com/channels/301377942062366741/912286596517220363/913408280947200010"
 creator = ["kala Asi", "jan Seli", "waso suno Alana"]
 creation_date = "2021-11-25"
-is_primary = true
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=17x61Jd7rcwYImdrl2pjHnIQznqp-mAi2"
 svg = ""
