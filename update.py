@@ -43,9 +43,6 @@ PRIMARY = 9
 NOTES = 12
 
 
-SANDBOX_START = "./sandbox/"
-WORDS_START = "./words/"
-
 GLYPH_FORMAT = {
     "id": "",
     "word": "",
@@ -56,7 +53,7 @@ GLYPH_FORMAT = {
     "creator_source": "",
     "creator": [],
     "creation_date": "",
-    "is_primary": True,
+    "primary": True,
     "deprecated": False,
     #
     # "representations": {
@@ -147,13 +144,16 @@ def assemble_pu_data(word_data):
     glyph_data["svg"] = (
         f"https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/{glyph_data['word']}.svg"
     )
-    glyph_data["is_primary"] = True
+    glyph_data["primary"] = True
 
     glyph_data["name"] = [f"pu {word_data['word']}"]
 
     if word_data["word"] == "akesi":
-        glyph_data["is_primary"] = False
+        glyph_data["primary"] = False
         glyph_data["name"].extend(["6 leg akesi", "6 legged akesi"])
+
+    if word_data["word"] == "ni":
+        glyph_data["name"].extend(["down ni"])
 
     return glyph_data
 
@@ -174,7 +174,7 @@ def assemble_nonpu_data(word_data, row, len: int):
     ]
     glyph_data["creation_date"] = row[CREATED]
     glyph_data["creator_source"] = row[SOURCE]
-    glyph_data["is_primary"] = row[PRIMARY] == "Yes"
+    glyph_data["primary"] = row[PRIMARY] == "Yes"
 
     glyph_data["ligature"] = id + f"#{i}"
     glyph_data["ucsur"] = word_data["representations"].get("ucsur")
@@ -211,7 +211,7 @@ def find_usage_category(word_data, row, len: int) -> str:
     """
     is_pu = word_data["book"] == "pu"
     is_primary = row[PRIMARY] == "Yes"
-    notable = is_notable(row)
+    notable = is_notable(word_data, row)
     word_category = word_data["usage_category"]
     if not notable:
         return "sandbox"
@@ -222,8 +222,21 @@ def find_usage_category(word_data, row, len: int) -> str:
     return CATG_MAP_NORMAL[word_category]
 
 
-def is_notable(row: list[str]) -> bool:
-    return row[APPEARS] == "Yes" and (row[DISTINCT] == "Yes" or row[PRIMARY] == "Yes")
+def is_notable(word_data, row: list[str]) -> bool:
+    appears = row[APPEARS]
+    distinct = row[DISTINCT]
+    primary = row[PRIMARY]
+    is_sandbox = word_data["usage_category"]
+
+    appears = appears == "Yes"
+    distinct = distinct == "Yes"
+    primary = primary == "Yes"
+    is_sandbox = is_sandbox == "sandbox"
+
+    main_glyph_of_non_sandbox = not is_sandbox and primary
+
+    notable = (appears or main_glyph_of_non_sandbox) and (distinct or primary)
+    return notable
 
 
 def glyph_sort(glyphs: list[list[str]]):
@@ -237,9 +250,9 @@ def glyph_sort(glyphs: list[list[str]]):
 
 def main(argv: argparse.Namespace):
     GLYPHS_OUTPUT = "./glyphs/metadata/"
-    SANDBOX_OUTPUT = "./glyphs_sandbox/metadata/"
+    SANDBOX_OUTPUT = "./sandbox/glyphs/metadata/"
     TRANSLATIONS_OUTPUT = "./glyphs/source/"
-    TRANSLATIONS_SANDBOX_OUTPUT = "./glyphs_sandbox/source/"
+    TRANSLATIONS_SANDBOX_OUTPUT = "./sandbox/glyphs/source/"
 
     LOG.setLevel(argv.log_level)
     written_ids: list[str] = list()
@@ -258,7 +271,8 @@ def main(argv: argparse.Namespace):
         # all pu handling
         if word_data["book"] == "pu":
             glyph_data = assemble_pu_data(word_data)
-            names[id] = glyph_data.pop("name")
+            names[glyph_data["id"]] = glyph_data.pop("name", "")
+            commentary[glyph_data["id"]] = glyph_data.pop("commentary", "")
             written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
@@ -271,8 +285,8 @@ def main(argv: argparse.Namespace):
         # remove those we won't track (for now)
         # TODO: override for all remaining non-sandbox such that at least one glyph exists there?
 
-        sandbox_glyphs = [row for row in found_glyphs if not is_notable(row)]
-        found_glyphs = [row for row in found_glyphs if is_notable(row)]
+        sandbox_glyphs = [row for row in found_glyphs if not is_notable(word_data, row)]
+        found_glyphs = [row for row in found_glyphs if is_notable(word_data, row)]
 
         # sort by creation date, or submission time if creation date not available
         glyph_sort(found_glyphs)
@@ -283,8 +297,10 @@ def main(argv: argparse.Namespace):
         for i, row in enumerate(found_glyphs, 1):
             # note: non-pu glyphs for pu words will offset the given index
             glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
-            names[id] = glyph_data.pop("name")
-            commentary[id] = glyph_data.pop("commentary")
+
+            names[glyph_data["id"]] = glyph_data.pop("name")
+            commentary[glyph_data["id"]] = glyph_data.pop("commentary")
+
             written_id = write_glyph_data(GLYPHS_OUTPUT, glyph_data)
             written_ids.append(written_id)
 
@@ -293,14 +309,17 @@ def main(argv: argparse.Namespace):
         for i, row in enumerate(sandbox_glyphs, 1):
             # note: non-pu glyphs for pu words will offset the given index
             glyph_data = assemble_nonpu_data(word_data, row, total_glyphs)
-            names_sandbox[id] = glyph_data.pop("name")
-            commentary_sandbox[id] = glyph_data.pop("commentary")
+
+            names_sandbox[glyph_data["id"]] = glyph_data.pop("name")
+            commentary_sandbox[glyph_data["id"]] = glyph_data.pop("commentary")
+
             sandbox_id = write_glyph_data(SANDBOX_OUTPUT, glyph_data)
             sandbox_ids.append(sandbox_id)
 
         write_translation_data(TRANSLATIONS_OUTPUT, "names", names)
-        write_translation_data(TRANSLATIONS_SANDBOX_OUTPUT, "names", names_sandbox)
         write_translation_data(TRANSLATIONS_OUTPUT, "commentary", commentary)
+
+        write_translation_data(TRANSLATIONS_SANDBOX_OUTPUT, "names", names_sandbox)
         write_translation_data(
             TRANSLATIONS_SANDBOX_OUTPUT, "commentary", commentary_sandbox
         )
