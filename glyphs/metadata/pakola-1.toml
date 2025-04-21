@@ -1,0 +1,14 @@
+id = "pakola-1"
+word = "pakola"
+word_id = "pakola"
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/1054115216796946535"
+creator = ["jan Wali"]
+creation_date = "2022-12-18"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1FvbD4KqXWUyhBiqJqChusgt7bYmWOzP7"
+svg = ""
+ligature = "pakola#1"
+
+[usage]

@@ -2,12 +2,12 @@ id = "konwe-2"
 word = "konwe"
 word_id = "konwe"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/1072230753221488741/1073269363278360597"
-creator = ["jan Lepeka"]
-creation_date = "2023-02-09"
-primary = true
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=14EIjAGuIe24YL-lDs2Ub-pyPwpIt5r31"
+image = "https://drive.google.com/open?id=1wZYfcMxMSi8bBkY7StpStviZK9eYWTpz"
 svg = ""
 ligature = "konwe#2"
 

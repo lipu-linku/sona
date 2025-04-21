@@ -2,12 +2,12 @@ id = "ojuta-2"
 word = "ojuta"
 word_id = "ojuta"
 usage_category = "sandbox"
-creator_source = ""
-creator = []
-creation_date = ""
-primary = true
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/1032660478759014420"
+creator = [".hecko"]
+creation_date = "2022-10-20"
+primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=13CBTiaRB2lhMNp0u_Sf_K3R8G5KMWdsB"
+image = "https://drive.google.com/open?id=1ydLvGPiV787Zc0ikIV9FBNDBVTWa-d7U"
 svg = ""
 ligature = "ojuta#2"
 

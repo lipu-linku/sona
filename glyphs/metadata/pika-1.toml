@@ -1,0 +1,14 @@
+id = "pika-1"
+word = "pika"
+word_id = "pika"
+usage_category = "obscure"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1-oLh8Z-iUZgCr_mA9EgMuOiIE8k6Dp82"
+svg = ""
+ligature = "pika#1"
+
+[usage]
