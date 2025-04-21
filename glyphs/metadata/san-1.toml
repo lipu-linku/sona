@@ -1,0 +1,14 @@
+id = "san-1"
+word = "san"
+word_id = "san"
+usage_category = "obscure"
+creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844, https://discord.com/channels/301377942062366741/301377942062366741/804187779977314326"
+creator = ["jan Sa", "lipamanka"]
+creation_date = "2021-01-27"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1u1RBCJ-eDbv77sNTfSk1ZcJCbuh8pS4G"
+svg = ""
+ligature = "san#1"
+
+[usage]

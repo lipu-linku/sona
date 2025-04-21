@@ -1,4 +1,4 @@
-id = "san-1"
+id = "san-2"
 word = "san"
 word_id = "san"
 usage_category = "sandbox"
@@ -9,6 +9,6 @@ primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1QPKfYgDcBWnW4nQgKY2uuOvQuWjlSvep"
 svg = ""
-ligature = "san#1"
+ligature = "san#2"
 
 [usage]
