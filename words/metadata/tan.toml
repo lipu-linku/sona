@@ -20,10 +20,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/tan.mp3"
 
-[[etymology]]
-alt = "tsung"
-word = "從"
-
 [ku_data]
 basis = 40
 "because of" = 80

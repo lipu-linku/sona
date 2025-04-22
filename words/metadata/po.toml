@@ -16,9 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/po.mp3"
 
-[[etymology]]
-word = "four"
-
 [ku_data]
 four = 10
 
