@@ -12,9 +12,6 @@ usage_category = "sandbox"
 word = "aku"
 deprecated = false
 audio = []
-[[etymology]]
-word = "acru"
-
 [representations]
 ligatures = ["aku"]
 

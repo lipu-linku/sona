@@ -13,10 +13,6 @@ word = "patu"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "baat"
-word = "\u516b /\u634c"
-
 [representations]
 ligatures = []
 

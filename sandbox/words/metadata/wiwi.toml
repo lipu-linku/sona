@@ -13,9 +13,6 @@ word = "wiwi"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "oui, oui"
-
 [representations]
 ligatures = ["wiwi"]
 

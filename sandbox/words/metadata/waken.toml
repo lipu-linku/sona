@@ -13,12 +13,6 @@ word = "waken"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "wuggen"
-
-[[etymology]]
-word = "wug"
-
 [representations]
 ligatures = ["waken"]
 

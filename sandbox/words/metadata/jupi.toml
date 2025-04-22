@@ -13,15 +13,6 @@ word = "jupi"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "yupi"
-
-[[etymology]]
-word = "yippee"
-
-[[etymology]]
-word = ".ui"
-
 [representations]
 ligatures = []  # requested for ssk as "jupi"
 

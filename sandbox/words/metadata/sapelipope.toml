@@ -13,9 +13,6 @@ word = "sapelipope"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "saperlipopette"
-
 [representations]
 ligatures = ["sapelipope"]
 

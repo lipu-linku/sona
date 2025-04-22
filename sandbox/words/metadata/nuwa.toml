@@ -13,9 +13,6 @@ word = "nuwa"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "newer"
-
 [representations]
 ligatures = ["nuwa"]
 

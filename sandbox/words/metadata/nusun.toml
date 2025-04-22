@@ -13,9 +13,6 @@ word = "nusun"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "nujum"
-
 [representations]
 ligatures = ["nusun"]
 

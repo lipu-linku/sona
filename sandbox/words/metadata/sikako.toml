@@ -13,9 +13,6 @@ word = "sikako"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "escargot"
-
 [representations]
 ligatures = ["sikako"]
 

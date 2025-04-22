@@ -13,9 +13,6 @@ word = "apoko"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "I forgor"
-
 [representations]
 ligatures = []
 

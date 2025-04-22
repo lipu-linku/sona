@@ -13,9 +13,6 @@ word = "siwala"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "tiwalà"
-
 [representations]
 ligatures = ["siwala"]
 

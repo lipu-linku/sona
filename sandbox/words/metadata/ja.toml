@@ -31,8 +31,6 @@ word = "ja"
 deprecated = false
 audio = []
 
-[[etymology]]
-
 [representations]
 ligatures = ["ja"]
 

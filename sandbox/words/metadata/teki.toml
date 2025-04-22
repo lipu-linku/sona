@@ -13,10 +13,6 @@ word = "teki"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "dekigoto"
-word = "出来事"
-
 [representations]
 ligatures = []
 

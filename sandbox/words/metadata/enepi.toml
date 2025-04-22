@@ -13,9 +13,6 @@ word = "enepi"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "NFT"
-
 [representations]
 ligatures = ["enepi"]
 

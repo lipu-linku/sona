@@ -13,9 +13,6 @@ word = "kewi"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "credit"
-
 [representations]
 ligatures = []
 

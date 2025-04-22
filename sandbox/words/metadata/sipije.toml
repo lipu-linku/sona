@@ -13,12 +13,6 @@ word = "sipije"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "TBH creature"
-
-[[etymology]]
-word = "TBH"
-
 [representations]
 ligatures = ["sipije"]
 

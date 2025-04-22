@@ -13,9 +13,6 @@ word = "me"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "anu seme"
-
 [representations]
 ligatures = ["me"]
 

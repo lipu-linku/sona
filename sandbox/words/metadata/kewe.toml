@@ -14,12 +14,6 @@ word = "kewe"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kule"
-
-[[etymology]]
-word = "sewi"
-
 [representations]
 ligatures = ["kewe"]
 

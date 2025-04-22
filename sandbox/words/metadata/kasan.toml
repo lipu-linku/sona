@@ -13,9 +13,6 @@ word = "kasan"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kacang"
-
 [representations]
 ligatures = []
 

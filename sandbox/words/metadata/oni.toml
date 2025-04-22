@@ -16,10 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oni.mp3"
 
-[[etymology]]
-alt = "oneiroi"
-word = "ὄνειροι"
-
 [representations]
 ligatures = ["oni", "oni2"]
 

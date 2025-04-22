@@ -13,9 +13,6 @@ word = "lisa"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "lisa"
-
 [representations]
 ligatures = []
 

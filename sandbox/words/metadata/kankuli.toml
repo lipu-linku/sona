@@ -13,9 +13,6 @@ word = "kankuli"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "scrunkly"
-
 [representations]
 ligatures = ["kankuli"]
 

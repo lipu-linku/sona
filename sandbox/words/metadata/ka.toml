@@ -13,12 +13,6 @@ word = "ka"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "ka"
-
-[[etymology]]
-word = "kama"
-
 [representations]
 ligatures = []
 

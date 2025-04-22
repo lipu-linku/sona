@@ -14,8 +14,6 @@ word = "kepa"
 deprecated = false
 audio = []
 
-[[etymology]]
-
 [representations]
 ligatures = ["kepa"]
 

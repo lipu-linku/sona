@@ -13,9 +13,6 @@ word = "papa"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "Baba"
-
 [representations]
 ligatures = []
 

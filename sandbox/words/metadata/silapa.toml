@@ -13,9 +13,6 @@ word = "silapa"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "żyrafa"
-
 [representations]
 ligatures = ["silapa"]
 

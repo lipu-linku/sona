@@ -13,9 +13,6 @@ word = "kosikosa"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "comme çi, comme ça"
-
 [representations]
 ligatures = ["kosikosa"]
 

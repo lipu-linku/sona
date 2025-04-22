@@ -13,9 +13,6 @@ word = "tenkala"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "tenggara"
-
 [representations]
 ligatures = []
 

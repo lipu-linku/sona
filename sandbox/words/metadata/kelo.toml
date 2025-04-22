@@ -13,12 +13,6 @@ word = "kelo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kule"
-
-[[etymology]]
-word = "telo"
-
 [representations]
 ligatures = ["kelo"]
 

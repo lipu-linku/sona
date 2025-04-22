@@ -13,12 +13,6 @@ word = "pipolo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kikolo"
-
-[[etymology]]
-word = "pipo"
-
 [representations]
 ligatures = ["pipolo"]
 

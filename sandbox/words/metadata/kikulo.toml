@@ -13,9 +13,6 @@ word = "kikulo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "coucou lol"
-
 [representations]
 ligatures = ["kikulo"]
 

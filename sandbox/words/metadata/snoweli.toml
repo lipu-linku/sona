@@ -13,12 +13,6 @@ word = "snoweli"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "snowman"
-
-[[etymology]]
-word = "soweli"
-
 [representations]
 ligatures = ["snoweli"]
 

@@ -13,9 +13,6 @@ word = "kokoliko"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "cocorico"
-
 [representations]
 ligatures = ["kokoliko"]
 

@@ -16,9 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/enko.mp3"
 
-[[etymology]]
-word = "tenpo"
-
 [representations]
 ligatures = ["enko", "enko2"]
 sitelen_emosi = "🧭"

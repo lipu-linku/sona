@@ -17,9 +17,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pa.mp3"
 
-[[etymology]]
-word = "bruh"
-
 [representations]
 ligatures = ["pa"]
 sitelen_emosi = "🤨"

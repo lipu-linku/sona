@@ -13,9 +13,6 @@ word = "ne"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "ne"
-
 [representations]
 ligatures = []
 

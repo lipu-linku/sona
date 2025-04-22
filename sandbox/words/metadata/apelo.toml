@@ -13,9 +13,6 @@ word = "apelo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "apéro"
-
 [representations]
 ligatures = ["apelo"]
 

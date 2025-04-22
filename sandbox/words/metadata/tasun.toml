@@ -13,9 +13,6 @@ word = "tasun"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "dachshund"
-
 [representations]
 ligatures = ["tasun", "taasun", "taaasun"]
 

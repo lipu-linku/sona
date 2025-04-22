@@ -13,12 +13,6 @@ word = "masenta"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "magenta"
-
-[[etymology]]
-word = "magenta"
-
 [representations]
 ligatures = ["masenta"]
 

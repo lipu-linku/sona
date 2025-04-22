@@ -13,12 +13,6 @@ word = "sulaso"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "cyan"
-
-[[etymology]]
-word = "laso"
-
 [representations]
 ligatures = ["sulaso"]
 

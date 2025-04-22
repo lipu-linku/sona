@@ -12,9 +12,6 @@ usage_category = "sandbox"
 word = "nowi"
 deprecated = false
 audio = []
-[[etymology]]
-word = "nối"
-
 [representations]
 ligatures = ["nowi"]
 

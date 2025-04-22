@@ -16,12 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pasila.mp3"
 
-[[etymology]]
-word = "facile"
-
-[[etymology]]
-word = "facila"
-
 [representations]
 ligatures = ["pasila"]
 sitelen_emosi = "🧘"

@@ -17,9 +17,6 @@ word = "ka"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "か"
-
 [representations]
 ligatures = []
 

@@ -13,9 +13,6 @@ word = "opasan"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "opossum"
-
 [representations]
 ligatures = ["opasan"]
 

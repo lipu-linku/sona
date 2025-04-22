@@ -13,9 +13,6 @@ word = "api"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "apis"
-
 [representations]
 ligatures = ["api"]
 

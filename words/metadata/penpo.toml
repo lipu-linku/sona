@@ -18,9 +18,6 @@ audio = []
 # author = ""
 # link = ""
 
-[[etymology]]
-word = "(pi) toki pona taso"
-
 [representations]
 ligatures = ["penpo"]
 

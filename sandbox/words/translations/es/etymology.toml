@@ -1,782 +1,178 @@
-[[Pingo]]
-language = "a priori"
-
-[[aka]]
-definition = "cruzar, atravesar"
-language = "mandarín"
-
-[[aka]]
-definition = "across"
-language = "inglés"
-
-[[ako]]
-definition = "(interjection) surprise"
-language = "coreano"
-
-[[aku]]
-definition = "sour"
-language = "rumano"
-
-[[alente]]
-definition = "everything else"
-language = "toki pona"
-
-[[alu]]
-definition = "(indicate context for a following sentence)"
-language = "toki pona"
-
-[[an]]
-definition = "attributed location/thing for something, slot; aisle, receptacle, home; passage (of text); to 'slot in'/'fit in'/be(come) accustomed"
-language = "Chinese"
-
-[[anta]]
-definition = "oil"
-language = "okinawense"
-
-[[antikontitutonelema]]
-definition = "anticonstitutionally"
-language = "francés"
-
-[[apelo]]
-definition = "apéritif (bebida alcohólica servida antes de una comida como aperitivo)"
-language = "francés"
-
-[[api]]
-definition = "abeja"
-language = "latín"
-
-[[apoko]]
-language = "inglés"
-
-[[awase]]
-definition = "hit, strike"
-language = "armenio"
-
-[[eki]]
-definition = "x (letter name)"
-language = "inglés"
-
-[[eliki]]
-definition = "pain, distress"
-language = "cheroqui"
-
-[[enepi]]
-definition = "non-fungible token"
-language = "inglés"
-
-[[enko]]
-definition = "time, period, situation"
-language = "toki pona"
-
-[[epikule]]
-language = "toki pona"
-
-[[ete]]
-definition = "beyond, further, over"
-language = "turco"
-
-[[ete]]
-definition = "outside"
-language = "quenya"
-
-[[ewe]]
-definition = "rock, boulder"
-language = "japonés"
-
-[[ewe]]
-definition = "rock, stone, hard thing"
-language = "toki pona"
-
-[[i]]
-definition = "unknown"
-language = "unknown"
-
-[[iki]]
-definition = "(third-person singular masculine, feminine, and gender neutral pronoun)"
-language = "georgiano"
-
-[[ini]]
-definition = "2"
-language = "cantonés"
-
-[[inisa]]
-definition = "I don't know"
-language = "Amharic"
-
-[[inta]]
-definition = "still, yet, even"
-language = "portugués"
-
-[[ipi]]
-definition = "unknown"
-language = "unknown"
-
-[[iseki]]
-definition = "flower, blossom"
-language = "turco"
-
-[[itomi]]
-definition = "hit or miss"
-language = "inglés"
-
-[[ja]]
-language = "a priori"
-
-[[jaku]]
-definition = "100"
-language = "japonés"
-
-[[jalan]]
-definition = "afoot"
-language = "finés"
-
-[[jalan]]
-definition = "foot"
-language = "finés"
-
-[[jans]]
-definition = "person, people"
-language = "toki pona"
-
-[[jans]]
-definition = "(plural suffix)"
-language = "inglés"
-
-[[jatu]]
-definition = "1"
-language = "cantonés"
-
-[[je]]
-definition = "yay"
-language = "inglés"
-
-[[ju]]
-language = "a priori"
-
-[[jule]]
-definition = "shake, vibrate, oscillate, waver"
-language = "japonés"
-
-[[jume]]
-definition = "sueño"
-language = "japonés"
-
-[[juna]]
-definition = "train (railroad vehicle)"
-language = "finés"
-
-[[ka]]
-definition = "coming"
-language = "toki pona"
-
-[[kajo]]
-definition = "9"
-language = "cantonés"
-
-[[kalamARR]]
-definition = "make sound; sound, noise, voice"
-language = "toki pona"
-
-[[kalamARR]]
-definition = "(imitation of pirates)"
-language = "inglés"
-
-[[kalapisituji]]
-language = "Belgian French"
-
-[[kalijopilale]]
-definition = "Caryophyllales"
-language = "latín"
-
-[[kan]]
-definition = "with"
-language = "finés"
-
-[[kan]]
-definition = "with"
-language = "esperanto"
-
-[[kan]]
-definition = "with"
-language = "latín"
-
-[[kana]]
-definition = "sueño"
-language = "tulu"
-
-[[kankuli]]
-definition = "cute in a quirky, scruffy, or dishevelled way"
-language = "inglés"
-
-[[kapa]]
-definition = "head, cup"
-language = "neerlandés"
-
-[[kapa]]
-definition = "head"
-language = "esperanto"
-
-[[kapa]]
-definition = "head"
-language = "latín"
-
-[[kasan]]
-definition = "bean, nut, peanut, legume"
-language = "Malay"
-
-[[ke]]
-definition = "okay"
-language = "inglés"
-
-[[ke]]
-definition = "okay"
-language = "inglés"
-
-[[kepa]]
-language = "a priori"
-
-[[kepen]]
-definition = "to use, by means of, with"
-language = "toki pona"
-
-[[kese]]
-definition = "named for the Jewish LGBT organization Keshet"
-language = "hebreo"
-
-[[kewi]]
-definition = "credit"
-language = "inglés"
-
-[[ki]]
-definition = "who"
-language = "francés"
-
-[[kikolo]]
-language = "francés"
-
-[[kikolo]]
-language = "francés"
-
-[[kikulo]]
-language = "francés"
-
-[[kisa]]
-definition = "gato"
-language = "ruso"
-
-[[kokoliko]]
-language = "francés"
-
-[[kolin]]
-definition = "gloopy love"
-language = "toki pona"
-
-[[kolo]]
-definition = "cerdo"
-language = "suajili"
-
-[[kolo]]
-definition = "cerdo"
-language = "Zulu"
-
-[[kolo]]
-definition = "cerdo"
-language = "Kongo"
-
-[[kolo]]
-definition = "cerdo"
-language = "español"
-
-[[kolo]]
-definition = "growl"
-language = "japonés"
-
-[[kolo]]
-definition = "grunt"
-language = "inglés"
-
-[[konsi]]
-definition = "announcement, notice"
-language = "coreano"
-
-[[konsuno]]
-definition = 'calque of English "gaslight"'
-language = "toki pona"
-
-[[kosan]]
-definition = "to defend, protect (against)"
-language = "irlandés"
-
-[[kosikosa]]
-language = "francés"
-
-[[kulaso]]
-definition = "green"
-language = "inglés"
-
-[[kulaso]]
-definition = "blue, green"
-language = "toki pona"
-
-[[kulu]]
-definition = "group, community, collection"
-language = "toki pona"
-
-[[kuntu]]
-definition = "'fun sound from the mouth', to sing with your voice"
-language = "toki pona"
-
-[[kutopoma]]
-definition = "the Toki Pona community of Korea"
-language = "toki pona"
-
-[[lajotu]]
-language = "Canadian Syllabics"
-
-[[lan]]
-definition = "presente, existente, real, verdad; (preposición) ubicada en, durante, en, en el contexto de"
-language = "toki pona"
-
-[[lan]]
-definition = "único, unido; uno; unir"
-language = "toki pona"
-
-[[lan]]
-definition = "ser humano, persona, alguien"
-language = "toki pona"
-
-[[lapan]]
-definition = "milk"
-language = "árabe"
-
-[[lenke]]
-definition = "0"
-language = "cantonés"
-
-[[lijokuku]]
-definition = "Exactly!', (literally) 'real LOL'"
-language = "coreano"
-
-[[likujo]]
-definition = "collection, ensemble, anthology"
-language = "francés acadiano"
-
-[[lipasa]]
-definition = "linden tree; (colloquial) forgery, fake"
-language = "ruso"
-
-[[lisa]]
-definition = "fox (accusative)"
-language = "polaco"
-
-[[lo]]
-definition = "(indicate context for a prior sentence)"
-language = "toki pona"
-
-[[loka]]
-definition = "hand, arm, grasping appendage, tactile appendage"
-language = "toki pona"
-
-[[loka]]
-definition = "foot, leg, roots, locomotive appendage"
-language = "toki pona"
-
-[[lokon]]
-definition = "look, see, eye; (preverb) try to"
-language = "toki pona"
-
-[[lokon]]
-definition = "look, see, eye; (preverb) try to"
-language = "toki pona"
-
-[[loku]]
-definition = "6"
-language = "cantonés"
-
-[[lonsi]]
-definition = "presente, existente, real, verdad; (preposición) ubicada en, durante, en, en el contexto de"
-language = "toki pona"
-
-[[lonsi]]
-definition = "nonbinary, gender nonconforming, genderqueer, transgender"
-language = "toki pona"
-
-[[lu]]
-language = "a priori"
-
-[[masalo]]
-language = "francés"
-
-[[masenta]]
-definition = "purplish-red color"
-language = "inglés"
-
-[[masenta]]
-definition = "purplish-red color"
-language = "francés"
-
-[[me]]
-definition = "tag question"
-language = "toki pona"
-
-[[molusa]]
-definition = "Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature)"
-language = "inglés"
-
-[[molusa]]
-definition = "thin shelled"
-language = "latín"
-
-[[nalanja]]
-definition = "orange"
-language = "español"
-
-[[natu]]
-definition = "crossroads, four-way intersection"
-language = "vietnamita"
-
-[[ne]]
-definition = "not"
-language = "(Indo-European)"
-
-[[neja]]
-definition = "cuatro"
-language = "finés"
-
-[[nele]]
-definition = "cloth, fabric, clothing; secret, hidden, covered"
-language = "toki pona"
-
-[[nowi]]
-definition = "to join, to add, to unite, to connect; to continue, to carry on, to perpetuate"
-language = "vietnamita"
-
-[[nu]]
-language = "a priori"
-
-[[nu1]]
-definition = "nuevo"
-language = "inglés"
-
-[[nun]]
-definition = "5"
-language = "cantonés"
-
-[[nuwa]]
-definition = "más nuevo"
-language = "inglés"
-
-[[okepuma]]
-definition = "okay boomer"
-language = "inglés"
-
-[[oki]]
-definition = "okay"
-language = "inglés"
-
-[[oki]]
-definition = "okay"
-language = "inglés"
-
-[[olala]]
-language = "francés"
-
-[[omekalike]]
-definition = "'eat a bad fish', wishing somebody harm instead of well"
-language = "toki pona"
-
-[[omekalike]]
-definition = "'eat a good fish', wishing somebody well"
-language = "toki pona"
-
-[[omen]]
-definition = "'kill me', express exasperation or frustration sarcastically"
-language = "toki pona"
-
-[[oni]]
-definition = "(personifications of) dreams"
-language = "griego antiguo"
-
-[[onono]]
-definition = "oh no"
-language = "inglés"
-
-[[opasan]]
-definition = "opossum"
-language = "inglés"
-
-[[pa]]
-definition = "bruh"
-language = "inglés"
-
-[[panke]]
-language = "toki pona"
-
-[[panke]]
-language = "francés"
-
-[[papa]]
-language = "inglés"
-
-[[papa1]]
-language = "a priori"
-
-[[papa2]]
-language = "onomatopeya"
-
-[[pasila]]
-definition = "easy"
-language = "francés acadiano"
-
-[[pasila]]
-definition = "easy"
-language = "esperanto"
-
-[[pata]]
-definition = "brother"
-language = "serbocroata"
-
-[[pata]]
-definition = "sibling or cousin of the same gender"
-language = "tok pisin"
-
-[[pata]]
-definition = "brother"
-language = "inglés"
-
-[[patu]]
-definition = "8"
-language = "cantonés"
-
-[[pela]]
-language = "a priori"
-
-[[peta]]
-definition = "green"
-language = "esperanto"
-
-[[peto]]
-definition = "(incomplete sentence) 'give eye-water', to cry"
-language = "toki pona"
-
-[[pipo]]
-definition = "bug, insect, arachnid"
-language = "toki pona"
-
-[[pipolo]]
-language = "toki pona"
-
-[[pipolo]]
-language = "toki pona"
-
-[[polinpin]]
-definition = "bolo, pino de boliche"
-language = "inglés"
-
-[[pomotolo]]
-definition = "tomato"
-language = "italiano"
-
-[[poni]]
-definition = "poni, caballo pequeño"
-language = "inglés"
-
-[[positu]]
-language = "inglés"
-
-[[potesu]]
-language = "inglés"
-
-[[pulaso]]
-definition = "blue"
-language = "inglés"
-
-[[pulaso]]
-definition = "blue, green"
-language = "toki pona"
-
-[[saja]]
-definition = "trees"
-language = "árabe"
-
-[[salu]]
-definition = "safety, security"
-language = "latín"
-
-[[samu]]
-definition = "jan Samu"
-language = "toki pona"
-
-[[sapelipope]]
-language = "francés"
-
-[[se]]
-definition = "4"
-language = "cantonés"
-
-[[se1]]
-definition = "oneself"
-language = "latín"
-
-[[sikako]]
-definition = "escargot"
-language = "francés"
-
-[[sikomo]]
-definition = "sicko mode"
-language = "inglés"
-
-[[silapa]]
-definition = "jirafa"
-language = "polaco"
-
-[[sipi]]
-definition = "sibi (dative reflexive pronoun)"
-language = "latín"
-
-[[sipije]]
-language = "inglés"
-
-[[sipije]]
-definition = "to be honest"
-language = "inglés"
-
-[[siwala]]
-definition = "trust; faith (in someone or something); reliance, confidence, belief"
-language = "tagalo"
-
-[[slape]]
-definition = "sleep, rest"
-language = "toki pona"
-
-[[slape]]
-definition = "sleep"
-language = "inglés"
-
-[[sole]]
-definition = "to use to, to tend to"
-language = "español"
-
-[[su1]]
-definition = "[yes/no question marker]; whether"
-language = "esperanto"
-
-[[suke]]
-definition = "circle, sphere, cycle"
-language = "toki pona"
-
-[[sulaso]]
-definition = "the color between blue and green on the visible spectrum of light"
-language = "inglés"
-
-[[sulaso]]
-definition = "blue, green"
-language = "toki pona"
-
-[[suwili]]
-language = "toki pona"
-
-[[suwili]]
-language = "toki pona"
-
-[[ta]]
-language = "a priori"
-
-[[take]]
-definition = "7"
-language = "cantonés"
-
-[[tankala]]
-definition = "sudeste"
-language = "Malay"
-
-[[tasun]]
-definition = "dachshund"
-language = "inglés"
-
-[[teki]]
-definition = "event"
-language = "japonés"
-
-[[ten]]
-definition = "time, event, situation"
-language = "toki pona"
-
-[[tokana]]
-definition = "attention, focus"
-language = "tongano"
-
-[[toma]]
-definition = "home, room, house, building"
-language = "toki pona"
-
-[[tona]]
-definition = "tóner"
-language = "inglés"
-
-[[towoki]]
-definition = "hola"
-language = "toki pona"
-
-[[towoki]]
-definition = "cara sorprendida como un gato"
-language = "emoticón"
-
-[[tuli]]
-definition = "tres"
-language = "inglés"
-
-[[u]]
-language = "a priori"
-
-[[umesu]]
-definition = "to amaze (someone), surprise, impress"
-language = "Iqglic"
-
-[[waken]]
-definition = 'non-standard plural of "wug"'
-language = "inglés"
-
-[[waken]]
-definition = "imaginary creature resembling a bird"
-language = "inglés"
-
-[[waleja]]
-definition = "of moment, important"
-language = "quenya"
-
-[[waleja]]
-definition = "worth, worthy, dear"
-language = "quenya"
-
-[[wawajete]]
-definition = "(all the phonotactically unviable CV syllables in Toki Pona)"
-language = "toki pona"
-
-[[we]]
-definition = "man"
-language = "español"
-
-[[we1]]
-definition = "man"
-language = "español"
-
-[[we1]]
-definition = "man (sentence tag)"
-language = "inglés"
-
-[[wi]]
-definition = "we"
-language = "inglés"
-
-[[wisa]]
-definition = "hound, dog"
-language = "Amharic"
-
-[[wiwi]]
-definition = "yes, yes"
-language = "francés"
-
-[[yutu]]
-definition = "star"
-language = "turco"
+Pingo = "a priori"
+aka = "过 (guò): mandarín, cruzar, atravesar; across: inglés, across"
+ako = "아이고 (aigo): coreano, (interjection) surprise"
+aku = "acru: rumano, sour"
+alente = "ale ante: toki pona, everything else"
+alu = "la: toki pona, (indicate context for a following sentence)"
+an = "函 (hán): Chinese, attributed location/thing for something, slot. aisle, receptacle, home. passage (of text). to 'slot in'/'fit in'/be(come) accustomed"
+anta = "油 (anda): okinawense, oil"
+antikontitutonelema = "anticonstitutionnellement: francés, anticonstitutionally"
+apelo = "apéro: francés, apéritif (bebida alcohólica servida antes de una comida como aperitivo)"
+api = "apis: latín, abeja"
+apoko = "I forgor: inglés"
+awase = "հարվածել (harvacel): armenio, hit, strike"
+eki = "x (letter name): inglés, x (letter name)"
+eliki = "ehisdi: cheroqui, pain, distress"
+enepi = "NFT: inglés, non-fungible token"
+enko = "tenpo: toki pona, time, period, situation"
+epikule = "kule epiku: toki pona"
+ete = "öte: turco, beyond, further, over; ettë: quenya, outside"
+ewe = "岩 (iwa): japonés, rock, boulder; kiwen: toki pona, rock, stone, hard thing"
+i = "unknown: unknown, unknown"
+iki = "იგი (igi): georgiano, (third-person singular masculine, feminine, and gender neutral pronoun)"
+ini = "二/貳 (yih): cantonés, 2"
+inisa = "እንጃ (ənəǧa): Amharic, I don't know"
+inta = "ainda: portugués, still, yet, even"
+ipi = "unknown: unknown, unknown"
+iseki = "çiçek, çiçeği: turco, flower, blossom"
+itomi = "hit or miss: inglés, hit or miss"
+ja = "a priori"
+jaku = "百 (hyaku): japonés, 100"
+jalan = "jalan: finés, afoot; jalka: finés, foot"
+jans = "jan: toki pona, person, people; -/z/: inglés, (plural suffix)"
+jatu = "一/壹 (yāt): cantonés, 1"
+je = "yay: inglés, yay"
+jepi = "yippee: English, yippee"
+jipi = "yippee: English, yippee"
+josuta = "joustava: Finnish, flexible, elastic"
+ju = "a priori"
+jule = "揺れる (yureru): japonés, shake, vibrate, oscillate, waver"
+jume = "夢 (yume): japonés, sueño"
+juna = "juna: finés, train (railroad vehicle)"
+jupi = "yupi: Spanish, yippee; yippee: English, yippee; .ui: Lojban, happiness"
+ka = "ka: toki sapin, (future tense marker); kama: toki pona, coming"
+ka1 = "か: Japanese, (sentence-final question marker)"
+ka2 = "ka: tuki tiki, being, person, creature, alive; jan: toki pona, human being, person, somebody"
+kajo = "九 /玖 (gáu): cantonés, 9"
+kalamARR = "kalama: toki pona, make sound. sound, noise, voice; arr: inglés, (imitation of pirates)"
+kalapisituji = "carabistouille: Belgian French"
+kalijopilale = "Caryophyllales: latín, Caryophyllales"
+kan = "kanssa: finés, with; kun: esperanto, with; cum: latín, with"
+kana = "ಕನ (kana): tulu, sueño"
+kankuli = "scrunkly: inglés, cute in a quirky, scruffy, or dishevelled way"
+kapa = "kop: neerlandés, head, cup; kapo: esperanto, head; caput: latín, head"
+kasan = "kacang: Malay, bean, nut, peanut, legume"
+ke = "’kay: inglés, okay; okay: inglés, okay"
+kelo = "kule: toki pona, color, pigment. category, genre, flavor. colorful, diverse; telo: toki pona, liquids e.g. water, gasoline, soda, lava, soup, oil, ink"
+kepa = "a priori"
+kepen = "kepeken: toki pona, to use, by means of, with"
+kese = "קֶשֶׁת (kéšet): hebreo, named for the Jewish LGBT organization Keshet"
+kewe = "kule: toki pona, color, pigment. category, genre, flavor. colorful, diverse; sewi: toki pona, up, top, above, highest part. divine, sacred, supernatural. awesome, inspiring, excelling"
+kewi = "credit: inglés, credit"
+ki = "qui: francés, who"
+kikolo = "rigolo: francés; rigoler: francés"
+kikulo = "coucou lol: francés"
+kisa = "ки́са (kísa): ruso, gato"
+kokoliko = "cocorico: francés"
+kolin = "ko olin: toki pona, gloopy love"
+kolo = "guruwe: suajili, cerdo; ingulube: Zulu, cerdo; ngulu: Kongo, cerdo; guarro, gorrino: español, cerdo; gorogoro: japonés, growl; grunt: inglés, grunt"
+konsi = "공지 (gongji): coreano, announcement, notice"
+konsuno = "kon + suno: toki pona, calque of English \"gaslight\""
+kosan = "cosain: irlandés, to defend, protect (against)"
+kosikosa = "comme çi, comme ça: francés"
+kulaso = "green: inglés, green; laso: toki pona, blue, green"
+kulu = "kulupu: toki pona, group, community, collection"
+kuntu = "kulupu musi tan uta: toki pona, 'fun sound from the mouth', to sing with your voice"
+kutopoma = "kulupu pi toki pona pi ma Anku: toki pona, the Toki Pona community of Korea"
+lajotu = "ᓚᘏᗢ (layotʼu): Canadian Syllabics"
+lan = "lon: toki pona, presente, existente, real, verdad. (preposición) ubicada en, durante, en, en el contexto de; wan: toki pona, único, unido. uno. unir; jan: toki pona, ser humano, persona, alguien"
+lapan = "لَبَن (laban): árabe, milk"
+lenke = "〇/零 (lìhng): cantonés, 0"
+lijokuku = "ㄹㅇㅋㅋ (realkk): coreano, Exactly!', (literally) 'real LOL'"
+likujo = "recueil: francés acadiano, collection, ensemble, anthology"
+lipasa = "липа (lipa): ruso, linden tree. (colloquial) forgery, fake"
+lisa = "lisa: polaco, fox (accusative)"
+lo = "alu: toki pona, (indicate context for a prior sentence)"
+loka = "luka: toki pona, hand, arm, grasping appendage, tactile appendage; noka: toki pona, foot, leg, roots, locomotive appendage"
+lokon = "lukin: toki pona, look, see, eye. (preverb) try to; oko: toki pona, look, see, eye. (preverb) try to"
+loku = "六 /陸 (luhk): cantonés, 6"
+lonsi = "lon: toki pona, presente, existente, real, verdad. (preposición) ubicada en, durante, en, en el contexto de; tonsi: toki pona, nonbinary, gender nonconforming, genderqueer, transgender"
+lu = "a priori"
+lu1 = "alu: toki pona, (indicate context for a prior sentence)"
+masalo = "mince alors: francés"
+masenta = "magenta: inglés, purplish-red color; magenta: francés, purplish-red color"
+me = "anu seme: toki pona, tag question"
+molusa = "mollusk: inglés, Invertebrae related to snails, slugs, mussels, octopi (scientific nomenclature); mollusca: latín, thin shelled"
+nalanja = "naranja: español, orange"
+natu = "ngã tư: vietnamita, crossroads, four-way intersection"
+ne = "ne: (Indo-European), not"
+neja = "neljä: finés, cuatro"
+nele = "len: toki pona, cloth, fabric, clothing. secret, hidden, covered"
+nowi = "nối: vietnamita, to join, to add, to unite, to connect. to continue, to carry on, to perpetuate"
+nu = "a priori"
+nu1 = "new: inglés, nuevo"
+nun = "五/伍 (ńgh): cantonés, 5"
+nusun = "nujum: Malay, astrology, fortune-telling, predicting the future. fortune-teller, oracle. star"
+nuwa = "newer: inglés, más nuevo"
+okepuma = "okay boomer: inglés, okay boomer"
+oki = "okie: inglés, okay; okay: inglés, okay"
+olala = "oh là là: francés"
+omekalike = "o moku e kala ike: toki pona, 'eat a bad fish', wishing somebody harm instead of well; o moku e kala pona: toki pona, 'eat a good fish', wishing somebody well"
+omen = "o moli e mi: toki pona, 'kill me', express exasperation or frustration sarcastically"
+oni = "ὄνειροι (oneiroi): griego antiguo, (personifications of) dreams"
+onono = "oh no: inglés, oh no"
+opasan = "opossum: inglés, opossum"
+pa = "bruh: inglés, bruh"
+panke = "pan: toki pona; baguette: francés"
+papa = "Baba: inglés"
+papa1 = "papa: a priori"
+papa2 = "papa: onomatopeya"
+pasila = "facile: francés acadiano, easy; facila: esperanto, easy"
+pata = "брат (brat): serbocroata, brother; brata: tok pisin, sibling or cousin of the same gender; brother: inglés, brother"
+patu = "八 /捌 (baat): cantonés, 8"
+pela = "pela: a priori"
+peta = "verda: esperanto, green"
+peto = "pana e telo oko: toki pona, (incomplete sentence) 'give eye-water', to cry"
+pipo = "pipi: toki pona, bug, insect, arachnid"
+pipolo = "kikolo: toki pona; pipo: toki pona"
+pokasi = "poggies: English, poggies, pog"
+polinpin = "bowling pin: inglés, bolo, pino de boliche"
+pomotolo = "pomodoro: italiano, tomato"
+poni = "pony: inglés, poni, caballo pequeño"
+positu = "forty two: inglés"
+potesu = "bodacious: inglés"
+pulaso = "blue: inglés, blue; laso: toki pona, blue, green"
+saja = "شَجَر (šajar): árabe, trees"
+salu = "salus: latín, safety, security"
+samu = "jan Samu: toki pona, jan Samu"
+sapelipope = "saperlipopette: francés"
+se = "四/肆 (sei): cantonés, 4"
+se1 = "se: latín, oneself"
+sikako = "escargot: francés, escargot"
+sikomo = "sicko mode: inglés, sicko mode"
+silapa = "żyrafa: polaco, jirafa"
+sipi = "sibi (dative reflexive pronoun): latín, sibi (dative reflexive pronoun)"
+sipije = "TBH creature: inglés; TBH: inglés, to be honest"
+siwala = "tiwalà: tagalo, trust. faith (in someone or something). reliance, confidence, belief"
+slape = "lape: toki pona, sleep, rest; sleep: inglés, sleep"
+snoweli = "snowman: English, snowman; soweli: toki pona, fuzzy creature, land animal, beast"
+sole = "soler: español, to use to, to tend to"
+su1 = "ĉu (cxu): esperanto, [yes/no question marker]. whether"
+suke = "typo of sike: toki pona, circle, sphere, cycle"
+sulaso = "cyan: inglés, the color between blue and green on the visible spectrum of light; laso: toki pona, blue, green"
+sunta = "suno: toki pona, light, shine, glow, radiance. sun, light source. brightness; uta: toki pona, mouth, lips, throat, consuming orifice"
+suwili = "soweli: toki pona; suwi: toki pona"
+ta = "a priori"
+take = "七 /柒 (chāt): cantonés, 7"
+tankala = "tenggara: Malay, sudeste"
+tasun = "dachshund: inglés, dachshund"
+teki = "出来事 (dekigoto): japonés, event"
+ten = "tenpo: toki pona, time, event, situation"
+tenkala = "tenggara: Malay, southeast"
+tokana = "tokanga: tongano, attention, focus"
+toma = "typo of tomo: toki pona, home, room, house, building"
+tona = "toner: inglés, tóner"
+towoki = "toki: toki pona, hola; OwO: emoticón, cara sorprendida como un gato"
+tuli = "three: inglés, tres"
+u = "a priori"
+uka = "uta: toki pona, mouth, lips, throat, consuming orifice; kasi: toki pona, plant, vegetation. herb, leaf"
+umesu = "Umeyz: Iqglic, to amaze (someone), surprise, impress"
+waken = "wuggen: inglés, non-standard plural of \"wug\"; wug: inglés, imaginary creature resembling a bird"
+waleja = "valdea: quenya, of moment, important; valda: quenya, worth, worthy, dear"
+wawajete = "wuwojiti: toki pona, (all the phonotactically unviable CV syllables in Toki Pona)"
+we = "güey: español, man"
+we1 = "güey: español, man; man: inglés, man (sentence tag)"
+wi = "we: inglés, we"
+wisa = "ውሻ (wisha): Amharic, hound, dog"
+wiwi = "oui, oui: francés, yes, yes"
+yutu = "yıldız: turco, star"

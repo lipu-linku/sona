@@ -13,10 +13,6 @@ word = "saja"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "šajar"
-word = "شَجَر"
-
 [representations]
 ligatures = ["saja"]
 

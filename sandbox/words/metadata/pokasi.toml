@@ -15,9 +15,6 @@ word = "pokasi"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "poggies"
-
 [representations]
 ligatures = [] # in some sitelen pona fonts (requested for ssk) as pokasi
 

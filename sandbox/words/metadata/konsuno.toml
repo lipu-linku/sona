@@ -13,9 +13,6 @@ word = "konsuno"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kon + suno"
-
 [representations]
 ligatures = []
 

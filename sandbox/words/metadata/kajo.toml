@@ -13,10 +13,6 @@ word = "kajo"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "g\u00e1u"
-word = "\u4e5d /\u7396"
-
 [representations]
 ligatures = []
 

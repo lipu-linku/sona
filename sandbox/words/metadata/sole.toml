@@ -12,9 +12,6 @@ usage_category = "sandbox"
 word = "sole"
 deprecated = false
 audio = []
-[[etymology]]
-word = "soler"
-
 [representations]
 ligatures = []
 

@@ -13,9 +13,6 @@ word = "tona"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "toner"
-
 [representations]
 ligatures = ["tona"]
 

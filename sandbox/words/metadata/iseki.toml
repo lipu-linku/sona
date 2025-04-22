@@ -12,9 +12,6 @@ usage_category = "sandbox"
 word = "iseki"
 deprecated = false
 audio = []
-[[etymology]]
-word = "çiçek, çiçeği"
-
 [representations]
 ligatures = ["iseki"]
 

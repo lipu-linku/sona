@@ -13,9 +13,6 @@ word = "kolin"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "ko olin"
-
 [representations]
 ligatures = []
 

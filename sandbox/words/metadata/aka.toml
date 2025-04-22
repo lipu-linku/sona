@@ -16,13 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/aka.mp3"
 
-[[etymology]]
-alt = "guò"
-word = "过"
-
-[[etymology]]
-word = "across"
-
 [representations]
 ligatures = ["aka"]
 

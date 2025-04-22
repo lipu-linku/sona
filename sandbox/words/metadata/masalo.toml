@@ -13,9 +13,6 @@ word = "masalo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "mince alors"
-
 [representations]
 ligatures = ["masalo"]
 

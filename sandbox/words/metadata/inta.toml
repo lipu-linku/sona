@@ -12,9 +12,6 @@ usage_category = "sandbox"
 word = "inta"
 deprecated = false
 audio = []
-[[etymology]]
-word = "ainda"
-
 [representations]
 ligatures = []
 

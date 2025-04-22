@@ -13,12 +13,6 @@ word = "kikolo"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "rigolo"
-
-[[etymology]]
-word = "rigoler"
-
 [representations]
 ligatures = ["kikolo"]
 

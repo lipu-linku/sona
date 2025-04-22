@@ -16,9 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/tuli.mp3"
 
-[[etymology]]
-word = "three"
-
 [representations]
 ligatures = ["tuli"]
 sitelen_emosi = "☘️"

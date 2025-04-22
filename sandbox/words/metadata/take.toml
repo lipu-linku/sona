@@ -13,10 +13,6 @@ word = "take"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "ch\u0101t"
-word = "\u4e03 /\u67d2"
-
 [representations]
 ligatures = []
 

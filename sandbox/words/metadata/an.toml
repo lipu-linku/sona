@@ -13,10 +13,6 @@ word = "an"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "hán"
-word = "函"
-
 [representations]
 ligatures = []
 

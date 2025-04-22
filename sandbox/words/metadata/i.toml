@@ -16,9 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/i.mp3"
 
-[[etymology]]
-word = "unknown"
-
 [representations]
 ligatures = ["i"]
 

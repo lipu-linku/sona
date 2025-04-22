@@ -16,12 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/molusa.mp3"
 
-[[etymology]]
-word = "mollusk"
-
-[[etymology]]
-word = "mollusca"
-
 [representations]
 ligatures = ["molusa"]
 

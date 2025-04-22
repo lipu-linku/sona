@@ -13,12 +13,6 @@ word = "ka"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "ka"
-
-[[etymology]]
-word = "jan"
-
 [representations]
 ligatures = ["lan2"] # requested for ssk as ka
 

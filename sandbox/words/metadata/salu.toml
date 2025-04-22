@@ -13,9 +13,6 @@ word = "salu"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "salus"
-
 [representations]
 ligatures = []
 

@@ -16,9 +16,6 @@ deprecated = false
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sikomo.mp3"
 
-[[etymology]]
-word = "sicko mode"
-
 [representations]
 ligatures = ["sikomo"]
 sitelen_emosi = "🤩"

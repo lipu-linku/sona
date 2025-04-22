@@ -13,10 +13,6 @@ word = "se"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "sei"
-word = "\u56db/\u8086"
-
 [representations]
 ligatures = []
 

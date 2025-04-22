@@ -13,12 +13,6 @@ word = "panke"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "pan"
-
-[[etymology]]
-word = "baguette"
-
 [representations]
 ligatures = ["panke"]
 

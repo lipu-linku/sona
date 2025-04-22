@@ -13,9 +13,6 @@ word = "olala"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "oh là là"
-
 [representations]
 ligatures = ["olala"]
 

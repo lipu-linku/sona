@@ -14,12 +14,6 @@ word = "sunta"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "suno"
-
-[[etymology]]
-word = "uta"
-
 [representations]
 ligatures = ["sunta"]
 

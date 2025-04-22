@@ -13,10 +13,6 @@ word = "lapan"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "laban"
-word = "لَبَن"
-
 [representations]
 ligatures = []
 

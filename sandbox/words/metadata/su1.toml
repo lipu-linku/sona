@@ -13,10 +13,6 @@ word = "su"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "cxu"
-word = "\u0109u"
-
 [representations]
 ligatures = ["su2"]
 

@@ -13,9 +13,6 @@ word = "juna"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "juna"
-
 [representations]
 ligatures = []  # requested for ssk as "juna"
 

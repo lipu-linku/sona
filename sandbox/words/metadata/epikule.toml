@@ -13,9 +13,6 @@ word = "epikule"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "kule epiku"
-
 [representations]
 ligatures = ["epikule"]
 

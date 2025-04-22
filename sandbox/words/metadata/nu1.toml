@@ -13,9 +13,6 @@ word = "nu"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "new"
-
 [representations]
 ligatures = ["nu2"]
 

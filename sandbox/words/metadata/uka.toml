@@ -13,12 +13,6 @@ word = "uka"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "uta"
-
-[[etymology]]
-word = "kasi"
-
 [representations]
 ligatures = ["uka"]
 

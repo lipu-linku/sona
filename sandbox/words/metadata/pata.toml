@@ -16,16 +16,6 @@ deprecated = true
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pata.mp3"
 
-[[etymology]]
-alt = "brat"
-word = "брат"
-
-[[etymology]]
-word = "brata"
-
-[[etymology]]
-word = "brother"
-
 [ku_data]
 cousin = 6
 sibling = 7

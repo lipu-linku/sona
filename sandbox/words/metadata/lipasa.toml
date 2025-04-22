@@ -13,10 +13,6 @@ word = "lipasa"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "lipa"
-word = "липа"
-
 [representations]
 ligatures = []
 

@@ -12,10 +12,6 @@ usage_category = "sandbox"
 word = "anta"
 deprecated = false
 audio = []
-[[etymology]]
-alt = "anda"
-word = "油"
-
 [representations]
 ligatures = ["anta"]
 

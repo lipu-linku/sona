@@ -13,15 +13,6 @@ word = "lan"
 deprecated = false
 audio = []
 
-[[etymology]]
-word = "lon"
-
-[[etymology]]
-word = "wan"
-
-[[etymology]]
-word = "jan"
-
 [representations]
 ligatures = ["lan", "lan2"]
 

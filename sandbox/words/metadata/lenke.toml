@@ -13,10 +13,6 @@ word = "lenke"
 deprecated = false
 audio = []
 
-[[etymology]]
-alt = "l\u00echng"
-word = "\u3007/\u96f6"
-
 [representations]
 ligatures = []
 
