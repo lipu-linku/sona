@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
 id        = "tomo toki nasa"
 name      = "tomo toki nasa tan jan Sepi"
-filename  = "sitelen seli luka tan kulupu seli.ttf"
+filename  = "tomo toki nasa tan jan Sepi.ttf"
 creator   = ["jan Sepi"]
 license   = "SIL Open Font License, Version 1.1"
 ligatures = true
