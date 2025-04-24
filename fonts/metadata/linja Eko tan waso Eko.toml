@@ -1,0 +1,26 @@
+#:schema ../../api/generated/font.json
+id        = "linja Eko tan waso Eko"
+name      = "linja Eko tan waso Eko"
+filename  = "linja-eko-tan-waso-eko.ttf"
+creator   = ["waso Eko"]
+license   = "OFL-1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-04"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "name glyphs",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja-eko-tan-waso-eko.ttf"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/linja-Eko-tan-waso-Eko.html"
