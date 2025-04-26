@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
-id        = "linja Eko tan waso Eko"
-name      = "linja Eko tan waso Eko"
-filename  = "linja-Eko-Regular.ttf"
+id        = "linja Eko tan waso Eko Semi Light"
+name      = "linja Eko tan waso Eko Semi Light"
+filename  = "linja-Eko-Semi_Lt.ttf"
 creator   = ["waso Eko"]
 license   = "OFL-1.1"
 ligatures = true
@@ -44,6 +44,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-# fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja-Eko-Regular.ttf"
+# fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja-Eko-Semi_Lt.ttf"
 # repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-# webpage  = "https://wasokeli.github.io/sp-font-maker/linja-Eko-tan-waso-Eko.html"
+# webpage  = "https://wasokeli.github.io/sp-font-maker/linja-Eko-tan-waso-Eko-Semi-Light.html"
