@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen pi waso leko tan waso musi Ipan"
-name      = "sitelen pi waso leko tan waso musi Ipan"
-filename  = "sitelen pi waso leko tan waso musi Ipan.ttf"
+id        = "sitelen Suwekona pi waso leko tan waso musi Ipan"
+name      = "sitelen Suwekona pi waso leko tan waso musi Ipan"
+filename  = "sitelen Suwekona pi waso leko tan waso musi Ipan.ttf"
 creator   = ["waso musi Ipan"]
 license   = "OFL-1.1"
 ligatures = true
@@ -44,6 +44,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pi%20waso%20leko%20tan%20waso%20musi%20Ipan.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20Suwekona%20pi%20waso%20leko%20tan%20waso%20musi%20Ipan.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-waso-leko-tan-waso-musi-Ipan.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Suwekona-pi-waso-leko-tan-waso-musi-Ipan.html"
