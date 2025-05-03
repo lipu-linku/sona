@@ -23,7 +23,7 @@ jobs:
           python-version: 3.12.1
 
       - name: Install dependencies
-        run: pip install tomlkit langcodes
+        run: pip install tomlkit langcodes language_data
 
       - name: Update language data file
         run: python .github/workflows/fetch_langs.py
