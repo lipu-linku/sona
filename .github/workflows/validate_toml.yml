@@ -84,7 +84,7 @@ jobs:
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
-        run: pip install tomlkit && npm i -g ajv-cli ajv-formats
+        run: pip install tomlkit langcodes && npm i -g ajv-cli ajv-formats
 
       - name: Generate raw data file
         if: contains(steps.changes.outputs.changes, 'data')

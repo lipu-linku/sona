@@ -23,7 +23,7 @@ jobs:
           python-version: 3.12.1
 
       - name: Install dependencies
-        run: pip install tomlkit
+        run: pip install tomlkit langcodes
 
       - name: Update language data file
         run: python .github/workflows/fetch_langs.py
@@ -36,5 +36,3 @@ jobs:
           commit_message: "Add new language(s) from Crowdin"
           branch: ${{ github.event.repository.default_branch }}
           file_pattern: languages/metadata/languages.toml
-
-
