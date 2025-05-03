@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "monsuta"
-id = "MONSUTA^2"
+id = "MONSUTA-2"
 is_two_handed = true
 new_gloss = "MONSUTA-2"
 old_gloss = "MONSUTA"
+old_id = "MONSUTA^2"
 
 [[etymology]]
 language = "BSL"

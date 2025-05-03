@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "mu"
-id = "MU"
+id = "MU-UTA"
 is_two_handed = false
 new_gloss = "MU-UTA"
 old_gloss = "MU"
+old_id = "MU"
 
 [[etymology]]
 language = "multiple SLs"

@@ -4,6 +4,7 @@ id = "MELI"
 is_two_handed = false
 new_gloss = "MELI"
 old_gloss = "MELI"
+old_id = "MELI"
 
 [[etymology]]
 language = "ASL"

@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "lanpan, pana"
-id = "LANPAN/PANA"
+id = "PANA-LANPAN"
 is_two_handed = false
 new_gloss = "PANA-LANPAN"
 old_gloss = "LANPAN/PANA"
+old_id = "LANPAN/PANA"
 
 [[etymology]]
 language = "multiple SLs"

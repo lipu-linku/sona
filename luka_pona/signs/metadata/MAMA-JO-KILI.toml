@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "mama"
-id = "MAMA^2"
+id = "MAMA-JO-KILI"
 is_two_handed = false
 new_gloss = "MAMA-JO-KILI"
 old_gloss = "MAMA^2"
+old_id = "MAMA^2"
 
 [[etymology]]
 language = "muliple SLs"

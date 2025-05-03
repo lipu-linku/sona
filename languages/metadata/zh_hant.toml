@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "zh_hant"
+locale = "zh-TW"
+
+[name]
+en = "Chinese (Traditional)"
+endonym = "中文（繁體）"
+tok = "toki Sonko (sitelen Kansi pi ijo mute)"
+

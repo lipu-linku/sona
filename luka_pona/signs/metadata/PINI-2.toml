@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "pini"
-id = "PINI"
+id = "PINI-2"
 is_two_handed = true
 new_gloss = "PINI-2"
 old_gloss = "PINI"
+old_id = "PINI"
 
 [[etymology]]
 language = "multiple SLs"

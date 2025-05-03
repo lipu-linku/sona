@@ -4,6 +4,7 @@ id = "MUN"
 is_two_handed = false
 new_gloss = "MUN"
 old_gloss = "MUN"
+old_id = "MUN"
 
 [[etymology]]
 language = "toki pona luka pu"

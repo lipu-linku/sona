@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sona, isipin"
-id = "SONA/ISIPIN"
+id = "SONA-ISIPIN"
 is_two_handed = false
 new_gloss = "SONA-ISIPIN; ISIPIN-SONA"
 old_gloss = "SONA/ISIPIN"
+old_id = "SONA/ISIPIN"
 
 [[etymology]]
 language = "multiple SLs"

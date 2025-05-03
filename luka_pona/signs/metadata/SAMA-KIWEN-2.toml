@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sama"
-id = "SAMA^2"
+id = "SAMA-KIWEN-2"
 is_two_handed = true
 new_gloss = "SAMA-KIWEN-2"
 old_gloss = "SAMA"
+old_id = "SAMA^2"
 
 [[etymology]]
 language = "a priori"

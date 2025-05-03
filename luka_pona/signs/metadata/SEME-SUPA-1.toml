@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "seme"
-id = "SEME^1"
+id = "SEME-SUPA-1"
 is_two_handed = false
 new_gloss = "SEME-SUPA-1"
 old_gloss = "SEME"
+old_id = "SEME^1"
 
 [[etymology]]
 language = "multiple SLs"

@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "hi"
+locale = "hi-IN"
+
+[name]
+en = "Hindi"
+endonym = "हिंदी"
+tok = "toki Insi"
+

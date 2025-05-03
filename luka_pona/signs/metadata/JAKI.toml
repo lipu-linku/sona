@@ -4,6 +4,7 @@ id = "JAKI"
 is_two_handed = false
 new_gloss = "JAKI"
 old_gloss = "JAKI"
+old_id = "JAKI"
 
 [[etymology]]
 language = "LPSL"

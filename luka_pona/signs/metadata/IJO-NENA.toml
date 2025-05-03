@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "ijo"
-id = "IJO"
+id = "IJO-NENA"
 is_two_handed = false
 new_gloss = "IJO-NENA"
 old_gloss = "IJO"
+old_id = "IJO"
 
 [[etymology]]
 language = "LPSL"

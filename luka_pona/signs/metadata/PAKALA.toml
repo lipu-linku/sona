@@ -4,6 +4,7 @@ id = "PAKALA"
 is_two_handed = false
 new_gloss = "PAKALA"
 old_gloss = "PAKALA"
+old_id = "PAKALA"
 
 [[etymology]]
 language = "a priori"

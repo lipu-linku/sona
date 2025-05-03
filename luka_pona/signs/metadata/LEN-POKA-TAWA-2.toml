@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "len"
-id = "LEN"
+id = "LEN-POKA-TAWA-2"
 is_two_handed = true
 new_gloss = "LEN-POKA-TAWA-2"
 old_gloss = "LEN"
+old_id = "LEN"
 
 [[etymology]]
 language = "mutliple SLs"

@@ -4,6 +4,7 @@ id = "SUNO"
 is_two_handed = false
 new_gloss = "SUNO"
 old_gloss = "SUNO"
+old_id = "SUNO"
 
 [[etymology]]
 language = "multiple SLs"

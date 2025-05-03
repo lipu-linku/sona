@@ -4,6 +4,7 @@ id = "TONSI"
 is_two_handed = false
 new_gloss = "TONSI"
 old_gloss = "TONSI"
+old_id = "TONSI"
 
 [[etymology]]
 language = "a priori"

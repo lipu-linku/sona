@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "awen"
-id = "AWEN"
+id = "AWEN-AWEN"
 is_two_handed = false
 new_gloss = "AWEN-AWEN"
 old_gloss = "AWEN"
+old_id = "AWEN"
 
 [[etymology]]
 language = "BSL"

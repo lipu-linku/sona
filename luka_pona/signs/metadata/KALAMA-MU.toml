@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "kalama, mu"
-id = "KALAMA^1"
+id = "KALAMA-MU"
 is_two_handed = false
 new_gloss = "KALAMA-MU; MU-KALAMA"
 old_gloss = "KALAMA^1"
+old_id = "KALAMA^1"
 
 [[etymology]]
 language = "ASL"

@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "id"
+locale = "id-ID"
+
+[name]
+en = "Indonesian"
+endonym = "Bahasa Indonesia"
+tok = "toki Intonesija"
+

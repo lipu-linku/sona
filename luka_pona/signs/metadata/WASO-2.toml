@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "waso"
-id = "WASO^2"
+id = "WASO-2"
 is_two_handed = true
 new_gloss = "WASO-2"
 old_gloss = "WASO"
+old_id = "WASO^2"
 
 [[etymology]]
 language = "a priori"

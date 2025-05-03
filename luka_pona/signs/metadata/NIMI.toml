@@ -4,6 +4,7 @@ id = "NIMI"
 is_two_handed = false
 new_gloss = "NIMI"
 old_gloss = "NIMI"
+old_id = "NIMI"
 
 [[etymology]]
 language = "a priori"

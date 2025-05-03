@@ -4,6 +4,7 @@ id = "MA"
 is_two_handed = false
 new_gloss = "MA"
 old_gloss = "MA"
+old_id = "MA"
 
 [[etymology]]
 language = "multiple SLs"

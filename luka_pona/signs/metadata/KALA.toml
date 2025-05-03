@@ -4,6 +4,7 @@ id = "KALA"
 is_two_handed = false
 new_gloss = "KALA"
 old_gloss = "KALA"
+old_id = "KALA"
 
 [[etymology]]
 language = "multiple SLs"

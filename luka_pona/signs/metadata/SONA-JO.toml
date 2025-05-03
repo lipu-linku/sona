@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sona"
-id = "SONA"
+id = "SONA-JO"
 is_two_handed = false
 new_gloss = "SONA-JO"
 old_gloss = "SONA"
+old_id = "SONA"
 
 [[etymology]]
 language = "multiple SLs (including ASL)"

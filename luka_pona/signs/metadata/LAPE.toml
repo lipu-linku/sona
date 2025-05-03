@@ -4,6 +4,7 @@ id = "LAPE"
 is_two_handed = false
 new_gloss = "LAPE"
 old_gloss = "LAPE"
+old_id = "LAPE"
 
 [[etymology]]
 language = "multiple SLs"

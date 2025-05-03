@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "la"
+locale = "la-LA"
+
+[name]
+en = "Latin"
+endonym = "Latina"
+tok = "toki Lasina"
+

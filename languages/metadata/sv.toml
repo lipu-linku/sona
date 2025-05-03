@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "sv"
+locale = "sv-SE"
+
+[name]
+en = "Swedish"
+endonym = "Svenska"
+tok = "toki Sensa"
+

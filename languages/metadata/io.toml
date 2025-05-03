@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "io"
+locale = "io-EN"
+
+[name]
+en = "Ido"
+endonym = "Ido"
+tok = "toki Ito"
+

@@ -4,6 +4,7 @@ id = "KASI"
 is_two_handed = false
 new_gloss = "KASI"
 old_gloss = "KASI"
+old_id = "KASI"
 
 [[etymology]]
 language = "multiple SLs"

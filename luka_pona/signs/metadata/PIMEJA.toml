@@ -4,6 +4,7 @@ id = "PIMEJA"
 is_two_handed = false
 new_gloss = "PIMEJA"
 old_gloss = "PIMEJA"
+old_id = "PIMEJA"
 
 [[etymology]]
 language = "toki pona luka pu"

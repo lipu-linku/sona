@@ -4,6 +4,7 @@ id = "SITELEN"
 is_two_handed = false
 new_gloss = "SITELEN"
 old_gloss = "SITELEN"
+old_id = "SITELEN"
 
 [[etymology]]
 language = "multiple SLs"

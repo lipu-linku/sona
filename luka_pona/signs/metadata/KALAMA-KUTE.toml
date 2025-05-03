@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "kalama"
-id = "KALAMA^2"
+id = "KALAMA-KUTE"
 is_two_handed = false
 new_gloss = "KALAMA-KUTE"
 old_gloss = "KALAMA^2"
+old_id = "KALAMA^2"
 
 [[etymology]]
 language = "Toki Pona Sign Language (Chuff)"

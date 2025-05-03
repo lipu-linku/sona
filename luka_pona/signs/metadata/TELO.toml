@@ -4,6 +4,7 @@ id = "TELO"
 is_two_handed = false
 new_gloss = "TELO"
 old_gloss = "TELO"
+old_id = "TELO"
 
 [[etymology]]
 language = "multiple SLs"

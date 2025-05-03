@@ -4,6 +4,7 @@ id = "NOKA"
 is_two_handed = false
 new_gloss = "NOKA"
 old_gloss = "NOKA"
+old_id = "NOKA"
 
 [[etymology]]
 language = "a priori"

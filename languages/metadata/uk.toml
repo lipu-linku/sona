@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "uk"
+locale = "uk-UA"
+
+[name]
+en = "Ukrainian"
+endonym = "Українська"
+tok = "toki Ukawina"
+

@@ -4,6 +4,7 @@ id = "NASA"
 is_two_handed = false
 new_gloss = "NASA"
 old_gloss = "NASA"
+old_id = "NASA"
 
 [[etymology]]
 language = "sitelen pona"

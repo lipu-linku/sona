@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "el"
+locale = "el-GR"
+
+[name]
+en = "Greek"
+endonym = "Ελληνικά"
+tok = "toki Elena"
+

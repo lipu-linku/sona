@@ -4,6 +4,7 @@ id = "KILI"
 is_two_handed = false
 new_gloss = "KILI"
 old_gloss = "KILI"
+old_id = "KILI"
 
 [[etymology]]
 language = "multiple SLs"

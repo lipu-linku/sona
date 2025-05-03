@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "palisa"
-id = "PALISA^1"
+id = "PALISA-1"
 is_two_handed = false
 new_gloss = "PALISA-1"
 old_gloss = "PALISA"
+old_id = "PALISA^1"
 
 [[etymology]]
 language = "multiple SLs"

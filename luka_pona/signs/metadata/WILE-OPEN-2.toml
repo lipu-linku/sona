@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "wile"
-id = "WILE^3"
+id = "WILE-OPEN-2"
 is_two_handed = true
 new_gloss = "WILE-OPEN-2"
 old_gloss = "WILE^2"
+old_id = "WILE^3"
 
 [[etymology]]
 language = "ASL"

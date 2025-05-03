@@ -4,6 +4,7 @@ id = "KULE"
 is_two_handed = false
 new_gloss = "KULE"
 old_gloss = "KULE"
+old_id = "KULE"
 
 [[etymology]]
 language = "BSL"

@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sewi"
-id = "SEWI^1"
+id = "SEWI-LON"
 is_two_handed = false
 new_gloss = "SEWI-LON"
 old_gloss = "SEWI"
+old_id = "SEWI^1"
 
 [[etymology]]
 language = "multiple SLs"

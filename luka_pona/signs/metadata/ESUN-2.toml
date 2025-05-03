@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "esun"
-id = "ESUN"
+id = "ESUN-2"
 is_two_handed = true
 new_gloss = "ESUN-2"
 old_gloss = "ESUN"
+old_id = "ESUN"
 
 [[etymology]]
 language = "multiple SLs"

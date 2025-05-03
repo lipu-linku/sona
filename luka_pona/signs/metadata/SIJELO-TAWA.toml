@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sijelo"
-id = "SIJELO^3"
+id = "SIJELO-TAWA"
 is_two_handed = false
 new_gloss = "SIJELO-TAWA"
 old_gloss = "SIJELO"
+old_id = "SIJELO^3"
 
 [[etymology]]
 language = "multiple SLs"

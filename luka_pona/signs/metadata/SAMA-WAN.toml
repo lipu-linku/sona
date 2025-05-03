@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sama"
-id = "SAMA^3"
+id = "SAMA-WAN"
 is_two_handed = false
 new_gloss = "SAMA-WAN"
 old_gloss = "SAMA"
+old_id = "SAMA^3"
 
 [[etymology]]
 language = "LPSL"

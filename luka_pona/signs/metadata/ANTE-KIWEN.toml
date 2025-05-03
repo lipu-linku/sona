@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "ante"
-id = "ANTE^1"
+id = "ANTE-KIWEN"
 is_two_handed = false
 new_gloss = "ANTE-KIWEN"
 old_gloss = "ANTE"
+old_id = "ANTE^1"
 
 [[etymology]]
 language = "multiple SLs"

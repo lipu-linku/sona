@@ -4,6 +4,7 @@ id = "KIWEN"
 is_two_handed = false
 new_gloss = "KIWEN"
 old_gloss = "KIWEN"
+old_id = "KIWEN"
 
 [[etymology]]
 language = "multiple SLs"

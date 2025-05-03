@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "lon"
-id = "LON"
+id = "LON-IJO"
 is_two_handed = false
 new_gloss = "LON-IJO"
 old_gloss = "LON"
+old_id = "LON"
 
 [[etymology]]
 language = "a priori"

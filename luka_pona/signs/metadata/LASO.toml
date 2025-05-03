@@ -4,6 +4,7 @@ id = "LASO"
 is_two_handed = false
 new_gloss = "LASO"
 old_gloss = "LASO"
+old_id = "LASO"
 
 [[etymology]]
 language = "BSL"

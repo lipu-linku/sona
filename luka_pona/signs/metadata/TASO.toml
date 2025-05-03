@@ -4,6 +4,7 @@ id = "TASO"
 is_two_handed = false
 new_gloss = "TASO"
 old_gloss = "TASO"
+old_id = "TASO"
 
 [[etymology]]
 language = "ASL and BSL"

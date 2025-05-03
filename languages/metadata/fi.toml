@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "fi"
+locale = "fi-FI"
+
+[name]
+en = "Finnish"
+endonym = "Suomi"
+tok = "toki Sumi"
+

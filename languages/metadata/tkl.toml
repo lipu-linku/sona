@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "tkl"
+locale = "tkl"
+
+[name]
+en = "Tokelauan"
+endonym = "Te Gagana Tokelau"
+tok = "toki Tokela"
+

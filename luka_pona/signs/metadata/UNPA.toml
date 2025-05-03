@@ -4,6 +4,7 @@ id = "UNPA"
 is_two_handed = false
 new_gloss = "UNPA"
 old_gloss = "UNPA"
+old_id = "UNPA"
 
 [[etymology]]
 language = "LPSL"

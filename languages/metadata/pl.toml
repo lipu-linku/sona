@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "pl"
+locale = "pl-PL"
+
+[name]
+en = "Polish"
+endonym = "Polski"
+tok = "toki Posuka"
+

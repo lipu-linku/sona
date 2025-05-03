@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "tr"
+locale = "tr-TR"
+
+[name]
+en = "Turkish"
+endonym = "Türkçe"
+tok = "toki Tuki"
+

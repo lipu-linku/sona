@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "kulupu"
-id = "KULUPU^3"
+id = "KULUPU-MUTE-2"
 is_two_handed = true
 new_gloss = "KULUPU-MUTE-2"
 old_gloss = "KULUPU"
+old_id = "KULUPU^3"
 
 [[etymology]]
 language = "LPSL"

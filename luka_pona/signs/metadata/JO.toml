@@ -4,6 +4,7 @@ id = "JO"
 is_two_handed = false
 new_gloss = "JO"
 old_gloss = "JO"
+old_id = "JO"
 
 [[etymology]]
 language = "toki pona luka pu"

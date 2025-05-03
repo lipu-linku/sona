@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "lt"
+locale = "lt-LT"
+
+[name]
+en = "Lithuanian"
+endonym = "Lietuvių"
+tok = "toki Lijutawa"
+

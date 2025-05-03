@@ -4,6 +4,7 @@ id = "MOKU"
 is_two_handed = false
 new_gloss = "MOKU"
 old_gloss = "MOKU"
+old_id = "MOKU"
 
 [[etymology]]
 language = "multiple SLs"

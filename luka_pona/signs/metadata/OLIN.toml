@@ -4,6 +4,7 @@ id = "OLIN"
 is_two_handed = false
 new_gloss = "OLIN"
 old_gloss = "OLIN"
+old_id = "OLIN"
 
 [[etymology]]
 language = "toki pona luka pu"

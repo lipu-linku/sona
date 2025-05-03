@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "ko"
-id = "KO"
+id = "KO-2"
 is_two_handed = true
 new_gloss = "KO-2"
 old_gloss = "KO"
+old_id = "KO"
 
 [[etymology]]
 language = "multiple SLs"

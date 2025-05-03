@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "nl"
+locale = "nl-NL"
+
+[name]
+en = "Dutch"
+endonym = "Nederlands"
+tok = "toki Netelan"
+

@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "ja"
+locale = "ja-JP"
+
+[name]
+en = "Japanese"
+endonym = "日本語"
+tok = "toki Nijon"
+

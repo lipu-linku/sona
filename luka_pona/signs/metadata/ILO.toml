@@ -4,6 +4,7 @@ id = "ILO"
 is_two_handed = false
 new_gloss = "ILO"
 old_gloss = "ILO"
+old_id = "ILO"
 
 [[etymology]]
 language = "BSL"

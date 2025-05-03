@@ -4,6 +4,7 @@ id = "MOLI"
 is_two_handed = false
 new_gloss = "MOLI"
 old_gloss = "MOLI"
+old_id = "MOLI"
 
 [[etymology]]
 language = "a priori"

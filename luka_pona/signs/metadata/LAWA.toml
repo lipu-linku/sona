@@ -4,6 +4,7 @@ id = "LAWA"
 is_two_handed = false
 new_gloss = "LAWA"
 old_gloss = "LAWA"
+old_id = "LAWA"
 
 [[etymology]]
 language = "BSL"

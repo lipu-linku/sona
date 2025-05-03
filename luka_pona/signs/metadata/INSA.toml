@@ -4,6 +4,7 @@ id = "INSA"
 is_two_handed = false
 new_gloss = "INSA"
 old_gloss = "INSA"
+old_id = "INSA"
 
 [[etymology]]
 language = "a priori"

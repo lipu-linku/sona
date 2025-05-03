@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "ale, ali"
-id = "ALE^2"
+id = "ALE-2"
 is_two_handed = true
 new_gloss = "ALE-2"
 old_gloss = "ALE/ALI"
+old_id = "ALE^2"
 
 [[etymology]]
 language = "mutliple SLs"

@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "cy"
+locale = "cy-GB"
+
+[name]
+en = "Welsh"
+endonym = "Cymraeg"
+tok = "toki Kinli"
+

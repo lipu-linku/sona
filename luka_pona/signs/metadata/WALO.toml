@@ -4,6 +4,7 @@ id = "WALO"
 is_two_handed = false
 new_gloss = "WALO"
 old_gloss = "WALO"
+old_id = "WALO"
 
 [[etymology]]
 language = "a priori"

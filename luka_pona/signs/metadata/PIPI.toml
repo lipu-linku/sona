@@ -4,6 +4,7 @@ id = "PIPI"
 is_two_handed = false
 new_gloss = "PIPI"
 old_gloss = "PIPI"
+old_id = "PIPI"
 
 [[etymology]]
 language = "multiple SLs"

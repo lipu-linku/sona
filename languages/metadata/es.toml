@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "es"
+locale = "es-ES"
+
+[name]
+en = "Spanish"
+endonym = "Español"
+tok = "toki Epanja"
+

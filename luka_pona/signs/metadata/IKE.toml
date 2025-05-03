@@ -4,6 +4,7 @@ id = "IKE"
 is_two_handed = false
 new_gloss = "IKE"
 old_gloss = "IKE"
+old_id = "IKE"
 
 [[etymology]]
 language = "a priori"

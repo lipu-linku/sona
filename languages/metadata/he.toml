@@ -1,0 +1,9 @@
+direction = "rtl"
+id = "he"
+locale = "he-IL"
+
+[name]
+en = "Hebrew"
+endonym = "עברית"
+tok = "toki Iwisi"
+

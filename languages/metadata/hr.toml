@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "hr"
+locale = "hr-HR"
+
+[name]
+en = "Croatian"
+endonym = "Hrvatski"
+tok = "toki Lowasi"
+

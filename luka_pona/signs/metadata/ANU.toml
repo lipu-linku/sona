@@ -4,6 +4,7 @@ id = "ANU"
 is_two_handed = false
 new_gloss = "ANU"
 old_gloss = "ANU"
+old_id = "ANU"
 
 [[etymology]]
 language = "LPSL"

@@ -4,6 +4,7 @@ id = "LIPU"
 is_two_handed = true
 new_gloss = "LIPU"
 old_gloss = "LIPU"
+old_id = "LIPU"
 
 [[etymology]]
 language = "multiple SLs"

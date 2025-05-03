@@ -4,6 +4,7 @@ id = "LUKA"
 is_two_handed = false
 new_gloss = "LUKA"
 old_gloss = "LUKA"
+old_id = "LUKA"
 
 [[etymology]]
 language = "multiple SLs"

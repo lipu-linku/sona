@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "isv_c"
+locale = "isvc"
+
+[name]
+en = "Interslavic (Cyrillic)"
+endonym = "Меджусловјанскы (кирилица)"
+tok = "toki Mesulojanki (sitelen Kililisa)"
+

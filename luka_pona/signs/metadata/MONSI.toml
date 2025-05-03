@@ -4,6 +4,7 @@ id = "MONSI"
 is_two_handed = false
 new_gloss = "MONSI"
 old_gloss = "MONSI"
+old_id = "MONSI"
 
 [[etymology]]
 language = "LPSL"

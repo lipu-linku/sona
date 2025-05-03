@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "en"
+locale = "en-US"
+
+[name]
+en = "English"
+endonym = "English"
+tok = "toki Inli"
+

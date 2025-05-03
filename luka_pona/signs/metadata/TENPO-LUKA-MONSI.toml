@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "tenpo"
-id = "TENPO^1"
+id = "TENPO-LUKA-MONSI"
 is_two_handed = false
 new_gloss = "TENPO-LUKA-MONSI"
 old_gloss = "TENPO"
+old_id = "TENPO^1"
 
 [[etymology]]
 language = "multiple SLs (including BSL)"

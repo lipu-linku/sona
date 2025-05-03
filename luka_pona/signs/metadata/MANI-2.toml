@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "mani"
-id = "MANI"
+id = "MANI-2"
 is_two_handed = true
 new_gloss = "MANI-2"
 old_gloss = "MANI"
+old_id = "MANI"
 
 [[etymology]]
 language = "multiple SLs"

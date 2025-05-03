@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "seli"
-id = "SELI"
+id = "SELI-2"
 is_two_handed = true
 new_gloss = "SELI-2"
 old_gloss = "SELI"
+old_id = "SELI"
 
 [[etymology]]
 language = "toki pona luka pu"

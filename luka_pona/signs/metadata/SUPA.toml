@@ -4,6 +4,7 @@ id = "SUPA"
 is_two_handed = false
 new_gloss = "SUPA"
 old_gloss = "SUPA"
+old_id = "SUPA"
 
 [[etymology]]
 language = "multiple SLs"

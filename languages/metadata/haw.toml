@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "haw"
+locale = "haw-US"
+
+[name]
+en = "Hawaiian"
+endonym = "ʻŌlelo Hawaiʻi"
+tok = "toki Awaje"
+

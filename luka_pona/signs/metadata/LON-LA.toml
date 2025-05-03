@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "lon"
-id = "LON"
+id = "LON-LA"
 is_two_handed = false
 new_gloss = "LON-LA"
 old_gloss = "LON"
+old_id = "LON"
 
 [[etymology]]
 language = "Toki Pona Sign Language (Chuff)"

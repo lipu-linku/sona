@@ -4,6 +4,7 @@ id = "WAN"
 is_two_handed = false
 new_gloss = "WAN"
 old_gloss = "WAN"
+old_id = "WAN"
 
 [[etymology]]
 language = "multiple SLs"

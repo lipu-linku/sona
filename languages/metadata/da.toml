@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "da"
+locale = "da-DK"
+
+[name]
+en = "Danish"
+endonym = "Dansk"
+tok = "toki Tansi"
+

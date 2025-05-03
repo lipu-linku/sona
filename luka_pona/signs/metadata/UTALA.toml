@@ -4,6 +4,7 @@ id = "UTALA"
 is_two_handed = false
 new_gloss = "UTALA"
 old_gloss = "UTALA"
+old_id = "UTALA"
 
 [[etymology]]
 language = "multiple SLs"

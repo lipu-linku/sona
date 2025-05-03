@@ -4,6 +4,7 @@ id = "POKI"
 is_two_handed = false
 new_gloss = "POKI"
 old_gloss = "POKI"
+old_id = "POKI"
 
 [[etymology]]
 language = "a priori"

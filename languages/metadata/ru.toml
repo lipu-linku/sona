@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "ru"
+locale = "ru-RU"
+
+[name]
+en = "Russian"
+endonym = "Русский"
+tok = "toki Losi"
+

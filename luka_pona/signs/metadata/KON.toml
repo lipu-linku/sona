@@ -4,6 +4,7 @@ id = "KON"
 is_two_handed = false
 new_gloss = "KON"
 old_gloss = "KON"
+old_id = "KON"
 
 [[etymology]]
 language = "multiple SLs"

@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "suli"
-id = "SULI^2"
+id = "SULI-SUPA-2"
 is_two_handed = true
 new_gloss = "SULI-SUPA-2"
 old_gloss = "SULI"
+old_id = "SULI^2"
 
 [[etymology]]
 language = "multiple SLs"

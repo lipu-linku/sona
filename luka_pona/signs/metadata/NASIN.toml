@@ -4,6 +4,7 @@ id = "NASIN"
 is_two_handed = false
 new_gloss = "NASIN"
 old_gloss = "NASIN"
+old_id = "NASIN"
 
 [[etymology]]
 language = "multiple SLs"

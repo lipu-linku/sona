@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "tenpo"
-id = "TENPO^3"
+id = "TENPO-PALISA-LAWA"
 is_two_handed = false
 new_gloss = "TENPO-PALISA-LAWA"
 old_gloss = "TENPO"
+old_id = "TENPO^3"
 
 [[etymology]]
 language = "a priori"

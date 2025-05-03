@@ -4,6 +4,7 @@ id = "PILIN"
 is_two_handed = false
 new_gloss = "PILIN"
 old_gloss = "PILIN"
+old_id = "PILIN"
 
 [[etymology]]
 language = "multiple SLs"

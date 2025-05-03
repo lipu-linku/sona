@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "lukin, isipin"
-id = "LUKIN/ISIPIN"
+id = "LUKIN-ISIPIN"
 is_two_handed = false
 new_gloss = "LUKIN-ISIPIN; ISIPIN-LUKIN"
 old_gloss = "LUKIN/ISIPIN"
+old_id = "LUKIN/ISIPIN"
 
 [[etymology]]
 language = "multiple SLs"

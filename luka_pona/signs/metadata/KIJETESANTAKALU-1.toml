@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "kijetesantakalu"
-id = "KIJETESANTAKALU^1"
+id = "KIJETESANTAKALU-1"
 is_two_handed = false
 new_gloss = "KIJETESANTAKALU-1"
 old_gloss = "KIJETESANTAKALU"
+old_id = "KIJETESANTAKALU^1"
 
 [[etymology]]
 language = "ASL"

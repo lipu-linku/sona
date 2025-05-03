@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "linja"
-id = "LINJA"
+id = "LINJA-1"
 is_two_handed = false
 new_gloss = "LINJA-1"
 old_gloss = "LINJA"
+old_id = "LINJA"
 
 [[etymology]]
 language = "Toki Pona Sign Language (Chuff)"

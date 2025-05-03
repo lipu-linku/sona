@@ -4,6 +4,7 @@ id = "KIKI"
 is_two_handed = false
 new_gloss = "KIKI"
 old_gloss = "KIKI"
+old_id = "KIKI"
 
 [[etymology]]
 language = "a priori"

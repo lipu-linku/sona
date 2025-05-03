@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "jan"
-id = "JAN^1"
+id = "JAN-WAN"
 is_two_handed = false
 new_gloss = "JAN-WAN"
 old_gloss = "JAN^1"
+old_id = "JAN^1"
 
 [[etymology]]
 language = "multiple SLs"

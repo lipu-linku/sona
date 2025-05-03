@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "lili"
-id = "LILI"
+id = "LILI-SUPA-2"
 is_two_handed = true
 new_gloss = "LILI-SUPA-2"
 old_gloss = "LILI"
+old_id = "LILI"
 
 [[etymology]]
 language = "multiple SLs"

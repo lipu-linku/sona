@@ -4,6 +4,7 @@ id = "JELO"
 is_two_handed = false
 new_gloss = "JELO"
 old_gloss = "JELO"
+old_id = "JELO"
 
 [[etymology]]
 language = "BSL (variant)"

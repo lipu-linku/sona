@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "en, kin, kan"
-id = "EN/KIN/KAN"
+id = "EN-KIN-KAN"
 is_two_handed = false
 new_gloss = "EN-KIN-KAN"
 old_gloss = "EN/KIN/KAN"
+old_id = "EN/KIN/KAN"
 
 [[etymology]]
 language = "BSL"

@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "it"
+locale = "it-IT"
+
+[name]
+en = "Italian"
+endonym = "Italiano"
+tok = "toki Italija"
+

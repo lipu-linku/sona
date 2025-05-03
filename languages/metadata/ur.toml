@@ -1,0 +1,9 @@
+direction = "rtl"
+id = "ur"
+locale = "ur-PK"
+
+[name]
+en = "Urdu"
+endonym = "اردو"
+tok = "toki Utu"
+

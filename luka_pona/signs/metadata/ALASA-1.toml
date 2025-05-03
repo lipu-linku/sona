@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "alasa"
-id = "ALASA"
+id = "ALASA-1"
 is_two_handed = false
 new_gloss = "ALASA-1"
 old_gloss = "ALASA"
+old_id = "ALASA"
 
 [[etymology]]
 language = "PISL (Plains Indian Sign Language)"

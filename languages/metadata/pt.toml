@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "pt"
+locale = "pt-BR"
+
+[name]
+en = "Portuguese"
+endonym = "Português"
+tok = "toki Potuke"
+

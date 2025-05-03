@@ -4,6 +4,7 @@ id = "SUWI"
 is_two_handed = false
 new_gloss = "SUWI"
 old_gloss = "SUWI"
+old_id = "SUWI"
 
 [[etymology]]
 language = "ASL"

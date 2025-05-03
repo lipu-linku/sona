@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "sl"
+locale = "sl-SI"
+
+[name]
+en = "Slovene"
+endonym = "Slovenščina"
+tok = "toki Lowensina"
+

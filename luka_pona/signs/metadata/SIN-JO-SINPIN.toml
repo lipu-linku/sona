@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "sin, namako"
-id = "SIN/NAMAKO^3"
+id = "SIN-JO-SINPIN"
 is_two_handed = true
 new_gloss = "SIN-JO-SINPIN"
 old_gloss = "SIN/NAMAKO"
+old_id = "SIN/NAMAKO^3"
 
 [[etymology]]
 language = "multiple SLs"

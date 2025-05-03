@@ -4,6 +4,7 @@ id = "MUSI"
 is_two_handed = false
 new_gloss = "MUSI"
 old_gloss = "MUSI"
+old_id = "MUSI"
 
 [[etymology]]
 language = "multiple SLs & Deaf Culture"

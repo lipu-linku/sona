@@ -4,6 +4,7 @@ id = "PONA"
 is_two_handed = false
 new_gloss = "PONA"
 old_gloss = "PONA"
+old_id = "PONA"
 
 [[etymology]]
 language = "multiple SLs (including IS)"

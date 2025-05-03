@@ -4,6 +4,7 @@ id = "AKESI"
 is_two_handed = false
 new_gloss = "AKESI"
 old_gloss = "AKESI"
+old_id = "AKESI"
 
 [[etymology]]
 language = "BSL"

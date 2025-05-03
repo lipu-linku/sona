@@ -4,6 +4,7 @@ id = "ONA"
 is_two_handed = false
 new_gloss = "ONA"
 old_gloss = "ONA"
+old_id = "ONA"
 
 [[etymology]]
 language = "multiple SLs"

@@ -4,6 +4,7 @@ id = "KEPEKEN"
 is_two_handed = false
 new_gloss = "KEPEKEN"
 old_gloss = "KEPEKEN"
+old_id = "KEPEKEN"
 
 [[etymology]]
 language = "BSL"

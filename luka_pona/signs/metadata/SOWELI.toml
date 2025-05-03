@@ -4,6 +4,7 @@ id = "SOWELI"
 is_two_handed = false
 new_gloss = "SOWELI"
 old_gloss = "SOWELI"
+old_id = "SOWELI"
 
 [[etymology]]
 language = "Toki Pona Sign Language (Chuff)"

@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "ken"
-id = "KEN"
+id = "KEN-2"
 is_two_handed = true
 new_gloss = "KEN-2"
 old_gloss = "KEN"
+old_id = "KEN"
 
 [[etymology]]
 language = "multiple SLs (including ASL and IS)"

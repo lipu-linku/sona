@@ -4,6 +4,7 @@ id = "MUTE"
 is_two_handed = false
 new_gloss = "MUTE"
 old_gloss = "MUTE"
+old_id = "MUTE"
 
 [[etymology]]
 language = "BSL & multiple SLs"

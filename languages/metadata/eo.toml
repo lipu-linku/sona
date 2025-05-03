@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "eo"
+locale = "eo-UY"
+
+[name]
+en = "Esperanto"
+endonym = "Esperanto"
+tok = "toki Epelanto"
+

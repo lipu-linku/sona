@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "open"
-id = "OPEN"
+id = "OPEN-2"
 is_two_handed = true
 new_gloss = "OPEN-2"
 old_gloss = "OPEN"
+old_id = "OPEN"
 
 [[etymology]]
 language = "multiple SLs"

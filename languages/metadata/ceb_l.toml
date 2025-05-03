@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "ceb_l"
+locale = "ceb-PH"
+
+[name]
+en = "Cebuano (Latin)"
+endonym = "Sinugboanon (Sa Sinulatan Nga Latin)"
+tok = "toki Sinupuwanon (sitelen Lasina)"
+

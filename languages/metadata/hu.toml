@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "hu"
+locale = "hu-HU"
+
+[name]
+en = "Hungarian"
+endonym = "magyar"
+tok = "toki Mata"
+

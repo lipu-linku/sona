@@ -4,6 +4,7 @@ id = "ALA"
 is_two_handed = false
 new_gloss = "ALA"
 old_gloss = "ALA"
+old_id = "ALA"
 
 [[etymology]]
 language = "toki pona luka pu"

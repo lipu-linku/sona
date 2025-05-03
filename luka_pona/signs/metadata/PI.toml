@@ -4,6 +4,7 @@ id = "PI"
 is_two_handed = false
 new_gloss = "PI"
 old_gloss = "PI"
+old_id = "PI"
 
 [[etymology]]
 language = "a priori"

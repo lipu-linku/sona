@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "toki"
-id = "TOKI^1"
+id = "TOKI-1"
 is_two_handed = false
 new_gloss = "TOKI-1"
 old_gloss = "TOKI"
+old_id = "TOKI^1"
 
 [[etymology]]
 language = "multiple SLs (including BSL)"

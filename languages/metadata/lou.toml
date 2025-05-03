@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "lou"
+locale = "lou"
+
+[name]
+en = "Louisiana Creole"
+endonym = "Kouri-Vini"
+tok = "toki Kuliwini"
+

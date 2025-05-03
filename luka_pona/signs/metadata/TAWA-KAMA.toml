@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "kama, tawa"
-id = "KAMA/TAWA"
+id = "TAWA-KAMA"
 is_two_handed = false
 new_gloss = "TAWA-KAMA"
 old_gloss = "KAMA/TAWA"
+old_id = "KAMA/TAWA"
 
 [[etymology]]
 language = "multiple SLs (including BSL)"

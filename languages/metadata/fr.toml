@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "fr"
+locale = "fr-FR"
+
+[name]
+en = "French"
+endonym = "Français"
+tok = "toki Kanse"
+

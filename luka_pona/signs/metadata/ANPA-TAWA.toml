@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "anpa"
-id = "ANPA^2"
+id = "ANPA-TAWA"
 is_two_handed = false
 new_gloss = "ANPA-TAWA"
 old_gloss = "ANPA^2"
+old_id = "ANPA^2"
 
 [[etymology]]
 language = "multiple SLs"

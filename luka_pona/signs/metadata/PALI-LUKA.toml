@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "pali"
-id = "PALI^1"
+id = "PALI-LUKA"
 is_two_handed = false
 new_gloss = "PALI-LUKA"
 old_gloss = "PALI"
+old_id = "PALI^1"
 
 [[etymology]]
 language = "multiple SLs"

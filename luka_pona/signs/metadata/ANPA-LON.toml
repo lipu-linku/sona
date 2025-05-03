@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "anpa"
-id = "ANPA^1"
+id = "ANPA-LON"
 is_two_handed = false
 new_gloss = "ANPA-LON"
 old_gloss = "ANPA^1"
+old_id = "ANPA^1"
 
 [[etymology]]
 language = "LPSL"

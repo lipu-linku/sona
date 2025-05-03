@@ -4,6 +4,7 @@ id = "MIJE"
 is_two_handed = false
 new_gloss = "MIJE"
 old_gloss = "MIJE"
+old_id = "MIJE"
 
 [[etymology]]
 language = "ASL"

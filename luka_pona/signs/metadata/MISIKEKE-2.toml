@@ -1,9 +1,10 @@
 #:schema ../../../api/generated/sign.json
 definition = "misikeke"
-id = "MISIKEKE^2"
+id = "MISIKEKE-2"
 is_two_handed = true
 new_gloss = "MISIKEKE-2"
 old_gloss = "MISIKEKE"
+old_id = "MISIKEKE^2"
 
 [[etymology]]
 language = "a priori"

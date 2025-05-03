@@ -1,0 +1,8 @@
+direction = "ltr"
+id = "th"
+locale = "th-TH"
+
+[name]
+en = "Thai"
+endonym = "ภาษาไทย"
+

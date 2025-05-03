@@ -1,0 +1,9 @@
+direction = "ltr"
+id = "nb"
+locale = "nb-NO"
+
+[name]
+en = "Norwegian (Bokmål)"
+endonym = "Norsk (Bokmål)"
+tok = "toki Nosiki"
+

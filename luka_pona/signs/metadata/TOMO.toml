@@ -4,6 +4,7 @@ id = "TOMO"
 is_two_handed = true
 new_gloss = "TOMO"
 old_gloss = "TOMO"
+old_id = "TOMO"
 
 [[etymology]]
 language = "multiple SLs"
