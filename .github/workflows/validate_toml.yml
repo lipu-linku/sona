@@ -49,14 +49,14 @@ jobs:
         with:
           filters: |
             schemas:
-              - 'api/src/lib/**'
+              - 'api/src/lib/v2/**'
             data:
               - '**.toml'
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 9
+          version: 10
           run_install: |
             - args: [--frozen-lockfile]
               cwd: ./api
@@ -80,7 +80,7 @@ jobs:
         if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v5
         with:
-          python-version: 3.12.1
+          python-version: 3.12.10
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
