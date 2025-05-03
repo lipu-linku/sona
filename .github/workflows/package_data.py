@@ -1,92 +1,217 @@
 import json
+import re
 import tomllib
+from collections import defaultdict
 from pathlib import Path
-from typing import Any, Callable, Final, Iterator, Optional
+from typing import Any, Callable, Final, TypedDict
 
 DATA_FOLDER: Final[str] = "metadata"
 TRANSLATIONS_FOLDER: Final[str] = "translations"
+CURRENT_API_VERSION = "v2"
+
+Transformer = Callable[[str, str, str], None]
 
 
-# TODO: rename file in repo and crowdin later?
-# or fetch stem a more robust way
-def fetch_words_stem(path: Path, data: dict):
-    stem = path.stem
-    if stem == "definitions":
-        stem = "definition"
-    return stem
+class DataPendingTransform(TypedDict):
+    input: str
+    output: str
+    transformer: Transformer
 
 
-# Value is a function that produces the parent key, if any
-DATA_TYPES: Final[dict[str, Callable[[Path, dict], Optional[str]]]] = {
-    "words": lambda path, data: fetch_words_stem(path, data),
-    "sandbox": lambda path, data: fetch_words_stem(path, data),
-    "luka_pona/signs": lambda path, data: path.stem,
-    "luka_pona/fingerspelling": lambda path, data: path.stem,
-    "fonts": lambda path, data: path.stem,
-    "languages": lambda path, data: None,
+def make_singular(word: str) -> str:
+    # NOTE: generalize this implementation later if needed
+    if word == "definitions":
+        word = "definition"
+    return word
+
+
+def glob_to_regex(glob_pattern: str) -> re.Pattern[str]:
+    regex = re.escape(glob_pattern)
+    regex = regex.replace(r"\{", "{").replace(r"\}", "}")
+    regex = re.sub(r"{(\w+)}", r"(?P<\1>[^/]+)", regex)
+    return re.compile("^" + regex + "$")
+
+
+def substitute_params(template: str, params: dict[str, str]) -> str:
+    return template.format(**params)
+
+
+def find_files(glob_pattern: str):
+    glob_path = re.sub(r"{\w+}", "*", glob_pattern)
+    return Path().glob(glob_path)
+
+
+def write_json(path: Path, data: dict[str, Any]):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    raw_data = json.dumps(
+        data,
+        separators=(",", ":"),
+        ensure_ascii=False,
+        sort_keys=True,
+        allow_nan=False,
+    )
+    path.write_text(raw_data)
+
+
+def data_transformer(root: str, input: str, output: str):
+    input_pattern = glob_to_regex(input)
+    input_vars: list[str] = re.findall(r"{(\w+)}", input)
+    output_vars: list[str] = re.findall(r"{(\w+)}", output)
+
+    remaining: set[str] = set(input_vars) - set(output_vars)
+    if len(remaining) != 1:
+        raise ValueError(
+            f"Expected exactly one param in {input} and not in {output}, got {remaining}"
+        )
+    key_var = remaining.pop()
+
+    data = defaultdict(lambda: defaultdict(defaultdict))
+    for file in find_files(input):
+        # print(file)
+        path_str = str(file).replace("\\", "/")
+        m = input_pattern.match(path_str)
+        if not m:
+            print(f"Path {path_str} does not match input pattern {input_pattern}")
+            continue
+        params = m.groupdict()
+
+        group_key = tuple(params[var] for var in output_vars)
+        key = params[key_var]
+
+        with file.open("rb") as f:
+            data[group_key][key] = tomllib.load(f)
+            # we intend to copy the item's id to the id key
+            # not all files are set up this way at present...
+            # TODO:
+            if key != data[group_key][key]["id"]:
+                print(f"key-id mismatch in {file}")
+
+    for group_key, data in data.items():
+        params = dict(zip(output_vars, group_key))
+        output_path = Path(root) / substitute_params(output, params)
+        write_json(output_path, data)
+
+
+def locale_transformer(root: str, input: str, output: str):
+    input_pattern = glob_to_regex(input)
+    output_vars = re.findall(r"{(\w+)}", output)
+
+    data = defaultdict(lambda: defaultdict(defaultdict))
+
+    for file in find_files(input):
+        # print(file)
+        path_str = str(file).replace("\\", "/")
+        m = input_pattern.match(path_str)
+        if not m:
+            continue
+        params = m.groupdict()
+
+        # expected to be one langcode per file right now
+        paths = tuple(params[var] for var in output_vars)
+        # 'commentary', 'definition', etc
+        keys = {k: v for k, v in params.items() if k not in output_vars}
+        if len(keys) != 1:
+            raise ValueError(f"Expected exactly one type of locale string, got {keys}")
+
+        key = make_singular(next(iter(keys.values())))
+        with file.open("rb") as f:
+            local_data = tomllib.load(f)
+            # 'a': 'emphasis particle' or whatever
+            for object_id, locale_string in local_data.items():
+                data[paths][object_id][key] = locale_string
+
+    for paths, data in data.items():
+        params = dict(zip(output_vars, paths))
+        output_path = Path(root) / substitute_params(output, params)
+        write_json(output_path, data)
+
+
+DATA: dict[str, DataPendingTransform] = {
+    "words": {
+        "input": "words/metadata/{id}.toml",
+        "output": "words.json",
+        "transformer": data_transformer,
+    },
+    "glyphs": {
+        "input": "glyphs/metadata/{id}.toml",
+        "output": "glyphs.json",
+        "transformer": data_transformer,
+    },
+    "sandbox_words": {
+        "input": "sandbox/words/metadata/{id}.toml",
+        "output": "sandbox/words.json",
+        "transformer": data_transformer,
+    },
+    "sandbox_glyphs": {
+        "input": "sandbox/glyphs/metadata/{id}.toml",
+        "output": "sandbox/glyphs.json",
+        "transformer": data_transformer,
+    },
+    "lp_signs": {
+        "input": "luka_pona/signs/metadata/{id}.toml",
+        "output": "luka_pona/signs.json",
+        "transformer": data_transformer,
+    },
+    "lp_fingerspelling": {
+        "input": "luka_pona/fingerspelling/metadata/{id}.toml",
+        "output": "luka_pona/fingerspelling.json",
+        "transformer": data_transformer,
+    },
+    "fonts": {
+        "input": "fonts/metadata/{id}.toml",
+        "output": "fonts.json",
+        "transformer": data_transformer,
+    },
+    "languages": {
+        "input": "languages/metadata/{id}.toml",
+        "output": "languages.json",
+        "transformer": data_transformer,
+    },
+    ###
+    ###
+    ###
+    "words_locale": {
+        "input": "words/translations/{langcode}/{id}.toml",
+        "output": "translations/{langcode}/words.json",
+        "transformer": locale_transformer,
+    },
+    "glyphs_locale": {
+        "input": "glyphs/translations/{langcode}/{id}.toml",
+        "output": "translations/{langcode}/glyphs.json",
+        "transformer": locale_transformer,
+    },
+    "sandbox_words_locale": {
+        "input": "sandbox/words/translations/{langcode}/{id}.toml",
+        "output": "sandbox/translations/{langcode}/words.json",
+        "transformer": locale_transformer,
+    },
+    "sandbox_glyphs_locale": {
+        "input": "sandbox/glyphs/translations/{langcode}/{id}.toml",
+        "output": "sandbox/translations/{langcode}/glyphs.json",
+        "transformer": locale_transformer,
+    },
+    "lp_signs_locale": {
+        "input": "luka_pona/signs/translations/{langcode}/{id}.toml",
+        "output": "luka_pona/translations/{langcode}/signs.json",
+        "transformer": locale_transformer,
+    },
+    "lp_fingerspelling_locale": {
+        "input": "luka_pona/fingerspelling/translations/{langcode}/{id}.toml",
+        "output": "luka_pona/translations/{langcode}/fingerspelling.json",
+        "transformer": locale_transformer,
+    },
 }
 
 
-def extract_data(
-    result: dict[str, Any],
-    paths: Iterator[Path],
-    key_maker: Callable[[Path, dict], Optional[str]],
-):
-    for path in paths:
-        with open(path, "rb") as file:
-            print(f"Reading {path}...")
-            data = tomllib.load(file)
-            key = key_maker(path, data)
+def main():
+    for id, metadata in DATA.items():
+        input = metadata["input"]
+        output = metadata["output"]
+        transformer = metadata["transformer"]
+        transformer(f"api/raw/{CURRENT_API_VERSION}/", input, output)
 
-            if key:
-                result[key] = data
-                # we assume the key is unique
-            else:
-                result.update(data)
-                # we assume all keys in data are unique
-
-
-def insert_translations(
-    result: dict[str, Any],
-    paths: Iterator[Path],
-    key_maker: Callable[[Path, dict], Optional[str]],
-):
-    for path in paths:
-        with open(path, "rb") as file:
-            print(f"Reading {path}...")
-            localized_data = tomllib.load(file)
-            locale = path.parent.stem
-            data_kind = key_maker(path, localized_data)
-
-            for item in localized_data:
-                if "translations" not in result[item]:
-                    result[item]["translations"] = {}
-
-                if locale not in result[item]["translations"]:
-                    result[item]["translations"][locale] = {}
-
-                result[item]["translations"][locale][data_kind] = localized_data[item]
+    print("Done!")
 
 
 if __name__ == "__main__":
-    for data_type, transformer in DATA_TYPES.items():
-        result: dict[str, Any] = {}
-
-        extract_data(
-            result,
-            Path(".").glob(f"./{data_type}/{DATA_FOLDER}/*.toml"),
-            transformer,
-        )
-
-        # doesn't need a transformer for now
-        insert_translations(
-            result,
-            Path(".").glob(f"./{data_type}/{TRANSLATIONS_FOLDER}/*/*.toml"),
-            transformer,
-        )
-
-        raw_filename = Path("api/raw") / Path(data_type).stem
-        with open(raw_filename.with_suffix(".json"), "w+") as data_file:
-            json.dump(result, data_file, separators=(",", ":"), sort_keys=True)
-
-    print("Done!")
+    main()
