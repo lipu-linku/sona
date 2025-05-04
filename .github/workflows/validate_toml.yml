@@ -86,6 +86,11 @@ jobs:
         if: contains(steps.changes.outputs.changes, 'data')
         run: pip install tomlkit langcodes language_data && npm i -g ajv-cli ajv-formats
 
+      - name: Check cross-data references
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/validate_refs.py
+
       - name: Generate raw data file
         if: contains(steps.changes.outputs.changes, 'data')
         run: python .github/workflows/package_data.py
