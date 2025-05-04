@@ -48,7 +48,7 @@ def write_json(path: Path, data):
     path.write_text(raw_data)
 
 
-def fetch_data(input: str, output: str) -> dict[str, dict]:
+def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
     input_pattern = glob_to_regex(input)
     input_vars: list[str] = re.findall(r"{(\w+)}", input)
     output_vars: list[str] = re.findall(r"{(\w+)}", output)
@@ -62,7 +62,8 @@ def fetch_data(input: str, output: str) -> dict[str, dict]:
 
     data = defaultdict(lambda: defaultdict(defaultdict))
     for file in find_files(input):
-        print(file)
+        if log:
+            print(file)
         path_str = str(file).replace("\\", "/")
         m = input_pattern.match(path_str)
         if not m:
@@ -85,7 +86,7 @@ def fetch_data(input: str, output: str) -> dict[str, dict]:
 
 def package_data(root: str, input: str, output: str):
     output_vars = re.findall(r"{(\w+)}", output)
-    data = fetch_data(input, output)
+    data = fetch_data(input, output, log=True)
 
     for group_key, group_data in data.items():
         params = dict(zip(output_vars, group_key))
@@ -93,14 +94,15 @@ def package_data(root: str, input: str, output: str):
         write_json(output_path, group_data)
 
 
-def fetch_locales(input: str, output: str) -> dict[str, dict]:
+def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]:
     input_pattern = glob_to_regex(input)
     output_vars = re.findall(r"{(\w+)}", output)
 
     data = defaultdict(lambda: defaultdict(defaultdict))
 
     for file in find_files(input):
-        # print(file)
+        if log:
+            print(file)
         path_str = str(file).replace("\\", "/")
         m = input_pattern.match(path_str)
         if not m:
@@ -131,7 +133,7 @@ def fetch_locales(input: str, output: str) -> dict[str, dict]:
 
 def package_locales(root: str, input: str, output: str):
     output_vars = re.findall(r"{(\w+)}", output)
-    data = fetch_locales(input, output)
+    data = fetch_locales(input, output, log=True)
 
     for paths, locale_data in data.items():
         params = dict(zip(output_vars, paths))
