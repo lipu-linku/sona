@@ -53,7 +53,7 @@ def write_json(path: Path, data: dict[str, Any]):
     path.write_text(raw_data)
 
 
-def data_transformer(root: str, input: str, output: str):
+def fetch_data(input: str, output: str) -> dict[str, dict]:
     input_pattern = glob_to_regex(input)
     input_vars: list[str] = re.findall(r"{(\w+)}", input)
     output_vars: list[str] = re.findall(r"{(\w+)}", output)
@@ -86,13 +86,20 @@ def data_transformer(root: str, input: str, output: str):
             if key != data[group_key][key]["id"]:
                 print(f"key-id mismatch in {file}")
 
-    for group_key, data in data.items():
+    return data
+
+
+def package_data(root: str, input: str, output: str):
+    output_vars = re.findall(r"{(\w+)}", output)
+    data = fetch_data(input, output)
+
+    for group_key, group_data in data.items():
         params = dict(zip(output_vars, group_key))
         output_path = Path(root) / substitute_params(output, params)
-        write_json(output_path, data)
+        write_json(output_path, group_data)
 
 
-def locale_transformer(root: str, input: str, output: str):
+def fetch_locales(input: str, output: str) -> dict[str, dict]:
     input_pattern = glob_to_regex(input)
     output_vars = re.findall(r"{(\w+)}", output)
 
@@ -120,6 +127,18 @@ def locale_transformer(root: str, input: str, output: str):
             for object_id, locale_string in local_data.items():
                 data[paths][object_id][key] = locale_string
 
+    return data
+
+
+def package_locales(root: str, input: str, output: str):
+    output_vars = re.findall(r"{(\w+)}", output)
+    data = fetch_locales(input, output)
+
+    for paths, locale_data in data.items():
+        params = dict(zip(output_vars, paths))
+        output_path = Path(root) / substitute_params(output, params)
+        write_json(output_path, locale_data)
+
     for paths, data in data.items():
         params = dict(zip(output_vars, paths))
         output_path = Path(root) / substitute_params(output, params)
@@ -130,42 +149,42 @@ DATA: dict[str, DataPendingTransform] = {
     "words": {
         "input": "words/metadata/{id}.toml",
         "output": "words.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "glyphs": {
         "input": "glyphs/metadata/{id}.toml",
         "output": "glyphs.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "sandbox_words": {
         "input": "sandbox/words/metadata/{id}.toml",
         "output": "sandbox/words.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "sandbox_glyphs": {
         "input": "sandbox/glyphs/metadata/{id}.toml",
         "output": "sandbox/glyphs.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "lp_signs": {
         "input": "luka_pona/signs/metadata/{id}.toml",
         "output": "luka_pona/signs.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "lp_fingerspelling": {
         "input": "luka_pona/fingerspelling/metadata/{id}.toml",
         "output": "luka_pona/fingerspelling.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "fonts": {
         "input": "fonts/metadata/{id}.toml",
         "output": "fonts.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     "languages": {
         "input": "languages/metadata/{id}.toml",
         "output": "languages.json",
-        "transformer": data_transformer,
+        "transformer": package_data,
     },
     ###
     ###
@@ -173,32 +192,32 @@ DATA: dict[str, DataPendingTransform] = {
     "words_locale": {
         "input": "words/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/words.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
     "glyphs_locale": {
         "input": "glyphs/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/glyphs.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
     "sandbox_words_locale": {
         "input": "sandbox/words/translations/{langcode}/{id}.toml",
         "output": "sandbox/translations/{langcode}/words.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
     "sandbox_glyphs_locale": {
         "input": "sandbox/glyphs/translations/{langcode}/{id}.toml",
         "output": "sandbox/translations/{langcode}/glyphs.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
     "lp_signs_locale": {
         "input": "luka_pona/signs/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/signs.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
     "lp_fingerspelling_locale": {
         "input": "luka_pona/fingerspelling/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/fingerspelling.json",
-        "transformer": locale_transformer,
+        "transformer": package_locales,
     },
 }
 
