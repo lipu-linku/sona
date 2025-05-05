@@ -10,7 +10,7 @@ from pathlib import Path
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
-from constants import CURRENT_API_VERSION, DATA, Packager
+from constants import CURRENT_API_VERSION, DATA
 
 
 def make_singular(word: str) -> str:
@@ -48,101 +48,97 @@ def write_json(path: Path, data):
     path.write_text(raw_data)
 
 
-def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
-    input_pattern = glob_to_regex(input)
+def get_unbound_param(input: str, output: str) -> str:
+    """
+    Between input and output, there should be exactly one filename variable
+    which is not already bound (i.e., which is in input but not output).
+    That will become the top level key of a new object.
+    """
     input_vars: list[str] = re.findall(r"{(\w+)}", input)
     output_vars: list[str] = re.findall(r"{(\w+)}", output)
 
     remaining: set[str] = set(input_vars) - set(output_vars)
     if len(remaining) != 1:
         raise ValueError(
-            f"Expected exactly one param in {input} and not in {output}, got {remaining}"
+            f"Expected exactly one param in {input} not in {output}, got {remaining}"
         )
     key_var = remaining.pop()
+    return key_var
 
+
+def get_bound_param(input: str, output: str) -> str:
+    input_vars: list[str] = re.findall(r"{(\w+)}", input)
+    output_vars: list[str] = re.findall(r"{(\w+)}", output)
+
+    remaining: set[str] = set(input_vars) & set(output_vars)
+    if len(remaining) != 1:
+        raise ValueError(
+            f"Expected exactly one param in {input} not in {output}, got {remaining}"
+        )
+    key_var = remaining.pop()
+    return key_var
+
+
+def get_path_values(input: str, path: str):
+    input_pattern = glob_to_regex(input)
+    m = input_pattern.match(path)
+    if not m:
+        raise ValueError(f"Path {path} does not match input pattern {input_pattern}")
+    return m.groupdict()
+
+
+def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
+    key_param = get_unbound_param(input, output)
     data = defaultdict(lambda: defaultdict(defaultdict))
     for file in find_files(input):
         if log:
             print(file)
-        path_str = str(file).replace("\\", "/")
-        m = input_pattern.match(path_str)
-        if not m:
-            print(f"Path {path_str} does not match input pattern {input_pattern}")
-            continue
-        params = m.groupdict()
-        key = params[key_var]
-        # TODO: what if there are more intermediate layers?
 
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
         with file.open("rb") as f:
-            data[key] = tomllib.load(f)
-            # we intend to copy the item's id to the id key
-            # not all files are set up this way at present...
-            # TODO:
-            if key != data[key]["id"]:
-                print(f"key-id mismatch in {file}")
+            data[label] = tomllib.load(f)
 
     return dict(data)
 
 
 def package_data(root: str, input: str, output: str):
-    output_vars = re.findall(r"{(\w+)}", output)
     data = fetch_data(input, output, log=True)
-
-    for group_key, group_data in data.items():
-        params = dict(zip(output_vars, group_key))
-        output_path = Path(root) / substitute_params(output, params)
-        write_json(output_path, group_data)
+    output_path = Path(root) / Path(output)
+    # no top level key, so just write the data
+    write_json(output_path, data)
 
 
 def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]:
-    input_pattern = glob_to_regex(input)
-    output_vars = re.findall(r"{(\w+)}", output)
-
+    key_param = get_unbound_param(input, output)  # should be id
     data = defaultdict(lambda: defaultdict(defaultdict))
-
     for file in find_files(input):
         if log:
             print(file)
-        path_str = str(file).replace("\\", "/")
-        m = input_pattern.match(path_str)
-        if not m:
-            continue
-        params = m.groupdict()
 
-        # expected to be one langcode per file right now
-        groups = tuple(params[var] for var in output_vars)
-        if len(groups) != 1:
-            raise ValueError(f"Expected exactly one locale data group, got {groups}")
-        group = next(iter(groups))
-        # TODO: what if there are more intermediate layers?
-
-        # 'commentary', 'definition', etc
-        keys = {k: v for k, v in params.items() if k not in output_vars}
-        if len(keys) != 1:
-            raise ValueError(f"Expected exactly one type of locale string, got {keys}")
-        key = make_singular(next(iter(keys.values())))
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
+        group = next(iter(values.values()))  # type of locale str
+        label = make_singular(label)
 
         with file.open("rb") as f:
-            local_data = tomllib.load(f)
-            # 'a': 'emphasis particle' or whatever
+            local_data = tomllib.load(f)  # each translation file
             for object_id, locale_string in local_data.items():
-                data[group][object_id][key] = locale_string
+                data[group][object_id][label] = locale_string
 
     return dict(data)
 
 
 def package_locales(root: str, input: str, output: str):
-    output_vars = re.findall(r"{(\w+)}", output)
     data = fetch_locales(input, output, log=True)
-
-    for paths, locale_data in data.items():
-        params = dict(zip(output_vars, paths))
-        output_path = Path(root) / substitute_params(output, params)
-        write_json(output_path, locale_data)
+    param = get_bound_param(input, output)
+    for group, local_data in data.items():
+        output_path = Path(root) / substitute_params(output, {param: group})
+        write_json(output_path, local_data)
 
 
 FETCH_MAP = {"data": fetch_data, "locales": fetch_locales}
-PACKAGE_MAP: dict[str, Packager] = {"data": package_data, "locales": package_locales}
+PACKAGE_MAP = {"data": package_data, "locales": package_locales}
 
 
 def main():
