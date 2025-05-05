@@ -11,9 +11,6 @@ from package_data import FETCH_MAP
 def load_data():
     data = dict()
     for key, config in DATA.items():
-        if key in data:
-            continue
-
         input = config["input"]
         output = config["output"]
         typ = config["type"]
