@@ -6,6 +6,7 @@ sys.path.append(SCRIPT_DIR)
 
 from constants import DATA
 from package_data import FETCH_MAP
+from utils import has_same_keys
 
 
 def load_data():
@@ -17,13 +18,6 @@ def load_data():
         fetcher = FETCH_MAP[typ]
         data[key] = fetcher(input, output)
     return data
-
-
-def has_same_keys(d1: dict, d2: dict):
-    d1keys = set(d1.keys())
-    d2keys = set(d2.keys())
-
-    return d1keys == d2keys
 
 
 def report_set_diff(name: str, expected: set, actual: set) -> list[str]:

@@ -1,6 +1,4 @@
-import json
 import os
-import re
 import sys
 import tomllib
 from collections import defaultdict
@@ -11,6 +9,8 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
 from constants import CURRENT_API_VERSION, DATA
+from utils import (find_files, get_bound_param, get_path_values,
+                   get_unbound_param, substitute_params, write_json)
 
 
 def make_singular(word: str) -> str:
@@ -18,73 +18,6 @@ def make_singular(word: str) -> str:
     if word == "definitions":
         word = "definition"
     return word
-
-
-def glob_to_regex(glob_pattern: str) -> re.Pattern[str]:
-    regex = re.escape(glob_pattern)
-    regex = regex.replace(r"\{", "{").replace(r"\}", "}")
-    regex = re.sub(r"{(\w+)}", r"(?P<\1>[^/]+)", regex)
-    return re.compile("^" + regex + "$")
-
-
-def substitute_params(template: str, params: dict[str, str]) -> str:
-    return template.format(**params)
-
-
-def find_files(glob_pattern: str):
-    glob_path = re.sub(r"{\w+}", "*", glob_pattern)
-    return Path().glob(glob_path)
-
-
-def write_json(path: Path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    raw_data = json.dumps(
-        data,
-        separators=(",", ":"),
-        ensure_ascii=False,
-        sort_keys=True,
-        allow_nan=False,
-    )
-    path.write_text(raw_data)
-
-
-def get_unbound_param(input: str, output: str) -> str:
-    """
-    Between input and output, there should be exactly one filename variable
-    which is not already bound (i.e., which is in input but not output).
-    That will become the top level key of a new object.
-    """
-    input_vars: list[str] = re.findall(r"{(\w+)}", input)
-    output_vars: list[str] = re.findall(r"{(\w+)}", output)
-
-    remaining: set[str] = set(input_vars) - set(output_vars)
-    if len(remaining) != 1:
-        raise ValueError(
-            f"Expected exactly one param in {input} not in {output}, got {remaining}"
-        )
-    key_var = remaining.pop()
-    return key_var
-
-
-def get_bound_param(input: str, output: str) -> str:
-    input_vars: list[str] = re.findall(r"{(\w+)}", input)
-    output_vars: list[str] = re.findall(r"{(\w+)}", output)
-
-    remaining: set[str] = set(input_vars) & set(output_vars)
-    if len(remaining) != 1:
-        raise ValueError(
-            f"Expected exactly one param in {input} not in {output}, got {remaining}"
-        )
-    key_var = remaining.pop()
-    return key_var
-
-
-def get_path_values(input: str, path: str):
-    input_pattern = glob_to_regex(input)
-    m = input_pattern.match(path)
-    if not m:
-        raise ValueError(f"Path {path} does not match input pattern {input_pattern}")
-    return m.groupdict()
 
 
 def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:

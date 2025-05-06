@@ -1,27 +1,22 @@
 import json
 import os
+import sys
 import urllib.request
 from pathlib import Path
 
 import tomlkit
 from langcodes import Language, LanguageTagError
 
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
+
+from utils import deep_merge
+
 CROWDIN_TOKEN = os.environ["CROWDIN_TOKEN"]
 HEADERS = {"Authorization": f"Bearer {CROWDIN_TOKEN}"}
 
 CROWDIN_PROJECT = "https://linku.crowdin.com/api/v2/projects/2"
 LANG_DIR = Path("languages/metadata")
-
-
-def deep_merge(parent: dict, child: dict):
-    """Merge the keys of a child dictionary into a parent dictionary.
-    Does not overwrite existing keys on the parent."""
-    for key in child:
-        if key not in parent:
-            parent[key] = child[key]
-            continue
-        if isinstance(parent[key], dict) and isinstance(child[key], dict):
-            deep_merge(parent[key], child[key])
 
 
 def download(url: str) -> bytes:
