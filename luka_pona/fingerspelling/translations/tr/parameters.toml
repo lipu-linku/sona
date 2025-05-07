@@ -1,128 +1,128 @@
 [A-1]
-handshape = "OpenA"
-orientation = "palm outwards"
+handshape = "Açık A"
+orientation = "avuç içi dışa doğru"
 
 [A-2]
 handshape = "1 + 5"
-placement = "touch the thumb"
+placement = "başparmağa dokun"
 
 [E-1]
-handshape = "BentB"
-orientation = "palm outwards"
+handshape = "Bükülmüş B"
+orientation = "avuç içi dışa doğru"
 
 [E-2]
 handshape = "1 + 5"
-placement = "touch the index finger"
+placement = "işaret parmağına dokun"
 
 [I-1]
 handshape = "1"
-orientation = "palm outwards"
+orientation = "avuç içi dışa doğru"
 
 [I-2]
 handshape = "1 + 5"
-placement = "touch the middle finger"
+placement = "orta parmağa dokun"
 
 [J-1]
 handshape = "1"
-movement = "fingers flip inwards"
-orientation = "palm outwards"
+movement = "parmakları içeriye doğru çevir"
+orientation = "avuç içi dışa doğru"
 
 [J-2]
 handshape = "1 + 5"
-movement = "draw a J shape on the hand"
-placement = "touch palm"
+movement = "eline J şekli çiz"
+placement = "avuç içine dokun"
 
 [J-2-ANTE]
-handshape = "1 + FlatB"
-orientation = "palm down + palm down"
-placement = "touch base of the thumb"
+handshape = "1 + Düz B"
+orientation = "avuç içi aşağı + avuç içi aşağı"
+placement = "başparmağın tabanına dokun"
 
 [K-1]
 handshape = "2"
-orientation = "palm inwards"
+orientation = "avuç içi içe doğru"
 
 [K-2]
 handshape = "9 + 1"
-placement = "touch base of finger"
+placement = "parmağın tabanına dokun"
 
 [L-1]
 handshape = "L"
-orientation = "palm outwards"
+orientation = "avuç içi dışa doğru"
 
 [L-2]
-handshape = "1 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+handshape = "1 + Düz B"
+orientation = "avuç içi yukarı + avuç içi aşağı"
+placement = "avuç içine dokun"
 
 [M-1]
-handshape = "BentB"
-orientation = "palm downwards"
+handshape = "Bükülmüş B"
+orientation = "avuç içi aşağı doğru"
 
 [M-2]
-handshape = "FlatB + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+handshape = "Düz B + Düz B"
+orientation = "avuç içi yukarı + avuç içi aşağı"
+placement = "avuç içine dokun"
 
 [N-1]
 handshape = "2"
-orientation = "palm downwards"
+orientation = "avuç içi aşağı doğru"
 
 [N-2]
-handshape = "2 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+handshape = "2 + Düz B"
+orientation = "avuç içi yukarı + avuç içi aşağı"
+placement = "avuç içine dokun"
 
 [O-1]
 handshape = "O"
-orientation = "palm outwards"
+orientation = "avuç içi dışa doğru"
 
 [O-2]
 handshape = "1 + 5"
-placement = "touch the ring finger"
+placement = "yüzük parmağına dokun"
 
 [P-1]
-handshape = "FlatB"
-orientation = "palm outwards"
+handshape = "Düz B"
+orientation = "avuç içi dışa doğru"
 
 [P-2]
 handshape = "9 + 1"
-placement = "touch tip of finger"
+placement = "parmağın ucuna dokun"
 
 [S-1]
 handshape = "5"
-orientation = "palm outwards"
+orientation = "avuç içi dışa doğru"
 
 [S-2]
-handshape = "FlatB + FlatB"
-orientation = "palm down + palm side"
-placement = "touch palm"
+handshape = "Düz B + Düz B"
+orientation = "avuç içi aşağı + avuç içi yana"
+placement = "avuç içine dokun"
 
 [T-1]
 handshape = "L"
-orientation = "palm downwards"
+orientation = "avuç içi aşağı doğru"
 
 [T-2]
-handshape = "1 + FlatB"
-placement = "touch edge of the hand"
+handshape = "1 + Düz B"
+placement = "elin kenarına dokun"
 
 [U-1]
 handshape = "2"
-orientation = "palm outwards"
+orientation = "avuç içi dışa doğru"
 
 [U-2]
 handshape = "1 + 5"
-placement = "touch the pinkie finger"
+placement = "serçe parmağına dokun"
 
 [W-1]
 handshape = "2"
-movement = "verticle circle movement"
-orientation = "palm outwards"
+movement = "dikey daire hareketi"
+orientation = "avuç içi dışa doğru"
 
 [W-2]
 handshape = "5 + 5"
-placement = "mesh fingers"
+placement = "parmakları birbirine geçir"
 
 [W-2-ANTE]
-handshape = "2 + FlatB"
-orientation = "palm up + palm down"
-placement = "touch palm"
+handshape = "2 + Düz B"
+orientation = "avuç içi yukarı + avuç içi aşağı"
+placement = "avuç içine dokun"
