@@ -1,0 +1,24 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen mu mute"
+name      = "sitelen mu mute"
+filename  = "sitelen-mu-mute-tan-kijetesantakalu-Nawili.ttf"
+creator   = ["kije Nawili"]
+license   = "SIL Open Font License, Version 1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-02"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "character variants",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/yoshikagekira8/sitelen-mu-mute-tan-kijetesantakalu-Nawili/blob/main/sitelen-mu-mute-tan-kijetesantakalu-Nawili.ttf"
