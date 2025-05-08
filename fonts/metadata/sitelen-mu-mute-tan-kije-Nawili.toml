@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen psyweli"
-name      = "sitelen psyweli tan ijo seme Sepi"
-filename  = "sitelen Psyweli.ttf"
-creator   = ["ijo seme Sepi"]
+id        = "sitelen mu mute"
+name      = "sitelen mu mute"
+filename  = "sitelen-mu-mute-tan-kijetesantakalu-Nawili.ttf"
+creator   = ["kije Nawili"]
 license   = "SIL Open Font License, Version 1.1"
 ligatures = true
 ucsur     = true
@@ -21,4 +21,4 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://raw.githubusercontent.com/yoshikagekira8/sitelen-psyweli/refs/heads/main/sitelen%20Psyweli.ttf"
+fontfile = "https://github.com/yoshikagekira8/sitelen-mu-mute-tan-kijetesantakalu-Nawili/raw/refs/heads/main/sitelen-mu-mute-tan-kijetesantakalu-Nawili.ttf"
