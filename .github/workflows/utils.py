@@ -70,11 +70,14 @@ def get_path_values(input: str, path: str):
     return m.groupdict()
 
 
-def deep_merge(parent: dict, child: dict):
+def deep_merge(parent: dict, child: dict, overwrite_empty: bool = False):
     """Merge the keys of a child dictionary into a parent dictionary.
     Does not overwrite existing keys on the parent."""
     for key in child:
         if key not in parent:
+            parent[key] = child[key]
+            continue
+        if overwrite_empty and not parent[key]:
             parent[key] = child[key]
             continue
         if isinstance(parent[key], dict) and isinstance(child[key], dict):
