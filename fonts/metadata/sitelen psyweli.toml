@@ -21,4 +21,4 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/yoshikagekira8/sitelen-psyweli/blob/main/sitelen%20Psyweli.ttf"
+fontfile = "https://raw.githubusercontent.com/yoshikagekira8/sitelen-psyweli/refs/heads/main/sitelen%20Psyweli.ttf"
