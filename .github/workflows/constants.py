@@ -101,12 +101,12 @@ DATA: dict[str, DataToPackage] = {
     },
     "sandbox_words_locale": {
         "input": "sandbox/words/translations/{langcode}/{id}.toml",
-        "output": "sandbox/translations/{langcode}/words.json",
+        "output": "sandbox/words/translations/{langcode}/words.json",
         "type": "locales",
     },
     "sandbox_glyphs_locale": {
         "input": "sandbox/glyphs/translations/{langcode}/{id}.toml",
-        "output": "sandbox/translations/{langcode}/glyphs.json",
+        "output": "sandbox/glyphs/translations/{langcode}/glyphs.json",
         "type": "locales",
     },
     "lp_signs_locale": {
