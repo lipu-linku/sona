@@ -10,27 +10,27 @@ definition = "nie"
 language = "gruziński"
 
 [[alasa]]
-definition = "hunting, (literally) on the hunt"
+definition = "polowanie, (dosłownie) na polowaniu"
 language = "akadyjski francuski"
 
 [[ale]]
-definition = "all"
+definition = "wszystko"
 language = "niderlandzki"
 
 [[ali]]
-definition = "all"
+definition = "wszystko"
 language = "niderlandzki"
 
 [[anpa]]
-definition = "below"
+definition = "pod"
 language = "akadyjski francuski"
 
 [[ante]]
-definition = "other, different"
+definition = "inny"
 language = "niderlandzki"
 
 [[anu]]
-definition = "or"
+definition = "lub"
 language = "gruziński"
 
 [[apeja]]
@@ -49,15 +49,15 @@ definition = "i"
 language = "niderlandzki"
 
 [[epiku]]
-definition = "epic"
+definition = "epicki"
 language = "francuski"
 
 [[esun]]
-language = "Akan"
-definition = "at market"
+language = "akan"
+definition = "na rynku"
 
 [[ijo]]
-definition = "something"
+definition = "coś"
 language = "esperanto"
 
 [[ijo]]
@@ -141,19 +141,19 @@ definition = "brown, coffee (colour)"
 language = "mandaryński"
 
 [[kasi]]
-definition = "plant"
+definition = "roślina"
 language = "fiński"
 
 [[ken]]
-definition = "can"
+definition = "móc"
 language = "tok pisin"
 
 [[ken]]
-definition = "can"
+definition = "móc"
 language = "angielski"
 
 [[kepeken]]
-definition = "to use"
+definition = "używać"
 language = "niderlandzki"
 
 [[kijetesantakalu]]
@@ -164,7 +164,7 @@ language = "fiński"
 language = "a priori"
 
 [[kili]]
-definition = "fruit"
+definition = "owoc"
 language = "gruziński"
 
 [[kin]]
@@ -172,23 +172,23 @@ definition = "too, also, still"
 language = "fiński"
 
 [[kipisi]]
-definition = "to cut (intransitive)"
-language = "Inuktitut"
+definition = "ciąć (nieprzechodni)"
+language = "inuktitut"
 
 [[kiwen]]
-definition = "stone (genitive case)"
+definition = "kamień (dopełniacz)"
 language = "fiński"
 
 [[ko]]
-definition = "cream, paste"
+definition = "krem, pasta"
 language = "kantoński"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "rozmawiać wśród esperantystów językiem innym niż esperanto"
 language = "esperanto"
 
 [[kokosila]]
-definition = "crocodile"
+definition = "krokodyl"
 language = "esperanto"
 
 [[kon]]
@@ -207,7 +207,7 @@ language = "toki pona"
 language = "a priori"
 
 [[kule]]
-definition = "color"
+definition = "kolor"
 language = "akadyjski francuski"
 
 [[kulijo]]
@@ -215,19 +215,19 @@ definition = "coolio"
 language = "angielski"
 
 [[kulupu]]
-definition = "group"
-language = "Tongan"
+definition = "grupa"
+language = "tonga"
 
 [[kulupu]]
-definition = "group"
+definition = "grupa"
 language = "angielski"
 
 [[kute]]
-definition = "listen"
+definition = "słuchać"
 language = "akadyjski francuski"
 
 [[la]]
-definition = "(definite article)"
+definition = "(rodzajnik określony)"
 language = "esperanto"
 
 [[la]]
@@ -240,15 +240,15 @@ language = "akadyjski francuski"
 
 [[lanpan]]
 definition = "take, seize, grasp, receive"
-language = "Greek"
+language = "grecki"
 
 [[lape]]
-definition = "sleep"
+definition = "spać"
 language = "niderlandzki"
 
 [[laso]]
 definition = "blue, inexperienced"
-language = "Welsh"
+language = "walijski"
 
 [[laso]]
 definition = "green, blue"
@@ -316,7 +316,7 @@ language = "Old Swedish"
 
 [[linluwi]]
 definition = "internet"
-language = "Welsh"
+language = "walijski"
 
 [[lipu]]
 definition = "flag, banner, ticket"
@@ -383,27 +383,27 @@ definition = "bad"
 language = "łacina"
 
 [[majuna]]
-definition = "young"
+definition = "młody"
 language = "niemiecki"
 
 [[majuna]]
-definition = "young"
+definition = "młody"
 language = "francuski"
 
 [[mama]]
-definition = "father"
+definition = "ojciec"
 language = "gruziński"
 
 [[mani]]
-definition = "money"
+definition = "pieniądze"
 language = "angielski"
 
 [[mani]]
-definition = "livestock"
+definition = "zwierzęta gospodarskie"
 language = "Proto-Germanic"
 
 [[mani]]
-definition = "cattle"
+definition = "bydło"
 language = "łacina"
 
 [[meli]]
@@ -424,7 +424,7 @@ language = "toki pona"
 
 [[meso]]
 definition = "middle"
-language = "Greek"
+language = "grecki"
 
 [[mi]]
 definition = "I, me"
@@ -448,14 +448,14 @@ language = "ukraiński"
 
 [[misikeke]]
 definition = "medicine, drug"
-language = "Ojibwe"
+language = "ojibwe"
 
 [[moku]]
 definition = "munching"
-language = "Japanese"
+language = "japoński"
 
 [[moli]]
-definition = "die"
+definition = "umierać"
 language = "akadyjski francuski"
 
 [[monsi]]
@@ -463,11 +463,11 @@ definition = "my ass (vulgar)"
 language = "akadyjski francuski"
 
 [[monsuta]]
-definition = "monster"
-language = "Japanese"
+definition = "potwór"
+language = "japoński"
 
 [[monsuta]]
-definition = "monster"
+definition = "potwór"
 language = "angielski"
 
 [[mu]]
@@ -477,7 +477,7 @@ language = "onomatopeja"
 language = "a priori"
 
 [[mun]]
-definition = "moon"
+definition = "księżyc"
 language = "angielski"
 
 [[musi]]
@@ -500,11 +500,11 @@ language = "łacina"
 language = "onomatopeja"
 
 [[namako]]
-definition = "salt"
+definition = "sól"
 language = "hindi"
 
 [[namako]]
-definition = "salt"
+definition = "sól"
 language = "perski"
 
 [[nanpa]]
@@ -545,7 +545,7 @@ language = "toki pona"
 
 [[nja]]
 definition = "meow (onomatopoeia)"
-language = "Japanese"
+language = "japoński"
 
 [[noka]]
 definition = "foot, leg"
@@ -617,7 +617,7 @@ language = "Romance"
 
 [[pan]]
 definition = "bread"
-language = "Japanese"
+language = "japoński"
 
 [[pan]]
 definition = "bread"
@@ -645,7 +645,7 @@ language = "angielski"
 
 [[pika]]
 definition = "Pikachū, an electric Pokémon"
-language = "Japanese"
+language = "japoński"
 
 [[pilin]]
 definition = "feel"
@@ -713,7 +713,7 @@ language = "angielski"
 
 [[puwa]]
 definition = "fluffy things (onomatopoeia)"
-language = "Japanese"
+language = "japoński"
 
 [[sama]]
 definition = "same"
@@ -733,7 +733,7 @@ language = "angielski"
 
 [[san]]
 definition = "(liczba) trzy"
-language = "Japanese"
+language = "japoński"
 
 [[san]]
 definition = "(liczba) trzy"
@@ -860,11 +860,11 @@ language = "angielski"
 
 [[te]]
 definition = "(quotative)"
-language = "Japanese"
+language = "japoński"
 
 [[teje]]
 definition = "right"
-language = "Welsh"
+language = "walijski"
 
 [[telo]]
 definition = "(some) water"
@@ -880,7 +880,7 @@ language = "łacina"
 
 [[to]]
 definition = "(quotative)"
-language = "Japanese"
+language = "japoński"
 
 [[toki]]
 definition = "talk"
