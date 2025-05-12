@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id        = "tomo toki nasa"
-name      = "tomo toki nasa tan jan Sepi"
-filename  = "tomo toki nasa tan jan Sepi.ttf"
-creator   = ["jan Sepi"]
+id        = "sitelen psyweli"
+name      = "sitelen psyweli tan ijo seme Sepi"
+filename  = "sitelen Psyweli.ttf"
+creator   = ["ijo seme Sepi"]
 license   = "SIL Open Font License, Version 1.1"
 ligatures = true
 ucsur     = true
@@ -21,4 +21,4 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://github.com/yoshikagekira8/tomo-toki-nasa/raw/refs/heads/main/tomo%20toki%20nasa%20tan%20jan%20Sepi.ttf"
+fontfile = "https://github.com/yoshikagekira8/sitelen-psyweli/blob/main/sitelen%20Psyweli.ttf"
