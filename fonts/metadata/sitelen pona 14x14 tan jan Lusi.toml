@@ -1,14 +1,14 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen pi waso leko tan waso musi Ipan"
-name      = "sitelen pi waso leko tan waso musi Ipan"
-filename  = "sitelen pi waso leko tan waso musi Ipan.ttf"
-creator   = ["waso musi Ipan"]
+id        = "sitelen pona 14x14 tan jan Lusi"
+name      = "sitelen pona 14x14 tan jan Lusi"
+filename  = "sitelen pona 14x14 tan jan Lusi.ttf"
+creator   = ["jan Lusi"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
 writing_system = "sitelen pona"
 
-last_updated = "2025-02"
+last_updated = "2025-03"
 version      = "1"
 
 features = [
@@ -18,10 +18,10 @@ features = [
 
   # "incomplete",
   # "variable weight",
-  "name glyphs",
+  # "name glyphs",
   "character variants",
-  # "all ku suli",                   # kokosila
-  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  "all ku suli",                   # kokosila
+  "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -32,10 +32,10 @@ features = [
 ]
 
 # Pick one style, or put multiple comma-separated styles in quotes.
-style = "handwritten"
+# style = "handwritten"
 # style = "alternate design"
 # style = "uniform line weight"
-# style = "pixelated"
+style = "pixelated"
 # style = "handdrawn"
 # style = "serif"
 # style = "sans-serif"
@@ -44,6 +44,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pi%20waso%20leko%20tan%20waso%20musi%20Ipan.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pona%2014x14%20tan%20jan%20Lusi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-waso-leko-tan-waso-musi-Ipan.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pona-14x14-tan-jan-Lusi.html"
