@@ -61,7 +61,7 @@ definition = "coś"
 language = "esperanto"
 
 [[ijo]]
-definition = "(relative pronoun root)"
+definition = "(korzeń zaimków względnych)"
 language = "języki romańskie"
 
 [[ike]]
@@ -73,7 +73,7 @@ definition = "narzędzie"
 language = "esperanto"
 
 [[ilo]]
-definition = "(agent suffix)"
+definition = "(przyrostek oznaczający przedmiot wykonujący daną czynność)"
 language = "niemiecki"
 
 [[insa]]
@@ -113,7 +113,7 @@ definition = "mieć"
 language = "mandaryński"
 
 [[jonke]]
-definition = "hjönk"
+definition = "gęgot"
 language = "onomatopeja"
 
 [[kala]]
@@ -125,7 +125,7 @@ definition = "dźwięk (ludzkiego głosu)"
 language = "serbsko-chorwacki"
 
 [[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
+definition = "wydarzenie, przychodzić, dziać się, stać się, powodować, przywoływać"
 language = "tok pisin"
 
 [[kamalawala]]
@@ -235,7 +235,7 @@ definition = "(rodzajnik żeński określony w liczbie pojedynczej)"
 language = "języki romańskie"
 
 [[la]]
-definition = "(proximal & topical suffix)"
+definition = "(przyrostek proksymalny, lokalny)"
 language = "akadyjski francuski"
 
 [[lanpan]]
@@ -331,7 +331,7 @@ definition = "w, na, (partykuła miejsca)"
 language = "tok pisin"
 
 [[lon]]
-definition = "along"
+definition = "wzdłuż, przy, po, na"
 language = "angielski"
 
 [[luka]]
@@ -412,7 +412,7 @@ language = "tok pisin"
 
 [[meli]]
 definition = "ładny"
-language = "Tolai"
+language = "tolai"
 
 [[meli]]
 definition = "Maria"
@@ -451,7 +451,7 @@ definition = "lekarstwo"
 language = "ojibwe"
 
 [[moku]]
-definition = "munching"
+definition = "żucie"
 language = "japoński"
 
 [[moli]]
@@ -516,7 +516,7 @@ definition = "liczba"
 language = "angielski"
 
 [[nasa]]
-definition = "dunderhead"
+definition = "głupiec"
 language = "tok pisin"
 
 [[nasin]]
@@ -532,8 +532,8 @@ definition = "ten"
 language = "kantoński"
 
 [[ni]]
-definition = "(continuation of a state/action)"
-language = "Tai"
+definition = "(kontynuacja stanu/działania)"
+language = "tai"
 
 [[nimi]]
 definition = "imię, nazwa"
@@ -572,7 +572,7 @@ definition = "kocham"
 language = "serbsko-chorwacki"
 
 [[omekapo]]
-definition = "'eat a good fish', wishing somebody well"
+definition = "'zjedz dobrą rybę', życzyć komuś dobrze"
 language = "toki pona"
 
 [[ona]]
@@ -592,7 +592,7 @@ definition = "wypadek"
 language = "tok pisin"
 
 [[pakala]]
-definition = "bugger up"
+definition = "psuć"
 language = "angielski"
 
 [[pake]]
@@ -624,7 +624,7 @@ definition = "chleb"
 language = "portugalski"
 
 [[pana]]
-definition = "put, set, place"
+definition = "umieszczać, wstawiać"
 language = "fiński"
 
 [[pana]]
@@ -636,7 +636,7 @@ definition = "tylko toki pona"
 language = "toki pona"
 
 [[pi]]
-definition = "of"
+definition = "(dopełniacz)"
 language = "tok pisin"
 
 [[pi]]
