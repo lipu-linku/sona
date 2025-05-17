@@ -5,13 +5,13 @@ on:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "api/src/lib/**"
+      - "api/src/lib/v2/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "api/src/lib/**"
+      - "api/src/lib/v2/**"
 
   workflow_dispatch:
 
@@ -31,6 +31,48 @@ jobs:
         with:
           cancel_others: true
           concurrent_skipping: "outdated_runs"
+
+  upsync:
+    needs: skip_check
+    if: needs.skip_check.outputs.should_skip != 'true'
+    runs-on: ubuntu-latest
+    name: Sync translation data to translation files if not already done by Crowdin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            data:
+              - '**/source/**.toml'
+              - '**/translations/**.toml'
+
+      - name: Setup Python
+        if: contains(steps.changes.outputs.changes, 'data')
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12.10
+
+      - name: Install dependencies
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pip install tomlkit
+
+      - name: Check cross-data references
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/upsync_translations.py
+
+      - name: Commit packaged files
+        uses: EndBug/add-and-commit@v9
+        if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
+        with:
+          message: Synced translation files for ${{ github.sha }}
+          pull: --commit
 
   validate:
     needs: skip_check
