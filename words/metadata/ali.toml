@@ -13,8 +13,8 @@ word = "ali"
 deprecated = false
 # TODO: should this _just_ be a synonym glyph?
 glyph_ids = []
-primary_glyph_id = ""
-synonym_glyph_ids = []
+primary_glyph_id = "ale-1"
+synonym_glyph_ids = ["ale-1"]
 
 [[audio]]
 author = "kala Asi"
