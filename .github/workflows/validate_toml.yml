@@ -75,7 +75,9 @@ jobs:
           pull: --commit
 
   validate:
-    needs: skip_check
+    needs:
+      - skip_check
+      - upsync
     if: needs.skip_check.outputs.should_skip != 'true'
     runs-on: ubuntu-latest
     name: Generate schemas, validate and package TOMLs
