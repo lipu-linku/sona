@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen pona pi lasin lukin"
 creator = ["u/The-God-of-Snails"]
 features = ["ASCII transcription", "cartouches","auto-cartouching","long pi",]

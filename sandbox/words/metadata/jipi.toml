@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "jipi"
 author_verbatim = """🚨 jipi *post-ku*
 yippie, autism, autistic, ADHD, neurodivergent, to stim | ALT [interjection] indicating excitement, joy, happiness

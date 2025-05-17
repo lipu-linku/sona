@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "len Majeka pi toki toki"
 name      = "len Majeka pi toki toki"
 filename  = "linja_Majeka_pi_toki_tokiB4.otf"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "lapan"
 author_verbatim = "**lapan** ★ dairy-like; creamy, fatty, rich, smooth\n    ← Arabic لَبَن laban 'milk'"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"

@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../api/generated/v2/sign.json
 definition = "len"
 id = "LEN-POKA"
 is_two_handed = true

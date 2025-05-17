@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "nusun"
 author_verbatim = "**nusun**: ||divination, astrology, fortune telling||"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/316063418253705229/1208279380506189824"

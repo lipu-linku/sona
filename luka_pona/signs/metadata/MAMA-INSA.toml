@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../api/generated/v2/sign.json
 definition = "mama"
 id = "MAMA-INSA"
 is_two_handed = false

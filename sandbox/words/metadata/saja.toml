@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "saja"
 author_verbatim = "saja is my personal nimi sin for trees and wood"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/944400255108141056"

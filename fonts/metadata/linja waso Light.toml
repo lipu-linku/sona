@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja waso Light"
 creator = ["jan Maku (ItMarki)"]
 features = ["UCSUR-compliant", "ku suli", "supports cartouches", "extended pi"]

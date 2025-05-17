@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "sunta"
 author_verbatim = """<:nimisin:743741432350769152> **sunta** — tritanopic color grouping, roughly seen as reds, pinks, and magentas, and roughly covers the perception of the wide range from warm violet, red, orange, and yellow
 <- toki pona *suno* + *uta*"""

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "jupi"
 author_verbatim = "[...] jupi - celebrate, celebration, victory, yippee (exclamation) <- Spanish \"yupi\"\n\nalso partially coined because there isn't a common toki pona word that starts with the syllable \"ju\" and i don't like any of the sandbox ones that do lol [...]"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/1187029495203504168/1244688898911764572"

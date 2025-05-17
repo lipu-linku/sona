@@ -1,4 +1,4 @@
-#:schema ../../api/generated/commentary_translation.json
+#:schema ../../api/generated/v2/translations/word_commentary.json
 Pingo = ""
 aka = 'This word is deprecated by the creator, replaced by "natu".'
 ako = "Virtually unknown outside the Korean toki pona community."

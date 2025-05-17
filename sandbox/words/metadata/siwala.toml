@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "siwala"
 author_verbatim = "**siwala** ★ the quality of being outside of understanding but accepted as reality; the quality of being not wished to be understood by one for the benefits associated with not understanding\n    ← Tagalog tiwalà 'trust; faith (in someone or something); reliance, confidence, belief'"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"

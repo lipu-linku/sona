@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "titi Maka lu tuki tuki"
 name      = "titi Maka lu tuki tuki"
 filename  = "titi_Maka_lu_tuku_tuku.otf"

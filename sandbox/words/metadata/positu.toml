@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "positu"
 author_verbatim = "positu - the life, universe, and everything else /ref\nI havent even read hitchhikers guide I just know that"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/956236868406620180"

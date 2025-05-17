@@ -1,3 +1,4 @@
+#:schema ../../api/generated/v2/glyph.json
 id = "taso-1"
 word = "taso"
 word_id = "taso"

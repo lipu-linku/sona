@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "tasun"
 author_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"

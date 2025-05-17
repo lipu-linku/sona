@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../api/generated/v2/sign.json
 definition = "sewi"
 id = "SEWI-LON"
 is_two_handed = false
