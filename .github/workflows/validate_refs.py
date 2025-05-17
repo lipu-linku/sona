@@ -1,12 +1,16 @@
 import os
 import sys
+from pathlib import Path
+
+import tomlkit
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
 from constants import DATA
 from package_data import FETCH_MAP
-from utils import has_same_keys
+from utils import (cached_toml_read, find_files, get_bound_param,
+                   get_path_values, get_unbound_param)
 
 
 def load_data():
@@ -46,27 +50,61 @@ def main():
     """
     data = load_data()
     langs = data["languages"]
-    errors = []
+    found_errs = False
 
     for key, config in DATA.items():
         tr_key = config.get("translations")
         if tr_key:
             translations = data.get(tr_key)
             if not translations:
-                errors.append(f"{key} missing translation data")
+                print(f"{key} missing translation data")
+                found_errs = True
                 continue
 
             # confirm all listed langs are in translation data
             errs = report_set_diff(tr_key, set(langs), set(translations))
-            errors.extend(errs)
+            for err in errs:
+                print(err)
+                found_errs = True
 
             # confirm all data have corresponding keys in translations
-            object_ids = set(data.get(key, {}))
-            for langcode, tr_data in translations.items():
-                errs = report_set_diff(f"{key} ({langcode})", object_ids, set(tr_data))
-                errors.extend(errs)
+            tr_config = DATA[tr_key]
+            input = tr_config["input"]
+            output = tr_config["output"]
 
-        # confirm that all references have corresponding keys in other data
+            filename_param = get_unbound_param(input, output)
+            langcode_param = get_bound_param(input, output)
+            for tr_file in find_files(input):
+                values = get_path_values(input, str(tr_file))
+                source_file = Path(tr_config["source"].format(**values))
+
+                langcode = values[langcode_param]
+                filename = values[filename_param]
+
+                source = cached_toml_read(source_file)
+                translation = cached_toml_read(tr_file)
+
+                errs = report_set_diff(
+                    f"{key} -> {langcode} -> {filename}",
+                    set(source),
+                    set(translation),
+                )
+
+                for object_id in source.keys():
+                    if object_id not in translation:
+                        print(
+                            f"{key} -> {langcode} -> {filename} missing key {object_id}",
+                        )
+                        found_errs = True
+                        continue
+                    if source.get(object_id) and not translation.get(object_id):
+                        print(
+                            f"{key} -> {langcode} -> {filename} has empty key {object_id}",
+                        )
+                        found_errs = True
+                        continue
+
+        # confirm all refs have valid keys in target data
         refs = config.get("refs", [])
         for ref in refs:
             ref_key = ref["key"]
@@ -87,18 +125,15 @@ def main():
 
                 for ref_id in raw_refs:
                     if ref_id not in valid_ids:
-                        errors.append(
+                        print(
                             f"{key} ({obj_id}): unknown reference in '{ref_key}': '{ref_id}'"
                         )
+                        found_errs = True
 
-    if errors:
-        print("Errors found:")
-        for errs in errors:
-            print("-", errs)
-
+    if found_errs:
         sys.exit("Error(s) found while checking references in toml data")
-    else:
-        print("Done!")
+
+    print("Done!")
 
 
 if __name__ == "__main__":

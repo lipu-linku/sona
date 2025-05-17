@@ -17,6 +17,7 @@ class DataToPackage(TypedDict):
     output: str
     type: Literal["data", "locales"]
     translations: NotRequired[str]
+    source: NotRequired[str]
     refs: NotRequired[list[Refs]]
 
 
@@ -93,30 +94,36 @@ DATA: dict[str, DataToPackage] = {
         "input": "words/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/words.json",
         "type": "locales",
+        "source": "words/source/{id}.toml",
     },
     "glyphs_locale": {
         "input": "glyphs/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/glyphs.json",
         "type": "locales",
+        "source": "glyphs/source/{id}.toml",
     },
     "sandbox_words_locale": {
         "input": "sandbox/words/translations/{langcode}/{id}.toml",
         "output": "sandbox/words/translations/{langcode}/words.json",
         "type": "locales",
+        "source": "sandbox/words/source/{id}.toml",
     },
     "sandbox_glyphs_locale": {
         "input": "sandbox/glyphs/translations/{langcode}/{id}.toml",
         "output": "sandbox/glyphs/translations/{langcode}/glyphs.json",
         "type": "locales",
+        "source": "sandbox/glyphs/source/{id}.toml",
     },
     "lp_signs_locale": {
         "input": "luka_pona/signs/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/signs.json",
         "type": "locales",
+        "source": "luka_pona/signs/source/{id}.toml",
     },
     "lp_fingerspelling_locale": {
         "input": "luka_pona/fingerspelling/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/fingerspelling.json",
         "type": "locales",
+        "source": "luka_pona/fingerspelling/source/{id}.toml",
     },
 }

@@ -2,6 +2,10 @@ import json
 import re
 from pathlib import Path
 
+import tomlkit
+
+TOML_CACHE = {}
+
 
 def glob_to_regex(glob_pattern: str) -> re.Pattern[str]:
     regex = re.escape(glob_pattern)
@@ -17,6 +21,15 @@ def substitute_params(template: str, params: dict[str, str]) -> str:
 def find_files(glob_pattern: str):
     glob_path = re.sub(r"{\w+}", "*", glob_pattern)
     return Path().glob(glob_path)
+
+
+def cached_toml_read(file: Path):
+    if file in TOML_CACHE:
+        return TOML_CACHE[file]
+    with open(file, "r", encoding="utf-8") as f:
+        data = tomlkit.parse(f.read())
+    TOML_CACHE[file] = data
+    return data
 
 
 def write_json(path: Path, data):
