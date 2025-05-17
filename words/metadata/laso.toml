@@ -11,6 +11,9 @@ source_language = "Welsh"
 usage_category = "core"
 word = "laso"
 deprecated = false
+glyph_ids = ["laso-1"]
+primary_glyph_id = "laso-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

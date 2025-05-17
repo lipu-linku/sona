@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "core"
 word = "kute"
 deprecated = false
+glyph_ids = ["kute-1"]
+primary_glyph_id = "kute-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

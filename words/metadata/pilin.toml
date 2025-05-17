@@ -11,6 +11,9 @@ source_language = "Tok Pisin"
 usage_category = "core"
 word = "pilin"
 deprecated = false
+glyph_ids = ["pilin-1"]
+primary_glyph_id = "pilin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

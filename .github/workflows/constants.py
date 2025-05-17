@@ -29,8 +29,9 @@ DATA: dict[str, DataToPackage] = {
         "translations": "words_locale",
         "refs": [
             {"key": "see_also", "to": ["words"]},
-            # {"key": "glyph_ids", "to": ["glyphs"]},
-            # {"key": "synonym_glyph_ids", "to": ["glyphs"]},
+            {"key": "glyph_ids", "to": ["glyphs"]},
+            {"key": "primary_glyph_id", "to": ["glyphs"]},
+            {"key": "synonym_glyph_ids", "to": ["glyphs"]},
         ],
     },
     "glyphs": {
@@ -50,8 +51,9 @@ DATA: dict[str, DataToPackage] = {
         "refs": [
             # TODO: sandbox words can ref words...
             {"key": "see_also", "to": ["words", "sandbox_words"]},
-            # {"key": "glyph_ids", "to": ["sandbox_glyphs"]},
-            # {"key": "synonym_glyph_ids", "to": ["sandbox_glyphs"]},
+            {"key": "glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
+            {"key": "primary_glyph_id", "to": ["sandbox_glyphs", "glyphs"]},
+            {"key": "synonym_glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
         ],
     },
     "sandbox_glyphs": {

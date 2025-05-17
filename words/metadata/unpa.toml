@@ -11,6 +11,9 @@ source_language = "onomatopoeia"
 usage_category = "core"
 word = "unpa"
 deprecated = false
+glyph_ids = ["unpa-1"]
+primary_glyph_id = "unpa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

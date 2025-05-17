@@ -11,6 +11,9 @@ source_language = "Korean"
 usage_category = "obscure"
 word = "taki"
 deprecated = false
+glyph_ids = ["taki-1", "taki-2"]
+primary_glyph_id = "taki-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

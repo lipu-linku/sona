@@ -11,6 +11,9 @@ source_language = "a priori"
 usage_category = "obscure"
 word = "mulapisu"
 deprecated = false
+glyph_ids = ["mulapisu-1"]
+primary_glyph_id = "mulapisu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

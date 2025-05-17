@@ -11,6 +11,9 @@ source_language = "toki pona"
 usage_category = "obscure"
 word = "wuwojiti"
 deprecated = false
+glyph_ids = ["wuwojiti-1"]
+primary_glyph_id = "wuwojiti-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

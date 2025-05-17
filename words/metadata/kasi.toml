@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "kasi"
 deprecated = false
+glyph_ids = ["kasi-1"]
+primary_glyph_id = "kasi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

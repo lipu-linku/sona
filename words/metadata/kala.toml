@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "kala"
 deprecated = false
+glyph_ids = ["kala-1", "kala-2"]
+primary_glyph_id = "kala-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

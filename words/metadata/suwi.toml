@@ -11,6 +11,9 @@ source_language = "Tok Pisin"
 usage_category = "core"
 word = "suwi"
 deprecated = false
+glyph_ids = ["suwi-1"]
+primary_glyph_id = "suwi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

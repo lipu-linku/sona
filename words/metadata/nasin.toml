@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "nasin"
 deprecated = false
+glyph_ids = ["nasin-1"]
+primary_glyph_id = "nasin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

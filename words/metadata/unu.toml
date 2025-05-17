@@ -11,6 +11,9 @@ source_language = "Malay-Indonesian"
 usage_category = "obscure"
 word = "unu"
 deprecated = false
+glyph_ids = ["unu-1"]
+primary_glyph_id = "unu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

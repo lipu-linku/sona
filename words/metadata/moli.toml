@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "core"
 word = "moli"
 deprecated = false
+glyph_ids = ["moli-2", "moli-1"]
+primary_glyph_id = "moli-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

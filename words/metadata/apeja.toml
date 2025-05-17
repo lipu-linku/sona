@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "obscure"
 word = "apeja"
 deprecated = false
+glyph_ids = ["apeja-1"]
+primary_glyph_id = "apeja-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

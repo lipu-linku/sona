@@ -11,6 +11,9 @@ source_language = "Georgian"
 usage_category = "core"
 word = "mama"
 deprecated = false
+glyph_ids = ["mama-1"]
+primary_glyph_id = "mama-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

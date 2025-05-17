@@ -11,6 +11,9 @@ source_language = "Tok Pisin"
 usage_category = "core"
 word = "nasa"
 deprecated = false
+glyph_ids = ["nasa-1"]
+primary_glyph_id = "nasa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

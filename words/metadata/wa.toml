@@ -11,6 +11,9 @@ source_language = "onomatopoeia"
 usage_category = "obscure"
 word = "wa"
 deprecated = false
+glyph_ids = ["wa-1"]
+primary_glyph_id = "wa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

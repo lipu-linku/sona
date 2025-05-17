@@ -11,6 +11,9 @@ source_language = "Cantonese"
 usage_category = "core"
 word = "jan"
 deprecated = false
+glyph_ids = ["jan-1"]
+primary_glyph_id = "jan-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

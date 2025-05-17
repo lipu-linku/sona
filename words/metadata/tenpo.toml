@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "tenpo"
 deprecated = false
+glyph_ids = ["tenpo-1"]
+primary_glyph_id = "tenpo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

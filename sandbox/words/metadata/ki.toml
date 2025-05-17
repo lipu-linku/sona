@@ -11,6 +11,9 @@ source_language = "French"
 usage_category = "sandbox"
 word = "ki"
 deprecated = false
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

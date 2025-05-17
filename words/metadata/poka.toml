@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "poka"
 deprecated = false
+glyph_ids = ["poka-1"]
+primary_glyph_id = "poka-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

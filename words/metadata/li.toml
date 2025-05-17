@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "li"
 deprecated = false
+glyph_ids = ["li-1"]
+primary_glyph_id = "li-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

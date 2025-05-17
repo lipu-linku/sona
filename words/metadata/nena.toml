@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "nena"
 deprecated = false
+glyph_ids = ["nena-1"]
+primary_glyph_id = "nena-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

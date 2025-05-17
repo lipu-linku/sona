@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "walo"
 deprecated = false
+glyph_ids = ["walo-1"]
+primary_glyph_id = "walo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

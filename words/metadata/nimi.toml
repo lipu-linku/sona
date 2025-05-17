@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "nimi"
 deprecated = false
+glyph_ids = ["nimi-1"]
+primary_glyph_id = "nimi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

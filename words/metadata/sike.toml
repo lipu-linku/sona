@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "sike"
 deprecated = false
+glyph_ids = ["sike-1"]
+primary_glyph_id = "sike-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

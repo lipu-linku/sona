@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "mani"
 deprecated = false
+glyph_ids = ["mani-1"]
+primary_glyph_id = "mani-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

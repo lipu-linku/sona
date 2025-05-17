@@ -11,6 +11,9 @@ source_language = "onomatopoeia"
 usage_category = "obscure"
 word = "jonke"
 deprecated = false
+glyph_ids = ["jonke-1"]
+primary_glyph_id = "jonke-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

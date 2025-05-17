@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "obscure"
 word = "kokosila"
 deprecated = false
+glyph_ids = ["kokosila-2", "kokosila-1"]
+primary_glyph_id = "kokosila-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

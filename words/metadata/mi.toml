@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "mi"
 deprecated = false
+glyph_ids = ["mi-1"]
+primary_glyph_id = "mi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

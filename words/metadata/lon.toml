@@ -11,6 +11,9 @@ source_language = "Tok Pisin"
 usage_category = "core"
 word = "lon"
 deprecated = false
+glyph_ids = ["lon-1"]
+primary_glyph_id = "lon-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

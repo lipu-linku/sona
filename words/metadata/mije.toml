@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "common"
 word = "mije"
 deprecated = false
+glyph_ids = ["mije-2", "mije-1"]
+primary_glyph_id = "mije-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

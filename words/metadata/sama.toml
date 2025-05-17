@@ -11,6 +11,9 @@ source_language = "multiple"
 usage_category = "core"
 word = "sama"
 deprecated = false
+glyph_ids = ["sama-1"]
+primary_glyph_id = "sama-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

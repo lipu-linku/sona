@@ -11,6 +11,9 @@ source_language = "multiple possibilities"
 usage_category = "common"
 word = "leko"
 deprecated = false
+glyph_ids = ["leko-1"]
+primary_glyph_id = "leko-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

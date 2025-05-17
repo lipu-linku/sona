@@ -11,6 +11,9 @@ source_language = "Japanese"
 usage_category = "core"
 word = "moku"
 deprecated = false
+glyph_ids = ["moku-1"]
+primary_glyph_id = "moku-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

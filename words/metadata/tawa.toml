@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "tawa"
 deprecated = false
+glyph_ids = ["tawa-1"]
+primary_glyph_id = "tawa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Swahili"
 usage_category = "obscure"
 word = "usawi"
 deprecated = false
+glyph_ids = ["usawi-1"]
+primary_glyph_id = "usawi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

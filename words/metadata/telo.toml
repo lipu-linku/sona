@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "core"
 word = "telo"
 deprecated = false
+glyph_ids = ["telo-1"]
+primary_glyph_id = "telo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

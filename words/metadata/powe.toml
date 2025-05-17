@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "obscure"
 word = "powe"
 deprecated = false
+glyph_ids = ["powe-1"]
+primary_glyph_id = "powe-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

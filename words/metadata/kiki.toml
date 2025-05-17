@@ -11,6 +11,9 @@ source_language = "a priori"
 usage_category = "obscure"
 word = "kiki"
 deprecated = false
+glyph_ids = ["kiki-2", "kiki-1"]
+primary_glyph_id = "kiki-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

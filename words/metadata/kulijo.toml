@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "obscure"
 word = "kulijo"
 deprecated = false
+glyph_ids = ["kulijo-1"]
+primary_glyph_id = "kulijo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

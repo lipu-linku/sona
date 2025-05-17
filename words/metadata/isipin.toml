@@ -11,6 +11,9 @@ source_language = "Tagalog"
 usage_category = "obscure"
 word = "isipin"
 deprecated = false
+glyph_ids = ["isipin-1"]
+primary_glyph_id = "isipin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

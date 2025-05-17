@@ -11,6 +11,9 @@ source_language = "Georgian"
 usage_category = "core"
 word = "anu"
 deprecated = false
+glyph_ids = ["anu-1"]
+primary_glyph_id = "anu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

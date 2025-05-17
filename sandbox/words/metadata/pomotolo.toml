@@ -11,6 +11,9 @@ source_language = "Italian"
 usage_category = "sandbox"
 word = "pomotolo"
 deprecated = false
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

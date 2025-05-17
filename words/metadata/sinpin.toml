@@ -11,6 +11,9 @@ source_language = "Cantonese"
 usage_category = "core"
 word = "sinpin"
 deprecated = false
+glyph_ids = ["sinpin-2", "sinpin-1"]
+primary_glyph_id = "sinpin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

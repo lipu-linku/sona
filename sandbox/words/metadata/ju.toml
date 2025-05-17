@@ -11,6 +11,9 @@ source_language = "a priori"
 usage_category = "sandbox"
 word = "ju"
 deprecated = false
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

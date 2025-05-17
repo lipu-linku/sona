@@ -11,6 +11,9 @@ source_language = "Greek"
 usage_category = "uncommon"
 word = "meso"
 deprecated = false
+glyph_ids = ["meso-1", "meso-2"]
+primary_glyph_id = "meso-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

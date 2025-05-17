@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "core"
 word = "monsi"
 deprecated = false
+glyph_ids = ["monsi-1", "monsi-2"]
+primary_glyph_id = "monsi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

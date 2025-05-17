@@ -11,6 +11,9 @@ source_language = "Dutch"
 usage_category = "core"
 word = "ante"
 deprecated = false
+glyph_ids = ["ante-1", "ante-2"]
+primary_glyph_id = "ante-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "obscure"
 word = "po"
 deprecated = true
+glyph_ids = ["po-1"]
+primary_glyph_id = "po-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

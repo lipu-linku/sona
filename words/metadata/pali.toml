@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "pali"
 deprecated = false
+glyph_ids = ["pali-1"]
+primary_glyph_id = "pali-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Georgian"
 usage_category = "core"
 word = "sewi"
 deprecated = false
+glyph_ids = ["sewi-2", "sewi-1"]
+primary_glyph_id = "sewi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

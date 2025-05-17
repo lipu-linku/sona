@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "jelo"
 deprecated = false
+glyph_ids = ["jelo-1"]
+primary_glyph_id = "jelo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

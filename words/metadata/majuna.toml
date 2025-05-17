@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "uncommon"
 word = "majuna"
 deprecated = false
+glyph_ids = ["majuna-1", "majuna-2"]
+primary_glyph_id = "majuna-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

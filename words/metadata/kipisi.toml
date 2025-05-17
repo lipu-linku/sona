@@ -11,6 +11,9 @@ source_language = "Inuktitut"
 usage_category = "common"
 word = "kipisi"
 deprecated = false
+glyph_ids = ["kipisi-1"]
+primary_glyph_id = "kipisi-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

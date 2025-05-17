@@ -11,6 +11,9 @@ source_language = "Welsh"
 usage_category = "obscure"
 word = "teje"
 deprecated = false
+glyph_ids = ["teje-1"]
+primary_glyph_id = "teje-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

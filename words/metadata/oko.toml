@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "uncommon"
 word = "oko"
 deprecated = false
+glyph_ids = ["oko-1"]
+primary_glyph_id = "oko-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

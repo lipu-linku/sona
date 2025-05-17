@@ -117,6 +117,10 @@ def main():
 
             for obj_id, obj_data in data[key].items():
                 raw_refs = obj_data.get(ref_key)
+                if raw_refs is None:
+                    print(f"{key} ({obj_id}): missing key {ref_key}")
+                    found_errs = True
+                    continue
 
                 if isinstance(raw_refs, str):
                     raw_refs = [raw_refs]

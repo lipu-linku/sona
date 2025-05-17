@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "obscure"
 word = "sutopatikuna"
 deprecated = false
+glyph_ids = ["sutopatikuna-1"]
+primary_glyph_id = "sutopatikuna-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

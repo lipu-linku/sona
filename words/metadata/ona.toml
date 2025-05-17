@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "ona"
 deprecated = false
+glyph_ids = ["ona-1"]
+primary_glyph_id = "ona-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Dutch"
 usage_category = "core"
 word = "sitelen"
 deprecated = false
+glyph_ids = ["sitelen-1"]
+primary_glyph_id = "sitelen-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

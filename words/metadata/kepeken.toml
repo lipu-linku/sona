@@ -11,6 +11,9 @@ source_language = "Dutch"
 usage_category = "core"
 word = "kepeken"
 deprecated = false
+glyph_ids = ["kepeken-1"]
+primary_glyph_id = "kepeken-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

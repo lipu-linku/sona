@@ -11,6 +11,9 @@ source_language = "Georgian"
 usage_category = "core"
 word = "o"
 deprecated = false
+glyph_ids = ["o-1"]
+primary_glyph_id = "o-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "multiple possibilities"
 usage_category = "core"
 word = "pini"
 deprecated = false
+glyph_ids = ["pini-1"]
+primary_glyph_id = "pini-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

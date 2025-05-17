@@ -11,6 +11,9 @@ source_language = "Cantonese"
 usage_category = "core"
 word = "tan"
 deprecated = false
+glyph_ids = ["tan-1"]
+primary_glyph_id = "tan-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

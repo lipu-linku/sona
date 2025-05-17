@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "mun"
 deprecated = false
+glyph_ids = ["mun-1"]
+primary_glyph_id = "mun-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

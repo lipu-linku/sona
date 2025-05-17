@@ -11,6 +11,9 @@ source_language = "multiple"
 usage_category = "obscure"
 word = "konwe"
 deprecated = true
+glyph_ids = ["konwe-1"]
+primary_glyph_id = "konwe-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

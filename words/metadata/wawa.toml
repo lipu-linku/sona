@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "wawa"
 deprecated = false
+glyph_ids = ["wawa-1"]
+primary_glyph_id = "wawa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

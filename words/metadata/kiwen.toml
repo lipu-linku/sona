@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "kiwen"
 deprecated = false
+glyph_ids = ["kiwen-1"]
+primary_glyph_id = "kiwen-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

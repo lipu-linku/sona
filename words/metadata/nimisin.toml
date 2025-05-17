@@ -11,6 +11,9 @@ source_language = "toki pona"
 usage_category = "uncommon"
 word = "nimisin"
 deprecated = false
+glyph_ids = ["nimisin-1"]
+primary_glyph_id = "nimisin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

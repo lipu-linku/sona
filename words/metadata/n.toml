@@ -11,6 +11,9 @@ source_language = "onomatopoeia"
 usage_category = "common"
 word = "n"
 deprecated = false
+glyph_ids = ["n-1"]
+primary_glyph_id = "n-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

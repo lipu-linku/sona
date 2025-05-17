@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "palisa"
 deprecated = false
+glyph_ids = ["palisa-1"]
+primary_glyph_id = "palisa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "mute"
 deprecated = false
+glyph_ids = ["mute-1", "mute-2"]
+primary_glyph_id = "mute-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

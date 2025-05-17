@@ -11,6 +11,9 @@ source_language = "toki pona"
 usage_category = "obscure"
 word = "kamalawala"
 deprecated = false
+glyph_ids = ["kamalawala-1"]
+primary_glyph_id = "kamalawala-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Japanese"
 usage_category = "obscure"
 word = "puwa"
 deprecated = false
+glyph_ids = ["puwa-1"]
+primary_glyph_id = "puwa-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

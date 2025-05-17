@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "obscure"
 word = "pake"
 deprecated = false
+glyph_ids = ["pake-1"]
+primary_glyph_id = "pake-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

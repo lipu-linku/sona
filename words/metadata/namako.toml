@@ -11,6 +11,9 @@ source_language = "multiple possibilities"
 usage_category = "common"
 word = "namako"
 deprecated = false
+glyph_ids = ["namako-1", "namako-2"]
+primary_glyph_id = "namako-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

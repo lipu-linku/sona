@@ -11,6 +11,9 @@ source_language = "a priori"
 usage_category = "common"
 word = "ku"
 deprecated = false
+glyph_ids = ["ku-1"]
+primary_glyph_id = "ku-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

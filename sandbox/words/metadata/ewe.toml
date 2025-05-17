@@ -11,6 +11,9 @@ source_language = "multiple"
 usage_category = "sandbox"
 word = "ewe"
 deprecated = false
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

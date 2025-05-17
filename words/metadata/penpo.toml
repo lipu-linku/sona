@@ -17,6 +17,9 @@ audio = []
 # [[audio]]
 # author = ""
 # link = ""
+glyph_ids = ["penpo-1"]
+primary_glyph_id = "penpo-1"
+synonym_glyph_ids = []
 
 [representations]
 ligatures = ["penpo"]

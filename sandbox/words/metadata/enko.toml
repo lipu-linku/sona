@@ -11,6 +11,9 @@ source_language = "toki pona"
 usage_category = "sandbox"
 word = "enko"
 deprecated = true
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

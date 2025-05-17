@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "common"
 word = "kin"
 deprecated = false
+glyph_ids = ["kin-1"]
+primary_glyph_id = "kin-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

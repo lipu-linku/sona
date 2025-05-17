@@ -11,6 +11,9 @@ source_language = "multiple possibilities"
 usage_category = "core"
 word = "pana"
 deprecated = false
+glyph_ids = ["pana-1"]
+primary_glyph_id = "pana-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

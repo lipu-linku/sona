@@ -11,6 +11,9 @@ source_language = "Dutch"
 usage_category = "core"
 word = "ale"
 deprecated = false
+glyph_ids = ["ale-1"]
+primary_glyph_id = "ale-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "onomatopoeia"
 usage_category = "core"
 word = "mu"
 deprecated = false
+glyph_ids = ["mu-1", "mu-2"]
+primary_glyph_id = "mu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

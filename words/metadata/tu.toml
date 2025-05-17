@@ -11,6 +11,9 @@ source_language = "multiple"
 usage_category = "core"
 word = "tu"
 deprecated = false
+glyph_ids = ["tu-1"]
+primary_glyph_id = "tu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

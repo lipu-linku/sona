@@ -11,6 +11,9 @@ source_language = "Mandarin"
 usage_category = "core"
 word = "jo"
 deprecated = false
+glyph_ids = ["jo-1"]
+primary_glyph_id = "jo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

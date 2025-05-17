@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "ma"
 deprecated = false
+glyph_ids = ["ma-1"]
+primary_glyph_id = "ma-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

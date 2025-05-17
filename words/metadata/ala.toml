@@ -11,6 +11,9 @@ source_language = "Georgian"
 usage_category = "core"
 word = "ala"
 deprecated = false
+glyph_ids = ["ala-1"]
+primary_glyph_id = "ala-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

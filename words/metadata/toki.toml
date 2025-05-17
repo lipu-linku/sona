@@ -11,6 +11,9 @@ source_language = "Tok Pisin"
 usage_category = "core"
 word = "toki"
 deprecated = false
+glyph_ids = ["toki-1"]
+primary_glyph_id = "toki-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

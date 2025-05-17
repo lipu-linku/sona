@@ -11,6 +11,9 @@ source_language = "Finnish"
 usage_category = "core"
 word = "linja"
 deprecated = false
+glyph_ids = ["linja-1"]
+primary_glyph_id = "linja-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

@@ -11,6 +11,9 @@ source_language = "Acadian French"
 usage_category = "core"
 word = "kule"
 deprecated = false
+glyph_ids = ["kule-1"]
+primary_glyph_id = "kule-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"

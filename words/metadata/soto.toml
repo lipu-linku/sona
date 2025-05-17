@@ -11,6 +11,9 @@ source_language = "Swahili"
 usage_category = "obscure"
 word = "soto"
 deprecated = false
+glyph_ids = ["soto-1"]
+primary_glyph_id = "soto-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
