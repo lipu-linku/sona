@@ -10,7 +10,7 @@ from langcodes import Language, LanguageTagError
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
-from utils import deep_merge
+from utils import deep_merge, load_languages
 
 CROWDIN_TOKEN = os.environ["CROWDIN_TOKEN"]
 HEADERS = {"Authorization": f"Bearer {CROWDIN_TOKEN}"}
@@ -52,13 +52,7 @@ def fetch_endonym(lang_id: str) -> str | None:
 
 
 def main():
-    known_langs = {}
-    for file in LANG_DIR.glob("*.toml"):
-        with file.open("r", encoding="utf-8") as f:
-            data = tomlkit.loads(f.read())
-            lang_id = data["id"]
-            assert lang_id == file.stem, f"Lang {file.name} has wrong lang_id {lang_id}"
-            known_langs[lang_id] = data
+    known_langs = load_languages()
 
     project_data = json.loads(download(CROWDIN_PROJECT))["data"]
     mappings = project_data["languageMapping"]

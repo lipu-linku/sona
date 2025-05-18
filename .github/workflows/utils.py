@@ -1,10 +1,23 @@
 import json
 import re
 from pathlib import Path
+from typing import Any
 
 import tomlkit
 
 TOML_CACHE = {}
+LANG_DIR = Path("languages/metadata")
+
+
+def load_languages() -> dict[str, Any]:
+    known_langs = {}
+    for file in LANG_DIR.glob("*.toml"):
+        with file.open("r", encoding="utf-8") as f:
+            data = tomlkit.loads(f.read())
+            lang_id = data["id"]
+            assert lang_id == file.stem, f"Lang {file.name} has wrong lang_id {lang_id}"
+            known_langs[lang_id] = data
+    return known_langs
 
 
 def glob_to_regex(glob_pattern: str) -> re.Pattern[str]:
@@ -24,6 +37,8 @@ def find_files(glob_pattern: str):
 
 
 def cached_toml_read(file: Path):
+    if not file.exists():
+        return {}
     if file in TOML_CACHE:
         return TOML_CACHE[file]
     with open(file, "r", encoding="utf-8") as f:

@@ -8,11 +8,13 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
 from constants import DATA
-from utils import (cached_toml_read, deep_merge, find_files, get_bound_param,
-                   get_path_values, get_unbound_param)
+from utils import (cached_toml_read, deep_merge, find_files, get_path_values,
+                   load_languages)
 
 
 def main():
+    langs = load_languages()
+
     for key, config in DATA.items():
         if config["type"] != "locales":
             continue
@@ -20,24 +22,24 @@ def main():
             continue
 
         input = config["input"]
-        output = config["output"]
+        source = config["source"]
+        for src_file in find_files(source):
+            values = get_path_values(source, str(src_file))
+            src_key = next(iter(values.values()))
+            source_data = cached_toml_read(src_file)
 
-        filename_param = get_unbound_param(input, output)
-        langcode_param = get_bound_param(input, output)
+            for lang_id, _ in langs.items():
+                # TODO: these should be possible to derive, rather than hardcode
+                tr_file = Path(input.format(**{"id": src_key, "langcode": lang_id}))
+                print(f"Syncing {src_file} to {tr_file}")
 
-        for tr_file in find_files(input):
-            values = get_path_values(input, str(tr_file))
+                if not tr_file.exists():
+                    tr_file.parent.mkdir(parents=True, exist_ok=True)
 
-            source_file = Path(config["source"].format(**values))
-            print(f"Syncing {source_file} to {tr_file}")
-
-            source = cached_toml_read(source_file)
-            translation = cached_toml_read(tr_file)
-
-            deep_merge(translation, source, overwrite_empty=True)
-
-            with open(tr_file, "w", encoding="utf-8") as f:
-                f.write(dumps(translation, sort_keys=True))
+                translation = cached_toml_read(tr_file)
+                deep_merge(translation, source_data, overwrite_empty=True)
+                with open(tr_file, "w", encoding="utf-8") as f:
+                    _ = f.write(dumps(translation, sort_keys=True))
 
 
 if __name__ == "__main__":
