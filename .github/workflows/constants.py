@@ -52,7 +52,8 @@ DATA: dict[str, DataToPackage] = {
             # TODO: sandbox words can ref words...
             {"key": "see_also", "to": ["words", "sandbox_words"]},
             {"key": "glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
-            {"key": "primary_glyph_id", "to": ["sandbox_glyphs", "glyphs"]},
+            # {"key": "primary_glyph_id", "to": ["sandbox_glyphs", "glyphs"]},
+            # primary_glyph_id is nullable in sandbox_words
             {"key": "synonym_glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
         ],
     },
