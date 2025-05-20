@@ -1,0 +1,21 @@
+{
+  "$ref": "#/definitions/names_data",
+  "definitions": {
+    "names_data": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "description": "A name this sitelen pona glyph is known by."
+        },
+        "description": "A list of names used to refer to this sitelen pona glyph"
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "A raw data object containing dictionary info about Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

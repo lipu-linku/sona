@@ -40,7 +40,7 @@
           },
           "creation_date": {
             "type": "string",
-            "format": "date-time"
+            "pattern": "^(20\\d{2}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$"
           },
           "primary": {
             "type": "boolean"
@@ -49,12 +49,10 @@
             "type": "boolean"
           },
           "image": {
-            "type": "string",
-            "format": "uri"
+            "type": "string"
           },
           "svg": {
-            "type": "string",
-            "format": "uri"
+            "type": "string"
           },
           "ligature": {
             "type": "string",
@@ -112,8 +110,11 @@
           "word_id",
           "usage_category",
           "creator",
+          "creation_date",
           "primary",
           "deprecated",
+          "image",
+          "svg",
           "usage",
           "translations"
         ],

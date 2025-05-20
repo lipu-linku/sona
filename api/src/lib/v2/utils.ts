@@ -1,6 +1,8 @@
 import { z } from "zod";
 
-export const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
+export const OptionalDate = z
+	.string()
+	.regex(/^(20\d{2}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$/);
 
 export const Book = z.union([
 	z.literal("pu"),

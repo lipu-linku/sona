@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem, OptionalDate } from "./utils";
 
 export type * from "./types";
 
@@ -173,11 +173,11 @@ export const GlyphData = z.object({
 	usage_category: UsageCategory,
 	creator_source: z.string().optional(),
 	creator: z.array(z.string().min(1)),
-	creation_date: z.date().optional() || YearMonth.optional(),
+	creation_date: OptionalDate,
 	primary: z.boolean(),
 	deprecated: z.boolean(),
-	image: z.string().url().optional(),
-	svg: z.string().url().optional(),
+	image: z.string(), // expected to be URLs but are nullable in sandbox
+	svg: z.string(), // can't use || in json schema
 	ligature: z.string().min(1).optional(),
 	ucsur: z
 		.string()
@@ -313,7 +313,7 @@ export const Font = z
 			.string()
 			.regex(/^(?:.+\.(ttf|otf|woff2|woff))?$/)
 			.describe("the name of the file this font is stored in at https://github.com/lipu-linku/ijo"),
-		last_updated: YearMonth.optional().describe("the rough date of this font's last update"),
+		last_updated: OptionalDate.describe("the rough date of this font's last update"),
 		license: z
 			.string()
 			.describe("an SPDX expression describing this font's license: https://spdx.org/licenses/"),
@@ -391,6 +391,9 @@ export const DefinitionData = z
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 export const EtymologyData = z
 	.record(Id, Commentary)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const NamesData = z
+	.record(Id, Names)
 	.describe("A raw data object containing dictionary info about Toki Pona words");
 export const IconsData = z
 	.record(Id, Icons)
