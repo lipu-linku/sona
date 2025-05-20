@@ -27,7 +27,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "words/metadata/{id}.toml",
         "output": "words.json",
         "type": "data",
-        "schema": "word.json",
+        "schema": "word_data.json",
         "translations": "words_locale",
         "refs": [
             {"key": "see_also", "to": ["words"]},
@@ -40,7 +40,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "glyphs/metadata/{id}.toml",
         "output": "glyphs.json",
         "type": "data",
-        "schema": "glyph.json",
+        "schema": "glyph_data.json",
         "translations": "glyphs_locale",
         "refs": [
             {"key": "word_id", "to": ["words"]},
@@ -50,7 +50,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "sandbox/words/metadata/{id}.toml",
         "output": "sandbox/words.json",
         "type": "data",
-        "schema": "word.json",
+        "schema": "word_data.json",
         "translations": "sandbox_words_locale",
         "refs": [
             # TODO: sandbox words can ref words...
@@ -65,7 +65,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "sandbox/glyphs/metadata/{id}.toml",
         "output": "sandbox/glyphs.json",
         "type": "data",
-        "schema": "glyph.json",
+        "schema": "glyph_data.json",
         "translations": "sandbox_glyphs_locale",
         "refs": [
             {"key": "word_id", "to": ["words", "sandbox_words"]},
@@ -75,7 +75,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "luka_pona/signs/metadata/{id}.toml",
         "output": "luka_pona/signs.json",
         "type": "data",
-        "schema": "sign.json",
+        "schema": "sign_data.json",
         "translations": "lp_signs_locale",
         "refs": [],
     },
@@ -83,7 +83,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "luka_pona/fingerspelling/metadata/{id}.toml",
         "output": "luka_pona/fingerspelling.json",
         "type": "data",
-        "schema": "fingerspelling.json",
+        "schema": "fingerspelling_data.json",
         "translations": "lp_fingerspelling_locale",
         "refs": [],
     },
@@ -92,6 +92,7 @@ DATA: dict[str, DataToPackage] = {
         "output": "fonts.json",
         "type": "data",
         "schema": "font.json",
+        # no translations so no data distinction or change between toml/json/api
     },
     "languages": {
         "input": "languages/metadata/{id}.toml",

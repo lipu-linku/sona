@@ -29,15 +29,22 @@ def resolve_schema(schema_template: str, path: Path, input: str, output: str) ->
     return schema_template
 
 
+def get_depth_prefix(pattern: str) -> str:
+    depth = pattern.count("/")
+    paths = [".."] * depth
+    return "/".join(paths)
+
+
 def update_schemas(entry: DataToPackage):
     key = "input" if entry["type"] == "data" else "source"
     input = entry[key]
     output = entry["output"]
     schema_template = entry["schema"]
+    prefix = get_depth_prefix(input)
     for path in find_files(input):
         resolved_schema = resolve_schema(schema_template, path, input, output)
         insert_or_update_schema_line(
-            path, f"#:schema ../../api/generated/v2/{resolved_schema}"
+            path, f"#:schema {prefix}/api/generated/v2/{resolved_schema}"
         )
 
 
