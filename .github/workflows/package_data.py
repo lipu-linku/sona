@@ -13,13 +13,6 @@ from utils import (find_files, get_bound_param, get_path_values,
                    get_unbound_param, substitute_params, write_json)
 
 
-def make_singular(word: str) -> str:
-    # NOTE: generalize this implementation later if needed
-    if word == "definitions":
-        word = "definition"
-    return word
-
-
 def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
     key_param = get_unbound_param(input, output)
     data = defaultdict(lambda: defaultdict(defaultdict))
@@ -52,7 +45,6 @@ def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]
         values = get_path_values(input, str(file))
         label = values.pop(key_param)
         group = next(iter(values.values()))  # type of locale str
-        label = make_singular(label)
 
         with file.open("rb") as f:
             local_data = tomllib.load(f)  # each translation file
