@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "kewe"
 author_verbatim = """<:nimisin:743741432350769152> **kewe** — tritanopic color grouping, roughly seen as cyan, and roughly covers the perception of the range from green, blue, and cool violet
 <- toki pona *kule* + *sewi*"""

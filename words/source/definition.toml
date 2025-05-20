@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/definitions_data.json
+#:schema ../../api/generated/v2/definition_data.json
 a = "(interjection) ah, oh, ha, eh, um, oy; (particle) [placed after something for emphasis or emotion]"
 akesi = "reptile, amphibian, scaly creature, crawling creature"
 ala = "not, nothing, no; (particle) [negates a word or phrase]; (particle) [forms a yes-no question]; (number) zero"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "ka1"
 author_verbatim = """📣 ***ka*** *~nimisin~* — question marker
   ← Japanese か *ka* (question marker)

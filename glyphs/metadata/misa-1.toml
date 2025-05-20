@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/glyph.json
+#:schema ../../api/generated/v2/glyph_data.json
 id = "misa-1"
 word = "misa"
 word_id = "misa"

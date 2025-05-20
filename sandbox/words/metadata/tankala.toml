@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "tankala"
 author_verbatim = "tankala or tenkala could be southeast"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/866166121874587680"

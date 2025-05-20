@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "kana"
 author_verbatim = ""
 author_verbatim_source = ""

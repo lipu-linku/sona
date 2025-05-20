@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "tenpo"
 id = "TENPO-LUKA-SINPIN"
 is_two_handed = false

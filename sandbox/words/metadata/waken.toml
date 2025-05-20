@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "waken"
 author_verbatim = ":nimisin: waken — wug :nimisin:"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/808527345656397885"

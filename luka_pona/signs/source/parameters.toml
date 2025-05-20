@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/parameters_data.json
+#:schema ../../../api/generated/v2/parameters_data.json
 
 [AKESI]
 handshape = "V"

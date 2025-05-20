@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "kepa"
 author_verbatim = """I have a few nimisin that I’ve been cooking on for the past month, so I’ll share a few over some time. this one is my best one so far in my opinion
 :nimisin: ***kepa*** - etymology is a priori. pattern, order, series, sequence, to arrange, to organize. this overlaps with the semantic spaces of nasin and sike a bit. this word also can be used as an antonym of sorts to jaki and nasa. kepa as a content word is mostly useful when combined with other words. some examples would be \"tenpo kepa\" (rhythm), \"kepa pi kasi kule\" (bouquet/flower arrangement), \"kepa pakala\" (disarray, chaos). I also like to experiment with using it as a preposition that means something along the lines of \"and then\". some examples include \"mi moku e kili li kepa tawa\" (I ate fruit and then I walked), \"mi en kepa sina li sitelen e nimi mi\" (I will write my name and then you will write your name [nimi mi being used as \"our names\"]), and \"jan lili li luka e soweli e kepa waso\" (The child pet the animals and then the birds)"""
@@ -21,3 +21,5 @@ synonym_glyph_ids = []
 ligatures = ["kepa"]
 
 [usage]
+
+[resources]

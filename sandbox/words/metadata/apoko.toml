@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "apoko"
 author_verbatim = "... apoko\napoko also see poko\nby kije Enki\netymology English “i forgor”\nn the 💀 emoji\nadj relating to the 💀 emoji\nvi to use the 💀 emoji\nvt to apply the 💀 emoji\ninterj “i forgor 💀”"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/1009423886175174786"

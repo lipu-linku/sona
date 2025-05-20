@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "pela"
 author_verbatim = "pela could be a nimi sin for dog"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/301378960468738050/790357845752676373"

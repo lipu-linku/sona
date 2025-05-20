@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "se1"
 author_verbatim = "se is a reflexive pronoun and also means \"one's own (thing)\""
 author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1138870965145718785"

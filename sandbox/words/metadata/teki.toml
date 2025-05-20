@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "teki"
 author_verbatim = "**teki** ★ case, circumstance, situation, event, state (of affairs, being), status\n    ← Japanese 出来事 ‘event’"
 author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/word.json
+#:schema ../../../api/generated/v2/word_data.json
 id = "kulaso"
 author_verbatim = "green laso, glaso"
 author_verbatim_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
