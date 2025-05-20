@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/glyph_etymology.json
+#:schema ../../api/generated/v2/etymology_data.json
 a-1 = "exclamation radical + Latin lowercase letter A; radical from exclamation point (!), without the full stop at the bottom. compare o"
 a-2 = ""
 akesi-1 = "animal radical; pictogram of a lizard. radical represents eyes"

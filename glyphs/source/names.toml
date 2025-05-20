@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/glyph_names.json
+#:schema ../../api/generated/v2/names_data.json
 a-1 = ["pu a"]
 a-2 = ["aaa", "triple stick a"]
 akesi-1 = ["pu akesi", "6 leg akesi", "6 legged akesi"]

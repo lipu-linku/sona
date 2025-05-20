@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/word_definitions.json
+#:schema ../../api/generated/v2/definitions_data.json
 Pingo = "car"
 aka = "cross-like shape, intersection, overlap [alternative form of natu]"
 ako = "(interjection) [general interjection, context-dependent]"

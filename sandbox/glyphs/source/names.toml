@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/glyph_names.json
+#:schema ../../api/generated/v2/names_data.json
 a-3 = ["aa", "double stick a"]
 a-4 = ["a?", "seme a"]
 a-5 = ["interrobang a", "a!?", "a?!"]

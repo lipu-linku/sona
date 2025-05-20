@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/sign_icons.json
+#:schema ../../api/generated/v2/icons_data.json
 
 AKESI = "tongue or fangs of a snake"
 ALA = "arms crossed, defence of body"

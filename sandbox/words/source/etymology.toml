@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/translations/word_etymology.json
+#:schema ../../api/generated/v2/etymology_data.json
 Pingo = "a priori"
 aka = "过 (guò): Mandarin, to cross, to pass; across: English, across"
 ako = "아이고 (aigo): Korean, (interjection) surprise"
