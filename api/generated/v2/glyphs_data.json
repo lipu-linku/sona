@@ -1,0 +1,98 @@
+{
+  "$ref": "#/definitions/glyphs_data",
+  "definitions": {
+    "glyphs_data": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A globally unique identifier for a given object. Generally named after the object."
+          },
+          "word": {
+            "type": "string",
+            "minLength": 1
+          },
+          "word_id": {
+            "$ref": "#/definitions/glyphs_data/additionalProperties/properties/id"
+          },
+          "usage_category": {
+            "type": "string",
+            "enum": [
+              "core",
+              "common",
+              "uncommon",
+              "obscure",
+              "sandbox"
+            ]
+          },
+          "creator_source": {
+            "type": "string"
+          },
+          "creator": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "creation_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "primary": {
+            "type": "boolean"
+          },
+          "deprecated": {
+            "type": "boolean"
+          },
+          "image": {
+            "type": "string",
+            "format": "uri"
+          },
+          "svg": {
+            "type": "string",
+            "format": "uri"
+          },
+          "ligature": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ucsur": {
+            "type": "string",
+            "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+          },
+          "usage": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "propertyNames": {
+              "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "word",
+          "word_id",
+          "usage_category",
+          "creator",
+          "primary",
+          "deprecated",
+          "usage"
+        ],
+        "additionalProperties": false
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "A raw data object containing metadata about Sitelen Pona glyphs"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

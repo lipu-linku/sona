@@ -1,0 +1,17 @@
+{
+  "$ref": "#/definitions/etymology_data",
+  "definitions": {
+    "etymology_data": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Localized commentary on the parent, such as a word or glyph"
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "A raw data object containing dictionary info about Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

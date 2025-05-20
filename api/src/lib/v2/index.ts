@@ -1,30 +1,31 @@
 import { z } from "zod";
-import { Book, CoinedEra, UsageCategory, WritingSystem } from "./utils";
+import { Book, CoinedEra, UsageCategory, WritingSystem, YearMonth } from "./utils";
 
 export type * from "./types";
 
-const YearMonth = z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g);
 // Word data
-export const Word = z
+const Id = z
+	.string()
+	.min(1)
+	.describe("A globally unique identifier for a given object. Generally named after the object.");
+
+export const WordData = z
 	.object({
-		id: z
-			.string()
-			.min(1)
-			.describe(
-				`A unique identifier for the word. Usually the word but may have an integer added in case of a word with multiple definitions (like "we")`,
-			),
+		id: Id.describe(
+			"A unique identifier for the word. Generally the word, but may have an integer distinguish words with distinct coinings.",
+		),
 		author_verbatim: z
 			.string()
 			.describe("The author's original definition, taken verbatim in their words"),
 		author_verbatim_source: z
 			.string()
-			.describe("Where the author's original definition is located (usually Discord)"),
+			.describe("Where the author's original definition is located, often a URL."),
 		book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
-		coined_era: CoinedEra.or(z.literal("")).describe(
+		coined_era: CoinedEra.describe(
 			"When this word was coined (relative to the publication dates of the official Toki Pona books, if known)",
 		),
 		coined_year: z.string().describe("The year when this word was coined (if known)"),
-		creator: z.array(z.string()).describe("The person who created this word (if known)"),
+		creator: z.array(z.string().min(1)).describe("The person who created this word (if known)"),
 		ku_data: z
 			.record(
 				z.string().min(1).describe("A translation of the word into English proposed in ku"),
@@ -40,7 +41,7 @@ export const Word = z
 			.describe(
 				"The usage data of the word as described in ku (the official Toki Pona dictionary)",
 			),
-		see_also: z.array(z.string()).describe("A list of related words"),
+		see_also: z.array(z.string().min(1)).describe("A list of related words"),
 		resources: z
 			.object({
 				sona_pona: z
@@ -56,7 +57,6 @@ export const Word = z
 					.optional()
 					.describe("A link to lipamanka's description of the word's semantic space."),
 			})
-			.optional()
 			.describe("Non-Linku resources related to the specific word, such as wiki links."),
 		representations: z
 			.object({
@@ -91,8 +91,7 @@ export const Word = z
 						"The word's UCSUR codepoint, as defined in https://www.kreativekorp.com/ucsur/charts/sitelen.html",
 					),
 			})
-			.optional()
-			.describe("Ways of representing this word in the real world, via text/computers"),
+			.describe("Ways of representing this word via text/computers"),
 		source_language: z.string().describe("The language this word originated from"),
 		usage_category: UsageCategory.describe(
 			"The word's usage category, according to a survey performed by the Linku Project",
@@ -103,19 +102,6 @@ export const Word = z
 		deprecated: z
 			.boolean()
 			.describe("Whether or not the word is considered deprecated by its author."),
-		etymology: z
-			.array(
-				z.object({
-					word: z
-						.string()
-						.optional()
-						.describe(
-							"One of the root words of this word, as written out in its language of origin",
-						),
-					alt: z.string().optional().describe(`A latinized representation of the "word" field`),
-				}),
-			)
-			.describe("Unlocalized etymological values regarding this word's origin"),
 		audio: z.array(
 			z
 				.object({
@@ -141,55 +127,85 @@ export const Word = z
 			.describe(
 				"The percentage of people in the Toki Pona community who use this word, according to surveys performed by the Linku Project",
 			),
+		glyph_ids: z
+			.array(Id)
+			.describe("A list of ids for sitelen pona glyphs which represent the word."),
+		primary_glyph_id: z
+			.string()
+			// .min(3) # TODO: this is required above sandbox
+			.describe("The id of the glyph most often used to represent this word in sitelen pona."),
+		synonym_glyph_ids: z
+			.array(Id)
+			.describe(
+				"A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
+			),
 	})
 	.describe("General info on a Toki Pona word");
 
-export type Word = z.infer<typeof Word>;
+// TODO: this is a Record, and therefore suits the toml
+// but it does not suit the json or api, and cannot be reused from the toml
+// because the toml is reorganized when it is packaged to json
+const Commentary = z
+	.string()
+	.describe("Localized commentary on the parent, such as a word or glyph");
 
-export const CommentaryTranslation = z
-	.record(z.string().min(1), z.string())
-	.describe("Localized commentary regarding Toki Pona words");
+const Definition = z
+	.string()
+	.min(1)
+	.describe("Localized definition on the parent, such as a word or luka pona sign");
 
-export type CommentaryTranslation = z.infer<typeof CommentaryTranslation>;
+const Etymology = z
+	.string()
+	.describe("Localized etymology information for the parent, such as a word or glyph");
 
-export const DefinitionTranslation = z
-	.record(z.string().min(1), z.string().min(1))
-	.describe("Localized definitions of Toki Pona words");
+const WordTranslation = z.record(
+	z.object({ commentary: Commentary, definition: Definition, etymology: Etymology }),
+);
 
-export type DefinitionTranslation = z.infer<typeof DefinitionTranslation>;
+export const Word = WordData.extend({
+	translations: WordTranslation,
+});
 
-export const SitelenPonaTranslation = z
-	.record(z.string().min(1), z.string())
-	.describe("Localized descriptions of the origins of the sitelen pona glyphs for Toki Pona words");
+export const GlyphData = z.object({
+	id: Id, // word + dash + number
+	word: z.string().min(1),
+	word_id: Id,
+	usage_category: UsageCategory,
+	creator_source: z.string().optional(),
+	creator: z.array(z.string().min(1)),
+	creation_date: z.date().optional() || YearMonth.optional(),
+	primary: z.boolean(),
+	deprecated: z.boolean(),
+	image: z.string().url().optional(),
+	svg: z.string().url().optional(),
+	ligature: z.string().min(1).optional(),
+	ucsur: z
+		.string()
+		.regex(/^U\+[\da-fA-F]{4,6}$/g)
+		.optional(),
+	usage: z.record(z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g), z.number().min(0).max(100)),
+});
 
-export type SitelenPonaTranslation = z.infer<typeof SitelenPonaTranslation>;
+const Names = z
+	.array(z.string().describe("A name this sitelen pona glyph is known by."))
+	.describe("A list of names used to refer to this sitelen pona glyph");
 
-export const EtymologyTranslation = z
-	.record(
-		z.string().min(1),
-		z.array(
-			z.object({
-				definition: z
-					.string()
-					.optional()
-					.describe("The localized definition of the root word in its origin language"),
-				language: z
-					.string()
-					.describe("The localized name of the language this word originated from"),
-			}),
-		),
-	)
-	.describe("Localized etymological values for Toki Pona words");
+const GlyphTranslation = z.record(
+	z.object({ commentary: Commentary, etymology: Etymology, names: Names }),
+);
 
-export type EtymologyTranslation = z.infer<typeof EtymologyTranslation>;
+export const Glyph = GlyphData.extend({
+	translations: GlyphTranslation,
+});
 
-export const Sign = z
+export const SignData = z
 	.object({
+		id: Id,
 		definition: z.string().describe("The definition of the sign as a single toki pona word."),
-		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
 		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
 		new_gloss: z.string().describe("The more recent, preferred gloss for this sign."),
 		old_gloss: z.string().describe("The older gloss for this sign, similar to `id`."),
+		old_id: z.string().describe("Previous, malformed id for the sign."),
 		etymology: z
 			.array(
 				z.object({
@@ -226,11 +242,34 @@ export const Sign = z
 	})
 	.describe("Unlocalized info on a Luka Pona sign");
 
-export type Sign = z.infer<typeof Sign>;
+const Icons = z.string().describe("Localized descriptions of the thing a sign represents.");
 
-export const FingerspellingSign = z
+const Parameters = z
 	.object({
-		id: z.string().describe("A globally unique name for the sign which is also a gloss."),
+		handshape: z
+			.string()
+			.optional()
+			.describe(
+				"The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+			),
+		movement: z.string().optional().describe("The motion of the hand when signing."),
+		placement: z.string().optional().describe("The placement of the hand when signing."),
+		orientation: z.string().optional().describe("The orientation of the hand when signing."),
+	})
+	.describe("Partly localized descriptions of how a sign is signed.");
+
+const SignTranslation = z.object({
+	icons: Icons,
+	parameters: Parameters,
+});
+
+export const Sign = SignData.extend({
+	translations: SignTranslation,
+});
+
+export const FingerspellingData = z
+	.object({
+		id: Id.describe("A globally unique name for the fingerspelling which is also a gloss."),
 		is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
 		etymology: z
 			.array(
@@ -259,36 +298,15 @@ export const FingerspellingSign = z
 	})
 	.describe("Unlocalized info on a fingerspelling sign.");
 
-export type FingerspellingSign = z.infer<typeof FingerspellingSign>;
+const FingerspellingTranslation = z.object({ parameters: Parameters });
 
-export const ParametersTranslation = z
-	.record(
-		z.string().min(1),
-		z.object({
-			handshape: z
-				.string()
-				.optional()
-				.describe(
-					"The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
-				),
-			movement: z.string().optional().describe("The motion of the hand when signing."),
-			placement: z.string().optional().describe("The placement of the hand when signing."),
-			orientation: z.string().optional().describe("The orientation of the hand when signing."),
-		}),
-	)
-	.describe("Partly localized descriptions of how a sign is signed.");
-
-export type ParametersTranslation = z.infer<typeof ParametersTranslation>;
-
-export const IconTranslation = z
-	.record(z.string().min(1), z.string())
-	.describe("Localized descriptions of the thing a sign represents.");
-
-export type IconTranslation = z.infer<typeof IconTranslation>;
+export const Fingerspelling = FingerspellingData.extend({
+	translations: FingerspellingTranslation,
+});
 
 export const Font = z
 	.object({
-		id: z.string().min(1).describe("The font's unique ID, identifying it among other fonts"),
+		id: Id.describe("The font's unique ID, identifying it among other fonts"),
 		creator: z.array(z.string()).describe("a list of this font's creators"),
 		features: z.array(z.string()).describe("a list of features this font supports"),
 		filename: z
@@ -334,86 +352,126 @@ export const Font = z
 		}),
 	})
 	.describe("Info on a font for Toki Pona");
-export type Font = z.infer<typeof Font>;
 
-export const Words = z
-	.record(
-		z.string().min(1),
-		Word.extend({
-			translations: z.record(
-				z.object({
-					commentary: CommentaryTranslation.valueSchema,
-					definition: DefinitionTranslation.valueSchema,
-					etymology: EtymologyTranslation.valueSchema,
-					sp_etymology: SitelenPonaTranslation.valueSchema,
-				}),
-			),
-		}),
-	)
-	.describe("A raw data object containing dictionary info about Toki Pona words");
-export type Words = z.infer<typeof Words>;
-export type LocalizedWord = Words[string];
+const LanguageId = z
+	.string()
+	.min(2)
+	.describe("The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.");
 
-export const Signs = z
-	.record(
-		z.string().min(1),
-		Sign.extend({
-			translations: z.record(
-				z.object({
-					parameters: ParametersTranslation.valueSchema,
-					icons: IconTranslation.valueSchema,
-				}),
-			),
-		}),
-	)
-	.describe("A raw data object containing information about Luka Pona signs");
-export type Signs = z.infer<typeof Signs>;
-export type LocalizedSign = Signs[string];
+export const Language = z.object({
+	id: LanguageId,
+	locale: z.string().describe("The locale code corresponding to the language."),
+	direction: z
+		.union([z.literal("ltr"), z.literal("rtl")])
+		.describe("The direction of the language's script."),
+	name: z.object({
+		// Downstream projects should prefer endonym over name_en
+		en: z.string().describe("The name of the language in English."),
+		endonym: z.string().describe("The name of the language in that language."),
+		// must be added post-hoc
+		tok: z.string().optional().describe("The name of the language in Toki Pona."),
+	}),
+	// TODO: completion percentage on a per-file basis?
+	// we also care about completion within usage categories, since the most important words are core+widespread+common
+});
 
-export const Fingerspelling = z
-	.record(
-		z.string().min(1),
-		FingerspellingSign.extend({
-			translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
-		}),
-	)
-	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
-export type Fingerspelling = z.infer<typeof Fingerspelling>;
-export type LocalizedFingerspellingSign = Fingerspelling[string];
-
+export const Languages = z
+	.record(LanguageId, Language)
+	.describe("The languages offered by sona Linku.");
 export const Fonts = z
-	.record(Font)
+	.record(Id, Font)
 	.describe("A raw data object containing all the fonts data in sona");
+
+// for TOML
+export const CommentaryData = z
+	.record(Id, Commentary)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const DefinitionData = z
+	.record(Id, Definition)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const EtymologyData = z
+	.record(Id, Commentary)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const IconsData = z
+	.record(Id, Icons)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const ParametersData = z
+	.record(Id, Parameters)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+
+// for JSON
+export const WordsData = z
+	.record(Id, WordData)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const GlyphsData = z
+	.record(Id, GlyphData)
+	.describe("A raw data object containing metadata about Sitelen Pona glyphs");
+export const SignsData = z
+	.record(Id, SignData)
+	.describe("A raw data object containing information about Luka Pona signs");
+export const FingerspellingsData = z
+	.record(Id, FingerspellingData)
+	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
+
+// for JSON
+export const WordTranslations = z
+	.record(Id, WordTranslation)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const GlyphTranslations = z
+	.record(Id, GlyphTranslation)
+	.describe("A raw data object containing metadata about Sitelen Pona glyphs");
+export const SignTranslations = z
+	.record(Id, SignTranslation)
+	.describe("A raw data object containing information about Luka Pona signs");
+export const FingerspellingTranslations = z
+	.record(Id, FingerspellingTranslation)
+	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
+
+// for API
+export const Words = z
+	.record(Id, Word)
+	.describe("A raw data object containing dictionary info about Toki Pona words");
+export const Glyphs = z
+	.record(Id, Glyph)
+	.describe("A raw data object containing metadata about Sitelen Pona glyphs");
+export const Signs = z
+	.record(Id, Sign)
+	.describe("A raw data object containing information about Luka Pona signs");
+export const Fingerspellings = z
+	.record(Id, Fingerspelling)
+	.describe("A raw data object containing information about Luka Pona fingerspelling signs");
+
+export type WordData = z.infer<typeof WordData>;
+export type WordsData = z.infer<typeof WordsData>;
+
+export type Word = z.infer<typeof Word>;
+export type Words = z.infer<typeof Words>;
+
+export type GlyphData = z.infer<typeof GlyphData>;
+export type GlyphsData = z.infer<typeof GlyphsData>;
+
+export type Glyph = z.infer<typeof Glyph>;
+export type Glyphs = z.infer<typeof Glyphs>;
+
+export type SignData = z.infer<typeof SignData>;
+export type SignsData = z.infer<typeof SignsData>;
+
+export type Sign = z.infer<typeof Sign>;
+export type Signs = z.infer<typeof Signs>;
+
+export type FingerspellingData = z.infer<typeof FingerspellingData>;
+export type FingerspellingsData = z.infer<typeof FingerspellingsData>;
+
+export type Fingerspelling = z.infer<typeof Fingerspelling>;
+export type Fingerspellings = z.infer<typeof Fingerspellings>;
+
+export type Font = z.infer<typeof Font>;
 export type Fonts = z.infer<typeof Fonts>;
 
-export const Languages = z.record(
-	z
-		.string()
-		.min(2)
-		.describe("The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."),
-	z
-		.object({
-			id: z
-				.string()
-				.min(2)
-				.describe(
-					"The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.",
-				),
-			locale: z.string().describe("The locale code corresponding to the language."),
-			direction: z
-				.union([z.literal("ltr"), z.literal("rtl")])
-				.describe("The direction of the language's script."),
-			name: z.object({
-				en: z.string().describe("The name of the language in English."),
-				// These are optional because we can add a language via Crowdin and Crowdin doesn't provide these.
-				// Downstream projects should prefer endonym over name_en if both are available.
-				tok: z.string().optional().describe("The name of the language in Toki Pona."),
-				endonym: z.string().optional().describe("The name of the language in that language."),
-			}),
-			// TODO: completion percentage on a per-file basis?
-			// we also care about completion within usage categories, since the most important words are core+widespread+common
-		})
-		.describe("The languages offered by sona Linku."),
-);
+export type Language = z.infer<typeof Language>;
 export type Languages = z.infer<typeof Languages>;
-export type Language = Languages[string];
+
+export type WordTranslations = z.infer<typeof WordTranslations>;
+export type GlyphTranslations = z.infer<typeof GlyphTranslations>;
+export type SignTranslations = z.infer<typeof SignTranslations>;
+export type FingerspellingTranslations = z.infer<typeof FingerspellingTranslations>;

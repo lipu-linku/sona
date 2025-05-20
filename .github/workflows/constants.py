@@ -16,6 +16,7 @@ class DataToPackage(TypedDict):
     input: str
     output: str
     type: Literal["data", "locales"]
+    schema: NotRequired[str]
     translations: NotRequired[str]
     source: NotRequired[str]
     refs: NotRequired[list[Refs]]
@@ -26,6 +27,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "words/metadata/{id}.toml",
         "output": "words.json",
         "type": "data",
+        "schema": "word.json",
         "translations": "words_locale",
         "refs": [
             {"key": "see_also", "to": ["words"]},
@@ -38,6 +40,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "glyphs/metadata/{id}.toml",
         "output": "glyphs.json",
         "type": "data",
+        "schema": "glyph.json",
         "translations": "glyphs_locale",
         "refs": [
             {"key": "word_id", "to": ["words"]},
@@ -47,6 +50,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "sandbox/words/metadata/{id}.toml",
         "output": "sandbox/words.json",
         "type": "data",
+        "schema": "word.json",
         "translations": "sandbox_words_locale",
         "refs": [
             # TODO: sandbox words can ref words...
@@ -61,6 +65,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "sandbox/glyphs/metadata/{id}.toml",
         "output": "sandbox/glyphs.json",
         "type": "data",
+        "schema": "glyph.json",
         "translations": "sandbox_glyphs_locale",
         "refs": [
             {"key": "word_id", "to": ["words", "sandbox_words"]},
@@ -70,6 +75,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "luka_pona/signs/metadata/{id}.toml",
         "output": "luka_pona/signs.json",
         "type": "data",
+        "schema": "sign.json",
         "translations": "lp_signs_locale",
         "refs": [],
     },
@@ -77,6 +83,7 @@ DATA: dict[str, DataToPackage] = {
         "input": "luka_pona/fingerspelling/metadata/{id}.toml",
         "output": "luka_pona/fingerspelling.json",
         "type": "data",
+        "schema": "fingerspelling.json",
         "translations": "lp_fingerspelling_locale",
         "refs": [],
     },
@@ -84,11 +91,13 @@ DATA: dict[str, DataToPackage] = {
         "input": "fonts/metadata/{id}.toml",
         "output": "fonts.json",
         "type": "data",
+        "schema": "font.json",
     },
     "languages": {
         "input": "languages/metadata/{id}.toml",
         "output": "languages.json",
         "type": "data",
+        "schema": "language.json",
     },
     ###
     ###
@@ -97,36 +106,42 @@ DATA: dict[str, DataToPackage] = {
         "input": "words/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/words.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "words/source/{id}.toml",
     },
     "glyphs_locale": {
         "input": "glyphs/translations/{langcode}/{id}.toml",
         "output": "translations/{langcode}/glyphs.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "glyphs/source/{id}.toml",
     },
     "sandbox_words_locale": {
         "input": "sandbox/words/translations/{langcode}/{id}.toml",
         "output": "sandbox/words/translations/{langcode}/words.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "sandbox/words/source/{id}.toml",
     },
     "sandbox_glyphs_locale": {
         "input": "sandbox/glyphs/translations/{langcode}/{id}.toml",
         "output": "sandbox/glyphs/translations/{langcode}/glyphs.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "sandbox/glyphs/source/{id}.toml",
     },
     "lp_signs_locale": {
         "input": "luka_pona/signs/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/signs.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "luka_pona/signs/source/{id}.toml",
     },
     "lp_fingerspelling_locale": {
         "input": "luka_pona/fingerspelling/translations/{langcode}/{id}.toml",
         "output": "luka_pona/translations/{langcode}/fingerspelling.json",
         "type": "locales",
+        "schema": "{id}_data.json",
         "source": "luka_pona/fingerspelling/source/{id}.toml",
     },
 }

@@ -1,0 +1,122 @@
+{
+  "$ref": "#/definitions/glyph",
+  "definitions": {
+    "glyph": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A globally unique identifier for a given object. Generally named after the object."
+        },
+        "word": {
+          "type": "string",
+          "minLength": 1
+        },
+        "word_id": {
+          "$ref": "#/definitions/glyph/properties/id"
+        },
+        "usage_category": {
+          "type": "string",
+          "enum": [
+            "core",
+            "common",
+            "uncommon",
+            "obscure",
+            "sandbox"
+          ]
+        },
+        "creator_source": {
+          "type": "string"
+        },
+        "creator": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "creation_date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "primary": {
+          "type": "boolean"
+        },
+        "deprecated": {
+          "type": "boolean"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "svg": {
+          "type": "string",
+          "format": "uri"
+        },
+        "ligature": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ucsur": {
+          "type": "string",
+          "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+        },
+        "usage": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "propertyNames": {
+            "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$"
+          }
+        },
+        "translations": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "commentary": {
+                "type": "string",
+                "description": "Localized commentary on the parent, such as a word or glyph"
+              },
+              "etymology": {
+                "type": "string",
+                "description": "Localized etymology information for the parent, such as a word or glyph"
+              },
+              "names": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "A name this sitelen pona glyph is known by."
+                },
+                "description": "A list of names used to refer to this sitelen pona glyph"
+              }
+            },
+            "required": [
+              "commentary",
+              "etymology",
+              "names"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "word",
+        "word_id",
+        "usage_category",
+        "creator",
+        "primary",
+        "deprecated",
+        "usage",
+        "translations"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

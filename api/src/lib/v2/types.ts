@@ -1,20 +1,20 @@
-import type { Font, LocalizedWord, ParametersTranslation, Sign } from "./index";
+import type { Font, Word, Parameters, SignData } from "./index";
 
-export type WordRepresentations = LocalizedWord["representations"];
-export type WordAudio = LocalizedWord["audio"];
-export type WordUsage = LocalizedWord["usage"];
-export type WordPuVerbatim = LocalizedWord["pu_verbatim"];
-export type WordKuData = LocalizedWord["ku_data"];
-export type WordTranslations = LocalizedWord["translations"];
-export type WordTranslation = LocalizedWord["translations"][string];
+export type WordRepresentations = Word["representations"];
+export type WordAudio = Word["audio"];
+export type WordUsage = Word["usage"];
+export type WordPuVerbatim = Word["pu_verbatim"];
+export type WordKuData = Word["ku_data"];
+export type WordTranslations = Word["translations"];
+export type WordTranslation = Word["translations"][string];
 export type LocalizedWordDefinition = WordTranslation["definition"];
 export type LocalizedWordEtymology = WordTranslation["etymology"];
 export type LocalizedWordCommentary = WordTranslation["commentary"];
-export type LocalizedWordSitelenEtymology = WordTranslation["sp_etymology"];
+// export type LocalizedWordSitelenEtymology = WordTranslation["sp_etymology"];
 
-export type SignEtymology = Sign["etymology"];
-export type SignWriting = Sign["signwriting"];
-export type SignVideo = Sign["video"];
-export type LocalizedSignParameters = ParametersTranslation[string];
+export type SignEtymology = SignData["etymology"];
+export type SignWriting = SignData["signwriting"];
+export type SignVideo = SignData["video"];
+// export type LocalizedSignParameters = ParametersTranslation[string];
 
 export type FontLinks = Font["links"];

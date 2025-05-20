@@ -1,15 +1,15 @@
 // @ts-ignore 6196
 import type {
-	Fingerspelling,
+	FingerspellingData,
 	Font,
 	Fonts,
 	Language,
 	Languages,
 	LocalizedFingerspellingSign,
-	LocalizedSign,
-	LocalizedWord,
-	Signs,
-	Words,
+	SignData,
+	WordData,
+	SignsData,
+	WordsData,
 } from "./index";
 import { client } from "./client";
 import type { ClientResponse } from "hono/client";
@@ -21,18 +21,20 @@ type ResponseType<F> = F extends { $get: (...args: any[]) => Promise<ClientRespo
 type ClientType = ReturnType<typeof client>;
 type Result<T> = { ok: true; data: T } | { ok: false; message: string };
 
-export type WordsTest = Expect<Equal<ResponseType<ClientType["v1"]["words"]>, Words>>;
+export type WordsTest = Expect<Equal<ResponseType<ClientType["v1"]["words"]>, WordsData>>;
 export type WordTest = Expect<
-	Equal<ResponseType<ClientType["v1"]["words"][":word"]>, Result<LocalizedWord>>
+	Equal<ResponseType<ClientType["v1"]["words"][":word"]>, Result<Word>>
 >;
 
-export type SignsTest = Expect<Equal<ResponseType<ClientType["v1"]["luka_pona"]["signs"]>, Signs>>;
+export type SignsTest = Expect<
+	Equal<ResponseType<ClientType["v1"]["luka_pona"]["signs"]>, SignsData>
+>;
 export type SignTest = Expect<
-	Equal<ResponseType<ClientType["v1"]["luka_pona"]["signs"][":sign"]>, Result<LocalizedSign>>
+	Equal<ResponseType<ClientType["v1"]["luka_pona"]["signs"][":sign"]>, Result<Sign>>
 >;
 
 export type FingerspellingsTest = Expect<
-	Equal<ResponseType<ClientType["v1"]["luka_pona"]["fingerspelling"]>, Fingerspelling>
+	Equal<ResponseType<ClientType["v1"]["luka_pona"]["fingerspelling"]>, FingerspellingData>
 >;
 export type FingerspellingTest = Expect<
 	Equal<
@@ -41,7 +43,7 @@ export type FingerspellingTest = Expect<
 	>
 >;
 
-export type SandboxTest = Expect<Equal<ResponseType<ClientType["v1"]["sandbox"]>, Words>>;
+export type SandboxTest = Expect<Equal<ResponseType<ClientType["v1"]["sandbox"]>, WordsData>>;
 
 export type FontsTest = Expect<Equal<ResponseType<ClientType["v1"]["fonts"]>, Fonts>>;
 export type FontTest = Expect<

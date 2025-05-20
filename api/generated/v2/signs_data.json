@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/signs",
+  "$ref": "#/definitions/signs_data",
   "definitions": {
-    "signs": {
+    "signs_data": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
@@ -85,43 +85,6 @@
             },
             "additionalProperties": false,
             "description": "Videos of the sign being performed, by format."
-          },
-          "translations": {
-            "type": "object",
-            "properties": {
-              "icons": {
-                "type": "string",
-                "description": "Localized descriptions of the thing a sign represents."
-              },
-              "parameters": {
-                "type": "object",
-                "properties": {
-                  "handshape": {
-                    "type": "string",
-                    "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
-                  },
-                  "movement": {
-                    "type": "string",
-                    "description": "The motion of the hand when signing."
-                  },
-                  "placement": {
-                    "type": "string",
-                    "description": "The placement of the hand when signing."
-                  },
-                  "orientation": {
-                    "type": "string",
-                    "description": "The orientation of the hand when signing."
-                  }
-                },
-                "additionalProperties": false,
-                "description": "Partly localized descriptions of how a sign is signed."
-              }
-            },
-            "required": [
-              "icons",
-              "parameters"
-            ],
-            "additionalProperties": false
           }
         },
         "required": [
@@ -133,8 +96,7 @@
           "old_id",
           "etymology",
           "signwriting",
-          "video",
-          "translations"
+          "video"
         ],
         "additionalProperties": false,
         "description": "Unlocalized info on a Luka Pona sign"

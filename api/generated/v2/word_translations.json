@@ -1,0 +1,40 @@
+{
+  "$ref": "#/definitions/word_translations",
+  "definitions": {
+    "word_translations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "commentary": {
+              "type": "string",
+              "description": "Localized commentary on the parent, such as a word or glyph"
+            },
+            "definition": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Localized definition on the parent, such as a word or luka pona sign"
+            },
+            "etymology": {
+              "type": "string",
+              "description": "Localized etymology information for the parent, such as a word or glyph"
+            }
+          },
+          "required": [
+            "commentary",
+            "definition",
+            "etymology"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "A raw data object containing dictionary info about Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

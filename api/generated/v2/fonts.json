@@ -114,6 +114,9 @@
         "additionalProperties": false,
         "description": "Info on a font for Toki Pona"
       },
+      "propertyNames": {
+        "minLength": 1
+      },
       "description": "A raw data object containing all the fonts data in sona"
     }
   },

@@ -1,58 +1,49 @@
+import os
 import re
+import sys
 from pathlib import Path
 
-DATA_TYPES = [
-    "languages",
-    "fonts",
-    "words",
-    "glyphs",
-    "sandbox/words",
-    "sandbox/glyphs",
-    "luka_pona/signs",
-    "luka_pona/fingerspelling",
-]
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
 
-SCHEMA_LINE_REGEX = re.compile(r"^#:schema .+$", re.MULTILINE)
+from constants import DATA, DataToPackage
+from utils import find_files, get_path_values, get_unbound_param
+
+SCHEMA_LINE_RE = re.compile(r"^#:schema .+$", re.MULTILINE)
 
 
-def make_singular(plural: str) -> str:
-    return plural[:-1] if plural.endswith("s") else plural
-
-
-def update_or_insert_schema_line(file_path: Path, new_schema_line: str):
+def insert_or_update_schema_line(file_path: Path, schema_line: str):
     content = file_path.read_text(encoding="utf-8").splitlines()
-
-    if content and SCHEMA_LINE_REGEX.match(content[0]):
-        content[0] = new_schema_line
+    if content and SCHEMA_LINE_RE.match(content[0]):
+        content[0] = schema_line
     else:
-        content.insert(0, new_schema_line)
-
+        content.insert(0, schema_line)
     file_path.write_text("\n".join(content) + "\n", encoding="utf-8")
 
 
-def process_directory(base_dir: str):
-    typ = base_dir.split("/")[-1]
-    typ = make_singular(typ)
+def resolve_schema(schema_template: str, path: Path, input: str, output: str) -> str:
+    if "{" in schema_template:
+        param = get_unbound_param(schema_template, output)
+        values = get_path_values(input, str(path))
+        return schema_template.format(**values)
+    return schema_template
 
-    metadata_dir = Path(base_dir) / "metadata"
-    if metadata_dir.exists():
-        for toml_file in metadata_dir.glob("*.toml"):
-            new_schema = f"#:schema ../../api/generated/v2/{typ}.json"
-            update_or_insert_schema_line(toml_file, new_schema)
 
-    source_dir = Path(base_dir) / "source"
-    if source_dir.exists():
-        for toml_file in source_dir.glob("*.toml"):
-            name = toml_file.stem
-            new_schema = (
-                f"#:schema ../../api/generated/v2/translations/{typ}_{name}.json"
-            )
-            update_or_insert_schema_line(toml_file, new_schema)
+def update_schemas(entry: DataToPackage):
+    key = "input" if entry["type"] == "data" else "source"
+    input = entry[key]
+    output = entry["output"]
+    schema_template = entry["schema"]
+    for path in find_files(input):
+        resolved_schema = resolve_schema(schema_template, path, input, output)
+        insert_or_update_schema_line(
+            path, f"#:schema ../../api/generated/v2/{resolved_schema}"
+        )
 
 
 def main():
-    for data_type in DATA_TYPES:
-        process_directory(data_type)
+    for config in DATA.values():
+        update_schemas(config)
 
 
 if __name__ == "__main__":

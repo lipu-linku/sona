@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/parameters_translation",
+  "$ref": "#/definitions/parameters_data",
   "definitions": {
-    "parameters_translation": {
+    "parameters_data": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
@@ -23,12 +23,13 @@
             "description": "The orientation of the hand when signing."
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Partly localized descriptions of how a sign is signed."
       },
       "propertyNames": {
         "minLength": 1
       },
-      "description": "Partly localized descriptions of how a sign is signed."
+      "description": "A raw data object containing dictionary info about Toki Pona words"
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"

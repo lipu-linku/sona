@@ -4,13 +4,14 @@
     "sign": {
       "type": "object",
       "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A globally unique identifier for a given object. Generally named after the object."
+        },
         "definition": {
           "type": "string",
           "description": "The definition of the sign as a single toki pona word."
-        },
-        "id": {
-          "type": "string",
-          "description": "A globally unique name for the sign which is also a gloss."
         },
         "is_two_handed": {
           "type": "boolean",
@@ -23,6 +24,10 @@
         "old_gloss": {
           "type": "string",
           "description": "The older gloss for this sign, similar to `id`."
+        },
+        "old_id": {
+          "type": "string",
+          "description": "Previous, malformed id for the sign."
         },
         "etymology": {
           "type": "array",
@@ -78,17 +83,56 @@
           },
           "additionalProperties": false,
           "description": "Videos of the sign being performed, by format."
+        },
+        "translations": {
+          "type": "object",
+          "properties": {
+            "icons": {
+              "type": "string",
+              "description": "Localized descriptions of the thing a sign represents."
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "handshape": {
+                  "type": "string",
+                  "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
+                },
+                "movement": {
+                  "type": "string",
+                  "description": "The motion of the hand when signing."
+                },
+                "placement": {
+                  "type": "string",
+                  "description": "The placement of the hand when signing."
+                },
+                "orientation": {
+                  "type": "string",
+                  "description": "The orientation of the hand when signing."
+                }
+              },
+              "additionalProperties": false,
+              "description": "Partly localized descriptions of how a sign is signed."
+            }
+          },
+          "required": [
+            "icons",
+            "parameters"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
-        "definition",
         "id",
+        "definition",
         "is_two_handed",
         "new_gloss",
         "old_gloss",
+        "old_id",
         "etymology",
         "signwriting",
-        "video"
+        "video",
+        "translations"
       ],
       "additionalProperties": false,
       "description": "Unlocalized info on a Luka Pona sign"

@@ -1,0 +1,18 @@
+{
+  "$ref": "#/definitions/definition_data",
+  "definitions": {
+    "definition_data": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Localized definition on the parent, such as a word or luka pona sign"
+      },
+      "propertyNames": {
+        "minLength": 1
+      },
+      "description": "A raw data object containing dictionary info about Toki Pona words"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

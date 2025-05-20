@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/words",
+  "$ref": "#/definitions/words_data",
   "definitions": {
-    "words": {
+    "words_data": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
@@ -230,36 +230,9 @@
           "synonym_glyph_ids": {
             "type": "array",
             "items": {
-              "$ref": "#/definitions/words/additionalProperties/properties/glyph_ids/items"
+              "$ref": "#/definitions/words_data/additionalProperties/properties/glyph_ids/items"
             },
             "description": "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word."
-          },
-          "translations": {
-            "type": "object",
-            "additionalProperties": {
-              "type": "object",
-              "properties": {
-                "commentary": {
-                  "type": "string",
-                  "description": "Localized commentary on the parent, such as a word or glyph"
-                },
-                "definition": {
-                  "type": "string",
-                  "minLength": 1,
-                  "description": "Localized definition on the parent, such as a word or luka pona sign"
-                },
-                "etymology": {
-                  "type": "string",
-                  "description": "Localized etymology information for the parent, such as a word or glyph"
-                }
-              },
-              "required": [
-                "commentary",
-                "definition",
-                "etymology"
-              ],
-              "additionalProperties": false
-            }
           }
         },
         "required": [
@@ -281,8 +254,7 @@
           "usage",
           "glyph_ids",
           "primary_glyph_id",
-          "synonym_glyph_ids",
-          "translations"
+          "synonym_glyph_ids"
         ],
         "additionalProperties": false,
         "description": "General info on a Toki Pona word"
