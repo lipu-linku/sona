@@ -75,33 +75,30 @@
           },
           "translations": {
             "type": "object",
-            "additionalProperties": {
-              "type": "object",
-              "properties": {
-                "commentary": {
-                  "type": "string",
-                  "description": "Localized commentary on the parent, such as a word or glyph"
-                },
-                "etymology": {
-                  "type": "string",
-                  "description": "Localized etymology information for the parent, such as a word or glyph"
-                },
-                "names": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "description": "A name this sitelen pona glyph is known by."
-                  },
-                  "description": "A list of names used to refer to this sitelen pona glyph"
-                }
+            "properties": {
+              "commentary": {
+                "type": "string",
+                "description": "Localized commentary on the parent, such as a word or glyph"
               },
-              "required": [
-                "commentary",
-                "etymology",
-                "names"
-              ],
-              "additionalProperties": false
-            }
+              "etymology": {
+                "type": "string",
+                "description": "Localized etymology information for the parent, such as a word or glyph"
+              },
+              "names": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "A name this sitelen pona glyph is known by."
+                },
+                "description": "A list of names used to refer to this sitelen pona glyph"
+              }
+            },
+            "required": [
+              "commentary",
+              "etymology",
+              "names"
+            ],
+            "additionalProperties": false
           }
         },
         "required": [

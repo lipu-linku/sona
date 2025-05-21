@@ -81,7 +81,7 @@ DATA: dict[str, DataToPackage] = {
     },
     "lp_fingerspelling": {
         "input": "luka_pona/fingerspelling/metadata/{id}.toml",
-        "output": "luka_pona/fingerspelling.json",
+        "output": "luka_pona/fingerspellings.json",
         "type": "data",
         "schema": "fingerspelling_data.json",
         "translations": "lp_fingerspelling_locale",
@@ -140,7 +140,7 @@ DATA: dict[str, DataToPackage] = {
     },
     "lp_fingerspelling_locale": {
         "input": "luka_pona/fingerspelling/translations/{langcode}/{id}.toml",
-        "output": "luka_pona/translations/{langcode}/fingerspelling.json",
+        "output": "luka_pona/translations/{langcode}/fingerspellings.json",
         "type": "locales",
         "schema": "{id}_data.json",
         "source": "luka_pona/fingerspelling/source/{id}.toml",

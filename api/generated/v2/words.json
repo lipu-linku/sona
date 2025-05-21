@@ -236,30 +236,27 @@
           },
           "translations": {
             "type": "object",
-            "additionalProperties": {
-              "type": "object",
-              "properties": {
-                "commentary": {
-                  "type": "string",
-                  "description": "Localized commentary on the parent, such as a word or glyph"
-                },
-                "definition": {
-                  "type": "string",
-                  "minLength": 1,
-                  "description": "Localized definition on the parent, such as a word or luka pona sign"
-                },
-                "etymology": {
-                  "type": "string",
-                  "description": "Localized etymology information for the parent, such as a word or glyph"
-                }
+            "properties": {
+              "commentary": {
+                "type": "string",
+                "description": "Localized commentary on the parent, such as a word or glyph"
               },
-              "required": [
-                "commentary",
-                "definition",
-                "etymology"
-              ],
-              "additionalProperties": false
-            }
+              "definition": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Localized definition on the parent, such as a word or luka pona sign"
+              },
+              "etymology": {
+                "type": "string",
+                "description": "Localized etymology information for the parent, such as a word or glyph"
+              }
+            },
+            "required": [
+              "commentary",
+              "definition",
+              "etymology"
+            ],
+            "additionalProperties": false
           }
         },
         "required": [

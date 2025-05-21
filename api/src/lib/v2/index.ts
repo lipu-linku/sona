@@ -158,9 +158,11 @@ const Etymology = z
 	.string()
 	.describe("Localized etymology information for the parent, such as a word or glyph");
 
-const WordTranslation = z.record(
-	z.object({ commentary: Commentary, definition: Definition, etymology: Etymology }),
-);
+const WordTranslation = z.object({
+	commentary: Commentary,
+	definition: Definition,
+	etymology: Etymology,
+});
 
 export const Word = WordData.extend({
 	translations: WordTranslation,
@@ -190,9 +192,7 @@ const Names = z
 	.array(z.string().describe("A name this sitelen pona glyph is known by."))
 	.describe("A list of names used to refer to this sitelen pona glyph");
 
-const GlyphTranslation = z.record(
-	z.object({ commentary: Commentary, etymology: Etymology, names: Names }),
-);
+const GlyphTranslation = z.object({ commentary: Commentary, etymology: Etymology, names: Names });
 
 export const Glyph = GlyphData.extend({
 	translations: GlyphTranslation,

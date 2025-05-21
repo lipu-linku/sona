@@ -1,5 +1,5 @@
 #:schema ../../../api/generated/v2/glyph_data.json
-id = "ojuta-2"
+id = "ojuta-1"
 word = "ojuta"
 word_id = "ojuta"
 usage_category = "sandbox"
@@ -10,6 +10,6 @@ primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1ydLvGPiV787Zc0ikIV9FBNDBVTWa-d7U"
 svg = ""
-ligature = "ojuta#2"
+ligature = "ojuta#1"
 
 [usage]
