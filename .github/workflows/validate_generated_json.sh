@@ -27,9 +27,9 @@ get_schema() {
 		echo "word_translations.json"
 	elif [[ "$relative" =~ ^sandbox/translations/[^/]+/glyphs\.json$ ]]; then
 		echo "glyph_translations.json"
-	elif [[ "$relative" =~ ^translations/luka_pona/[^/]+/signs\.json$ ]]; then
+	elif [[ "$relative" =~ ^luka_pona/translations/[^/]+/signs\.json$ ]]; then
 		echo "sign_translations.json"
-	elif [[ "$relative" =~ ^translations/luka_pona/[^/]+/fingerspellings\.json$ ]]; then
+	elif [[ "$relative" =~ ^luka_pona/translations/[^/]+/fingerspellings\.json$ ]]; then
 		echo "fingerspelling_translations.json"
 	else
 		echo ""
