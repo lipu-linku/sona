@@ -4,13 +4,12 @@ import sys
 import urllib.request
 from pathlib import Path
 
-import tomlkit
 from langcodes import Language, LanguageTagError
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
-from utils import deep_merge, load_languages
+from utils import deep_merge, load_languages, write_toml
 
 CROWDIN_TOKEN = os.environ["CROWDIN_TOKEN"]
 HEADERS = {"Authorization": f"Bearer {CROWDIN_TOKEN}"}
@@ -80,9 +79,7 @@ def main():
 
     for lang_id, data in known_langs.items():
         file = LANG_DIR / f"{lang_id}.toml"
-        with file.open("w", encoding="utf-8") as f:
-            # stable if no changes were made
-            f.write(tomlkit.dumps(data, sort_keys=True))
+        write_toml(file, data)
 
 
 if __name__ == "__main__":

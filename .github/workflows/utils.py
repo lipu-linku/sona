@@ -59,6 +59,15 @@ def write_json(path: Path, data):
     path.write_text(raw_data)
 
 
+def write_toml(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    raw_data = tomlkit.dumps(
+        data,
+        sort_keys=True,
+    )
+    path.write_text(raw_data)
+
+
 def get_unbound_param(input: str, output: str) -> str:
     """
     Between input and output, there should be exactly one filename variable
