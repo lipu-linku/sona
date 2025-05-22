@@ -2,8 +2,6 @@ import os
 import sys
 from pathlib import Path
 
-import tomlkit
-
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
