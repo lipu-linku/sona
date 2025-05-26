@@ -15,10 +15,7 @@ features = [
   "UCSUR-compliant",
   "cartouches",
   "character variants",
-  "almost all ku suli",                    # except kokosila
-  "almost all ku suli and UCSUR words",     # except apeja, pake, powe
-  "almost all core+common+uncommon words 2024",    #  except nimisin
-  "SP Font Maker words v3",
+  "SP Font Maker words v2.2",
   "awa",
   "eliki",
   "isipin",
