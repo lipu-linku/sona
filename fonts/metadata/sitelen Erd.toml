@@ -6,7 +6,7 @@ creator   = ["jan Erd"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
-writing_system = "other"
+writing_system = "sitelen pona"
 
 last_updated = "2025-05"
 version      = "1"
