@@ -15,9 +15,9 @@ features = [
   "UCSUR-compliant",
   "cartouches",
   "character variants",
-  "all ku suli",                     kokosila
-  "all ku suli and UCSUR words",     apeja, pake, powe
-  "core+common+uncommon words",      nimisin
+  "almost all ku suli",                     except kokosila
+  "almost all ku suli and UCSUR words",     except apeja, pake, powe
+  "almost all core+common+uncommon words",      except nimisin
   "te and to",
   "awa",
   "eliki",
