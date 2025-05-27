@@ -10,6 +10,7 @@ import { trimTrailingSlash } from "hono/trailing-slash";
 import type { StatusCode } from "hono/utils/http-status";
 
 import v1 from "./v1";
+import v2 from "./v2";
 
 const twentyFourHours = 24 * 60 * 60;
 
@@ -56,7 +57,8 @@ const app = new Hono({ strict: false })
 
 		return c.json(data);
 	})
-	.route("/v1", v1);
+	.route("/v1", v1)
+	.route("/v2", v2);
 
 export default app;
 

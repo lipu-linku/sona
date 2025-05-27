@@ -1,5 +1,7 @@
+import { Fonts, Languages, Words, Glyphs, Signs, Fingerspellings } from "../../lib/v2/";
+
 import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
-import { fetchFile, versions, type FilesToVariables } from "../versioning";
+import { fetchFile, type FilesToVariables, type ApiVersion } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
@@ -7,12 +9,50 @@ import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
 
+const API_VERSION: ApiVersion = "v2";
+export const config = {
+	raw: {
+		words: {
+			filename: "words.json",
+			schema: Words,
+		},
+		sandbox_words: {
+			filename: "sandbox/words.json",
+			schema: Words,
+		},
+		glyphs: {
+			filename: "glyphs.json",
+			schema: Glyphs,
+		},
+		sandbox_glyphs: {
+			filename: "sandbox/glyphs.json",
+			schema: Glyphs,
+		},
+		signs: {
+			filename: "luka_pona/signs.json",
+			schema: Signs,
+		},
+		fingerspelling: {
+			filename: "luka_pona/fingerspelling.json",
+			schema: Fingerspellings,
+		},
+		fonts: {
+			filename: "fonts.json",
+			schema: Fonts,
+		},
+		languages: {
+			filename: "languages.json",
+			schema: Languages,
+		},
+	},
+};
+
 const rawData = PLazy.from(async () => {
 	const res: Record<string, unknown> = {};
 
-	for (const key of keys(versions.v2.raw)) {
-		const { filename, schema } = versions.v2.raw[key];
-		const file = await fetchFile("v2", schema, filename);
+	for (const key of keys(config.raw)) {
+		const { filename, schema } = config.raw[key];
+		const file = await fetchFile(API_VERSION, filename, schema);
 		if (!file.success) throw new HTTPException(500, { message: fromZodError(file.error).message });
 
 		res[key] = file.data;

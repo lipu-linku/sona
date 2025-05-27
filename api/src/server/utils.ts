@@ -1,4 +1,4 @@
-import type { Languages } from "../lib";
+import type { Languages } from "../lib/v2";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
 
@@ -22,10 +22,13 @@ export const filterObject = <const T extends object>(
 };
 
 export const langIdCoalesce = (lang: string, langs: Languages): string | undefined => {
+	//  lang is the langcode
 	if (lang in langs) {
-		return lang; // most common case
+		return lang;
 	}
+
 	for (const [id, metadata] of Object.entries(langs)) {
+		// lang is the locale e.g. ca-ES, fr-FR, zh-CN
 		if (lang === metadata.locale) {
 			return id;
 		}

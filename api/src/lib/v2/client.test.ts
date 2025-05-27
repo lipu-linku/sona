@@ -5,7 +5,7 @@ import type {
 	Fonts,
 	Language,
 	Languages,
-	LocalizedFingerspellingSign,
+	Fingerspelling,
 	SignData,
 	WordData,
 	SignsData,
