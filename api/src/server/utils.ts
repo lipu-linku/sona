@@ -55,6 +55,15 @@ export const langValidator = zValidator(
   }),
 );
 
+export function joinPath(...segments: string[]) {
+  return segments
+    .filter(Boolean)
+    .join("/")
+    .replace(/\/{2,}/g, "/")
+    .replace(/^\/+/, "")
+    .replace(/\/+$/, "");
+}
+
 export function mergeToKey(target, tkey: string, ...sources) {
   if (!sources.length) {
     return target;
