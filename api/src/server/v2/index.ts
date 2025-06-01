@@ -1,242 +1,200 @@
 import { Fonts, Languages, Words, Glyphs, Signs, Fingerspellings } from "../../lib/v2/";
-
 import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
 import { fetchFile, type FilesToVariables, type ApiVersion } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
-import { Hono, type MiddlewareHandler } from "hono";
+import { Hono, type Context } from "hono";
 import { HTTPException } from "hono/http-exception";
-import PLazy from "p-lazy";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
 
 const API_VERSION: ApiVersion = "v2";
 export const config = {
-	raw: {
-		words: {
-			filename: "words.json",
-			schema: Words,
-		},
-		sandbox_words: {
-			filename: "sandbox/words.json",
-			schema: Words,
-		},
-		glyphs: {
-			filename: "glyphs.json",
-			schema: Glyphs,
-		},
-		sandbox_glyphs: {
-			filename: "sandbox/glyphs.json",
-			schema: Glyphs,
-		},
-		signs: {
-			filename: "luka_pona/signs.json",
-			schema: Signs,
-		},
-		fingerspelling: {
-			filename: "luka_pona/fingerspelling.json",
-			schema: Fingerspellings,
-		},
-		fonts: {
-			filename: "fonts.json",
-			schema: Fonts,
-		},
-		languages: {
-			filename: "languages.json",
-			schema: Languages,
-		},
-	},
+  words: {
+    root: "/",
+    filename: "words.json",
+    schema: Words,
+    translations: true,
+  },
+  glyphs: {
+    root: "/",
+    filename: "glyphs.json",
+    schema: Glyphs,
+    translations: true,
+  },
+  sandbox_words: {
+    root: "sandbox/",
+    filename: "words.json",
+    schema: Words,
+    translations: true,
+  },
+  sandbox_glyphs: {
+    root: "sandbox/",
+    filename: "glyphs.json",
+    schema: Glyphs,
+    translations: true,
+  },
+  signs: {
+    root: "luka_pona/",
+    filename: "signs.json",
+    schema: Signs,
+    translations: true,
+  },
+  fingerspellings: {
+    root: "luka_pona/",
+    filename: "fingerspellings.json",
+    schema: Fingerspellings,
+    translations: true,
+  },
+  fonts: {
+    root: "/",
+    filename: "fonts.json",
+    schema: Fonts,
+    translations: false,
+  },
+  languages: {
+    root: "/",
+    filename: "languages.json",
+    schema: Languages,
+    translations: false,
+  },
 };
 
-const rawData = PLazy.from(async () => {
-	const res: Record<string, unknown> = {};
+let CACHE: Record<keyof typeof config, Record<string, any>> = {};
+export const fetchData = async (key: keyof typeof config, langcode: string = "en") => {
+  // NOTE: if langcode is not provided, data goes under "en" despite having no translations
+  if (CACHE && CACHE[key] && CACHE[key][langcode]) {
+    return CACHE[key][langcode];
+  }
 
-	for (const key of keys(config.raw)) {
-		const { filename, schema } = config.raw[key];
-		const file = await fetchFile(API_VERSION, filename, schema);
-		if (!file.success) throw new HTTPException(500, { message: fromZodError(file.error).message });
+  const file = await fetchFile(API_VERSION, config[key], langcode);
+  if (!file.success) {
+    throw new HTTPException(500, { message: fromZodError(file.error).message });
+  }
 
-		res[key] = file.data;
-	}
+  CACHE[key] = CACHE[key] || {};
+  CACHE[key][langcode] = file;
+  return file;
+};
 
-	return res as FilesToVariables<"v2">;
-});
+const langParamtoLangcode = async (langParam: string | undefined) => {
+  if (!langParam) return "en";
+  const languages = await fetchData("languages");
+  const langcode = langIdCoalesce(langParam, languages.data);
+  return langcode;
+};
 
-// this would be a util but is very tied to the behavior of v2
-export const languagesFilter =
-	(nested: boolean): MiddlewareHandler =>
-	async (c, next) => {
-		await next();
-		const body = await c.res.clone().json();
-		if ("ok" in body && body.ok === false) return body;
+const datasetEndpoint = async (c: Context, key: keyof typeof config) => {
+  const langcode = await langParamtoLangcode(c.req.query("lang"));
+  const data = await fetchData(key, langcode);
+  return c.json(data, 200);
+};
 
-		const requestedLanguages = c.req.query("lang")?.split(",") ?? ["en"];
-		if (requestedLanguages.length === 1 && requestedLanguages[0] === "*") return;
-
-		const languages = (await rawData).languages;
-		const mappedLangs = requestedLanguages.map((lang: string) => langIdCoalesce(lang, languages));
-		if (mappedLangs.includes(undefined)) {
-			throw new HTTPException(400, {
-				message: `Cannot find one or more of the requested languages: ${requestedLanguages.join(", ")}`,
-				// TODO: inform user which langs are missing
-			});
-		}
-
-		if (nested) {
-			c.res = new Response(
-				JSON.stringify(
-					Object.fromEntries(
-						Object.entries(body)
-							.filter(
-								(e): e is [string, { translations: Record<string, any> }] =>
-									typeof e[1] === "object" &&
-									!!e[1] &&
-									"translations" in e[1] &&
-									typeof e[1]["translations"] === "object",
-							)
-							.map(([k, v]) => {
-								return [
-									k,
-									{
-										...v,
-										translations: filterObject(v["translations"], ([k]) => mappedLangs.includes(k)),
-									},
-								];
-							}),
-					),
-				),
-				c.res,
-			);
-		} else {
-			c.res = new Response(
-				JSON.stringify({
-					...body.data,
-					translations: filterObject(body.data["translations"], ([k]) =>
-						mappedLangs.includes(k.toString()),
-					),
-				}),
-				c.res,
-			);
-		}
-	};
+const singleItemEndpoint = async (
+  c: Context,
+  key: keyof typeof config,
+  param: string,
+  descriptor: string,
+) => {
+  const langcode = await langParamtoLangcode(c.req.query("lang"));
+  const data = await fetchData(key, langcode);
+  const id = c.req.param(param);
+  const itemData = data.data[id];
+  return itemData
+    ? c.json({ success: true as const, data: itemData }, 200)
+    : c.json(
+        { success: false as const, message: `Could not find the ${descriptor} ${id}` },
+        400,
+      );
+};
 
 const app = new Hono()
-	.get("/", (c) => c.redirect("/v2/words"))
+  .get("/v2", (c) => c.redirect("/v2/words"))
+  .get("/words", langValidator, async (c) => {
+    return datasetEndpoint(c, "words");
+  })
+  .get(
+    "/words/:word",
+    langValidator,
+    zValidator("param", z.object({ word: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "words", "word", "word");
+    },
+  )
 
-	.get("/words", langValidator, languagesFilter(true), async (c) => {
-		const data = (await rawData).words;
-		return c.json(data, 200);
-	})
+  .get("/glyphs", langValidator, async (c) => {
+    const langcode = await langParamtoLangcode(c.req.query("lang"));
+    const data = await fetchData("glyphs", langcode);
+    return c.json(data, 200);
+  })
+  .get(
+    "/glyphs/:glyph",
+    langValidator,
+    zValidator("param", z.object({ glyph: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "glyphs", "glyph", "glyph");
+    },
+  )
+  .get("/sandbox", (c) => c.redirect("/v2/sandbox/words"))
+  .get("/sandbox/words", langValidator, async (c) => {
+    return datasetEndpoint(c, "sandbox_words");
+  })
+  .get(
+    "/sandbox/words/:word",
+    langValidator,
+    zValidator("param", z.object({ word: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "sandbox_words", "word", "sandbox word");
+    },
+  )
 
-	.get(
-		"/words/:word",
-		langValidator,
-		zValidator("param", z.object({ word: z.string() })),
-		languagesFilter(false),
-		async (c) => {
-			const word = (await rawData).words[c.req.param("word")];
+  .get("/luka_pona/signs", langValidator, async (c) => {
+    return datasetEndpoint(c, "signs");
+  })
+  .get(
+    "/luka_pona/signs/:sign",
+    langValidator,
+    zValidator("param", z.object({ sign: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "signs", "sign", "sign");
+    },
+  )
+  .get("/luka_pona/fingerspellings", langValidator, async (c) => {
+    return datasetEndpoint(c, "fingerspellings");
+  })
+  .get(
+    "/luka_pona/fingerspellings/:fingerspelling",
+    langValidator,
+    zValidator("param", z.object({ sign: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(
+        c,
+        "fingerspellings",
+        "fingerspelling",
+        "fingerspelling",
+      );
+    },
+  )
 
-			return word
-				? c.json({ ok: true as const, data: word }, 200)
-				: c.json(
-						{ ok: false as const, message: `Could not find the word ${c.req.param("word")}` },
-						400,
-					);
-		},
-	)
+  .get("/fonts", async (c) => {
+    return datasetEndpoint(c, "fonts");
+  })
+  .get(
+    "/fonts/:font",
+    zValidator("param", z.object({ font: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "fonts", "font", "font");
+    },
+  )
 
-	.get("/sandbox", langValidator, languagesFilter(true), async (c) => {
-		const data = (await rawData).sandbox;
-		return c.json(data, 200);
-
-		// return c.json((await rawData).sandbox);
-	})
-
-	.get(
-		"/sandbox/:word",
-		langValidator,
-		zValidator("param", z.object({ word: z.string() })),
-		languagesFilter(false),
-		async (c) => {
-			const word = (await rawData).sandbox[c.req.param("word")];
-			return word
-				? c.json({ ok: true as const, data: word }, 200)
-				: c.json(
-						{
-							ok: false as const,
-							message: `Could not find the sandbox word "${c.req.param("word")}"`,
-						},
-						400,
-					);
-		},
-	)
-
-	.get("/luka_pona/fingerspelling", langValidator, languagesFilter(true), async (c) => {
-		return c.json((await rawData).fingerspelling, 200);
-	})
-
-	.get(
-		"/luka_pona/fingerspelling/:sign",
-		langValidator,
-		zValidator("param", z.object({ sign: z.string() })),
-		languagesFilter(true),
-		async (c) => {
-			const sign = (await rawData).fingerspelling[c.req.param("sign")];
-
-			return sign
-				? c.json({ ok: true as const, data: sign }, 200)
-				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
-		},
-	)
-
-	.get("/luka_pona/signs", langValidator, languagesFilter(true), async (c) => {
-		return c.json((await rawData).signs, 200);
-	})
-
-	.get(
-		"/luka_pona/signs/:sign",
-		langValidator,
-		zValidator("param", z.object({ sign: z.string() })),
-		languagesFilter(true),
-		async (c) => {
-			const sign = (await rawData).signs[c.req.param("sign")];
-
-			return sign
-				? c.json({ ok: true as const, data: sign }, 200)
-				: c.json({ ok: false as const, message: `Could not find a sign named ${sign}` }, 400);
-		},
-	)
-
-	.get("/fonts", async (c) => {
-		return c.json((await rawData).fonts, 200);
-	})
-
-	.get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
-		const font = (await rawData).fonts[c.req.param("font")];
-
-		return font
-			? c.json({ ok: true as const, data: font }, 200)
-			: c.json({ ok: false as const, message: `Could not find a font named ${font}` }, 400);
-	})
-
-	.get("/languages", async (c) => {
-		return c.json((await rawData).languages, 200);
-	})
-
-	.get(
-		"/languages/:language",
-		zValidator("param", z.object({ language: z.string() })),
-		async (c) => {
-			const language = c.req.param("language");
-			const languages = (await rawData).languages;
-			const langId = langIdCoalesce(language, languages);
-
-			return langId
-				? c.json({ ok: true as const, data: languages[langId]! }, 200)
-				: c.json(
-						{ ok: false as const, message: `Could not find a language named ${language}` },
-						400,
-					);
-		},
-	);
+  .get("/languages", async (c) => {
+    return datasetEndpoint(c, "languages");
+  })
+  .get(
+    "/languages/:language",
+    zValidator("param", z.object({ language: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "languages", "language", "language");
+    },
+  );
 
 export default app;

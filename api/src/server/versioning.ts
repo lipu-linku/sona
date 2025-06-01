@@ -4,71 +4,68 @@ import apiV1 from "./v1";
 import apiV2 from "./v2";
 import { config as v1config } from "./v1/index";
 import { config as v2config } from "./v2/index";
+import { mergeToKey } from "./utils";
+import { join } from "path";
 
 export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
 
 export type ApiVersion = "v1" | "v2";
 
 export type Versions = {
-	[version in ApiVersion]: {
-		branch: string;
-		schemas: Record<string, z.ZodType>;
-		raw: Record<
-			string,
-			{
-				filename: `${string}.${string}`;
-				schema: z.ZodType;
-				file_schema: z.ZodType;
-				api_schema: z.ZodType; // bc of v2
-			}
-		>;
-	};
+  [version in ApiVersion]: Record<
+    string,
+    {
+      root: string;
+      filename: string; // `${string}.${string}`;
+      schema: z.ZodType;
+      translations: boolean;
+    }
+  >;
 };
 
 export const versions = {
-	v1: v1config,
-	v2: v2config,
+  v1: v1config,
+  v2: v2config,
 } as const;
 
 export type FilesToVariables<
-	V extends ApiVersion,
-	T extends Versions[ApiVersion]["raw"] = (typeof versions)[V]["raw"],
+  V extends ApiVersion,
+  T extends Versions[ApiVersion] = (typeof versions)[V],
 > = {
-	[K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
+  [K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
 };
 
 type Apps = {
-	[version in keyof typeof versions]: Hono<any, any, `/${version}`>;
+  [version in keyof typeof versions]: Hono<any, any, `/${version}`>;
 };
 
 // v1 just grabs the files and sends them, since the translations are packed in
 // v2 has to traverse some dirs and grab the translations separately
 export const apps = {
-	v1: apiV1,
-	v2: apiV2,
+  v1: apiV1,
+  v2: apiV2,
 } as const satisfies Apps;
 
 export const fetchFile = async <S extends z.ZodType>(
-	version: ApiVersion,
-	filename: string,
-	schema: S,
-	langcode: string = "en",
+  version: ApiVersion,
+  config: Versions[ApiVersion][string],
+  langcode: string = "en",
 ): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> => {
-	const imports = import.meta.glob(`../../raw/**/*.json`);
-	let file = await imports[`../../raw/${version}/${filename}`]?.();
-	file = file.default;
+  const imports = import.meta.glob(`../../raw/**/*.json`);
+  const { root = "/", filename, schema, translations = false } = config;
 
-	// TODO: better way to determine path
-	// this doesn't work for sandbox or lp
-	let translations = await imports[`../../raw/${version}/translations/${langcode}/${filename}`]?.();
+  let path = join("../../raw", version, root, filename);
+  let file = await imports[path]?.();
+  file = file.default;
 
-	if (version === "v2" && translations !== undefined) {
-		translations = translations.default;
-	}
+  // TODO: better way for caller to insert api specific behavior
+  if (version === "v2" && translations === true) {
+    let path = join("../../raw", version, root, "translations", langcode, filename);
+    let translationData = await imports[path]?.();
+    translationData = translationData.default;
+    file = mergeToKey(file, "translations", translationData);
+  }
 
-	// TODO: safe-fetch from raw/version/translations/langcode/filename
-	// merge into file if it exists
-
-	const parsed = schema.safeParse(file); // TODO: type of file is unknown?
-	return parsed;
+  const parsed = schema.safeParse(file); // TODO: type of file is unknown?
+  return parsed;
 };
