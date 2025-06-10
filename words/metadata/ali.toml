@@ -33,6 +33,7 @@ ligatures = ["ali"]
 ucsur = "U+F1904"
 sitelen_emosi = "♾️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/ale.jpg"
+sitelen_jelo = ["🌌"]
 
 [usage]
 2022-08 = 35
