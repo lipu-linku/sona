@@ -1,0 +1,27 @@
+#:schema ../../api/generated/font.json
+id = "Kaw Pixel"
+creator = ["kaw57"]
+features = [
+  #"ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports cartouches",
+  #"extended glyphs",
+  #"combined glyphs",
+  #"ZWJ sequences",
+  #"character variants",
+  #"randomized jaki",
+  "supports all ucsur words",
+]
+filename = "kaw-pixel.ttf"
+last_updated = "2024-12-24"
+license = "OFL"
+ligatures = true
+name = "Kaw Pixel"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+#fontfile = ""
+webpage = "https://fontstruct.com/fontstructions/show/2572125/kaw-pixel"
