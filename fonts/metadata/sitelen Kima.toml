@@ -46,6 +46,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-# fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20Kima%20again.ttf"
-# repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-# webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Kima.html"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20Kima%20again.ttf"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Kima.html"
