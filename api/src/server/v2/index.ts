@@ -4,7 +4,7 @@ import { fetchFile, type FilesToVariables, type ApiVersion } from "../versioning
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type Context } from "hono";
 import { HTTPException } from "hono/http-exception";
-import { z } from "zod";
+import { z } from "zod/v4";
 import { fromZodError } from "zod-validation-error";
 
 const API_VERSION: ApiVersion = "v2";
@@ -101,10 +101,7 @@ const singleItemEndpoint = async (
   const itemData = data.data[id];
   return itemData
     ? c.json({ success: true as const, data: itemData }, 200)
-    : c.json(
-        { success: false as const, message: `Could not find the ${descriptor} ${id}` },
-        400,
-      );
+    : c.json({ success: false as const, message: `Could not find the ${descriptor} ${id}` }, 400);
 };
 
 const app = new Hono()
@@ -166,25 +163,16 @@ const app = new Hono()
     langValidator,
     zValidator("param", z.object({ sign: z.string() })),
     async (c) => {
-      return singleItemEndpoint(
-        c,
-        "fingerspellings",
-        "fingerspelling",
-        "fingerspelling",
-      );
+      return singleItemEndpoint(c, "fingerspellings", "fingerspelling", "fingerspelling");
     },
   )
 
   .get("/fonts", async (c) => {
     return datasetEndpoint(c, "fonts");
   })
-  .get(
-    "/fonts/:font",
-    zValidator("param", z.object({ font: z.string() })),
-    async (c) => {
-      return singleItemEndpoint(c, "fonts", "font", "font");
-    },
-  )
+  .get("/fonts/:font", zValidator("param", z.object({ font: z.string() })), async (c) => {
+    return singleItemEndpoint(c, "fonts", "font", "font");
+  })
 
   .get("/languages", async (c) => {
     return datasetEndpoint(c, "languages");

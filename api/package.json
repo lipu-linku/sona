@@ -1,76 +1,76 @@
 {
-	"name": "@kulupu-linku/sona",
 	"version": "0.3.7",
-	"description": "A library providing TypeScript types and Zod schemas for the sona API",
-	"homepage": "https://linku.la/",
-	"bugs": {
-		"url": "https://github.com/lipu-linku/sona/issues/"
-	},
-	"license": "GPL-3.0-or-later",
-	"contributors": [
-		{
-			"name": "TheOnlyTails",
-			"url": "https://theonlytails.com/",
-			"email": "theonlytails@theonlytails.com"
-		},
-		{
-			"name": "gregdan3 (jan Kekan San)",
-			"url": "https://gregdan3.dev/",
-			"email": "gregdan3@protonmail.com"
-		}
-	],
-	"repository": {
-		"url": "https://github.com/lipu-linku/sona.git",
-		"directory": "api",
-		"type": "git"
-	},
-	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"build:lib": "vite build --mode lib",
-		"generate": "tsx ./generateSchemas.ts",
-		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
-		"format": "prettier --write ."
-	},
-	"dependencies": {
-		"@hono/vite-cloudflare-pages": "^0.4.0",
-		"@hono/vite-dev-server": "^0.18.0",
-		"@hono/zod-validator": "^0.4.0",
-		"hono": "^4.3.0",
-		"p-lazy": "^5.0.0",
-		"zod": "^3.25.7",
-		"zod-validation-error": "^3.2.0"
-	},
-	"devDependencies": {
-		"@types/node": "^22.0.0",
-		"prettier": "^3.2.5",
-		"tsx": "^4.9.0",
-		"typescript": "^5.4.5",
-		"vite": "^6.0.0",
-		"vite-plugin-dts": "^4.0.0",
-		"zod-to-json-schema": "^3.23.0"
-	},
-	"engines": {
-		"pnpm": ">=9"
-	},
-	"files": [
-		"/dist",
-		"/generated"
-	],
-	"main": "./dist/index.js",
-	"exports": {
-		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
-		},
-		"./utils": {
-			"import": "./dist/utils.js",
-			"types": "./dist/utils.d.ts"
-		},
-		"./client": {
-			"import": "./dist/client.js",
-			"types": "./dist/client.d.ts"
-		}
-	},
-	"type": "module"
+  "name": "@kulupu-linku/sona",
+  "description": "A library providing TypeScript types and Zod schemas for the sona API",
+  "homepage": "https://linku.la/",
+  "bugs": {
+    "url": "https://github.com/lipu-linku/sona/issues/"
+  },
+  "license": "GPL-3.0-or-later",
+  "contributors": [
+    {
+      "name": "TheOnlyTails",
+      "url": "https://theonlytails.com/",
+      "email": "theonlytails@theonlytails.com"
+    },
+    {
+      "name": "gregdan3 (jan Kekan San)",
+      "url": "https://gregdan3.dev/",
+      "email": "gregdan3@protonmail.com"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lipu-linku/sona.git",
+    "directory": "api",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --mode lib",
+    "generate": "tsx ./generateSchemas.ts",
+    "generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@hono/vite-cloudflare-pages": "^0.4.2",
+    "@hono/vite-dev-server": "^0.19.1",
+    "@hono/zod-validator": "^0.7.0",
+    "hono": "^4.7.11",
+    "p-lazy": "^5.0.0",
+    "zod": "^3.25.48",
+    "zod-validation-error": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "engines": {
+    "pnpm": ">=9"
+  },
+  "files": [
+    "/dist",
+    "/generated"
+  ],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils.js",
+      "types": "./dist/utils.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client.js",
+      "types": "./dist/client.d.ts"
+    }
+  },
+  "type": "module"
 }

@@ -1,6 +1,6 @@
 import type { Languages } from "../lib/v2";
 import { zValidator } from "@hono/zod-validator";
-import { z } from "zod";
+import { z } from "zod/v4";
 
 export const entries = <const T extends object>(
   o: T,
@@ -18,9 +18,7 @@ export const filterObject = <const T extends object>(
   o: T,
   predicate: (o: [keyof T, T[keyof T]]) => boolean,
 ) => {
-  return Object.fromEntries(
-    entries(o).filter(([key, value]) => predicate([key, value])),
-  );
+  return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
 };
 
 export const langIdCoalesce = (lang: string, langs: Languages): string | undefined => {

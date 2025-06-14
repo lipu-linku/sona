@@ -1,7 +1,7 @@
 // .prettierrc.mjs
 /** @type {import("prettier").Config} */
 export default {
-  "proseWrap": "always",
-  "useTabs": false,
-  "printWidth": 88
-}
+  proseWrap: "always",
+  useTabs: false,
+  printWidth: 100,
+};

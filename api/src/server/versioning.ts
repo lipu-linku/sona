@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import type { z } from "zod";
+import type { z } from "zod/v4";
 import apiV1 from "./v1";
 import apiV2 from "./v2";
 import { config as v1config } from "./v1/index";
@@ -7,17 +7,15 @@ import { config as v2config } from "./v2/index";
 import { mergeToKey, joinPath as join } from "./utils";
 
 export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
-
 export type ApiVersion = "v1" | "v2";
-
 export type Versions = {
   [version in ApiVersion]: Record<
     string,
     {
-      root: string;
+      root: string | undefined;
       filename: string; // `${string}.${string}`;
       schema: z.ZodType;
-      translations: boolean;
+      translations: boolean | undefined;
     }
   >;
 };
