@@ -1,50 +1,47 @@
 {
-  "$ref": "#/definitions/sign_translations",
-  "definitions": {
-    "sign_translations": {
-      "type": "object",
-      "additionalProperties": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A raw data object containing information about Luka Pona signs",
+  "type": "object",
+  "propertyNames": {
+    "description": "A unique identifier for a given object in Linku. Generally named after the object.",
+    "type": "string",
+    "minLength": 1
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "icons": {
+        "description": "Localized descriptions of the thing a sign represents.",
+        "type": "string"
+      },
+      "parameters": {
+        "description": "Partly localized descriptions of how a sign is signed.",
         "type": "object",
         "properties": {
-          "icons": {
-            "type": "string",
-            "description": "Localized descriptions of the thing a sign represents."
+          "handshape": {
+            "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+            "type": "string"
           },
-          "parameters": {
-            "type": "object",
-            "properties": {
-              "handshape": {
-                "type": "string",
-                "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
-              },
-              "movement": {
-                "type": "string",
-                "description": "The motion of the hand when signing."
-              },
-              "placement": {
-                "type": "string",
-                "description": "The placement of the hand when signing."
-              },
-              "orientation": {
-                "type": "string",
-                "description": "The orientation of the hand when signing."
-              }
-            },
-            "additionalProperties": false,
-            "description": "Partly localized descriptions of how a sign is signed."
+          "movement": {
+            "description": "The motion of the hand when signing.",
+            "type": "string"
+          },
+          "placement": {
+            "description": "The placement of the hand when signing.",
+            "type": "string"
+          },
+          "orientation": {
+            "description": "The orientation of the hand when signing.",
+            "type": "string"
           }
         },
-        "required": [
-          "icons",
-          "parameters"
-        ],
         "additionalProperties": false
-      },
-      "propertyNames": {
-        "minLength": 1
-      },
-      "description": "A raw data object containing information about Luka Pona signs"
-    }
-  },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+      }
+    },
+    "required": [
+      "icons",
+      "parameters"
+    ],
+    "additionalProperties": false
+  }
 }

@@ -1,17 +1,14 @@
 {
-  "$ref": "#/definitions/commentary_data",
-  "definitions": {
-    "commentary_data": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "string",
-        "description": "Localized commentary on the parent, such as a word or glyph"
-      },
-      "propertyNames": {
-        "minLength": 1
-      },
-      "description": "A raw data object containing dictionary info about Toki Pona words"
-    }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A raw data object containing dictionary info about Toki Pona words",
+  "type": "object",
+  "propertyNames": {
+    "description": "A unique identifier for a given object in Linku. Generally named after the object.",
+    "type": "string",
+    "minLength": 1
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "additionalProperties": {
+    "description": "Localized commentary on the parent, such as a word or glyph",
+    "type": "string"
+  }
 }

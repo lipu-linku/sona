@@ -1,118 +1,112 @@
 {
-  "$ref": "#/definitions/fingerspelling",
-  "definitions": {
-    "fingerspelling": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "A unique name for the fingerspelling which is also a gloss.",
+      "type": "string",
+      "minLength": 1
+    },
+    "is_two_handed": {
+      "description": "Whether the sign is two-handed or not.",
+      "type": "boolean"
+    },
+    "etymology": {
+      "description": "Unlocalized etymological values regarding this sign's origin",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "description": "The language of the sign.",
+            "type": "string"
+          },
+          "sign": {
+            "description": "The name of the sign such that it could be found in a sign language dictionary.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "language",
+          "sign"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "signwriting": {
+      "description": "Scripts for representing a sign as characters.",
       "type": "object",
       "properties": {
-        "id": {
-          "type": "string",
-          "minLength": 1,
-          "description": "A globally unique name for the fingerspelling which is also a gloss."
+        "fsw": {
+          "description": "The Formal Sign Writing representation of the sign.",
+          "type": "string"
         },
-        "is_two_handed": {
-          "type": "boolean",
-          "description": "Whether the sign is two-handed or not."
+        "swu": {
+          "description": "The Sign Writing with Unicode representation of hte sign.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fsw",
+        "swu"
+      ],
+      "additionalProperties": false
+    },
+    "video": {
+      "description": "Videos of the sign being performed, by format.",
+      "type": "object",
+      "properties": {
+        "gif": {
+          "description": "A link to a gif of the sign being signed.",
+          "type": "string"
         },
-        "etymology": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "language": {
-                "type": "string",
-                "description": "The language of the sign."
-              },
-              "sign": {
-                "type": "string",
-                "description": "The name of the sign such that it could be found in a sign language dictionary."
-              }
-            },
-            "required": [
-              "language",
-              "sign"
-            ],
-            "additionalProperties": false
-          },
-          "description": "Unlocalized etymological values regarding this sign's origin"
-        },
-        "signwriting": {
+        "mp4": {
+          "description": "a link to an mp4 of the sign being signed.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "translations": {
+      "type": "object",
+      "properties": {
+        "parameters": {
+          "description": "Partly localized descriptions of how a sign is signed.",
           "type": "object",
           "properties": {
-            "fsw": {
-              "type": "string",
-              "description": "The Formal Sign Writing representation of the sign."
+            "handshape": {
+              "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+              "type": "string"
             },
-            "swu": {
-              "type": "string",
-              "description": "The Sign Writing with Unicode representation of hte sign."
-            }
-          },
-          "required": [
-            "fsw",
-            "swu"
-          ],
-          "additionalProperties": false,
-          "description": "Scripts for representing a sign as characters."
-        },
-        "video": {
-          "type": "object",
-          "properties": {
-            "gif": {
-              "type": "string",
-              "description": "A link to a gif of the sign being signed."
+            "movement": {
+              "description": "The motion of the hand when signing.",
+              "type": "string"
             },
-            "mp4": {
-              "type": "string",
-              "description": "a link to an mp4 of the sign being signed."
+            "placement": {
+              "description": "The placement of the hand when signing.",
+              "type": "string"
+            },
+            "orientation": {
+              "description": "The orientation of the hand when signing.",
+              "type": "string"
             }
           },
-          "additionalProperties": false,
-          "description": "Videos of the sign being performed, by format."
-        },
-        "translations": {
-          "type": "object",
-          "properties": {
-            "parameters": {
-              "type": "object",
-              "properties": {
-                "handshape": {
-                  "type": "string",
-                  "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
-                },
-                "movement": {
-                  "type": "string",
-                  "description": "The motion of the hand when signing."
-                },
-                "placement": {
-                  "type": "string",
-                  "description": "The placement of the hand when signing."
-                },
-                "orientation": {
-                  "type": "string",
-                  "description": "The orientation of the hand when signing."
-                }
-              },
-              "additionalProperties": false,
-              "description": "Partly localized descriptions of how a sign is signed."
-            }
-          },
-          "required": [
-            "parameters"
-          ],
           "additionalProperties": false
         }
       },
       "required": [
-        "id",
-        "is_two_handed",
-        "etymology",
-        "signwriting",
-        "video",
-        "translations"
+        "parameters"
       ],
-      "additionalProperties": false,
-      "description": "Unlocalized info on a fingerspelling sign."
+      "additionalProperties": false
     }
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "required": [
+    "id",
+    "is_two_handed",
+    "etymology",
+    "signwriting",
+    "video",
+    "translations"
+  ],
+  "additionalProperties": false
 }
