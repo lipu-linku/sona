@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "sitelen pona lili tan jan Stella"
 name      = "sitelen pona lili tan jan Stella"
 filename  = "sitelen-pona-lili-tan-jan-Stella-Winx-Club.ttf"

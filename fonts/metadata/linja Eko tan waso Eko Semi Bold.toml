@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "linja Eko tan waso Eko Semi Bold"
 name      = "linja Eko tan waso Eko Semi Bold"
 filename  = "linja-Eko-Semi_Bd.ttf"
