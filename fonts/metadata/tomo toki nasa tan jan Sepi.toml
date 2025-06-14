@@ -1,9 +1,9 @@
 #:schema ../../api/generated/v2/font.json
-id = "tomo toki nasa tan jan Sepi"
-name = "tomo toki nasa tan jan Sepi"
-filename = "sitelen seli luka tan kulupu seli.ttf"
-creator = ["jan Sepi"]
-license = "SIL Open Font License, Version 1.1"
+id        = "tomo toki nasa"
+name      = "tomo toki nasa tan jan Sepi"
+filename  = "tomo toki nasa tan jan Sepi.ttf"
+creator   = ["jan Sepi"]
+license   = "SIL Open Font License, Version 1.1"
 ligatures = true
 ucsur = true
 writing_system = "sitelen pona"
@@ -22,4 +22,3 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/yoshikagekira8/tomo-toki-nasa/raw/refs/heads/main/tomo%20toki%20nasa%20tan%20jan%20Sepi.ttf"
-

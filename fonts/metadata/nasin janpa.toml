@@ -22,6 +22,6 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://omga-dev.github.io/nasin-janpa/nasin-janpa.ttf"
-repo     = "https://github.com/omga-dev/nasin-janpa"
-webpage  = "https://omga-dev.github.io/nasin-janpa"
+fontfile = "https://github.com/jammpark/nasin-janpa/raw/refs/heads/main/nasin-janpa.ttf"
+repo     = "https://github.com/jammpark/nasin-janpa"
+webpage  = "https://jammpark.github.io/nasin-janpa"

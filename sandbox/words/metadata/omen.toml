@@ -1,7 +1,7 @@
 #:schema ../../../api/generated/v2/word_data.json
 id = "omen"
-author_verbatim = ""
-author_verbatim_source = ""
+author_verbatim = """canonize *'o·m·e·m'* (← 'o moli e mi') into an actuall tp word *'omen'*, meaning "sarcasm, sarcastic""""
+author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/384819868815458314"
 book = "none"
 coined_era = "post-pu"
 coined_year = "2017"
