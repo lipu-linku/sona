@@ -20,10 +20,6 @@ primary_glyph_id = ""
 synonym_glyph_ids = []
 audio = []
 
-[[etymology]]
-alt = "イワゥ"
-word = "iwau"
-
 [representations]
 ligatures = ["iwa"]
 
