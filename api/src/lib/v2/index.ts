@@ -7,7 +7,7 @@ export type * from "./types";
 const Id = z
   .string()
   .min(1)
-  .describe("A globally unique identifier for a given object. Generally named after the object.");
+  .describe("A unique identifier for a given object in Linku. Generally named after the object.");
 
 export const WordData = z
   .object({
@@ -22,7 +22,7 @@ export const WordData = z
       .describe("Where the author's original definition is located, often a URL."),
     book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
     coined_era: CoinedEra.describe(
-      "When this word was coined (relative to the publication dates of the official Toki Pona books, if known)",
+      "The period of time in which this word was coined, relative to the publication of the first two official Toki Pona books",
     ),
     coined_year: z.string().describe("The year when this word was coined (if known)"),
     creator: z.array(z.string().min(1)).describe("The person who created this word (if known)"),
@@ -167,7 +167,9 @@ export const Word = WordData.extend({
 });
 
 export const GlyphData = z.object({
-  id: Id, // word + dash + number
+  id: Id.describe(
+    "A unique identifier for the glyph, generally formed as its corresponding word with a dash and a number in the order the glyphs were coined.",
+  ), // word + dash + number
   word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
   word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
   usage_category: UsageCategory,
@@ -290,7 +292,7 @@ export const Sign = SignData.extend({
 
 export const FingerspellingData = z
   .object({
-    id: Id.describe("A globally unique name for the fingerspelling which is also a gloss."),
+    id: Id.describe("A unique name for the fingerspelling which is also a gloss."),
     is_two_handed: z.boolean().describe("Whether the sign is two-handed or not."),
     etymology: z
       .array(
