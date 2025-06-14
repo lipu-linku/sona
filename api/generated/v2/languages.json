@@ -1,64 +1,67 @@
 {
-  "$ref": "#/definitions/languages",
-  "definitions": {
-    "languages": {
-      "type": "object",
-      "additionalProperties": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "The languages offered by sona Linku.",
+  "type": "object",
+  "propertyNames": {
+    "$ref": "#/$defs/__schema0"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "locale": {
+        "description": "The locale code corresponding to the language.",
+        "type": "string"
+      },
+      "direction": {
+        "description": "The direction of the language's script.",
+        "anyOf": [
+          {
+            "const": "ltr"
+          },
+          {
+            "const": "rtl"
+          }
+        ]
+      },
+      "name": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 2,
-            "description": "The language code used by Crowdin. Approximates 2 letter code -> 3 letter code."
+          "en": {
+            "description": "The name of the language in English.",
+            "type": "string"
           },
-          "locale": {
-            "type": "string",
-            "description": "The locale code corresponding to the language."
+          "endonym": {
+            "description": "The name of the language in that language.",
+            "type": "string"
           },
-          "direction": {
-            "type": "string",
-            "enum": [
-              "ltr",
-              "rtl"
-            ],
-            "description": "The direction of the language's script."
-          },
-          "name": {
-            "type": "object",
-            "properties": {
-              "en": {
-                "type": "string",
-                "description": "The name of the language in English."
-              },
-              "endonym": {
-                "type": "string",
-                "description": "The name of the language in that language."
-              },
-              "tok": {
-                "type": "string",
-                "description": "The name of the language in Toki Pona."
-              }
-            },
-            "required": [
-              "en",
-              "endonym"
-            ],
-            "additionalProperties": false
+          "tok": {
+            "description": "The name of the language in Toki Pona.",
+            "type": "string"
           }
         },
         "required": [
-          "id",
-          "locale",
-          "direction",
-          "name"
+          "en",
+          "endonym"
         ],
         "additionalProperties": false
-      },
-      "propertyNames": {
-        "minLength": 2
-      },
-      "description": "The languages offered by sona Linku."
-    }
+      }
+    },
+    "required": [
+      "id",
+      "locale",
+      "direction",
+      "name"
+    ],
+    "additionalProperties": false
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "$defs": {
+    "__schema0": {
+      "description": "The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.",
+      "type": "string",
+      "minLength": 2
+    }
+  }
 }

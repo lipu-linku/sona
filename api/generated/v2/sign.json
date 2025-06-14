@@ -1,142 +1,136 @@
 {
-  "$ref": "#/definitions/sign",
-  "definitions": {
-    "sign": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "A unique identifier for a given object in Linku. Generally named after the object.",
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "description": "The definition of the sign as a single toki pona word.",
+      "type": "string"
+    },
+    "is_two_handed": {
+      "description": "Whether the sign is two-handed or not.",
+      "type": "boolean"
+    },
+    "new_gloss": {
+      "description": "The more recent, preferred gloss for this sign.",
+      "type": "string"
+    },
+    "old_gloss": {
+      "description": "The older gloss for this sign, similar to `id`.",
+      "type": "string"
+    },
+    "old_id": {
+      "description": "Previous, malformed id for the sign.",
+      "type": "string"
+    },
+    "etymology": {
+      "description": "Unlocalized etymological values regarding this sign's origin",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "description": "The language of the sign.",
+            "type": "string"
+          },
+          "sign": {
+            "description": "The name of the sign such that it could be found in a sign language dictionary.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "language"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "signwriting": {
+      "description": "Scripts for representing a sign as characters.",
       "type": "object",
       "properties": {
-        "id": {
-          "type": "string",
-          "minLength": 1,
-          "description": "A globally unique identifier for a given object. Generally named after the object."
+        "fsw": {
+          "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+          "type": "string"
         },
-        "definition": {
-          "type": "string",
-          "description": "The definition of the sign as a single toki pona word."
+        "swu": {
+          "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fsw",
+        "swu"
+      ],
+      "additionalProperties": false
+    },
+    "video": {
+      "description": "Videos of the sign being performed, by format.",
+      "type": "object",
+      "properties": {
+        "gif": {
+          "description": "A link to a gif of the sign being signed.",
+          "type": "string"
         },
-        "is_two_handed": {
-          "type": "boolean",
-          "description": "Whether the sign is two-handed or not."
+        "mp4": {
+          "description": "a link to an mp4 of the sign being signed.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "translations": {
+      "type": "object",
+      "properties": {
+        "icons": {
+          "description": "Localized descriptions of the thing a sign represents.",
+          "type": "string"
         },
-        "new_gloss": {
-          "type": "string",
-          "description": "The more recent, preferred gloss for this sign."
-        },
-        "old_gloss": {
-          "type": "string",
-          "description": "The older gloss for this sign, similar to `id`."
-        },
-        "old_id": {
-          "type": "string",
-          "description": "Previous, malformed id for the sign."
-        },
-        "etymology": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "language": {
-                "type": "string",
-                "description": "The language of the sign."
-              },
-              "sign": {
-                "type": "string",
-                "description": "The name of the sign such that it could be found in a sign language dictionary."
-              }
-            },
-            "required": [
-              "language"
-            ],
-            "additionalProperties": false
-          },
-          "description": "Unlocalized etymological values regarding this sign's origin"
-        },
-        "signwriting": {
+        "parameters": {
+          "description": "Partly localized descriptions of how a sign is signed.",
           "type": "object",
           "properties": {
-            "fsw": {
-              "type": "string",
-              "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
+            "handshape": {
+              "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+              "type": "string"
             },
-            "swu": {
-              "type": "string",
-              "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
+            "movement": {
+              "description": "The motion of the hand when signing.",
+              "type": "string"
+            },
+            "placement": {
+              "description": "The placement of the hand when signing.",
+              "type": "string"
+            },
+            "orientation": {
+              "description": "The orientation of the hand when signing.",
+              "type": "string"
             }
           },
-          "required": [
-            "fsw",
-            "swu"
-          ],
-          "additionalProperties": false,
-          "description": "Scripts for representing a sign as characters."
-        },
-        "video": {
-          "type": "object",
-          "properties": {
-            "gif": {
-              "type": "string",
-              "description": "A link to a gif of the sign being signed."
-            },
-            "mp4": {
-              "type": "string",
-              "description": "a link to an mp4 of the sign being signed."
-            }
-          },
-          "additionalProperties": false,
-          "description": "Videos of the sign being performed, by format."
-        },
-        "translations": {
-          "type": "object",
-          "properties": {
-            "icons": {
-              "type": "string",
-              "description": "Localized descriptions of the thing a sign represents."
-            },
-            "parameters": {
-              "type": "object",
-              "properties": {
-                "handshape": {
-                  "type": "string",
-                  "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona"
-                },
-                "movement": {
-                  "type": "string",
-                  "description": "The motion of the hand when signing."
-                },
-                "placement": {
-                  "type": "string",
-                  "description": "The placement of the hand when signing."
-                },
-                "orientation": {
-                  "type": "string",
-                  "description": "The orientation of the hand when signing."
-                }
-              },
-              "additionalProperties": false,
-              "description": "Partly localized descriptions of how a sign is signed."
-            }
-          },
-          "required": [
-            "icons",
-            "parameters"
-          ],
           "additionalProperties": false
         }
       },
       "required": [
-        "id",
-        "definition",
-        "is_two_handed",
-        "new_gloss",
-        "old_gloss",
-        "old_id",
-        "etymology",
-        "signwriting",
-        "video",
-        "translations"
+        "icons",
+        "parameters"
       ],
-      "additionalProperties": false,
-      "description": "Unlocalized info on a Luka Pona sign"
+      "additionalProperties": false
     }
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "required": [
+    "id",
+    "definition",
+    "is_two_handed",
+    "new_gloss",
+    "old_gloss",
+    "old_id",
+    "etymology",
+    "signwriting",
+    "video",
+    "translations"
+  ],
+  "additionalProperties": false
 }
