@@ -1,6 +1,6 @@
 {
-	"version": "0.3.7",
   "name": "@kulupu-linku/sona",
+  "version": "2.0.0",
   "description": "A library providing TypeScript types and Zod schemas for the sona API",
   "homepage": "https://linku.la/",
   "bugs": {
