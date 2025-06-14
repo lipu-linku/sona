@@ -17,15 +17,20 @@
 
 ### API Types
 
+Mostly affecting v2:
+
 - The `translations` key now has static child keys for each type, rather than an
   intermediate and variable langcode key.
 - The nightmarish `etymology` key of `words` is now a single translatable string rather than
   two parallel arrays in two different locations.
+- `words` now have metadata indicating their corresponding glyph or glyphs:
+  `glyph_ids`, `synonym_glyph_ids`, and `primary_glyph_id`
 
 ### Metadata
 
 - `api/raw` is now split into `v1` and `v2`, which have the respective packaged
   data from Linku taken from `words/`, `luka_pona/`, `fonts/`, `languages/`, and `glyphs/` for `v2`.
+-
 
 ### Types
 
@@ -34,6 +39,8 @@
 - `api/generated` is now split into `v1` and `v2`, which have the respective
   JSON schema type definitions for each API created from the type definitions in
   `src/lib`.
+
+### Supporting Scripts
 
 ### Other
 

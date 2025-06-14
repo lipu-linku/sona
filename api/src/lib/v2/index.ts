@@ -127,11 +127,15 @@ export const WordData = z
       ),
     glyph_ids: z
       .array(Id)
-      .describe("A list of ids for sitelen pona glyphs which represent the word."),
+      .describe(
+        "A list of ids for sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
+      ),
     primary_glyph_id: z
       .string()
       // .min(3) # TODO: this is required above sandbox
-      .describe("The id of the glyph most often used to represent this word in sitelen pona."),
+      .describe(
+        "The id of the glyph most often used to represent this word in sitelen pona. Should always be shown.",
+      ),
     synonym_glyph_ids: z
       .array(Id)
       .describe(
