@@ -6,6 +6,43 @@
   </a>
 </div>
 
+## Changes from v1 to v2
+
+### API
+
+- `src/server` is now split into `v1` and `v2`, which have the respective
+  endpoint definitions for each API.
+- The api endpoint `/v2/glyphs` now exists and delivers glyph metadata.
+- `v2` can only receive requests for one language at a time.
+
+### API Types
+
+- The `translations` key now has static child keys for each type, rather than an
+  intermediate and variable langcode key.
+- The nightmarish `etymology` key of `words` is now a single translatable string rather than
+  two parallel arrays in two different locations.
+
+### Metadata
+
+- `api/raw` is now split into `v1` and `v2`, which have the respective packaged
+  data from Linku taken from `words/`, `luka_pona/`, `fonts/`, `languages/`, and `glyphs/` for `v2`.
+
+### Types
+
+- `src/lib` is now split into `v1` and `v2`, which have the respective type
+  definitions for each API.
+- `api/generated` is now split into `v1` and `v2`, which have the respective
+  JSON schema type definitions for each API created from the type definitions in
+  `src/lib`.
+
+### Other
+
+- We are no longer updating data for `v1` of the Linku API, because the TOML files
+  that make up our "database" have changed in an incompatible way.
+- We are also no longer updating our type definitions for `v1` of the Linku API.
+  These are still possible to update, though there is no longer any reason to.
+  This means `src/lib/v1` and `api/generated/v1` will be static from now on.
+
 ## Overview
 
 sona is a collaborative, open dataset for and by the toki pona community.
