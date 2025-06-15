@@ -1,6 +1,6 @@
 import { Fonts, Languages, Words, Glyphs, Signs, Fingerspellings } from "../../lib/v2/";
-import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
-import { fetchFile, type FilesToVariables, type ApiVersion } from "../versioning";
+import { langIdCoalesce, langValidator } from "../utils";
+import { fetchFile, type ApiVersion } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type Context } from "hono";
 import { HTTPException } from "hono/http-exception";
@@ -105,7 +105,7 @@ const singleItemEndpoint = async (
 };
 
 const app = new Hono()
-  .get("/v2", (c) => c.redirect("/v2/words"))
+  .get("/", (c) => c.redirect("/v2/words"))
   .get("/words", langValidator, async (c) => {
     return datasetEndpoint(c, "words");
   })
@@ -140,6 +140,17 @@ const app = new Hono()
     zValidator("param", z.object({ word: z.string() })),
     async (c) => {
       return singleItemEndpoint(c, "sandbox_words", "word", "sandbox word");
+    },
+  )
+  .get("/sandbox/glyphs", langValidator, async (c) => {
+    return datasetEndpoint(c, "sandbox_glyphs");
+  })
+  .get(
+    "/sandbox/glyphs/:glyph",
+    langValidator,
+    zValidator("param", z.object({ glyph: z.string() })),
+    async (c) => {
+      return singleItemEndpoint(c, "sandbox_glyphs", "glyph", "sandbox glyph");
     },
   )
 
