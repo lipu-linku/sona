@@ -120,8 +120,7 @@ const app = new Hono()
 
   .get("/glyphs", langValidator, async (c) => {
     const langcode = await langParamtoLangcode(c.req.query("lang"));
-    const data = await fetchData("glyphs", langcode);
-    return c.json(data, 200);
+    return datasetEndpoint(c, "glyphs");
   })
   .get(
     "/glyphs/:glyph",
