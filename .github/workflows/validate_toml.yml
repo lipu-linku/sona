@@ -49,6 +49,7 @@ jobs:
         with:
           filters: |
             data:
+              - '**/metadata/**.toml'
               - '**/source/**.toml'
               - '**/translations/**.toml'
 
