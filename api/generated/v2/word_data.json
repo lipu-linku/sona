@@ -216,14 +216,14 @@
       }
     },
     "glyph_ids": {
-      "description": "A list of ids for sitelen pona glyphs which represent the word.",
+      "description": "A list of ids for sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
       "type": "array",
       "items": {
         "$ref": "#/$defs/__schema0"
       }
     },
     "primary_glyph_id": {
-      "description": "The id of the glyph most often used to represent this word in sitelen pona.",
+      "description": "The id of the glyph most often used to represent this word in sitelen pona. Should always be shown.",
       "type": "string"
     },
     "synonym_glyph_ids": {
