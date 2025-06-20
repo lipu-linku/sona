@@ -86,7 +86,7 @@ const langParamtoLangcode = async (langParam: string | undefined) => {
 const datasetEndpoint = async (c: Context, key: keyof typeof config) => {
   const langcode = await langParamtoLangcode(c.req.query("lang"));
   const data = await fetchData(key, langcode);
-  return c.json(data, 200);
+  return c.json(data.data, 200);
 };
 
 const singleItemEndpoint = async (
@@ -100,7 +100,7 @@ const singleItemEndpoint = async (
   const id = c.req.param(param);
   const itemData = data.data[id];
   return itemData
-    ? c.json({ success: true as const, data: itemData }, 200)
+    ? c.json(itemData, 200)
     : c.json({ success: false as const, message: `Could not find the ${descriptor} ${id}` }, 400);
 };
 
