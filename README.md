@@ -6,31 +6,65 @@
   </a>
 </div>
 
-## Changes from v1 to v2
+## Changes in API from v1 to v2
 
-### API
+### General
 
-- `src/server` is now split into `v1` and `v2`, which have the respective
-  endpoint definitions for each API.
-- The api endpoint `/v2/glyphs` now exists and delivers glyph metadata.
-- `v2` can only receive requests for one language at a time.
+- New endpoint `/v2/glyphs` which serves sitelen pona glyph metadata
+- New endpoint `/v2/sandbox/glyphs` which serves sitelen pona sandbox glyph
+  metadata
+- Languages may only be served one at a time via a single `lang` URL parameter
 
-### API Types
+### /v1/words -> /v2/words
 
-Mostly affecting v2:
+- Translation strings are now under `translations` -> `[field]` rather than
+  `translations` -> `[langcode]` -> `[field]`
+- Key `translations` contains `definition`, `etymology`, `commentary`
+- Root key `etymology` and translation key `etymology` merged into single
+  translatable field under `translations`
+- New key `glyph_ids` which refers to all glyphs in Linku that primarily write
+  this word
+- New key `primary_glyph_id` which refers to the glyph in Linku most used to write
+  this word, such as `akesi-2` for `akesi`
+- New key `synonym_glyph_ids` which refers to any glyphs in Linku that
+  secondarily write this word, such as `lukin-1` for `oko`
 
-- The `translations` key now has static child keys for each type, rather than an
-  intermediate and variable langcode key.
-- The nightmarish `etymology` key of `words` is now a single translatable string rather than
-  two parallel arrays in two different locations.
-- `words` now have metadata indicating their corresponding glyph or glyphs:
-  `glyph_ids`, `synonym_glyph_ids`, and `primary_glyph_id`
+- Referential fields such as `see_also` can no longer refer to sandbox data
+
+### /v1/sandbox -> /v2/sandbox/words
+
+- "words" added to endpoint explicitly because there are now two sandbox data
+  types
+- All the same changes as in prior section
+
+### /v2/glyphs
+
+- Key `word` refers to the latin script word this glyph writes
+- Key `word_id` refers to a corresponding word in Linku by its id, which is
+  often the same as `word` anyway
+- Key `usage_category` functions as in `/v1/words` and `/v2/words` but is
+  provisional until a glyph survey is performed
+- Key `primary` indicates whether a glyph is primarily used to write its word;
+  must match that word's `primary_glyph_id` field
+- Key `deprecated` indicates whether a glyph is considered deprecated by its creator
+- Key `usage` functions as in `/v1/words` and `/v2/words` but has no data until
+  a glyph survey is performed
+- Key `translations` contains `etymology`, `commentary`, and an array `names`
+
+### /v2/sandbox/glyphs
+
+- "glyphs" added to endpoint explicitly because there are now two sandbox data
+  types
+- All the same info as in prior section
+
+## Changes in repo from v1 to v2
 
 ### Metadata
 
 - `api/raw` is now split into `v1` and `v2`, which have the respective packaged
   data from Linku taken from `words/`, `luka_pona/`, `fonts/`, `languages/`, and `glyphs/` for `v2`.
--
+- `sandbox` is now nested as `sandbox/words` and `sandbox/glyphs`
+- `languages` is now split among all languages rather than having a single file
 
 ### Types
 
@@ -41,6 +75,15 @@ Mostly affecting v2:
   `src/lib`.
 
 ### Supporting Scripts
+
+- New and updated scripts all in `./.github/workflows/`
+- `update_schemas.py`: Update the schemas of every outstanding toml data file so
+  they can be properly checked by taplo
+- `upsync_translations.py`: Sync keys from a source file to all translation
+  files, overwriting empty keys and removing spare keys in the destination
+- `validate_refs.py`: Check referential data in all data files to confirm
+  correctness (e.g. main data sources do not refer to sandbox)
+- `fetch_langs.py`: Now fetches individual language files
 
 ### Other
 
