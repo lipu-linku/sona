@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "mun"
 id = "MUN"
 is_two_handed = false
 new_gloss = "MUN"
 old_gloss = "MUN"
+old_id = "MUN"
 
 [[etymology]]
 language = "toki pona luka pu"

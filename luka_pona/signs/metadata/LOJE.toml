@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "loje"
 id = "LOJE"
 is_two_handed = false
 new_gloss = "LOJE"
 old_gloss = "LOJE"
+old_id = "LOJE"
 
 [[etymology]]
 language = "multiple SLs"

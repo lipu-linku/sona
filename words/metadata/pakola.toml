@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "pakola"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,13 +11,13 @@ source_language = "toki pona"
 usage_category = "obscure"
 word = "pakola"
 deprecated = false
+glyph_ids = ["pakola-1"]
+primary_glyph_id = "pakola-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pakola.mp3"
-
-[[etymology]]
-word = "pakala"
 
 [representations]
 ligatures = ["pakola"]

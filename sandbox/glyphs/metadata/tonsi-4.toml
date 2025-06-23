@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "tonsi-4"
+word = "tonsi"
+word_id = "tonsi"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1aeWNXFUOh0yEKpIjQWFCJjtdp6pIJpyy"
+svg = ""
+ligature = "tonsi#4"
+ucsur = "U+F197E"
+
+[usage]

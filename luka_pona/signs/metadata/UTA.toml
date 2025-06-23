@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "uta"
 id = "UTA"
 is_two_handed = false
 new_gloss = "UTA"
 old_gloss = "UTA"
+old_id = "UTA"
 
 [[etymology]]
 language = "multiple SLs"

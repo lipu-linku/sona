@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "monsuta"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,6 +11,9 @@ source_language = "Japanese"
 usage_category = "common"
 word = "monsuta"
 deprecated = false
+glyph_ids = ["monsuta-1"]
+primary_glyph_id = "monsuta-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
@@ -19,13 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/monsuta.mp3"
-
-[[etymology]]
-alt = "monsutā"
-word = "モンスター"
-
-[[etymology]]
-word = "monster"
 
 [ku_data]
 afraid = 27

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "apeja"
 author_verbatim = "- to single out - expose ; to reveale the guilt or wrongdoing of - to attack non-physically (verbally attack) - to expose to shame blame to fault accuse to cause to feel shame to dishonour, disgrace a painful emotion resulting from an awareness of having done something dishonourable, unworthy, degrading, etc."
 author_verbatim_source = "https://archive.is/VO3ml"
@@ -11,13 +11,13 @@ source_language = "Finnish"
 usage_category = "obscure"
 word = "apeja"
 deprecated = false
+glyph_ids = ["apeja-1"]
+primary_glyph_id = "apeja-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/apeja.mp3"
-
-[[etymology]]
-word = "häpeä"
 
 [ku_data]
 embarrassed = 27

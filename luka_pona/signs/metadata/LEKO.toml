@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "leko"
 id = "LEKO"
 is_two_handed = false
 new_gloss = "LEKO"
 old_gloss = "LEKO"
+old_id = "LEKO"
 
 [[etymology]]
 language = "a priori"

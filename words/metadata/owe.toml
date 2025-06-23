@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "owe"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,13 +11,13 @@ source_language = "English"
 usage_category = "obscure"
 word = "owe"
 deprecated = false
+glyph_ids = ["owe-1"]
+primary_glyph_id = "owe-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/owe.mp3"
-
-[[etymology]]
-word = "Orwell"
 
 [representations]
 ligatures = ["owe"]

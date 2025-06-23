@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "unu"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,13 +11,13 @@ source_language = "Malay-Indonesian"
 usage_category = "obscure"
 word = "unu"
 deprecated = false
+glyph_ids = ["unu-1"]
+primary_glyph_id = "unu-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/unu.mp3"
-
-[[etymology]]
-word = "ungu"
 
 [ku_data]
 purple = 27

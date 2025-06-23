@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "pimeja"
 id = "PIMEJA"
 is_two_handed = false
 new_gloss = "PIMEJA"
 old_gloss = "PIMEJA"
+old_id = "PIMEJA"
 
 [[etymology]]
 language = "toki pona luka pu"

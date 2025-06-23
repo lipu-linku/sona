@@ -1,111 +1,68 @@
-import {
-	CommentaryTranslation,
-	DefinitionTranslation,
-	EtymologyTranslation,
-	Fingerspelling,
-	FingerspellingSign,
-	Font,
-	Fonts,
-	IconTranslation,
-	Languages,
-	ParametersTranslation,
-	Sign,
-	Signs,
-	SitelenPonaTranslation,
-	Word,
-	Words,
-} from "../lib";
 import { Hono } from "hono";
-import type { z } from "zod";
+import type { z } from "zod/v4";
 import apiV1 from "./v1";
+import apiV2 from "./v2";
+import { config as v1config } from "./v1/index";
+import { config as v2config } from "./v2/index";
+import { mergeToKey, joinPath as join } from "./utils";
 
 export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
-
-export type ApiVersion = "v1";
-
+export type ApiVersion = "v1" | "v2";
 export type Versions = {
-	[version in ApiVersion]: {
-		branch: string;
-		schemas: Record<string, z.ZodType>;
-		raw: Record<string, { filename: `${string}.${string}`; schema: z.ZodType }>;
-	};
+  [version in ApiVersion]: Record<
+    string,
+    {
+      root: string | undefined;
+      filename: string; // `${string}.${string}`;
+      schema: z.ZodType;
+      translations: boolean | undefined;
+    }
+  >;
 };
 
 export const versions = {
-	v1: {
-		branch: __BRANCH__,
-		schemas: {
-			words: Words,
-			word: Word,
-			definition: DefinitionTranslation,
-			commentary: CommentaryTranslation,
-			etymology: EtymologyTranslation,
-			sitelen_pona: SitelenPonaTranslation,
-			signs: Signs,
-			sign: Sign,
-			fingerspelling: Fingerspelling,
-			fingerspelling_sign: FingerspellingSign,
-			sign_parameters: ParametersTranslation,
-			sign_icons: IconTranslation,
-			fonts: Fonts,
-			font: Font,
-			languages: Languages,
-		},
-		raw: {
-			words: {
-				filename: "words.json",
-				schema: Words,
-			},
-			sandbox: {
-				filename: "sandbox.json",
-				schema: Words,
-			},
-			fingerspelling: {
-				filename: "fingerspelling.json",
-				schema: Fingerspelling,
-			},
-			signs: {
-				filename: "signs.json",
-				schema: Signs,
-			},
-			fonts: {
-				filename: "fonts.json",
-				schema: Fonts,
-			},
-			languages: {
-				filename: "languages.json",
-				schema: Languages,
-			},
-		},
-	},
-} as const satisfies Versions;
+  v1: v1config,
+  v2: v2config,
+} as const;
 
 export type FilesToVariables<
-	V extends ApiVersion,
-	T extends Versions[ApiVersion]["raw"] = (typeof versions)[V]["raw"],
+  V extends ApiVersion,
+  T extends Versions[ApiVersion] = (typeof versions)[V],
 > = {
-	[K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
+  [K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
 };
 
 type Apps = {
-	[version in keyof typeof versions]: Hono<any, any, `/${version}`>;
+  [version in keyof typeof versions]: Hono<any, any, `/${version}`>;
 };
 
+// v1 just grabs the files and sends them, since the translations are packed in
+// v2 has to traverse some dirs and grab the translations separately
 export const apps = {
-	v1: apiV1,
+  v1: apiV1,
+  v2: apiV2,
 } as const satisfies Apps;
 
 export const fetchFile = async <S extends z.ZodType>(
-	version: ApiVersion,
-	schema: S,
-	filename: string,
-): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
-	schema.safeParse(
-		__BRANCH__ === versions[version].branch
-			? await import.meta
-					.glob(`../../raw/*.json`, { import: "default" })
-					[`../../raw/${filename}`]?.()
-			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
-					r.json(),
-				),
-	);
+  version: ApiVersion,
+  config: Versions[ApiVersion][string],
+  langcode: string = "en",
+): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> => {
+  const imports = import.meta.glob(`../../raw/**/*.json`);
+  const { root = "/", filename, schema, translations = false } = config;
+
+  let path = join("../../raw", version, root, filename);
+  let file = await imports[path]?.();
+  file = file.default;
+
+  // TODO: better way for caller to insert api specific behavior
+  if (version === "v2" && translations === true) {
+    let path = join("../../raw", version, root, "translations", langcode, filename);
+    let translationData = await imports[path]?.();
+    translationData = translationData.default;
+    file = mergeToKey(file, "translations", translationData);
+  }
+
+  const parsed = schema.safeParse(file); // TODO: type of file is unknown?
+  return parsed;
+};

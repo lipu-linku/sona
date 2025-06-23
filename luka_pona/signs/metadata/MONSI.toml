@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "monsi"
 id = "MONSI"
 is_two_handed = false
 new_gloss = "MONSI"
 old_gloss = "MONSI"
+old_id = "MONSI"
 
 [[etymology]]
 language = "LPSL"

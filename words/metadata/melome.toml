@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "melome"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,13 +11,13 @@ source_language = "toki pona"
 usage_category = "obscure"
 word = "melome"
 deprecated = false
+glyph_ids = ["melome-1"]
+primary_glyph_id = "melome-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/melome.mp3"
-
-[[etymology]]
-word = "meli pi olin meli"
 
 [representations]
 ligatures = ["melome"]

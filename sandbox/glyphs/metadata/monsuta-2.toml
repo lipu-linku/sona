@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "monsuta-2"
+word = "monsuta"
+word_id = "monsuta"
+usage_category = "sandbox"
+creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
+creator = ["Jack Humbert"]
+creation_date = "2020-03-09"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1RwUZ2Wj8CCYbRyQ0SC12-a5StllcXj7f"
+svg = ""
+ligature = "monsuta#2"
+ucsur = "U+F197D"
+
+[usage]

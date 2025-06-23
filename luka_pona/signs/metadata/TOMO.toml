@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "tomo"
 id = "TOMO"
 is_two_handed = true
 new_gloss = "TOMO"
 old_gloss = "TOMO"
+old_id = "TOMO"
 
 [[etymology]]
 language = "multiple SLs"

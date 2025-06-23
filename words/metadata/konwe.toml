@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "konwe"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,16 +11,13 @@ source_language = "multiple"
 usage_category = "obscure"
 word = "konwe"
 deprecated = true
+glyph_ids = ["konwe-1"]
+primary_glyph_id = "konwe-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/konwe.mp3"
-
-[[etymology]]
-word = "Conway"
-
-[[etymology]]
-word = "kon wile"
 
 [representations]
 ligatures = ["konwe"]

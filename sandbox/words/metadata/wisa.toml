@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "wisa"
+author_verbatim = "#1607635 📣 wisa – ~post-pu~ dog, canine\n    ← Amharic ውሻ wisha ‘hound, dog’"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/884684392432295998"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = []
+see_also = ["soweli", "pela"]
+source_language = ""
+usage_category = "sandbox"
+word = "wisa"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]

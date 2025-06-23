@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "unpa"
 id = "UNPA"
 is_two_handed = false
 new_gloss = "UNPA"
 old_gloss = "UNPA"
+old_id = "UNPA"
 
 [[etymology]]
 language = "LPSL"

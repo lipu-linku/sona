@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "pika-2"
+word = "pika"
+word_id = "pika"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fpRnKvu6-iJMYyNINdya4tXTTNOvTJi4"
+svg = ""
+ligature = "pika#2"
+
+[usage]

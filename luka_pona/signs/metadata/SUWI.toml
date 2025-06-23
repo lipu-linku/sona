@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "suwi"
 id = "SUWI"
 is_two_handed = false
 new_gloss = "SUWI"
 old_gloss = "SUWI"
+old_id = "SUWI"
 
 [[etymology]]
 language = "ASL"

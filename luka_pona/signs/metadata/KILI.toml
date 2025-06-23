@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "kili"
 id = "KILI"
 is_two_handed = false
 new_gloss = "KILI"
 old_gloss = "KILI"
+old_id = "KILI"
 
 [[etymology]]
 language = "multiple SLs"

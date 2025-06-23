@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "owe-2"
+word = "owe"
+word_id = "owe"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1zeBEiSFkH3wlA-4YDlSYb7HZI-ejTnbh"
+svg = ""
+ligature = "owe#2"
+
+[usage]

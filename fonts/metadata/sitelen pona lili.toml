@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen pona lili"
 creator = ["jan Melon"]
 features = ["ku suli","ASCII transcription","cartouches","",]

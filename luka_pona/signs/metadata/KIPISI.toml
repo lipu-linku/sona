@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "kipisi"
 id = "KIPISI"
 is_two_handed = false
 new_gloss = "KIPISI"
 old_gloss = "KIPISI"
+old_id = "KIPISI"
 
 [[etymology]]
 language = "multiple SLs"

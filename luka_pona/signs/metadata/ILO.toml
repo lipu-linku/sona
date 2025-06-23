@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "ilo"
 id = "ILO"
 is_two_handed = false
 new_gloss = "ILO"
 old_gloss = "ILO"
+old_id = "ILO"
 
 [[etymology]]
 language = "BSL"

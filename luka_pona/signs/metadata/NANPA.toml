@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "nanpa"
 id = "NANPA"
 is_two_handed = false
 new_gloss = "NANPA"
 old_gloss = "NANPA"
+old_id = "NANPA"
 
 [[etymology]]
 language = "LPSL"

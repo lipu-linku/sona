@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "soko"
 id = "SOKO"
 is_two_handed = true
 new_gloss = "SOKO"
 old_gloss = "SOKO"
+old_id = "SOKO"
 
 [[etymology]]
 language = "multiple SLs"

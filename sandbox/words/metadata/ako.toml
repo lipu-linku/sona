@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "ako"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["jan Epen"]
+see_also = ["a"]
+source_language = "Korean"
+usage_category = "sandbox"
+word = "ako"
+deprecated = false
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ako.mp3"
+
+[representations]
+ligatures = ["ako"]
+
+[usage]
+2022-08 = 0
+2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ako"

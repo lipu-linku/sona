@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "ni"
 id = "NI"
 is_two_handed = false
 new_gloss = "NI"
 old_gloss = "NI"
+old_id = "NI"
 
 [[etymology]]
 language = "multiple SLs"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "jaki"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,6 +11,9 @@ source_language = "English"
 usage_category = "core"
 word = "jaki"
 deprecated = false
+glyph_ids = ["jaki-1", "jaki-2"]
+primary_glyph_id = "jaki-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
@@ -19,9 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jaki.mp3"
-
-[[etymology]]
-word = "yucky"
 
 [ku_data]
 bacteria = 67

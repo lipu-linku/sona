@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "ijo"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,6 +11,9 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "ijo"
 deprecated = false
+glyph_ids = ["ijo-1"]
+primary_glyph_id = "ijo-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
@@ -19,12 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ijo.mp3"
-
-[[etymology]]
-word = "io"
-
-[[etymology]]
-word = "i-"
 
 [ku_data]
 anything = 50

@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "lipasa"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["kala Asi"]
+see_also = ["powe"]
+source_language = ""
+usage_category = "sandbox"
+word = "lipasa"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]

@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "pan"
 id = "PAN"
 is_two_handed = false
 new_gloss = "PAN"
 old_gloss = "PAN"
+old_id = "PAN"
 
 [[etymology]]
 language = "BSL"

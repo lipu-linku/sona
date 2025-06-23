@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "kulijo-4"
+word = "kulijo"
+word_id = "kulijo"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1XkAVa-izchLZRbSCX3iUBZkC6TGLTqvX"
+svg = ""
+ligature = "kulijo#4"
+
+[usage]

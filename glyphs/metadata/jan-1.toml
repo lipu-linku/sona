@@ -1,0 +1,16 @@
+#:schema ../../api/generated/v2/glyph_data.json
+id = "jan-1"
+word = "jan"
+word_id = "jan"
+usage_category = "core"
+creator_source = "lipu pu"
+creator = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/jan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/jan.svg"
+ligature = "jan#1"
+ucsur = "U+F1911"
+
+[usage]

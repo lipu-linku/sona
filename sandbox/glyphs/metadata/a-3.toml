@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "a-3"
+word = "a"
+word_id = "a"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1__AuwNWWoa-2JH2Ew7fFCnvGTa4Ghhdc"
+svg = ""
+ligature = "a#3"
+ucsur = "U+F1900"
+
+[usage]

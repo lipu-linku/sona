@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "teje"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,13 +11,13 @@ source_language = "Welsh"
 usage_category = "obscure"
 word = "teje"
 deprecated = false
+glyph_ids = ["teje-1"]
+primary_glyph_id = "teje-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/teje.mp3"
-
-[[etymology]]
-word = "de"
 
 [ku_data]
 "right (not left)" = 9

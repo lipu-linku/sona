@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "nena"
 id = "NENA"
 is_two_handed = false
 new_gloss = "NENA"
 old_gloss = "NENA"
+old_id = "NENA"
 
 [[etymology]]
 language = "a priori"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "poka"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "poka"
 deprecated = false
+glyph_ids = ["poka-1"]
+primary_glyph_id = "poka-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/poka.mp3"
-
-[[etymology]]
-alt = "бока"
-word = "boka"
 
 [ku_data]
 alongside = 25

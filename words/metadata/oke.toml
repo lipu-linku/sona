@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "oke"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -6,18 +6,18 @@ book = "ku lili"
 coined_era = "post-pu"
 coined_year = "2019"
 creator = ["unknown"]
-see_also = ["pona", "ke", "n", "a"]
+see_also = ["pona", "n", "a"]
 source_language = "English"
 usage_category = "obscure"
 word = "oke"
 deprecated = false
+glyph_ids = ["oke-3", "oke-1", "oke-2"]
+primary_glyph_id = "oke-2"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
-
-[[etymology]]
-word = "okay"
 
 [ku_data]
 OK = 10

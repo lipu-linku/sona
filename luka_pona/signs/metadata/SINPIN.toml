@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "sinpin"
 id = "SINPIN"
 is_two_handed = false
 new_gloss = "SINPIN"
 old_gloss = "SINPIN"
+old_id = "SINPIN"
 
 [[etymology]]
 language = "multiple SLs"

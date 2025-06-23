@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "akesi"
 id = "AKESI"
 is_two_handed = false
 new_gloss = "AKESI"
 old_gloss = "AKESI"
+old_id = "AKESI"
 
 [[etymology]]
 language = "BSL"

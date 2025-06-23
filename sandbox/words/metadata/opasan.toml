@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "opasan"
+author_verbatim = "opasan – ~post-pu, humorous~ talented, brilliant, incredible, amazing, show stopping, spectacular, never the same, completely not ever been done before, totally unique, very very gay, opossum"
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/813773779834503199"
+book = "none"
+coined_era = "post-pu"
+coined_year = "2021"
+creator = ["smoothied"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "opasan"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = ["opasan"]
+
+[usage]
+2022-08 = 0
+
+[resources]

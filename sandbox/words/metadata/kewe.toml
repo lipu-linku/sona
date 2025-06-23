@@ -1,0 +1,26 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "kewe"
+author_verbatim = """<:nimisin:743741432350769152> **kewe** — tritanopic color grouping, roughly seen as cyan, and roughly covers the perception of the range from green, blue, and cool violet
+<- toki pona *kule* + *sewi*"""
+author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1220437912676597861"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2024"
+creator = ["kolisin"]
+see_also = ["jelo", "laso", "loje", "sunta", "uka", "kelo"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "kewe"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = ["kewe"]
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/User:CosmicPython/Colorblindness#sunta%E2%80%93kewe_system"

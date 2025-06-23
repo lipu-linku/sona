@@ -1,0 +1,15 @@
+#:schema ../../api/generated/v2/glyph_data.json
+id = "owe-1"
+word = "owe"
+word_id = "owe"
+usage_category = "obscure"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1iSgnK--fIX0HkHWJzemLh9LXVurRlxaz"
+svg = ""
+ligature = "owe#1"
+
+[usage]

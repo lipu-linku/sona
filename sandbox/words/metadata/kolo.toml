@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "kolo"
+author_verbatim = ""
+author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2021"
+creator = ["soweli pi loje walo"]
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "kolo"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]

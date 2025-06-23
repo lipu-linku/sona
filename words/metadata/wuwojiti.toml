@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "wuwojiti"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,22 +11,13 @@ source_language = "toki pona"
 usage_category = "obscure"
 word = "wuwojiti"
 deprecated = false
+glyph_ids = ["wuwojiti-1"]
+primary_glyph_id = "wuwojiti-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wuwojiti.mp3"
-
-[[etymology]]
-word = "wu"
-
-[[etymology]]
-word = "wo"
-
-[[etymology]]
-word = "ji"
-
-[[etymology]]
-word = "ti"
 
 [representations]
 ligatures = ["wuwojiti"]

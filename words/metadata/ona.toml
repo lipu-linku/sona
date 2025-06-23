@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word_data.json
 id = "ona"
 author_verbatim = ""
 author_verbatim_source = ""
@@ -11,6 +11,9 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "ona"
 deprecated = false
+glyph_ids = ["ona-1"]
+primary_glyph_id = "ona-1"
+synonym_glyph_ids = []
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ona.mp3"
-
-[[etymology]]
-alt = "ona"
-word = "она"
 
 [ku_data]
 he = 80

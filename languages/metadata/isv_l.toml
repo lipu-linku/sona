@@ -1,0 +1,10 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "isv_l"
+locale = "isvl"
+
+[name]
+en = "Interslavic (Latin)"
+endonym = "Medžuslovjansky (latinica)"
+tok = "toki Mesulojanki (sitelen Lasina)"
+

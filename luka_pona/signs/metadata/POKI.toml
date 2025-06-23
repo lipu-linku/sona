@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "poki"
 id = "POKI"
 is_two_handed = false
 new_gloss = "POKI"
 old_gloss = "POKI"
+old_id = "POKI"
 
 [[etymology]]
 language = "a priori"

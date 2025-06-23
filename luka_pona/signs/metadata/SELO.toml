@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "selo"
 id = "SELO"
 is_two_handed = false
 new_gloss = "SELO"
 old_gloss = "SELO"
+old_id = "SELO"
 
 [[etymology]]
 language = "multiple SLs"

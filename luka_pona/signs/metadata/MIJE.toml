@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "mije"
 id = "MIJE"
 is_two_handed = false
 new_gloss = "MIJE"
 old_gloss = "MIJE"
+old_id = "MIJE"
 
 [[etymology]]
 language = "ASL"

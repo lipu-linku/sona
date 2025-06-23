@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "kute"
 id = "KUTE"
 is_two_handed = false
 new_gloss = "KUTE"
 old_gloss = "KUTE"
+old_id = "KUTE"
 
 [[etymology]]
 language = "multiple SLs"

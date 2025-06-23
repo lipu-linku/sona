@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "tan"
 id = "TAN"
 is_two_handed = false
 new_gloss = "TAN"
 old_gloss = "TAN"
+old_id = "TAN"
 
 [[etymology]]
 language = "BSL"

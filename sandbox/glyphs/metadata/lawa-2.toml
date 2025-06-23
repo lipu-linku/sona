@@ -1,0 +1,16 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "lawa-2"
+word = "lawa"
+word_id = "lawa"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fUd_l5sMlMmtpOOsblwNV5fQIb1FAofp"
+svg = ""
+ligature = "lawa#2"
+ucsur = "U+F1924"
+
+[usage]

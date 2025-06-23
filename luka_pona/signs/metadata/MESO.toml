@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "meso"
 id = "MESO"
 is_two_handed = false
 new_gloss = "MESO"
 old_gloss = "MESO"
+old_id = "MESO"
 
 [[etymology]]
 language = "a priori"

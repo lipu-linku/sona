@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "moli"
 id = "MOLI"
 is_two_handed = false
 new_gloss = "MOLI"
 old_gloss = "MOLI"
+old_id = "MOLI"
 
 [[etymology]]
 language = "a priori"

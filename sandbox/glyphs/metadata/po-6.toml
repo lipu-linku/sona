@@ -1,0 +1,15 @@
+#:schema ../../../api/generated/v2/glyph_data.json
+id = "po-6"
+word = "po"
+word_id = "po"
+usage_category = "sandbox"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1GxROEtYuBf14NX5q8quANtyUgNOuJCOS"
+svg = ""
+ligature = "po#6"
+
+[usage]

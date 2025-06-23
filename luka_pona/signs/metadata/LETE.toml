@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "lete"
 id = "LETE"
 is_two_handed = true
 new_gloss = "LETE"
 old_gloss = "LETE"
+old_id = "LETE"
 
 [[etymology]]
 language = "toki pona luka pu"

@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "mute"
 id = "MUTE"
 is_two_handed = false
 new_gloss = "MUTE"
 old_gloss = "MUTE"
+old_id = "MUTE"
 
 [[etymology]]
 language = "BSL & multiple SLs"

@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "wan"
 id = "WAN"
 is_two_handed = false
 new_gloss = "WAN"
 old_gloss = "WAN"
+old_id = "WAN"
 
 [[etymology]]
 language = "multiple SLs"

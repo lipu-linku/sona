@@ -1,24 +1,21 @@
 import json
 import os
+import sys
 import urllib.request
+from pathlib import Path
 
-import tomlkit
+from langcodes import Language, LanguageTagError
+
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
+
+from utils import deep_merge, load_languages, write_toml
 
 CROWDIN_TOKEN = os.environ["CROWDIN_TOKEN"]
 HEADERS = {"Authorization": f"Bearer {CROWDIN_TOKEN}"}
 
 CROWDIN_PROJECT = "https://linku.crowdin.com/api/v2/projects/2"
-
-
-def deep_merge(parent: dict, child: dict):
-    """Merge the keys of a child dictionary into a parent dictionary.
-    Does not overwrite existing keys on the parent."""
-    for key in child:
-        if key not in parent:
-            parent[key] = child[key]
-            continue
-        if isinstance(parent[key], dict) and isinstance(child[key], dict):
-            deep_merge(parent[key], child[key])
+LANG_DIR = Path("languages/metadata")
 
 
 def download(url: str) -> bytes:
@@ -38,33 +35,51 @@ def resolve_id(lang: dict, mappings: dict):
     return twoletter
 
 
+def fetch_endonym(lang_id: str) -> str | None:
+    try:
+        lang = Language.get(lang_id)
+        name = lang.display_name(lang_id)
+        name_en = lang.display_name("en")
+    except LanguageTagError:
+        return None
+
+    if lang.startswith("Unknown"):
+        return None
+    if name == name_en:
+        return None
+    return name
+
+
 def main():
-    with open("languages/metadata/languages.toml", "r+") as f:
-        known_langs = tomlkit.loads(f.read())
-        project_data = json.loads(download(CROWDIN_PROJECT))["data"]
-        mappings = project_data["languageMapping"]
+    known_langs = load_languages()
 
-        for lang in project_data["targetLanguages"]:
-            lang_id = resolve_id(lang, mappings)
-            filtered_lang = {
-                "id": lang_id,
-                "locale": lang["locale"],
-                "direction": lang["textDirection"],
-                "name": {  # no endonym or `tok` available, must be added later
-                    "en": lang["name"],
-                },
-            }
+    project_data = json.loads(download(CROWDIN_PROJECT))["data"]
+    mappings = project_data["languageMapping"]
 
-            if lang_id in known_langs:
-                print(f"Merging language {lang_id}")
-                deep_merge(known_langs[lang_id], filtered_lang)
-                continue
-            print(f"Adding language {lang_id}")
-            known_langs[lang_id] = filtered_lang
+    for lang in project_data["targetLanguages"]:
+        lang_id = resolve_id(lang, mappings)
+        endonym = fetch_endonym(lang_id)
+        filtered_lang = {
+            "id": lang_id,
+            "locale": lang["locale"],
+            "direction": lang["textDirection"],
+            "name": {  # `tok` not available, must be added later
+                "en": lang["name"],
+            },
+        }
+        if endonym:
+            filtered_lang["name"]["endonym"] = endonym
 
-        f.truncate(0)
-        f.seek(0)
-        f.write(tomlkit.dumps(known_langs))
+        if lang_id in known_langs:
+            print(f"Merging language {lang_id}")
+            deep_merge(known_langs[lang_id], filtered_lang)
+            continue
+        print(f"Adding language {lang_id}")
+        known_langs[lang_id] = filtered_lang
+
+    for lang_id, data in known_langs.items():
+        file = LANG_DIR / f"{lang_id}.toml"
+        write_toml(file, data)
 
 
 if __name__ == "__main__":

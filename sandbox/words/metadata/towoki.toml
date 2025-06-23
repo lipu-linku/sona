@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "towoki"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = ""
+creator = []
+see_also = []
+source_language = ""
+usage_category = "sandbox"
+word = "towoki"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 1
+
+[resources]

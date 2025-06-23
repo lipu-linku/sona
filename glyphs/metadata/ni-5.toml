@@ -1,0 +1,16 @@
+#:schema ../../api/generated/v2/glyph_data.json
+id = "ni-5"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+creator_source = ""
+creator = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=15VMK7R1sVvKttoEjbL7tmzp_lhKZWHmR"
+svg = ""
+ligature = "ni#5"
+ucsur = "U+F1941"
+
+[usage]

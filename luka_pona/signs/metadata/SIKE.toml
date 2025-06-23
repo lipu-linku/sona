@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "sike"
 id = "SIKE"
 is_two_handed = false
 new_gloss = "SIKE"
 old_gloss = "SIKE"
+old_id = "SIKE"
 
 [[etymology]]
 language = "multiple SLs"

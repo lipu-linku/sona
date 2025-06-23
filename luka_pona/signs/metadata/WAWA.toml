@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "wawa"
 id = "WAWA"
 is_two_handed = false
 new_gloss = "WAWA"
 old_gloss = "WAWA"
+old_id = "WAWA"
 
 [[etymology]]
 language = "BSL"

@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign_data.json
 definition = "moku"
 id = "MOKU"
 is_two_handed = false
 new_gloss = "MOKU"
 old_gloss = "MOKU"
+old_id = "MOKU"
 
 [[etymology]]
 language = "multiple SLs"

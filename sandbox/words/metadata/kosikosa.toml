@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word_data.json
+id = "kosikosa"
+author_verbatim = ""
+author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = "post-ku"
+coined_year = ""
+creator = []
+see_also = ["meso"]
+source_language = "French"
+usage_category = "sandbox"
+word = "kosikosa"
+deprecated = false
+audio = []
+glyph_ids = []
+primary_glyph_id = ""
+synonym_glyph_ids = []
+
+[representations]
+ligatures = ["kosikosa"]
+
+[usage]
+2023-09 = 1
+
+[resources]
