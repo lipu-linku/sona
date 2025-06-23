@@ -1,0 +1,30 @@
+id        = "sitelen luka Okisen"
+name      = "sitelen luka Okisen"
+filename  = "sitelen_luka_Okisen_tan_kon_Okisen.ttf"
+creator   = ["kon Okisen"]
+license   = "SIL Open Font License"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-05"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "character variants",
+  "SP Font Maker words v2.2",
+  "awa",
+  "eliki",
+  "isipin",
+  "usawi",
+  "wa"
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://oxygen8.neocities.org/sitelen_luka_Okisen_tan_kon_Okisen.ttf"
+webpage  = "https://oxygen8.neocities.org/sitelen_luka_Okisen"

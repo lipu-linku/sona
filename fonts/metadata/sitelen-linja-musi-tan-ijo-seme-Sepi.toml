@@ -1,7 +1,7 @@
-#:schema ../../api/generated/v2/font.json
-id        = "sitelen psyweli"
-name      = "sitelen psyweli tan ijo seme Sepi"
-filename  = "sitelen Psyweli.ttf"
+#:schema ../../api/generated/font.json
+id        = "sitelen linja musi tan ijo seme Sepi"
+name      = "sitelen linja musi tan ijo seme Sepi"
+filename  = "sitelen linja musi.ttf"
 creator   = ["ijo seme Sepi"]
 license   = "SIL Open Font License, Version 1.1"
 ligatures = true
@@ -21,4 +21,4 @@ features = [
 style = "handwritten"
 
 [links]
-fontfile = "https://raw.githubusercontent.com/yoshikagekira8/sitelen-psyweli/refs/heads/main/sitelen%20Psyweli.ttf"
+fontfile = "https://github.com/yoshikagekira8/sitelen-linja-musi/raw/refs/heads/main/sitelen%20linja%20musi.ttf"
