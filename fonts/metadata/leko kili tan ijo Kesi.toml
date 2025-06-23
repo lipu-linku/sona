@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "leko kili tan ijo Kesi"
 name      = "leko kili tan ijo Kesi"
 filename  = "leko kili tan ijo Kesi.ttf"
