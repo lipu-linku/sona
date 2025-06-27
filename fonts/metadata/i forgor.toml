@@ -13,7 +13,7 @@ features = [
   "supports all ku suli words",
 ]
 filename = "i-fogror.ttf"
-last_updated = "2025-05-01"
+last_updated = "2025-05"
 license = "CC BY"
 ligatures = true
 name = "i forgor"
