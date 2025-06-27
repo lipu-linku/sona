@@ -13,7 +13,7 @@ features = [
   "supports all ucsur words",
 ]
 filename = "interpixelia.ttf"
-last_updated = "2025-06-01"
+last_updated = "2025-06"
 license = "CC BY-SA"
 ligatures = true
 name = "Interpixelia"
