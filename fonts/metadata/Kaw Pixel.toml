@@ -13,7 +13,7 @@ features = [
   "supports all ucsur words",
 ]
 filename = "kaw-pixel.ttf"
-last_updated = "2024-12-24"
+last_updated = "2024-12"
 license = "OFL"
 ligatures = true
 name = "Kaw Pixel"
