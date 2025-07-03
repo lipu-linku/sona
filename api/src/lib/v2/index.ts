@@ -213,13 +213,13 @@ export const GlyphData = z.object({
     .min(3)
     .optional()
     .describe("The single numerical ligature used to access this specific sitelen pona glyph."),
-  alias_ligatures: z.array([
+  alias_ligatures: z.array(
     z
       .string()
       .min(2)
       .optional()
       .describe("Any secondary ligature used to access this specific sitelen pona glyph."),
-  ]),
+  ),
   ucsur: z
     .string()
     .regex(/^U\+[\da-fA-F]{4,6}$/g)
