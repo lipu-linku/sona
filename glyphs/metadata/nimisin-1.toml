@@ -11,5 +11,7 @@ deprecated = false
 image = "https://drive.google.com/open?id=1tdEThx0uC0WlgU8BcvywjLzf-7wl4Wwt"
 svg = ""
 ligature = "nimisin#1"
+alias_ligatures = []
+teachability = 4
 
 [usage]

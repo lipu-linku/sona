@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1ewy3QD80ZLZcham7xH1VdxlzrPIcEWRj"
 svg = ""
 ligature = "tenpo#2"
 ucsur = "U+F196B"
+alias_ligatures = []
+teachability = 4
 
 [usage]

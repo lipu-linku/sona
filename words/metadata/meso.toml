@@ -14,6 +14,7 @@ deprecated = false
 glyph_ids = ["meso-1", "meso-2"]
 primary_glyph_id = "meso-1"
 synonym_glyph_ids = []
+teachability = 3
 
 [[audio]]
 author = "kala Asi"

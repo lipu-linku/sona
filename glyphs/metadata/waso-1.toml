@@ -12,5 +12,7 @@ image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitel
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/waso.svg"
 ligature = "waso#1"
 ucsur = "U+F1974"
+alias_ligatures = []
+teachability = 1
 
 [usage]

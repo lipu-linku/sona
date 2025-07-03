@@ -14,6 +14,7 @@ deprecated = false
 glyph_ids = ["ni-6", "ni-1", "ni-8", "ni-2", "ni-5", "ni-4", "ni-3", "ni-7"]
 primary_glyph_id = "ni-1"
 synonym_glyph_ids = []
+teachability = 1
 
 [[audio]]
 author = "kala Asi"

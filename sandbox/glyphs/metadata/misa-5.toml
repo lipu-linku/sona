@@ -11,5 +11,7 @@ deprecated = false
 image = "https://drive.google.com/open?id=1YdwYdhDldHJYgNeetqF4FcMFDq7bzVS_"
 svg = ""
 ligature = "misa#5"
+alias_ligatures = []
+teachability = 4
 
 [usage]
