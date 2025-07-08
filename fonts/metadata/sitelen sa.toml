@@ -16,6 +16,6 @@ version = "0.2"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://jackhumbert.github.io/sitelen-sa/fonts/sitelen-sa.otf"
+fontfile = "https://jackhumbert.github.io/sitelen-sa/fonts/sitelen-pona-pona.otf"
 repo = "https://github.com/jackhumbert/sitelen-sa"
 webpage = "https://jackhumbert.github.io/sitelen-sa/"
