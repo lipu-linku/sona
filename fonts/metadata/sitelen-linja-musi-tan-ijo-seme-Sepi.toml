@@ -1,0 +1,24 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen linja musi tan ijo seme Sepi"
+name      = "sitelen linja musi tan ijo seme Sepi"
+filename  = "sitelen linja musi.ttf"
+creator   = ["ijo seme Sepi"]
+license   = "SIL Open Font License, Version 1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-02"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "character variants",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/yoshikagekira8/sitelen-linja-musi/raw/refs/heads/main/sitelen%20linja%20musi.ttf"

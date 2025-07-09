@@ -1,0 +1,26 @@
+#:schema ../../api/generated/word.json
+id = "pokasi"
+author_verbatim = """<:nimisin:743741432350769152> **pokasi** poggies, pog; an interjection of excitement; epic, cool, amazing, exciting,
+Ety{English <poggies>}
+Exmpl: kijetesantkalu kala li pokasi a"""
+author_verbatim_source = "https://discord.com/channels/301377942062366741/1181641057985908797/1231819050846392392"
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["jan Majeka"]
+see_also = ["epiku"]
+source_language = "English"
+usage_category = "sandbox"
+word = "pokasi"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "poggies"
+
+[representations]
+ligatures = [] # in some sitelen pona fonts (requested for ssk) as pokasi
+
+[usage]
+
+[resources]
