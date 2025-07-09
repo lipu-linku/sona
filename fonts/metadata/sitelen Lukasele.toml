@@ -8,7 +8,7 @@ ligatures = false
 ucsur     = true
 writing_system = "sitelen pona"
 
-last_updated = "2025-6"
+last_updated = "2025-06"
 version      = "1.011"
 
 features = [
