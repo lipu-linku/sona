@@ -1,0 +1,28 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen Lukasele"
+name      = "sitelen Lukasele"
+filename  = "sitelen Lukasele Majeka.otf"
+creator   = ["jan Majeka"]
+license   = "CC-BY-SA 4.0"
+ligatures = false
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-6"
+version      = "1.011"
+
+features = [
+  "UCSUR-compliant",
+  "cartouches",
+  "name glyphs",
+  "character variants",
+  "all ku suli and more",
+  "long pi",
+  "Zero-width joiner combinations",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/yan-Mayeka/sitelen-Lukasele-Lukazellig/raw/refs/heads/main/sitelen_Lukasele_Majeka.otf"
+repo     = "https://github.com/yan-Mayeka/sitelen-Lukasele-Lukazellig/tree/main"
