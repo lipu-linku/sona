@@ -1,0 +1,17 @@
+#:schema ../../api/generated/font.json
+id = "sitelen leko"
+creator = ["Dante DeGraff (clockwiselanguages)"]
+features = ["ASCII transcription"]
+filename = "sitelenko.otf"
+last_updated = "2025-07"
+license = "OFL"
+ligatures = true
+name = "Sitelen Ko"
+style = "handdrawn"
+ucsur = false
+version = "1.0"
+writing_system = "logography"
+
+[links]
+fontfile = "https://github.com/ClockWise3411/sitelen-leko/raw/refs/heads/main/sitelen.leko.otf"
+repo = "https://github.com/ClockWise3411/sitelen-leko"
