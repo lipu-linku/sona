@@ -6,7 +6,7 @@ creator   = ["jan lili Enta"]
 license   = "CC0-1.0"
 ligatures = true
 ucsur     = true
-writing_system = "sitelen pona"
+writing_system = "tokiponido logography"
 
 last_updated = "2025-06"
 version      = "1"
