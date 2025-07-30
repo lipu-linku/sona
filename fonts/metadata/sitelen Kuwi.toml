@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id = "sitelen leko"
+id = "sitelen Kuwi"
 creator = ["Dante DeGraff (clockwiselanguages)"]
 features = ["ASCII transcription"]
-filename = "sitelenko.otf"
+filename = "sitelen-Kuwi.otf"
 last_updated = "2025-07"
 license = "OFL"
 ligatures = true
@@ -13,5 +13,5 @@ version = "1.0"
 writing_system = "logography"
 
 [links]
-fontfile = "https://github.com/ClockWise3411/sitelen-leko/raw/refs/heads/main/sitelen.leko.otf"
+fontfile = "https://github.com/ClockWise3411/sitelen-leko/raw/refs/heads/main/sitelen.Kuwi.otf"
 repo = "https://github.com/ClockWise3411/sitelen-leko"
