@@ -9,7 +9,7 @@ ucsur     = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-07"
-version      = "1.1"
+version      = "1.2"
 
 features = [
   "ASCII transcription and codepoints",
@@ -27,7 +27,7 @@ features = [
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
-  # "long pi",
+  "long pi",
   # "randomized jaki",
   # "ZWJ sequences",
   # "tuki tiki",

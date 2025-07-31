@@ -7,16 +7,16 @@ features = [
   "supports ku suli and the rest of the UCSUR characters",
 ]
 filename = "sevenishsp.ttf"
-last_updated = "2023-03"
+last_updated = "2025-02"
 license = "MIT"
 ligatures = true
 name = "Sevenish SP"
 style = "pixelated"
 ucsur = true
-version = "1.0"
+version = "202502"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://saucedlx.neocities.org/SevenishSP.ttf"
+fontfile = "https://github.com/SauceDLX/Sevenish/raw/main/SevenishSP.ttf"
 repo = "https://github.com/SauceDLX/Sevenish"
 webpage = "https://saucedlx.neocities.org/sevenish"
