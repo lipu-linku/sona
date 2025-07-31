@@ -1,0 +1,51 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen pi pakala Mapuju"
+name      = "sitelen pi pakala Mapuju"
+filename  = "sitelen pi pakala Mapuju.ttf"
+creator   = ["pakala Mapuju"]
+license   = "OFL-1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2025-07"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "SP Font Maker words v2.2",        # unless they didn't fill out all the words
+
+  # "incomplete",
+  # "variable weight",
+  # "name glyphs",
+  "character variants",
+  # "Linku common & uncommon 2024"   # nimisin
+  # "all ku suli",                   # kokosila
+  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "community requested nimisin",
+
+  # Not implemented in SP Font Maker:
+  # "long pi",
+  # "randomized jaki",
+  # "ZWJ sequences",
+  # "tuki tiki",
+]
+
+# Pick one style, or put multiple comma-separated styles in quotes.
+style = "handwritten"
+# style = "alternate design"
+# style = "uniform line weight"
+# style = "pixelated"
+# style = "handdrawn"
+# style = "serif"
+# style = "sans-serif"
+# style = "faux 3d"
+# style = "unspecified"
+
+[links]
+# Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pi%20pakala%20Mapuju.ttf"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-pakala-Mapuju.html"
