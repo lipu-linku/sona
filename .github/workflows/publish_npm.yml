@@ -36,7 +36,7 @@ jobs:
           version: 9
 
       - name: Install jq
-        uses: dcarbone/install-jq-action@v3.0.1
+        uses: dcarbone/install-jq-action@v3.2.0
 
       - name: Update package.json
         if: github.event_name == 'release'
