@@ -1,28 +1,30 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen Kima"
-name      = "sitelen Kima"
-filename  = "sitelen-Kima.ttf"
-creator   = ["jan lili Enta"]
-license   = "CC0-1.0"
+id        = "sitelen sitelen open"
+name      = "sitelen sitelen open"
+filename  = "sitelen-sitelen-open.ttf"
+creator   = ["jan lili Enta","jan Josan"]
+license   = "CC BY 4.0"
 ligatures = true
 ucsur     = true
-writing_system = "logography"
+writing_system = "sitelen sitelen" # must be one of the following: 
+                                # "sitelen pona","sitelen sitelen","alphabet","syllabary","logography",
+                                # "tokiponido alphabet","tokiponido syllabary","tokiponido logography"
 
-last_updated = "2025-06"
+last_updated = "2025-07"
 version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
-  "SP Font Maker words v2.2",        # unless they didn't fill out all the words
+  #"SP Font Maker words v2.2",        # unless they didn't fill out all the words
 
   # "incomplete",
   # "variable weight",
   # "name glyphs",
   # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
-  # "all ku suli",                   # kokosila
+  "all ku suli",                   
   # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
@@ -46,6 +48,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-Kima.ttf"
-repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
-webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-Kima.html"
+# fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
+# repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
+# webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
