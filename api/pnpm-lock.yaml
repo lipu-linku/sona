@@ -16,7 +16,7 @@ importers:
         version: 0.18.0(hono@4.6.16)(miniflare@3.20240806.1)
       '@hono/zod-validator':
         specifier: ^0.4.0
-        version: 0.4.2(hono@4.6.16)(zod@3.24.1)
+        version: 0.4.2(hono@4.6.16)(zod@4.0.16)
       hono:
         specifier: ^4.3.0
         version: 4.6.16
@@ -24,11 +24,11 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       zod:
-        specifier: ^3.23.6
-        version: 3.24.1
+        specifier: ^4.0.0
+        version: 4.0.16
       zod-validation-error:
         specifier: ^3.2.0
-        version: 3.4.0(zod@3.24.1)
+        version: 3.4.0(zod@4.0.16)
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
@@ -50,7 +50,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.29.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(tsx@4.19.2))
       zod-to-json-schema:
         specifier: ^3.23.0
-        version: 3.24.1(zod@3.24.1)
+        version: 3.24.1(zod@4.0.16)
 
 packages:
 
@@ -1047,6 +1047,9 @@ packages:
   zod@3.24.1:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
+  zod@4.0.16:
+    resolution: {integrity: sha512-Djo/cM339grjI7/HmN+ixYO2FzEMcWr/On50UlQ/RjrWK1I/hPpWhpC76heCptnRFpH0LMwrEbUY50HDc0V8wg==}
+
 snapshots:
 
   '@babel/helper-string-parser@7.25.9': {}
@@ -1246,10 +1249,10 @@ snapshots:
     optionalDependencies:
       miniflare: 3.20240806.1
 
-  '@hono/zod-validator@0.4.2(hono@4.6.16)(zod@3.24.1)':
+  '@hono/zod-validator@0.4.2(hono@4.6.16)(zod@4.0.16)':
     dependencies:
       hono: 4.6.16
-      zod: 3.24.1
+      zod: 4.0.16
 
   '@jridgewell/resolve-uri@3.1.2':
     optional: true
@@ -1877,12 +1880,15 @@ snapshots:
       stacktracey: 2.1.8
     optional: true
 
-  zod-to-json-schema@3.24.1(zod@3.24.1):
+  zod-to-json-schema@3.24.1(zod@4.0.16):
     dependencies:
-      zod: 3.24.1
+      zod: 4.0.16
 
-  zod-validation-error@3.4.0(zod@3.24.1):
+  zod-validation-error@3.4.0(zod@4.0.16):
     dependencies:
-      zod: 3.24.1
+      zod: 4.0.16
 
-  zod@3.24.1: {}
+  zod@3.24.1:
+    optional: true
+
+  zod@4.0.16: {}
