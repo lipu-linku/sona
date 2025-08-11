@@ -14,7 +14,10 @@ features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
-  "SP Font Maker words v2.2"
+  "SP Font Maker words v2.2",
+  "name glyphs",
+  "character variants",
+  "Linku common & uncommon 2024",
 ]
 
 style = "handwritten"
