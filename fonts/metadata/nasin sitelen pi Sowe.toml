@@ -1,0 +1,28 @@
+#:schema ../../api/generated/font.json
+id        = "nasin sitelen pi Sowe"
+name      = "nasin sitelen pi Sowe"
+filename  = "nasin sitelen pi Sowe.ttf"
+creator   = ["jan Pisowe (Thecoolcats)"]
+license   = "OFL-1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona"
+last_updated = "2025-08"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  "SP Font Maker words v2.2",
+  "name glyphs",
+  "character variants",
+  "Linku common & uncommon 2024",
+]
+
+style = "handwritten"
+
+[links]
+fontfile = "https://github.com/Belu-cat/nasin-sitelen-luka-pi-Sowe/raw/main/nasin%20sitelen%20pi%20Sowe.ttf"
+repo     = "https://github.com/Belu-cat/nasin-sitelen-luka-pi-Sowe"
+webpage  = "https://kijetesantakalu.org/nasin-sitelen-pi-Sowe.html"
