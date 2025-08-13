@@ -8,8 +8,8 @@ handshape = "supa"
 placement = "luka li lon nena pi poka sijelo"
 
 [ALASA-1]
-handshape = "1"
-movement = "movement outwards"
+handshape = "wan"
+movement = "luka li tawa weka"
 
 [ALASA-2]
 handshape = "wan"
@@ -23,14 +23,6 @@ movement = "luka li tawa sike sewi"
 handshape = "telo"
 movement = "luka li tawa sike sewi"
 
-[ANTE-KIWEN]
-handshape = "OpenA"
-movement = "palm flip up"
-
-[ANTE-KIWEN-2]
-handshape = "OpenA"
-movement = "palm flip up"
-
 [ANPA-LON]
 handshape = "tawa"
 orientation = "palisa luka li lon anpa"
@@ -38,6 +30,14 @@ orientation = "palisa luka li lon anpa"
 [ANPA-TAWA]
 handshape = "nena"
 movement = "luka li tawa anpa"
+
+[ANTE-KIWEN]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa sewi"
+
+[ANTE-KIWEN-2]
+handshape = "kiwen"
+movement = "o ante e sinpin luka tawa sewi"
 
 [ANTE-WAN]
 handshape = "wan"
@@ -52,9 +52,9 @@ handshape = "tawa"
 movement = "o ante e sinpin luka tawa sewi"
 
 [AWEN-AWEN]
-handshape = "BentB"
+handshape = "nena"
 orientation = "palm placed inward"
-placement = "placed on shoulder"
+placement = "luka li lon nena pi poka sijelo"
 
 [AWEN-TAWA]
 handshape = "nena"
@@ -66,9 +66,9 @@ handshape = "tawa"
 movement = "o ante e sinpin luka tawa anpa"
 
 [ESUN-1]
-handshape = "BentB"
-movement = "horizontal circle movement"
-orientation = "palm facing up"
+handshape = "nena"
+movement = "luka li tawa sike supa"
+orientation = "sinpin luka li lon sewi"
 
 [ESUN-2]
 handshape = "nena"
@@ -76,8 +76,8 @@ movement = "luka li tawa sike supa"
 orientation = "sinpin luka li lon sewi"
 
 [IJO-LUKA]
-handshape = "1"
-placement = "placed on opposite hand"
+handshape = "wan"
+placement = "luka li lon luka"
 
 [IJO-NENA]
 handshape = "wan"
@@ -98,15 +98,15 @@ placement = "luka li lon sijelo"
 [JAKI]
 handshape = "kiwen"
 orientation = "sinpin luka li lon weka"
-placement = "placed on eyes"
+placement = "luka li lon oko"
 
 [JAN-LA]
 handshape = "tawa"
-movement = "sinpin luka li lon anpa; luka li tawa anpa"
-orientation = "palm facing down"
+movement = "luka li tawa anpa"
+orientation = "sinpin luka li lon anpa"
 
 [JAN-WAN]
-handshape = "wan"
+handshape = "tu"
 movement = "luka li tawa anpa"
 orientation = "palisa luka li lon sewi"
 
@@ -138,8 +138,8 @@ handshape = "telo"
 orientation = "sinpin luka li lon insa"
 
 [KEN-1]
-handshape = "OpenA"
-movement = "movement downward"
+handshape = "kiwen"
+movement = "luka li tawa anpa"
 
 [KEN-2]
 handshape = "kiwen"
@@ -175,8 +175,8 @@ handshape = "kiwen"
 orientation = "sinpin luka li lon anpa"
 
 [KO-1]
-handshape = "BentB"
-movement = "verticle circle movement"
+handshape = "nena"
+movement = "luka li tawa sike sewi"
 
 [KO-2]
 handshape = "nena"
@@ -212,7 +212,7 @@ movement = "o tawa sewi lili e luka"
 
 [LAPE]
 handshape = "supa"
-placement = "luka li lon poka lawa"
+movement = "luka li lon poka lawa"
 
 [LASO]
 handshape = "lili"
@@ -227,19 +227,19 @@ handshape = "nena"
 orientation = "sinpin luka li lon poka"
 
 [LEN-INSA]
-handshape = "BentB"
+handshape = "nena"
 
 [LEN-INSA-2]
-handshape = "BentB"
+handshape = "nena"
 
 [LEN-INSA-TAWA]
-handshape = "BentB"
+handshape = "nena"
 
 [LEN-POKA]
-handshape = "BentB"
+handshape = "nena"
 
 [LEN-POKA-TAWA]
-handshape = "BentB"
+handshape = "nena"
 
 [LEN-POKA-TAWA-2]
 handshape = "nena"
@@ -251,28 +251,28 @@ handshape = "lili"
 placement = "luka li lon luka"
 
 [LILI-TU]
-handshape = "2"
-orientation = "movement downward"
+handshape = "tu"
+orientation = "luka li tawa anpa"
 
 [LILI-TU-2]
-handshape = "2"
-orientation = "movement downward"
+handshape = "tu"
+orientation = "luka li tawa anpa"
 
 [LILI-PIPI]
 handshape = "lili"
 orientation = "sinpin luka li lon weka"
 
 [LILI-SUPA]
-handshape = "FlatB"
-orientation = "movement downward"
+handshape = "supa"
+orientation = "luka li tawa anpa"
 
 [LILI-SUPA-2]
-handshape = "FlatB"
-orientation = "movement downward"
+handshape = "supa"
+orientation = "luka li tawa anpa"
 
 [LINJA-1]
-handshape = "9"
-movement = "movement sideways"
+handshape = "lili"
+movement = "luka li tawa poka"
 
 [LINJA-2]
 handshape = "lili"
@@ -288,8 +288,8 @@ orientation = "sinpin luka li lon poka"
 placement = "luka li lon uta"
 
 [LON-IJO]
-handshape = "1"
-movement = "fingers flick down"
+handshape = "wan"
+movement = "o tawa anpa lili e luka"
 
 [LON-LA]
 handshape = "tawa"
@@ -301,7 +301,10 @@ orientation = "sinpin luka li lon weka"
 
 [LUKIN-E]
 handshape = "tu"
-orientation = "palisa luka li lon weka,\npalisa luka li lon insa,\npalisa luka li lon poka"
+orientation = """
+palisa luka li lon weka,
+palisa luka li lon insa,
+palisa luka li lon poka"""
 
 [LUKIN-ISIPIN]
 handshape = "wan"
@@ -321,7 +324,7 @@ orientation = "sinpin luka li lon poka"
 
 [MA]
 handshape = "supa"
-movement = "luka li tawa sike sewi"
+movement = "luka li tawa sike supa"
 
 [MAMA-INSA]
 handshape = "tu"
@@ -333,8 +336,8 @@ movement = "luka li tawa wawa"
 placement = "luka li lon luka"
 
 [MANI-1]
-handshape = "1"
-placement = "placed beside head"
+handshape = "wan"
+placement = "luka li lon poka lawa"
 
 [MANI-2]
 handshape = "wan"
@@ -380,12 +383,12 @@ orientation = "sinpin luka li lon insa"
 
 [MONSUTA-1]
 handshape = "telo"
-movement = "luka li tawa insa"
-orientation = "sinpin luka li lon insa"
+movement = "luka li tawa jan"
+orientation = "sinpin luka li lon anpa"
 
 [MONSUTA-2]
 handshape = "telo"
-movement = "luka li tawa insa"
+movement = "luka li tawa jan"
 orientation = "sinpin luka li lon anpa"
 
 [MU-UTA]
@@ -445,8 +448,8 @@ handshape = "wan"
 orientation = "palisa luka li lon poka"
 
 [OPEN-1]
-handshape = "FlatB"
-movement = "palm flip up"
+handshape = "supa"
+movement = "o ante e sinpin luka tawa sewi"
 
 [OPEN-2]
 handshape = "supa"
@@ -484,7 +487,10 @@ placement = "luka li lon uta"
 
 [PANA-LANPAN]
 handshape = "nena"
-movement = "luka li tawa weka,\nluka li tawa insa,\nluka li tawa poka,"
+movement = """
+luka li tawa weka,
+luka li tawa insa,
+luka li tawa poka,"""
 
 [PI]
 handshape = "lili"
@@ -496,11 +502,11 @@ placement = "luka li lon sijelo"
 
 [PIMEJA]
 handshape = "lili"
-movement = "luka li lon nena pi poka sijelo"
+placement = "luka li lon nena pi poka sijelo"
 
 [PINI-1]
-handshape = "FlatB"
-movement = "palm flip down"
+handshape = "supa"
+movement = "o ante e sinpin luka tawa anpa"
 
 [PINI-2]
 handshape = "supa"
@@ -512,15 +518,15 @@ movement = "luka li tawa wawa"
 
 [POKA]
 handshape = "tawa"
-orientation = "palisa luka li lon poka"
+movement = "palisa luka li lon poka"
 
 [POKI]
 handshape = "sike"
-orientation = "sinpin luka li lon poka"
+movement = "sinpin luka li lon poka"
 
 [PONA]
 handshape = "kiwen"
-orientation = "sinpin luka li lon insa"
+movement = "sinpin luka li lon insa"
 
 [SAMA-KIWEN]
 handshape = "kiwen"
@@ -539,8 +545,8 @@ handshape = "wan"
 movement = "o ante e sinpin luka tawa anpa"
 
 [SELI-1]
-handshape = "5"
-placement = "placed on shoulder"
+handshape = "telo"
+placement = "luka li lon nena pi poka sijelo"
 
 [SELI-2]
 handshape = "telo"
@@ -548,7 +554,7 @@ placement = "luka li lon nena pi poka sijelo"
 
 [SELO]
 handshape = "sike"
-placement = "luka li lon luka"
+movement = "luka li lon luka"
 
 [SEME-SUPA-1]
 handshape = "supa"
@@ -588,10 +594,10 @@ handshape = "sike"
 movement = "luka li tawa sike sewi"
 
 [SIN-JO-MONSI]
-handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing in"
-placement = "placed on opposite hand"
+handshape = "supa"
+movement = "luka li tawa sewi"
+orientation = "sinpin luka li lon insa"
+placement = "luka li lon luka"
 
 [SIN-JO-SINPIN]
 handshape = "supa"
@@ -624,13 +630,13 @@ handshape = "lili"
 movement = "luka li tawa sike sewi"
 
 [SOKO]
-handshape = "1"
-orientation = "finger pointing up"
+handshape = "wan"
+orientation = "palisa luka li lon sewi"
 placement = "below other hand"
 
 [SONA-ISIPIN]
 handshape = "wan"
-orientation = "sinpin luka li lon sewi"
+orientation = "palisa luka li lon sewi"
 placement = "luka li lon poka lawa"
 
 [SONA-JO]
@@ -668,7 +674,7 @@ orientation = "sinpin luka li lon anpa"
 
 [SUWI]
 handshape = "tu"
-movement = "luka li lon uta"
+placement = "luka li lon uta"
 
 [TAN]
 handshape = "telo"
@@ -680,7 +686,10 @@ movement = "o tawa sewi lili e luka"
 
 [TAWA-KAMA]
 handshape = "tawa"
-movement = "luka li tawa weka,\nluka li tawa jan,\nluka li tawa poka,"
+movement = """
+luka li tawa weka,
+luka li tawa insa,
+luka li tawa poka,"""
 
 [TELO]
 handshape = "telo"
@@ -696,7 +705,7 @@ placement = "luka li lon luka"
 
 [TENPO-PALISA-LAWA]
 handshape = "tu"
-placement = "luka li lon nena pi poka sijelo"
+placement = "luka li lon palisa lawa"
 
 [TOKI-1]
 handshape = "supa"
@@ -708,7 +717,7 @@ movement = "luka li tawa sike sewi"
 
 [TOMO]
 handshape = "nena"
-movement = "luka li tawa poka"
+orientation = "sinpin luka li lon poka"
 
 [TONSI]
 handshape = "tawa"
@@ -716,12 +725,12 @@ placement = "luka li lon poka lawa"
 
 [TU]
 handshape = "tu"
-orientation = "sinpin luka li tawa insa"
+orientation = "sinpin luka li lon insa"
 
 [UNPA]
-handshape = "V"
-movement = "fingers flick down"
-orientation = "finger pointing up"
+handshape = "tu"
+movement = "o tawa anpa lili e luka"
+orientation = "palisa luka li lon sewi"
 
 [UTA]
 handshape = "wan"
@@ -729,7 +738,10 @@ placement = "luka li lon uta"
 
 [UTALA]
 handshape = "kiwen"
-movement = "luka li tawa weka,\nluka li tawa jan,\nluka li tawa poka,"
+movement = """
+luka li tawa weka,
+luka li tawa insa,
+luka li tawa poka,"""
 
 [WALO]
 handshape = "lili"
@@ -758,7 +770,7 @@ movement = "o tawa sewi lili e luka"
 
 [WILE-LUKA-OPEN]
 handshape = "telo"
-movement = "luka li tawa insa"
+movement = "luka li tawa jan"
 
 [WILE-LUPA]
 handshape = "sike"
@@ -766,4 +778,4 @@ placement = "luka li lon sijelo"
 
 [WILE-OPEN-2]
 handshape = "telo"
-movement = "luka li tawa insa"
+movement = "luka li tawa jan"

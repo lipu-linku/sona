@@ -111,11 +111,11 @@ orientation = "palm outwards"
 
 [U-2]
 handshape = "1 + 5"
-placement = "touch the pinkie finger"
+placement = "rör lillfingret"
 
 [W-1]
 handshape = "2"
-movement = "verticle circle movement"
+movement = "vertikal cirkelrörelse"
 orientation = "palm outwards"
 
 [W-2]
