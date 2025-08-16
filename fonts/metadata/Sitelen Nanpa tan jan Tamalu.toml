@@ -1,6 +1,6 @@
 #:schema ../../api/generated/font.json
-id        = "Nasin Nanpa"
-name      = "Nasin Nanpa"
+id        = "Sitelen Nanpa tan jan Tamalu"
+name      = "Sitelen Nanpa tan jan Tamalu"
 filename  = "Sitelen-Nanpa-tan-jan-Tamalu.ttf"
 creator   = ["jan Tamalu"]
 license   = "CC0-1.0"
@@ -48,5 +48,6 @@ style = "handwritten"
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/Sitelen-Nanpa-tan-jan-Tamalu.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/Nasin-Nanpa.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/Sitelen-Nanpa-tan-jan-Tamalu.html"
+
 
