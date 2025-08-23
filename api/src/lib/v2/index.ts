@@ -92,6 +92,13 @@ export const WordData = z
     usage_category: UsageCategory.describe(
       "The word's usage category, according to a survey performed by the Linku Project",
     ),
+    teachability: z
+      .number()
+      .min(1)
+      .max(4)
+      .describe(
+        "The tier of teachability for this word, as defined by the Sitelen Pona Publishers and Typographers Association.",
+      ),
     word: z
       .string()
       .describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
@@ -100,9 +107,7 @@ export const WordData = z
       z
         .object({
           author: z.string().describe("The author of the audio file in `link`."),
-          link: z
-            .url()
-            .describe("A link to the audio file for the word, pronounced by `author`."),
+          link: z.url().describe("A link to the audio file for the word, pronounced by `author`."),
         })
         .describe("Audio files of the words pronounced out loud"),
     ),
@@ -173,6 +178,13 @@ export const GlyphData = z
     word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
     word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
     usage_category: UsageCategory,
+    teachability: z
+      .number()
+      .min(1)
+      .max(4)
+      .describe(
+        "The tier of teachability for this glyph, as defined by the Sitelen Pona Publishers and Typographers Association.",
+      ),
     creator_source: z
       .string()
       .optional()
@@ -188,13 +200,20 @@ export const GlyphData = z
     // image/svg are expected to be URLs but are nullable in sandbox
     // they are not nullable in non-sandbox... probably?
     // and jsonschema can't use contextual definitions or ||
-    image: z.url().or(z.literal("")).describe("A URL to an image of the sitelen pona glyph."),
-    svg: z.url().or(z.literal("")).describe("A URL to an SVG of the sitelen pona glyph."),
+    image: z.string().describe("A URL to an image of the sitelen pona glyph."),
+    svg: z.string().describe("A URL to an SVG of the sitelen pona glyph."),
     ligature: z
       .string()
       .min(3)
       .optional()
-      .describe("The ligature used to access this specific sitelen pona glyph."),
+      .describe("The single numerical ligature used to access this specific sitelen pona glyph."),
+    alias_ligatures: z.array(
+      z
+        .string()
+        .min(2)
+        .optional()
+        .describe("Any secondary ligature used to access this specific sitelen pona glyph."),
+    ),
     ucsur: z
       .string()
       .regex(/^U\+[\da-fA-F]{4,6}$/g)

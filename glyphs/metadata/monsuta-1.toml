@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=13X1ug_SetcV4uNHrE-zVeUisQNU7SL3b"
 svg = ""
 ligature = "monsuta#1"
 ucsur = "U+F197D"
+alias_ligatures = []
+teachability = 1
 
 [usage]

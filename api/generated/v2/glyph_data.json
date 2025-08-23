@@ -25,6 +25,12 @@
         "sandbox"
       ]
     },
+    "teachability": {
+      "description": "The tier of teachability for this glyph, as defined by the Sitelen Pona Publishers and Typographers Association.",
+      "type": "number",
+      "minimum": 1,
+      "maximum": 4
+    },
     "creator_source": {
       "description": "The source, usually a URL, where the glyph was coined.",
       "type": "string"
@@ -58,9 +64,17 @@
       "type": "string"
     },
     "ligature": {
-      "description": "The ligature used to access this specific sitelen pona glyph.",
+      "description": "The single numerical ligature used to access this specific sitelen pona glyph.",
       "type": "string",
       "minLength": 3
+    },
+    "alias_ligatures": {
+      "type": "array",
+      "items": {
+        "description": "Any secondary ligature used to access this specific sitelen pona glyph.",
+        "type": "string",
+        "minLength": 2
+      }
     },
     "ucsur": {
       "description": "The UCSUR codepoint used to access this specific sitelen pona glyph.",
@@ -86,12 +100,14 @@
     "word",
     "word_id",
     "usage_category",
+    "teachability",
     "creator",
     "creation_date",
     "primary",
     "deprecated",
     "image",
     "svg",
+    "alias_ligatures",
     "usage"
   ],
   "additionalProperties": false,

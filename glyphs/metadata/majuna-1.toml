@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1B4FaeVim3X266ZRGVb3fHrxL60eXA5Xp"
 svg = ""
 ligature = "majuna#1"
 ucsur = "U+F19A2"
+alias_ligatures = []
+teachability = 4
 
 [usage]

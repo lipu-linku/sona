@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "linja li nja tan jan Jami"
-name      = "linja li nja tan jan Jami"
-filename  = "linja li nja tan jan Jami.ttf"
-creator   = ["jan Jami"]
-license   = "OFL-1.1"
+id = "linja li nja tan jan Jami"
+name = "linja li nja tan jan Jami"
+filename = "linja li nja tan jan Jami.ttf"
+creator = ["jan Jami"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,5 +22,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja%20li%20nja%20tan%20jan%20Jami.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/linja-li-nja-tan-jan-Jami.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/linja-li-nja-tan-jan-Jami.html"

@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1kQ_XShBz0yzgwVk9-RpuZfacm0f0eZf8"
 svg = ""
 ligature = "sinpin#2"
 ucsur = "U+F195F"
+alias_ligatures = []
+teachability = 4
 
 [usage]

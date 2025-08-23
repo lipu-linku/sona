@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1TdIKIom-1v8cYGOy99jZawzZrQAUE2Bf"
 svg = ""
 ligature = "lanpan#4"
 ucsur = "U+F1985"
+alias_ligatures = []
+teachability = 4
 
 [usage]

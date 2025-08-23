@@ -147,6 +147,12 @@
           "sandbox"
         ]
       },
+      "teachability": {
+        "description": "The tier of teachability for this word, as defined by the Sitelen Pona Publishers and Typographers Association.",
+        "type": "number",
+        "minimum": 1,
+        "maximum": 4
+      },
       "word": {
         "description": "The word's actual text, in case of a word with multiple definitions (like \"we\")",
         "type": "string"
@@ -276,6 +282,7 @@
       "representations",
       "source_language",
       "usage_category",
+      "teachability",
       "word",
       "deprecated",
       "audio",

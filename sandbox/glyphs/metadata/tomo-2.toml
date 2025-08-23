@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1PDPIr6gZPUV8PR91z_vmagU-YCiH5Ako"
 svg = ""
 ligature = "tomo#2"
 ucsur = "U+F196D"
+alias_ligatures = []
+teachability = 4
 
 [usage]

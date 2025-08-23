@@ -11,5 +11,7 @@ deprecated = false
 image = "https://drive.google.com/open?id=1Bl9lt9JSMf9lRqTYGAjFpRsrWGjhMZlQ"
 svg = ""
 ligature = "melome#1"
+alias_ligatures = []
+teachability = 4
 
 [usage]

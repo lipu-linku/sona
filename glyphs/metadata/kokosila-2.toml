@@ -12,5 +12,7 @@ image = "https://drive.google.com/open?id=1qbLxwympFcyMAeP57qeezQFgeGpoNnmb"
 svg = ""
 ligature = "kokosila#2"
 ucsur = "U+F1984"
+alias_ligatures = []
+teachability = 4
 
 [usage]

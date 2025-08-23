@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "leko majuna sin"
-name      = "leko majuna sin"
-filename  = "leko majuna sin.ttf"
-creator   = ["waso Keli"]
-license   = "OFL-1.1"
+id = "leko majuna sin"
+name = "leko majuna sin"
+filename = "leko majuna sin.ttf"
+creator = ["waso Keli"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-12"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -20,7 +20,7 @@ features = [
   # "variable weight",
   "name glyphs",
   # "character variants",
-  "all ku suli",                   # kokosila
+  "all ku suli", # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
@@ -45,5 +45,5 @@ style = "pixelated"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate. But you can make them accurate, with a GitHub pull request!
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/leko%20majuna%20sin.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/leko-majuna-sin.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/leko-majuna-sin.html"
