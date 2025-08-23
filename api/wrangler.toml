@@ -1,2 +1,4 @@
-compatibility_flags = [ "nodejs_compat" ]
+name = "sona-api"
+compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2025-08-23"
+main = "./src/server/index.ts"

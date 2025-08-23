@@ -40,13 +40,15 @@
   },
   "devDependencies": {
     "@hono/vite-build": "^1.7.0",
+    "@cloudflare/vite-plugin": "1.11.7",
     "@hono/vite-dev-server": "^0.20.1",
     "@types/node": "^24.3.0",
     "prettier": "^3.6.2",
     "tsdown": "^0.14.1",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2",
-    "vite": "npm:rolldown-vite@^7.1.4"
+    "vite": "npm:rolldown-vite@^7.1.4",
+    "wrangler": "4.32.0"
   },
   "engines": {
     "pnpm": ">=10"
