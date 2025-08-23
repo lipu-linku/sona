@@ -1,12 +1,11 @@
 import { Fingerspelling, Fonts, Languages, Signs, Words } from "../../lib/v1/";
 import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
-import { fetchFile, type FilesToVariables, type ApiVersion } from "../versioning";
+import { fetchFile, type FilesToVariables, type ApiVersion, type ApiConfig } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod/v4";
-import { fromZodError } from "zod-validation-error";
 
 const API_VERSION: ApiVersion = "v1";
 export const config = {
@@ -34,14 +33,14 @@ export const config = {
     filename: "languages.json",
     schema: Languages,
   },
-};
+} as const;
 
 const rawData = PLazy.from(async () => {
   const res: Record<string, unknown> = {};
 
   for (const key of keys(config)) {
     const file = await fetchFile(API_VERSION, config[key]);
-    if (!file.success) throw new HTTPException(500, { message: fromZodError(file.error).message });
+    if (!file.success) throw new HTTPException(500, { message: z.prettifyError(file.error) });
 
     res[key] = file.data;
   }

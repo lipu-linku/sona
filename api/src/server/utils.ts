@@ -1,4 +1,5 @@
-import type { Languages } from "../lib/v2";
+import type { Languages as LangsV2 } from "../lib/v2";
+import type { Languages as LangsV1 } from "../lib/v1";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod/v4";
 
@@ -21,7 +22,7 @@ export const filterObject = <const T extends object>(
   return Object.fromEntries(entries(o).filter(([key, value]) => predicate([key, value])));
 };
 
-export const langIdCoalesce = (lang: string, langs: Languages): string | undefined => {
+export const langIdCoalesce = (lang: string, langs: LangsV1 | LangsV2): string | undefined => {
   //  lang is the langcode
   if (lang in langs) {
     return lang;
@@ -34,7 +35,7 @@ export const langIdCoalesce = (lang: string, langs: Languages): string | undefin
     }
 
     for (const [key, name] of Object.entries(metadata.name)) {
-      if (lang.toLowerCase() === name.toLowerCase()) {
+      if (lang.toLowerCase() === name?.toLowerCase()) {
         return id;
       }
     }
@@ -62,7 +63,11 @@ export function joinPath(...segments: string[]) {
     .replace(/\/+$/, "");
 }
 
-export function mergeToKey(target, tkey: string, ...sources) {
+export function mergeToKey<
+  T extends Record<PropertyKey, any>,
+  K extends PropertyKey,
+  S extends Record<PropertyKey, any>[],
+>(target: T, tkey: K, ...sources: S) {
   if (!sources.length) {
     return target;
   }

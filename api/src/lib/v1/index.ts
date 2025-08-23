@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "zod/v4";
 import { Book, CoinedEra, UsageCategory, WritingSystem } from "./utils";
 
 export type * from "./types";
@@ -341,11 +341,12 @@ export const Words = z
     z.string().min(1),
     Word.extend({
       translations: z.record(
+        z.string(),
         z.object({
-          commentary: CommentaryTranslation.valueSchema,
-          definition: DefinitionTranslation.valueSchema,
-          etymology: EtymologyTranslation.valueSchema,
-          sp_etymology: SitelenPonaTranslation.valueSchema,
+          commentary: CommentaryTranslation.valueType,
+          definition: DefinitionTranslation.valueType,
+          etymology: EtymologyTranslation.valueType,
+          sp_etymology: SitelenPonaTranslation.valueType,
         }),
       ),
     }),
@@ -359,9 +360,10 @@ export const Signs = z
     z.string().min(1),
     Sign.extend({
       translations: z.record(
+        z.string(),
         z.object({
-          parameters: ParametersTranslation.valueSchema,
-          icons: IconTranslation.valueSchema,
+          parameters: ParametersTranslation.valueType,
+          icons: IconTranslation.valueType,
         }),
       ),
     }),
@@ -374,7 +376,7 @@ export const Fingerspelling = z
   .record(
     z.string().min(1),
     FingerspellingSign.extend({
-      translations: z.record(z.object({ parameters: ParametersTranslation.valueSchema })),
+      translations: z.record(z.string(), z.object({ parameters: ParametersTranslation.valueType })),
     }),
   )
   .describe("A raw data object containing information about Luka Pona fingerspelling signs");
@@ -382,7 +384,7 @@ export type Fingerspelling = z.infer<typeof Fingerspelling>;
 export type LocalizedFingerspellingSign = Fingerspelling[string];
 
 export const Fonts = z
-  .record(Font)
+  .record(z.string(), Font)
   .describe("A raw data object containing all the fonts data in sona");
 export type Fonts = z.infer<typeof Fonts>;
 

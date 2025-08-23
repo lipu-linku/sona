@@ -45,14 +45,12 @@ export const WordData = z
     resources: z
       .object({
         sona_pona: z
-          .string()
           .url()
           .optional()
           .describe(
             "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
           ),
         lipamanka_semantic: z
-          .string()
           .url()
           .optional()
           .describe("A link to lipamanka's description of the word's semantic space."),
@@ -61,14 +59,13 @@ export const WordData = z
     representations: z
       .object({
         sitelen_emosi: z
-          .string()
           .emoji()
           .optional()
           .describe(
             "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
           ),
         sitelen_jelo: z
-          .array(z.string().emoji())
+          .array(z.emoji())
           .min(1)
           .optional()
           .describe("One or more example emojis for how the word can be written in sitelen jelo"),
@@ -79,7 +76,6 @@ export const WordData = z
             "A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
           ),
         sitelen_sitelen: z
-          .string()
           .url()
           .optional()
           .describe("A URL pointing to an image of this word's sitelen sitelen hieroglyphic block"),
@@ -105,7 +101,6 @@ export const WordData = z
         .object({
           author: z.string().describe("The author of the audio file in `link`."),
           link: z
-            .string()
             .url()
             .describe("A link to the audio file for the word, pronounced by `author`."),
         })
@@ -170,46 +165,50 @@ export const Word = WordData.extend({
   translations: WordTranslation,
 });
 
-export const GlyphData = z.object({
-  id: Id.describe(
-    "A unique identifier for the glyph, generally formed as its corresponding word with a dash and a number in the order the glyphs were coined.",
-  ), // word + dash + number
-  word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
-  word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
-  usage_category: UsageCategory,
-  creator_source: z
-    .string()
-    .optional()
-    .describe("The source, usually a URL, where the glyph was coined."),
-  creator: z
-    .array(z.string().min(1))
-    .describe("The name or names of those involved in creating this glyph."),
-  creation_date: OptionalDate,
-  primary: z
-    .boolean()
-    .describe("Whether this glyph is the main glyph used to write the toki pona word in `word`"),
-  deprecated: z.boolean().describe("Whether the glyph is considered deprecated by its author(s)"),
-  // image/svg are expected to be URLs but are nullable in sandbox
-  // they are not nullable in non-sandbox... probably?
-  // and jsonschema can't use contextual definitions or ||
-  image: z.string().describe("A URL to an image of the sitelen pona glyph."),
-  svg: z.string().describe("A URL to an SVG of the sitelen pona glyph."),
-  ligature: z
-    .string()
-    .min(3)
-    .optional()
-    .describe("The ligature used to access this specific sitelen pona glyph."),
-  ucsur: z
-    .string()
-    .regex(/^U\+[\da-fA-F]{4,6}$/g)
-    .optional()
-    .describe("The UCSUR codepoint used to access this specific sitelen pona glyph."),
-  usage: z
-    .record(z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g), z.number().min(0).max(100))
-    .describe(
-      "The percentage of respondents to the annual Linku word survey who report to use this glyph.",
-    ),
-});
+export const GlyphData = z
+  .object({
+    id: Id.describe(
+      "A unique identifier for the glyph, generally formed as its corresponding word with a dash and a number in the order the glyphs were coined.",
+    ), // word + dash + number
+    word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
+    word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
+    usage_category: UsageCategory,
+    creator_source: z
+      .string()
+      .optional()
+      .describe("The source, usually a URL, where the glyph was coined."),
+    creator: z
+      .array(z.string().min(1))
+      .describe("The name or names of those involved in creating this glyph."),
+    creation_date: OptionalDate,
+    primary: z
+      .boolean()
+      .describe("Whether this glyph is the main glyph used to write the toki pona word in `word`"),
+    deprecated: z.boolean().describe("Whether the glyph is considered deprecated by its author(s)"),
+    // image/svg are expected to be URLs but are nullable in sandbox
+    // they are not nullable in non-sandbox... probably?
+    // and jsonschema can't use contextual definitions or ||
+    image: z.url().or(z.literal("")).describe("A URL to an image of the sitelen pona glyph."),
+    svg: z.url().or(z.literal("")).describe("A URL to an SVG of the sitelen pona glyph."),
+    ligature: z
+      .string()
+      .min(3)
+      .optional()
+      .describe("The ligature used to access this specific sitelen pona glyph."),
+    ucsur: z
+      .string()
+      .regex(/^U\+[\da-fA-F]{4,6}$/g)
+      .optional()
+      .describe("The UCSUR codepoint used to access this specific sitelen pona glyph."),
+    usage: z
+      .record(z.string().regex(/^20\d{2}-(0[1-9]|1[0-2])$/g), z.number().min(0).max(100))
+      .describe(
+        "The percentage of respondents to the annual Linku word survey who report to use this glyph.",
+      ),
+  })
+  .refine(({ image, svg, usage_category }) =>
+    usage_category !== "sandbox" ? image.length > 0 && svg.length > 0 : true,
+  );
 
 const Names = z
   .array(z.string().describe("A name this sitelen pona glyph is known by."))
@@ -356,21 +355,18 @@ export const Font = z
     writing_system: WritingSystem.describe("the writing system this font uses as its script"),
     links: z.object({
       fontfile: z
-        .string()
         .url()
         .optional()
         .describe(
           "a link to the font file published by the original author (not the mirror on the Linku Project's GitHub)",
         ),
       repo: z
-        .string()
         .url()
         .optional()
         .describe(
           "a link to a web hosted repository of this font's source files (usually hosted on GitHub or GitLab)",
         ),
       webpage: z
-        .string()
         .url()
         .optional()
         .describe(
