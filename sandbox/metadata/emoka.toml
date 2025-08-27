@@ -1,0 +1,22 @@
+#:schema ../../api/generated/word.json
+id = "emoka"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2025"
+creator = ["jan Kiso"]
+see_also = ["kulupu", "musi"]
+source_language = "Galician"
+usage_category = "sandbox"
+word = "emoka"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "esmorga"
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kulupu_pi_toki_Epanja"
