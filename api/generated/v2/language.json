@@ -15,9 +15,11 @@
       "description": "The direction of the language's script.",
       "anyOf": [
         {
+          "type": "string",
           "const": "ltr"
         },
         {
+          "type": "string",
           "const": "rtl"
         }
       ]
