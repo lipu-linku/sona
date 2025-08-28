@@ -1,0 +1,27 @@
+#:schema ../../api/generated/v2/font.json
+id = "i fogror"
+creator = ["Finn2763"]
+features = [
+  #"ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "supports cartouches",
+  #"extended glyphs",
+  #"combined glyphs",
+  #"ZWJ sequences",
+  #"character variants",
+  #"randomized jaki",
+  "supports all ku suli words",
+]
+filename = "i-fogror.ttf"
+last_updated = "2025-05"
+license = "CC BY"
+ligatures = true
+name = "i fogror"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+#fontfile = ""
+webpage = "https://fontstruct.com/fontstructions/show/2540197/i-fogror"
