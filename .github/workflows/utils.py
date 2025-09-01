@@ -1,11 +1,13 @@
 import json
 import re
+from collections.abc import Iterator
 from pathlib import Path
 from typing import Any
 
 import tomlkit
+from tomlkit import TOMLDocument
 
-TOML_CACHE = {}
+TOML_CACHE: dict[Path, TOMLDocument] = {}
 LANG_DIR = Path("languages/metadata")
 
 
@@ -31,14 +33,16 @@ def substitute_params(template: str, params: dict[str, str]) -> str:
     return template.format(**params)
 
 
-def find_files(glob_pattern: str):
+def find_files(glob_pattern: str) -> Iterator[Path]:
     glob_path = re.sub(r"{\w+}", "*", glob_pattern)
     return Path().glob(glob_path)
 
 
 def cached_toml_read(file: Path):
+    # don't cached read if the file doesn't exist
     if not file.exists():
-        return {}
+        return None
+
     if file in TOML_CACHE:
         return TOML_CACHE[file]
     with open(file, "r", encoding="utf-8") as f:

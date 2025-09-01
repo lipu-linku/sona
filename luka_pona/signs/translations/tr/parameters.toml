@@ -1,781 +1,781 @@
 [AKESI]
 handshape = "V"
-orientation = "fingers pointing outwards"
-placement = "on mouth/chin"
+orientation = "parmaklar dışarıya bakar"
+placement = "ağzın / çenenin üzerinde"
 
 [ALA]
-handshape = "FlatB"
-placement = "shoulder"
+handshape = "Düz B"
+placement = "omuz"
 
 [ALASA-1]
 handshape = "1"
-movement = "movement outwards"
+movement = "dışarıya doğru hareket"
 
 [ALASA-2]
 handshape = "1"
-movement = "movement outwards"
+movement = "dışarıya doğru hareket"
 
 [ALE-1]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "dikey daire hareketi"
 
 [ALE-2]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "dikey daire hareketi"
 
 [ANPA-LON]
 handshape = "L"
-orientation = "finger pointing down"
+orientation = "parmak aşağıyı gösterir"
 
 [ANPA-TAWA]
-handshape = "BentB"
-movement = "movement downward"
+handshape = "Bükülmüş B"
+movement = "aşağı doğru hareket"
 
 [ANTE-KIWEN]
-handshape = "OpenA"
-movement = "palm flip up"
+handshape = "Açık A"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [ANTE-KIWEN-2]
-handshape = "OpenA"
-movement = "palm flip up"
+handshape = "Açık A"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [ANTE-WAN]
 handshape = "1"
-movement = "palm flip up"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "palm flip up"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [ANU]
 handshape = "L"
-movement = "palm flip up"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [AWEN-AWEN]
-handshape = "BentB"
-orientation = "palm placed inward"
-placement = "placed on shoulder"
+handshape = "Bükülmüş B"
+orientation = "avuç içi içe doğru yerleştirilir"
+placement = "omuza yerleştirilir"
 
 [AWEN-TAWA]
-handshape = "BentB"
-orientation = "palm placed inward"
-movement = "movement inward"
+handshape = "Bükülmüş B"
+orientation = "avuç içi içe doğru yerleştirilir"
+movement = "içe doğru hareket"
 
 [EN-KIN-KAN]
 handshape = "L"
-movement = "palm flip down"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [ESUN-1]
-handshape = "BentB"
-movement = "horizontal circle movement"
-orientation = "palm facing up"
+handshape = "Bükülmüş B"
+movement = "yatay daire hareketi"
+orientation = "avuç içi yukarıya dönük"
 
 [ESUN-2]
-handshape = "BentB"
-movement = "horizontal circle movement"
-orientation = "palm facing up"
+handshape = "Bükülmüş B"
+movement = "yatay daire hareketi"
+orientation = "avuç içi yukarıya dönük"
 
 [IJO-LUKA]
 handshape = "1"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [IJO-NENA]
 handshape = "1"
-placement = "placed on shoulder"
+placement = "omuza yerleştirilir"
 
 [IKE]
-handshape = "OpenA"
-orientation = "palm outwards"
+handshape = "Açık A"
+orientation = "avuç içi dışa doğru"
 
 [ILO]
 handshape = "L"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [INSA]
 handshape = "L"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [JAKI]
-handshape = "OpenA"
-orientation = "palm outwards"
-placement = "placed on eyes"
+handshape = "Açık A"
+orientation = "avuç içi dışa doğru"
+placement = "gözlere yerleştirilir"
 
 [JAN-LA]
 handshape = "L"
-movement = "movement downward"
-orientation = "palm facing down"
+movement = "aşağı doğru hareket"
+orientation = "avuç içi aşağıya dönük"
 
 [JAN-WAN]
 handshape = "V"
-movement = "movement downward"
-orientation = "fingers pointing up"
+movement = "aşağı doğru hareket"
+orientation = "parmaklar yukarı gösterir"
 
 [JELO]
 handshape = "9"
-movement = "placed beside head"
+movement = "başın yanına yerleştirilir"
 
 [JO]
-handshape = "BentB"
-orientation = "palm facing up"
+handshape = "Bükülmüş B"
+orientation = "avuç içi yukarıya dönük"
 
 [KALA]
-handshape = "FlatB"
-movement = "hand shaking/wiggling"
-orientation = "palm facing sideways"
+handshape = "Düz B"
+movement = "el sallama/kıpırdatma"
+orientation = "avuç içi yanlara bakar"
 
 [KALAMA-KUTE]
 handshape = "5"
-orientation = "palm facing down"
-placement = "placed beside head"
+orientation = "avuç içi aşağıya dönük"
+placement = "başın yanına yerleştirilir"
 
 [KALAMA-MU]
 handshape = "5"
-orientation = "palm facing down"
-placement = "placed on mouth"
+orientation = "avuç içi aşağıya dönük"
+placement = "ağzın üstüne yerleştirilir"
 
 [KASI]
 handshape = "5"
-orientation = "palm faced in"
+orientation = "avuç içi dönük"
 
 [KEN-1]
-handshape = "OpenA"
-movement = "movement downward"
+handshape = "Açık A"
+movement = "aşağı doğru hareket"
 
 [KEN-2]
-handshape = "OpenA"
-movement = "movement downward"
+handshape = "Açık A"
+movement = "aşağı doğru hareket"
 
 [KEPEKEN]
-handshape = "OpenA"
-movement = "verticle circle movement"
+handshape = "Açık A"
+movement = "dikey daire hareketi"
 
 [KIJETESANTAKALU-1]
 handshape = "V"
-placement = "placed on eyes"
+placement = "gözlere yerleştirilir"
 
 [KIJETESANTAKALU-2]
 handshape = "V"
-placement = "placed on eyes"
+placement = "gözlere yerleştirilir"
 
 [KIKI]
 handshape = "9"
-movement = "movement upward"
-orientation = "palm facing up"
+movement = "yukarı doğru hareket"
+orientation = "avuç içi yukarıya dönük"
 
 [KILI]
-handshape = "OpenA"
-placement = "placed on mouth/chin"
+handshape = "Açık A"
+placement = "ağza/çeneye yerleştirilir"
 
 [KIPISI]
 handshape = "V"
-movement = "movement downward"
+movement = "aşağı doğru hareket"
 
 [KIWEN]
-handshape = "OpenA"
-orientation = "palm facing down"
+handshape = "Açık A"
+orientation = "avuç içi aşağıya dönük"
 
 [KO-1]
-handshape = "BentB"
-movement = "verticle circle movement"
+handshape = "Bükülmüş B"
+movement = "dikey daire hareketi"
 
 [KO-2]
-handshape = "BentB"
-movement = "verticle circle movement"
+handshape = "Bükülmüş B"
+movement = "dikey daire hareketi"
 
 [KON]
 handshape = "5"
-movement = "hand shaking/wiggling"
+movement = "el sallama/kıpırdatma"
 
 [KULE]
 handshape = "9"
-movement = "verticle circle movement"
+movement = "dikey daire hareketi"
 
 [KULUPU-JAN]
 handshape = "1"
-movement = "horizontal circle movement"
+movement = "yatay daire hareketi"
 
 [KULUPU-MUTE]
 handshape = "5"
-movement = "horizontal circle movement"
+movement = "yatay daire hareketi"
 
 [KULUPU-MUTE-2]
 handshape = "5"
-movement = "horizontal circle movement"
+movement = "yatay daire hareketi"
 
 [KUTE]
 handshape = "1"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [LA]
 handshape = "L"
-movement = "fingers flick up"
+movement = "parmaklar yukarı doğru döner"
 
 [LAPE]
-handshape = "FlatB"
-movement = "placed beside head"
+handshape = "Düz B"
+movement = "başın yanına yerleştirilir"
 
 [LASO]
 handshape = "9"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [LAWA]
-handshape = "OpenA"
-placement = "placed beside head"
+handshape = "Açık A"
+placement = "başın yanına yerleştirilir"
 
 [LEKO]
-handshape = "BentB"
-orientation = "palms facing to the side"
+handshape = "Bükülmüş B"
+orientation = "avuç içleri yana dönük"
 
 [LEN-INSA]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 
 [LEN-INSA-2]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 
 [LEN-INSA-TAWA]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 
 [LEN-POKA]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 
 [LEN-POKA-TAWA]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 
 [LEN-POKA-TAWA-2]
-handshape = "BentB"
-movement = "movement downward"
-placement = "placed on shoulder"
+handshape = "Bükülmüş B"
+movement = "aşağı doğru hareket"
+placement = "omuza yerleştirilir"
 
 [LETE]
 handshape = "9"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [LILI-TU]
 handshape = "2"
-orientation = "movement downward"
+orientation = "aşağı doğru hareket"
 
 [LILI-TU-2]
 handshape = "2"
-orientation = "movement downward"
+orientation = "aşağı doğru hareket"
 
 [LILI-PIPI]
 handshape = "9"
-orientation = "palm facing out"
+orientation = "avuç içi dışarı dönük"
 
 [LILI-SUPA]
-handshape = "FlatB"
-orientation = "movement downward"
+handshape = "Düz B"
+orientation = "aşağı doğru hareket"
 
 [LILI-SUPA-2]
-handshape = "FlatB"
-orientation = "movement downward"
+handshape = "Düz B"
+orientation = "aşağı doğru hareket"
 
 [LINJA-1]
 handshape = "9"
-movement = "movement sideways"
+movement = "yanlara doğru hareket"
 
 [LINJA-2]
 handshape = "9"
-movement = "movement sideways"
+movement = "yanlara doğru hareket"
 
 [LIPU]
-handshape = "FlatB"
-placement = "placed on opposite hand"
+handshape = "Düz B"
+placement = "diğer ele yerleştirilir"
 
 [LOJE]
 handshape = "9"
-orientation = "palm facing sideways"
-placement = "placed on mouth"
+orientation = "avuç içi yanlara bakar"
+placement = "ağzın üstüne yerleştirilir"
 
 [LON-IJO]
 handshape = "1"
-movement = "fingers flick down"
+movement = "parmaklar aşağı doğru döner"
 
 [LON-LA]
 handshape = "L"
-movement = "fingers flick down"
+movement = "parmaklar aşağı doğru döner"
 
 [LUKA]
 handshape = "5"
-orientation = "palm facing out"
+orientation = "avuç içi dışarı dönük"
 
 [LUKIN-E]
 handshape = "V"
 orientation = """
-fingers pointing out,
-fingers pointing in,
-fingers pointing sideways"""
+parmaklar dışarıyı gösterir,
+parmaklar içeriyi gösterir,
+parmaklar yanları gösterir"""
 
 [LUKIN-ISIPIN]
 handshape = "1"
-placement = "placed on eye"
+placement = "göze yerleştirilmiş"
 
 [LUKIN-OKO]
 handshape = "V"
-placement = "placed on eye"
+placement = "göze yerleştirilmiş"
 
 [LUKIN-SIKE]
 handshape = "V"
-movement = "verticle circle movement"
+movement = "dikey daire hareketi"
 
 [LUPA]
 handshape = "O"
-orientation = "palm facing sideways"
+orientation = "avuç içi yanlara bakar"
 
 [MA]
-handshape = "FlatB"
-movement = "horizontal circle movement"
+handshape = "Düz B"
+movement = "yatay daire hareketi"
 
 [MAMA-INSA]
 handshape = "V"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [MAMA-JO-KILI]
-handshape = "V, BentB"
-movement = "hand shaking/wiggling"
-placement = "placed on opposite hand"
+handshape = "V, Bükülmüş B"
+movement = "el sallama/kıpırdatma"
+placement = "diğer ele yerleştirilir"
 
 [MANI-1]
 handshape = "1"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [MANI-2]
 handshape = "1"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [MELI]
 handshape = "L"
-placement = "placed on mouth/chin"
+placement = "ağza/çeneye yerleştirilir"
 
 [MESO]
 handshape = "5"
-orientation = "palm facing down"
+orientation = "avuç içi aşağıya dönük"
 
 [MI]
 handshape = "1"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [MIJE]
 handshape = "L"
-placement = "placed on eye"
+placement = "göze yerleştirilmiş"
 
 [MISIKEKE-1]
-handshape = "OpenA"
-movement = "horizontal circle movement"
+handshape = "Açık A"
+movement = "yatay daire hareketi"
 
 [MISIKEKE-2]
-handshape = "OpenA"
-movement = "horizontal circle movement"
+handshape = "Açık A"
+movement = "yatay daire hareketi"
 
 [MOKU]
 handshape = "O"
-placement = "placed on mouth/chin"
+placement = "ağza/çeneye yerleştirilir"
 
 [MOLI]
-handshape = "FlatB"
-movement = "movement sideways"
-orientation = "palm facing down"
-placement = "placed on neck"
+handshape = "Düz B"
+movement = "yanlara doğru hareket"
+orientation = "avuç içi aşağıya dönük"
+placement = "boynuna yerleştirilmiş"
 
 [MONSI]
-handshape = "FlatB"
-orientation = "palm facing in"
+handshape = "Düz B"
+orientation = "avuç içi içe dönük"
 
 [MONSUTA-1]
 handshape = "5"
-movement = "movement inward"
-orientation = "palm facing down"
+movement = "içe doğru hareket"
+orientation = "avuç içi aşağıya dönük"
 
 [MONSUTA-2]
 handshape = "5"
-movement = "movement inward"
-orientation = "palm facing down"
+movement = "içe doğru hareket"
+orientation = "avuç içi aşağıya dönük"
 
 [MU-UTA]
-handshape = "BentB"
-placement = "placed on mouth/chin"
+handshape = "Bükülmüş B"
+placement = "ağza/çeneye yerleştirilir"
 
 [MUN]
 handshape = "9"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [MUSI]
 handshape = "5"
-orientation = "palm facing sideways"
+orientation = "avuç içi yanlara bakar"
 
 [MUTE]
 handshape = "5"
-movement = "movement sideways"
+movement = "yanlara doğru hareket"
 
 [NANPA]
 handshape = "5"
-placement = "placed on eye"
+placement = "göze yerleştirilmiş"
 
 [NASA]
 handshape = "1"
-movement = "verticle circle movement"
+movement = "dikey daire hareketi"
 
 [NASIN]
-handshape = "FlatB"
-movement = "movement outward"
+handshape = "Düz B"
+movement = "dışarıya doğru hareket"
 
 [NENA]
-handshape = "BentB"
-orientation = "palm facing down"
+handshape = "Bükülmüş B"
+orientation = "avuç içi aşağıya dönük"
 
 [NI]
 handshape = "1"
-orientation = "finger pointing down"
+orientation = "parmak aşağıyı gösterir"
 
 [NIMI]
-handshape = "FlatB"
-placement = "placed on eye"
+handshape = "Düz B"
+placement = "göze yerleştirilmiş"
 
 [NOKA]
 handshape = "V"
-orientation = "fingers pointing down"
+orientation = "parmaklar aşağıyı gösterir"
 
 [O]
-handshape = "FlatB"
-movement = "fingers flick down"
+handshape = "Düz B"
+movement = "parmaklar aşağı doğru döner"
 
 [OLIN]
 handshape = "5"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [ONA]
 handshape = "1"
-orientation = "finger pointing sideways"
+orientation = "parmak yanları gösterir"
 
 [OPEN-1]
-handshape = "FlatB"
-movement = "palm flip up"
+handshape = "Düz B"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [OPEN-2]
-handshape = "FlatB"
-movement = "palm flip up"
+handshape = "Düz B"
+movement = "avuç içi yukarı doğru çevrilir"
 
 [PAKALA]
 handshape = "5"
-movement = "palm flip down"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [PALI-KON]
-handshape = "OpenA"
-movement = "hand shaking/wiggling"
+handshape = "Açık A"
+movement = "el sallama/kıpırdatma"
 
 [PALI-LUKA]
-handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on opposite hand"
+handshape = "Açık A"
+movement = "el sallama/kıpırdatma"
+placement = "diğer ele yerleştirilir"
 
 [PALI-NENA]
-handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on shoulder"
+handshape = "Açık A"
+movement = "el sallama/kıpırdatma"
+placement = "omuza yerleştirilir"
 
 [PALISA-1]
 handshape = "O"
-movement = "movement sideways"
+movement = "yanlara doğru hareket"
 
 [PALISA-2]
 handshape = "O"
-movement = "movement sideways"
+movement = "yanlara doğru hareket"
 
 [PAN]
 handshape = "5"
-placement = "placed on mouth/chin"
+placement = "ağza/çeneye yerleştirilir"
 
 [PANA-LANPAN]
-handshape = "BentB"
+handshape = "Bükülmüş B"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+dışarıya doğru hareket,
+içeri doğru hareket,
+yanlara doğru hareket"""
 
 [PI]
 handshape = "9"
-movement = "fingers flick up"
+movement = "parmaklar yukarı doğru döner"
 
 [PILIN]
 handshape = "9"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [PIMEJA]
 handshape = "9"
-placement = "placed on shoulder"
+placement = "omuza yerleştirilir"
 
 [PINI-1]
-handshape = "FlatB"
-movement = "palm flip down"
+handshape = "Düz B"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [PINI-2]
-handshape = "FlatB"
-movement = "palm flip down"
+handshape = "Düz B"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [PIPI]
 handshape = "9"
-movement = "hand shaking/wiggling"
+movement = "el sallama/kıpırdatma"
 
 [POKA]
 handshape = "L"
-movement = "fingers pointing sideways"
+movement = "parmaklar yanları gösterir"
 
 [POKI]
 handshape = "O"
-movement = "palm facing sideways"
+movement = "avuç içi yanlara bakar"
 
 [PONA]
-handshape = "OpenA"
-movement = "palm facing in"
+handshape = "Açık A"
+movement = "avuç içi içe dönük"
 
 [SAMA-KIWEN]
-handshape = "OpenA"
-movement = "palm flip down"
+handshape = "Açık A"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [SAMA-KIWEN-2]
-handshape = "OpenA"
-movement = "palm flip down"
+handshape = "Açık A"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [SAMA-WAN]
 handshape = "1"
-movement = "palm flip down"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [SAMA-WAN-2]
 handshape = "1"
-movement = "palm flip down"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [SELI-1]
 handshape = "5"
-placement = "placed on shoulder"
+placement = "omuza yerleştirilir"
 
 [SELI-2]
 handshape = "5"
-placement = "placed on shoulder"
+placement = "omuza yerleştirilir"
 
 [SELO]
 handshape = "O"
-movement = "placed on opposite hand"
+movement = "diğer ele yerleştirilir"
 
 [SEME-SUPA-1]
-handshape = "FlatB"
-orientation = "palm facing up"
+handshape = "Düz B"
+orientation = "avuç içi yukarıya dönük"
 
 [SEME-SUPA-2]
-handshape = "FlatB"
-orientation = "palm facing up"
+handshape = "Düz B"
+orientation = "avuç içi yukarıya dönük"
 
 [SEME-WAN-TAWA]
 handshape = "1"
-movement = "hand shaking/wiggling"
+movement = "el sallama/kıpırdatma"
 
 [SEWI-LON]
 handshape = "L"
-orientation = "finger pointing up"
+orientation = "parmak yukarıyı gösterir"
 
 [SEWI-TAWA]
-handshape = "BentB"
-movement = "movement downward"
+handshape = "Bükülmüş B"
+movement = "aşağı doğru hareket"
 
 [SIJELO-AWEN]
-handshape = "FlatB"
-placement = "placed on chest/stomach"
+handshape = "Düz B"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [SIJELO-AWEN-2]
-handshape = "FlatB"
-placement = "placed on chest/stomach"
+handshape = "Düz B"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [SIJELO-TAWA]
-handshape = "FlatB"
-movement = "movement downward"
-placement = "placed on chest/stomach"
+handshape = "Düz B"
+movement = "aşağı doğru hareket"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [SIKE]
 handshape = "O"
-movement = "verticle circle movement"
+movement = "dikey daire hareketi"
 
 [SIN-JO-MONSI]
-handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing in"
-placement = "placed on opposite hand"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
+orientation = "avuç içi içe dönük"
+placement = "diğer ele yerleştirilir"
 
 [SIN-JO-SINPIN]
-handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing out"
-placement = "placed on opposite hand"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
+orientation = "avuç içi dışarı dönük"
+placement = "diğer ele yerleştirilir"
 
 [SIN-SUPA-MONSI]
-handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing in"
-placement = "placed on opposite hand"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
+orientation = "avuç içi içe dönük"
+placement = "diğer ele yerleştirilir"
 
 [SIN-SUPA-SINPIN]
-handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing out"
-placement = "placed on opposite hand"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
+orientation = "avuç içi dışarı dönük"
+placement = "diğer ele yerleştirilir"
 
 [SINA]
 handshape = "1"
-orientation = "finger pointing out"
+orientation = "parmak dışı gösterir"
 
 [SINPIN]
-handshape = "FlatB"
-orientation = "palm facing out"
+handshape = "Düz B"
+orientation = "avuç içi dışarı dönük"
 
 [SITELEN]
 handshape = "9"
-movement = "horizontal circle"
+movement = "yatay daire"
 
 [SOKO]
 handshape = "1"
-orientation = "finger pointing up"
-placement = "below other hand"
+orientation = "parmak yukarıyı gösterir"
+placement = "diğer elin altında"
 
 [SONA-ISIPIN]
 handshape = "1"
-orientation = "finger pointing up"
-placement = "placed beside head"
+orientation = "parmak yukarıyı gösterir"
+placement = "başın yanına yerleştirilir"
 
 [SONA-JO]
-handshape = "BentB"
-placement = "placed beside head"
+handshape = "Bükülmüş B"
+placement = "başın yanına yerleştirilir"
 
 [SOWELI]
 handshape = "V"
-orientation = "fingers pointing up"
+orientation = "parmaklar yukarı gösterir"
 
 [SULI-SUPA]
-handshape = "FlatB"
-movement = "movement upward"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
 
 [SULI-SUPA-2]
-handshape = "FlatB"
-movement = "movement upward"
+handshape = "Düz B"
+movement = "yukarı doğru hareket"
 
 [SULI-TU]
 handshape = "V"
-movement = "movement upward"
+movement = "yukarı doğru hareket"
 
 [SULI-TU-2]
 handshape = "V"
-movement = "movement upward"
+movement = "yukarı doğru hareket"
 
 [SUNO]
 handshape = "5"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [SUPA]
-handshape = "FlatB"
-movement = "movement sideways"
-orientation = "palm facing down"
+handshape = "Düz B"
+movement = "yanlara doğru hareket"
+orientation = "avuç içi aşağıya dönük"
 
 [SUWI]
 handshape = "V"
-placement = "placed on mouth/chin"
+placement = "ağza/çeneye yerleştirilir"
 
 [TAN]
 handshape = "5"
-movement = "palm flip down"
+movement = "avuç içi aşağıya doğru çevrilir"
 
 [TASO]
 handshape = "1"
-movement = "fingers flick up"
+movement = "parmaklar yukarı doğru döner"
 
 [TAWA-KAMA]
 handshape = "L"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+dışarıya doğru hareket,
+içeri doğru hareket,
+yanlara doğru hareket"""
 
 [TELO]
 handshape = "5"
-movement = "movement outward"
+movement = "dışarıya doğru hareket"
 
 [TENPO-LUKA-MONSI]
 handshape = "V"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [TENPO-LUKA-SINPIN]
 handshape = "V"
-placement = "placed on opposite hand"
+placement = "diğer ele yerleştirilir"
 
 [TENPO-PALISA-LAWA]
 handshape = "V"
-placement = "placed on neck"
+placement = "boynuna yerleştirilmiş"
 
 [TOKI-1]
-handshape = "FlatB"
-movement = "verticle circle movement"
+handshape = "Düz B"
+movement = "dikey daire hareketi"
 
 [TOKI-2]
-handshape = "FlatB"
-movement = "verticle circle movement"
+handshape = "Düz B"
+movement = "dikey daire hareketi"
 
 [TOMO]
-handshape = "BentB"
-orientation = "palm facing sideways"
+handshape = "Bükülmüş B"
+orientation = "avuç içi yanlara bakar"
 
 [TONSI]
 handshape = "L"
-placement = "placed beside head"
+placement = "başın yanına yerleştirilir"
 
 [TU]
 handshape = "V"
-orientation = "palm facing in"
+orientation = "avuç içi içe dönük"
 
 [UNPA]
 handshape = "V"
-movement = "fingers flick down"
-orientation = "finger pointing up"
+movement = "parmaklar aşağı doğru döner"
+orientation = "parmak yukarıyı gösterir"
 
 [UTA]
 handshape = "1"
-placement = "placed on mouth/chin"
+placement = "ağza/çeneye yerleştirilir"
 
 [UTALA]
-handshape = "OpenA"
+handshape = "Açık A"
 movement = """
-movement outward,
-movement inward,
-movement sideways"""
+dışarıya doğru hareket,
+içeri doğru hareket,
+yanlara doğru hareket"""
 
 [WALO]
 handshape = "9"
-placement = "placed on eye"
+placement = "göze yerleştirilmiş"
 
 [WAN]
 handshape = "1"
-orientation = "palm facing in"
+orientation = "avuç içi içe dönük"
 
 [WASO-1]
 handshape = "5"
-movement = "fingers flick down"
+movement = "parmaklar aşağı doğru döner"
 
 [WASO-2]
 handshape = "5"
-movement = "fingers flick down"
+movement = "parmaklar aşağı doğru döner"
 
 [WAWA]
-handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on chest/stomach"
+handshape = "Açık A"
+movement = "el sallama/kıpırdatma"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [WEKA]
-handshape = "FlatB"
-movement = "fingers flick up"
+handshape = "Düz B"
+movement = "parmaklar yukarı doğru döner"
 
 [WILE-LUKA-OPEN]
 handshape = "5"
-movement = "movement inward"
+movement = "içe doğru hareket"
 
 [WILE-LUPA]
 handshape = "O"
-placement = "placed on chest/stomach"
+placement = "göğüs/karın üzerine yerleştirilir"
 
 [WILE-OPEN-2]
 handshape = "5"
-movement = "movement inward"
+movement = "içe doğru hareket"

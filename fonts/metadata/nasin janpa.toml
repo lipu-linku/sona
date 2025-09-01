@@ -1,27 +1,27 @@
 #:schema ../../api/generated/v2/font.json
-id = "nasin janpa"
-name = "nasin janpa"
-filename = "nasin-janpa.ttf"
-creator = ["jan Janpa Onjon"]
-license = "OFL"
+id        = "nasin janpa"
+name      = "nasin janpa"
+filename  = "nasin-janpa.ttf"
+creator   = ["jan Janpa Onjon"]
+license   = "OFL"
 ligatures = true
-ucsur = true
+ucsur     = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-01"
-version = "1"
+version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "supports cartouches",
   "all ku suli",
-  "Extendable pi, kepeken, lon, sama, tan, tawa",
+  "Extendable pi, kepeken, lon, sama, tan, tawa"
 ]
 
 style = "handwritten"
 
 [links]
 fontfile = "https://github.com/jammpark/nasin-janpa/raw/refs/heads/main/nasin-janpa.ttf"
-repo = "https://github.com/jammpark/nasin-janpa"
-webpage = "https://jammpark.github.io/nasin-janpa"
+repo     = "https://github.com/jammpark/nasin-janpa"
+webpage  = "https://jammpark.github.io/nasin-janpa"

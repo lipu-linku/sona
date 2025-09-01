@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id = "poka luka tan jan Nopu"
-name = "poka luka tan jan Nopu"
-filename = "poka luka tan jan Nopu.ttf"
-creator = ["jan Nopu"]
-license = "CC0-1.0"
+id        = "poka luka tan jan Nopu"
+name      = "poka luka tan jan Nopu"
+filename  = "poka luka tan jan Nopu.ttf"
+creator   = ["jan Nopu"]
+license   = "CC0-1.0"
 ligatures = true
-ucsur = true
+ucsur     = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-12"
-version = "1"
+version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -23,5 +23,5 @@ style = "pixelated"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/poka%20luka%20tan%20jan%20Nopu.ttf"
-repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage = "https://wasokeli.github.io/sp-font-maker/poka-luka-tan-jan-Nopu.html"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage  = "https://wasokeli.github.io/sp-font-maker/poka-luka-tan-jan-Nopu.html"

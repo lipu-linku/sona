@@ -1,14 +1,14 @@
 [A-1]
-handshape = "OpenA"
-orientation = "palm outwards"
+handshape = "OpenA（拇指伸出，四指向内）"
+orientation = "手掌向外"
 
 [A-2]
 handshape = "1 + 5"
 placement = "触摸拇指"
 
 [E-1]
-handshape = "BentB"
-orientation = "palm outwards"
+handshape = "BentB（拇指向上，四指向前弯）"
+orientation = "手掌向外"
 
 [E-2]
 handshape = "1 + 5"
@@ -16,7 +16,7 @@ placement = "触摸食指"
 
 [I-1]
 handshape = "1"
-orientation = "palm outwards"
+orientation = "手掌向外"
 
 [I-2]
 handshape = "1 + 5"
@@ -24,43 +24,43 @@ placement = "触摸中指"
 
 [J-1]
 handshape = "1"
-movement = "fingers flip inwards"
-orientation = "palm outwards"
+movement = "手指向内翻"
+orientation = "手掌向外"
 
 [J-2]
 handshape = "1 + 5"
-movement = "draw a J shape on the hand"
+movement = "用手比划 J 形"
 placement = "触摸手掌"
 
 [J-2-ANTE]
 handshape = "1 + FlatB"
-orientation = "palm down + palm down"
-placement = "touch base of the thumb"
+orientation = "手掌向下 + 手掌向下"
+placement = "触摸拇指底部"
 
 [K-1]
 handshape = "2"
-orientation = "palm inwards"
+orientation = "手掌向内"
 
 [K-2]
 handshape = "9 + 1"
-placement = "touch base of finger"
+placement = "触摸手指底部"
 
 [L-1]
 handshape = "L 形"
-orientation = "palm outwards"
+orientation = "手掌向外"
 
 [L-2]
 handshape = "1 + FlatB"
-orientation = "palm up + palm down"
+orientation = "手掌向上 + 手掌向下"
 placement = "触摸手掌"
 
 [M-1]
-handshape = "BentB"
+handshape = "BentB（拇指向上，四指向前弯）"
 orientation = "手掌向下"
 
 [M-2]
 handshape = "FlatB + FlatB"
-orientation = "palm up + palm down"
+orientation = "手掌向上 + 手掌向下"
 placement = "触摸手掌"
 
 [N-1]
@@ -69,32 +69,32 @@ orientation = "手掌向下"
 
 [N-2]
 handshape = "2 + FlatB"
-orientation = "palm up + palm down"
+orientation = "手掌向上 + 手掌向下"
 placement = "触摸手掌"
 
 [O-1]
-handshape = "O"
-orientation = "palm outwards"
+handshape = "O 形"
+orientation = "手掌向外"
 
 [O-2]
 handshape = "1 + 5"
 placement = "触摸无名指"
 
 [P-1]
-handshape = "FlatB"
-orientation = "palm outwards"
+handshape = "FlatB（五指平放向上）"
+orientation = "手掌向外"
 
 [P-2]
 handshape = "9 + 1"
-placement = "touch tip of finger"
+placement = "触摸指尖"
 
 [S-1]
 handshape = "5"
-orientation = "palm outwards"
+orientation = "手掌向外"
 
 [S-2]
 handshape = "FlatB + FlatB"
-orientation = "palm down + palm side"
+orientation = "手掌向下 + 手掌侧转"
 placement = "触摸手掌"
 
 [T-1]
@@ -103,11 +103,11 @@ orientation = "手掌向下"
 
 [T-2]
 handshape = "1 + FlatB"
-placement = "touch edge of the hand"
+placement = "触摸手边缘"
 
 [U-1]
 handshape = "2"
-orientation = "palm outwards"
+orientation = "手掌向外"
 
 [U-2]
 handshape = "1 + 5"
@@ -115,14 +115,14 @@ placement = "触摸小指"
 
 [W-1]
 handshape = "2"
-movement = "verticle circle movement"
-orientation = "palm outwards"
+movement = "垂直比划圆形"
+orientation = "手掌向外"
 
 [W-2]
 handshape = "5 + 5"
-placement = "mesh fingers"
+placement = "手指互扣"
 
 [W-2-ANTE]
 handshape = "2 + FlatB"
-orientation = "palm up + palm down"
+orientation = "手掌向上 + 手掌向下"
 placement = "触摸手掌"

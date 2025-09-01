@@ -1,3 +1,4 @@
+import json
 import os
 import sys
 from pathlib import Path
@@ -5,10 +6,18 @@ from pathlib import Path
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
+import tomlkit
+import tomlkit.exceptions
+
 from constants import DATA
 from package_data import FETCH_MAP
-from utils import (cached_toml_read, find_files, get_bound_param,
-                   get_path_values, get_unbound_param)
+from utils import (
+    cached_toml_read,
+    find_files,
+    get_bound_param,
+    get_path_values,
+    get_unbound_param,
+)
 
 
 def load_data():
@@ -18,7 +27,13 @@ def load_data():
         output = config["output"]
         typ = config["type"]
         fetcher = FETCH_MAP[typ]
-        data[key] = fetcher(input, output)
+        try:
+            data[key] = fetcher(input, output)
+        except tomlkit.exceptions.TOMLKitError as e:
+            print(f"TOMLKitError when packing {input} to {output} with {typ} formatter")
+            # print(f"... Schema: {config.get('schema')} ")
+            print(f"... {json.dumps(config, indent=2)}")
+            print(f"... {e} {e.__dict__}")
     return data
 
 

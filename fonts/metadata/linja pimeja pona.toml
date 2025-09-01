@@ -5,7 +5,7 @@ features = [
   "ASCII transcription",
   "auto-cartouching",
   "UCSUR compatibility",
-  "cartouches",
+  "cartouches"
 ]
 filename = "linja-pimeja-pona.otf"
 last_updated = "2024-09"

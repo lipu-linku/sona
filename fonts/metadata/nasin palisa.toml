@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id = "nasin palisa"
-name = "nasin palisa"
-filename = "nasin-palisa-Regular.ttf"
-creator = ["aks Ejan"]
-license = "OFL-1.1"
+id        = "nasin palisa"
+name      = "nasin palisa"
+filename  = "nasin-palisa-Regular.ttf"
+creator   = ["aks Ejan"]
+license   = "OFL-1.1"
 ligatures = true
-ucsur = true
+ucsur     = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-04"
-version = "1.0.2"
+version      = "1.0.2"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,4 +22,4 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/Mrpalland/nasin-palisa/raw/refs/heads/main/src/nasin-palisa-Regular.ttf"
-repo = "https://github.com/Mrpalland/nasin-palisa"
+repo     = "https://github.com/Mrpalland/nasin-palisa"

@@ -6,8 +6,14 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
 from constants import DATA
-from utils import (cached_toml_read, deep_merge, find_files, get_path_values,
-                   load_languages, write_toml)
+from utils import (
+    cached_toml_read,
+    deep_merge,
+    find_files,
+    get_path_values,
+    load_languages,
+    write_toml,
+)
 
 
 def remove_orphaned_keys(translation: dict, source: dict, path=""):

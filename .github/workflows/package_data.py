@@ -9,8 +9,15 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(SCRIPT_DIR)
 
 from constants import CURRENT_API_VERSION, DATA
-from utils import (find_files, get_bound_param, get_path_values,
-                   get_unbound_param, substitute_params, write_json)
+from utils import (
+    cached_toml_read,
+    find_files,
+    get_bound_param,
+    get_path_values,
+    get_unbound_param,
+    substitute_params,
+    write_json,
+)
 
 
 def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
@@ -22,8 +29,11 @@ def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
 
         values = get_path_values(input, str(file))
         label = values.pop(key_param)
-        with file.open("rb") as f:
-            data[label] = tomllib.load(f)
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Data file {file} was missing!")
+            continue
+        data[label] = local_data
 
     return dict(data)
 
@@ -46,10 +56,14 @@ def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]
         label = values.pop(key_param)
         group = next(iter(values.values()))  # type of locale str
 
-        with file.open("rb") as f:
-            local_data = tomllib.load(f)  # each translation file
-            for object_id, locale_string in local_data.items():
-                data[group][object_id][label] = locale_string
+        # each translation file
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Locale file {file} was missing!")
+            continue
+
+        for object_id, locale_string in local_data.items():
+            data[group][object_id][label] = locale_string
 
     return dict(data)
 

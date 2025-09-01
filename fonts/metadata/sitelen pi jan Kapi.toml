@@ -1,27 +1,29 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen pona 14x14 tan jan Lusi"
-name      = "sitelen pona 14x14 tan jan Lusi"
-filename  = "sitelen pona 14x14 tan jan Lusi.ttf"
-creator   = ["jan Lusi"]
+id        = "sitelen pi jan Kapi"
+name      = "sitelen pi jan Kapi"
+filename  = "sitelen pi jan Kapi.ttf"
+creator   = ["jan Kapi"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
 writing_system = "sitelen pona"
 
-last_updated = "2025-03"
+last_updated = "2025-07"
 version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
+  # "SP Font Maker words v2.2",        # unless they didn't fill out all the words
 
   # "incomplete",
   # "variable weight",
   # "name glyphs",
-  "character variants",
-  "all ku suli",                   # kokosila
-  "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "character variants",
+  # "Linku common & uncommon 2024"   # nimisin
+  # "all ku suli",                   # kokosila
+  # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -32,10 +34,10 @@ features = [
 ]
 
 # Pick one style, or put multiple comma-separated styles in quotes.
-# style = "handwritten"
+style = "handwritten"
 # style = "alternate design"
 # style = "uniform line weight"
-style = "pixelated"
+# style = "pixelated"
 # style = "handdrawn"
 # style = "serif"
 # style = "sans-serif"
@@ -44,6 +46,6 @@ style = "pixelated"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pona%2014x14%20tan%20jan%20Lusi.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pi%20jan%20Kapi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pona-14x14-tan-jan-Lusi.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-jan-Kapi.html"

@@ -5,11 +5,11 @@ filename  = "tomo toki nasa tan jan Sepi.ttf"
 creator   = ["jan Sepi"]
 license   = "SIL Open Font License, Version 1.1"
 ligatures = true
-ucsur = true
+ucsur     = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-02"
-version = "1"
+version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
