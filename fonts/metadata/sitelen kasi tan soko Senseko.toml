@@ -18,7 +18,7 @@ features = [
 
   # "incomplete",
   # "variable weight",
-  # "name glyphs",
+  "name glyphs",
   # "character variants",
   # "all ku suli",                   # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
