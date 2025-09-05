@@ -1,25 +1,28 @@
-#:schema ../../api/generated/v2/font.json
-id        = "sitelen kasi tan soko Senseko"
-name      = "sitelen kasi tan soko Senseko"
-filename  = "sitelen-kasi-tan-soko-Senseko.ttf"
-creator   = ["soko Sensoko"]
+#:schema ../../api/generated/font.json
+id        = "sitelen musi linja tan waso Eko"
+name      = "sitelen musi linja tan waso Eko"
+filename  = "sitelen musi linja tan waso Eko.ttf"
+creator   = ["waso Eko"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
-writing_system = "sitelen pona"
+writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+                                # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
-last_updated = "2025-07"
+last_updated = "2025-09"
 version      = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
+  "SP Font Maker words v2.2",        # unless they didn't fill out all the words
 
   # "incomplete",
-  # "variable weight",
+  "variable weight",
   "name glyphs",
-  # "character variants",
+  "character variants",
+  # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
@@ -44,6 +47,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen-kasi-tan-soko-Senseko.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20musi%20linja%20tan%20waso%20Eko.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-kasi-tan-soko-Senseko.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-musi-linja-tan-waso-Eko.html"
