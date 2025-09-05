@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "musi linja suwi tan waso Eko"
 name      = "musi linja suwi tan waso Eko"
 filename  = "musi linja suwi tan waso Eko.ttf"

@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "leko Sosuwa Po"
 name      = "leko Sosuwa Po"
 filename  = "leko Sosuwa Po.ttf"
