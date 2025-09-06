@@ -45,5 +45,5 @@ while IFS= read -r -d '' file; do
 		continue
 	fi
 
-	npx ajv-cli -s "./generated/v2/$schema" -c ajv-formats --all-errors --errors=text -d "$file"
+	npx ajv-cli -s "./generated/v2/$schema" -c ajv-formats --spec=draft2020 --all-errors --errors=text -d "$file"
 done < <(find ./raw/v2 -type f -name '*.json' -print0)
