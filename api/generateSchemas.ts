@@ -19,9 +19,28 @@ for (const [name, schema] of Object.entries(schemas)) {
     new URL(`./generated/${CURRENT_API_VERSION}/${filename}.json`, import.meta.url),
     JSON.stringify(
       z.toJSONSchema(schema, {
+        target: "draft-2020-12",
         reused: "ref",
         cycles: "ref",
         unrepresentable: "throw",
+        // NOTE: this patches up a bug in zod, where it generates
+        // a non-existent "format": "emoji" for any type .emoji()
+        // search the entire schema for such keys and remove them
+        override: (ctx) => {
+          ((obj) => {
+            const visit = (o) => {
+              if (Array.isArray(o)) {
+                o.forEach(visit);
+              } else if (o && typeof o === "object") {
+                if (o.type === "string" && o.format === "emoji") {
+                  delete o.format;
+                }
+                Object.values(o).forEach(visit);
+              }
+            };
+            visit(obj);
+          })(ctx.jsonSchema);
+        },
       }),
       null,
       2,
