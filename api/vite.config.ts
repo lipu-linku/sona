@@ -5,7 +5,4 @@ export default defineConfig({
   plugins: [
     cloudflare()
   ],
-  experimental: {
-    enableNativePlugin: true,
-  },
 });
