@@ -45,5 +45,7 @@ while IFS= read -r -d '' file; do
 		continue
 	fi
 
-	npx ajv-cli -s "./generated/v2/$schema" -c ajv-formats --spec=draft2020 --all-errors --errors=text -d "$file"
+  # due to a bug in ajv-cli, you must specify the spec for draft2020
+  # and due to a badly chosen default and not inspecting the schema, you must turn off strict
+	npx ajv-cli -s "./generated/v2/$schema" -c ajv-formats --spec=draft2020 --all-errors --errors=text --strict=false -d "$file"
 done < <(find ./raw/v2 -type f -name '*.json' -print0)

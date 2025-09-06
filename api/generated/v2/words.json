@@ -98,6 +98,7 @@
           "sitelen_emosi": {
             "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
             "type": "string",
+            "format": "emoji",
             "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
           },
           "sitelen_jelo": {
@@ -106,6 +107,7 @@
             "type": "array",
             "items": {
               "type": "string",
+              "format": "emoji",
               "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
             }
           },
