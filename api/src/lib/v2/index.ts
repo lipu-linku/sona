@@ -239,7 +239,8 @@ const GlyphTranslation = z.object({
   names: Names,
 });
 
-export const Glyph = GlyphData.extend({
+// NOTE: must safeExtend due to refine on glyph type
+export const Glyph = GlyphData.safeExtend({
   translations: GlyphTranslation,
 });
 
