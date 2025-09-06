@@ -1,17 +1,17 @@
 #:schema ../../api/generated/v2/font.json
-id = "Neoletters"
-creator = ["Oren Watson"]
-features = ["codepoints only"]
-filename = "neoletters.ttf"
-last_updated = "2022-11"
-license = "CC BY NC SA 4.0"
-ligatures = false
-name = "Neoletters"
-style = "pixelated"
-ucsur = false
-version = "1.0"
+id             = "Neoletters"
+creator        = ["Oren Watson"]
+features       = ["codepoints only"]
+filename       = "neoletters.ttf"
+last_updated   = "2022-11"
+license        = "CC BY NC SA 4.0"
+ligatures      = false
+name           = "Neoletters"
+style          = "pixelated"
+ucsur          = false
+version        = "1.0"
 writing_system = "sitelen pona"
 
 [links]
 fontfile = "http://www.orenwatson.be/neoletters.ttf"
-webpage = "http://www.orenwatson.be/fontdemo.htm"
+webpage  = "http://www.orenwatson.be/fontdemo.htm"

@@ -1,2 +1,2 @@
-exclude = ["node_modules/**/*.toml"]
+exclude                  = ["node_modules/**/*.toml"]
 formatting.align_entries = true

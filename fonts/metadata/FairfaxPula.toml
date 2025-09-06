@@ -24,5 +24,5 @@ writing_system = "tokiponido logography"
 
 [links]
 fontfile = "https://github.com/kreativekorp/open-relay/raw/master/Fairfax/FairfaxPula.ttf"
-repo = "https://github.com/kreativekorp/open-relay/tree/master/Fairfax"
-webpage = "https://www.kreativekorp.com/software/fonts/fairfaxpona/#titipula"
+repo     = "https://github.com/kreativekorp/open-relay/tree/master/Fairfax"
+webpage  = "https://www.kreativekorp.com/software/fonts/fairfaxpona/#titipula"
