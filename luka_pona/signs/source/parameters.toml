@@ -1,5 +1,3 @@
-#:schema ../../../api/generated/v2/parameters_data.json
-
 [AKESI]
 handshape = "V"
 orientation = "fingers pointing outwards"
