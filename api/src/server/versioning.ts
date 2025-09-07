@@ -70,7 +70,7 @@ export const fetchFile = async <Endpoint extends EndpointConfig>(
     file = mergeToKey(file, "translations", translationData);
   }
 
-  console.log(schema, file)
+  console.log({ schema, file });
 
   // TODO: I cannot figure out how to make this type safe
   // @ts-expect-error
