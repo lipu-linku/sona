@@ -56,21 +56,21 @@ export const fetchFile = async <Endpoint extends EndpointConfig>(
 ): Promise<z.ZodSafeParseResult<z.output<Endpoint["schema"]>>> => {
   const imports = import.meta.glob<object>(`../../raw/**/*.json`, {
     import: "default",
-    eager: false,
+    eager: true,
   });
+  console.log({ imports });
   const { root = "/", filename, schema, translations = false } = config;
 
   let path = join("../../raw", version, root, filename);
-  let file = (await imports[path]?.())!;
+  let file = imports[path]!;
 
   // TODO: better way for caller to insert api specific behavior
   if (version === "v2" && translations === true) {
-    let path = join("../../raw", version, root, "translations", langcode, filename);
-    let translationData = (await imports[path]?.()) as object;
+    let translationPath = join("../../raw", version, root, "translations", langcode, filename);
+    let translationData = imports[translationPath]!;
     file = mergeToKey(file, "translations", translationData);
   }
 
-  console.log({ schema, file });
 
   // TODO: I cannot figure out how to make this type safe
   // @ts-expect-error
