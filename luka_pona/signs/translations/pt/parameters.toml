@@ -147,7 +147,7 @@ movement = "movement downward"
 
 [KEPEKEN]
 handshape = "OpenA"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KIJETESANTAKALU-1]
 handshape = "V"
@@ -176,11 +176,11 @@ orientation = "palm facing down"
 
 [KO-1]
 handshape = "BentB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KO-2]
 handshape = "BentB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KON]
 handshape = "5"
@@ -188,7 +188,7 @@ movement = "hand shaking/wiggling"
 
 [KULE]
 handshape = "9"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KULUPU-JAN]
 handshape = "1"
@@ -316,7 +316,7 @@ placement = "placed on eye"
 
 [LUKIN-SIKE]
 handshape = "V"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [LUPA]
 handshape = "O"
@@ -413,7 +413,7 @@ placement = "placed on eye"
 
 [NASA]
 handshape = "1"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [NASIN]
 handshape = "FlatB"
@@ -591,7 +591,7 @@ placement = "placed on chest/stomach"
 
 [SIKE]
 handshape = "O"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [SIN-JO-MONSI]
 handshape = "FlatB"
@@ -709,11 +709,11 @@ placement = "placed on neck"
 
 [TOKI-1]
 handshape = "FlatB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [TOKI-2]
 handshape = "FlatB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [TOMO]
 handshape = "BentB"
