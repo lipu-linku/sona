@@ -85,7 +85,7 @@ placement = "placed on shoulder"
 
 [IKE]
 handshape = "OpenA"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [ILO]
 handshape = "L"
@@ -97,7 +97,7 @@ placement = "placed on chest/stomach"
 
 [JAKI]
 handshape = "OpenA"
-orientation = "palm outwards"
+orientation = "palma para fora"
 placement = "placed on eyes"
 
 [JAN-LA]
