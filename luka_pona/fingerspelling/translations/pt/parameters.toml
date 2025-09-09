@@ -1,36 +1,36 @@
 [A-1]
 handshape = "OpenA"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [A-2]
 handshape = "1 + 5"
-placement = "touch the thumb"
+placement = "toque o polegar"
 
 [E-1]
 handshape = "BentB"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [E-2]
 handshape = "1 + 5"
-placement = "touch the index finger"
+placement = "toque o dedo indicador"
 
 [I-1]
 handshape = "1"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [I-2]
 handshape = "1 + 5"
-placement = "touch the middle finger"
+placement = "toque o dedo do meio"
 
 [J-1]
 handshape = "1"
-movement = "fingers flip inwards"
-orientation = "palm outwards"
+movement = "dedos viram para dentro"
+orientation = "palma para fora"
 
 [J-2]
 handshape = "1 + 5"
-movement = "draw a J shape on the hand"
-placement = "touch palm"
+movement = "desenhe um J na mão"
+placement = "toque a palma"
 
 [J-2-ANTE]
 handshape = "1 + FlatB"
@@ -47,12 +47,12 @@ placement = "touch base of finger"
 
 [L-1]
 handshape = "L"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [L-2]
 handshape = "1 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "toque a palma"
 
 [M-1]
 handshape = "BentB"
@@ -61,7 +61,7 @@ orientation = "palm downwards"
 [M-2]
 handshape = "FlatB + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "toque a palma"
 
 [N-1]
 handshape = "2"
@@ -70,11 +70,11 @@ orientation = "palm downwards"
 [N-2]
 handshape = "2 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "toque a palma"
 
 [O-1]
 handshape = "O"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [O-2]
 handshape = "1 + 5"
@@ -82,7 +82,7 @@ placement = "touch the ring finger"
 
 [P-1]
 handshape = "FlatB"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [P-2]
 handshape = "9 + 1"
@@ -90,12 +90,12 @@ placement = "touch tip of finger"
 
 [S-1]
 handshape = "5"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [S-2]
 handshape = "FlatB + FlatB"
 orientation = "palm down + palm side"
-placement = "touch palm"
+placement = "toque a palma"
 
 [T-1]
 handshape = "L"
@@ -107,7 +107,7 @@ placement = "touch edge of the hand"
 
 [U-1]
 handshape = "2"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [U-2]
 handshape = "1 + 5"
@@ -116,7 +116,7 @@ placement = "touch the pinkie finger"
 [W-1]
 handshape = "2"
 movement = "verticle circle movement"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [W-2]
 handshape = "5 + 5"
@@ -125,4 +125,4 @@ placement = "mesh fingers"
 [W-2-ANTE]
 handshape = "2 + FlatB"
 orientation = "palm up + palm down"
-placement = "touch palm"
+placement = "toque a palma"
