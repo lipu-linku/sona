@@ -8,7 +8,7 @@ coined_year = "2022"
 creator = ["the Half as Interesting team"]
 see_also = []
 source_language = "toki pona"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "pakola"
 deprecated = false
 
@@ -25,6 +25,7 @@ ligatures = ["pakola"]
 [usage]
 2023-09 = 3
 2024-09 = 5
+2025-09 = 4
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pakola"

@@ -33,6 +33,7 @@ ligatures = ["teje"]
 2022-08 = 8
 2023-09 = 6
 2024-09 = 7
+2025-09 = 8
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/teje"

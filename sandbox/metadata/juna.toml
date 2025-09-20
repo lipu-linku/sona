@@ -20,5 +20,6 @@ word = "juna"
 ligatures = []  # requested for ssk as "juna"
 
 [usage]
+2025-09 = 3
 
 [resources]

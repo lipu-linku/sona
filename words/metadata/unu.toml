@@ -30,6 +30,7 @@ ligatures = ["unu"]
 2022-08 = 12
 2023-09 = 16
 2024-09 = 8
+2025-09 = 7
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/unu"
