@@ -1,0 +1,19 @@
+#:schema ../../api/generated/word.json
+id = "inuka"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-pu"
+coined_year = "2020"
+creator = ["kule epiku Atawan"]
+see_also = ["nena", "pilin"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "inuka"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = ""
+
+[usage]
