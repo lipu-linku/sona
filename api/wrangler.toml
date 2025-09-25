@@ -1,6 +1,6 @@
 name                = "sona-api"
 compatibility_flags = ["nodejs_compat"]
-compatibility_date  = "2025-08-23"
+compatibility_date  = "2025-09-25"
 main                = "./src/server/index.ts"
 
 [observability]
