@@ -1,10 +1,10 @@
 a = "在一般使用中（不论 pu 前后），a 和 kin 是有各自词义的不同单词。在 pu 中，它们被列为同义词。"
 akesi = "akesi 之前有“不可爱的动物”之意，而 pu 也有记载，但这个定义已弃用，而在 ku 中，此单词的 pu 注释不再包含这个定义。"
 ala = ""
-alasa = 'The usage of "alasa" as a preverb meaning "try to" is more common than "lukin". In pu, only "lukin" has this meaning.'
+alasa = "alasa 比 lukin 更常用作“尝试”的前动词。在 pu 中，只有 lukin/ 有此定义。"
 ale = """
-ali 是 ale 的变体词，于 2002 年的一项民意调查创造，以避免与 ala 混淆。然而，ale 依然比 ali 更常用。
-大多数说话者宣称（在没有语境下）不明白“众多的、无数的、大量的”之意。
+ali 是 ale 的变体词，于 2002 年的一项民意调查创造，以避免与 ala 混淆，但 ale 迄今为止比 ali 更常用。
+大多数说话者称自己（至少在没有语境下）不能明白“众多的、无数的、大量的”之意。
 “20、120”是社区曾用的非 pu 定义，现今几乎无人使用。"""
 ali = "ali 是 ale 的变体词，于 2002 年的一项民意调查创造，以避免与 ala 混淆。然而，自 pu 出版以来，ale 依然比 ali 更常用。 一般不会被认为是独立一个单词。"
 anpa = "在一般使用中（不论 pu 前后），anpa 有“下面地方”之意。在 pu 中，只有 noka 有此定义。"
@@ -121,7 +121,7 @@ pali = ""
 palisa = ""
 pan = ""
 pana = ""
-penpo = "Coined in reference to ma pona pi toki pona's \"tenpo pi toki pona taso\" event, shortening it to \"tenpo penpo\"."
+penpo = "指 ma pona pi toki pona 的“tenpo pi toki pona taso”活动，简称“tenpo penpo”。"
 pi = 'The usage of "pi" to mean "of" (marking a possessor) is heavily discouraged nowadays, preferring it to only be used for regrouping within phrases.'
 pika = ""
 pilin = ""
