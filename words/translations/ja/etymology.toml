@@ -22,7 +22,7 @@ definition = "全て、全部の"
 language = "オランダ語"
 
 [[anpa]]
-definition = "below"
+definition = "下方に"
 language = "アカディ・フランス語"
 
 [[ante]]
@@ -53,7 +53,7 @@ definition = "epic"
 language = "フランス語"
 
 [[esun]]
-language = "Akan"
+language = "アカン語"
 definition = "at market"
 
 [[ijo]]
@@ -69,7 +69,7 @@ definition = "bad, mean, wicked"
 language = "フィンランド語"
 
 [[ilo]]
-definition = "tool"
+definition = "道具"
 language = "エスペラント語"
 
 [[ilo]]
@@ -86,7 +86,7 @@ language = "英語"
 
 [[isipin]]
 definition = "to think"
-language = "Tagalog"
+language = "タガログ語"
 
 [[jaki]]
 definition = "yucky"
@@ -98,19 +98,19 @@ language = "英語"
 
 [[jan]]
 definition = "person"
-language = "Cantonese"
+language = "広東語"
 
 [[jasima]]
 definition = "to reflect, reverberate"
 language = "トルコ語"
 
 [[jelo]]
-definition = "yellow"
+definition = "黄色"
 language = "英語"
 
 [[jo]]
 definition = "have"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[jonke]]
 definition = "hjönk"
@@ -134,11 +134,11 @@ language = "toki pona"
 
 [[kapesi]]
 definition = "brown, coffee (colour)"
-language = "Cantonese"
+language = "広東語"
 
 [[kapesi]]
 definition = "brown, coffee (colour)"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[kasi]]
 definition = "plant"
@@ -181,19 +181,19 @@ language = "フィンランド語"
 
 [[ko]]
 definition = "cream, paste"
-language = "Cantonese"
+language = "広東語"
 
 [[kokosila]]
-definition = "to speak among Esperantists in a language other than Esperanto"
+definition = "エスペランティスト達の間でエスペラント以外の言語を話すこと"
 language = "エスペラント語"
 
 [[kokosila]]
-definition = "crocodile"
+definition = "クロコダイル"
 language = "エスペラント語"
 
 [[kon]]
 definition = "air, atmosphere, ambience, opinion"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[konwe]]
 definition = "John Conway, creator of The Game of Life"
@@ -356,7 +356,7 @@ language = "Lojban"
 
 [[lupa]]
 definition = "loop"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[lupa]]
 definition = "loop"
@@ -529,7 +529,7 @@ language = "フィンランド語"
 
 [[ni]]
 definition = "this"
-language = "Cantonese"
+language = "広東語"
 
 [[ni]]
 definition = "(continuation of a state/action)"
@@ -705,7 +705,7 @@ language = "アカディ・フランス語"
 
 [[pu]]
 definition = "unworked wood, sincere, honest, inherent quality, simple"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[pu]]
 definition = "book"
@@ -737,11 +737,11 @@ language = "日本語"
 
 [[san]]
 definition = "三"
-language = "Cantonese"
+language = "広東語"
 
 [[san]]
 definition = "三"
-language = "Cantonese"
+language = "広東語"
 
 [[seli]]
 definition = "hot"
@@ -757,7 +757,7 @@ language = "ドイツ語"
 
 [[seme]]
 definition = "what, something"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[sewi]]
 definition = "upwards"
@@ -773,7 +773,7 @@ language = "英語"
 
 [[sin]]
 definition = "new, fresh"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[sina]]
 definition = "あなた、あなたがた"
@@ -781,7 +781,7 @@ language = "フィンランド語"
 
 [[sinpin]]
 definition = "in front"
-language = "Cantonese"
+language = "広東語"
 
 [[sitelen]]
 definition = "paint"
@@ -844,7 +844,7 @@ language = "韓国語"
 
 [[tan]]
 definition = "from"
-language = "Cantonese"
+language = "広東語"
 
 [[taso]]
 definition = "just, only, but, however"
@@ -908,7 +908,7 @@ language = "Ancient Greek"
 
 [[tonsi]]
 definition = "comrade (same will/purpose), LGBT+"
-language = "Mandarin"
+language = "中国語 (普通話)"
 
 [[tu]]
 definition = "two"
