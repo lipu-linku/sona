@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "pu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009-10-01"
 creator = ["jan Sonja"]
 see_also = ["ku", "su"]
 source_language = "multiple possibilities"
@@ -49,3 +49,8 @@ sitelen_jelo = ["🧘"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pu"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pu"
+
+[translations]
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+definition = "interacting with the book Toki Pona: The Language of Good by Sonja Lang"
+etymology = "樸 (pǔ): Mandarin, unworked wood, sincere, honest, inherent quality, simple; book: English, book"

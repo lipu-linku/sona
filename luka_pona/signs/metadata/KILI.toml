@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "kili"
 id = "KILI"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񅯡񆇡񌀅𝠃𝤣𝤪񅯡𝣿𝤛񆇡𝤙𝤌񌀅𝣴𝣵"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kili.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kili.mp4"
+
+[translations]
+icons = "a solid round edible thing"
+[translations.parameters]
+handshape = "OpenA"
+placement = "placed on mouth/chin"

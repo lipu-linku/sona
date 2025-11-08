@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sama-1"
 word = "sama"
 word_id = "sama"
@@ -14,5 +15,11 @@ ligature = "sama#1"
 ucsur = "U+F1956"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "from equal sign (=). compare blissymbol “same”"
+names = ["pu sama"]

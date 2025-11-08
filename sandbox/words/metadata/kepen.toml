@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kepen"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = []
 see_also = ["kepeken"]
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["kepeken"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kepen"
+
+[translations]
+commentary = "Coined as a shortened version of kepeken by jan Tomen in 2017. Did not see significant use until 2020."
+definition = "[shortened variant of kepeken]"
+etymology = "kepeken: toki pona, to use, by means of, with"

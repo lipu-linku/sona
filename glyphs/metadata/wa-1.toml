@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "wa-1"
 word = "wa"
 word_id = "wa"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "wa#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

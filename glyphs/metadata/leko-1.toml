@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "leko-1"
 word = "leko"
 word_id = "leko"
@@ -14,5 +15,11 @@ ligature = "leko#1"
 ucsur = "U+F197C"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "selo-1"
 word = "selo"
 word_id = "selo"
@@ -14,5 +15,11 @@ ligature = "selo#1"
 ucsur = "U+F1958"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["pu selo"]

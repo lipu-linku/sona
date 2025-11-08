@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "me"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = ""
+era = "post-pu"
+creation_date = ""
 creator = ["David B"]
 see_also = ["a", "kin", "seme"]
 source_language = "toki pona"
@@ -24,3 +24,8 @@ ligatures = ["me"]
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "[question particle modifier]"
+etymology = "anu seme: toki pona, tag question"

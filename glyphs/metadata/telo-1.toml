@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "telo-1"
 word = "telo"
 word_id = "telo"
@@ -14,5 +15,11 @@ ligature = "telo#1"
 ucsur = "U+F196A"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of wave. compare blissymbol “water”"
+names = ["pu telo"]

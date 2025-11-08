@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "alente"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["jan Pensamin"]
 see_also = []
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["alente"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/alente"
+
+[translations]
+commentary = 'Coined humorously as the "final nimisin" - any newer word would semantically be included in alente, so it can be refuted for being "alente but even nicher".'
+definition = "the set of concepts expressed by established toki pona words, subtracted from the set of every possible concept, such that every concept not already expressed by an existing toki pona word is expressed"
+etymology = "ale ante: toki pona, everything else"

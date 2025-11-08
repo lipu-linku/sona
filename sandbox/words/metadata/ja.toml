@@ -1,6 +1,6 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ja"
-author_verbatim = """.. ja2 **ja** - *post-ku*: marks the end of a preverb (or preposition, with lu)
+creator_verbatim = """.. ja2 **ja** - *post-ku*: marks the end of a preverb (or preposition, with lu)
 
 Makes it possible to make anything into a preverb without ambiguity.
 > *mi tawa telo e kasi*: I'm moving a plant towards water.
@@ -19,10 +19,10 @@ Can be used with lu (see `... lu`) to make composite prepositions.
 > *soko li lu ante mute ja leko*: Mushrooms are very different to squares.
 > *mi pali e ni lu kepeken wawa ja luka mi*: I made this by vigorously using my hands.
 > *pakala ni li kama lon lu kepeken pi ike lili ja ilo kule*: This mess was made via somewhat bad usage of a paintbrush."""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/870061596360208455"
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/870061596360208455"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["wuwojiti Heav, jan Pensa, jan Kita"]
 see_also = ["ta", "lo"]
 source_language = "a priori"
@@ -42,3 +42,8 @@ ligatures = ["ja"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Preverb_marking#ja"
+
+[translations]
+commentary = "Can also be combined with lo to mark modified or compound prepositions, marking the end of a preposition marked by lo and the start of the prepositional object."
+definition = "(particle) [marks the previous word(s) as a single preverb]"
+etymology = "a priori"

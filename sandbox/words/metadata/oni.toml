@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "oni"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["kulupu Eki"]
 see_also = ["insa", "lape", "musi", "sitelen", "jume"]
 source_language = "Ancient Greek"
@@ -30,3 +30,10 @@ ligatures = ["oni", "oni2"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/oni"
+
+[translations]
+commentary = """
+This word is deprecated by the creator; it is considered part of the "toki oni" tokiponido instead.
+The pronunciation of the second syllable was due to personal preferences of the creator, not modern Greek."""
+definition = "dream, daydream, imaginative play, vision, mystical state; to entrance"
+etymology = "ὄνειροι (oneiroi): Ancient Greek, (personifications of) dreams"

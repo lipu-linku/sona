@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kasan"
-author_verbatim = "**kasan** ★ legume, seed, nut, bean, soy, lentils, hard shelled fruit\n    ← Malay kacang 'bean, nut, peanut, legume'"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
+creator_verbatim = "**kasan** ★ legume, seed, nut, bean, soy, lentils, hard shelled fruit\n    ← Malay kacang 'bean, nut, peanut, legume'"
+creator_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["ilo Powa"]
 see_also = []
 source_language = "Malay"
@@ -23,3 +23,8 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "legume, seed, nut, bean, soy, lentils, hard shelled fruit"
+etymology = "kacang: Malay, bean, nut, peanut, legume"

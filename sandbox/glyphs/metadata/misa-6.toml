@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "misa-6"
 word = "misa"
 word_id = "misa"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "misa#6"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

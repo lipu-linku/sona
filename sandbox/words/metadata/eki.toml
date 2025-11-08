@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "eki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Anselo"]
 see_also = ["natu"]
 source_language = "English"
@@ -29,3 +29,8 @@ ligatures = ["eki"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/eki"
+
+[translations]
+commentary = 'It is recommended to use "natu" instead.'
+definition = "cross-like shape, intersection, overlap [alternative form of natu]"
+etymology = "x (letter name): English, x (letter name)"

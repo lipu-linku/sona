@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "lokon"
-author_verbatim = "what about a compromise?"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/520065545266004020"
+creator_verbatim = "what about a compromise?"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/520065545266004020"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Kamila", "soweli Wipa"]
 see_also = ["lukin", "oko"]
 source_language = "toki pona"
@@ -32,3 +32,8 @@ sitelen_emosi = "🧿"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lokon"
+
+[translations]
+commentary = ""
+definition = '[word made as a compromise between "lukin" and "oko"]'
+etymology = "lukin: toki pona, look, see, eye. (preverb) try to; oko: toki pona, look, see, eye. (preverb) try to"

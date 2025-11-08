@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "majuna"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "pre-pu"
-coined_year = "<2001"
+era = "pre-pu"
+creation_date = "2000-2001"
 creator = ["jan Sonja"]
 see_also = ["suli", "tenpo"]
 source_language = "Esperanto"
@@ -47,3 +47,8 @@ sitelen_jelo = ["🪷", "💾", "🧓"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/majuna"
+
+[translations]
+commentary = ""
+definition = "old, aged, ancient"
+etymology = "maljuna: Esperanto, old (not young); malus: Latin, bad; jung: German, young; jeune: French, young"

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ijo-1"
 word = "ijo"
 word_id = "ijo"
@@ -14,5 +15,11 @@ ligature = "ijo#1"
 ucsur = "U+F190C"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "a circle, for a general object"
+names = ["pu ijo"]

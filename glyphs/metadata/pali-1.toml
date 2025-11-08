@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pali-1"
 word = "pali"
 word_id = "pali"
@@ -14,5 +15,11 @@ ligature = "pali#1"
 ucsur = "U+F1949"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "hand modifier + ijo"
+names = ["pu pali"]

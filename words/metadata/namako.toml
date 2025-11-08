@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "namako"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009-10-01"
 creator = ["jan Sonja"]
 see_also = ["sin"]
 source_language = "multiple possibilities"
@@ -57,3 +57,8 @@ sitelen_jelo = ["🌶️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/namako"
+
+[translations]
+commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+definition = "spice, ornament, adornment; extra, additional"
+etymology = "नमक (namak): Hindi, salt; نمک (namak): Persian, salt"

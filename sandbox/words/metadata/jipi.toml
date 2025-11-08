@@ -1,12 +1,12 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "jipi"
-author_verbatim = """🚨 jipi *post-ku*
+creator_verbatim = """🚨 jipi *post-ku*
 yippie, autism, autistic, ADHD, neurodivergent, to stim | ALT [interjection] indicating excitement, joy, happiness
 *English, yippie*"""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1140627936664367115"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1140627936664367115"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["jan Leni", "niko"]
 see_also = ["a", "jepi", "jupi", "je", "wa", "sipije", "jami"]
 source_language = "English"
@@ -25,3 +25,8 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = "Coined indepentently multiple times over several years."
+definition = "[pronunciation variant of jupi]"
+etymology = "yippee: English, yippee"

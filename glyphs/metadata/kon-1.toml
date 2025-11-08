@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kon-1"
 word = "kon"
 word_id = "kon"
@@ -14,5 +15,11 @@ ligature = "kon#1"
 ucsur = "U+F191D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "ideogram; wavy lines to indicate the fluidity of gas. compare telo"
+names = ["pu kon"]

@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "lanpan-3"
 word = "lanpan"
 word_id = "lanpan"
@@ -14,5 +15,11 @@ ligature = "lanpan#3"
 ucsur = "U+F1985"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The 'mistake' version of lanpan is named such at least two independent authors of it misinterpreted somebody else's handwriting, taking the tiny unclosed loop to be an intentional feature of the glyph."
+etymology = ""
+names = ["mistake lanpan", "broken lanpan"]

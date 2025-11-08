@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kepeken-1"
 word = "kepeken"
 word_id = "kepeken"
@@ -14,5 +15,11 @@ ligature = "kepeken#1"
 ucsur = "U+F1919"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "hand modifier + ilo"
+names = ["pu kepeken"]

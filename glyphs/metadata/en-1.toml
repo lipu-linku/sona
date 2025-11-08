@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "en-1"
 word = "en"
 word_id = "en"
@@ -14,5 +15,11 @@ ligature = "en#1"
 ucsur = "U+F190A"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "from plus sign (+); compare blissymbol “and”."
+names = ["pu en"]

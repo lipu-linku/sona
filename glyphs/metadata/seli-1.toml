@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "seli-1"
 word = "seli"
 word_id = "seli"
@@ -14,5 +15,11 @@ ligature = "seli#1"
 ucsur = "U+F1957"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a lit campfire or a simplified pictogram of a fire"
+names = ["pu seli"]

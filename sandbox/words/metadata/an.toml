@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "an"
-author_verbatim = "an is a poki/tomo alternative that just means like a thing's attributed location"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1138870965145718785"
+creator_verbatim = "an is a poki/tomo alternative that just means like a thing's attributed location"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/1138870965145718785"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["waso Netun"]
 see_also = []
-source_language = ""
+source_language = "Mandarin"
 usage_category = "sandbox"
 word = "an"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "attributed location"
+etymology = "函 (hán): Chinese, attributed location/thing for something, slot. aisle, receptacle, home. passage (of text). to 'slot in'/'fit in'/be(come) accustomed"

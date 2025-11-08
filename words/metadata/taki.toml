@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "taki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan Kapilu", "jan Lewiku"]
 see_also = ["wan", "wile"]
 source_language = "Korean"
@@ -37,3 +37,8 @@ ligatures = ["taki", "taki2"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/taki"
+
+[translations]
+commentary = ""
+definition = "sticky, magnetic; bond, attract, attach, clip"
+etymology = "탁 (tag): Korean, the sound of two magnets hitting each other (onomatopoeia)"

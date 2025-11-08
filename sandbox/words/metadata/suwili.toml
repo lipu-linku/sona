@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "suwili"
-author_verbatim = "suwi + soweli\n=\nsuwili"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/703784872191197224"
+creator_verbatim = "suwi + soweli\n=\nsuwili"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/703784872191197224"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["leko Icy"]
 see_also = []
-source_language = ""
+source_language = "toki pona"
 usage_category = "sandbox"
 word = "suwili"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "cute animal"
+etymology = "soweli: toki pona; suwi: toki pona"

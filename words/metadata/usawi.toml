@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "usawi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Tumu"]
 see_also = ["wawa", "nasa", "ken"]
 source_language = "Swahili"
@@ -34,3 +34,8 @@ ligatures = ["usawi"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/usawi"
+
+[translations]
+commentary = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
+definition = "magic, sorcery; enchant; magical, supernatural, occult, incomprehensible"
+etymology = "uchawi: Swahili, witchcraft, sorcery"

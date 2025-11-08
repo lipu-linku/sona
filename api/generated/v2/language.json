@@ -3,13 +3,14 @@
   "type": "object",
   "properties": {
     "id": {
-      "description": "The language code used by Crowdin. Approximates 2 letter code -> 3 letter code.",
+      "description": "The language's code in Crowdin. Usually its 2 or 3 letter code.",
       "type": "string",
       "minLength": 2
     },
     "locale": {
       "description": "The locale code corresponding to the language.",
-      "type": "string"
+      "type": "string",
+      "minLength": 2
     },
     "direction": {
       "description": "The direction of the language's script.",
@@ -32,7 +33,7 @@
           "type": "string"
         },
         "endonym": {
-          "description": "The name of the language in that language.",
+          "description": "The name of the language in that language. Prefer if available.",
           "type": "string"
         },
         "tok": {

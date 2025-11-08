@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pini-1"
 word = "pini"
 word_id = "pini"
@@ -14,5 +15,11 @@ ligature = "pini#1"
 ucsur = "U+F1950"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a blocking wall"
+names = ["pu pini"]

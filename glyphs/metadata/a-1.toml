@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "a-1"
 word = "a"
 word_id = "a"
@@ -14,5 +15,11 @@ ligature = "a#1"
 ucsur = "U+F1900"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "exclamation radical + Latin lowercase letter A; radical from exclamation point (!), without the full stop at the bottom. compare o"
+names = ["pu a"]

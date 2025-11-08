@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "suno-1"
 word = "suno"
 word_id = "suno"
@@ -14,5 +15,11 @@ ligature = "suno#1"
 ucsur = "U+F1964"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of the sun"
+names = ["pu suno"]

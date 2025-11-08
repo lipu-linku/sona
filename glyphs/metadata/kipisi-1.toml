@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kipisi-1"
 word = "kipisi"
 word_id = "kipisi"
@@ -14,5 +15,11 @@ ligature = "kipisi#1"
 ucsur = "U+F197B"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["percent kipisi"]

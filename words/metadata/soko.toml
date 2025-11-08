@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "soko"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin", "kala kala/jan Salan"]
 see_also = ["kasi", "kili"]
 source_language = "Georgian"
@@ -44,3 +44,8 @@ sitelen_jelo = ["🍄"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/soko"
+
+[translations]
+commentary = ""
+definition = "mushroom, fungus, lichen"
+etymology = "სოკო (sok’o): Georgian, mushroom"

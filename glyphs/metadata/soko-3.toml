@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "soko-3"
 word = "soko"
 word_id = "soko"
@@ -14,5 +15,11 @@ ligature = "soko#3"
 ucsur = "U+F1981"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "Despite thin stem soko being the more popular rendering of soko through at least February 2024, the primary glyph for soko is annulus soko as determined by the Unicode project."
+etymology = ""
+names = ["annulus soko"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lape-1"
 word = "lape"
 word_id = "lape"
@@ -14,5 +15,11 @@ ligature = "lape#1"
 ucsur = "U+F1922"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a lying person"
+names = ["pu lape"]

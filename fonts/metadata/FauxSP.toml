@@ -1,18 +1,18 @@
 #:schema ../../api/generated/v2/font.json
-id             = "FauxSP"
-creator        = ["neverRare / ko Koko"]
-features       = []
-filename       = "FauxSP.otf"
-last_updated   = "2024-10"
-license        = "all rights reserved"
-ligatures      = false
-name           = "FauxSP"
-style          = "handdrawn"
-ucsur          = false
-version        = "1.000"
+id = "FauxSP"
+creator = ["neverRare / ko Koko"]
+features = []
+filename = "FauxSP.otf"
+last_updated = "2024-10"
+license = "all rights reserved"
+ligatures = false
+name = "FauxSP"
+style = "handdrawn"
+ucsur = false
+version = "1.000"
 writing_system = "alphabet"
 
 [links]
 fontfile = "https://github.com/neverRare/faux-sp/releases/download/v2.000/FauxSP.otf"
-webpage  = "https://neverrare.github.io/faux-sp/"
-repo     = "https://github.com/neverRare/faux-sp/"
+webpage = "https://neverrare.github.io/faux-sp/"
+repo = "https://github.com/neverRare/faux-sp/"

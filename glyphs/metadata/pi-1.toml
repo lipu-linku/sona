@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pi-1"
 word = "pi"
 word_id = "pi"
@@ -14,5 +15,11 @@ ligature = "pi#1"
 ucsur = "U+F194D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps from tilted blissymbol “by”"
+names = ["pu pi"]

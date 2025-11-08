@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "konsi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["jan Epen"]
 see_also = ["toki"]
 source_language = "Korean"
@@ -29,3 +29,8 @@ ligatures = ["konsi"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/konsi"
+
+[translations]
+commentary = "Virtually unknown outside the Korean toki pona community. Apparently used humorously."
+definition = "to notify, to let know"
+etymology = "공지 (gongji): Korean, announcement, notice"

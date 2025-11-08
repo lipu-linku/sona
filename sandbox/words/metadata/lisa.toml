@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "lisa"
-author_verbatim = ":nimisin~1: lisa – ~post-pu~ fox\n    ← Polish lisa ‘fox (accusative)’"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/846008831464177694"
+creator_verbatim = ":nimisin~1: lisa – ~post-pu~ fox\n    ← Polish lisa ‘fox (accusative)’"
+creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/846008831464177694"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Kita"]
 see_also = ["soweli", "kisa"]
-source_language = ""
+source_language = "Polish"
 usage_category = "sandbox"
 word = "lisa"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = "Coined in response to -isa animal words."
+definition = "fox"
+etymology = "lisa: Polish, fox (accusative)"

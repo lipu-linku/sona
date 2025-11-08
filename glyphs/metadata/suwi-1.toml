@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "suwi-1"
 word = "suwi"
 word_id = "suwi"
@@ -14,5 +15,11 @@ ligature = "suwi#1"
 ucsur = "U+F1966"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a smiling face"
+names = ["pu suwi"]

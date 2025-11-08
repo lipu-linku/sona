@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "meli-3"
 word = "meli"
 word_id = "meli"
@@ -14,5 +15,11 @@ ligature = "meli#3"
 ucsur = "U+F1933"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

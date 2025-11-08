@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "meso-1"
 word = "meso"
 word_id = "meso"
@@ -14,5 +15,11 @@ ligature = "meso#1"
 ucsur = "U+F1982"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

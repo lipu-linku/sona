@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "anu-1"
 word = "anu"
 word_id = "anu"
@@ -14,5 +15,11 @@ ligature = "anu#1"
 ucsur = "U+F1907"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = 'perhaps from mathematical symbol "or" (∨)'
+names = ["pu anu"]

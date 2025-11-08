@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "pata"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "pre-pu"
-coined_year = "2002"
+era = "pre-pu"
+creation_date = "2002"
 creator = ["jan Sonja"]
 see_also = ["sama"]
 source_language = "multiple possibilities"
@@ -36,3 +36,8 @@ sitelen_emosi = "👯‍♀️"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pata"
+
+[translations]
+commentary = ""
+definition = "sibling, brother, sister"
+etymology = "брат (brat): Serbo-Croatian, brother; brata: Tok Pisin, sibling or cousin of the same gender; brother: English, brother"

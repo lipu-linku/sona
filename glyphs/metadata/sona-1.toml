@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sona-1"
 word = "sona"
 word_id = "sona"
@@ -14,5 +15,11 @@ ligature = "sona#1"
 ucsur = "U+F1961"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "lipu with emitters"
+names = ["pu sona"]

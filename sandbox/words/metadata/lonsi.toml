@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "lonsi"
-author_verbatim = "LONSI"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
+creator_verbatim = "LONSI"
+creator_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["jan Emikili"]
 see_also = ["lon", "tonsi"]
 source_language = "toki pona"
@@ -24,3 +24,8 @@ ligatures = ["lonsi"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/List_of_ma_pona_pi_toki_pona_slang#lonsi"
+
+[translations]
+commentary = "Used commonly in ma pona pi toki pona for much of late 2023; no set meaning other than the phrase \"lonsi li lonsi\"."
+definition = "[a meaningless word related to tonsi]"
+etymology = "lon: toki pona, present, existing, real, true. (preposition) located at, in, during, in the context of; tonsi: toki pona, nonbinary, gender nonconforming, genderqueer, transgender"

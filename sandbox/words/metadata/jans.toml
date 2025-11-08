@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "jans"
-author_verbatim = "how are jans doing that!?@?"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/339777658172735489"
+creator_verbatim = "how are jans doing that!?@?"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/339777658172735489"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = []
 see_also = ["jan"]
 source_language = "multiple"
@@ -30,3 +30,8 @@ ligatures = ["jans"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jans"
+
+[translations]
+commentary = "Not coined directly, but developed out of repeated use in the early ma pona pi toki pona Discord server community. jans was repeatedly used because of the humor in adding an English plural suffix to a Toki Pona word."
+definition = "a particular group of early members of the ma pona pi toki pona Discord server"
+etymology = "jan: toki pona, person, people; -/z/: English, (plural suffix)"

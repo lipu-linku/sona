@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kewi"
-author_verbatim = "The word kewi could mean credit, acknowledgement, capital, reputation, status… you get the idea.\n\nI know this will never happen, but I propose that mani is replaced with kewi."
-author_verbatim_source = "https://www.reddit.com/r/tokipona/comments/t2ax5w/new_word_proposal_kewi_credit/"
+creator_verbatim = "The word kewi could mean credit, acknowledgement, capital, reputation, status… you get the idea.\n\nI know this will never happen, but I propose that mani is replaced with kewi."
+creator_source = "https://www.reddit.com/r/tokipona/comments/t2ax5w/new_word_proposal_kewi_credit/"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["jan Mesa Pan Masa"]
 see_also = ["mani"]
-source_language = ""
+source_language = "English"
 usage_category = "sandbox"
 word = "kewi"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "credit, acknowledgement, capital, reputation, status"
+etymology = "credit: English, credit"

@@ -12,14 +12,16 @@
       "description": "a list of this font's creators",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     },
     "features": {
       "description": "a list of features this font supports",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     },
     "filename": {
@@ -30,7 +32,7 @@
     "last_updated": {
       "description": "the rough date of this font's last update",
       "type": "string",
-      "pattern": "^(20\\d{2}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$"
+      "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$"
     },
     "license": {
       "description": "an SPDX expression describing this font's license: https://spdx.org/licenses/",
@@ -77,18 +79,15 @@
       "properties": {
         "fontfile": {
           "description": "a link to the font file published by the original author (not the mirror on the Linku Project's GitHub)",
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/$defs/__schema0"
         },
         "repo": {
           "description": "a link to a web hosted repository of this font's source files (usually hosted on GitHub or GitLab)",
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/$defs/__schema0"
         },
         "webpage": {
           "description": "a link to this font's home page, usually showcasing its features and usage/installation",
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/$defs/__schema0"
         }
       },
       "additionalProperties": false
@@ -109,5 +108,12 @@
     "writing_system",
     "links"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "description": "A URL pointing to some external resource.",
+      "type": "string",
+      "format": "uri"
+    }
+  }
 }

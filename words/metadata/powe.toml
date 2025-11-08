@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "powe"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "pre-pu"
-coined_year = "<2001"
+era = "pre-pu"
+creation_date = "2007-01-19"
 creator = ["jan Sonja"]
 see_also = ["ike", "lon"]
 source_language = "Acadian French"
@@ -50,3 +50,8 @@ sitelen_emosi = "🧞"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/powe"
+
+[translations]
+commentary = ""
+definition = "unreal, false, untrue; pretend; deceive, trick"
+etymology = "pas vrai: Acadian French, not true"

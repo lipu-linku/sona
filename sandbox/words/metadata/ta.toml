@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ta"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["ilo Powa"]
 see_also = ["ja"]
 source_language = "a priori"
@@ -26,3 +26,8 @@ ligatures = ["ta"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Preverb_marking"
+
+[translations]
+commentary = 'Follows a semantically consistent pattern of "SUBJ li PV ta PRED" = "SUBJ li PV e [SUBJ li PRED]" or "[SUBJ li PRED] li PV". The top and bottom lines of the sitelen pona may be extended to the left around the pre-predicate word(s).'
+definition = "(particle) [marks the previous words as preverbs]"
+etymology = "a priori"

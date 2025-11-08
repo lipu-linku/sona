@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "kiki-4"
 word = "kiki"
 word_id = "kiki"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "kiki#4"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "There are exceedingly few attestations for 5 point kiki."
+etymology = ""
+names = ["5 point kiki"]

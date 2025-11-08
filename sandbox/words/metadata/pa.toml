@@ -1,17 +1,17 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
+# https://discord.com/channels/301377942062366741/301377942062366741/640756102098714650
 id = "pa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Jan", "jan Lija"]
 see_also = ["a", "n"]
 source_language = "English"
 usage_category = "sandbox"
 word = "pa"
 deprecated = true
-# https://discord.com/channels/301377942062366741/301377942062366741/640756102098714650
 glyph_ids = []
 primary_glyph_id = ""
 synonym_glyph_ids = []
@@ -33,3 +33,8 @@ sitelen_emosi = "🤨"
 2024-09 = 2
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "(interjection) bruh; expression of disbelief, exasperation, or excitement"
+etymology = "bruh: English, bruh"

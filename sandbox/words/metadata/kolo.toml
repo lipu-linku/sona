@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kolo"
-author_verbatim = ""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
+creator_verbatim = ""
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["soweli pi loje walo"]
 see_also = []
-source_language = ""
+source_language = "Swahili"
 usage_category = "sandbox"
 word = "kolo"
 deprecated = false
@@ -23,3 +23,8 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "pig"
+etymology = "guruwe: Swahili, pig; ingulube: Zulu, pig; ngulu: Kongo, pig; guarro, gorrino: Spanish, pig; gorogoro: Japanese, growl; grunt: English, grunt"

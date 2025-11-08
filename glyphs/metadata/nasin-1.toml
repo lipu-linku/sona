@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "nasin-1"
 word = "nasin"
 word_id = "nasin"
@@ -14,5 +15,11 @@ ligature = "nasin#1"
 ucsur = "U+F193F"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "ideogram consisting of an arrow along a vertical line"
+names = ["pu nasin"]

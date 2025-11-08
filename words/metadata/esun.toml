@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "esun"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2007-12"
 creator = ["jan Sonja"]
 see_also = ["mani", "pana", "jo"]
 source_language = "Akan"
@@ -70,3 +70,8 @@ sitelen_jelo = ["🛒"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/esun"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#esun"
+
+[translations]
+commentary = 'According to jan Sonja, "esun was told [to her] by a taxi driver who spoke a language from the Akan family in West Africa".'
+definition = "trade, barter, exchange, swap, buy, sell; market, shop, fair, bazaar, place of business"
+etymology = "edwamu: Akan, at market"

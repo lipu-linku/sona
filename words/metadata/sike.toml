@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "sike"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["leko"]
 source_language = "English"
@@ -66,3 +66,8 @@ sitelen_jelo = ["⭕"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sike"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sike"
+
+[translations]
+commentary = ""
+definition = "circle, sphere, spiral, round thing e.g. ball, wheel; repeating thing e.g. cycle, orbit, loop"
+etymology = "circle: English, circle"

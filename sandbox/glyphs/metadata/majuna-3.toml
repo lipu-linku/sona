@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "majuna-3"
 word = "majuna"
 word_id = "majuna"
@@ -14,5 +15,11 @@ ligature = "majuna#3"
 ucsur = "U+F19A2"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The originally identified version of moon majuna has a full circle, where version that persisted has a small cutout. However, lipamanka confirmed that its original source was this glyph."
+etymology = ""
+names = ["moon majuna"]

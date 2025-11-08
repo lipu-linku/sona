@@ -1,7 +1,7 @@
 #:schema ../../api/generated/v2/font.json
 id = "sitelen pona lili"
 creator = ["jan Melon"]
-features = ["ku suli","ASCII transcription","cartouches",]
+features = ["ku suli", "ASCII transcription", "cartouches"]
 filename = "sitelenponalili.otf"
 last_updated = "2024-04"
 license = "OTF"

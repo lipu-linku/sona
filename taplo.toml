@@ -1,2 +1,10 @@
-exclude                  = ["node_modules/**/*.toml"]
-formatting.align_entries = true
+exclude = ["node_modules/**/*.toml", "api/**/*.toml"]
+formatting.align_entries = false
+formatting.allowed_blank_lines = 1
+formatting.array_auto_collapse = false
+formatting.compact_inline_tables = false
+formatting.align_comments = true
+formatting.align_signle_comments = true
+formatting.trailing_newline = true
+formatting.compact_entries = false
+formatting.align_single_comments = true

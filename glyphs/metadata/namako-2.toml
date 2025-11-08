@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "namako-2"
 word = "namako"
 word_id = "namako"
@@ -14,5 +15,11 @@ ligature = "namako#2"
 ucsur = "U+F1978"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["pepper namako", "chili namako"]

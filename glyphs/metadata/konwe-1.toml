@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "konwe-1"
 word = "konwe"
 word_id = "konwe"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "konwe#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "This glyph has been independently created a few times; the currently known earliest instance is likely not the earliest, especially based on the followin conversation: https://discord.com/channels/948448338662010910/1191946786936459325/1294891407026159647"
+etymology = "pictogram of a glider in Conway's Game of Life, a machine which moves across the game board."
+names = ["glider konwe"]

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kalapisituji"
-author_verbatim = ""
-author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+creator_verbatim = ""
+creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-coined_era = "post-ku"
-coined_year = ""
+era = "post-ku"
+creation_date = ""
 creator = []
 see_also = ["nasa", "powe", "antikontitutonelema", "yupekosi"]
 source_language = "Belgian French"
@@ -24,3 +24,8 @@ ligatures = []
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = "the orthography of that word is not fixed and any “wuwojiti” is not considered a mistake. In fact, basically anything after kalapis… can be altered and it would still be considered the same word (so go ahead and have fun with kalapisituwi, kalapisituje, kalapisu…, or any form that pleases you)."
+definition = "scam, utterly nonsensical, muddled and confused (often on purpose)"
+etymology = "carabistouille: Belgian French"

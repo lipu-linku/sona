@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "su-1"
 word = "su"
 word_id = "su"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "su#1"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of the front cover of The Wizard of Oz illustrated story book, depicting the yellow brick road from the story"
+names = ["su nanpa wan"]

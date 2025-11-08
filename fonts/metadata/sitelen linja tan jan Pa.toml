@@ -1,22 +1,22 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen linja tan jan Pa"
-name      = "sitelen linja tan jan Pa"
-filename  = "sitelen linja tan jan Pa.ttf"
-creator   = ["jan Pa"]
-license   = "OFL-1.1"
+id = "sitelen linja tan jan Pa"
+name = "sitelen linja tan jan Pa"
+filename = "sitelen linja tan jan Pa.ttf"
+creator = ["jan Pa"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
-writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
-                                # tokiponido alphabet, tokiponido syllabary, tokiponido logography
+ucsur = true
+writing_system = "sitelen pona"           # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+# tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
 last_updated = "2025-09"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
-  "SP Font Maker words v2.2",        # unless they didn't fill out all the words
+  "SP Font Maker words v2.2",           # unless they didn't fill out all the words
 
   # "incomplete",
   # "variable weight",
@@ -48,5 +48,5 @@ style = "uniform line weight"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20linja%20tan%20jan%20Pa.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-linja-tan-jan-Pa.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-linja-tan-jan-Pa.html"

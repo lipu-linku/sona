@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "len Majeka pi toki toki"
-name      = "len Majeka pi toki toki"
-filename  = "linja_Majeka_pi_toki_tokiB4.otf"
-creator   = ["jan Majeka"]
-license   = "CC-BY-ND 4.0"
+id = "len Majeka pi toki toki"
+name = "len Majeka pi toki toki"
+filename = "linja_Majeka_pi_toki_tokiB4.otf"
+creator = ["jan Majeka"]
+license = "CC-BY-ND 4.0"
 ligatures = false
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-12"
-version      = "b004.020.069"
+version = "b004.020.069"
 
 features = [
   "UCSUR-compliant",
@@ -31,4 +31,4 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/raw/refs/heads/main/linja_Majeka_pi_toki_tokiB4.otf"
-repo     = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/tree/main"
+repo = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/tree/main"

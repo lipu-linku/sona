@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mije-1"
 word = "mije"
 word_id = "mije"
@@ -14,5 +15,11 @@ ligature = "mije#1"
 ucsur = "U+F1935"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "head radical with perhaps wide shoulders. compare jan"
+names = ["pu mije"]

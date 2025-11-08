@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "olala"
-author_verbatim = ""
-author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+creator_verbatim = ""
+creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-coined_era = "post-ku"
-coined_year = ""
+era = "post-ku"
+creation_date = ""
 creator = []
 see_also = ["a", "epiku", "unpa"]
 source_language = "French"
@@ -24,3 +24,8 @@ ligatures = ["olala"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = "this is a hard word to explain and you've got to use it right. It's pretty much linked to anything you could use \"oh là  là\" or \"ouh là là\" for. But because it's now a full-fledged toki pona content word, it got even more powerful and versatile. It can be used for joy, surprise, excitement, admiration, compassion, empathy, sadness, disappointment, and even to show you’re interested in someone romantically. However, it's equally important (or more) to know when to *not* use the word, you wouldn’t want to commit a faux-pas!"
+definition = "something \"oh là là\""
+etymology = "oh là là: French"

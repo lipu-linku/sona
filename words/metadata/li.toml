@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "li"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["o"]
 source_language = "Esperanto"
@@ -44,3 +44,8 @@ sitelen_jelo = ["▶️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/li"
+
+[translations]
+commentary = ""
+definition = "(particle) [marks the start of an indicative verb (statement)]"
+etymology = "li: Esperanto, he; ille: Latin, he; i: Tok Pisin, he; he: English, he"

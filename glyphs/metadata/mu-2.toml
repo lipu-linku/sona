@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mu-2"
 word = "mu"
 word_id = "mu"
@@ -14,5 +15,11 @@ ligature = "mu#2"
 ucsur = "U+F1939"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["emitters mu", "emitters :"]

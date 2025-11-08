@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ma-1"
 word = "ma"
 word_id = "ma"
@@ -14,5 +15,11 @@ ligature = "ma#1"
 ucsur = "U+F1930"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps from modern astronomical symbol “earth” (⊕)"
+names = ["pu ma"]

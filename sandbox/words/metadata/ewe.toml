@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ewe"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan ko"]
 see_also = ["kiwen"]
 source_language = "multiple"
@@ -35,3 +35,8 @@ sitelen_emosi = "🌋"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ewe"
+
+[translations]
+commentary = ""
+definition = "stone, gravel, rock, pebble, lava, magma"
+etymology = "岩 (iwa): Japanese, rock, boulder; kiwen: toki pona, rock, stone, hard thing"

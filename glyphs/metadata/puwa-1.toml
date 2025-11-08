@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "puwa-1"
 word = "puwa"
 word_id = "puwa"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "puwa#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["cloud puwa"]

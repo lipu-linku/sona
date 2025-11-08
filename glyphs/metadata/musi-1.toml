@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "musi-1"
 word = "musi"
 word_id = "musi"
@@ -14,5 +15,11 @@ ligature = "musi#1"
 ucsur = "U+F193B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a smile with rosy cheeks or a lyre"
+names = ["pu musi"]

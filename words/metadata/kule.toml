@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "kule"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Acadian French"
@@ -54,3 +54,8 @@ sitelen_jelo = ["🌈"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kule"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kule"
+
+[translations]
+commentary = "in addition to its pu-definitions, kule is sometimes used to talk about more general kinds of categories, like type, kind, flavour, gender, etc."
+definition = "color, pigment; category, genre, flavor; colorful, diverse"
+etymology = "couleur: Acadian French, color"

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "lukin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["oko", "alasa"]
 source_language = "Tok Pisin"
@@ -85,3 +85,8 @@ sitelen_jelo = ["👀"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lukin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lukin"
+
+[translations]
+commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning. A very common beginner mistake is treating \"lukin\" as if it means \"appearance\", due to the mistakenly equating the \"visual\" meaning as in \"pona lukin (visually good)\" to mean \"looks good\"."
+definition = "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"
+etymology = "lukim: Tok Pisin, see, look at; look: English, look; him: English, him"

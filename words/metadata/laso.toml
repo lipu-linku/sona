@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "laso"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Welsh"
@@ -50,3 +50,8 @@ sitelen_jelo = ["☘️"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/laso"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#laso"
+
+[translations]
+commentary = ""
+definition = "turquoise, blue, green, cyan, indigo, lime green"
+etymology = "glas: Welsh, blue, inexperienced; glas: Proto-Brythonic, green, blue"

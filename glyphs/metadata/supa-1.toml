@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "supa-1"
 word = "supa"
 word_id = "supa"
@@ -14,5 +15,11 @@ ligature = "supa#1"
 ucsur = "U+F1965"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a table. compare blissymbol “table”"
+names = ["pu supa"]

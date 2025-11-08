@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "open-1"
 word = "open"
 word_id = "open"
@@ -14,5 +15,11 @@ ligature = "open#1"
 ucsur = "U+F1947"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of an opened container"
+names = ["pu open"]

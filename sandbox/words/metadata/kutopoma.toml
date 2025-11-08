@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kutopoma"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = []
 see_also = []
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["kutopoma"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kutopoma"
+
+[translations]
+commentary = "Virtually unknown outside the Korean toki pona community."
+definition = 'the Korean group chat "kulupu pi toki pona pi ma Anku"'
+etymology = "kulupu pi toki pona pi ma Anku: toki pona, the Toki Pona community of Korea"

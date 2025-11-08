@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ante-2"
 word = "ante"
 word_id = "ante"
@@ -14,5 +15,11 @@ ligature = "ante#2"
 ucsur = "U+F1906"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["skew ante"]

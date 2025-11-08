@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "melome-1"
 word = "melome"
 word_id = "melome"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "melome#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "lipamanka reports to have created this glyph to avoid it looking like 'nena+olin'"
+etymology = ""
+names = []

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu", "ku"]
 source_language = "a priori"
@@ -32,3 +32,8 @@ ligatures = ["nu"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nu"
+
+[translations]
+commentary = ""
+definition = "(word reserved for future use by Sonja Lang)"
+etymology = "a priori"

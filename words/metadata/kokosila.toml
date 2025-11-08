@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "kokosila"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Esperanto"
@@ -41,3 +41,8 @@ sitelen_jelo = ["🐊"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kokosila"
+
+[translations]
+commentary = 'In Esperanto, "krokodili" means "to speak among Esperantists in a language besides Esperanto," and is an established bit of Esperanto culture.'
+definition = "to speak a non-Toki Pona language in an environment where Toki Pona is more appropriate"
+etymology = "krokodilas: Esperanto, to speak among Esperantists in a language other than Esperanto; krokodilo: Esperanto, crocodile"

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "usawi-1"
 word = "usawi"
 word_id = "usawi"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "usawi#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The glyph 'nasa with emitters' was created on 2020-03-24 by jan Tumu, but the glyph would not be called usawi until independently created by jan Seli in 2021. https://discord.com/channels/301377942062366741/375591429608570881/692078503151009892"
+etymology = "nasa with emitters"
+names = []

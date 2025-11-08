@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen luka Okisen"
-name      = "sitelen luka Okisen"
-filename  = "sitelen_luka_Okisen_tan_kon_Okisen.ttf"
-creator   = ["kon Okisen"]
-license   = "SIL Open Font License"
+id = "sitelen luka Okisen"
+name = "sitelen luka Okisen"
+filename = "sitelen_luka_Okisen_tan_kon_Okisen.ttf"
+creator = ["kon Okisen"]
+license = "SIL Open Font License"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-05"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -21,11 +21,11 @@ features = [
   "eliki",
   "isipin",
   "usawi",
-  "wa"
+  "wa",
 ]
 
 style = "handwritten"
 
 [links]
 fontfile = "https://oxygen8.neocities.org/sitelen_luka_Okisen_tan_kon_Okisen.ttf"
-webpage  = "https://oxygen8.neocities.org/sitelen_luka_Okisen"
+webpage = "https://oxygen8.neocities.org/sitelen_luka_Okisen"

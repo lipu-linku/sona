@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "sewi"
 id = "SEWI-LON"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񅊡𝠃𝤒𝤕񅊡𝣺𝣷"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sewi.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sewi.mp4"
+
+[translations]
+icons = "going up, pointing up; pointing up at god(s)"
+[translations.parameters]
+handshape = "L"
+orientation = "finger pointing up"

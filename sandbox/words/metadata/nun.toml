@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nun"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Lenoka"]
 see_also = []
 source_language = "Cantonese"
@@ -25,3 +25,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "the digit 5"
+etymology = "五/伍 (ńgh): Cantonese, 5"

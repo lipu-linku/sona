@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "monsuta-1"
 word = "monsuta"
 word_id = "monsuta"
@@ -14,5 +15,11 @@ ligature = "monsuta#1"
 ucsur = "U+F197D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "visual representation of shaking as seen in cartoons"
+names = []

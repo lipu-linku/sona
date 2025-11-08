@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "wa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["mama mama pi jan Lakuse"]
 see_also = ["a", "n"]
 source_language = "onomatopoeia"
@@ -35,3 +35,8 @@ ligatures = ["wa"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wa"
+
+[translations]
+commentary = 'Sometimes analyzed as a variety of "a".'
+definition = "(interjection) [indicating awe or amazement]"
+etymology = "onomatopoeia"

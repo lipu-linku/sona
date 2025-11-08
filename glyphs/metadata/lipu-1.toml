@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lipu-1"
 word = "lipu"
 word_id = "lipu"
@@ -14,5 +15,11 @@ ligature = "lipu#1"
 ucsur = "U+F192A"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a sheet of paper. compare blissymbol “paper”"
+names = ["pu lipu"]

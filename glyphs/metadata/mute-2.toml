@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mute-2"
 word = "mute"
 word_id = "mute"
@@ -14,5 +15,11 @@ ligature = "mute#2"
 ucsur = "U+F193C"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "This was created as a ligature in Nishiki Teki on 11-02-2022, but not acknowledged as a \"mute\" glyph until Sonja posted it on 01-01-2024 and explicitly called such on 01-17-2024."
+etymology = ""
+names = ["hand mute", "luka mute", "4 luka mute"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "esun-1"
 word = "esun"
 word_id = "esun"
@@ -14,5 +15,11 @@ ligature = "esun#1"
 ucsur = "U+F190B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "not from a currency symbol (sonja confirmed; said “i think that one is from Mikmaq” but couldn't find a mikmaq symbol similar to it)."
+names = ["pu esun"]

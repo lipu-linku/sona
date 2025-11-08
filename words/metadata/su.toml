@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "su"
-author_verbatim = "**su**: interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
-author_verbatim_source = "https://discord.com/channels/972470770443886662/999566769943490600/1203577255096483880"
+creator_verbatim = "**su**: interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
+creator_source = "https://discord.com/channels/972470770443886662/999566769943490600/1203577255096483880"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu", "ku"]
 source_language = "a priori"
@@ -35,3 +35,8 @@ sitelen_jelo = ["🧙", "🧵"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/su"
+
+[translations]
+commentary = "This word was originally coined in ku as a reserved word for jan Sonja's future use. It was redefined upon the release of the first su book, making its status as a ku word debatable."
+definition = "interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
+etymology = "a priori"

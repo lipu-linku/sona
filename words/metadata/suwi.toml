@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "suwi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["pona"]
 source_language = "Tok Pisin"
@@ -57,3 +57,8 @@ sitelen_jelo = ["🍬"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/suwi"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#suwi"
+
+[translations]
+commentary = ""
+definition = "sweet, fragrant; cute, adorable"
+etymology = "swit: Tok Pisin, sweet; sweet: English, sweet"

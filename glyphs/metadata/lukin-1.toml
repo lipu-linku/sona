@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lukin-1"
 word = "lukin"
 word_id = "lukin"
@@ -14,5 +15,11 @@ ligature = "lukin#1"
 ucsur = "U+F192E"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of an eye. compare blissymbol “eye”"
+names = ["pu lukin"]

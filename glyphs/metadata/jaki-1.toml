@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "jaki-1"
 word = "jaki"
 word_id = "jaki"
@@ -14,5 +15,11 @@ ligature = "jaki#1"
 ucsur = "U+F1910"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "a scribble"
+names = ["pu jaki"]

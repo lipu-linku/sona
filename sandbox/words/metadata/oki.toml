@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "oki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["unknown"]
 see_also = []
 source_language = "English"
@@ -29,3 +29,8 @@ ligatures = ["oki"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/oki"
+
+[translations]
+commentary = 'Though it may have many possible origins, it was first coined in a small group chat. It is mostly used as a variant of the toki pona words "oke" and "ke"'
+definition = "(acknowledgement or acceptance)"
+etymology = "okie: English, okay; okay: English, okay"

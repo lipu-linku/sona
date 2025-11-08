@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "wan"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["tu", "mute"]
 source_language = "English"
@@ -74,3 +74,8 @@ sitelen_jelo = ["1️⃣"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wan"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#wan"
+
+[translations]
+commentary = ""
+definition = "(number) one; singular; combine, join, mix, fuse"
+etymology = "one: English, one"

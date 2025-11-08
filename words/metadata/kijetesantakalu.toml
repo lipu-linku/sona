@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "kijetesantakalu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009"
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Finnish"
@@ -44,3 +44,8 @@ sitelen_jelo = ["🦡", "🦝"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kijetesantakalu"
+
+[translations]
+commentary = "Coined as an April Fools joke in 2009."
+definition = "raccoon, kinkajou; any procyonid; any musteloid"
+etymology = "kierteishäntäkarhu: Finnish, kinkajou"

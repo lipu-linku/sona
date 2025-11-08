@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kuntu"
-author_verbatim = "kalama musi tan uta = kmtu"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/394702571429953537"
+creator_verbatim = "kalama musi tan uta = kmtu"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/394702571429953537"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Wesu", "jan Maliku", "jan inwin"]
 see_also = []
 source_language = "toki pona"
@@ -38,3 +38,8 @@ sitelen_emosi = "🤣"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kuntu"
+
+[translations]
+commentary = """Originally an initialism of "kalama musi tan uta" ("kmtu"), meant as an equivalent of English "LOL"; compare the formations of "omen" and "peto"."""
+definition = "laughter, chuckle, laugh, comedy, humor"
+etymology = "kulupu musi tan uta: toki pona, 'fun sound from the mouth', to sing with your voice"

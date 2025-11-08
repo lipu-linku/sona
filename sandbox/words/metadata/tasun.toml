@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "tasun"
-author_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"
+creator_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
+creator_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["jan Pensa, jan Kita"]
 see_also = ["soweli", "pela", "wisa"]
 source_language = "English"
@@ -24,3 +24,8 @@ ligatures = ["tasun", "taasun", "taaasun"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/User:Menasewi/nimi_weka#Words_for_%22dog%22"
+
+[translations]
+commentary = "Coined as a challenge to font creators. The sitelen pona glyph can be extended horizontally. This is usually represented in Latin characters by additional a's, e.g. \"taaasun\"."
+definition = "dachshund"
+etymology = "dachshund: English, dachshund"

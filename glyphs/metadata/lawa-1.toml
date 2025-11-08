@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lawa-1"
 word = "lawa"
 word_id = "lawa"
@@ -14,5 +15,11 @@ ligature = "lawa#1"
 ucsur = "U+F1924"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "head radical; perhaps the horizontal line for the same reason as in kule. alternatively perhaps a pictogram of a person wearing a cap"
+names = ["pu lawa"]

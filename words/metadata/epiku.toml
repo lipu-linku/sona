@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "epiku"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Jan", "jan Peche"]
 see_also = ["pona", "wawa"]
 source_language = "French"
@@ -45,3 +45,8 @@ sitelen_jelo = ["😁"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/epiku"
+
+[translations]
+commentary = ""
+definition = "epic, cool, awesome, amazing"
+etymology = "épique: French, epic"

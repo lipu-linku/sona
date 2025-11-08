@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mun-1"
 word = "mun"
 word_id = "mun"
@@ -14,5 +15,11 @@ ligature = "mun#1"
 ucsur = "U+F193A"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a crescent moon. compare blissymbol “moon”"
+names = ["pu mun"]

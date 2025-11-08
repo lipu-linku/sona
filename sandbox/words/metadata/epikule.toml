@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "epikule"
-author_verbatim = "epikule"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/809646790525714474"
+creator_verbatim = "epikule"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/809646790525714474"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["lipamanka"]
 see_also = ["kule", "epiku"]
-source_language = ""
+source_language = "toki pona"
 usage_category = "sandbox"
 word = "epikule"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = ["epikule"]
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = "Also known as kulepiku. Basically just a compound glyph that happened to be listed as a word."
+definition = "kule epiku"
+etymology = "kule epiku: toki pona"

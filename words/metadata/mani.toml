@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "mani"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["esun"]
 source_language = "English"
@@ -83,3 +83,8 @@ sitelen_jelo = ["🐮"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/mani"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mani"
+
+[translations]
+commentary = ""
+definition = "money, currency; thing of value e.g. gold, investment, livestock"
+etymology = "money: English, money; fehu: Proto-Germanic, livestock; pecū: Latin, cattle"

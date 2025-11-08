@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ale-1"
 word = "ale"
 word_id = "ale"
@@ -14,5 +15,11 @@ ligature = "ale#1"
 ucsur = "U+F1904"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "infinity symbol (∞)"
+names = ["pu ale"]

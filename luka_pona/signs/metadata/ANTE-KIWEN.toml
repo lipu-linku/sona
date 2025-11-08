@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ante"
 id = "ANTE-KIWEN"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񅰱񉳉𝠃𝤔𝤟񅰱𝣹𝣭񉳉𝣽𝤃"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ante.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ante.mp4"
+
+[translations]
+icons = "changing something from one state to another"
+[translations.parameters]
+handshape = "OpenA"
+movement = "palm flip up"

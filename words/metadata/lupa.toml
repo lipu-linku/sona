@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "lupa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Lojban"
@@ -57,3 +57,8 @@ sitelen_jelo = ["🚪"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lupa"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lupa"
+
+[translations]
+commentary = ""
+definition = "hole, pit, cave, doorway, window, portal"
+etymology = "clupa: Lojban, loop; 圈 (quān): Mandarin, loop; loop: English, loop; पाश (pāś): Hindi, loop; أنشوطة‏ (anšūṭa): Arabic, loop"

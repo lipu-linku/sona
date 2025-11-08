@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "tu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["kipisi"]
 source_language = "multiple"
@@ -56,3 +56,8 @@ sitelen_jelo = ["⏸️"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/tu"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#tu"
+
+[translations]
+commentary = ""
+definition = "(number) two; separate, divide, split"
+etymology = "two: English, two; du: Esperanto, two"

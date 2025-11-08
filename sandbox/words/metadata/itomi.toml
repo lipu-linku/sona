@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "itomi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Wesu OR jan inwin", "jan Lemon"]
 see_also = []
 source_language = "English"
@@ -31,3 +31,8 @@ sitelen_emosi = "😈"
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = 'Coined in reference to the song ‘Mia Khalifa’ by iLOVEFRiDay, where "hit or miss" was a prominent lyric. Sources disagree on who coined the word.'
+definition = "Schadenfreude, indirect insult, disrespect, shade"
+etymology = "hit or miss: English, hit or miss"

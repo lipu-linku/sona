@@ -1,14 +1,14 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ka1"
-author_verbatim = """📣 ***ka*** *~nimisin~* — question marker
+creator_verbatim = """📣 ***ka*** *~nimisin~* — question marker
   ← Japanese か *ka* (question marker)
 usage: `[sentence] ka` 
 example: `sina pilin pona` (you feel good)
                   `sina pilin pona ka` (do you feel good?)"""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/843459024167108618"
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/843459024167108618"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["qpaper"]
 see_also = ["me", "su"]
 source_language = "Japanese"
@@ -27,3 +27,10 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = """Recoined indepentently multiple times over several years."
+Originally created for toki sapin, a short-lived unfinished tokiponido created in January 2021 by jan Posuke. It survived through notes in ma pona pi toki pona, where it was the first thing that came up for \"ka\".
+Created as part of a set with \"so\" for the past tense, \"te\" for the present tense, and contractions \"miso\", \"mite\", and \"mika\". Only \"ka\" has seen significant mention outside of toki sapin."""
+definition = "(sentence-final question marker)"
+etymology = "か: Japanese, (sentence-final question marker)"

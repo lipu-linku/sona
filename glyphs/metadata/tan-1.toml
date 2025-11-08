@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "tan-1"
 word = "tan"
 word_id = "tan"
@@ -14,5 +15,11 @@ ligature = "tan#1"
 ucsur = "U+F1967"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "a leaping arrow pointing from right to left, implying derivation or cause"
+names = ["pu tan"]

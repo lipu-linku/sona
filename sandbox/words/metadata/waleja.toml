@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "waleja"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin"]
 see_also = ["tenpo"]
 source_language = "Quenya"
@@ -46,3 +46,8 @@ sitelen_emosi = "ℹ️"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/waleja"
+
+[translations]
+commentary = 'May be used as a preposition, e.g. "lipu waleja toki pona = a book about toki pona". However, this usage is very rare.'
+definition = "context, topic, salience, pertinent, topical, pertain to, be relevant"
+etymology = "valdea: Quenya, of moment, important; valda: Quenya, worth, worthy, dear"

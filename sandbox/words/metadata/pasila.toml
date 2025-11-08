@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "pasila"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "pre-pu"
-coined_year = "<2001"
+era = "pre-pu"
+creation_date = "2000-2001"
 creator = ["jan Sonja"]
 see_also = ["pona"]
 source_language = "multiple possibilities"
@@ -32,3 +32,8 @@ sitelen_emosi = "🧘"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pasila"
+
+[translations]
+commentary = ""
+definition = "good, easy; simple, relaxed, peaceful, uncomplicated"
+etymology = "facile: Acadian French, easy; facila: Esperanto, easy"

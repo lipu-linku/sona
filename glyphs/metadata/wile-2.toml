@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "wile-2"
 word = "wile"
 word_id = "wile"
@@ -14,5 +15,11 @@ ligature = "wile#2"
 ucsur = "U+F1977"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["heart wile"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pakala-1"
 word = "pakala"
 word_id = "pakala"
@@ -14,5 +15,11 @@ ligature = "pakala#1"
 ucsur = "U+F1948"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a cracked object"
+names = ["pu pakala"]

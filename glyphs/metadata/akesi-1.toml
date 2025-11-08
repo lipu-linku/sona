@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "akesi-1"
 word = "akesi"
 word_id = "akesi"
@@ -14,5 +15,11 @@ ligature = "akesi#1"
 ucsur = "U+F1901"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "animal radical; pictogram of a lizard. radical represents eyes"
+names = ["pu akesi", "6 leg akesi", "6 legged akesi"]

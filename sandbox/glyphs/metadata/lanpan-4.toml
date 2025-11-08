@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "lanpan-4"
 word = "lanpan"
 word_id = "lanpan"
@@ -14,5 +15,11 @@ ligature = "lanpan#4"
 ucsur = "U+F1985"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The point version of lanpan, similar to the mistake version of lanpan, has been independently developed a few times."
+etymology = ""
+names = ["point lanpan"]

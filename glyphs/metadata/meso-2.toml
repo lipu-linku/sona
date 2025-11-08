@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "meso-2"
 word = "meso"
 word_id = "meso"
@@ -14,5 +15,11 @@ ligature = "meso#2"
 ucsur = "U+F1982"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "this glyph has also been tokana and yupekosi before.... https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562 08/12/2020 by Elemenopi https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844 here as tokana but it's sideways --- so, the history here is weird- olipija was already using this glyph as meso before lipamanka/jan Sa suggested it to be tokana! the yupekosi one seems to be unrelated."
+etymology = ""
+names = ["ante meso"]

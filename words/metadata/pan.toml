@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "pan"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2007-07"
 creator = ["jan Sonja"]
 see_also = ["moku", "kili"]
 source_language = "multiple"
@@ -54,3 +54,8 @@ sitelen_jelo = ["🍞"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pan"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pan"
+
+[translations]
+commentary = ""
+definition = "grains, starchy foods, baked goods e.g. rice, sorghum, bread, noodles, masa, porridge, injera"
+etymology = "pan: Romance, bread; パン (pan): Japanese, bread; pão: Portuguese, bread"

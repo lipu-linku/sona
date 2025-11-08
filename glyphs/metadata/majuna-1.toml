@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "majuna-1"
 word = "majuna"
 word_id = "majuna"
@@ -14,5 +15,11 @@ ligature = "majuna#1"
 ucsur = "U+F19A2"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["sin majuna", "flipped sin majuna", "turned sin majuna"]

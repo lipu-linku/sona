@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "siwala"
-author_verbatim = "**siwala** ★ the quality of being outside of understanding but accepted as reality; the quality of being not wished to be understood by one for the benefits associated with not understanding\n    ← Tagalog tiwalà 'trust; faith (in someone or something); reliance, confidence, belief'"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
+creator_verbatim = "**siwala** ★ the quality of being outside of understanding but accepted as reality; the quality of being not wished to be understood by one for the benefits associated with not understanding\n    ← Tagalog tiwalà 'trust; faith (in someone or something); reliance, confidence, belief'"
+creator_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["ilo Powa"]
 see_also = []
 source_language = "Tagalog"
@@ -24,3 +24,8 @@ ligatures = ["siwala"]
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "the quality of being outside of understanding but accepted as reality; the quality of being not wished to be understood by one for the benefits associated with not understanding"
+etymology = "tiwalà: Tagalog, trust. faith (in someone or something). reliance, confidence, belief"

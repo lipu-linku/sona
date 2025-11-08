@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "moli-2"
 word = "moli"
 word_id = "moli"
@@ -14,5 +15,11 @@ ligature = "moli#2"
 ucsur = "U+F1937"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["face moli", "x_x moli"]

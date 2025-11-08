@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "umesu"
-author_verbatim = "to amaze people by being on top of the musi Ako leaderboard"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/786041291707777034/806023115745263636"
+creator_verbatim = "to amaze people by being on top of the musi Ako leaderboard"
+creator_source = "https://discord.com/channels/301377942062366741/786041291707777034/806023115745263636"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Wija"]
 see_also = []
 source_language = "Iqglic"
@@ -30,3 +30,8 @@ ligatures = ["umesu"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/umesu"
+
+[translations]
+commentary = "Created for the game Acrophobia (musi Ako) in response to the fact that there are few words starting with 'u' in Toki Pona."
+definition = "amaze people by being on the top of the leaderboard of a toki pona game"
+etymology = "Umeyz: Iqglic, to amaze (someone), surprise, impress"

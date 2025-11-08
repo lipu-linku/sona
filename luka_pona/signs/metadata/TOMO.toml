@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "tomo"
 id = "TOMO"
 is_two_handed = true
@@ -17,3 +17,9 @@ swu = "𝠀񃃑񃃙񆇡񇀧񇀳𝠃𝤮𝤗񃃙𝣨𝣵񃃑𝤎𝣵񆇡𝤁𝤊�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tomo.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tomo.mp4"
+
+[translations]
+icons = "the shape of a house/building"
+[translations.parameters]
+handshape = "BentB"
+orientation = "palm facing sideways"

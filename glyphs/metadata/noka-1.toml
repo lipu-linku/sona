@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "noka-1"
 word = "noka"
 word_id = "noka"
@@ -14,5 +15,11 @@ ligature = "noka#1"
 ucsur = "U+F1943"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a foot with an ankle"
+names = ["pu noka"]

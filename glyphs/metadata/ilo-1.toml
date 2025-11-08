@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ilo-1"
 word = "ilo"
 word_id = "ilo"
@@ -14,5 +15,11 @@ ligature = "ilo#1"
 ucsur = "U+F190E"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a hammer"
+names = ["pu ilo"]

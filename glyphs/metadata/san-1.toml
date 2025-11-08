@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "san-1"
 word = "san"
 word_id = "san"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "san#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "This glyph for san may have been developed independently multiple times."
+etymology = ""
+names = []

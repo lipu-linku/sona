@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lon-1"
 word = "lon"
 word_id = "lon"
@@ -14,5 +15,11 @@ ligature = "lon#1"
 ucsur = "U+F192C"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "location radical above a line. compare blissymbol “over”"
+names = ["pu lon"]

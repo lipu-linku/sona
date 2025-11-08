@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "jule"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["pilin Powa"]
 see_also = ["tawa", "poka"]
 source_language = "Japanese"
@@ -28,3 +28,8 @@ ligatures = ["jule"]
 2023-09 = 4
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "indeterminate, inconclusive, tentative; unpredictable, unstable, volatile; to waver; to vibrate, to tremble, to wobble, to shake"
+etymology = "揺れる (yureru): Japanese, shake, vibrate, oscillate, waver"

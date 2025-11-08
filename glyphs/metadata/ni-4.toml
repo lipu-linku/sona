@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ni-4"
 word = "ni"
 word_id = "ni"
@@ -14,5 +15,11 @@ ligature = "ni#4"
 ucsur = "U+F1941"
 alias_ligatures = ["ni<", "ni#left"]
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "It is likely that left ni was derived earlier, as the idea of 'ni' pointing any direction has developed independently several times. Some mentions of earlier sightings exist, such as here: https://discord.com/channels/301377942062366741/876636350214979614/928536305028169769"
+etymology = "an arrow"
+names = ["left ni"]

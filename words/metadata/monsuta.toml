@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "monsuta"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009-10-01"
 creator = ["jan Sonja"]
 see_also = ["pilin", "ike", "nasa"]
 source_language = "Japanese"
@@ -52,3 +52,8 @@ sitelen_jelo = ["👻"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/monsuta"
+
+[translations]
+commentary = ""
+definition = "fear, nervousness, dread; scary, frightening; scary thing e.g. predator, threat, danger"
+etymology = "モンスター (monsutā): Japanese, monster; monster: English, monster"

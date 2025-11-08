@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "sikako"
-author_verbatim = ""
-author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+creator_verbatim = ""
+creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-coined_era = "post-ku"
-coined_year = ""
+era = "post-ku"
+creation_date = ""
 creator = []
 see_also = ["soweli", "molusa"]
 source_language = "French"
@@ -24,3 +24,8 @@ ligatures = ["sikako"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = "sikeko is a common misspelling from tokiponists who believe \"sikako\" derives from \"sike ko\"."
+definition = "snail, gastropods, or “similar” animals"
+etymology = "escargot: French, escargot"

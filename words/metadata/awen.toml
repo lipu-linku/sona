@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "awen"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Dutch"
@@ -96,3 +96,8 @@ sitelen_jelo = ["⚓"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/awen"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#awen"
+
+[translations]
+commentary = ""
+definition = "stay, remain, wait, pause; protect, keep safe; continue; (preverb) continue to"
+etymology = "houden: Dutch, keep, care for, hold (in a particular state)"

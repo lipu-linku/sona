@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sin-1"
 word = "sin"
 word_id = "sin"
@@ -14,5 +15,11 @@ ligature = "sin#1"
 ucsur = "U+F195D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["pu sin"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kiwen-1"
 word = "kiwen"
 word_id = "kiwen"
@@ -14,5 +15,11 @@ ligature = "kiwen#1"
 ucsur = "U+F191B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a rock or a gem"
+names = ["pu kiwen"]

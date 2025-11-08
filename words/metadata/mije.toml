@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "mije"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["meli", "tonsi"]
 source_language = "Finnish"
@@ -56,3 +56,8 @@ sitelen_jelo = ["👨"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/mije"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#mije-and-meli"
+
+[translations]
+commentary = ""
+definition = "man, male, masculine person, husband, boyfriend"
+etymology = "mies: Finnish, man, husband"

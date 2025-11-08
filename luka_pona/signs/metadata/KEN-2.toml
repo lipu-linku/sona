@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ken"
 id = "KEN-2"
 is_two_handed = true
@@ -17,3 +17,9 @@ swu = "𝠀񅰱񅰹񇀥񇀵𝠃𝤣𝤠񅰱𝤊𝣬񅰹𝣩𝣬񇀥𝤓𝤁񇀵�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ken.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ken.mp4"
+
+[translations]
+icons = "putting down fists in determination, picking up the necessary tools, starting a process"
+[translations.parameters]
+handshape = "OpenA"
+movement = "movement downward"

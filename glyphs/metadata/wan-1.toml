@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "wan-1"
 word = "wan"
 word_id = "wan"
@@ -14,5 +15,11 @@ ligature = "wan#1"
 ucsur = "U+F1973"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "one tally mark or Indo-Arabic numeral 1, perhaps to make it more distinct"
+names = ["pu wan"]

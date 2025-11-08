@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "kin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2001"
+era = "pre-pu"
+creation_date = "2001"
 creator = ["jan Sonja"]
 see_also = ["a"]
 source_language = "Finnish"
@@ -52,3 +52,10 @@ sitelen_jelo = ["*️⃣"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kin"
+
+[translations]
+commentary = """
+In common usage (both before and after pu), "a" and "kin" are separate words, each with their own meaning. In pu, they are considered synonyms.
+Underwent significant changes in usage in 2002, alongside "en" and (now obsolete) "kan"."""
+definition = "(particle) [after phrase or at sentence start] too, also, as well, additionally"
+etymology = "-kin: Finnish, too, also, still"

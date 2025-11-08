@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "walo-1"
 word = "walo"
 word_id = "walo"
@@ -14,5 +15,11 @@ ligature = "walo#1"
 ucsur = "U+F1972"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "color radical; perhaps the reverse of pimeja, the color radical cutting of the cross instead of vice versa"
+names = ["pu walo"]

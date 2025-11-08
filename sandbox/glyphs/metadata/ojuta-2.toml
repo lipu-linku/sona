@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "ojuta-1"
 word = "ojuta"
 word_id = "ojuta"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "ojuta#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ni-3"
 word = "ni"
 word_id = "ni"
@@ -14,5 +15,11 @@ ligature = "ni#3"
 ucsur = "U+F1941"
 alias_ligatures = ["ni^", "ni#up"]
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The source of the glyph references it as both 'epiku' and 'turned ni'."
+etymology = "an arrow"
+names = ["up ni"]

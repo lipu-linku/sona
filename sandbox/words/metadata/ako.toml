@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ako"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["jan Epen"]
 see_also = ["a"]
 source_language = "Korean"
@@ -29,3 +29,8 @@ ligatures = ["ako"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ako"
+
+[translations]
+commentary = "Virtually unknown outside the Korean toki pona community."
+definition = "(interjection) [general interjection, context-dependent]"
+etymology = "아이고 (aigo): Korean, (interjection) surprise"

@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "poka"
 id = "POKA"
 is_two_handed = false
@@ -16,3 +16,9 @@ swu = "𝠀񅊃𝠃𝤕𝤒񅊃𝣷𝣺"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/poka.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/poka.mp4"
+
+[translations]
+icons = "pointing left"
+[translations.parameters]
+handshape = "L"
+movement = "fingers pointing sideways"

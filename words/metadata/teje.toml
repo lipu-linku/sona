@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "teje"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan Olipija", "jan inwin"]
 see_also = ["poka", "soto"]
 source_language = "Welsh"
@@ -37,3 +37,8 @@ ligatures = ["teje"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/teje"
+
+[translations]
+commentary = ""
+definition = "right, right side, starboard"
+etymology = "de: Welsh, right"

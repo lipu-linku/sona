@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sike-1"
 word = "sike"
 word_id = "sike"
@@ -14,5 +15,11 @@ ligature = "sike#1"
 ucsur = "U+F195C"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "two circles, perhaps to distinguish from ijo. alternatively outline of a thick empty circle"
+names = ["pu sike"]

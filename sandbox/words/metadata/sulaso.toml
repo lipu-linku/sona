@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "sulaso"
-author_verbatim = "cyan laso, slaso"
-author_verbatim_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+creator_verbatim = "cyan laso, slaso"
+creator_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2024"
+era = "post-ku"
+creation_date = "2024"
 creator = ["jan Lepeka"]
 see_also = ["laso", "sewi"]
 source_language = "multiple"
@@ -23,3 +23,8 @@ ligatures = ["sulaso"]
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "cyan, turquoise, teal, aquamarine, sky blue, light blue, light blueish"
+etymology = "cyan: English, the color between blue and green on the visible spectrum of light; laso: toki pona, blue, green"

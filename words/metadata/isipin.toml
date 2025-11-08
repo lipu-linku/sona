@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "isipin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan ko"]
 see_also = ["pilin", "toki", "insa", "lawa"]
 source_language = "Tagalog"
@@ -37,3 +37,8 @@ ligatures = ["isipin"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/isipin"
+
+[translations]
+commentary = ""
+definition = "to think, brainstorm, rationalize, conclude, ponder"
+etymology = "isipin: Tagalog, to think"

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nowi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["ilo Powa", "kulupu Solali"]
 see_also = ["esun"]
 source_language = "Vietnamese"
@@ -24,3 +24,8 @@ ligatures = ["nowi"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = "Intended as an alt to esun which implies that non-mutually-beneficial relationships are not real relationships."
+definition = "connected, related, joined; complementary, mutual; exchange"
+etymology = "nối: Vietnamese, to join, to add, to unite, to connect. to continue, to carry on, to perpetuate"

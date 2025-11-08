@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "okepuma"
-author_verbatim = "interjection \"okay boomer\""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/641341684982218752"
+creator_verbatim = "interjection \"okay boomer\""
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/641341684982218752"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Elijo"]
 see_also = []
 source_language = "English"
@@ -32,3 +32,8 @@ sitelen_emosi = "🦖"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/okepuma"
+
+[translations]
+commentary = ""
+definition = "boomer, Baby Boomer, inconsiderate elder; [interjection/insult]"
+etymology = "okay boomer: English, okay boomer"

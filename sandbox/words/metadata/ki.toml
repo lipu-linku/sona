@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = []
 source_language = "French"
@@ -31,3 +31,8 @@ ligatures = ["ki"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ki"
+
+[translations]
+commentary = "Provides relativisation of subjects (see WALS 122A), but not relativisation of obliques (see WALS 123A). Unlike ki, more typical relative constructions (usually two clauses linked via ni) support both."
+definition = "(particle) [relative clause marker]"
+etymology = "qui: French, who"

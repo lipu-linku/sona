@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "likujo"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Kawa", "jan inwin"]
 see_also = ["kulupu", "alasa"]
 source_language = "Acadian French"
@@ -37,3 +37,8 @@ sitelen_emosi = "🧺"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/likujo"
+
+[translations]
+commentary = ""
+definition = "collection, assortment, menagerie, arrangement, handful, harvest; seven"
+etymology = "recueil: Acadian French, collection, ensemble, anthology"

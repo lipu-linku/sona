@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "toki-1"
 word = "toki"
 word_id = "toki"
@@ -14,5 +15,11 @@ ligature = "toki#1"
 ucsur = "U+F196C"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "emitters + ijo or a general circle"
+names = ["pu toki"]

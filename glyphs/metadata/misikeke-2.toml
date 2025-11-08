@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "misikeke-2"
 word = "misikeke"
 word_id = "misikeke"
@@ -14,5 +15,11 @@ ligature = "misikeke#2"
 ucsur = "U+F1987"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["mortar and pestle misikeke", "mortar misikeke"]

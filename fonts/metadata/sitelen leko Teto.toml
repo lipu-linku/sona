@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen leko Teto"
-name      = "sitelen leko Teto"
-filename  = "sitelen-leko-Teto.ttf"
-creator   = ["jan tonsi Puki"]
-license   = "OFL-1.1"
+id = "sitelen leko Teto"
+name = "sitelen leko Teto"
+filename = "sitelen-leko-Teto.ttf"
+creator = ["jan tonsi Puki"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-08"
-version      = "1.0"
+version = "1.0"
 
 features = [
   "UCSUR-compliant",
@@ -19,11 +19,11 @@ features = [
   "cartouches",
   "capitalized words in cartouches are transcribed to sitelen pona glyphs",
   "cartouches inside extended pi",
-  "tally marks in cartouches"
+  "tally marks in cartouches",
 ]
 
 style = "pixelated"
 
 [links]
 fontfile = "https://git.hemio.de/example/sitelen_leko_Teto/-/raw/main/versions/1.0/sitelen_leko_Teto.ttf"
-repo     = "https://git.hemio.de/example/sitelen_leko_Teto"
+repo = "https://git.hemio.de/example/sitelen_leko_Teto"

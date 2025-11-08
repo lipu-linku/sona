@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "nasin sitelen musi tan nasa Topo"
-name      = "nasin sitelen musi tan nasa Topo"
-filename  = "nasin sitelen musi tan nasa Topo.ttf"
-creator   = ["nasa Topo"]
-license   = "CC0 1.0 Universal"
+id = "nasin sitelen musi tan nasa Topo"
+name = "nasin sitelen musi tan nasa Topo"
+filename = "nasin sitelen musi tan nasa Topo.ttf"
+creator = ["nasa Topo"]
+license = "CC0 1.0 Universal"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -21,5 +21,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/nasin%20sitelen%20musi%20tan%20nasa%20Topo.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/nasin-sitelen-musi-tan-nasa-Topo.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/nasin-sitelen-musi-tan-nasa-Topo.html"

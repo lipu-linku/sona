@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "anpa-1"
 word = "anpa"
 word_id = "anpa"
@@ -14,5 +15,11 @@ ligature = "anpa#1"
 ucsur = "U+F1905"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = 'location radical + "container"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol "below"'
+names = ["pu anpa"]

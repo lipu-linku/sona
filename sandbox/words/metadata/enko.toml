@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "enko"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Seli"]
 see_also = ["lon", "ma"]
 source_language = "toki pona"
@@ -31,3 +31,15 @@ sitelen_emosi = "🧭"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/enko"
+
+[translations]
+commentary = """
+Considered deprecated by the author: "mi pali e nimi enko a a
+open la pilin mi li sama
+nimi enko li pona, jan mute o kepeken
+taso kepeken pi toki pona la mi kama sona
+nimi ante li ken toki e wile toki pi nimi enko
+la ona li suli ala"\
+"""
+definition = "(spatial equivalents of tenpo constructions) space, place, distance, size (length, width, height, depth, area, volume)"
+etymology = "tenpo: toki pona, time, period, situation"

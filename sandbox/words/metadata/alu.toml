@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "alu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ['''jan Ote "thelegenderp"''', "jan Tolin (separately)"]
 see_also = ["la"]
 source_language = "toki pona"
@@ -32,3 +32,8 @@ ligatures = ["alu"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/alu"
+
+[translations]
+commentary = ""
+definition = "(particle) [placed after the main sentence, introducing a context phrase]"
+etymology = "la: toki pona, (indicate context for a following sentence)"

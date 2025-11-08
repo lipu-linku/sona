@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kalamARR"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["(unknown ku surveyee)"]
 see_also = ["kalama"]
 source_language = "multiple"
@@ -30,3 +30,8 @@ ligatures = ["kalamARR"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kalamARR"
+
+[translations]
+commentary = ""
+definition = "(pirate noise)"
+etymology = "kalama: toki pona, make sound. sound, noise, voice; arr: English, (imitation of pirates)"

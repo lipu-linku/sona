@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "pomotolo"
-author_verbatim = "Effective, useful, “to give [good] results”"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/545760733888118796"
+creator_verbatim = "Effective, useful, “to give [good] results”"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/545760733888118796"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Kawa"]
 see_also = ["pona", "ken", "wawa"]
 source_language = "Italian"
@@ -35,3 +35,8 @@ sitelen_emosi = "📈"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pomotolo"
+
+[translations]
+commentary = 'From the time management method developed by Francesco Cirillo in Berlin in the 1980s, for which people often used tomato-shaped timers. In ku, "pomotolo" was given as one of the translations of "tomato", presumably due to speakers misusing or misunderstanding the word.'
+definition = "effective, useful, give good results"
+etymology = "pomodoro: Italian, tomato"

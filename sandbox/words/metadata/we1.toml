@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "we1"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin"]
 see_also = []
 source_language = "Spanish"
@@ -31,3 +31,8 @@ sitelen_emosi = "🔒"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/we"
+
+[translations]
+commentary = "Out of use."
+definition = "(acts as a transition from one complete sentence to another)"
+etymology = "güey: Spanish, man; man: English, man (sentence tag)"

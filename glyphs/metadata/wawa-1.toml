@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "wawa-1"
 word = "wawa"
 word_id = "wawa"
@@ -14,5 +15,11 @@ ligature = "wawa#1"
 ucsur = "U+F1975"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a person with raised arms, to signify strength"
+names = ["pu wawa"]

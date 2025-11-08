@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen sowepipi"
-name      = "sitelen sowepipi"
-filename  = "sitelen sowepipi.ttf"
-creator   = ["soweli Selupu"]
-license   = "OFL-1.1"
+id = "sitelen sowepipi"
+name = "sitelen sowepipi"
+filename = "sitelen sowepipi.ttf"
+creator = ["soweli Selupu"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,5 +22,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20sowepipi.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-sowepipi.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-sowepipi.html"

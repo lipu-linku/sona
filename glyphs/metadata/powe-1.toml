@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "powe-1"
 word = "powe"
 word_id = "powe"
@@ -14,5 +15,11 @@ ligature = "powe#1"
 ucsur = "U+F19A3"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

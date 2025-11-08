@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "taso"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Tok Pisin"
@@ -67,3 +67,8 @@ sitelen_jelo = ["🚦", "🚥"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/taso"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#taso"
+
+[translations]
+commentary = 'Some proficient speakers use taso as a connector between sentences (X taso Y), similar to "X, but Y," as though taso behaved like la grammatically.'
+definition = "only, exclusively; (particle) [marks a sentence as qualifying or contradictory], but, however"
+etymology = "tasol: Tok Pisin, just, only, but, however; that’s all: English, that’s all"

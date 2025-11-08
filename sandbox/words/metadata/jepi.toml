@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "jepi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["multiple"]
 see_also = ["a", "jipi", "jupi", "je", "wa"]
 source_language = "English"
@@ -23,3 +23,8 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = "Coined indepentently multiple times over several years, non-wuwojiti variant of the word jipi."
+definition = "[pronunciation variant of jupi]"
+etymology = "yippee: English, yippee"

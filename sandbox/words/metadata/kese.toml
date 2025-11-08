@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kese"
-author_verbatim = "basically a wider version of tonsi, if you're not already using tonsi to mean LGBT+ in general"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/781030364378038274"
+creator_verbatim = "basically a wider version of tonsi, if you're not already using tonsi to mean LGBT+ in general"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/781030364378038274"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan Jan"]
 see_also = ["kule", "tonsi"]
 source_language = "Hebrew"
@@ -33,3 +33,8 @@ ligatures = ["kese"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kese"
+
+[translations]
+commentary = ""
+definition = "queer, LGBT+"
+etymology = "קֶשֶׁת (kéšet): Hebrew, named for the Jewish LGBT organization Keshet"

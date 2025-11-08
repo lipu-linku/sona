@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "open"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["kama"]
 source_language = "English"
@@ -62,3 +62,8 @@ sitelen_jelo = ["🎬"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/open"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#open"
+
+[translations]
+commentary = 'Some proficient speakers use open as a preverb that means "start to," that goes along with the complimentary pini preverb "to stop"'
+definition = "begin, start, open, turn on; beginning"
+etymology = "open: English, open"

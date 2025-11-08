@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "awen"
 id = "AWEN-AWEN"
 is_two_handed = false
@@ -17,3 +17,10 @@ swu = "𝠀񃄂񆇡񎣡𝠃𝤛𝤔񎣡𝣱𝤇񃄂𝣕𝤃񆇡𝣰𝣸"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/awen.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/awen.mp4"
+
+[translations]
+icons = "arm guarding something close to the chest"
+[translations.parameters]
+handshape = "BentB"
+orientation = "palm placed inward"
+placement = "placed on shoulder"

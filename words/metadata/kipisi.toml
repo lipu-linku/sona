@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "kipisi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009-10-01"
 creator = ["jan Sonja"]
 see_also = ["tu", "wan", "pakala", "mute"]
 source_language = "Inuktitut"
@@ -62,3 +62,8 @@ sitelen_jelo = ["✂️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kipisi"
+
+[translations]
+commentary = ""
+definition = "split, cut, slice; piece, part; sharp, pointy"
+etymology = "kipisi: Inuktitut, to cut (intransitive)"

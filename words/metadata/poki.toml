@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "poki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Tok Pisin"
@@ -71,3 +71,8 @@ sitelen_jelo = ["📦"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/poki"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#poki"
+
+[translations]
+commentary = 'poki is sometimes used as "category" or to express types of things. One example is roles or groups, in discord chat contexts'
+definition = "container e.g. bag, bowl, box, cup, cupboard, drawer, folder"
+etymology = "bokis: Tok Pisin, box, female genitalia (vulgar); box: English, box"

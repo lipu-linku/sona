@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "leko"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "pre-pu"
-coined_year = "2001"
+era = "pre-pu"
+creation_date = "2001"
 creator = ["jan Sonja"]
 see_also = ["sike"]
 source_language = "multiple possibilities"
@@ -48,3 +48,8 @@ sitelen_jelo = ["🧱"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/leko"
+
+[translations]
+commentary = ""
+definition = "square, cube, block, blocky object e.g. bricks, stairs"
+etymology = "Lego: English, Lego; leg godt: Danish, play well; lohko: Finnish, block, section"

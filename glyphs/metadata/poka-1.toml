@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "poka-1"
 word = "poka"
 word_id = "poka"
@@ -14,5 +15,11 @@ ligature = "poka#1"
 ucsur = "U+F1952"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "location radical + “container”"
+names = ["pu poka"]

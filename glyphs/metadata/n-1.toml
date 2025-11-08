@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "n-1"
 word = "n"
 word_id = "n"
@@ -14,5 +15,11 @@ ligature = "n#1"
 ucsur = "U+F1986"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "exclamation radical with the lowercase letter “n”"
+names = []

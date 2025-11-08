@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pan-1"
 word = "pan"
 word_id = "pan"
@@ -14,5 +15,11 @@ ligature = "pan#1"
 ucsur = "U+F194B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a grain crop"
+names = ["pu pan"]

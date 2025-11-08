@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "opasan"
-author_verbatim = "opasan – ~post-pu, humorous~ talented, brilliant, incredible, amazing, show stopping, spectacular, never the same, completely not ever been done before, totally unique, very very gay, opossum"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/813773779834503199"
+creator_verbatim = "opasan – ~post-pu, humorous~ talented, brilliant, incredible, amazing, show stopping, spectacular, never the same, completely not ever been done before, totally unique, very very gay, opossum"
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/813773779834503199"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["smoothied"]
 see_also = []
 source_language = "English"
@@ -24,3 +24,8 @@ ligatures = ["opasan"]
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "talented, brilliant, opossum"
+etymology = "opossum: English, opossum"

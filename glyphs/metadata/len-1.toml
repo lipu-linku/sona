@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "len-1"
 word = "len"
 word_id = "len"
@@ -14,5 +15,11 @@ ligature = "len#1"
 ucsur = "U+F1925"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a piece of fabric"
+names = ["pu len"]

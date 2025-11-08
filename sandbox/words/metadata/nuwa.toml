@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nuwa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan pan"]
 see_also = ["sin"]
 source_language = "English"
@@ -23,3 +23,8 @@ ligatures = ["nuwa"]
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "newer"
+etymology = "newer: English, newer"

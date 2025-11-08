@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "pini"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["open", "kama"]
 source_language = "multiple possibilities"
@@ -70,3 +70,8 @@ sitelen_jelo = ["🏁", "🛑"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pini"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#pini"
+
+[translations]
+commentary = 'Some proficient speakers use pini as a preverb that means "to stop," that goes along with the complimentary open preverb "start to"'
+definition = "finish, stop, prevent; close, disable, turn off; ended, past; edge, end, conclusion"
+etymology = "fini: Acadian French, finished, completed; pinis: Tok Pisin, finish (perfective aspect); finish: English, finish"

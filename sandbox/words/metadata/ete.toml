@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ete"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin"]
 see_also = ["suli", "sewi", "wawa"]
 source_language = "multiple"
@@ -36,3 +36,8 @@ sitelen_emosi = "🔃"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ete"
+
+[translations]
+commentary = ""
+definition = "beyond, exceeding, outside of, more than"
+etymology = "öte: Turkish, beyond, further, over; ettë: Quenya, outside"

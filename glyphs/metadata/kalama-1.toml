@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kalama-1"
 word = "kalama"
 word_id = "kalama"
@@ -14,5 +15,11 @@ ligature = "kalama#1"
 ucsur = "U+F1915"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "“mouth” (or dotless uta) with emitters"
+names = ["pu kalama"]

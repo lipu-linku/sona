@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "we"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["jan Kiwisin", "jan Telupiso"]
 see_also = []
 source_language = "Spanish"
@@ -28,3 +28,8 @@ ligatures = ["we"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/we"
+
+[translations]
+commentary = ""
+definition = "guy, pal, friend, buddy"
+etymology = "güey: Spanish, man"

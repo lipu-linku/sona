@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "se1"
-author_verbatim = "se is a reflexive pronoun and also means \"one's own (thing)\""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1138870965145718785"
+creator_verbatim = "se is a reflexive pronoun and also means \"one's own (thing)\""
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/1138870965145718785"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["waso Netun"]
 see_also = []
-source_language = ""
+source_language = "Latin"
 usage_category = "sandbox"
 word = "se"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "one's own"
+etymology = "se: Latin, oneself"

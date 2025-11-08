@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "snoweli"
-author_verbatim = "snoweli"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1054988364538978327"
+creator_verbatim = "snoweli"
+creator_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1054988364538978327"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["waso Keli"]
 see_also = ["soweli", "lete"]
 source_language = "multiple"
@@ -24,3 +24,8 @@ ligatures = ["snoweli"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/User:Menasewi/nimi_weka#snoweli"
+
+[translations]
+commentary = "Originally a sitelen pona glyph with no definition, created for fun and submitted to linja lipamanka. It grew popular after its inclusion in the font \"sitelen seli kiwen\", after which it has come to have a definition and seen some use."
+definition = "soweli with relation to the snow or cold, soweli living in predominantly cold or snowy environments (often light-colored); arctic fox"
+etymology = "snowman: English, snowman; soweli: toki pona, fuzzy creature, land animal, beast"

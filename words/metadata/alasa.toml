@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "alasa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = "2009"
+era = "pre-pu"
+creation_date = "2009-10-01"
 creator = ["jan Sonja"]
 see_also = ["lukin"]
 source_language = "Acadian French"
@@ -63,3 +63,8 @@ sitelen_jelo = ["🏹"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/alasa"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#alasa"
+
+[translations]
+commentary = 'The usage of "alasa" as a preverb meaning "try to" is more common than "lukin". In pu, only "lukin" has this meaning.'
+definition = "hunt, forage, search, attempt; (preverb) try to"
+etymology = "à la chasse: Acadian French, hunting, (literally) on the hunt"

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "puwa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Seli"]
 see_also = ["suwi", "ko"]
 source_language = "Japanese"
@@ -32,3 +32,8 @@ sitelen_emosi = "☁️"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/puwa"
+
+[translations]
+commentary = ""
+definition = "fluffy, soft, squishy (something that can be compressed and will try to go back to its original shape)"
+etymology = "ふわふわ (fuwafuwa): Japanese, fluffy things (onomatopoeia)"

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "luka-1"
 word = "luka"
 word_id = "luka"
@@ -14,5 +15,11 @@ ligature = "luka#1"
 ucsur = "U+F192D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a hand"
+names = ["pu luka"]

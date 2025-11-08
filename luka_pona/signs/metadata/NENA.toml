@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "nena"
 id = "NENA"
 is_two_handed = false
@@ -16,3 +16,9 @@ swu = "𝠀񃃒𝠃𝤓𝤏񃃒𝣺𝣾"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nena.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nena.mp4"
+
+[translations]
+icons = "hand shaped like a bump or hill"
+[translations.parameters]
+handshape = "BentB"
+orientation = "palm facing down"

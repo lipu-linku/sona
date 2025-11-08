@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "owe-1"
 word = "owe"
 word_id = "owe"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "owe#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "lukin (or an eye) with emitters"
+names = []

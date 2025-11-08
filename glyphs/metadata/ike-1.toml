@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ike-1"
 word = "ike"
 word_id = "ike"
@@ -14,5 +15,11 @@ ligature = "ike#1"
 ucsur = "U+F190D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a frowning mouth. compare pona"
+names = ["pu ike"]

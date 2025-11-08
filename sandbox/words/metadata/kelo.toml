@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kelo"
-author_verbatim = "I've actually kinda thought about the concept of a conlanguage that specifically encodes the deuteranopia color spectrum as default & so i like this idea"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/886624458369024071"
+creator_verbatim = "I've actually kinda thought about the concept of a conlanguage that specifically encodes the deuteranopia color spectrum as default & so i like this idea"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/886624458369024071"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["soweli kina", "waso Alana"]
 see_also = ["jelo", "laso", "loje", "uka", "sunta", "kewe"]
 source_language = "toki pona"
@@ -24,3 +24,8 @@ ligatures = ["kelo"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/User:CosmicPython/Colorblindness#uka%E2%80%93kelo_system"
+
+[translations]
+commentary = "Part of a system with uka to express the colors seen by someone with protanopia or deuteranopia (red-green colorblindness)."
+definition = "blue–purple range in red-green colorblindness"
+etymology = "kule: toki pona, color, pigment. category, genre, flavor. colorful, diverse; telo: toki pona, liquids e.g. water, gasoline, soda, lava, soup, oil, ink"

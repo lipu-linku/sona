@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "antikontitutonelema"
-author_verbatim = ""
-author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+creator_verbatim = ""
+creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-coined_era = "post-ku"
-coined_year = ""
+era = "post-ku"
+creation_date = ""
 creator = []
 see_also = ["yupekosi", "kalapisituji", "jaki"]
 source_language = "French"
@@ -24,3 +24,8 @@ ligatures = ["antikontitutonelema"]
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = "several -ti- syllables. If desired, one can change one (especially the first) or all “ti” to \"te\" for a more classical toki pona phonology."
+definition = "a big mess, to mess up in a big way."
+etymology = "anticonstitutionnellement: French, anticonstitutionally"

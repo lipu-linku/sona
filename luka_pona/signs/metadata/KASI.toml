@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "kasi"
 id = "KASI"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񁲁𝠃𝤒𝤖񁲁𝣻𝣷"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kasi.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kasi.mp4"
+
+[translations]
+icons = "a tree or bush, a stem with branches"
+[translations.parameters]
+handshape = "5"
+orientation = "palm faced in"

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kokoliko"
-author_verbatim = ""
-author_verbatim_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+creator_verbatim = ""
+creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-coined_era = "post-ku"
-coined_year = ""
+era = "post-ku"
+creation_date = ""
 creator = []
 see_also = ["waso", "wasoweli"]
 source_language = "French"
@@ -24,3 +24,8 @@ ligatures = ["kokoliko"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "rooster, chicken, birds from the genus Gallus"
+etymology = "cocorico: French"

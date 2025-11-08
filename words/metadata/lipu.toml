@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "lipu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Finnish"
@@ -75,3 +75,8 @@ sitelen_jelo = ["🍁"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lipu"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lipu"
+
+[translations]
+commentary = ""
+definition = "flat and bendable object, e.g. paper, card, leaf; written text or document, e.g. book, website, clay tablet"
+etymology = "lippu: Finnish, flag, banner, ticket"

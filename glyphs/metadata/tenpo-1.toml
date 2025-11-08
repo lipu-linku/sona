@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "tenpo-1"
 word = "tenpo"
 word_id = "tenpo"
@@ -14,5 +15,11 @@ ligature = "tenpo#1"
 ucsur = "U+F196B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a clock. compare blissymbol “time”"
+names = ["pu tenpo"]

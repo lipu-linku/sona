@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "su1"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["kili Tesa", "jan Selu"]
 see_also = ["ala"]
 source_language = "Esperanto"
@@ -24,3 +24,8 @@ ligatures = ["su2"]
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "[yes/no question marker, replacing the role of li]"
+etymology = "ĉu (cxu): Esperanto, [yes/no question marker]. whether"

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "lo"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["Theepicosity", "akesi kon Nalasuni"]
 see_also = ["lu1", "ja"]
 source_language = "toki pona"
@@ -30,3 +30,8 @@ ligatures = ["lo"]
 2024-09 = 1
 
 [resources]
+
+[translations]
+commentary = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word. Can also be combined with ja to mark modified or compound prepositions, with ja marking the end of a preposition marked by lo and the start of the prepositional object."
+definition = "(particle) [indicates a prepositional phrase]"
+etymology = "alu: toki pona, (indicate context for a prior sentence)"

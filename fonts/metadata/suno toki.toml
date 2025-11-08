@@ -6,7 +6,7 @@ features = [
   "cartouches",
   "color font",
   "auto-cartouching",
-  "long pi"
+  "long pi",
 ]
 filename = "suno-toki.otf"
 last_updated = "2024-11"

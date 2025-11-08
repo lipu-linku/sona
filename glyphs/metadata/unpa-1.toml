@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "unpa-1"
 word = "unpa"
 word_id = "unpa"
@@ -14,5 +15,11 @@ ligature = "unpa#1"
 ucsur = "U+F196F"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a derivation of heart symbol (especially visible from the original drawing of the character), or a knot pattern implying intercourse, or perhaps a pictogram of a genitalia"
+names = ["pu unpa"]

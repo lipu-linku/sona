@@ -1,11 +1,11 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kewe"
-author_verbatim = """<:nimisin:743741432350769152> **kewe** — tritanopic color grouping, roughly seen as cyan, and roughly covers the perception of the range from green, blue, and cool violet
+creator_verbatim = """<:nimisin:743741432350769152> **kewe** — tritanopic color grouping, roughly seen as cyan, and roughly covers the perception of the range from green, blue, and cool violet
 <- toki pona *kule* + *sewi*"""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/375591429608570881/1220437912676597861"
+creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/1220437912676597861"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2024"
+era = "post-ku"
+creation_date = "2024"
 creator = ["kolisin"]
 see_also = ["jelo", "laso", "loje", "sunta", "uka", "kelo"]
 source_language = "toki pona"
@@ -25,3 +25,8 @@ ligatures = ["kewe"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/User:CosmicPython/Colorblindness#sunta%E2%80%93kewe_system"
+
+[translations]
+commentary = "Part of a system with sunta to express the colors seen by someone with tritanopia (blue-yellow colorblindness)."
+definition = "blue range in blue-yellow colorblindness"
+etymology = "kule: toki pona, color, pigment. category, genre, flavor. colorful, diverse; sewi: toki pona, up, top, above, highest part. divine, sacred, supernatural. awesome, inspiring, excelling"

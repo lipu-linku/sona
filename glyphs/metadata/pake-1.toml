@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pake-1"
 word = "pake"
 word_id = "pake"
@@ -14,5 +15,11 @@ ligature = "pake#1"
 ucsur = "U+F19A0"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

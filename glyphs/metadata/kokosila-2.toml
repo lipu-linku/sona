@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kokosila-2"
 word = "kokosila"
 word_id = "kokosila"
@@ -14,5 +15,11 @@ ligature = "kokosila#2"
 ucsur = "U+F1984"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "It is not currently known whether this glyph was created by jan Same or if it was taken from a prior reference."
+etymology = ""
+names = []

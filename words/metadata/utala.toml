@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "utala"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["ike", "anpa"]
 source_language = "Serbo-Croatian"
@@ -80,3 +80,8 @@ sitelen_jelo = ["⚔️", "🆚"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/utala"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#utala"
+
+[translations]
+commentary = ""
+definition = "fight, compete, battle; competition, challenge; struggle, strive"
+etymology = "ударати (udarati): Serbo-Croatian, strike, hit, beat"

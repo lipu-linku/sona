@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "tonsi-2"
 word = "tonsi"
 word_id = "tonsi"
@@ -14,5 +15,11 @@ ligature = "tonsi#2"
 ucsur = "U+F197E"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["nonbinary tonsi"]

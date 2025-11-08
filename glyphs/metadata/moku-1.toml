@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "moku-1"
 word = "moku"
 word_id = "moku"
@@ -14,5 +15,11 @@ ligature = "moku#1"
 ucsur = "U+F1936"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "hand modifier + “mouth”"
+names = ["pu moku"]

@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "nena-2"
 word = "nena"
 word_id = "nena"
@@ -14,5 +15,11 @@ ligature = "nena#2"
 ucsur = "U+F1940"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["ground nena"]

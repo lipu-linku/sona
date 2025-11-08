@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "loka"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["unknown"]
 see_also = ["luka", "noka"]
 source_language = "toki pona"
@@ -33,3 +33,8 @@ ligatures = ["loka"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/loka"
+
+[translations]
+commentary = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+definition = "limb e.g. arm, leg"
+etymology = "luka: toki pona, hand, arm, grasping appendage, tactile appendage; noka: toki pona, foot, leg, roots, locomotive appendage"

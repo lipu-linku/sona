@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "salu"
-author_verbatim = "#1725441 📣 salu – ~post-ku~ comfort, security, safety, stability; attention, care, caution\n   ← Latin salus 'safety, security'"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/950245694202060810"
+creator_verbatim = "#1725441 📣 salu – ~post-ku~ comfort, security, safety, stability; attention, care, caution\n   ← Latin salus 'safety, security'"
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/950245694202060810"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["rose"]
 see_also = ["pona", "ike"]
-source_language = ""
+source_language = "Latin"
 usage_category = "sandbox"
 word = "salu"
 deprecated = false
@@ -24,3 +24,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = "💭 Intended as an experiment in its current form, and is not meant for widespread use at this time. Meant to be used alongside a nasin that does not use either ike or pona to express value judgements (especially morality). These words are often used in a way that ignores the reasoning behind the judgement. The goal of this experimental nasin is to promote mindfulness about value itself, translating mere reaction into introspection and explanation. ⚠️ Because of the stated attachment to this particular nasin pi toki pona, it should be noted that using salu and pona/ike as good/bad at the same time goes against the point of the word's creation, and that salu is redundant in this circumstance. If you are using one, you should not use the other."
+definition = "comfort, security, safety, stability; attention, care, caution"
+etymology = "salus: Latin, safety, security"

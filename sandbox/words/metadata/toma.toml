@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "toma"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Sonja"]
 see_also = []
 source_language = "toki pona"
@@ -30,3 +30,8 @@ ligatures = ["toma"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/toma"
+
+[translations]
+commentary = "The typo was made by jan Sonja while writing ku. The absolute majority of the community does not treat it as a newly coined word."
+definition = "[typo of tomo]"
+etymology = "typo of tomo: toki pona, home, room, house, building"

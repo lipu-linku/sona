@@ -1,15 +1,15 @@
 #:schema ../../api/generated/v2/font.json
-id        = "suli lukin tan ilo Popsie"
-name      = "suli lukin tan ilo Popsie"
-filename  = "suli lukin tan ilo Popsie.ttf"
-creator   = ["ilo Popsie"]
-license   = "CC0-1.0"
+id = "suli lukin tan ilo Popsie"
+name = "suli lukin tan ilo Popsie"
+filename = "suli lukin tan ilo Popsie.ttf"
+creator = ["ilo Popsie"]
+license = "CC0-1.0"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -21,5 +21,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/suli%20lukin%20tan%20ilo%20Popsie.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/suli-lukin-tan-ilo-Popsie.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/suli-lukin-tan-ilo-Popsie.html"

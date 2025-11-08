@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "kala"
 id = "KALA"
 is_two_handed = false
@@ -17,3 +17,10 @@ swu = "𝠀񂈁񋊇𝠃𝤍𝤯񂈁𝣿𝤔񋊇𝤀𝣝"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kala.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kala.mp4"
+
+[translations]
+icons = "the shape of a fish swimming through the water"
+[translations.parameters]
+handshape = "FlatB"
+movement = "hand shaking/wiggling"
+orientation = "palm facing sideways"

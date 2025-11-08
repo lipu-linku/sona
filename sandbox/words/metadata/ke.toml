@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ke"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2015"
+era = "post-pu"
+creation_date = "2015"
 creator = ["jan Maliku", "jan Kisinja"]
 see_also = ["oke", "n"]
 source_language = "English"
@@ -34,3 +34,8 @@ ligatures = ["ke"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ke"
+
+[translations]
+commentary = ""
+definition = "(acknowledgement or acceptance)"
+etymology = "’kay: English, okay; okay: English, okay"

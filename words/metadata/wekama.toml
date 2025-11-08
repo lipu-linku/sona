@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "wekama"
-author_verbatim = "also, when i meant wekama, i meant weka, then kama"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/732119749114331148"
+creator_verbatim = "also, when i meant wekama, i meant weka, then kama"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/732119749114331148"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["jan ko"]
 see_also = ["weka", "kama"]
 source_language = "toki pona"
@@ -30,3 +30,8 @@ ligatures = ["wekama"]
 2024-09 = 6
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "leave and come back, be temporarily absent with the expectation of returning"
+etymology = "weka kama: toki pona, 'leave-arrive', to leave and come back"

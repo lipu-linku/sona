@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "mute"
 id = "MUTE"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񁳃񁳋񆇡񇂇񇂓񆷳񆷷𝠃𝤼𝤜񁳃𝤝𝣲񁳋𝣐𝣱񆷳�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mute.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mute.mp4"
+
+[translations]
+icons = "counting how many things there are on the fingers with two hands"
+[translations.parameters]
+handshape = "5"
+movement = "movement sideways"

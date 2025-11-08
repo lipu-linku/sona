@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "o-1"
 word = "o"
 word_id = "o"
@@ -14,5 +15,11 @@ ligature = "o#1"
 ucsur = "U+F1944"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "exclamation radical + Latin lowercase letter O. compare a"
+names = ["pu o"]

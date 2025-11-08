@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sewi-2"
 word = "sewi"
 word_id = "sewi"
@@ -14,5 +15,11 @@ ligature = "sewi#2"
 ucsur = "U+F195A"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["secular sewi", "flipped anpa sewi"]

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "o"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["li"]
 source_language = "Georgian"
@@ -56,3 +56,8 @@ sitelen_jelo = ["🅾️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/o"
+
+[translations]
+commentary = ""
+definition = "(particle) [marks the end of a vocative (who is being spoken to)], [marks the start of an imperative (command, wish, instruction)], should"
+etymology = "-ო (-o): Georgian, (vocative suffix)"

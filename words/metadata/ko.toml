@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "ko"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Cantonese"
@@ -58,3 +58,8 @@ sitelen_jelo = ["🍦"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ko"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ko"
+
+[translations]
+commentary = 'The "clinging form" definition was elaborated to mean "a shape or mass that sticks or clings; a clot, a thick or viscous lump, a clump that can be reshaped".'
+definition = "semi-solid, e.g. paste, powder, goo, sand, soil, clay; squishy, moldable; sticky"
+etymology = "膏 (gou): Cantonese, cream, paste"

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "awen-1"
 word = "awen"
 word_id = "awen"
@@ -14,5 +15,11 @@ ligature = "awen#1"
 ucsur = "U+F1908"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "motion radical; legs facing against each other, implying standing"
+names = ["pu awen"]

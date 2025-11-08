@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "meli-2"
 word = "meli"
 word_id = "meli"
@@ -14,5 +15,11 @@ ligature = "meli#2"
 ucsur = "U+F1933"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "This glyph has been independently recreated several times. For example, it was added to ijo Mina's linja suwi as 'meli-alt' in February 2021. https://web.archive.org/web/20210211124101/https://linjasuwi.ap5.dev/ "
+etymology = ""
+names = ["venus meli"]

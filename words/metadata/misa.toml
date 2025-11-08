@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "misa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["misa Ewis"]
 see_also = ["soweli"]
 source_language = "Ukranian"
@@ -35,3 +35,8 @@ ligatures = ["misa", "misa5"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/misa"
+
+[translations]
+commentary = ""
+definition = "Glires or Eulipotyphla; rat, mouse, squirrel, rabbit, rodent; {~ suli} capybara"
+etymology = "мишка (myshka): Ukrainian, mouse (diminutive)"

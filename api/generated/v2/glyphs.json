@@ -32,38 +32,51 @@
         ]
       },
       "teachability": {
-        "description": "The tier of teachability for this glyph, as defined by the Sitelen Pona Publishers and Typographers Association.",
+        "description": "The tier of teachability for this object, as defined by the Sitelen Pona Publishers and Typographers Association.",
         "type": "number",
         "minimum": 1,
         "maximum": 4
       },
-      "creator_source": {
-        "description": "The source, usually a URL, where the glyph was coined.",
-        "type": "string"
-      },
       "creator": {
-        "description": "The name or names of those involved in creating this glyph.",
+        "description": "The name or names of those involved in creating this object (if known)",
         "type": "array",
         "items": {
           "type": "string",
           "minLength": 1
         }
       },
+      "creator_source": {
+        "description": "The source or origin of this object, often a URL.",
+        "type": "string"
+      },
       "creation_date": {
+        "description": "When this glyph was created, to precision known",
         "type": "string",
-        "pattern": "^(20\\d{2}-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$"
+        "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$"
+      },
+      "see_also": {
+        "description": "A list of related glyphs by ID",
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema0"
+        }
       },
       "primary": {
         "description": "Whether this glyph is the main glyph used to write the toki pona word in `word`",
         "type": "boolean"
       },
+      "parent_id": {
+        "description": "The primary glyph which this glyph is considered to share its form with.",
+        "$ref": "#/$defs/__schema0"
+      },
       "deprecated": {
-        "description": "Whether the glyph is considered deprecated by its author(s)",
+        "description": "Whether the object is considered deprecated by its author(s).",
         "type": "boolean"
       },
       "image": {
         "description": "A URL to an image of the sitelen pona glyph.",
-        "type": "string"
+        "type": "string",
+        "format": "uri"
       },
       "svg": {
         "description": "A URL to an SVG of the sitelen pona glyph.",
@@ -71,15 +84,13 @@
       },
       "ligature": {
         "description": "The single numerical ligature used to access this specific sitelen pona glyph.",
-        "type": "string",
-        "minLength": 3
+        "$ref": "#/$defs/__schema1"
       },
       "alias_ligatures": {
+        "description": "All non-numerical ligature used to access this specific sitelen pona glyph.",
         "type": "array",
         "items": {
-          "description": "Any secondary ligature used to access this specific sitelen pona glyph.",
-          "type": "string",
-          "minLength": 2
+          "$ref": "#/$defs/__schema1"
         }
       },
       "ucsur": {
@@ -92,7 +103,7 @@
         "type": "object",
         "propertyNames": {
           "type": "string",
-          "pattern": "^20\\d{2}-(0[1-9]|1[0-2])$"
+          "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
         },
         "additionalProperties": {
           "type": "number",
@@ -136,11 +147,11 @@
       "teachability",
       "creator",
       "creation_date",
+      "see_also",
       "primary",
       "deprecated",
       "image",
       "svg",
-      "alias_ligatures",
       "usage",
       "translations"
     ],
@@ -148,7 +159,11 @@
   },
   "$defs": {
     "__schema0": {
-      "description": "A unique identifier for a given object in Linku. Generally named after the object.",
+      "description": "A unique identifier for an object in Linku. Generally named after the object.",
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema1": {
       "type": "string",
       "minLength": 1
     }

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sijelo-1"
 word = "sijelo"
 word_id = "sijelo"
@@ -14,5 +15,11 @@ ligature = "sijelo#1"
 ucsur = "U+F195B"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a torso"
+names = ["pu sijelo"]

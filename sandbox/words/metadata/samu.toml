@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "samu"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Sonja"]
 see_also = ["nimisin"]
 source_language = "toki pona"
@@ -39,3 +39,8 @@ sitelen_emosi = "✍️"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/samu"
+
+[translations]
+commentary = "Coined in reference to jan Samu, a Facebook user who attempted to propose a new word."
+definition = "wanting to create new words"
+etymology = "jan Samu: toki pona, jan Samu"

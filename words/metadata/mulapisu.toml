@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "mulapisu"
-author_verbatim = "mulapisu now means pizza"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/640770414431174676"
+creator_verbatim = "mulapisu now means pizza"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/640770414431174676"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Sonja"]
 see_also = ["pan"]
 source_language = "a priori"
@@ -40,3 +40,8 @@ sitelen_emosi = "🍕"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/mulapisu"
+
+[translations]
+commentary = ""
+definition = "pizza"
+etymology = "a priori"

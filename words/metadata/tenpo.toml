@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "tenpo"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["lon"]
 source_language = "Esperanto"
@@ -64,3 +64,8 @@ sitelen_jelo = ["🕒"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/tenpo"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#tenpo"
+
+[translations]
+commentary = ""
+definition = "time, event, situation, moment, period, duration"
+etymology = "tempo: Esperanto, time; tempus: Latin, time"

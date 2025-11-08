@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "i"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "pre-pu"
-coined_year = "2002"
+era = "pre-pu"
+creation_date = "2002"
 creator = ["jan Sonja"]
 see_also = ["ona"]
-source_language = "unknown"
+source_language = "a priori"
 usage_category = "sandbox"
 word = "i"
 deprecated = true
@@ -29,3 +29,8 @@ ligatures = ["i"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/i"
+
+[translations]
+commentary = 'In a poll in 2002, "i" was proposed as a replacement for the now-archaic third-person pronoun "iki". However, it failed to get enough votes.'
+definition = "he, she, it, they [polled as a replacement third-person pronoun in 2002]"
+etymology = "a priori"

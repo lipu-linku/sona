@@ -6,7 +6,7 @@ features = [
   "UCSUR-compliant",
   "supports cartouches",
   "auto-cartouching",
-  "cartouche deconstruction"
+  "cartouche deconstruction",
 ]
 filename = "tan-seme-A.otf"
 last_updated = "2024-12"

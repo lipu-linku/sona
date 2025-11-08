@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "tawa-1"
 word = "tawa"
 word_id = "tawa"
@@ -14,5 +15,11 @@ ligature = "tawa#1"
 ucsur = "U+F1969"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "motion radical; legs facing to the right. compare kama and blissymbol “walk”"
+names = ["pu tawa"]

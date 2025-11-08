@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "neja"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin"]
 see_also = []
 source_language = "Finnish"
@@ -31,3 +31,8 @@ ligatures = ["neja"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/neja"
+
+[translations]
+commentary = ""
+definition = "(number) four"
+etymology = "neljä: Finnish, (number) four"

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "jasima"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Wesu", "jan Maliku", "jan Kisinja", "jan inwin"]
 see_also = ["tu", "lukin"]
 source_language = "Turkish"
@@ -44,3 +44,8 @@ sitelen_jelo = ["🪞", "🪩"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jasima"
+
+[translations]
+commentary = ""
+definition = "reflect, echo; mirror, duplicate"
+etymology = "yansıtmak: Turkish, to reflect, reverberate"

@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "a-5"
 word = "a"
 word_id = "a"
@@ -14,5 +15,11 @@ ligature = "a#5"
 ucsur = "U+F1900"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["interrobang a", "a!?", "a?!"]

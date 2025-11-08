@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "wuwojiti"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["unknown"]
 see_also = []
 source_language = "toki pona"
@@ -30,3 +30,8 @@ ligatures = ["wuwojiti"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wuwojiti"
+
+[translations]
+commentary = 'May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the "banned" syllables. Occasionally extended to wuwojitinmanna to include the illegal consecutive nasal consonants.'
+definition = 'to use one or more of the "banned" syllables wu, wo, ji, or ti; to break toki pona phonotactics'
+etymology = "wu: toki pona, (sound); wo: toki pona, (sound); ji: toki pona, (sound); ti: toki pona, (sound)"

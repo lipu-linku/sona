@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "wasoweli"
-author_verbatim = "In my Caves of Qud mod, I added toki-pona-speaking bird-beasts who call themselves \"wasoweli\"; I figured as 'native speakers' they're entitled to a portmanteau noun for themselves, and that's the only intentional artistic liberty I took with the language."
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301378960468738050/690041651397132345"
+creator_verbatim = "In my Caves of Qud mod, I added toki-pona-speaking bird-beasts who call themselves \"wasoweli\"; I figured as 'native speakers' they're entitled to a portmanteau noun for themselves, and that's the only intentional artistic liberty I took with the language."
+creator_source = "https://discord.com/channels/301377942062366741/301378960468738050/690041651397132345"
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2020"
+era = "post-pu"
+creation_date = "2020"
 creator = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = ["waso", "soweli", "sutopatikuna"]
 source_language = "toki pona"
@@ -31,3 +31,8 @@ ligatures = ["wasoweli"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wasoweli"
+
+[translations]
+commentary = 'First used as the name for a species in a mod for Caves of Qud created by akesi kon Nalasuni. Later appeared in ku as exclusively part of a translation for "penguin".'
+definition = "animal with qualities of both waso and soweli"
+etymology = "waso: toki pona, bird, flying creature; soweli: toki pona, land animal, fuzzy creature"

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "jonke"
-author_verbatim = "hjönk 🦢"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/599425762990358528/825733377465778176"
+creator_verbatim = "hjönk 🦢"
+creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/825733377465778176"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["cyanidesDuality"]
 see_also = ["mu", "nja"]
 source_language = "onomatopoeia"
@@ -29,3 +29,8 @@ ligatures = ["jonke"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jonke"
+
+[translations]
+commentary = "Coined in reference to the Untitled Goose Game fandom."
+definition = "hjönk, goose sound, goose"
+etymology = "hjönk: onomatopoeia, hjönk"

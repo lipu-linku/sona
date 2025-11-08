@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "alasa-1"
 word = "alasa"
 word_id = "alasa"
@@ -14,5 +15,11 @@ ligature = "alasa#1"
 ucsur = "U+F1903"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a bow and an arrow"
+names = ["pu alasa"]

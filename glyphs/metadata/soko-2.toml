@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "soko-2"
 word = "soko"
 word_id = "soko"
@@ -14,5 +15,11 @@ ligature = "soko#2"
 ucsur = "U+F1981"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["thick stem soko", "mama soko"]

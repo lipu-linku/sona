@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mulapisu-1"
 word = "mulapisu"
 word_id = "mulapisu"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "mulapisu#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The directionality of the pizza is not a distinguishing factor."
+etymology = ""
+names = []

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "enepi"
-author_verbatim = "I’ve made a nimi sin called “enepi” to mean NFT, scam, screenshot, monkey, JPEG, crypto, cryptocurrency, etc"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138893081584865350"
+creator_verbatim = "I’ve made a nimi sin called “enepi” to mean NFT, scam, screenshot, monkey, JPEG, crypto, cryptocurrency, etc"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138893081584865350"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["jan Kuwimaku"]
 see_also = []
 source_language = "English"
@@ -24,3 +24,8 @@ ligatures = ["enepi"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "NFT, scam"
+etymology = "NFT: English, non-fungible token"

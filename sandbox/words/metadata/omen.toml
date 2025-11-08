@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "omen"
-author_verbatim = """canonize *'o·m·e·m'* (← 'o moli e mi') into an actuall tp word *'omen'*, meaning "sarcasm, sarcastic""""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/384819868815458314"
+creator_verbatim = """canonize *'o·m·e·m'* (← 'o moli e mi') into an actuall tp word *'omen'*, meaning "sarcasm, sarcastic""""
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/384819868815458314"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = ["jan inwin"]
 see_also = ["musi"]
 source_language = "toki pona"
@@ -31,3 +31,8 @@ sitelen_emosi = "🙄"
 2023-09 = 2
 
 [resources]
+
+[translations]
+commentary = """Originally an initialism of "o moli e mi" ("omem"); compare the formations of "peto" and "kuntu"."""
+definition = "sarcasm, irony"
+etymology = "o moli e mi: toki pona, 'kill me', express exasperation or frustration sarcastically"

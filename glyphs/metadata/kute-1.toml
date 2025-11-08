@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kute-1"
 word = "kute"
 word_id = "kute"
@@ -14,5 +15,11 @@ ligature = "kute#1"
 ucsur = "U+F1920"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of an ear. compare blissymbol “ear”"
+names = ["pu kute"]

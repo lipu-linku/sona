@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "pakola"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["the Half as Interesting team"]
 see_also = []
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["pakola"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pakola"
+
+[translations]
+commentary = ""
+definition = "[misspelling of pakala]"
+etymology = "pakala: toki pona, broken, damaged, harmed, destroyed"

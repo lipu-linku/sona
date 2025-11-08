@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "suli-1"
 word = "suli"
 word_id = "suli"
@@ -14,5 +15,11 @@ ligature = "suli#1"
 ucsur = "U+F1963"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "ideogram showing bigger size compared to lili"
+names = ["pu suli"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mi-1"
 word = "mi"
 word_id = "mi"
@@ -14,5 +15,11 @@ ligature = "mi#1"
 ucsur = "U+F1934"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a hand pointing towards the speaker. compare sina and ona"
+names = ["pu mi"]

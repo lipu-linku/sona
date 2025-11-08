@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "nasa-1"
 word = "nasa"
 word_id = "nasa"
@@ -14,5 +15,11 @@ ligature = "nasa#1"
 ucsur = "U+F193E"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps spiral representing “dizziness”, as can be commonly seen in Japanese manga and anime"
+names = ["pu nasa"]

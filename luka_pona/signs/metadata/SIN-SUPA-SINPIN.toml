@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "sin, namako"
 id = "SIN-SUPA-SINPIN"
 is_two_handed = true
@@ -17,3 +17,11 @@ swu = "𝠀񂇁񂇇񇀡𝠃𝤔𝤤񂇇𝣹𝤓񂇁𝤀𝤉񇀡𝣾𝣨"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sin.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sin.mp4"
+
+[translations]
+icons = "springing up, previously unseen"
+[translations.parameters]
+handshape = "FlatB"
+movement = "movement upward"
+orientation = "palm facing out"
+placement = "placed on opposite hand"

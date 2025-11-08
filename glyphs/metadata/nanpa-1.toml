@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "nanpa-1"
 word = "nanpa"
 word_id = "nanpa"
@@ -14,5 +15,11 @@ ligature = "nanpa#1"
 ucsur = "U+F193D"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "from number sign (#). compare blissymbol “number”"
+names = ["pu nanpa"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "monsi-2"
 word = "monsi"
 word_id = "monsi"
@@ -14,5 +15,11 @@ ligature = "monsi#2"
 ucsur = "U+F1938"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["tail monsi"]

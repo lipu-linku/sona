@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "omekalike"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Emalan"]
 see_also = []
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["omekalike"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/omekalike"
+
+[translations]
+commentary = ""
+definition = '(proper name) a song by jan Usawi, (literally) "o moku e kala ike" (eat a bad fish)'
+etymology = "o moku e kala ike: toki pona, 'eat a bad fish', wishing somebody harm instead of well; o moku e kala pona: toki pona, 'eat a good fish', wishing somebody well"

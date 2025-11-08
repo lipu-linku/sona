@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "nja"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Kita"]
 see_also = ["mu", "jonke"]
 source_language = "Japanese"
@@ -30,3 +30,8 @@ ligatures = ["nja"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nja"
+
+[translations]
+commentary = ""
+definition = "meow, cat sound"
+etymology = "ニャー (nyā): Japanese, meow (onomatopoeia)"

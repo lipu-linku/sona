@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "tu-1"
 word = "tu"
 word_id = "tu"
@@ -14,5 +15,11 @@ ligature = "tu#1"
 ucsur = "U+F196E"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "two tally marks. compare mute and wan"
+names = ["pu tu"]

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kolin"
-author_verbatim = "maybe its like\nyou love someone so much you feel (figuratively) gloopy :3"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138661802218102927"
+creator_verbatim = "maybe its like\nyou love someone so much you feel (figuratively) gloopy :3"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138661802218102927"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["umeja", "suwi Sunomun"]
 see_also = []
 source_language = "toki pona"
@@ -23,3 +23,8 @@ ligatures = []
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "gloopy love"
+etymology = "ko olin: toki pona, gloopy love"

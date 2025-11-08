@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sinpin-2"
 word = "sinpin"
 word_id = "sinpin"
@@ -14,5 +15,11 @@ ligature = "sinpin#2"
 ucsur = "U+F195F"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["face sinpin"]

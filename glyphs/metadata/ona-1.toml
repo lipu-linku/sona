@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ona-1"
 word = "ona"
 word_id = "ona"
@@ -14,5 +15,11 @@ ligature = "ona#1"
 ucsur = "U+F1946"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a hand pointing sideways. compare mi and sina"
+names = ["pu ona"]

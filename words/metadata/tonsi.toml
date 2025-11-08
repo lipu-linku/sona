@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "tonsi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan inwin"]
 see_also = ["meli", "mije", "kule"]
 source_language = "Mandarin"
@@ -46,3 +46,10 @@ sitelen_jelo = ["⚧️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/tonsi"
+
+[translations]
+commentary = """
+* - Broader in meaning, somewhat less commonly accepted.
+Widely regarded in the community to be a crucial addition to toki pona. Occasionally referred to as an "honorary pu word" to highlight its status, or equated to a pu word outright."""
+definition = "nonbinary, gender nonconforming, genderqueer, transgender*"
+etymology = "同志 (tóngzhì): Mandarin, comrade (same will/purpose), LGBT+"

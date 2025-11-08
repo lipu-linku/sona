@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mani-1"
 word = "mani"
 word_id = "mani"
@@ -14,5 +15,11 @@ ligature = "mani#1"
 ucsur = "U+F1932"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "a pictogram of a large domestic animal, such as a cow (sonja confirmed)"
+names = ["pu mani"]

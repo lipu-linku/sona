@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "toki"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Tok Pisin"
@@ -111,3 +111,8 @@ sitelen_jelo = ["💬"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/toki"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#toki"
+
+[translations]
+commentary = ""
+definition = "communicate, say, think; conversation, story; language"
+etymology = "tok: Tok Pisin, talk; talk: English, talk"

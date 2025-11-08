@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/fingerspelling_data.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "W-2-ANTE"
 is_two_handed = true
 
@@ -10,4 +10,7 @@ sign = "V"
 fsw = "M518x519S20500486x508S15a37482x481S10e51488x490"
 swu = "𝠃𝤘𝤙񆇡𝣸𝤎񂇸𝣴𝣳񀖒𝣺𝣼"
 
-[video]
+[translations.parameters]
+handshape = "2 + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"

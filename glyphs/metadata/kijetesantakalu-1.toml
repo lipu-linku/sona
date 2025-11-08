@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kijetesantakalu-1"
 word = "kijetesantakalu"
 word_id = "kijetesantakalu"
@@ -14,5 +15,11 @@ ligature = "kijetesantakalu#1"
 ucsur = "U+F1980"
 alias_ligatures = []
 teachability = 2
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "a drawing of a raccoon with a tail"
+names = []

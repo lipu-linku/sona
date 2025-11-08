@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kana"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2022"
+era = "post-ku"
+creation_date = "2022"
 creator = ["ilo Powa"]
 see_also = ["oni", "powe", "jume"]
 source_language = "Tulu"
@@ -24,3 +24,8 @@ ligatures = ["kana"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = "Serves as a non-deprecated, neutral-connotation, and polysemous variant of words like oni, powe, or jume."
+definition = "dream; trance, hypnosis, hallucination; illusion, fantasy, imaginary; narrative, story, myth"
+etymology = "ಕನ (kana): Tulu, dream"

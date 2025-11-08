@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "jaku"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2018"
+era = "post-pu"
+creation_date = "2018"
 creator = ["jan Wesu"]
 see_also = ["mute", "ale"]
 source_language = "Japanese"
@@ -31,3 +31,8 @@ ligatures = ["jaku"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jaku"
+
+[translations]
+commentary = ""
+definition = "(number) one hundred"
+etymology = "百 (hyaku): Japanese, 100"

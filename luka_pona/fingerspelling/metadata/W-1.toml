@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/fingerspelling_data.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "W-1"
 is_two_handed = false
 
@@ -10,4 +10,7 @@ sign = "U"
 fsw = "M515x536S11520495x506S2e608486x465"
 swu = "𝠃𝤕𝤪񀠁𝤁𝤌񋙉𝣸𝣣"
 
-[video]
+[translations.parameters]
+handshape = "2"
+movement = "verticle circle movement"
+orientation = "palm outwards"

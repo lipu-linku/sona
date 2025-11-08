@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "masenta"
-author_verbatim = "magenta"
-author_verbatim_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+creator_verbatim = "magenta"
+creator_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2024"
+era = "post-ku"
+creation_date = "2024"
 creator = ["jan Lepeka"]
 see_also = ["laso", "loje"]
 source_language = "multiple"
@@ -23,3 +23,8 @@ ligatures = ["masenta"]
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "magenta, fuchsia, pink, pinkish"
+etymology = "magenta: English, purplish-red color; magenta: French, purplish-red color"

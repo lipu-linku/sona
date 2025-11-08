@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nalanja"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["kapesi Pake"]
 see_also = ["loje", "jelo"]
 source_language = "Spanish"
@@ -29,3 +29,8 @@ ligatures = ["nalanja"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nalanja"
+
+[translations]
+commentary = ""
+definition = "orange (color)"
+etymology = "naranja: Spanish, orange"

@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "inisa"
-author_verbatim = ":nimisin: inisa\nInterjection - used to get somebody to slow down and help you understand a concept\nvocative - used to refer to somebody you forgot the name of\nnoun - forgetfulness, ignorance\nverb - to forget\nmodifier - forgetful, ignorant\n<- from Amharic \"እንጃ\" (ʾənəǧa /ʔɨ.nɨ.dʒä/)"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/1059298564028760225"
+creator_verbatim = ":nimisin: inisa\nInterjection - used to get somebody to slow down and help you understand a concept\nvocative - used to refer to somebody you forgot the name of\nnoun - forgetfulness, ignorance\nverb - to forget\nmodifier - forgetful, ignorant\n<- from Amharic \"እንጃ\" (ʾənəǧa /ʔɨ.nɨ.dʒä/)"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1059298564028760225"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["pan Waja"]
 see_also = []
 source_language = "Amharic"
@@ -24,3 +24,8 @@ ligatures = []
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "forget"
+etymology = "እንጃ (ənəǧa): Amharic, I don't know"

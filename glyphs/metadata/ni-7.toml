@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ni-7"
 word = "ni"
 word_id = "ni"
@@ -14,5 +15,11 @@ ligature = "ni#7"
 ucsur = "U+F1941"
 alias_ligatures = ["ni^<", "ni<^", "ni#upleft"]
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "an arrow"
+names = ["up-left ni"]

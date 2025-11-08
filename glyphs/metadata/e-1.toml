@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "e-1"
 word = "e"
 word_id = "e"
@@ -14,5 +15,11 @@ ligature = "e#1"
 ucsur = "U+F1909"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["pu e"]

@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pipi-1"
 word = "pipi"
 word_id = "pipi"
@@ -14,5 +15,11 @@ ligature = "pipi#1"
 ucsur = "U+F1951"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "animal radical; pictogram of a bug"
+names = ["pu pipi"]

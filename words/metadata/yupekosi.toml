@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "yupekosi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Sonja"]
 see_also = []
 source_language = "a priori"
@@ -36,3 +36,8 @@ sitelen_emosi = "📉"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/yupekosi"
+
+[translations]
+commentary = 'Coined as a random keystroke. It is presumed jan Sonja used "y" by mistake, but then made it part of the joke by adding "nobody knows how to pronounce the y".'
+definition = "to behave like George Lucas and revise your old creative works and actually make them worse"
+etymology = "a priori"

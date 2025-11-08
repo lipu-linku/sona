@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "juna"
-author_verbatim = "juna - train"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/1181641057985908797/1267572340426801213"
+creator_verbatim = "juna - train"
+creator_source = "https://discord.com/channels/301377942062366741/1181641057985908797/1267572340426801213"
 book = "none"
-coined_era = "post-ku"
-coined_year = "2024"
+era = "post-ku"
+creation_date = "2024"
 creator = ["jan Kulusepelipowi"]
 see_also = []
 source_language = "Finnish"
@@ -18,8 +18,13 @@ synonym_glyph_ids = []
 teachability = 4
 
 [representations]
-ligatures = []  # requested for ssk as "juna"
+ligatures = [] # requested for ssk as "juna"
 
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "train, tram; tracked vehicle"
+etymology = "juna: Finnish, train (railroad vehicle)"

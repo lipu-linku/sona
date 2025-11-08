@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/fingerspelling_data.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "O-1"
 is_two_handed = false
 
@@ -10,4 +10,6 @@ sign = "O"
 fsw = "M508x508S17610492x492"
 swu = "𝠃𝤎𝤎񂱑𝣾𝣾"
 
-[video]
+[translations.parameters]
+handshape = "O"
+orientation = "palm outwards"

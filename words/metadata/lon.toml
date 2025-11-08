@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "lon"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["tenpo", "ma"]
 source_language = "Tok Pisin"
@@ -102,3 +102,8 @@ sitelen_jelo = ["⏺️", "✅"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lon"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lon"
+
+[translations]
+commentary = ""
+definition = "present, existing, real, true; (preposition) located at, in, during, in the context of"
+etymology = "long: Tok Pisin, at, in, on, (spacial particle); along: English, along"

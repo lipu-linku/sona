@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "epiku-1"
 word = "epiku"
 word_id = "epiku"
@@ -14,5 +15,11 @@ ligature = "epiku#1"
 ucsur = "U+F1983"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The earlier version of this glyph by TheDarkBomber more closely resembles the design of Reddit's upvote, but that design was replaced by the thinner design."
+etymology = "an upvote from reddit"
+names = ["up arrow epiku", "up vote epiku"]

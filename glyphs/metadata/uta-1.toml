@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "uta-1"
 word = "uta"
 word_id = "uta"
@@ -14,5 +15,11 @@ ligature = "uta#1"
 ucsur = "U+F1970"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "“mouth” with a dot below"
+names = ["pu uta"]

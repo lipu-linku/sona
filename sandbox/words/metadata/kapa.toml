@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kapa"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "pre-pu"
-coined_year = "2001"
+era = "pre-pu"
+creation_date = "2001"
 creator = ["jan Sonja"]
 see_also = ["nena"]
 source_language = "multiple possibilities"
@@ -31,3 +31,8 @@ ligatures = ["kapa"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kapa"
+
+[translations]
+commentary = 'In a poll in 2002, "kapa" was proposed as a replacement for "nena". However, it failed to get enough votes.'
+definition = "extrusion, protrusion, hill, mountain, button [polled as a replacement for nena in 2002]"
+etymology = "kop: Dutch, head, cup; kapo: Esperanto, head; caput: Latin, head"

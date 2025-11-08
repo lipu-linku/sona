@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/fingerspelling_data.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "P-2"
 is_two_handed = true
 
@@ -10,4 +10,6 @@ sign = "P"
 fsw = "M517x531S10018486x501S1ce10495x470S20500483x488"
 swu = "𝠃𝤗𝤥񀀙𝣸𝤇񄵑𝤁𝣨񆇡𝣵𝣺"
 
-[video]
+[translations.parameters]
+handshape = "9 + 1"
+placement = "touch tip of finger"

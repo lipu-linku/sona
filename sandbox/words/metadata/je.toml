@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "je"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = ""
+era = "post-pu"
+creation_date = ""
 creator = ["unknown"]
 see_also = ["a", "wa"]
 source_language = "English"
@@ -29,3 +29,8 @@ ligatures = ["je"]
 2023-09 = 3
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "(interjection) [indicating excitement]"
+etymology = "yay: English, yay"

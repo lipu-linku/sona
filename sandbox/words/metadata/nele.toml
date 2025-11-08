@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "nele"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["jan Emalan"]
 see_also = []
 source_language = "toki pona"
@@ -29,3 +29,8 @@ ligatures = ["nele"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nele"
+
+[translations]
+commentary = "Meant to be antonymous to the 'cover, layer of privacy' meanings of 'len'. It can be applied both literally and metaphorically."
+definition = "transparent material/object, lack of privacy; clear, transparent, unobstructed; to make clear, to make transparent, to remove obstructions"
+etymology = "len: toki pona, cloth, fabric, clothing. secret, hidden, covered"

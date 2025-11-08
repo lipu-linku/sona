@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "misikeke"
-author_verbatim = "misikeke means medicine"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301377942062366741/640757500848766977"
+creator_verbatim = "misikeke means medicine"
+creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/640757500848766977"
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["jan Sonja"]
 see_also = ["moku", "pona"]
 source_language = "Ojibwe"
@@ -47,3 +47,8 @@ sitelen_jelo = ["💊"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/misikeke"
+
+[translations]
+commentary = "The word was used privately by jan Sonja up until November 2019, when she mentioned it in the ma pona pi toki pona discord server as a word she was experimenting with. It is believed the word was originally coined in 2007-2009 alongside pan, esun, apeja, monsuta, and pu, but this cannot be proven."
+definition = "medical item or practice e.g. prescriptions, meditation, exercise, bandages, therapy"
+etymology = "mashkiki: Ojibwe, medicine, drug"

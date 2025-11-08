@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kala-2"
 word = "kala"
 word_id = "kala"
@@ -14,5 +15,11 @@ ligature = "kala#2"
 ucsur = "U+F1914"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "The given earliest known glyph is somewhat silly, but it is an apt and intentional representation of the kala glyph with eyes."
+etymology = ""
+names = ["eyes kala"]

@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "sinpin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["monsi"]
 source_language = "Cantonese"
@@ -53,3 +53,8 @@ sitelen_jelo = ["🗿"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sinpin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sinpin"
+
+[translations]
+commentary = ""
+definition = "vertical surface e.g. wall, board; front of something e.g. face"
+etymology = "前邊 (tsin bin): Cantonese, in front"

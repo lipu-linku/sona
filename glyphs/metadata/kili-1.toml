@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kili-1"
 word = "kili"
 word_id = "kili"
@@ -14,5 +15,11 @@ ligature = "kili#1"
 ucsur = "U+F191A"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a fruit, perhaps an apple"
+names = ["pu kili"]

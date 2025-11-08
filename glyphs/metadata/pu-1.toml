@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pu-1"
 word = "pu"
 word_id = "pu"
@@ -14,5 +15,11 @@ ligature = "pu#1"
 ucsur = "U+F1955"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of the cover of the book “Toki Pona: The Language of Good”. alternatively a semantic compound glyph of lipu and toki pona"
+names = ["pu pu"]

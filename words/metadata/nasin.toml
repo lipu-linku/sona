@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "nasin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Serbo-Croatian"
@@ -91,3 +91,8 @@ sitelen_jelo = ["🛤️"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nasin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#nasin"
+
+[translations]
+commentary = ""
+definition = "method, doctrine, tradition; path, road, way"
+etymology = "начин (način): Serbo-Croatian, way, method"

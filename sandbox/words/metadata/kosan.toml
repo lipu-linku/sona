@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "kosan"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2021"
+era = "post-ku"
+creation_date = "2021"
 creator = ["jan Seni", "jan inwin"]
 see_also = ["awen"]
 source_language = "Irish"
@@ -29,3 +29,8 @@ ligatures = ["kosan"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kosan"
+
+[translations]
+commentary = ""
+definition = "guard, protect, defend, shield, brace, fortify from outside"
+etymology = "cosain: Irish, to defend, protect (against)"

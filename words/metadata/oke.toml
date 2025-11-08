@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "oke"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2019"
+era = "post-pu"
+creation_date = "2019"
 creator = ["unknown"]
 see_also = ["pona", "n", "a"]
 source_language = "English"
@@ -38,3 +38,8 @@ sitelen_emosi = "👌"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/oke"
+
+[translations]
+commentary = ""
+definition = "(acknowledgement or acceptance)"
+etymology = "okay: English, okay"

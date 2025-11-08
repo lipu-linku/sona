@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "sitelen-1"
 word = "sitelen"
 word_id = "sitelen"
@@ -14,5 +15,11 @@ ligature = "sitelen#1"
 ucsur = "U+F1960"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a representation of symbols on a piece of paper (lipu)"
+names = ["pu sitelen"]

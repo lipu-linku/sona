@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "linluwi"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku lili"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = ["jan inwin"]
 see_also = ["len", "ilo", "wan", "kulupu"]
 source_language = "Welsh"
@@ -42,3 +42,8 @@ sitelen_emosi = "🌐"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/linluwi"
+
+[translations]
+commentary = ""
+definition = "bonded things which are stronger through their bonds e.g. network, internet, connection; weave, braid, interlace"
+etymology = "rhyngrwyd: Welsh, internet"

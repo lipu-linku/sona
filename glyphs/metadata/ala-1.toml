@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ala-1"
 word = "ala"
 word_id = "ala"
@@ -14,5 +15,11 @@ ligature = "ala#1"
 ucsur = "U+F1902"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "X mark, a crosslinguistic symbol for negation"
+names = ["pu ala"]

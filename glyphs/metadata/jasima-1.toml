@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "jasima-1"
 word = "jasima"
 word_id = "jasima"
@@ -14,5 +15,11 @@ ligature = "jasima#1"
 ucsur = "U+F197F"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

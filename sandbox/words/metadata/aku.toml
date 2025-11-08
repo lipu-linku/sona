@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "aku"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-ku"
-coined_year = "2023"
+era = "post-ku"
+creation_date = "2023"
 creator = ["kulupu Solali"]
 see_also = []
 source_language = "Romanian"
@@ -24,3 +24,8 @@ ligatures = ["aku"]
 2023-09 = 1
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "shocking, surprising, unexpected; sour, bitter, acidic"
+etymology = "acru: Romanian, sour"

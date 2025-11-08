@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kulupu-1"
 word = "kulupu"
 word_id = "kulupu"
@@ -14,5 +15,11 @@ ligature = "kulupu#1"
 ucsur = "U+F191F"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a group consisting of three members represented by circles"
+names = ["pu kulupu"]

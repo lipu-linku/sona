@@ -1,4 +1,5 @@
-#:schema ../../../api/generated/v2/glyph_data.json
+#:schema ../../../api/generated/v2/glyph.json
+
 id = "lili-2"
 word = "lili"
 word_id = "lili"
@@ -14,5 +15,11 @@ ligature = "lili#2"
 ucsur = "U+F1928"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["underline lili"]

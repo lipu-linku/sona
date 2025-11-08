@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "sin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["namako"]
 source_language = "Mandarin"
@@ -61,3 +61,8 @@ sitelen_jelo = ["✨"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sin"
+
+[translations]
+commentary = "In common usage (both before and after pu), \"sin\" and \"namako\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"namako\" at all, preferring \"sin\" in all circumstances."
+definition = "new, fresh, update; repeat, do again"
+etymology = "新 (xīn): Mandarin, new, fresh"

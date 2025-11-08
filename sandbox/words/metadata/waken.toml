@@ -1,13 +1,13 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "waken"
-author_verbatim = ":nimisin: waken — wug :nimisin:"
-author_verbatim_source = "https://discord.com/channels/301377942062366741/545467374254555137/808527345656397885"
+creator_verbatim = ":nimisin: waken — wug :nimisin:"
+creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/808527345656397885"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["soweli nata"]
 see_also = []
-source_language = ""
+source_language = "English"
 usage_category = "sandbox"
 word = "waken"
 deprecated = false
@@ -25,3 +25,8 @@ ligatures = ["waken"]
 2023-09 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "wug"
+etymology = "wuggen: English, non-standard plural of \"wug\"; wug: English, imaginary creature resembling a bird"

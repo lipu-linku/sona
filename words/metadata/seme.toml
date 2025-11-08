@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "seme"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Mandarin"
@@ -50,3 +50,8 @@ sitelen_jelo = ["❓"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/seme"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#seme"
+
+[translations]
+commentary = ""
+definition = "(particle) [indicate a question by marking missing info in a sentence]; what, which, who"
+etymology = "什麼 (shénme): Mandarin, what, something"

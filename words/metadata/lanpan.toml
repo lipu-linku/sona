@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "lanpan"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = ["jan Wesu", "jan Maliku", "jan inwin"]
 see_also = ["jo", "alasa"]
 source_language = "Greek"
@@ -45,3 +45,8 @@ sitelen_jelo = ["🤳"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lanpan"
+
+[translations]
+commentary = ""
+definition = "take, seize, steal"
+etymology = "λαμβάνω (lamváno): Greek, take, seize, grasp, receive"

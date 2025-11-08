@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "lanpan-1"
 word = "lanpan"
 word_id = "lanpan"
@@ -14,5 +15,11 @@ ligature = "lanpan#1"
 ucsur = "U+F1985"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["jo lanpan"]

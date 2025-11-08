@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "penpo-1"
 word = "penpo"
 word_id = "penpo"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "penpo#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "toki-pona with omnidirectional emitters"
+names = []

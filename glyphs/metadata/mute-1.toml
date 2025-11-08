@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "mute-1"
 word = "mute"
 word_id = "mute"
@@ -14,5 +15,11 @@ ligature = "mute#1"
 ucsur = "U+F193C"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "ideogram consisting of three tally marks. compare wan and tu"
+names = ["pu mute"]

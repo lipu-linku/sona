@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "jo"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["lon", "poki", "lanpan"]
 source_language = "Mandarin"
@@ -62,3 +62,8 @@ sitelen_jelo = ["👜"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jo"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#jo"
+
+[translations]
+commentary = ""
+definition = "hold, carry, possess, contain, own"
+etymology = "有 (yǒu): Mandarin, have"

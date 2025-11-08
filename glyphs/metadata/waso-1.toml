@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "waso-1"
 word = "waso"
 word_id = "waso"
@@ -14,5 +15,11 @@ ligature = "waso#1"
 ucsur = "U+F1974"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "animal radical; pictogram of a bird"
+names = ["pu waso"]

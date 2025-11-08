@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "oko-1"
 word = "oko"
 word_id = "oko"
@@ -14,5 +15,11 @@ ligature = "oko#1"
 ucsur = "U+F197A"
 alias_ligatures = []
 teachability = 3
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "eye from a side"
+names = []

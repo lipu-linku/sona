@@ -1,7 +1,13 @@
 #:schema ../../api/generated/v2/font.json
 id = "nasin sitelen pu mono"
 creator = ["jan Ke Tami"]
-features = ["ASCII transcription", "UCSUR-compliant", "cartouches", "ku suli","autocartouching"]
+features = [
+  "ASCII transcription",
+  "UCSUR-compliant",
+  "cartouches",
+  "ku suli",
+  "autocartouching",
+]
 filename = "nasin-sitelen-pu-mono.otf"
 last_updated = "2024-12"
 license = "CC0"

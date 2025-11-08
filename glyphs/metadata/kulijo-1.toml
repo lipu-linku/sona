@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "kulijo-1"
 word = "kulijo"
 word_id = "kulijo"
@@ -13,5 +14,11 @@ svg = ""
 ligature = "kulijo#1"
 alias_ligatures = []
 teachability = 4
+see_also = []
 
 [usage]
+
+[translations]
+commentary = "jan Lepeka reports to have created the lete version of kulijo, but we have not found the source. https://discord.com/channels/948448338662010910/1191946786936459325/1294891407026159647"
+etymology = ""
+names = ["lete kulijo"]

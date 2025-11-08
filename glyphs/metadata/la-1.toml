@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "la-1"
 word = "la"
 word_id = "la"
@@ -14,5 +15,11 @@ ligature = "la#1"
 ucsur = "U+F1921"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps related to blissymbol “later” and “ago”, or perhaps a parenthesis"
+names = ["pu la"]

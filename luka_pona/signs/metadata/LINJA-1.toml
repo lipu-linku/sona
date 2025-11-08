@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/sign_data.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "linja"
 id = "LINJA-1"
 is_two_handed = false
@@ -17,3 +17,9 @@ swu = "𝠀񄵡񇀧𝠃𝤢𝤕񄵡𝣪𝣷񇀧𝤄𝤅"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/linja.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/linja.mp4"
+
+[translations]
+icons = ""
+[translations.parameters]
+handshape = "9"
+movement = "movement sideways"

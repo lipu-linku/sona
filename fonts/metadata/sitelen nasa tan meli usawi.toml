@@ -1,25 +1,25 @@
 #:schema ../../api/generated/v2/font.json
-id        = "sitelen nasa tan meli usawi"
-name      = "sitelen nasa tan meli usawi"
-filename  = "sitelen nasa tan meli usawi.ttf"
-creator   = ["meli usawi"]
-license   = "OFL-1.1"
+id = "sitelen nasa tan meli usawi"
+name = "sitelen nasa tan meli usawi"
+filename = "sitelen nasa tan meli usawi.ttf"
+creator = ["meli usawi"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
-  "cartouches"
+  "cartouches",
 ]
 
 style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20nasa%20tan%20meli%20usawi.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-nasa-tan-meli-usawi.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-nasa-tan-meli-usawi.html"

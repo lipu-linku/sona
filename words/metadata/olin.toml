@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "olin"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = []
 source_language = "Serbo-Croatian"
@@ -67,3 +67,8 @@ sitelen_jelo = ["💕"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/olin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#olin"
+
+[translations]
+commentary = "In english, \"love\" can be used to mean \"like a lot\", but in toki pona, \"olin\" doesn't work that way. It indicates an emotional connection or bond, not preference"
+definition = "to have a strong emotional bond with, e.g. affection, appreciation, compassion, respect; platonic, romantic, or familial relationships"
+etymology = "волим (volim): Serbo-Croatian, I love"

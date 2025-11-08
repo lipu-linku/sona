@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "ka"
-author_verbatim = ".. ka ka - ~toki sapin~ particle\n    ← toki pona,  kama\nIt is the same as \"li\" but has the meaning of \"tenpo kama\" built into it.\nSo, \"akesi ka moku\" is the same as \"tenpo kama la akesi li moku\""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/316066233755631616/800807976298348554"
+creator_verbatim = ".. ka ka - ~toki sapin~ particle\n    ← toki pona,  kama\nIt is the same as \"li\" but has the meaning of \"tenpo kama\" built into it.\nSo, \"akesi ka moku\" is the same as \"tenpo kama la akesi li moku\""
+creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/800807976298348554"
 book = "none"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Posuke"]
 see_also = ["kama"]
 source_language = "toki sapin"
@@ -24,3 +24,8 @@ ligatures = []
 2022-08 = 0
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "(replacement for li, marked for future tense)"
+etymology = "ka: toki sapin, (future tense marker); kama: toki pona, coming"

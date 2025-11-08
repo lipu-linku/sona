@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "pona-1"
 word = "pona"
 word_id = "pona"
@@ -14,5 +15,11 @@ ligature = "pona#1"
 ucsur = "U+F1954"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a smiling mouth. compare ike"
+names = ["pu pona"]

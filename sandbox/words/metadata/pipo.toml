@@ -1,10 +1,10 @@
-#:schema ../../../api/generated/v2/word_data.json
+#:schema ../../../api/generated/v2/word.json
 id = "pipo"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "none"
-coined_era = "post-pu"
-coined_year = "2017"
+era = "post-pu"
+creation_date = "2017"
 creator = ["jan Ejewa", "jan inwin"]
 see_also = []
 source_language = "toki pona"
@@ -32,3 +32,8 @@ sitelen_emosi = "😒"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pipo"
+
+[translations]
+commentary = ""
+definition = "annoy, annoyance, bothersome, boring"
+etymology = "pipi: toki pona, bug, insect, arachnid"

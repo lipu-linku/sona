@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "seli"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "pu"
-coined_era = "pre-pu"
-coined_year = ""
+era = "pre-pu"
+creation_date = ""
 creator = ["jan Sonja"]
 see_also = ["lete"]
 source_language = "Georgian"
@@ -61,3 +61,8 @@ sitelen_jelo = ["🔥"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/seli"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#seli"
+
+[translations]
+commentary = "In pu, definitions of seli are described as adjectives. ku's pu corrections clarify that these refer to nouns instead."
+definition = "hot, warm; heat, fire, flame; burn"
+etymology = "ცხელი (cxeli): Georgian, hot"

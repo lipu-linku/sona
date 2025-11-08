@@ -1,10 +1,10 @@
-#:schema ../../api/generated/v2/word_data.json
+#:schema ../../api/generated/v2/word.json
 id = "ku"
-author_verbatim = ""
-author_verbatim_source = ""
+creator_verbatim = ""
+creator_source = ""
 book = "ku suli"
-coined_era = "post-pu"
-coined_year = "2021"
+era = "post-pu"
+creation_date = "2021"
 creator = ["jan Sonja"]
 see_also = ["pu", "su"]
 source_language = "a priori"
@@ -37,3 +37,8 @@ sitelen_jelo = ["🔬"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ku"
+
+[translations]
+commentary = "For ways to buy a copy of the book, visit the official Toki Pona website."
+definition = "interacting with the book Toki Pona Dictionary (2021) by Sonja Lang"
+etymology = "a priori"

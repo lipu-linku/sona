@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "olin-1"
 word = "olin"
 word_id = "olin"
@@ -14,5 +15,11 @@ ligature = "olin#1"
 ucsur = "U+F1945"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "two heart symbols (♡), perhaps to distinguish from pilin."
+names = ["pu olin"]

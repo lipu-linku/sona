@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/v2/fingerspelling_data.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "W-2"
 is_two_handed = true
 
@@ -10,4 +10,6 @@ sign = "W"
 fsw = "M523x523S20700491x508S14c19478x478S14c11497x479"
 swu = "𝠃𝤝𝤝񆊡𝣽𝤎񁲚𝣰𝣰񁲒𝤃𝣱"
 
-[video]
+[translations.parameters]
+handshape = "5 + 5"
+placement = "mesh fingers"

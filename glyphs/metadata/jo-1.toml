@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "jo-1"
 word = "jo"
 word_id = "jo"
@@ -14,5 +15,11 @@ ligature = "jo#1"
 ucsur = "U+F1913"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a person pointing at themself or holding something"
+names = ["pu jo"]

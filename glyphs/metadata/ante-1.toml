@@ -1,4 +1,5 @@
-#:schema ../../api/generated/v2/glyph_data.json
+#:schema ../../api/generated/v2/glyph.json
+
 id = "ante-1"
 word = "ante"
 word_id = "ante"
@@ -14,5 +15,11 @@ ligature = "ante#1"
 ucsur = "U+F1906"
 alias_ligatures = []
 teachability = 1
+see_also = []
 
 [usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps alteration from sama, or a combination of sama and ala. perhaps an ideogram representing a diversion of two lines"
+names = ["pu ante"]
