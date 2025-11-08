@@ -111,7 +111,7 @@ movement = "movement downward"
 orientation = "fingers pointing up"
 
 [JELO]
-handshape = "9"
+handshape = "F"
 movement = "placed beside head"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "V"
 placement = "placed on eyes"
 
 [KIKI]
-handshape = "9"
+handshape = "F"
 movement = "movement upward"
 orientation = "palm facing up"
 
@@ -187,7 +187,7 @@ handshape = "5"
 movement = "hand shaking/wiggling"
 
 [KULE]
-handshape = "9"
+handshape = "F"
 movement = "vertical circle movement"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "FlatB"
 movement = "placed beside head"
 
 [LASO]
-handshape = "9"
+handshape = "F"
 placement = "placed on opposite hand"
 
 [LAWA]
@@ -247,7 +247,7 @@ movement = "movement downward"
 placement = "placed on shoulder"
 
 [LETE]
-handshape = "9"
+handshape = "F"
 placement = "placed on opposite hand"
 
 [LILI-TU]
@@ -259,7 +259,7 @@ handshape = "2"
 orientation = "movement downward"
 
 [LILI-PIPI]
-handshape = "9"
+handshape = "F"
 orientation = "palm facing out"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "FlatB"
 orientation = "movement downward"
 
 [LINJA-1]
-handshape = "9"
+handshape = "F"
 movement = "movement sideways"
 
 [LINJA-2]
-handshape = "9"
+handshape = "F"
 movement = "movement sideways"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "FlatB"
 placement = "placed on opposite hand"
 
 [LOJE]
-handshape = "9"
+handshape = "F"
 orientation = "palm facing sideways"
 placement = "placed on mouth"
 
@@ -396,7 +396,7 @@ handshape = "BentB"
 placement = "placed on mouth/chin"
 
 [MUN]
-handshape = "9"
+handshape = "O"
 placement = "placed beside head"
 
 [MUSI]
@@ -493,15 +493,15 @@ movement inward,
 movement sideways"""
 
 [PI]
-handshape = "9"
+handshape = "F"
 movement = "fingers flick up"
 
 [PILIN]
-handshape = "9"
+handshape = "F"
 placement = "placed on chest/stomach"
 
 [PIMEJA]
-handshape = "9"
+handshape = "F"
 placement = "placed on shoulder"
 
 [PINI-1]
@@ -513,7 +513,7 @@ handshape = "FlatB"
 movement = "palm flip down"
 
 [PIPI]
-handshape = "9"
+handshape = "F"
 movement = "hand shaking/wiggling"
 
 [POKA]
@@ -626,7 +626,7 @@ handshape = "FlatB"
 orientation = "palm facing out"
 
 [SITELEN]
-handshape = "9"
+handshape = "F"
 movement = "horizontal circle"
 
 [SOKO]
@@ -744,7 +744,7 @@ movement inward,
 movement sideways"""
 
 [WALO]
-handshape = "9"
+handshape = "F"
 placement = "placed on eye"
 
 [WAN]
