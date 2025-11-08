@@ -12,11 +12,11 @@ importers:
         specifier: ^0.4.3
         version: 0.4.3(hono@4.10.4)
       '@hono/vite-dev-server':
-        specifier: ^0.18.3
-        version: 0.18.3(hono@4.10.4)(miniflare@3.20240806.1)
+        specifier: ^0.23.0
+        version: 0.23.0(hono@4.10.4)(miniflare@3.20240806.1)
       '@hono/zod-validator':
-        specifier: ^0.4.3
-        version: 0.4.3(hono@4.10.4)(zod@3.25.76)
+        specifier: ^0.7.4
+        version: 0.7.4(hono@4.10.4)(zod@3.25.76)
       hono:
         specifier: ^4.10.4
         version: 4.10.4
@@ -43,11 +43,11 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: ^6.4.1
-        version: 6.4.1(@types/node@22.19.0)(tsx@4.20.6)
+        specifier: ^7.2.2
+        version: 7.2.2(@types/node@22.19.0)(tsx@4.20.6)
       vite-plugin-dts:
         specifier: ^4.5.4
-        version: 4.5.4(@types/node@22.19.0)(rollup@4.53.1)(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.0)(tsx@4.20.6))
+        version: 4.5.4(@types/node@22.19.0)(rollup@4.53.1)(typescript@5.9.3)(vite@7.2.2(@types/node@22.19.0)(tsx@4.20.6))
       zod-to-json-schema:
         specifier: ^3.24.6
         version: 3.24.6(zod@3.25.76)
@@ -277,8 +277,8 @@ packages:
     peerDependencies:
       hono: '*'
 
-  '@hono/vite-dev-server@0.18.3':
-    resolution: {integrity: sha512-JztypLmq6qtQ3OAcz5vDzwXYBBymLztSbfDuNf4XTWkfppLjf6DHvYHtQZ5idOfNhUzdnbYY7/6QAKlVk6G3QQ==}
+  '@hono/vite-dev-server@0.23.0':
+    resolution: {integrity: sha512-tHV86xToed9Up0j/dubQW2PDP4aYNFDSfQrjcV6Ra7bqCGrxhtg/zZBmbgSco3aTxKOEPzDXKK+6seAAfsbIXw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -290,11 +290,11 @@ packages:
       wrangler:
         optional: true
 
-  '@hono/zod-validator@0.4.3':
-    resolution: {integrity: sha512-xIgMYXDyJ4Hj6ekm9T9Y27s080Nl9NXHcJkOvkXPhubOLj8hZkOL8pDnnXfvCf5xEE8Q4oMFenQUZZREUY2gqQ==}
+  '@hono/zod-validator@0.7.4':
+    resolution: {integrity: sha512-biKGn3BRJVaftZlIPMyK+HCe/UHAjJ6sH0UyXe3+v0OcgVr9xfImDROTJFLtn9e3XEEAHGZIM9U6evu85abm8Q==}
     peerDependencies:
       hono: '>=3.9.0'
-      zod: ^3.19.1
+      zod: ^3.25.0 || ^4.0.0
 
   '@isaacs/balanced-match@4.0.1':
     resolution: {integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==}
@@ -880,19 +880,19 @@ packages:
       vite:
         optional: true
 
-  vite@6.4.1:
-    resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
-    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+  vite@7.2.2:
+    resolution: {integrity: sha512-BxAKBWmIbrDgrokdGZH1IgkIk/5mMHDreLDmCJ0qpyJaAteP8NvMhkwr/ZCQNqNH97bw/dANTE9PDzqwJghfMQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
-      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      '@types/node': ^20.19.0 || >=22.12.0
       jiti: '>=1.21.0'
-      less: '*'
+      less: ^4.0.0
       lightningcss: ^1.21.0
-      sass: '*'
-      sass-embedded: '*'
-      stylus: '*'
-      sugarss: '*'
+      sass: ^1.70.0
+      sass-embedded: ^1.70.0
+      stylus: '>=0.54.8'
+      sugarss: ^5.0.0
       terser: ^5.16.0
       tsx: ^4.8.1
       yaml: ^2.4.2
@@ -1084,7 +1084,7 @@ snapshots:
     dependencies:
       hono: 4.10.4
 
-  '@hono/vite-dev-server@0.18.3(hono@4.10.4)(miniflare@3.20240806.1)':
+  '@hono/vite-dev-server@0.23.0(hono@4.10.4)(miniflare@3.20240806.1)':
     dependencies:
       '@hono/node-server': 1.19.6(hono@4.10.4)
       hono: 4.10.4
@@ -1092,7 +1092,7 @@ snapshots:
     optionalDependencies:
       miniflare: 3.20240806.1
 
-  '@hono/zod-validator@0.4.3(hono@4.10.4)(zod@3.25.76)':
+  '@hono/zod-validator@0.7.4(hono@4.10.4)(zod@3.25.76)':
     dependencies:
       hono: 4.10.4
       zod: 3.25.76
@@ -1688,7 +1688,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-plugin-dts@4.5.4(@types/node@22.19.0)(rollup@4.53.1)(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.0)(tsx@4.20.6)):
+  vite-plugin-dts@4.5.4(@types/node@22.19.0)(rollup@4.53.1)(typescript@5.9.3)(vite@7.2.2(@types/node@22.19.0)(tsx@4.20.6)):
     dependencies:
       '@microsoft/api-extractor': 7.54.0(@types/node@22.19.0)
       '@rollup/pluginutils': 5.3.0(rollup@4.53.1)
@@ -1701,13 +1701,13 @@ snapshots:
       magic-string: 0.30.21
       typescript: 5.9.3
     optionalDependencies:
-      vite: 6.4.1(@types/node@22.19.0)(tsx@4.20.6)
+      vite: 7.2.2(@types/node@22.19.0)(tsx@4.20.6)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@6.4.1(@types/node@22.19.0)(tsx@4.20.6):
+  vite@7.2.2(@types/node@22.19.0)(tsx@4.20.6):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
