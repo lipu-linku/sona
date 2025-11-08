@@ -28,6 +28,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"build:lib": "vite build --mode lib",
+		"preview": "vite preview",
+		"prod": "vite preview",
 		"generate": "tsx ./generateSchemas.ts",
 		"generate:watch": "tsx ./generateSchemas.ts --watch-path=./**/*.ts",
 		"format": "prettier --write ."
