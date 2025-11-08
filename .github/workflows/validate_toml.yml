@@ -27,7 +27,7 @@ jobs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
       - id: skip_check
-        uses: fkirc/skip-duplicate-actions@v5
+        uses: fkirc/skip-duplicate-actions@v5.3.1
         with:
           cancel_others: true
           concurrent_skipping: "outdated_runs"
@@ -39,12 +39,12 @@ jobs:
     name: Generate schemas, validate and package TOMLs
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - uses: dorny/paths-filter@v3
+      - uses: dorny/paths-filter@v3.0.2
         id: changes
         with:
           filters: |
@@ -68,7 +68,7 @@ jobs:
 
       - name: Commit schemas
         if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.head.repo.fork
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9.1.4
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
@@ -78,7 +78,7 @@ jobs:
 
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.12.1
 
@@ -95,7 +95,7 @@ jobs:
         run: .github/workflows/validate_generated_json.sh
 
       - name: Commit packaged files
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9.1.4
         if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
         with:
           message: Generated raw JSON files for ${{ github.sha }}
