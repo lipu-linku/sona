@@ -112,10 +112,6 @@ language = "Engelska"
 definition = "have"
 language = "Mandarin"
 
-[[jonke]]
-definition = "hjönk"
-language = "onomatopoetiskt"
-
 [[kala]]
 definition = "fish"
 language = "Finska"
@@ -473,9 +469,6 @@ language = "Engelska"
 [[mu]]
 language = "onomatopoetiskt"
 
-[[mulapisu]]
-language = "a priori"
-
 [[mun]]
 definition = "moon"
 language = "Engelska"
@@ -598,10 +591,6 @@ language = "Engelska"
 [[pake]]
 definition = "block"
 language = "Engelska"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "toki pona"
 
 [[pali]]
 definition = "do, make"

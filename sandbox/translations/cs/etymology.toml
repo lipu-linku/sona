@@ -150,6 +150,10 @@ language = "Kantonština"
 definition = "juchú"
 language = "Angličtina"
 
+[[jonke]]
+definition = "hjönk"
+language = "onomatopoie"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "Angličtina"
 definition = "thin shelled"
 language = "Latina"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "oranžová"
 language = "Španělština"
@@ -508,6 +515,10 @@ language = "Angličtina"
 [[pa]]
 definition = "bruh"
 language = "Angličtina"
+
+[[pakola]]
+definition = "rozbitý, poškozený, ublížený, zničený"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"
