@@ -58,7 +58,6 @@ export const fetchFile = async <Endpoint extends EndpointConfig>(
     import: "default",
     eager: true,
   });
-  console.log({ imports });
   const { root = "/", filename, schema, translations = false } = config;
 
   let path = join("../../raw", version, root, filename);
@@ -70,7 +69,6 @@ export const fetchFile = async <Endpoint extends EndpointConfig>(
     let translationData = imports[translationPath]!;
     file = mergeToKey(file, "translations", translationData);
   }
-
 
   // TODO: I cannot figure out how to make this type safe
   // @ts-expect-error

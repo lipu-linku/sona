@@ -6,6 +6,28 @@
   </a>
 </div>
 
+## How to Develop?
+
+but steps for everyone, including pre-reqs of validation which will only produce changes if the inputs are changed, and will have static outputs otherwise
+
+1. in `./api`, `pnpm run generate` (makes json schemas from zod schemas)
+2. in `./`, `pnpm dlx @taplo/cli check` (type checks all toml files using aforementioned json schemas)
+3. in `./`, `python ./.github/workflows/validate_refs.py` (checks that references between types are valid)
+4. in `./`, `python ./.github/workflows/package_data.py` (copies all toml data to json)
+5. in `./api`, `bash ../.github/workflows/validate_generated_json.sh` (checks typing of all json files)
+
+```
+cd api && pnpm run generate && cd .. && pnpm dlx @taplo/cli check && python ./.github/workflows/validate_refs.py && python ./.github/workflows/package_data.py && cd api && bash ../.github/workflows/validate_gene rated_json.sh
+```
+
+and separately there is
+
+- in `./`, `python ./.github/workflows/upsync_translations.py` (synchronize translation files of all types with their source; adds missing keys, overwrites empty keys, deletes spare keys in the translation)
+
+and then helpers:
+
+- in `./`, `python ./.github/workflows/update_schemas.py` (correct the schema line of any type-checked tomls)
+
 ## Changes in API from v1 to v2
 
 ### General
