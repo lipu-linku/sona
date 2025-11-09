@@ -8,7 +8,6 @@ sys.path.append(SCRIPT_DIR)
 
 import tomlkit
 import tomlkit.exceptions
-
 from constants import DATA
 from package_data import FETCH_MAP
 from utils import (
@@ -122,6 +121,8 @@ def main():
         for ref in refs:
             ref_key = ref["key"]
             ref_targets = ref["to"]
+            required = ref["required"]
+            nonempty = ref.get("nonempty", False)
 
             valid_ids = set()
             for target in ref_targets:
@@ -131,14 +132,20 @@ def main():
             for obj_id, obj_data in data[key].items():
                 raw_refs = obj_data.get(ref_key)
                 if raw_refs is None:
-                    print(f"{key} ({obj_id}): missing key {ref_key}")
-                    found_errs = True
+                    if required:
+                        print(f"{key} ({obj_id}): missing required key {ref_key}")
+                        found_errs = True
                     continue
 
                 if isinstance(raw_refs, str):
                     raw_refs = [raw_refs]
                     # if it isn't a str or list[str],
                     # that's a toml validation error
+
+                if nonempty and not len(raw_refs):
+                    print(f"{key} ({obj_id}): empty list {ref_key}")
+                    found_errs = True
+                    continue
 
                 for ref_id in raw_refs:
                     if ref_id not in valid_ids:

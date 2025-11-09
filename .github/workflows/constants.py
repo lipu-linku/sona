@@ -10,6 +10,8 @@ Packager = Callable[[str, str, str], None]
 class Refs(TypedDict):
     key: str
     to: list[str]
+    required: bool  # whether the key is required
+    nonempty: bool  # whether the key must have a member
 
 
 class DataToPackage(TypedDict):
@@ -30,11 +32,21 @@ DATA: dict[str, DataToPackage] = {
         "schema": "word.json",
         "translations": "words_locale",
         "refs": [
-            {"key": "parent_id", "to": ["words"]},
-            {"key": "see_also", "to": ["words"]},
-            {"key": "glyph_ids", "to": ["glyphs"]},
-            {"key": "primary_glyph_id", "to": ["glyphs"]},
-            {"key": "synonym_glyph_ids", "to": ["glyphs"]},
+            {"key": "parent_id", "to": ["words"], "required": False, "nonempty": True},
+            {"key": "see_also", "to": ["words"], "required": True, "nonempty": False},
+            {"key": "glyph_ids", "to": ["glyphs"], "required": True, "nonempty": True},
+            {
+                "key": "primary_glyph_id",
+                "to": ["glyphs"],
+                "required": True,
+                "nonempty": True,
+            },
+            {
+                "key": "synonym_glyph_ids",
+                "to": ["glyphs"],
+                "required": True,
+                "nonempty": False,
+            },
         ],
     },
     "glyphs": {
@@ -44,8 +56,9 @@ DATA: dict[str, DataToPackage] = {
         "schema": "glyph.json",
         "translations": "glyphs_locale",
         "refs": [
-            {"key": "word_id", "to": ["words"]},
-            {"key": "parent_id", "to": ["glyphs"]},
+            {"key": "word_id", "to": ["words"], "required": True, "nonempty": True},
+            {"key": "parent_id", "to": ["glyphs"], "required": False, "nonempty": True},
+            {"key": "see_also", "to": ["glyphs"], "required": True, "nonempty": False},
         ],
     },
     "sandbox_words": {
@@ -55,12 +68,37 @@ DATA: dict[str, DataToPackage] = {
         "schema": "word.json",
         "translations": "sandbox_words_locale",
         "refs": [
-            # TODO: sandbox words can ref words...
-            {"key": "see_also", "to": ["words", "sandbox_words"]},
-            {"key": "glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
-            # {"key": "primary_glyph_id", "to": ["sandbox_glyphs", "glyphs"]},
-            # primary_glyph_id is nullable in sandbox_words
-            {"key": "synonym_glyph_ids", "to": ["sandbox_glyphs", "glyphs"]},
+            {
+                "key": "parent_id",
+                "to": ["words", "sandbox_words"],
+                "required": False,
+                "nonempty": True,
+            },
+            {
+                "key": "see_also",
+                "to": ["words", "sandbox_words"],
+                "required": True,
+                "nonempty": False,
+            },
+            {
+                # unlike words, sandbox words may lack a glyph
+                "key": "glyph_ids",
+                "to": ["sandbox_glyphs", "glyphs"],
+                "required": True,
+                "nonempty": False,
+            },
+            {
+                "key": "primary_glyph_id",
+                "to": ["sandbox_glyphs", "glyphs"],
+                "required": False,
+                "nonempty": True,
+            },
+            {
+                "key": "synonym_glyph_ids",
+                "to": ["sandbox_glyphs", "glyphs"],
+                "required": True,
+                "nonempty": False,
+            },
         ],
     },
     "sandbox_glyphs": {
@@ -70,7 +108,24 @@ DATA: dict[str, DataToPackage] = {
         "schema": "glyph.json",
         "translations": "sandbox_glyphs_locale",
         "refs": [
-            {"key": "word_id", "to": ["words", "sandbox_words"]},
+            {
+                "key": "word_id",
+                "to": ["words", "sandbox_words"],
+                "required": True,
+                "nonempty": True,
+            },
+            {
+                "key": "parent_id",
+                "to": ["glyphs", "sandbox_glyphs"],
+                "required": False,
+                "nonempty": True,
+            },
+            {
+                "key": "see_also",
+                "to": ["glyphs", "sandbox_glyphs"],
+                "required": True,
+                "nonempty": False,
+            },
         ],
     },
     "lp_signs": {
