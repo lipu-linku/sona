@@ -39,7 +39,9 @@ def update_schemas(entry: DataToPackage):
     key = "input" if entry["type"] == "data" else "source"
     input = entry[key]
     output = entry["output"]
-    schema_template = entry["schema"]
+    schema_template = entry.get("schema")
+    if not schema_template:
+        return
     prefix = get_depth_prefix(input)
     for path in find_files(input):
         resolved_schema = resolve_schema(schema_template, path, input, output)
