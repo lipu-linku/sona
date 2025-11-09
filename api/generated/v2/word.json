@@ -47,12 +47,11 @@
       "description": "The name or names of those involved in creating this word.",
       "type": "array",
       "items": {
-        "type": "string",
-        "minLength": 1
+        "$ref": "#/$defs/__schema1"
       }
     },
     "ku_data": {
-      "description": "The usage data of this word, as described in the Toki Pona Dictionary)",
+      "description": "The usage data of this word, as described in the Toki Pona Dictionary.",
       "type": "object",
       "propertyNames": {
         "description": "A possible translation of the word into English, as listed in the Toki Pona dictionary.",
@@ -61,7 +60,7 @@
       },
       "additionalProperties": {
         "description": "The percentage of Toki Pona Dictionary survey respondents who report this translation as accurate to their usage.",
-        "$ref": "#/$defs/__schema1"
+        "$ref": "#/$defs/__schema2"
       }
     },
     "parent_id": {
@@ -70,7 +69,7 @@
     },
     "see_also": {
       "description": "The IDs of words related to this one.",
-      "$ref": "#/$defs/__schema2"
+      "$ref": "#/$defs/__schema3"
     },
     "resources": {
       "description": "Non-Linku resources related to the specific word, such as wiki links.",
@@ -78,11 +77,11 @@
       "properties": {
         "sona_pona": {
           "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-          "$ref": "#/$defs/__schema3"
+          "$ref": "#/$defs/__schema4"
         },
         "lipamanka_semantic": {
           "description": "A link to lipamanka's description of the word's semantic space.",
-          "$ref": "#/$defs/__schema3"
+          "$ref": "#/$defs/__schema4"
         }
       },
       "additionalProperties": false
@@ -119,7 +118,7 @@
         },
         "sitelen_sitelen": {
           "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block",
-          "$ref": "#/$defs/__schema3"
+          "$ref": "#/$defs/__schema4"
         },
         "ucsur": {
           "description": "The UCSUR codepoint for this word.",
@@ -157,11 +156,11 @@
         "properties": {
           "author": {
             "description": "The author of the audio file in `link`.",
-            "type": "string"
+            "$ref": "#/$defs/__schema1"
           },
           "link": {
             "description": "A link to the audio file for the word, pronounced by `author`.",
-            "$ref": "#/$defs/__schema3"
+            "$ref": "#/$defs/__schema4"
           }
         },
         "required": [
@@ -177,19 +176,19 @@
       "properties": {
         "en": {
           "description": "The word's definition in the English edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema5"
         },
         "fr": {
           "description": "The word's definition in the French edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema5"
         },
         "de": {
           "description": "The word's definition in the German edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema5"
         },
         "eo": {
           "description": "The word's definition in the Esperanto edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema5"
         }
       },
       "required": [
@@ -208,12 +207,12 @@
         "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
       },
       "additionalProperties": {
-        "$ref": "#/$defs/__schema1"
+        "$ref": "#/$defs/__schema2"
       }
     },
     "glyph_ids": {
       "description": "The IDs of all sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
-      "$ref": "#/$defs/__schema2"
+      "$ref": "#/$defs/__schema3"
     },
     "primary_glyph_id": {
       "description": "The ID of the glyph most commonly used to represent this word in sitelen pona.",
@@ -222,7 +221,7 @@
     },
     "synonym_glyph_ids": {
       "description": "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
-      "$ref": "#/$defs/__schema2"
+      "$ref": "#/$defs/__schema3"
     },
     "translations": {
       "type": "object",
@@ -237,7 +236,7 @@
         },
         "definition": {
           "description": "Localized definition of this word.",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema5"
         }
       },
       "required": [
@@ -275,23 +274,27 @@
       "minLength": 1
     },
     "__schema1": {
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema2": {
       "type": "number",
       "minimum": 0,
       "maximum": 100
     },
-    "__schema2": {
+    "__schema3": {
       "description": "The IDs of one or more objects related to this one.",
       "type": "array",
       "items": {
         "$ref": "#/$defs/__schema0"
       }
     },
-    "__schema3": {
+    "__schema4": {
       "description": "A URL pointing to some external resource.",
       "type": "string",
       "format": "uri"
     },
-    "__schema4": {
+    "__schema5": {
       "description": "Localized definition on the parent, such as a word or luka pona sign",
       "type": "string",
       "minLength": 1

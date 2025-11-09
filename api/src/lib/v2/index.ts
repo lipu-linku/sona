@@ -3,6 +3,13 @@ import { Book, Era, UsageCategory, WritingSystem, OptionalDate, Date, Score } fr
 
 export type * from "./types";
 
+// books which may have ku data
+const CAN_HAVE_KU_DATA = ["pu", "ku suli", "ku lili"];
+// words in pu but without dictionary entries
+const NO_PU_VERBATIM = ["ali"];
+// words in ku but without entries in https://tokipona.org/nimi_pi_pu_ala.txt
+const NO_KU_DATA = ["wasoweli", "kulijo", "li", "e", "ku", "su"];
+
 const Id = z
   .string()
   .min(1)
@@ -54,7 +61,7 @@ const Deprecated = z
 
 const Audio = z
   .object({
-    author: z.string().describe("The author of the audio file in `link`."),
+    author: Author.describe("The author of the audio file in `link`."),
     link: Resource.describe("A link to the audio file for the word, pronounced by `author`."),
   })
   .describe("Audio files of the words pronounced out loud");
@@ -148,7 +155,7 @@ export const Word = z
         ),
       )
       .optional()
-      .describe("The usage data of this word, as described in the Toki Pona Dictionary)"),
+      .describe("The usage data of this word, as described in the Toki Pona Dictionary."),
     parent_id: Ref.optional().describe(
       "The most widely used word which is considered to be an exact synonym for this word.",
     ),
@@ -237,14 +244,16 @@ export const Word = z
     }),
   })
   .describe("General info on a Toki Pona word")
-  .refine(({ primary_glyph_id, glyph_ids, usage_category }) =>
+  .refine(({ id, primary_glyph_id, glyph_ids, usage_category }) =>
     usage_category !== "sandbox"
       ? primary_glyph_id && primary_glyph_id.length >= 3 && glyph_ids.length >= 1
       : true,
   )
-  .refine(({ book, pu_verbatim }) => (book === "pu" ? pu_verbatim !== undefined : true))
-  .refine(({ book, ku_data }) =>
-    ["pu", "ku suli", "ku lili"].includes(book) ? ku_data !== undefined : true,
+  .refine(({ id, book, pu_verbatim }) =>
+    book === "pu" && !NO_PU_VERBATIM.includes(id) ? pu_verbatim !== undefined : true,
+  )
+  .refine(({ id, book, ku_data }) =>
+    CAN_HAVE_KU_DATA.includes(book) && !NO_KU_DATA.includes(id) ? ku_data !== undefined : true,
   );
 
 export const Glyph = z
