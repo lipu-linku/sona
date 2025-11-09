@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id        = "JCs Font SP"
 name      = "JCs Font SP"
 filename  = "JCs Font SP.ttf"
