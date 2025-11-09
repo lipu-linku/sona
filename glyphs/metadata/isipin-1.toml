@@ -12,7 +12,7 @@ image = "https://drive.google.com/open?id=1D2rkhoTKP47R8wzirK4VoJWIgTGXMmkT"
 svg = ""
 ligature = "isipin#1"
 alias_ligatures = []
-teachability = 4
+# teachability = 4
 see_also = ["lawa-1"]
 
 [usage]

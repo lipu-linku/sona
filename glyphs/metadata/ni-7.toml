@@ -13,7 +13,7 @@ svg = ""
 ligature = "ni#7"
 ucsur = "U+F1941"
 alias_ligatures = ["ni^<", "ni<^", "ni#upleft"]
-teachability = 4
+# teachability = 4
 see_also = []
 
 [usage]

@@ -12,7 +12,7 @@ image = "https://drive.google.com/open?id=116R-Gvt1ZO2bCWNBvnM5xlNL4adJZJu6"
 svg = ""
 ligature = "su#1"
 alias_ligatures = []
-teachability = 3
+# teachability = 3
 see_also = ["pu-1", "ku-1", "lipu-1"]
 
 [usage]

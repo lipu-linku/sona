@@ -14,7 +14,7 @@ deprecated = false
 glyph_ids = ["epiku-1", "epiku-2"]
 primary_glyph_id = "epiku-2"
 synonym_glyph_ids = []
-teachability = 3
+# teachability = 3
 
 [[audio]]
 author = "kala Asi"

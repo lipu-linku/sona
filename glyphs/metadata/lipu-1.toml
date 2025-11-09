@@ -13,7 +13,7 @@ svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen
 ligature = "lipu#1"
 ucsur = "U+F192A"
 alias_ligatures = []
-teachability = 1
+# teachability = 1
 see_also = ["sitelen-1", "sona-1"]
 
 [usage]

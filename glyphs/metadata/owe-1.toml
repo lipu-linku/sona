@@ -12,7 +12,7 @@ image = "https://drive.google.com/open?id=1iSgnK--fIX0HkHWJzemLh9LXVurRlxaz"
 svg = ""
 ligature = "owe#1"
 alias_ligatures = []
-teachability = 4
+# teachability = 4
 see_also = ["lukin-1"]
 
 [usage]

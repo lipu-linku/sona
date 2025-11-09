@@ -14,7 +14,7 @@ deprecated = false
 glyph_ids = ["kamalawala-1"]
 primary_glyph_id = "kamalawala-1"
 synonym_glyph_ids = []
-teachability = 4
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"

@@ -12,7 +12,7 @@ image = "https://drive.google.com/open?id=1i9f8UogyPYoolnziHmxW7NijSRQKvlkm"
 svg = ""
 ligature = "penpo#1"
 alias_ligatures = []
-teachability = 4
+# teachability = 4
 see_also = ["suno-1", "pona-1"]
 
 [usage]

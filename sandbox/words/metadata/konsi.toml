@@ -12,9 +12,9 @@ usage_category = "sandbox"
 word = "konsi"
 deprecated = false
 glyph_ids = []
-primary_glyph_id = ""
+# primary_glyph_id = ""
 synonym_glyph_ids = []
-teachability = 4
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
