@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "soto-1"
 word = "soto"
 word_id = "soto"
 usage_category = "obscure"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = true
 deprecated = false

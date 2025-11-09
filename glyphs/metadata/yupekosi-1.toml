@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "yupekosi-1"
 word = "yupekosi"
 word_id = "yupekosi"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/746989572097048626"
-creator = ["jan Elemenopi"]
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/746989572097048626"
+author = ["jan Elemenopi"]
 creation_date = "2020-08-23"
 primary = true
 deprecated = false

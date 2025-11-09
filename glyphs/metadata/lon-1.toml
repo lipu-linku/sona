@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "lon-1"
 word = "lon"
 word_id = "lon"
 usage_category = "core"
-creator_source = "https://tokipona.org/hieroglyphs_sample.pdf"
-creator = ["jan Sonja"]
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
 creation_date = "2013-05-19"
 primary = true
 deprecated = false

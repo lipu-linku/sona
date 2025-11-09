@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "opasan"
-creator_verbatim = "opasan – ~post-pu, humorous~ talented, brilliant, incredible, amazing, show stopping, spectacular, never the same, completely not ever been done before, totally unique, very very gay, opossum"
-creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/813773779834503199"
+author_verbatim = "opasan – ~post-pu, humorous~ talented, brilliant, incredible, amazing, show stopping, spectacular, never the same, completely not ever been done before, totally unique, very very gay, opossum"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/813773779834503199"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["smoothied"]
+author = ["smoothied"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

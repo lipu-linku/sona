@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "misa"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["misa Ewis"]
+author = ["misa Ewis"]
 see_also = ["soweli"]
 source_language = "Ukranian"
 usage_category = "obscure"

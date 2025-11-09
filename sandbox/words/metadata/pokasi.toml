@@ -1,13 +1,13 @@
 #:schema ../../../api/generated/v2/word.json
 id = "pokasi"
-creator_verbatim = """<:nimisin:743741432350769152> **pokasi** poggies, pog; an interjection of excitement; epic, cool, amazing, exciting,
+author_verbatim = """<:nimisin:743741432350769152> **pokasi** poggies, pog; an interjection of excitement; epic, cool, amazing, exciting,
 Ety{English <poggies>}
 Exmpl: kijetesantkalu kala li pokasi a"""
-creator_source = "https://discord.com/channels/301377942062366741/1181641057985908797/1231819050846392392"
+author_source = "https://discord.com/channels/301377942062366741/1181641057985908797/1231819050846392392"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["jan Majeka"]
+author = ["jan Majeka"]
 see_also = ["epiku"]
 source_language = "English"
 usage_category = "sandbox"

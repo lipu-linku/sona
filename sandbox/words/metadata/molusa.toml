@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "molusa"
-creator_verbatim = "hm i am considering making a nimisin for mollusks, if that isn’t already a thing"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/861476478021533696"
+author_verbatim = "hm i am considering making a nimisin for mollusks, if that isn’t already a thing"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/861476478021533696"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["jan soweli Apen"]
+author = ["jan soweli Apen"]
 see_also = ["pipi"]
 source_language = "multiple"
 usage_category = "sandbox"

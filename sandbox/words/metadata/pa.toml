@@ -1,12 +1,12 @@
 #:schema ../../../api/generated/v2/word.json
 # https://discord.com/channels/301377942062366741/301377942062366741/640756102098714650
 id = "pa"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Jan", "jan Lija"]
+author = ["jan Jan", "jan Lija"]
 see_also = ["a", "n"]
 source_language = "English"
 usage_category = "sandbox"

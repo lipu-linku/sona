@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "nja-2"
 word = "nja"
 word_id = "nja"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/825701487149056020"
-creator = []
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/825701487149056020"
+author = []
 creation_date = "2021-03-28"
 primary = false
 deprecated = false

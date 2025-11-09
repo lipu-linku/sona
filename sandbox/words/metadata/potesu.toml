@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "potesu"
-creator_verbatim = ":nimisin~1: potesu totally radical from English “bodacious”"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/876205108986265651"
+author_verbatim = ":nimisin~1: potesu totally radical from English “bodacious”"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/876205108986265651"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["soko Tulinja"]
+author = ["soko Tulinja"]
 see_also = ["pona", "epiku"]
 source_language = "English"
 usage_category = "sandbox"

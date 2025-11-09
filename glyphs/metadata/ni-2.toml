@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "ni-2"
 word = "ni"
 word_id = "ni"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/692137231619457094"
-creator = ["jan Epo (aprilsr)"]
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/692137231619457094"
+author = ["jan Epo (aprilsr)"]
 creation_date = "2020-03-24"
 primary = false
 deprecated = false

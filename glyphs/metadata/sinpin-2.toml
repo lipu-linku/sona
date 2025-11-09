@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "sinpin-2"
 word = "sinpin"
 word_id = "sinpin"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308654162883645441"
-creator = ["soweli Selupu"]
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308654162883645441"
+author = ["soweli Selupu"]
 creation_date = "2024-11-20"
 primary = false
 deprecated = false

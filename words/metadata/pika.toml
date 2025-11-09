@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "pika"
-creator_verbatim = "MOD. electric, electronic, conductive, mashinical, online\nN. electricity, lightning, thunder, network\nV. struck by electric/lightning"
-creator_source = "https://www.reddit.com/r/tokipona/comments/mibo62/a_new_word_about_network_electric/"
+author_verbatim = "MOD. electric, electronic, conductive, mashinical, online\nN. electricity, lightning, thunder, network\nV. struck by electric/lightning"
+author_source = "https://www.reddit.com/r/tokipona/comments/mibo62/a_new_word_about_network_electric/"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["Kriskee_"]
+author = ["Kriskee_"]
 see_also = ["linluwi", "ilo"]
 source_language = "Japanese"
 usage_category = "obscure"

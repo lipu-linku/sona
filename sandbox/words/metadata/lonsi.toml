@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "lonsi"
-creator_verbatim = "LONSI"
-creator_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
+author_verbatim = "LONSI"
+author_source = "https://discord.com/channels/301377942062366741/972923278479982592/1138831811984760947"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["jan Emikili"]
+author = ["jan Emikili"]
 see_also = ["lon", "tonsi"]
 source_language = "toki pona"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "tasun"
-creator_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
-creator_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"
+author_verbatim = ":nimisin: ***t(a+)sun*** – dachshund; amount of `a` varies depending on physical length"
+author_source = "https://discord.com/channels/301377942062366741/876636350214979614/887793881016582145"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["jan Pensa, jan Kita"]
+author = ["jan Pensa, jan Kita"]
 see_also = ["soweli", "pela", "wisa"]
 source_language = "English"
 usage_category = "sandbox"

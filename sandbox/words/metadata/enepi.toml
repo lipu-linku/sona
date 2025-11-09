@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "enepi"
-creator_verbatim = "I’ve made a nimi sin called “enepi” to mean NFT, scam, screenshot, monkey, JPEG, crypto, cryptocurrency, etc"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138893081584865350"
+author_verbatim = "I’ve made a nimi sin called “enepi” to mean NFT, scam, screenshot, monkey, JPEG, crypto, cryptocurrency, etc"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138893081584865350"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["jan Kuwimaku"]
+author = ["jan Kuwimaku"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

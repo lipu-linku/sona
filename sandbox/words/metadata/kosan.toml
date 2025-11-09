@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kosan"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["jan Seni", "jan inwin"]
+author = ["jan Seni", "jan inwin"]
 see_also = ["awen"]
 source_language = "Irish"
 usage_category = "sandbox"

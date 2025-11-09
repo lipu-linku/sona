@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "ipi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = "2002"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["ona"]
 source_language = "unknown"
 usage_category = "sandbox"

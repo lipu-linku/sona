@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "lajotu"
-creator_verbatim = ":nimisin~1: lajotu – ~post-ku~ cat\n    ← Canadian syllabics ᓚᘏᗢ layotʼu (i think this actually combines multiple scripts and transcription systems, it just looks like a cat) "
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/912278770164043816"
+author_verbatim = ":nimisin~1: lajotu – ~post-ku~ cat\n    ← Canadian syllabics ᓚᘏᗢ layotʼu (i think this actually combines multiple scripts and transcription systems, it just looks like a cat) "
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/912278770164043816"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["kulupu Menasewi"]
+author = ["kulupu Menasewi"]
 see_also = ["soweli", "kisa"]
 source_language = "Canadian Syllabics"
 usage_category = "sandbox"

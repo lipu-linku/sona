@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "walo-1"
 word = "walo"
 word_id = "walo"
 usage_category = "core"
-creator_source = "lipu pu"
-creator = ["jan Sonja"]
+author_source = "lipu pu"
+author = ["jan Sonja"]
 creation_date = "2014-05-25"
 primary = true
 deprecated = false

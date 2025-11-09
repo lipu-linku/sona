@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "sutopatikuna"
-creator_verbatim = "Dear Sonja, That's a great idea, but if you do so, you need also to add a special word forthe Platypus (Ornithorhynchus anatinus). I would suggest the word \"sutopatikuna\"from the croatian word Èudnovati kljuna¹. Bonega ideo, sed se vi farus tion, vi devus ankaux aldoni apartan vorton porla Ornitorinko (Ornithorhynchus anatinus). Mi proponus la vorton \"sutopatikuna\"prenita de la kroatan vorton Èudnovati kljuna¹.:P"
-creator_source = "http://forums.tokipona.org/viewtopic.php?p=4927&hilit=sutopatikuna#p4927"
+author_verbatim = "Dear Sonja, That's a great idea, but if you do so, you need also to add a special word forthe Platypus (Ornithorhynchus anatinus). I would suggest the word \"sutopatikuna\"from the croatian word Èudnovati kljuna¹. Bonega ideo, sed se vi farus tion, vi devus ankaux aldoni apartan vorton porla Ornitorinko (Ornithorhynchus anatinus). Mi proponus la vorton \"sutopatikuna\"prenita de la kroatan vorton Èudnovati kljuna¹.:P"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=4927&hilit=sutopatikuna#p4927"
 book = "ku lili"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = "2009"
-creator = ["Alexandre Baudry"]
+author = ["Alexandre Baudry"]
 see_also = ["kijetesantakalu"]
 source_language = "Serbo-Croatian"
 usage_category = "obscure"

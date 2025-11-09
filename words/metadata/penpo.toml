@@ -5,12 +5,12 @@
 # author = ""
 # link = ""
 id = "penpo"
-creator_verbatim = "tenpo li penpo a"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1087794149127884961"
+author_verbatim = "tenpo li penpo a"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1087794149127884961"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["jan Kita"]
+author = ["jan Kita"]
 see_also = ["kokosila"]
 source_language = "toki pona"
 usage_category = "obscure"

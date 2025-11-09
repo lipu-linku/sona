@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "powe"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = "2007-01-19"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["ike", "lon"]
 source_language = "Acadian French"
 usage_category = "obscure"

@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "teje"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Olipija", "jan inwin"]
+author = ["jan Olipija", "jan inwin"]
 see_also = ["poka", "soto"]
 source_language = "Welsh"
 usage_category = "obscure"

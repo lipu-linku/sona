@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "omen"
-creator_verbatim = """canonize *'o·m·e·m'* (← 'o moli e mi') into an actuall tp word *'omen'*, meaning "sarcasm, sarcastic""""
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/384819868815458314"
+author_verbatim = """canonize *'o·m·e·m'* (← 'o moli e mi') into an actuall tp word *'omen'*, meaning "sarcasm, sarcastic""""
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/384819868815458314"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2017"
-creator = ["jan inwin"]
+author = ["jan inwin"]
 see_also = ["musi"]
 source_language = "toki pona"
 usage_category = "sandbox"

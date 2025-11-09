@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "pika-1"
 word = "pika"
 word_id = "pika"
 usage_category = "obscure"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = true
 deprecated = false

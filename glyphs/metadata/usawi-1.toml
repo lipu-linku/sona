@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "usawi-1"
 word = "usawi"
 word_id = "usawi"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/803387010625699860"
-creator = ["jan Tumu", "jan Seli", "jan Mulan"]
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/803387010625699860"
+author = ["jan Tumu", "jan Seli", "jan Mulan"]
 creation_date = "2021-01-25"
 primary = true
 deprecated = false

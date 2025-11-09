@@ -8,24 +8,26 @@ const Id = z
   .min(1)
   .describe("A unique identifier for an object in Linku. Generally named after the object.");
 const Ref = Id.describe("The ID of an object related to this one.");
-const Refs = z.array(Id).describe("The IDs of other objects related to this one.");
+const Refs = z.array(Id).describe("The IDs of one or more objects related to this one.");
+const OptionalRef = Ref.optional();
 
-const Creators = z
-  .array(z.string().min(1))
-  .describe("The name or names of those involved in creating this object (if known)");
+const Author = z.string().min(1);
+const Authors = z
+  .array(Author)
+  .describe("The name or names of those involved in authoring this object (if known)");
 
 const Usage = z
   .record(Date, Score)
   .describe(
     "The percentage of respondents to an annual Linku survey who report to use this object.",
   );
-const Teachability = z
-  .number()
-  .min(1)
-  .max(4)
-  .describe(
-    "The tier of teachability for this object, as defined by the Sitelen Pona Publishers and Typographers Association.",
-  );
+// const Teachability = z
+//   .number()
+//   .min(1)
+//   .max(4)
+//   .describe(
+//     "The tier of teachability for this object, as defined by the Sitelen Pona Publishers and Typographers Association.",
+//   );
 
 const Ligature = z.string().min(1);
 const Ligatures = z.array(Ligature).optional();
@@ -119,38 +121,38 @@ const Parameters = z
 export const Word = z
   .object({
     id: Id.describe(
-      "A unique identifier for the word. Almost always the word, but may have an integer distinguish words with distinct coinings.",
+      "A unique identifier for the word. May have an integer to distinguish words with the same spelling but distinct coinings.",
     ),
-    word: z
-      .string()
-      .min(1)
-      .describe(`The word's actual text, in case of a word with multiple definitions (like "we")`),
-    creator_verbatim: z
+    word: z.string().min(1).describe(`The latin alphabet representation of the word.`),
+    author_verbatim: z
       .string()
       .optional()
       .describe("The author's original definition, taken verbatim in their words"),
-    creator_source: Source.optional(),
+    author_source: Source.optional().describe("The source or origin of this glyph, often a URL."),
     book: Book.describe("Which official Toki Pona book was this word featured in, if any."),
-    era: Era.describe(
+    coined_era: Era.describe(
       "The period of time in which this word was coined, relative to the publication of the first two official Toki Pona books",
     ),
     creation_date: OptionalDate.describe("When this word was coined, to precision known."),
-    creator: Creators,
+    author: Authors.describe("The name or names of those involved in creating this word."),
     ku_data: z
       .record(
-        z.string().min(1).describe("A translation of the word into English proposed in ku"),
+        z
+          .string()
+          .min(1)
+          .describe(
+            "A possible translation of the word into English, as listed in the Toki Pona dictionary.",
+          ),
         Score.describe(
-          "The percentage of ku survey respondents who report this translation as accurate to their usage.",
+          "The percentage of Toki Pona Dictionary survey respondents who report this translation as accurate to their usage.",
         ),
       )
       .optional()
-      .describe(
-        "The usage data of the word as described in ku (the official Toki Pona dictionary)",
-      ),
+      .describe("The usage data of this word, as described in the Toki Pona Dictionary)"),
     parent_id: Ref.optional().describe(
       "The most widely used word which is considered to be an exact synonym for this word.",
     ),
-    see_also: SeeAlso.describe("A list of related words by ID"),
+    see_also: SeeAlso.describe("The IDs of words related to this one."),
     resources: z
       .object({
         sona_pona: Resource.optional().describe(
@@ -187,43 +189,58 @@ export const Word = z
       .describe("Ways of representing this word via text/computers"),
     source_language: z.string().min(1).describe("The language this word originated from"),
     usage_category: UsageCategory.describe(
-      "The word's usage category, according to a survey performed by Linku",
+      "The word's usage category, derived from the data of the annual Linku word survey.",
     ),
-    teachability: Teachability,
-    deprecated: Deprecated,
+    // teachability: Teachability,
+    deprecated: Deprecated.describe("Whether this word is considered deprecated by its author(s)."),
     audio: z.array(Audio),
     pu_verbatim: z
       .object({
-        en: Definition.describe("The word's original definition in the English edition of pu"),
-        fr: Definition.describe("The word's original definition in the French edition of pu"),
-        de: Definition.describe("The word's original definition in the German edition of pu"),
-        eo: Definition.describe("The word's original definition in the Esperanto edition of pu"),
+        en: Definition.describe(
+          "The word's definition in the English edition of Toki Pona: The Language of Good",
+        ),
+        fr: Definition.describe(
+          "The word's definition in the French edition of Toki Pona: The Language of Good",
+        ),
+        de: Definition.describe(
+          "The word's definition in the German edition of Toki Pona: The Language of Good",
+        ),
+        eo: Definition.describe(
+          "The word's definition in the Esperanto edition of Toki Pona: The Language of Good",
+        ),
       })
       .optional()
-      .describe("The original definition of the word in pu, the first official Toki Pona book"),
+      .describe(
+        "The definition of the word in specific language editions of Toki Pona: The Language of Good",
+      ),
     usage: Usage.describe(
-      "The percentage of respondents to the annual Linku word survey who report to use this word",
+      "The percentage of respondents to the annual Linku word survey who report to use this word, by the date of the survey.",
     ),
     glyph_ids: Refs.describe(
       "The IDs of all sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
     ),
-    // TODO: should be ref but some words have no glyphs in Linku or are not
-    // considered to have a primary glyph
-    primary_glyph_id: z
-      .string()
-      .describe("The id of the glyph most used for this word in sitelen pona."),
+    // TODO: shouldn't be optional for most words, but some words have no glyphs
+    // in linku, or have no "primary" glyph
+    // see refinements later on
+    primary_glyph_id: Ref.optional().describe(
+      "The ID of the glyph most commonly used to represent this word in sitelen pona.",
+    ),
     synonym_glyph_ids: Refs.describe(
       "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
     ),
     translations: z.object({
-      commentary: Commentary,
-      etymology: Etymology,
-      definition: Definition,
+      commentary: Commentary.describe(
+        "Localized commentary on this word, such as history, clarifications, or trivia.",
+      ),
+      etymology: Etymology.describe("Localized etymology of this word."),
+      definition: Definition.describe("Localized definition of this word."),
     }),
   })
   .describe("General info on a Toki Pona word")
   .refine(({ primary_glyph_id, glyph_ids, usage_category }) =>
-    usage_category !== "sandbox" ? primary_glyph_id.length >= 3 && glyph_ids.length >= 1 : true,
+    usage_category !== "sandbox"
+      ? primary_glyph_id && primary_glyph_id.length >= 3 && glyph_ids.length >= 1
+      : true,
   )
   .refine(({ book, pu_verbatim }) => (book === "pu" ? pu_verbatim !== undefined : true))
   .refine(({ book, ku_data }) =>
@@ -233,14 +250,16 @@ export const Word = z
 export const Glyph = z
   .object({
     id: Id.describe(
-      "A unique identifier for the glyph, generally formed as its corresponding word with a dash and a number in the order the glyphs were coined.",
+      "A unique identifier for the glyph. Named after its primary word and numbered in order of coining or attestation.",
     ), // word + dash + number
     word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
     word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
-    usage_category: UsageCategory,
-    teachability: Teachability,
-    creator: Creators,
-    creator_source: Source.optional(),
+    usage_category: UsageCategory.describe(
+      "The glyph's usage category, derived from the data of the annual Linku glyph survey.",
+    ),
+    // teachability: Teachability,
+    author: Authors.describe("The name or names of those involved in creating this glyph."),
+    author_source: Source.optional().describe("The source or origin of this glyph, often a URL."),
     creation_date: OptionalDate.describe("When this glyph was created, to precision known"),
     see_also: SeeAlso.describe("A list of related glyphs by ID"),
     primary: z
@@ -249,31 +268,35 @@ export const Glyph = z
     parent_id: Ref.optional().describe(
       "The primary glyph which this glyph is considered to share its form with.",
     ),
-    deprecated: Deprecated,
-    image: Resource.describe("A URL to an image of the sitelen pona glyph."),
-    // TODO: should be Resource, but this is empty for some glyphs.
-    svg: z.string().describe("A URL to an SVG of the sitelen pona glyph."),
+    deprecated: Deprecated.describe(
+      "Whether this glyph is considered deprecated by its author(s).",
+    ),
+    // NOTE: see refinements on image, svg
+    image: Resource.optional().describe("A URL to an image of the sitelen pona glyph."),
+    svg: Resource.optional().describe("A URL to an SVG of the sitelen pona glyph."),
     ligature: Ligature.optional().describe(
-      "The single numerical ligature used to access this specific sitelen pona glyph.",
+      "The specific numerical ligature used to render this sitelen pona glyph.",
     ),
     alias_ligatures: Ligatures.describe(
-      "All non-numerical ligature used to access this specific sitelen pona glyph.",
+      "All non-numerical ligature used to render this sitelen pona glyph.",
     ),
     ucsur: UcsurCodepoint.describe(
-      "The UCSUR codepoint used to access this specific sitelen pona glyph.",
+      "The UCSUR codepoint used to render this specific sitelen pona glyph.",
     ),
     // unicode: UnicodeCodepoint,
     usage: Usage.describe(
-      "The percentage of respondents to the annual Linku word survey who report to use this glyph.",
+      "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey.",
     ),
     translations: z.object({
-      commentary: Commentary,
-      etymology: Etymology,
+      commentary: Commentary.describe(
+        "Localized commentary on this glyph, such as history, clarifications, or trivia.",
+      ),
+      etymology: Etymology.describe("Localized etymology of this glyph."),
       names: Names,
     }),
   })
   .refine(({ image, svg, usage_category }) =>
-    usage_category !== "sandbox" ? image.length > 0 && svg.length > 0 : true,
+    usage_category !== "sandbox" ? image && image.length > 0 && svg && svg.length > 0 : true,
   );
 
 export const Fingerspelling = z
@@ -313,7 +336,7 @@ export const Sign = Fingerspelling.extend({
 export const Font = z
   .object({
     id: Id.describe("The font's unique ID, identifying it among other fonts"),
-    creator: Creators.describe("a list of this font's creators"),
+    author: Authors.describe("a list of this font's authors"),
     features: z.array(z.string().min(1)).describe("a list of features this font supports"),
     filename: z
       .string()

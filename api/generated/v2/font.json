@@ -8,8 +8,8 @@
       "type": "string",
       "minLength": 1
     },
-    "creator": {
-      "description": "a list of this font's creators",
+    "author": {
+      "description": "a list of this font's authors",
       "type": "array",
       "items": {
         "type": "string",
@@ -95,7 +95,7 @@
   },
   "required": [
     "id",
-    "creator",
+    "author",
     "features",
     "filename",
     "last_updated",

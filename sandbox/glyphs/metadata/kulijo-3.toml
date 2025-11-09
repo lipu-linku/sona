@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "kulijo-3"
 word = "kulijo"
 word_id = "kulijo"
 usage_category = "sandbox"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = false
 deprecated = false

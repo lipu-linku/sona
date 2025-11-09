@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "soko"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku suli"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan inwin", "kala kala/jan Salan"]
+author = ["jan inwin", "kala kala/jan Salan"]
 see_also = ["kasi", "kili"]
 source_language = "Georgian"
 usage_category = "common"

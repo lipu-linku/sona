@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "nowi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["ilo Powa", "kulupu Solali"]
+author = ["ilo Powa", "kulupu Solali"]
 see_also = ["esun"]
 source_language = "Vietnamese"
 usage_category = "sandbox"

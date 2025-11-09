@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "powe-2"
 word = "powe"
 word_id = "powe"
 usage_category = "sandbox"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = false
 deprecated = false

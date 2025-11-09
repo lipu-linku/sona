@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "linluwi-2"
 word = "linluwi"
 word_id = "linluwi"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/809512920555192331"
-creator = ["lipamanka"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/809512920555192331"
+author = ["lipamanka"]
 creation_date = "2021-02-11"
 primary = false
 deprecated = false

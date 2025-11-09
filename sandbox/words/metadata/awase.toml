@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "awase"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Lenoka"]
+author = ["jan Lenoka"]
 see_also = ["utala", "pakala", "tawa", "anpa", "pilin", "luka"]
 source_language = "Armenian"
 usage_category = "sandbox"

@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "tonsi-1"
 word = "tonsi"
 word_id = "tonsi"
 usage_category = "common"
-creator_source = "https://discord.com/channels/301377942062366741/301378960468738050/694279558932725800"
-creator = ["Xanthe"]
+author_source = "https://discord.com/channels/301377942062366741/301378960468738050/694279558932725800"
+author = ["Xanthe"]
 creation_date = "2020-03-30"
 primary = true
 deprecated = false

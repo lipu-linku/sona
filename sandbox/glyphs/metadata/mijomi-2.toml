@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "mijomi-2"
 word = "mijomi"
 word_id = "mijomi"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308420365625720872"
-creator = ["soweli Selupu"]
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1308420365625720872"
+author = ["soweli Selupu"]
 creation_date = "2024-11-19"
 primary = false
 deprecated = false

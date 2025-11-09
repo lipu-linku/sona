@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "epiku"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku suli"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Jan", "jan Peche"]
+author = ["jan Jan", "jan Peche"]
 see_also = ["pona", "wawa"]
 source_language = "French"
 usage_category = "uncommon"

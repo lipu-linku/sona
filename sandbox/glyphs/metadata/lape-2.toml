@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "lape-2"
 word = "lape"
 word_id = "lape"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/1013500158689943552"
-creator = ["lon ala weka nimi"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/1013500158689943552"
+author = ["lon ala weka nimi"]
 creation_date = "2022-08-22"
 primary = false
 deprecated = false

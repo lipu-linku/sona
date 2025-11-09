@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "mulapisu"
-creator_verbatim = "mulapisu now means pizza"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/640770414431174676"
+author_verbatim = "mulapisu now means pizza"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/640770414431174676"
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["pan"]
 source_language = "a priori"
 usage_category = "obscure"

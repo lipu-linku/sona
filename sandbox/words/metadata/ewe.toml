@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "ewe"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan ko"]
+author = ["jan ko"]
 see_also = ["kiwen"]
 source_language = "multiple"
 usage_category = "sandbox"

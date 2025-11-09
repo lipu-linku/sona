@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "kokosila"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku suli"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = []
 source_language = "Esperanto"
 usage_category = "obscure"

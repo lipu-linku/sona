@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "kokosila-2"
 word = "kokosila"
 word_id = "kokosila"
 usage_category = "obscure"
-creator_source = "https://github.com/janSame/linja-pona, linja pona 4.9"
-creator = ["jan Same"]
+author_source = "https://github.com/janSame/linja-pona, linja pona 4.9"
+author = ["jan Same"]
 creation_date = "2021-08-12"
 primary = true
 deprecated = false

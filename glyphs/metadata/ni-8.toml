@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "ni-8"
 word = "ni"
 word_id = "ni"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/733009134856699924/1045376491338350764"
-creator = ["seme Alison"]
+author_source = "https://discord.com/channels/301377942062366741/733009134856699924/1045376491338350764"
+author = ["seme Alison"]
 creation_date = "2022-11-24"
 primary = false
 deprecated = false

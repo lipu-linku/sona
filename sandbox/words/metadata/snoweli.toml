@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "snoweli"
-creator_verbatim = "snoweli"
-creator_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1054988364538978327"
+author_verbatim = "snoweli"
+author_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1054988364538978327"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["waso Keli"]
+author = ["waso Keli"]
 see_also = ["soweli", "lete"]
 source_language = "multiple"
 usage_category = "sandbox"

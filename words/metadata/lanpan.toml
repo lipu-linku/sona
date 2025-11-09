@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "lanpan"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku suli"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2017"
-creator = ["jan Wesu", "jan Maliku", "jan inwin"]
+author = ["jan Wesu", "jan Maliku", "jan inwin"]
 see_also = ["jo", "alasa"]
 source_language = "Greek"
 usage_category = "uncommon"

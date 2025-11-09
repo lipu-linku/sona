@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "akesi-2"
 word = "akesi"
 word_id = "akesi"
 usage_category = "core"
-creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/874157268411748452"
-creator = ["akesi kon Nalasuni"]
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/874157268411748452"
+author = ["akesi kon Nalasuni"]
 creation_date = "2021-08-09"
 primary = true
 deprecated = false

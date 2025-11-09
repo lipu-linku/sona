@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "pakola"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["the Half as Interesting team"]
+author = ["the Half as Interesting team"]
 see_also = []
 source_language = "toki pona"
 usage_category = "obscure"

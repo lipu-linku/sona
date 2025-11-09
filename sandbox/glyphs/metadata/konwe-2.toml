@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "konwe-2"
 word = "konwe"
 word_id = "konwe"
 usage_category = "sandbox"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = false
 deprecated = false

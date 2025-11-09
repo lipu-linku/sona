@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "kapesi-1"
 word = "kapesi"
 word_id = "kapesi"
 usage_category = "obscure"
-creator_source = "https://www.reddit.com/r/tokipona/comments/cfrqd5/an_idea_for_the_extinct_word_kapesi_a_combination/"
-creator = ["AdrianAndMusic"]
+author_source = "https://www.reddit.com/r/tokipona/comments/cfrqd5/an_idea_for_the_extinct_word_kapesi_a_combination/"
+author = ["AdrianAndMusic"]
 creation_date = "2019-07-20"
 primary = true
 deprecated = false

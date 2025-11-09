@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "te-1"
 word = "te"
 word_id = "te"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/871966784985645147"
-creator = ["jan Seli"]
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/871966784985645147"
+author = ["jan Seli"]
 creation_date = "2021-08-21"
 primary = true
 deprecated = false

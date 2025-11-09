@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kasan"
-creator_verbatim = "**kasan** ★ legume, seed, nut, bean, soy, lentils, hard shelled fruit\n    ← Malay kacang 'bean, nut, peanut, legume'"
-creator_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
+author_verbatim = "**kasan** ★ legume, seed, nut, bean, soy, lentils, hard shelled fruit\n    ← Malay kacang 'bean, nut, peanut, legume'"
+author_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["ilo Powa"]
+author = ["ilo Powa"]
 see_also = []
 source_language = "Malay"
 usage_category = "sandbox"

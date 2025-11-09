@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "oke-2"
 word = "oke"
 word_id = "oke"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
-creator = ["the_whatevers"]
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+author = ["the_whatevers"]
 creation_date = "2020-11-30"
 primary = true
 deprecated = false

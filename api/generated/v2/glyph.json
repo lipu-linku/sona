@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "id": {
-      "description": "A unique identifier for the glyph, generally formed as its corresponding word with a dash and a number in the order the glyphs were coined.",
+      "description": "A unique identifier for the glyph. Named after its primary word and numbered in order of coining or attestation.",
       "$ref": "#/$defs/__schema0"
     },
     "word": {
@@ -16,6 +16,7 @@
       "$ref": "#/$defs/__schema0"
     },
     "usage_category": {
+      "description": "The glyph's usage category, derived from the data of the annual Linku glyph survey.",
       "type": "string",
       "enum": [
         "core",
@@ -25,22 +26,16 @@
         "sandbox"
       ]
     },
-    "teachability": {
-      "description": "The tier of teachability for this object, as defined by the Sitelen Pona Publishers and Typographers Association.",
-      "type": "number",
-      "minimum": 1,
-      "maximum": 4
-    },
-    "creator": {
-      "description": "The name or names of those involved in creating this object (if known)",
+    "author": {
+      "description": "The name or names of those involved in creating this glyph.",
       "type": "array",
       "items": {
         "type": "string",
         "minLength": 1
       }
     },
-    "creator_source": {
-      "description": "The source or origin of this object, often a URL.",
+    "author_source": {
+      "description": "The source or origin of this glyph, often a URL.",
       "type": "string"
     },
     "creation_date": {
@@ -64,36 +59,35 @@
       "$ref": "#/$defs/__schema0"
     },
     "deprecated": {
-      "description": "Whether the object is considered deprecated by its author(s).",
+      "description": "Whether this glyph is considered deprecated by its author(s).",
       "type": "boolean"
     },
     "image": {
       "description": "A URL to an image of the sitelen pona glyph.",
-      "type": "string",
-      "format": "uri"
+      "$ref": "#/$defs/__schema1"
     },
     "svg": {
       "description": "A URL to an SVG of the sitelen pona glyph.",
-      "type": "string"
-    },
-    "ligature": {
-      "description": "The single numerical ligature used to access this specific sitelen pona glyph.",
       "$ref": "#/$defs/__schema1"
     },
+    "ligature": {
+      "description": "The specific numerical ligature used to render this sitelen pona glyph.",
+      "$ref": "#/$defs/__schema2"
+    },
     "alias_ligatures": {
-      "description": "All non-numerical ligature used to access this specific sitelen pona glyph.",
+      "description": "All non-numerical ligature used to render this sitelen pona glyph.",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/__schema1"
+        "$ref": "#/$defs/__schema2"
       }
     },
     "ucsur": {
-      "description": "The UCSUR codepoint used to access this specific sitelen pona glyph.",
+      "description": "The UCSUR codepoint used to render this specific sitelen pona glyph.",
       "type": "string",
       "pattern": "^U\\+[\\da-fA-F]{4,6}$"
     },
     "usage": {
-      "description": "The percentage of respondents to the annual Linku word survey who report to use this glyph.",
+      "description": "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey.",
       "type": "object",
       "propertyNames": {
         "type": "string",
@@ -109,11 +103,11 @@
       "type": "object",
       "properties": {
         "commentary": {
-          "description": "Localized commentary on the parent, such as a word or glyph",
+          "description": "Localized commentary on this glyph, such as history, clarifications, or trivia.",
           "type": "string"
         },
         "etymology": {
-          "description": "Localized etymology information for the parent, such as a word or glyph",
+          "description": "Localized etymology of this glyph.",
           "type": "string"
         },
         "names": {
@@ -138,14 +132,11 @@
     "word",
     "word_id",
     "usage_category",
-    "teachability",
-    "creator",
+    "author",
     "creation_date",
     "see_also",
     "primary",
     "deprecated",
-    "image",
-    "svg",
     "usage",
     "translations"
   ],
@@ -157,6 +148,11 @@
       "minLength": 1
     },
     "__schema1": {
+      "description": "A URL pointing to some external resource.",
+      "type": "string",
+      "format": "uri"
+    },
+    "__schema2": {
       "type": "string",
       "minLength": 1
     }

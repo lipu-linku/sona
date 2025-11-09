@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "misa-1"
 word = "misa"
 word_id = "misa"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/814441577731588147"
-creator = ["waso pimeja pi kulupu kasi"]
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/814441577731588147"
+author = ["waso pimeja pi kulupu kasi"]
 creation_date = "2021-02-25"
 primary = true
 deprecated = false

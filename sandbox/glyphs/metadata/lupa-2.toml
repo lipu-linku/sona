@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "lupa-2"
 word = "lupa"
 word_id = "lupa"
 usage_category = "sandbox"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = false
 deprecated = false

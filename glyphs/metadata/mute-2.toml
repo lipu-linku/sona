@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "mute-2"
 word = "mute"
 word_id = "mute"
 usage_category = "uncommon"
-creator_source = "https://web.archive.org/web/20221103221312/https://umihotaru.work/nishiki_sitelen.pdf, https://discord.com/channels/301377942062366741/340307145373253642/1191265875043557467"
-creator = ["Umihotaru", "jan Itan", "jan Sonja"]
+author_source = "https://web.archive.org/web/20221103221312/https://umihotaru.work/nishiki_sitelen.pdf, https://discord.com/channels/301377942062366741/340307145373253642/1191265875043557467"
+author = ["Umihotaru", "jan Itan", "jan Sonja"]
 creation_date = "2024-01-01"
 primary = false
 deprecated = false

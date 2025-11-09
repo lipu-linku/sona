@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "apoko"
-creator_verbatim = "... apoko\napoko also see poko\nby kije Enki\netymology English “i forgor”\nn the 💀 emoji\nadj relating to the 💀 emoji\nvi to use the 💀 emoji\nvt to apply the 💀 emoji\ninterj “i forgor 💀”"
-creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/1009423886175174786"
+author_verbatim = "... apoko\napoko also see poko\nby kije Enki\netymology English “i forgor”\nn the 💀 emoji\nadj relating to the 💀 emoji\nvi to use the 💀 emoji\nvt to apply the 💀 emoji\ninterj “i forgor 💀”"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/1009423886175174786"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["kije Enki"]
+author = ["kije Enki"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

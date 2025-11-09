@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "jami"
-creator_verbatim = "also tp needs a specific interjection (i.e. not a or kin) for \"yum\""
-creator_source = "https://discord.com/channels/301377942062366741/301382587287339018/353665304569839616"
+author_verbatim = "also tp needs a specific interjection (i.e. not a or kin) for \"yum\""
+author_source = "https://discord.com/channels/301377942062366741/301382587287339018/353665304569839616"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2017"
-creator = ["jan inwin"]
+author = ["jan inwin"]
 see_also = ["suwi", "pilin"]
 source_language = "English"
 usage_category = "obscure"

@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "taki"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Kapilu", "jan Lewiku"]
+author = ["jan Kapilu", "jan Lewiku"]
 see_also = ["wan", "wile"]
 source_language = "Korean"
 usage_category = "obscure"

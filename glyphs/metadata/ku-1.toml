@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "ku-1"
 word = "ku"
 word_id = "ku"
 usage_category = "common"
-creator_source = "https://discord.com/channels/301377942062366741/328362891705319425/867846052274110524"
-creator = ["lipamanka", "ijo Mina", "jan Sa", "jan Sonja"]
+author_source = "https://discord.com/channels/301377942062366741/328362891705319425/867846052274110524"
+author = ["lipamanka", "ijo Mina", "jan Sa", "jan Sonja"]
 creation_date = "2021-07-22"
 primary = true
 deprecated = false

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "aka"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["kulupu Eki", "oni Tewi"]
+author = ["kulupu Eki", "oni Tewi"]
 see_also = ["natu"]
 source_language = "multiple"
 usage_category = "sandbox"

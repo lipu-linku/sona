@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "wuwojiti-1"
 word = "wuwojiti"
 word_id = "wuwojiti"
 usage_category = "obscure"
-creator_source = ""
-creator = ["jan Lepeka"]
+author_source = ""
+author = ["jan Lepeka"]
 creation_date = ""
 primary = true
 deprecated = false

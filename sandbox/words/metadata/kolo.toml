@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kolo"
-creator_verbatim = ""
-creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
+author_verbatim = ""
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["soweli pi loje walo"]
+author = ["soweli pi loje walo"]
 see_also = []
 source_language = "Swahili"
 usage_category = "sandbox"

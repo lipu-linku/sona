@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "ante-2"
 word = "ante"
 word_id = "ante"
 usage_category = "uncommon"
-creator_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
-creator = ["Jack Humbert"]
+author_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
+author = ["Jack Humbert"]
 creation_date = "2020-03-09"
 primary = false
 deprecated = false

@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "jaki-2"
 word = "jaki"
 word_id = "jaki"
 usage_category = "obscure"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = false
 deprecated = false

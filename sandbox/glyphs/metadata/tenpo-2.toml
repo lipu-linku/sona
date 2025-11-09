@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "tenpo-2"
 word = "tenpo"
 word_id = "tenpo"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/994057928426393620"
-creator = ["soweli Iseja"]
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/994057928426393620"
+author = ["soweli Iseja"]
 creation_date = "2022-06-07"
 primary = false
 deprecated = false

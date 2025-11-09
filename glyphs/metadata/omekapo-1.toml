@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "omekapo-1"
 word = "omekapo"
 word_id = "omekapo"
 usage_category = "obscure"
-creator_source = "https://www.reddit.com/r/OffThePu/comments/iahhtc/here_are_the_official_glyphs_for_the_1b_words_in/"
-creator = ["jan Elemenopi"]
+author_source = "https://www.reddit.com/r/OffThePu/comments/iahhtc/here_are_the_official_glyphs_for_the_1b_words_in/"
+author = ["jan Elemenopi"]
 creation_date = "2020-08-15"
 primary = true
 deprecated = false

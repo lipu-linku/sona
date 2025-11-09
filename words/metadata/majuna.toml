@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "majuna"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = "2000-2001"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["suli", "tenpo"]
 source_language = "Esperanto"
 usage_category = "uncommon"

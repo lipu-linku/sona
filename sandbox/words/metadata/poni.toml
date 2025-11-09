@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "poni"
-creator_verbatim = "pony"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/785585101638860800"
+author_verbatim = "pony"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/785585101638860800"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Kita"]
+author = ["jan Kita"]
 see_also = ["soweli"]
 source_language = "English"
 usage_category = "sandbox"

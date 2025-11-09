@@ -13,8 +13,8 @@
         "description": "The font's unique ID, identifying it among other fonts",
         "$ref": "#/$defs/__schema0"
       },
-      "creator": {
-        "description": "a list of this font's creators",
+      "author": {
+        "description": "a list of this font's authors",
         "type": "array",
         "items": {
           "type": "string",
@@ -100,7 +100,7 @@
     },
     "required": [
       "id",
-      "creator",
+      "author",
       "features",
       "filename",
       "last_updated",

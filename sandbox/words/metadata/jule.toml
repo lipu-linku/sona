@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "jule"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["pilin Powa"]
+author = ["pilin Powa"]
 see_also = ["tawa", "poka"]
 source_language = "Japanese"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "lisa"
-creator_verbatim = ":nimisin~1: lisa – ~post-pu~ fox\n    ← Polish lisa ‘fox (accusative)’"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/846008831464177694"
+author_verbatim = ":nimisin~1: lisa – ~post-pu~ fox\n    ← Polish lisa ‘fox (accusative)’"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/846008831464177694"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Kita"]
+author = ["jan Kita"]
 see_also = ["soweli", "kisa"]
 source_language = "Polish"
 usage_category = "sandbox"

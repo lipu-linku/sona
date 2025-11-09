@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "kapesi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = "2001"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["pimeja"]
 source_language = "multiple possibilities"
 usage_category = "obscure"

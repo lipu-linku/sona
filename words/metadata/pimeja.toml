@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "pimeja"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "pu"
-era = "pre-pu"
+coined_era = "pre-pu"
 creation_date = ""
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["suno", "walo"]
 source_language = "Finnish"
 usage_category = "core"

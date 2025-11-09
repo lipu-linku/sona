@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "papa2"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = ""
-creator = []
+author = []
 see_also = ["mama"]
 source_language = "onomatopoeia"
 usage_category = "sandbox"

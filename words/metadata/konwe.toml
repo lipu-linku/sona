@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "konwe"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["jan Emalan"]
+author = ["jan Emalan"]
 see_also = ["ma", "tenpo"]
 source_language = "multiple"
 usage_category = "obscure"

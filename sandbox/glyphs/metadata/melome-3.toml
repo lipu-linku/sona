@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "melome-3"
 word = "melome"
 word_id = "melome"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1319810935262679053"
-creator = ["soweli Selupu"]
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1319810935262679053"
+author = ["soweli Selupu"]
 creation_date = "2024-12-21"
 primary = false
 deprecated = false

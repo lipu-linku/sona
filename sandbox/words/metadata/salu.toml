@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "salu"
-creator_verbatim = "#1725441 📣 salu – ~post-ku~ comfort, security, safety, stability; attention, care, caution\n   ← Latin salus 'safety, security'"
-creator_source = "https://discord.com/channels/301377942062366741/316066233755631616/950245694202060810"
+author_verbatim = "#1725441 📣 salu – ~post-ku~ comfort, security, safety, stability; attention, care, caution\n   ← Latin salus 'safety, security'"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/950245694202060810"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["rose"]
+author = ["rose"]
 see_also = ["pona", "ike"]
 source_language = "Latin"
 usage_category = "sandbox"

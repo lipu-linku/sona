@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "toma"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = []
 source_language = "toki pona"
 usage_category = "sandbox"

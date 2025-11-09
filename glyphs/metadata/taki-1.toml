@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "taki-1"
 word = "taki"
 word_id = "taki"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/784738341542428702"
-creator = ["jan Kapilu", "kala pona Tonyu"]
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/784738341542428702"
+author = ["jan Kapilu", "kala pona Tonyu"]
 creation_date = "2020-12-05"
 primary = false
 deprecated = false

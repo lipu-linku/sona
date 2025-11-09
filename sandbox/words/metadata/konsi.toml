@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "konsi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["jan Epen"]
+author = ["jan Epen"]
 see_also = ["toki"]
 source_language = "Korean"
 usage_category = "sandbox"

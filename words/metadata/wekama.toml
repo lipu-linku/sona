@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "wekama"
-creator_verbatim = "also, when i meant wekama, i meant weka, then kama"
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/732119749114331148"
+author_verbatim = "also, when i meant wekama, i meant weka, then kama"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/732119749114331148"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan ko"]
+author = ["jan ko"]
 see_also = ["weka", "kama"]
 source_language = "toki pona"
 usage_category = "obscure"

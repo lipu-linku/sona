@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "monsuta-1"
 word = "monsuta"
 word_id = "monsuta"
 usage_category = "common"
-creator_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
-creator = ["jan Same"]
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
 creation_date = "2016-10-16"
 primary = true
 deprecated = false

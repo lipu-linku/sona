@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kankuli"
-creator_verbatim = "My own nimisin is kankuli and it means scrunkly"
-creator_source = "https://discord.com/channels/948448338662010910/1204203419699777586/1209655989201149982"
+author_verbatim = "My own nimisin is kankuli and it means scrunkly"
+author_source = "https://discord.com/channels/948448338662010910/1204203419699777586/1209655989201149982"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2024"
-creator = ["jan Lepeka"]
+author = ["jan Lepeka"]
 see_also = ["suwi", "kiki"]
 source_language = "English"
 usage_category = "sandbox"

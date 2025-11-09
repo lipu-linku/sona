@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "likujo"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2018"
-creator = ["jan Kawa", "jan inwin"]
+author = ["jan Kawa", "jan inwin"]
 see_also = ["kulupu", "alasa"]
 source_language = "Acadian French"
 usage_category = "sandbox"

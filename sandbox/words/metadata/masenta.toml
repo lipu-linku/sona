@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "masenta"
-creator_verbatim = "magenta"
-creator_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+author_verbatim = "magenta"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2024"
-creator = ["jan Lepeka"]
+author = ["jan Lepeka"]
 see_also = ["laso", "loje"]
 source_language = "multiple"
 usage_category = "sandbox"

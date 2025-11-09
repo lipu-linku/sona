@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "jupi"
-creator_verbatim = "[...] jupi - celebrate, celebration, victory, yippee (exclamation) <- Spanish \"yupi\"\n\nalso partially coined because there isn't a common toki pona word that starts with the syllable \"ju\" and i don't like any of the sandbox ones that do lol [...]"
-creator_source = "https://discord.com/channels/301377942062366741/1187029495203504168/1244688898911764572"
+author_verbatim = "[...] jupi - celebrate, celebration, victory, yippee (exclamation) <- Spanish \"yupi\"\n\nalso partially coined because there isn't a common toki pona word that starts with the syllable \"ju\" and i don't like any of the sandbox ones that do lol [...]"
+author_source = "https://discord.com/channels/301377942062366741/1187029495203504168/1244688898911764572"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Kita", "niko", "meli Siliwa"]
+author = ["jan Kita", "niko", "meli Siliwa"]
 see_also = ["a", "je", "wa", "jepi", "jipi", "sipije"]
 source_language = "multiple"
 usage_category = "sandbox"

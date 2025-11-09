@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "taki-2"
 word = "taki"
 word_id = "taki"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/811774795905368094"
-creator = ["lipamanka"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/811774795905368094"
+author = ["lipamanka"]
 creation_date = "2021-02-17"
 primary = true
 deprecated = false

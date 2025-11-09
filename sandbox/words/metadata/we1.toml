@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "we1"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan inwin"]
+author = ["jan inwin"]
 see_also = []
 source_language = "Spanish"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "kiki"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Olipija", "akesi kon Nalasuni"]
+author = ["jan Olipija", "akesi kon Nalasuni"]
 see_also = ["kipisi"]
 source_language = "a priori"
 usage_category = "obscure"

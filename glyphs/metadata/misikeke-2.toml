@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "misikeke-2"
 word = "misikeke"
 word_id = "misikeke"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/869476620006723604"
-creator = ["jan Sala (salarua)"]
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/869476620006723604"
+author = ["jan Sala (salarua)"]
 creation_date = "2021-07-27"
 primary = false
 deprecated = false

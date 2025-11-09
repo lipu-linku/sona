@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "anta"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["ilo Powa"]
+author = ["ilo Powa"]
 see_also = []
 source_language = "Okinawan"
 usage_category = "sandbox"

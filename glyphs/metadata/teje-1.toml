@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "teje-1"
 word = "teje"
 word_id = "teje"
 usage_category = "obscure"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = true
 deprecated = false

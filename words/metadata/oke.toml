@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "oke"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["unknown"]
+author = ["unknown"]
 see_also = ["pona", "n", "a"]
 source_language = "English"
 usage_category = "obscure"

@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "majuna-1"
 word = "majuna"
 word_id = "majuna"
 usage_category = "obscure"
-creator_source = "https://web.archive.org/web/20210209100619/https://linjasuwi.ap5.dev/"
-creator = ["ijo Mina"]
+author_source = "https://web.archive.org/web/20210209100619/https://linjasuwi.ap5.dev/"
+author = ["ijo Mina"]
 creation_date = "2021-02-09"
 primary = false
 deprecated = false

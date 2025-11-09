@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "namako-2"
 word = "namako"
 word_id = "namako"
 usage_category = "common"
-creator_source = "https://discord.com/channels/301377942062366741/875761526642978897/953373277198364672"
-creator = ["jan Sonja"]
+author_source = "https://discord.com/channels/301377942062366741/875761526642978897/953373277198364672"
+author = ["jan Sonja"]
 creation_date = "2022-03-15"
 primary = true
 deprecated = false

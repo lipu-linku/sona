@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "misa-5"
 word = "misa"
 word_id = "misa"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/819618189205045248"
-creator = ["lipamanka"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/819618189205045248"
+author = ["lipamanka"]
 creation_date = "2021-03-11"
 primary = false
 deprecated = false

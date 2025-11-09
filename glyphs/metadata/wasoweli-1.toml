@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "wasoweli-1"
 word = "wasoweli"
 word_id = "wasoweli"
 usage_category = "obscure"
-creator_source = ""
-creator = []
+author_source = ""
+author = []
 creation_date = ""
 primary = true
 deprecated = false

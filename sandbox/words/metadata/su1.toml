@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "su1"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["kili Tesa", "jan Selu"]
+author = ["kili Tesa", "jan Selu"]
 see_also = ["ala"]
 source_language = "Esperanto"
 usage_category = "sandbox"

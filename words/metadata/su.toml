@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "su"
-creator_verbatim = "**su**: interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
-creator_source = "https://discord.com/channels/972470770443886662/999566769943490600/1203577255096483880"
+author_verbatim = "**su**: interacting with a book from the illustrated story book series that began with The Wonderful Wizard of Oz, produced by Sonja Lang"
+author_source = "https://discord.com/channels/972470770443886662/999566769943490600/1203577255096483880"
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["pu", "ku"]
 source_language = "a priori"
 usage_category = "uncommon"

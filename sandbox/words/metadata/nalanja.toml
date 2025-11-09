@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "nalanja"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2021"
-creator = ["kapesi Pake"]
+author = ["kapesi Pake"]
 see_also = ["loje", "jelo"]
 source_language = "Spanish"
 usage_category = "sandbox"

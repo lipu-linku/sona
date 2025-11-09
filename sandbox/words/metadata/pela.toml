@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "pela"
-creator_verbatim = "pela could be a nimi sin for dog"
-creator_source = "https://discord.com/channels/301377942062366741/301378960468738050/790357845752676373"
+author_verbatim = "pela could be a nimi sin for dog"
+author_source = "https://discord.com/channels/301377942062366741/301378960468738050/790357845752676373"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Sonja"]
+author = ["jan Sonja"]
 see_also = ["soweli", "wisa"]
 source_language = "a priori"
 usage_category = "sandbox"

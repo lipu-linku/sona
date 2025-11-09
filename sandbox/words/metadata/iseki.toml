@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "iseki"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["kulupu Solali"]
+author = ["kulupu Solali"]
 see_also = ["namako"]
 source_language = "Turkish"
 usage_category = "sandbox"

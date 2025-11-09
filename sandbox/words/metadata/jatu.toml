@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "jatu"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Lenoka"]
+author = ["jan Lenoka"]
 see_also = ["wan"]
 source_language = "Cantonese"
 usage_category = "sandbox"

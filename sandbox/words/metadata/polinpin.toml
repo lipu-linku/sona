@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "polinpin"
-creator_verbatim = "Noun\n•Bowling pin\nAdjective\n•Bowling pin like\nVerb\n•To be a Bowling pin"
-creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/555598531407118336"
+author_verbatim = "Noun\n•Bowling pin\nAdjective\n•Bowling pin like\nVerb\n•To be a Bowling pin"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/555598531407118336"
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Kisinja"]
+author = ["jan Kisinja"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

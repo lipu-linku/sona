@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "okepuma"
-creator_verbatim = "interjection \"okay boomer\""
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/641341684982218752"
+author_verbatim = "interjection \"okay boomer\""
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/641341684982218752"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Elijo"]
+author = ["jan Elijo"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

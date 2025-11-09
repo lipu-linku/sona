@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "sipije"
-creator_verbatim = "I will be adding sipije to the font bc one of my friends coined it as a nimisin for autistic"
-creator_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1071979004711682128"
+author_verbatim = "I will be adding sipije to the font bc one of my friends coined it as a nimisin for autistic"
+author_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1071979004711682128"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["a friend of lipamanka"]
+author = ["a friend of lipamanka"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

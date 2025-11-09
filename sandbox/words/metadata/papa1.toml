@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "papa1"
-creator_verbatim = "spinning iridium object, accelerating exponentially"
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/830102571220992030"
+author_verbatim = "spinning iridium object, accelerating exponentially"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/830102571220992030"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["heav_"]
+author = ["heav_"]
 see_also = []
 source_language = "a priori"
 usage_category = "sandbox"

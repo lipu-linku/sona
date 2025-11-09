@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "usawi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan Tumu"]
+author = ["jan Tumu"]
 see_also = ["wawa", "nasa", "ken"]
 source_language = "Swahili"
 usage_category = "obscure"

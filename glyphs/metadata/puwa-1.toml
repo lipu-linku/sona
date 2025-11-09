@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "puwa-1"
 word = "puwa"
 word_id = "puwa"
 usage_category = "obscure"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/857038084025876481"
-creator = ["jan Seli"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/857038084025876481"
+author = ["jan Seli"]
 creation_date = "2021-06-22"
 primary = true
 deprecated = false

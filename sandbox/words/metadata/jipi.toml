@@ -1,13 +1,13 @@
 #:schema ../../../api/generated/v2/word.json
 id = "jipi"
-creator_verbatim = """🚨 jipi *post-ku*
+author_verbatim = """🚨 jipi *post-ku*
 yippie, autism, autistic, ADHD, neurodivergent, to stim | ALT [interjection] indicating excitement, joy, happiness
 *English, yippie*"""
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1140627936664367115"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1140627936664367115"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["jan Leni", "niko"]
+author = ["jan Leni", "niko"]
 see_also = ["a", "jepi", "jupi", "je", "wa", "sipije", "jami"]
 source_language = "English"
 usage_category = "sandbox"

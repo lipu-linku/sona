@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "kapesi-2"
 word = "kapesi"
 word_id = "kapesi"
 usage_category = "sandbox"
-creator_source = "https://www.reddit.com/r/tokipona/comments/ggi3eu/sitelen_pona_ideas_on_some_non_pu_words_more/"
-creator = ["Da_Werido"]
+author_source = "https://www.reddit.com/r/tokipona/comments/ggi3eu/sitelen_pona_ideas_on_some_non_pu_words_more/"
+author = ["Da_Werido"]
 creation_date = "2020-05-09"
 primary = false
 deprecated = false

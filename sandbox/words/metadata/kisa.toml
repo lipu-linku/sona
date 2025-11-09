@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kisa"
-creator_verbatim = "cat"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/835188367871311902"
+author_verbatim = "cat"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/835188367871311902"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["kala Asi"]
+author = ["kala Asi"]
 see_also = ["soweli"]
 source_language = "Russian"
 usage_category = "sandbox"

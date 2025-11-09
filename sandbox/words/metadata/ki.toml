@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "ki"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["akesi kon Nalasuni", "jan Atenaja"]
+author = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = []
 source_language = "French"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "oni"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["kulupu Eki"]
+author = ["kulupu Eki"]
 see_also = ["insa", "lape", "musi", "sitelen", "jume"]
 source_language = "Ancient Greek"
 usage_category = "sandbox"

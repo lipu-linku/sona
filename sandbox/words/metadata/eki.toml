@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "eki"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Anselo"]
+author = ["jan Anselo"]
 see_also = ["natu"]
 source_language = "English"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kalijopilale"
-creator_verbatim = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
-creator_source = "https://discord.com/channels/301377942062366741/337299887869657090/731769293699809300"
+author_verbatim = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
+author_source = "https://discord.com/channels/301377942062366741/337299887869657090/731769293699809300"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["jan Likipi"]
+author = ["jan Likipi"]
 see_also = ["kijetesantakalu"]
 source_language = "Latin"
 usage_category = "sandbox"

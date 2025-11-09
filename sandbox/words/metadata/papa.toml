@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "papa"
-creator_verbatim = "papa li mi"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/615691774114922562"
+author_verbatim = "papa li mi"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/615691774114922562"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["petrak@7604"]
+author = ["petrak@7604"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

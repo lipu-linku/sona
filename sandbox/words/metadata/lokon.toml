@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "lokon"
-creator_verbatim = "what about a compromise?"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/520065545266004020"
+author_verbatim = "what about a compromise?"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/520065545266004020"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2018"
-creator = ["jan Kamila", "soweli Wipa"]
+author = ["jan Kamila", "soweli Wipa"]
 see_also = ["lukin", "oko"]
 source_language = "toki pona"
 usage_category = "sandbox"

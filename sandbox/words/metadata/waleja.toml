@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "waleja"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku lili"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2019"
-creator = ["jan inwin"]
+author = ["jan inwin"]
 see_also = ["tenpo"]
 source_language = "Quenya"
 usage_category = "sandbox"

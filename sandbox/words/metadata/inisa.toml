@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "inisa"
-creator_verbatim = ":nimisin: inisa\nInterjection - used to get somebody to slow down and help you understand a concept\nvocative - used to refer to somebody you forgot the name of\nnoun - forgetfulness, ignorance\nverb - to forget\nmodifier - forgetful, ignorant\n<- from Amharic \"እንጃ\" (ʾənəǧa /ʔɨ.nɨ.dʒä/)"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1059298564028760225"
+author_verbatim = ":nimisin: inisa\nInterjection - used to get somebody to slow down and help you understand a concept\nvocative - used to refer to somebody you forgot the name of\nnoun - forgetfulness, ignorance\nverb - to forget\nmodifier - forgetful, ignorant\n<- from Amharic \"እንጃ\" (ʾənəǧa /ʔɨ.nɨ.dʒä/)"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1059298564028760225"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["pan Waja"]
+author = ["pan Waja"]
 see_also = []
 source_language = "Amharic"
 usage_category = "sandbox"

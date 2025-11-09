@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kulaso"
-creator_verbatim = "green laso, glaso"
-creator_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+author_verbatim = "green laso, glaso"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2024"
-creator = ["jan Lepeka"]
+author = ["jan Lepeka"]
 see_also = ["laso", "kasi", "peta"]
 source_language = "multiple"
 usage_category = "sandbox"

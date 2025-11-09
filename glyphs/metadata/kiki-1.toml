@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "kiki-1"
 word = "kiki"
 word_id = "kiki"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
-creator = ["the_whatevers"]
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+author = ["the_whatevers"]
 creation_date = "2020-11-30"
 primary = false
 deprecated = false

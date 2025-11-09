@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "slape"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2017"
-creator = ["jan Kawa"]
+author = ["jan Kawa"]
 see_also = ["lape"]
 source_language = "multiple"
 usage_category = "sandbox"

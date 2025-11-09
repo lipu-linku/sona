@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "antikontitutonelema"
-creator_verbatim = ""
-creator_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+author_verbatim = ""
+author_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = ""
-creator = []
+author = []
 see_also = ["yupekosi", "kalapisituji", "jaki"]
 source_language = "French"
 usage_category = "sandbox"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "suwili"
-creator_verbatim = "suwi + soweli\n=\nsuwili"
-creator_source = "https://discord.com/channels/301377942062366741/545467374254555137/703784872191197224"
+author_verbatim = "suwi + soweli\n=\nsuwili"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/703784872191197224"
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2020"
-creator = ["leko Icy"]
+author = ["leko Icy"]
 see_also = []
 source_language = "toki pona"
 usage_category = "sandbox"

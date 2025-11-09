@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "ka2"
-creator_verbatim = "ka means jan"
-creator_source = "https://discord.com/channels/301377942062366741/599425762990358528/730888126985142282"
+author_verbatim = "ka means jan"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/730888126985142282"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["jan Tumu"]
+author = ["jan Tumu"]
 see_also = ["jan", "lan", "konwe"]
 source_language = "tuki tiki"
 usage_category = "sandbox"

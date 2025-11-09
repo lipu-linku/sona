@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "kiki-4"
 word = "kiki"
 word_id = "kiki"
 usage_category = "sandbox"
-creator_source = "https://www.reddit.com/r/tokipona/comments/u323h2/do_you_use_the_heiroglyphs/"
-creator = ["unknown"]
+author_source = "https://www.reddit.com/r/tokipona/comments/u323h2/do_you_use_the_heiroglyphs/"
+author = ["unknown"]
 creation_date = "2022-08-13"
 primary = false
 deprecated = false

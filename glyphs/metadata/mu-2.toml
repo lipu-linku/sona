@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "mu-2"
 word = "mu"
 word_id = "mu"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/948448338662010910/1191946786936459325/1338672157512699946"
-creator = ["plum2176"]
+author_source = "https://discord.com/channels/948448338662010910/1191946786936459325/1338672157512699946"
+author = ["plum2176"]
 creation_date = "2022-05-14"
 primary = false
 deprecated = false

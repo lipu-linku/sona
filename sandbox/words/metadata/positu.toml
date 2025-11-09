@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "positu"
-creator_verbatim = "positu - the life, universe, and everything else /ref\nI havent even read hitchhikers guide I just know that"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/956236868406620180"
+author_verbatim = "positu - the life, universe, and everything else /ref\nI havent even read hitchhikers guide I just know that"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/956236868406620180"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["waso Pini"]
+author = ["waso Pini"]
 see_also = []
 source_language = "English"
 usage_category = "sandbox"

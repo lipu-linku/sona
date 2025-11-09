@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "n"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "ku suli"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["kala kala"]
+author = ["kala kala"]
 see_also = ["a"]
 source_language = "onomatopoeia"
 usage_category = "common"

@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "lapan"
-creator_verbatim = "**lapan** ★ dairy-like; creamy, fatty, rich, smooth\n    ← Arabic لَبَن laban 'milk'"
-creator_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
+author_verbatim = "**lapan** ★ dairy-like; creamy, fatty, rich, smooth\n    ← Arabic لَبَن laban 'milk'"
+author_source = "https://discord.com/channels/301377942062366741/1134994249021136916/1135002247034568814"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["ilo Powa"]
+author = ["ilo Powa"]
 see_also = []
 source_language = "Arabic"
 usage_category = "sandbox"

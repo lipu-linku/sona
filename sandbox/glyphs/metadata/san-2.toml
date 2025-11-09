@@ -1,11 +1,10 @@
 #:schema ../../../api/generated/v2/glyph.json
-
 id = "san-2"
 word = "san"
 word_id = "san"
 usage_category = "sandbox"
-creator_source = "https://discord.com/channels/301377942062366741/851665652452556840/867616678644154389"
-creator = ["telo misi"]
+author_source = "https://discord.com/channels/301377942062366741/851665652452556840/867616678644154389"
+author = ["telo misi"]
 creation_date = "2021-07-21"
 primary = false
 deprecated = false

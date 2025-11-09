@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "kolin"
-creator_verbatim = "maybe its like\nyou love someone so much you feel (figuratively) gloopy :3"
-creator_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138661802218102927"
+author_verbatim = "maybe its like\nyou love someone so much you feel (figuratively) gloopy :3"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1138661802218102927"
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2023"
-creator = ["umeja", "suwi Sunomun"]
+author = ["umeja", "suwi Sunomun"]
 see_also = []
 source_language = "toki pona"
 usage_category = "sandbox"

@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "soko-1"
 word = "soko"
 word_id = "soko"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/375591429608570881/713760909545177170"
-creator = ["jan Tumu"]
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/713760909545177170"
+author = ["jan Tumu"]
 creation_date = "2020-05-23"
 primary = false
 deprecated = false

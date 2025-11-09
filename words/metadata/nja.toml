@@ -1,11 +1,11 @@
 #:schema ../../api/generated/v2/word.json
 id = "nja"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-pu"
+coined_era = "post-pu"
 creation_date = "2021"
-creator = ["jan Kita"]
+author = ["jan Kita"]
 see_also = ["mu", "jonke"]
 source_language = "Japanese"
 usage_category = "obscure"

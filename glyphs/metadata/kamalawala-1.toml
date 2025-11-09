@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "kamalawala-1"
 word = "kamalawala"
 word_id = "kamalawala"
 usage_category = "obscure"
-creator_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
-creator = ["jan Elemenopi"]
+author_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+author = ["jan Elemenopi"]
 creation_date = "2020-07-25"
 primary = true
 deprecated = false

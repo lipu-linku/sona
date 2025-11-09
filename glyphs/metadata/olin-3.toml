@@ -1,11 +1,10 @@
 #:schema ../../api/generated/v2/glyph.json
-
 id = "olin-3"
 word = "olin"
 word_id = "olin"
 usage_category = "uncommon"
-creator_source = "https://discord.com/channels/301377942062366741/340307145373253642/772044914338299934"
-creator = ["asnev", "devurandom"]
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/772044914338299934"
+author = ["asnev", "devurandom"]
 creation_date = "2020-10-31"
 primary = false
 deprecated = false

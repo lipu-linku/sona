@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "jepi"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["multiple"]
+author = ["multiple"]
 see_also = ["a", "jipi", "jupi", "je", "wa"]
 source_language = "English"
 usage_category = "sandbox"

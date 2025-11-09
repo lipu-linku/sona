@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "we"
-creator_verbatim = ""
-creator_source = ""
+author_verbatim = ""
+author_source = ""
 book = "none"
-era = "post-ku"
+coined_era = "post-ku"
 creation_date = "2022"
-creator = ["jan Kiwisin", "jan Telupiso"]
+author = ["jan Kiwisin", "jan Telupiso"]
 see_also = []
 source_language = "Spanish"
 usage_category = "sandbox"
