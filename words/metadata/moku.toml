@@ -13,7 +13,6 @@ word = "moku"
 deprecated = false
 glyph_ids = ["moku-1"]
 primary_glyph_id = "moku-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

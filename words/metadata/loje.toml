@@ -13,7 +13,6 @@ word = "loje"
 deprecated = false
 glyph_ids = ["loje-1"]
 primary_glyph_id = "loje-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

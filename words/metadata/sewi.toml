@@ -13,7 +13,6 @@ word = "sewi"
 deprecated = false
 glyph_ids = ["sewi-2", "sewi-1"]
 primary_glyph_id = "sewi-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

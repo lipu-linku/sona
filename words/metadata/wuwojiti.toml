@@ -13,7 +13,6 @@ word = "wuwojiti"
 deprecated = false
 glyph_ids = ["wuwojiti-1"]
 primary_glyph_id = "wuwojiti-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

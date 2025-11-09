@@ -13,7 +13,6 @@ word = "soko"
 deprecated = false
 glyph_ids = ["soko-3", "soko-2", "soko-1"]
 primary_glyph_id = "soko-3"
-synonym_glyph_ids = []
 # teachability = 2
 
 [[audio]]

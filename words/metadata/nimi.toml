@@ -13,7 +13,6 @@ word = "nimi"
 deprecated = false
 glyph_ids = ["nimi-1"]
 primary_glyph_id = "nimi-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

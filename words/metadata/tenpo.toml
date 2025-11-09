@@ -13,7 +13,6 @@ word = "tenpo"
 deprecated = false
 glyph_ids = ["tenpo-1"]
 primary_glyph_id = "tenpo-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

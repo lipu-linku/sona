@@ -225,10 +225,6 @@
         "type": "string",
         "minLength": 3
       },
-      "synonym_glyph_ids": {
-        "description": "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
-        "$ref": "#/$defs/__schema3"
-      },
       "translations": {
         "type": "object",
         "properties": {
@@ -269,7 +265,6 @@
       "audio",
       "usage",
       "glyph_ids",
-      "synonym_glyph_ids",
       "translations"
     ],
     "additionalProperties": false

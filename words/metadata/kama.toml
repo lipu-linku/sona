@@ -13,7 +13,6 @@ word = "kama"
 deprecated = false
 glyph_ids = ["kama-1"]
 primary_glyph_id = "kama-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

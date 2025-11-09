@@ -13,7 +13,6 @@ word = "usawi"
 deprecated = false
 glyph_ids = ["usawi-1"]
 primary_glyph_id = "usawi-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

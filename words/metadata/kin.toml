@@ -13,7 +13,6 @@ word = "kin"
 deprecated = false
 glyph_ids = ["kin-1"]
 primary_glyph_id = "kin-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

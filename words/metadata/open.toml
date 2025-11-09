@@ -13,7 +13,6 @@ word = "open"
 deprecated = false
 glyph_ids = ["open-1"]
 primary_glyph_id = "open-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

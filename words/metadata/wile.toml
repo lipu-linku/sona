@@ -13,7 +13,6 @@ word = "wile"
 deprecated = false
 glyph_ids = ["wile-2", "wile-1"]
 primary_glyph_id = "wile-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

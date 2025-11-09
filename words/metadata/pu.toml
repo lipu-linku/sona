@@ -13,7 +13,6 @@ word = "pu"
 deprecated = false
 glyph_ids = ["pu-1"]
 primary_glyph_id = "pu-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

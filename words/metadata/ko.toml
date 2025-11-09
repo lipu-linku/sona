@@ -13,7 +13,6 @@ word = "ko"
 deprecated = false
 glyph_ids = ["ko-1"]
 primary_glyph_id = "ko-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

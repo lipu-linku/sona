@@ -13,7 +13,6 @@ word = "majuna"
 deprecated = false
 glyph_ids = ["majuna-1", "majuna-2"]
 primary_glyph_id = "majuna-2"
-synonym_glyph_ids = []
 # teachability = 3
 
 [[audio]]

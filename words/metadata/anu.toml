@@ -13,7 +13,6 @@ word = "anu"
 deprecated = false
 glyph_ids = ["anu-1"]
 primary_glyph_id = "anu-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

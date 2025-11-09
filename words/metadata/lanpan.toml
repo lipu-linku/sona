@@ -13,7 +13,6 @@ word = "lanpan"
 deprecated = false
 glyph_ids = ["lanpan-2", "lanpan-1"]
 primary_glyph_id = "lanpan-1"
-synonym_glyph_ids = []
 # teachability = 3
 
 [[audio]]

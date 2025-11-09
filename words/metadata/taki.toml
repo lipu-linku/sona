@@ -13,7 +13,6 @@ word = "taki"
 deprecated = false
 glyph_ids = ["taki-1", "taki-2"]
 primary_glyph_id = "taki-2"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

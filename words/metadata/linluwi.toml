@@ -13,7 +13,6 @@ word = "linluwi"
 deprecated = false
 glyph_ids = ["linluwi-3", "linluwi-2", "linluwi-1"]
 primary_glyph_id = "linluwi-3"
-synonym_glyph_ids = []
 # teachability = 3
 
 [[audio]]

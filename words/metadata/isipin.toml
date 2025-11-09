@@ -13,7 +13,6 @@ word = "isipin"
 deprecated = false
 glyph_ids = ["isipin-1"]
 primary_glyph_id = "isipin-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

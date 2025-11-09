@@ -13,7 +13,6 @@ word = "nasin"
 deprecated = false
 glyph_ids = ["nasin-1"]
 primary_glyph_id = "nasin-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

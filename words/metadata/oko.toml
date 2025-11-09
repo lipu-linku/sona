@@ -12,9 +12,8 @@ usage_category = "uncommon"
 word = "oko"
 parent_id = "lukin"
 deprecated = false
-glyph_ids = ["oko-1"]
+glyph_ids = ["oko-1", "lukin-1"]
 primary_glyph_id = "oko-1"
-synonym_glyph_ids = ["lukin-1"]
 # teachability = 3
 
 [[audio]]

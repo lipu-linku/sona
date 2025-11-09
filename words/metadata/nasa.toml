@@ -13,7 +13,6 @@ word = "nasa"
 deprecated = false
 glyph_ids = ["nasa-1"]
 primary_glyph_id = "nasa-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

@@ -13,7 +13,6 @@ word = "ijo"
 deprecated = false
 glyph_ids = ["ijo-1"]
 primary_glyph_id = "ijo-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

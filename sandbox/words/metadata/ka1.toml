@@ -18,7 +18,6 @@ deprecated = false
 audio = []
 glyph_ids = []
 # primary_glyph_id = ""
-synonym_glyph_ids = []
 # teachability = 4
 
 [representations]

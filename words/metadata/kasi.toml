@@ -13,7 +13,6 @@ word = "kasi"
 deprecated = false
 glyph_ids = ["kasi-1"]
 primary_glyph_id = "kasi-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

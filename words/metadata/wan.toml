@@ -13,7 +13,6 @@ word = "wan"
 deprecated = false
 glyph_ids = ["wan-1"]
 primary_glyph_id = "wan-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

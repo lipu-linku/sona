@@ -13,7 +13,6 @@ word = "nja"
 deprecated = false
 glyph_ids = ["nja-1"]
 primary_glyph_id = "nja-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

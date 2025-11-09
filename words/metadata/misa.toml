@@ -13,7 +13,6 @@ word = "misa"
 deprecated = false
 glyph_ids = ["misa-2", "misa-1"]
 primary_glyph_id = "misa-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

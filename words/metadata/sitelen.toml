@@ -13,7 +13,6 @@ word = "sitelen"
 deprecated = false
 glyph_ids = ["sitelen-1"]
 primary_glyph_id = "sitelen-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

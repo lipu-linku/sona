@@ -41,12 +41,6 @@ DATA: dict[str, DataToPackage] = {
                 "required": True,
                 "nonempty": True,
             },
-            {
-                "key": "synonym_glyph_ids",
-                "to": ["glyphs"],
-                "required": True,
-                "nonempty": False,
-            },
         ],
     },
     "glyphs": {
@@ -92,12 +86,6 @@ DATA: dict[str, DataToPackage] = {
                 "to": ["sandbox_glyphs", "glyphs"],
                 "required": False,
                 "nonempty": True,
-            },
-            {
-                "key": "synonym_glyph_ids",
-                "to": ["sandbox_glyphs", "glyphs"],
-                "required": True,
-                "nonempty": False,
             },
         ],
     },

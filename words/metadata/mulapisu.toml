@@ -13,7 +13,6 @@ word = "mulapisu"
 deprecated = false
 glyph_ids = ["mulapisu-1"]
 primary_glyph_id = "mulapisu-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

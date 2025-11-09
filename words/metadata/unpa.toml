@@ -13,7 +13,6 @@ word = "unpa"
 deprecated = false
 glyph_ids = ["unpa-1"]
 primary_glyph_id = "unpa-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

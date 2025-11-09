@@ -13,7 +13,6 @@ word = "tu"
 deprecated = false
 glyph_ids = ["tu-1"]
 primary_glyph_id = "tu-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

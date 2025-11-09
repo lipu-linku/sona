@@ -13,7 +13,6 @@ word = "lawa"
 deprecated = false
 glyph_ids = ["lawa-1"]
 primary_glyph_id = "lawa-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

@@ -13,7 +13,6 @@ word = "pika"
 deprecated = false
 glyph_ids = ["pika-1"]
 primary_glyph_id = "pika-1"
-synonym_glyph_ids = []
 # teachability = 4
 
 [[audio]]

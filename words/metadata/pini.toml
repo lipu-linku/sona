@@ -13,7 +13,6 @@ word = "pini"
 deprecated = false
 glyph_ids = ["pini-1"]
 primary_glyph_id = "pini-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]

@@ -13,7 +13,6 @@ word = "a"
 deprecated = false
 glyph_ids = ["a-2", "a-1"]
 primary_glyph_id = "a-1"
-synonym_glyph_ids = []
 # teachability = 1
 
 [[audio]]
