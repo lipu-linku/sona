@@ -45,7 +45,7 @@
 		"@cloudflare/vite-plugin": "^1.14.0",
 		"@hono/vite-build": "^1.7.0",
 		"@hono/vite-dev-server": "^0.20.1",
-		"@types/node": "^22.19.0",
+		"@types/node": "^24.0.0",
 		"prettier": "^3.6.2",
 		"tsdown": "^0.14.2",
 		"tsx": "^4.20.6",
