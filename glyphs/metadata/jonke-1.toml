@@ -14,7 +14,7 @@ svg = ""
 ligature = "jonke#1"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["waso-1"]
 
 [usage]
 

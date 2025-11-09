@@ -15,7 +15,7 @@ ligature = "sona#1"
 ucsur = "U+F1961"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["lipu-1"]
 
 [usage]
 

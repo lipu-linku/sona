@@ -15,7 +15,7 @@ ligature = "lanpan#1"
 ucsur = "U+F1985"
 alias_ligatures = []
 teachability = 3
-see_also = []
+see_also = ["jo-1"]
 
 [usage]
 

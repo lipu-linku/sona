@@ -15,7 +15,7 @@ ligature = "sike#1"
 ucsur = "U+F195C"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["leko-1"]
 
 [usage]
 

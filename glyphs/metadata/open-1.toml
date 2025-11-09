@@ -15,7 +15,7 @@ ligature = "open#1"
 ucsur = "U+F1947"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["poki-1"]
 
 [usage]
 

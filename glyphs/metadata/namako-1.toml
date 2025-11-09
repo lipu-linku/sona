@@ -15,7 +15,7 @@ ligature = "namako#1"
 ucsur = "U+F1978"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["sin-1"]
 
 [usage]
 

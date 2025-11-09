@@ -14,7 +14,7 @@ svg = ""
 ligature = "nimisin#1"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["nimi-1", "sin-1"]
 
 [usage]
 

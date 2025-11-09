@@ -15,7 +15,7 @@ ligature = "mi#1"
 ucsur = "U+F1934"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["sina-1", "ona-1"]
 
 [usage]
 

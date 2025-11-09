@@ -15,7 +15,7 @@ ligature = "sinpin#1"
 ucsur = "U+F195F"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["monsi-1"]
 
 [usage]
 

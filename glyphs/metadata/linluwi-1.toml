@@ -14,7 +14,7 @@ svg = ""
 ligature = "linluwi#1"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["len-1", "linja-1"]
 
 [usage]
 

@@ -15,7 +15,7 @@ ligature = "telo#1"
 ucsur = "U+F196A"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["kon-1", "linja-1"]
 
 [usage]
 

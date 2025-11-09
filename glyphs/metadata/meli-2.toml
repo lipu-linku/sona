@@ -15,7 +15,7 @@ ligature = "meli#2"
 ucsur = "U+F1933"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["mije-2", "tonsi-1"]
 
 [usage]
 

@@ -15,7 +15,7 @@ ligature = "powe#1"
 ucsur = "U+F19A3"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["lon-1", "ala-1"]
 
 [usage]
 

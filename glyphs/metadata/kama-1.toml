@@ -15,7 +15,7 @@ ligature = "kama#1"
 ucsur = "U+F1916"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["tawa-1"]
 
 [usage]
 

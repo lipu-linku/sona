@@ -15,7 +15,7 @@ ligature = "len#1"
 ucsur = "U+F1925"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["sijelo-1"]
 
 [usage]
 

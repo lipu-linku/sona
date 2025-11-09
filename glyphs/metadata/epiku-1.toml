@@ -15,7 +15,7 @@ ligature = "epiku#1"
 ucsur = "U+F1983"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["ni-3"]
 
 [usage]
 

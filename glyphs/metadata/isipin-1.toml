@@ -14,7 +14,7 @@ svg = ""
 ligature = "isipin#1"
 alias_ligatures = []
 teachability = 4
-see_also = []
+see_also = ["lawa-1"]
 
 [usage]
 

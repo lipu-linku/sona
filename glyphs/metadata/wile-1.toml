@@ -15,7 +15,7 @@ ligature = "wile#1"
 ucsur = "U+F1977"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["ken-1"]
 
 [usage]
 

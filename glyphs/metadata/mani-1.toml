@@ -15,7 +15,7 @@ ligature = "mani#1"
 ucsur = "U+F1932"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["mu-1"]
 
 [usage]
 

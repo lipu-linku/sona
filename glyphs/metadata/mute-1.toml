@@ -15,7 +15,7 @@ ligature = "mute#1"
 ucsur = "U+F193C"
 alias_ligatures = []
 teachability = 1
-see_also = []
+see_also = ["wan-1", "tu-1"]
 
 [usage]
 
