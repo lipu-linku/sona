@@ -30,6 +30,7 @@ DATA: dict[str, DataToPackage] = {
         "schema": "word.json",
         "translations": "words_locale",
         "refs": [
+            {"key": "parent_id", "to": ["words"]},
             {"key": "see_also", "to": ["words"]},
             {"key": "glyph_ids", "to": ["glyphs"]},
             {"key": "primary_glyph_id", "to": ["glyphs"]},
@@ -44,6 +45,7 @@ DATA: dict[str, DataToPackage] = {
         "translations": "glyphs_locale",
         "refs": [
             {"key": "word_id", "to": ["words"]},
+            {"key": "parent_id", "to": ["glyphs"]},
         ],
     },
     "sandbox_words": {
