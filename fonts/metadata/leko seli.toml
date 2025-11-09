@@ -2,7 +2,7 @@
 id = "leko seli"
 name = "leko seli"
 filename = "leko seli.ttf"
-creator = ["jan Sena"]
+author = ["jan Sena"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

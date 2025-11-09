@@ -2,7 +2,7 @@
 id = "suli lukin tan ilo Popsie"
 name = "suli lukin tan ilo Popsie"
 filename = "suli lukin tan ilo Popsie.ttf"
-creator = ["ilo Popsie"]
+author = ["ilo Popsie"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

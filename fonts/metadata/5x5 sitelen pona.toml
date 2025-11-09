@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "5x5 sitelen pona"
-creator = ["jan Sewaka / jan Weko"]
+author = ["jan Sewaka / jan Weko"]
 features = ["codepoints only"]
 filename = "5x5-sitelen-pona.otf"
 last_updated = "2022-07"

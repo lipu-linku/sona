@@ -2,7 +2,7 @@
 id = "sitelen Suwekona pi waso leko tan waso musi Ipan"
 name = "sitelen Suwekona pi waso leko tan waso musi Ipan"
 filename = "sitelen Suwekona pi waso leko tan waso musi Ipan.ttf"
-creator = ["waso musi Ipan"]
+author = ["waso musi Ipan"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

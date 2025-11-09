@@ -2,7 +2,7 @@
 id = "nasin sitelen pi soweli Tela"
 name = "nasin sitelen pi soweli Tela"
 filename = "nasin-sitelen-pi-soweli-Tela.ttf"
-creator = ["soweli Tela"]
+author = ["soweli Tela"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

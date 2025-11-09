@@ -2,7 +2,7 @@
 id = "SINtelen"
 name = "SINtelen"
 filename = "SINtelen-tan-jan-Mikali.ttf"
-creator = ["jan Mikali"]
+author = ["jan Mikali"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

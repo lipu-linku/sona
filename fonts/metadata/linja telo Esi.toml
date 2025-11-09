@@ -2,7 +2,7 @@
 id = "linja telo Esi"
 name = "linja telo Esi"
 filename = "linja telo Esi.ttf"
-creator = ["mu Esitense usawi"]
+author = ["mu Esitense usawi"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

@@ -2,11 +2,11 @@
 id = "sitelen Sepi"
 name = "sitelen Sepi"
 filename = "sitelen Sepi.ttf"
-creator = ["kijetesantakalu Nawili"]
+author = ["kijetesantakalu Nawili"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true
-writing_system = "sitelen pona"      # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+writing_system = "sitelen pona"     # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
 last_updated = "2025-09"

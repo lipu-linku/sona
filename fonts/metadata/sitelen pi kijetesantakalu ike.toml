@@ -2,7 +2,7 @@
 id = "sitelen pi kijetesantakalu ike"
 name = "sitelen pi kijetesantakalu ike"
 filename = "sitelen-pi-kijetesantakalu-ike.ttf"
-creator = ["lawa pi jan Kikili lon tenpo 3 am"]
+author = ["lawa pi jan Kikili lon tenpo 3 am"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

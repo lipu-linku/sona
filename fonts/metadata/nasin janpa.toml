@@ -2,7 +2,7 @@
 id = "nasin janpa"
 name = "nasin janpa"
 filename = "nasin-janpa.ttf"
-creator = ["jan Janpa Onjon"]
+author = ["jan Janpa Onjon"]
 license = "OFL"
 ligatures = true
 ucsur = true

@@ -2,7 +2,7 @@
 id = "len Majeka pi toki toki ascii"
 name = "len Majeka pi toki toki ascii"
 filename = "linja_Majeka_pi_toki_tokiB4_ligs.otf"
-creator = ["jan Majeka"]
+author = ["jan Majeka"]
 license = "CC-BY-ND 4.0"
 ligatures = true
 ucsur = true

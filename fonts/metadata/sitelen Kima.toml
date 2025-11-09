@@ -2,7 +2,7 @@
 id = "sitelen Kima"
 name = "sitelen Kima"
 filename = "sitelen-Kima.ttf"
-creator = ["jan lili Enta"]
+author = ["jan lili Enta"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

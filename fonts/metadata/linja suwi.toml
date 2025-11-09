@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "linja suwi"
-creator = ["jan Ana"]
+author = ["jan Ana"]
 features = ["ASCII transcription", "supports combined glyphs", "nimi ku suli"]
 filename = "linja-suwi.otf"
 last_updated = "2021-08"

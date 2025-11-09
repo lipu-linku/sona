@@ -2,7 +2,7 @@
 id = "sitelen Sijato"
 name = "sitelen Sijato"
 filename = "sitelen Sijato.ttf"
-creator = ["jan Wiwijen"]
+author = ["jan Wiwijen"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

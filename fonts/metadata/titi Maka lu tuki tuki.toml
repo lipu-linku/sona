@@ -2,7 +2,7 @@
 id = "titi Maka lu tuki tuki"
 name = "titi Maka lu tuki tuki"
 filename = "titi_Maka_lu_tuku_tuku.otf"
-creator = ["jan Majeka"]
+author = ["jan Majeka"]
 license = "CC-BY-ND 4.0"
 ligatures = true
 ucsur = true

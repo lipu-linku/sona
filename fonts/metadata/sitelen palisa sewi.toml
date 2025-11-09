@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "sitelen palisa sewi"
-creator = ["jan Kanon"]
+author = ["jan Kanon"]
 features = []
 filename = ""
 last_updated = "2022-07"

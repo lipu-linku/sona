@@ -2,7 +2,7 @@
 id = "tomo toki nasa"
 name = "tomo toki nasa tan jan Sepi"
 filename = "tomo toki nasa tan jan Sepi.ttf"
-creator = ["jan Sepi"]
+author = ["jan Sepi"]
 license = "SIL Open Font License, Version 1.1"
 ligatures = true
 ucsur = true

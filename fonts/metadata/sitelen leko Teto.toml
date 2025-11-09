@@ -2,7 +2,7 @@
 id = "sitelen leko Teto"
 name = "sitelen leko Teto"
 filename = "sitelen-leko-Teto.ttf"
-creator = ["jan tonsi Puki"]
+author = ["jan tonsi Puki"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

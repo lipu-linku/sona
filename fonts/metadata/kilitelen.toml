@@ -2,7 +2,7 @@
 id = "kilitelen"
 name = "kilitelen"
 filename = "kilitelen.ttf"
-creator = ["kili Temeke"]
+author = ["kili Temeke"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

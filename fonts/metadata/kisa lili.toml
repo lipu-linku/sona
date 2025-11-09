@@ -2,7 +2,7 @@
 id = "kisa lili"
 name = "kisa lili"
 filename = "kisa lili.ttf"
-creator = ["jan Mikki"]
+author = ["jan Mikki"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

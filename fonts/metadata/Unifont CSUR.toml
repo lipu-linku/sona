@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "Unifont CSUR"
-creator = ["Paul Hardy"]
+author = ["Paul Hardy"]
 features = ["codepoints only"]
 filename = "unifont-csur.otf"
 last_updated = "2022-04"

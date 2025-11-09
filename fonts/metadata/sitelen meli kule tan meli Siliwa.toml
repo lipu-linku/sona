@@ -2,7 +2,7 @@
 id = "sitelen meli kule tan meli Siliwa"
 name = "sitelen meli kule tan meli Siliwa"
 filename = "sitelen meli kule tan meli Siliwa.ttf"
-creator = ["meli Siliwa"]
+author = ["meli Siliwa"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

@@ -2,7 +2,7 @@
 id = "sitelen suwi"
 name = "sitelen suwi"
 filename = "sitelen-suwi-tan-ijo-vivi.ttf"
-creator = ["ijo vivi"]
+author = ["ijo vivi"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

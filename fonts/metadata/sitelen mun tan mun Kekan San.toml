@@ -2,7 +2,7 @@
 id = "sitelen mun tan mun Kekan San"
 name = "sitelen mun tan mun Kekan San"
 filename = "sitelen mun tan mun Kekan San.ttf"
-creator = ["mun Kekan San"]
+author = ["mun Kekan San"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

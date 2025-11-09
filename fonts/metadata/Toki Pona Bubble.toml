@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "Toki Pona Bubble"
-creator = ["Jordan W Martin"]
+author = ["Jordan W Martin"]
 features = ["ASCII transcription", "supports all nimi ku suli"]
 filename = "toki-pona-bubble.otf"
 last_updated = "2022-02"

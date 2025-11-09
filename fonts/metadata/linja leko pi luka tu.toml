@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "linja leko pi luka tu"
-creator = ["AgentMuffin"]
+author = ["AgentMuffin"]
 features = ["codepoints only"]
 filename = "linja-leko-pi-luka-tu.otf"
 last_updated = "2022-07"

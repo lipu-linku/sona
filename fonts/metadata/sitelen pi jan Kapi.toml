@@ -2,7 +2,7 @@
 id = "sitelen pi jan Kapi"
 name = "sitelen pi jan Kapi"
 filename = "sitelen pi jan Kapi.ttf"
-creator = ["jan Kapi"]
+author = ["jan Kapi"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

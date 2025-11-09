@@ -2,7 +2,7 @@
 id = "sitelen seli luka tan kulupu seli"
 name = "sitelen seli luka tan kulupu seli"
 filename = "sitelen seli luka tan kulupu seli.ttf"
-creator = ["kulupu seli"]
+author = ["kulupu seli"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

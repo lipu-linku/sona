@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "sitelen lili"
-creator = []
+author = []
 features = [
   "codepoints only",
   "UCSUR-compliant",

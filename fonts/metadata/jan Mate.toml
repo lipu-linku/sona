@@ -2,7 +2,7 @@
 id = "jan Mate"
 name = "jan Mate"
 filename = "jan-Mate.ttf"
-creator = ["jan Mate"]
+author = ["jan Mate"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

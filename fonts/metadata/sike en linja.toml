@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "sike en linja"
-creator = ["jan Silani"]
+author = ["jan Silani"]
 features = ["ASCII transcription", "ku suli"]
 filename = "sike-en-linja.otf"
 last_updated = "2022-08"

@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "FauxSP"
-creator = ["neverRare / ko Koko"]
+author = ["neverRare / ko Koko"]
 features = []
 filename = "FauxSP.otf"
 last_updated = "2024-10"

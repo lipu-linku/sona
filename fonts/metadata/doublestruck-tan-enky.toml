@@ -2,7 +2,7 @@
 id = "doublestruck-tan-enky"
 name = "doublestruck-tan-enky"
 filename = "doublestruck-tan-enky.ttf"
-creator = ["enky"]
+author = ["enky"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

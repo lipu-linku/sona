@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "titi pula lili"
-creator = ["Elliott Crampton (jan Elijo / ka Ililu)"]
+author = ["Elliott Crampton (jan Elijo / ka Ililu)"]
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",

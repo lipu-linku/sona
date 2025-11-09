@@ -2,7 +2,7 @@
 id = "sitelen pona nasa Liwa"
 name = "sitelen pona nasa Liwa"
 filename = "sitelen pona nasa Liwa.ttf"
-creator = ["jan Liwa"]
+author = ["jan Liwa"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

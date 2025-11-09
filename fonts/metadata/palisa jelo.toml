@@ -2,7 +2,7 @@
 id = "palisa jelo"
 name = "palisa jelo"
 filename = "palisa jelo.ttf"
-creator = ["palisa jelo"]
+author = ["palisa jelo"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

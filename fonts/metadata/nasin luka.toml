@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "nasin luka"
-creator = ["trollbreeder"]
+author = ["trollbreeder"]
 features = [
   "codepoints only",
   "UCSUR-compliant",

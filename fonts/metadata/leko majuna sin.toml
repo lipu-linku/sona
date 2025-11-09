@@ -2,7 +2,7 @@
 id = "leko majuna sin"
 name = "leko majuna sin"
 filename = "leko majuna sin.ttf"
-creator = ["waso Keli"]
+author = ["waso Keli"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

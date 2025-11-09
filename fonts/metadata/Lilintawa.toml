@@ -2,7 +2,7 @@
 id = "Lilintawa"
 name = "Lilintawa"
 filename = "Lilintawa.ttf"
-creator = ["jan pi kili mun"]
+author = ["jan pi kili mun"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

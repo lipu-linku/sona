@@ -2,7 +2,7 @@
 id = "loje meli"
 name = "loje meli"
 filename = "loje meli.ttf"
-creator = ["meli Siliwa"]
+author = ["meli Siliwa"]
 license = "OFL"
 ligatures = true
 ucsur = true

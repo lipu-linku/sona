@@ -2,7 +2,7 @@
 id = "musi-leko-HD-tan-jan-Lusi"
 name = "musi-leko-HD-tan-jan-Lusi"
 filename = "musi-leko-HD-tan-jan-Lusi.ttf"
-creator = ["jan Lusi"]
+author = ["jan Lusi"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

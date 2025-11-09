@@ -2,7 +2,7 @@
 id = "lukeson-Mon"
 name = "lukeson-Mon"
 filename = "lukeson-Mon.ttf"
-creator = ["waso musi Ipan"]
+author = ["waso musi Ipan"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

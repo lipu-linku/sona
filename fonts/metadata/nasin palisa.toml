@@ -2,7 +2,7 @@
 id = "nasin palisa"
 name = "nasin palisa"
 filename = "nasin-palisa-Regular.ttf"
-creator = ["aks Ejan"]
+author = ["aks Ejan"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

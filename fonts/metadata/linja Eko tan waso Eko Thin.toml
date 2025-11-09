@@ -2,7 +2,7 @@
 id = "linja Eko tan waso Eko Thin"
 name = "linja Eko tan waso Eko Thin"
 filename = "linja-Eko-Thin.ttf"
-creator = ["waso Eko"]
+author = ["waso Eko"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

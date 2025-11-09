@@ -2,7 +2,7 @@
 id = "linja li nja tan jan Jami"
 name = "linja li nja tan jan Jami"
 filename = "linja li nja tan jan Jami.ttf"
-creator = ["jan Jami"]
+author = ["jan Jami"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

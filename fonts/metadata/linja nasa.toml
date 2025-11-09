@@ -2,7 +2,7 @@
 id = "linja nasa"
 name = "linja nasa"
 filename = "linja-nasa-tan-jan-Ukamika.ttf"
-creator = ["jan Ukamika"]
+author = ["jan Ukamika"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

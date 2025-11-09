@@ -2,7 +2,7 @@
 id = "luka Enta"
 name = "luka Enta"
 filename = "luka-Enta.ttf"
-creator = ["jan lili Enta"]
+author = ["jan lili Enta"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

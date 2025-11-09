@@ -2,7 +2,7 @@
 id = "sitelen musi linja"
 name = "sitelen musi linja"
 filename = "sitelen musi linja tan waso Eko.ttf"
-creator = ["waso Eko"]
+author = ["waso Eko"]
 license = "SIL Open Font License"
 ligatures = true
 ucsur = true

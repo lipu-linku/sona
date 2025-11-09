@@ -2,7 +2,7 @@
 id = "sitelen g"
 name = "sitelen g"
 filename = "sitelen-g.ttf"
-creator = ["jan Piku"]
+author = ["jan Piku"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

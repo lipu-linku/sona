@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "Nishiki-teki-lili"
-creator = ["Umihotaru", "jan Ke Tami"]
+author = ["Umihotaru", "jan Ke Tami"]
 features = [
   "ASCII transcription",
   "UCSUR-compliant",

@@ -2,7 +2,7 @@
 id = "nasin Sopitelen"
 name = "nasin Sopitelen"
 filename = "nasin Sopitelen.ttf"
-creator = ["soweli Sopi"]
+author = ["soweli Sopi"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

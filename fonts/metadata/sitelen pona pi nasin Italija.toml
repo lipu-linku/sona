@@ -2,7 +2,7 @@
 id = "sitelen pona pi nasin Italija"
 name = "sitelen pona pi nasin Italija"
 filename = "sitelen-pona-pi-nasin-Italija.ttf"
-creator = ["jan Simo"]
+author = ["jan Simo"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

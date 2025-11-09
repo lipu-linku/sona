@@ -2,7 +2,7 @@
 id = "sitelen linja tan jan Nopu"
 name = "sitelen linja tan jan Nopu"
 filename = "sitelen linja tan jan Nopu.ttf"
-creator = ["jan Nopu"]
+author = ["jan Nopu"]
 license = "CC0 1.0 Universal"
 ligatures = true
 ucsur = true

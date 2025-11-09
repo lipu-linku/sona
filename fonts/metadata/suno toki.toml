@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "suno toki"
-creator = ["jan Ke Tami"]
+author = ["jan Ke Tami"]
 features = [
   "ASCII transcription",
   "cartouches",

@@ -2,7 +2,7 @@
 id = "sitelen Peton"
 name = "sitelen Peton"
 filename = "sitelen Peton.ttf"
-creator = ["jan Peton"]
+author = ["jan Peton"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

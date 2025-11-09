@@ -2,7 +2,7 @@
 id = "jan Ali"
 name = "jan Ali"
 filename = "jan Ali.ttf"
-creator = ["Ali Najafi"]
+author = ["Ali Najafi"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

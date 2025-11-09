@@ -2,11 +2,11 @@
 id = "sitelen sitelen open"
 name = "sitelen sitelen open"
 filename = "sitelen-sitelen-open.ttf"
-creator = ["jan lili Enta", "jan Josan"]
+author = ["jan lili Enta", "jan Josan"]
 license = "CC BY 4.0"
 ligatures = true
 ucsur = true
-writing_system = "sitelen sitelen"       # must be one of the following: 
+writing_system = "sitelen sitelen"      # must be one of the following: 
 # "sitelen pona","sitelen sitelen","alphabet","syllabary","logography",
 # "tokiponido alphabet","tokiponido syllabary","tokiponido logography"
 

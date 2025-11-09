@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "linja pi kute mute"
-creator = ["increpare / jan Inkepa"]
+author = ["increpare / jan Inkepa"]
 features = []
 filename = "linja-pi-kute-mute.otf"
 last_updated = "2022-09"

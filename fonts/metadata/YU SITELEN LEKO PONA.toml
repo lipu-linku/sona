@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "YU SITELEN LEKO PONA"
-creator = ["miukumauku"]
+author = ["miukumauku"]
 features = ["ASCII transcription", "ku suli", "UCSUR-compliant"]
 filename = "YU-SITELEN-LEKO-PONA.ttf"
 last_updated = "2024-04"

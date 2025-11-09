@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "Fairfax"
-creator = ["jan Lepeka"]
+author = ["jan Lepeka"]
 features = [
   "codepoints only",
   "UCSUR-compliant",

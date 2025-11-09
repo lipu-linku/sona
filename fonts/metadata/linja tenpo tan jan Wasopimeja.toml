@@ -2,7 +2,7 @@
 id = "linja tenpo tan jan Wasopimeja"
 name = "linja tenpo tan jan Wasopimeja"
 filename = "linja tenpo tan jan Wasopimeja.ttf"
-creator = ["jan Wasopimeja"]
+author = ["jan Wasopimeja"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

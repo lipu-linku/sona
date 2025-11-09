@@ -2,7 +2,7 @@
 id = "linja sin tan soko sijeni"
 name = "linja sin tan soko sijeni"
 filename = "linja sin tan soko sijeni.ttf"
-creator = ["soko sijeni"]
+author = ["soko sijeni"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

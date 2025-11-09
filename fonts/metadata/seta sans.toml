@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "seta sans"
-creator = ["Eschar", "Nathan McCoy"]
+author = ["Eschar", "Nathan McCoy"]
 features = []
 filename = "seta-sans.otf"
 last_updated = "2021-04"

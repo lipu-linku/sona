@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "linja wawa"
-creator = ["jan Melon", "nimi Elemenopi"]
+author = ["jan Melon", "nimi Elemenopi"]
 features = [
   "ASCII transcription",
   "supports cartouches",

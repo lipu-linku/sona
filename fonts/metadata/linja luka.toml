@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "linja luka"
-creator = ["jan Pensamin", "jan Melon"]
+author = ["jan Pensamin", "jan Melon"]
 features = ["ASCII transcription", "supports all ku suli and some others"]
 filename = "linja-luka.otf"
 last_updated = "2022-02"

@@ -2,7 +2,7 @@
 id = "Sitelen Nanpa tan jan Tamalu"
 name = "Sitelen Nanpa tan jan Tamalu"
 filename = "Sitelen-Nanpa-tan-jan-Tamalu.ttf"
-creator = ["jan Tamalu"]
+author = ["jan Tamalu"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

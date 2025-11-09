@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "sitelen pona tan pu"
-creator = ["HBMmaster"]
+author = ["HBMmaster"]
 features = ["incomplete", "codepoints only"]
 filename = "sitelen-pona-tan-pu.otf"
 last_updated = "2024-04"

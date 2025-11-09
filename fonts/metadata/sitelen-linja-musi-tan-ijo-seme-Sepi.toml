@@ -2,7 +2,7 @@
 id = "sitelen linja musi tan ijo seme Sepi"
 name = "sitelen linja musi tan ijo seme Sepi"
 filename = "sitelen linja musi.ttf"
-creator = ["ijo seme Sepi"]
+author = ["ijo seme Sepi"]
 license = "SIL Open Font License, Version 1.1"
 ligatures = true
 ucsur = true

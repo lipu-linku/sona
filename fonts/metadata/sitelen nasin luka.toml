@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "sitelen nasin luka"
-creator = ["akesi kon Nalasuni"]
+author = ["akesi kon Nalasuni"]
 features = ["ASCII transcription"]
 filename = "sitelennasinluka.otf"
 last_updated = "2023-02"

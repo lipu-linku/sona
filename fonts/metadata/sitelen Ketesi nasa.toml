@@ -2,7 +2,7 @@
 id = "sitelen Ketesi nasa"
 name = "sitelen Ketesi nasa"
 filename = "sitelen Ketesi nasa.ttf"
-creator = ["jan Ketesi"]
+author = ["jan Ketesi"]
 license = "CC0 1.0 Universal"
 ligatures = true
 ucsur = true

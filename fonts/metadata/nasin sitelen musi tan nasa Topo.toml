@@ -2,7 +2,7 @@
 id = "nasin sitelen musi tan nasa Topo"
 name = "nasin sitelen musi tan nasa Topo"
 filename = "nasin sitelen musi tan nasa Topo.ttf"
-creator = ["nasa Topo"]
+author = ["nasa Topo"]
 license = "CC0 1.0 Universal"
 ligatures = true
 ucsur = true

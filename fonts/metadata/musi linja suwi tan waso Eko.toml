@@ -2,7 +2,7 @@
 id = "musi linja suwi tan waso Eko"
 name = "musi linja suwi tan waso Eko"
 filename = "musi linja suwi tan waso Eko.ttf"
-creator = ["waso Eko"]
+author = ["waso Eko"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true

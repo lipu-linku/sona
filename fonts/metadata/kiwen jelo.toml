@@ -2,7 +2,7 @@
 id = "kiwen jelo"
 name = "kiwen jelo"
 filename = "kiwen jelo.ttf"
-creator = ["jan Kiso"]
+author = ["jan Kiso"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true

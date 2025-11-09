@@ -1,6 +1,6 @@
 #:schema ../../api/generated/v2/font.json
 id = "lika lili ala"
-creator = ["kije Enki"]
+author = ["kije Enki"]
 features = ["ASCII transcription and codepoints"]
 filename = "lilialab.ttf"
 last_updated = "2023-12"

@@ -2,7 +2,7 @@
 id = "zqx"
 name = "zqx"
 filename = "zqx.ttf"
-creator = ["jan Nopu"]
+author = ["jan Nopu"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true
