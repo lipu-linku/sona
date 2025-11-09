@@ -24,7 +24,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         name: Setup Node.js
         with:
           node-version: 21
@@ -36,7 +36,7 @@ jobs:
           version: 10
 
       - name: Install jq
-        uses: dcarbone/install-jq-action@v3.0.1
+        uses: dcarbone/install-jq-action@v3
 
       - name: Update package.json
         if: github.event_name == 'release'
@@ -61,7 +61,7 @@ jobs:
         run: pnpx jsr publish --allow-slow-types --allow-dirty
 
       - name: Push version changes to main branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "bump @kulupu-linku/sona version ${{ github.event.release.tag_name }}"
           branch: ${{ github.event.repository.default_branch }}

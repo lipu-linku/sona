@@ -7,7 +7,7 @@ import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { secureHeaders } from "hono/secure-headers";
 import { trimTrailingSlash } from "hono/trailing-slash";
-import type { ContentfulStatusCode } from "hono/utils/http-status";
+import type { StatusCode, ContentfulStatusCode } from "hono/utils/http-status";
 
 import v1 from "./v1";
 import v2 from "./v2";
@@ -39,22 +39,23 @@ const app = new Hono({ strict: false })
   .notFound((c) => c.json({ mxessage: "Not Found", ok: false as const }, 404))
   .onError((err: Error & { status?: ContentfulStatusCode }, c) => {
     console.error(err);
+    const status = err.status && err.status >= 200 ? (err.status as ContentfulStatusCode) : 500;
+
     return c.json(
       {
         ok: false as const,
         message: err.message,
       },
-      err.status ?? 500,
+      status,
     );
   })
   .get("/", (c) => {
-    return c.redirect("/v2");
+    return c.redirect("/v1");
   })
   .get("/jasima", async (c) => {
     const data = await fetch(
       "https://raw.githubusercontent.com/lipu-linku/jasima/main/data.json",
     ).then((r) => r.json());
-
     return c.json(data);
   })
   .route("/v1", v1)
