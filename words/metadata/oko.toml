@@ -10,6 +10,7 @@ see_also = ["lukin"]
 source_language = "Serbo-Croatian"
 usage_category = "uncommon"
 word = "oko"
+parent_id = "lukin"
 deprecated = false
 glyph_ids = ["oko-1"]
 primary_glyph_id = "oko-1"
