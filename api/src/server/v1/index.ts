@@ -129,6 +129,11 @@ const app = new Hono()
 					);
 		},
 	)
+	.get("/luka_pona", (c) => {
+		// WARNING: this should be root relative, but that doesn't exist in hono at
+		// this time: https://github.com/orgs/honojs/discussions/4194
+		return c.redirect("/v1/luka_pona/signs");
+	})
 
 	.get("/luka_pona/fingerspelling", langValidator, languagesFilter(true), async (c) => {
 		return c.json((await rawData).fingerspelling, 200);
