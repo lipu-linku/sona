@@ -9,7 +9,7 @@ creation_date = "2021-03-11"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1XobgIPiOLADvbtGb6VVvufMsPwRP43cI"
-svg = ""
+# svg = ""
 ligature = "misa#2"
 alias_ligatures = []
 # teachability = 4

@@ -9,7 +9,7 @@ creation_date = "2022-06-07"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1ewy3QD80ZLZcham7xH1VdxlzrPIcEWRj"
-svg = ""
+# svg = ""
 ligature = "tenpo#2"
 ucsur = "U+F196B"
 alias_ligatures = []

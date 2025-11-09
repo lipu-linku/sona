@@ -9,7 +9,7 @@ creation_date = "2021-01-27"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1_srMeAMrXrwGwcubT2buZfrJrPD5Yq6e"
-svg = ""
+# svg = ""
 ligature = "jami#1"
 alias_ligatures = []
 # teachability = 4

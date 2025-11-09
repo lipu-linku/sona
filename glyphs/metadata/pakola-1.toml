@@ -9,7 +9,7 @@ creation_date = "2022-12-18"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1FvbD4KqXWUyhBiqJqChusgt7bYmWOzP7"
-svg = ""
+# svg = ""
 ligature = "pakola#1"
 alias_ligatures = []
 # teachability = 4

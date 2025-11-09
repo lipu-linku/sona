@@ -9,7 +9,7 @@ creation_date = ""
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1kc6pdi26_UNMYfJllg42Q-6HP5lGYw7q"
-svg = ""
+# svg = ""
 ligature = "wasoweli#1"
 alias_ligatures = []
 # teachability = 4

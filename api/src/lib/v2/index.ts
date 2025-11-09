@@ -222,9 +222,9 @@ export const Word = z
     // TODO: shouldn't be optional for most words, but some words have no glyphs
     // in linku, or have no "primary" glyph
     // see refinements later on
-    primary_glyph_id: Ref.optional().describe(
-      "The ID of the glyph most commonly used to represent this word in sitelen pona.",
-    ),
+    primary_glyph_id: Ref.min(3)
+      .optional()
+      .describe("The ID of the glyph most commonly used to represent this word in sitelen pona."),
     synonym_glyph_ids: Refs.describe(
       "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
     ),

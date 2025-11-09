@@ -9,7 +9,7 @@ creation_date = "2016-10-16"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=18tC1IYjSrCSXF91IZ8uEMhG3YNr4ndkp"
-svg = ""
+# svg = ""
 ligature = "namako#1"
 ucsur = "U+F1978"
 alias_ligatures = []

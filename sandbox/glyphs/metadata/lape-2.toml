@@ -9,7 +9,7 @@ creation_date = "2022-08-22"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1AdemnJSWQMDD9mx0ASiPQd-ZzhaXcdXV"
-svg = ""
+# svg = ""
 ligature = "lape#2"
 ucsur = "U+F1922"
 alias_ligatures = []

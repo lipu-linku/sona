@@ -9,7 +9,7 @@ creation_date = ""
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1fpRnKvu6-iJMYyNINdya4tXTTNOvTJi4"
-svg = ""
+# svg = ""
 ligature = "pika#2"
 alias_ligatures = []
 # teachability = 4

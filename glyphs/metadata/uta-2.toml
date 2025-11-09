@@ -9,7 +9,7 @@ creation_date = "2020-03-09"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=123Rmjtw86Yq01CwWdnNpu1DXvTgv7RjF"
-svg = ""
+# svg = ""
 ligature = "uta#2"
 ucsur = "U+F1970"
 alias_ligatures = []

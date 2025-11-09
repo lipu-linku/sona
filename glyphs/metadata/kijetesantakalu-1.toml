@@ -9,7 +9,7 @@ creation_date = "2019-08-09"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1TDwMk2pVhqksmLzgOKsemHo-dr9dhu-e"
-svg = ""
+# svg = ""
 ligature = "kijetesantakalu#1"
 ucsur = "U+F1980"
 alias_ligatures = []

@@ -66,11 +66,11 @@
     },
     "parent_id": {
       "description": "The most widely used word which is considered to be an exact synonym for this word.",
-      "$ref": "#/$defs/__schema2"
+      "$ref": "#/$defs/__schema0"
     },
     "see_also": {
       "description": "The IDs of words related to this one.",
-      "$ref": "#/$defs/__schema3"
+      "$ref": "#/$defs/__schema2"
     },
     "resources": {
       "description": "Non-Linku resources related to the specific word, such as wiki links.",
@@ -78,11 +78,11 @@
       "properties": {
         "sona_pona": {
           "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema3"
         },
         "lipamanka_semantic": {
           "description": "A link to lipamanka's description of the word's semantic space.",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema3"
         }
       },
       "additionalProperties": false
@@ -119,7 +119,7 @@
         },
         "sitelen_sitelen": {
           "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block",
-          "$ref": "#/$defs/__schema4"
+          "$ref": "#/$defs/__schema3"
         },
         "ucsur": {
           "description": "The UCSUR codepoint for this word.",
@@ -161,7 +161,7 @@
           },
           "link": {
             "description": "A link to the audio file for the word, pronounced by `author`.",
-            "$ref": "#/$defs/__schema4"
+            "$ref": "#/$defs/__schema3"
           }
         },
         "required": [
@@ -177,19 +177,19 @@
       "properties": {
         "en": {
           "description": "The word's definition in the English edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema5"
+          "$ref": "#/$defs/__schema4"
         },
         "fr": {
           "description": "The word's definition in the French edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema5"
+          "$ref": "#/$defs/__schema4"
         },
         "de": {
           "description": "The word's definition in the German edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema5"
+          "$ref": "#/$defs/__schema4"
         },
         "eo": {
           "description": "The word's definition in the Esperanto edition of Toki Pona: The Language of Good",
-          "$ref": "#/$defs/__schema5"
+          "$ref": "#/$defs/__schema4"
         }
       },
       "required": [
@@ -213,15 +213,16 @@
     },
     "glyph_ids": {
       "description": "The IDs of all sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
-      "$ref": "#/$defs/__schema3"
+      "$ref": "#/$defs/__schema2"
     },
     "primary_glyph_id": {
       "description": "The ID of the glyph most commonly used to represent this word in sitelen pona.",
-      "$ref": "#/$defs/__schema2"
+      "type": "string",
+      "minLength": 3
     },
     "synonym_glyph_ids": {
       "description": "A list of ids for sitelen pona glyphs which primarily represent another word, but may be used to represent this word.",
-      "$ref": "#/$defs/__schema3"
+      "$ref": "#/$defs/__schema2"
     },
     "translations": {
       "type": "object",
@@ -236,7 +237,7 @@
         },
         "definition": {
           "description": "Localized definition of this word.",
-          "$ref": "#/$defs/__schema5"
+          "$ref": "#/$defs/__schema4"
         }
       },
       "required": [
@@ -279,22 +280,18 @@
       "maximum": 100
     },
     "__schema2": {
-      "description": "The ID of an object related to this one.",
-      "$ref": "#/$defs/__schema0"
-    },
-    "__schema3": {
       "description": "The IDs of one or more objects related to this one.",
       "type": "array",
       "items": {
         "$ref": "#/$defs/__schema0"
       }
     },
-    "__schema4": {
+    "__schema3": {
       "description": "A URL pointing to some external resource.",
       "type": "string",
       "format": "uri"
     },
-    "__schema5": {
+    "__schema4": {
       "description": "Localized definition on the parent, such as a word or luka pona sign",
       "type": "string",
       "minLength": 1
