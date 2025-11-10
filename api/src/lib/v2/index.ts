@@ -300,10 +300,10 @@ export const Glyph = z
       etymology: Etymology.describe("Localized etymology of this glyph."),
       names: Names,
     }),
-  })
-  .refine(({ image, svg, usage_category }) =>
-    usage_category !== "sandbox" ? image && image.length > 0 && svg && svg.length > 0 : true,
-  );
+  });
+  // .refine(({ id, image, svg, usage_category }) =>
+  //   usage_category !== "sandbox" ? image && image.length > 0 && svg && svg.length > 0 : true,
+  // );
 
 export const Fingerspelling = z
   .object({
