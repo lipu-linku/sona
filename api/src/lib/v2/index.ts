@@ -8,7 +8,26 @@ const CAN_HAVE_KU_DATA = ["pu", "ku suli", "ku lili"];
 // words in pu but without dictionary entries
 const NO_PU_VERBATIM = ["ali"];
 // words in ku but without entries in https://tokipona.org/nimi_pi_pu_ala.txt
-const NO_KU_DATA = ["wasoweli", "kulijo", "li", "e", "ku", "su"];
+const NO_KU_DATA = [
+  "e",
+  "ku",
+  "kulijo",
+  "li",
+  "su",
+  "wasoweli",
+  // in sandbox
+  "ju",
+  "kalamARR",
+  "lu",
+  "neja",
+  "nu",
+  "polinpin",
+  "suke",
+  "toma",
+  "tuli",
+  "u",
+  "umesu",
+];
 
 const Id = z
   .string()
@@ -253,57 +272,54 @@ export const Word = z
     CAN_HAVE_KU_DATA.includes(book) && !NO_KU_DATA.includes(id) ? ku_data !== undefined : true,
   );
 
-export const Glyph = z
-  .object({
-    id: Id.describe(
-      "A unique identifier for the glyph. Named after its primary word and numbered in order of coining or attestation.",
-    ), // word + dash + number
-    word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
-    word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
-    usage_category: UsageCategory.describe(
-      "The glyph's usage category, derived from the data of the annual Linku glyph survey.",
+export const Glyph = z.object({
+  id: Id.describe(
+    "A unique identifier for the glyph. Named after its primary word and numbered in order of coining or attestation.",
+  ), // word + dash + number
+  word: z.string().min(1).describe("The toki pona word which is written with this glyph."),
+  word_id: Id.describe("The Linku id of the toki pona word this glyph writes."),
+  usage_category: UsageCategory.describe(
+    "The glyph's usage category, derived from the data of the annual Linku glyph survey.",
+  ),
+  // teachability: Teachability,
+  author: Authors.describe("The name or names of those involved in creating this glyph."),
+  author_source: Source.optional().describe("The source or origin of this glyph, often a URL."),
+  creation_date: OptionalDate.describe("When this glyph was created, to precision known"),
+  see_also: SeeAlso.describe("A list of related glyphs by ID"),
+  primary: z
+    .boolean()
+    .describe("Whether this glyph is the main glyph used to write the toki pona word in `word`"),
+  parent_id: Ref.optional().describe(
+    "The primary glyph which this glyph is considered to share its form with.",
+  ),
+  deprecated: Deprecated.describe("Whether this glyph is considered deprecated by its author(s)."),
+  // NOTE: see refinements on image, svg
+  image: Resource.optional().describe("A URL to an image of the sitelen pona glyph."),
+  svg: Resource.optional().describe("A URL to an SVG of the sitelen pona glyph."),
+  ligature: Ligature.optional().describe(
+    "The specific numerical ligature used to render this sitelen pona glyph.",
+  ),
+  alias_ligatures: Ligatures.describe(
+    "All non-numerical ligature used to render this sitelen pona glyph.",
+  ),
+  ucsur: UcsurCodepoint.describe(
+    "The UCSUR codepoint used to render this specific sitelen pona glyph.",
+  ),
+  // unicode: UnicodeCodepoint,
+  usage: Usage.describe(
+    "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey.",
+  ),
+  translations: z.object({
+    commentary: Commentary.describe(
+      "Localized commentary on this glyph, such as history, clarifications, or trivia.",
     ),
-    // teachability: Teachability,
-    author: Authors.describe("The name or names of those involved in creating this glyph."),
-    author_source: Source.optional().describe("The source or origin of this glyph, often a URL."),
-    creation_date: OptionalDate.describe("When this glyph was created, to precision known"),
-    see_also: SeeAlso.describe("A list of related glyphs by ID"),
-    primary: z
-      .boolean()
-      .describe("Whether this glyph is the main glyph used to write the toki pona word in `word`"),
-    parent_id: Ref.optional().describe(
-      "The primary glyph which this glyph is considered to share its form with.",
-    ),
-    deprecated: Deprecated.describe(
-      "Whether this glyph is considered deprecated by its author(s).",
-    ),
-    // NOTE: see refinements on image, svg
-    image: Resource.optional().describe("A URL to an image of the sitelen pona glyph."),
-    svg: Resource.optional().describe("A URL to an SVG of the sitelen pona glyph."),
-    ligature: Ligature.optional().describe(
-      "The specific numerical ligature used to render this sitelen pona glyph.",
-    ),
-    alias_ligatures: Ligatures.describe(
-      "All non-numerical ligature used to render this sitelen pona glyph.",
-    ),
-    ucsur: UcsurCodepoint.describe(
-      "The UCSUR codepoint used to render this specific sitelen pona glyph.",
-    ),
-    // unicode: UnicodeCodepoint,
-    usage: Usage.describe(
-      "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey.",
-    ),
-    translations: z.object({
-      commentary: Commentary.describe(
-        "Localized commentary on this glyph, such as history, clarifications, or trivia.",
-      ),
-      etymology: Etymology.describe("Localized etymology of this glyph."),
-      names: Names,
-    }),
-  });
-  // .refine(({ id, image, svg, usage_category }) =>
-  //   usage_category !== "sandbox" ? image && image.length > 0 && svg && svg.length > 0 : true,
-  // );
+    etymology: Etymology.describe("Localized etymology of this glyph."),
+    names: Names,
+  }),
+});
+// .refine(({ id, image, svg, usage_category }) =>
+//   usage_category !== "sandbox" ? image && image.length > 0 && svg && svg.length > 0 : true,
+// );
 
 export const Fingerspelling = z
   .object({
