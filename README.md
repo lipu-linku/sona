@@ -6,7 +6,7 @@
   </a>
 </div>
 
-## How to Develop?
+## How to Contribute?
 
 but steps for everyone, including pre-reqs of validation which will only produce changes if the inputs are changed, and will have static outputs otherwise
 
@@ -35,49 +35,36 @@ and then helpers:
 - New endpoint `/v2/glyphs` which serves sitelen pona glyph metadata
 - New endpoint `/v2/sandbox/glyphs` which serves sitelen pona sandbox glyph
   metadata
+- New endpoint `/v2/sandbox/words` which serves toki pona word metadata, previously `/v1/sandbox`
 - Languages may only be served one at a time via a single `lang` URL parameter
 
-### /v1/words -> /v2/words
+### /v1/words -> /v2/words and /v1/sandbox -> /v2/sandbox/words
 
 - Translation strings are now under `translations` -> `[field]` rather than
   `translations` -> `[langcode]` -> `[field]`
-- Key `translations` contains `definition`, `etymology`, `commentary`
-- Root key `etymology` and translation key `etymology` merged into single
-  translatable field under `translations`
-- New key `glyph_ids` which refers to all glyphs in Linku that primarily write
+  - Key `translations` contains `definition`, `etymology`, `commentary`
+  - Key `sp_etymology` moved to corresponding sitelen pona glyph
+  - Root key `etymology` and translation key `etymology` merged into single
+    translatable field `etymlogy` under `translations`
+- Key `author_verbatim_source` renamed `author_source`
+- New key `glyph_ids` which refers to all glyphs in Linku that may represent
   this word
 - New key `primary_glyph_id` which refers to the glyph in Linku most used to write
   this word, such as `akesi-2` for `akesi`
-- New key `synonym_glyph_ids` which refers to any glyphs in Linku that
-  secondarily write this word, such as `lukin-1` for `oko`
 
 - Referential fields such as `see_also` can no longer refer to sandbox data
 
-### /v1/sandbox -> /v2/sandbox/words
-
-- "words" added to endpoint explicitly because there are now two sandbox data
-  types
-- All the same changes as in prior section
-
-### /v2/glyphs
+### /v2/glyphs and /v2/sandbox/glyphs
 
 - Key `word` refers to the latin script word this glyph writes
 - Key `word_id` refers to a corresponding word in Linku by its id, which is
   often the same as `word` anyway
-- Key `usage_category` functions as in `/v1/words` and `/v2/words` but is
-  provisional until a glyph survey is performed
+- Key `usage_category` functions as in `/v1/words` and `/v2/words`
 - Key `primary` indicates whether a glyph is primarily used to write its word;
   must match that word's `primary_glyph_id` field
 - Key `deprecated` indicates whether a glyph is considered deprecated by its creator
-- Key `usage` functions as in `/v1/words` and `/v2/words` but has no data until
-  a glyph survey is performed
+- Key `usage` functions as in `/v1/words` and `/v2/words`
 - Key `translations` contains `etymology`, `commentary`, and an array `names`
-
-### /v2/sandbox/glyphs
-
-- "glyphs" added to endpoint explicitly because there are now two sandbox data
-  types
-- All the same info as in prior section
 
 ## Changes in repo from v1 to v2
 
@@ -86,7 +73,8 @@ and then helpers:
 - `api/raw` is now split into `v1` and `v2`, which have the respective packaged
   data from Linku taken from `words/`, `luka_pona/`, `fonts/`, `languages/`, and `glyphs/` for `v2`.
 - `sandbox` is now nested as `sandbox/words` and `sandbox/glyphs`
-- `languages` is now split among all languages rather than having a single file
+- `languages` is now split among all languages rather than having a single file,
+for parity with other types
 
 ### Types
 
