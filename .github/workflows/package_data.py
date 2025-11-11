@@ -1,6 +1,5 @@
 import os
 import sys
-import tomllib
 from collections import defaultdict
 from pathlib import Path
 
@@ -86,7 +85,7 @@ def main():
         output = metadata["output"]
         typ = metadata["type"]
         packager = PACKAGE_MAP[typ]
-        packager(f"api/raw/{CURRENT_API_VERSION}/", input, output)
+        packager(f"api/src/raw/{CURRENT_API_VERSION}/", input, output)
 
     print("Done!")
 

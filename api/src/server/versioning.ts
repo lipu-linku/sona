@@ -6,8 +6,13 @@ import { config as v1config } from "./v1/index";
 import { config as v2config } from "./v2/index";
 import { mergeToKey, joinPath as join } from "./utils";
 
-export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
 export type ApiVersion = "v1" | "v2";
+
+const IMPORT_ROOT = "/src/raw/";
+const DATA = import.meta.glob<object>("@raw/**/*.json", {
+  import: "default",
+  eager: true,
+});
 
 export type Versions<V extends Record<ApiVersion, Record<string, EndpointConfig>>> = {
   [version in ApiVersion]: ApiConfig<V[version]>;
@@ -49,28 +54,45 @@ export const apps = {
   v2: apiV2,
 } as const satisfies Apps;
 
+const assertImport = async (
+  imports: Record<string, object>,
+  file: any | undefined,
+  path: string,
+): Promise<void> => {
+  if (!file) {
+    throw new Error(`Missing file: ${path}. Available: [${Object.keys(imports).slice(0, 10)}]`);
+  }
+  if (typeof file !== "object") {
+    console.error(`Unexpected file type for ${path}:`, typeof file, file);
+  }
+};
+
 export const fetchFile = async <Endpoint extends EndpointConfig>(
   version: ApiVersion,
   config: Endpoint,
   langcode: string = "en",
 ): Promise<z.ZodSafeParseResult<z.output<Endpoint["schema"]>>> => {
-  const imports = import.meta.glob<object>(`../../raw/**/*.json`, {
-    import: "default",
-    eager: true,
-  });
   const { root = "/", filename, schema, translations = false } = config;
 
-  let path = join("../../raw", version, root, filename);
-  let file = imports[path]!;
+  let path = "/" + join(IMPORT_ROOT, version, root, filename);
+  let file = DATA[path]!;
+  await assertImport(DATA, file, path);
 
   // TODO: better way for caller to insert api specific behavior
   if (version === "v2" && translations === true) {
-    let translationPath = join("../../raw", version, root, "translations", langcode, filename);
-    let translationData = imports[translationPath]!;
-    file = mergeToKey(file, "translations", translationData);
+    let translationPath =
+      "/" + join(IMPORT_ROOT, version, root, "translations", langcode, filename);
+    let translationFile = DATA[translationPath]!;
+    await assertImport(DATA, translationFile, translationPath);
+    file = mergeToKey(file, "translations", translationFile);
+  }
+
+  const parsed = await schema.safeParseAsync(file);
+  if (!parsed.success) {
+    throw new Error(`Invalid input in ${filename}: ${parsed.error.message}`);
   }
 
   // TODO: I cannot figure out how to make this type safe
   // @ts-expect-error
-  return await schema.safeParseAsync(file); // TODO: type of file is unknown?
+  return parsed;
 };

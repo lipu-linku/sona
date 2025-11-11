@@ -38,7 +38,7 @@ get_schema() {
 }
 
 while IFS= read -r -d '' file; do
-	relative="${file#./raw/v2/}"
+	relative="${file#./src/raw/v2/}"
 	schema="$(get_schema "$relative")"
 
 	if [[ -z "$schema" ]]; then
@@ -49,4 +49,4 @@ while IFS= read -r -d '' file; do
   # due to a bug in ajv-cli, you must specify the spec for draft2020
   # and, due to their badly chosen default and that they do not inspect the given schema, you must turn off strict
 	npx ajv-cli -s "./generated/v2/$schema" -c ajv-formats --spec=draft2020 --all-errors --errors=text --strict=false -d "$file"
-done < <(find ./raw/v2 -type d -name translations -prune -o -type f -name '*.json' -print0)
+done < <(find ./src/raw/v2 -type d -name translations -prune -o -type f -name '*.json' -print0)
