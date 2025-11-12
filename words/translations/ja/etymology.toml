@@ -215,11 +215,11 @@ definition = "coolio"
 language = "英語"
 
 [[kulupu]]
-definition = "group"
+definition = "グループ"
 language = "トンガ語"
 
 [[kulupu]]
-definition = "group"
+definition = "グループ"
 language = "英語"
 
 [[kute]]
@@ -375,19 +375,19 @@ definition = "earth, land"
 language = "フィンランド語"
 
 [[majuna]]
-definition = "old (not young)"
+definition = "老いた (若い人ではない)"
 language = "エスペラント語"
 
 [[majuna]]
-definition = "bad"
+definition = "悪い"
 language = "ラテン語"
 
 [[majuna]]
-definition = "young"
+definition = "若い"
 language = "ドイツ語"
 
 [[majuna]]
-definition = "young"
+definition = "若い"
 language = "フランス語"
 
 [[mama]]
@@ -463,11 +463,11 @@ definition = "my ass (vulgar)"
 language = "アカディ・フランス語"
 
 [[monsuta]]
-definition = "monster"
+definition = "モンスター"
 language = "日本語"
 
 [[monsuta]]
-definition = "monster"
+definition = "モンスター"
 language = "英語"
 
 [[mu]]
@@ -477,7 +477,7 @@ language = "オノマトペ"
 language = "a priori"
 
 [[mun]]
-definition = "moon"
+definition = "月"
 language = "英語"
 
 [[musi]]
@@ -533,7 +533,7 @@ language = "広東語"
 
 [[ni]]
 definition = "(continuation of a state/action)"
-language = "Tai"
+language = "タイ語"
 
 [[nimi]]
 definition = "name"
@@ -544,7 +544,7 @@ definition = "new word"
 language = "トキポナ"
 
 [[nja]]
-definition = "meow (onomatopoeia)"
+definition = "猫の鳴き声 (オノマトペ)"
 language = "日本語"
 
 [[noka]]
@@ -580,7 +580,7 @@ definition = "she"
 language = "セルビア・クロアチア語"
 
 [[open]]
-definition = "open"
+definition = "開く"
 language = "英語"
 
 [[owe]]
@@ -696,7 +696,7 @@ definition = "box"
 language = "英語"
 
 [[pona]]
-definition = "good"
+definition = "良い"
 language = "エスペラント語"
 
 [[powe]]
@@ -712,23 +712,23 @@ definition = "book"
 language = "英語"
 
 [[puwa]]
-definition = "fluffy things (onomatopoeia)"
+definition = "ふわふわのもの（オノマトペ）"
 language = "日本語"
 
 [[sama]]
-definition = "same"
+definition = "同じ"
 language = "フィンランド語"
 
 [[sama]]
-definition = "same, alike"
+definition = "同じ、似ている"
 language = "ゲルマン祖語"
 
 [[sama]]
-definition = "same"
+definition = "同じ"
 language = "エスペラント語"
 
 [[sama]]
-definition = "same"
+definition = "同じ"
 language = "英語"
 
 [[san]]
@@ -811,7 +811,7 @@ definition = "big, large, great"
 language = "フィンランド語"
 
 [[suno]]
-definition = "sun"
+definition = "太陽"
 language = "エスペラント語"
 
 [[supa]]
@@ -839,7 +839,7 @@ definition = "sweet"
 language = "英語"
 
 [[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoeia)"
+definition = "二つの磁石が互いにぶつかる音（オノマトペ）"
 language = "韓国語"
 
 [[tan]]
@@ -871,11 +871,11 @@ definition = "(some) water"
 language = "アカディ・フランス語"
 
 [[tenpo]]
-definition = "time"
+definition = "時間"
 language = "エスペラント語"
 
 [[tenpo]]
-definition = "time"
+definition = "時間"
 language = "ラテン語"
 
 [[to]]
@@ -883,11 +883,11 @@ definition = "(quotative)"
 language = "日本語"
 
 [[toki]]
-definition = "talk"
+definition = "話す"
 language = "トク・ピシン"
 
 [[toki]]
-definition = "talk"
+definition = "話す"
 language = "英語"
 
 [[tomo]]
@@ -911,11 +911,11 @@ definition = "comrade (same will/purpose), LGBT+"
 language = "北京語"
 
 [[tu]]
-definition = "two"
+definition = "二"
 language = "英語"
 
 [[tu]]
-definition = "two"
+definition = "二"
 language = "エスペラント語"
 
 [[unpa]]
@@ -945,7 +945,7 @@ definition = "white"
 language = "フィンランド語"
 
 [[wan]]
-definition = "one"
+definition = "一"
 language = "英語"
 
 [[waso]]
