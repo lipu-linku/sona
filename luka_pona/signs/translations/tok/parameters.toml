@@ -111,7 +111,7 @@ movement = "luka li tawa anpa"
 orientation = "palisa luka li lon sewi"
 
 [JELO]
-handshape = "lili"
+handshape = "F"
 movement = "luka li lon poka lawa"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "tu"
 placement = "luka li lon oko"
 
 [KIKI]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa sewi"
 orientation = "sinpin luka li lon sewi"
 
@@ -187,7 +187,7 @@ handshape = "telo"
 movement = "luka li tawa wawa"
 
 [KULE]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa sike sewi"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "supa"
 movement = "luka li lon poka lawa"
 
 [LASO]
-handshape = "lili"
+handshape = "F"
 placement = "luka li lon luka"
 
 [LAWA]
@@ -247,7 +247,7 @@ movement = "luka li tawa anpa"
 placement = "luka li lon nena pi poka sijelo"
 
 [LETE]
-handshape = "lili"
+handshape = "F"
 placement = "luka li lon luka"
 
 [LILI-TU]
@@ -259,7 +259,7 @@ handshape = "tu"
 orientation = "luka li tawa anpa"
 
 [LILI-PIPI]
-handshape = "lili"
+handshape = "F"
 orientation = "sinpin luka li lon weka"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "supa"
 orientation = "luka li tawa anpa"
 
 [LINJA-1]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa poka"
 
 [LINJA-2]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa poka"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "supa"
 placement = "luka li lon luka"
 
 [LOJE]
-handshape = "lili"
+handshape = "F"
 orientation = "sinpin luka li lon poka"
 placement = "luka li lon uta"
 
@@ -396,7 +396,7 @@ handshape = "nena"
 placement = "luka li lon uta"
 
 [MUN]
-handshape = "lili"
+handshape = "sike"
 placement = "luka li lon poka lawa"
 
 [MUSI]
@@ -493,15 +493,15 @@ luka li tawa insa,
 luka li tawa poka,"""
 
 [PI]
-handshape = "lili"
+handshape = "F"
 movement = "o tawa sewi lili e luka"
 
 [PILIN]
-handshape = "lili"
+handshape = "F"
 placement = "luka li lon sijelo"
 
 [PIMEJA]
-handshape = "lili"
+handshape = "F"
 placement = "luka li lon nena pi poka sijelo"
 
 [PINI-1]
@@ -513,7 +513,7 @@ handshape = "supa"
 movement = "o ante e sinpin luka tawa anpa"
 
 [PIPI]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa wawa"
 
 [POKA]
@@ -626,7 +626,7 @@ handshape = "supa"
 orientation = "sinpin luka li lon weka"
 
 [SITELEN]
-handshape = "lili"
+handshape = "F"
 movement = "luka li tawa sike sewi"
 
 [SOKO]
@@ -744,7 +744,7 @@ luka li tawa insa,
 luka li tawa poka,"""
 
 [WALO]
-handshape = "lili"
+handshape = "F"
 placement = "luka li lon oko"
 
 [WAN]
