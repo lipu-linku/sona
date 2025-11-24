@@ -32,6 +32,7 @@ ligatures = ["kiki"]
 2022-08 = 21
 2023-09 = 29
 2024-09 = 21
+2025-09 = 18
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kiki"

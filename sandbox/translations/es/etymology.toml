@@ -150,6 +150,10 @@ language = "cantonés"
 definition = "yay"
 language = "inglés"
 
+[[jonke]]
+definition = "hjönk"
+language = "onomatopeya"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "inglés"
 definition = "thin shelled"
 language = "latín"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "orange"
 language = "español"
@@ -508,6 +515,10 @@ language = "inglés"
 [[pa]]
 definition = "bruh"
 language = "inglés"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

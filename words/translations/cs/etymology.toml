@@ -112,10 +112,6 @@ language = "Angličtina"
 definition = "mít"
 language = "Mandarínština"
 
-[[jonke]]
-definition = "hjönk"
-language = "onomatopoie"
-
 [[kala]]
 definition = "ryba"
 language = "Finština"
@@ -473,9 +469,6 @@ language = "Angličtina"
 [[mu]]
 language = "onomatopoie"
 
-[[mulapisu]]
-language = "a priori"
-
 [[mun]]
 definition = "měsíc"
 language = "Angličtina"
@@ -598,10 +591,6 @@ language = "Angličtina"
 [[pake]]
 definition = "block"
 language = "Angličtina"
-
-[[pakola]]
-definition = "rozbitý, poškozený, ublížený, zničený"
-language = "toki pona"
 
 [[pali]]
 definition = "dělat, vyrábět"

@@ -25,6 +25,7 @@ ligatures = ["eliki"]
 [usage]
 2023-09 = 3
 2024-09 = 4
+2025-09 = 4
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/eliki"

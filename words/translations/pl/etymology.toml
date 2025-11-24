@@ -112,10 +112,6 @@ language = "angielski"
 definition = "mieć"
 language = "mandaryński"
 
-[[jonke]]
-definition = "gęgot"
-language = "onomatopeja"
-
 [[kala]]
 definition = "ryba"
 language = "fiński"
@@ -473,9 +469,6 @@ language = "angielski"
 [[mu]]
 language = "onomatopeja"
 
-[[mulapisu]]
-language = "a priori"
-
 [[mun]]
 definition = "księżyc"
 language = "angielski"
@@ -598,10 +591,6 @@ language = "angielski"
 [[pake]]
 definition = "blokować"
 language = "angielski"
-
-[[pakola]]
-definition = "zniszczony, uszkodzony"
-language = "toki pona"
 
 [[pali]]
 definition = "robić"

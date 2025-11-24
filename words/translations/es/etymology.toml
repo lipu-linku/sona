@@ -112,10 +112,6 @@ language = "inglés"
 definition = "have"
 language = "mandarín"
 
-[[jonke]]
-definition = "hjönk"
-language = "onomatopeya"
-
 [[kala]]
 definition = "fish"
 language = "finés"
@@ -473,9 +469,6 @@ language = "inglés"
 [[mu]]
 language = "onomatopeya"
 
-[[mulapisu]]
-language = "a priori"
-
 [[mun]]
 definition = "moon"
 language = "inglés"
@@ -598,10 +591,6 @@ language = "inglés"
 [[pake]]
 definition = "block"
 language = "inglés"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "toki pona"
 
 [[pali]]
 definition = "do, make"

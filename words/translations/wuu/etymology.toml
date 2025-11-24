@@ -112,10 +112,6 @@ language = "英文"
 definition = "有"
 language = "北語"
 
-[[jonke]]
-definition = "hjönk"
-language = "擬聲詞"
-
 [[kala]]
 definition = "魚"
 language = "芬蘭語"
@@ -473,9 +469,6 @@ language = "英文"
 [[mu]]
 language = "擬聲詞"
 
-[[mulapisu]]
-language = "a priori"
-
 [[mun]]
 definition = "月光、月亮"
 language = "英文"
@@ -598,10 +591,6 @@ language = "英文"
 [[pake]]
 definition = "block"
 language = "英文"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "toki pona"
 
 [[pali]]
 definition = "做"

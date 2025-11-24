@@ -150,6 +150,10 @@ language = "toki Kantun"
 definition = "yay"
 language = "toki Inli"
 
+[[jonke]]
+definition = "hjönk"
+language = "mu"
+
 [[ju]]
 language = "nimi ni li kama ala tan toki ante"
 
@@ -427,6 +431,9 @@ language = "toki Inli"
 definition = "thin shelled"
 language = "toki Lasina"
 
+[[mulapisu]]
+language = "nimi ni li kama ala tan toki ante"
+
 [[nalanja]]
 definition = "orange"
 language = "toki Epanja"
@@ -508,6 +515,10 @@ language = "toki Inli"
 [[pa]]
 definition = "bruh"
 language = "toki Inli"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

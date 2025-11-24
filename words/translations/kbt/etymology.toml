@@ -112,10 +112,6 @@ language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)
 definition = "have"
 language = "lab(b)​lik(f)​pav(f)​mal(p)​fof(b)​bot(b)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)vlim(p)​ga(f)​vlim(p)​ga(f) seb(t)pof(p)pas(f)pis(p)ga(f)"
 
-[[jonke]]
-definition = "hjönk"
-language = "fef(b)​sel(f)​fi(f)​sil(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​e(f)​ash(f)​tin(f)​vlim(p)​ga(f)"
-
 [[kala]]
 definition = "fish"
 language = "sul(b)​rad(b)​sib(f)​fuf(t)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)​vlim(p)​ga(f)​vlim(p)​ga(f)"
@@ -473,9 +469,6 @@ language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)
 [[mu]]
 language = "fef(b)​sel(f)​fi(f)​sil(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​e(f)​ash(f)​tin(f)​vlim(p)​ga(f)"
 
-[[mulapisu]]
-language = "ges(b)suw(t)boc(t)ceg(t)bel(p)-puf(b)fuv(f)pesh(p)fup(b)ga(f)"
-
 [[mun]]
 definition = "moon"
 language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)vlim(p)​ga(f)​vlim(p)​ga(f)"
@@ -598,10 +591,6 @@ language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)
 [[pake]]
 definition = "block"
 language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)vlim(p)​ga(f)​vlim(p)​ga(f)"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "kay(f)​to(p)ki(p)po(p)na(p)san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​ngag(t)​vlim(p)​kay(f)​sna(f)​yup(f)​a(f)"
 
 [[pali]]
 definition = "do, make"

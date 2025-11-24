@@ -30,6 +30,7 @@ ligatures = ["wasoweli"]
 2022-08 = 3
 2023-09 = 6
 2024-09 = 7
+2025-09 = 7
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wasoweli"
