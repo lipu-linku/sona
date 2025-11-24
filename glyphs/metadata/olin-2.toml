@@ -11,10 +11,9 @@ deprecated = false
 image = "https://drive.google.com/open?id=1HnzC6YM_cZLG-NjAClEAvPirg33QA_nB"
 # svg = ""
 ligature = "olin02"
-ucsur = "U+F1945"
 alias_ligatures = []
 # teachability = 4
-parent_id = "olin-1"
+parent_id = "olin-1"   # split hearts
 see_also = ["pilin-1"]
 
 [usage]

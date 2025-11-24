@@ -14,6 +14,7 @@ ligature = "akesi01"
 ucsur = "U+F1901"
 alias_ligatures = []
 # teachability = 4
+parent_id = "akesi-2"
 see_also = []
 
 [usage]

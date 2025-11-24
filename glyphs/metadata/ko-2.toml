@@ -1,25 +1,25 @@
 #:schema ../../api/generated/v2/glyph.json
-id = "ko-1"
+id = "ko-2"
 word = "ko"
 word_id = "ko"
-usage_category = "core"
-author_source = "lipu pu"
-author = ["jan Sonja"]
-creation_date = "2014-05-25"
-primary = true
+usage_category = "common"
+author_source = "https://forums.tokipona.org/viewtopic.php?p=15452#p15452"
+author = ["jan Same"]
+creation_date = "2016-12-03"
+primary = false
 deprecated = false
-# TODO: replace with sonja's ko
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ko.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ko.svg"
 ligature = "ko01"
 ucsur = "U+F191C"
 alias_ligatures = []
-# teachability = 1
+# teachability = 4
+parent_id = "ko-1" # blobby ko
 see_also = []
 
 [usage]
 
 [translations]
 commentary = ""
-etymology = "pictogram of splashed goo"
-names = ["pu ko", "blob ko", "blobby ko"]
+etymology = ""
+names = ["flower ko"]
