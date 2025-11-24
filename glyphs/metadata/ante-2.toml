@@ -10,7 +10,7 @@ primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1cwicxGTLeayf-8tM-UhKtANKsug_uP1R"
 # svg = ""
-ligature = "ante#2"
+ligature = "ante02"
 ucsur = "U+F1906"
 alias_ligatures = []
 # teachability = 4

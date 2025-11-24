@@ -10,7 +10,7 @@ primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1u1RBCJ-eDbv77sNTfSk1ZcJCbuh8pS4G"
 # svg = ""
-ligature = "san#1"
+ligature = "san01"
 alias_ligatures = []
 # teachability = 4
 see_also = ["wan-1", "mute-1"]
