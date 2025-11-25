@@ -65,11 +65,16 @@ def write_json(path: Path, data):
 
 def write_toml(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    raw_data = tomlkit.dumps(
-        data,
-        sort_keys=True,
-    )
-    path.write_text(raw_data)
+
+    sorted_items = [(key, data[key]) for key in sorted(data.keys())]
+    data.clear()
+    for key, value in sorted_items:
+        data.add(key, value)
+
+    raw = tomlkit.dumps(data)
+    if raw.startswith("\n"):
+        raw = raw.lstrip("\n")
+    path.write_text(raw, encoding="utf-8")
 
 
 def get_unbound_param(input: str, output: str) -> str:
