@@ -1,19 +1,19 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "lan-1"
-word = "lan"
-word_id = "lan"
+id = "peto-1"
+word = "peto"
+word_id = "peto"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
-primary = false
+primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1v9VtoVNNd7FxilS-Fw5MX7TgwRP9zr3r"
+image = "https://drive.google.com/open?id=1pZpYXJJrMgBcdET_PilgUo0tz4Sh7Lb4"
 # svg = ""
-ligature = "lan1"
+ligature = "peto1"
 alias_ligatures = []
 # teachability = 4
-see_also = ["lon-1"]
+see_also = []
 
 [usage]
 

@@ -13,7 +13,7 @@ image = "https://drive.google.com/open?id=10bUE1gu-vJQ5zc841779RarjgtVKP0hj"
 ligature = "melome3"
 alias_ligatures = []
 # teachability = 4
-see_also = []
+see_also = ["mijomi-2"]
 
 [usage]
 

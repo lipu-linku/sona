@@ -1,23 +1,24 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "lan-1"
-word = "lan"
-word_id = "lan"
+id = "mun-2"
+word = "mun"
+word_id = "mun"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1v9VtoVNNd7FxilS-Fw5MX7TgwRP9zr3r"
+image = "https://drive.google.com/open?id=1P1a9xqb6gYAR5NFBqEKANnM3CN7aSONG"
 # svg = ""
-ligature = "lan1"
+ligature = "mun2"
+ucsur = "U+F193A"
 alias_ligatures = []
-# teachability = 4
-see_also = ["lon-1"]
+# teachability = 1
+see_also = []
 
 [usage]
 
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["star mun"]

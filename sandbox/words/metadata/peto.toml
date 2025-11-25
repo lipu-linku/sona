@@ -11,8 +11,8 @@ source_language = "toki pona"
 usage_category = "sandbox"
 word = "peto"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["peto-1"]
+primary_glyph_id = "peto-1"
 # teachability = 4
 
 [[audio]]
