@@ -13,11 +13,11 @@ image = "https://drive.google.com/open?id=116R-Gvt1ZO2bCWNBvnM5xlNL4adJZJu6"
 ligature = "su01"
 alias_ligatures = []
 # teachability = 3
-see_also = ["pu-1", "ku-1", "lipu-1"]
+see_also = ["pu-1", "ku-1", "su-2", "lipu-1"]
 
 [usage]
 
 [translations]
 commentary = ""
 etymology = "pictogram of the front cover of The Wizard of Oz illustrated story book, depicting the yellow brick road from the story"
-names = ["su nanpa wan"]
+names = ["su nanpa wan", "su nasin"]

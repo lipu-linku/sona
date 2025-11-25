@@ -1,10 +1,12 @@
 #:schema ../../api/generated/v2/word.json
 id = "yupekosi"
-author_verbatim = ""
-author_source = ""
+author_verbatim = """another new word is 'yupekosi'
+yupekosi means "to behave like George Lucas and revise your old creative works and actually make them worse"
+nobody knows how to pronounce the y"""
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/640774839287808022"
 book = "ku lili"
 coined_era = "post-pu"
-creation_date = "2019"
+creation_date = "2019-11-03"
 author = ["jan Sonja"]
 see_also = []
 source_language = "a priori"

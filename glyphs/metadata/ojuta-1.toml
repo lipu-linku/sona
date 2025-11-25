@@ -3,9 +3,9 @@ id = "ojuta-1"
 word = "ojuta"
 word_id = "ojuta"
 usage_category = "obscure"
-author_source = ""
-author = []
-creation_date = ""
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commit/6f11eb55061ad7e1a5b9cb86e509a364986d04d9#diff-b57de9fecc0c701fb5ac16746aca6d9fd289db687892e05e4a10ca28660d280e"
+author = ["jan Lepeka"]
+creation_date = "2022-09-04"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=13CBTiaRB2lhMNp0u_Sf_K3R8G5KMWdsB"
