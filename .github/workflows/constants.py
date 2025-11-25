@@ -1,8 +1,10 @@
+from pathlib import Path
 from typing import Callable, Final, Literal, NotRequired, TypedDict
 
 DATA_FOLDER: Final[str] = "metadata"
 TRANSLATIONS_FOLDER: Final[str] = "translations"
 CURRENT_API_VERSION = "v2"
+LANG_DIR = Path("languages/metadata")
 
 Packager = Callable[[str, str, str], None]
 

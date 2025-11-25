@@ -1,14 +1,22 @@
 import json
+import os
 import re
+import sys
+from collections import defaultdict
 from collections.abc import Iterator
 from pathlib import Path
 from typing import Any
 
 import tomlkit
+import tomlkit.exceptions
 from tomlkit import TOMLDocument
 
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
+
+from constants import DATA, LANG_DIR
+
 TOML_CACHE: dict[Path, TOMLDocument] = {}
-LANG_DIR = Path("languages/metadata")
 
 
 def load_languages() -> dict[str, Any]:
@@ -20,6 +28,23 @@ def load_languages() -> dict[str, Any]:
             assert lang_id == file.stem, f"Lang {file.name} has wrong lang_id {lang_id}"
             known_langs[lang_id] = data
     return known_langs
+
+
+def load_data():
+    data = dict()
+    for key, config in DATA.items():
+        input = config["input"]
+        output = config["output"]
+        typ = config["type"]
+        fetcher = FETCH_MAP[typ]
+        try:
+            data[key] = fetcher(input, output)
+        except tomlkit.exceptions.TOMLKitError as e:
+            print(f"TOMLKitError when packing {input} to {output} with {typ} formatter")
+            # print(f"... Schema: {config.get('schema')} ")
+            print(f"... {json.dumps(config, indent=2)}")
+            print(f"... {e} {e.__dict__}")
+    return data
 
 
 def glob_to_regex(glob_pattern: str) -> re.Pattern[str]:
@@ -38,12 +63,12 @@ def find_files(glob_pattern: str) -> Iterator[Path]:
     return Path().glob(glob_path)
 
 
-def cached_toml_read(file: Path):
+def cached_toml_read(file: Path, force: bool = False):
     # don't cached read if the file doesn't exist
     if not file.exists():
         return None
 
-    if file in TOML_CACHE:
+    if file in TOML_CACHE and not force:
         return TOML_CACHE[file]
     with open(file, "r", encoding="utf-8") as f:
         data = tomlkit.parse(f.read())
@@ -60,7 +85,7 @@ def write_json(path: Path, data):
         sort_keys=True,
         allow_nan=False,
     )
-    path.write_text(raw_data)
+    return path.write_text(raw_data)
 
 
 def write_toml(path: Path, data):
@@ -74,7 +99,7 @@ def write_toml(path: Path, data):
     raw = tomlkit.dumps(data)
     if raw.startswith("\n"):
         raw = raw.lstrip("\n")
-    path.write_text(raw, encoding="utf-8")
+    return path.write_text(raw, encoding="utf-8")
 
 
 def get_unbound_param(input: str, output: str) -> str:
@@ -135,3 +160,85 @@ def has_same_keys(d1: dict, d2: dict):
     d2keys = set(d2.keys())
 
     return d1keys == d2keys
+
+
+def remove_orphaned_keys(translation: dict, source: dict, path=""):
+    warnings = []
+    keys_to_remove = [key for key in translation if key not in source]
+
+    for key in keys_to_remove:
+        print(f"Key '{path + key}' in translation but not source; removing.")
+        del translation[key]
+
+    for key in list(translation.keys()):
+        if (
+            key in source
+            and isinstance(translation[key], dict)
+            and isinstance(source[key], dict)
+        ):
+            sub_warnings = remove_orphaned_keys(
+                translation[key], source[key], path + key + "."
+            )
+            warnings.extend(sub_warnings)
+
+    return warnings
+
+
+def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
+    key_param = get_unbound_param(input, output)
+    data = defaultdict(lambda: defaultdict(defaultdict))
+    for file in find_files(input):
+        if log:
+            print(file)
+
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Data file {file} was missing!")
+            continue
+        data[label] = local_data
+
+    return dict(data)
+
+
+def package_data(root: str, input: str, output: str):
+    data = fetch_data(input, output, log=True)
+    output_path = Path(root) / Path(output)
+    # no top level key, so just write the data
+    write_json(output_path, data)
+
+
+def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]:
+    key_param = get_unbound_param(input, output)  # should be id
+    data = defaultdict(lambda: defaultdict(defaultdict))
+    for file in find_files(input):
+        if log:
+            print(file)
+
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
+        group = next(iter(values.values()))  # type of locale str
+
+        # each translation file
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Locale file {file} was missing!")
+            continue
+
+        for object_id, locale_string in local_data.items():
+            data[group][object_id][label] = locale_string
+
+    return dict(data)
+
+
+def package_locales(root: str, input: str, output: str):
+    data = fetch_locales(input, output, log=True)
+    param = get_bound_param(input, output)
+    for group, local_data in data.items():
+        output_path = Path(root) / substitute_params(output, {param: group})
+        write_json(output_path, local_data)
+
+
+FETCH_MAP = {"data": fetch_data, "locales": fetch_locales}
+PACKAGE_MAP = {"data": package_data, "locales": package_locales}
