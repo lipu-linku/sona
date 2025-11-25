@@ -11,7 +11,7 @@ deprecated = false
 image = "https://drive.google.com/open?id=1S5U5CO6LAyPjOxesP3iecbp-2mJfF1hN"
 # svg = ""
 ligature = "te01"
-alias_ligatures = []
+alias_ligatures = ["「"]
 # teachability = 4
 see_also = []
 
