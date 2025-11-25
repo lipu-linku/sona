@@ -1,8 +1,8 @@
-#:schema ../../api/generated/v2/glyph.json
+#:schema ../../../api/generated/v2/glyph.json
 id = "mulapisu-1"
 word = "mulapisu"
 word_id = "mulapisu"
-usage_category = "obscure"
+usage_category = "sandbox"
 author_source = "https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562"
 author = ["jan Elemenopi"]
 creation_date = "2020-08-12"
@@ -10,7 +10,7 @@ primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1XN8ln6fnwsPWz6QGbbl-9JFT0snH4KYI"
 # svg = ""
-ligature = "mulapisu01"
+ligature = "mulapisu1"
 alias_ligatures = []
 # teachability = 4
 see_also = []

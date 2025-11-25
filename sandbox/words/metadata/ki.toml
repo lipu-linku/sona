@@ -1,16 +1,20 @@
 #:schema ../../../api/generated/v2/word.json
 id = "ki"
-author_verbatim = ""
-author_source = ""
+author_verbatim = """I'd nominate "ki"
+From qui
+mi pana e moku tawa jan ki wile moku
+Of course pi works just fine in that instance"""
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/702802215508639765"
 book = "none"
 coined_era = "post-pu"
-creation_date = "2020"
+creation_date = "2020-04-23"
 author = ["akesi kon Nalasuni", "jan Atenaja"]
 see_also = []
 source_language = "French"
 usage_category = "sandbox"
 word = "ki"
-deprecated = false
+deprecated = true
+# https://discord.com/channels/301377942062366741/912286596517220363/1065491847163678760
 glyph_ids = []
 # primary_glyph_id = ""
 # teachability = 4
@@ -27,6 +31,7 @@ ligatures = ["ki"]
 2022-08 = 2
 2023-09 = 2
 2024-09 = 1
+2025-09 = 1
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ki"

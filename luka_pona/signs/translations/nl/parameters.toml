@@ -250,14 +250,6 @@ placement = "geplaatst op schouder"
 handshape = "9"
 placement = "geplaatst op tegenovergestelde hand"
 
-[LILI-TU]
-handshape = "2"
-orientation = "beweging omlaag"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "beweging omlaag"
-
 [LILI-PIPI]
 handshape = "9"
 orientation = "de palm wijst naar buiten"
@@ -268,6 +260,14 @@ orientation = "beweging omlaag"
 
 [LILI-SUPA-2]
 handshape = "PlatteB"
+orientation = "beweging omlaag"
+
+[LILI-TU]
+handshape = "2"
+orientation = "beweging omlaag"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "beweging omlaag"
 
 [LINJA-1]

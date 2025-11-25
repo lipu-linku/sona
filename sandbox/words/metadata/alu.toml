@@ -28,6 +28,7 @@ ligatures = ["alu"]
 2022-08 = 3
 2023-09 = 3
 2024-09 = 4
+2025-09 = 3
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/alu"

@@ -30,6 +30,7 @@ ligatures = ["usawi"]
 2022-08 = 16
 2023-09 = 22
 2024-09 = 23
+2025-09 = 18
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/usawi"

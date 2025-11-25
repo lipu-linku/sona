@@ -1,6 +1,7 @@
 #:schema ../../../api/generated/v2/word.json
 id = "poni"
-author_verbatim = "pony"
+author_verbatim = """<:nimisin:743741432350769152> ***poni*** - *~a good word~* pony
+	← English *pony*"""
 author_source = "https://discord.com/channels/301377942062366741/599425762990358528/785585101638860800"
 book = "none"
 coined_era = "post-pu"
@@ -25,6 +26,7 @@ ligatures = ["poni"]
 [usage]
 2022-08 = 1
 2023-09 = 2
+2025-09 = 1
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/poni"

@@ -1,8 +1,8 @@
-#:schema ../../api/generated/v2/glyph.json
+#:schema ../../../api/generated/v2/glyph.json
 id = "jonke-1"
 word = "jonke"
 word_id = "jonke"
-usage_category = "obscure"
+usage_category = "sandbox"
 author_source = "https://discord.com/channels/301377942062366741/599425762990358528/8257343648222413522"
 author = ["unknown"]
 creation_date = "2021-03-28"
@@ -10,10 +10,10 @@ primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1uiIcQYMfMCoykduMy6-67YAuczfrQRNn"
 # svg = ""
-ligature = "jonke01"
+ligature = "jonke1"
 alias_ligatures = []
 # teachability = 4
-see_also = ["waso-1"]
+see_also = ["waso-1", "mu-2"]
 
 [usage]
 

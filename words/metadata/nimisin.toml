@@ -26,6 +26,7 @@ ligatures = ["nimisin"]
 2022-08 = 13
 2023-09 = 35
 2024-09 = 38
+2025-09 = 44
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nimisin"

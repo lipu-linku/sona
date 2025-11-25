@@ -12,7 +12,7 @@ usage_category = "sandbox"
 word = "Pingo"
 deprecated = false
 glyph_ids = ["Pingo-1"]
-primary_glyph_id = "Pingo1"
+primary_glyph_id = "Pingo-1"
 # teachability = 4
 
 [[audio]]
@@ -30,6 +30,7 @@ ligatures = ["Pingo"]
 2022-08 = 5
 2023-09 = 4
 2024-09 = 4
+2025-09 = 3
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Pingo"
