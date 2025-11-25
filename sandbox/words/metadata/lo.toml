@@ -12,8 +12,8 @@ source_language = "toki pona"
 usage_category = "sandbox"
 word = "lo"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["lo-1"]
+primary_glyph_id = "lo-1"
 # teachability = 4
 
 [[audio]]

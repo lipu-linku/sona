@@ -11,8 +11,8 @@ source_language = "multiple possibilities"
 usage_category = "sandbox"
 word = "kan"
 deprecated = true
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["kan-1"]
+primary_glyph_id = "kan-1"
 # teachability = 4
 
 [[audio]]

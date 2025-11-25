@@ -1,18 +1,16 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "tomo-2"
-word = "tomo"
-word_id = "tomo"
+id = "poni-1"
+word = "poni"
+word_id = "poni"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
-primary = false
+primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1PDPIr6gZPUV8PR91z_vmagU-YCiH5Ako"
+image = ""
 # svg = ""
-ligature = "tomo2"
-ucsur = "U+F196D"
-parent_id = "tomo-1"
+ligature = "poni1"
 alias_ligatures = []
 # teachability = 4
 see_also = []
@@ -22,4 +20,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = ["soffits tomo", "roof tomo"]
+names = []

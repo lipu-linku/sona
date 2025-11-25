@@ -12,8 +12,8 @@ usage_category = "sandbox"
 word = "ta"
 deprecated = false
 audio = []
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["ta-1"]
+primary_glyph_id = "ta-1"
 # teachability = 4
 
 [representations]

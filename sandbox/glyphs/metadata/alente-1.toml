@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "alente-1"
+word = "alente"
+word_id = "alente"
+usage_category = "sandbox"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commit/6f11eb55061ad7e1a5b9cb86e509a364986d04d9"
+author = ["jan Lepeka"]
+creation_date = "2022-09-04"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1YDyNN1er1F4yBY0UXJqA-tjWsZ4fgawE"
+# svg = ""
+ligature = "alente1"
+alias_ligatures = []
+# teachability = 4
+see_also = ["nimi-1", "pini-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

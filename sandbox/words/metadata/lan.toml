@@ -12,12 +12,12 @@ usage_category = "sandbox"
 word = "lan"
 deprecated = false
 audio = []
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["lan-1", "ka-1"]
+primary_glyph_id = "ka-1"
 # teachability = 4
 
 [representations]
-ligatures = ["lan", "lan2"]
+ligatures = ["lan", "ka"]
 
 [usage]
 

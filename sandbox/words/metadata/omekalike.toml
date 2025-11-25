@@ -11,8 +11,8 @@ source_language = "toki pona"
 usage_category = "sandbox"
 word = "omekalike"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["omekalike-1"]
+primary_glyph_id = "omekalike-1"
 # teachability = 4
 
 [[audio]]

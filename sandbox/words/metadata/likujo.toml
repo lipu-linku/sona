@@ -1,18 +1,21 @@
 #:schema ../../../api/generated/v2/word.json
 id = "likujo"
-author_verbatim = ""
-author_source = ""
+author_verbatim = """likujo
+- collection, assortment, menagery, arrangement, handfull, harvest
+- {contested} the number 7
+← French recueil "collection, ensemble, anthology""""
+author_source = "https://discord.com/channels/301377942062366741/301382587287339018/521480053197111302"
 book = "ku lili"
 coined_era = "post-pu"
-creation_date = "2018"
+creation_date = "2018-12-09"
 author = ["jan Kawa", "jan inwin"]
 see_also = ["kulupu", "alasa"]
 source_language = "Acadian French"
 usage_category = "sandbox"
 word = "likujo"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["likujo-1"]
+primary_glyph_id = "likujo-1"
 # teachability = 4
 
 [[audio]]
@@ -38,6 +41,6 @@ sitelen_emosi = "🧺"
 sona_pona = "https://sona.pona.la/wiki/likujo"
 
 [translations]
-commentary = ""
+commentary = "The word likujo was created privately and published later on."
 definition = "collection, assortment, menagerie, arrangement, handful, harvest; seven"
 etymology = "recueil: Acadian French, collection, ensemble, anthology"

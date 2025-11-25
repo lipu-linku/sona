@@ -12,8 +12,8 @@ source_language = "English"
 usage_category = "sandbox"
 word = "poni"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["poni-1"]
+primary_glyph_id = "poni-1"
 # teachability = 4
 
 [[audio]]

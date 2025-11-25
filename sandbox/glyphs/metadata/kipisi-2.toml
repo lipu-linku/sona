@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "kipisi-2"
+word = "kipisi"
+word_id = "kipisi"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/948448338662010910/951966419283742750/1296641580773539900"
+author = ["waso Keli"]
+creation_date = "2024-10-17"
+primary = false
+deprecated = false
+image = ""
+# svg = ""
+ligature = "kipisi2"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["scissors kipisi"]

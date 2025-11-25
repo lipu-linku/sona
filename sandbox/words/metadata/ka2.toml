@@ -4,7 +4,7 @@ author_verbatim = "ka means jan"
 author_source = "https://discord.com/channels/301377942062366741/599425762990358528/730888126985142282"
 book = "none"
 coined_era = "post-ku"
-creation_date = "2022"
+creation_date = "2020-07-09"
 author = ["jan Tumu"]
 see_also = ["jan", "lan", "konwe"]
 source_language = "tuki tiki"
@@ -12,12 +12,12 @@ usage_category = "sandbox"
 word = "ka"
 deprecated = false
 audio = []
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["ka-1"]
+primary_glyph_id = "ka-1"
 # teachability = 4
 
 [representations]
-ligatures = ["lan2"] # requested for ssk as ka
+ligatures = ["ka"] # requested for ssk as ka
 
 [usage]
 

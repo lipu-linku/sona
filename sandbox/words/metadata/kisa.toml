@@ -11,8 +11,8 @@ source_language = "Russian"
 usage_category = "sandbox"
 word = "kisa"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["kisa-1"]
+primary_glyph_id = "kisa-1"
 # teachability = 4
 
 [[audio]]

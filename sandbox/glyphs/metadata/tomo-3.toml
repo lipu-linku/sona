@@ -1,5 +1,5 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "tomo-2"
+id = "tomo-3"
 word = "tomo"
 word_id = "tomo"
 usage_category = "sandbox"
@@ -8,9 +8,9 @@ author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1PDPIr6gZPUV8PR91z_vmagU-YCiH5Ako"
+image = "https://drive.google.com/open?id=1LMRAkqGDonohwg6cMX1UcbCjhwNl8QM9"
 # svg = ""
-ligature = "tomo2"
+ligature = "tomo3"
 ucsur = "U+F196D"
 parent_id = "tomo-1"
 alias_ligatures = []
@@ -22,4 +22,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = ["soffits tomo", "roof tomo"]
+names = ["bar tomo", "closed tomo"]
