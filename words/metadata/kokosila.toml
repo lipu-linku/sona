@@ -1,17 +1,18 @@
 #:schema ../../api/generated/v2/word.json
 id = "kokosila"
-author_verbatim = ""
-author_source = ""
+author_verbatim = """aaa mi kokosila
+kokosila = to speak a non-Toki Pona language in an environment where Toki Pona is more appropriate    (any better definition?)"""
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/751256780020908183"
 book = "ku suli"
 coined_era = "post-pu"
-creation_date = "2020"
+creation_date = "2020-09-03"
 author = ["jan Sonja"]
 see_also = []
 source_language = "Esperanto"
 usage_category = "obscure"
 word = "kokosila"
 deprecated = false
-glyph_ids = ["kokosila-2", "kokosila-1"]
+glyph_ids = ["kokosila-2"]
 primary_glyph_id = "kokosila-2"
 # teachability = 4
 
