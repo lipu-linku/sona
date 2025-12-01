@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "nimi"
 id = "NIMI"
 is_two_handed = false
 new_gloss = "NIMI"
 old_gloss = "NIMI"
+old_id = "NIMI"
 
 [[etymology]]
 language = "a priori"
@@ -15,3 +16,9 @@ swu = "𝠀񂇂񆇡񌞑𝠃𝤥𝤝񌞑𝣴𝣵񂇂𝤈𝤆񆇡𝤛𝣻"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/nimi.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/nimi.mp4"
+
+[translations]
+icons = "tapping the eye to indicate identification"
+[translations.parameters]
+handshape = "FlatB"
+placement = "placed on eye"

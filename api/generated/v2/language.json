@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The language's code in Crowdin. Usually its 2 or 3 letter code.",
+      "type": "string",
+      "minLength": 2
+    },
+    "locale": {
+      "description": "The locale code corresponding to the language.",
+      "type": "string",
+      "minLength": 2
+    },
+    "direction": {
+      "description": "The direction of the language's script.",
+      "anyOf": [
+        {
+          "type": "string",
+          "const": "ltr"
+        },
+        {
+          "type": "string",
+          "const": "rtl"
+        }
+      ]
+    },
+    "name": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "description": "The name of the language in English.",
+          "type": "string"
+        },
+        "endonym": {
+          "description": "The name of the language in that language. Prefer if available.",
+          "type": "string"
+        },
+        "tok": {
+          "description": "The name of the language in Toki Pona.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "en",
+        "endonym"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "locale",
+    "direction",
+    "name"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "toki-1"
+word = "toki"
+word_id = "toki"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/toki.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/toki.svg"
+ligature = "toki01"
+ucsur = "U+F196C"
+alias_ligatures = []
+# teachability = 1
+see_also = ["ijo-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "emitters + ijo or a general circle"
+names = ["pu toki"]

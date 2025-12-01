@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "kapesi-2"
+word = "kapesi"
+word_id = "kapesi"
+usage_category = "sandbox"
+author_source = "https://www.reddit.com/r/tokipona/comments/ggi3eu/sitelen_pona_ideas_on_some_non_pu_words_more/"
+author = ["Da_Werido"]
+creation_date = "2020-05-09"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1lCXJjyXx1aA04GKi0HCJh0yBZz97g7cf"
+# svg = ""
+ligature = "kapesi2"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

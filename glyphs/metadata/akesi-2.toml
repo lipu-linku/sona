@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "akesi-2"
+word = "akesi"
+word_id = "akesi"
+usage_category = "core"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/874157268411748452"
+author = ["akesi kon Nalasuni"]
+creation_date = "2021-08-09"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1rwjvMRYa6UBrlGXfT4mmUX_x3JyYWliU"
+# svg = ""
+ligature = "akesi02"
+ucsur = "U+F1901"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "This glyph was created independently by many people. At the earliest, it appears in linja sike's first beta, but there it is not an independent glyph- it can only be accessed by stacking akesi with another glyph."
+etymology = ""
+names = ["two stroke akesi", "4 legged akesi", "4 leg akesi"]

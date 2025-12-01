@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sama-1"
+word = "sama"
+word_id = "sama"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sama.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sama.svg"
+ligature = "sama01"
+ucsur = "U+F1956"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "from equal sign (=). compare blissymbol “same”"
+names = ["pu sama"]

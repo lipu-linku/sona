@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "tona"
+author_verbatim = "poki tona"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/717883118052442193"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020"
+author = ["akesi kon Nalasuni"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "tona"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["tona"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = "This word was only coined to make the spoonerism \"poki tona\" have a meaning."
+definition = "toner"
+etymology = "toner: English, toner"

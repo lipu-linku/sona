@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lete-1"
+word = "lete"
+word_id = "lete"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/lete.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/lete.svg"
+ligature = "lete01"
+ucsur = "U+F1926"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a snowflake"
+names = ["pu lete"]

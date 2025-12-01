@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-5"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=15VMK7R1sVvKttoEjbL7tmzp_lhKZWHmR"
+# svg = ""
+ligature = "ni05"
+ucsur = "U+F1941"
+alias_ligatures = ["niv>", "ni>v", "nidownright"]
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "an arrow"
+names = ["down-right ni"]

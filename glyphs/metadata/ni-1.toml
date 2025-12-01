@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-1"
+word = "ni"
+word_id = "ni"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ni.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ni.svg"
+ligature = "ni01"
+ucsur = "U+F1941"
+alias_ligatures = ["niv", "nidown"]
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "an arrow"
+names = ["pu ni", "down ni"]

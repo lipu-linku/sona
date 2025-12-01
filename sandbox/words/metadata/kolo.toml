@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kolo"
+author_verbatim = ""
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/893576446872784927"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["soweli pi loje walo"]
+see_also = []
+source_language = "Swahili"
+usage_category = "sandbox"
+word = "kolo"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "pig"
+etymology = "guruwe: Swahili, pig; ingulube: Zulu, pig; ngulu: Kongo, pig; guarro, gorrino: Spanish, pig; gorogoro: Japanese, growl; grunt: English, grunt"

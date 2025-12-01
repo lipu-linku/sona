@@ -1,0 +1,33 @@
+#:schema ../../../api/generated/v2/word.json
+id = "lu1"
+author_verbatim = """if you really wanted to use alu you could shorten it to just lu
+and lu = prep marker"""
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/761523450786742283"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020-10-02"
+author = ["Theepicosity", "akesi kon Nalasuni"]
+see_also = ["lo", "ja"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "lu"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lu.mp3"
+
+[representations]
+ligatures = ["lo"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "Original form of lo."
+definition = "[pronunciation variant of lo]"
+etymology = "alu: toki pona, (indicate context for a prior sentence)"

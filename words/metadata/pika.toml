@@ -1,24 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "pika"
 author_verbatim = "MOD. electric, electronic, conductive, mashinical, online\nN. electricity, lightning, thunder, network\nV. struck by electric/lightning"
-author_verbatim_source = "https://www.reddit.com/r/tokipona/comments/mibo62/a_new_word_about_network_electric/"
+author_source = "https://www.reddit.com/r/tokipona/comments/mibo62/a_new_word_about_network_electric/"
 book = "none"
 coined_era = "post-pu"
-coined_year = "2021"
-creator = ["Kriskee_"]
+creation_date = "2021"
+author = ["Kriskee_"]
 see_also = ["linluwi", "ilo"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "pika"
 deprecated = false
+glyph_ids = ["pika-1"]
+primary_glyph_id = "pika-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pika.mp3"
-
-[[etymology]]
-alt = "Pikachū"
-word = "ピカチュウ"
 
 [representations]
 ligatures = ["pika"]
@@ -31,3 +30,8 @@ ligatures = ["pika"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pika"
+
+[translations]
+commentary = ""
+definition = "electric, electronic, conductive, mechanical, online; electricity, lightning, thunder, network"
+etymology = "ピカチュウ (Pikachū): Japanese, Pikachū, an electric Pokémon"

@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "linja telo Esi"
-name      = "linja telo Esi"
-filename  = "linja telo Esi.ttf"
-creator   = ["mu Esitense usawi"]
-license   = "OFL-1.1"
+#:schema ../../api/generated/v2/font.json
+id = "linja telo Esi"
+name = "linja telo Esi"
+filename = "linja telo Esi.ttf"
+author = ["mu Esitense usawi"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "logography"
 
 last_updated = "2025-01"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -20,7 +20,7 @@ features = [
   # "variable weight",
   # "name glyphs",
   # "character variants",
-  "all ku suli",                   # kokosila
+  "all ku suli", # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
@@ -45,5 +45,5 @@ style = "handwritten"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja%20telo%20Esi.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/linja-telo-Esi.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/linja-telo-Esi.html"

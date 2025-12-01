@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen pi jan Soja"
-creator = ["jan Soja"]
+author = ["jan Soja"]
 features = ["ASCII transcription"]
 filename = "sitelen-pi-jan-Soja.ttf"
 last_updated = "2023-01"

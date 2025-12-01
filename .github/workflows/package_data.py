@@ -1,92 +1,94 @@
-import json
-import tomllib
+import os
+import sys
+from collections import defaultdict
 from pathlib import Path
-from typing import Any, Callable, Final, Iterator, Optional
 
-DATA_FOLDER: Final[str] = "metadata"
-TRANSLATIONS_FOLDER: Final[str] = "translations"
+# this lets you import from files in the same dir
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(SCRIPT_DIR)
 
-
-# TODO: rename file in repo and crowdin later?
-# or fetch stem a more robust way
-def fetch_words_stem(path: Path, data: dict):
-    stem = path.stem
-    if stem == "definitions":
-        stem = "definition"
-    return stem
-
-
-# Value is a function that produces the parent key, if any
-DATA_TYPES: Final[dict[str, Callable[[Path, dict], Optional[str]]]] = {
-    "words": lambda path, data: fetch_words_stem(path, data),
-    "sandbox": lambda path, data: fetch_words_stem(path, data),
-    "luka_pona/signs": lambda path, data: path.stem,
-    "luka_pona/fingerspelling": lambda path, data: path.stem,
-    "fonts": lambda path, data: path.stem,
-    "languages": lambda path, data: None,
-}
+from constants import CURRENT_API_VERSION, DATA
+from utils import (
+    cached_toml_read,
+    find_files,
+    get_bound_param,
+    get_path_values,
+    get_unbound_param,
+    substitute_params,
+    write_json,
+)
 
 
-def extract_data(
-    result: dict[str, Any],
-    paths: Iterator[Path],
-    key_maker: Callable[[Path, dict], Optional[str]],
-):
-    for path in paths:
-        with open(path, "rb") as file:
-            print(f"Reading {path}...")
-            data = tomllib.load(file)
-            key = key_maker(path, data)
+def fetch_data(input: str, output: str, log: bool = False) -> dict[str, dict]:
+    key_param = get_unbound_param(input, output)
+    data = defaultdict(lambda: defaultdict(defaultdict))
+    for file in find_files(input):
+        if log:
+            print(file)
 
-            if key:
-                result[key] = data
-                # we assume the key is unique
-            else:
-                result.update(data)
-                # we assume all keys in data are unique
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Data file {file} was missing!")
+            continue
+        data[label] = local_data
+
+    return dict(data)
 
 
-def insert_translations(
-    result: dict[str, Any],
-    paths: Iterator[Path],
-    key_maker: Callable[[Path, dict], Optional[str]],
-):
-    for path in paths:
-        with open(path, "rb") as file:
-            print(f"Reading {path}...")
-            localized_data = tomllib.load(file)
-            locale = path.parent.stem
-            data_kind = key_maker(path, localized_data)
+def package_data(root: str, input: str, output: str):
+    data = fetch_data(input, output, log=True)
+    output_path = Path(root) / Path(output)
+    # no top level key, so just write the data
+    write_json(output_path, data)
 
-            for item in localized_data:
-                if "translations" not in result[item]:
-                    result[item]["translations"] = {}
 
-                if locale not in result[item]["translations"]:
-                    result[item]["translations"][locale] = {}
+def fetch_locales(input: str, output: str, log: bool = False) -> dict[str, dict]:
+    key_param = get_unbound_param(input, output)  # should be id
+    data = defaultdict(lambda: defaultdict(defaultdict))
+    for file in find_files(input):
+        if log:
+            print(file)
 
-                result[item]["translations"][locale][data_kind] = localized_data[item]
+        values = get_path_values(input, str(file))
+        label = values.pop(key_param)
+        group = next(iter(values.values()))  # type of locale str
+
+        # each translation file
+        local_data = cached_toml_read(file)
+        if not local_data:
+            print(f"Locale file {file} was missing!")
+            continue
+
+        for object_id, locale_string in local_data.items():
+            data[group][object_id][label] = locale_string
+
+    return dict(data)
+
+
+def package_locales(root: str, input: str, output: str):
+    data = fetch_locales(input, output, log=True)
+    param = get_bound_param(input, output)
+    for group, local_data in data.items():
+        output_path = Path(root) / substitute_params(output, {param: group})
+        write_json(output_path, local_data)
+
+
+FETCH_MAP = {"data": fetch_data, "locales": fetch_locales}
+PACKAGE_MAP = {"data": package_data, "locales": package_locales}
+
+
+def main():
+    for id, metadata in DATA.items():
+        input = metadata["input"]
+        output = metadata["output"]
+        typ = metadata["type"]
+        packager = PACKAGE_MAP[typ]
+        packager(f"api/src/raw/{CURRENT_API_VERSION}/", input, output)
+
+    print("Done!")
 
 
 if __name__ == "__main__":
-    for data_type, transformer in DATA_TYPES.items():
-        result: dict[str, Any] = {}
-
-        extract_data(
-            result,
-            Path(".").glob(f"./{data_type}/{DATA_FOLDER}/*.toml"),
-            transformer,
-        )
-
-        # doesn't need a transformer for now
-        insert_translations(
-            result,
-            Path(".").glob(f"./{data_type}/{TRANSLATIONS_FOLDER}/*/*.toml"),
-            transformer,
-        )
-
-        raw_filename = Path("api/raw") / Path(data_type).stem
-        with open(raw_filename.with_suffix(".json"), "w+") as data_file:
-            json.dump(result, data_file, separators=(",", ":"), sort_keys=True)
-
-    print("Done!")
+    main()

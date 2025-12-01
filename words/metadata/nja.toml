@@ -1,24 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "nja"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = "2021"
-creator = ["jan Kita"]
-see_also = ["mu", "jonke"]
+creation_date = "2021"
+author = ["jan Kita"]
+see_also = ["mu"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "nja"
 deprecated = false
+glyph_ids = ["nja-1"]
+primary_glyph_id = "nja-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nja.mp3"
-
-[[etymology]]
-alt = "nyā"
-word = "ニャー"
 
 [representations]
 ligatures = ["nja"]
@@ -31,3 +30,8 @@ ligatures = ["nja"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nja"
+
+[translations]
+commentary = ""
+definition = "meow, cat sound"
+etymology = "ニャー (nyā): Japanese, meow (onomatopoeia)"

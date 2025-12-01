@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mijomi-1"
+word = "mijomi"
+word_id = "mijomi"
+usage_category = "obscure"
+author_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+author = ["jan Elemenopi"]
+creation_date = "2020-07-26"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1eKSenzyD4IVjZK6YGRvuaGqo6WGbkWlf"
+# svg = ""
+ligature = "mijomi01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["mije-1", "olin-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

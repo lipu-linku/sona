@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "meso-1"
+word = "meso"
+word_id = "meso"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+author = ["the_whatevers"]
+creation_date = "2020-11-30"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1QX89UlXSicc4e_lKC_rEipB9jbSjW2cq"
+# svg = ""
+ligature = "meso01"
+ucsur = "U+F1982"
+alias_ligatures = []
+# teachability = 3
+see_also = ["insa-1", "lon-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

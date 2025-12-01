@@ -1,16 +1,20 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "oko"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku suli"
 coined_era = "pre-pu"
-coined_year = "2001"
-creator = ["jan Sonja"]
+creation_date = "2001"
+author = ["jan Sonja"]
 see_also = ["lukin"]
 source_language = "Serbo-Croatian"
 usage_category = "uncommon"
 word = "oko"
+parent_id = "lukin"
 deprecated = false
+glyph_ids = ["oko-1", "lukin-1"]
+primary_glyph_id = "oko-1"
+# teachability = 3
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +23,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/oko.mp3"
-
-[[etymology]]
-alt = "оko"
-word = "око"
 
 [ku_data]
 eye = 68
@@ -51,3 +51,8 @@ sitelen_jelo = ["👁️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/oko"
+
+[translations]
+commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances, though some speakers do the opposite and use \"oko\" exclusively instead."
+definition = "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"
+etymology = "око (оko): Serbo-Croatian, eye"

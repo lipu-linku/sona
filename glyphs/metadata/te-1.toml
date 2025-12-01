@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "te-1"
+word = "te"
+word_id = "te"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/871966784985645147"
+author = ["jan Seli"]
+creation_date = "2021-08-21"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1S5U5CO6LAyPjOxesP3iecbp-2mJfF1hN"
+# svg = ""
+ligature = "te01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

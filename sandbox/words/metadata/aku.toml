@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "aku"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2023"
+author = ["kulupu Solali"]
+see_also = []
+source_language = "Romanian"
+usage_category = "sandbox"
+word = "aku"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["aku"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "shocking, surprising, unexpected; sour, bitter, acidic"
+etymology = "acru: Romanian, sour"

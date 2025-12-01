@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "tonsi-4"
+word = "tonsi"
+word_id = "tonsi"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1aeWNXFUOh0yEKpIjQWFCJjtdp6pIJpyy"
+# svg = ""
+ligature = "tonsi4"
+ucsur = "U+F197E"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["transgender tonsi"]

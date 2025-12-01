@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "omekapo"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["jan Maliku"]
+creation_date = "2020"
+author = ["jan Maliku"]
 see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "omekapo"
 deprecated = false
+glyph_ids = ["omekapo-1"]
+primary_glyph_id = "omekapo-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/omekapo.mp3"
-
-[[etymology]]
-word = "o moku e kala pona"
 
 [representations]
 ligatures = ["omekapo"]
@@ -31,3 +31,8 @@ ligatures = ["omekapo"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/omekapo"
+
+[translations]
+commentary = 'Coined by jan Maliku in reference to the message "o moku e kala pona", which jan Sonja wrote on their copy of Toki Pona: The Language of Good during a Texas meetup.'
+definition = 'goodbye, farewell, see you later, (literally) "o moku e kala pona" (eat a good fish)'
+etymology = "o moku e kala pona: toki pona, 'eat a good fish', wishing somebody well"

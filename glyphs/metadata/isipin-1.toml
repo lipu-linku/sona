@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "isipin-1"
+word = "isipin"
+word_id = "isipin"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/733315606811770901"
+author = ["kili peemlueq"]
+creation_date = "2020-07-18"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1D2rkhoTKP47R8wzirK4VoJWIgTGXMmkT"
+# svg = ""
+ligature = "isipin01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["lawa-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

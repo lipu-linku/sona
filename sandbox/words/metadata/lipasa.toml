@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "lipasa"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["kala Asi"]
+see_also = ["powe"]
+source_language = "Russian"
+usage_category = "sandbox"
+word = "lipasa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = "\"Coined\" by kala Asi for a small-scale survey to see if people would select it."
+definition = "[fake word that doesn't exist, for catching dishonestly filled surveys]"
+etymology = "липа (lipa): Russian, linden tree. (colloquial) forgery, fake"

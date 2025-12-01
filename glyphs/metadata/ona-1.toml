@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ona-1"
+word = "ona"
+word_id = "ona"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ona.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ona.svg"
+ligature = "ona01"
+ucsur = "U+F1946"
+alias_ligatures = []
+# teachability = 1
+see_also = ["mi-1", "sina-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a hand pointing sideways. compare mi and sina"
+names = ["pu ona"]

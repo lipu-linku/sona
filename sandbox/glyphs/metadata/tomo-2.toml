@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "tomo-2"
+word = "tomo"
+word_id = "tomo"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1PDPIr6gZPUV8PR91z_vmagU-YCiH5Ako"
+# svg = ""
+ligature = "tomo2"
+ucsur = "U+F196D"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

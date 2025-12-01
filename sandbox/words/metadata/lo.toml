@@ -1,0 +1,38 @@
+#:schema ../../../api/generated/v2/word.json
+id = "lo"
+author_verbatim = """if you really wanted to use alu you could shorten it to just lu
+and lu = prep marker"""
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/761523450786742283"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020-10-02"
+author = ["Theepicosity", "akesi kon Nalasuni"]
+see_also = ["lu1", "ja"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "lo"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/lo.mp3"
+
+[representations]
+ligatures = ["lo"]
+
+[usage]
+2021-10 = 20
+2022-08 = 0
+2023-09 = 1
+2024-09 = 1
+2025-09 = 1
+
+[resources]
+
+[translations]
+commentary = "Previously known as lu. Most of those interested in the word have agreed to change it to lo, to avoid interfering with the reserved word. Can also be combined with ja to mark modified or compound prepositions, with ja marking the end of a preposition marked by lo and the start of the prepositional object."
+definition = "(particle) [indicates a prepositional phrase]"
+etymology = "alu: toki pona, (indicate context for a prior sentence)"

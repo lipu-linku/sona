@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sinpin-1"
+word = "sinpin"
+word_id = "sinpin"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sinpin.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sinpin.svg"
+ligature = "sinpin01"
+ucsur = "U+F195F"
+alias_ligatures = []
+# teachability = 1
+see_also = ["monsi-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "location radical + rotate “container”. compare monsi"
+names = ["pu sinpin"]

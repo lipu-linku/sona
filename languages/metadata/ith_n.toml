@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "ith_n"
+locale = "itk"
+
+[name]
+en = "New Ithkuil"
+endonym = "Malëuţřait"
+tok = "toki Ikuwi"

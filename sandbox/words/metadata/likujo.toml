@@ -1,0 +1,43 @@
+#:schema ../../../api/generated/v2/word.json
+id = "likujo"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+creation_date = "2018"
+author = ["jan Kawa", "jan inwin"]
+see_also = ["kulupu", "alasa"]
+source_language = "Acadian French"
+usage_category = "sandbox"
+word = "likujo"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/likujo.mp3"
+
+[ku_data]
+collection = 3
+gathering = 7
+seven = 7
+
+[representations]
+ligatures = ["likujo"]
+sitelen_emosi = "🧺"
+
+[usage]
+2020-04 = 13
+2021-10 = 25
+2022-08 = 3
+2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/likujo"
+
+[translations]
+commentary = ""
+definition = "collection, assortment, menagerie, arrangement, handful, harvest; seven"
+etymology = "recueil: Acadian French, collection, ensemble, anthology"

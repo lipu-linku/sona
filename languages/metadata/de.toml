@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "de"
+locale = "de-DE"
+
+[name]
+en = "German"
+endonym = "Deutsch"
+tok = "toki Tosi"

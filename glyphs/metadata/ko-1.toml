@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ko-1"
+word = "ko"
+word_id = "ko"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+# TODO: replace with sonja's ko
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ko.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ko.svg"
+ligature = "ko01"
+ucsur = "U+F191C"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of splashed goo"
+names = ["pu ko", "blob ko", "blobby ko"]

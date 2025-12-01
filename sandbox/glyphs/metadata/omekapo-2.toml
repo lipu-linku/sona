@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "omekapo-2"
+word = "omekapo"
+word_id = "omekapo"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1M1vbdCi9LWvqitYurDqkzN0azkUdZV1A"
+# svg = ""
+ligature = "omekapo2"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "el"
+locale = "el-GR"
+
+[name]
+en = "Greek"
+endonym = "Ελληνικά"
+tok = "toki Elena"

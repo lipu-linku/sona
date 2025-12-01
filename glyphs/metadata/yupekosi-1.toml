@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "yupekosi-1"
+word = "yupekosi"
+word_id = "yupekosi"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/746989572097048626"
+author = ["jan Elemenopi"]
+creation_date = "2020-08-23"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=14-9SziHOQtq1zRsf04u7p6-fMFWJ3PrQ"
+# svg = ""
+ligature = "yupekosi01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["ken-1", "wile-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

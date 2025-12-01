@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "soko-3"
+word = "soko"
+word_id = "soko"
+usage_category = "common"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/933245343506780211"
+author = ["NickEman123"]
+creation_date = "2022-01-19"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1hIU2AAwZg8EQ1iNsmnhqGaI0en2d8Wsy"
+# svg = ""
+ligature = "soko03"
+ucsur = "U+F1981"
+alias_ligatures = []
+# teachability = 2
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "Despite thin stem soko being the more popular rendering of soko through at least February 2024, the primary glyph for soko is annulus soko as determined by the Unicode project."
+etymology = ""
+names = ["annulus soko"]

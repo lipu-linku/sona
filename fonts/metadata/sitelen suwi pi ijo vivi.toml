@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen suwi pi ijo vivi"
-creator = ["ijo vivi"]
+author = ["ijo vivi"]
 features = ["ASCII transcription", "UCSUR transcription"]
 filename = "sitelen-suwi-pi-ijo-vivi.ttf"
 last_updated = "2024-10"

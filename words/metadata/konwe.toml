@@ -1,26 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "konwe"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-ku"
-coined_year = "2021"
-creator = ["jan Emalan"]
+creation_date = "2021"
+author = ["jan Emalan"]
 see_also = ["ma", "tenpo"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "konwe"
 deprecated = true
+glyph_ids = ["konwe-1"]
+primary_glyph_id = "konwe-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/konwe.mp3"
-
-[[etymology]]
-word = "Conway"
-
-[[etymology]]
-word = "kon wile"
 
 [representations]
 ligatures = ["konwe"]
@@ -34,3 +31,10 @@ ligatures = ["konwe"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/konwe"
+
+[translations]
+commentary = """
+Conway refers to John Horton Conway, creator of the cellular automaton Game of Life.
+konwe's intended meaning extends beyond just "living" and "life." It can be used to describe rocks or rivers or other nonliving things"""
+definition = "animacy, life, autonomy; autonomous being, living thing, organism; alive, animate, dynamic; to animate, to bring to life"
+etymology = "Conway: English, John Conway, creator of The Game of Life; kon wile: toki pona, kon wile"

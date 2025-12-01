@@ -1,24 +1,20 @@
-#:schema ../../api/generated/font.json
-id        = "titi Maka lu tuki tuki"
-name      = "titi Maka lu tuki tuki"
-filename  = "titi_Maka_lu_tuku_tuku.otf"
-creator   = ["jan Majeka"]
-license   = "CC-BY-ND 4.0"
+#:schema ../../api/generated/v2/font.json
+id = "titi Maka lu tuki tuki"
+name = "titi Maka lu tuki tuki"
+filename = "titi_Maka_lu_tuku_tuku.otf"
+author = ["jan Majeka"]
+license = "CC-BY-ND 4.0"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "tokiponido logography"
 
 last_updated = "2024-12"
-version      = "b004.020.069"
+version = "b004.020.069"
 
-features = [
-  "UCSUR-compliant",
-  "cartouches",
-  "ligatures",
-]
+features = ["UCSUR-compliant", "cartouches", "ligatures"]
 
 style = "handwritten"
 
 [links]
 fontfile = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/raw/refs/heads/main/titi_Maka_lu_tuki_tuki.otf"
-repo     = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/tree/main"
+repo = "https://github.com/yan-Mayeka/len-Majeka-pi-toki-toki/tree/main"

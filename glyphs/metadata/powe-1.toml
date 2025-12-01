@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "powe-1"
+word = "powe"
+word_id = "powe"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/713749986029994055"
+author = ["jan Tumu"]
+creation_date = "2020-05-23"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=13D6eX_Ylulaa-9qBUTb4GbMozyooSvSj"
+# svg = ""
+ligature = "powe01"
+ucsur = "U+F19A3"
+alias_ligatures = []
+# teachability = 4
+see_also = ["lon-1", "ala-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

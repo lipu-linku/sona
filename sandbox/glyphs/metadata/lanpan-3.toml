@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "lanpan-3"
+word = "lanpan"
+word_id = "lanpan"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/804400071466549258"
+author = ["ijo Mina"]
+creation_date = "2021-01-28"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1Yr-jkvYR5KTJNJkI2Rqa7ANO-3T0_X3h"
+# svg = ""
+ligature = "lanpan3"
+ucsur = "U+F1985"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "The 'mistake' version of lanpan is named such at least two independent authors of it misinterpreted somebody else's handwriting, taking the tiny unclosed loop to be an intentional feature of the glyph."
+etymology = ""
+names = ["mistake lanpan", "broken lanpan"]

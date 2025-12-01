@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "misa-3"
+word = "misa"
+word_id = "misa"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/814443402774315008"
+author = ["ilo Sasi"]
+creation_date = "2021-02-25"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1mo4GR1WSYrkfafa2-R1Km42W-Ucu9TU-"
+# svg = ""
+ligature = "misa3"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

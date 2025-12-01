@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "mije-3"
+word = "mije"
+word_id = "mije"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/969386329513295872/1045911317795573810/1135675806715228210"
+author = ["waso suno Alana"]
+creation_date = "2023-07-31"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1FKyDfD48PCEGC6uAq-qpmvo2oHxJ3Ejm"
+# svg = ""
+ligature = "mije3"
+ucsur = "U+F1935"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

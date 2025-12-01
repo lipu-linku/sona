@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ma-1"
+word = "ma"
+word_id = "ma"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ma.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ma.svg"
+ligature = "ma01"
+ucsur = "U+F1930"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps from modern astronomical symbol “earth” (⊕)"
+names = ["pu ma"]

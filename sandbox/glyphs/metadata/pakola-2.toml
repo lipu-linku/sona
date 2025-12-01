@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "pakola-2"
+word = "pakola"
+word_id = "pakola"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1ebaxo6sGwCsZfjUXiNFoEDeKCIREQdzD"
+# svg = ""
+ligature = "pakola2"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

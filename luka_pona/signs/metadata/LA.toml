@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "la"
 id = "LA"
 is_two_handed = false
 new_gloss = "LA"
 old_gloss = "LA"
+old_id = "LA"
 
 [[etymology]]
 language = "a priori"
@@ -15,3 +16,9 @@ swu = "𝠀񅊃񅊡񋎩𝠃𝤲𝤖񅊃𝣛𝣼񅊡𝤚𝣶񋎩𝣿𝤁"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/la.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/la.mp4"
+
+[translations]
+icons = "the letter L; aligns with particles TASO and PI"
+[translations.parameters]
+handshape = "L"
+movement = "fingers flick up"

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "anpa-1"
+word = "anpa"
+word_id = "anpa"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/anpa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/anpa.svg"
+ligature = "anpa01"
+ucsur = "U+F1905"
+alias_ligatures = []
+# teachability = 1
+see_also = ["insa-1", "poka-1", "sewi-2"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = 'location radical + "container"; the latter perhaps from a truncated square for a general object (compare sinpin) or a container (compare poki). for the radical, see also how dots are used in blissymbols; compare blissymbol "below"'
+names = ["pu anpa"]

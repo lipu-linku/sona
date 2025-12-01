@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "po-5"
+word = "po"
+word_id = "po"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1r1y2BFRox-YXLujIQVybjF6TomH7M22Q"
+# svg = ""
+ligature = "po5"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

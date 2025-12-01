@@ -1,0 +1,32 @@
+#:schema ../../../api/generated/v2/word.json
+id = "tenkala"
+author_verbatim = "tankala or tenkala could be southeast"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/866166121874587680"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["jan Sonja"]
+see_also = ["tankala"]
+source_language = "Malay"
+usage_category = "sandbox"
+word = "tenkala"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/tankala"
+
+[translations]
+commentary = "Variant of tankala, suggested at the same time as an alternate tokiponization of the etymon."
+definition = "[pronunciation variant of tankala]"
+etymology = "tenggara: Malay, southeast"

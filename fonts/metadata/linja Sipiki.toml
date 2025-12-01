@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja Sipiki"
-creator = ["jan Sipiki", "jan Ke Tami"]
+author = ["jan Sipiki", "jan Ke Tami"]
 features = [
   "ASCII transcription",
   "UCSUR-compliant",

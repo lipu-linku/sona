@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "tomo-1"
+word = "tomo"
+word_id = "tomo"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/tomo.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/tomo.svg"
+ligature = "tomo01"
+ucsur = "U+F196D"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a house. compare blissymbol “house”"
+names = ["pu tomo"]

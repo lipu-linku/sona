@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kepen"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2017"
+author = []
+see_also = ["kepeken"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "kepen"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kepen.mp3"
+
+[representations]
+ligatures = ["kepeken"]
+
+[usage]
+2022-08 = 1
+2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kepen"
+
+[translations]
+commentary = "Coined as a shortened version of kepeken by jan Tomen in 2017. Did not see significant use until 2020."
+definition = "[shortened variant of kepeken]"
+etymology = "kepeken: toki pona, to use, by means of, with"

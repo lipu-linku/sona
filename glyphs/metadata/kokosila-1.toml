@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kokosila-1"
+word = "kokosila"
+word_id = "kokosila"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844, https://discord.com/channels/301377942062366741/301377942062366741/804187779977314326"
+author = ["jan Sa", "lipamanka"]
+creation_date = "2021-01-27"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1YP1PO1X_4cBQgwzjMJpXXsLJdpIK4ueL"
+# svg = ""
+ligature = "kokosila01"
+ucsur = "U+F1984"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["star kokosila", "esperanto kokosila"]

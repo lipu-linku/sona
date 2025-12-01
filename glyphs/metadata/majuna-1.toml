@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "majuna-1"
+word = "majuna"
+word_id = "majuna"
+usage_category = "obscure"
+author_source = "https://web.archive.org/web/20210209100619/https://linjasuwi.ap5.dev/"
+author = ["ijo Mina"]
+creation_date = "2021-02-09"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1B4FaeVim3X266ZRGVb3fHrxL60eXA5Xp"
+# svg = ""
+ligature = "majuna01"
+ucsur = "U+F19A2"
+alias_ligatures = []
+# teachability = 4
+see_also = ["sin-1", "namako-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["sin majuna", "flipped sin majuna", "turned sin majuna"]

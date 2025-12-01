@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "olin-2"
+word = "olin"
+word_id = "olin"
+usage_category = "uncommon"
+author_source = "forums.tokipona.org/viewtopic.php?p=15452#p15452"
+author = ["jan Same"]
+creation_date = "2016-12-03"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1HnzC6YM_cZLG-NjAClEAvPirg33QA_nB"
+# svg = ""
+ligature = "olin02"
+alias_ligatures = []
+# teachability = 4
+parent_id = "olin-1"   # split hearts
+see_also = ["pilin-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "two heart symbols (♡), perhaps to distinguish from pilin."
+names = ["overlap olin", "overlapped olin"]

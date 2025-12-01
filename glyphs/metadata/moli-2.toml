@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "moli-2"
+word = "moli"
+word_id = "moli"
+usage_category = "uncommon"
+author_source = "https://web.archive.org/web/20210627184954/https://devurandom.xyz/tokipona/sitelen_pona.html"
+author = ["jan Lentan"]
+creation_date = "2021-06-04"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fce_z6DMqHUZCtP1pHMYycTl3NSLvMNw"
+# svg = ""
+ligature = "moli02"
+ucsur = "U+F1937"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["face moli", "x_x moli"]

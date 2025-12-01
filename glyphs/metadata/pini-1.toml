@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pini-1"
+word = "pini"
+word_id = "pini"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pini.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pini.svg"
+ligature = "pini01"
+ucsur = "U+F1950"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a blocking wall"
+names = ["pu pini"]

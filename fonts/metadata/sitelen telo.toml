@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen telo"
-creator = ["u/efofecks"]
+author = ["u/efofecks"]
 features = ["ASCII transcription"]
 filename = "sitelen-telo.otf"
 last_updated = "2020-10"

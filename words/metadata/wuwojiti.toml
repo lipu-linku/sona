@@ -1,32 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "wuwojiti"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = "2018"
-creator = ["unknown"]
+creation_date = "2018"
+author = ["unknown"]
 see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "wuwojiti"
 deprecated = false
+glyph_ids = ["wuwojiti-1"]
+primary_glyph_id = "wuwojiti-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wuwojiti.mp3"
-
-[[etymology]]
-word = "wu"
-
-[[etymology]]
-word = "wo"
-
-[[etymology]]
-word = "ji"
-
-[[etymology]]
-word = "ti"
 
 [representations]
 ligatures = ["wuwojiti"]
@@ -39,3 +30,8 @@ ligatures = ["wuwojiti"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wuwojiti"
+
+[translations]
+commentary = 'May be seen not as a word in toki pona, but as a kind of memorisation tool in English to refer to the "banned" syllables. Occasionally extended to wuwojitinmanna to include the illegal consecutive nasal consonants.'
+definition = 'to use one or more of the "banned" syllables wu, wo, ji, or ti; to break toki pona phonotactics'
+etymology = "wu: toki pona, (sound); wo: toki pona, (sound); ji: toki pona, (sound); ti: toki pona, (sound)"

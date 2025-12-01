@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "a-2"
+word = "a"
+word_id = "a"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/919436290338996276"
+author = ["lipamanka"]
+creation_date = "2021-12-11"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1jAOkQdcQGqQ9UPkHv2jiHIdMrmK2E4H-"
+# svg = ""
+ligature = "a02"
+ucsur = "U+F1900"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "This is likely not the earliest instance of this glyph, but there is no known earlier one."
+etymology = ""
+names = ["aaa", "triple stick a"]

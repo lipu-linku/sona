@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sona-1"
+word = "sona"
+word_id = "sona"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sona.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sona.svg"
+ligature = "sona01"
+ucsur = "U+F1961"
+alias_ligatures = []
+# teachability = 1
+see_also = ["lipu-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "lipu with emitters"
+names = ["pu sona"]

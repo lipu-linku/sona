@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "pi"
 id = "PI"
 is_two_handed = false
 new_gloss = "PI"
 old_gloss = "PI"
+old_id = "PI"
 
 [[etymology]]
 language = "a priori"
@@ -15,3 +16,9 @@ swu = "𝠀񄶃񄵡񋎩𝠃𝤲𝤕񄶃𝣛𝣿񄵡𝤜𝣷񋎩𝤀𝣾"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pi.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pi.mp4"
+
+[translations]
+icons = "pick (out of a group), aligns with particles TASO & LA"
+[translations.parameters]
+handshape = "9"
+movement = "fingers flick up"

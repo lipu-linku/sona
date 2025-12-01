@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "wasoweli-1"
+word = "wasoweli"
+word_id = "wasoweli"
+usage_category = "obscure"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1kc6pdi26_UNMYfJllg42Q-6HP5lGYw7q"
+# svg = ""
+ligature = "wasoweli01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["waso-1", "soweli-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

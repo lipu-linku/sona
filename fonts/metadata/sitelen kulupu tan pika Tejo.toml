@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen kulupu tan pika Tejo"
-name      = "sitelen kulupu tan pika Tejo"
-filename  = "sitelen kulupu tan pika Tejo.ttf"
-creator   = ["pika Tejo"]
-license   = "CC0-1.0"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen kulupu tan pika Tejo"
+name = "sitelen kulupu tan pika Tejo"
+filename = "sitelen kulupu tan pika Tejo.ttf"
+author = ["pika Tejo"]
+license = "CC0-1.0"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-02"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -45,5 +45,5 @@ style = "handwritten"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20kulupu%20tan%20pika%20Tejo.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-kulupu-tan-pika-Tejo.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-kulupu-tan-pika-Tejo.html"

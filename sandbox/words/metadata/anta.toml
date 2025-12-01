@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "anta"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["ilo Powa"]
+see_also = []
+source_language = "Okinawan"
+usage_category = "sandbox"
+word = "anta"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["anta"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "oil, fat, grease; slippery; salty, savory"
+etymology = "油 (anda): Okinawan, oil"

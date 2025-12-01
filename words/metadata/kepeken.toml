@@ -1,16 +1,19 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "kepeken"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Dutch"
 usage_category = "core"
 word = "kepeken"
 deprecated = false
+glyph_ids = ["kepeken-1"]
+primary_glyph_id = "kepeken-1"
+# teachability = 1
 
 [[audio]]
 author = "kala Asi"
@@ -19,9 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kepeken.mp3"
-
-[[etymology]]
-word = "gebruiken"
 
 [ku_data]
 employ = 50
@@ -55,3 +55,8 @@ sitelen_jelo = ["✍️"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kepeken"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kepeken"
+
+[translations]
+commentary = 'Whether "kepeken" should be used with or without "e" in a predicative position (meaning "to use") remains controversial.'
+definition = "(preposition) using, by means of"
+etymology = "gebruiken: Dutch, to use"
