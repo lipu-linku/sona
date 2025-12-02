@@ -8,7 +8,7 @@ author = ["jan Lepeka"]
 creation_date = "2023-01-02"
 primary = false
 deprecated = false
-# image = "" # none yet
+image = "https://drive.google.com/open?id=1B7E1hMwXpcpqpsg309gog3c19DAm6dU4"
 # svg = ""
 ligature = "n02"
 ucsur = "U+F1900"

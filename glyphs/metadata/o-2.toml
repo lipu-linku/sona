@@ -8,7 +8,7 @@ author = ["kulupu Eko"]
 creation_date = "2019-08-27"
 primary = false
 deprecated = false
-# image = "" # none yet
+image = "https://drive.google.com/open?id=1xFCp2OZwmg0SnGLlsFy51f0eKYmP1315"
 # svg = ""
 ligature = "o02"
 ucsur = "U+F1900"
