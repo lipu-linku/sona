@@ -1,16 +1,16 @@
 #:schema ../../api/generated/v2/glyph.json
-id = "a-2"
-word = "a"
-word_id = "a"
+id = "o-2"
+word = "o"
+word_id = "o"
 usage_category = "uncommon"
 author_source = "https://discord.com/channels/301377942062366741/340307145373253642/616163654488031233"
 author = ["kulupu Eko"]
 creation_date = "2019-08-27"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1eO9jU_HL8KoRj61Vf_dbA5vSQHzhooby"
+image = "https://drive.google.com/open?id=1xFCp2OZwmg0SnGLlsFy51f0eKYmP1315"
 # svg = ""
-ligature = "a02"
+ligature = "o02"
 ucsur = "U+F1900"
 alias_ligatures = []
 # teachability = 4
@@ -21,4 +21,4 @@ see_also = []
 [translations]
 commentary = "This is likely not the earliest instance of this glyph, but there is no known earlier one."
 etymology = ""
-names = ["diagonal a", "acute accent a"]
+names = ["diagonal o", "acute accent o"]

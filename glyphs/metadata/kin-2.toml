@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kin-2"
+word = "kin"
+word_id = "kin"
+usage_category = "uncommon"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commits/main/glyphs-sp-forms-b/kin-2.png"
+author = ["jan Lepeka"]
+creation_date = "2022-06-27"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1tzgBIhpUMiKTd5VlsXPPml6bXAykEqkf"
+# svg = ""
+ligature = "kin02"
+ucsur = "U+F1900"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "This is likely not the earliest instance of this glyph, but there is no known earlier one."
+etymology = ""
+names = ["diagonal kin", "acute accent kin"]
