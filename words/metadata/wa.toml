@@ -1,22 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "wa"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["mama mama pi jan Lakuse"]
+creation_date = "2020"
+author = ["mama mama pi jan Lakuse"]
 see_also = ["a", "n"]
 source_language = "onomatopoeia"
 usage_category = "obscure"
 word = "wa"
 deprecated = false
+glyph_ids = ["wa-1"]
+primary_glyph_id = "wa-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/wa.mp3"
-
-[[etymology]]
 
 [ku_data]
 whoa = 23
@@ -34,3 +35,8 @@ ligatures = ["wa"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wa"
+
+[translations]
+commentary = 'Sometimes analyzed as a variety of "a".'
+definition = "(interjection) [indicating awe or amazement]"
+etymology = "onomatopoeia"

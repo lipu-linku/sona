@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "teje-1"
+word = "teje"
+word_id = "teje"
+usage_category = "obscure"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Y-gFGf_cPYI-Coz9jhh12NFKSkEHaQxF"
+# svg = ""
+ligature = "teje01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["soto-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

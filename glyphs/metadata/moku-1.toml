@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "moku-1"
+word = "moku"
+word_id = "moku"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/moku.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/moku.svg"
+ligature = "moku01"
+ucsur = "U+F1936"
+alias_ligatures = []
+# teachability = 1
+see_also = ["luka-1", "uta-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "hand modifier + “mouth”"
+names = ["pu moku"]

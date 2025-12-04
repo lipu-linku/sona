@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "penpo-1"
+word = "penpo"
+word_id = "penpo"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1192671392173400174"
+author = ["waso Keli"]
+creation_date = "2024-01-04"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1i9f8UogyPYoolnziHmxW7NijSRQKvlkm"
+# svg = ""
+ligature = "penpo01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["suno-1", "pona-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "toki-pona with omnidirectional emitters"
+names = []

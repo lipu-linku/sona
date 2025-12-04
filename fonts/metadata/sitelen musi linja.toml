@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen musi linja"
-name      = "sitelen musi linja"
-filename  = "sitelen musi linja tan waso Eko.ttf"
-creator   = ["waso Eko"]
-license   = "SIL Open Font License"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen musi linja"
+name = "sitelen musi linja"
+filename = "sitelen musi linja tan waso Eko.ttf"
+author = ["waso Eko"]
+license = "SIL Open Font License"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-05"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",

@@ -1,0 +1,34 @@
+#:schema ../../../api/generated/v2/word.json
+id = "we"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["jan Kiwisin", "jan Telupiso"]
+see_also = []
+source_language = "Spanish"
+usage_category = "sandbox"
+word = "we"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/we.mp3"
+
+[representations]
+ligatures = ["we"]
+
+[usage]
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/we"
+
+[translations]
+commentary = ""
+definition = "guy, pal, friend, buddy"
+etymology = "güey: Spanish, man"

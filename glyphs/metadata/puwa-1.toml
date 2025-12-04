@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "puwa-1"
+word = "puwa"
+word_id = "puwa"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/857038084025876481"
+author = ["jan Seli"]
+creation_date = "2021-06-22"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Nua_jS0SxesI-3Wkv5Mzg-YA3V5XDfcG"
+# svg = ""
+ligature = "puwa01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["ko-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["cloud puwa"]

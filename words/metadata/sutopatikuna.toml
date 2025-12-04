@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "sutopatikuna"
 author_verbatim = "Dear Sonja, That's a great idea, but if you do so, you need also to add a special word forthe Platypus (Ornithorhynchus anatinus). I would suggest the word \"sutopatikuna\"from the croatian word Èudnovati kljuna¹. Bonega ideo, sed se vi farus tion, vi devus ankaux aldoni apartan vorton porla Ornitorinko (Ornithorhynchus anatinus). Mi proponus la vorton \"sutopatikuna\"prenita de la kroatan vorton Èudnovati kljuna¹.:P"
-author_verbatim_source = "http://forums.tokipona.org/viewtopic.php?p=4927&hilit=sutopatikuna#p4927"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=4927&hilit=sutopatikuna#p4927"
 book = "ku lili"
 coined_era = "pre-pu"
-coined_year = "2009"
-creator = ["Alexandre Baudry"]
+creation_date = "2009"
+author = ["Alexandre Baudry"]
 see_also = ["kijetesantakalu"]
 source_language = "Serbo-Croatian"
 usage_category = "obscure"
 word = "sutopatikuna"
 deprecated = false
+glyph_ids = ["sutopatikuna-1"]
+primary_glyph_id = "sutopatikuna-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/sutopatikuna.mp3"
-
-[[etymology]]
-word = "čudnovati kljunaš"
 
 [ku_data]
 platypus = 20
@@ -34,3 +34,8 @@ ligatures = ["sutopatikuna"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sutopatikuna"
+
+[translations]
+commentary = "Coined by Alexandre Baudry in 2009 in response to jan Sonja coining \"kijetesantakalu\" as part of 2009's April Fools."
+definition = "platypus"
+etymology = "čudnovati kljunaš: Serbo-Croatian, platypus, (literally) strange beak"

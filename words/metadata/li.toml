@@ -1,16 +1,19 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "li"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = ["o"]
 source_language = "Esperanto"
 usage_category = "core"
 word = "li"
 deprecated = false
+glyph_ids = ["li-1"]
+primary_glyph_id = "li-1"
+# teachability = 1
 
 [[audio]]
 author = "kala Asi"
@@ -19,18 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/li.mp3"
-
-[[etymology]]
-word = "li"
-
-[[etymology]]
-word = "ille"
-
-[[etymology]]
-word = "i"
-
-[[etymology]]
-word = "he"
 
 [pu_verbatim]
 de = "PARTIKEL (zwischen jedem Subjekt und dem zugehörigen Verb, außer bei einzelnem mi oder einzelnem sina; auch um ein neues Verb für dasselbe Subjekt einzuleiten)"
@@ -53,3 +44,8 @@ sitelen_jelo = ["▶️"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/li"
+
+[translations]
+commentary = ""
+definition = "(particle) [marks the start of an indicative verb (statement)]"
+etymology = "li: Esperanto, he; ille: Latin, he; i: Tok Pisin, he; he: English, he"

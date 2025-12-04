@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen meli kule tan meli Siliwa"
-name      = "sitelen meli kule tan meli Siliwa"
-filename  = "sitelen meli kule tan meli Siliwa.ttf"
-creator   = ["meli Siliwa"]
-license   = "OFL-1.1"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen meli kule tan meli Siliwa"
+name = "sitelen meli kule tan meli Siliwa"
+filename = "sitelen meli kule tan meli Siliwa.ttf"
+author = ["meli Siliwa"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,5 +22,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20meli%20kule%20tan%20meli%20Siliwa.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-meli-kule-tan-meli-Siliwa.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-meli-kule-tan-meli-Siliwa.html"

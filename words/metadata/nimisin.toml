@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "nimisin"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["unknown"]
+creation_date = "2020"
+author = ["unknown"]
 see_also = ["nimi", "sin"]
 source_language = "toki pona"
 usage_category = "uncommon"
 word = "nimisin"
 deprecated = false
+glyph_ids = ["nimisin-1"]
+primary_glyph_id = "nimisin-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nimisin.mp3"
-
-[[etymology]]
-word = "nimi sin"
 
 [representations]
 ligatures = ["nimisin"]
@@ -30,3 +30,8 @@ ligatures = ["nimisin"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/nimisin"
+
+[translations]
+commentary = 'Mostly used in conversations in English. Likely was popularised by the :nimisin: emote in ma pona, which was originally used to notify Atawan (maintainer of "nimi ale") about newly coined words. In common speech, the meaning got extended to include most or all non-pu words, regardless if they were coined recently or not.'
+definition = "any non-pu word; any new word; any joke word"
+etymology = "nimi sin: toki pona, new word"

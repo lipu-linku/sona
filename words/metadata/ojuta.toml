@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "ojuta"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = "2021"
-creator = ["soweli nata"]
+creation_date = "2021"
+author = ["soweli nata"]
 see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "ojuta"
 deprecated = false
+glyph_ids = ["ojuta-1"]
+primary_glyph_id = "ojuta-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ojuta.mp3"
-
-[[etymology]]
-word = "o uta"
 
 [representations]
 ligatures = ["ojuta"]
@@ -30,3 +30,8 @@ ligatures = ["ojuta"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ojuta"
+
+[translations]
+commentary = ""
+definition = 'adaptation of the English meme "ligma", (literally) "o uta" (lick)'
+etymology = "o uta: toki pona, 'lick my balls' (same as English 'ligma balls')"

@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "yutu"
+author_verbatim = "discord star emoji"
+author_source = "https://discord.com/channels/301377942062366741/873076683937284106/873586280603189248"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["inari"]
+see_also = ["mun"]
+source_language = "Turkish"
+usage_category = "sandbox"
+word = "yutu"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/yutu.mp3"
+
+[representations]
+ligatures = ["yutu"]
+
+[usage]
+2022-08 = 3
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/yutu"
+
+[translations]
+commentary = 'The "y" was a typo and was meant to be "j", but got kept in anyway; compare "yupekosi".'
+definition = "the star emoji used for the starboard #pona-kulupu in the ma pona pi toki pona Discord server"
+etymology = "yıldız: Turkish, star"

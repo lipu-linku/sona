@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "tan-1"
+word = "tan"
+word_id = "tan"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/tan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/tan.svg"
+ligature = "tan01"
+ucsur = "U+F1967"
+alias_ligatures = []
+# teachability = 1
+see_also = ["ni-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "a leaping arrow pointing from right to left, implying derivation or cause"
+names = ["pu tan"]

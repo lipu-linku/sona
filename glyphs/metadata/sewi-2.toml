@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sewi-2"
+word = "sewi"
+word_id = "sewi"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/792866919782154332"
+author = ["jan Tumu"]
+creation_date = "2020-12-27"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1tgSe6eiy6-tgs1f1lQCN4iEUZ2PCEWLZ"
+# svg = ""
+ligature = "sewi02"
+ucsur = "U+F195A"
+alias_ligatures = []
+# teachability = 3
+see_also = ["anpa-1", "insa-1", "poka-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["secular sewi", "flipped anpa sewi"]

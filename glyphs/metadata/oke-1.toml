@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "oke-1"
+word = "oke"
+word_id = "oke"
+usage_category = "sandbox"
+author_source = "https://www.reddit.com/r/tokipona/comments/hyi31s/a_revision_of_some_of_my_nonpu_glyphs/"
+author = ["jan Elemenopi"]
+creation_date = "2020-07-26"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1DNUxgNYZBR0_mQXWpgXJnm2I2UwHcsVa"
+# svg = ""
+ligature = "oke01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

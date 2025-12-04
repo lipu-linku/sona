@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "masalo"
+author_verbatim = ""
+author_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = ["a", "pakala", "sapelipope"]
+source_language = "French"
+usage_category = "sandbox"
+word = "masalo"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["masalo"]
+
+[usage]
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "gosh! arghhh! / (also: facepalm)"
+etymology = "mince alors: French"

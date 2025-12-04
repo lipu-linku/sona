@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "nalanja"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["kapesi Pake"]
+see_also = ["loje", "jelo"]
+source_language = "Spanish"
+usage_category = "sandbox"
+word = "nalanja"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/nalanja.mp3"
+
+[representations]
+ligatures = ["nalanja"]
+
+[usage]
+2022-08 = 1
+2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/nalanja"
+
+[translations]
+commentary = ""
+definition = "orange (color)"
+etymology = "naranja: Spanish, orange"

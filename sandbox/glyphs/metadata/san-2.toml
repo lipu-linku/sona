@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "san-2"
+word = "san"
+word_id = "san"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/851665652452556840/867616678644154389"
+author = ["telo misi"]
+creation_date = "2021-07-21"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1QPKfYgDcBWnW4nQgKY2uuOvQuWjlSvep"
+# svg = ""
+ligature = "san2"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "This glyph for san has been developed independently multiple times, as it is derived from the Japanese symbol for three and the word is derived from that symbol's reading."
+etymology = "Japanese symbol for three 三"
+names = []

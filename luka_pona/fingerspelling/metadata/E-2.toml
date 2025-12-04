@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "E-2"
 is_two_handed = true
 
@@ -10,4 +10,6 @@ sign = "E"
 fsw = "M526x523S1db18475x478S20500507x479S10011505x493"
 swu = "𝠃𝤠𝤝񅈹𝣭𝣰񆇡𝤍𝣱񀀒𝤋𝣿"
 
-[video]
+[translations.parameters]
+handshape = "1 + 5"
+placement = "touch the index finger"

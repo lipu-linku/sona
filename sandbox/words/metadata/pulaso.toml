@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pulaso"
+author_verbatim = "blue laso, blaso"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["jan Lepeka"]
+see_also = ["laso", "telo"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "pulaso"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["pulaso"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "blue, blueish, indigo, navy blue, ultramarine"
+etymology = "blue: English, blue; laso: toki pona, blue, green"

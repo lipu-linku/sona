@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen sa"
-creator = ["Jack Humbert"]
+author = ["Jack Humbert"]
 features = [
   "ASCII transcription",
   "unrecognised words turn into cartouched latin characters",

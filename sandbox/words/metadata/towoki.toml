@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "towoki"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = []
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "towoki"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "hewwo"
+etymology = "toki: toki pona, hello; OwO: emoticon, cat-like surprised face"

@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen luka tan jan luka tu"
-name      = "sitelen luka tan jan luka tu"
-filename  = "sitelen luka tan jan luka tu.ttf"
-creator   = ["jan luka tu"]
-license   = "OFL-1.1"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen luka tan jan luka tu"
+name = "sitelen luka tan jan luka tu"
+filename = "sitelen luka tan jan luka tu.ttf"
+author = ["jan luka tu"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-12"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -45,5 +45,5 @@ style = "handwritten"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate. But you can make them accurate, with a GitHub pull request!
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20luka%20tan%20jan%20luka%20tu.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-luka-tan-jan-luka-tu.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-luka-tan-jan-luka-tu.html"

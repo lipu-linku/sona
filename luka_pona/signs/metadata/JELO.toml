@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "jelo"
 id = "JELO"
 is_two_handed = false
 new_gloss = "JELO"
 old_gloss = "JELO"
+old_id = "JELO"
 
 [[etymology]]
 language = "BSL (variant)"
@@ -24,3 +25,9 @@ swu = "𝠀񄵑񋾡𝠃𝤳𝤘񋾡𝣴𝣵񄵑𝤝𝣱"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/jelo.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/jelo.mp4"
+
+[translations]
+icons = "the colour of ear wax, the colour of the Sun"
+[translations.parameters]
+handshape = "9"
+movement = "placed beside head"

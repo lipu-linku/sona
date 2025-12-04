@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "kiki-4"
+word = "kiki"
+word_id = "kiki"
+usage_category = "sandbox"
+author_source = "https://www.reddit.com/r/tokipona/comments/u323h2/do_you_use_the_heiroglyphs/"
+author = ["unknown"]
+creation_date = "2022-08-13"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1fGgBxhBF20A-sieqx1funtbE2ta3I6x5"
+# svg = ""
+ligature = "kiki4"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "There are exceedingly few attestations for 5 point kiki."
+etymology = ""
+names = ["5 point kiki"]

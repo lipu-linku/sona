@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "kamalawala"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2018"
-creator = ["jan Wesu"]
+creation_date = "2018"
+author = ["jan Wesu"]
 see_also = []
 source_language = "toki pona"
 usage_category = "obscure"
 word = "kamalawala"
 deprecated = false
+glyph_ids = ["kamalawala-1"]
+primary_glyph_id = "kamalawala-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kamalawala.mp3"
-
-[[etymology]]
-word = "kama pi lawa ala"
 
 [ku_data]
 revolution = 7
@@ -36,3 +36,8 @@ sitelen_emosi = "💣"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kamalawala"
+
+[translations]
+commentary = "The word is from a story called \"jan pi Kamalawala\". A character's name is described as \"nimi Jan pi Kama e Lawa Ala\", and a shortened version given as \"nimi Kamalawala\". jan Kipo is responsible for it becoming a word instead of just a name."
+definition = "anarchy, uprising, revolt, rebellion"
+etymology = "kama pi lawa ala: toki pona, 'arrival of no government', the beginning of anarchy"

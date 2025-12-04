@@ -1,16 +1,19 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "lukin"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = ["oko", "alasa"]
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "lukin"
 deprecated = false
+glyph_ids = ["lukin-1"]
+primary_glyph_id = "lukin-1"
+# teachability = 1
 
 [[audio]]
 author = "kala Asi"
@@ -19,15 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lukin.mp3"
-
-[[etymology]]
-word = "lukim"
-
-[[etymology]]
-word = "look"
-
-[[etymology]]
-word = "him"
 
 [ku_data]
 apparent = 27
@@ -91,3 +85,8 @@ sitelen_jelo = ["👀"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lukin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lukin"
+
+[translations]
+commentary = "In common usage (both before and after pu), \"lukin\" and \"oko\" are separate words, each with their own meaning. In pu, they are considered synonyms. Those who consider them synonyms typically don't use \"oko\" at all, preferring \"lukin\" in all circumstances. The usage of \"alasa\" as a preverb meaning \"try to\" is more common than \"lukin\". In pu, only \"lukin\" has this meaning. A very common beginner mistake is treating \"lukin\" as if it means \"appearance\", due to the mistakenly equating the \"visual\" meaning as in \"pona lukin (visually good)\" to mean \"looks good\"."
+definition = "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"
+etymology = "lukim: Tok Pisin, see, look at; look: English, look; him: English, him"

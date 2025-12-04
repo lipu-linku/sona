@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "jan-2"
+word = "jan"
+word_id = "jan"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/939702382034550854"
+author = ["unknown"]
+creation_date = "2022-02-05"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1SqzoWsLIYx5qlm-DD1uRZgnOcGUCj5Bu"
+# svg = ""
+ligature = "jan2"
+ucsur = "U+F1911"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["eyes jan"]

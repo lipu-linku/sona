@@ -1,0 +1,33 @@
+#:schema ../../../api/generated/v2/word.json
+id = "iwa"
+author_verbatim = """proposal for Linku sandbox:
+
+iwa: malodorous chemical substance, such as sulfur, hydrogen sulfide, chlorine gas, bromine, white phosphorus, or selenide compounds
+[from Ainu イワゥ (iwau) “sulfur”]
+coined by: jan Emesu and jan Sonja in the Agma Schwa server on Apr 20, 2025"""
+author_source = "https://discord.com/channels/972470770443886662/972470770984943658/1363560205648134387"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2025"
+author = ["jan Emesu", "jan Sonja"]
+see_also = ["kon", "jaki", "suwi"]
+source_language = "Ainu"
+usage_category = "sandbox"
+word = "iwa"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+audio = []
+# teachability = 4
+
+[representations]
+ligatures = ["iwa"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "malodorous chemical substance, such as sulfur, hydrogen sulfide, chlorine gas, bromine, white phosphorus, or selenide compounds"
+etymology = "イワゥ (iwau): Ainu, sulfur"

@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "melome-1"
+word = "melome"
+word_id = "melome"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/809645695065391114"
+author = ["lipamanka"]
+creation_date = "2021-02-11"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1Bl9lt9JSMf9lRqTYGAjFpRsrWGjhMZlQ"
+# svg = ""
+ligature = "melome01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["meli-1", "olin-1"]
+
+[usage]
+
+[translations]
+commentary = "lipamanka reports to have created this glyph to avoid it looking like 'nena+olin'"
+etymology = ""
+names = []

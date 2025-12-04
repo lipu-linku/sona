@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mu-2"
+word = "mu"
+word_id = "mu"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/948448338662010910/1191946786936459325/1338672157512699946"
+author = ["plum2176"]
+creation_date = "2022-05-14"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=16qLFkFju66I2Ny1QmUO_igckBVWn2ajT"
+# svg = ""
+ligature = "mu02"
+ucsur = "U+F1939"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["emitters mu", "emitters :"]

@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen pi suwi nasa tan ilo Popsie"
-name      = "sitelen pi suwi nasa tan ilo Popsie"
-filename  = "sitelen pi suwi nasa tan ilo Popsie.ttf"
-creator   = ["ilo Popsie"]
-license   = "CC0 1.0 Universal"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen pi suwi nasa tan ilo Popsie"
+name = "sitelen pi suwi nasa tan ilo Popsie"
+filename = "sitelen pi suwi nasa tan ilo Popsie.ttf"
+author = ["ilo Popsie"]
+license = "CC0 1.0 Universal"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-11"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,5 +22,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20pi%20suwi%20nasa%20tan%20ilo%20Popsie.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-suwi-nasa-tan-ilo-Popsie.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-suwi-nasa-tan-ilo-Popsie.html"

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "supa-1"
+word = "supa"
+word_id = "supa"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/supa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/supa.svg"
+ligature = "supa01"
+ucsur = "U+F1965"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a table. compare blissymbol “table”"
+names = ["pu supa"]

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "moli-1"
+word = "moli"
+word_id = "moli"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/moli.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/moli.svg"
+ligature = "moli01"
+ucsur = "U+F1937"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "head radical; a dead person, represented by the crossed eyes"
+names = ["pu moli"]

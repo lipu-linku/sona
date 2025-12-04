@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "tenpo-2"
+word = "tenpo"
+word_id = "tenpo"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/994057928426393620"
+author = ["soweli Iseja"]
+creation_date = "2022-06-07"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1ewy3QD80ZLZcham7xH1VdxlzrPIcEWRj"
+# svg = ""
+ligature = "tenpo2"
+ucsur = "U+F196B"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "https://discord.com/channels/301377942062366741/340307145373253642/798480104237039636 earlier instance of the glyph but for \"ten\" , 01/12/2021"
+etymology = ""
+names = ["hourglass tenpo"]

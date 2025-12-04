@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sewi-1"
+word = "sewi"
+word_id = "sewi"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sewi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/sewi.svg"
+ligature = "sewi01"
+ucsur = "U+F195A"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "from Arabic الله “god”"
+names = ["pu sewi"]

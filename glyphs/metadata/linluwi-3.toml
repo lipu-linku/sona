@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "linluwi-3"
+word = "linluwi"
+word_id = "linluwi"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/948448338662010910/951966419283742750/1030300874305703977"
+author = ["mun Kekan San"]
+creation_date = "2022-10-13"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1RzK0a3sDbqpa9XtAusaxVoKPraare8SC"
+# svg = ""
+ligature = "linluwi03"
+alias_ligatures = []
+# teachability = 3
+see_also = ["kulupu-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["kulupu linluwi"]

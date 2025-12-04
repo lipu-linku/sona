@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "Sitelen Ko"
-creator = ["jan Sikusi"]
+author = ["jan Sikusi"]
 features = ["ASCII transcription"]
 filename = "sitelenko.otf"
 last_updated = "2023-11"

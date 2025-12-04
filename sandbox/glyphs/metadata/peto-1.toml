@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "peto-1"
+word = "peto"
+word_id = "peto"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1pZpYXJJrMgBcdET_PilgUo0tz4Sh7Lb4"
+# svg = ""
+ligature = "peto1"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

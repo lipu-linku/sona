@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "oke-2"
+word = "oke"
+word_id = "oke"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+author = ["the_whatevers"]
+creation_date = "2020-11-30"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1vSLA2eWOQKp85tpbZF9sC21CdCrDIyTB"
+# svg = ""
+ligature = "oke02"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

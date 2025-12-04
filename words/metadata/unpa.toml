@@ -1,16 +1,19 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "unpa"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "onomatopoeia"
 usage_category = "core"
 word = "unpa"
 deprecated = false
+glyph_ids = ["unpa-1"]
+primary_glyph_id = "unpa-1"
+# teachability = 1
 
 [[audio]]
 author = "kala Asi"
@@ -19,8 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/unpa.mp3"
-
-[[etymology]]
 
 [ku_data]
 fuck = 40
@@ -51,3 +52,8 @@ sitelen_jelo = ["🍆"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/unpa"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#unpa"
+
+[translations]
+commentary = 'Also defined as "have marital relations with" in pu; removed due to potential confusion.'
+definition = "sex, to have sex with"
+etymology = "onomatopoeia"

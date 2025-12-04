@@ -1,0 +1,44 @@
+#:schema ../../../api/generated/v2/word.json
+id = "enko"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["jan Seli"]
+see_also = ["lon", "ma"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "enko"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/enko.mp3"
+
+[representations]
+ligatures = ["enko", "enko2"]
+sitelen_emosi = "🧭"
+
+[usage]
+2021-10 = 28
+2022-08 = 4
+2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/enko"
+
+[translations]
+commentary = """
+Considered deprecated by the author: "mi pali e nimi enko a a
+open la pilin mi li sama
+nimi enko li pona, jan mute o kepeken
+taso kepeken pi toki pona la mi kama sona
+nimi ante li ken toki e wile toki pi nimi enko
+la ona li suli ala"\
+"""
+definition = "(spatial equivalents of tenpo constructions) space, place, distance, size (length, width, height, depth, area, volume)"
+etymology = "tenpo: toki pona, time, period, situation"

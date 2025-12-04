@@ -1,0 +1,39 @@
+#:schema ../../../api/generated/v2/word.json
+id = "alu"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2018"
+author = ['''jan Ote "thelegenderp"''', "jan Tolin (separately)"]
+see_also = ["la"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "alu"
+deprecated = false
+glyph_ids = ["alu-1"]
+primary_glyph_id = "alu-1"
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/alu.mp3"
+
+[representations]
+ligatures = ["alu"]
+
+[usage]
+2020-04 = 18
+2021-10 = 24
+2022-08 = 3
+2023-09 = 3
+2024-09 = 4
+2025-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/alu"
+
+[translations]
+commentary = ""
+definition = "(particle) [placed after the main sentence, introducing a context phrase]"
+etymology = "la: toki pona, (indicate context for a following sentence)"

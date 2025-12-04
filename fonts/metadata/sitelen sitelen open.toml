@@ -1,17 +1,17 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen sitelen open"
-name      = "sitelen sitelen open"
-filename  = "sitelen-sitelen-open.ttf"
-creator   = ["jan lili Enta","jan Josan"]
-license   = "CC BY 4.0"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen sitelen open"
+name = "sitelen sitelen open"
+filename = "sitelen-sitelen-open.ttf"
+author = ["jan lili Enta", "jan Josan"]
+license = "CC BY 4.0"
 ligatures = true
-ucsur     = true
-writing_system = "sitelen sitelen" # must be one of the following: 
-                                # "sitelen pona","sitelen sitelen","alphabet","syllabary","logography",
-                                # "tokiponido alphabet","tokiponido syllabary","tokiponido logography"
+ucsur = true
+writing_system = "sitelen sitelen"      # must be one of the following: 
+# "sitelen pona","sitelen sitelen","alphabet","syllabary","logography",
+# "tokiponido alphabet","tokiponido syllabary","tokiponido logography"
 
 last_updated = "2025-07"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -24,7 +24,7 @@ features = [
   # "name glyphs",
   # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
-  "all ku suli",                   
+  "all ku suli",
   # "all ku suli and UCSUR words",   # apeja, pake, powe
   # "community requested nimisin",
 
@@ -49,5 +49,5 @@ style = "handwritten"
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
 fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
-repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
-webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
+repo = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
+webpage = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"

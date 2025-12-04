@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "tok"
+locale = "tok-US"
+
+[name]
+en = "Toki Pona"
+endonym = "toki pona"
+tok = "toki pona"

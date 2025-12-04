@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "jaki-2"
+word = "jaki"
+word_id = "jaki"
+usage_category = "obscure"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1C3IF8SJlnT3Byerq6ziVIFhFYgTHeNv2"
+# svg = ""
+ligature = "jaki02"
+ucsur = "U+F1910"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "a scratch"
+names = ["scratch jaki"]

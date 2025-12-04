@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lili-1"
+word = "lili"
+word_id = "lili"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/lili.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/lili.svg"
+ligature = "lili01"
+ucsur = "U+F1928"
+alias_ligatures = []
+# teachability = 1
+see_also = ["suli-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "ideogram showing smaller size compared to suli"
+names = ["pu lili"]

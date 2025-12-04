@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "awen-1"
+word = "awen"
+word_id = "awen"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/awen.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/awen.svg"
+ligature = "awen01"
+ucsur = "U+F1908"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "motion radical; legs facing against each other, implying standing"
+names = ["pu awen"]

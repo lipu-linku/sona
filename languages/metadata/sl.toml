@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "sl"
+locale = "sl-SI"
+
+[name]
+en = "Slovene"
+endonym = "Slovenščina"
+tok = "toki Lowensina"
