@@ -3,9 +3,9 @@ id = "melome-1"
 word = "melome"
 word_id = "melome"
 usage_category = "obscure"
-author_source = "https://discord.com/channels/301377942062366741/545467374254555137/809645695065391114"
-author = ["lipamanka"]
-creation_date = "2021-02-11"
+author_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+author = ["jan Elemenopi"]
+creation_date = "2020-07-25"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1Bl9lt9JSMf9lRqTYGAjFpRsrWGjhMZlQ"
@@ -18,6 +18,6 @@ see_also = ["meli-1", "olin-1"]
 [usage]
 
 [translations]
-commentary = "lipamanka reports to have created this glyph to avoid it looking like 'nena+olin'"
+commentary = "Originally proposed with right-side-up hearts. linja sike shows the hearts upside-down, to avoid it looking like 'nena+olin'. In a pair of May 2025 polls, 40 people preferred the hearts right-side-up, and 2 preferred upside-down."
 etymology = ""
 names = []
