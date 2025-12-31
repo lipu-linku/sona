@@ -1,9 +1,9 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen Sepi"
-name      = "sitelen Sepi"
-filename  = "sitelen Sepi.ttf"
-creator   = ["kijetesantakalu Nawili"]
-license   = "OFL-1.1"
+id        = "sitelen pi pan Nuto"
+name      = "sitelen pi pan Nuto"
+filename  = "sitelen-pi-pan-Nuto.ttf"
+creator   = ["pan Nuto"]
+license   = "CC0-1.0"
 ligatures = true
 ucsur     = true
 writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
@@ -21,7 +21,7 @@ features = [
   # "incomplete",
   # "variable weight",
   # "name glyphs",
-  "character variants",
+  # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
@@ -47,6 +47,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20Sepi.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen-pi-pan-Nuto.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Sepi.html"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pi-pan-Nuto.html"

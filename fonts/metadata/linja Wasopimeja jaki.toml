@@ -1,8 +1,8 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen Sepi"
-name      = "sitelen Sepi"
-filename  = "sitelen Sepi.ttf"
-creator   = ["kijetesantakalu Nawili"]
+id        = "linja Wasopimeja jaki"
+name      = "linja Wasopimeja jaki"
+filename  = "linja-Wasopimeja-jaki-tan-jan-Wasopimeja.ttf"
+creator   = ["jan Wasopimeja"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
@@ -21,7 +21,7 @@ features = [
   # "incomplete",
   # "variable weight",
   # "name glyphs",
-  "character variants",
+  # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
@@ -47,6 +47,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20Sepi.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Sepi.html"
+# fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/linja-Wasopimeja-jaki-tan-jan-Wasopimeja.ttf"
+# repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+# webpage  = "https://wasokeli.github.io/sp-font-maker/linja-Wasopimeja-jaki.html"
