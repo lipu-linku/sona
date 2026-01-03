@@ -1,8 +1,6 @@
-import pages from "@hono/vite-cloudflare-pages";
-import devServer from "@hono/vite-dev-server";
+import { cloudflare } from "@cloudflare/vite-plugin";
 import { exec } from "node:child_process";
 import { defineConfig, type UserConfigExport } from "vite";
-import dts from "vite-plugin-dts";
 
 export default defineConfig((async ({ mode }) => ({
 	build: {
@@ -26,20 +24,5 @@ export default defineConfig((async ({ mode }) => ({
 			}),
 		),
 	},
-	plugins:
-		mode === "lib"
-			? [
-					dts({
-						include: "./src/**/*.ts",
-						insertTypesEntry: true,
-					}),
-				]
-			: [
-					pages({
-						entry: "src/server/index.ts",
-					}),
-					devServer({
-						entry: "src/server/index.ts",
-					}),
-				],
+	plugins: [cloudflare()],
 })) as UserConfigExport);

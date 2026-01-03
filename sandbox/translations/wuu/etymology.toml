@@ -150,6 +150,10 @@ language = "廣東閑話"
 definition = "耶"
 language = "英文"
 
+[[jonke]]
+definition = "hjönk"
+language = "擬聲詞"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "英文"
 definition = "thin shelled"
 language = "拉丁語"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "橘黃色"
 language = "西班牙語"
@@ -508,6 +515,10 @@ language = "英文"
 [[pa]]
 definition = "噗"
 language = "英文"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

@@ -150,6 +150,10 @@ language = "Cantonese"
 definition = "yay"
 language = "Inglês"
 
+[[jonke]]
+definition = "hjönk"
+language = "onomatopeia"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "Inglês"
 definition = "thin shelled"
 language = "Latim"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "orange"
 language = "Spanish"
@@ -508,6 +515,10 @@ language = "Inglês"
 [[pa]]
 definition = "bruh"
 language = "Inglês"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "Toki Pona"
 
 [[panke]]
 language = "Toki Pona"

@@ -1,7 +1,7 @@
 #:schema ../../api/generated/font.json
 id        = "sitelen kiki Esi"
 name      = "sitelen kiki Esi"
-filename  = "sitelen kiki Esi.ttf"
+filename  = "sitelen-kiki-Esi-tan-mu-Esitense-usawi.ttf"
 creator   = ["mu Esitense usawi"]
 license   = "OFL-1.1"
 ligatures = true
@@ -21,7 +21,7 @@ features = [
   # "incomplete",
   # "variable weight",
   # "name glyphs",
-  "character variants",
+  # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
   # "all ku suli and UCSUR words",   # apeja, pake, powe
@@ -47,6 +47,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20kiki%20Esi.ttf"
+fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen-kiki-Esi-tan-mu-Esitense-usawi.ttf"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
 webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-kiki-Esi.html"

@@ -112,10 +112,6 @@ language = "英文"
 definition = "have"
 language = "普通話"
 
-[[jonke]]
-definition = "hjönk"
-language = "象声词"
-
 [[kala]]
 definition = "fish"
 language = "Finnish"
@@ -473,9 +469,6 @@ language = "英文"
 [[mu]]
 language = "象声词"
 
-[[mulapisu]]
-language = "冇起源"
-
 [[mun]]
 definition = "moon"
 language = "英文"
@@ -598,10 +591,6 @@ language = "英文"
 [[pake]]
 definition = "block"
 language = "英文"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "托基波納 (toki pona)"
 
 [[pali]]
 definition = "do, make"

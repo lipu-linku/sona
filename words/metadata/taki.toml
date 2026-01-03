@@ -34,6 +34,7 @@ ligatures = ["taki", "taki2"]
 2022-08 = 14
 2023-09 = 14
 2024-09 = 8
+2025-09 = 6
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/taki"

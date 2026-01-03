@@ -30,6 +30,7 @@ ligatures = ["wa"]
 2022-08 = 13
 2023-09 = 17
 2024-09 = 10
+2025-09 = 11
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/wa"

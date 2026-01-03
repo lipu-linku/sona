@@ -26,6 +26,7 @@ ligatures = ["penpo"]
 
 [usage]
 2024-09 = 5
+2025-09 = 7
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/penpo"

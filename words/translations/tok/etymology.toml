@@ -112,10 +112,6 @@ language = "toki Inli"
 definition = "have"
 language = "toki Sonko"
 
-[[jonke]]
-definition = "hjönk"
-language = "mu"
-
 [[kala]]
 definition = "fish"
 language = "toki Somi"
@@ -473,9 +469,6 @@ language = "toki Inli"
 [[mu]]
 language = "mu"
 
-[[mulapisu]]
-language = "nimi ni li kama ala tan toki ante"
-
 [[mun]]
 definition = "moon"
 language = "toki Inli"
@@ -598,10 +591,6 @@ language = "toki Inli"
 [[pake]]
 definition = "block"
 language = "toki Inli"
-
-[[pakola]]
-definition = "broken, damaged, harmed, destroyed"
-language = "toki pona"
 
 [[pali]]
 definition = "do, make"

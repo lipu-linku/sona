@@ -150,6 +150,10 @@ language = "Kantonees"
 definition = "jeej/yeey"
 language = "Engels"
 
+[[jonke]]
+definition = "gak"
+language = "onomatopee"
+
 [[ju]]
 language = "op voorhand"
 
@@ -427,6 +431,9 @@ language = "Engels"
 definition = "met een dun schild"
 language = "Latijn"
 
+[[mulapisu]]
+language = "op voorhand"
+
 [[nalanja]]
 definition = "oranje"
 language = "Spaans"
@@ -508,6 +515,10 @@ language = "Engels"
 [[pa]]
 definition = "bruh"
 language = "Engels"
+
+[[pakola]]
+definition = "gebroken, kapot, beschadigd, gewond, vernietigd"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

@@ -20,6 +20,7 @@ ligatures = ["ta"]
 [usage]
 2023-09 = 1
 2024-09 = 1
+2025-09 = 1
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/Preverb_marking"
