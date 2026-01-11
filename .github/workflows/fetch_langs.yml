@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   fetch-langs:
+    if: github.repository == 'lipu-Linku/sona'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
