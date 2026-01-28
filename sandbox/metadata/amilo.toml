@@ -1,0 +1,24 @@
+#:schema ../../api/generated/word.json
+id = "amilo"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2025"
+creator = ["Theooolone"]
+see_also = ["akesi", "jan", "kala", "kasi", "kijetesantakalu", "kili", "pipi", "soko", "soweli", "waso"]
+source_language = "Esperanto"
+usage_category = "sandbox"
+word = "amilo"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "animalo"
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
