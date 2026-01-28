@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen kiki Esi"
 name = "sitelen kiki Esi"
 filename = "sitelen kiki Esi.ttf"
