@@ -2,7 +2,7 @@
 id        = "VeryLegibleSP"
 name      = "VeryLegibleSP"
 filename  = "VeryLegibleSP-tan-jan-Kimeki.ttf"
-creator   = ["jan Kimeki"]
+author   = ["jan Kimeki"]
 license   = "CC0-1.0"
 ligatures = true
 ucsur     = true

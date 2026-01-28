@@ -10,7 +10,7 @@
 id        = "linja nasa lili tan kulupu Kijesi Kema"
 name      = "linja nasa lili tan kulupu Kijesi Kema"
 filename  = "linja-nasa-lili-tan-kulupu-Kijesi-Kema.ttf"
-creator   = ["kulupu Kijesi Kema"]
+author   = ["kulupu Kijesi Kema"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

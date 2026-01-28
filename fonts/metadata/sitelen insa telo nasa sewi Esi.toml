@@ -2,7 +2,7 @@
 id        = "sitelen insa telo nasa sewi Esi"
 name      = "sitelen insa telo nasa sewi Esi"
 filename  = "sitelen-insa-telo-nasa-sewi-Esi-tan-mu-Esitense-usawi.ttf"
-creator   = ["mu Esitense usawi"]
+author   = ["mu Esitense usawi"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

@@ -10,7 +10,7 @@
 id        = "sitelen pi pipi tawa"
 name      = "sitelen pi pipi tawa"
 filename  = "sitelen-pi-pipi-tawa.ttf"
-creator   = ["pipi Pipitawa"]
+author   = ["pipi Pipitawa"]
 license   = "CC0-1.0"
 ligatures = true
 ucsur     = true

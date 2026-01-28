@@ -10,7 +10,7 @@
 id        = "soweli mu tan soweli mu"
 name      = "soweli mu tan soweli mu"
 filename  = "soweli mu tan soweli mu.ttf"
-creator   = ["soweli mu"]
+author   = ["soweli mu"]
 license   = "CC0-1.0"
 ligatures = true
 ucsur     = true

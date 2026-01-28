@@ -10,7 +10,7 @@
 id        = "linja pi ilo suno tan ilo Jewiko"
 name      = "linja pi ilo suno tan ilo Jewiko"
 filename  = "linja pi ilo suno tan ilo Jewiko.ttf"
-creator   = ["ijo Jewiko"]
+author   = ["ijo Jewiko"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

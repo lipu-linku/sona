@@ -2,7 +2,7 @@
 id        = "linja Wasopimeja jaki"
 name      = "linja Wasopimeja jaki"
 filename  = "linja-Wasopimeja-jaki-tan-jan-Wasopimeja.ttf"
-creator   = ["jan Wasopimeja"]
+author   = ["jan Wasopimeja"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

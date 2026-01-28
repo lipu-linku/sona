@@ -2,7 +2,7 @@
 id        = "sitelen nasa tan jan San"
 name      = "sitelen nasa tan jan San"
 filename  = "sitelen-nasa-tan-jan-San.ttf"
-creator   = ["jan San"]
+author   = ["jan San"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

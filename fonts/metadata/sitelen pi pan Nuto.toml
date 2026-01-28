@@ -2,7 +2,7 @@
 id        = "sitelen pi pan Nuto"
 name      = "sitelen pi pan Nuto"
 filename  = "sitelen-pi-pan-Nuto.ttf"
-creator   = ["pan Nuto"]
+author   = ["pan Nuto"]
 license   = "CC0-1.0"
 ligatures = true
 ucsur     = true
