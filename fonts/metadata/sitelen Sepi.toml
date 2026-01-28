@@ -1,12 +1,12 @@
-#:schema ../../api/generated/v2/font.json
+#:schema ../../api/generated/font.json
 id = "sitelen Sepi"
 name = "sitelen Sepi"
 filename = "sitelen Sepi.ttf"
-author = ["kijetesantakalu Nawili"]
+creator = ["kijetesantakalu Nawili"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true
-writing_system = "sitelen pona"     # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+writing_system = "sitelen pona"      # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
 last_updated = "2025-09"

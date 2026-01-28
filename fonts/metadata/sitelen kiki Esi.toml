@@ -1,15 +1,15 @@
-#:schema ../../api/generated/v2/font.json
+#:schema ../../api/generated/font.json
 id = "sitelen kiki Esi"
 name = "sitelen kiki Esi"
 filename = "sitelen kiki Esi.ttf"
-author = ["mu Esitense usawi"]
+creator = ["mu Esitense usawi"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true
 writing_system = "sitelen pona"   # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
-last_updated = "2025-09"
+last_updated = "2026-01"
 version = "1"
 
 features = [
@@ -24,7 +24,7 @@ features = [
   "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
-  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "all ku suli and UCSUR words",   # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -46,7 +46,7 @@ style = "handwritten"
 # style = "unspecified"
 
 [links]
-# Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20kiki%20Esi.ttf"
-repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+# Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
+fontfile = "https://wasokeli.github.io/sp-font-maker/sitelen%20kiki%20Esi.ttf"
 webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-kiki-Esi.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"

@@ -1,0 +1,60 @@
+#:schema ../../api/generated/font.json
+
+# To submit your font to ilo Linku, for use with the Discord `/sitelenpona` command:
+# 1. Upload your font to a website, like GitHub or Neocities
+# 2. Add the URL to your .TTF file at the bottom of this .TOML file
+# 3. Fill out the rest of this .TOML file. If you don't have a repo or a webpage, leave those blank
+# 4. Submit the .TOML to this page: https://github.com/lipu-linku/sona/tree/main/fonts/metadata
+# 5. Ask for help if you need it! Join the Linku Discord, or make a GitHub Issue on lipu-linku/sona.
+
+id        = "linja pi ilo suno tan ilo Jewiko"
+name      = "linja pi ilo suno tan ilo Jewiko"
+filename  = "linja pi ilo suno tan ilo Jewiko.ttf"
+creator   = ["ijo Jewiko"]
+license   = "OFL-1.1"
+ligatures = true
+ucsur     = true
+writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+                                # tokiponido alphabet, tokiponido syllabary, tokiponido logography
+
+last_updated = "2025-12"
+version      = "1"
+
+features = [
+  "ASCII transcription and codepoints",
+  "UCSUR-compliant",
+  "cartouches",
+  # "SP Font Maker words v2.2",        # unless they didn't fill out all the words
+
+  # "incomplete",
+  # "variable weight",
+  # "name glyphs",
+  # "character variants",
+  # "Linku common & uncommon 2024"   # nimisin
+  "all ku suli",                   # kokosila
+  # "all ku suli and UCSUR words",   # kokosila, apeja, pake, powe
+  # "community requested nimisin",
+
+  # Not implemented in SP Font Maker:
+  # "long pi",
+  # "randomized jaki",
+  # "ZWJ sequences",
+  # "tuki tiki",
+]
+
+# Pick one style, or put multiple comma-separated styles in quotes.
+# style = "handwritten"
+style = "alternate design"
+# style = "uniform line weight"
+# style = "pixelated"
+# style = "handdrawn"
+# style = "serif"
+# style = "sans-serif"
+# style = "faux 3d"
+# style = "unspecified"
+
+[links]
+# Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
+fontfile = "https://wasokeli.github.io/sp-font-maker/linja%20pi%20ilo%20suno%20tan%20ilo%20Jewiko.ttf"
+webpage  = "https://wasokeli.github.io/sp-font-maker/linja-pi-ilo-suno-tan-ilo-Jewiko.html"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"

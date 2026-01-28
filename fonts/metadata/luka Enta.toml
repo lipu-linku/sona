@@ -1,15 +1,15 @@
-#:schema ../../api/generated/v2/font.json
+#:schema ../../api/generated/font.json
 id = "luka Enta"
 name = "luka Enta"
 filename = "luka-Enta.ttf"
-author = ["jan lili Enta"]
+creator = ["jan lili Enta"]
 license = "CC0-1.0"
 ligatures = true
 ucsur = true
 writing_system = "sitelen pona"
 
-last_updated = "2025-07"
-version = "1.2"
+last_updated = "2025-12"
+version = "1.3"
 
 features = [
   "ASCII transcription and codepoints",
