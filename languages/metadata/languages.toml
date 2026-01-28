@@ -180,7 +180,7 @@ endonym = "Ido"
 tok = "toki Ito"
 
 [isv_c]
-locale = "isvc"
+locale = "isv-Cyrl"
 id = "isv_c"
 direction = "ltr"
 
@@ -190,7 +190,7 @@ endonym = "Меджусловјанскы (кирилица)"
 tok = "toki Mesulojanki (sitelen Kililisa)"
 
 [isv_l]
-locale = "isvl"
+locale = "isv-Latn"
 id = "isv_l"
 direction = "ltr"
 
