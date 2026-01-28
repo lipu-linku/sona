@@ -2,7 +2,7 @@
 id = "sitelen sitelen open"
 name = "sitelen sitelen open"
 filename = "sitelen-sitelen-open.ttf"
-creator = ["jan lili Enta", "jan Josan"]
+author = ["jan lili Enta", "jan Josan"]
 license = "CC BY 4.0"
 ligatures = true
 ucsur = true
