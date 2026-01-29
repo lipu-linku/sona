@@ -4,7 +4,7 @@ creator = ["lipamanka"]
 features = [
   "ASCII transcription",
   "UCSUR-compliant",
-  "supports ku suli and the rest of the UCSUR characters",
+  "all UCSUR 2022 words",
   "cartouches",
   "long pi",
   "name glyphs",

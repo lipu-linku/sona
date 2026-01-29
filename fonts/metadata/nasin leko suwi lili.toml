@@ -4,7 +4,7 @@ creator = ["Bo_Tie"]
 features = [
   "codepoints only",
   "UCSUR-compliant",
-  "supports ku suli and the rest of the UCSUR characters",
+  "all UCSUR 2022 words",
 ]
 filename = "nasin-leko-suwi-lili.ttf"
 last_updated = "2023-02"

@@ -6,7 +6,7 @@ features = [
   "UCSUR-compliant",
   "supports cartouches",
   "long pi",
-  "supports all ku suli and the rest of UCSUR",
+  "all UCSUR 2022 words",
 ]
 filename = "linja-sikipi.ttf"
 last_updated = "2023-11"
