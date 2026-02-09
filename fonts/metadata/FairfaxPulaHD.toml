@@ -13,13 +13,13 @@ features = [
   "supports all ku lili and extensively more",
 ]
 filename = "fairfax-pula-hd.ttf"
-last_updated = "2024-02"
+last_updated = "2026-02"
 license = "OFL"
 ligatures = true
 name = "Fairfax Pula HD"
 style = "uniform line weight"
 ucsur = true
-version = "2024.02.05"
+version = "2026.02.08"
 writing_system = "tokiponido logography"
 
 [links]
