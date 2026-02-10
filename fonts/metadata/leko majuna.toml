@@ -4,7 +4,7 @@ creator = ["waso Keli"]
 features = [
   "ASCII transcription",
   "UCSUR-compliant",
-  "supports ku suli and the rest of the UCSUR characters",
+  "all UCSUR 2022 words",
 ]
 filename = "leko-majuna.ttf"
 last_updated = "2023-02"
