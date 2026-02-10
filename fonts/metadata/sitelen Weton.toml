@@ -55,6 +55,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-# fontfile = "https://wasokeli.github.io/sp-font-maker/sitelen-Weton.ttf"
-# webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Weton.html"
-# repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+fontfile = "https://wasokeli.github.io/sp-font-maker/sitelen-Weton.ttf"
+webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-Weton.html"
+repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
