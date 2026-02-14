@@ -25,7 +25,7 @@ features = [
   # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   "all ku suli",                   
-  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "all UCSUR 2022 words",          # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -51,3 +51,4 @@ style = "handwritten"
 fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
 repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
 webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
+
