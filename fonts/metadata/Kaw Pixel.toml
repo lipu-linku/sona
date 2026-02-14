@@ -10,7 +10,7 @@ features = [
   #"ZWJ sequences",
   #"character variants",
   #"randomized jaki",
-  "supports all ucsur words",
+  "all UCSUR 2022 words",
 ]
 filename = "kaw-pixel.ttf"
 last_updated = "2024-12"
