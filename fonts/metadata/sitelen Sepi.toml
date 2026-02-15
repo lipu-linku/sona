@@ -6,7 +6,7 @@ author = ["kijetesantakalu Nawili"]
 license = "OFL-1.1"
 ligatures = true
 ucsur = true
-writing_system = "sitelen pona"      # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
+writing_system = "sitelen pona"     # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
 last_updated = "2025-09"
@@ -24,7 +24,7 @@ features = [
   "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   # "all ku suli",                   # kokosila
-  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "all UCSUR 2022 words",          # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:

@@ -8,7 +8,7 @@ features = [
   "extended glyphs",
   "combined glyphs",
   "ZWJ sequences",
-  "supports all ku suli and the rest of UCSUR",
+  "all UCSUR 2022 words",
 ]
 filename = "nishiki-teki-lili.ttf"
 last_updated = "2023-04"

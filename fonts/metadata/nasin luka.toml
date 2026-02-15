@@ -6,7 +6,7 @@ features = [
   "UCSUR-compliant",
   "cartouches",
   "long pi",
-  "supports ku suli and the rest of the UCSUR characters and more",
+  "all UCSUR 2022 words",
   "tuki tiki",
 ]
 filename = "nasinluka.otf"

@@ -23,8 +23,8 @@ features = [
   # "name glyphs",
   # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
-  "all ku suli",                 # kokosila
-  "all ku suli and UCSUR words", # apeja, pake, powe
+  "all ku suli",          # kokosila
+  "all UCSUR 2022 words", # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:

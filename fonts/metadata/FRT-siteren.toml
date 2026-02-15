@@ -7,32 +7,32 @@
 # 4. Submit the .TOML to this page: https://github.com/lipu-linku/sona/tree/main/fonts/metadata
 # 5. Ask for help if you need it! Join the Linku Discord, or make a GitHub Issue on lipu-linku/sona.
 
-id        = "linja nasa lili tan kulupu Kijesi Kema"
-name      = "linja nasa lili tan kulupu Kijesi Kema"
-filename  = "linja-nasa-lili-tan-kulupu-Kijesi-Kema.ttf"
-author   = ["kulupu Kijesi Kema"]
-license   = "OFL-1.1"
+id = "FRT siteren"
+name = "ＦＲＴしてれん"
+filename = "FRT-siteren.ttf"
+author = ["飛蝶"]
+license = "CC0-1.0"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
-                                # tokiponido alphabet, tokiponido syllabary, tokiponido logography
+# tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
 last_updated = "2026-01"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "cartouches",
-  "SP Font Maker words v2.2",        # unless they didn't fill out all the words
+  "SP Font Maker words v2.2",           # unless they didn't fill out all the words
 
   # "incomplete",
   # "variable weight",
   # "name glyphs",
   # "character variants",
-  "Linku common & uncommon 2024"   # nimisin
-  # "all ku suli",                   # kokosila
-  # "all UCSUR 2022 words",          # kokosila, apeja, pake, powe
+  "Linku common & uncommon 2024", # nimisin
+  "all ku suli",                  # kokosila
+  "all UCSUR 2022 words",         # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -43,10 +43,10 @@ features = [
 ]
 
 # Pick one style, or put multiple comma-separated styles in quotes.
-style = "handwritten"
+# style = "handwritten"
 # style = "alternate design"
 # style = "uniform line weight"
-# style = "pixelated"
+style = "pixelated"
 # style = "handdrawn"
 # style = "serif"
 # style = "sans-serif"
@@ -55,6 +55,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://wasokeli.github.io/sp-font-maker/linja-nasa-lili-tan-kulupu-Kijesi-Kema.ttf"
-webpage  = "https://wasokeli.github.io/sp-font-maker/linja-nasa-lili-tan-kulupu-Kijesi-Kema.html"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+fontfile = "https://wasokeli.github.io/sp-font-maker/FRT-siteren.ttf"
+webpage = "https://wasokeli.github.io/sp-font-maker/FRT-siteren.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"

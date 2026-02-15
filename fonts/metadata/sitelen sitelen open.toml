@@ -6,7 +6,7 @@ author = ["jan lili Enta", "jan Josan"]
 license = "CC BY 4.0"
 ligatures = true
 ucsur = true
-writing_system = "sitelen sitelen"       # must be one of the following: 
+writing_system = "sitelen sitelen"      # must be one of the following: 
 # "sitelen pona","sitelen sitelen","alphabet","syllabary","logography",
 # "tokiponido alphabet","tokiponido syllabary","tokiponido logography"
 
@@ -25,7 +25,7 @@ features = [
   # "character variants",
   # "Linku common & uncommon 2024"   # nimisin
   "all ku suli",
-  # "all ku suli and UCSUR words",   # apeja, pake, powe
+  # "all UCSUR 2022 words",          # kokosila, apeja, pake, powe
   # "community requested nimisin",
 
   # Not implemented in SP Font Maker:
@@ -48,6 +48,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
-repo = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
-webpage = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
+# fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
+# repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
+# webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"

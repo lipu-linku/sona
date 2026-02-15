@@ -10,15 +10,16 @@ book = "none"
 coined_era = "post-ku"
 creation_date = "2025"
 author = ["jan Emesu", "jan Sonja"]
-see_also = ["kon", "jaki", "suwi"]
+see_also = ["kon", "jaki"]
 source_language = "Ainu"
 usage_category = "sandbox"
 word = "iwa"
 deprecated = false
 glyph_ids = []
 # primary_glyph_id = ""
-audio = []
 # teachability = 4
+
+audio = []
 
 [representations]
 ligatures = ["iwa"]
@@ -30,4 +31,4 @@ ligatures = ["iwa"]
 [translations]
 commentary = ""
 definition = "malodorous chemical substance, such as sulfur, hydrogen sulfide, chlorine gas, bromine, white phosphorus, or selenide compounds"
-etymology = "イワゥ (iwaw): Ainu, sulfur"
+etymology = "イワゥ (iwau): Ainu, sulfur"
