@@ -1,12 +1,12 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "suno toki"
-creator = ["jan Ke Tami"]
+author = ["jan Ke Tami"]
 features = [
   "ASCII transcription",
   "cartouches",
   "color font",
   "auto-cartouching",
-  "long pi"
+  "long pi",
 ]
 filename = "suno-toki.otf"
 last_updated = "2024-11"

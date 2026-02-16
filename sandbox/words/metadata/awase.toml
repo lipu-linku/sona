@@ -1,0 +1,34 @@
+#:schema ../../../api/generated/v2/word.json
+id = "awase"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["jan Lenoka"]
+see_also = ["utala", "pakala", "tawa", "anpa", "pilin", "luka"]
+source_language = "Armenian"
+usage_category = "sandbox"
+word = "awase"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/awase.mp3"
+
+[representations]
+ligatures = ["awase"]
+
+[usage]
+2022-08 = 0
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = 'jan Lenoka further elaborated the semantics to imply "to bump into, to make contact with".'
+definition = "bump, knock, jolt"
+etymology = "հարվածել (harvacel): Armenian, hit, strike"

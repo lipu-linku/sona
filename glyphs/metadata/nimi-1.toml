@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "nimi-1"
+word = "nimi"
+word_id = "nimi"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/nimi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/nimi.svg"
+ligature = "nimi01"
+ucsur = "U+F1942"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a nametag or sitelen pona cartouche"
+names = ["pu nimi"]

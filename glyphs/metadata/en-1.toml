@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "en-1"
+word = "en"
+word_id = "en"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/en.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/en.svg"
+ligature = "en01"
+ucsur = "U+F190A"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "from plus sign (+); compare blissymbol “and”."
+names = ["pu en"]

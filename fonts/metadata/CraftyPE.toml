@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "CraftyPE"
-creator = ["ParanormalChicken / Erek Butcher"]
+author = ["ParanormalChicken / Erek Butcher"]
 features = [
   "codepoints only",
   "UCSUR-compliant",

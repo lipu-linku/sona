@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "po-1"
+word = "po"
+word_id = "po"
+usage_category = "obscure"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1rC_RGB7AU1mptklt0PMqtaxgnDVAv7bm"
+# svg = ""
+ligature = "po01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "Arabic numeral 4"
+names = []

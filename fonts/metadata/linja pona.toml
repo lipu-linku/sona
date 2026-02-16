@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja pona"
-creator = ["David A Roberts / jan Same"]
+author = ["David A Roberts / jan Same"]
 features = [
   "ASCII transcription",
   "supports cartouches",

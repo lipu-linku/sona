@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "linluwi-1"
+word = "linluwi"
+word_id = "linluwi"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/390235975470546945"
+author = ["jan inwin"]
+creation_date = "2017-12-12"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1Km6ZWXj0OcE5AwR1QSy-zmIoWNYr_w4i"
+# svg = ""
+ligature = "linluwi01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["len-1", "linja-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["emitters linluwi"]

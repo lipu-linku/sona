@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kala-2"
+word = "kala"
+word_id = "kala"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/873747093565636628"
+author = ["soko Awen"]
+creation_date = "2021-08-07"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1qIB_NkUBh_I2ZoI0NYmFqFchdc2Bt13n"
+# svg = ""
+ligature = "kala02"
+ucsur = "U+F1914"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "The given earliest known glyph is somewhat silly, but it is an apt and intentional representation of the kala glyph with eyes."
+etymology = ""
+names = ["eyes kala"]

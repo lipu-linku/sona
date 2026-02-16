@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "lupa-2"
+word = "lupa"
+word_id = "lupa"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1x7PdAwFV9yyNhUrVcC90_dgUSMZkkOQs"
+# svg = ""
+ligature = "lupa2"
+ucsur = "U+F192F"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["ground lupa"]

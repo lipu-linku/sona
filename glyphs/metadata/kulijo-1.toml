@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kulijo-1"
+word = "kulijo"
+word_id = "kulijo"
+usage_category = "obscure"
+author_source = ""
+author = ["jan Lepeka"]
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1sjpxtyyrz9Af6jgNI_G1ZuVhGDwetuq2"
+# svg = ""
+ligature = "kulijo01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["lete-1"]
+
+[usage]
+
+[translations]
+commentary = "jan Lepeka reports to have created the lete version of kulijo, but we have not found the source. https://discord.com/channels/948448338662010910/1191946786936459325/1294891407026159647"
+etymology = ""
+names = ["lete kulijo"]

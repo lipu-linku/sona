@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "taki-3"
+word = "taki"
+word_id = "taki"
+usage_category = "sandbox"
+author_source = "https://wasokeli.github.io/sp-font-maker/linja-li-nja-tan-jan-Jami.html"
+author = ["jan jami"]
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1s0cdw4vEPvBRVS0VSAyNk17NE0GYTtSl"
+# svg = ""
+ligature = "taki3"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

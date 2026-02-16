@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "misa-5"
+word = "misa"
+word_id = "misa"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/819618189205045248"
+author = ["lipamanka"]
+creation_date = "2021-03-11"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1YdwYdhDldHJYgNeetqF4FcMFDq7bzVS_"
+# svg = ""
+ligature = "misa5"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

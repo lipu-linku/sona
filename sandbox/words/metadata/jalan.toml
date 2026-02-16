@@ -1,0 +1,37 @@
+#:schema ../../../api/generated/v2/word.json
+id = "jalan"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "pre-pu"
+creation_date = "2002"
+author = ["jan Sonja"]
+see_also = ["noka"]
+source_language = "Finnish"
+usage_category = "sandbox"
+word = "jalan"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jalan.mp3"
+
+[representations]
+ligatures = ["jalan"]
+
+[usage]
+2020-04 = 13
+2021-10 = 20
+2022-08 = 1
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/jalan"
+
+[translations]
+commentary = 'In a poll in 2002, "jalan" was proposed as a replacement for "noka". However, it failed to get enough votes.'
+definition = "foot, leg [polled as a replacement for noka in 2002]"
+etymology = "jalan: Finnish, afoot; jalka: Finnish, foot"

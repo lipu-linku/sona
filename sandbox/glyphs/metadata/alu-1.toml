@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "alu-1"
+word = "alu"
+word_id = "alu"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
+author = ["the_whatevers"]
+creation_date = "2020-11-30"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1e5Hm-TLJqqLFtBwRsmBCoawC8MIB6gQH"
+# svg = ""
+ligature = "alu1"
+alias_ligatures = []
+# teachability = 4
+see_also = ["la-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

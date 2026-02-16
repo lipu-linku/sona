@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "rtl"
+id = "ar"
+locale = "ar-SA"
+
+[name]
+en = "Standard Arabic"
+endonym = "اللغة العربية"
+tok = "toki Alapi"

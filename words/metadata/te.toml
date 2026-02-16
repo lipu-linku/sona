@@ -1,24 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "te"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["kala kala/jan Salan", "jan Lakuse"]
+creation_date = "2020"
+author = ["kala kala/jan Salan", "jan Lakuse"]
 see_also = ["to"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "te"
 deprecated = false
+glyph_ids = ["te-1"]
+primary_glyph_id = "te-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/te.mp3"
-
-[[etymology]]
-alt = "tte"
-word = "って"
 
 [ku_data]
 "(opening quotation particle)" = 7
@@ -39,3 +38,8 @@ sitelen_emosi = "🤜"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/te"
+
+[translations]
+commentary = 'May be paired with "to", or used on its own. It is unclear how accepted either approach is among te / to users.'
+definition = "(particle) [opens a quote]"
+etymology = "って (tte): Japanese, (quotative)"

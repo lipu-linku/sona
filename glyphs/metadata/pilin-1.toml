@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pilin-1"
+word = "pilin"
+word_id = "pilin"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pilin.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/pilin.svg"
+ligature = "pilin01"
+ucsur = "U+F194E"
+alias_ligatures = []
+# teachability = 1
+see_also = ["olin-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "from heart symbol (♡). compare blissymbol “feeling”"
+names = ["pu pilin"]

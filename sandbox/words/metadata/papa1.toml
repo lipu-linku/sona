@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "papa1"
+author_verbatim = "spinning iridium object, accelerating exponentially"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/830102571220992030"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["heav_"]
+see_also = []
+source_language = "a priori"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "spinning iridium object, accelerating exponentially"
+etymology = "papa: a priori"

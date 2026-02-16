@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "api"
+author_verbatim = "idea: ante toki pona kepeken \"api\"."
+author_source = "https://discord.com/channels/301377942062366741/301378960468738050/821688031114821643"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["heav"]
+see_also = ["pipi"]
+source_language = "Latin"
+usage_category = "sandbox"
+word = "api"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["api"]
+
+[usage]
+2022-08 = 0
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "🐝; bee"
+etymology = "apis: Latin, bee"

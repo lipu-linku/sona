@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mu-1"
+word = "mu"
+word_id = "mu"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/mu.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/mu.svg"
+ligature = "mu01"
+ucsur = "U+F1939"
+alias_ligatures = []
+# teachability = 1
+see_also = ["mani-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pictogram of a mammal"
+names = ["pu mu"]

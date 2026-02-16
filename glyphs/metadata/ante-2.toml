@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ante-2"
+word = "ante"
+word_id = "ante"
+usage_category = "uncommon"
+author_source = "https://jackhumbert.github.io/sitelen-pona-pona/"
+author = ["Jack Humbert"]
+creation_date = "2020-03-09"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1cwicxGTLeayf-8tM-UhKtANKsug_uP1R"
+# svg = ""
+ligature = "ante02"
+ucsur = "U+F1906"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["skew ante"]

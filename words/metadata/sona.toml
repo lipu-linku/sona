@@ -1,16 +1,19 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "sona"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Georgian"
 usage_category = "core"
 word = "sona"
 deprecated = false
+glyph_ids = ["sona-1"]
+primary_glyph_id = "sona-1"
+# teachability = 1
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +22,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/sona.mp3"
-
-[[etymology]]
-alt = "codna"
-word = "ცოდნა"
 
 [ku_data]
 acknowledge = 25
@@ -79,3 +78,8 @@ sitelen_jelo = ["🧠"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sona"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#sona"
+
+[translations]
+commentary = ""
+definition = "knowledge, information, data; know, be skilled in, be wise about; (preverb) know how to"
+etymology = "ცოდნა (codna): Georgian, knowledge"

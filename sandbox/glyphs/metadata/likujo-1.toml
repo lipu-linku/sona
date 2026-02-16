@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "likujo-1"
+word = "likujo"
+word_id = "likujo"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1VM0s9maAy7ob5Z_1pR_KAkwSlo1n-LUj"
+# svg = ""
+ligature = "likujo1"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "a-3"
+word = "a"
+word_id = "a"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1__AuwNWWoa-2JH2Ew7fFCnvGTa4Ghhdc"
+# svg = ""
+ligature = "a3"
+ucsur = "U+F1900"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["aa", "double stick a"]

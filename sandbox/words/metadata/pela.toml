@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pela"
+author_verbatim = "pela could be a nimi sin for dog"
+author_source = "https://discord.com/channels/301377942062366741/301378960468738050/790357845752676373"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020"
+author = ["jan Sonja"]
+see_also = ["soweli", "wisa"]
+source_language = "a priori"
+usage_category = "sandbox"
+word = "pela"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = "A reference to Sacha Baron Cohen's interview with Noah Chomsky."
+definition = "dog"
+etymology = "pela: a priori"
+# are you absolutely sure? this seems like https://en.wikipedia.org/wiki/Perra

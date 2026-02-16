@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lanpan-2"
+word = "lanpan"
+word_id = "lanpan"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/810288757470527548"
+author = ["lipamanka"]
+creation_date = "2021-02-13"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=114-3KNfQsVi7UaDNZsu2S5aX3ktQ5JmE"
+# svg = ""
+ligature = "lanpan02"
+ucsur = "U+F1985"
+alias_ligatures = []
+# teachability = 4
+see_also = ["pana-1"]
+
+[usage]
+
+[translations]
+commentary = "The flipped pana version of lanpan is likely older than currently known."
+etymology = ""
+names = ["pana lanpan", "flipped pana lanpan"]

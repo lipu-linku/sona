@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ken-1"
+word = "ken"
+word_id = "ken"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ken.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/ken.svg"
+ligature = "ken01"
+ucsur = "U+F1918"
+alias_ligatures = []
+# teachability = 1
+see_also = ["wile-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "perhaps from Latin letter K"
+names = ["pu ken"]

@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pika-1"
+word = "pika"
+word_id = "pika"
+usage_category = "obscure"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1-oLh8Z-iUZgCr_mA9EgMuOiIE8k6Dp82"
+# svg = ""
+ligature = "pika01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "The earliest known instance of this glyph is by nimi Elemenopi, but it was called linluwi and not pika. It is not known where this glyph came to be called pika, but it is believed that this glyph developed independently from other abstract representations of electricity. https://www.reddit.com/r/tokipona/comments/hxzvew"
+etymology = ""
+names = []

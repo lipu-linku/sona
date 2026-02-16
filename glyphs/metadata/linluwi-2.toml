@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "linluwi-2"
+word = "linluwi"
+word_id = "linluwi"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/809512920555192331"
+author = ["lipamanka"]
+creation_date = "2021-02-11"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1u3pyctFZGu2IzZKkQTnz1eCFdELl8KVM"
+# svg = ""
+ligature = "linluwi02"
+alias_ligatures = []
+# teachability = 4
+see_also = ["sitelen-1", "len-1", "linja-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["sitelen linluwi"]

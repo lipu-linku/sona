@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mije-2"
+word = "mije"
+word_id = "mije"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/605058586380599307"
+author = ["scarlet"]
+creation_date = "2019-07-28"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1imMJZGe5WwuOVPORcNH6WHEw9KkCa2_k"
+# svg = ""
+ligature = "mije02"
+ucsur = "U+F1935"
+alias_ligatures = []
+# teachability = 4
+see_also = ["meli-2", "tonsi-1"]
+
+[usage]
+
+[translations]
+commentary = "This glyph has been independently recreated several times. For example, it was added to ijo Mina's linja suwi as 'mije-alt' in February 2021. https://web.archive.org/web/20210211124101/https://linjasuwi.ap5.dev/ "
+etymology = ""
+names = ["mars mije"]

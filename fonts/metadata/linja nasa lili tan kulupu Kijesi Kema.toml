@@ -1,4 +1,4 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 
 # To submit your font to ilo Linku, for use with the Discord `/sitelenpona` command:
 # 1. Upload your font to a website, like GitHub or Neocities
@@ -10,7 +10,7 @@
 id        = "linja nasa lili tan kulupu Kijesi Kema"
 name      = "linja nasa lili tan kulupu Kijesi Kema"
 filename  = "linja-nasa-lili-tan-kulupu-Kijesi-Kema.ttf"
-creator   = ["kulupu Kijesi Kema"]
+author   = ["kulupu Kijesi Kema"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true

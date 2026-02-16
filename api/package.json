@@ -1,6 +1,6 @@
 {
 	"name": "@kulupu-linku/sona",
-	"version": "0.3.7",
+	"version": "2.0.0",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
 	"bugs": {
@@ -9,7 +9,7 @@
 	"license": "GPL-3.0-or-later",
 	"contributors": [
 		{
-			"name": "TheOnlyTails",
+			"name": "Shachar Zidon",
 			"url": "https://theonlytails.com/",
 			"email": "theonlytails@theonlytails.com"
 		},
@@ -38,43 +38,69 @@
 		"@hono/zod-validator": "^0.7.4",
 		"hono": "^4.10.4",
 		"p-lazy": "^5.0.0",
-		"zod": "^3.25.76",
-		"zod-validation-error": "^3.5.4"
+		"zod": "^4.1.12"
 	},
 	"devDependencies": {
-		"@cloudflare/vite-plugin": "^1.14.0",
+		"@cloudflare/vite-plugin": "1.11.7",
 		"@hono/vite-build": "^1.7.0",
 		"@hono/vite-dev-server": "^0.20.1",
 		"@types/node": "^24.10.0",
+		"ajv": "^8.17.1",
+		"ajv-cli": "^5.0.0",
+		"ajv-formats": "^3.0.1",
 		"prettier": "^3.6.2",
 		"tsdown": "^0.14.2",
 		"tsx": "^4.20.6",
 		"typescript": "^5.9.3",
-		"vite": "^7.2.2",
-		"zod-to-json-schema": "^3.24.6"
+		"vite": "npm:rolldown-vite@^7.2.2",
+		"wrangler": "4.32.0"
 	},
 	"engines": {
-		"pnpm": ">=9"
+		"pnpm": ">=10"
 	},
 	"files": [
 		"/dist",
 		"/generated"
 	],
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/v2/index.js",
+	"module": "./dist/v2/index.js",
+	"types": "./dist/v2/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/v2/index.js",
+			"types": "./dist/v2/index.d.ts"
 		},
 		"./utils": {
-			"import": "./dist/utils.js",
-			"types": "./dist/utils.d.ts"
+			"import": "./dist/v2/utils.js",
+			"types": "./dist/v2/utils.d.ts"
 		},
 		"./client": {
-			"import": "./dist/client.js",
-			"types": "./dist/client.d.ts"
+			"import": "./dist/v2/client.js",
+			"types": "./dist/v2/client.d.ts"
+		},
+		"./v2": {
+			"import": "./dist/v2/index.js",
+			"types": "./dist/v2/index.d.ts"
+		},
+		"./v2/utils": {
+			"import": "./dist/v2/utils.js",
+			"types": "./dist/v2/utils.d.ts"
+		},
+		"./v2/client": {
+			"import": "./dist/v2/client.js",
+			"types": "./dist/v2/client.d.ts"
+		},
+		"./v1": {
+			"import": "./dist/v1/index.js",
+			"types": "./dist/v1/index.d.ts"
+		},
+		"./v1/utils": {
+			"import": "./dist/v1/utils.js",
+			"types": "./dist/v1/utils.d.ts"
+		},
+		"./v1/client": {
+			"import": "./dist/v1/client.js",
+			"types": "./dist/v1/client.d.ts"
 		}
 	},
 	"type": "module"

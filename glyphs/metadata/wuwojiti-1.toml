@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "wuwojiti-1"
+word = "wuwojiti"
+word_id = "wuwojiti"
+usage_category = "obscure"
+author_source = ""
+author = ["jan Lepeka"]
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1tNh39vo-pi49aPNt88IR7HX6TTWeibwh"
+# svg = ""
+ligature = "wuwojiti01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = "https://discord.com/channels/948448338662010910/1191946786936459325/1294891407026159647"
+etymology = ""
+names = []

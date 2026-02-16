@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kipisi-1"
+word = "kipisi"
+word_id = "kipisi"
+usage_category = "common"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
+creation_date = "2016-10-16"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1QUGhgoSfmdhs-frlSG25Q0qSu4Q0QOVT"
+# svg = ""
+ligature = "kipisi01"
+ucsur = "U+F197B"
+alias_ligatures = []
+# teachability = 2
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["percent kipisi"]

@@ -1,23 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "kulijo"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["jan pakala", "kala pona Tonyu"]
+creation_date = "2020"
+author = ["jan pakala", "kala pona Tonyu"]
 see_also = ["oke"]
 source_language = "English"
 usage_category = "obscure"
 word = "kulijo"
 deprecated = false
+glyph_ids = ["kulijo-1"]
+primary_glyph_id = "kulijo-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kulijo.mp3"
-
-[[etymology]]
-word = "coolio"
 
 [representations]
 ligatures = ["kulijo"]
@@ -31,3 +31,8 @@ ligatures = ["kulijo"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kulijo"
+
+[translations]
+commentary = ""
+definition = "(interjection) [casually express appreciation or acknowledgement]; cool, fine, okay"
+etymology = "coolio: English, coolio"

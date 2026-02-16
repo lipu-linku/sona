@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A raw data object containing information about Luka Pona fingerspelling signs",
+  "type": "object",
+  "propertyNames": {
+    "$ref": "#/$defs/__schema0"
+  },
+  "additionalProperties": {
+    "description": "Info on a fingerspelling sign.",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "A unique name for the fingerspelling which is also a gloss.",
+        "$ref": "#/$defs/__schema0"
+      },
+      "is_two_handed": {
+        "description": "Whether the sign is two-handed or not.",
+        "type": "boolean"
+      },
+      "etymology": {
+        "description": "Unlocalized etymological values regarding this sign's origin",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "language": {
+              "description": "The language of the sign.",
+              "type": "string"
+            },
+            "sign": {
+              "description": "The name of the sign such that it could be found in a sign language dictionary.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "language"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "signwriting": {
+        "description": "Scripts for representing a sign as characters.",
+        "type": "object",
+        "properties": {
+          "fsw": {
+            "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+            "type": "string",
+            "minLength": 1
+          },
+          "swu": {
+            "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign.",
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "fsw",
+          "swu"
+        ],
+        "additionalProperties": false
+      },
+      "video": {
+        "description": "Videos of the sign being performed, by format.",
+        "type": "object",
+        "properties": {
+          "gif": {
+            "description": "A link to a gif of the sign being signed.",
+            "$ref": "#/$defs/__schema1"
+          },
+          "mp4": {
+            "description": "a link to an mp4 of the sign being signed.",
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "required": [
+          "gif",
+          "mp4"
+        ],
+        "additionalProperties": false
+      },
+      "translations": {
+        "type": "object",
+        "properties": {
+          "parameters": {
+            "description": "Partly localized descriptions of how a sign is signed.",
+            "type": "object",
+            "properties": {
+              "handshape": {
+                "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+                "type": "string"
+              },
+              "movement": {
+                "description": "The motion of the hand when signing.",
+                "type": "string"
+              },
+              "placement": {
+                "description": "The placement of the hand when signing.",
+                "type": "string"
+              },
+              "orientation": {
+                "description": "The orientation of the hand when signing.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "parameters"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "is_two_handed",
+      "etymology",
+      "signwriting",
+      "translations"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "description": "A unique identifier for an object in Linku. Generally named after the object.",
+      "type": "string",
+      "minLength": 1
+    },
+    "__schema1": {
+      "description": "A URL pointing to some external resource.",
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

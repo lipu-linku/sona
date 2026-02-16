@@ -1,24 +1,23 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "misa"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2021"
-creator = ["misa Ewis"]
+creation_date = "2021"
+author = ["misa Ewis"]
 see_also = ["soweli"]
 source_language = "Ukranian"
 usage_category = "obscure"
 word = "misa"
 deprecated = false
+glyph_ids = ["misa-2", "misa-1"]
+primary_glyph_id = "misa-1"
+# teachability = 4
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/misa.mp3"
-
-[[etymology]]
-alt = "myshka"
-word = "мишка"
 
 [ku_data]
 "Glires or Eulipotyphla" = 18
@@ -36,3 +35,8 @@ ligatures = ["misa", "misa5"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/misa"
+
+[translations]
+commentary = ""
+definition = "Glires or Eulipotyphla; rat, mouse, squirrel, rabbit, rodent; {~ suli} capybara"
+etymology = "мишка (myshka): Ukrainian, mouse (diminutive)"

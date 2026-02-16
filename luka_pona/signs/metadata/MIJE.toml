@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "mije"
 id = "MIJE"
 is_two_handed = false
 new_gloss = "MIJE"
 old_gloss = "MIJE"
+old_id = "MIJE"
 
 [[etymology]]
 language = "ASL"
@@ -16,3 +17,9 @@ swu = "𝠀񅊑񆇡񌞑𝠃𝤣𝤘񅊑𝣵𝣰񆇡𝤙𝣹񌞑𝣴𝣵"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mije.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mije.mp4"
+
+[translations]
+icons = "arbitrary location for gender, aligns with MELI and TONSI"
+[translations.parameters]
+handshape = "L"
+placement = "placed on eye"

@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "nena-2"
+word = "nena"
+word_id = "nena"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=1-YJcFb6V0JcWEk3fdhtomeNYjYukQiJe"
+# svg = ""
+ligature = "nena2"
+ucsur = "U+F1940"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["ground nena"]

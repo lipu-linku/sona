@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "rtl"
+id = "he"
+locale = "he-IL"
+
+[name]
+en = "Hebrew"
+endonym = "עברית"
+tok = "toki Iwisi"

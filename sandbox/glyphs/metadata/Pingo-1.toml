@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "Pingo-1"
+word = "Pingo"
+word_id = "Pingo"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/875152684636844113"
+author = ["jan Likipi"]
+creation_date = "2021-08-11"
+primary = true
+deprecated = false
+image = "https://drive.google.com/open?id=1X3omHHYDh1viwbkp2RP2X1MiiyrmiCst"
+# svg = ""
+ligature = "Pingo1"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

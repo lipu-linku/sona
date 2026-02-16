@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "akesi-1"
+word = "akesi"
+word_id = "akesi"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/akesi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/sitelen-seli-kiwen/akesi.svg"
+ligature = "akesi01"
+ucsur = "U+F1901"
+alias_ligatures = []
+# teachability = 4
+parent_id = "akesi-2"
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "animal radical; pictogram of a lizard. radical represents eyes"
+names = ["pu akesi", "6 leg akesi", "6 legged akesi"]

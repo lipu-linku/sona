@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "olin-3"
+word = "olin"
+word_id = "olin"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/772044914338299934"
+author = ["asnev", "devurandom"]
+creation_date = "2020-10-31"
+primary = false
+deprecated = false
+image = "https://drive.google.com/open?id=13pGBUK-FvRkY0upFky0woIu5qoFy8rmj"
+# svg = ""
+ligature = "olin03"
+ucsur = "U+F1945"
+alias_ligatures = []
+# teachability = 4
+see_also = ["pilin-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "pilin with emitters"
+names = ["emitters olin"]
