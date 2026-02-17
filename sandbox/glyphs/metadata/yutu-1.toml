@@ -1,16 +1,17 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "po-8"
-word = "po"
-word_id = "po"
+id = "yutu-2"
+word = "yutu"
+word_id = "yutu"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
-primary = false
+primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1H3cQsGHPjP3W41RdstzXl3dQmg9GOhYV"
+image = ""
 # svg = ""
-ligature = "po8"
+ligature = "yutu1"
+ucsur = "U+F1959"
 alias_ligatures = []
 # teachability = 4
 see_also = []
@@ -19,5 +20,5 @@ see_also = []
 
 [translations]
 commentary = ""
-etymology = ""
+etymology = "the star emoji"
 names = []

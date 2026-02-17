@@ -6,7 +6,7 @@ usage_category = "sandbox"
 author_source = "https://www.reddit.com/r/tokipona/comments/hyi31s/a_revision_of_some_of_my_nonpu_glyphs/"
 author = ["jan Elemenopi"]
 creation_date = "2020-07-26"
-primary = false
+primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1DNUxgNYZBR0_mQXWpgXJnm2I2UwHcsVa"
 # svg = ""
@@ -20,4 +20,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["check oke"]

@@ -3,12 +3,12 @@ id = "po-2"
 word = "po"
 word_id = "po"
 usage_category = "sandbox"
-author_source = "https://www.reddit.com/r/tokipona/comments/hyi31s/a_revision_of_some_of_my_nonpu_glyphs/"
-author = ["jan Elemenopi"]
-creation_date = "2020-07-26"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844, https://discord.com/channels/301377942062366741/301377942062366741/804187779977314326"
+author = ["jan Sa", "lipamanka"]
+creation_date = "2021-01-27"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1MpRINac-ladXbsfBh16O7DPR9l0GB4Cc"
+image = "https://drive.google.com/open?id=1TaTuBf9EfWuF6E41bOVMiOPjKBYf3j4Z"
 # svg = ""
 ligature = "po2"
 alias_ligatures = []

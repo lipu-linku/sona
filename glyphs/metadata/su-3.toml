@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "su-3"
+word = "su"
+word_id = "su"
+usage_category = "obscure"
+author_source = ""
+author = ["jan Sonja"]
+creation_date = ""
+primary = false
+deprecated = false
+image = ""
+# svg = ""
+ligature = "su03"
+alias_ligatures = []
+# teachability = 4
+see_also = ["pu-1", "ku-1", "su-1", "lipu-1", "suno-1", "sama-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["su nanpa tu wan", "su pi suno sama"]

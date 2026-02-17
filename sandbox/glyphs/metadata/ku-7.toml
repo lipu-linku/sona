@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "ku-7"
+word = "ku"
+word_id = "ku"
+usage_category = "sandbox"
+author_source = ""
+author = ["jan Lepeka"]
+creation_date = ""
+primary = false
+deprecated = false
+image = ""
+# svg = ""
+ligature = "ku7"
+ucsur = "U+F1988"
+alias_ligatures = []
+# teachability = 2
+see_also = ["pu-1", "su-1", "lipu-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

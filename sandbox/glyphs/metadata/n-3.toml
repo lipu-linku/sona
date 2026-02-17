@@ -1,16 +1,17 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "owe-2"
-word = "owe"
-word_id = "owe"
+id = "n-3"
+word = "n"
+word_id = "n"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1zeBEiSFkH3wlA-4YDlSYb7HZI-ejTnbh"
+image = ""
 # svg = ""
-ligature = "owe2"
+ligature = "n3"
+ucsur = "U+F1900"
 alias_ligatures = []
 # teachability = 4
 see_also = []
@@ -20,4 +21,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["trailing n"]

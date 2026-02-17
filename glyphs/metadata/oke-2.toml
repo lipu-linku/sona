@@ -6,7 +6,7 @@ usage_category = "obscure"
 author_source = "https://discord.com/channels/301377942062366741/545467374254555137/783011373709262878"
 author = ["the_whatevers"]
 creation_date = "2020-11-30"
-primary = true
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1vSLA2eWOQKp85tpbZF9sC21CdCrDIyTB"
 # svg = ""
@@ -20,4 +20,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["circle oke"]

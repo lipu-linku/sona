@@ -1,18 +1,19 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "po-7"
-word = "po"
-word_id = "po"
+id = "moku-2"
+word = "moku"
+word_id = "moku"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1DBqW2eC6N_zTlPYJxi3G1QphGOJVAtPt"
-# svg = ""
-ligature = "po7"
+image = ""
+svg = ""
+ligature = "moku2"
+ucsur = "U+F1936"
 alias_ligatures = []
-# teachability = 4
+# teachability = 1
 see_also = []
 
 [usage]
@@ -20,4 +21,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["spoon moku"]

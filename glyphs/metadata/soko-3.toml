@@ -6,7 +6,7 @@ usage_category = "common"
 author_source = "https://discord.com/channels/301377942062366741/340307145373253642/933245343506780211"
 author = ["NickEman123"]
 creation_date = "2022-01-19"
-primary = true
+primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1hIU2AAwZg8EQ1iNsmnhqGaI0en2d8Wsy"
 # svg = ""

@@ -1,23 +1,24 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "po-5"
-word = "po"
-word_id = "po"
+id = "soweli-3"
+word = "soweli"
+word_id = "soweli"
 usage_category = "sandbox"
 author_source = ""
-author = []
+author = ["jan Lepeka"]
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1r1y2BFRox-YXLujIQVybjF6TomH7M22Q"
+image = ""
 # svg = ""
-ligature = "po5"
+ligature = "soweli3"
+ucsur = "U+F1962"
 alias_ligatures = []
-# teachability = 4
-see_also = []
+# teachability = 1
+see_also = ["soweli-1"]
 
 [usage]
 
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["side soweli"]

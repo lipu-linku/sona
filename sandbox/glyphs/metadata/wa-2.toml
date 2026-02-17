@@ -1,24 +1,23 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "powe-2"
-word = "powe"
-word_id = "powe"
+id = "wa-2"
+word = "wa"
+word_id = "wa"
 usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1qrHSiScBQH6hvU0G54pWmZjyu4tiHEX7"
+image = ""
 # svg = ""
-ligature = "powe2"
-ucsur = "U+F19A3"
+ligature = "wa2"
 alias_ligatures = []
 # teachability = 4
-see_also = []
+see_also = ["a-2", "o-2", "n-2", "kin-2"]
 
 [usage]
 
 [translations]
 commentary = ""
 etymology = ""
-names = []
+names = ["diagonal wa", "acute accent wa"]

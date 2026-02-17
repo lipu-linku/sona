@@ -13,7 +13,7 @@ image = "https://drive.google.com/open?id=1C-SqZtzA6vp70clCsd-ZNWdPoInKLr5t"
 ligature = "su02"
 alias_ligatures = []
 # teachability = 4
-see_also = ["pu-1", "ku-1", "su-1", "lipu-1"]
+see_also = ["pu-1", "ku-1", "su-1", "lipu-1", "soweli-1"]
 
 [usage]
 

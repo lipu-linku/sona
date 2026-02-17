@@ -1,19 +1,20 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "kulijo-4"
-word = "kulijo"
-word_id = "kulijo"
+id = "ku-6"
+word = "ku"
+word_id = "ku"
 usage_category = "sandbox"
 author_source = ""
-author = []
+author = ["jan Lepeka"]
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1XkAVa-izchLZRbSCX3iUBZkC6TGLTqvX"
+image = ""
 # svg = ""
-ligature = "kulijo4"
+ligature = "ku6"
+ucsur = "U+F1988"
 alias_ligatures = []
-# teachability = 4
-see_also = []
+# teachability = 2
+see_also = ["pu-1", "su-1", "lipu-1"]
 
 [usage]
 

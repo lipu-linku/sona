@@ -3,9 +3,9 @@ id = "seme-2"
 word = "seme"
 word_id = "seme"
 usage_category = "sandbox"
-author_source = "https://web.archive.org/web/20210627184954/https://devurandom.xyz/tokipona/sitelen_pona.html"
-author = ["jan Lentan"]
-creation_date = "2021-06-04"
+author_source = "https://jackhumbert.github.io/sitelen-sa/"
+author = ["Jack Humbert"]
+creation_date = "2020-03-09"
 primary = false
 deprecated = false
 image = "https://drive.google.com/open?id=1PVKRDXn3Pwt-QnDRsDWG-7Q6mJ99TGxC"

@@ -3,9 +3,9 @@ id = "teje-1"
 word = "teje"
 word_id = "teje"
 usage_category = "obscure"
-author_source = ""
-author = []
-creation_date = ""
+author_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+author = ["jan Elemenopi"]
+creation_date = "2020-07-26"
 primary = true
 deprecated = false
 image = "https://drive.google.com/open?id=1Y-gFGf_cPYI-Coz9jhh12NFKSkEHaQxF"

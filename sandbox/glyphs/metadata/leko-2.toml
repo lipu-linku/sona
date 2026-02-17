@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "leko-2"
+word = "leko"
+word_id = "leko"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = ""
+svg = ""
+ligature = "leko2"
+ucsur = "U+F1936"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["stairs leko"]

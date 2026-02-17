@@ -1,19 +1,19 @@
 #:schema ../../../api/generated/v2/glyph.json
-id = "po-4"
-word = "po"
-word_id = "po"
+id = "linluwi-4"
+word = "linluwi"
+word_id = "linluwi"
 usage_category = "sandbox"
 author_source = ""
-author = []
+author = ["jan Lepeka"]
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1e5Hm-TLJqqLFtBwRsmBCoawC8MIB6gQH"
+image = ""
 # svg = ""
-ligature = "po4"
+ligature = "linluwi04"
 alias_ligatures = []
 # teachability = 4
-see_also = []
+see_also = ["linluwi-2"]
 
 [usage]
 
