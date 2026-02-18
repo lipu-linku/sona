@@ -30,7 +30,7 @@ features = [
   # "variable weight",
   # "name glyphs",
   # "character variants",
-  # "Linku common & uncommon 2024",  # nimisin
+  "Linku common & uncommon 2024",  # nimisin
   # "all ku suli",                   # kokosila
   # "all UCSUR 2022 words",          # kokosila, apeja, pake, powe
   # "community requested nimisin",
