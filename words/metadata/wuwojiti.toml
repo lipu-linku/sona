@@ -1,7 +1,7 @@
 #:schema ../../api/generated/v2/word.json
 id = "wuwojiti"
-author_verbatim = ""
-author_source = ""
+author_verbatim = "mi jan Wuwojiti"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/439929044528660480"
 book = "none"
 coined_era = "post-pu"
 creation_date = "2018"

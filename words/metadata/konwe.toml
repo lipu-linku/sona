@@ -1,12 +1,14 @@
 #:schema ../../api/generated/v2/word.json
 id = "konwe"
-author_verbatim = ""
-author_source = ""
+author_verbatim = """KONWE
+Conway's game of life -> konwe
+emergent complex autonomous behaviors are a big part of Conway's game of life, which I think matches my target definition very well"""
+author_source = "https://discord.com/channels/301377942062366741/875519031057186876/875525059899445258"
 book = "none"
 coined_era = "post-ku"
 creation_date = "2021"
 author = ["jan Emalan"]
-see_also = ["ma", "tenpo"]
+see_also = ["ma", "tenpo", "lon"]
 source_language = "multiple"
 usage_category = "obscure"
 word = "konwe"

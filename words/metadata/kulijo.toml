@@ -1,12 +1,12 @@
 #:schema ../../api/generated/v2/word.json
 id = "kulijo"
-author_verbatim = ""
-author_source = ""
+author_verbatim = "kulijo"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/741275619718987836"
 book = "ku lili"
 coined_era = "post-pu"
-creation_date = "2020"
+creation_date = "2020-08-07"
 author = ["jan pakala", "kala pona Tonyu"]
-see_also = ["oke"]
+see_also = ["oke", "pona", "wawa"]
 source_language = "English"
 usage_category = "obscure"
 word = "kulijo"

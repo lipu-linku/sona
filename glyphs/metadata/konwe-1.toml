@@ -4,7 +4,7 @@ word = "konwe"
 word_id = "konwe"
 usage_category = "obscure"
 author_source = "https://discord.com/channels/301377942062366741/1072230753221488741/1073269363278360597"
-author = ["jan Lepeka"]
+author = ["pami Kosi"]
 creation_date = "2023-02-09"
 primary = true
 deprecated = false
@@ -18,6 +18,6 @@ see_also = []
 [usage]
 
 [translations]
-commentary = "This glyph has been independently created a few times; the currently known earliest instance is likely not the earliest, especially based on the followin conversation: https://discord.com/channels/948448338662010910/1191946786936459325/1294891407026159647"
+commentary = ""
 etymology = "pictogram of a glider in Conway's Game of Life, a machine which moves across the game board."
 names = ["glider konwe"]

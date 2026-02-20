@@ -11,7 +11,7 @@ source_language = "Ukranian"
 usage_category = "obscure"
 word = "misa"
 deprecated = false
-glyph_ids = ["misa-2", "misa-1"]
+glyph_ids = ["misa-1"]
 primary_glyph_id = "misa-1"
 # teachability = 4
 

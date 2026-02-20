@@ -1,4 +1,4 @@
-#:schema ../../api/generated/v2/glyph.json
+#:schema ../../../api/generated/v2/glyph.json
 id = "misa-2"
 word = "misa"
 word_id = "misa"
@@ -10,7 +10,7 @@ primary = false
 deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-2.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-2.svg"
-ligature = "misa02"
+ligature = "misa2"
 alias_ligatures = []
 # teachability = 4
 see_also = []
