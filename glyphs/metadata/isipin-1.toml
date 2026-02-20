@@ -8,8 +8,8 @@ author = ["kili peemlueq"]
 creation_date = "2020-07-18"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1D2rkhoTKP47R8wzirK4VoJWIgTGXMmkT"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/isipin-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/isipin-1.svg"
 ligature = "isipin01"
 alias_ligatures = []
 # teachability = 4

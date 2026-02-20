@@ -8,8 +8,8 @@ author = ["jan Telupiso"]
 creation_date = "2022-07-03"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1_SwVXlnzAnXqIEbAjRNRghBk35IDnaPN"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-4.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-4.svg"
 ligature = "ni04"
 ucsur = "U+F1941"
 alias_ligatures = ["ni<", "nileft"]

@@ -8,8 +8,8 @@ author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1Y-YVtbjDE3bIHvokDOkRF4dNFDa6ZLrg"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tonsi-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tonsi-2.svg"
 ligature = "tonsi02"
 ucsur = "U+F197E"
 alias_ligatures = []

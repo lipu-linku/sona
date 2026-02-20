@@ -8,8 +8,8 @@ author = ["jan Elemenopi"]
 creation_date = "2020-07-26"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1pXLhs-FzF6oqs2mg42dnzYzCW8XweFcv"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna-3.svg"
 ligature = "majuna3"
 ucsur = "U+F19A2"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["jan Lentan"]
 creation_date = "2021-06-04"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1fce_z6DMqHUZCtP1pHMYycTl3NSLvMNw"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moli-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moli-2.svg"
 ligature = "moli02"
 ucsur = "U+F1937"
 alias_ligatures = []

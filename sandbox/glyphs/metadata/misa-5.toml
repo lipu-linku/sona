@@ -8,8 +8,8 @@ author = ["lipamanka"]
 creation_date = "2021-03-11"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1YdwYdhDldHJYgNeetqF4FcMFDq7bzVS_"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-5.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-5.svg"
 ligature = "misa5"
 alias_ligatures = []
 # teachability = 4

@@ -8,8 +8,8 @@ author = ["jan Alise"]
 creation_date = "2021-01-26"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1I32ODJu7e8-z4quHWUKjqUXNbkL-WC6p"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/unu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/unu-1.svg"
 ligature = "unu01"
 alias_ligatures = []
 # teachability = 4

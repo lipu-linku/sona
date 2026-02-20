@@ -8,8 +8,8 @@ author = []
 creation_date = "2020-08-22"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1tdEThx0uC0WlgU8BcvywjLzf-7wl4Wwt"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nimisin-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nimisin-1.svg"
 ligature = "nimisin01"
 alias_ligatures = []
 # teachability = 4

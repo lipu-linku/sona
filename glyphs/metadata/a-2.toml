@@ -8,8 +8,8 @@ author = ["kulupu Eko"]
 creation_date = "2019-08-27"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1eO9jU_HL8KoRj61Vf_dbA5vSQHzhooby"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a-2.svg"
 ligature = "a02"
 ucsur = "U+F1900"
 alias_ligatures = []

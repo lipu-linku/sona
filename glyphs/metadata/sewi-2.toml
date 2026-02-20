@@ -8,8 +8,8 @@ author = ["jan Tumu"]
 creation_date = "2020-12-27"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1tgSe6eiy6-tgs1f1lQCN4iEUZ2PCEWLZ"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi-2.svg"
 ligature = "sewi02"
 ucsur = "U+F195A"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["Umihotaru", "jan Itan", "jan Sonja"]
 creation_date = "2024-01-01"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1atxd-N47iqVkfD0qHT8AXndqPukgVpoj"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute-2.svg"
 ligature = "mute02"
 ucsur = "U+F193C"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["jan Olipija"]
 creation_date = "2021-01-28"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1ugX-9bEpxUO1gTNBbJeIm81sewa83d1l"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/meso-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/meso-2.svg"
 ligature = "meso02"
 ucsur = "U+F1982"
 alias_ligatures = []

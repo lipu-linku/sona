@@ -8,8 +8,8 @@ author = ["ijo Mina"]
 creation_date = "2021-01-28"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1Yr-jkvYR5KTJNJkI2Rqa7ANO-3T0_X3h"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-3.svg"
 ligature = "lanpan3"
 ucsur = "U+F1985"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["the_whatevers"]
 creation_date = "2020-11-30"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1aI6xh5sz1MtSuFzEDW1KoAktw00rTsDJ"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-1.svg"
 ligature = "kiki01"
 alias_ligatures = []
 # teachability = 4

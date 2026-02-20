@@ -8,8 +8,8 @@ author = [".hecko"]
 creation_date = "2022-10-20"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1ydLvGPiV787Zc0ikIV9FBNDBVTWa-d7U"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ojuta-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ojuta-2.svg"
 ligature = "ojuta2"
 alias_ligatures = []
 # teachability = 4

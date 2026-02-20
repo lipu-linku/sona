@@ -8,8 +8,8 @@ author = ["Jack Humbert"]
 creation_date = "2020-03-09"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1PVKRDXn3Pwt-QnDRsDWG-7Q6mJ99TGxC"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seme-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seme-2.svg"
 ligature = "seme2"
 ucsur = "U+F1959"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["waso suno Alana"]
 creation_date = "2023-07-31"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1FKyDfD48PCEGC6uAq-qpmvo2oHxJ3Ejm"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mije-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mije-3.svg"
 ligature = "mije3"
 ucsur = "U+F1935"
 alias_ligatures = []

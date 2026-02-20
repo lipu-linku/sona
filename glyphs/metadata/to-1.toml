@@ -8,8 +8,8 @@ author = ["jan Seli"]
 creation_date = "2021-08-21"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1yj9g3-yoVAA7dBX9A_Oz-P8m2UoR0sdn"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/to-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/to-1.svg"
 ligature = "to01"
 alias_ligatures = ["」"]
 # teachability = 4

@@ -8,8 +8,8 @@ author = ["jan Epo (aprilsr)"]
 creation_date = "2020-03-24"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1vawuKrHIDl7OI3XMR5_XxPhyTnGaDtPY"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-2.svg"
 ligature = "ni02"
 ucsur = "U+F1941"
 alias_ligatures = ["ni>", "niright"]

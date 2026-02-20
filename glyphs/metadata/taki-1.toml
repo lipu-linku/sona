@@ -8,8 +8,8 @@ author = ["jan Kapilu", "kala pona Tonyu"]
 creation_date = "2020-12-05"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1MVCXMNTn5JEDIufLUXB9dA_jTfvVwbkH"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki-1.svg"
 ligature = "taki01"
 alias_ligatures = []
 # teachability = 4

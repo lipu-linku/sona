@@ -8,8 +8,8 @@ author = ["soweli Selupu"]
 creation_date = "2024-11-20"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1kQ_XShBz0yzgwVk9-RpuZfacm0f0eZf8"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sinpin-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sinpin-2.svg"
 ligature = "sinpin02"
 ucsur = "U+F195F"
 alias_ligatures = []

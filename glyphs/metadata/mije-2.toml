@@ -8,8 +8,8 @@ author = ["scarlet"]
 creation_date = "2019-07-28"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1imMJZGe5WwuOVPORcNH6WHEw9KkCa2_k"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mije-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mije-2.svg"
 ligature = "mije02"
 ucsur = "U+F1935"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["ilo Sasi"]
 creation_date = "2021-02-25"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1mo4GR1WSYrkfafa2-R1Km42W-Ucu9TU-"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misa-3.svg"
 ligature = "misa3"
 alias_ligatures = []
 # teachability = 4

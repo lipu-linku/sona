@@ -8,8 +8,8 @@ author = []
 creation_date = ""
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1v9VtoVNNd7FxilS-Fw5MX7TgwRP9zr3r"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan-1.svg"
 ligature = "lan1"
 alias_ligatures = []
 # teachability = 4

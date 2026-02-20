@@ -8,8 +8,8 @@ author = ["waso Keli"]
 creation_date = "2024-01-04"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1i9f8UogyPYoolnziHmxW7NijSRQKvlkm"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/penpo-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/penpo-1.svg"
 ligature = "penpo01"
 alias_ligatures = []
 # teachability = 4

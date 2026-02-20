@@ -8,8 +8,8 @@ author = ["AdrianAndMusic"]
 creation_date = "2019-07-20"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1P3ntlJE6-xGf4dXTtqMBsvfDEiq7CFB6"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kapesi-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kapesi-1.svg"
 ligature = "kapesi01"
 alias_ligatures = []
 # teachability = 4

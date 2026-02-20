@@ -8,8 +8,8 @@ author = ["jan Same"]
 creation_date = "2016-10-16"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1YXs3SVobVBeNmxh8GrWy78U5WNC720ed"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oko-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oko-1.svg"
 ligature = "oko01"
 ucsur = "U+F197A"
 alias_ligatures = []

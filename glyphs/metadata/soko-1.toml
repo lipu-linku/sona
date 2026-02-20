@@ -2,14 +2,14 @@
 id = "soko-1"
 word = "soko"
 word_id = "soko"
-usage_category = "uncommon"
+usage_category = "common"
 author_source = "https://discord.com/channels/301377942062366741/375591429608570881/713760909545177170"
 author = ["jan Tumu"]
 creation_date = "2020-05-23"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1w4qErHTTs6J8OPDqdMNFCIw_5vipsGTA"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soko-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soko-1.svg"
 ligature = "soko01"
 ucsur = "U+F1981"
 alias_ligatures = []

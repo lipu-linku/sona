@@ -8,8 +8,8 @@ author = ["telo misi"]
 creation_date = "2021-07-21"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1QPKfYgDcBWnW4nQgKY2uuOvQuWjlSvep"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/san-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/san-2.svg"
 ligature = "san2"
 alias_ligatures = []
 # teachability = 4

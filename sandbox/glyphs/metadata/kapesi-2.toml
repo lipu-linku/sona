@@ -8,8 +8,8 @@ author = ["Da_Werido"]
 creation_date = "2020-05-09"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1lCXJjyXx1aA04GKi0HCJh0yBZz97g7cf"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kapesi-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kapesi-2.svg"
 ligature = "kapesi2"
 alias_ligatures = []
 # teachability = 4

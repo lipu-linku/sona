@@ -8,8 +8,8 @@ author = ["unknown"]
 creation_date = "2022-02-05"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1SqzoWsLIYx5qlm-DD1uRZgnOcGUCj5Bu"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-2.svg"
 ligature = "jan2"
 ucsur = "U+F1911"
 alias_ligatures = []

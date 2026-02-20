@@ -8,8 +8,8 @@ author = ["mun Kekan San"]
 creation_date = "2022-10-13"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1RzK0a3sDbqpa9XtAusaxVoKPraare8SC"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-3.svg"
 ligature = "linluwi03"
 alias_ligatures = []
 # teachability = 3

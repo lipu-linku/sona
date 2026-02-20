@@ -8,8 +8,8 @@ author = ["jan Lepeka"]
 creation_date = "2023-02-09"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=14EIjAGuIe24YL-lDs2Ub-pyPwpIt5r31"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/konwe-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/konwe-1.svg"
 ligature = "konwe01"
 alias_ligatures = []
 # teachability = 4

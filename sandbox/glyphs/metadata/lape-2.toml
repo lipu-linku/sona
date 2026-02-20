@@ -8,8 +8,8 @@ author = ["lon ala weka nimi"]
 creation_date = "2022-08-22"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1AdemnJSWQMDD9mx0ASiPQd-ZzhaXcdXV"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lape-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lape-2.svg"
 ligature = "lape2"
 ucsur = "U+F1922"
 alias_ligatures = []

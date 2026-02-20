@@ -8,8 +8,8 @@ author = ["jan Lepeka"]
 creation_date = "2022-09-04"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1YDyNN1er1F4yBY0UXJqA-tjWsZ4fgawE"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/alente-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/alente-1.svg"
 ligature = "alente1"
 alias_ligatures = []
 # teachability = 4

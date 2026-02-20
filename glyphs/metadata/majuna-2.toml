@@ -8,8 +8,8 @@ author = ["waso pimeja lon kulupu kasi"]
 creation_date = "2022-01-12"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1KZmk_UZWLKgNWfqgIDzTGI-QIXBNvm5l"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna-2.svg"
 ligature = "majuna02"
 ucsur = "U+F19A2"
 alias_ligatures = []

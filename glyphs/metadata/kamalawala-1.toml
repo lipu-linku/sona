@@ -8,8 +8,8 @@ author = ["jan Elemenopi"]
 creation_date = "2020-07-25"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1FhXMOnfXmLi_EZatemd49lWF8IjZ4N48"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kamalawala-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kamalawala-1.svg"
 ligature = "kamalawala01"
 alias_ligatures = []
 # teachability = 4

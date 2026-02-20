@@ -8,8 +8,8 @@ author = ["Jack Humbert"]
 creation_date = "2020-03-09"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1RwUZ2Wj8CCYbRyQ0SC12-a5StllcXj7f"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta-2.svg"
 ligature = "monsuta2"
 ucsur = "U+F197D"
 alias_ligatures = []

@@ -8,8 +8,8 @@ author = ["jan Sonja"]
 creation_date = "2022-03-15"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1kY_rAHwsGcR41Df3R1bVpJwO8VDQQUJl"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/namako-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/namako-2.svg"
 ligature = "namako02"
 ucsur = "U+F1978"
 alias_ligatures = []

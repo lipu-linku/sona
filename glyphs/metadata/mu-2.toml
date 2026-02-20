@@ -8,8 +8,8 @@ author = ["plum2176"]
 creation_date = "2022-05-14"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=16qLFkFju66I2Ny1QmUO_igckBVWn2ajT"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mu-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mu-2.svg"
 ligature = "mu02"
 ucsur = "U+F1939"
 alias_ligatures = []

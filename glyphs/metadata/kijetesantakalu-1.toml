@@ -8,8 +8,8 @@ author = ["jan Same"]
 creation_date = "2019-08-09"
 primary = true
 deprecated = false
-image = "https://drive.google.com/open?id=1TDwMk2pVhqksmLzgOKsemHo-dr9dhu-e"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kijetesantakalu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kijetesantakalu-1.svg"
 ligature = "kijetesantakalu01"
 ucsur = "U+F1980"
 alias_ligatures = []

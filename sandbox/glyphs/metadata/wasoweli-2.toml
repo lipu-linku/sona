@@ -8,8 +8,8 @@ author = ["akesi kon Nalasuni"]
 creation_date = "2021-07-31"
 primary = false
 deprecated = false
-image = "https://drive.google.com/open?id=1oqYksiQyJw-lZLuHKtkNEMJ3OBrnDpcl"
-# svg = ""
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wasoweli-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wasoweli-2.svg"
 ligature = "wasoweli2"
 alias_ligatures = []
 # teachability = 4
