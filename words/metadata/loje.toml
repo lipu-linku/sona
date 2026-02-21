@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["loje-1"]
 primary_glyph_id = "loje-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/loje.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/loje.svg"
 
 [[audio]]
 author = "kala Asi"

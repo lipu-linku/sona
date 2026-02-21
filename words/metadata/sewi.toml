@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["sewi-2", "sewi-1"]
 primary_glyph_id = "sewi-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sewi.svg"
 
 [[audio]]
 author = "kala Asi"

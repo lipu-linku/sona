@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["weka-1"]
 primary_glyph_id = "weka-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/weka.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/weka.svg"
 
 [[audio]]
 author = "kala Asi"

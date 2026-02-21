@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["nasin-1"]
 primary_glyph_id = "nasin-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasin.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasin.svg"
 
 [[audio]]
 author = "kala Asi"

@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["majuna-1", "majuna-2"]
 primary_glyph_id = "majuna-2"
 # teachability = 3
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/majuna.svg"
 
 [[audio]]
 author = "kala Asi"

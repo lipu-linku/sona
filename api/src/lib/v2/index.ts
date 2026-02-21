@@ -251,6 +251,13 @@ export const Word = z
     primary_glyph_id: Ref.min(3)
       .optional()
       .describe("The ID of the glyph most commonly used to represent this word in sitelen pona."),
+    image: Resource.optional().describe(
+      "Link to a PNG of the primary sitelen pona glyph for this word.",
+    ),
+    svg: Resource.optional().describe(
+      "Link to an SVG of the primary sitelen pona glyph for this word.",
+    ),
+
     translations: z.object({
       commentary: Commentary.describe(
         "Localized commentary on this word, such as history, clarifications, or trivia.",

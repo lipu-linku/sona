@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["monsi-1", "monsi-2"]
 primary_glyph_id = "monsi-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsi.svg"
 
 [[audio]]
 author = "kala Asi"

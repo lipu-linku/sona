@@ -15,6 +15,8 @@ audio = []
 glyph_ids = ["ka-1"]
 primary_glyph_id = "ka-1"
 # teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ka2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ka2.svg"
 
 [representations]
 ligatures = ["ka"] # requested for ssk as ka

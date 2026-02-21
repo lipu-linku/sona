@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["mute-1", "mute-2"]
 primary_glyph_id = "mute-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute.svg"
 
 [[audio]]
 author = "kala Asi"

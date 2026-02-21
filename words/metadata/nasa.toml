@@ -14,6 +14,8 @@ deprecated = false
 glyph_ids = ["nasa-1"]
 primary_glyph_id = "nasa-1"
 # teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/nasa.svg"
 
 [[audio]]
 author = "kala Asi"
