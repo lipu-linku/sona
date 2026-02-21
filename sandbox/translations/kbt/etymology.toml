@@ -150,6 +150,10 @@ language = "kay(f)​粵(f)​語(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p
 definition = "yay"
 language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)vlim(p)​ga(f)​vlim(p)​ga(f)"
 
+[[jonke]]
+definition = "hjönk"
+language = "fef(b)​sel(f)​fi(f)​sil(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​e(f)​ash(f)​tin(f)​vlim(p)​ga(f)"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)
 definition = "thin shelled"
 language = "Latin"
 
+[[mulapisu]]
+language = "ges(b)suw(t)boc(t)ceg(t)bel(p)-puf(b)fuv(f)pesh(p)fup(b)ga(f)"
+
 [[nalanja]]
 definition = "orange"
 language = "Spanish"
@@ -508,6 +515,10 @@ language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)
 [[pa]]
 definition = "bruh"
 language = "kus(f)​lib(p)​sab(b)​tip(t)​bot(t)​vev(f)​san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​da(t)​grog(f)​kay(f)vlim(p)​ga(f)​vlim(p)​ga(f)"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "kay(f)​to(p)ki(p)po(p)na(p)san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​ngag(t)​vlim(p)​kay(f)​sna(f)​yup(f)​a(f)"
 
 [[panke]]
 language = "kay(f)​to(t)ki(t)po(t)na(t)san(t)​ap(t)​vlir(t)​sang(b)​es(p)​u(t)​vom(b)​ngo(p)​ngag(t)​vlim(p)​kay(f)​sna(f)​yup(f)​a(f)"

@@ -30,6 +30,7 @@ ligatures = ["sutopatikuna"]
 2022-08 = 7
 2023-09 = 8
 2024-09 = 7
+2025-09 = 5
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/sutopatikuna"

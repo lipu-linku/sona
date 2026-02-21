@@ -162,6 +162,10 @@ language = "English"
 definition = "yippee"
 language = "English"
 
+[[jonke]]
+definition = "hjönk"
+language = "onomatopoeia"
+
 [[josuta]]
 definition = "flexible, elastic"
 language = "Finnish"
@@ -491,6 +495,9 @@ language = "English"
 definition = "thin shelled"
 language = "Latin"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "orange"
 language = "Spanish"
@@ -576,6 +583,10 @@ language = "English"
 [[pa]]
 definition = "bruh"
 language = "English"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

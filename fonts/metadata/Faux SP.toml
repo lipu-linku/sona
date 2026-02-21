@@ -1,0 +1,18 @@
+#:schema ../../api/generated/font.json
+id = "Faux SP"
+creator = ["neverRare"]
+features = []
+filename = "FauxSP.otf"
+last_updated = "2024-10"
+license = "OFL"
+ligatures = false
+name = "Faux SP"
+style = "handwritten"
+ucsur = false
+version = "002.000"
+writing_system = "alphabet"
+
+[links]
+fontfile = "https://github.com/neverRare/faux-sp/raw/refs/heads/main/FauxSP.otf"
+repo = "https://github.com/neverRare/faux-sp/"
+webpage = "https://neverrare.github.io/faux-sp/"

@@ -27,6 +27,7 @@ ligatures = ["pika"]
 2022-08 = 2
 2023-09 = 5
 2024-09 = 6
+2025-09 = 6
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/pika"

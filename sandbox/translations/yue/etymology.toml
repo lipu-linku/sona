@@ -150,6 +150,10 @@ language = "粵語"
 definition = "yay"
 language = "英文"
 
+[[jonke]]
+definition = "hjönk"
+language = "象声词"
+
 [[ju]]
 language = "冇起源"
 
@@ -427,6 +431,9 @@ language = "英文"
 definition = "thin shelled"
 language = "Latin"
 
+[[mulapisu]]
+language = "冇起源"
+
 [[nalanja]]
 definition = "orange"
 language = "Spanish"
@@ -508,6 +515,10 @@ language = "英文"
 [[pa]]
 definition = "bruh"
 language = "英文"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "托基波納 (toki pona)"
 
 [[panke]]
 language = "托基波納 (toki pona)"

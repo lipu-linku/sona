@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   fetch-langs:
+    if: github.repository_id == 725204941 # lipu-linku/sona
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +19,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.12.1
 
@@ -31,10 +32,8 @@ jobs:
           CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
 
       - name: Push version changes to main branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Add new language(s) from Crowdin"
           branch: ${{ github.event.repository.default_branch }}
           file_pattern: languages/metadata/languages.toml
-
-

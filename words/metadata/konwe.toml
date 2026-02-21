@@ -30,6 +30,7 @@ ligatures = ["konwe"]
 2022-08 = 6
 2023-09 = 7
 2024-09 = 7
+2025-09 = 6
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/konwe"

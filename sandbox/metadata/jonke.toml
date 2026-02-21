@@ -8,7 +8,7 @@ coined_year = "2021"
 creator = ["cyanidesDuality"]
 see_also = ["mu", "nja"]
 source_language = "onomatopoeia"
-usage_category = "obscure"
+usage_category = "sandbox"
 word = "jonke"
 deprecated = false
 
@@ -25,6 +25,7 @@ ligatures = ["jonke"]
 [usage]
 2022-08 = 3
 2023-09 = 5
+2025-09 = 3
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jonke"

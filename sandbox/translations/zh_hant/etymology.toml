@@ -150,6 +150,10 @@ language = "粵語"
 definition = "耶"
 language = "英語"
 
+[[jonke]]
+definition = "（鵝叫聲）"
+language = "擬聲詞"
+
 [[ju]]
 language = "先創"
 
@@ -427,6 +431,9 @@ language = "英語"
 definition = "薄殼的"
 language = "拉丁語"
 
+[[mulapisu]]
+language = "先創"
+
 [[nalanja]]
 definition = "橙色的"
 language = "西班牙語"
@@ -508,6 +515,10 @@ language = "英語"
 [[pa]]
 definition = "（感嘆詞）哥們"
 language = "英語"
+
+[[pakola]]
+definition = "損壞的、受傷的、已毀壞的"
+language = "道本語"
 
 [[panke]]
 language = "道本語"

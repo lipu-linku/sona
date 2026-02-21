@@ -150,6 +150,10 @@ language = "Kantonesiska"
 definition = "yay"
 language = "Engelska"
 
+[[jonke]]
+definition = "hjönk"
+language = "onomatopoetiskt"
+
 [[ju]]
 language = "a priori"
 
@@ -427,6 +431,9 @@ language = "Engelska"
 definition = "thin shelled"
 language = "Latin"
 
+[[mulapisu]]
+language = "a priori"
+
 [[nalanja]]
 definition = "orange"
 language = "Spanska"
@@ -508,6 +515,10 @@ language = "Engelska"
 [[pa]]
 definition = "bruh"
 language = "Engelska"
+
+[[pakola]]
+definition = "broken, damaged, harmed, destroyed"
+language = "toki pona"
 
 [[panke]]
 language = "toki pona"

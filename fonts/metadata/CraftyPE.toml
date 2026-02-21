@@ -4,7 +4,7 @@ creator = ["ParanormalChicken / Erek Butcher"]
 features = [
   "codepoints only",
   "UCSUR-compliant",
-  "supports ku suli and the rest of the UCSUR characters",
+  "all UCSUR 2022 words",
 ]
 filename = "craftype.otf"
 last_updated = "2023-03"
