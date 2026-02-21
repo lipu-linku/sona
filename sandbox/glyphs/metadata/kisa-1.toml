@@ -2,7 +2,7 @@
 id = "kisa-1"
 word = "kisa"
 word_id = "kisa"
-usage_category = "obscure"
+usage_category = "sandbox"
 author_source = ""
 author = []
 creation_date = ""
@@ -17,6 +17,7 @@ see_also = ["nja-1"]
 
 [usage]
 2025-09 = 5
+# category override due to parent word category
 
 [translations]
 commentary = ""

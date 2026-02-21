@@ -1,5 +1,5 @@
-#:schema ../../../api/generated/v2/glyph.json
-id = "ku-3"
+#:schema ../../api/generated/v2/glyph.json
+id = "ku-4"
 word = "ku"
 word_id = "ku"
 usage_category = "obscure"
@@ -8,16 +8,16 @@ author = ["lipamanka", "ijo Mina", "jan Sa", "jan Sonja"]
 creation_date = "2021-07-22"
 primary = false
 deprecated = false
-image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-3.png"
-svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-3.svg"
-ligature = "ku3"
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-4.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-4.svg"
+ligature = "ku4"
 ucsur = "U+F1988"
 alias_ligatures = []
 # teachability = 2
 see_also = ["pu-1", "su-1", "lipu-1"]
 
 [usage]
-2025-09 = 22
+2025-09 = 19
 
 [translations]
 commentary = ""

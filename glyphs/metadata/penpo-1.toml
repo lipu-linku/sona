@@ -2,7 +2,7 @@
 id = "penpo-1"
 word = "penpo"
 word_id = "penpo"
-usage_category = "sandbox"
+usage_category = "obscure"
 author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1192671392173400174"
 author = ["waso Keli"]
 creation_date = "2024-01-04"
@@ -17,6 +17,7 @@ see_also = ["suno-1", "pona-1"]
 
 [usage]
 2025-09 = 4
+# category override due to parent word category
 
 [translations]
 commentary = ""
