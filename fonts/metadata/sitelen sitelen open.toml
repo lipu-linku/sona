@@ -2,7 +2,7 @@
 id        = "sitelen sitelen open"
 name      = "sitelen sitelen open"
 filename  = "sitelen-sitelen-open.ttf"
-creator   = ["jan lili Enta","jan Josan"]
+creator   = ["jan lili Enta (encoding)","jan Josan (original glyphs only)"]
 license   = "CC BY 4.0"
 ligatures = true
 ucsur     = true
@@ -48,6 +48,7 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly. If you're not Kelly, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-# fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
-# repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
-# webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
+fontfile = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/raw/main/sp-font-maker/sitelen-sitelen-open.ttf"
+repo     = "https://github.com/AromaticWaffle/AromaticWaffle.github.io/tree/main/sp-font-maker"
+webpage  = "https://AromaticWaffle.github.io/sp-font-maker/sitelen-sitelen-open.html"
+
