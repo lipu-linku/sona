@@ -225,6 +225,14 @@
         "type": "string",
         "minLength": 3
       },
+      "image": {
+        "description": "Link to a PNG of the primary sitelen pona glyph for this word.",
+        "$ref": "#/$defs/__schema4"
+      },
+      "svg": {
+        "description": "Link to an SVG of the primary sitelen pona glyph for this word.",
+        "$ref": "#/$defs/__schema4"
+      },
       "translations": {
         "type": "object",
         "properties": {
