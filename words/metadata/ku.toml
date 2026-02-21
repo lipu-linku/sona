@@ -11,7 +11,7 @@ source_language = "a priori"
 usage_category = "common"
 word = "ku"
 deprecated = false
-glyph_ids = ["ku-1"]
+glyph_ids = ["ku-1", "ku-3", "ku-4"]
 primary_glyph_id = "ku-1"
 # teachability = 2
 

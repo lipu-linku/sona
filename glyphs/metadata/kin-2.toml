@@ -2,7 +2,7 @@
 id = "kin-2"
 word = "kin"
 word_id = "kin"
-usage_category = "uncommon"
+usage_category = "sandbox"
 author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commits/main/glyphs-sp-forms-b/kin-2.png"
 author = ["jan Lepeka"]
 creation_date = "2022-06-27"

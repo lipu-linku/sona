@@ -2,7 +2,7 @@
 id = "lupa-1"
 word = "lupa"
 word_id = "lupa"
-usage_category = "core"
+usage_category = "common"
 author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
 author = ["jan Sonja"]
 creation_date = "2013-05-19"

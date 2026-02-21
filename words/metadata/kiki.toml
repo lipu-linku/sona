@@ -11,7 +11,7 @@ source_language = "a priori"
 usage_category = "obscure"
 word = "kiki"
 deprecated = false
-glyph_ids = ["kiki-2", "kiki-1"]
+glyph_ids = ["kiki-1", "kiki-2"]
 primary_glyph_id = "kiki-2"
 # teachability = 4
 

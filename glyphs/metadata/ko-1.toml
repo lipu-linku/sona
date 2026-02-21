@@ -2,7 +2,7 @@
 id = "ko-1"
 word = "ko"
 word_id = "ko"
-usage_category = "core"
+usage_category = "common"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"

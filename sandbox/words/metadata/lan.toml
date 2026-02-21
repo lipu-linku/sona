@@ -4,7 +4,7 @@ author_verbatim = "lan = being, anything that can take action itself, etc"
 author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1159904421531111465"
 book = "none"
 coined_era = "post-ku"
-creation_date = "2023"
+creation_date = "2023-10-06"
 author = ["mu Ekisi"]
 see_also = ["jan", "ijo", "wan"]
 source_language = "toki pona"
@@ -17,7 +17,7 @@ primary_glyph_id = "ka-1"
 # teachability = 4
 
 [representations]
-ligatures = ["lan", "ka"]
+ligatures = ["lan"]
 
 [usage]
 

@@ -17,6 +17,7 @@ see_also = []
 
 [usage]
 2025-09 = 5
+# category override due to parent word category
 
 [translations]
 commentary = "The directionality of the pizza is not a distinguishing factor."

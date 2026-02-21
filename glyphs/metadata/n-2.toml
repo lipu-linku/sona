@@ -2,7 +2,7 @@
 id = "n-2"
 word = "n"
 word_id = "n"
-usage_category = "uncommon"
+usage_category = "sandbox"
 author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/releases/tag/1.1.1"
 author = ["jan Lepeka"]
 creation_date = "2023-01-02"

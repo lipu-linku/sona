@@ -11,8 +11,8 @@ source_language = "Turkish"
 usage_category = "sandbox"
 word = "yutu"
 deprecated = false
-glyph_ids = []
-# primary_glyph_id = ""
+glyph_ids = ["yutu-1"]
+primary_glyph_id = "yutu-1"
 # teachability = 4
 
 [[audio]]

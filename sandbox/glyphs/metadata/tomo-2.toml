@@ -2,7 +2,7 @@
 id = "tomo-2"
 word = "tomo"
 word_id = "tomo"
-usage_category = "sandbox"
+usage_category = "obscure"
 author_source = ""
 author = []
 creation_date = ""
@@ -23,4 +23,4 @@ see_also = []
 [translations]
 commentary = ""
 etymology = ""
-names = ["soffits tomo", "roof tomo"]
+names = ["overhang tomo", "roof tomo"]

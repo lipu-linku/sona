@@ -11,7 +11,7 @@ source_language = "Greek"
 usage_category = "uncommon"
 word = "lanpan"
 deprecated = false
-glyph_ids = ["lanpan-2", "lanpan-1"]
+glyph_ids = ["lanpan-1", "lanpan-2", "lanpan-3"]
 primary_glyph_id = "lanpan-1"
 # teachability = 3
 

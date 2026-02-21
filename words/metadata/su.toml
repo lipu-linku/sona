@@ -11,7 +11,7 @@ source_language = "a priori"
 usage_category = "uncommon"
 word = "su"
 deprecated = false
-glyph_ids = ["su-1", "su-2"]
+glyph_ids = ["su-1", "su-2", "su-3"]
 primary_glyph_id = "su-1"
 # teachability = 3
 

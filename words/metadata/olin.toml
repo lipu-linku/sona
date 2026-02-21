@@ -11,7 +11,7 @@ source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "olin"
 deprecated = false
-glyph_ids = ["olin-2", "olin-1", "olin-3"]
+glyph_ids = ["olin-1", "olin-2", "olin-3"]
 primary_glyph_id = "olin-1"
 # teachability = 1
 

@@ -17,6 +17,8 @@ see_also = ["meli-1", "olin-1"]
 
 [usage]
 2025-09 = 3
+# category override due to reader preference
+# https://discord.com/channels/972470770443886662/999566741397049384/1474588006408126496
 
 [translations]
 commentary = ""

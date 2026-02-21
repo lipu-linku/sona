@@ -1,7 +1,7 @@
 #:schema ../../../api/generated/v2/glyph.json
 id = "ka-1"
 word = "ka"
-word_id = "ka"
+word_id = "ka2"
 usage_category = "sandbox"
 author_source = ""
 author = ["jan Tumu"]

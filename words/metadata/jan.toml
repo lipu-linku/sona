@@ -11,7 +11,7 @@ source_language = "Cantonese"
 usage_category = "core"
 word = "jan"
 deprecated = false
-glyph_ids = ["jan-1"]
+glyph_ids = ["jan-1", "jan-2"]
 primary_glyph_id = "jan-1"
 # teachability = 1
 

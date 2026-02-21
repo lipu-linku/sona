@@ -11,7 +11,7 @@ source_language = "Dutch"
 usage_category = "core"
 word = "sitelen"
 deprecated = false
-glyph_ids = ["sitelen-1"]
+glyph_ids = ["sitelen-1", "sitelen-2"]
 primary_glyph_id = "sitelen-1"
 # teachability = 1
 

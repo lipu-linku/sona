@@ -11,7 +11,7 @@ source_language = "English"
 usage_category = "obscure"
 word = "oke"
 deprecated = false
-glyph_ids = ["oke-3", "oke-1", "oke-2"]
+glyph_ids = ["oke-1", "oke-2", "oke-3"]
 primary_glyph_id = "oke-2"
 # teachability = 4
 

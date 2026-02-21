@@ -17,6 +17,7 @@ see_also = []
 
 [usage]
 2025-09 = 4
+# category override due to parent word category
 
 [translations]
 commentary = ""

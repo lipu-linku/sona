@@ -2,7 +2,7 @@
 id = "lupa-2"
 word = "lupa"
 word_id = "lupa"
-usage_category = "sandbox"
+usage_category = "obscure"
 author_source = "https://jackhumbert.github.io/sitelen-sa/"
 author = ["Jack Humbert"]
 creation_date = "2020-03-09"

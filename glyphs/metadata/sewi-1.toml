@@ -2,7 +2,7 @@
 id = "sewi-1"
 word = "sewi"
 word_id = "sewi"
-usage_category = "core"
+usage_category = "common"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"

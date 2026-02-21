@@ -11,7 +11,7 @@ source_language = "Esperanto"
 usage_category = "core"
 word = "tomo"
 deprecated = false
-glyph_ids = ["tomo-1"]
+glyph_ids = ["tomo-1", "tomo-2"]
 primary_glyph_id = "tomo-1"
 # teachability = 1
 

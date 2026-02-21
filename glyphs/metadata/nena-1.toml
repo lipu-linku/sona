@@ -2,7 +2,7 @@
 id = "nena-1"
 word = "nena"
 word_id = "nena"
-usage_category = "core"
+usage_category = "common"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"

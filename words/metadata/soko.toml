@@ -11,8 +11,8 @@ source_language = "Georgian"
 usage_category = "common"
 word = "soko"
 deprecated = false
-glyph_ids = ["soko-3", "soko-2", "soko-1"]
-primary_glyph_id = "soko-3"
+glyph_ids = ["soko-1", "soko-2", "soko-3"]
+primary_glyph_id = "soko-1"
 # teachability = 2
 
 [[audio]]

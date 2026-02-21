@@ -2,7 +2,7 @@
 id = "uta-1"
 word = "uta"
 word_id = "uta"
-usage_category = "core"
+usage_category = "common"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"

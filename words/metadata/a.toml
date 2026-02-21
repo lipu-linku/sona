@@ -11,7 +11,7 @@ source_language = "onomatopoeia"
 usage_category = "core"
 word = "a"
 deprecated = false
-glyph_ids = ["a-2", "a-1"]
+glyph_ids = ["a-1", "a-2", "a-3"]
 primary_glyph_id = "a-1"
 # teachability = 1
 

@@ -2,7 +2,7 @@
 id = "kala-1"
 word = "kala"
 word_id = "kala"
-usage_category = "core"
+usage_category = "common"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"
