@@ -6,9 +6,8 @@ usage_category = "core"
 author_source = "lipu pu"
 author = ["jan Sonja"]
 creation_date = "2014-05-25"
-primary = true
+primary = false
 deprecated = false
-# TODO: replace with sonja's ko
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko-1.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko-1.svg"
 ligature = "ko01"
@@ -18,6 +17,11 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 81
+# note: two blobby ko were in the prior survey. 
+# this score reflects the higher of the two, which visually was most similar to
+# the original ko in lipu pu.
+# the other, less regular blob had a score of 69, though still exceeded flower ko.
 
 [translations]
 commentary = ""

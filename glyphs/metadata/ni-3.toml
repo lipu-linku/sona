@@ -17,6 +17,7 @@ alias_ligatures = ["ni^", "niup"]
 see_also = []
 
 [usage]
+2025-09 = 50
 
 [translations]
 commentary = "The source of the glyph references it as both 'epiku' and 'turned ni'."

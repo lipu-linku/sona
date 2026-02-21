@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["sike-1"]
 
 [usage]
+2025-09 = 75
 
 [translations]
 commentary = ""

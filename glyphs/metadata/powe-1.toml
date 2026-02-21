@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["lon-1", "ala-1"]
 
 [usage]
+2025-09 = 17
 
 [translations]
 commentary = ""

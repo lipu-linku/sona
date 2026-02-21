@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["weka-1", "kama-1"]
 
 [usage]
+2025-09 = 5
 
 [translations]
 commentary = ""

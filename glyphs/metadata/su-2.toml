@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["pu-1", "ku-1", "su-1", "lipu-1", "soweli-1"]
 
 [usage]
+2025-09 = 7
 
 [translations]
 commentary = ""

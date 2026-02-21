@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["meli-1", "olin-1"]
 
 [usage]
+2025-09 = 6
 
 [translations]
 commentary = "lipamanka reports to have created this glyph to avoid it looking like 'nena+olin'"

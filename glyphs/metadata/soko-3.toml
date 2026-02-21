@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 33
 
 [translations]
 commentary = "Despite thin stem soko being the more popular rendering of soko through at least February 2024, the primary glyph for soko is annulus soko as determined by the Unicode project."

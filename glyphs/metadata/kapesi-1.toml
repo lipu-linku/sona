@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["ma-1", "kule-1"]
 
 [usage]
+2025-09 = 9
 
 [translations]
 commentary = "The earliest known version of this glyph has an overlapping triangle and circle. This is not considered a problem, as this minor variation is only distinguished by the various glyphs for olin."

@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["suwi-1"]
 
 [usage]
+2025-09 = 6
 
 [translations]
 commentary = "This glyph went through a few revisions before this version created by jan Sa and lipamanka. For example: https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562"

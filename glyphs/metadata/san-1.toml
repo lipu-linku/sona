@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["wan-1", "mute-1"]
 
 [usage]
+2025-09 = 9
 
 [translations]
 commentary = "This glyph for san may have been developed independently multiple times."

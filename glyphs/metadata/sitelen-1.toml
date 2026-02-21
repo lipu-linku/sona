@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["lipu-1"]
 
 [usage]
+2025-09 = 97
 
 [translations]
 commentary = ""

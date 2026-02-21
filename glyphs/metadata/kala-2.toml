@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 45
 
 [translations]
 commentary = "The given earliest known glyph is somewhat silly, but it is an apt and intentional representation of the kala glyph with eyes."

@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["melome-3"]
 
 [usage]
+2025-09 = 1
 
 [translations]
 commentary = ""

@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 12
 
 [translations]
 commentary = "The 'mistake' version of lanpan is named such at least two independent authors of it misinterpreted somebody else's handwriting, taking the tiny unclosed loop to be an intentional feature of the glyph."

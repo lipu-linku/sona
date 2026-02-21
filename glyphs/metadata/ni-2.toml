@@ -17,6 +17,7 @@ alias_ligatures = ["ni>", "niright"]
 see_also = []
 
 [usage]
+2025-09 = 53
 
 [translations]
 commentary = "The original source is an ASCII rendering of the glyph, and referenced as \"eni\".  The contraction \"eni\" was only used a few dozen times in total, but the right-arrow rendering of ni remained and was added to linja sike 5 on 2021-08-31."

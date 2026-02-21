@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["lawa-1"]
 
 [usage]
+2025-09 = 12
 
 [translations]
 commentary = ""

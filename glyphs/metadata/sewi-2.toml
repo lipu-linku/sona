@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["anpa-1", "insa-1", "poka-1"]
 
 [usage]
+2025-09 = 68
 
 [translations]
 commentary = ""

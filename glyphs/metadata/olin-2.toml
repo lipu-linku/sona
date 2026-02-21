@@ -17,6 +17,7 @@ parent_id = "olin-1"   # split hearts
 see_also = ["pilin-1"]
 
 [usage]
+2025-09 = 64
 
 [translations]
 commentary = ""

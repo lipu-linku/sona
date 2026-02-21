@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["mijomi-2"]
 
 [usage]
+2025-09 = 1
 
 [translations]
 commentary = ""

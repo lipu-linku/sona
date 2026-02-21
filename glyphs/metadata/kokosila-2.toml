@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["toki-1"]
 
 [usage]
+2025-09 = 13
 
 [translations]
 commentary = "It is not currently known whether this glyph was created by jan Same or if it was taken from a prior reference."

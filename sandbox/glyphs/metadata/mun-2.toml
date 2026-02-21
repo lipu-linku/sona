@@ -17,6 +17,9 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 4
+# star mun was copied into the obscure section in the 2025 survey
+# it got a score of 1 there
 
 [translations]
 commentary = ""

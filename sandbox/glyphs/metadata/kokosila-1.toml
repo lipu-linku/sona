@@ -17,6 +17,9 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 5
+# note: there were two exact copies of star kokosila in the 2025 survey
+# the second, in a later section, scored 2
 
 [translations]
 commentary = ""

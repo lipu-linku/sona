@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["ni-3"]
 
 [usage]
+2025-09 = 25
 
 [translations]
 commentary = "The earlier version of this glyph by TheDarkBomber more closely resembles the design of Reddit's upvote, but that design was replaced by the thinner design."

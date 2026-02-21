@@ -17,6 +17,7 @@ alias_ligatures = ["niv>", "ni>v", "nidownright"]
 see_also = []
 
 [usage]
+2025-09 = 39
 
 [translations]
 commentary = ""

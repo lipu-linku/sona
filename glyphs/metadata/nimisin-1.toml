@@ -16,6 +16,10 @@ alias_ligatures = []
 see_also = ["nimi-1", "sin-1"]
 
 [usage]
+2025-09 = 29
+# the combo glyphs nimi-sin (stacked) and nimi+sin (scaled) were in the 2025 survey
+# the former scored 11 and the latter scored 14
+# it is not clear what this usage data means in the context of the survey
 
 [translations]
 commentary = ""

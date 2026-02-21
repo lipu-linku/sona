@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 76
 
 [translations]
 commentary = "This glyph was created independently by many people. At the earliest, it appears in linja sike's first beta, but there it is not an independent glyph- it can only be accessed by stacking akesi with another glyph."

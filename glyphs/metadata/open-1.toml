@@ -17,6 +17,7 @@ alias_ligatures = []
 see_also = ["poki-1"]
 
 [usage]
+2025-09 = 99
 
 [translations]
 commentary = ""

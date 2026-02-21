@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = []
 
 [usage]
+2025-09 = 3
 
 [translations]
 commentary = "This glyph for san has been developed independently multiple times, as it is derived from the Japanese symbol for three and the word is derived from that symbol's reading."

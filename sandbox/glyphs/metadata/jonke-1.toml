@@ -16,6 +16,7 @@ alias_ligatures = []
 see_also = ["waso-1", "mu-2"]
 
 [usage]
+2025-09 = 6
 
 [translations]
 commentary = ""
