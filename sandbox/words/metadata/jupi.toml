@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "jupi"
+author_verbatim = "[...] jupi - celebrate, celebration, victory, yippee (exclamation) <- Spanish \"yupi\"\n\nalso partially coined because there isn't a common toki pona word that starts with the syllable \"ju\" and i don't like any of the sandbox ones that do lol [...]"
+author_source = "https://discord.com/channels/301377942062366741/1187029495203504168/1244688898911764572"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["jan Kita", "niko", "meli Siliwa"]
+see_also = ["a", "je", "wa", "jepi", "jipi", "sipije"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "jupi"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = [] # requested for ssk as "jupi"
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "Coined indepentently multiple times over several years. Non-wuwojiti variant of the word jipi that has mostly overtaken it in use."
+definition = "yippee, woohoo (interjection indicating excitement, joy or happiness); to celebrate, to win; autism, autistic, ADHD, neurodivergent, spectrum, to stim"
+etymology = "yupi: Spanish, yippee; yippee: English, yippee; .ui: Lojban, happiness"

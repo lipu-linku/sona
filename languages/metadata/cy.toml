@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "cy"
+locale = "cy-GB"
+
+[name]
+en = "Welsh"
+endonym = "Cymraeg"
+tok = "toki Kinli"

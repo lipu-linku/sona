@@ -1,0 +1,36 @@
+#:schema ../../../api/generated/v2/word.json
+id = "natu"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020"
+author = ["jan Lakuse"]
+see_also = ["wan", "sama", "linja"]
+source_language = "Vietnamese"
+usage_category = "sandbox"
+word = "natu"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/natu.mp3"
+
+[representations]
+ligatures = ["natu"]
+
+[usage]
+2021-10 = 25
+2022-08 = 3
+2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/natu"
+
+[translations]
+commentary = ""
+definition = "relationship, correlation, commonality; cross, knot, junction, intersection; to overlap, to fold; to overstep, to exceed to a point"
+etymology = "ngã tư: Vietnamese, crossroads, four-way intersection"

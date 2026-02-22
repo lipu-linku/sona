@@ -1,0 +1,39 @@
+#:schema ../../../api/generated/v2/word.json
+id = "loka"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["unknown"]
+see_also = ["luka", "noka"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "loka"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/loka.mp3"
+
+[ku_data]
+limb = 13
+
+[representations]
+ligatures = ["loka"]
+
+[usage]
+2021-10 = 22
+2022-08 = 2
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/loka"
+
+[translations]
+commentary = "Coined in response to jan Sonja's survey, as a portmanteau, presumably as a joke."
+definition = "limb e.g. arm, leg"
+etymology = "luka: toki pona, hand, arm, grasping appendage, tactile appendage; noka: toki pona, foot, leg, roots, locomotive appendage"

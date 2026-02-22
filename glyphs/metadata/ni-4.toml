@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-4"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/692137231619457094"
+author = ["jan Epo (aprilsr)"]
+creation_date = "2020-03-24"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-4.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-4.svg"
+ligature = "ni04"
+ucsur = "U+F198B"
+alias_ligatures = ["ni>", "niright"]
+# teachability = 3
+see_also = []
+
+[usage]
+2025-09 = 53
+
+[translations]
+commentary = "The original source is an ASCII rendering of the glyph, and referenced as \"eni\".  The contraction \"eni\" was only used a few dozen times in total, but the right-arrow rendering of ni remained and was added to linja sike 5 on 2021-08-31."
+etymology = "an arrow"
+names = ["right ni"]

@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pake-1"
+word = "pake"
+word_id = "pake"
+usage_category = "obscure"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
+creation_date = "2016-10-16"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pake-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pake-1.svg"
+ligature = "pake01"
+ucsur = "U+F19A0"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 7
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

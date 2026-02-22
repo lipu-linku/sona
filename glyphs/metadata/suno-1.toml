@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "suno-1"
+word = "suno"
+word_id = "suno"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/suno-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/suno-1.svg"
+ligature = "suno01"
+ucsur = "U+F1964"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "pictogram of the sun"
+names = ["pu suno"]

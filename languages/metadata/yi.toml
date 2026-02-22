@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "rtl"
+id = "yi"
+locale = "yi-DE"
+
+[name]
+en = "Yiddish"
+endonym = "ייִדיש‎"
+tok = "toki Isisi"

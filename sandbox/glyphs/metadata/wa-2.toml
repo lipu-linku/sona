@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "wa-2"
+word = "wa"
+word_id = "wa"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wa-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wa-2.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = ["a-2", "o-2", "n-2", "kin-2"]
+parent_id = "wa-1"
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["diagonal wa", "acute accent wa"]

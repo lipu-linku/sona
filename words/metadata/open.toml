@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "open"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = ["kama"]
 source_language = "English"
 usage_category = "core"
 word = "open"
 deprecated = false
+glyph_ids = ["open-1"]
+primary_glyph_id = "open-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/open.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/open.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,9 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/open.mp3"
-
-[[etymology]]
-word = "open"
 
 [ku_data]
 access = 36
@@ -62,3 +64,8 @@ sitelen_jelo = ["🎬"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/open"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#open"
+
+[translations]
+commentary = 'Some proficient speakers use open as a preverb that means "start to," that goes along with the complimentary pini preverb "to stop"'
+definition = "begin, start, open, turn on; beginning"
+etymology = "open: English, open"

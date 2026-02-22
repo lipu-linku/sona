@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "yue"
+locale = "yue"
+
+[name]
+en = "Cantonese"
+endonym = "粤语"
+tok = "toki Kontonwa"

@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kon-1"
+word = "kon"
+word_id = "kon"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kon-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kon-1.svg"
+ligature = "kon01"
+ucsur = "U+F191D"
+alias_ligatures = []
+# teachability = 1
+see_also = ["telo-1", "linja-1"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "ideogram; wavy lines to indicate the fluidity of gas. compare telo"
+names = ["pu kon"]

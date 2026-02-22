@@ -1,0 +1,40 @@
+#:schema ../../../api/generated/v2/word.json
+id = "ke"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+creation_date = "2015"
+author = ["jan Maliku", "jan Kisinja"]
+see_also = ["oke", "n"]
+source_language = "English"
+usage_category = "sandbox"
+word = "ke"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ke.mp3"
+
+[ku_data]
+alright = 9
+
+[representations]
+ligatures = ["ke"]
+
+[usage]
+2020-04 = 18
+2021-10 = 23
+2022-08 = 4
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ke"
+
+[translations]
+commentary = ""
+definition = "(acknowledgement or acceptance)"
+etymology = "’kay: English, okay; okay: English, okay"

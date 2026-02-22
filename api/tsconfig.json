@@ -3,8 +3,7 @@
 		/* Base Options: */
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"target": "es2022",
-		"allowJs": true,
+		"target": "esnext",
 		"resolveJsonModule": true,
 		"moduleDetection": "force",
 		"isolatedModules": true,
@@ -17,7 +16,15 @@
 		"module": "preserve",
 		"noEmit": true,
 		/* If your code runs in the DOM: */
-		"lib": ["es2022", "dom", "dom.iterable"],
-		"types": ["vite/client", "./vite-env.d.ts"],
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable"
+		],
+		"types": [
+			"vite/client"
+		],
+		"allowImportingTsExtensions": true,
+		"noErrorTruncation": true,
 	}
 }

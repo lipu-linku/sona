@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "sikako"
+author_verbatim = ""
+author_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = ["soweli", "molusa"]
+source_language = "French"
+usage_category = "sandbox"
+word = "sikako"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["sikako"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = "sikeko is a common misspelling from tokiponists who believe \"sikako\" derives from \"sike ko\"."
+definition = "snail, gastropods, or “similar” animals"
+etymology = "escargot: French, escargot"

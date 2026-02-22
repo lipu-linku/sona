@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "panke"
+author_verbatim = ""
+author_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = ["pan", "kokosila"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "panke"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["panke"]
+
+[usage]
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "1. pan palisa Panke | 2. something typical of French culture | 3. calque-ing the French language when speaking toki pona."
+etymology = "pan: toki pona; baguette: French"

@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen lape"
-creator = ["jan Ali", "jan Sa"]
+author = ["jan Ali", "jan Sa"]
 features = []
 filename = "linjalapesuwi.otf"
 last_updated = "2022-09"

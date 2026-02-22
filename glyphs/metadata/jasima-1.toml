@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "jasima-1"
+word = "jasima"
+word_id = "jasima"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844"
+author = ["jan Sa"]
+creation_date = "2021-01-27"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jasima-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jasima-1.svg"
+ligature = "jasima01"
+ucsur = "U+F197F"
+alias_ligatures = []
+# teachability = 3
+see_also = ["telo-1"]
+
+[usage]
+2025-09 = 50
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

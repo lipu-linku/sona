@@ -1,0 +1,24 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "n-2"
+word = "n"
+word_id = "n"
+usage_category = "sandbox"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/releases/tag/1.1.1"
+author = ["jan Lepeka"]
+creation_date = "2023-01-02"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/n-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/n-2.svg"
+ucsur = "U+F1986"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+parent_id = "n-1"
+
+[usage]
+
+[translations]
+commentary = "This is likely not the earliest instance of this glyph, but there is no known earlier one."
+etymology = ""
+names = ["diagonal n", "acute accent n"]

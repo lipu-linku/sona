@@ -1,0 +1,26 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ko-2"
+word = "ko"
+word_id = "ko"
+usage_category = "common"
+author_source = "https://forums.tokipona.org/viewtopic.php?p=15452#p15452"
+author = ["jan Same"]
+creation_date = "2016-12-03"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ko-2.svg"
+ligature = "ko02"
+ucsur = "U+F191C"
+alias_ligatures = []
+# teachability = 4
+parent_id = "ko-1" # blobby ko
+see_also = []
+
+[usage]
+2025-09 = 66
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["flower ko"]

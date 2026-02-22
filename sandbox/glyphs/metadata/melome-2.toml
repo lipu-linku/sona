@@ -1,0 +1,27 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "melome-2"
+word = "melome"
+word_id = "melome"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/545467374254555137/809645695065391114"
+author = ["lipamanka"]
+creation_date = "2021-02-11"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/melome-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/melome-2.svg"
+ligature = "melome02"
+alias_ligatures = []
+# teachability = 4
+see_also = ["meli-1", "olin-1"]
+parent_id = "melome-1"
+
+[usage]
+2025-09 = 6
+# category override due to reader preference
+# https://discord.com/channels/972470770443886662/999566741397049384/1474588006408126496
+
+[translations]
+commentary = "lipamanka reports to have created this glyph to avoid it looking like 'nena+olin'"
+etymology = ""
+names = ["flipped olin melome"]

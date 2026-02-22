@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "epiku-2"
+word = "epiku"
+word_id = "epiku"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/912286596517220363/913408280947200010"
+author = ["kala Asi", "jan Seli", "waso suno Alana"]
+creation_date = "2021-11-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/epiku-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/epiku-2.svg"
+ligature = "epiku02"
+ucsur = "U+F1983"
+alias_ligatures = []
+# teachability = 3
+see_also = ["pona-1", "mute-1"]
+
+[usage]
+2025-09 = 35
+
+[translations]
+commentary = ""
+etymology = "pona with emitters"
+names = ["emitters epiku", "emissive epiku"]

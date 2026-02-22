@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "misikeke-2"
+word = "misikeke"
+word_id = "misikeke"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/869476620006723604"
+author = ["jan Sala (salarua)"]
+creation_date = "2021-07-27"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misikeke-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/misikeke-2.svg"
+ligature = "misikeke02"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 7
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["mortar and pestle misikeke", "mortar misikeke"]

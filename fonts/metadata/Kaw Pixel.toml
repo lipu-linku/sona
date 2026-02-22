@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "Kaw Pixel"
-creator = ["kaw57"]
+author = ["kaw57"]
 features = [
   #"ASCII transcription and codepoints",
   "UCSUR-compliant",

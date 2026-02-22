@@ -1,0 +1,34 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kalijopilale"
+author_verbatim = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
+author_source = "https://discord.com/channels/301377942062366741/337299887869657090/731769293699809300"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020"
+author = ["jan Likipi"]
+see_also = ["kijetesantakalu"]
+source_language = "Latin"
+usage_category = "sandbox"
+word = "kalijopilale"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalijopilale.mp3"
+
+[representations]
+ligatures = ["kalijopilale"]
+
+[usage]
+2022-08 = 1
+2023-09 = 2
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "member of the order Caryophyllales, including all cacti as well as carnations, beets, and many carnivorous plants"
+etymology = "Caryophyllales: Latin, Caryophyllales"

@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "Sevenish SP"
-creator = ["Nico \"SauceDLX\""]
+author = ["Nico \"SauceDLX\""]
 features = [
   "ASCII transcription",
   "UCSUR-compliant",

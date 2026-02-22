@@ -1,28 +1,34 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "yupekosi"
-author_verbatim = ""
-author_verbatim_source = ""
+author_verbatim = """another new word is 'yupekosi'
+yupekosi means "to behave like George Lucas and revise your old creative works and actually make them worse"
+nobody knows how to pronounce the y"""
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/640774839287808022"
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2019"
-creator = ["jan Sonja"]
+creation_date = "2019-11-03"
+author = ["jan Sonja"]
 see_also = []
 source_language = "a priori"
 usage_category = "obscure"
 word = "yupekosi"
 deprecated = false
+glyph_ids = ["yupekosi-1"]
+primary_glyph_id = "yupekosi-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/yupekosi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/yupekosi.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/yupekosi.mp3"
-
-[[etymology]]
 
 [ku_data]
 "change a creative work and unintentionally make it worse" = 50
 
 [representations]
 ligatures = ["yupekosi"]
+ucsur = "U+F29BA"
 sitelen_emosi = "📉"
 
 [usage]
@@ -35,3 +41,8 @@ sitelen_emosi = "📉"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/yupekosi"
+
+[translations]
+commentary = 'Coined as a random keystroke. It is presumed jan Sonja used "y" by mistake, but then made it part of the joke by adding "nobody knows how to pronounce the y".'
+definition = "to behave like George Lucas and revise your old creative works and actually make them worse"
+etymology = "a priori"

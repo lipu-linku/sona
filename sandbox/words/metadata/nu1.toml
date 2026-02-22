@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "nu1"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2019"
+author = ["jan pan"]
+see_also = ["sin"]
+source_language = "English"
+usage_category = "sandbox"
+word = "nu"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["nu2"]
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "new"
+etymology = "new: English, new"

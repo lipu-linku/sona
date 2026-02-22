@@ -1,0 +1,37 @@
+#:schema ../../../api/generated/v2/word.json
+id = "peta"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2019"
+author = ["jan Tesa"]
+see_also = ["laso"]
+source_language = "Esperanto"
+usage_category = "sandbox"
+word = "peta"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/peta.mp3"
+
+[representations]
+ligatures = ["peta"]
+sitelen_emosi = "🟢"
+
+[usage]
+2020-04 = 13
+2022-08 = 1
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/peta"
+
+[translations]
+commentary = ""
+definition = "green, greenish; verdant, alive; ecofriendly"
+etymology = "verda: Esperanto, green"

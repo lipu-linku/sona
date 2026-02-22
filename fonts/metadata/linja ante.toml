@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja ante"
-creator = ["jan Melon"]
+author = ["jan Melon"]
 features = ["ASCII transcription"]
 filename = "linja-ante.ttf"
 last_updated = "2021-01"

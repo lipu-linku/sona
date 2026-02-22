@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "soweli-3"
+word = "soweli"
+word_id = "soweli"
+usage_category = "sandbox"
+author_source = ""
+author = ["jan Lepeka"]
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soweli-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soweli-3.svg"
+alias_ligatures = []
+# teachability = 1
+see_also = ["soweli-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["side soweli"]

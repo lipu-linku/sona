@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja laso"
-creator = ["mute ante"]
+author = ["mute ante"]
 features = ["ASCII transcription", "UCSUR-compliant", "cartouches"]
 filename = "linja_laso.otf"
 last_updated = "2026-01"

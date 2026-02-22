@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "jelo-1"
+word = "jelo"
+word_id = "jelo"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jelo-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jelo-1.svg"
+ligature = "jelo01"
+ucsur = "U+F1912"
+alias_ligatures = []
+# teachability = 1
+see_also = ["suno-1", "kule-1"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "color radical + suno"
+names = ["pu jelo"]

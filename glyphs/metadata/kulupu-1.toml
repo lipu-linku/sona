@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kulupu-1"
+word = "kulupu"
+word_id = "kulupu"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kulupu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kulupu-1.svg"
+ligature = "kulupu01"
+ucsur = "U+F191F"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "pictogram of a group consisting of three members represented by circles"
+names = ["pu kulupu"]

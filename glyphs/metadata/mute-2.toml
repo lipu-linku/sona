@@ -1,0 +1,26 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mute-2"
+word = "mute"
+word_id = "mute"
+usage_category = "uncommon"
+author_source = "https://web.archive.org/web/20221103221312/https://umihotaru.work/nishiki_sitelen.pdf, https://discord.com/channels/301377942062366741/340307145373253642/1191265875043557467"
+author = ["Umihotaru", "jan Itan", "jan Sonja"]
+creation_date = "2024-01-01"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mute-2.svg"
+ligature = "mute02"
+ucsur = "U+F193C"
+# TODO: this will probably be added under rare SP
+alias_ligatures = []
+# teachability = 4
+see_also = ["luka-1"]
+
+[usage]
+2025-09 = 31
+
+[translations]
+commentary = "This was created as a ligature in Nishiki Teki on 11-02-2022, but not acknowledged as a \"mute\" glyph until Sonja posted it on 01-01-2024 and explicitly called such on 01-17-2024."
+etymology = ""
+names = ["hand mute", "luka mute", "4 luka mute"]

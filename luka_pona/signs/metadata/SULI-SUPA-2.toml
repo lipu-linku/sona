@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "suli"
-id = "SULI^2"
+id = "SULI-SUPA-2"
 is_two_handed = true
 new_gloss = "SULI-SUPA-2"
 old_gloss = "SULI"
+old_id = "SULI^2"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񂈑񂇹񇀡񇀵𝠃𝤘𝤫񂈑𝣵𝣢񂇹𝣵𝤎񇀡𝤈𝣢񇀵�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/suli.mp4"
+
+[translations]
+icons = "visually showing the size of something"
+[translations.parameters]
+handshape = "FlatB"
+movement = "movement upward"

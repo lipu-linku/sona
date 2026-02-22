@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "monsuta-1"
+word = "monsuta"
+word_id = "monsuta"
+usage_category = "common"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
+creation_date = "2016-10-16"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/monsuta-1.svg"
+ligature = "monsuta01"
+ucsur = "U+F197D"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 87
+
+[translations]
+commentary = ""
+etymology = "visual representation of shaking as seen in cartoons"
+names = []

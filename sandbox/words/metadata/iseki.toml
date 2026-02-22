@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "iseki"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2023"
+author = ["kulupu Solali"]
+see_also = ["namako"]
+source_language = "Turkish"
+usage_category = "sandbox"
+word = "iseki"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["iseki"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = 'Intended as an alt for namako that removes the "additional, extra" definition. used to emphasize that these details are core to something, and not superfluous.'
+definition = "flower; adornment, accessory, garnish, spice; ornamental, aesthetic, beauty, flourish"
+etymology = "çiçek, çiçeği: Turkish, flower, blossom"

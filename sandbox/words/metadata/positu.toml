@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "positu"
+author_verbatim = "positu - the life, universe, and everything else /ref\nI havent even read hitchhikers guide I just know that"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/956236868406620180"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["waso Pini"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "positu"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "the life, universe, and everything else"
+etymology = "forty two: English"

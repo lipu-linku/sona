@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "toki"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "toki"
 deprecated = false
+glyph_ids = ["toki-1"]
+primary_glyph_id = "toki-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/toki.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/toki.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,12 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/toki.mp3"
-
-[[etymology]]
-word = "tok"
-
-[[etymology]]
-word = "talk"
 
 [ku_data]
 accuse = 25
@@ -114,3 +113,8 @@ sitelen_jelo = ["💬"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/toki"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#toki"
+
+[translations]
+commentary = ""
+definition = "communicate, say, think; conversation, story; language"
+etymology = "tok: Tok Pisin, talk; talk: English, talk"

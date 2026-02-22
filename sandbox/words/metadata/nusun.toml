@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "nusun"
+author_verbatim = "**nusun**: ||divination, astrology, fortune telling||"
+author_source = "https://discord.com/channels/301377942062366741/316063418253705229/1208279380506189824"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["jan Sonja"]
+see_also = ["usawi"]
+source_language = "Malay"
+usage_category = "sandbox"
+word = "nusun"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["nusun"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "Coined by jan Sonja after she was asked for a word beginning with \"nu\", for use in sitelen pona cartouches using nasin sitelen kalama."
+definition = "divination, astrology, fortune telling"
+etymology = "nujum: Malay, astrology, fortune-telling, predicting the future. fortune-teller, oracle. star"

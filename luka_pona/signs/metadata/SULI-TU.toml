@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "suli"
-id = "SULI^3"
+id = "SULI-TU"
 is_two_handed = false
 new_gloss = "SULI-TU"
 old_gloss = "SULI"
+old_id = "SULI^3"
 
 [[etymology]]
 language = "toki pona luka pu"
@@ -20,3 +21,9 @@ swu = "𝠀񀠱񇀡𝠃𝤐𝤧񀠱𝤁𝤉񇀡𝣽𝣦"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/suli.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/suli.mp4"
+
+[translations]
+icons = "opposite of LILI-TU"
+[translations.parameters]
+handshape = "V"
+movement = "movement upward"

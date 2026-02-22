@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "seme"
-id = "SEME^1"
+id = "SEME-SUPA-1"
 is_two_handed = false
 new_gloss = "SEME-SUPA-1"
 old_gloss = "SEME"
+old_id = "SEME^1"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񂇱񈟃𝠃𝤍𝤤񂇱𝤀𝣩񈟃𝣿𝤉"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/seme.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/seme.mp4"
+
+[translations]
+icons = "shrug; open hands ready to be given something"
+[translations.parameters]
+handshape = "FlatB"
+orientation = "palm facing up"

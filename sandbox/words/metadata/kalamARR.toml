@@ -1,0 +1,36 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kalamARR"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["(unknown ku surveyee)"]
+see_also = ["kalama"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "kalamARR"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kalamARR.mp3"
+
+[representations]
+ligatures = ["kalamARR"]
+
+[usage]
+2020-04 = 13
+2022-08 = 4
+2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kalamARR"
+
+[translations]
+commentary = ""
+definition = "(pirate noise)"
+etymology = "kalama: toki pona, make sound. sound, noise, voice; arr: English, (imitation of pirates)"

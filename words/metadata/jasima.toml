@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "jasima"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku suli"
 coined_era = "post-pu"
-coined_year = "2018"
-creator = ["jan Wesu", "jan Maliku", "jan Kisinja", "jan inwin"]
+creation_date = "2018"
+author = ["jan Wesu", "jan Maliku", "jan Kisinja", "jan inwin"]
 see_also = ["tu", "lukin"]
 source_language = "Turkish"
 usage_category = "uncommon"
 word = "jasima"
 deprecated = false
+glyph_ids = ["jasima-1"]
+primary_glyph_id = "jasima-1"
+# teachability = 3
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jasima.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jasima.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,9 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jasima.mp3"
-
-[[etymology]]
-word = "yansıtmak"
 
 [ku_data]
 opposite = 40
@@ -44,3 +46,8 @@ sitelen_jelo = ["🪞", "🪩"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jasima"
+
+[translations]
+commentary = ""
+definition = "reflect, echo; mirror, duplicate"
+etymology = "yansıtmak: Turkish, to reflect, reverberate"

@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lipu-1"
+word = "lipu"
+word_id = "lipu"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lipu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lipu-1.svg"
+ligature = "lipu01"
+ucsur = "U+F192A"
+alias_ligatures = []
+# teachability = 1
+see_also = ["sitelen-1", "sona-1"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "pictogram of a sheet of paper. compare blissymbol “paper”"
+names = ["pu lipu"]

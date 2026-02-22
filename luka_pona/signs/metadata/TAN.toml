@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "tan"
 id = "TAN"
 is_two_handed = false
 new_gloss = "TAN"
 old_gloss = "TAN"
+old_id = "TAN"
 
 [[etymology]]
 language = "BSL"
@@ -16,3 +17,9 @@ swu = "𝠀񁲱񉳁𝠃𝤒𝤦񁲱𝣺𝣦񉳁𝣻𝤊"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tan.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tan.mp4"
+
+[translations]
+icons = "coming from one place to another"
+[translations.parameters]
+handshape = "5"
+movement = "palm flip down"

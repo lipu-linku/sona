@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "jan-2"
+word = "jan"
+word_id = "jan"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/939702382034550854"
+author = ["unknown"]
+creation_date = "2022-02-05"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-2.svg"
+ligature = "jan02"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 9
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["eyes jan"]

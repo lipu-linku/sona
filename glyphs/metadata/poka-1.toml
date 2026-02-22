@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "poka-1"
+word = "poka"
+word_id = "poka"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/poka-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/poka-1.svg"
+ligature = "poka01"
+ucsur = "U+F1952"
+alias_ligatures = []
+# teachability = 1
+see_also = ["insa-1", "anpa-1", "sewi-2"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "location radical + “container”"
+names = ["pu poka"]

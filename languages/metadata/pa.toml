@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "pa"
+locale = "pa-IN"
+
+[name]
+en = "Punjabi"
+endonym = "ਪੰਜਾਬੀ"
+tok = "toki Pansapi"

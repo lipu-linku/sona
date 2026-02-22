@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kulaso"
+author_verbatim = "green laso, glaso"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/features/asuki.txt"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["jan Lepeka"]
+see_also = ["laso", "kasi", "peta"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "kulaso"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["kulaso"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "green, greenish"
+etymology = "green: English, green; laso: toki pona, blue, green"

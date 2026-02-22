@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "su-1"
+word = "su"
+word_id = "su"
+usage_category = "uncommon"
+author_source = "https://www.amazon.com/gp/product/0978292375"
+author = ["jan Itan", "jan Sonja"]
+creation_date = "2024-02-04"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/su-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/su-1.svg"
+ligature = "su01"
+alias_ligatures = []
+# teachability = 3
+see_also = ["pu-1", "ku-1", "su-2", "lipu-1"]
+ucsur = "U+F19A6"
+
+[usage]
+2025-09 = 52
+
+[translations]
+commentary = ""
+etymology = "pictogram of the front cover of The Wizard of Oz illustrated story book, depicting the yellow brick road from the story"
+names = ["su nanpa wan", "su nasin"]

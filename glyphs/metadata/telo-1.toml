@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "telo-1"
+word = "telo"
+word_id = "telo"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/telo-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/telo-1.svg"
+ligature = "telo01"
+ucsur = "U+F196A"
+alias_ligatures = []
+# teachability = 1
+see_also = ["kon-1", "linja-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "pictogram of wave. compare blissymbol “water”"
+names = ["pu telo"]

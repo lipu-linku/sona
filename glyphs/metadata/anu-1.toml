@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "anu-1"
+word = "anu"
+word_id = "anu"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/anu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/anu-1.svg"
+ligature = "anu01"
+ucsur = "U+F1907"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = 'perhaps from mathematical symbol "or" (∨)'
+names = ["pu anu"]

@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "fi"
+locale = "fi-FI"
+
+[name]
+en = "Finnish"
+endonym = "Suomi"
+tok = "toki Sumi"

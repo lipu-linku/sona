@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "M-2"
 is_two_handed = true
 
@@ -10,4 +10,7 @@ sign = "M"
 fsw = "M517x520S20500492x509S15a37484x481S18250495x491"
 swu = "𝠃𝤗𝤚񆇡𝣾𝤏񂇸𝣶𝣳񃄑𝤁𝣽"
 
-[video]
+[translations.parameters]
+handshape = "FlatB + FlatB"
+orientation = "palm up + palm down"
+placement = "touch palm"

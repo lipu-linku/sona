@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen Komalin"
-creator = ["Kolmaryn / jan Komalin"]
+author = ["Kolmaryn / jan Komalin"]
 features = []
 filename = "sitelen-komalin.ttf"
 last_updated = "2022-07"

@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "jan-1"
+word = "jan"
+word_id = "jan"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan-1.svg"
+ligature = "jan01"
+ucsur = "U+F1911"
+alias_ligatures = []
+# teachability = 1
+see_also = ["meli-1", "mije-1"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "head radical; pictogram of a person showing the shoulders"
+names = ["pu jan"]

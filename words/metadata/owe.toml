@@ -1,23 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "owe"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "none"
 coined_era = "post-pu"
-coined_year = ""
-creator = ["nano"]
+creation_date = ""
+author = ["nano"]
 see_also = []
 source_language = "English"
 usage_category = "obscure"
 word = "owe"
 deprecated = false
+glyph_ids = ["owe-1"]
+primary_glyph_id = "owe-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/owe.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/owe.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/owe.mp3"
-
-[[etymology]]
-word = "Orwell"
 
 [representations]
 ligatures = ["owe"]
@@ -31,3 +33,8 @@ ligatures = ["owe"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/owe"
+
+[translations]
+commentary = ""
+definition = "totalitarian, Orwellian; of or relating to Big Brother from the book Nineteen Eighty-Four"
+etymology = "Orwell: English, George Orwell, author of 1984"

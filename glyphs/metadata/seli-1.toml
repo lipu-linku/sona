@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "seli-1"
+word = "seli"
+word_id = "seli"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seli-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/seli-1.svg"
+ligature = "seli01"
+ucsur = "U+F1957"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "perhaps a pictogram of a lit campfire or a simplified pictogram of a fire"
+names = ["pu seli"]

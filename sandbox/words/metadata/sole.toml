@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "sole"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["waso Netun"]
+see_also = []
+source_language = "Spanish"
+usage_category = "sandbox"
+word = "sole"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = "May refer to a state prior to a kama."
+definition = "pattern, constant, unchanged, unaltered, unaffected; instinct, habit, to use to, to tend to"
+etymology = "soler: Spanish, to use to, to tend to"

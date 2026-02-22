@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "tonsi-3"
+word = "tonsi"
+word_id = "tonsi"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/969386329513295872/1045911317795573810/1135675806715228210"
+author = ["waso suno Alana"]
+creation_date = "2023-07-31"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tonsi-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tonsi-3.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 3
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["letter tonsi"]

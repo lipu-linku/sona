@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "me"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = ""
+author = ["David B"]
+see_also = ["a", "kin", "seme"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "me"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["me"]
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "[question particle modifier]"
+etymology = "anu seme: toki pona, tag question"
