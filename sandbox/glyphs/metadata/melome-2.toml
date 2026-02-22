@@ -14,7 +14,7 @@ ligature = "melome02"
 alias_ligatures = []
 # teachability = 4
 see_also = ["meli-1", "olin-1"]
-parent_id = "melome-01"
+parent_id = "melome-1"
 
 [usage]
 2025-09 = 6
