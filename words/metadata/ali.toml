@@ -12,7 +12,6 @@ usage_category = "uncommon"
 word = "ali"
 parent_id = "ale"
 deprecated = false
-# TODO: is this the correct way to model this relationship?
 glyph_ids = ["ale-1"]
 primary_glyph_id = "ale-1"
 # teachability = 1
