@@ -47,10 +47,17 @@ and then helpers:
   - Root key `etymology` and translation key `etymology` merged into single
     translatable field `etymlogy` under `translations`
 - Key `author_verbatim_source` renamed `author_source`
-- New key `glyph_ids` which refers to all glyphs in Linku that may represent
+- Key `coined_year` renamed `creation_date`, and can be accurate to the day if
+  known
+
+- New keys `image` and `svg` which link to an image of the word's primary sitelen pona
+- New key `glyph_ids` which refers to all glyphs above Sandbox that may represent
   this word
 - New key `primary_glyph_id` which refers to the glyph in Linku most used to write
   this word, such as `akesi-2` for `akesi`
+- New key `parent_id` which is the ID of a synonymous word, generally from the
+  lesser to the more popular word; may optionally be used to merge or hide
+  entries
 
 - Referential fields such as `see_also` can no longer refer to sandbox data
 
@@ -58,8 +65,10 @@ and then helpers:
 
 - Key `word` refers to the latin script word this glyph writes
 - Key `word_id` refers to a corresponding word in Linku by its id, which is
-  often the same as `word` anyway
+  often (but not always) the same as `word`
 - Key `usage_category` functions as in `/v1/words` and `/v2/words`
+  - Though there are a handful of overrides, from sandbox to obscure or vice
+    versa, depending on the parent word
 - Key `primary` indicates whether a glyph is primarily used to write its word;
   must match that word's `primary_glyph_id` field
 - Key `deprecated` indicates whether a glyph is considered deprecated by its creator
@@ -74,7 +83,7 @@ and then helpers:
   data from Linku taken from `words/`, `luka_pona/`, `fonts/`, `languages/`, and `glyphs/` for `v2`.
 - `sandbox` is now nested as `sandbox/words` and `sandbox/glyphs`
 - `languages` is now split among all languages rather than having a single file,
-for parity with other types
+  for parity with other types
 
 ### Types
 
