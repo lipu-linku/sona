@@ -32,6 +32,7 @@ ligatures = ["wekama"]
 2025-09 = 6
 
 [resources]
+sona_pona = "https://sona.pona.la/wiki/wekama"
 
 [translations]
 commentary = ""
