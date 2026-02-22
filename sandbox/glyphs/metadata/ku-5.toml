@@ -10,11 +10,12 @@ primary = false
 deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-5.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ku-5.svg"
-ligature = "ku5"
+ligature = "ku05"
 ucsur = "U+F1988"
 alias_ligatures = []
 # teachability = 2
 see_also = ["pu-1", "su-1", "lipu-1"]
+parent_id = "ku-1"
 
 [usage]
 

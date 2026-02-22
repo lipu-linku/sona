@@ -26,7 +26,8 @@ brown = 24
 grey = 7
 
 [representations]
-ligatures = ["kapesi", "kapesi2"]
+ligatures = ["kapesi"]
+ucsur = "U+F19A9"
 sitelen_emosi = "🟤"
 
 [usage]

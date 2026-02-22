@@ -28,7 +28,8 @@ bond = 10
 clip = 4
 
 [representations]
-ligatures = ["taki", "taki2"]
+ligatures = ["taki"]
+ucsur = "U+F29B3"
 
 [usage]
 2021-10 = 38

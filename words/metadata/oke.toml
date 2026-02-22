@@ -29,6 +29,7 @@ fine = 7
 [representations]
 ligatures = ["oke"]
 sitelen_emosi = "👌"
+ucsur = "U+F19AF"
 
 [usage]
 2020-04 = 25

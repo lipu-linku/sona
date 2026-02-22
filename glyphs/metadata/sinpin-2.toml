@@ -15,6 +15,7 @@ ucsur = "U+F195F"
 alias_ligatures = []
 # teachability = 4
 see_also = ["sinpin-1", "soweli-1"]
+parent_id = "sinpin-1"
 
 [usage]
 2025-09 = 5

@@ -29,6 +29,7 @@ think = 29
 
 [representations]
 ligatures = ["isipin"]
+ucsur = "U+F19A7"
 
 [usage]
 2021-10 = 43

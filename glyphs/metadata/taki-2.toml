@@ -14,6 +14,7 @@ ligature = "taki02"
 alias_ligatures = []
 # teachability = 4
 see_also = []
+ucsur = "U+F29B3"
 
 [usage]
 2025-09 = 5

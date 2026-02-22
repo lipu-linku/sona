@@ -10,7 +10,6 @@ primary = false
 deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-4.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-4.svg"
-ligature = "linluwi04"
 alias_ligatures = []
 # teachability = 4
 see_also = ["linluwi-2"]

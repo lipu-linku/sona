@@ -14,6 +14,7 @@ ligature = "nimisin01"
 alias_ligatures = []
 # teachability = 4
 see_also = ["nimi-1", "sin-1"]
+ucsur = "U+F19AD"
 
 [usage]
 2025-09 = 29

@@ -10,10 +10,10 @@ primary = false
 deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wa-2.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/wa-2.svg"
-ligature = "wa2"
 alias_ligatures = []
 # teachability = 4
 see_also = ["a-2", "o-2", "n-2", "kin-2"]
+parent_id = "wa-1"
 
 [usage]
 

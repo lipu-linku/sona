@@ -26,6 +26,7 @@ revolution = 7
 
 [representations]
 ligatures = ["kamalawala"]
+ucsur = "U+F19A8"
 sitelen_emosi = "💣"
 
 [usage]

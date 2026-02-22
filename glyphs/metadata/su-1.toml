@@ -14,6 +14,7 @@ ligature = "su01"
 alias_ligatures = []
 # teachability = 3
 see_also = ["pu-1", "ku-1", "su-2", "lipu-1"]
+ucsur = "U+F19A6"
 
 [usage]
 2025-09 = 52

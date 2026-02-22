@@ -11,7 +11,6 @@ deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-6.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-6.svg"
 ligature = "ni06"
-ucsur = "U+F1941"
 alias_ligatures = ["ni^>", "ni>^", "niupright"]
 # teachability = 4
 see_also = []

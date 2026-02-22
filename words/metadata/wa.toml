@@ -27,6 +27,7 @@ wow = 11
 
 [representations]
 ligatures = ["wa"]
+ucsur = "U+F29B8"
 
 [usage]
 2021-10 = 39

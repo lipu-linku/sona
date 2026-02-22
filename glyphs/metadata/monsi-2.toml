@@ -14,6 +14,7 @@ ligature = "monsi02"
 ucsur = "U+F1938"
 alias_ligatures = []
 # teachability = 4
+parent_id = "monsi-1"
 see_also = []
 
 [usage]

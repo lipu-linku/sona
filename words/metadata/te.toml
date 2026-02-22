@@ -26,6 +26,7 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 
 [representations]
 ligatures = ["te"]
+ucsur = "U+F29B4"
 sitelen_emosi = "🤜"
 
 [usage]

@@ -14,6 +14,7 @@ ligature = "usawi01"
 alias_ligatures = []
 # teachability = 4
 see_also = ["nasa-1"]
+ucsur = "U+F29B7"
 
 [usage]
 2025-09 = 16

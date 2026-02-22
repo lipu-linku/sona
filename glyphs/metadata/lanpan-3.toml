@@ -10,9 +10,10 @@ primary = false
 deprecated = false
 image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-3.png"
 svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-3.svg"
-ligature = "lanpan3"
+ligature = "lanpan03"
 ucsur = "U+F1985"
 alias_ligatures = []
+parent_id = "lanpan-1"
 # teachability = 4
 see_also = []
 

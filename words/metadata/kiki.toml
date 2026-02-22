@@ -29,6 +29,7 @@ spiky = 21
 
 [representations]
 ligatures = ["kiki"]
+ucsur = "U+F19A5"
 
 [usage]
 2021-10 = 41

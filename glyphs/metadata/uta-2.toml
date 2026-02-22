@@ -14,6 +14,7 @@ ligature = "uta02"
 ucsur = "U+F1970"
 alias_ligatures = []
 # teachability = 4
+parent_id = "uta-1"
 see_also = []
 
 [usage]
