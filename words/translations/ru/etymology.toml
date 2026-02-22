@@ -669,7 +669,7 @@ definition = "bug"
 language = "Acadian French"
 
 [[po]]
-definition = "четыре"
+definition = "(число) четыре"
 language = "English"
 
 [[poka]]
@@ -721,15 +721,15 @@ definition = "same"
 language = "English"
 
 [[san]]
-definition = "три"
+definition = "(число) три"
 language = "Japanese"
 
 [[san]]
-definition = "три"
+definition = "(число) три"
 language = "Cantonese"
 
 [[san]]
-definition = "три"
+definition = "(число) три"
 language = "Cantonese"
 
 [[seli]]
@@ -765,7 +765,7 @@ definition = "new, fresh"
 language = "Mandarin"
 
 [[sina]]
-definition = "ты, вы"
+definition = "(местоимение) ты, вы"
 language = "Finnish"
 
 [[sinpin]]
@@ -911,7 +911,7 @@ language = "Esperanto"
 language = "onomatopoeia"
 
 [[unu]]
-definition = "фиолетовый"
+definition = "фиолетовый, лиловый"
 language = "Malay-Indonesian"
 
 [[usawi]]
