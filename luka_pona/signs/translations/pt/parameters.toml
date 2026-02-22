@@ -111,7 +111,7 @@ movement = "movimento para baixo"
 orientation = "dedo apontando para cima"
 
 [JELO]
-handshape = "F"
+handshape = "9"
 movement = "colocado ao lado da cabeça"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "V"
 placement = "colocado nos olhos"
 
 [KIKI]
-handshape = "F"
+handshape = "9"
 movement = "movimento para cima"
 orientation = "palma voltada para cima"
 
@@ -187,7 +187,7 @@ handshape = "5"
 movement = "tremer/mexer da mão"
 
 [KULE]
-handshape = "F"
+handshape = "9"
 movement = "movimento circular vertical"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "FlatB"
 movement = "colocado ao lado da cabeça"
 
 [LASO]
-handshape = "F"
+handshape = "9"
 placement = "colocado na mão oposta"
 
 [LAWA]
@@ -247,7 +247,7 @@ movement = "movimento para baixo"
 placement = "colocado no ombro"
 
 [LETE]
-handshape = "F"
+handshape = "9"
 placement = "colocado na mão oposta"
 
 [LILI-TU]
@@ -259,7 +259,7 @@ handshape = "2"
 orientation = "movimento para baixo"
 
 [LILI-PIPI]
-handshape = "F"
+handshape = "9"
 orientation = "palma voltada para fora"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "FlatB"
 orientation = "movimento para baixo"
 
 [LINJA-1]
-handshape = "F"
+handshape = "9"
 movement = "movimento para o lado"
 
 [LINJA-2]
-handshape = "F"
+handshape = "9"
 movement = "movimento para o lado"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "FlatB"
 placement = "colocado na mão oposta"
 
 [LOJE]
-handshape = "F"
+handshape = "9"
 orientation = "palma virada de lado"
 placement = "colocado na boca"
 
@@ -487,15 +487,15 @@ handshape = "BentB"
 movement = "movimento para fora, movimento para dentro, movimento lateral"
 
 [PI]
-handshape = "F"
+handshape = "9"
 movement = "dedos para cima"
 
 [PILIN]
-handshape = "F"
+handshape = "9"
 placement = "colocado no peito/estômago"
 
 [PIMEJA]
-handshape = "F"
+handshape = "9"
 placement = "colocado no ombro"
 
 [PINI-1]
@@ -507,7 +507,7 @@ handshape = "FlatB"
 movement = "virar a palma da mão para baixo"
 
 [PIPI]
-handshape = "F"
+handshape = "9"
 movement = "tremer/mexer da mão"
 
 [POKA]
@@ -620,7 +620,7 @@ handshape = "FlatB"
 orientation = "palma voltada para fora"
 
 [SITELEN]
-handshape = "F"
+handshape = "9"
 movement = "círculo horizontal"
 
 [SOKO]
@@ -732,7 +732,7 @@ handshape = "OpenA"
 movement = "movimento para fora, movimento para dentro, movimento lateral"
 
 [WALO]
-handshape = "F"
+handshape = "9"
 placement = "colocado no olho"
 
 [WAN]
