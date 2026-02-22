@@ -111,7 +111,7 @@ movement = "beweging omlaag"
 orientation = "vinger naar boven wijzen"
 
 [JELO]
-handshape = "9"
+handshape = "F"
 movement = "naast hoofd geplaatst"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "V"
 placement = "geplaatst op de ogen"
 
 [KIKI]
-handshape = "9"
+handshape = "F"
 movement = "beweging naar boven"
 orientation = "palm wijst omhoog"
 
@@ -187,7 +187,7 @@ handshape = "5"
 movement = "hand schudden/trillen"
 
 [KULE]
-handshape = "9"
+handshape = "F"
 movement = "verticale cirkelvormige beweging"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "PlatteB"
 movement = "naast hoofd geplaatst"
 
 [LASO]
-handshape = "9"
+handshape = "F"
 placement = "geplaatst op tegenovergestelde hand"
 
 [LAWA]
@@ -247,11 +247,11 @@ movement = "beweging omlaag"
 placement = "geplaatst op schouder"
 
 [LETE]
-handshape = "9"
+handshape = "F"
 placement = "geplaatst op tegenovergestelde hand"
 
 [LILI-PIPI]
-handshape = "9"
+handshape = "F"
 orientation = "de palm wijst naar buiten"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "2"
 orientation = "beweging omlaag"
 
 [LINJA-1]
-handshape = "9"
+handshape = "F"
 movement = "zijdelingse beweging"
 
 [LINJA-2]
-handshape = "9"
+handshape = "F"
 movement = "zijdelingse beweging"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "PlatteB"
 placement = "geplaatst op tegenovergestelde hand"
 
 [LOJE]
-handshape = "9"
+handshape = "F"
 orientation = "palm wijst zijwaarts"
 placement = "geplaatst op de mond"
 
@@ -396,7 +396,7 @@ handshape = "BentB"
 placement = "geplaatst op mond/kin"
 
 [MUN]
-handshape = "9"
+handshape = "O"
 placement = "naast hoofd geplaatst"
 
 [MUSI]
@@ -493,15 +493,15 @@ beweging naar binnen,
 zijdelingse beweging"""
 
 [PI]
-handshape = "9"
+handshape = "F"
 movement = "vingers springen omhoog"
 
 [PILIN]
-handshape = "9"
+handshape = "F"
 placement = "geplaatst op borst/maag"
 
 [PIMEJA]
-handshape = "9"
+handshape = "F"
 placement = "geplaatst op schouder"
 
 [PINI-1]
@@ -513,7 +513,7 @@ handshape = "PlatteB"
 movement = "palm omlaag draaien"
 
 [PIPI]
-handshape = "9"
+handshape = "F"
 movement = "hand schudden/trillen"
 
 [POKA]
@@ -626,7 +626,7 @@ handshape = "PlatteB"
 orientation = "de palm wijst naar buiten"
 
 [SITELEN]
-handshape = "9"
+handshape = "F"
 movement = "horizontale cirkel"
 
 [SOKO]
@@ -744,7 +744,7 @@ beweging naar binnen,
 zijdelingse beweging"""
 
 [WALO]
-handshape = "9"
+handshape = "F"
 placement = "op een oog geplaatst"
 
 [WAN]

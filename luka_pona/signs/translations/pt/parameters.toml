@@ -1,230 +1,230 @@
 [AKESI]
 handshape = "V"
-orientation = "fingers pointing outwards"
-placement = "on mouth/chin"
+orientation = "dedos apontando para fora"
+placement = "na boca/queixo"
 
 [ALA]
 handshape = "FlatB"
-placement = "shoulder"
+placement = "ombro"
 
 [ALASA-1]
 handshape = "1"
-movement = "movement outwards"
+movement = "movimento para fora"
 
 [ALASA-2]
 handshape = "1"
-movement = "movement outwards"
+movement = "movimento para fora"
 
 [ALE-1]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "movimento circular vertical"
 
 [ALE-2]
 handshape = "5"
-movement = "vertical circle movement"
+movement = "movimento circular vertical"
 
 [ANPA-LON]
 handshape = "L"
-orientation = "finger pointing down"
+orientation = "dedo apontando para baixo"
 
 [ANPA-TAWA]
 handshape = "BentB"
-movement = "movement downward"
+movement = "movimento para baixo"
 
 [ANTE-KIWEN]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [ANTE-KIWEN-2]
 handshape = "OpenA"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [ANTE-WAN]
 handshape = "1"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [ANTE-WAN-2]
 handshape = "1"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [ANU]
 handshape = "L"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [AWEN-AWEN]
 handshape = "BentB"
-orientation = "palm placed inward"
-placement = "placed on shoulder"
+orientation = "palma da mão voltada para dentro"
+placement = "colocado no ombro"
 
 [AWEN-TAWA]
 handshape = "BentB"
-orientation = "palm placed inward"
-movement = "movement inward"
+orientation = "palma da mão voltada para dentro"
+movement = "movimento para dentro"
 
 [EN-KIN-KAN]
 handshape = "L"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [ESUN-1]
 handshape = "BentB"
-movement = "horizontal circle movement"
-orientation = "palm facing up"
+movement = "movimento circular horizontal"
+orientation = "palma voltada para cima"
 
 [ESUN-2]
 handshape = "BentB"
-movement = "horizontal circle movement"
-orientation = "palm facing up"
+movement = "movimento circular horizontal"
+orientation = "palma voltada para cima"
 
 [IJO-LUKA]
 handshape = "1"
-placement = "placed on opposite hand"
+placement = "colocado na mão oposta"
 
 [IJO-NENA]
 handshape = "1"
-placement = "placed on shoulder"
+placement = "colocado no ombro"
 
 [IKE]
 handshape = "OpenA"
-orientation = "palm outwards"
+orientation = "palma para fora"
 
 [ILO]
 handshape = "L"
-placement = "placed on opposite hand"
+placement = "colocado na mão oposta"
 
 [INSA]
 handshape = "L"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [JAKI]
 handshape = "OpenA"
-orientation = "palm outwards"
-placement = "placed on eyes"
+orientation = "palma para fora"
+placement = "colocado nos olhos"
 
 [JAN-LA]
 handshape = "L"
-movement = "movement downward"
-orientation = "palm facing down"
+movement = "movimento para baixo"
+orientation = "palma voltada para baixo"
 
 [JAN-WAN]
 handshape = "V"
-movement = "movement downward"
-orientation = "fingers pointing up"
+movement = "movimento para baixo"
+orientation = "dedo apontando para cima"
 
 [JELO]
-handshape = "9"
-movement = "placed beside head"
+handshape = "F"
+movement = "colocado ao lado da cabeça"
 
 [JO]
 handshape = "BentB"
-orientation = "palm facing up"
+orientation = "palma voltada para cima"
 
 [KALA]
 handshape = "FlatB"
-movement = "hand shaking/wiggling"
-orientation = "palm facing sideways"
+movement = "tremer/mexer da mão"
+orientation = "palma virada de lado"
 
 [KALAMA-KUTE]
 handshape = "5"
-orientation = "palm facing down"
-placement = "placed beside head"
+orientation = "palma voltada para baixo"
+placement = "colocado ao lado da cabeça"
 
 [KALAMA-MU]
 handshape = "5"
-orientation = "palm facing down"
-placement = "placed on mouth"
+orientation = "palma voltada para baixo"
+placement = "colocado na boca"
 
 [KASI]
 handshape = "5"
-orientation = "palm faced in"
+orientation = "palma voltada para dentro"
 
 [KEN-1]
 handshape = "OpenA"
-movement = "movement downward"
+movement = "movimento para baixo"
 
 [KEN-2]
 handshape = "OpenA"
-movement = "movement downward"
+movement = "movimento para baixo"
 
 [KEPEKEN]
 handshape = "OpenA"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KIJETESANTAKALU-1]
 handshape = "V"
-placement = "placed on eyes"
+placement = "colocado nos olhos"
 
 [KIJETESANTAKALU-2]
 handshape = "V"
-placement = "placed on eyes"
+placement = "colocado nos olhos"
 
 [KIKI]
-handshape = "9"
-movement = "movement upward"
-orientation = "palm facing up"
+handshape = "F"
+movement = "movimento para cima"
+orientation = "palma voltada para cima"
 
 [KILI]
 handshape = "OpenA"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [KIPISI]
 handshape = "V"
-movement = "movement downward"
+movement = "movimento para baixo"
 
 [KIWEN]
 handshape = "OpenA"
-orientation = "palm facing down"
+orientation = "palma voltada para baixo"
 
 [KO-1]
 handshape = "BentB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KO-2]
 handshape = "BentB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [KON]
 handshape = "5"
-movement = "hand shaking/wiggling"
+movement = "tremer/mexer da mão"
 
 [KULE]
-handshape = "9"
-movement = "verticle circle movement"
+handshape = "F"
+movement = "movimento circular vertical"
 
 [KULUPU-JAN]
 handshape = "1"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [KULUPU-MUTE]
 handshape = "5"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [KULUPU-MUTE-2]
 handshape = "5"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [KUTE]
 handshape = "1"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [LA]
 handshape = "L"
-movement = "fingers flick up"
+movement = "dedos para cima"
 
 [LAPE]
 handshape = "FlatB"
-movement = "placed beside head"
+movement = "colocado ao lado da cabeça"
 
 [LASO]
-handshape = "9"
-placement = "placed on opposite hand"
+handshape = "F"
+placement = "colocado na mão oposta"
 
 [LAWA]
 handshape = "OpenA"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [LEKO]
 handshape = "BentB"
-orientation = "palms facing to the side"
+orientation = "palmas viradas para o lado"
 
 [LEN-INSA]
 handshape = "BentB"
@@ -243,539 +243,527 @@ handshape = "BentB"
 
 [LEN-POKA-TAWA-2]
 handshape = "BentB"
-movement = "movement downward"
-placement = "placed on shoulder"
+movement = "movimento para baixo"
+placement = "colocado no ombro"
 
 [LETE]
-handshape = "9"
-placement = "placed on opposite hand"
+handshape = "F"
+placement = "colocado na mão oposta"
 
 [LILI-PIPI]
-handshape = "9"
-orientation = "palm facing out"
+handshape = "F"
+orientation = "palma voltada para fora"
 
 [LILI-SUPA]
 handshape = "FlatB"
-orientation = "movement downward"
+orientation = "movimento para baixo"
 
 [LILI-SUPA-2]
 handshape = "FlatB"
-orientation = "movement downward"
+orientation = "movimento para baixo"
 
 [LILI-TU]
 handshape = "2"
-orientation = "movement downward"
+orientation = "movimento para baixo"
 
 [LILI-TU-2]
 handshape = "2"
-orientation = "movement downward"
+orientation = "movimento para baixo"
 
 [LINJA-1]
-handshape = "9"
-movement = "movement sideways"
+handshape = "F"
+movement = "movimento para o lado"
 
 [LINJA-2]
-handshape = "9"
-movement = "movement sideways"
+handshape = "F"
+movement = "movimento para o lado"
 
 [LIPU]
 handshape = "FlatB"
-placement = "placed on opposite hand"
+placement = "colocado na mão oposta"
 
 [LOJE]
-handshape = "9"
-orientation = "palm facing sideways"
-placement = "placed on mouth"
+handshape = "F"
+orientation = "palma virada de lado"
+placement = "colocado na boca"
 
 [LON-IJO]
 handshape = "1"
-movement = "fingers flick down"
+movement = "dedos para baixo"
 
 [LON-LA]
 handshape = "L"
-movement = "fingers flick down"
+movement = "dedos para baixo"
 
 [LUKA]
 handshape = "5"
-orientation = "palm facing out"
+orientation = "palma voltada para fora"
 
 [LUKIN-E]
 handshape = "V"
-orientation = """
-fingers pointing out,
-fingers pointing in,
-fingers pointing sideways"""
+orientation = "dedos apontando para fora, dedos apontando para dentro, dedos apontando para os lados"
 
 [LUKIN-ISIPIN]
 handshape = "1"
-placement = "placed on eye"
+placement = "colocado no olho"
 
 [LUKIN-OKO]
 handshape = "V"
-placement = "placed on eye"
+placement = "colocado no olho"
 
 [LUKIN-SIKE]
 handshape = "V"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [LUPA]
 handshape = "O"
-orientation = "palm facing sideways"
+orientation = "palma virada de lado"
 
 [MA]
 handshape = "FlatB"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [MAMA-INSA]
 handshape = "V"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [MAMA-JO-KILI]
 handshape = "V, BentB"
-movement = "hand shaking/wiggling"
-placement = "placed on opposite hand"
+movement = "tremer/mexer da mão"
+placement = "colocado na mão oposta"
 
 [MANI-1]
 handshape = "1"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [MANI-2]
 handshape = "1"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [MELI]
 handshape = "L"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [MESO]
 handshape = "5"
-orientation = "palm facing down"
+orientation = "palma voltada para baixo"
 
 [MI]
 handshape = "1"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [MIJE]
 handshape = "L"
-placement = "placed on eye"
+placement = "colocado no olho"
 
 [MISIKEKE-1]
 handshape = "OpenA"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [MISIKEKE-2]
 handshape = "OpenA"
-movement = "horizontal circle movement"
+movement = "movimento circular horizontal"
 
 [MOKU]
 handshape = "O"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [MOLI]
 handshape = "FlatB"
-movement = "movement sideways"
-orientation = "palm facing down"
-placement = "placed on neck"
+movement = "movimento para o lado"
+orientation = "palma voltada para baixo"
+placement = "colocado no pescoço"
 
 [MONSI]
 handshape = "FlatB"
-orientation = "palm facing in"
+orientation = "palma voltada para dentro"
 
 [MONSUTA-1]
 handshape = "5"
-movement = "movement inward"
-orientation = "palm facing down"
+movement = "movimento para dentro"
+orientation = "palma voltada para baixo"
 
 [MONSUTA-2]
 handshape = "5"
-movement = "movement inward"
-orientation = "palm facing down"
+movement = "movimento para dentro"
+orientation = "palma voltada para baixo"
 
 [MU-UTA]
 handshape = "BentB"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [MUN]
-handshape = "9"
-placement = "placed beside head"
+handshape = "O"
+placement = "colocado ao lado da cabeça"
 
 [MUSI]
 handshape = "5"
-orientation = "palm facing sideways"
+orientation = "palma virada de lado"
 
 [MUTE]
 handshape = "5"
-movement = "movement sideways"
+movement = "movimento para o lado"
 
 [NANPA]
 handshape = "5"
-placement = "placed on eye"
+placement = "colocado no olho"
 
 [NASA]
 handshape = "1"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [NASIN]
 handshape = "FlatB"
-movement = "movement outward"
+movement = "movimento para fora"
 
 [NENA]
 handshape = "BentB"
-orientation = "palm facing down"
+orientation = "palma voltada para baixo"
 
 [NI]
 handshape = "1"
-orientation = "finger pointing down"
+orientation = "dedo apontando para baixo"
 
 [NIMI]
 handshape = "FlatB"
-placement = "placed on eye"
+placement = "colocado no olho"
 
 [NOKA]
 handshape = "V"
-orientation = "fingers pointing down"
+orientation = "dedos apontando para baixo"
 
 [O]
 handshape = "FlatB"
-movement = "fingers flick down"
+movement = "dedos para baixo"
 
 [OLIN]
 handshape = "5"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [ONA]
 handshape = "1"
-orientation = "finger pointing sideways"
+orientation = "dedo apontando para o lado"
 
 [OPEN-1]
 handshape = "FlatB"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [OPEN-2]
 handshape = "FlatB"
-movement = "palm flip up"
+movement = "abaixar a palma da mão"
 
 [PAKALA]
 handshape = "5"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [PALI-KON]
 handshape = "OpenA"
-movement = "hand shaking/wiggling"
+movement = "tremer/mexer da mão"
 
 [PALI-LUKA]
 handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on opposite hand"
+movement = "tremer/mexer da mão"
+placement = "colocado na mão oposta"
 
 [PALI-NENA]
 handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on shoulder"
+movement = "tremer/mexer da mão"
+placement = "colocado no ombro"
 
 [PALISA-1]
 handshape = "O"
-movement = "movement sideways"
+movement = "movimento para o lado"
 
 [PALISA-2]
 handshape = "O"
-movement = "movement sideways"
+movement = "movimento para o lado"
 
 [PAN]
 handshape = "5"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [PANA-LANPAN]
 handshape = "BentB"
-movement = """
-movement outward,
-movement inward,
-movement sideways"""
+movement = "movimento para fora, movimento para dentro, movimento lateral"
 
 [PI]
-handshape = "9"
-movement = "fingers flick up"
+handshape = "F"
+movement = "dedos para cima"
 
 [PILIN]
-handshape = "9"
-placement = "placed on chest/stomach"
+handshape = "F"
+placement = "colocado no peito/estômago"
 
 [PIMEJA]
-handshape = "9"
-placement = "placed on shoulder"
+handshape = "F"
+placement = "colocado no ombro"
 
 [PINI-1]
 handshape = "FlatB"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [PINI-2]
 handshape = "FlatB"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [PIPI]
-handshape = "9"
-movement = "hand shaking/wiggling"
+handshape = "F"
+movement = "tremer/mexer da mão"
 
 [POKA]
 handshape = "L"
-movement = "fingers pointing sideways"
+movement = "dedos apontando para o lado"
 
 [POKI]
 handshape = "O"
-movement = "palm facing sideways"
+movement = "palma virada de lado"
 
 [PONA]
 handshape = "OpenA"
-movement = "palm facing in"
+movement = "palma voltada para dentro"
 
 [SAMA-KIWEN]
 handshape = "OpenA"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [SAMA-KIWEN-2]
 handshape = "OpenA"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [SAMA-WAN]
 handshape = "1"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [SAMA-WAN-2]
 handshape = "1"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [SELI-1]
 handshape = "5"
-placement = "placed on shoulder"
+placement = "colocado no ombro"
 
 [SELI-2]
 handshape = "5"
-placement = "placed on shoulder"
+placement = "colocado no ombro"
 
 [SELO]
 handshape = "O"
-movement = "placed on opposite hand"
+movement = "colocado na mão oposta"
 
 [SEME-SUPA-1]
 handshape = "FlatB"
-orientation = "palm facing up"
+orientation = "palma voltada para cima"
 
 [SEME-SUPA-2]
 handshape = "FlatB"
-orientation = "palm facing up"
+orientation = "palma voltada para cima"
 
 [SEME-WAN-TAWA]
 handshape = "1"
-movement = "hand shaking/wiggling"
+movement = "tremer/mexer da mão"
 
 [SEWI-LON]
 handshape = "L"
-orientation = "finger pointing up"
+orientation = "dedos apontando para cima"
 
 [SEWI-TAWA]
 handshape = "BentB"
-movement = "movement downward"
+movement = "movimento para baixo"
 
 [SIJELO-AWEN]
 handshape = "FlatB"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [SIJELO-AWEN-2]
 handshape = "FlatB"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [SIJELO-TAWA]
 handshape = "FlatB"
-movement = "movement downward"
-placement = "placed on chest/stomach"
+movement = "movimento para baixo"
+placement = "colocado no peito/estômago"
 
 [SIKE]
 handshape = "O"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [SIN-JO-MONSI]
 handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing in"
-placement = "placed on opposite hand"
+movement = "movimento para cima"
+orientation = "palma voltada para dentro"
+placement = "colocado na mão oposta"
 
 [SIN-JO-SINPIN]
 handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing out"
-placement = "placed on opposite hand"
+movement = "movimento para cima"
+orientation = "palma voltada para fora"
+placement = "colocado na mão oposta"
 
 [SIN-SUPA-MONSI]
 handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing in"
-placement = "placed on opposite hand"
+movement = "movimento para cima"
+orientation = "palma voltada para dentro"
+placement = "colocado na mão oposta"
 
 [SIN-SUPA-SINPIN]
 handshape = "FlatB"
-movement = "movement upward"
-orientation = "palm facing out"
-placement = "placed on opposite hand"
+movement = "movimento para cima"
+orientation = "palma voltada para fora"
+placement = "colocado na mão oposta"
 
 [SINA]
 handshape = "1"
-orientation = "finger pointing out"
+orientation = "dedos apontando para fora"
 
 [SINPIN]
 handshape = "FlatB"
-orientation = "palm facing out"
+orientation = "palma voltada para fora"
 
 [SITELEN]
-handshape = "9"
-movement = "horizontal circle"
+handshape = "F"
+movement = "círculo horizontal"
 
 [SOKO]
 handshape = "1"
-orientation = "finger pointing up"
-placement = "below other hand"
+orientation = "dedos apontando para cima"
+placement = "abaixo da outra mão"
 
 [SONA-ISIPIN]
 handshape = "1"
-orientation = "finger pointing up"
-placement = "placed beside head"
+orientation = "dedos apontando para cima"
+placement = "colocado ao lado da cabeça"
 
 [SONA-JO]
 handshape = "BentB"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [SOWELI]
 handshape = "V"
-orientation = "fingers pointing up"
+orientation = "dedo apontando para cima"
 
 [SULI-SUPA]
 handshape = "FlatB"
-movement = "movement upward"
+movement = "movimento para cima"
 
 [SULI-SUPA-2]
 handshape = "FlatB"
-movement = "movement upward"
+movement = "movimento para cima"
 
 [SULI-TU]
 handshape = "V"
-movement = "movement upward"
+movement = "movimento para cima"
 
 [SULI-TU-2]
 handshape = "V"
-movement = "movement upward"
+movement = "movimento para cima"
 
 [SUNO]
 handshape = "5"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [SUPA]
 handshape = "FlatB"
-movement = "movement sideways"
-orientation = "palm facing down"
+movement = "movimento para o lado"
+orientation = "palma voltada para baixo"
 
 [SUWI]
 handshape = "V"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [TAN]
 handshape = "5"
-movement = "palm flip down"
+movement = "virar a palma da mão para baixo"
 
 [TASO]
 handshape = "1"
-movement = "fingers flick up"
+movement = "dedos para cima"
 
 [TAWA-KAMA]
 handshape = "L"
-movement = """
-movement outward,
-movement inward,
-movement sideways"""
+movement = "movimento para fora, movimento para dentro, movimento lateral"
 
 [TELO]
 handshape = "5"
-movement = "movement outward"
+movement = "movimento para fora"
 
 [TENPO-LUKA-MONSI]
 handshape = "V"
-placement = "placed on opposite hand"
+placement = "colocado na mão oposta"
 
 [TENPO-LUKA-SINPIN]
 handshape = "V"
-placement = "placed on opposite hand"
+placement = "colocado na mão oposta"
 
 [TENPO-PALISA-LAWA]
 handshape = "V"
-placement = "placed on neck"
+placement = "colocado no pescoço"
 
 [TOKI-1]
 handshape = "FlatB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [TOKI-2]
 handshape = "FlatB"
-movement = "verticle circle movement"
+movement = "movimento circular vertical"
 
 [TOMO]
 handshape = "BentB"
-orientation = "palm facing sideways"
+orientation = "palma virada de lado"
 
 [TONSI]
 handshape = "L"
-placement = "placed beside head"
+placement = "colocado ao lado da cabeça"
 
 [TU]
 handshape = "V"
-orientation = "palm facing in"
+orientation = "palma voltada para dentro"
 
 [UNPA]
 handshape = "V"
-movement = "fingers flick down"
-orientation = "finger pointing up"
+movement = "dedos para baixo"
+orientation = "dedos apontando para cima"
 
 [UTA]
 handshape = "1"
-placement = "placed on mouth/chin"
+placement = "colocado na boca/queixo"
 
 [UTALA]
 handshape = "OpenA"
-movement = """
-movement outward,
-movement inward,
-movement sideways"""
+movement = "movimento para fora, movimento para dentro, movimento lateral"
 
 [WALO]
-handshape = "9"
-placement = "placed on eye"
+handshape = "F"
+placement = "colocado no olho"
 
 [WAN]
 handshape = "1"
-orientation = "palm facing in"
+orientation = "palma voltada para dentro"
 
 [WASO-1]
 handshape = "5"
-movement = "fingers flick down"
+movement = "dedos para baixo"
 
 [WASO-2]
 handshape = "5"
-movement = "fingers flick down"
+movement = "dedos para baixo"
 
 [WAWA]
 handshape = "OpenA"
-movement = "hand shaking/wiggling"
-placement = "placed on chest/stomach"
+movement = "tremer/mexer da mão"
+placement = "colocado no peito/estômago"
 
 [WEKA]
 handshape = "FlatB"
-movement = "fingers flick up"
+movement = "dedos para cima"
 
 [WILE-LUKA-OPEN]
 handshape = "5"
-movement = "movement inward"
+movement = "movimento para dentro"
 
 [WILE-LUPA]
 handshape = "O"
-placement = "placed on chest/stomach"
+placement = "colocado no peito/estômago"
 
 [WILE-OPEN-2]
 handshape = "5"
-movement = "movement inward"
+movement = "movimento para dentro"

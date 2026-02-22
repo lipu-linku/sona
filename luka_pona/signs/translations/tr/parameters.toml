@@ -111,7 +111,7 @@ movement = "aşağı doğru hareket"
 orientation = "parmaklar yukarı gösterir"
 
 [JELO]
-handshape = "9"
+handshape = "F"
 movement = "başın yanına yerleştirilir"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "V"
 placement = "gözlere yerleştirilir"
 
 [KIKI]
-handshape = "9"
+handshape = "F"
 movement = "yukarı doğru hareket"
 orientation = "avuç içi yukarıya dönük"
 
@@ -187,7 +187,7 @@ handshape = "5"
 movement = "el sallama/kıpırdatma"
 
 [KULE]
-handshape = "9"
+handshape = "F"
 movement = "dikey daire hareketi"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "Düz B"
 movement = "başın yanına yerleştirilir"
 
 [LASO]
-handshape = "9"
+handshape = "F"
 placement = "diğer ele yerleştirilir"
 
 [LAWA]
@@ -247,11 +247,11 @@ movement = "aşağı doğru hareket"
 placement = "omuza yerleştirilir"
 
 [LETE]
-handshape = "9"
+handshape = "F"
 placement = "diğer ele yerleştirilir"
 
 [LILI-PIPI]
-handshape = "9"
+handshape = "F"
 orientation = "avuç içi dışarı dönük"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "2"
 orientation = "aşağı doğru hareket"
 
 [LINJA-1]
-handshape = "9"
+handshape = "F"
 movement = "yanlara doğru hareket"
 
 [LINJA-2]
-handshape = "9"
+handshape = "F"
 movement = "yanlara doğru hareket"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "Düz B"
 placement = "diğer ele yerleştirilir"
 
 [LOJE]
-handshape = "9"
+handshape = "F"
 orientation = "avuç içi yanlara bakar"
 placement = "ağzın üstüne yerleştirilir"
 
@@ -396,7 +396,7 @@ handshape = "Bükülmüş B"
 placement = "ağza/çeneye yerleştirilir"
 
 [MUN]
-handshape = "9"
+handshape = "O"
 placement = "başın yanına yerleştirilir"
 
 [MUSI]
@@ -493,15 +493,15 @@ içeri doğru hareket,
 yanlara doğru hareket"""
 
 [PI]
-handshape = "9"
+handshape = "F"
 movement = "parmaklar yukarı doğru döner"
 
 [PILIN]
-handshape = "9"
+handshape = "F"
 placement = "göğüs/karın üzerine yerleştirilir"
 
 [PIMEJA]
-handshape = "9"
+handshape = "F"
 placement = "omuza yerleştirilir"
 
 [PINI-1]
@@ -513,7 +513,7 @@ handshape = "Düz B"
 movement = "avuç içi aşağıya doğru çevrilir"
 
 [PIPI]
-handshape = "9"
+handshape = "F"
 movement = "el sallama/kıpırdatma"
 
 [POKA]
@@ -626,7 +626,7 @@ handshape = "Düz B"
 orientation = "avuç içi dışarı dönük"
 
 [SITELEN]
-handshape = "9"
+handshape = "F"
 movement = "yatay daire"
 
 [SOKO]
@@ -744,7 +744,7 @@ içeri doğru hareket,
 yanlara doğru hareket"""
 
 [WALO]
-handshape = "9"
+handshape = "F"
 placement = "göze yerleştirilmiş"
 
 [WAN]

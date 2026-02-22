@@ -111,7 +111,7 @@ movement = "pohyb dolů"
 orientation = "prsty směřující nahoru"
 
 [JELO]
-handshape = "9"
+handshape = "F"
 movement = "vedle hlavy"
 
 [JO]
@@ -158,7 +158,7 @@ handshape = "V"
 placement = "na očích"
 
 [KIKI]
-handshape = "9"
+handshape = "F"
 movement = "pohyb nahoru"
 orientation = "dlaň směřující nahoru"
 
@@ -187,7 +187,7 @@ handshape = "5"
 movement = "třes/kroucení ruky"
 
 [KULE]
-handshape = "9"
+handshape = "F"
 movement = "verticle circle movement"
 
 [KULUPU-JAN]
@@ -215,7 +215,7 @@ handshape = "FlatB"
 movement = "vedle hlavy"
 
 [LASO]
-handshape = "9"
+handshape = "F"
 placement = "na protilehlé ruce"
 
 [LAWA]
@@ -247,11 +247,11 @@ movement = "pohyb dolů"
 placement = "na rameni"
 
 [LETE]
-handshape = "9"
+handshape = "F"
 placement = "na protilehlé ruce"
 
 [LILI-PIPI]
-handshape = "9"
+handshape = "F"
 orientation = "dlaně směřující od sebe"
 
 [LILI-SUPA]
@@ -271,11 +271,11 @@ handshape = "2"
 orientation = "pohyb dolů"
 
 [LINJA-1]
-handshape = "9"
+handshape = "F"
 movement = "pohyby do strany"
 
 [LINJA-2]
-handshape = "9"
+handshape = "F"
 movement = "pohyby do strany"
 
 [LIPU]
@@ -283,7 +283,7 @@ handshape = "FlatB"
 placement = "na protilehlé ruce"
 
 [LOJE]
-handshape = "9"
+handshape = "F"
 orientation = "dlaň směřující do strany"
 placement = "na ústech"
 
@@ -396,7 +396,7 @@ handshape = "BentB"
 placement = "na ústech/bradě"
 
 [MUN]
-handshape = "9"
+handshape = "O"
 placement = "vedle hlavy"
 
 [MUSI]
@@ -493,15 +493,15 @@ pohyb k sobě,
 pohyb do strany"""
 
 [PI]
-handshape = "9"
+handshape = "F"
 movement = "švihnutí prsty nahoru"
 
 [PILIN]
-handshape = "9"
+handshape = "F"
 placement = "na hrudi/břiše"
 
 [PIMEJA]
-handshape = "9"
+handshape = "F"
 placement = "na rameni"
 
 [PINI-1]
@@ -513,7 +513,7 @@ handshape = "FlatB"
 movement = "přetočení dlaně dolů"
 
 [PIPI]
-handshape = "9"
+handshape = "F"
 movement = "třes/kroucení ruky"
 
 [POKA]
@@ -626,7 +626,7 @@ handshape = "FlatB"
 orientation = "dlaně směřující od sebe"
 
 [SITELEN]
-handshape = "9"
+handshape = "F"
 movement = "vodorovný kruh"
 
 [SOKO]
@@ -744,7 +744,7 @@ pohyb k sobě,
 pohyb do strany"""
 
 [WALO]
-handshape = "9"
+handshape = "F"
 placement = "na oku"
 
 [WAN]
