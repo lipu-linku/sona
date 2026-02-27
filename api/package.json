@@ -1,6 +1,6 @@
 {
 	"name": "@kulupu-linku/sona",
-	"version": "2.0.2",
+	"version": "2.0.1",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
 	"bugs": {
@@ -62,45 +62,47 @@
 		"/dist",
 		"/generated"
 	],
-	"main": "./dist/lib/v1/index.js",
-	"module": "./dist/lib/v1/index.js",
-	"types": "./dist/lib/v1/index.d.ts",
+	"main": "./src/lib/v2/index.js",
+	"module": "./src/lib/v2/index.js",
+	"types": "./src/lib/v2/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/lib/v1/index.js",
-			"types": "./dist/lib/v1/index.d.ts"
+			"import": "./src/lib/v1/index.js",
+			"types": "./src/lib/v1/index.d.ts"
 		},
 		"./utils": {
-			"import": "./dist/lib/v1/utils.js",
-			"types": "./dist/lib/v1/utils.d.ts"
+			"import": "./src/lib/v1/utils.js",
+			"types": "./src/lib/v1/utils.d.ts"
 		},
 		"./client": {
-			"import": "./dist/lib/v1/client.js",
-			"types": "./dist/lib/v1/client.d.ts"
+			"import": "./src/lib/v1/client.js",
+			"types": "./src/lib/v1/client.d.ts"
 		},
+
 		"./v1": {
-			"import": "./dist/lib/v1/index.js",
-			"types": "./dist/lib/v1/index.d.ts"
+			"import": "./src/lib/v1/index.js",
+			"types": "./src/lib/v1/index.d.ts"
 		},
 		"./v1/utils": {
-			"import": "./dist/lib/v1/utils.js",
-			"types": "./dist/lib/v1/utils.d.ts"
+			"import": "./src/lib/v1/utils.js",
+			"types": "./src/lib/v1/utils.d.ts"
 		},
 		"./v1/client": {
-			"import": "./dist/lib/v1/client.js",
-			"types": "./dist/lib/v1/client.d.ts"
+			"import": "./src/lib/v1/client.js",
+			"types": "./src/lib/v1/client.d.ts"
 		},
+
 		"./v2": {
-			"import": "./dist/lib/v2/index.js",
-			"types": "./dist/lib/v2/index.d.ts"
+			"import": "./src/lib/v2/index.js",
+			"types": "./src/lib/v2/index.d.ts"
 		},
 		"./v2/utils": {
-			"import": "./dist/lib/v2/utils.js",
-			"types": "./dist/lib/v2/utils.d.ts"
+			"import": "./src/lib/v2/utils.js",
+			"types": "./src/lib/v2/utils.d.ts"
 		},
 		"./v2/client": {
-			"import": "./dist/lib/v2/client.js",
-			"types": "./dist/lib/v2/client.d.ts"
+			"import": "./src/lib/v2/client.js",
+			"types": "./src/lib/v2/client.d.ts"
 		}
 	},
 	"type": "module"
