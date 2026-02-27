@@ -1,12 +1,12 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "tan seme A"
-creator = ["jan Ke Tami"]
+author = ["jan Ke Tami"]
 features = [
   "ASCII transcription and codepoints",
   "UCSUR-compliant",
   "supports cartouches",
   "auto-cartouching",
-  "cartouche deconstruction"
+  "cartouche deconstruction",
 ]
 filename = "tan-seme-A.otf"
 last_updated = "2024-12"

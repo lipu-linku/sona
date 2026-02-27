@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "su-2"
+word = "su"
+word_id = "su"
+usage_category = "obscure"
+author_source = ""
+author = ["jan Sonja", "jan Itan"]
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/su-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/su-2.svg"
+ligature = "su02"
+alias_ligatures = []
+# teachability = 4
+see_also = ["pu-1", "ku-1", "su-1", "lipu-1", "soweli-1"]
+
+[usage]
+2025-09 = 7
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["su nanpa tu", "su soweli"]

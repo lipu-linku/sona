@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "len"
-id = "LEN"
+id = "LEN-POKA"
 is_two_handed = true
 new_gloss = "LEN-POKA-TAWA"
 old_gloss = "LEN"
+old_id = "LEN"
 
 [[etymology]]
 language = "mutliple SLs"
@@ -28,3 +29,8 @@ swu = "𝠀񃄂񆇡񎣡𝠃𝤹𝤒񃄂𝤠𝤁񎣡𝣱𝤌񆇡𝤖𝣻"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/len.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/len.mp4"
+
+[translations]
+icons = "clothes on the body"
+[translations.parameters]
+handshape = "BentB"

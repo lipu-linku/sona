@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "monsuta"
-id = "MONSUTA^1"
+id = "MONSUTA-1"
 is_two_handed = false
 new_gloss = "MONSUTA-1"
 old_gloss = "MONSUTA"
+old_id = "MONSUTA^1"
 
 [[etymology]]
 language = "BSL & multiple SLs"
@@ -16,3 +17,10 @@ swu = "𝠀񁳑񇀥𝠃𝤒𝤨񁳑𝣺𝣤񇀥𝣽𝤊"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/monsuta.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/monsuta.mp4"
+
+[translations]
+icons = "the claws of a monster, jumping back in surprise"
+[translations.parameters]
+handshape = "5"
+movement = "movement inward"
+orientation = "palm facing down"

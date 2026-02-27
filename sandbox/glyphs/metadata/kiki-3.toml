@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "kiki-3"
+word = "kiki"
+word_id = "kiki"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/773738316533203005"
+author = ["nalathnidragon"]
+creation_date = "2020-11-05"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-3.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 2
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["3 point kiki"]

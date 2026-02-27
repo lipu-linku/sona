@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "lanpan"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku suli"
 coined_era = "post-pu"
-coined_year = "2017"
-creator = ["jan Wesu", "jan Maliku", "jan inwin"]
+creation_date = "2017"
+author = ["jan Wesu", "jan Maliku", "jan inwin"]
 see_also = ["jo", "alasa"]
 source_language = "Greek"
 usage_category = "uncommon"
 word = "lanpan"
 deprecated = false
+glyph_ids = ["lanpan-1", "lanpan-2", "lanpan-3"]
+primary_glyph_id = "lanpan-1"
+# teachability = 3
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lanpan.mp3"
-
-[[etymology]]
-alt = "lamváno"
-word = "λαμβάνω"
 
 [ku_data]
 grab = 25
@@ -46,3 +47,8 @@ sitelen_jelo = ["🤳"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lanpan"
+
+[translations]
+commentary = ""
+definition = "take, seize, steal"
+etymology = "λαμβάνω (lamváno): Greek, take, seize, grasp, receive"

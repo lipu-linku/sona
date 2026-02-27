@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lukin-1"
+word = "lukin"
+word_id = "lukin"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lukin-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lukin-1.svg"
+ligature = "lukin01"
+ucsur = "U+F192E"
+alias_ligatures = []
+# teachability = 1
+see_also = ["oko-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "pictogram of an eye. compare blissymbol “eye”"
+names = ["pu lukin"]

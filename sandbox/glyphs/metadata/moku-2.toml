@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "moku-2"
+word = "moku"
+word_id = "moku"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moku-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/moku-2.svg"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["spoon moku"]

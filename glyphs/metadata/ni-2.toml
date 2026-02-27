@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-2"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/733009134856699924/993114530257313833"
+author = ["jan Telupiso"]
+creation_date = "2022-07-03"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-2.svg"
+ligature = "ni02"
+ucsur = "U+F1989"
+alias_ligatures = ["ni<", "nileft"]
+# teachability = 3
+see_also = []
+
+[usage]
+2025-09 = 45
+
+[translations]
+commentary = "It is likely that left ni was derived earlier, as the idea of 'ni' pointing any direction has developed independently several times. Some mentions of earlier sightings exist, such as here: https://discord.com/channels/301377942062366741/876636350214979614/928536305028169769"
+etymology = "an arrow"
+names = ["left ni"]

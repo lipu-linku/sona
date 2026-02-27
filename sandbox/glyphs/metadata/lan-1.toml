@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "lan-1"
+word = "lan"
+word_id = "lan"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan-1.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = ["lon-1"]
+
+[usage]
+2025-09 = 2
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

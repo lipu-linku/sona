@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "omekalike-1"
+word = "omekalike"
+word_id = "omekalike"
+usage_category = "sandbox"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commit/6f11eb55061ad7e1a5b9cb86e509a364986d04d9#diff-b57de9fecc0c701fb5ac16746aca6d9fd289db687892e05e4a10ca28660d280e"
+author = ["jan Lepeka"]
+creation_date = "2022-09-04"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/omekalike-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/omekalike-1.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = ["omekapo-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

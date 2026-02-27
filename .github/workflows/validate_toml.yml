@@ -5,13 +5,13 @@ on:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "api/src/lib/**"
+      - "api/src/lib/v2/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
     paths:
       - "**.toml"
-      - "api/src/lib/**"
+      - "api/src/lib/v2/**"
 
   workflow_dispatch:
 
@@ -32,8 +32,53 @@ jobs:
           cancel_others: true
           concurrent_skipping: "outdated_runs"
 
-  validate:
+  upsync:
     needs: skip_check
+    if: needs.skip_check.outputs.should_skip != 'true'
+    runs-on: ubuntu-latest
+    name: Sync translation data to translation files if not already done by Crowdin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            data:
+              - '**/metadata/**.toml'
+              - '**/source/**.toml'
+              - '**/translations/**.toml'
+
+      - name: Setup Python
+        if: contains(steps.changes.outputs.changes, 'data')
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12.10
+
+      - name: Install dependencies
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: pip install tomlkit
+
+      - name: Check cross-data references
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/upsync_translations.py
+
+      - name: Commit packaged files
+        uses: EndBug/add-and-commit@v9
+        if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
+        with:
+          message: Synced translation files for ${{ github.sha }}
+          pull: --commit
+
+  validate:
+    needs:
+      - skip_check
+      - upsync
     if: needs.skip_check.outputs.should_skip != 'true'
     runs-on: ubuntu-latest
     name: Generate schemas, validate and package TOMLs
@@ -49,7 +94,7 @@ jobs:
         with:
           filters: |
             schemas:
-              - 'api/src/lib/**'
+              - 'api/src/lib/v2/**'
             data:
               - '**.toml'
 
@@ -72,7 +117,7 @@ jobs:
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
-      - name: Validate all files
+      - name: Validate toml data against their json schemas (typing)
         if: contains(steps.changes.outputs.changes, 'data')
         run: pnpm dlx @taplo/cli check
 
@@ -80,11 +125,16 @@ jobs:
         if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v6
         with:
-          python-version: 3.12.1
+          python-version: 3.12.10
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
-        run: pip install tomlkit && npm i -g ajv-cli ajv-formats
+        run: pip install tomlkit langcodes language_data && npm i -g ajv-cli ajv-formats
+
+      - name: Validate toml data relationships to other toml data (refs)
+        # DOES NOT type check; that is on taplo and ajv
+        if: contains(steps.changes.outputs.changes, 'data')
+        run: python .github/workflows/validate_refs.py
 
       - name: Generate raw data file
         if: contains(steps.changes.outputs.changes, 'data')

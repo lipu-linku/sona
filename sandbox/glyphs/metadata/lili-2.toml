@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "lili-2"
+word = "lili"
+word_id = "lili"
+usage_category = "sandbox"
+author_source = "https://jackhumbert.github.io/sitelen-sa/"
+author = ["Jack Humbert"]
+creation_date = "2020-03-09"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lili-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lili-2.svg"
+ligature = "lili02"
+ucsur = "U+F1928"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+parent_id = "lili-1"
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["underline lili"]

@@ -250,14 +250,6 @@ placement = "colocado no ombro"
 handshape = "F"
 placement = "colocado na mão oposta"
 
-[LILI-TU]
-handshape = "2"
-orientation = "movimento para baixo"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "movimento para baixo"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "palma voltada para fora"
@@ -268,6 +260,14 @@ orientation = "movimento para baixo"
 
 [LILI-SUPA-2]
 handshape = "FlatB"
+orientation = "movimento para baixo"
+
+[LILI-TU]
+handshape = "2"
+orientation = "movimento para baixo"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "movimento para baixo"
 
 [LINJA-1]

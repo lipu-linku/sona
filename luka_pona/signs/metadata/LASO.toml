@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "laso"
 id = "LASO"
 is_two_handed = false
 new_gloss = "LASO"
 old_gloss = "LASO"
+old_id = "LASO"
 
 [[etymology]]
 language = "BSL"
@@ -20,3 +21,9 @@ swu = "𝠀񄵑񂇹񆇡𝠃𝤘𝤛񄵑𝤂𝣼񂇹𝣴𝣲񆇡𝣵𝤐"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/laso.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/laso.mp4"
+
+[translations]
+icons = "colour of veins in the wrist"
+[translations.parameters]
+handshape = "9"
+placement = "placed on opposite hand"

@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "pata-1"
+word = "pata"
+word_id = "pata"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pata-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pata-1.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 2
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

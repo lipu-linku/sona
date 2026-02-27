@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "sipije"
+author_verbatim = "I will be adding sipije to the font bc one of my friends coined it as a nimisin for autistic"
+author_source = "https://discord.com/channels/301377942062366741/1053850152932233266/1071979004711682128"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2023"
+author = ["a friend of lipamanka"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "sipije"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["sipije"]
+
+[usage]
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "autism"
+etymology = "TBH creature: English; TBH: English, to be honest"

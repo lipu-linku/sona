@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "pt"
+locale = "pt-BR"
+
+[name]
+en = "Portuguese"
+endonym = "Português"
+tok = "toki Potuke"

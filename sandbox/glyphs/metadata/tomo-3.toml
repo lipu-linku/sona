@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "tomo-3"
+word = "tomo"
+word_id = "tomo"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tomo-3.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tomo-3.svg"
+ligature = "tomo03"
+ucsur = "U+F196D"
+parent_id = "tomo-1"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["bar tomo", "closed tomo"]

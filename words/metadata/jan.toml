@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "jan"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Cantonese"
 usage_category = "core"
 word = "jan"
 deprecated = false
+glyph_ids = ["jan-1", "jan-2"]
+primary_glyph_id = "jan-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jan.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/jan.mp3"
-
-[[etymology]]
-alt = "jan"
-word = "人"
 
 [ku_data]
 Hominidae = 27
@@ -65,3 +66,8 @@ sitelen_jelo = ["🧑"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/jan"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#jan"
+
+[translations]
+commentary = 'There are two sides to the concept, "sentient entity" and "homo sapiens", which matters for whether to use the word in edge cases (i.e. aliens, humans turned into werewolves, etc). Which sense is more central to the word remains controversial.'
+definition = "human being, person, somebody"
+etymology = "人 (jan): Cantonese, person"

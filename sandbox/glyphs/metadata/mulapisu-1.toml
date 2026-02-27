@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "mulapisu-1"
+word = "mulapisu"
+word_id = "mulapisu"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/743016537845399562"
+author = ["jan Elemenopi"]
+creation_date = "2020-08-12"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mulapisu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mulapisu-1.svg"
+ligature = "mulapisu01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 5
+# category override due to parent word category
+
+[translations]
+commentary = "The directionality of the pizza is not a distinguishing factor."
+etymology = ""
+names = []

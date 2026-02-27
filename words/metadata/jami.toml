@@ -1,23 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "jami"
 author_verbatim = "also tp needs a specific interjection (i.e. not a or kin) for \"yum\""
-author_verbatim_source = "https://discord.com/channels/301377942062366741/301382587287339018/353665304569839616"
+author_source = "https://discord.com/channels/301377942062366741/301382587287339018/353665304569839616"
 book = "none"
 coined_era = "post-pu"
-coined_year = "2017"
-creator = ["jan inwin"]
+creation_date = "2017"
+author = ["jan inwin"]
 see_also = ["suwi", "pilin"]
 source_language = "English"
 usage_category = "obscure"
 word = "jami"
 deprecated = false
+glyph_ids = ["jami-1"]
+primary_glyph_id = "jami-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jami.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/jami.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/jami.mp3"
-
-[[etymology]]
-word = "yummy"
 
 [representations]
 ligatures = ["jami"]
@@ -31,3 +33,9 @@ sitelen_emosi = "🤤"
 2025-09 = 7
 
 [resources]
+sona_pona = "https://sona.pona.la/wiki/jami"
+
+[translations]
+commentary = 'Often used for "stim".'
+definition = "yummy; eliciting or stimulating a positive sensory experience"
+etymology = "yummy: English, yummy"

@@ -1,24 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "taki"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["jan Kapilu", "jan Lewiku"]
+creation_date = "2020"
+author = ["jan Kapilu", "jan Lewiku"]
 see_also = ["wan", "wile"]
 source_language = "Korean"
 usage_category = "obscure"
 word = "taki"
 deprecated = false
+glyph_ids = ["taki-2"]
+primary_glyph_id = "taki-2"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/taki.mp3"
-
-[[etymology]]
-alt = "tag"
-word = "탁"
 
 [ku_data]
 attach = 8
@@ -27,7 +28,8 @@ bond = 10
 clip = 4
 
 [representations]
-ligatures = ["taki", "taki2"]
+ligatures = ["taki"]
+ucsur = "U+F29B3"
 
 [usage]
 2021-10 = 38
@@ -38,3 +40,8 @@ ligatures = ["taki", "taki2"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/taki"
+
+[translations]
+commentary = ""
+definition = "sticky, magnetic; bond, attract, attach, clip"
+etymology = "탁 (tag): Korean, the sound of two magnets hitting each other (onomatopoeia)"

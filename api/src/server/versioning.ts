@@ -1,111 +1,98 @@
-import {
-	CommentaryTranslation,
-	DefinitionTranslation,
-	EtymologyTranslation,
-	Fingerspelling,
-	FingerspellingSign,
-	Font,
-	Fonts,
-	IconTranslation,
-	Languages,
-	ParametersTranslation,
-	Sign,
-	Signs,
-	SitelenPonaTranslation,
-	Word,
-	Words,
-} from "../lib";
 import { Hono } from "hono";
-import type { z } from "zod";
+import type { z } from "zod/v4";
 import apiV1 from "./v1";
+import apiV2 from "./v2";
+import { config as v1config } from "./v1/index";
+import { config as v2config } from "./v2/index";
+import { mergeToKey, joinPath as join } from "./utils";
 
-export const BASE_URL = "https://raw.githubusercontent.com/lipu-linku/sona";
+export type ApiVersion = "v1" | "v2";
 
-export type ApiVersion = "v1";
+const IMPORT_ROOT = "/src/raw/";
+const DATA = import.meta.glob<object>("@raw/**/*.json", {
+  import: "default",
+  eager: true,
+});
 
-export type Versions = {
-	[version in ApiVersion]: {
-		branch: string;
-		schemas: Record<string, z.ZodType>;
-		raw: Record<string, { filename: `${string}.${string}`; schema: z.ZodType }>;
-	};
+export type Versions<V extends Record<ApiVersion, Record<string, EndpointConfig>>> = {
+  [version in ApiVersion]: ApiConfig<V[version]>;
+};
+
+export type ApiConfig<Endpoints extends Record<string, EndpointConfig>> = {
+  [K in keyof Endpoints]: Endpoints[K];
+};
+
+export type EndpointConfig<Schema extends z.ZodType = z.ZodType> = {
+  root?: string;
+  filename: string;
+  schema: Schema;
+  translations?: boolean;
 };
 
 export const versions = {
-	v1: {
-		branch: __BRANCH__,
-		schemas: {
-			words: Words,
-			word: Word,
-			definition: DefinitionTranslation,
-			commentary: CommentaryTranslation,
-			etymology: EtymologyTranslation,
-			sitelen_pona: SitelenPonaTranslation,
-			signs: Signs,
-			sign: Sign,
-			fingerspelling: Fingerspelling,
-			fingerspelling_sign: FingerspellingSign,
-			sign_parameters: ParametersTranslation,
-			sign_icons: IconTranslation,
-			fonts: Fonts,
-			font: Font,
-			languages: Languages,
-		},
-		raw: {
-			words: {
-				filename: "words.json",
-				schema: Words,
-			},
-			sandbox: {
-				filename: "sandbox.json",
-				schema: Words,
-			},
-			fingerspelling: {
-				filename: "fingerspelling.json",
-				schema: Fingerspelling,
-			},
-			signs: {
-				filename: "signs.json",
-				schema: Signs,
-			},
-			fonts: {
-				filename: "fonts.json",
-				schema: Fonts,
-			},
-			languages: {
-				filename: "languages.json",
-				schema: Languages,
-			},
-		},
-	},
-} as const satisfies Versions;
+  v1: v1config,
+  v2: v2config,
+} as const;
 
 export type FilesToVariables<
-	V extends ApiVersion,
-	T extends Versions[ApiVersion]["raw"] = (typeof versions)[V]["raw"],
+  Version extends ApiVersion,
+  Endpoints extends (typeof versions)[Version] = (typeof versions)[Version],
 > = {
-	[K in keyof T]: T[K]["schema"] extends z.ZodType ? T[K]["schema"]["_output"] : never;
+  // I cannot figure out how to make this type safe
+  // @ts-expect-error
+  [K in keyof Endpoints]: z.output<Endpoints[K]["schema"]>;
 };
 
 type Apps = {
-	[version in keyof typeof versions]: Hono<any, any, `/${version}`>;
+  [version in keyof typeof versions]: Hono<any, any, `/${version}`>;
 };
 
+// v1 just grabs the files and sends them, since the translations are packed in
+// v2 has to traverse some dirs and grab the translations separately
 export const apps = {
-	v1: apiV1,
+  v1: apiV1,
+  v2: apiV2,
 } as const satisfies Apps;
 
-export const fetchFile = async <S extends z.ZodType>(
-	version: ApiVersion,
-	schema: S,
-	filename: string,
-): Promise<z.SafeParseReturnType<z.input<S>, z.output<S>>> =>
-	schema.safeParse(
-		__BRANCH__ === versions[version].branch
-			? await import.meta
-					.glob(`../../raw/*.json`, { import: "default" })
-					[`../../raw/${filename}`]?.()
-			: await fetch(`${BASE_URL}/${versions[version].branch}/api/raw/${filename}`).then((r) =>
-					r.json(),
-				),
-	);
+const assertImport = async (
+  imports: Record<string, object>,
+  file: any | undefined,
+  path: string,
+): Promise<void> => {
+  if (!file) {
+    throw new Error(`Missing file: ${path}. Available: [${Object.keys(imports).slice(0, 10)}]`);
+  }
+  if (typeof file !== "object") {
+    console.error(`Unexpected file type for ${path}:`, typeof file, file);
+  }
+};
+
+export const fetchFile = async <Endpoint extends EndpointConfig>(
+  version: ApiVersion,
+  config: Endpoint,
+  langcode: string = "en",
+): Promise<z.ZodSafeParseResult<z.output<Endpoint["schema"]>>> => {
+  const { root = "/", filename, schema, translations = false } = config;
+
+  let path = "/" + join(IMPORT_ROOT, version, root, filename);
+  let file = DATA[path]!;
+  await assertImport(DATA, file, path);
+
+  // TODO: better way for caller to insert api specific behavior
+  if (version === "v2" && translations === true) {
+    let translationPath =
+      "/" + join(IMPORT_ROOT, version, root, "translations", langcode, filename);
+    let translationFile = DATA[translationPath]!;
+    await assertImport(DATA, translationFile, translationPath);
+    file = mergeToKey(file, "translations", translationFile);
+  }
+
+  const parsed = await schema.safeParseAsync(file);
+  if (!parsed.success) {
+    throw new Error(`Invalid input in ${filename}: ${parsed.error.message}`);
+  }
+
+  // TODO: I cannot figure out how to make this type safe
+  // @ts-expect-error
+  return parsed;
+};

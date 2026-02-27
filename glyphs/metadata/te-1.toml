@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "te-1"
+word = "te"
+word_id = "te"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/871966784985645147"
+author = ["jan Seli"]
+creation_date = "2021-08-21"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/te-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/te-1.svg"
+ligature = "te01"
+alias_ligatures = ["「"]
+# teachability = 4
+see_also = []
+ucsur = "U+F29B4"
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

@@ -1,0 +1,42 @@
+#:schema ../../../api/generated/v2/word.json
+id = "ete"
+author_verbatim = ""
+author_source = ""
+book = "ku lili"
+coined_era = "post-pu"
+creation_date = "2019"
+author = ["jan inwin"]
+see_also = ["suli", "sewi", "wawa"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "ete"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ete.mp3"
+
+[ku_data]
+beyond = 14
+exceed = 20
+
+[representations]
+ligatures = ["ete", "ete2"]
+sitelen_emosi = "🔃"
+
+[usage]
+2020-04 = 17
+2021-10 = 33
+2022-08 = 5
+2023-09 = 4
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ete"
+
+[translations]
+commentary = ""
+definition = "beyond, exceeding, outside of, more than"
+etymology = "öte: Turkish, beyond, further, over; ettë: Quenya, outside"

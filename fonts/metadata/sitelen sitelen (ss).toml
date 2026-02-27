@@ -1,9 +1,7 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen sitelen (ss)"
-creator = ["jan Pitaki"]
-features = [
-  "ASCII transcription",
-]
+author = ["jan Pitaki"]
+features = ["ASCII transcription"]
 filename = "Sitelensitelen.ttf"
 last_updated = "2024-04"
 license = "-"

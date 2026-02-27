@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "kili"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = ["kasi", "moku", "soko"]
 source_language = "Georgian"
 usage_category = "core"
 word = "kili"
 deprecated = false
+glyph_ids = ["kili-1"]
+primary_glyph_id = "kili-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kili.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kili.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/kili.mp3"
-
-[[etymology]]
-alt = "xili"
-word = "ხილი"
 
 [ku_data]
 apple = 82
@@ -57,3 +58,8 @@ sitelen_jelo = ["🍎"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kili"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#kili"
+
+[translations]
+commentary = 'In post-ku 2021, metaphorical definitions for kili have been suggested, including but not limited to "offspring" and "product", and are moderately popular. It is not yet clear whether this will remain in use long-term.'
+definition = "fruit, vegetable, mushroom"
+etymology = "ხილი (xili): Georgian, fruit"

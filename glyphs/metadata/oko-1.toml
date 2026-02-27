@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "oko-1"
+word = "oko"
+word_id = "oko"
+usage_category = "uncommon"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
+creation_date = "2016-10-16"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oko-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oko-1.svg"
+ligature = "oko01"
+ucsur = "U+F197A"
+alias_ligatures = []
+# teachability = 3
+see_also = ["lukin-1"]
+
+[usage]
+2025-09 = 44
+
+[translations]
+commentary = ""
+etymology = "eye from a side"
+names = []

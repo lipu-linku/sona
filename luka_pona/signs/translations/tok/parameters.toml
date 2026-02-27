@@ -250,14 +250,6 @@ placement = "luka li lon nena pi poka sijelo"
 handshape = "F"
 placement = "luka li lon luka"
 
-[LILI-TU]
-handshape = "tu"
-orientation = "luka li tawa anpa"
-
-[LILI-TU-2]
-handshape = "tu"
-orientation = "luka li tawa anpa"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "sinpin luka li lon weka"
@@ -268,6 +260,14 @@ orientation = "luka li tawa anpa"
 
 [LILI-SUPA-2]
 handshape = "supa"
+orientation = "luka li tawa anpa"
+
+[LILI-TU]
+handshape = "tu"
+orientation = "luka li tawa anpa"
+
+[LILI-TU-2]
+handshape = "tu"
 orientation = "luka li tawa anpa"
 
 [LINJA-1]

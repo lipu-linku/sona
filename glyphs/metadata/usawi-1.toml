@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "usawi-1"
+word = "usawi"
+word_id = "usawi"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/599425762990358528/803387010625699860"
+author = ["jan Tumu", "jan Seli", "jan Mulan"]
+creation_date = "2021-01-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/usawi-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/usawi-1.svg"
+ligature = "usawi01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["nasa-1"]
+ucsur = "U+F29B7"
+
+[usage]
+2025-09 = 16
+
+[translations]
+commentary = "The glyph 'nasa with emitters' was created on 2020-03-24 by jan Tumu, but the glyph would not be called usawi until independently created by jan Seli in 2021. https://discord.com/channels/301377942062366741/375591429608570881/692078503151009892"
+etymology = "nasa with emitters"
+names = []

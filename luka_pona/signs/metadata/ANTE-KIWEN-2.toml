@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ante"
-id = "ANTE^2"
+id = "ANTE-KIWEN-2"
 is_two_handed = true
 new_gloss = "ANTE-KIWEN-2"
 old_gloss = "ANTE"
+old_id = "ANTE^2"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񅰱񅰹񉳉񉳑𝠃𝤪𝤟񅰱𝤏𝣭񅰹𝣨𝣭񉳉𝤓𝤃񉳑�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ante.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ante.mp4"
+
+[translations]
+icons = "pointing inward (same) to pointing outward (different)"
+[translations.parameters]
+handshape = "OpenA"
+movement = "palm flip up"

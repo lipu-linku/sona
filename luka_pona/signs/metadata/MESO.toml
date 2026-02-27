@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "meso"
 id = "MESO"
 is_two_handed = false
 new_gloss = "MESO"
 old_gloss = "MESO"
+old_id = "MESO"
 
 [[etymology]]
 language = "a priori"
@@ -15,3 +16,9 @@ swu = "𝠀񁳑𝠃𝤒𝤖񁳑𝣺𝣷"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/meso.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/meso.mp4"
+
+[translations]
+icons = "gesture of uncertainty or approximation"
+[translations.parameters]
+handshape = "5"
+orientation = "palm facing down"

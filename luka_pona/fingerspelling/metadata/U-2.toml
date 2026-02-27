@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "U-2"
 is_two_handed = true
 
@@ -10,4 +10,6 @@ sign = "U"
 fsw = "M523x522S10011502x492S20500499x478S18a18477x478"
 swu = "𝠃𝤝𝤜񀀒𝤈𝣾񆇡𝤅𝣰񃏙𝣯𝣰"
 
-[video]
+[translations.parameters]
+handshape = "1 + 5"
+placement = "touch the pinkie finger"

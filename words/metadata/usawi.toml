@@ -1,29 +1,32 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "usawi"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2019"
-creator = ["jan Tumu"]
+creation_date = "2019"
+author = ["jan Tumu"]
 see_also = ["wawa", "nasa", "ken"]
 source_language = "Swahili"
 usage_category = "obscure"
 word = "usawi"
 deprecated = false
+glyph_ids = ["usawi-1"]
+primary_glyph_id = "usawi-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/usawi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/usawi.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/usawi.mp3"
-
-[[etymology]]
-word = "uchawi"
 
 [ku_data]
 magic = 7
 
 [representations]
 ligatures = ["usawi"]
+ucsur = "U+F29B7"
 
 [usage]
 2021-10 = 41
@@ -34,3 +37,8 @@ ligatures = ["usawi"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/usawi"
+
+[translations]
+commentary = "Originally, usawi also included \"technology so complex it's impossible to tell apart from magic\" in its meaning, but this meaning has been deprecated by the creator."
+definition = "magic, sorcery; enchant; magical, supernatural, occult, incomprehensible"
+etymology = "uchawi: Swahili, witchcraft, sorcery"

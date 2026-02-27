@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "sitelen"
 id = "SITELEN"
 is_two_handed = false
 new_gloss = "SITELEN"
 old_gloss = "SITELEN"
+old_id = "SITELEN"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񄶁񋠫𝠃𝤖𝤡񄶁𝣼𝣬񋠫𝣶𝤒"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/sitelen.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/sitelen.mp4"
+
+[translations]
+icons = "using a pen to write or draw"
+[translations.parameters]
+handshape = "9"
+movement = "horizontal circle"

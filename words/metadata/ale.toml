@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "ale"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = ["ali"]
 source_language = "Dutch"
 usage_category = "core"
 word = "ale"
 deprecated = false
+glyph_ids = ["ale-1"]
+primary_glyph_id = "ale-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ale.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ale.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,9 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ale.mp3"
-
-[[etymology]]
-word = "alle"
 
 [ku_data]
 absolute = 29
@@ -70,3 +72,11 @@ sitelen_jelo = ["🌌"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ale"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ale"
+
+[translations]
+commentary = """
+"ali" is an alternative to "ale", coined in a poll in 2002 in order to avoid confusion with "ala". However, the usage of "ale" over "ali" remains more common.
+The majority of speakers report not understanding the "abundant, bountiful, plentiful" meaning, at least out of context.
+"20, 120" were non-pu meanings previously in use in the community alongside 100; they are virtually unheard of nowadays."""
+definition = "all, every, everything, entirety, universe; (number) one hundred"
+etymology = "alle: Dutch, all"
