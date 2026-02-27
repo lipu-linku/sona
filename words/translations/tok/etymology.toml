@@ -1,985 +1,178 @@
-[[a]]
-language = "mu"
-
-[[akesi]]
-definition = "lizard"
-language = "toki Netelan"
-
-[[ala]]
-definition = "ala"
-language = "toki Katelo"
-
-[[alasa]]
-definition = "hunting, (literally) on the hunt"
-language = "toki Kanse pi ma Akasi"
-
-[[ale]]
-definition = "all"
-language = "toki Netelan"
-
-[[ali]]
-definition = "all"
-language = "toki Netelan"
-
-[[anpa]]
-definition = "below"
-language = "toki Kanse pi ma Akasi"
-
-[[ante]]
-definition = "other, different"
-language = "toki Netelan"
-
-[[anu]]
-definition = "or"
-language = "toki Katelo"
-
-[[apeja]]
-definition = "shame, disgrace, dishonor"
-language = "toki Somi"
-
-[[awen]]
-definition = "keep, care for, hold (in a particular state)"
-language = "toki Netelan"
-
-[[e]]
-language = "nimi ni li kama ala tan toki ante"
-
-[[en]]
-definition = "and"
-language = "toki Netelan"
-
-[[epiku]]
-definition = "sewi, pona mute a"
-language = "toki Kanse"
-
-[[esun]]
-language = "toki Akan"
-definition = "at market"
-
-[[ijo]]
-definition = "something"
-language = "toki Epelanto"
-
-[[ijo]]
-definition = "(relative pronoun root)"
-language = "toki tan toki Lasina"
-
-[[ike]]
-definition = "bad, mean, wicked"
-language = "toki Somi"
-
-[[ilo]]
-definition = "tool"
-language = "toki Epelanto"
-
-[[ilo]]
-definition = "(agent suffix)"
-language = "toki Tosi"
-
-[[insa]]
-definition = "inside, center, stomach"
-language = "toki Pisin"
-
-[[insa]]
-definition = "inside"
-language = "toki Inli"
-
-[[isipin]]
-definition = "to think"
-language = "toki Takalo"
-
-[[jaki]]
-definition = "yucky"
-language = "toki Inli"
-
-[[jami]]
-definition = "yummy"
-language = "toki Inli"
-
-[[jan]]
-definition = "person"
-language = "toki Kantun"
-
-[[jasima]]
-definition = "to reflect, reverberate"
-language = "toki Tuki"
-
-[[jelo]]
-definition = "yellow"
-language = "toki Inli"
-
-[[jo]]
-definition = "have"
-language = "toki Sonko"
-
-[[kala]]
-definition = "fish"
-language = "toki Somi"
-
-[[kalama]]
-definition = "noise (of the human voice)"
-language = "toki Sopolowasi"
-
-[[kama]]
-definition = "event, arrive, happen, become, bring about, summon"
-language = "toki Pisin"
-
-[[kamalawala]]
-definition = "'arrival of no government', the beginning of anarchy"
-language = "toki pona"
-
-[[kapesi]]
-definition = "brown, coffee (colour)"
-language = "toki Kantun"
-
-[[kapesi]]
-definition = "brown, coffee (colour)"
-language = "toki Sonko"
-
-[[kasi]]
-definition = "plant"
-language = "toki Somi"
-
-[[ken]]
-definition = "can"
-language = "toki Pisin"
-
-[[ken]]
-definition = "can"
-language = "toki Inli"
-
-[[kepeken]]
-definition = "to use"
-language = "toki Netelan"
-
-[[kijetesantakalu]]
-definition = "kinkajou"
-language = "toki Somi"
-
-[[kiki]]
-language = "nimi ni li kama ala tan toki ante"
-
-[[kili]]
-definition = "fruit"
-language = "toki Katelo"
-
-[[kin]]
-definition = "too, also, still"
-language = "toki Somi"
-
-[[kipisi]]
-definition = "to cut (intransitive)"
-language = "toki Inusitu"
-
-[[kiwen]]
-definition = "stone (genitive case)"
-language = "toki Somi"
-
-[[ko]]
-definition = "cream, paste"
-language = "toki Kantun"
-
-[[kokosila]]
-definition = "sina toki tawa jan pi toki Epelanto lon toki Epelanto ala la sina krokodilas"
-language = "toki Epelanto"
-
-[[kokosila]]
-definition = "crocodile"
-language = "toki Epelanto"
-
-[[kon]]
-definition = "air, atmosphere, ambience, opinion"
-language = "toki Sonko"
-
-[[konwe]]
-definition = "John Conway, creator of The Game of Life"
-language = "toki Inli"
-
-[[konwe]]
-definition = "kon wile"
-language = "toki pona"
-
-[[ku]]
-language = "nimi ni li kama ala tan toki ante"
-
-[[kule]]
-definition = "kule"
-language = "toki Kanse pi ma Akasi"
-
-[[kulijo]]
-definition = "pona mute a"
-language = "toki Inli"
-
-[[kulupu]]
-definition = "group"
-language = "toki Tonka"
-
-[[kulupu]]
-definition = "group"
-language = "toki Inli"
-
-[[kute]]
-definition = "listen"
-language = "toki Kanse pi ma Akasi"
-
-[[la]]
-definition = "(definite article)"
-language = "toki Epelanto"
-
-[[la]]
-definition = "(feminine singular definite article)"
-language = "toki tan toki Lasina"
-
-[[la]]
-definition = "(proximal & topical suffix)"
-language = "toki Kanse pi ma Akasi"
-
-[[lanpan]]
-definition = "take, seize, grasp, receive"
-language = "toki Elina"
-
-[[lape]]
-definition = "lape"
-language = "toki Netelan"
-
-[[laso]]
-definition = "blue, inexperienced"
-language = "toki Kinli"
-
-[[laso]]
-definition = "green, blue"
-language = "toki Pitoni majuna"
-
-[[lawa]]
-definition = "head"
-language = "toki Sopolowasi"
-
-[[leko]]
-definition = "musi Lego, kulupu esun Lego"
-language = "toki Inli"
-
-[[leko]]
-definition = "o musi pona"
-language = "toki Tane"
-
-[[leko]]
-definition = "block, section"
-language = "toki Somi"
-
-[[len]]
-definition = "clothing"
-language = "toki Kanse pi ma Akasi"
-
-[[lete]]
-definition = "cold"
-language = "toki Kanse pi ma Akasi"
-
-[[lete]]
-definition = "cold"
-language = "toki Kanse majuna"
-
-[[li]]
-definition = "he"
-language = "toki Epelanto"
-
-[[li]]
-definition = "he"
-language = "toki Lasina"
-
-[[li]]
-definition = "he"
-language = "toki Pisin"
-
-[[li]]
-definition = "he"
-language = "toki Inli"
-
-[[lili]]
-definition = "small, little"
-language = "toki Pisin"
-
-[[lili]]
-definition = "small, little"
-language = "Ramoaaina"
-
-[[linja]]
-definition = "line"
-language = "toki Somi"
-
-[[linja]]
-definition = "line"
-language = "toki Wensa majuna"
-
-[[linluwi]]
-definition = "internet"
-language = "toki Kinli"
-
-[[lipu]]
-definition = "lipu, len ma"
-language = "toki Somi"
-
-[[loje]]
-definition = "red (inflected)"
-language = "toki Netelan"
-
-[[lon]]
-definition = "at, in, on, (spacial particle)"
-language = "toki Pisin"
-
-[[lon]]
-definition = "along"
-language = "toki Inli"
-
-[[luka]]
-definition = "hand, arm"
-language = "toki Sopolowasi"
-
-[[lukin]]
-definition = "see, look at"
-language = "toki Pisin"
-
-[[lukin]]
-definition = "look"
-language = "toki Inli"
-
-[[lukin]]
-definition = "him"
-language = "toki Inli"
-
-[[lupa]]
-definition = "loop"
-language = "toki Losupan"
-
-[[lupa]]
-definition = "loop"
-language = "toki Sonko"
-
-[[lupa]]
-definition = "loop"
-language = "toki Inli"
-
-[[lupa]]
-definition = "loop"
-language = "toki Insi"
-
-[[lupa]]
-definition = "loop"
-language = "toki Alapi"
-
-[[ma]]
-definition = "earth, land"
-language = "toki Somi"
-
-[[majuna]]
-definition = 'majuna (jasima pi nimi "sin")'
-language = "toki Epelanto"
-
-[[majuna]]
-definition = "ike"
-language = "toki Lasina"
-
-[[majuna]]
-definition = "sin"
-language = "toki Tosi"
-
-[[majuna]]
-definition = "sin"
-language = "toki Kanse"
-
-[[mama]]
-definition = "mama mije"
-language = "toki Katelo"
-
-[[mani]]
-definition = "money"
-language = "toki Inli"
-
-[[mani]]
-definition = "livestock"
-language = "toki Tosi majuna"
-
-[[mani]]
-definition = "cattle"
-language = "toki Lasina"
-
-[[meli]]
-definition = "woman, wife, feminine"
-language = "toki Pisin"
-
-[[meli]]
-definition = "pretty"
-language = "toki Sinata Tuna"
-
-[[meli]]
-definition = "jan Meli"
-language = "toki Inli"
-
-[[melome]]
-definition = "women loving women"
-language = "toki pona"
-
-[[meso]]
-definition = "middle"
-language = "toki Elina"
-
-[[mi]]
-definition = "mi"
-language = "toki Epelanto"
-
-[[mi]]
-definition = "(1st person singular oblique)"
-language = "toki tan toki Lasina"
-
-[[mije]]
-definition = "mije"
-language = "toki Somi"
-
-[[mijomi]]
-definition = "mije pi olin mije"
-language = "toki pona"
-
-[[misa]]
-definition = "soweli lili"
-language = "toki Ukawina"
-
-[[misikeke]]
-definition = "medicine, drug"
-language = "toki Anisinape"
-
-[[moku]]
-definition = "munching"
-language = "toki Nijon"
-
-[[moli]]
-definition = "die"
-language = "toki Kanse pi ma Akasi"
-
-[[monsi]]
-definition = "my ass (vulgar)"
-language = "toki Kanse pi ma Akasi"
-
-[[monsuta]]
-definition = "monster"
-language = "toki Nijon"
-
-[[monsuta]]
-definition = "monster"
-language = "toki Inli"
-
-[[mu]]
-language = "mu"
-
-[[mun]]
-definition = "moon"
-language = "toki Inli"
-
-[[musi]]
-definition = "amuse, entertain"
-language = "toki Epelanto"
-
-[[musi]]
-definition = "amuse, entertain"
-language = "toki Kanse"
-
-[[mute]]
-definition = "a lot"
-language = "toki Epelanto"
-
-[[mute]]
-definition = "a lot"
-language = "toki Lasina"
-
-[[n]]
-language = "mu"
-
-[[namako]]
-definition = "salt"
-language = "toki Insi"
-
-[[namako]]
-definition = "salt"
-language = "toki Pasi"
-
-[[nanpa]]
-definition = "number"
-language = "toki Pisin"
-
-[[nanpa]]
-definition = "number"
-language = "toki Inli"
-
-[[nasa]]
-definition = "jan nasa"
-language = "toki Pisin"
-
-[[nasin]]
-definition = "way, method"
-language = "toki Sopolowasi"
-
-[[nena]]
-definition = "nose"
-language = "toki Somi"
-
-[[ni]]
-definition = "this"
-language = "toki Kantun"
-
-[[ni]]
-definition = "(continuation of a state/action)"
-language = "toki Tawi"
-
-[[nimi]]
-definition = "nimi"
-language = "toki Somi"
-
-[[nimisin]]
-definition = "nimi sin"
-language = "toki pona"
-
-[[nja]]
-definition = "mu pi soweli tomo"
-language = "toki Nijon"
-
-[[noka]]
-definition = "noka"
-language = "toki Sopolowasi"
-
-[[o]]
-definition = "(vocative suffix)"
-language = "toki Katelo"
-
-[[ojuta]]
-definition = "'lick my balls' (same as English 'ligma balls')"
-language = "toki pona"
-
-[[oke]]
-definition = "okay"
-language = "toki Inli"
-
-[[oko]]
-definition = "eye"
-language = "toki Sopolowasi"
-
-[[olin]]
-definition = "I love"
-language = "toki Sopolowasi"
-
-[[omekapo]]
-definition = "'eat a good fish', wishing somebody well"
-language = "toki pona"
-
-[[ona]]
-definition = "she"
-language = "toki Sopolowasi"
-
-[[open]]
-definition = "open"
-language = "toki Inli"
-
-[[owe]]
-definition = 'jan Sa Owe li sitelen e lipu "1984"'
-language = "toki Inli"
-
-[[pakala]]
-definition = "accident"
-language = "toki Pisin"
-
-[[pakala]]
-definition = "bugger up"
-language = "toki Inli"
-
-[[pake]]
-definition = "block"
-language = "toki Inli"
-
-[[pali]]
-definition = "do, make"
-language = "toki Epelanto"
-
-[[palisa]]
-definition = "bat, rod, cane"
-language = "toki Sopolowasi"
-
-[[pan]]
-definition = "pan"
-language = "toki tan toki Lasina"
-
-[[pan]]
-definition = "pan"
-language = "toki Nijon"
-
-[[pan]]
-definition = "pan"
-language = "toki Potuke"
-
-[[pana]]
-definition = "put, set, place"
-language = "toki Somi"
-
-[[pana]]
-definition = "give to each other"
-language = "toki Sawili"
-
-[[penpo]]
-definition = "only toki pona"
-language = "toki pona"
-
-[[pi]]
-definition = "of"
-language = "toki Pisin"
-
-[[pi]]
-definition = "belong"
-language = "toki Inli"
-
-[[pika]]
-definition = "Pikachū, an electric Pokémon"
-language = "toki Nijon"
-
-[[pilin]]
-definition = "feel"
-language = "toki Pisin"
-
-[[pilin]]
-definition = "him"
-language = "toki Inli"
-
-[[pilin]]
-definition = "him"
-language = "toki Inli"
-
-[[pimeja]]
-definition = "dark"
-language = "toki Somi"
-
-[[pini]]
-definition = "finished, completed"
-language = "toki Kanse pi ma Akasi"
-
-[[pini]]
-definition = "finish (perfective aspect)"
-language = "toki Pisin"
-
-[[pini]]
-definition = "finish"
-language = "toki Inli"
-
-[[pipi]]
-definition = "pipi"
-language = "toki Kanse pi ma Akasi"
-
-[[po]]
-definition = "tu tu"
-language = "toki Inli"
-
-[[poka]]
-definition = "side, flank (genitive)"
-language = "toki Sopolowasi"
-
-[[poki]]
-definition = "box, female genitalia (vulgar)"
-language = "toki Pisin"
-
-[[poki]]
-definition = "box"
-language = "toki Inli"
-
-[[pona]]
-definition = "good"
-language = "toki Epelanto"
-
-[[powe]]
-definition = "not true"
-language = "toki Kanse pi ma Akasi"
-
-[[pu]]
-definition = "unworked wood, sincere, honest, inherent quality, simple"
-language = "toki Sonko"
-
-[[pu]]
-definition = "book"
-language = "toki Inli"
-
-[[puwa]]
-definition = "fluffy things (onomatopoeia)"
-language = "toki Nijon"
-
-[[sama]]
-definition = "same"
-language = "toki Somi"
-
-[[sama]]
-definition = "same, alike"
-language = "toki Tosi majuna"
-
-[[sama]]
-definition = "same"
-language = "toki Epelanto"
-
-[[sama]]
-definition = "same"
-language = "toki Inli"
-
-[[san]]
-definition = "tu wan"
-language = "toki Nijon"
-
-[[san]]
-definition = "tu wan"
-language = "toki Kantun"
-
-[[san]]
-definition = "tu wan"
-language = "toki Kantun"
-
-[[seli]]
-definition = "hot"
-language = "toki Katelo"
-
-[[selo]]
-definition = "skin, peel"
-language = "toki Epelanto"
-
-[[selo]]
-definition = "peel, husk, shell"
-language = "toki Tosi"
-
-[[seme]]
-definition = "what, something"
-language = "toki Sonko"
-
-[[sewi]]
-definition = "upwards"
-language = "toki Katelo"
-
-[[sijelo]]
-definition = "body"
-language = "toki Sopolowasi"
-
-[[sike]]
-definition = "circle"
-language = "toki Inli"
-
-[[sin]]
-definition = "new, fresh"
-language = "toki Sonko"
-
-[[sina]]
-definition = 'ijo li toki tawa ijo ante la, ijo toki li nimi "sina" e ijo nanpa tu.'
-language = "toki Somi"
-
-[[sinpin]]
-definition = "in front"
-language = "toki Kantun"
-
-[[sitelen]]
-definition = "paint"
-language = "toki Netelan"
-
-[[soko]]
-definition = "mushroom"
-language = "toki Katelo"
-
-[[sona]]
-definition = "knowledge"
-language = "toki Katelo"
-
-[[soto]]
-definition = "left side"
-language = "toki Sawili"
-
-[[soweli]]
-definition = "beastly animal, lively, passionate"
-language = "toki Katelo"
-
-[[su]]
-language = "nimi ni li kama ala tan toki ante"
-
-[[suli]]
-definition = "big, large, great"
-language = "toki Somi"
-
-[[suno]]
-definition = "mun suno"
-language = "toki Epelanto"
-
-[[supa]]
-definition = "surface"
-language = "toki Epelanto"
-
-[[supa]]
-definition = "surface"
-language = "toki Kanse pi ma Akasi"
-
-[[supa]]
-definition = "surface"
-language = "toki Inli"
-
-[[sutopatikuna]]
-definition = "platypus, (literally) strange beak"
-language = "toki Sopolowasi"
-
-[[suwi]]
-definition = "sweet"
-language = "toki Pisin"
-
-[[suwi]]
-definition = "sweet"
-language = "toki Inli"
-
-[[taki]]
-definition = "the sound of two magnets hitting each other (onomatopoeia)"
-language = "toki Anku anu toki Soson"
-
-[[tan]]
-definition = "from"
-language = "toki Kantun"
-
-[[taso]]
-definition = "just, only, but, however"
-language = "toki Pisin"
-
-[[taso]]
-definition = "that’s all"
-language = "toki Inli"
-
-[[tawa]]
-definition = "toward"
-language = "toki Inli"
-
-[[te]]
-definition = "(quotative)"
-language = "toki Nijon"
-
-[[teje]]
-definition = "right"
-language = "toki Kinli"
-
-[[telo]]
-definition = "(some) water"
-language = "toki Kanse pi ma Akasi"
-
-[[tenpo]]
-definition = "time"
-language = "toki Epelanto"
-
-[[tenpo]]
-definition = "time"
-language = "toki Lasina"
-
-[[to]]
-definition = "(quotative)"
-language = "toki Nijon"
-
-[[toki]]
-definition = "talk"
-language = "toki Pisin"
-
-[[toki]]
-definition = "talk"
-language = "toki Inli"
-
-[[tomo]]
-definition = "house"
-language = "toki Epelanto"
-
-[[tomo]]
-definition = "house"
-language = "toki Posuka"
-
-[[tomo]]
-definition = "house"
-language = "toki Lasina"
-
-[[tomo]]
-definition = "house"
-language = "toki Elina majuna"
-
-[[tonsi]]
-definition = "comrade (same will/purpose), LGBT+"
-language = "toki Sonko"
-
-[[tu]]
-definition = "two"
-language = "toki Inli"
-
-[[tu]]
-definition = "two"
-language = "toki Epelanto"
-
-[[unpa]]
-language = "mu"
-
-[[unu]]
-definition = 'loje en laso la, "unu" li lon insa.'
-language = "toki Melaju en toki Intonesija"
-
-[[usawi]]
-definition = "witchcraft, sorcery"
-language = "toki Sawili"
-
-[[uta]]
-definition = "mouth"
-language = "toki Sopolowasi"
-
-[[utala]]
-definition = "strike, hit, beat"
-language = "toki Sopolowasi"
-
-[[wa]]
-language = "mu"
-
-[[walo]]
-definition = "white"
-language = "toki Somi"
-
-[[wan]]
-definition = "one"
-language = "toki Inli"
-
-[[waso]]
-definition = "bird"
-language = "toki Kanse pi ma Akasi"
-
-[[wasoweli]]
-definition = "bird, flying creature"
-language = "toki pona"
-
-[[wasoweli]]
-definition = "land animal, fuzzy creature"
-language = "toki pona"
-
-[[wawa]]
-definition = "strong, powerful, thick"
-language = "toki Somi"
-
-[[weka]]
-definition = "away, gone"
-language = "toki Netelan"
-
-[[wekama]]
-definition = "'leave-arrive', to leave and come back"
-language = "toki pona"
-
-[[wile]]
-definition = "want, desire"
-language = "toki Netelan"
-
-[[wuwojiti]]
-definition = "(sound)"
-language = "toki pona"
-
-[[wuwojiti]]
-definition = "(sound)"
-language = "toki pona"
-
-[[wuwojiti]]
-definition = "(sound)"
-language = "toki pona"
-
-[[wuwojiti]]
-definition = "(sound)"
-language = "toki pona"
-
-[[yupekosi]]
-language = "nimi ni li kama ala tan toki ante"
+a = "onomatopoeia"
+akesi = "hagedis: Dutch, lizard"
+ala = "არა (ara): Georgian, no"
+alasa = "à la chasse: Acadian French, hunting, (literally) on the hunt"
+ale = "alle: Dutch, all"
+ali = "alle: Dutch, all"
+anpa = "en bas: Acadian French, below"
+ante = "ander: Dutch, other, different"
+anu = "ან (an): Georgian, or"
+apeja = "häpeä: Finnish, shame, disgrace, dishonor"
+awen = "houden: Dutch, keep, care for, hold (in a particular state)"
+e = "a priori"
+en = "en: Dutch, and"
+epiku = "épique: French, epic"
+esun = "edwamu: Akan, at market"
+ijo = "io: Esperanto, something; i-: Romance, (relative pronoun root)"
+ike = "ilkeä: Finnish, bad, mean, wicked"
+ilo = "ilo: Esperanto, tool; -el: German, (agent suffix)"
+insa = "insait: Tok Pisin, inside, center, stomach; inside: English, inside"
+isipin = "isipin: Tagalog, to think"
+jaki = "yucky: English, yucky"
+jami = "yummy: English, yummy"
+jan = "人 (jan): Cantonese, person"
+jasima = "yansıtmak: Turkish, to reflect, reverberate"
+jelo = "yellow: English, yellow"
+jo = "有 (yǒu): Mandarin, have"
+kala = "kala: Finnish, fish"
+kalama = "галама (galama): Serbo-Croatian, noise (of the human voice)"
+kama = "kamap: Tok Pisin, event, arrive, happen, become, bring about, summon"
+kamalawala = "kama pi lawa ala: toki pona, 'arrival of no government', the beginning of anarchy"
+kapesi = "咖啡色 (gaa³ fe¹ sik¹): Cantonese, brown, coffee (colour); 咖啡色 (kāfēisè): Mandarin, brown, coffee (colour)"
+kasi = "kasvi: Finnish, plant"
+ken = "ken: Tok Pisin, can; can: English, can"
+kepeken = "gebruiken: Dutch, to use"
+kijetesantakalu = "kierteishäntäkarhu: Finnish, kinkajou"
+kiki = "a priori"
+kili = "ხილი (xili): Georgian, fruit"
+kin = "-kin: Finnish, too, also, still"
+kipisi = "kipisi: Inuktitut, to cut (intransitive)"
+kiwen = "kiven: Finnish, stone (genitive case)"
+ko = "膏 (gou): Cantonese, cream, paste"
+kokosila = "krokodilas: Esperanto, to speak among Esperantists in a language other than Esperanto; krokodilo: Esperanto, crocodile"
+kon = "空氣 (kōngqì): Mandarin, air, atmosphere, ambience, opinion"
+konwe = "Conway: English, John Conway, creator of The Game of Life; kon wile: toki pona, kon wile"
+ku = "a priori"
+kule = "couleur: Acadian French, color"
+kulijo = "coolio: English, coolio"
+kulupu = "kulupu: Tongan, group; group: English, group"
+kute = "écouter: Acadian French, listen"
+la = "la: Esperanto, (definite article); la: Romance, (feminine singular definite article); -la: Acadian French, (proximal & topical suffix)"
+lanpan = "λαμβάνω (lamváno): Greek, take, seize, grasp, receive"
+lape = "slapen: Dutch, sleep"
+laso = "glas: Welsh, blue, inexperienced; glas: Proto-Brythonic, green, blue"
+lawa = "glava (глава): Serbo-Croatian, head"
+leko = "Lego: English, Lego; leg godt: Danish, play well; lohko: Finnish, block, section"
+len = "linge: Acadian French, clothing"
+lete = "frette: Acadian French, cold; freit: Old French, cold"
+li = "li: Esperanto, he; ille: Latin, he; i: Tok Pisin, he; he: English, he"
+lili = "liklik: Tok Pisin, small, little; liklik: Ramoaaina, small, little"
+linja = "linja: Finnish, line; linia: Old Swedish, line"
+linluwi = "rhyngrwyd: Welsh, internet"
+lipu = "lippu: Finnish, flag, banner, ticket"
+loje = "rooie: Dutch, red (inflected)"
+lon = "long: Tok Pisin, at, in, on, (spacial particle); along: English, along"
+luka = "рука (ruka): Serbo-Croatian, hand, arm"
+lukin = "lukim: Tok Pisin, see, look at; look: English, look; him: English, him"
+lupa = "clupa: Lojban, loop; 圈 (quān): Mandarin, loop; loop: English, loop; पाश (pāś): Hindi, loop; أنشوطة‏ (anšūṭa): Arabic, loop"
+ma = "maa: Finnish, earth, land"
+majuna = "maljuna: Esperanto, old (not young); malus: Latin, bad; jung: German, young; jeune: French, young"
+mama = "მამა (mama): Georgian, father"
+mani = "money: English, money; fehu: Proto-Germanic, livestock; pecū: Latin, cattle"
+meli = "meri: Tok Pisin, woman, wife, feminine; mari: Tolai, pretty; Mary: English, Mary"
+melome = "meli pi olin meli: toki pona, women loving women"
+meso = "μέσος (mésos): Greek, middle"
+mi = "mi: Esperanto, I, me; m-: Romance, (1st person singular oblique)"
+mije = "mies: Finnish, man, husband"
+mijomi = "mije pi olin mije: toki pona, men loving men"
+misa = "мишка (myshka): Ukrainian, mouse (diminutive)"
+misikeke = "mashkiki: Ojibwe, medicine, drug"
+moku = "モグモグ (mogumogu): Japanese, munching"
+moli = "mourir: Acadian French, die"
+monsi = "mon tchu: Acadian French, my ass (vulgar)"
+monsuta = "モンスター (monsutā): Japanese, monster; monster: English, monster"
+mu = "onomatopoeia"
+mun = "moon: English, moon"
+musi = "amuzi: Esperanto, amuse, entertain; amuser: French, amuse, entertain"
+mute = "multe: Esperanto, a lot; multus: Latin, a lot"
+n = "onomatopoeia"
+namako = "नमक (namak): Hindi, salt; نمک (namak): Persian, salt"
+nanpa = "namba: Tok Pisin, number; number: English, number"
+nasa = "nasau: Tok Pisin, dunderhead"
+nasin = "начин (način): Serbo-Croatian, way, method"
+nena = "nenä: Finnish, nose"
+ni = "呢 (ni): Cantonese, this; 哩 (le): Tai, (continuation of a state/action)"
+nimi = "nimi: Finnish, name"
+nimisin = "nimi sin: toki pona, new word"
+nja = "ニャー (nyā): Japanese, meow (onomatopoeia)"
+noka = "нога (noga): Serbo-Croatian, foot, leg"
+o = "-ო (-o): Georgian, (vocative suffix)"
+ojuta = "o uta: toki pona, 'lick my balls' (same as English 'ligma balls')"
+oke = "okay: English, okay"
+oko = "око (оko): Serbo-Croatian, eye"
+olin = "волим (volim): Serbo-Croatian, I love"
+omekapo = "o moku e kala pona: toki pona, 'eat a good fish', wishing somebody well"
+ona = "она (ona): Serbo-Croatian, she"
+open = "open: English, open"
+owe = "Orwell: English, George Orwell, author of 1984"
+pakala = "bagarap: Tok Pisin, accident; bugger up: English, bugger up"
+pake = "block: English, block"
+pali = "fari: Esperanto, do, make"
+palisa = "палица (palica): Serbo-Croatian, bat, rod, cane"
+pan = "pan: Romance, bread; パン (pan): Japanese, bread; pão: Portuguese, bread"
+pana = "panna: Finnish, put, set, place; pana: Swahili, give to each other"
+penpo = "(pi) toki pona taso: toki pona, only toki pona"
+pi = "bilong: Tok Pisin, of; belong: English, belong"
+pika = "ピカチュウ (Pikachū): Japanese, Pikachū, an electric Pokémon"
+pilin = "pilim: Tok Pisin, feel; -im: English, him; him: English, him"
+pimeja = "pimeä: Finnish, dark"
+pini = "fini: Acadian French, finished, completed; pinis: Tok Pisin, finish (perfective aspect); finish: English, finish"
+pipi = "bibitte: Acadian French, bug"
+po = "four: English, (number) four"
+poka = "boka (бока): Serbo-Croatian, side, flank (genitive)"
+poki = "bokis: Tok Pisin, box, female genitalia (vulgar); box: English, box"
+pona = "bona: Esperanto, good"
+powe = "pas vrai: Acadian French, not true"
+pu = "樸 (pǔ): Mandarin, unworked wood, sincere, honest, inherent quality, simple; book: English, book"
+puwa = "ふわふわ (fuwafuwa): Japanese, fluffy things (onomatopoeia)"
+sama = "sama: Finnish, same; *samaz: Proto-Germanic, same, alike; sama: Esperanto, same; same: English, same"
+san = "三 (san): Japanese, (number) three; 三 (sāam): Cantonese, (number) three; 叁 (sāam): Cantonese, (number) three"
+seli = "ცხელი (cxeli): Georgian, hot"
+selo = "ŝelo: Esperanto, skin, peel; schale: German, peel, husk, shell"
+seme = "什麼 (shénme): Mandarin, what, something"
+sewi = "ზევით (zevit): Georgian, upwards"
+sijelo = "тијело (tijelo): Serbo-Croatian, body"
+sike = "circle: English, circle"
+sin = "新 (xīn): Mandarin, new, fresh"
+sina = "sinä: Finnish, (pronoun) you, y'all"
+sinpin = "前邊 (tsin bin): Cantonese, in front"
+sitelen = "schilderen: Dutch, paint"
+soko = "სოკო (sok’o): Georgian, mushroom"
+sona = "ცოდნა (codna): Georgian, knowledge"
+soto = "shoto: Swahili, left side"
+soweli = "ცხოველი (cxoveli): Georgian, beastly animal, lively, passionate"
+su = "a priori"
+suli = "suuri: Finnish, big, large, great"
+suno = "suno: Esperanto, sun"
+supa = "surfaco: Esperanto, surface; surface: Acadian French, surface; surface: English, surface"
+sutopatikuna = "čudnovati kljunaš: Serbo-Croatian, platypus, (literally) strange beak"
+suwi = "swit: Tok Pisin, sweet; sweet: English, sweet"
+taki = "탁 (tag): Korean, the sound of two magnets hitting each other (onomatopoeia)"
+tan = "從 (tsung): Cantonese, from"
+taso = "tasol: Tok Pisin, just, only, but, however; that’s all: English, that’s all"
+tawa = "toward: English, toward"
+te = "って (tte): Japanese, (quotative)"
+teje = "de: Welsh, right"
+telo = "de l’eau: Acadian French, (some) water"
+tenpo = "tempo: Esperanto, time; tempus: Latin, time"
+to = "と (to): Japanese, (quotative)"
+toki = "tok: Tok Pisin, talk; talk: English, talk"
+tomo = "domo: Esperanto, house; dom: Polish, house; domus: Latin, house; δόμος: Ancient Greek, house"
+tonsi = "同志 (tóngzhì): Mandarin, comrade (same will/purpose), LGBT+"
+tu = "two: English, two; du: Esperanto, two"
+unpa = "onomatopoeia"
+unu = "ungu: Malay-Indonesian, purple, violet"
+usawi = "uchawi: Swahili, witchcraft, sorcery"
+uta = "уста (usta): Serbo-Croatian, mouth"
+utala = "ударати (udarati): Serbo-Croatian, strike, hit, beat"
+wa = "onomatopoeia"
+walo = "valko: Finnish, white"
+wan = "one: English, one"
+waso = "oiseau: Acadian French, bird"
+wasoweli = "waso: toki pona, bird, flying creature; soweli: toki pona, land animal, fuzzy creature"
+wawa = "vahva: Finnish, strong, powerful, thick"
+weka = "weg: Dutch, away, gone"
+wekama = "weka kama: toki pona, 'leave-arrive', to leave and come back"
+wile = "willen: Dutch, want, desire"
+wuwojiti = "wu: toki pona, (sound); wo: toki pona, (sound); ji: toki pona, (sound); ti: toki pona, (sound)"
+yupekosi = "a priori"
