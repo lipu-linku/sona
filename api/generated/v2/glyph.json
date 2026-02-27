@@ -7,16 +7,15 @@
       "$ref": "#/$defs/__schema0"
     },
     "word": {
-      "description": "The toki pona word which is written with this glyph.",
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "The toki pona word which is written with this glyph."
     },
     "word_id": {
       "description": "The Linku id of the toki pona word this glyph writes.",
       "$ref": "#/$defs/__schema0"
     },
     "usage_category": {
-      "description": "The glyph's usage category, derived from the data of the annual Linku glyph survey.",
       "type": "string",
       "enum": [
         "core",
@@ -24,99 +23,91 @@
         "uncommon",
         "obscure",
         "sandbox"
-      ]
+      ],
+      "description": "The glyph's usage category, derived from the data of the annual Linku glyph survey."
     },
     "author": {
-      "description": "The name or names of those involved in creating this glyph.",
       "type": "array",
       "items": {
-        "type": "string",
-        "minLength": 1
-      }
+        "$ref": "#/$defs/__schema1"
+      },
+      "description": "The name or names of those involved in creating this glyph."
     },
     "author_source": {
       "description": "The source or origin of this glyph, often a URL.",
-      "type": "string"
+      "$ref": "#/$defs/__schema2"
     },
     "creation_date": {
-      "description": "When this glyph was created, to precision known",
       "type": "string",
-      "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$"
+      "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$",
+      "description": "When this glyph was created, to precision known"
     },
     "see_also": {
-      "description": "A list of related glyphs by ID",
       "type": "array",
       "items": {
         "$ref": "#/$defs/__schema0"
-      }
+      },
+      "description": "A list of related glyphs by ID"
     },
     "primary": {
-      "description": "Whether this glyph is the main glyph used to write the toki pona word in `word`",
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Whether this glyph is the main glyph used to write the toki pona word in `word`"
     },
     "parent_id": {
       "description": "The primary glyph which this glyph is considered to share its form with.",
-      "$ref": "#/$defs/__schema0"
+      "$ref": "#/$defs/__schema3"
     },
     "deprecated": {
-      "description": "Whether this glyph is considered deprecated by its author(s).",
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Whether this glyph is considered deprecated by its author(s)."
     },
     "image": {
       "description": "A URL to an image of the sitelen pona glyph.",
-      "$ref": "#/$defs/__schema1"
+      "$ref": "#/$defs/__schema4"
     },
     "svg": {
       "description": "A URL to an SVG of the sitelen pona glyph.",
-      "$ref": "#/$defs/__schema1"
+      "$ref": "#/$defs/__schema4"
     },
     "ligature": {
       "description": "The specific numerical ligature used to render this sitelen pona glyph.",
-      "$ref": "#/$defs/__schema2"
+      "$ref": "#/$defs/__schema5"
     },
     "alias_ligatures": {
       "description": "All non-numerical ligature used to render this sitelen pona glyph.",
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/__schema2"
-      }
+      "$ref": "#/$defs/__schema6"
     },
     "ucsur": {
       "description": "The UCSUR codepoint used to render this specific sitelen pona glyph.",
-      "type": "string",
-      "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+      "$ref": "#/$defs/__schema7"
     },
     "usage": {
-      "description": "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey.",
       "type": "object",
       "propertyNames": {
-        "type": "string",
-        "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
+        "$ref": "#/$defs/__schema8"
       },
       "additionalProperties": {
-        "type": "number",
-        "minimum": 0,
-        "maximum": 100
-      }
+        "$ref": "#/$defs/__schema9"
+      },
+      "description": "The percentage of respondents to the annual Linku word survey who report to use this glyph, by the date of the survey."
     },
     "translations": {
       "type": "object",
       "properties": {
         "commentary": {
-          "description": "Localized commentary on this glyph, such as history, clarifications, or trivia.",
-          "type": "string"
+          "type": "string",
+          "description": "Localized commentary on this glyph, such as history, clarifications, or trivia."
         },
         "etymology": {
-          "description": "Localized etymology of this glyph.",
-          "type": "string"
+          "type": "string",
+          "description": "Localized etymology of this glyph."
         },
         "names": {
-          "description": "A list of names used to refer to this sitelen pona glyph",
           "type": "array",
           "items": {
-            "description": "A name this sitelen pona glyph is known by.",
-            "type": "string"
-          }
+            "$ref": "#/$defs/__schema10"
+          },
+          "description": "A list of names used to refer to this sitelen pona glyph"
         }
       },
       "required": [
@@ -143,18 +134,53 @@
   "additionalProperties": false,
   "$defs": {
     "__schema0": {
-      "description": "A unique identifier for an object in Linku. Generally named after the object.",
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "A unique identifier for an object in Linku. Generally named after the object."
     },
     "__schema1": {
-      "description": "A URL pointing to some external resource.",
       "type": "string",
-      "format": "uri"
+      "minLength": 1
     },
     "__schema2": {
       "type": "string",
+      "description": "The source or origin of this object, often a URL."
+    },
+    "__schema3": {
+      "description": "The ID of an object related to this one.",
+      "$ref": "#/$defs/__schema0"
+    },
+    "__schema4": {
+      "type": "string",
+      "format": "uri",
+      "description": "A URL pointing to some external resource."
+    },
+    "__schema5": {
+      "type": "string",
       "minLength": 1
+    },
+    "__schema6": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema5"
+      }
+    },
+    "__schema7": {
+      "type": "string",
+      "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+    },
+    "__schema8": {
+      "type": "string",
+      "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
+    },
+    "__schema9": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "__schema10": {
+      "type": "string",
+      "description": "A name this sitelen pona glyph is known by."
     }
   }
 }
