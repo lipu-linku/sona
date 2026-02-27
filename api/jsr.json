@@ -1,10 +1,10 @@
 {
   "name": "@linku/sona",
-  "version": "0.3.7",
+  "version": "2.0.0",
   "exports": {
-    ".": "./src/lib/v2/index.ts",
-    "./utils": "./src/lib/v2/utils.ts",
-    "./client": "./src/lib/v2/client.ts",
+    ".": "./src/lib/v1/index.ts",
+    "./utils": "./src/lib/v1/utils.ts",
+    "./client": "./src/lib/v1/client.ts",
     "./v2": "./src/lib/v2/index.ts",
     "./v2/utils": "./src/lib/v2/utils.ts",
     "./v2/client": "./src/lib/v2/client.ts",
@@ -13,7 +13,15 @@
     "./v1/client": "./src/lib/v1/client.ts"
   },
   "publish": {
-    "include": ["src", "generated", "raw", "README.md", "LICENSE"],
-    "exclude": ["*.test.*"]
+    "include": [
+      "src",
+      "generated",
+      "raw",
+      "README.md",
+      "LICENSE"
+    ],
+    "exclude": [
+      "*.test.*"
+    ]
   }
 }
