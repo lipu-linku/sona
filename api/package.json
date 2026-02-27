@@ -1,6 +1,6 @@
 {
 	"name": "@kulupu-linku/sona",
-	"version": "2.0.0",
+	"version": "2.0.2",
 	"description": "A library providing TypeScript types and Zod schemas for the sona API",
 	"homepage": "https://linku.la/",
 	"bugs": {
@@ -66,17 +66,17 @@
 	"module": "./dist/v2/index.js",
 	"types": "./dist/v2/index.d.ts",
 	"exports": {
-		".": {
-			"import": "./dist/v2/index.js",
-			"types": "./dist/v2/index.d.ts"
+		"./v1": {
+			"import": "./dist/v1/index.js",
+			"types": "./dist/v1/index.d.ts"
 		},
-		"./utils": {
-			"import": "./dist/v2/utils.js",
-			"types": "./dist/v2/utils.d.ts"
+		"./v1/utils": {
+			"import": "./dist/v1/utils.js",
+			"types": "./dist/v1/utils.d.ts"
 		},
-		"./client": {
-			"import": "./dist/v2/client.js",
-			"types": "./dist/v2/client.d.ts"
+		"./v1/client": {
+			"import": "./dist/v1/client.js",
+			"types": "./dist/v1/client.d.ts"
 		},
 		"./v2": {
 			"import": "./dist/v2/index.js",
@@ -89,18 +89,6 @@
 		"./v2/client": {
 			"import": "./dist/v2/client.js",
 			"types": "./dist/v2/client.d.ts"
-		},
-		"./v1": {
-			"import": "./dist/v1/index.js",
-			"types": "./dist/v1/index.d.ts"
-		},
-		"./v1/utils": {
-			"import": "./dist/v1/utils.js",
-			"types": "./dist/v1/utils.d.ts"
-		},
-		"./v1/client": {
-			"import": "./dist/v1/client.js",
-			"types": "./dist/v1/client.d.ts"
 		}
 	},
 	"type": "module"
