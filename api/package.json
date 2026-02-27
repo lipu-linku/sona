@@ -62,47 +62,45 @@
 		"/dist",
 		"/generated"
 	],
-	"main": "./src/lib/v2/index.js",
-	"module": "./src/lib/v2/index.js",
-	"types": "./src/lib/v2/index.d.ts",
+	"main": "./dist/v2/index.js",
+	"module": "./dist/v2/index.js",
+	"types": "./dist/v2/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./src/lib/v1/index.js",
-			"types": "./src/lib/v1/index.d.ts"
+			"import": "./dist/v1/index.js",
+			"types": "./dist/v1/index.d.ts"
 		},
 		"./utils": {
-			"import": "./src/lib/v1/utils.js",
-			"types": "./src/lib/v1/utils.d.ts"
+			"import": "./dist/v1/utils.js",
+			"types": "./dist/v1/utils.d.ts"
 		},
 		"./client": {
-			"import": "./src/lib/v1/client.js",
-			"types": "./src/lib/v1/client.d.ts"
+			"import": "./dist/v1/client.js",
+			"types": "./dist/v1/client.d.ts"
 		},
-
 		"./v1": {
-			"import": "./src/lib/v1/index.js",
-			"types": "./src/lib/v1/index.d.ts"
+			"import": "./dist/v1/index.js",
+			"types": "./dist/v1/index.d.ts"
 		},
 		"./v1/utils": {
-			"import": "./src/lib/v1/utils.js",
-			"types": "./src/lib/v1/utils.d.ts"
+			"import": "./dist/v1/utils.js",
+			"types": "./dist/v1/utils.d.ts"
 		},
 		"./v1/client": {
-			"import": "./src/lib/v1/client.js",
-			"types": "./src/lib/v1/client.d.ts"
+			"import": "./dist/v1/client.js",
+			"types": "./dist/v1/client.d.ts"
 		},
-
 		"./v2": {
-			"import": "./src/lib/v2/index.js",
-			"types": "./src/lib/v2/index.d.ts"
+			"import": "./dist/v2/index.js",
+			"types": "./dist/v2/index.d.ts"
 		},
 		"./v2/utils": {
-			"import": "./src/lib/v2/utils.js",
-			"types": "./src/lib/v2/utils.d.ts"
+			"import": "./dist/v2/utils.js",
+			"types": "./dist/v2/utils.d.ts"
 		},
 		"./v2/client": {
-			"import": "./src/lib/v2/client.js",
-			"types": "./src/lib/v2/client.d.ts"
+			"import": "./dist/v2/client.js",
+			"types": "./dist/v2/client.d.ts"
 		}
 	},
 	"type": "module"
