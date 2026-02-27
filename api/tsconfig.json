@@ -26,5 +26,7 @@
 		],
 		"allowImportingTsExtensions": true,
 		"noErrorTruncation": true,
+		"moduleResolution": "nodenext",
+		"exports": true,
 	}
 }
