@@ -1,30 +1,32 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "to"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["kala kala/jan Salan", "jan Lakuse"]
+creation_date = "2020"
+author = ["kala kala/jan Salan", "jan Lakuse"]
 see_also = ["te"]
 source_language = "Japanese"
 usage_category = "obscure"
 word = "to"
 deprecated = false
+glyph_ids = ["to-1"]
+primary_glyph_id = "to-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/to.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/to.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/to.mp3"
-
-[[etymology]]
-alt = "to"
-word = "と"
 
 [ku_data]
 "(closing quotation particle)" = 7
 
 [representations]
 ligatures = ["to"]
+ucsur = "U+F29B5"
 
 [usage]
 2021-10 = 38
@@ -35,3 +37,8 @@ ligatures = ["to"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/to"
+
+[translations]
+commentary = 'May be paired with "te", or used on its own. It is unclear how accepted either approach is among te / to users.'
+definition = "(particle) [closes a quote]"
+etymology = "と (to): Japanese, (quotative)"

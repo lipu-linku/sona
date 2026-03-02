@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "taki-2"
+word = "taki"
+word_id = "taki"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/811774795905368094"
+author = ["lipamanka"]
+creation_date = "2021-02-17"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/taki-2.svg"
+ligature = "taki02"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+ucsur = "U+F29B3"
+
+[usage]
+2025-09 = 5
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["magnet taki"]

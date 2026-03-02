@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kankuli"
+author_verbatim = "My own nimisin is kankuli and it means scrunkly"
+author_source = "https://discord.com/channels/948448338662010910/1204203419699777586/1209655989201149982"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["jan Lepeka"]
+see_also = ["suwi", "kiki"]
+source_language = "English"
+usage_category = "sandbox"
+word = "kankuli"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["kankuli"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "scrunkly"
+etymology = "scrunkly: English, cute in a quirky, scruffy, or dishevelled way"

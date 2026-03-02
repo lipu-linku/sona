@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "haw"
+locale = "haw-US"
+
+[name]
+en = "Hawaiian"
+endonym = "ʻŌlelo Hawaiʻi"
+tok = "toki Awaje"

@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen jaso tonsi"
-name      = "sitelen jaso tonsi"
-filename  = "sitelen jaso tonsi.ttf"
-creator   = ["jan waso Lawen"]
-license   = "OFL"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen jaso tonsi"
+name = "sitelen jaso tonsi"
+filename = "sitelen jaso tonsi.ttf"
+author = ["jan waso Lawen"]
+license = "OFL"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2024-12"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -22,5 +22,5 @@ style = "handwritten"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen%20jaso%20tonsi.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-jaso-tonsi.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-jaso-tonsi.html"

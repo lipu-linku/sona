@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "namako-1"
+word = "namako"
+word_id = "namako"
+usage_category = "uncommon"
+author_source = "http://forums.tokipona.org/viewtopic.php?p=15268#p15268"
+author = ["jan Same"]
+creation_date = "2016-10-16"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/namako-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/namako-1.svg"
+ligature = "namako01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["sin-1"]
+
+[usage]
+2025-09 = 41
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["crosshair namako", "sin namako"]

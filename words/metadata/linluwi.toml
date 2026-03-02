@@ -1,23 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "linluwi"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2017"
-creator = ["jan inwin"]
+creation_date = "2017"
+author = ["jan inwin"]
 see_also = ["len", "ilo", "wan", "kulupu"]
 source_language = "Welsh"
 usage_category = "uncommon"
 word = "linluwi"
 deprecated = false
+glyph_ids = ["linluwi-1", "linluwi-2", "linluwi-3"]
+primary_glyph_id = "linluwi-3"
+# teachability = 3
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/linluwi.mp3"
-
-[[etymology]]
-word = "rhyngrwyd"
 
 [ku_data]
 Internet = 15
@@ -42,3 +44,8 @@ sitelen_emosi = "🌐"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/linluwi"
+
+[translations]
+commentary = ""
+definition = "bonded things which are stronger through their bonds e.g. network, internet, connection; weave, braid, interlace"
+etymology = "rhyngrwyd: Welsh, internet"

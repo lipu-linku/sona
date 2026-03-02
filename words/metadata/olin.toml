@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "olin"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Serbo-Croatian"
 usage_category = "core"
 word = "olin"
 deprecated = false
+glyph_ids = ["olin-1", "olin-2", "olin-3"]
+primary_glyph_id = "olin-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/olin.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/olin.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,10 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/olin.mp3"
-
-[[etymology]]
-alt = "volim"
-word = "волим"
 
 [ku_data]
 appreciation = 13
@@ -68,3 +69,8 @@ sitelen_jelo = ["💕"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/olin"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#olin"
+
+[translations]
+commentary = "In english, \"love\" can be used to mean \"like a lot\", but in toki pona, \"olin\" doesn't work that way. It indicates an emotional connection or bond, not preference"
+definition = "to have a strong emotional bond with, e.g. affection, appreciation, compassion, respect; platonic, romantic, or familial relationships"
+etymology = "волим (volim): Serbo-Croatian, I love"

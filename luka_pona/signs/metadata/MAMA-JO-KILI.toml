@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "mama"
-id = "MAMA^2"
+id = "MAMA-JO-KILI"
 is_two_handed = false
 new_gloss = "MAMA-JO-KILI"
 old_gloss = "MAMA^2"
+old_id = "MAMA^2"
 
 [[etymology]]
 language = "muliple SLs"
@@ -16,3 +17,10 @@ swu = "𝠀񀠓񃃶񆇡񈢧𝠃𝤘𝤰񀠓𝣴𝤂񃃶𝣿𝤟񆇡𝤆𝤔񈢧�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/mama.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/mama.mp4"
+
+[translations]
+icons = "a person who cares for a baby"
+[translations.parameters]
+handshape = "V, BentB"
+movement = "hand shaking/wiggling"
+placement = "placed on opposite hand"

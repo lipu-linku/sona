@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "PMD sky"
-creator = ["differentthings"]
+author = ["differentthings"]
 features = ["codepoints only"]
 filename = ""
 last_updated = "2022-05"

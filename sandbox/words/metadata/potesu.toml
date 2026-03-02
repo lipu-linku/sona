@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "potesu"
+author_verbatim = ":nimisin~1: potesu totally radical from English “bodacious”"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/876205108986265651"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["soko Tulinja"]
+see_also = ["pona", "epiku"]
+source_language = "English"
+usage_category = "sandbox"
+word = "potesu"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "totally radical"
+etymology = "bodacious: English"

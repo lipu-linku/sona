@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kama-1"
+word = "kama"
+word_id = "kama"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kama-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kama-1.svg"
+ligature = "kama01"
+ucsur = "U+F1916"
+alias_ligatures = []
+# teachability = 1
+see_also = ["tawa-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "motion radical; legs facing to the left. compare tawa and blissymbol “walk”"
+names = ["pu kama"]

@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "tu-1"
+word = "tu"
+word_id = "tu"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/tu-1.svg"
+ligature = "tu01"
+ucsur = "U+F196E"
+alias_ligatures = []
+# teachability = 1
+see_also = ["wan-1", "mute-1"]
+
+[usage]
+2025-09 = 99
+
+[translations]
+commentary = ""
+etymology = "two tally marks. compare mute and wan"
+names = ["pu tu"]

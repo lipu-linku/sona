@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "linluwi-4"
+word = "linluwi"
+word_id = "linluwi"
+usage_category = "sandbox"
+author_source = ""
+author = ["jan Lepeka"]
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-4.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/linluwi-4.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = ["linluwi-2"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

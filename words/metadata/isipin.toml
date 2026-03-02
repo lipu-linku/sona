@@ -1,23 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "isipin"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2020"
-creator = ["jan ko"]
+creation_date = "2020"
+author = ["jan ko"]
 see_also = ["pilin", "toki", "insa", "lawa"]
 source_language = "Tagalog"
 usage_category = "obscure"
 word = "isipin"
 deprecated = false
+glyph_ids = ["isipin-1"]
+primary_glyph_id = "isipin-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/isipin.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/isipin.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/isipin.mp3"
-
-[[etymology]]
-word = "isipin"
 
 [ku_data]
 consciousness = 18
@@ -27,6 +29,7 @@ think = 29
 
 [representations]
 ligatures = ["isipin"]
+ucsur = "U+F19A7"
 
 [usage]
 2021-10 = 43
@@ -37,3 +40,8 @@ ligatures = ["isipin"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/isipin"
+
+[translations]
+commentary = ""
+definition = "to think, brainstorm, rationalize, conclude, ponder"
+etymology = "isipin: Tagalog, to think"

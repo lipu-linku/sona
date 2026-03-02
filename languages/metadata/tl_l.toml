@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "tl_l"
+locale = "tl-PH"
+
+[name]
+en = "Tagalog (Latin)"
+endonym = "Tagalog (Latin)"
+tok = "toki Takalo (sitelen Lasina)"

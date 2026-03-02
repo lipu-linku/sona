@@ -1,23 +1,25 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "oke"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
-coined_year = "2019"
-creator = ["unknown"]
-see_also = ["pona", "ke", "n", "a"]
+creation_date = "2019"
+author = ["unknown"]
+see_also = ["pona", "n", "a"]
 source_language = "English"
 usage_category = "obscure"
 word = "oke"
 deprecated = false
+glyph_ids = ["oke-2", "oke-3"]
+primary_glyph_id = "oke-2"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oke.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/oke.svg"
 
 [[audio]]
 author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/oke.mp3"
-
-[[etymology]]
-word = "okay"
 
 [ku_data]
 OK = 10
@@ -27,6 +29,7 @@ fine = 7
 [representations]
 ligatures = ["oke"]
 sitelen_emosi = "👌"
+ucsur = "U+F19AF"
 
 [usage]
 2020-04 = 25
@@ -38,3 +41,8 @@ sitelen_emosi = "👌"
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/oke"
+
+[translations]
+commentary = ""
+definition = "(acknowledgement or acceptance)"
+etymology = "okay: English, okay"

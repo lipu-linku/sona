@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "lon-1"
+word = "lon"
+word_id = "lon"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lon-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lon-1.svg"
+ligature = "lon01"
+ucsur = "U+F192C"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "location radical above a line. compare blissymbol “over”"
+names = ["pu lon"]

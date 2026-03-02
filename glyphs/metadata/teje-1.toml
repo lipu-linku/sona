@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "teje-1"
+word = "teje"
+word_id = "teje"
+usage_category = "obscure"
+author_source = "https://www.reddit.com/r/tokipona/comments/hxzvew/i_made_a_sitelen_pona_glyph_for_every_nonpu_word/"
+author = ["jan Elemenopi"]
+creation_date = "2020-07-26"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/teje-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/teje-1.svg"
+ligature = "teje01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["soto-1"]
+
+[usage]
+2025-09 = 8
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

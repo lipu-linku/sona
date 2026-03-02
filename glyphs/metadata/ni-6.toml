@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-6"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/903176991166042142"
+author = ["waso Atemi pi kulupu kasi"]
+creation_date = "2021-10-28"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-6.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-6.svg"
+ligature = "ni06"
+alias_ligatures = ["ni^>", "ni>^", "niupright"]
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 38
+
+[translations]
+commentary = ""
+etymology = "an arrow"
+names = ["up-right ni"]

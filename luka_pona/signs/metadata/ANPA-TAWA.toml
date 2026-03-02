@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "anpa"
-id = "ANPA^2"
+id = "ANPA-TAWA"
 is_two_handed = false
 new_gloss = "ANPA-TAWA"
 old_gloss = "ANPA^2"
+old_id = "ANPA^2"
 
 [[etymology]]
 language = "multiple SLs"
@@ -20,3 +21,9 @@ swu = "𝠀񃃑񇀥𝠃𝤒𝤠񃃑𝣻𝣭񇀥𝣿𝤂"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/anpa.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/anpa.mp4"
+
+[translations]
+icons = "placing something under"
+[translations.parameters]
+handshape = "BentB"
+movement = "movement downward"

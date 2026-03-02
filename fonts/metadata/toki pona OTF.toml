@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "toki pona OTF"
-creator = ["jan Wesi"]
+author = ["jan Wesi"]
 features = ["ASCII transcription"]
 filename = "toki-pona-otf.otf"
 last_updated = "2014-07"

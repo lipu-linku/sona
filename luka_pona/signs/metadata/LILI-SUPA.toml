@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "lili"
-id = "LILI"
+id = "LILI-SUPA"
 is_two_handed = false
 new_gloss = "LILI-SUPA"
 old_gloss = "LILI"
+old_id = "LILI"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񂈑񇀥𝠃𝤎𝤦񂈑𝤀𝣦񇀥𝣾𝤈"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"
+
+[translations]
+icons = "showing how short something is"
+[translations.parameters]
+handshape = "FlatB"
+orientation = "movement downward"

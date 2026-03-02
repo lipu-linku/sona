@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kewi"
+author_verbatim = "The word kewi could mean credit, acknowledgement, capital, reputation, status… you get the idea.\n\nI know this will never happen, but I propose that mani is replaced with kewi."
+author_source = "https://www.reddit.com/r/tokipona/comments/t2ax5w/new_word_proposal_kewi_credit/"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["jan Mesa Pan Masa"]
+see_also = ["mani"]
+source_language = "English"
+usage_category = "sandbox"
+word = "kewi"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "credit, acknowledgement, capital, reputation, status"
+etymology = "credit: English, credit"
