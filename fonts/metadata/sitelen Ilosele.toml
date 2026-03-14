@@ -17,12 +17,12 @@ features = [
   "name glyphs",
   "character variants",
   "rare sitelen pona and more",
-  "archaic words"
+  "archaic words",
   "long pi",
   "zero-width joiner combinations",
-  "full stacking and scaling/nesting"
-  "Latin and Cyrillic"
-  "ruby text"
+  "full stacking and scaling/nesting",
+  "Latin and Cyrillic",
+  "ruby text",
 ]
 
 style = "pixel"
