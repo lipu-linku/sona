@@ -1,0 +1,32 @@
+#:schema ../../api/generated/font.json
+id        = "sitelen Ilosele"
+name      = "sitelen Ilosele"
+filename  = "sitelen-Ilosele.otf"
+creator   = ["jan Majeka"]
+license   = "CC-BY-ND 4.0"
+ligatures = false
+ucsur     = true
+writing_system = "sitelen pona"
+
+last_updated = "2026-3"
+version      = "1.4.45"
+
+features = [
+  "UCSUR-compliant",
+  "cartouches",
+  "name glyphs",
+  "character variants",
+  "rare sitelen pona and more",
+  "archaic words"
+  "long pi",
+  "zero-width joiner combinations",
+  "full stacking and scaling/nesting"
+  "Latin and Cyrillic"
+  "ruby text"
+]
+
+style = "pixel"
+
+[links]
+fontfile = "https://github.com/yan-Mayeka/sitelen-Ilosele-Ilozellig/raw/refs/heads/main/sitelen-Ilosele.otf"
+repo     = "https://github.com/yan-Mayeka/sitelen-Ilosele-Ilozellig/tree/main"
