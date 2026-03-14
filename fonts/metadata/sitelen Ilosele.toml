@@ -1,15 +1,15 @@
 #:schema ../../api/generated/font.json
-id        = "sitelen Ilosele"
-name      = "sitelen Ilosele"
-filename  = "sitelen-Ilosele.otf"
-creator   = ["jan Majeka"]
-license   = "CC-BY-ND 4.0"
+id = "sitelen Ilosele"
+name = "sitelen Ilosele"
+filename = "sitelen-Ilosele.otf"
+author = ["jan Majeka"]
+license = "CC-BY-ND 4.0"
 ligatures = false
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2026-3"
-version      = "1.4.45"
+version = "1.4.45"
 
 features = [
   "UCSUR-compliant",
@@ -29,4 +29,4 @@ style = "pixel"
 
 [links]
 fontfile = "https://github.com/yan-Mayeka/sitelen-Ilosele-Ilozellig/raw/refs/heads/main/sitelen-Ilosele.otf"
-repo     = "https://github.com/yan-Mayeka/sitelen-Ilosele-Ilozellig/tree/main"
+repo = "https://github.com/yan-Mayeka/sitelen-Ilosele-Ilozellig/tree/main"
