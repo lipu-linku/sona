@@ -35,15 +35,6 @@ jobs:
         with:
           version: 10
 
-      - name: Install jq
-        uses: dcarbone/install-jq-action@v3
-
-      - name: Update package.json
-        if: github.event_name == 'release'
-        run:
-          pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
-          /usr/bin/cat <<< $(jq --tab '.version = "0.3.7"' jsr.json) > jsr.json
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
