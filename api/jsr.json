@@ -2,7 +2,7 @@
   "name": "@linku/sona",
   "version": "2.1.0",
   "exports": {
-    "./": "./src/lib/v2/index.ts",
+    ".": "./src/lib/v2/index.ts",
     "./utils": "./src/lib/v2/utils.ts",
     "./client": "./src/lib/v2/client.ts",
     "./v2": "./src/lib/v2/index.ts",
