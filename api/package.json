@@ -1,6 +1,6 @@
 {
   "name": "@kulupu-linku/sona",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A library providing TypeScript types and Zod schemas for the sona API",
   "homepage": "https://linku.la/",
   "bugs": {
@@ -29,45 +29,45 @@
     "/generated"
   ],
   "type": "module",
-  "main": "./dist/lib/v2/index.js",
-  "module": "./dist/lib/v2/index.js",
-  "types": "./dist/lib/v2/index.d.ts",
+  "main": "./dist/lib/v2/index.mjs",
+  "module": "./dist/lib/v2/index.mjs",
+  "types": "./dist/lib/v2/index.d.mts",
   "exports": {
     ".": {
-      "import": "./dist/lib/v2/index.js",
-      "types": "./dist/lib/v2/index.d.ts"
+      "import": "./dist/lib/v2/index.mjs",
+      "types": "./dist/lib/v2/index.d.mts"
     },
     "./utils": {
-      "import": "./dist/lib/v2/utils.js",
-      "types": "./dist/lib/v2/utils.d.ts"
+      "import": "./dist/lib/v2/utils.mjs",
+      "types": "./dist/lib/v2/utils.d.mts"
     },
     "./client": {
-      "import": "./dist/lib/v2/client.js",
-      "types": "./dist/lib/v2/client.d.ts"
+      "import": "./dist/lib/v2/client.mjs",
+      "types": "./dist/lib/v2/client.d.mts"
     },
     "./v1": {
-      "import": "./dist/lib/v1/index.js",
-      "types": "./dist/lib/v1/index.d.ts"
+      "import": "./dist/lib/v1/index.mjs",
+      "types": "./dist/lib/v1/index.d.mts"
     },
     "./v1/utils": {
-      "import": "./dist/lib/v1/utils.js",
-      "types": "./dist/lib/v1/utils.d.ts"
+      "import": "./dist/lib/v1/utils.mjs",
+      "types": "./dist/lib/v1/utils.d.mts"
     },
     "./v1/client": {
-      "import": "./dist/lib/v1/client.js",
-      "types": "./dist/lib/v1/client.d.ts"
+      "import": "./dist/lib/v1/client.mjs",
+      "types": "./dist/lib/v1/client.d.mts"
     },
     "./v2": {
-      "import": "./dist/lib/v2/index.js",
-      "types": "./dist/lib/v2/index.d.ts"
+      "import": "./dist/lib/v2/index.mjs",
+      "types": "./dist/lib/v2/index.d.mts"
     },
     "./v2/utils": {
-      "import": "./dist/lib/v2/utils.js",
-      "types": "./dist/lib/v2/utils.d.ts"
+      "import": "./dist/lib/v2/utils.mjs",
+      "types": "./dist/lib/v2/utils.d.mts"
     },
     "./v2/client": {
-      "import": "./dist/lib/v2/client.js",
-      "types": "./dist/lib/v2/client.d.ts"
+      "import": "./dist/lib/v2/client.mjs",
+      "types": "./dist/lib/v2/client.d.mts"
     }
   },
   "scripts": {
