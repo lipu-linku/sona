@@ -2,7 +2,14 @@ import { zValidator } from "@hono/zod-validator";
 import { Hono, type Context } from "hono";
 import { HTTPException } from "hono/http-exception";
 import { z } from "zod/v4";
-import { Fingerspellings, Fonts, Glyphs, Languages, Signs, Words } from "../../lib/v2/";
+import {
+  Fingerspellings,
+  Fonts,
+  Glyphs,
+  Languages,
+  Signs,
+  Words,
+} from "../../lib/v2/";
 import { langIdCoalesce, langValidator } from "../utils";
 import { fetchFile, type ApiVersion } from "../versioning";
 
@@ -59,7 +66,10 @@ export const config = {
 } as const;
 
 let CACHE: {
-  [K in keyof typeof config]?: Record<string, z.output<(typeof config)[K]["schema"]>>;
+  [K in keyof typeof config]?: Record<
+    string,
+    z.output<(typeof config)[K]["schema"]>
+  >;
 } = {};
 export const fetchData = async <K extends keyof typeof config>(
   key: K,
@@ -95,7 +105,10 @@ const datasetEndpoint = <K extends keyof typeof config>(key: K) => {
   };
 };
 
-const singleItemEndpoint = <const K extends keyof typeof config, const P extends string>(
+const singleItemEndpoint = <
+  const K extends keyof typeof config,
+  const P extends string,
+>(
   key: K,
   param: P,
   descriptor: string,
@@ -104,7 +117,10 @@ const singleItemEndpoint = <const K extends keyof typeof config, const P extends
     C extends Context<
       any,
       `:${P}`,
-      { in: { param: { [key in P]: string } }; out: { param: { [key in P]: string } } }
+      {
+        in: { param: { [key in P]: string } };
+        out: { param: { [key in P]: string } };
+      }
     >,
   >(
     c: C,
@@ -121,7 +137,13 @@ const singleItemEndpoint = <const K extends keyof typeof config, const P extends
           },
           200,
         )
-      : c.json({ success: false as const, message: `Could not find the ${descriptor} ${id}` }, 400);
+      : c.json(
+          {
+            success: false as const,
+            message: `Could not find the ${descriptor} ${id}`,
+          },
+          400,
+        );
   };
 };
 
@@ -165,7 +187,11 @@ const app = new Hono()
     zValidator("param", z.object({ sign: z.string() })),
     singleItemEndpoint("signs", "sign", "sign"),
   )
-  .get("/luka_pona/fingerspellings", langValidator, datasetEndpoint("fingerspellings"))
+  .get(
+    "/luka_pona/fingerspellings",
+    langValidator,
+    datasetEndpoint("fingerspellings"),
+  )
   .get(
     "/luka_pona/fingerspellings/:fingerspelling",
     langValidator,
@@ -173,9 +199,10 @@ const app = new Hono()
     singleItemEndpoint("fingerspellings", "fingerspelling", "fingerspelling"),
   )
 
-  .get("/fonts", datasetEndpoint("fonts"))
+  .get("/fonts", langValidator, datasetEndpoint("fonts"))
   .get(
     "/fonts/:font",
+    langValidator,
     zValidator("param", z.object({ font: z.string() })),
     singleItemEndpoint("fonts", "font", "font"),
   )
