@@ -43,10 +43,7 @@ jobs:
 
       - name: Publish to npm
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          pnpm publish --provenance --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          pnpm publish --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
 
       - name: Publish to JSR
         run: pnpx jsr publish --allow-slow-types --allow-dirty
