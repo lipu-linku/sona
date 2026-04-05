@@ -22,21 +22,12 @@
     "book": {
       "description": "Which official Toki Pona book was this word featured in, if any.",
       "type": "string",
-      "enum": [
-        "pu",
-        "ku suli",
-        "ku lili",
-        "none"
-      ]
+      "enum": ["pu", "ku suli", "ku lili", "none"]
     },
     "coined_era": {
       "description": "The period of time in which this word was coined, relative to the publication of the first two official Toki Pona books",
       "type": "string",
-      "enum": [
-        "pre-pu",
-        "post-pu",
-        "post-ku"
-      ]
+      "enum": ["pre-pu", "post-pu", "post-ku"]
     },
     "creation_date": {
       "description": "When this word was coined, to precision known.",
@@ -136,13 +127,7 @@
     "usage_category": {
       "description": "The word's usage category, derived from the data of the annual Linku word survey.",
       "type": "string",
-      "enum": [
-        "core",
-        "common",
-        "uncommon",
-        "obscure",
-        "sandbox"
-      ]
+      "enum": ["core", "common", "uncommon", "obscure", "sandbox"]
     },
     "deprecated": {
       "description": "Whether this word is considered deprecated by its author(s).",
@@ -163,10 +148,7 @@
             "$ref": "#/$defs/__schema4"
           }
         },
-        "required": [
-          "author",
-          "link"
-        ],
+        "required": ["author", "link"],
         "additionalProperties": false
       }
     },
@@ -191,12 +173,7 @@
           "$ref": "#/$defs/__schema5"
         }
       },
-      "required": [
-        "en",
-        "fr",
-        "de",
-        "eo"
-      ],
+      "required": ["en", "fr", "de", "eo"],
       "additionalProperties": false
     },
     "usage": {
@@ -243,11 +220,7 @@
           "$ref": "#/$defs/__schema5"
         }
       },
-      "required": [
-        "commentary",
-        "etymology",
-        "definition"
-      ],
+      "required": ["commentary", "etymology", "definition"],
       "additionalProperties": false
     }
   },

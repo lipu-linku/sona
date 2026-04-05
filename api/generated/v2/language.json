@@ -41,18 +41,10 @@
           "type": "string"
         }
       },
-      "required": [
-        "en",
-        "endonym"
-      ],
+      "required": ["en", "endonym"],
       "additionalProperties": false
     }
   },
-  "required": [
-    "id",
-    "locale",
-    "direction",
-    "name"
-  ],
+  "required": ["id", "locale", "direction", "name"],
   "additionalProperties": false
 }

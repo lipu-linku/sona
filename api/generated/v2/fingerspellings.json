@@ -32,9 +32,7 @@
               "type": "string"
             }
           },
-          "required": [
-            "language"
-          ],
+          "required": ["language"],
           "additionalProperties": false
         }
       },
@@ -53,10 +51,7 @@
             "minLength": 1
           }
         },
-        "required": [
-          "fsw",
-          "swu"
-        ],
+        "required": ["fsw", "swu"],
         "additionalProperties": false
       },
       "video": {
@@ -72,10 +67,7 @@
             "$ref": "#/$defs/__schema1"
           }
         },
-        "required": [
-          "gif",
-          "mp4"
-        ],
+        "required": ["gif", "mp4"],
         "additionalProperties": false
       },
       "translations": {
@@ -105,19 +97,11 @@
             "additionalProperties": false
           }
         },
-        "required": [
-          "parameters"
-        ],
+        "required": ["parameters"],
         "additionalProperties": false
       }
     },
-    "required": [
-      "id",
-      "is_two_handed",
-      "etymology",
-      "signwriting",
-      "translations"
-    ],
+    "required": ["id", "is_two_handed", "etymology", "signwriting", "translations"],
     "additionalProperties": false
   },
   "$defs": {

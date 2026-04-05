@@ -32,9 +32,7 @@
               "type": "string"
             }
           },
-          "required": [
-            "language"
-          ],
+          "required": ["language"],
           "additionalProperties": false
         }
       },
@@ -53,10 +51,7 @@
             "minLength": 1
           }
         },
-        "required": [
-          "fsw",
-          "swu"
-        ],
+        "required": ["fsw", "swu"],
         "additionalProperties": false
       },
       "video": {
@@ -72,10 +67,7 @@
             "$ref": "#/$defs/__schema1"
           }
         },
-        "required": [
-          "gif",
-          "mp4"
-        ],
+        "required": ["gif", "mp4"],
         "additionalProperties": false
       },
       "translations": {
@@ -109,10 +101,7 @@
             "additionalProperties": false
           }
         },
-        "required": [
-          "icons",
-          "parameters"
-        ],
+        "required": ["icons", "parameters"],
         "additionalProperties": false
       },
       "definition": {

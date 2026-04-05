@@ -1,10 +1,10 @@
-import { Fonts, Languages, Words, Glyphs, Signs, Fingerspellings } from "../../lib/v2/";
-import { langIdCoalesce, langValidator } from "../utils";
-import { type ApiVersion, fetchFile, type ApiConfig } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
-import { Hono, type Context, type Env, type Input } from "hono";
+import { Hono, type Context } from "hono";
 import { HTTPException } from "hono/http-exception";
 import { z } from "zod/v4";
+import { Fingerspellings, Fonts, Glyphs, Languages, Signs, Words } from "../../lib/v2/";
+import { langIdCoalesce, langValidator } from "../utils";
+import { fetchFile, type ApiVersion } from "../versioning";
 
 const API_VERSION: ApiVersion = "v2";
 export const config = {

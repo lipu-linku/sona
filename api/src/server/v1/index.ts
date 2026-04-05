@@ -1,11 +1,11 @@
-import { Fingerspelling, Fonts, Languages, Signs, Words } from "../../lib/v1/";
-import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
-import { fetchFile, type FilesToVariables, type ApiVersion, type ApiConfig } from "../versioning";
 import { zValidator } from "@hono/zod-validator";
 import { Hono, type MiddlewareHandler } from "hono";
 import { HTTPException } from "hono/http-exception";
 import PLazy from "p-lazy";
 import { z } from "zod/v4";
+import { Fingerspelling, Fonts, Languages, Signs, Words } from "../../lib/v1/";
+import { filterObject, keys, langIdCoalesce, langValidator } from "../utils";
+import { fetchFile, type ApiVersion, type FilesToVariables } from "../versioning";
 
 const API_VERSION: ApiVersion = "v1";
 export const config = {
