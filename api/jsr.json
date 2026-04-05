@@ -10,15 +10,7 @@
     "./v1/client": "./src/lib/v1/client.ts"
   },
   "publish": {
-    "include": [
-      "src",
-      "generated",
-      "raw",
-      "README.md",
-      "LICENSE"
-    ],
-    "exclude": [
-      "*.test.*"
-    ]
+    "include": ["src", "generated", "raw", "README.md", "LICENSE"],
+    "exclude": ["*.test.*"]
   }
 }

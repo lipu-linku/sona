@@ -17,9 +17,7 @@
               "description": "The localized name of the language this word originated from"
             }
           },
-          "required": [
-            "language"
-          ],
+          "required": ["language"],
           "additionalProperties": false
         }
       },

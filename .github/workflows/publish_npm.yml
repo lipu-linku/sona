@@ -19,18 +19,18 @@ jobs:
       run:
         working-directory: ./api
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         name: Checkout
         with:
           ref: ${{ github.ref }}
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         name: Setup Node.js
         with:
-          node-version: 21
+          node-version: 24
           registry-url: https://registry.npmjs.org/
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
         name: Setup pnpm
         with:
           version: 10

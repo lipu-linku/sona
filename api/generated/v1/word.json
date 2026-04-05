@@ -19,23 +19,14 @@
         },
         "book": {
           "type": "string",
-          "enum": [
-            "pu",
-            "ku suli",
-            "ku lili",
-            "none"
-          ],
+          "enum": ["pu", "ku suli", "ku lili", "none"],
           "description": "Which official Toki Pona book was this word featured in, if any."
         },
         "coined_era": {
           "anyOf": [
             {
               "type": "string",
-              "enum": [
-                "pre-pu",
-                "post-pu",
-                "post-ku"
-              ]
+              "enum": ["pre-pu", "post-pu", "post-ku"]
             },
             {
               "type": "string",
@@ -137,13 +128,7 @@
         },
         "usage_category": {
           "type": "string",
-          "enum": [
-            "core",
-            "common",
-            "uncommon",
-            "obscure",
-            "sandbox"
-          ],
+          "enum": ["core", "common", "uncommon", "obscure", "sandbox"],
           "description": "The word's usage category, according to a survey performed by the Linku Project"
         },
         "word": {
@@ -187,10 +172,7 @@
                 "description": "A link to the audio file for the word, pronounced by `author`."
               }
             },
-            "required": [
-              "author",
-              "link"
-            ],
+            "required": ["author", "link"],
             "additionalProperties": false,
             "description": "Audio files of the words pronounced out loud"
           }
@@ -215,12 +197,7 @@
               "description": "The original definition in the Esperanto version of pu"
             }
           },
-          "required": [
-            "en",
-            "fr",
-            "de",
-            "eo"
-          ],
+          "required": ["en", "fr", "de", "eo"],
           "additionalProperties": false,
           "description": "The original definition of the word in pu, the first official Toki Pona book"
         },
