@@ -1,286 +1,459 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "description": "A raw data object containing dictionary info about Toki Pona words",
   "type": "object",
   "propertyNames": {
     "$ref": "#/$defs/__schema0"
   },
   "additionalProperties": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "description": "A unique identifier for the word. May have an integer to distinguish words with the same spelling but distinct coinings.",
-        "$ref": "#/$defs/__schema0"
-      },
-      "word": {
-        "description": "The latin alphabet representation of the word.",
-        "type": "string",
-        "minLength": 1
-      },
-      "author_verbatim": {
-        "description": "The author's original definition, taken verbatim in their words",
-        "type": "string"
-      },
-      "author_source": {
-        "description": "The source or origin of this glyph, often a URL.",
-        "type": "string"
-      },
-      "book": {
-        "description": "Which official Toki Pona book was this word featured in, if any.",
-        "type": "string",
-        "enum": ["pu", "ku suli", "ku lili", "none"]
-      },
-      "coined_era": {
-        "description": "The period of time in which this word was coined, relative to the publication of the first two official Toki Pona books",
-        "type": "string",
-        "enum": ["pre-pu", "post-pu", "post-ku"]
-      },
-      "creation_date": {
-        "description": "When this word was coined, to precision known.",
-        "type": "string",
-        "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$"
-      },
-      "author": {
-        "description": "The name or names of those involved in creating this word.",
-        "type": "array",
-        "items": {
-          "$ref": "#/$defs/__schema1"
-        }
-      },
-      "ku_data": {
-        "description": "The usage data of this word, as described in the Toki Pona Dictionary.",
-        "type": "object",
-        "propertyNames": {
-          "description": "A possible translation of the word into English, as listed in the Toki Pona dictionary.",
-          "type": "string",
-          "minLength": 1
-        },
-        "additionalProperties": {
-          "description": "The percentage of Toki Pona Dictionary survey respondents who report this translation as accurate to their usage.",
-          "$ref": "#/$defs/__schema2"
-        }
-      },
-      "parent_id": {
-        "description": "The most widely used word which is considered to be an exact synonym for this word.",
-        "$ref": "#/$defs/__schema0"
-      },
-      "see_also": {
-        "description": "The IDs of words related to this one.",
-        "$ref": "#/$defs/__schema3"
-      },
-      "resources": {
-        "description": "Non-Linku resources related to the specific word, such as wiki links.",
-        "type": "object",
-        "properties": {
-          "sona_pona": {
-            "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
-            "$ref": "#/$defs/__schema4"
-          },
-          "lipamanka_semantic": {
-            "description": "A link to lipamanka's description of the word's semantic space.",
-            "$ref": "#/$defs/__schema4"
-          }
-        },
-        "additionalProperties": false
-      },
-      "representations": {
-        "description": "Ways of representing this word via text/computers",
-        "type": "object",
-        "properties": {
-          "sitelen_emosi": {
-            "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
-            "type": "string",
-            "minLength": 1,
-            "format": "emoji",
-            "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
-          },
-          "sitelen_jelo": {
-            "description": "One or more example emojis for how the word can be written in sitelen jelo",
-            "minItems": 1,
-            "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1,
-              "format": "emoji",
-              "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
-            }
-          },
-          "ligatures": {
-            "description": "A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
-            "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1
-            }
-          },
-          "sitelen_sitelen": {
-            "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block",
-            "$ref": "#/$defs/__schema4"
-          },
-          "ucsur": {
-            "description": "The UCSUR codepoint for this word.",
-            "type": "string",
-            "pattern": "^U\\+[\\da-fA-F]{4,6}$"
-          }
-        },
-        "additionalProperties": false
-      },
-      "source_language": {
-        "description": "The language this word originated from",
-        "type": "string",
-        "minLength": 1
-      },
-      "usage_category": {
-        "description": "The word's usage category, derived from the data of the annual Linku word survey.",
-        "type": "string",
-        "enum": ["core", "common", "uncommon", "obscure", "sandbox"]
-      },
-      "deprecated": {
-        "description": "Whether this word is considered deprecated by its author(s).",
-        "type": "boolean"
-      },
-      "audio": {
-        "type": "array",
-        "items": {
-          "description": "Audio files of the words pronounced out loud",
-          "type": "object",
-          "properties": {
-            "author": {
-              "description": "The author of the audio file in `link`.",
-              "$ref": "#/$defs/__schema1"
-            },
-            "link": {
-              "description": "A link to the audio file for the word, pronounced by `author`.",
-              "$ref": "#/$defs/__schema4"
-            }
-          },
-          "required": ["author", "link"],
-          "additionalProperties": false
-        }
-      },
-      "pu_verbatim": {
-        "description": "The definition of the word in specific language editions of Toki Pona: The Language of Good",
-        "type": "object",
-        "properties": {
-          "en": {
-            "description": "The word's definition in the English edition of Toki Pona: The Language of Good",
-            "$ref": "#/$defs/__schema5"
-          },
-          "fr": {
-            "description": "The word's definition in the French edition of Toki Pona: The Language of Good",
-            "$ref": "#/$defs/__schema5"
-          },
-          "de": {
-            "description": "The word's definition in the German edition of Toki Pona: The Language of Good",
-            "$ref": "#/$defs/__schema5"
-          },
-          "eo": {
-            "description": "The word's definition in the Esperanto edition of Toki Pona: The Language of Good",
-            "$ref": "#/$defs/__schema5"
-          }
-        },
-        "required": ["en", "fr", "de", "eo"],
-        "additionalProperties": false
-      },
-      "usage": {
-        "description": "The percentage of respondents to the annual Linku word survey who report to use this word, by the date of the survey.",
-        "type": "object",
-        "propertyNames": {
-          "type": "string",
-          "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
-        },
-        "additionalProperties": {
-          "$ref": "#/$defs/__schema2"
-        }
-      },
-      "glyph_ids": {
-        "description": "The IDs of all sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
-        "$ref": "#/$defs/__schema3"
-      },
-      "primary_glyph_id": {
-        "description": "The ID of the glyph most commonly used to represent this word in sitelen pona.",
-        "type": "string",
-        "minLength": 3
-      },
-      "image": {
-        "description": "Link to a PNG of the primary sitelen pona glyph for this word.",
-        "$ref": "#/$defs/__schema4"
-      },
-      "svg": {
-        "description": "Link to an SVG of the primary sitelen pona glyph for this word.",
-        "$ref": "#/$defs/__schema4"
-      },
-      "translations": {
-        "type": "object",
-        "properties": {
-          "commentary": {
-            "description": "Localized commentary on this word, such as history, clarifications, or trivia.",
-            "type": "string"
-          },
-          "etymology": {
-            "description": "Localized etymology of this word.",
-            "type": "string"
-          },
-          "definition": {
-            "description": "Localized definition of this word.",
-            "$ref": "#/$defs/__schema5"
-          }
-        },
-        "required": ["commentary", "etymology", "definition"],
-        "additionalProperties": false
-      }
-    },
-    "required": [
-      "id",
-      "word",
-      "book",
-      "coined_era",
-      "creation_date",
-      "author",
-      "see_also",
-      "resources",
-      "representations",
-      "source_language",
-      "usage_category",
-      "deprecated",
-      "audio",
-      "usage",
-      "glyph_ids",
-      "translations"
-    ],
-    "additionalProperties": false
+    "$ref": "#/$defs/__schema1"
   },
+  "description": "A raw data object containing dictionary info about Toki Pona words",
   "$defs": {
     "__schema0": {
-      "description": "A unique identifier for an object in Linku. Generally named after the object.",
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "A unique identifier for an object in Linku. Generally named after the object."
     },
     "__schema1": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/__schema2"
+        },
+        "word": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "author_verbatim": {
+          "$ref": "#/$defs/__schema4"
+        },
+        "author_source": {
+          "$ref": "#/$defs/__schema6"
+        },
+        "book": {
+          "$ref": "#/$defs/__schema8"
+        },
+        "coined_era": {
+          "$ref": "#/$defs/__schema9"
+        },
+        "creation_date": {
+          "$ref": "#/$defs/__schema10"
+        },
+        "author": {
+          "$ref": "#/$defs/__schema11"
+        },
+        "ku_data": {
+          "$ref": "#/$defs/__schema13"
+        },
+        "parent_id": {
+          "$ref": "#/$defs/__schema16"
+        },
+        "see_also": {
+          "$ref": "#/$defs/__schema18"
+        },
+        "resources": {
+          "$ref": "#/$defs/__schema20"
+        },
+        "representations": {
+          "$ref": "#/$defs/__schema24"
+        },
+        "source_language": {
+          "$ref": "#/$defs/__schema35"
+        },
+        "usage_category": {
+          "$ref": "#/$defs/__schema36"
+        },
+        "deprecated": {
+          "$ref": "#/$defs/__schema37"
+        },
+        "audio": {
+          "$ref": "#/$defs/__schema38"
+        },
+        "pu_verbatim": {
+          "$ref": "#/$defs/__schema41"
+        },
+        "usage": {
+          "$ref": "#/$defs/__schema44"
+        },
+        "glyph_ids": {
+          "$ref": "#/$defs/__schema46"
+        },
+        "primary_glyph_id": {
+          "$ref": "#/$defs/__schema47"
+        },
+        "image": {
+          "$ref": "#/$defs/__schema49"
+        },
+        "svg": {
+          "$ref": "#/$defs/__schema50"
+        },
+        "translations": {
+          "$ref": "#/$defs/__schema51"
+        }
+      },
+      "required": [
+        "id",
+        "word",
+        "book",
+        "coined_era",
+        "creation_date",
+        "author",
+        "see_also",
+        "resources",
+        "representations",
+        "source_language",
+        "usage_category",
+        "deprecated",
+        "audio",
+        "usage",
+        "glyph_ids",
+        "translations"
+      ],
+      "additionalProperties": false,
+      "description": "General info on a Toki Pona word"
+    },
+    "__schema2": {
+      "description": "A unique identifier for the word. May have an integer to distinguish words with the same spelling but distinct coinings.",
+      "$ref": "#/$defs/__schema0"
+    },
+    "__schema3": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The latin alphabet representation of the word."
+    },
+    "__schema4": {
+      "description": "The author's original definition, taken verbatim in their words",
+      "$ref": "#/$defs/__schema5"
+    },
+    "__schema5": {
+      "type": "string"
+    },
+    "__schema6": {
+      "description": "The source or origin of this glyph, often a URL.",
+      "$ref": "#/$defs/__schema7"
+    },
+    "__schema7": {
+      "type": "string",
+      "description": "The source or origin of this object, often a URL."
+    },
+    "__schema8": {
+      "type": "string",
+      "enum": [
+        "pu",
+        "ku suli",
+        "ku lili",
+        "none"
+      ],
+      "description": "Which official Toki Pona book was this word featured in, if any."
+    },
+    "__schema9": {
+      "type": "string",
+      "enum": [
+        "pre-pu",
+        "post-pu",
+        "post-ku"
+      ],
+      "description": "The period of time in which this word was coined, relative to the publication of the first two official Toki Pona books"
+    },
+    "__schema10": {
+      "type": "string",
+      "pattern": "^(?:|(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?|(?<startYear>20\\d{2})-(?<endYear>20\\d{2}))$",
+      "description": "When this word was coined, to precision known."
+    },
+    "__schema11": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema12"
+      },
+      "description": "The name or names of those involved in creating this word."
+    },
+    "__schema12": {
       "type": "string",
       "minLength": 1
     },
-    "__schema2": {
+    "__schema13": {
+      "description": "The usage data of this word, as described in the Toki Pona Dictionary.",
+      "$ref": "#/$defs/__schema14"
+    },
+    "__schema14": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "description": "A possible translation of the word into English, as listed in the Toki Pona dictionary."
+      },
+      "additionalProperties": {
+        "description": "The percentage of Toki Pona Dictionary survey respondents who report this translation as accurate to their usage.",
+        "$ref": "#/$defs/__schema15"
+      }
+    },
+    "__schema15": {
       "type": "number",
       "minimum": 0,
       "maximum": 100
     },
-    "__schema3": {
-      "description": "The IDs of one or more objects related to this one.",
+    "__schema16": {
+      "description": "The most widely used word which is considered to be an exact synonym for this word.",
+      "$ref": "#/$defs/__schema17"
+    },
+    "__schema17": {
+      "description": "The ID of an object related to this one.",
+      "$ref": "#/$defs/__schema0"
+    },
+    "__schema18": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/__schema0"
+      },
+      "description": "The IDs of words related to this one.",
+      "$ref": "#/$defs/__schema19"
+    },
+    "__schema19": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "description": "The IDs of one or more objects related to this one."
+    },
+    "__schema20": {
+      "type": "object",
+      "properties": {
+        "sona_pona": {
+          "$ref": "#/$defs/__schema21"
+        },
+        "lipamanka_semantic": {
+          "$ref": "#/$defs/__schema23"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Non-Linku resources related to the specific word, such as wiki links."
+    },
+    "__schema21": {
+      "description": "A link to the word's page on sona.pona.la, a Toki Pona wiki. May redirect for words with references but no dedicated page.",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema22": {
+      "type": "string",
+      "format": "uri",
+      "description": "A URL pointing to some external resource."
+    },
+    "__schema23": {
+      "description": "A link to lipamanka's description of the word's semantic space.",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema24": {
+      "type": "object",
+      "properties": {
+        "sitelen_emosi": {
+          "$ref": "#/$defs/__schema25"
+        },
+        "sitelen_jelo": {
+          "$ref": "#/$defs/__schema27"
+        },
+        "ligatures": {
+          "$ref": "#/$defs/__schema30"
+        },
+        "sitelen_sitelen": {
+          "$ref": "#/$defs/__schema32"
+        },
+        "ucsur": {
+          "$ref": "#/$defs/__schema33"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Ways of representing this word via text/computers"
+    },
+    "__schema25": {
+      "description": "The sitelen emosi representation of this word, a script for writing Toki Pona using emoji",
+      "$ref": "#/$defs/__schema26"
+    },
+    "__schema26": {
+      "type": "string",
+      "minLength": 1,
+      "format": "emoji",
+      "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
+    },
+    "__schema27": {
+      "description": "One or more example emojis for how the word can be written in sitelen jelo",
+      "$ref": "#/$defs/__schema28"
+    },
+    "__schema28": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema29"
       }
     },
-    "__schema4": {
-      "description": "A URL pointing to some external resource.",
+    "__schema29": {
       "type": "string",
-      "format": "uri"
+      "minLength": 1,
+      "format": "emoji",
+      "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
     },
-    "__schema5": {
-      "description": "Localized definition on the parent, such as a word or luka pona sign",
+    "__schema30": {
+      "description": "A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
+      "$ref": "#/$defs/__schema31"
+    },
+    "__schema31": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "__schema32": {
+      "description": "A URL pointing to an image of this word's sitelen sitelen hieroglyphic block",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema33": {
+      "description": "The UCSUR codepoint for this word.",
+      "$ref": "#/$defs/__schema34"
+    },
+    "__schema34": {
       "type": "string",
-      "minLength": 1
+      "pattern": "^U\\+[\\da-fA-F]{4,6}$"
+    },
+    "__schema35": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The language this word originated from"
+    },
+    "__schema36": {
+      "type": "string",
+      "enum": [
+        "core",
+        "common",
+        "uncommon",
+        "obscure",
+        "sandbox"
+      ],
+      "description": "The word's usage category, derived from the data of the annual Linku word survey."
+    },
+    "__schema37": {
+      "type": "boolean",
+      "description": "Whether this word is considered deprecated by its author(s)."
+    },
+    "__schema38": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "$ref": "#/$defs/__schema39"
+          },
+          "link": {
+            "$ref": "#/$defs/__schema40"
+          }
+        },
+        "required": [
+          "author",
+          "link"
+        ],
+        "additionalProperties": false,
+        "description": "Audio files of the words pronounced out loud"
+      }
+    },
+    "__schema39": {
+      "description": "The author of the audio file in `link`.",
+      "$ref": "#/$defs/__schema12"
+    },
+    "__schema40": {
+      "description": "A link to the audio file for the word, pronounced by `author`.",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema41": {
+      "description": "The definition of the word in specific language editions of Toki Pona: The Language of Good",
+      "$ref": "#/$defs/__schema42"
+    },
+    "__schema42": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "description": "The word's definition in the English edition of Toki Pona: The Language of Good",
+          "$ref": "#/$defs/__schema43"
+        },
+        "fr": {
+          "description": "The word's definition in the French edition of Toki Pona: The Language of Good",
+          "$ref": "#/$defs/__schema43"
+        },
+        "de": {
+          "description": "The word's definition in the German edition of Toki Pona: The Language of Good",
+          "$ref": "#/$defs/__schema43"
+        },
+        "eo": {
+          "description": "The word's definition in the Esperanto edition of Toki Pona: The Language of Good",
+          "$ref": "#/$defs/__schema43"
+        }
+      },
+      "required": [
+        "en",
+        "fr",
+        "de",
+        "eo"
+      ],
+      "additionalProperties": false
+    },
+    "__schema43": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Localized definition on the parent, such as a word or luka pona sign"
+    },
+    "__schema44": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/__schema45"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/__schema15"
+      },
+      "description": "The percentage of respondents to the annual Linku word survey who report to use this word, by the date of the survey."
+    },
+    "__schema45": {
+      "type": "string",
+      "pattern": "^(?<year>20\\d{2})(?:-(?<month>0[1-9]|1[0-2])(?:-(?<day>0[1-9]|[12]\\d|3[01]))?)?$"
+    },
+    "__schema46": {
+      "description": "The IDs of all sitelen pona glyphs which represent the word. The usage category of each fetched glyph may be used to show or hide glyphs.",
+      "$ref": "#/$defs/__schema19"
+    },
+    "__schema47": {
+      "description": "The ID of the glyph most commonly used to represent this word in sitelen pona.",
+      "$ref": "#/$defs/__schema48"
+    },
+    "__schema48": {
+      "type": "string",
+      "minLength": 3,
+      "$ref": "#/$defs/__schema17"
+    },
+    "__schema49": {
+      "description": "Link to a PNG of the primary sitelen pona glyph for this word.",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema50": {
+      "description": "Link to an SVG of the primary sitelen pona glyph for this word.",
+      "$ref": "#/$defs/__schema22"
+    },
+    "__schema51": {
+      "type": "object",
+      "properties": {
+        "commentary": {
+          "type": "string",
+          "description": "Localized commentary on this word, such as history, clarifications, or trivia."
+        },
+        "etymology": {
+          "type": "string",
+          "description": "Localized etymology of this word."
+        },
+        "definition": {
+          "description": "Localized definition of this word.",
+          "$ref": "#/$defs/__schema43"
+        }
+      },
+      "required": [
+        "commentary",
+        "etymology",
+        "definition"
+      ],
+      "additionalProperties": false
     }
   }
 }
