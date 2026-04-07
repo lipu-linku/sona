@@ -19,30 +19,21 @@ jobs:
       run:
         working-directory: ./api
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         name: Checkout
         with:
           ref: ${{ github.ref }}
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         name: Setup Node.js
         with:
-          node-version: 21
+          node-version: 24
           registry-url: https://registry.npmjs.org/
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
         name: Setup pnpm
         with:
           version: 10
-
-      - name: Install jq
-        uses: dcarbone/install-jq-action@v3
-
-      - name: Update package.json
-        if: github.event_name == 'release'
-        run:
-          pnpm version from-git --no-commit-hooks --no-git-tag-version --allow-same-version
-          /usr/bin/cat <<< $(jq --tab '.version = "0.3.7"' jsr.json) > jsr.json
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -52,17 +43,7 @@ jobs:
 
       - name: Publish to npm
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          pnpm publish --provenance --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          pnpm publish --no-git-checks --tag ${{ github.event.release.prerelease && 'next' || 'latest' }}
 
       - name: Publish to JSR
         run: pnpx jsr publish --allow-slow-types --allow-dirty
-
-      - name: Push version changes to main branch
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "bump @kulupu-linku/sona version ${{ github.event.release.tag_name }}"
-          branch: ${{ github.event.repository.default_branch }}
-          file_pattern: api/package.json

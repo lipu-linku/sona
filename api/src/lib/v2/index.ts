@@ -1,5 +1,5 @@
 import { z } from "zod/v4";
-import { Book, Era, UsageCategory, WritingSystem, OptionalDate, Date, Score } from "./utils";
+import { Book, Date, Era, OptionalDate, Score, UsageCategory, WritingSystem } from "./utils";
 
 export type * from "./types";
 
@@ -267,7 +267,7 @@ export const Word = z
     }),
   })
   .describe("General info on a Toki Pona word")
-  .refine(({ id, primary_glyph_id, glyph_ids, usage_category }) =>
+  .refine(({ primary_glyph_id, glyph_ids, usage_category }) =>
     usage_category !== "sandbox"
       ? primary_glyph_id && primary_glyph_id.length >= 3 && glyph_ids.length >= 1
       : true,
