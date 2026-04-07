@@ -7,10 +7,10 @@
 # 4. Submit the .TOML to this page: https://github.com/lipu-linku/sona/tree/main/fonts/metadata
 # 5. Ask for help if you need it! Join the Linku Discord, or make a GitHub Issue on lipu-linku/sona.
 
-id        = "poki mute luka luka tu tan jan Maku"
-name      = "poki mute luka luka tu tan jan Maku"
-filename  = "poki-mute-luka-luka-tu-tan-jan-Maku.ttf"
-author    = ["jan Maku"]
+id        = "nasin nanpa li pana e sona pi sitelen pona"
+name      = "nasin nanpa li pana e sona pi sitelen pona"
+filename  = "nasin-nanpa-li-pana-e-sona-pi-sitelen-pona.ttf"
+author    = ["kon Kilipa", "jan Itan"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
@@ -45,8 +45,8 @@ features = [
 # Pick one style, or put multiple comma-separated styles in quotes.
 # style = "handwritten"
 # style = "alternate design"
-# style = "uniform line weight"
-style = "pixelated"
+style = "uniform line weight"
+# style = "pixelated"
 # style = "handdrawn"
 # style = "serif"
 # style = "sans-serif"
@@ -55,6 +55,6 @@ style = "pixelated"
 
 [links]
 # Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-fontfile = "https://wasokeli.github.io/sp-font-maker/poki-mute-luka-luka-tu-tan-jan-Maku.ttf"
-webpage  = "https://wasokeli.github.io/sp-font-maker/poki-mute-luka-luka-tu-tan-jan-Maku.html"
+fontfile = "https://wasokeli.github.io/sp-font-maker/nasin-nanpa-li-pana-e-sona-pi-sitelen-pona.ttf"
+webpage  = "https://wasokeli.github.io/sp-font-maker/nasin-nanpa-li-pana-e-sona-pi-sitelen-pona.html"
 repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"

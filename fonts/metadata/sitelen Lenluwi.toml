@@ -8,8 +8,8 @@ ligatures = true
 ucsur = true
 writing_system = "sitelen pona"
 
-last_updated = "2025-07"
 version = "1"
+last_updated = "2026-04"
 
 features = [
   "ASCII transcription and codepoints",
@@ -34,10 +34,10 @@ features = [
 ]
 
 # Pick one style, or put multiple comma-separated styles in quotes.
-# style = "handwritten"
+style = "handwritten"
 # style = "alternate design"
 # style = "uniform line weight"
-style = "pixelated"
+# style = "pixelated"
 # style = "handdrawn"
 # style = "serif"
 # style = "sans-serif"
