@@ -9,8 +9,8 @@ ucsur = true
 writing_system = "sitelen pona"         # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
-last_updated = "2025-08"
 version = "1"
+last_updated = "2026-04"
 
 features = [
   "ASCII transcription and codepoints",
