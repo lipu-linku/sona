@@ -1,4 +1,4 @@
-r#:schema ../../api/generated/v2/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja laso medium"
 author = ["mute ante"]
 features = ["ASCII transcription", "UCSUR-compliant", "cartouches"]
