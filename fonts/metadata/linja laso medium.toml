@@ -1,17 +1,17 @@
 #:schema ../../api/generated/v2/font.json
-id = "linja laso"
+id = "linja laso medium"
 author = ["mute ante"]
 features = ["ASCII transcription", "UCSUR-compliant", "cartouches"]
-filename = "linja_laso.otf"
+filename = "linja_laso_medium.otf"
 last_updated = "2026-03"
 license = "OFL"
 ligatures = true
-name = "linja laso"
+name = "linja laso medium"
 style = "uniform line weight"
 ucsur = true
 version = "1.2.1"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://github.com/muteante/linja-laso/raw/refs/heads/main/regular/linja_laso_regular.otf"
+fontfile = "https://github.com/muteante/linja-laso/raw/refs/heads/main/medium/linja_laso_medium.otf"
 repo = "https://github.com/cvni1981/linja-laso"
