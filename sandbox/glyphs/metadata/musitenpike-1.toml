@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "musitenpike-1"
+word = "musitenpike"
+word_id = "musitenpike"
+usage_category = "sandbox"
+author_source = "https://github.com/kreativekorp/sitelen-seli-kiwen/commit/2e29087a24a3a6b3bcbb1d7434f772c78d7d10cc"
+author = ["jan Lepeka"]
+creation_date = "2026-03-28"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/musitenpike-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/musitenpike-1.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = ["musi-1", "tenpo-1", "ike-1", "sike-1"]
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = "musi + sike + ike"
+names = []
