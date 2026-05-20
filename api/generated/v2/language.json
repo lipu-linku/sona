@@ -3,42 +3,42 @@
   "type": "object",
   "properties": {
     "id": {
-      "description": "The language's code in Crowdin. Usually its 2 or 3 letter code.",
       "type": "string",
-      "minLength": 2
+      "minLength": 2,
+      "description": "The language's code in Crowdin. Usually its 2 or 3 letter code.",
+      "$ref": "#/$defs/__schema0"
     },
     "locale": {
-      "description": "The locale code corresponding to the language.",
       "type": "string",
-      "minLength": 2
+      "minLength": 2,
+      "description": "The locale code corresponding to the language.",
+      "$ref": "#/$defs/__schema0"
     },
     "direction": {
-      "description": "The direction of the language's script.",
       "anyOf": [
         {
-          "type": "string",
-          "const": "ltr"
+          "$ref": "#/$defs/__schema1"
         },
         {
-          "type": "string",
-          "const": "rtl"
+          "$ref": "#/$defs/__schema2"
         }
-      ]
+      ],
+      "description": "The direction of the language's script."
     },
     "name": {
       "type": "object",
       "properties": {
         "en": {
-          "description": "The name of the language in English.",
-          "type": "string"
+          "type": "string",
+          "description": "The name of the language in English."
         },
         "endonym": {
-          "description": "The name of the language in that language. Prefer if available.",
-          "type": "string"
+          "type": "string",
+          "description": "The name of the language in that language. Prefer if available."
         },
         "tok": {
           "description": "The name of the language in Toki Pona.",
-          "type": "string"
+          "$ref": "#/$defs/__schema3"
         }
       },
       "required": [
@@ -54,5 +54,23 @@
     "direction",
     "name"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A unique identifier for an object in Linku. Generally named after the object."
+    },
+    "__schema1": {
+      "type": "string",
+      "const": "ltr"
+    },
+    "__schema2": {
+      "type": "string",
+      "const": "rtl"
+    },
+    "__schema3": {
+      "type": "string"
+    }
+  }
 }

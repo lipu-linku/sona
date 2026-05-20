@@ -28,10 +28,7 @@
                   "description": "The name of the sign such that it could be found in a sign language dictionary."
                 }
               },
-              "required": [
-                "language",
-                "sign"
-              ],
+              "required": ["language", "sign"],
               "additionalProperties": false
             },
             "description": "Unlocalized etymological values regarding this sign's origin"
@@ -48,10 +45,7 @@
                 "description": "The Sign Writing with Unicode representation of hte sign."
               }
             },
-            "required": [
-              "fsw",
-              "swu"
-            ],
+            "required": ["fsw", "swu"],
             "additionalProperties": false,
             "description": "Scripts for representing a sign as characters."
           },
@@ -98,21 +92,12 @@
                   "additionalProperties": false
                 }
               },
-              "required": [
-                "parameters"
-              ],
+              "required": ["parameters"],
               "additionalProperties": false
             }
           }
         },
-        "required": [
-          "id",
-          "is_two_handed",
-          "etymology",
-          "signwriting",
-          "video",
-          "translations"
-        ],
+        "required": ["id", "is_two_handed", "etymology", "signwriting", "video", "translations"],
         "additionalProperties": false,
         "description": "Unlocalized info on a fingerspelling sign."
       },

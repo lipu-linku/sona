@@ -7,7 +7,7 @@ import { logger } from "hono/logger";
 import { prettyJSON } from "hono/pretty-json";
 import { secureHeaders } from "hono/secure-headers";
 import { trimTrailingSlash } from "hono/trailing-slash";
-import type { StatusCode, ContentfulStatusCode } from "hono/utils/http-status";
+import type { ContentfulStatusCode } from "hono/utils/http-status";
 
 import v1 from "./v1";
 import v2 from "./v2";
@@ -50,7 +50,7 @@ const app = new Hono({ strict: false })
     );
   })
   .get("/", (c) => {
-    return c.redirect("/v1");
+    return c.redirect("/v2");
   })
   .get("/jasima", async (c) => {
     const data = await fetch(

@@ -3,3 +3,4 @@ dist
 
 vite.config.ts.timestamp-*
 .wrangler/
+.npmrc

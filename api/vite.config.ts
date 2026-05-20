@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [cloudflare()],
   resolve: {
     alias: {
-      "@raw": path.resolve(__dirname, "src/raw"),
+      "@raw": path.resolve(import.meta.dirname, "src/raw"),
     },
   },
 });

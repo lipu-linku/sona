@@ -40,9 +40,7 @@
                   "description": "The name of the sign such that it could be found in a sign language dictionary."
                 }
               },
-              "required": [
-                "language"
-              ],
+              "required": ["language"],
               "additionalProperties": false
             },
             "description": "Unlocalized etymological values regarding this sign's origin"
@@ -59,10 +57,7 @@
                 "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
               }
             },
-            "required": [
-              "fsw",
-              "swu"
-            ],
+            "required": ["fsw", "swu"],
             "additionalProperties": false,
             "description": "Scripts for representing a sign as characters."
           },
@@ -112,10 +107,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-                "parameters",
-                "icons"
-              ],
+              "required": ["parameters", "icons"],
               "additionalProperties": false
             }
           }

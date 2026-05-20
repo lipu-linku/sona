@@ -1,7 +1,7 @@
-import type { Languages as LangsV2 } from "../lib/v2";
-import type { Languages as LangsV1 } from "../lib/v1";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod/v4";
+import type { Languages as LangsV1 } from "../lib/v1";
+import type { Languages as LangsV2 } from "../lib/v2";
 
 export const entries = <const T extends object>(
   o: T,
@@ -34,7 +34,7 @@ export const langIdCoalesce = (lang: string, langs: LangsV1 | LangsV2): string |
       return id;
     }
 
-    for (const [key, name] of Object.entries(metadata.name)) {
+    for (const [_, name] of Object.entries(metadata.name)) {
       if (lang.toLowerCase() === name?.toLowerCase()) {
         return id;
       }

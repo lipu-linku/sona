@@ -1,12 +1,30 @@
-# sona
+# sona Linku: Toki Pona dataset
+
+This dataset provides information on Toki Pona words, Sitelen Pona glyphs and fonts, and LPSL signs. In use by dictionaries [linku.la](https://linku.la/), [nimi.li](https://nimi.li/), the [wiki about Toki Pona](https://sona.pona.la/), the [Linku discord bot](https://github.com/lipu-linku/ilo/), and more.
+
+## Contributing
+
+This is a collaborative project brought to you by the Toki Pona community.
 
 <div align="center">
-  <a href="https://discord.gg/A3ZPqnHHsy">
-    <img src="https://img.shields.io/badge/-Discord-%237289da?style=for-the-badge&logo=appveyor">
+  <a href="https://github.com/wasona/wasona/graphs/contributors">
+    <img src="https://contrib.rocks/image?columns=9&max=27&repo=wasona/wasona" />
   </a>
 </div>
 
-## How to Contribute?
+Your help is welcome! Feel free to submit pull requests if you find anything that needs improvement.
+
+Want to help but you're [new to Github? We can help!](https://github.com/pona-la/.github/blob/main/help/README.md)
+
+You can also join the Discord and talk to the maintainers!
+
+<div align="center">
+  <a href="https://discord.gg/A3ZPqnHHsy">
+    <img src="https://raw.githubusercontent.com/pona-la/.github/refs/heads/main/assets/pali-pona-badge.svg">
+  </a>
+</div>
+
+## Details
 
 but steps for everyone, including pre-reqs of validation which will only produce changes if the inputs are changed, and will have static outputs otherwise
 
@@ -154,12 +172,6 @@ Please visit our [Crowdin project](https://linku.crowdin.com) to contribute tran
 
 ## Dictionary Data and Fonts
 
-<div align="center">
-  <a href="https://github.com/lipu-linku/sona/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=lipu-linku/sona" />
-  </a>
-</div>
-
 Contributing other kinds of metadata is simple:
 
 To add new fonts to sona, please fork the repo, edit the [fonts.toml](/fonts.toml) file, and submit
@@ -169,10 +181,4 @@ To edit information about Toki Pona words or Luka Pona signs, please fork the re
 
 ## License
 
-sona Linku is dual-licensed under:
-
-- Creative Commons Attribution-ShareAlike 3.0 Unported;
-
-- Creative Commons Attribution-ShareAlike 4.0 International.
-
-(Dual-licensing was done to avoid any potential online encyclopedia issues).
+sona Linku is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).

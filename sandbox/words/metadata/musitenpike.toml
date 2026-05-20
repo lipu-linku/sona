@@ -1,0 +1,31 @@
+id = "musitenpike"
+author_verbatim = ""
+author_source = "https://discordapp.com/channels/301377942062366741/1181641057985908797/1438636439209250917"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2025"
+author = ["Theooolone"]
+see_also = ["musi", "tenpo", "ike", "sike"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "musitenpike"
+deprecated = false
+audio = []
+glyph_ids = ["musitenpike-1"]
+primary_glyph_id = "musitenpike-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/musitenpike.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/musitenpike.svg"
+
+[representations]
+ligatures = ["musitenpike"]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/musitenpike"
+
+[usage]
+
+[translations]
+commentary = "Frequently referenced in the ma pona pi toki pona bad nimisin thread; Autological due to the coinage frequently being reposted verbatim."
+definition = "a joke that is no longer funny or was never funny; repeating these jokes"
+etymology = "musi: toki pona, joke, fun, game; tenpo: toki pona, time, event, duration; ike: toki pona, negative quality; sike: toki pona, round thing, repeating thing"
