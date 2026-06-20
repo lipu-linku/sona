@@ -17,7 +17,7 @@ glyph_ids = []
 # teachability = 4
 
 [representations]
-ligatures = ["su2"]
+ligatures = ["su0"]
 
 [usage]
 2022-08 = 0
