@@ -14,7 +14,7 @@ ligature = "te01"
 alias_ligatures = ["「"]
 # teachability = 4
 see_also = []
-ucsur = "U+F29B4"
+ucsur = "U+F19B4"
 
 [usage]
 
