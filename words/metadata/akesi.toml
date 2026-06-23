@@ -36,7 +36,7 @@ eo = "SUBSTANTIVO reptilio, amfibio"
 fr = "NOM animal non-mignon ; reptile, amphibien"
 
 [representations]
-ligatures = ["akesi", "akesi2"]
+ligatures = ["akesi02", "akesi01"]
 ucsur = "U+F1901"
 sitelen_emosi = "🦎"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/akesi.jpg"

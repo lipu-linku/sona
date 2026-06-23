@@ -28,7 +28,7 @@ sharp = 14
 spiky = 21
 
 [representations]
-ligatures = ["kiki"]
+ligatures = ["kiki02", "kiki01"]
 ucsur = "U+F19A5"
 
 [usage]

@@ -22,7 +22,7 @@ author = "kala Asi"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/su.mp3"
 
 [representations]
-ligatures = ["su"]
+ligatures = ["su01", "su02", "su03"]
 ucsur = "U+F19A6"
 sitelen_jelo = ["🧙", "🧵"]
 
