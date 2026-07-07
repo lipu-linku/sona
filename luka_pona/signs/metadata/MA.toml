@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ma"
 id = "MA"
 is_two_handed = false
 new_gloss = "MA"
 old_gloss = "MA"
+old_id = "MA"
 
 [[etymology]]
 language = "multiple SLs"
@@ -24,3 +25,9 @@ swu = "𝠀񂈑񋠫𝠃𝤖𝤟񂈑𝣿𝣭񋠫𝣶𝤐"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ma.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ma.mp4"
+
+[translations]
+icons = "the land of a place"
+[translations.parameters]
+handshape = "FlatB"
+movement = "horizontal circle movement"

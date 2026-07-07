@@ -21,10 +21,10 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
-          python-version: 3.12.1
+          python-version: 3.12.10
 
       - name: Install dependencies
-        run: pip install tomlkit
+        run: pip install tomlkit langcodes language_data
 
       - name: Update language data file
         run: python .github/workflows/fetch_langs.py

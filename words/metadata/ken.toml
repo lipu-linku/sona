@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "ken"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Tok Pisin"
 usage_category = "core"
 word = "ken"
 deprecated = false
+glyph_ids = ["ken-1"]
+primary_glyph_id = "ken-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ken.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ken.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,12 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ken.mp3"
-
-[[etymology]]
-word = "ken"
-
-[[etymology]]
-word = "can"
 
 [ku_data]
 ability = 93
@@ -82,3 +81,8 @@ sitelen_jelo = ["💪"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/ken"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#ken"
+
+[translations]
+commentary = ""
+definition = "can, may, ability, permission; possibility, maybe; allow, enable; (preverb) to be able to"
+etymology = "ken: Tok Pisin, can; can: English, can"

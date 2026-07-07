@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "nasin leko suwi lili"
-creator = ["Bo_Tie"]
+author = ["Bo_Tie"]
 features = [
   "codepoints only",
   "UCSUR-compliant",

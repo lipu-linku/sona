@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "lili"
-id = "LILI"
+id = "LILI-TU"
 is_two_handed = false
 new_gloss = "LILI-TU"
 old_gloss = "LILI"
+old_id = "LILI"
 
 [[etymology]]
 language = "toki pona luka pu"
@@ -16,3 +17,9 @@ swu = "𝠀񀠱񇀥𝠃𝤎𝤨񀠱𝣿𝣥񇀥𝣾𝤊"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lili.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lili.mp4"
+
+[translations]
+icons = "cutting away"
+[translations.parameters]
+handshape = "2"
+orientation = "movement downward"

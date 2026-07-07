@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "rtl"
+id = "ur"
+locale = "ur-PK"
+
+[name]
+en = "Urdu"
+endonym = "اردو"
+tok = "toki Utu"

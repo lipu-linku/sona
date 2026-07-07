@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "lanpan-4"
+word = "lanpan"
+word_id = "lanpan"
+usage_category = "sandbox"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/805345981414899752"
+author = ["ijo Mina"]
+creation_date = "2021-01-31"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-4.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lanpan-4.svg"
+ligature = "lanpan04"
+ucsur = "U+F1985"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+parent_id = "lanpan-1"
+
+[usage]
+
+[translations]
+commentary = "The point version of lanpan, similar to the mistake version of lanpan, has been independently developed a few times."
+etymology = ""
+names = ["point lanpan"]

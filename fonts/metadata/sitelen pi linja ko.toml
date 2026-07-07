@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen pi linja ko"
-creator = ["increpare / jan Inkepa"]
+author = ["increpare / jan Inkepa"]
 features = ["ASCII transcription"]
 filename = "sitelen-pi-linja-ko.ttf"
 last_updated = "2022-09"

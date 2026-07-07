@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "eki"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["jan Anselo"]
+see_also = ["natu"]
+source_language = "English"
+usage_category = "sandbox"
+word = "eki"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/eki.mp3"
+
+[representations]
+ligatures = ["eki"]
+
+[usage]
+2022-08 = 0
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/eki"
+
+[translations]
+commentary = 'It is recommended to use "natu" instead.'
+definition = "cross-like shape, intersection, overlap [alternative form of natu]"
+etymology = "x (letter name): English, x (letter name)"

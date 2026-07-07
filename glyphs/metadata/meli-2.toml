@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "meli-2"
+word = "meli"
+word_id = "meli"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/605058586380599307"
+author = ["scarlet"]
+creation_date = "2019-07-28"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/meli-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/meli-2.svg"
+ligature = "meli02"
+alias_ligatures = []
+# teachability = 4
+see_also = ["mije-2", "tonsi-1"]
+
+[usage]
+2025-09 = 27
+
+[translations]
+commentary = "This glyph has been independently recreated several times. For example, it was added to ijo Mina's linja suwi as 'meli-alt' in February 2021. https://web.archive.org/web/20210211124101/https://linjasuwi.ap5.dev/ "
+etymology = ""
+names = ["venus meli"]

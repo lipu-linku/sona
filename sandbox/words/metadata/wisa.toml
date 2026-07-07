@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "wisa"
+author_verbatim = "#1607635 📣 wisa – ~post-pu~ dog, canine\n    ← Amharic ውሻ wisha ‘hound, dog’"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/884684392432295998"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = []
+see_also = ["soweli", "pela"]
+source_language = "Amharic"
+usage_category = "sandbox"
+word = "wisa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "dog, canine"
+etymology = "ውሻ (wisha): Amharic, hound, dog"

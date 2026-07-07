@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "cs"
+locale = "cs-CZ"
+
+[name]
+en = "Czech"
+endonym = "Čeština"
+tok = "toki Seki"

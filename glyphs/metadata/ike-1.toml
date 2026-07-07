@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ike-1"
+word = "ike"
+word_id = "ike"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ike-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ike-1.svg"
+ligature = "ike01"
+ucsur = "U+F190D"
+alias_ligatures = []
+# teachability = 1
+see_also = ["pona-1", "nena-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "pictogram of a frowning mouth. compare pona"
+names = ["pu ike"]

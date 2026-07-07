@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "selo"
 id = "SELO"
 is_two_handed = false
 new_gloss = "SELO"
 old_gloss = "SELO"
+old_id = "SELO"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񂲑񂇱񆇡𝠃𝤑𝤘񂇱𝣼𝣽񂲑𝤀𝤁񆇡𝤇𝣴"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/selo.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/selo.mp4"
+
+[translations]
+icons = "egg; pinching skin"
+[translations.parameters]
+handshape = "O"
+movement = "placed on opposite hand"

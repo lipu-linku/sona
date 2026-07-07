@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "wile"
-id = "WILE^3"
+id = "WILE-OPEN-2"
 is_two_handed = true
 new_gloss = "WILE-OPEN-2"
 old_gloss = "WILE^2"
+old_id = "WILE^3"
 
 [[etymology]]
 language = "ASL"
@@ -16,3 +17,9 @@ swu = "𝠀񁲱񁲹񈙅񈙕𝠃𝤢𝤧񁲱𝤊𝣥񁲹𝣫𝣥񈙅𝤏𝤉񈙕�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/wile.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/wile.mp4"
+
+[translations]
+icons = "grabbing something"
+[translations.parameters]
+handshape = "5"
+movement = "movement inward"

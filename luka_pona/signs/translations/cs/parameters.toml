@@ -250,14 +250,6 @@ placement = "na rameni"
 handshape = "F"
 placement = "na protilehlé ruce"
 
-[LILI-TU]
-handshape = "2"
-orientation = "pohyb dolů"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "pohyb dolů"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "dlaně směřující od sebe"
@@ -268,6 +260,14 @@ orientation = "pohyb dolů"
 
 [LILI-SUPA-2]
 handshape = "FlatB"
+orientation = "pohyb dolů"
+
+[LILI-TU]
+handshape = "2"
+orientation = "pohyb dolů"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "pohyb dolů"
 
 [LINJA-1]

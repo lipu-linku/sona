@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "uk"
+locale = "uk-UA"
+
+[name]
+en = "Ukrainian"
+endonym = "Українська"
+tok = "toki Ukawina"

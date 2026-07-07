@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kosan"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["jan Seni", "jan inwin"]
+see_also = ["awen"]
+source_language = "Irish"
+usage_category = "sandbox"
+word = "kosan"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kosan.mp3"
+
+[representations]
+ligatures = ["kosan"]
+
+[usage]
+2022-08 = 1
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kosan"
+
+[translations]
+commentary = ""
+definition = "guard, protect, defend, shield, brace, fortify from outside"
+etymology = "cosain: Irish, to defend, protect (against)"

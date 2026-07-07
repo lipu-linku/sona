@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pipolo"
+author_verbatim = ""
+author_source = "https://docs.google.com/document/d/1sDcgIe9kEyB1zWTXy5kqTYIcYZBa1DDwBKlpQHEjo7k/edit"
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = ["kikolo", "yupekosi", "pipo"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "pipolo"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["pipolo"]
+
+[usage]
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "something that is supposed to be “kikolo” but isn't"
+etymology = "kikolo: toki pona; pipo: toki pona"

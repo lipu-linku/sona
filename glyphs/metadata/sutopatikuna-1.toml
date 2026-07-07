@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sutopatikuna-1"
+word = "sutopatikuna"
+word_id = "sutopatikuna"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/340307145373253642/804188957712973844, https://discord.com/channels/301377942062366741/301377942062366741/804187779977314326"
+author = ["jan Sa", "lipamanka"]
+creation_date = "2021-01-27"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sutopatikuna-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sutopatikuna-1.svg"
+ligature = "sutopatikuna01"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 7
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

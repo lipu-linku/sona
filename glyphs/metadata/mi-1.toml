@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "mi-1"
+word = "mi"
+word_id = "mi"
+usage_category = "core"
+author_source = "https://tokipona.org/hieroglyphs_sample.pdf"
+author = ["jan Sonja"]
+creation_date = "2013-05-19"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mi-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/mi-1.svg"
+ligature = "mi01"
+ucsur = "U+F1934"
+alias_ligatures = []
+# teachability = 1
+see_also = ["sina-1", "ona-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "perhaps a hand pointing towards the speaker. compare sina and ona"
+names = ["pu mi"]

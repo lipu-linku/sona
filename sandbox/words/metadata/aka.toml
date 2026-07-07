@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "aka"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["kulupu Eki", "oni Tewi"]
+see_also = ["natu"]
+source_language = "multiple"
+usage_category = "sandbox"
+word = "aka"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/aka.mp3"
+
+[representations]
+ligatures = ["aka"]
+
+[usage]
+2022-08 = 0
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/aka"
+
+[translations]
+commentary = 'This word is deprecated by the creator, replaced by "natu".'
+definition = "cross-like shape, intersection, overlap [alternative form of natu]"
+etymology = "过 (guò): Mandarin, to cross, to pass; across: English, across"

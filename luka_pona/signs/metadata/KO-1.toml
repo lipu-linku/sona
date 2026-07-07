@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ko"
-id = "KO"
+id = "KO-1"
 is_two_handed = false
 new_gloss = "KO-1"
 old_gloss = "KO"
+old_id = "KO"
 
 [[etymology]]
 language = "multiple SLs"
@@ -24,3 +25,9 @@ swu = "𝠀񃃾񋟉𝠃𝤓𝤟񃃾𝣺𝤎񋟉𝣾𝣮"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ko.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ko.mp4"
+
+[translations]
+icons = "churning dough"
+[translations.parameters]
+handshape = "BentB"
+movement = "verticle circle movement"

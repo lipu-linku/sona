@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "sunta"
+author_verbatim = """<:nimisin:743741432350769152> **sunta** — tritanopic color grouping, roughly seen as reds, pinks, and magentas, and roughly covers the perception of the wide range from warm violet, red, orange, and yellow
+<- toki pona *suno* + *uta*"""
+author_source = "https://discord.com/channels/301377942062366741/375591429608570881/1220437912676597861"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["kolisin"]
+see_also = ["jelo", "laso", "loje", "kewe", "uka", "kelo"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "sunta"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["sunta"]
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/User:CosmicPython/Colorblindness#sunta%E2%80%93kewe_system"
+
+[translations]
+commentary = "Part of a system with kewe to express the colors seen by someone with tritanopia (blue-yellow colorblindness)."
+definition = "red range in blue-yellow colorblindness"
+etymology = "suno: toki pona, light, shine, glow, radiance. sun, light source. brightness; uta: toki pona, mouth, lips, throat, consuming orifice"

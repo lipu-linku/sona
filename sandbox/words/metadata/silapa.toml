@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "silapa"
+author_verbatim = ":nimisin: ***silapa*** – giraffe; to make life even harder for sitelen pona font makers by introducing a vertically extendable glyph"
+author_source = "https://discord.com/channels/301377942062366741/876636350214979614/887794616508743701"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["jan Kita"]
+see_also = []
+source_language = "Polish"
+usage_category = "sandbox"
+word = "silapa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["silapa"]
+
+[usage]
+2023-09 = 0
+
+[resources]
+
+[translations]
+commentary = "Customarily written on multiple lines with a long \"neck\" composed of the letter \"i\" (originally the first \"a\"), like so:\nsi\n i\n ilapa"
+definition = "giraffe"
+etymology = "żyrafa: Polish, giraffe"

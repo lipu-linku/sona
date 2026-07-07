@@ -1,0 +1,37 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kapa"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "pre-pu"
+creation_date = "2001"
+author = ["jan Sonja"]
+see_also = ["nena"]
+source_language = "multiple possibilities"
+usage_category = "sandbox"
+word = "kapa"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/kapa.mp3"
+
+[representations]
+ligatures = ["kapa"]
+
+[usage]
+2020-04 = 13
+2021-10 = 20
+2022-08 = 2
+2023-09 = 1
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kapa"
+
+[translations]
+commentary = 'In a poll in 2002, "kapa" was proposed as a replacement for "nena". However, it failed to get enough votes.'
+definition = "extrusion, protrusion, hill, mountain, button [polled as a replacement for nena in 2002]"
+etymology = "kop: Dutch, head, cup; kapo: Esperanto, head; caput: Latin, head"

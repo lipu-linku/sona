@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "Neoletters"
-creator = ["Oren Watson"]
+author = ["Oren Watson"]
 features = ["codepoints only"]
 filename = "neoletters.ttf"
 last_updated = "2022-11"

@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen luka tu tu"
-creator = ["increpare / jan Inkepa"]
+author = ["increpare / jan Inkepa"]
 features = ["ASCII transcription"]
 filename = "sitelen-luka-tu-tu.otf"
 last_updated = "2019-11"

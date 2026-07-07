@@ -250,14 +250,6 @@ placement = "lagd på axeln"
 handshape = "F"
 placement = "lagd på motsatt hand"
 
-[LILI-TU]
-handshape = "2"
-orientation = "rörelse nedåt"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "rörelse nedåt"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "handflatan vänd utåt"
@@ -268,6 +260,14 @@ orientation = "rörelse nedåt"
 
 [LILI-SUPA-2]
 handshape = "FlatB"
+orientation = "rörelse nedåt"
+
+[LILI-TU]
+handshape = "2"
+orientation = "rörelse nedåt"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "rörelse nedåt"
 
 [LINJA-1]

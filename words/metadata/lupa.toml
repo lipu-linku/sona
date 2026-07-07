@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "lupa"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "pu"
 coined_era = "pre-pu"
-coined_year = ""
-creator = ["jan Sonja"]
+creation_date = ""
+author = ["jan Sonja"]
 see_also = []
 source_language = "Lojban"
 usage_category = "core"
 word = "lupa"
 deprecated = false
+glyph_ids = ["lupa-1", "lupa-2"]
+primary_glyph_id = "lupa-1"
+# teachability = 1
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lupa.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lupa.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -19,24 +24,6 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 [[audio]]
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/lupa.mp3"
-
-[[etymology]]
-word = "clupa"
-
-[[etymology]]
-alt = "quān"
-word = "圈"
-
-[[etymology]]
-word = "loop"
-
-[[etymology]]
-alt = "pāś"
-word = "पाश"
-
-[[etymology]]
-alt = "anšūṭa"
-word = "أنشوطة‏"
 
 [ku_data]
 dig = 21
@@ -57,7 +44,7 @@ eo = "SUBSTANTIVO pordo, truo, korpa aperturo, fenestro"
 fr = "NOM porte, trou, orifice, fenêtre"
 
 [representations]
-ligatures = ["lupa"]
+ligatures = ["lupa01", "lupa02"]
 ucsur = "U+F192F"
 sitelen_emosi = "🕳️"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/lupa.jpg"
@@ -72,3 +59,8 @@ sitelen_jelo = ["🚪"]
 [resources]
 sona_pona = "https://sona.pona.la/wiki/lupa"
 lipamanka_semantic = "https://lipamanka.gay/essays/dictionary#lupa"
+
+[translations]
+commentary = ""
+definition = "hole, pit, cave, doorway, window, portal"
+etymology = "clupa: Lojban, loop; 圈 (quān): Mandarin, loop; loop: English, loop; पाश (pāś): Hindi, loop; أنشوطة‏ (anšūṭa): Arabic, loop"

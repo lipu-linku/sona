@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "papa2"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = ""
+author = []
+see_also = ["mama"]
+source_language = "onomatopoeia"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+2023-09 = 1
+
+[resources]
+
+[translations]
+commentary = "Several (different?) people in 2019-2021 weirdly kept putting \"papa\" in their Reddit / Facebook posts, seemingly to promote it as a word to other people. It caused a backlash, with other people criticising the coinage, and coining other meanings for \"papa\"."
+definition = "father"
+etymology = "papa: onomatopoeia"

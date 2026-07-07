@@ -1,11 +1,11 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "linja pimeja pona"
-creator = ["jan Ke Tami"]
+author = ["jan Ke Tami"]
 features = [
   "ASCII transcription",
   "auto-cartouching",
   "UCSUR compatibility",
-  "cartouches"
+  "cartouches",
 ]
 filename = "linja-pimeja-pona.otf"
 last_updated = "2024-09"

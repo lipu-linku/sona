@@ -1,0 +1,22 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "a-5"
+word = "a"
+word_id = "a"
+usage_category = "sandbox"
+author_source = ""
+author = []
+creation_date = ""
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a-5.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/a-5.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["interrobang a", "a!?", "a?!"]

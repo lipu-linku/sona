@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "kiki-2"
+word = "kiki"
+word_id = "kiki"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/994062561467170916"
+author = ["soweli Iseja"]
+creation_date = "2022-07-05"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-2.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/kiki-2.svg"
+ligature = "kiki02"
+alias_ligatures = []
+# teachability = 4
+see_also = ["sike-1", "leko-1"]
+ucsur = "U+F19A5"
+
+[usage]
+2025-09 = 5
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["double triangle kiki", "triangle kiki"]

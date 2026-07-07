@@ -250,14 +250,6 @@ placement = "placed on shoulder"
 handshape = "F"
 placement = "placed on opposite hand"
 
-[LILI-TU]
-handshape = "2"
-orientation = "movement downward"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "movement downward"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "palm facing out"
@@ -268,6 +260,14 @@ orientation = "movement downward"
 
 [LILI-SUPA-2]
 handshape = "平B"
+orientation = "movement downward"
+
+[LILI-TU]
+handshape = "2"
+orientation = "movement downward"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "movement downward"
 
 [LINJA-1]

@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ni-8"
+word = "ni"
+word_id = "ni"
+usage_category = "uncommon"
+author_source = "https://discord.com/channels/301377942062366741/733009134856699924/1045376491338350764"
+author = ["seme Alison"]
+creation_date = "2022-11-24"
+primary = false
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-8.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ni-8.svg"
+ligature = "ni08"
+alias_ligatures = ["niv<", "ni<v", "nidownleft"]
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 39
+
+[translations]
+commentary = ""
+etymology = "an arrow"
+names = ["down-left ni"]

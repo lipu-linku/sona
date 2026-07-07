@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "apoko"
+author_verbatim = "... apoko\napoko also see poko\nby kije Enki\netymology English “i forgor”\nn the 💀 emoji\nadj relating to the 💀 emoji\nvi to use the 💀 emoji\nvt to apply the 💀 emoji\ninterj “i forgor 💀”"
+author_source = "https://discord.com/channels/301377942062366741/316066233755631616/1009423886175174786"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2022"
+author = ["kije Enki"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "apoko"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "the 💀 emoji; a Toki Pona adaptation of the meme \"I forgor\""
+etymology = "I forgor: English"

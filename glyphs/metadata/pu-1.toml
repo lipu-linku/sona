@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pu-1"
+word = "pu"
+word_id = "pu"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pu-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pu-1.svg"
+ligature = "pu01"
+ucsur = "U+F1955"
+alias_ligatures = []
+# teachability = 1
+see_also = ["lipu-1", "toki-1", "pona-1", "ku-1", "su-1"]
+
+[usage]
+2025-09 = 96
+
+[translations]
+commentary = ""
+etymology = "pictogram of the cover of the book “Toki Pona: The Language of Good”. alternatively a semantic compound glyph of lipu and toki pona"
+names = ["pu pu"]

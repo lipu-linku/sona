@@ -1,0 +1,24 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "owe-1"
+word = "owe"
+word_id = "owe"
+usage_category = "obscure"
+author_source = "https://discord.com/channels/301377942062366741/1072230753221488741/1073268958200856606"
+author = ["pami Kosi"]
+creation_date = "2023-02-09"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/owe-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/owe-1.svg"
+ligature = "owe01"
+alias_ligatures = []
+# teachability = 4
+see_also = ["lukin-1"]
+
+[usage]
+2025-09 = 8
+
+[translations]
+commentary = ""
+etymology = "lukin (or an eye) with emitters"
+names = []

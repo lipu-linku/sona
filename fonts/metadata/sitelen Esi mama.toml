@@ -1,0 +1,20 @@
+#:schema ../../api/generated/v2/font.json
+id = "sitelen Esi mama"
+author = ["mu Esitense usawi"]
+features = [
+  "UCSUR-compliant",
+  "tally marks"
+]
+filename = "sitelen-Esi-mama.otf"
+last_updated = "2026-03"
+license = "OFL"
+ligatures = true
+name = "sitelen Esi mama"
+style = "pixelated"
+ucsur = true
+version = "1.0"
+writing_system = "sitelen pona"
+
+[links]
+repo = "https://github.com/usawi/sitelen-Esi-mama"
+fontfile="https://github.com/usawi/sitelen-Esi-mama/raw/refs/heads/main/sitelen-Esi-mama.otf"

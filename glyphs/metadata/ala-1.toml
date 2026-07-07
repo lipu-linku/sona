@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "ala-1"
+word = "ala"
+word_id = "ala"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ala-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ala-1.svg"
+ligature = "ala01"
+ucsur = "U+F1902"
+alias_ligatures = []
+# teachability = 1
+see_also = []
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = "X mark, a crosslinguistic symbol for negation"
+names = ["pu ala"]

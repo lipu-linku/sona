@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "josuta"
+author_verbatim = "”**josuta** (stretchy, elastic, rubber, rubbery)” [from Finnish ‘joustava’]"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1296591490251751447"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2024"
+author = ["kala Ke"]
+see_also = ["ko", "telo", "kiwen", "suwi"]
+source_language = "Finnish"
+usage_category = "sandbox"
+word = "josuta"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = 'josuta is not the same as ko. or kiwen. or telo. It is its own thing. josuta covers the concepts of elasticity, the quality of things that are rubbery, and stretchy; elasticity. This is not to be confused with ko. josuta is a seperate thing, that is, in any way, not covered by "ko", "telo", "kiwen", or "suwi".'
+definition = "stretchy, elastic, rubber, rubbery"
+etymology = "joustava: Finnish, flexible, elastic"

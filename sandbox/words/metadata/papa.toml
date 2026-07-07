@@ -1,0 +1,29 @@
+#:schema ../../../api/generated/v2/word.json
+id = "papa"
+author_verbatim = "papa li mi"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/615691774114922562"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2019"
+author = ["petrak@7604"]
+see_also = []
+source_language = "English"
+usage_category = "sandbox"
+word = "papa"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "Baba from Baba is You"
+etymology = "Baba: English"

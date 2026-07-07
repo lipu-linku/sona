@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "lan"
+author_verbatim = "lan = being, anything that can take action itself, etc"
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/1159904421531111465"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2023-10-06"
+author = ["mu Ekisi"]
+see_also = ["jan", "ijo", "wan"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "lan"
+deprecated = false
+audio = []
+glyph_ids = ["lan-1", "ka-1"]
+primary_glyph_id = "ka-1"
+# teachability = 4
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/lan.svg"
+
+[representations]
+ligatures = ["lan"]
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "Intended as a replacement for 'jan' in mixed-headnoun groups, or when the headnoun of the person being referred to is unknown."
+definition = "being, individual; something that exists; anything that can take action itself"
+etymology = "lon: toki pona, present, existing, real, true. (preposition) located at, in, during, in the context of; wan: toki pona, (number) one. singular. combine, join, mix, fuse; jan: toki pona, human being, person, somebody"

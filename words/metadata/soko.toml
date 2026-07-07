@@ -1,16 +1,21 @@
-#:schema ../../api/generated/word.json
+#:schema ../../api/generated/v2/word.json
 id = "soko"
 author_verbatim = ""
-author_verbatim_source = ""
+author_source = ""
 book = "ku suli"
 coined_era = "post-pu"
-coined_year = "2019"
-creator = ["jan inwin", "kala kala/jan Salan"]
+creation_date = "2019"
+author = ["jan inwin", "kala kala/jan Salan"]
 see_also = ["kasi", "kili"]
 source_language = "Georgian"
 usage_category = "common"
 word = "soko"
 deprecated = false
+glyph_ids = ["soko-1", "soko-2", "soko-3"]
+primary_glyph_id = "soko-1"
+# teachability = 2
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soko.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/soko.svg"
 
 [[audio]]
 author = "kala Asi"
@@ -20,16 +25,12 @@ link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023
 author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/soko.mp3"
 
-[[etymology]]
-alt = "sok’o"
-word = "სოკო"
-
 [ku_data]
 fungus = 42
 mushroom = 53
 
 [representations]
-ligatures = ["soko1", "soko2", "soko3"]
+ligatures = ["soko01", "soko02", "soko03"]
 ucsur = "U+F1981"
 sitelen_emosi = "🍄"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/soko.jpg"
@@ -45,3 +46,8 @@ sitelen_jelo = ["🍄"]
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/soko"
+
+[translations]
+commentary = ""
+definition = "mushroom, fungus, lichen"
+etymology = "სოკო (sok’o): Georgian, mushroom"

@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "sitelen pona pi palisa mute"
-creator = ["WMCook"]
+author = ["WMCook"]
 features = ["codepoints only"]
 filename = ""
 last_updated = "2022-07"

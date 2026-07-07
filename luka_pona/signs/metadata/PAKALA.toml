@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "pakala"
 id = "PAKALA"
 is_two_handed = false
 new_gloss = "PAKALA"
 old_gloss = "PAKALA"
+old_id = "PAKALA"
 
 [[etymology]]
 language = "a priori"
@@ -15,3 +16,9 @@ swu = "𝠀񁳑񁳙񉳉񉳑𝠃𝤢𝤦񁳑𝤊𝣦񁳙𝣫𝣦񉳉𝤋𝤊񉳑�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/pakala.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/pakala.mp4"
+
+[translations]
+icons = "a smash"
+[translations.parameters]
+handshape = "5"
+movement = "palm flip down"

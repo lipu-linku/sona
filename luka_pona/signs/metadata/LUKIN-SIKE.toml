@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "lukin"
-id = "LUKIN^2"
+id = "LUKIN-SIKE"
 is_two_handed = false
 new_gloss = "LUKIN-SIKE"
 old_gloss = "LUKIN^2"
+old_id = "LUKIN^2"
 
 [[etymology]]
 language = "multiple SLs"
@@ -16,3 +17,9 @@ swu = "𝠀񀖑񋙉𝠃𝤕𝤨񀖑𝣽𝤊񋙉𝣸𝣥"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/lukin.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/lukin.mp4"
+
+[translations]
+icons = "eyes looking"
+[translations.parameters]
+handshape = "V"
+movement = "verticle circle movement"

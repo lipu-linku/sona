@@ -1,0 +1,23 @@
+#:schema ../../../api/generated/v2/glyph.json
+id = "ka-1"
+word = "ka"
+word_id = "ka2"
+usage_category = "sandbox"
+author_source = ""
+author = ["jan Tumu"]
+creation_date = ""
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ka-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/ka-1.svg"
+alias_ligatures = []
+# teachability = 4
+see_also = []
+
+[usage]
+2025-09 = 4
+
+[translations]
+commentary = ""
+etymology = ""
+names = []

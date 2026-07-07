@@ -1,5 +1,6 @@
+#:schema ../../api/generated/v2/font.json
 id = "sitelen Majeka pi alasa wan taso"
-creator = ["jan Majeka"]
+author = ["jan Majeka"]
 features = [
   "codepoints",
   "supports cartouches",

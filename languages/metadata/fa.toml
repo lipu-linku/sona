@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "rtl"
+id = "fa"
+locale = "fa-IR"
+
+[name]
+en = "Persian"
+endonym = "فارسی"
+tok = "toki Pasi"

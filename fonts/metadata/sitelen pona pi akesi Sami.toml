@@ -1,15 +1,15 @@
-#:schema ../../api/generated/font.json
-id        = "sitelen pona pi akesi Sami"
-name      = "sitelen pona pi akesi Sami"
-filename  = "sitelen-pona-pi-akesi-Sami.ttf"
-creator   = ["akesi Sami"]
-license   = "OFL-1.1"
+#:schema ../../api/generated/v2/font.json
+id = "sitelen pona pi akesi Sami"
+name = "sitelen pona pi akesi Sami"
+filename = "sitelen-pona-pi-akesi-Sami.ttf"
+author = ["akesi Sami"]
+license = "OFL-1.1"
 ligatures = true
-ucsur     = true
+ucsur = true
 writing_system = "sitelen pona"
 
 last_updated = "2025-04"
-version      = "1"
+version = "1"
 
 features = [
   "ASCII transcription and codepoints",
@@ -21,5 +21,5 @@ style = "pixelated"
 
 [links]
 fontfile = "https://github.com/wasokeli/wasokeli.github.io/raw/main/sp-font-maker/sitelen-pona-pi-akesi-Sami.ttf"
-repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
-webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-pona-pi-akesi-Sami.html"
+repo = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
+webpage = "https://wasokeli.github.io/sp-font-maker/sitelen-pona-pi-akesi-Sami.html"

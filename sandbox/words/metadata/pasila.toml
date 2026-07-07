@@ -1,0 +1,38 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pasila"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "pre-pu"
+creation_date = "2000-2001"
+author = ["jan Sonja"]
+see_also = ["pona"]
+source_language = "multiple possibilities"
+usage_category = "sandbox"
+word = "pasila"
+deprecated = true
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pasila.mp3"
+
+[representations]
+ligatures = ["pasila"]
+sitelen_emosi = "🧘"
+
+[usage]
+2020-04 = 25
+2021-10 = 31
+2022-08 = 4
+2023-09 = 3
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pasila"
+
+[translations]
+commentary = ""
+definition = "good, easy; simple, relaxed, peaceful, uncomplicated"
+etymology = "facile: Acadian French, easy; facila: Esperanto, easy"

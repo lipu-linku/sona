@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "mi"
+locale = "mi-NZ"
+
+[name]
+en = "Māori"
+endonym = "Te Reo Māori"
+tok = "toki Mali"

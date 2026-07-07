@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "wuu"
+locale = "wuu"
+
+[name]
+en = "Wu (Shanghai)"
+endonym = "上海閑話"
+tok = "toki Sane"

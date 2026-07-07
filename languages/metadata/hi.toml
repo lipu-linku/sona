@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "hi"
+locale = "hi-IN"
+
+[name]
+en = "Hindi"
+endonym = "हिंदी"
+tok = "toki Insi"

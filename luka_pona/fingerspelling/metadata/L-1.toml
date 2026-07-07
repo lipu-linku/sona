@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "L-1"
 is_two_handed = false
 
@@ -10,4 +10,6 @@ sign = "L"
 fsw = "M512x515S1dc20488x485"
 swu = "𝠃𝤒𝤕񅊡𝣺𝣷"
 
-[video]
+[translations.parameters]
+handshape = "L"
+orientation = "palm outwards"

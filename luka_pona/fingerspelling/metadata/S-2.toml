@@ -1,4 +1,4 @@
-#:schema ../../../api/generated/fingerspelling_sign.json
+#:schema ../../../api/generated/v2/fingerspelling.json
 id = "S-2"
 is_two_handed = true
 
@@ -10,4 +10,7 @@ sign = "Z"
 fsw = "M518x516S15a18482x484S18210495x501"
 swu = "𝠃𝤘𝤖񂇙𝣴𝣶񃃑𝤁𝤇"
 
-[video]
+[translations.parameters]
+handshape = "FlatB + FlatB"
+orientation = "palm down + palm side"
+placement = "touch palm"

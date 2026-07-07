@@ -1,6 +1,6 @@
-#:schema ../../api/generated/font.json
+#:schema ../../api/generated/v2/font.json
 id = "AJN Sitelen Pona"
-creator = ["AidenFont"]
+author = ["AidenFont"]
 features = ["codepoints only", "incomplete"]
 filename = "ajn-sitelen-pona.otf"
 last_updated = "2024-04"

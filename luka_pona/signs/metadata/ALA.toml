@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "ala"
 id = "ALA"
 is_two_handed = false
 new_gloss = "ALA"
 old_gloss = "ALA"
+old_id = "ALA"
 
 [[etymology]]
 language = "toki pona luka pu"
@@ -16,3 +17,9 @@ swu = "𝠀񂇒񆇡񎣡𝠃𝤛𝤕񎣡𝣱𝤆񂇒𝣖𝣾񆇡𝣯𝣸"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/ala.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/ala.mp4"
+
+[translations]
+icons = "arms crossed, defence of body"
+[translations.parameters]
+handshape = "FlatB"
+placement = "shoulder"

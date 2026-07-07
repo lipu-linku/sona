@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "sin-1"
+word = "sin"
+word_id = "sin"
+usage_category = "core"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sin-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/sin-1.svg"
+ligature = "sin01"
+ucsur = "U+F195D"
+alias_ligatures = []
+# teachability = 1
+see_also = ["namako-1", "majuna-1"]
+
+[usage]
+2025-09 = 100
+
+[translations]
+commentary = ""
+etymology = ""
+names = ["pu sin"]

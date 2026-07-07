@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "kepeken"
 id = "KEPEKEN"
 is_two_handed = false
 new_gloss = "KEPEKEN"
 old_gloss = "KEPEKEN"
+old_id = "KEPEKEN"
 
 [[etymology]]
 language = "BSL"
@@ -28,3 +29,9 @@ swu = "𝠀񅰱񋟵𝠃𝤒𝤝񅰱𝣺𝣰񋟵𝤀𝤄"
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/kepeken.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/kepeken.mp4"
+
+[translations]
+icons = "turning something to operate it"
+[translations.parameters]
+handshape = "OpenA"
+movement = "verticle circle movement"

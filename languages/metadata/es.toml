@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "es"
+locale = "es-ES"
+
+[name]
+en = "Spanish"
+endonym = "Español"
+tok = "toki Epanja"

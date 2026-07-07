@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "ca"
+locale = "ca-ES"
+
+[name]
+en = "Catalan"
+endonym = "català"
+tok = "toki Katala"

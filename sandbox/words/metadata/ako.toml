@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "ako"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2021"
+author = ["jan Epen"]
+see_also = ["a"]
+source_language = "Korean"
+usage_category = "sandbox"
+word = "ako"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/ako.mp3"
+
+[representations]
+ligatures = ["ako"]
+
+[usage]
+2022-08 = 0
+2023-09 = 0
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/ako"
+
+[translations]
+commentary = "Virtually unknown outside the Korean toki pona community."
+definition = "(interjection) [general interjection, context-dependent]"
+etymology = "아이고 (aigo): Korean, (interjection) surprise"

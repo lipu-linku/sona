@@ -1,0 +1,31 @@
+#:schema ../../../api/generated/v2/word.json
+id = "lenke"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2019"
+author = ["jan Lenoka"]
+see_also = ["ala"]
+source_language = "Cantonese"
+usage_category = "sandbox"
+word = "lenke"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+2020-04 = 12
+2022-08 = 0
+
+[resources]
+
+[translations]
+commentary = ""
+definition = "the digit 0"
+etymology = "〇/零 (lìhng): Cantonese, 0"

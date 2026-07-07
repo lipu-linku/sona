@@ -1,0 +1,8 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "kbt"
+locale = "kbt"
+
+[name]
+en = "kay(f)bop(t)"
+endonym = "kay(f)bop(t)"

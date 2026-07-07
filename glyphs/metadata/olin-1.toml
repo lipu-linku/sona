@@ -1,0 +1,25 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "olin-1"
+word = "olin"
+word_id = "olin"
+usage_category = "common"
+author_source = "lipu pu"
+author = ["jan Sonja"]
+creation_date = "2014-05-25"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/olin-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/olin-1.svg"
+ligature = "olin01"
+ucsur = "U+F1945"
+alias_ligatures = []
+# teachability = 1
+see_also = ["pilin-1"]
+
+[usage]
+2025-09 = 67
+
+[translations]
+commentary = ""
+etymology = "two heart symbols (♡), perhaps to distinguish from pilin."
+names = ["pu olin", "split hearts olin"]

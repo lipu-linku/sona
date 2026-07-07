@@ -1,0 +1,9 @@
+#:schema ../../api/generated/v2/language.json
+direction = "ltr"
+id = "ko"
+locale = "ko-KR"
+
+[name]
+en = "Korean"
+endonym = "한국어"
+tok = "toki Anku"

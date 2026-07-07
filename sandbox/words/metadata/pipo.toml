@@ -1,0 +1,38 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pipo"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-pu"
+creation_date = "2017"
+author = ["jan Ejewa", "jan inwin"]
+see_also = []
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "pipo"
+deprecated = false
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[[audio]]
+author = "kala Asi"
+link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/kalaasi2023/pipo.mp3"
+
+[representations]
+ligatures = ["pipo"]
+sitelen_emosi = "😒"
+
+[usage]
+2020-04 = 19
+2021-10 = 21
+2022-08 = 1
+2023-09 = 2
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/pipo"
+
+[translations]
+commentary = ""
+definition = "annoy, annoyance, bothersome, boring"
+etymology = "pipi: toki pona, bug, insect, arachnid"

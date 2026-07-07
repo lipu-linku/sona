@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/__schema0"
+    },
+    "is_two_handed": {
+      "$ref": "#/$defs/__schema1"
+    },
+    "etymology": {
+      "$ref": "#/$defs/__schema2"
+    },
+    "signwriting": {
+      "$ref": "#/$defs/__schema5"
+    },
+    "video": {
+      "$ref": "#/$defs/__schema8"
+    },
+    "translations": {
+      "$ref": "#/$defs/__schema12"
+    },
+    "definition": {
+      "$ref": "#/$defs/__schema21"
+    },
+    "new_gloss": {
+      "$ref": "#/$defs/__schema22"
+    },
+    "old_gloss": {
+      "$ref": "#/$defs/__schema23"
+    },
+    "old_id": {
+      "$ref": "#/$defs/__schema24"
+    }
+  },
+  "required": [
+    "id",
+    "is_two_handed",
+    "etymology",
+    "signwriting",
+    "translations",
+    "definition",
+    "new_gloss",
+    "old_gloss",
+    "old_id"
+  ],
+  "additionalProperties": false,
+  "description": "Info on a Luka Pona sign",
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A unique name for the fingerspelling which is also a gloss."
+    },
+    "__schema1": {
+      "type": "boolean",
+      "description": "Whether the sign is two-handed or not."
+    },
+    "__schema2": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema3"
+      },
+      "description": "Unlocalized etymological values regarding this sign's origin"
+    },
+    "__schema3": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "The language of the sign."
+        },
+        "sign": {
+          "description": "The name of the sign such that it could be found in a sign language dictionary.",
+          "$ref": "#/$defs/__schema4"
+        }
+      },
+      "required": [
+        "language"
+      ],
+      "additionalProperties": false
+    },
+    "__schema4": {
+      "type": "string"
+    },
+    "__schema5": {
+      "type": "object",
+      "properties": {
+        "fsw": {
+          "$ref": "#/$defs/__schema6"
+        },
+        "swu": {
+          "$ref": "#/$defs/__schema7"
+        }
+      },
+      "required": [
+        "fsw",
+        "swu"
+      ],
+      "additionalProperties": false,
+      "description": "Scripts for representing a sign as characters."
+    },
+    "__schema6": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The [Formal SignWriting](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
+    },
+    "__schema7": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The [SignWriting with Unicode](https://en.wikipedia.org/wiki/SignWriting) representation of the sign."
+    },
+    "__schema8": {
+      "type": "object",
+      "properties": {
+        "gif": {
+          "$ref": "#/$defs/__schema9"
+        },
+        "mp4": {
+          "$ref": "#/$defs/__schema11"
+        }
+      },
+      "required": [
+        "gif",
+        "mp4"
+      ],
+      "additionalProperties": false,
+      "description": "Videos of the sign being performed, by format."
+    },
+    "__schema9": {
+      "description": "A link to a gif of the sign being signed.",
+      "$ref": "#/$defs/__schema10"
+    },
+    "__schema10": {
+      "type": "string",
+      "format": "uri",
+      "description": "A URL pointing to some external resource."
+    },
+    "__schema11": {
+      "description": "a link to an mp4 of the sign being signed.",
+      "$ref": "#/$defs/__schema10"
+    },
+    "__schema12": {
+      "type": "object",
+      "properties": {
+        "icons": {
+          "type": "string",
+          "description": "Localized descriptions of the thing a sign represents."
+        },
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "handshape": {
+              "$ref": "#/$defs/__schema13"
+            },
+            "movement": {
+              "$ref": "#/$defs/__schema15"
+            },
+            "placement": {
+              "$ref": "#/$defs/__schema17"
+            },
+            "orientation": {
+              "$ref": "#/$defs/__schema19"
+            }
+          },
+          "additionalProperties": false,
+          "description": "Partly localized descriptions of how a sign is signed."
+        }
+      },
+      "required": [
+        "icons",
+        "parameters"
+      ],
+      "additionalProperties": false
+    },
+    "__schema13": {
+      "description": "The shape of the hand when signing, identified by its name in ASL. Should not be translated in any language other than Toki Pona",
+      "$ref": "#/$defs/__schema14"
+    },
+    "__schema14": {
+      "type": "string"
+    },
+    "__schema15": {
+      "description": "The motion of the hand when signing.",
+      "$ref": "#/$defs/__schema16"
+    },
+    "__schema16": {
+      "type": "string"
+    },
+    "__schema17": {
+      "description": "The placement of the hand when signing.",
+      "$ref": "#/$defs/__schema18"
+    },
+    "__schema18": {
+      "type": "string"
+    },
+    "__schema19": {
+      "description": "The orientation of the hand when signing.",
+      "$ref": "#/$defs/__schema20"
+    },
+    "__schema20": {
+      "type": "string"
+    },
+    "__schema21": {
+      "type": "string",
+      "description": "The definition of the sign as a single toki pona word."
+    },
+    "__schema22": {
+      "type": "string",
+      "description": "The more recent, preferred gloss for this sign."
+    },
+    "__schema23": {
+      "type": "string",
+      "description": "The older gloss for this sign, similar to `id`."
+    },
+    "__schema24": {
+      "type": "string",
+      "description": "Previous, malformed id for the sign."
+    }
+  }
+}

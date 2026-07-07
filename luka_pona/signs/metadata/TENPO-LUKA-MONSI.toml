@@ -1,9 +1,10 @@
-#:schema ../../../api/generated/sign.json
+#:schema ../../../api/generated/v2/sign.json
 definition = "tenpo"
-id = "TENPO^1"
+id = "TENPO-LUKA-MONSI"
 is_two_handed = false
 new_gloss = "TENPO-LUKA-MONSI"
 old_gloss = "TENPO"
+old_id = "TENPO^1"
 
 [[etymology]]
 language = "multiple SLs (including BSL)"
@@ -16,3 +17,9 @@ swu = "𝠀񆅱񀠳񆇡񎲡𝠃𝤠𝤚񆅱𝣵𝣳񎲡𝣻𝤁񀠳𝤂𝤂񆇡�
 [video]
 gif = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/gif/tenpo.gif"
 mp4 = "https://raw.githubusercontent.com/lipu-linku/ijo/main/lukapona/mp4/tenpo.mp4"
+
+[translations]
+icons = "checking time on wristwatch"
+[translations.parameters]
+handshape = "V"
+placement = "placed on opposite hand"
