@@ -57,7 +57,7 @@ eo = "SUBSTANTIVO endoma spaco; konstruaĵo, hejmo, domo, ĉambro"
 fr = "NOM espace intérieur, lieu couvert ; maison, bâtiment, édifice, pièce, chambre, chez soi, demeure"
 
 [representations]
-ligatures = ["tomo"]
+ligatures = ["tomo01", "tomo02"]
 ucsur = "U+F196D"
 sitelen_emosi = "🏠"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/tomo.jpg"

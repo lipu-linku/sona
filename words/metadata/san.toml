@@ -26,7 +26,7 @@ three = 4
 
 [representations]
 ligatures = ["san"]
-ucsur = "U+F29B2"
+ucsur = "U+F19B2"
 
 [usage]
 2020-04 = 15
