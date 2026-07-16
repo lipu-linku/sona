@@ -76,7 +76,7 @@ eo = "ADJEKTIVO multaj, multe, pluraj, tre\nSUBSTANTIVO kvanto"
 fr = "ADJECTIF beaucoup de, plusieurs, plus de ; très\nNOM quantité"
 
 [representations]
-ligatures = ["mute"]
+ligatures = ["mute01", "mute02"]
 ucsur = "U+F193C"
 sitelen_emosi = "👐"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/mute.jpg"

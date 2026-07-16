@@ -31,7 +31,7 @@ virtual = 13
 web = 9
 
 [representations]
-ligatures = ["linluwi", "linluwi4", "linluwi2"]
+ligatures = ["linluwi03", "linluwi02", "linluwi01"]
 sitelen_emosi = "🌐"
 
 [usage]

@@ -34,7 +34,7 @@ old = 33
 senior = 21
 
 [representations]
-ligatures = ["majuna", "majuna2"]
+ligatures = ["majuna02", "majuna01"]
 ucsur = "U+F19A2"
 sitelen_emosi = "👵"
 sitelen_jelo = ["🪷", "💾", "🧓"]
