@@ -7,10 +7,10 @@
 # 4. Submit the .TOML to this page: https://github.com/lipu-linku/sona/tree/main/fonts/metadata
 # 5. Ask for help if you need it! Join the Linku Discord, or make a GitHub Issue on lipu-linku/sona.
 
-id        = "sitelen mu tan jan San"
-name      = "sitelen mu"
-filename  = "sitelen-mu-tan-jan-San.ttf"
-author    = ["jan San"]
+id        = "nasin sitelen lukin tan mun Nanseki"
+name      = "sitelen lukin mun"
+filename  = "nasin-sitelen-lukin-tan-mun-Nanseki.ttf"
+author    = ["mun Nanseki"]
 license   = "OFL-1.1"
 ligatures = true
 ucsur     = true
@@ -29,7 +29,7 @@ features = [
   "long pi",
   # "incomplete",
   # "variable weight",
-  # "name glyphs",
+  "name glyphs",
   # "character variants",
   # "Linku common & uncommon 2024",  # nimisin, ku, su
   # "all ku suli",                   # kokosila, ku
@@ -55,6 +55,6 @@ style = "handwritten"
 
 [links]
 # Autofilled for Kelly's site. If you're not uploading to Kelly's site, these URLs are inaccurate; upload the font to a website like neocities.org or github.io
-# fontfile = "https://wasokeli.github.io/sp-font-maker/sitelen-mu-tan-jan-San.ttf"
-# webpage  = "https://wasokeli.github.io/sp-font-maker/sitelen-mu-tan-jan-San.html"
+# fontfile = "https://wasokeli.github.io/sp-font-maker/nasin-sitelen-lukin-tan-mun-Nanseki.ttf"
+# webpage  = "https://wasokeli.github.io/sp-font-maker/nasin-sitelen-lukin-tan-mun-Nanseki.html"
 # repo     = "https://github.com/wasokeli/wasokeli.github.io/tree/main/sp-font-maker"
