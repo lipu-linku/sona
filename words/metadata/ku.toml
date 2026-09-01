@@ -26,7 +26,7 @@ author = "jan Lakuse"
 link = "https://raw.githubusercontent.com/lipu-linku/ijo/main/kalama/jlakuse/ku.mp3"
 
 [representations]
-ligatures = ["ku"]
+ligatures = ["ku01", "ku03", "ku04"]
 ucsur = "U+F1988"
 sitelen_jelo = ["🔬"]
 

@@ -26,7 +26,7 @@ magic = 7
 
 [representations]
 ligatures = ["usawi"]
-ucsur = "U+F29B7"
+ucsur = "U+F19B7"
 
 [usage]
 2021-10 = 41
