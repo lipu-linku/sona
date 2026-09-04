@@ -8,7 +8,7 @@
 # 5. Ask for help if you need it! Join the Linku Discord, or make a GitHub Issue on lipu-linku/sona.
 
 id        = "nasin sitelen lukin tan mun Nanseki"
-name      = "sitelen lukin mun"
+name      = "nasin sitelen lukin"
 filename  = "nasin-sitelen-lukin-tan-mun-Nanseki.ttf"
 author    = ["mun Nanseki"]
 license   = "OFL-1.1"
@@ -17,7 +17,7 @@ ucsur     = true
 writing_system = "sitelen pona" # pick one: sitelen pona, sitelen sitelen, alphabet, syllabary, logography,
                                 # tokiponido alphabet, tokiponido syllabary, tokiponido logography
 
-last_updated = "2026-08"
+last_updated = "2026-09"
 version      = "1"
 
 features = [
