@@ -1,0 +1,55 @@
+id,direction,locale,en,tok,endonym
+ar,rtl,ar-SA,Standard Arabic,toki Alapi,اللغة العربية
+ca,ltr,ca-ES,Catalan,toki Katala,català
+ceb_l,ltr,ceb-PH,Cebuano (Latin),toki Sinupuwanon (sitelen Lasina),Sinugboanon (Sa Sinulatan Nga Latin)
+cs,ltr,cs-CZ,Czech,toki Seki,Čeština
+cy,ltr,cy-GB,Welsh,toki Kinli,Cymraeg
+da,ltr,da-DK,Danish,toki Tansi,Dansk
+de,ltr,de-DE,German,toki Tosi,Deutsch
+el,ltr,el-GR,Greek,toki Elena,Ελληνικά
+en,ltr,en-US,English,toki Inli,English
+eo,ltr,eo-UY,Esperanto,toki Epelanto,Esperanto
+es,ltr,es-ES,Spanish,toki Epanja,Español
+fa,rtl,fa-IR,Persian,toki Pasi,فارسی
+fi,ltr,fi-FI,Finnish,toki Sumi,Suomi
+fr,ltr,fr-FR,French,toki Kanse,Français
+haw,ltr,haw-US,Hawaiian,toki Awaje,ʻŌlelo Hawaiʻi
+he,rtl,he-IL,Hebrew,toki Iwisi,עברית
+hi,ltr,hi-IN,Hindi,toki Insi,हिंदी
+hr,ltr,hr-HR,Croatian,toki Lowasi,Hrvatski
+hu,ltr,hu-HU,Hungarian,toki Mata,magyar
+id,ltr,id-ID,Indonesian,toki Intonesija,Bahasa Indonesia
+io,ltr,io-EN,Ido,toki Ito,Ido
+isv_c,ltr,isvc,Interslavic (Cyrillic),toki Mesulojanki (sitelen Kililisa),Меджусловјанскы (кирилица)
+isv_l,ltr,isvl,Interslavic (Latin),toki Mesulojanki (sitelen Lasina),Medžuslovjansky (latinica)
+it,ltr,it-IT,Italian,toki Italija,Italiano
+ith_n,ltr,itk,New Ithkuil,toki Ikuwi,Malëuţřait
+ja,ltr,ja-JP,Japanese,toki Nijon,日本語
+kbt,ltr,kbt,kay(f)bop(t),toki Kepo,kay(f)bop(t)
+ko,ltr,ko-KR,Korean,toki Anku,한국어
+la,ltr,la-LA,Latin,toki Lasina,Latina
+lou,ltr,lou,Louisiana Creole,toki Kuliwini,Kouri-Vini
+lt,ltr,lt-LT,Lithuanian,toki Lijutawa,Lietuvių
+mi,ltr,mi-NZ,Māori,toki Mali,Te Reo Māori
+nb,ltr,nb-NO,Norwegian (Bokmål),toki Nosiki,Norsk (Bokmål)
+nl,ltr,nl-NL,Dutch,toki Netelan,Nederlands
+nn,ltr,nn-NO,Norwegian (Nynorsk),toki Nosiki sin,Norsk (Nynorsk)
+pa,ltr,pa-IN,Punjabi,toki Pansapi,ਪੰਜਾਬੀ
+pl,ltr,pl-PL,Polish,toki Posuka,Polski
+pt,ltr,pt-BR,Portuguese,toki Potuke,Português
+ro,ltr,ro-RO,Romanian,toki Lomuno,Română
+ru,ltr,ru-RU,Russian,toki Losi,Русский
+sl,ltr,sl-SI,Slovene,toki Lowensina,Slovenščina
+sv,ltr,sv-SE,Swedish,toki Sensa,Svenska
+th,ltr,th-TH,Thai,toki Tawi,ภาษาไทย
+tkl,ltr,tkl,Tokelauan,toki Tokela,Te Gagana Tokelau
+tl_l,ltr,tl-PH,Tagalog (Latin),toki Takalo (sitelen Lasina),Tagalog (Latin)
+tok,ltr,tok-US,Toki Pona,toki pona,toki pona
+tr,ltr,tr-TR,Turkish,toki Tuki,Türkçe
+uk,ltr,uk-UA,Ukrainian,toki Ukawina,Українська
+ur,rtl,ur-PK,Urdu,toki Utu,اردو
+wuu,ltr,wuu,Wu (Shanghai),toki Sane,上海閑話
+yi,rtl,yi-DE,Yiddish,toki Isisi,ייִדיש
+yue,ltr,yue,Cantonese,toki Kontonwa,粤语
+zh_hans,ltr,zh-CN,Chinese (Simplified),toki Sonko (sitelen Kansi pi ijo lili),中文（简体）
+zh_hant,ltr,zh-TW,Chinese (Traditional),toki Sonko (sitelen Kansi pi ijo mute),中文（繁體）

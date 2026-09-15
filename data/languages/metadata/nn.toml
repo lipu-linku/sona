@@ -1,9 +1,0 @@
-#:schema ../../api/generated/v2/language.json
-direction = "ltr"
-id = "nn"
-locale = "nn-NO"
-
-[name]
-en = "Norwegian (Nynorsk)"
-endonym = "Norsk (Nynorsk)"
-tok = "toki Nosiki sin"

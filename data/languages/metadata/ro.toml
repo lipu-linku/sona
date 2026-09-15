@@ -1,9 +1,0 @@
-#:schema ../../api/generated/v2/language.json
-direction = "ltr"
-id = "ro"
-locale = "ro-RO"
-
-[name]
-en = "Romanian"
-endonym = "Română"
-tok = "toki Lomuno"

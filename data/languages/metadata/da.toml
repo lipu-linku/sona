@@ -1,9 +1,0 @@
-#:schema ../../api/generated/v2/language.json
-direction = "ltr"
-id = "da"
-locale = "da-DK"
-
-[name]
-en = "Danish"
-endonym = "Dansk"
-tok = "toki Tansi"
