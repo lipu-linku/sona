@@ -3,15 +3,15 @@ name: Validate TOML Files
 on:
   push:
     branches-ignore: ["l10n_*"]
-    # paths:
-    #   - "**.toml"
-    #   - "api/src/lib/v2/**"
+    paths:
+      - "**.toml"
+      - "api/src/lib/v2/**"
 
   pull_request:
     branches-ignore: ["l10n_*"]
-    # paths:
-    #   - "**.toml"
-    #   - "api/src/lib/v2/**"
+    paths:
+      - "**.toml"
+      - "api/src/lib/v2/**"
 
   workflow_dispatch:
 
