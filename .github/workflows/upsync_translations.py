@@ -39,7 +39,7 @@ def main():
                 tr_file = Path(input.format(**{"id": src_key, "langcode": lang_id}))
                 if not tr_file.exists():
                     raise FileNotFoundError(
-                        f"Translation file {tr_file.name} expected but not found. Not syncing!"
+                        f"Translation file {lang_id}/{tr_file.parent} expected but not found. Not syncing!"
                     )
                 print(f"Syncing {src_file} to {tr_file}")
 
