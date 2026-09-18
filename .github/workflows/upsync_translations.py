@@ -37,6 +37,10 @@ def main():
             for lang_id, _ in langs.items():
                 # TODO: these should be possible to derive, rather than hardcode
                 tr_file = Path(input.format(**{"id": src_key, "langcode": lang_id}))
+                if not tr_file.exists():
+                    raise FileNotFoundError(
+                        f"Translation file {tr_file.name} expected but not found. Not syncing!"
+                    )
                 print(f"Syncing {src_file} to {tr_file}")
 
                 translation = cached_toml_read(tr_file)
