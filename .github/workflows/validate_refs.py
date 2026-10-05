@@ -77,6 +77,22 @@ def main():
                 source = cached_toml_read(source_file)
                 translation = cached_toml_read(tr_file)
 
+                if source is None:
+                    print(
+                        f"{key} -> {langcode} -> {filename} "
+                        f"has no source file {source_file}"
+                    )
+                    found_errs = True
+                    continue
+
+                if translation is None:
+                    print(
+                        f"{key} -> {langcode} -> {filename} "
+                        f"could not read translation file {tr_file}"
+                    )
+                    found_errs = True
+                    continue
+
                 errs = report_set_diff(
                     f"{key} -> {langcode} -> {filename}",
                     set(source),
