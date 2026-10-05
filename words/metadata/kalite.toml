@@ -19,3 +19,7 @@ word = "kalite"
 [representations]
 ligatures = ["kalite"]
 sitelen_emosi = "🏷️"
+
+definition = "type, class, category, quality, kind"
+etymology = "toki ma: type, kind"
+commentary = "The coiner of this word thought it was already a nimisin, it later turned out to be a toki ma word instead"
