@@ -1,0 +1,22 @@
+#:schema ../../api/generated/word.json
+id = "kutopanja"
+author_verbatim = ""
+author_verbatim_source = ""
+book = "none"
+coined_era = "post-ku"
+coined_year = "2023"
+creator = ["jan Kisatowi"]
+see_also = ["kulupu"]
+source_language = "toki pona"
+usage_category = "sandbox"
+word = "kutopanja"
+deprecated = false
+audio = []
+
+[[etymology]]
+word = "kulupu pi toki Epanja"
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kulupu_pi_toki_Epanja"
