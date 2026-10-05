@@ -44,7 +44,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - uses: dorny/paths-filter@v3
+      - uses: dorny/paths-filter@v4
         id: changes
         with:
           filters: |
@@ -55,7 +55,7 @@ jobs:
 
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: 3.14.8
 
@@ -69,7 +69,7 @@ jobs:
         run: python .github/workflows/upsync_translations.py
 
       - name: Commit packaged files
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
         with:
           message: Synced translation files for ${{ github.sha }}
@@ -89,7 +89,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - uses: dorny/paths-filter@v3
+      - uses: dorny/paths-filter@v4
         id: changes
         with:
           filters: |
@@ -99,9 +99,9 @@ jobs:
               - '**.toml'
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
-          version: 10
+          version: 12
           run_install: |
             - args: [--frozen-lockfile]
               cwd: ./api
@@ -113,7 +113,7 @@ jobs:
 
       - name: Commit schemas
         if: contains(steps.changes.outputs.changes, 'schemas') && !github.event.pull_request.head.repo.fork
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         with:
           message: "Generated schemas for ${{ github.event.pull_request.head.sha || github.event.head_commit.id || github.sha }}"
 
@@ -123,7 +123,7 @@ jobs:
 
       - name: Setup Python
         if: contains(steps.changes.outputs.changes, 'data')
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: 3.14.8
 
@@ -145,7 +145,7 @@ jobs:
         run: .github/workflows/validate_generated_json.sh
 
       - name: Commit packaged files
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         if: contains(steps.changes.outputs.changes, 'data') && !github.event.pull_request.head.repo.fork
         with:
           message: Generated raw JSON files for ${{ github.sha }}
