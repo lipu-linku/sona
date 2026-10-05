@@ -1,11 +1,11 @@
 #:schema ../../../api/generated/v2/word.json
 id = "awa"
 author_verbatim = """mi jo e pilin pi nimi sin: nimi 'awa'. soweli len li awa. supa lape li awa. ijo li awa la, ona li pona tawa luka li suwi tawa luka. tenpo mute la, ona li seli pona kin. kalama 'awa' li awa tawa uta."""
-author_verbatim_source = "https://discord.com/channels/1208593165213245510/1208593166182260768/1367751429481037844"
+author_source = "https://discord.com/channels/1208593165213245510/1208593166182260768/1367751429481037844"
 book = "none"
 coined_era = "post-ku"
-coined_year = "2025"
-creator = ["kala Koko"]
+creation_date = "2025"
+author = ["kala Koko"]
 see_also = ["ko", "seli", "suwi", "wa"]
 source_language = "onomatopoeia"
 usage_category = "sandbox"
