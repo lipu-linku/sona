@@ -22,6 +22,8 @@ glyph_ids = []
 ligatures = ["kalite"]
 sitelen_emosi = "🏷️"
 
+[usage]
+
 [resources]
 
 [translations]
