@@ -31,7 +31,7 @@ awesome = 29
 epic = 50
 
 [representations]
-ligatures = ["epiku", "epiku1"]
+ligatures = ["epiku02", "epiku01"]
 ucsur = "U+F1983"
 sitelen_emosi = "😎"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/epiku.jpg"

@@ -53,7 +53,7 @@ eo = "ADJEKTIVO naŭza, obscena, malagrabla, toksa, malpura, malhigiena"
 fr = "ADJECTIF dégoûtant, obscène, maladif, toxique, impur, insalubre"
 
 [representations]
-ligatures = ["jaki", "jaki"]
+ligatures = ["jaki"]
 ucsur = "U+F1910"
 sitelen_emosi = "💩"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jaki.jpg"

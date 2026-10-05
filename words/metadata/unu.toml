@@ -26,7 +26,7 @@ purple = 27
 
 [representations]
 ligatures = ["unu"]
-ucsur = "U+F29B6"
+ucsur = "U+F19B6"
 
 [usage]
 2021-10 = 43

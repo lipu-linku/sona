@@ -27,7 +27,7 @@ alright = 9
 fine = 7
 
 [representations]
-ligatures = ["oke"]
+ligatures = ["oke02", "oke03"]
 sitelen_emosi = "👌"
 ucsur = "U+F19AF"
 

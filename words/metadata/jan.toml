@@ -51,7 +51,7 @@ eo = "SUBSTANTIVO homo, persono, iu"
 fr = "NOM être humain, personne, quelqu'un"
 
 [representations]
-ligatures = ["jan"]
+ligatures = ["jan01", "jan02"]
 ucsur = "U+F1911"
 sitelen_emosi = "👤"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/jan.jpg"

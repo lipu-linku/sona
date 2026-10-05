@@ -29,7 +29,7 @@ clip = 4
 
 [representations]
 ligatures = ["taki"]
-ucsur = "U+F29B3"
+ucsur = "U+F19B3"
 
 [usage]
 2021-10 = 38

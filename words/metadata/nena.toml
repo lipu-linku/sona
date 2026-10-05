@@ -44,7 +44,7 @@ eo = "SUBSTANTIVO elstara malebenaĵo, elstaraĵo, tubero, butono, monteto, mont
 fr = "NOM nez ; bosse, colline, montagne ; bouton"
 
 [representations]
-ligatures = ["nena"]
+ligatures = ["nena01", "nena02"]
 ucsur = "U+F1940"
 sitelen_emosi = "🗻"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/nena.jpg"

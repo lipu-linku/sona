@@ -3,15 +3,15 @@ id = "linja laso"
 author = ["mute ante"]
 features = ["ASCII transcription", "UCSUR-compliant", "cartouches"]
 filename = "linja_laso.otf"
-last_updated = "2026-01"
+last_updated = "2026-03"
 license = "OFL"
 ligatures = true
 name = "linja laso"
 style = "uniform line weight"
 ucsur = true
-version = "001.000"
+version = "1.2.1"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://github.com/muteante/linja-laso/raw/refs/heads/main/linja_laso.otf"
+fontfile = "https://github.com/muteante/linja-laso/raw/refs/heads/main/regular/linja_laso_regular.otf"
 repo = "https://github.com/cvni1981/linja-laso"

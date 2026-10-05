@@ -33,7 +33,7 @@ medicine = 42
 pill = 30
 
 [representations]
-ligatures = ["misikeke"]
+ligatures = ["misikeke01", "misikeke02"]
 ucsur = "U+F1987"
 sitelen_emosi = "💊"
 sitelen_sitelen = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelensitelen/jonathangabel/misikeke.jpg"

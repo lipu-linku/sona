@@ -3,16 +3,16 @@ id = "Unifont CSUR"
 author = ["Paul Hardy"]
 features = ["codepoints only"]
 filename = "unifont-csur.otf"
-last_updated = "2022-04"
+last_updated = "2026-05"
 license = "OFL/GPL"
 ligatures = false
 name = "Unifont CSUR"
 style = "pixelated"
 ucsur = true
-version = "14.0.03"
+version = "17.0.04"
 writing_system = "sitelen pona"
 
 [links]
-fontfile = "https://unifoundry.com/pub/unifont/unifont-14.0.03/font-builds/unifont_csur-14.0.03.otf"
+fontfile = "https://mirror.checkdomain.de/gnu/unifont/unifont-17.0.04/unifont_csur-17.0.04.otf"
 repo = "https://savannah.gnu.org/projects/unifont"
 webpage = "https://unifoundry.com/unifont/"
