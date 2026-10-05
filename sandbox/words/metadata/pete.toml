@@ -1,0 +1,35 @@
+#:schema ../../../api/generated/v2/word.json
+id = "pete"
+author_verbatim = "As a content word, *pete* encompasses sex, gender identity, gender roles, and gender presentation.\nAs a modifier, *pete* means “of sex/gender”, as well as “sexed/gendered”—i.e. separated along sex/gender lines.\nAs a transitive verb, when you *pete* something or someone, you are ascribing a sex/gender upon it, or perceiving it as a sex/gender.
+author_source = "https://gitlab.com/haleyhalcyon/haleyhalcyon.gitlab.io/-/commit/a8ce40b1c2834b4f121ab2aab7bf333d39b0cfa3"
+book = "none"
+coined_era = "post-ku"
+creation_date = "2025-09-03"
+author = ["jan Eli pi ma Nipon"]
+see_also = ["meli", "mije", "tonsi"]
+source_language = "Polish and Thai"
+usage_category = "sandbox"
+word = "pete"
+deprecated = false
+glyph_ids = ["pete-1"]
+primary_glyph_id = "pete-1"
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pete.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pete.svg"
+
+[[audio]]
+author = null
+link = null
+
+[representations]
+ligatures = []
+
+[usage]
+2025-09 = 0
+
+[resources]
+sona_pona = null
+
+[translations]
+commentary = "Coined by a trans woman in response to the usage of *tonsi* for trans men and women, a significant minority of whom see as invalidating."
+definition = "sex; gender"
+etymology = "Polish płeć /ˈpwɛt͡ɕ/: sex, gender; Thai เพศ phet /pʰeːt̚˥˩/: sex, gender, costume"
