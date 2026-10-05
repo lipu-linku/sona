@@ -1,4 +1,4 @@
-#:schema ../../api/generated/word.json
+#:schema ../../../api/generated/word.json
 id = "awa"
 author_verbatim = """mi jo e pilin pi nimi sin: nimi 'awa'. soweli len li awa. supa lape li awa. ijo li awa la, ona li pona tawa luka li suwi tawa luka. tenpo mute la, ona li seli pona kin. kalama 'awa' li awa tawa uta."""
 author_verbatim_source = "https://discord.com/channels/1208593165213245510/1208593166182260768/1367751429481037844"
@@ -12,8 +12,9 @@ usage_category = "sandbox"
 word = "awa"
 deprecated = false
 audio = []
-
-[[etymology]]
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
 
 [representations]
 ligatures = []  # feel free to change to "awa" if / when added to sitelen seli kiwen.
@@ -21,3 +22,10 @@ ligatures = []  # feel free to change to "awa" if / when added to sitelen seli k
 [usage]
 
 [resources]
+
+[translations]
+commentary = ""
+definition = "soft, comfortable, fluffy, hospitable, or an interjection related to this feeling"
+etymology = "onomatopoeia"
+# to be added to a glyph file if one ever is created:
+# sp_etymology = "exclamation radical + suwi, radical from exclamation point(!), without full stop at the bottom. compare a, n, wa"
