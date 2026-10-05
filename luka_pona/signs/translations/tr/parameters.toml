@@ -250,14 +250,6 @@ placement = "omuza yerleştirilir"
 handshape = "F"
 placement = "diğer ele yerleştirilir"
 
-[LILI-TU]
-handshape = "2"
-orientation = "aşağı doğru hareket"
-
-[LILI-TU-2]
-handshape = "2"
-orientation = "aşağı doğru hareket"
-
 [LILI-PIPI]
 handshape = "F"
 orientation = "avuç içi dışarı dönük"
@@ -268,6 +260,14 @@ orientation = "aşağı doğru hareket"
 
 [LILI-SUPA-2]
 handshape = "Düz B"
+orientation = "aşağı doğru hareket"
+
+[LILI-TU]
+handshape = "2"
+orientation = "aşağı doğru hareket"
+
+[LILI-TU-2]
+handshape = "2"
 orientation = "aşağı doğru hareket"
 
 [LINJA-1]
