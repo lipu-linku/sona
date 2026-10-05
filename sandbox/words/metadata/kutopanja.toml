@@ -16,6 +16,9 @@ glyph_ids = []
 # primary_glyph_id = ""
 # teachability = 4
 
+[representations]
+ligatures = []
+
 [usage]
 
 [resources]
