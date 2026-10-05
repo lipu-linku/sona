@@ -1,0 +1,32 @@
+#:schema ../../../api/generated/v2/word.json
+id = "kalite"
+author_verbatim = """
+kalite – ~nimisin~ kind, type, class, category, quality 🏷️
+    ← @qazw thought it was a nimisin ← toki ma kalite kind, type, class, category, quality ← Haitian Creole kalite 'kind'"""
+author_source = "https://discord.com/channels/301377942062366741/301377942062366741/834035843466264646"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2021"
+author = ["qazw"]
+see_also = ["kule", "lukin", "pilin"]
+source_language = "toki ma"
+usage_category = "obscure"
+word = "kalite"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = ["kalite"]
+sitelen_emosi = "🏷️"
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "The coiner of this word thought it was already a nimisin, it later turned out to be a toki ma word instead"
+definition = "type, class, category, quality, kind"
+etymology = "kalite: toki ma, type, kind"
