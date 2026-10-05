@@ -57,7 +57,7 @@ jobs:
         if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v5
         with:
-          python-version: 3.12.10
+          python-version: 3.14.8
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
@@ -125,7 +125,7 @@ jobs:
         if: contains(steps.changes.outputs.changes, 'data')
         uses: actions/setup-python@v6
         with:
-          python-version: 3.12.10
+          python-version: 3.14.8
 
       - name: Install dependencies
         if: contains(steps.changes.outputs.changes, 'data')
