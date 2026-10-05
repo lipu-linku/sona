@@ -260,7 +260,7 @@
       "type": "string",
       "minLength": 1,
       "format": "emoji",
-      "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
+      "pattern": "^(?=[\\s\\S]*[\\p{Extended_Pictographic}\\p{Regional_Indicator}\\u20E3])[\\p{Extended_Pictographic}\\p{Emoji_Component}]+$"
     },
     "__schema26": {
       "description": "One or more example emojis for how the word can be written in sitelen jelo",
@@ -277,7 +277,7 @@
       "type": "string",
       "minLength": 1,
       "format": "emoji",
-      "pattern": "^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$"
+      "pattern": "^(?=[\\s\\S]*[\\p{Extended_Pictographic}\\p{Regional_Indicator}\\u20E3])[\\p{Extended_Pictographic}\\p{Emoji_Component}]+$"
     },
     "__schema29": {
       "description": "A list of sitelen Lasina representations of the word, used by ligature fonts to visually convert latin characters into sitelen pona",
