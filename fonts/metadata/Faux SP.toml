@@ -13,6 +13,6 @@ version = "002.000"
 writing_system = "alphabet"
 
 [links]
-fontfile = "https://github.com/neverRare/faux-sp/raw/refs/heads/main/FauxSP.otf"
-repo = "https://github.com/neverRare/faux-sp/"
-webpage = "https://neverrare.github.io/faux-sp/"
+fontfile = "https://codeberg.org/neverRare/faux-sp/raw/branch/main/FauxSP.otf"
+repo = "https://codeberg.org/neverRare/faux-sp/"
+webpage = "https://neverrare.codeberg.page/faux-sp/"
