@@ -1,0 +1,23 @@
+#:schema ../../api/generated/v2/glyph.json
+id = "pete-1"
+word = "pete"
+word_id = "pete"
+usage_category = "sandbox"
+author_source = "https://gitlab.com/haleyhalcyon/haleyhalcyon.gitlab.io/-/commit/a8ce40b1c2834b4f121ab2aab7bf333d39b0cfa3"
+author = ["jan Eli tan ma Nipon"]
+creation_date = "2025-09-03"
+primary = true
+deprecated = false
+image = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pete-1.png"
+svg = "https://raw.githubusercontent.com/lipu-linku/ijo/main/sitelenpona/static/pete-1.svg"
+ligature = null
+alias_ligatures = []
+see_also = ["tonsi"]
+
+[usage]
+2025-09 = 0
+
+[translations]
+commentary = "A simplified Mars–Venus symbol (i.e. combined male–female symbol). Originally proposed as the glyph for *henelo* by VSG in his a priori logography for Kokanu."
+etymology = "simplified form of combined male and female sign ⚥, modeled after *tonsi*"
+names = []
