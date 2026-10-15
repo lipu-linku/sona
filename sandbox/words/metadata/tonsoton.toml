@@ -1,0 +1,25 @@
+#:schema ../../../api/generated/v2/word.json
+id = "tonsoton"
+word = "tonsoton"
+book = "none"
+coined_era = "post-pu"
+creation_date = "2020"
+author = ["multiple"]
+see_also = ["kule", "tonsi", "melome", "mijomi"]
+source_language = "toki pona"
+usage_category = "sandbox"
+deprecated = false
+audio = []
+glyph_ids = []
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+
+[translations]
+commentary = "Independently coined multiple times – modelled after melome and mijomi."
+definition = "enbian, NBLNB; T4T"
+etymology = "tonsi li olin e tonsi: toki pona, enby loving enby"

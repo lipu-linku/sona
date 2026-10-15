@@ -77,6 +77,22 @@ def main():
                 source = cached_toml_read(source_file)
                 translation = cached_toml_read(tr_file)
 
+                if source is None:
+                    print(
+                        f"{key} -> {langcode} -> {filename} "
+                        f"has no source file {source_file}"
+                    )
+                    found_errs = True
+                    continue
+
+                if translation is None:
+                    print(
+                        f"{key} -> {langcode} -> {filename} "
+                        f"could not read translation file {tr_file}"
+                    )
+                    found_errs = True
+                    continue
+
                 errs = report_set_diff(
                     f"{key} -> {langcode} -> {filename}",
                     set(source),
@@ -96,6 +112,18 @@ def main():
                         )
                         found_errs = True
                         continue
+
+        if config.get("schema") == "word.json":
+            for obj_id, obj_data in data[key].items():
+                if obj_data.get("usage_category") == "sandbox":
+                    continue
+                primary_glyph_id = obj_data.get("primary_glyph_id") or ""
+                if len(primary_glyph_id) < 3 or not obj_data.get("glyph_ids"):
+                    print(
+                        f"{key} ({obj_id}): non-sandbox words need "
+                        "'primary_glyph_id' and 'glyph_ids'"
+                    )
+                    found_errs = True
 
         # confirm all refs have valid keys in target data
         refs = config.get("refs", [])
