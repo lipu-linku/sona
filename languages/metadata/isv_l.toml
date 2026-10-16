@@ -1,7 +1,7 @@
 #:schema ../../api/generated/v2/language.json
 direction = "ltr"
 id = "isv_l"
-locale = "isvl"
+locale = "isv-Latn"
 
 [name]
 en = "Interslavic (Latin)"

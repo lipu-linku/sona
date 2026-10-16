@@ -1,0 +1,30 @@
+#:schema ../../../api/generated/v2/word.json
+id = "emoka"
+author_verbatim = ""
+author_source = ""
+book = "none"
+coined_era = "post-ku"
+creation_date = "2025"
+author = ["jan Kiso"]
+see_also = ["kulupu", "musi"]
+source_language = "Galician"
+usage_category = "sandbox"
+word = "emoka"
+deprecated = false
+audio = []
+glyph_ids = []
+# primary_glyph_id = ""
+# teachability = 4
+
+[representations]
+ligatures = []
+
+[usage]
+
+[resources]
+sona_pona = "https://sona.pona.la/wiki/kulupu_pi_toki_Epanja"
+
+[translations]
+commentary = "Only used inside the Spanish Toki Pona community. Refers to the gaming calls held in the Discord server."
+definition = "gathering, meeting"
+etymology = "esmorga: Galician, carousal"
