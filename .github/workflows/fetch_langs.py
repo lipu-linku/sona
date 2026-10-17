@@ -37,13 +37,13 @@ def resolve_id(lang: dict, mappings: dict):
 
 def fetch_endonym(lang_id: str) -> str | None:
     try:
-        lang = Language.get(lang_id)
-        name = lang.display_name(lang_id)
-        name_en = lang.display_name("en")
+        lang: Language = Language.get(lang_id)
+        name: str = lang.display_name(lang_id)
+        name_en: str = lang.display_name("en")
     except LanguageTagError:
         return None
 
-    if lang.startswith("Unknown"):
+    if name.startswith("Unknown"):
         return None
     if name == name_en:
         return None
