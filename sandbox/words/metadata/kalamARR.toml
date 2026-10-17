@@ -5,7 +5,7 @@ author_source = ""
 book = "ku lili"
 coined_era = "post-pu"
 creation_date = "2021"
-author = ["(unknown ku surveyee)"]
+author = ["jan Olipija"]
 see_also = ["kalama"]
 source_language = "multiple"
 usage_category = "sandbox"
@@ -31,6 +31,6 @@ ligatures = ["kalamARR"]
 sona_pona = "https://sona.pona.la/wiki/kalamARR"
 
 [translations]
-commentary = ""
+commentary = "Submitted to the 2021 Toki Pona Dictionary surveys by jan Olipija"
 definition = "(pirate noise)"
 etymology = "kalama: toki pona, make sound. sound, noise, voice; arr: English, (imitation of pirates)"
