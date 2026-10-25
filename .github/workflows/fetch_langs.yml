@@ -24,7 +24,7 @@ jobs:
           python-version: 3.14.8
 
       - name: Install dependencies
-        run: pip install tomlkit langcodes language_data
+        run: pip install tomlkit==0.15.2 langcodes==3.5.1 language_data==1.4.0
 
       - name: Update language data file
         run: python .github/workflows/fetch_langs.py
