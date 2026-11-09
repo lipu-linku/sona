@@ -30,6 +30,7 @@ ligatures = ["kisa"]
 2023-09 = 4
 2024-09 = 4
 2025-09 = 4
+2026-09 = 6
 
 [resources]
 sona_pona = "https://sona.pona.la/wiki/kisa"
